@@ -79,7 +79,7 @@ def fetch_ics_files(events_file: str, ics_dir: str) -> None:
 
 
 if __name__ == "__main__":
-    events_file = "events_parsed.json"
+    events_file = "events-clean.json"
     ics_dir = "ics"
     
     fetch_ics_files(events_file, ics_dir)

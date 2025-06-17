@@ -126,7 +126,7 @@ def parse_events_json(input_file: str, output_file: str) -> None:
 
 
 if __name__ == "__main__":
-    input_file = "events_clean.json"
-    output_file = "events_parsed.json"
+    input_file = "events-raw.json"
+    output_file = "events-clean.json"
     
     parse_events_json(input_file, output_file)

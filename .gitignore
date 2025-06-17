@@ -1,3 +1,5 @@
 *.json
 *.ics
 *.ical
+ics/
+descriptions/
