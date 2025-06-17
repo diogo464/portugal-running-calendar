@@ -3,12 +3,12 @@
 # Portugal Running Events Scraper
 # Fetches running events from Portugal Running calendar
 # Usage: ./scrape_events.sh [event_type]
-# event_type: 27 for running events only (default), 'all' for all event types
+# event_type: 'all' for all events (default), 27 for running events only
 
 set -e
 
-# Default to running events only, but allow override
-EVENT_TYPE=${1:-27}
+# Default to all events (they are all running events anyway), but allow override
+EVENT_TYPE=${1:-all}
 
 BASE_URL="https://www.portugalrunning.com"
 CALENDAR_URL="$BASE_URL/calendario-de-corridas/"
