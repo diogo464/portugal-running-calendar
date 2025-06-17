@@ -15,6 +15,7 @@ here are some examples of the outputs you should generate:
 
 you should output ONLY the single line description you generate and NOTHING else.
 use the available information in the description and DO NOT make up anything that isn't there.
+if you say an event is a marathon or half marathon you should NOT say the distance in meters since that is redundant.
 """
 
 llm -m llama3.2:latest -s "$SYSTEM" "$1"
