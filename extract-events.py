@@ -247,16 +247,12 @@ class EventExtractor:
         except Exception:
             return None
 
-    def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
-        """Geocode location using the Python geocoding script."""
-        if not location or self.args.skip_geocoding:
-            return None
-
+    def _try_geocode_single(self, location: str) -> Optional[Dict[str, Any]]:
+        """Try to geocode a single location string."""
         try:
             # Use the Python geocoder (which handles cleaning internally)
             cmd = ["python3", "./geocode-location.py", location]
-            if self.args.verbose:
-                cmd.append("--verbose")
+            # Don't pass verbose to avoid stderr mixing with our own output
 
             result = subprocess.run(
                 cmd,
@@ -265,8 +261,6 @@ class EventExtractor:
                 timeout=30,
             )
             if result.returncode != 0:
-                if self.args.verbose:
-                    print(f"   Geocoding script failed: {result.stderr}")
                 return None
 
             # Parse the clean JSON output
@@ -286,15 +280,41 @@ class EventExtractor:
                     "name": geo_data.get("name", ""),
                     "addresstype": geo_data.get("addresstype", ""),
                 }
-            except json.JSONDecodeError as e:
-                if self.args.verbose:
-                    print(f"   JSON decode error for '{location}': {e}")
+            except json.JSONDecodeError:
                 return None
 
-        except Exception as e:
-            if self.args.verbose:
-                print(f"   Geocoding error for '{location}': {e}")
+        except Exception:
+            return None
 
+    def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
+        """Geocode location with fallback logic - progressively remove location parts."""
+        if not location or self.args.skip_geocoding:
+            return None
+
+        # Split location by commas and try progressively smaller parts
+        location_parts = [part.strip() for part in location.split(",") if part.strip()]
+
+        if self.args.verbose:
+            print(f"     Trying geocoding with {len(location_parts)} location parts")
+
+        for i in range(len(location_parts)):
+            # Try with remaining parts (remove first i parts)
+            current_location = ", ".join(location_parts[i:])
+
+            if self.args.verbose:
+                print(f"     Attempt {i+1}: '{current_location}'")
+
+            result = self._try_geocode_single(current_location)
+            if result:
+                if self.args.verbose:
+                    print(f"     ✓ Success with: '{current_location}'")
+                return result
+            elif self.args.verbose:
+                print(f"     ✗ Failed: '{current_location}'")
+
+        # All attempts failed
+        if self.args.verbose:
+            print(f"     All geocoding attempts failed for: '{location}'")
         return None
 
     def generate_short_description(self, description: str) -> Optional[str]:
