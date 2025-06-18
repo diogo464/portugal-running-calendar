@@ -107,6 +107,7 @@ class EventExtractor:
             "event_type-corrida": EventType.RUN.value,
             "event_type-trail": EventType.TRAIL.value,
             "São Silvestre": EventType.SAINT_SILVESTER.value,
+            "event_type-sao-silvestre": EventType.SAINT_SILVESTER.value,
             # Ignore
             "ajde_events": None,
             "type-ajde_events": None,
@@ -219,19 +220,52 @@ class EventExtractor:
         return [name for name in names if name]
 
     def fetch_ics_data(self, event_id: int) -> Optional[Dict[str, str]]:
-        """Fetch ICS data for an event."""
+        """Fetch ICS data for an event with encoding detection and fallback."""
         try:
+            # First try to get raw bytes to handle encoding issues
             result = subprocess.run(
                 ["./fetch-event-ics.sh", str(event_id)],
                 capture_output=True,
-                text=True,
                 timeout=30,
             )
             if result.returncode != 0:
-                log_warning("ICS", f"Failed to fetch ICS data for event {event_id}", result.stderr.strip() if result.stderr else "Unknown error")
+                log_warning("ICS", f"Failed to fetch ICS data for event {event_id}", result.stderr.decode('utf-8', errors='replace').strip() if result.stderr else "Unknown error")
                 return None
 
-            ics_content = result.stdout
+            # Try multiple encodings to decode the content
+            ics_content = None
+            raw_content = result.stdout
+            
+            # List of encodings to try in order
+            encodings = ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
+            
+            for encoding in encodings:
+                try:
+                    ics_content = raw_content.decode(encoding)
+                    if self.args.verbose:
+                        log_info("ICS", f"Successfully decoded ICS for event {event_id} using {encoding}", verbose=True)
+                    break
+                except UnicodeDecodeError:
+                    continue
+            
+            if ics_content is None:
+                # Last resort: decode with errors='replace' to avoid complete failure
+                ics_content = raw_content.decode('utf-8', errors='replace')
+                log_warning("ICS", f"Used fallback decoding for event {event_id}", "May contain corrupted characters")
+            
+            # Clean the content of any problematic characters
+            ics_content = ics_content.replace('\x00', '')  # Remove null bytes
+            ics_content = ''.join(c for c in ics_content if ord(c) >= 32 or c in '\n\r\t')  # Remove control chars except whitespace
+            
+            # Basic ICS validation
+            if not ics_content.strip():
+                log_warning("ICS", f"Empty ICS content for event {event_id}")
+                return None
+                
+            if "BEGIN:VCALENDAR" not in ics_content:
+                log_warning("ICS", f"Invalid ICS format for event {event_id}", "Missing VCALENDAR header")
+                return None
+            
             ics_data = {}
 
             # Extract and clean location

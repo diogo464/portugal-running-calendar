@@ -106,20 +106,20 @@ class Geocoder:
         """Generate cache key for location."""
         return hashlib.md5(location.encode()).hexdigest()
 
-    def get_cached_result(self, cache_key: str) -> Optional[Dict[str, Any]]:
-        """Get cached geocoding result."""
+    def get_cached_result(self, cache_key: str) -> tuple[Optional[Dict[str, Any]], bool]:
+        """Get cached geocoding result. Returns (result, cache_hit)."""
         cache_file = self.cache_dir / f"{cache_key}.json"
         if cache_file.exists():
             try:
                 with open(cache_file, "r", encoding="utf-8") as f:
                     content = f.read().strip()
                     if content == "null":
-                        return None
-                    return json.loads(content)
+                        return None, True  # Cached negative result
+                    return json.loads(content), True  # Cached positive result
             except (json.JSONDecodeError, IOError):
                 # Remove corrupted cache file
                 cache_file.unlink(missing_ok=True)
-        return None
+        return None, False  # Cache miss
 
     def cache_result(self, cache_key: str, result: Optional[Dict[str, Any]]) -> None:
         """Cache geocoding result."""
@@ -211,10 +211,11 @@ class Geocoder:
 
         # Check cache
         cache_key = self.get_cache_key(cleaned_location)
-        cached_result = self.get_cached_result(cache_key)
-        if cached_result is not None:
+        cached_result, cache_hit = self.get_cached_result(cache_key)
+        if cache_hit:
             if verbose:
-                print(f"Using cached result for: '{location}'", file=sys.stderr)
+                result_type = "cached result" if cached_result else "cached negative result"
+                print(f"Using {result_type} for: '{location}'", file=sys.stderr)
             return cached_result
 
         # Query API
@@ -244,6 +245,15 @@ class Geocoder:
         if not location:
             return None
 
+        # Check cache for the original location first
+        original_cache_key = self.get_cache_key(location.lower().strip())
+        cached_result, cache_hit = self.get_cached_result(original_cache_key)
+        if cache_hit:
+            if verbose:
+                result_type = "cached result" if cached_result else "cached negative result"
+                print(f"Using {result_type} for original location: '{location}'", file=sys.stderr)
+            return cached_result
+
         if verbose:
             print(f"Enhanced geocoding for: '{location}'", file=sys.stderr)
 
@@ -262,6 +272,8 @@ class Geocoder:
             if result:
                 if verbose:
                     print(f"✓ Success with variant: '{variant}'", file=sys.stderr)
+                # Cache the successful result for the original location too
+                self.cache_result(original_cache_key, result)
                 return result
 
         # Strategy 2: Comma-based progressive fallback
@@ -288,13 +300,18 @@ class Geocoder:
                             f"✓ Success with fallback: '{current_location}'",
                             file=sys.stderr,
                         )
+                    # Cache the successful result for the original location too
+                    self.cache_result(original_cache_key, result)
                     return result
                 elif verbose:
                     print(f"✗ Failed fallback: '{current_location}'", file=sys.stderr)
 
-        # All strategies failed
+        # All strategies failed - cache the negative result for the original location
         if verbose:
             print(f"All geocoding strategies failed for: '{location}'", file=sys.stderr)
+        
+        # Cache the negative result to avoid retrying all strategies for the same location
+        self.cache_result(original_cache_key, None)
         return None
 
 
