@@ -21,7 +21,6 @@ import time
 import hashlib
 import os
 import argparse
-import unicodedata
 from enum import Enum
 from urllib.parse import urlparse
 from pathlib import Path
@@ -248,35 +247,26 @@ class EventExtractor:
         except Exception:
             return None
 
-    def normalize_location(self, location: str) -> str:
-        """Normalize location by removing accents and special characters."""
-        if not location:
-            return location
-
-        # Remove accents and diacritics
-        normalized = unicodedata.normalize("NFD", location)
-        ascii_location = "".join(
-            c for c in normalized if unicodedata.category(c) != "Mn"
-        )
-
-        return ascii_location
-
     def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
-        """Geocode location using the existing script."""
+        """Geocode location using the Python geocoding script."""
         if not location or self.args.skip_geocoding:
             return None
 
-        # Normalize location to remove non-ASCII characters
-        normalized_location = self.normalize_location(location)
-
         try:
+            # Use the Python geocoder (which handles cleaning internally)
+            cmd = ["python3", "./geocode-location.py", location]
+            if self.args.verbose:
+                cmd.append("--verbose")
+
             result = subprocess.run(
-                ["./geocode-location.sh", normalized_location],
+                cmd,
                 capture_output=True,
                 text=True,
                 timeout=30,
             )
             if result.returncode != 0:
+                if self.args.verbose:
+                    print(f"   Geocoding script failed: {result.stderr}")
                 return None
 
             # Parse the clean JSON output
@@ -545,10 +535,7 @@ class EventExtractor:
                 f"⚠️  WARNING: Geocoding failed for event {event_id} with location: '{location}'"
             )
             if self.args.verbose:
-                print(f"     Original location from ICS: '{location}'")
-                print(
-                    f"     Normalized location sent to geocoder: '{self.normalize_location(location)}'"
-                )
+                print(f"     Location from ICS: '{location}'")
 
         if self.args.verbose:
             print(f"     Geocoding took {geocoding_time:.3f}s")

@@ -13,6 +13,7 @@ import argparse
 import json
 import hashlib
 import re
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -168,30 +169,30 @@ class Geocoder:
         # Clean location
         cleaned_location = self.clean_location(location)
         if verbose:
-            print(f"Original: '{location}'")
-            print(f"Cleaned: '{cleaned_location}'")
+            print(f"Original: '{location}'", file=sys.stderr)
+            print(f"Cleaned: '{cleaned_location}'", file=sys.stderr)
 
         # Check cache
         cache_key = self.get_cache_key(cleaned_location)
         cached_result = self.get_cached_result(cache_key)
         if cached_result is not None:
             if verbose:
-                print("Using cached result")
+                print("Using cached result", file=sys.stderr)
             return cached_result
 
         if verbose:
-            print("Querying Nominatim API...")
+            print("Querying Nominatim API...", file=sys.stderr)
 
         # Query API
         results = self.query_nominatim(cleaned_location)
         if not results:
             if verbose:
-                print("No results from API")
+                print("No results from API", file=sys.stderr)
             self.cache_result(cache_key, None)
             return None
 
         if verbose:
-            print(f"API returned {len(results)} results")
+            print(f"API returned {len(results)} results", file=sys.stderr)
 
         # Prioritize results (relevant types first, but include all)
         prioritized_results = self.prioritize_results(results)
@@ -201,7 +202,8 @@ class Geocoder:
                 [r for r in results if r.get("addresstype", "") in self.relevant_types]
             )
             print(
-                f"Found {relevant_count} relevant results, {len(results) - relevant_count} other types"
+                f"Found {relevant_count} relevant results, {len(results) - relevant_count} other types",
+                file=sys.stderr,
             )
             if not self.all_types and len(results) > relevant_count:
                 other_types = [
@@ -209,7 +211,10 @@ class Geocoder:
                     for r in results
                     if r.get("addresstype", "") not in self.relevant_types
                 ]
-                print(f"Other address types found: {list(set(other_types))}")
+                print(
+                    f"Other address types found: {list(set(other_types))}",
+                    file=sys.stderr,
+                )
 
         # Get best result (highest importance, with relevant types having priority)
         best_result = max(
@@ -220,13 +225,14 @@ class Geocoder:
         if formatted_result:
             if verbose:
                 print(
-                    f"Best result: {formatted_result['display_name']} ({formatted_result['addresstype']})"
+                    f"Best result: {formatted_result['display_name']} ({formatted_result['addresstype']})",
+                    file=sys.stderr,
                 )
             self.cache_result(cache_key, formatted_result)
             return formatted_result
 
         if verbose:
-            print("Failed to format result")
+            print("Failed to format result", file=sys.stderr)
         self.cache_result(cache_key, None)
         return None
 
