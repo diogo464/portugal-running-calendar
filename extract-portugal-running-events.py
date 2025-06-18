@@ -148,6 +148,24 @@ def geocode_location(location: str) -> Optional[Dict[str, Any]]:
         
     return None
 
+def generate_short_description(description: str) -> Optional[str]:
+    """Generate a short description using the existing script."""
+    if not description:
+        return None
+        
+    try:
+        result = subprocess.run(['./generate-one-line-description.sh', description], 
+                              capture_output=True, text=True, timeout=30)
+        if result.returncode == 0:
+            short_desc = result.stdout.strip()
+            # Clean up any extra content
+            if short_desc and len(short_desc) < 200:  # Sanity check
+                return short_desc
+    except Exception as e:
+        print(f"Error generating short description: {e}")
+        
+    return None
+
 def extract_distances_and_types(description: str, event_types: List[str]) -> tuple[List[str], List[str]]:
     """Extract distances and event types from description and taxonomies."""
     distances = []
@@ -212,6 +230,9 @@ def process_event(event_data: dict) -> Dict[str, Any]:
     distances, extracted_types = extract_distances_and_types(description, event_types)
     all_types = list(set(event_types + extracted_types))
     
+    # Generate short description
+    short_description = generate_short_description(description)
+    
     # Get images
     images = []
     if event_data.get('featured_image_src'):
@@ -229,7 +250,8 @@ def process_event(event_data: dict) -> Dict[str, Any]:
         'event_start_date': start_date,
         'event_end_date': end_date,
         'event_circuit': circuits,
-        'event_description': description
+        'event_description': description,
+        'description_short': short_description
     }
 
 def main():

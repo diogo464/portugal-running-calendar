@@ -22,6 +22,7 @@ class EventData:
     event_end_date: Optional[str]
     event_circuit: List[str]
     event_description: str
+    description_short: Optional[str]
 
 def fetch_taxonomy_names(taxonomy_type: str, taxonomy_ids: List[int]) -> List[str]:
     """Fetch taxonomy names from IDs."""
@@ -140,6 +141,24 @@ def geocode_location(location: str) -> Optional[Dict[str, Any]]:
         
     return None
 
+def generate_short_description(description: str) -> Optional[str]:
+    """Generate a short description using the existing script."""
+    if not description:
+        return None
+        
+    try:
+        result = subprocess.run(['./generate-one-line-description.sh', description], 
+                              capture_output=True, text=True, timeout=30)
+        if result.returncode == 0:
+            short_desc = result.stdout.strip()
+            # Clean up any extra content
+            if short_desc and len(short_desc) < 200:  # Sanity check
+                return short_desc
+    except Exception as e:
+        print(f"Error generating short description: {e}")
+        
+    return None
+
 def extract_distances_and_types(description: str, event_types: List[str]) -> tuple[List[str], List[str]]:
     """Extract distances and event types from description and taxonomies."""
     distances = []
@@ -220,6 +239,9 @@ def process_event(event_data: dict) -> EventData:
     distances, extracted_types = extract_distances_and_types(description, event_types)
     all_types = list(set(event_types + extracted_types))
     
+    # Generate short description
+    short_description = generate_short_description(description)
+    
     # Get images
     images = []
     if event_data.get('featured_image_src'):
@@ -237,7 +259,8 @@ def process_event(event_data: dict) -> EventData:
         event_start_date=start_date,
         event_end_date=end_date,
         event_circuit=circuits,
-        event_description=description
+        event_description=description,
+        description_short=short_description
     )
 
 def main():
@@ -282,7 +305,8 @@ def main():
             'event_start_date': event.event_start_date,
             'event_end_date': event.event_end_date,
             'event_circuit': event.event_circuit,
-            'event_description': event.event_description
+            'event_description': event.event_description,
+            'description_short': event.description_short
         })
     
     # Save sample results
@@ -302,6 +326,7 @@ def main():
         print(f"  Dates: {event['event_start_date']} to {event['event_end_date']}")
         print(f"  Types: {event['event_types']}")
         print(f"  Distances: {event['event_distances']}")
+        print(f"  Short Description: {event['description_short']}")
 
 if __name__ == "__main__":
     main()
