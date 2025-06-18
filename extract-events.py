@@ -15,7 +15,6 @@ Features:
 """
 
 import json
-import requests
 import subprocess
 import re
 import time
@@ -56,6 +55,13 @@ class EventExtractor:
             
             # Cross country
             "Cross": "cross-country",
+        }
+
+        self.canonical_type_to_distance = {
+            "10k": "10k",
+            "5k": "5k",
+            "marathon": "42.2K",
+            "half-marathon": "21.1K",
         }
         
     def fetch_all_events(self) -> List[Dict]:
@@ -117,12 +123,13 @@ class EventExtractor:
         names = []
         for tax_id in taxonomy_ids:
             try:
-                url = f"https://www.portugalrunning.com/wp-json/wp/v2/{taxonomy_type}/{tax_id}"
-                response = requests.get(url, timeout=10)
-                if response.status_code == 200:
-                    data = response.json()
+                result = subprocess.run(
+                    ['./fetch-taxonomy-name.sh', taxonomy_type, str(tax_id)],
+                    capture_output=True, text=True, timeout=30
+                )
+                if result.returncode == 0 and result.stdout.strip():
+                    data = json.loads(result.stdout)
                     names.append(data.get('name', ''))
-                time.sleep(0.1)
             except Exception:
                 continue
         
@@ -187,31 +194,24 @@ class EventExtractor:
             if result.returncode != 0:
                 return None
             
-            # Look for the final JSON result in the output
-            output = result.stdout
-            if "Most relevant result (JSON):" in output:
-                json_part = output.split("Most relevant result (JSON):")[1].strip()
-                # Clean up any extra content after the JSON
-                lines = json_part.split('\n')
-                json_lines = []
-                brace_count = 0
-                for line in lines:
-                    json_lines.append(line)
-                    brace_count += line.count('{') - line.count('}')
-                    if brace_count == 0 and '}' in line:
-                        break
+            # Parse the clean JSON output
+            output = result.stdout.strip()
+            if output == "null" or not output:
+                return None
                 
-                json_content = '\n'.join(json_lines)
-                try:
-                    geo_data = json.loads(json_content)
-                    return {
-                        'coordinates': geo_data.get('coordinates', {}),
-                        'bounding_box': geo_data.get('boundingbox', {}),
-                        'display_name': geo_data.get('display_name', ''),
-                        'name': geo_data.get('name', ''),
-                        'addresstype': geo_data.get('addresstype', '')
-                    }
-                except json.JSONDecodeError as e:
+            try:
+                geo_data = json.loads(output)
+                if not geo_data:
+                    return None
+                    
+                return {
+                    'coordinates': geo_data.get('coordinates', {}),
+                    'bounding_box': geo_data.get('boundingbox', {}),
+                    'display_name': geo_data.get('display_name', ''),
+                    'name': geo_data.get('name', ''),
+                    'addresstype': geo_data.get('addresstype', '')
+                }
+            except json.JSONDecodeError as e:
                     if self.args.verbose:
                         print(f"   JSON decode error for '{location}': {e}")
                     return None
@@ -277,14 +277,15 @@ class EventExtractor:
             if os.path.exists(filepath):
                 return filepath
                 
-            # Download the image
-            response = requests.get(image_url, timeout=30, stream=True)
-            response.raise_for_status()
-            
-            # Save to file
-            with open(filepath, 'wb') as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    f.write(chunk)
+            # Download the image using cached script
+            result = subprocess.run(
+                ['./download-image.sh', image_url, filepath],
+                capture_output=True, text=True, timeout=60
+            )
+            if result.returncode != 0:
+                if self.args.verbose:
+                    print(f"   ❌ Failed to download image {image_url}: {result.stderr}")
+                return None
                     
             if self.args.verbose:
                 print(f"   Downloaded: {image_url} -> {filepath}")
@@ -292,7 +293,7 @@ class EventExtractor:
             
         except Exception as e:
             if self.args.verbose:
-                print(f"   Error downloading image {image_url}: {e}")
+                print(f"   ❌ Error downloading image {image_url}: {e}")
             return None
 
     def map_event_types(self, original_types: List[str]) -> List[str]:
@@ -315,30 +316,15 @@ class EventExtractor:
 
     def extract_distances_and_types(self, description: str, event_types: List[str]) -> tuple[List[str], List[str]]:
         """Extract distances and event types from description and taxonomies."""
-        distances = []
-        
-        # Extract distances from description
-        desc_lower = description.lower()
-        
-        # Common distance patterns
-        if 'maratona' in desc_lower and 'meia' not in desc_lower:
-            distances.append('42.2km')
-        if 'meia' in desc_lower and 'maratona' in desc_lower:
-            distances.append('21.1km')
-        
-        # Extract numeric distances
-        distance_matches = re.findall(r'(\d+)\s*k?m', desc_lower)
-        for match in distance_matches:
-            if match.isdigit():
-                distances.append(f"{match}km")
-        
         # Map event types using canonical mapping
         canonical_types = self.map_event_types(event_types)
-        
-        return list(set(distances)), canonical_types
+
+        # lets ignore the distances for now 
+        return [], canonical_types
 
     def process_event(self, event_data: dict) -> Dict[str, Any]:
         """Process a single event and return enriched data."""
+        event_start_time = time.time()
         event_id = event_data['id']
         event_name = event_data['title']['rendered']
         
@@ -346,29 +332,50 @@ class EventExtractor:
             print(f"   Processing event {event_id}: {event_name}")
         
         # Get taxonomy names (with error handling)
+        start_time = time.time()
         event_types = self.fetch_taxonomy_names('event_type', event_data.get('event_type', []))
         circuits = self.fetch_taxonomy_names('event_type_5', event_data.get('event_type_5', []))
+        taxonomy_time = time.time() - start_time
+        if self.args.verbose:
+            print(f"     Taxonomy lookups took {taxonomy_time:.3f}s")
         
         # Get ICS data
+        start_time = time.time()
         ics_data = self.fetch_ics_data(event_id) or {}
         location = ics_data.get('location', '')
         start_date = ics_data.get('start_date')
         end_date = ics_data.get('end_date')
         description = ics_data.get('description', '') or event_data['content']['rendered']
+        ics_time = time.time() - start_time
+        if self.args.verbose:
+            print(f"     ICS data fetch took {ics_time:.3f}s")
         
         # Geocode location
+        start_time = time.time()
         geo_data = self.geocode_location(location)
         coordinates = geo_data.get('coordinates') if geo_data else None
         bounding_box = geo_data.get('bounding_box') if geo_data else None
         location_display_name = geo_data.get('display_name') if geo_data else location
+        geocoding_time = time.time() - start_time
+        if self.args.verbose:
+            print(f"     Geocoding took {geocoding_time:.3f}s")
         
         # Extract distances and canonical types
+        start_time = time.time()
         distances, canonical_types = self.extract_distances_and_types(description, event_types)
+        extraction_time = time.time() - start_time
+        if self.args.verbose:
+            print(f"     Distance/type extraction took {extraction_time:.3f}s")
         
         # Generate short description
+        start_time = time.time()
         short_description = self.generate_short_description(description)
+        description_time = time.time() - start_time
+        if self.args.verbose:
+            print(f"     Description generation took {description_time:.3f}s")
         
         # Download and process images
+        start_time = time.time()
         images = []
         if event_data.get('featured_image_src'):
             image_url = event_data['featured_image_src']
@@ -378,6 +385,14 @@ class EventExtractor:
             else:
                 # Fallback to original URL if download fails
                 images.append(image_url)
+        image_time = time.time() - start_time
+        if self.args.verbose:
+            print(f"     Image downloading took {image_time:.3f}s")
+        
+        # Calculate total event processing time
+        total_event_time = time.time() - event_start_time
+        if self.args.verbose:
+            print(f"     Total event processing took {total_event_time:.3f}s")
         
         return {
             'event_id': event_id,
@@ -526,8 +541,8 @@ Examples:
                        help='Verbose output with detailed progress')
     
     # Performance options
-    parser.add_argument('--delay', type=float, default=0.3,
-                       help='Delay between API requests in seconds (default: 0.3)')
+    parser.add_argument('--delay', type=float, default=0.0,
+                       help='Delay between API requests in seconds (default: 0.0)')
     
     args = parser.parse_args()
     

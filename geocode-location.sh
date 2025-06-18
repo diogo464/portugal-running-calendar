@@ -2,11 +2,11 @@
 
 # Geocode location using OpenStreetMap Nominatim API with caching
 # Usage: ./geocode_location.sh "Location Name"
+# Returns: Clean JSON object with geocoding result or null
 
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 \"Location Name\""
-    echo "Example: $0 \"Pinhal Novo, Palmela\""
-    exit 1
+    echo "null"
+    exit 0
 fi
 
 LOCATION="$1"
@@ -17,7 +17,7 @@ mkdir -p "$CACHE_DIR"
 
 # Generate hash for cache filename
 LOCATION_HASH=$(echo -n "$LOCATION" | md5sum | cut -d' ' -f1)
-CACHE_FILE="$CACHE_DIR/${LOCATION_HASH}.txt"
+CACHE_FILE="$CACHE_DIR/${LOCATION_HASH}.json"
 
 # Check if cached result exists
 if [ -f "$CACHE_FILE" ]; then
@@ -55,65 +55,26 @@ RELEVANT_TYPES=(
     "quarter"
 )
 
-echo "Original: $LOCATION"
-echo "Cleaned: $CLEANED_LOCATION"
-echo "Searching for: $CLEANED_LOCATION"
-echo "=================================="
-
 # Query the API
 RESPONSE=$(curl -s "https://nominatim.openstreetmap.org/search?format=json&q=$ENCODED_LOCATION")
 
 if [ -z "$RESPONSE" ] || [ "$RESPONSE" = "[]" ]; then
-    echo "No results found for '$LOCATION'"
-    exit 1
+    echo "null" > "$CACHE_FILE"
+    echo "null"
+    exit 0
 fi
 
 # Check if we have valid JSON response and any relevant results
 FILTERED_RESULTS=$(echo "$RESPONSE" | jq --argjson types "$(printf '%s\n' "${RELEVANT_TYPES[@]}" | jq -R . | jq -s .)" '[.[] | select(.addresstype as $at | $types | index($at))]' 2>/dev/null)
 
 if [ -z "$FILTERED_RESULTS" ] || [ "$FILTERED_RESULTS" = "[]" ] || [ "$FILTERED_RESULTS" = "null" ]; then
-    echo "No relevant location results found for '$CLEANED_LOCATION'"
-    echo "Raw API response:"
-    echo "$RESPONSE" | jq . 2>/dev/null || echo "$RESPONSE"
-    exit 1
+    echo "null" > "$CACHE_FILE"
+    echo "null"
+    exit 0
 fi
 
-# Generate the complete output
-OUTPUT=""
-OUTPUT+="Original: $LOCATION"$'\n'
-OUTPUT+="Cleaned: $CLEANED_LOCATION"$'\n'
-OUTPUT+="Searching for: $CLEANED_LOCATION"$'\n'
-OUTPUT+="=================================="$'\n'
-
-OUTPUT+=$(echo "$FILTERED_RESULTS" | jq -r '
-.[] |
-{
-    name: .name,
-    display_name: .display_name,
-    addresstype: .addresstype,
-    coordinates: {
-        lat: (.lat | tonumber),
-        lon: (.lon | tonumber)
-    },
-    boundingbox: {
-        south: (.boundingbox[0] | tonumber),
-        north: (.boundingbox[1] | tonumber), 
-        west: (.boundingbox[2] | tonumber),
-        east: (.boundingbox[3] | tonumber)
-    },
-    importance: .importance
-} |
-"Name: \(.name)
-Display Name: \(.display_name)
-Type: \(.addresstype)
-Coordinates: \(.coordinates.lat), \(.coordinates.lon)
-Bounding Box: [\(.boundingbox.south), \(.boundingbox.north), \(.boundingbox.west), \(.boundingbox.east)]
-Importance: \(.importance)
----"
-' | head -20)
-
-OUTPUT+=$'\n'$'\n'"Most relevant result (JSON):"$'\n'
-OUTPUT+=$(echo "$FILTERED_RESULTS" | jq '
+# Get the most relevant result as clean JSON
+RESULT=$(echo "$FILTERED_RESULTS" | jq '
 sort_by(-.importance) | .[0] |
 {
     name: .name,
@@ -132,7 +93,7 @@ sort_by(-.importance) | .[0] |
 }')
 
 # Cache the result
-echo "$OUTPUT" > "$CACHE_FILE"
+echo "$RESULT" > "$CACHE_FILE"
 
 # Output the result
-echo "$OUTPUT"
+echo "$RESULT"
