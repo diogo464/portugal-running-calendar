@@ -21,6 +21,7 @@ import time
 import hashlib
 import os
 import argparse
+import sys
 from enum import Enum
 from urllib.parse import urlparse
 from pathlib import Path
@@ -48,6 +49,29 @@ DISTANCES = {
     EventType.TEN_K: 10000,
     EventType.FIVE_K: 5000,
 }
+
+
+def log_error(category, message, context=None):
+    """Log structured error message to stderr."""
+    if context:
+        print(f"ERROR|{category}|{message}|{context}", file=sys.stderr)
+    else:
+        print(f"ERROR|{category}|{message}", file=sys.stderr)
+
+def log_warning(category, message, context=None):
+    """Log structured warning message to stderr."""
+    if context:
+        print(f"WARNING|{category}|{message}|{context}", file=sys.stderr)
+    else:
+        print(f"WARNING|{category}|{message}", file=sys.stderr)
+
+def log_info(category, message, context=None, verbose=False):
+    """Log structured info message to stderr."""
+    if verbose:
+        if context:
+            print(f"INFO|{category}|{message}|{context}", file=sys.stderr)
+        else:
+            print(f"INFO|{category}|{message}", file=sys.stderr)
 
 
 class EventExtractor:
@@ -119,7 +143,7 @@ class EventExtractor:
                     timeout=30,
                 )
                 if result.returncode != 0:
-                    print(f"   Error fetching page {page}: {result.stderr}")
+                    log_error("HTTP", f"Failed to fetch page {page}", result.stderr.strip())
                     break
 
                 page_data = json.loads(result.stdout)
@@ -127,16 +151,14 @@ class EventExtractor:
                 # Check for WordPress API error responses
                 if isinstance(page_data, dict) and "code" in page_data:
                     if page_data.get("code") == "rest_post_invalid_page_number":
-                        print(f"   Reached end of available pages at page {page}")
+                        log_info("PAGINATION", f"Reached end of available pages at page {page}", verbose=self.args.verbose)
                         break
                     else:
-                        print(
-                            f"   API error at page {page}: {page_data.get('message', 'Unknown error')}"
-                        )
+                        log_error("API", f"WordPress API error at page {page}", page_data.get('message', 'Unknown error'))
                         break
 
                 if not page_data:  # Empty page means we've reached the end
-                    print(f"   No more events found at page {page}")
+                    log_info("PAGINATION", f"No more events found at page {page}", verbose=self.args.verbose)
                     break
 
                 # Apply limit if specified
@@ -153,8 +175,14 @@ class EventExtractor:
                 page += 1
                 time.sleep(self.args.delay)
 
+            except json.JSONDecodeError as e:
+                log_error("JSON", f"Invalid JSON response from page {page}", str(e))
+                break
+            except subprocess.TimeoutExpired:
+                log_error("TIMEOUT", f"Request timeout fetching page {page}")
+                break
             except Exception as e:
-                print(f"   Error on page {page}: {e}")
+                log_error("UNKNOWN", f"Unexpected error on page {page}", str(e))
                 break
 
         print(f"✅ Fetched {len(events)} total events")
@@ -179,8 +207,14 @@ class EventExtractor:
                 if result.returncode == 0 and result.stdout.strip():
                     data = json.loads(result.stdout)
                     names.append(data.get("name", ""))
-            except Exception:
-                continue
+                else:
+                    log_warning("TAXONOMY", f"Failed to fetch {taxonomy_type} name for ID {tax_id}", result.stderr.strip() if result.stderr else "Empty response")
+            except json.JSONDecodeError as e:
+                log_error("JSON", f"Invalid JSON from taxonomy lookup {taxonomy_type}:{tax_id}", str(e))
+            except subprocess.TimeoutExpired:
+                log_error("TIMEOUT", f"Taxonomy lookup timeout {taxonomy_type}:{tax_id}")
+            except Exception as e:
+                log_error("TAXONOMY", f"Unexpected error fetching {taxonomy_type}:{tax_id}", str(e))
 
         return [name for name in names if name]
 
@@ -194,6 +228,7 @@ class EventExtractor:
                 timeout=30,
             )
             if result.returncode != 0:
+                log_warning("ICS", f"Failed to fetch ICS data for event {event_id}", result.stderr.strip() if result.stderr else "Unknown error")
                 return None
 
             ics_content = result.stdout
@@ -244,7 +279,11 @@ class EventExtractor:
 
             return ics_data
 
-        except Exception:
+        except subprocess.TimeoutExpired:
+            log_error("TIMEOUT", f"ICS fetch timeout for event {event_id}")
+            return None
+        except Exception as e:
+            log_error("ICS", f"Unexpected error fetching ICS for event {event_id}", str(e))
             return None
 
     def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
@@ -265,8 +304,7 @@ class EventExtractor:
                 timeout=30,
             )
             if result.returncode != 0:
-                if self.args.verbose:
-                    print(f"   Geocoding script failed: {result.stderr}")
+                log_warning("GEOCODING", f"Geocoding failed for location: {location}", result.stderr.strip() if result.stderr else "Unknown error")
                 return None
 
             # Parse the clean JSON output
@@ -287,15 +325,15 @@ class EventExtractor:
                     "addresstype": geo_data.get("addresstype", ""),
                 }
             except json.JSONDecodeError as e:
-                if self.args.verbose:
-                    print(f"   JSON decode error for '{location}': {e}")
+                log_error("JSON", f"Invalid JSON from geocoding for location: {location}", str(e))
                 return None
 
+        except subprocess.TimeoutExpired:
+            log_error("TIMEOUT", f"Geocoding timeout for location: {location}")
+            return None
         except Exception as e:
-            if self.args.verbose:
-                print(f"   Geocoding error for '{location}': {e}")
-
-        return None
+            log_error("GEOCODING", f"Unexpected geocoding error for location: {location}", str(e))
+            return None
 
     def generate_short_description(self, description: str) -> Optional[str]:
         """Generate a short description using the existing script with caching."""
@@ -315,18 +353,12 @@ class EventExtractor:
                 # Clean up any extra content
                 if short_desc and len(short_desc) < 200:  # Sanity check
                     return short_desc
-            elif self.args.verbose:
-                print(
-                    f"   Description generation failed with return code {result.returncode}"
-                )
-                if result.stderr:
-                    print(f"   Error: {result.stderr.strip()}")
+            else:
+                log_warning("LLM", f"Description generation failed for event", result.stderr.strip() if result.stderr else f"Return code: {result.returncode}")
         except subprocess.TimeoutExpired:
-            if self.args.verbose:
-                print(f"   Description generation timed out after 60 seconds")
+            log_error("TIMEOUT", "Description generation timeout after 60 seconds")
         except Exception as e:
-            if self.args.verbose:
-                print(f"   Error generating short description: {e}")
+            log_error("LLM", "Unexpected error generating short description", str(e))
 
         return None
 
@@ -366,19 +398,18 @@ class EventExtractor:
                 timeout=60,
             )
             if result.returncode != 0:
-                if self.args.verbose:
-                    print(
-                        f"   ❌ Failed to download image {image_url}: {result.stderr}"
-                    )
+                log_warning("IMAGE", f"Failed to download image: {image_url}", result.stderr.strip() if result.stderr else "Unknown error")
                 return None
 
             if self.args.verbose:
                 print(f"   Downloaded: {image_url} -> {filepath}")
             return filepath
 
+        except subprocess.TimeoutExpired:
+            log_error("TIMEOUT", f"Image download timeout: {image_url}")
+            return None
         except Exception as e:
-            if self.args.verbose:
-                print(f"   ❌ Error downloading image {image_url}: {e}")
+            log_error("IMAGE", f"Unexpected error downloading image: {image_url}", str(e))
             return None
 
     def map_event_types(self, original_types: List[str]) -> List[str]:
@@ -400,15 +431,7 @@ class EventExtractor:
                     canonical_types.add(canonical_type)
             else:
                 # Warning - unmapped type found, but continue processing
-                print(
-                    f"⚠️  WARNING: Unmapped event type found: '{original_type}' (ignoring)"
-                )
-                if self.args.verbose:
-                    print(
-                        f"   Please add this mapping to the event_type_mapping dictionary"
-                    )
-                    print(f'   Example: "{original_type}": "canonical-type-name"')
-                    print(f"   All original types in this event: {original_types}")
+                log_warning("MAPPING", f"Unmapped event type found: {original_type}", f"All types: {original_types}")
                 # Continue processing without this type
 
         return list(canonical_types)
@@ -531,11 +554,7 @@ class EventExtractor:
 
         # Warning if geocoding failed for events with location data
         if location and not geo_data:
-            print(
-                f"⚠️  WARNING: Geocoding failed for event {event_id} with location: '{location}'"
-            )
-            if self.args.verbose:
-                print(f"     Location from ICS: '{location}'")
+            log_warning("GEOCODING", f"Geocoding failed for event {event_id}", f"Location: {location}")
 
         if self.args.verbose:
             print(f"     Geocoding took {geocoding_time:.3f}s")
@@ -632,10 +651,10 @@ class EventExtractor:
                     time.sleep(self.args.delay)
 
             except Exception as e:
-                error_msg = f"Error processing event {event.get('id', 'unknown')}: {str(e)[:100]}"
+                event_id = event.get('id', 'unknown')
+                error_msg = f"Error processing event {event_id}: {str(e)[:100]}"
                 self.errors.append(error_msg)
-                if self.args.verbose:
-                    print(f"   {error_msg}")
+                log_error("PROCESSING", f"Failed to process event {event_id}", str(e))
                 continue
 
         # Sort events by date (earliest first, latest last)

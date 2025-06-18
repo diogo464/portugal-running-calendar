@@ -14,6 +14,7 @@ This project scrapes running events from the Portugal Running calendar website a
 ### Data Extraction & Processing
 - `python3 extract-events.py` - Main extraction script (requires Python 3.7+)
 - `python3 extract-events.py --limit 10` - Extract limited events for testing
+- `./extract-events.py --output events.json --skip-descriptions` - **Standard test command for error checking**
 - `python3 profile-extraction.py` - Performance profiling of extraction pipeline
 - `./fetch-event-page.sh <page_num>` - Fetch single page of events (cached)
 - `./geocode-location.sh "Location"` - Geocode location with caching
@@ -80,6 +81,29 @@ Events follow this canonical structure:
 - **Styling**: CSS Grid/Flexbox, responsive design
 - **Icons**: Font Awesome CDN
 - **Performance**: <100KB total, works offline after load
+
+## Error Handling & Logging
+
+### Structured Logging Format
+All scripts use structured logging to stderr for machine-readable error handling:
+- **Format**: `LEVEL|CATEGORY|MESSAGE|CONTEXT`
+- **Levels**: ERROR, WARNING, INFO
+- **Categories**: HTTP, JSON, GEOCODING, TIMEOUT, MAPPING, LLM, IMAGE, ICS, TAXONOMY, etc.
+- **Context**: Additional details for debugging
+
+### Common Error Categories
+- `ERROR|HTTP|Request failed` - Network/API failures
+- `ERROR|JSON|Invalid JSON response` - Malformed data
+- `ERROR|GEOCODING|Failed to geocode location` - Location lookup failures
+- `ERROR|TIMEOUT|Operation timed out` - Request timeouts
+- `WARNING|MAPPING|Unmapped event type found` - Missing type mappings
+- `ERROR|ICS|Failed to parse calendar data` - Calendar format issues
+
+### Testing for Errors
+Use the standard test command to check for issues:
+```bash
+./extract-events.py --output events.json --skip-descriptions 2>/tmp/errors.log
+```
 
 ## Key Files
 - `extract-events.py` - Main extraction orchestrator with CLI args
