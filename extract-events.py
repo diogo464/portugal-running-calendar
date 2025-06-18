@@ -3,10 +3,15 @@
 Portugal Running Events Extractor
 
 A comprehensive tool for extracting, enriching, and processing running events
-from the Portugal Running website.
+from the Portugal Running website using a two-step process.
+
+Architecture:
+1. Fetch event pages to obtain event IDs from WordPress API
+2. Use fetch-event-data.py script to get detailed data for each event ID
 
 Features:
-- Fetches events from WordPress API with pagination
+- Two-step extraction: pages → event IDs → detailed data
+- Aggressive caching to avoid redundant API calls
 - Geocodes locations using Google Maps API for superior accuracy
 - Generates short descriptions using LLM
 - Downloads and processes event images
@@ -396,195 +401,6 @@ class EventExtractor:
             
         return result
 
-    def extract_ics_data(self, event_id: int) -> Optional[IcsData]:
-        """Fetch ICS data for an event with encoding detection and fallback."""
-        try:
-            # First try to get raw bytes to handle encoding issues
-            result = subprocess.run(
-                ["./fetch-event-ics.sh", str(event_id)],
-                capture_output=True,
-                timeout=30,
-            )
-            if result.returncode != 0:
-                log_warning("ICS", f"Failed to fetch ICS data for event {event_id}", result.stderr.decode('utf-8', errors='replace').strip() if result.stderr else "Unknown error")
-                return None
-
-            # Try multiple encodings to decode the content
-            ics_content = None
-            raw_content = result.stdout
-            
-            # First try UTF-8 with replacement for invalid bytes (most likely to work correctly)
-            try:
-                ics_content = raw_content.decode('utf-8', errors='replace')
-                if self.args.verbose:
-                    log_info("ICS", f"Successfully decoded ICS for event {event_id} using UTF-8 with replacement", verbose=True)
-            except Exception:
-                # If even replacement fails, try other encodings
-                encodings = ['latin-1', 'cp1252', 'iso-8859-1']
-                ics_content = None
-                
-                for encoding in encodings:
-                    try:
-                        ics_content = raw_content.decode(encoding)
-                        if self.args.verbose:
-                            log_info("ICS", f"Successfully decoded ICS for event {event_id} using {encoding}", verbose=True)
-                        break
-                    except UnicodeDecodeError:
-                        continue
-                
-                if ics_content is None:
-                    log_error("ICS", f"Could not decode ICS for event {event_id} with any encoding")
-                    return None
-            
-            # Clean the content of any problematic characters
-            ics_content = ics_content.replace('\x00', '')  # Remove null bytes
-            ics_content = ''.join(c for c in ics_content if ord(c) >= 32 or c in '\n\r\t')  # Remove control chars except whitespace
-            
-            # Basic ICS validation
-            if not ics_content.strip():
-                log_warning("ICS", f"Empty ICS content for event {event_id}")
-                return None
-                
-            if "BEGIN:VCALENDAR" not in ics_content:
-                log_warning("ICS", f"Invalid ICS format for event {event_id}", "Missing VCALENDAR header")
-                return None
-            
-            # Initialize dataclass with None values
-            ics_data = IcsData()
-
-            # Extract and clean location
-            location_match = re.search(r"LOCATION:(.+)", ics_content)
-            if location_match:
-                location = location_match.group(1).strip()
-                location = location.replace("\\,", ",").replace("  ", " ")
-                # Remove duplicate parts
-                parts = location.split()
-                unique_parts = []
-                for part in parts:
-                    if part not in unique_parts:
-                        unique_parts.append(part)
-                # Let Google's API handle encoding - don't apply fix_encoding()
-                ics_data.location = " ".join(unique_parts)
-
-            # Extract summary
-            summary_match = re.search(r"SUMMARY:(.+)", ics_content)
-            if summary_match:
-                ics_data.summary = summary_match.group(1).strip()
-
-            # Extract dates
-            dtstart_match = re.search(r"DTSTART:(\d+)", ics_content)
-            if dtstart_match:
-                date_str = dtstart_match.group(1)
-                if len(date_str) == 8:
-                    ics_data.start_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-
-            dtend_match = re.search(r"DTEND:(\d+)", ics_content)
-            if dtend_match:
-                date_str = dtend_match.group(1)
-                if len(date_str) == 8:
-                    ics_data.end_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-
-            # Extract description
-            desc_match = re.search(
-                r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL
-            )
-            if desc_match:
-                desc = (
-                    desc_match.group(1)
-                    .replace("\n ", "")
-                    .replace("\\n", "\n")
-                    .replace("\\,", ",")
-                )
-                ics_data.description = self.fix_encoding(desc.strip())
-
-            return ics_data
-
-        except subprocess.TimeoutExpired:
-            log_error("TIMEOUT", f"ICS fetch timeout for event {event_id}")
-            return None
-        except Exception as e:
-            log_error("ICS", f"Unexpected error fetching ICS for event {event_id}", str(e))
-            return None
-
-    def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
-        """Geocode location using Google Maps API via the Python geocoding script."""
-        if not location or self.args.skip_geocoding:
-            return None
-
-        try:
-            # Use the Google Maps geocoder with API key from environment
-            cmd = ["python3", "./geocode-location.py", location]
-            if self.args.verbose:
-                cmd.append("--verbose")
-
-            result = subprocess.run(
-                cmd,
-                capture_output=True,
-                text=True,
-                timeout=30,
-            )
-            if result.returncode != 0:
-                log_warning("GEOCODING", f"Geocoding failed for location: {location}", result.stderr.strip() if result.stderr else "Unknown error")
-                return None
-
-            # Parse the clean JSON output
-            output = result.stdout.strip()
-            if output == "null" or not output:
-                return None
-
-            try:
-                geo_data = json.loads(output)
-                if not geo_data:
-                    return None
-
-                # Adapt new Google API format to expected format
-                # New format: {"name": str, "country": str, "locality": str, "lat": float, "lon": float}
-                lat = geo_data.get("lat", 0)
-                lon = geo_data.get("lon", 0)
-                
-                return {
-                    "coordinates": {"lat": lat, "lon": lon},
-                    "display_name": geo_data.get("name", ""),
-                    "country": geo_data.get("country", ""),
-                    "locality": geo_data.get("locality", ""),
-                }
-            except json.JSONDecodeError as e:
-                log_error("JSON", f"Invalid JSON from geocoding for location: {location}", str(e))
-                return None
-
-        except subprocess.TimeoutExpired:
-            log_error("TIMEOUT", f"Geocoding timeout for location: {location}")
-            return None
-        except Exception as e:
-            log_error("GEOCODING", f"Unexpected geocoding error for location: {location}", str(e))
-            return None
-
-    def generate_short_description(self, description: str) -> Optional[str]:
-        """Generate a short description using the existing script with caching."""
-        if not description or self.args.skip_descriptions:
-            return None
-
-        try:
-            # Use longer timeout for LLM generation, but caching makes this much faster
-            result = subprocess.run(
-                ["./generate-one-line-description.sh", description],
-                capture_output=True,
-                text=True,
-                timeout=60,
-            )
-            if result.returncode == 0:
-                short_desc = result.stdout.strip()
-                # Clean up any extra content
-                if short_desc and len(short_desc) < 200:  # Sanity check
-                    return short_desc
-            else:
-                log_warning("LLM", f"Description generation failed for event", result.stderr.strip() if result.stderr else f"Return code: {result.returncode}")
-        except subprocess.TimeoutExpired:
-            log_error("TIMEOUT", "Description generation timeout after 60 seconds")
-        except Exception as e:
-            log_error("LLM", "Unexpected error generating short description", str(e))
-
-        return None
 
     def download_image(self, image_url: str, media_dir: str = "media") -> Optional[str]:
         """Download image from URL and save with hash filename. Return local path."""
@@ -733,8 +549,40 @@ class EventExtractor:
 
         return sorted(list(distances)), sorted(list(canonical_types))
 
+    def fetch_detailed_event_data(self, event_id: int) -> Optional[Dict[str, Any]]:
+        """Fetch detailed event data using the fetch-event-data.py script."""
+        try:
+            cmd = ["python3", "./fetch-event-data.py", str(event_id)]
+            if self.args.verbose:
+                cmd.append("--verbose")
+            if self.args.skip_geocoding:
+                cmd.append("--skip-geocoding")
+            if self.args.skip_descriptions:
+                cmd.append("--skip-descriptions")
+            if self.args.skip_images:
+                cmd.append("--skip-images")
+
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+            if result.returncode != 0:
+                log_error("FETCH", f"Failed to fetch detailed data for event {event_id}", 
+                         result.stderr.strip() if result.stderr else f"Return code: {result.returncode}")
+                return None
+
+            try:
+                return json.loads(result.stdout)
+            except json.JSONDecodeError as e:
+                log_error("JSON", f"Invalid JSON from fetch-event-data.py for event {event_id}", str(e))
+                return None
+
+        except subprocess.TimeoutExpired:
+            log_error("TIMEOUT", f"fetch-event-data.py timeout for event {event_id}")
+            return None
+        except Exception as e:
+            log_error("FETCH", f"Unexpected error fetching detailed data for event {event_id}", str(e))
+            return None
+
     def process_event(self, event_data: dict) -> Dict[str, Any]:
-        """Process a single event and return enriched data."""
+        """Process a single event using the two-step approach: get basic data, then fetch detailed data."""
         event_start_time = time.time()
         event_id = event_data["id"]
         event_name = self.fix_encoding(event_data["title"]["rendered"])
@@ -755,34 +603,35 @@ class EventExtractor:
         if self.args.verbose:
             print(f"     Taxonomy lookups took {taxonomy_time:.3f}s")
 
-        # Get ICS data
+        # Fetch detailed event data using the new script with caching
         start_time = time.time()
-        ics_data = self.extract_ics_data(event_id)
-        location = ics_data.location if ics_data else ""
-        start_date = ics_data.start_date if ics_data else None
-        end_date = ics_data.end_date if ics_data else None
-        description = (
-            (ics_data.description if ics_data else "") or event_data["content"]["rendered"]
-        )
-        ics_time = time.time() - start_time
+        detailed_data = self.fetch_detailed_event_data(event_id)
+        fetch_time = time.time() - start_time
         if self.args.verbose:
-            print(f"     ICS data fetch took {ics_time:.3f}s")
+            print(f"     Detailed data fetch took {fetch_time:.3f}s")
 
-        # Geocode location
-        start_time = time.time()
-        geo_data = self.geocode_location(location)
+        # Extract data from the detailed fetch
+        ics_data = detailed_data.get("ics_data") if detailed_data else None
+        geo_data = detailed_data.get("geo_data") if detailed_data else None
+        short_description = detailed_data.get("short_description") if detailed_data else None
+
+        # Get location and dates from ICS data
+        location = ics_data.get("location") if ics_data else ""
+        start_date = ics_data.get("start_date") if ics_data else None
+        end_date = ics_data.get("end_date") if ics_data else None
+        description = (
+            (ics_data.get("description") if ics_data else "") or event_data["content"]["rendered"]
+        )
+
+        # Get geocoding data
         coordinates = geo_data.get("coordinates") if geo_data else None
         location_display_name = geo_data.get("display_name") if geo_data else location
         country = geo_data.get("country") if geo_data else None
         locality = geo_data.get("locality") if geo_data else None
-        geocoding_time = time.time() - start_time
 
         # Warning if geocoding failed for events with location data
         if location and not geo_data:
             log_warning("GEOCODING", f"Geocoding failed for event {event_id}", f"Location: {location}")
-
-        if self.args.verbose:
-            print(f"     Geocoding took {geocoding_time:.3f}s")
 
         # Extract distances and canonical types
         start_time = time.time()
@@ -792,13 +641,6 @@ class EventExtractor:
         extraction_time = time.time() - start_time
         if self.args.verbose:
             print(f"     Distance/type extraction took {extraction_time:.3f}s")
-
-        # Generate short description
-        start_time = time.time()
-        short_description = self.generate_short_description(description)
-        description_time = time.time() - start_time
-        if self.args.verbose:
-            print(f"     Description generation took {description_time:.3f}s")
 
         # Download and process images
         start_time = time.time()
