@@ -21,9 +21,34 @@ import time
 import hashlib
 import os
 import argparse
+import unicodedata
+from enum import Enum
 from urllib.parse import urlparse
 from pathlib import Path
 from typing import Optional, List, Dict, Any
+
+
+class EventType(Enum):
+    """Canonical event types"""
+
+    MARATHON = "marathon"
+    HALF_MARATHON = "half-marathon"
+    TEN_K = "10k"
+    FIVE_K = "5k"
+    RUN = "run"
+    TRAIL = "trail"
+    WALK = "walk"
+    CROSS_COUNTRY = "cross-country"
+    SAINT_SILVESTER = "saint-silvester"
+
+
+# Distance constants in meters
+DISTANCES = {
+    EventType.MARATHON: 42195,
+    EventType.HALF_MARATHON: 21097,
+    EventType.TEN_K: 10000,
+    EventType.FIVE_K: 5000,
+}
 
 
 class EventExtractor:
@@ -38,39 +63,33 @@ class EventExtractor:
         # Add mappings as we discover new types during extraction
         self.event_type_mapping = {
             # Marathon types
-            "Maratona": "marathon",
-            "Meia-Maratona": "half-marathon",
-            "marathon": "marathon",
+            "Maratona": EventType.MARATHON.value,
+            "Meia-Maratona": EventType.HALF_MARATHON.value,
+            "marathon": EventType.MARATHON.value,
             # Trail types
-            "T-Trail": "trail",
-            "Trail": "trail",
+            "T-Trail": EventType.TRAIL.value,
+            "Trail": EventType.TRAIL.value,
             # Running types
-            "Corrida": "run",
-            "Corrida 10 km": "10k",
-            "Corrida 5 km": "5k",
+            "Corrida": EventType.RUN.value,
+            "Corrida 10 km": EventType.TEN_K.value,
+            "Corrida 5 km": EventType.FIVE_K.value,
             # Walking types
-            "Caminhada": "walk",
+            "Caminhada": EventType.WALK.value,
             # Cross country
-            "Cross": "cross-country",
+            "Cross": EventType.CROSS_COUNTRY.value,
             # Class List
-            "event_type-corrida-10-km": "10k",
-            "event_type-meiamaratona": "half-marathon",
-            "event_type-maratona": "marathon",
-            "event_type-corrida": "run",
-            "event_type-trail": "trail",
+            "event_type-corrida-10-km": EventType.TEN_K.value,
+            "event_type-meiamaratona": EventType.HALF_MARATHON.value,
+            "event_type-maratona": EventType.MARATHON.value,
+            "event_type-corrida": EventType.RUN.value,
+            "event_type-trail": EventType.TRAIL.value,
+            "São Silvestre": EventType.SAINT_SILVESTER.value,
             # Ignore
             "ajde_events": None,
             "type-ajde_events": None,
             "status-publish": None,
             "has-post-thumbnail": None,
             "hentry": None,
-        }
-
-        self.canonical_type_to_distance = {
-            "10k": "10K",
-            "5k": "5K",
-            "marathon": "42.2K",
-            "half-marathon": "21.1K",
         }
 
     def fetch_all_events(self) -> List[Dict]:
@@ -105,6 +124,18 @@ class EventExtractor:
                     break
 
                 page_data = json.loads(result.stdout)
+
+                # Check for WordPress API error responses
+                if isinstance(page_data, dict) and "code" in page_data:
+                    if page_data.get("code") == "rest_post_invalid_page_number":
+                        print(f"   Reached end of available pages at page {page}")
+                        break
+                    else:
+                        print(
+                            f"   API error at page {page}: {page_data.get('message', 'Unknown error')}"
+                        )
+                        break
+
                 if not page_data:  # Empty page means we've reached the end
                     print(f"   No more events found at page {page}")
                     break
@@ -217,14 +248,30 @@ class EventExtractor:
         except Exception:
             return None
 
+    def normalize_location(self, location: str) -> str:
+        """Normalize location by removing accents and special characters."""
+        if not location:
+            return location
+
+        # Remove accents and diacritics
+        normalized = unicodedata.normalize("NFD", location)
+        ascii_location = "".join(
+            c for c in normalized if unicodedata.category(c) != "Mn"
+        )
+
+        return ascii_location
+
     def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
         """Geocode location using the existing script."""
         if not location or self.args.skip_geocoding:
             return None
 
+        # Normalize location to remove non-ASCII characters
+        normalized_location = self.normalize_location(location)
+
         try:
             result = subprocess.run(
-                ["./geocode-location.sh", location],
+                ["./geocode-location.sh", normalized_location],
                 capture_output=True,
                 text=True,
                 timeout=30,
@@ -355,6 +402,8 @@ class EventExtractor:
                 continue
             if original_type.startswith("event_type_2-"):
                 continue
+            if original_type.startswith("event_organizer-"):
+                continue
             if original_type in self.event_type_mapping:
                 canonical_type = self.event_type_mapping[original_type]
                 if canonical_type is not None:
@@ -373,13 +422,76 @@ class EventExtractor:
 
     def extract_distances_and_types(
         self, description: str, event_types: List[str], class_list: List[str]
-    ) -> tuple[List[str], List[str]]:
+    ) -> tuple[List[int], List[str]]:
         """Extract distances and event types from description and taxonomies."""
         # Map event types using canonical mapping
-        canonical_types = self.map_event_types(event_types + class_list)
+        canonical_types = set(self.map_event_types(event_types + class_list))
 
-        # lets ignore the distances for now
-        return [], canonical_types
+        # Search description for additional event types
+        desc_lower = description.lower()
+
+        # Marathon patterns
+        if (
+            any(word in desc_lower for word in ["maratona", "marathon"])
+            and "meia" not in desc_lower
+        ):
+            canonical_types.add(EventType.MARATHON.value)
+        elif any(
+            word in desc_lower
+            for word in ["meia-maratona", "meia maratona", "half marathon"]
+        ):
+            canonical_types.add(EventType.HALF_MARATHON.value)
+
+        # Distance patterns
+        if any(word in desc_lower for word in ["10 km", "10km", "10k"]):
+            canonical_types.add(EventType.TEN_K.value)
+        if any(word in desc_lower for word in ["5 km", "5km", "5k"]):
+            canonical_types.add(EventType.FIVE_K.value)
+
+        # Trail patterns
+        if any(word in desc_lower for word in ["trail", "trilho", "montanha"]):
+            canonical_types.add(EventType.TRAIL.value)
+
+        # Walking patterns
+        if any(word in desc_lower for word in ["caminhada", "walk"]):
+            canonical_types.add(EventType.WALK.value)
+
+        # Cross country patterns
+        if any(word in desc_lower for word in ["cross", "corta-mato"]):
+            canonical_types.add(EventType.CROSS_COUNTRY.value)
+
+        # Extract distances
+        distances = set()
+
+        # Add standard distances for known event types
+        for event_type in canonical_types:
+            event_enum = EventType(event_type)
+            if event_enum in DISTANCES:
+                distances.add(DISTANCES[event_enum])
+
+        # Extract custom distances from description
+        # Match patterns like "15km", "15 km", "15K", "15 K", "15000m", "15000 m"
+        distance_patterns = [
+            r"(\d+(?:\.\d+)?)\s*km?\b",  # 15km, 15 km, 15k, 15 k
+            r"(\d+(?:\.\d+)?)\s*K\b",  # 15K, 15 K
+            r"(\d+)\s*m\b",  # 15000m, 15000 m (meters)
+        ]
+
+        for pattern in distance_patterns:
+            matches = re.findall(pattern, desc_lower, re.IGNORECASE)
+            for match in matches:
+                try:
+                    distance = float(match)
+                    if pattern.endswith("m\\b"):  # meters pattern
+                        if 100 <= distance <= 50000:  # reasonable range in meters
+                            distances.add(int(distance))
+                    else:  # km/K patterns
+                        if 0.1 <= distance <= 50:  # reasonable range in km
+                            distances.add(int(distance * 1000))  # convert to meters
+                except ValueError:
+                    continue
+
+        return sorted(list(distances)), sorted(list(canonical_types))
 
     def process_event(self, event_data: dict) -> Dict[str, Any]:
         """Process a single event and return enriched data."""

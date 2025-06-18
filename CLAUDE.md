@@ -1,37 +1,88 @@
-# Portugal Running Scraper
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+# Portugal Running Event Scraper & Static Site
 
 ## Overview
-This project scrapes running events from the Portugal Running calendar website.
+This project scrapes running events from the Portugal Running calendar website and generates a modern static website for browsing events. It consists of two main components:
+1. **Data extraction pipeline** - Python/Shell scripts that scrape, enrich, and process event data
+2. **Static website** - HTML/CSS/JS frontend in the `site/` directory for browsing events
 
-## API Details
+## Common Commands
+
+### Data Extraction & Processing
+- `python3 extract-events.py` - Main extraction script (requires Python 3.7+)
+- `python3 extract-events.py --limit 10` - Extract limited events for testing
+- `python3 profile-extraction.py` - Performance profiling of extraction pipeline
+- `./fetch-event-page.sh <page_num>` - Fetch single page of events (cached)
+- `./geocode-location.sh "Location"` - Geocode location with caching
+- `./generate-one-line-description.sh "description"` - Generate LLM short descriptions
+- `black *.py` - Format Python code after editing
+
+### Static Site Development
+- Open `site/index.html` in browser for development
+- Copy `sample-events.json` to `site/` directory for testing
+- Images should be placed in `site/media/` directory
+
+## Architecture & Data Flow
+
+### Extraction Pipeline
+1. **Event Pages** → `fetch-event-page.sh` → Cached JSON in `pages/`
+2. **Event Details** → `fetch-event-data.sh` → Cached JSON in `event_data_cache/`
+3. **Geocoding** → `geocode-location.sh` → Cached coordinates in `geocoding_cache/`
+4. **Images** → `download-image.sh` → Hash-named files in `media/`
+5. **Descriptions** → `generate-one-line-description.sh` → Cached in `description_cache/`
+6. **Final Processing** → `extract-events.py` → `sample-events.json`
+
+### Caching Strategy
+All external API calls are aggressively cached using MD5 hashes:
+- Event pages cached by page number
+- Geocoding cached by location string hash
+- LLM descriptions cached by content hash
+- Images cached by content hash as filename
+
+### Event Data Structure
+Events follow this canonical structure:
+```json
+{
+  "event_id": 180,
+  "event_name": "Event Name",
+  "event_location": "City, Portugal", 
+  "event_coordinates": {"lat": 38.707, "lon": -9.136},
+  "event_bounding_box": {"south": 38.691, "north": 38.796, "west": -9.229, "east": -9.086},
+  "event_distances": ["42.2km"],
+  "event_types": ["marathon"],
+  "event_images": ["media/hash.jpg"],
+  "event_start_date": "2020-10-11",
+  "event_end_date": "2020-10-12",
+  "event_description": "Full description...",
+  "description_short": "One-line summary"
+}
+```
+
+## API Details & Authentication
+
+### WordPress API
 - Website: https://www.portugalrunning.com/calendario-de-corridas/
-- Uses WordPress plugin EventON
-- API endpoint: https://www.portugalrunning.com/?evo-ajax=eventon_get_events
-- Method: POST
-- Content-Type: application/x-www-form-urlencoded
+- REST API: `https://portugalrunning.com/wp-json/wp/v2/ajde_events`
+- EventON AJAX: `https://www.portugalrunning.com/?evo-ajax=eventon_get_events`
+- Authentication: X-WP-Nonce header (extract from main page)
 
-## Authentication
-- Requires valid X-WP-Nonce header (changes frequently)
-- Nonce can be extracted from main calendar page
-- Look for `nonce` and `nonceX` values in the page source
+### External Services
+- **Geocoding**: OpenStreetMap Nominatim API (rate-limited)
+- **LLM Descriptions**: Requires LLM API configuration
+- **Images**: Direct download from Portugal Running CDN
 
-## Key Parameters
-- `event_type=27`: Filter for running events
-- `direction=none`: Direction for pagination
-- `ajaxtype=filering`: Type of AJAX request
-- `event_count=10`: Number of events per request
+## Static Site Technology Stack
+- **Frontend**: Vanilla HTML/CSS/JavaScript (no build process)
+- **Search**: Fuse.js for client-side fuzzy search
+- **Styling**: CSS Grid/Flexbox, responsive design
+- **Icons**: Font Awesome CDN
+- **Performance**: <100KB total, works offline after load
 
-## API Endpoints
-Two main endpoints available:
-1. **eventon_get_events** - List/filter view, limited results (~692 events)
-2. **eventon_init_load** - Yearly calendar view, more comprehensive (~857 events)
-
-## Nonce Extraction
-The nonces are embedded in the main page and need to be extracted before making API calls:
-- X-WP-Nonce header value
-- nonce parameter in POST data
-- nonceX parameter in POST data
-
-## Scripts Available
-- `scrape_events.sh` - Uses eventon_get_events endpoint (692 events)
-- `scrape_events_yearly.sh` - Uses eventon_init_load endpoint (857 events, recommended)
+## Key Files
+- `extract-events.py` - Main extraction orchestrator with CLI args
+- `site/index.html` - Static website entry point
+- `site/script.js` - Client-side filtering and search logic
+- `sample-events.json` - Generated output for website consumption
