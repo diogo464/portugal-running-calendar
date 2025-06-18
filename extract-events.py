@@ -636,6 +636,23 @@ class EventExtractor:
                     print(f"   {error_msg}")
                 continue
 
+        # Sort events by date (earliest first, latest last)
+        print(f"\n📅 Sorting events by date...")
+
+        def get_event_date(event):
+            """Get event date for sorting, using start_date or fallback to event_id"""
+            date_str = event.get("event_start_date")
+            if date_str:
+                try:
+                    # Parse date string (YYYY-MM-DD format)
+                    return date_str
+                except:
+                    pass
+            # Fallback to event_id for consistent ordering
+            return f"9999-12-31-{event.get('event_id', 0):06d}"
+
+        self.processed_events.sort(key=get_event_date)
+
         # Save results
         print(f"\n💾 Saving results to {self.args.output}...")
 
@@ -796,4 +813,3 @@ Examples:
 
 if __name__ == "__main__":
     main()
-
