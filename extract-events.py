@@ -91,6 +91,8 @@ class EventExtractor:
             "marathon": EventType.MARATHON.value,
             # Trail types
             "T-Trail": EventType.TRAIL.value,
+            "T-Trail Curto": EventType.TRAIL.value,
+            "T-Trail Longo": EventType.TRAIL.value,
             "Trail": EventType.TRAIL.value,
             # Running types
             "Corrida": EventType.RUN.value,
@@ -106,6 +108,9 @@ class EventExtractor:
             "event_type-maratona": EventType.MARATHON.value,
             "event_type-corrida": EventType.RUN.value,
             "event_type-trail": EventType.TRAIL.value,
+            "event_type-trail-curto": EventType.TRAIL.value,
+            "event_type-trail-longo": EventType.TRAIL.value,
+            "event_type-caminhada": EventType.WALK.value,
             "São Silvestre": EventType.SAINT_SILVESTER.value,
             "event_type-sao-silvestre": EventType.SAINT_SILVESTER.value,
             # Ignore
@@ -114,6 +119,8 @@ class EventExtractor:
             "status-publish": None,
             "has-post-thumbnail": None,
             "hentry": None,
+            # Circuit and organization categories to ignore
+            "event_type_5-circuito-atrp": None,
         }
 
     def fetch_all_events(self) -> List[Dict]:
@@ -219,6 +226,97 @@ class EventExtractor:
 
         return [name for name in names if name]
 
+    def fix_encoding(self, text: str) -> str:
+        """Fix common UTF-8 encoding issues where text was incorrectly interpreted as ISO-8859-1.
+        
+        This handles cases like:
+        - "SantarÃ©m" -> "Santarém"
+        - "EdiÃ§Ã£o" -> "Edição"
+        - "CÃ¢mara" -> "Câmara"
+        """
+        if not text:
+            return text
+            
+        # First pass: Common UTF-8 sequences that were misinterpreted as ISO-8859-1
+        replacements = {
+            'Ã¡': 'á',  # á
+            'Ã ': 'à',  # à
+            'Ã¢': 'â',  # â
+            'Ã£': 'ã',  # ã
+            'Ã©': 'é',  # é
+            'Ãª': 'ê',  # ê
+            'Ã­': 'í',  # í
+            'Ã³': 'ó',  # ó
+            'Ã´': 'ô',  # ô
+            'Ãµ': 'õ',  # õ
+            'Ãº': 'ú',  # ú
+            'Ã§': 'ç',  # ç
+            'Ã±': 'ñ',  # ñ
+            'Ã': 'Á',  # Á
+            'Ã': 'À',  # À
+            'Ã': 'É',  # É
+            'Ã': 'Í',  # Í
+            'Ã': 'Ó',  # Ó
+            'Ã': 'Ú',  # Ú
+            'Ã': 'Ç',  # Ç
+            'â': '"',  # left quote
+            'â': '"',  # right quote
+            'â': '–',  # en dash
+            'â': '—',  # em dash
+            'â¢': '•',  # bullet
+            'â¦': '…',  # ellipsis
+        }
+        
+        result = text
+        for wrong, correct in replacements.items():
+            result = result.replace(wrong, correct)
+            
+        # Second pass: Handle specific problematic patterns
+        # These are cases where the encoding was corrupted differently
+        additional_fixes = {
+            'C—mara': 'Câmara',  # Common in Portuguese text
+            'Dist—ncias': 'Distâncias',
+            'Const—ncia': 'Constância',
+            'dist—ncia': 'distância',
+            'compet—ncia': 'competência',
+            'experi—ncia': 'experiência',
+            'import—ncia': 'importância',
+            'ORGANIZAÇÇO': 'ORGANIZAÇÃO',
+            'APRESENTAÇÇO': 'APRESENTAÇÃO',
+            'SÇO': 'SÃO',  # Common in São Silvestre races
+            'EdiÃ§Ã£o': 'Edição',
+            'organizaÃ§Ã£o': 'organização',
+            'AssociaÃ§Ã£o': 'Associação',
+            'FundaÃ§Ã£o': 'Fundação',
+            'InscriÃ§Ã£o': 'Inscrição',
+            'ParticipacÃ£o': 'Participação',
+            'ClassificaÃ§Ã£o': 'Classificação',
+            'RealizaÃ§Ã£o': 'Realização',
+            'OrganizaÃ§Ã£o': 'Organização',
+            'localizaÃ§Ã£o': 'localização',
+            'ConclusÃ£o': 'Conclusão',
+            'InformaÃ§Ã£o': 'Informação',
+            'DireÃ§Ã£o': 'Direção',
+            'PromoÃ§Ã£o': 'Promoção',
+            'CompetiÃ§Ã£o': 'Competição',
+            'FederaÃ§Ã£o': 'Federação',
+            'DuraÃ§Ã£o': 'Duração',
+            'CoordenaÃ§Ã£o': 'Coordenação',
+            'SituaÃ§Ã£o': 'Situação',
+            'PopulaÃ§Ã£o': 'População',
+            'AlimentaÃ§Ã£o': 'Alimentação',
+            'HidrataÃ§Ã£o': 'Hidratação',
+            'AvaliaÃ§Ã£o': 'Avaliação',
+            'DescriÃ§Ã£o': 'Descrição',
+        }
+        
+        for wrong, correct in additional_fixes.items():
+            result = result.replace(wrong, correct)
+            # Also handle lowercase versions
+            result = result.replace(wrong.lower(), correct.lower())
+            
+        return result
+
     def fetch_ics_data(self, event_id: int) -> Optional[Dict[str, str]]:
         """Fetch ICS data for an event with encoding detection and fallback."""
         try:
@@ -279,7 +377,7 @@ class EventExtractor:
                 for part in parts:
                     if part not in unique_parts:
                         unique_parts.append(part)
-                ics_data["location"] = " ".join(unique_parts)
+                ics_data["location"] = self.fix_encoding(" ".join(unique_parts))
 
             # Extract dates
             dtstart_match = re.search(r"DTSTART:(\d+)", ics_content)
@@ -309,7 +407,7 @@ class EventExtractor:
                     .replace("\\n", "\n")
                     .replace("\\,", ",")
                 )
-                ics_data["description"] = desc.strip()
+                ics_data["description"] = self.fix_encoding(desc.strip())
 
             return ics_data
 
@@ -547,7 +645,7 @@ class EventExtractor:
         """Process a single event and return enriched data."""
         event_start_time = time.time()
         event_id = event_data["id"]
-        event_name = event_data["title"]["rendered"]
+        event_name = self.fix_encoding(event_data["title"]["rendered"])
         class_list = event_data.get("class_list", [])
 
         if self.args.verbose:
