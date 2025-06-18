@@ -26,6 +26,27 @@ from enum import Enum
 from urllib.parse import urlparse
 from pathlib import Path
 from typing import Optional, List, Dict, Any
+from dataclasses import dataclass
+
+
+@dataclass
+class IcsData:
+    """Structured data extracted from ICS calendar files."""
+    location: Optional[str] = None
+    start_date: Optional[str] = None
+    end_date: Optional[str] = None
+    description: Optional[str] = None
+    summary: Optional[str] = None
+    
+    def to_dict(self) -> Dict[str, Any]:
+        """Convert to dictionary for JSON serialization."""
+        return {
+            "location": self.location,
+            "start_date": self.start_date,
+            "end_date": self.end_date,
+            "description": self.description,
+            "summary": self.summary
+        }
 
 
 class EventType(Enum):
@@ -375,7 +396,7 @@ class EventExtractor:
             
         return result
 
-    def fetch_ics_data(self, event_id: int) -> Optional[Dict[str, str]]:
+    def extract_ics_data(self, event_id: int) -> Optional[IcsData]:
         """Fetch ICS data for an event with encoding detection and fallback."""
         try:
             # First try to get raw bytes to handle encoding issues
@@ -392,22 +413,28 @@ class EventExtractor:
             ics_content = None
             raw_content = result.stdout
             
-            # List of encodings to try in order
-            encodings = ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
-            
-            for encoding in encodings:
-                try:
-                    ics_content = raw_content.decode(encoding)
-                    if self.args.verbose:
-                        log_info("ICS", f"Successfully decoded ICS for event {event_id} using {encoding}", verbose=True)
-                    break
-                except UnicodeDecodeError:
-                    continue
-            
-            if ics_content is None:
-                # Last resort: decode with errors='replace' to avoid complete failure
+            # First try UTF-8 with replacement for invalid bytes (most likely to work correctly)
+            try:
                 ics_content = raw_content.decode('utf-8', errors='replace')
-                log_warning("ICS", f"Used fallback decoding for event {event_id}", "May contain corrupted characters")
+                if self.args.verbose:
+                    log_info("ICS", f"Successfully decoded ICS for event {event_id} using UTF-8 with replacement", verbose=True)
+            except Exception:
+                # If even replacement fails, try other encodings
+                encodings = ['latin-1', 'cp1252', 'iso-8859-1']
+                ics_content = None
+                
+                for encoding in encodings:
+                    try:
+                        ics_content = raw_content.decode(encoding)
+                        if self.args.verbose:
+                            log_info("ICS", f"Successfully decoded ICS for event {event_id} using {encoding}", verbose=True)
+                        break
+                    except UnicodeDecodeError:
+                        continue
+                
+                if ics_content is None:
+                    log_error("ICS", f"Could not decode ICS for event {event_id} with any encoding")
+                    return None
             
             # Clean the content of any problematic characters
             ics_content = ics_content.replace('\x00', '')  # Remove null bytes
@@ -422,7 +449,8 @@ class EventExtractor:
                 log_warning("ICS", f"Invalid ICS format for event {event_id}", "Missing VCALENDAR header")
                 return None
             
-            ics_data = {}
+            # Initialize dataclass with None values
+            ics_data = IcsData()
 
             # Extract and clean location
             location_match = re.search(r"LOCATION:(.+)", ics_content)
@@ -435,24 +463,26 @@ class EventExtractor:
                 for part in parts:
                     if part not in unique_parts:
                         unique_parts.append(part)
-                ics_data["location"] = self.fix_encoding(" ".join(unique_parts))
+                # Let Google's API handle encoding - don't apply fix_encoding()
+                ics_data.location = " ".join(unique_parts)
+
+            # Extract summary
+            summary_match = re.search(r"SUMMARY:(.+)", ics_content)
+            if summary_match:
+                ics_data.summary = summary_match.group(1).strip()
 
             # Extract dates
             dtstart_match = re.search(r"DTSTART:(\d+)", ics_content)
             if dtstart_match:
                 date_str = dtstart_match.group(1)
                 if len(date_str) == 8:
-                    ics_data["start_date"] = (
-                        f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-                    )
+                    ics_data.start_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
 
             dtend_match = re.search(r"DTEND:(\d+)", ics_content)
             if dtend_match:
                 date_str = dtend_match.group(1)
                 if len(date_str) == 8:
-                    ics_data["end_date"] = (
-                        f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-                    )
+                    ics_data.end_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
 
             # Extract description
             desc_match = re.search(
@@ -465,7 +495,7 @@ class EventExtractor:
                     .replace("\\n", "\n")
                     .replace("\\,", ",")
                 )
-                ics_data["description"] = self.fix_encoding(desc.strip())
+                ics_data.description = self.fix_encoding(desc.strip())
 
             return ics_data
 
@@ -727,12 +757,12 @@ class EventExtractor:
 
         # Get ICS data
         start_time = time.time()
-        ics_data = self.fetch_ics_data(event_id) or {}
-        location = ics_data.get("location", "")
-        start_date = ics_data.get("start_date")
-        end_date = ics_data.get("end_date")
+        ics_data = self.extract_ics_data(event_id)
+        location = ics_data.location if ics_data else ""
+        start_date = ics_data.start_date if ics_data else None
+        end_date = ics_data.end_date if ics_data else None
         description = (
-            ics_data.get("description", "") or event_data["content"]["rendered"]
+            (ics_data.description if ics_data else "") or event_data["content"]["rendered"]
         )
         ics_time = time.time() - start_time
         if self.args.verbose:
@@ -1000,6 +1030,14 @@ Examples:
         action="store_true",
         help="Verbose output with detailed progress",
     )
+    
+    # Debug options
+    parser.add_argument(
+        "--debug-ics",
+        type=int,
+        metavar="EVENT_ID",
+        help="Debug: extract and display ICS data for specific event ID",
+    )
 
     # Performance options
     parser.add_argument(
@@ -1018,6 +1056,17 @@ Examples:
         parser.error("--pages must be positive")
     if args.delay < 0:
         parser.error("--delay must be non-negative")
+
+    # Handle debug mode
+    if args.debug_ics:
+        extractor = EventExtractor(args)
+        ics_data = extractor.extract_ics_data(args.debug_ics)
+        if ics_data:
+            print(f"=== ICS Data for Event {args.debug_ics} ===")
+            print(json.dumps(ics_data.to_dict(), indent=2, ensure_ascii=False))
+        else:
+            print(f"Failed to extract ICS data for event {args.debug_ics}")
+        return
 
     # Run the extractor
     extractor = EventExtractor(args)
