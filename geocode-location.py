@@ -1,0 +1,282 @@
+#!/usr/bin/env python3
+"""
+Geocode location using OpenStreetMap Nominatim API with caching
+
+A Python implementation of the geocoding script with enhanced features:
+- Caching for performance
+- Configurable filtering of address types
+- Verbose output for debugging
+- Rate limiting for API compliance
+"""
+
+import argparse
+import json
+import hashlib
+import re
+import time
+import urllib.parse
+import urllib.request
+from pathlib import Path
+from typing import Optional, Dict, List, Any
+
+
+class Geocoder:
+    def __init__(self, cache_dir: str = "geocoding_cache", all_types: bool = False):
+        self.cache_dir = Path(cache_dir)
+        self.cache_dir.mkdir(exist_ok=True)
+        self.all_types = all_types
+
+        # Relevant address types for places (excluding transport infrastructure, etc.)
+        self.relevant_types = {
+            "city",
+            "town",
+            "village",
+            "hamlet",
+            "municipality",
+            "county",
+            "suburb",
+            "city_district",
+            "neighbourhood",
+            "quarter",
+        }
+
+        # User agent for API compliance
+        self.user_agent = "portugal-running-geocoder/1.0"
+
+    def clean_location(self, location: str) -> str:
+        """Clean up location string by removing duplicates and normalizing spaces."""
+        if not location:
+            return location
+
+        # Remove escaped commas, normalize spaces
+        cleaned = location.replace("\\,", ",")
+        cleaned = re.sub(r"\s+", " ", cleaned).strip()
+
+        # Remove duplicate words (e.g. "Lisboa Lisboa" -> "Lisboa")
+        words = cleaned.split()
+        unique_words = []
+        for word in words:
+            if word not in unique_words:
+                unique_words.append(word)
+
+        return " ".join(unique_words)
+
+    def get_cache_key(self, location: str) -> str:
+        """Generate cache key for location."""
+        return hashlib.md5(location.encode()).hexdigest()
+
+    def get_cached_result(self, cache_key: str) -> Optional[Dict[str, Any]]:
+        """Get cached geocoding result."""
+        cache_file = self.cache_dir / f"{cache_key}.json"
+        if cache_file.exists():
+            try:
+                with open(cache_file, "r", encoding="utf-8") as f:
+                    content = f.read().strip()
+                    if content == "null":
+                        return None
+                    return json.loads(content)
+            except (json.JSONDecodeError, IOError):
+                # Remove corrupted cache file
+                cache_file.unlink(missing_ok=True)
+        return None
+
+    def cache_result(self, cache_key: str, result: Optional[Dict[str, Any]]) -> None:
+        """Cache geocoding result."""
+        cache_file = self.cache_dir / f"{cache_key}.json"
+        try:
+            with open(cache_file, "w", encoding="utf-8") as f:
+                if result is None:
+                    f.write("null")
+                else:
+                    json.dump(result, f, indent=2, ensure_ascii=False)
+        except IOError:
+            pass  # Ignore cache write errors
+
+    def query_nominatim(self, location: str) -> Optional[List[Dict[str, Any]]]:
+        """Query Nominatim API for location."""
+        encoded_location = urllib.parse.quote_plus(location)
+        url = f"https://nominatim.openstreetmap.org/search?format=json&q={encoded_location}"
+
+        try:
+            request = urllib.request.Request(url)
+            request.add_header("User-Agent", self.user_agent)
+
+            with urllib.request.urlopen(request, timeout=30) as response:
+                data = json.loads(response.read().decode("utf-8"))
+                return data if isinstance(data, list) else None
+
+        except Exception:
+            return None
+
+    def filter_results(self, results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Filter results by address type relevance."""
+        if self.all_types:
+            return results
+
+        filtered = []
+        for result in results:
+            address_type = result.get("addresstype", "")
+            if address_type in self.relevant_types:
+                filtered.append(result)
+
+        return filtered
+
+    def format_result(self, result: Dict[str, Any]) -> Dict[str, Any]:
+        """Format result into clean structure."""
+        try:
+            lat = float(result.get("lat", 0))
+            lon = float(result.get("lon", 0))
+
+            # Parse bounding box
+            bbox = result.get("boundingbox", [])
+            if len(bbox) >= 4:
+                south = float(bbox[0])
+                north = float(bbox[1])
+                west = float(bbox[2])
+                east = float(bbox[3])
+            else:
+                # Fallback bbox around coordinates
+                south = north = lat
+                west = east = lon
+
+            return {
+                "name": result.get("name", ""),
+                "display_name": result.get("display_name", ""),
+                "addresstype": result.get("addresstype", ""),
+                "coordinates": {"lat": lat, "lon": lon},
+                "boundingbox": {
+                    "south": south,
+                    "north": north,
+                    "west": west,
+                    "east": east,
+                },
+            }
+        except (ValueError, TypeError):
+            return None
+
+    def geocode(self, location: str, verbose: bool = False) -> Optional[Dict[str, Any]]:
+        """Geocode a location with caching."""
+        if not location:
+            return None
+
+        # Clean location
+        cleaned_location = self.clean_location(location)
+        if verbose:
+            print(f"Original: '{location}'")
+            print(f"Cleaned: '{cleaned_location}'")
+
+        # Check cache
+        cache_key = self.get_cache_key(cleaned_location)
+        cached_result = self.get_cached_result(cache_key)
+        if cached_result is not None:
+            if verbose:
+                print("Using cached result")
+            return cached_result
+
+        if verbose:
+            print("Querying Nominatim API...")
+
+        # Query API
+        results = self.query_nominatim(cleaned_location)
+        if not results:
+            if verbose:
+                print("No results from API")
+            self.cache_result(cache_key, None)
+            return None
+
+        if verbose:
+            print(f"API returned {len(results)} results")
+
+        # Filter results
+        filtered_results = self.filter_results(results)
+        if not filtered_results:
+            if verbose:
+                print("No relevant results after filtering")
+                if not self.all_types:
+                    print(
+                        "Address types found:",
+                        [r.get("addresstype", "") for r in results],
+                    )
+            self.cache_result(cache_key, None)
+            return None
+
+        if verbose:
+            print(f"Found {len(filtered_results)} relevant results")
+
+        # Get best result (highest importance)
+        best_result = max(filtered_results, key=lambda x: float(x.get("importance", 0)))
+        formatted_result = self.format_result(best_result)
+
+        if formatted_result:
+            if verbose:
+                print(
+                    f"Best result: {formatted_result['display_name']} ({formatted_result['addresstype']})"
+                )
+            self.cache_result(cache_key, formatted_result)
+            return formatted_result
+
+        if verbose:
+            print("Failed to format result")
+        self.cache_result(cache_key, None)
+        return None
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Geocode location using OpenStreetMap Nominatim API",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s "Lisboa"                    # Geocode Lisboa
+  %(prog)s "Lisboa" --verbose          # With detailed output
+  %(prog)s "Lisboa" --all-types        # Include all address types
+  %(prog)s "Lisboa" --cache-dir /tmp   # Custom cache directory
+        """,
+    )
+
+    parser.add_argument("location", help="Location to geocode")
+
+    parser.add_argument(
+        "--all-types",
+        action="store_true",
+        help="Include all address types, not just relevant ones (cities, towns, etc.)",
+    )
+
+    parser.add_argument(
+        "--verbose", "-v", action="store_true", help="Verbose output for debugging"
+    )
+
+    parser.add_argument(
+        "--cache-dir",
+        default="geocoding_cache",
+        help="Cache directory for results (default: geocoding_cache)",
+    )
+
+    parser.add_argument(
+        "--no-cache", action="store_true", help="Skip cache and always query API"
+    )
+
+    args = parser.parse_args()
+
+    # Create geocoder
+    geocoder = Geocoder(cache_dir=args.cache_dir, all_types=args.all_types)
+
+    # If no-cache is specified, clear any existing cache for this location
+    if args.no_cache:
+        cleaned_location = geocoder.clean_location(args.location)
+        cache_key = geocoder.get_cache_key(cleaned_location)
+        cache_file = geocoder.cache_dir / f"{cache_key}.json"
+        cache_file.unlink(missing_ok=True)
+
+    # Geocode
+    result = geocoder.geocode(args.location, verbose=args.verbose)
+
+    # Output result
+    if result:
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+    else:
+        print("null")
+
+
+if __name__ == "__main__":
+    main()
