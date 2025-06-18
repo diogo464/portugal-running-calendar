@@ -327,6 +327,8 @@ class EventExtractor:
         # Second pass: Handle specific problematic patterns
         # These are cases where the encoding was corrupted differently
         additional_fixes = {
+            # Em dash corruptions (â becomes —)
+            '—': 'â',  # Generic â replacement
             'C—mara': 'Câmara',  # Common in Portuguese text
             'Dist—ncias': 'Distâncias',
             'Const—ncia': 'Constância',
@@ -334,6 +336,9 @@ class EventExtractor:
             'compet—ncia': 'competência',
             'experi—ncia': 'experiência',
             'import—ncia': 'importância',
+            'Gr—ndola': 'Grândola',  # Fix for the specific case mentioned
+            'Atl—ntico': 'Atlântico',
+            'Alf—ndega': 'Alfândega',
             'ORGANIZAÇÇO': 'ORGANIZAÇÃO',
             'APRESENTAÇÇO': 'APRESENTAÇÃO',
             'SÇO': 'SÃO',  # Common in São Silvestre races
