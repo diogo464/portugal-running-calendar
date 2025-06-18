@@ -409,14 +409,17 @@ class EventExtractor:
                 if canonical_type is not None:
                     canonical_types.add(canonical_type)
             else:
-                # Fatal error - unmapped type found
-                print(f"\n❌ FATAL ERROR: Unmapped event type found: '{original_type}'")
+                # Warning - unmapped type found, but continue processing
                 print(
-                    f"   Please add this mapping to the event_type_mapping dictionary"
+                    f"⚠️  WARNING: Unmapped event type found: '{original_type}' (ignoring)"
                 )
-                print(f'   Example: "{original_type}": "canonical-type-name"')
-                print(f"\n   All original types in this event: {original_types}")
-                raise ValueError(f"Unmapped event type: '{original_type}'")
+                if self.args.verbose:
+                    print(
+                        f"   Please add this mapping to the event_type_mapping dictionary"
+                    )
+                    print(f'   Example: "{original_type}": "canonical-type-name"')
+                    print(f"   All original types in this event: {original_types}")
+                # Continue processing without this type
 
         return list(canonical_types)
 
@@ -535,6 +538,18 @@ class EventExtractor:
         bounding_box = geo_data.get("bounding_box") if geo_data else None
         location_display_name = geo_data.get("display_name") if geo_data else location
         geocoding_time = time.time() - start_time
+
+        # Warning if geocoding failed for events with location data
+        if location and not geo_data:
+            print(
+                f"⚠️  WARNING: Geocoding failed for event {event_id} with location: '{location}'"
+            )
+            if self.args.verbose:
+                print(f"     Original location from ICS: '{location}'")
+                print(
+                    f"     Normalized location sent to geocoder: '{self.normalize_location(location)}'"
+                )
+
         if self.args.verbose:
             print(f"     Geocoding took {geocoding_time:.3f}s")
 
