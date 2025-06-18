@@ -773,6 +773,8 @@ class EventExtractor:
         geo_data = self.geocode_location(location)
         coordinates = geo_data.get("coordinates") if geo_data else None
         location_display_name = geo_data.get("display_name") if geo_data else location
+        country = geo_data.get("country") if geo_data else None
+        locality = geo_data.get("locality") if geo_data else None
         geocoding_time = time.time() - start_time
 
         # Warning if geocoding failed for events with location data
@@ -823,6 +825,8 @@ class EventExtractor:
             "event_name": event_name,
             "event_location": location_display_name,
             "event_coordinates": coordinates,
+            "event_country": country,
+            "event_locality": locality,
             "event_distances": distances,
             "event_types": canonical_types,
             "event_images": images,
