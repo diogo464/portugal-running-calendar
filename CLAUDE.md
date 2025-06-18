@@ -20,6 +20,7 @@ This project scrapes running events from the Portugal Running calendar website a
 - `./geocode-location.sh "Location"` - Geocode location with caching
 - `./generate-one-line-description.sh "description"` - Generate LLM short descriptions
 - `black *.py` - Format Python code after editing
+- `use $(pass google-geocoding-api-key) to obtain the API key for google`
 
 ### Static Site Development
 - Open `site/index.html` in browser for development
