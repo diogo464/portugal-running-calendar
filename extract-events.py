@@ -7,7 +7,7 @@ from the Portugal Running website.
 
 Features:
 - Fetches events from WordPress API with pagination
-- Geocodes locations for coordinates and bounding boxes
+- Geocodes locations using Google Maps API for superior accuracy
 - Generates short descriptions using LLM
 - Downloads and processes event images
 - Supports limiting extraction for testing
@@ -477,12 +477,12 @@ class EventExtractor:
             return None
 
     def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
-        """Geocode location using the enhanced Python geocoding script."""
+        """Geocode location using Google Maps API via the Python geocoding script."""
         if not location or self.args.skip_geocoding:
             return None
 
         try:
-            # Use the enhanced Python geocoder (handles all strategies internally)
+            # Use the Google Maps geocoder with API key from environment
             cmd = ["python3", "./geocode-location.py", location]
             if self.args.verbose:
                 cmd.append("--verbose")
@@ -507,12 +507,16 @@ class EventExtractor:
                 if not geo_data:
                     return None
 
+                # Adapt new Google API format to expected format
+                # New format: {"name": str, "country": str, "locality": str, "lat": float, "lon": float}
+                lat = geo_data.get("lat", 0)
+                lon = geo_data.get("lon", 0)
+                
                 return {
-                    "coordinates": geo_data.get("coordinates", {}),
-                    "bounding_box": geo_data.get("boundingbox", {}),
-                    "display_name": geo_data.get("display_name", ""),
-                    "name": geo_data.get("name", ""),
-                    "addresstype": geo_data.get("addresstype", ""),
+                    "coordinates": {"lat": lat, "lon": lon},
+                    "display_name": geo_data.get("name", ""),
+                    "country": geo_data.get("country", ""),
+                    "locality": geo_data.get("locality", ""),
                 }
             except json.JSONDecodeError as e:
                 log_error("JSON", f"Invalid JSON from geocoding for location: {location}", str(e))
@@ -738,7 +742,6 @@ class EventExtractor:
         start_time = time.time()
         geo_data = self.geocode_location(location)
         coordinates = geo_data.get("coordinates") if geo_data else None
-        bounding_box = geo_data.get("bounding_box") if geo_data else None
         location_display_name = geo_data.get("display_name") if geo_data else location
         geocoding_time = time.time() - start_time
 
@@ -790,7 +793,6 @@ class EventExtractor:
             "event_name": event_name,
             "event_location": location_display_name,
             "event_coordinates": coordinates,
-            "event_bounding_box": bounding_box,
             "event_distances": distances,
             "event_types": canonical_types,
             "event_images": images,
