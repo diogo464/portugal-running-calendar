@@ -7,3 +7,4 @@ features/
 media/
 pages/
 geocoding_cache/
+description_cache/

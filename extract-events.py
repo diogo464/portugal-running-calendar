@@ -223,18 +223,26 @@ class EventExtractor:
         return None
 
     def generate_short_description(self, description: str) -> Optional[str]:
-        """Generate a short description using the existing script."""
+        """Generate a short description using the existing script with caching."""
         if not description or self.args.skip_descriptions:
             return None
             
         try:
+            # Use longer timeout for LLM generation, but caching makes this much faster
             result = subprocess.run(['./generate-one-line-description.sh', description], 
-                                  capture_output=True, text=True, timeout=30)
+                                  capture_output=True, text=True, timeout=60)
             if result.returncode == 0:
                 short_desc = result.stdout.strip()
                 # Clean up any extra content
                 if short_desc and len(short_desc) < 200:  # Sanity check
                     return short_desc
+            elif self.args.verbose:
+                print(f"   Description generation failed with return code {result.returncode}")
+                if result.stderr:
+                    print(f"   Error: {result.stderr.strip()}")
+        except subprocess.TimeoutExpired:
+            if self.args.verbose:
+                print(f"   Description generation timed out after 60 seconds")
         except Exception as e:
             if self.args.verbose:
                 print(f"   Error generating short description: {e}")
