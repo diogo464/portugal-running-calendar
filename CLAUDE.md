@@ -20,6 +20,8 @@ This project scrapes running events from the Portugal Running calendar website a
 - `black *.py` - Format Python code after editing
 - `use $(pass google-geocoding-api-key) to obtain the API key for google`
 
+## Zod Configuration
+- Use zod v4 with `import 'zod/v4'`. Ignore the fact that the package.json says zod is version 3, as version 4 is being shipped alongside version 3 for reasons that don't matter.
 
 ## Architecture & Data Flow
 
