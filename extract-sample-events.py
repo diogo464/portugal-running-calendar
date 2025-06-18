@@ -107,29 +107,36 @@ def geocode_location(location: str) -> Optional[Dict[str, Any]]:
         if result.returncode != 0:
             return None
         
-        # Parse the JSON output from the geocoding script
-        output_lines = result.stdout.split('\n')
-        json_started = False
-        json_content = []
-        
-        for line in output_lines:
-            if line.strip().startswith('{'):
-                json_started = True
-            if json_started:
-                json_content.append(line)
-                if line.strip().endswith('}'):
+        # Look for the final JSON result in the output
+        output = result.stdout
+        if "Most relevant result (JSON):" in output:
+            json_part = output.split("Most relevant result (JSON):")[1].strip()
+            # Clean up any extra content after the JSON
+            lines = json_part.split('\n')
+            json_lines = []
+            brace_count = 0
+            for line in lines:
+                json_lines.append(line)
+                brace_count += line.count('{') - line.count('}')
+                if brace_count == 0 and '}' in line:
                     break
-        
-        if json_content:
-            geo_data = json.loads('\n'.join(json_content))
-            return {
-                'coordinates': geo_data.get('coordinates', {}),
-                'bounding_box': geo_data.get('boundingbox', {}),
-                'display_name': geo_data.get('display_name', '')
-            }
             
+            json_content = '\n'.join(json_lines)
+            try:
+                geo_data = json.loads(json_content)
+                return {
+                    'coordinates': geo_data.get('coordinates', {}),
+                    'bounding_box': geo_data.get('boundingbox', {}),
+                    'display_name': geo_data.get('display_name', ''),
+                    'name': geo_data.get('name', ''),
+                    'addresstype': geo_data.get('addresstype', '')
+                }
+            except json.JSONDecodeError as e:
+                print(f"JSON decode error for '{location}': {e}")
+                return None
+                
     except Exception as e:
-        print(f"Error geocoding location '{location}': {e}")
+        print(f"Geocoding error for '{location}': {e}")
         
     return None
 
@@ -207,6 +214,7 @@ def process_event(event_data: dict) -> EventData:
     geo_data = geocode_location(location)
     coordinates = geo_data.get('coordinates') if geo_data else None
     bounding_box = geo_data.get('bounding_box') if geo_data else None
+    location_display_name = geo_data.get('display_name') if geo_data else location
     
     # Extract distances and types
     distances, extracted_types = extract_distances_and_types(description, event_types)
@@ -220,7 +228,7 @@ def process_event(event_data: dict) -> EventData:
     return EventData(
         event_id=event_id,
         event_name=event_name,
-        event_location=location,
+        event_location=location_display_name,
         event_coordinates=coordinates,
         event_bounding_box=bounding_box,
         event_distances=distances,
