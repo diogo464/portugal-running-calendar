@@ -41,7 +41,7 @@ class EventType(Enum):
     CROSS_COUNTRY = "cross-country"
     SAINT_SILVESTER = "saint-silvester"
     KIDS = "kids"
-    ESTAFETAS = "estafetas"
+    RELAY = "relay"
 
 
 # Distance constants in meters
@@ -108,8 +108,8 @@ class EventExtractor:
             "Entre 10km's e meia maratona": EventType.RUN.value,
             "Milha": EventType.RUN.value,
             "Légua": EventType.FIVE_K.value,
-            "Estafetas": EventType.ESTAFETAS.value,
-            "T-Estafeta": EventType.ESTAFETAS.value,
+            "Estafetas": EventType.RELAY.value,
+            "T-Estafeta": EventType.RELAY.value,
             "Obstáculos": EventType.RUN.value,
             "Pista": EventType.RUN.value,
             "Corta-Mato": EventType.CROSS_COUNTRY.value,
@@ -142,8 +142,8 @@ class EventExtractor:
             "event_type-corrida-de-15-km": EventType.RUN.value,
             "event_type-milha": EventType.RUN.value,
             "event_type-legua": EventType.FIVE_K.value,
-            "event_type-estafetas": EventType.ESTAFETAS.value,
-            "event_type-t-estafeta": EventType.ESTAFETAS.value,
+            "event_type-estafetas": EventType.RELAY.value,
+            "event_type-t-estafeta": EventType.RELAY.value,
             "event_type-obstaculos": EventType.RUN.value,
             "event_type-pista": EventType.RUN.value,
             "event_type-running-tours": EventType.RUN.value,
