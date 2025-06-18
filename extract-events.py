@@ -55,11 +55,25 @@ class EventExtractor:
             
             # Cross country
             "Cross": "cross-country",
+
+            # Class List
+            "event_type-corrida-10-km": "10k",
+            "event_type-meiamaratona": "half-marathon",
+            "event_type-maratona": "marathon",
+            "event_type-corrida": "run",
+            "event_type-trail": "trail",
+
+            # Ignore
+            "ajde_events": None,
+            "type-ajde_events": None,
+            "status-publish": None,
+            "has-post-thumbnail": None,
+            "hentry": None,
         }
 
         self.canonical_type_to_distance = {
-            "10k": "10k",
-            "5k": "5k",
+            "10k": "10K",
+            "5k": "5K",
             "marathon": "42.2K",
             "half-marathon": "21.1K",
         }
@@ -301,9 +315,16 @@ class EventExtractor:
         canonical_types = set()
         
         for original_type in original_types:
+            if original_type.startswith("post-"):
+                continue
+            if original_type.startswith("event_location-"):
+                continue
+            if original_type.startswith("event_type_2-"):
+                continue
             if original_type in self.event_type_mapping:
                 canonical_type = self.event_type_mapping[original_type]
-                canonical_types.add(canonical_type)
+                if canonical_type is not None:
+                    canonical_types.add(canonical_type)
             else:
                 # Fatal error - unmapped type found
                 print(f"\n❌ FATAL ERROR: Unmapped event type found: '{original_type}'")
@@ -314,10 +335,10 @@ class EventExtractor:
         
         return list(canonical_types)
 
-    def extract_distances_and_types(self, description: str, event_types: List[str]) -> tuple[List[str], List[str]]:
+    def extract_distances_and_types(self, description: str, event_types: List[str], class_list: List[str]) -> tuple[List[str], List[str]]:
         """Extract distances and event types from description and taxonomies."""
         # Map event types using canonical mapping
-        canonical_types = self.map_event_types(event_types)
+        canonical_types = self.map_event_types(event_types+class_list)
 
         # lets ignore the distances for now 
         return [], canonical_types
@@ -327,6 +348,7 @@ class EventExtractor:
         event_start_time = time.time()
         event_id = event_data['id']
         event_name = event_data['title']['rendered']
+        class_list = event_data.get('class_list', [])
         
         if self.args.verbose:
             print(f"   Processing event {event_id}: {event_name}")
@@ -362,7 +384,7 @@ class EventExtractor:
         
         # Extract distances and canonical types
         start_time = time.time()
-        distances, canonical_types = self.extract_distances_and_types(description, event_types)
+        distances, canonical_types = self.extract_distances_and_types(description, event_types, class_list)
         extraction_time = time.time() - start_time
         if self.args.verbose:
             print(f"     Distance/type extraction took {extraction_time:.3f}s")
