@@ -17,6 +17,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+import unicodedata
 from pathlib import Path
 from typing import Optional, Dict, List, Any
 
@@ -70,6 +71,12 @@ class Geocoder:
 
         return " ".join(unique_words)
 
+    def remove_accents(self, text: str) -> str:
+        """Remove accents and diacritics from text."""
+        # Normalize to NFD (decomposed form), then filter out combining characters
+        nfd = unicodedata.normalize('NFD', text)
+        return ''.join(char for char in nfd if unicodedata.category(char) != 'Mn')
+
     def preprocess_location(self, location: str) -> List[str]:
         """Generate multiple cleaned variations of the location."""
         if not location:
@@ -83,6 +90,11 @@ class Geocoder:
             if wrong in location_lower:
                 variants.append(location_lower.replace(wrong, correct))
 
+        # Add accent-free variant
+        accent_free = self.remove_accents(location_lower)
+        if accent_free != location_lower:
+            variants.append(accent_free)
+
         # Remove duplicate words (like "Basto Bastos" -> "Basto")
         words = location_lower.split()
         deduplicated = []
@@ -91,6 +103,10 @@ class Geocoder:
                 deduplicated.append(word)
         if len(deduplicated) != len(words):
             variants.append(" ".join(deduplicated))
+            # Also try accent-free version of deduplicated
+            accent_free_dedup = self.remove_accents(" ".join(deduplicated))
+            if accent_free_dedup not in variants:
+                variants.append(accent_free_dedup)
 
         # Remove duplicates while preserving order
         seen = set()
