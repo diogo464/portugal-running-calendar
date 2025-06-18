@@ -2,12 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-# Portugal Running Event Scraper & Static Site
+# Portugal Running Event Scraper
 
 ## Overview
-This project scrapes running events from the Portugal Running calendar website and generates a modern static website for browsing events. It consists of two main components:
-1. **Data extraction pipeline** - Python/Shell scripts that scrape, enrich, and process event data
-2. **Static website** - HTML/CSS/JS frontend in the `site/` directory for browsing events
+This project scrapes running events from the Portugal Running calendar website and processes them into structured JSON data. It consists of a comprehensive data extraction pipeline with Python/Shell scripts that scrape, enrich, and process event data.
 
 ## Common Commands
 
@@ -22,10 +20,6 @@ This project scrapes running events from the Portugal Running calendar website a
 - `black *.py` - Format Python code after editing
 - `use $(pass google-geocoding-api-key) to obtain the API key for google`
 
-### Static Site Development
-- Open `site/index.html` in browser for development
-- Copy `sample-events.json` to `site/` directory for testing
-- Images should be placed in `site/media/` directory
 
 ## Architecture & Data Flow
 
@@ -35,7 +29,7 @@ This project scrapes running events from the Portugal Running calendar website a
 3. **Geocoding** → `geocode-location.sh` → Cached coordinates in `geocoding_cache/`
 4. **Images** → `download-image.sh` → Hash-named files in `media/`
 5. **Descriptions** → `generate-one-line-description.sh` → Cached in `description_cache/`
-6. **Final Processing** → `extract-events.py` → `sample-events.json`
+6. **Final Processing** → `extract-events.py` → `portugal-running-events.json`
 
 ### Caching Strategy
 All external API calls are aggressively cached using MD5 hashes:
@@ -77,12 +71,6 @@ Events follow this canonical structure:
 - **LLM Descriptions**: Requires LLM API configuration
 - **Images**: Direct download from Portugal Running CDN
 
-## Static Site Technology Stack
-- **Frontend**: Vanilla HTML/CSS/JavaScript (no build process)
-- **Search**: Fuse.js for client-side fuzzy search
-- **Styling**: CSS Grid/Flexbox, responsive design
-- **Icons**: Font Awesome CDN
-- **Performance**: <100KB total, works offline after load
 
 ## Error Handling & Logging
 
@@ -109,6 +97,4 @@ Use the standard test command to check for issues:
 
 ## Key Files
 - `extract-events.py` - Main extraction orchestrator with CLI args
-- `site/index.html` - Static website entry point
-- `site/script.js` - Client-side filtering and search logic
-- `sample-events.json` - Generated output for website consumption
+- `portugal-running-events.json` - Generated JSON output with event data
