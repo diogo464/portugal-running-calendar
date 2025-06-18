@@ -6,104 +6,97 @@ import { Label } from "@/components/ui/label"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { MapPin, CalendarIcon, Users, Clock } from "lucide-react"
+import { MapPin, CalendarIcon, Clock } from "lucide-react"
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { Filter } from "lucide-react"
+import { Event, EventType, getAllEventTypes, getEventTypeDisplayName } from "@/lib/app"
 
-// Sample running events data
-const runningEvents = [
+// Sample running events data using proper Event structure
+const runningEvents: Event[] = [
   {
-    id: 1,
-    name: "Boston Marathon",
-    date: new Date(2024, 3, 15), // April 15, 2024
-    type: "Marathon",
-    distance: "26.2 miles",
-    location: "Boston, MA",
-    region: "northeast",
-    participants: 30000,
-    description: "The world's oldest annual marathon",
+    event_id: 1,
+    event_name: "Maratona do Porto",
+    event_location: "Porto, Portugal",
+    event_coordinates: { lat: 41.1579, lon: -8.6291 },
+    event_country: "Portugal",
+    event_locality: "Porto",
+    event_distances: [42.2, 21.1, 10],
+    event_types: [EventType.Marathon, EventType.HalfMarathon, EventType.TenK],
+    event_images: [],
+    event_start_date: "2024-10-06",
+    event_end_date: "2024-10-06",
+    event_circuit: [],
+    event_description: "A maior prova de atletismo do Norte do país, passando pelos pontos mais emblemáticos da cidade do Porto.",
+    description_short: "Maratona internacional do Porto com percurso urbano"
   },
   {
-    id: 2,
-    name: "Central Park 5K",
-    date: new Date(2024, 3, 20),
-    type: "5K",
-    distance: "3.1 miles",
-    location: "New York, NY",
-    region: "northeast",
-    participants: 2500,
-    description: "Scenic run through Central Park",
+    event_id: 2,
+    event_name: "Corrida de São Silvestre de Lisboa",
+    event_location: "Lisboa, Portugal",
+    event_coordinates: { lat: 38.7223, lon: -9.1393 },
+    event_country: "Portugal",
+    event_locality: "Lisboa",
+    event_distances: [10],
+    event_types: [EventType.TenK, EventType.SaintSilvester],
+    event_images: [],
+    event_start_date: "2024-12-31",
+    event_end_date: "2024-12-31",
+    event_circuit: [],
+    event_description: "Tradicional prova de fim de ano pelas ruas de Lisboa, terminando na Praça do Comércio.",
+    description_short: "Corrida tradicional de fim de ano em Lisboa"
   },
   {
-    id: 3,
-    name: "Chicago Half Marathon",
-    date: new Date(2024, 4, 12), // May 12, 2024
-    type: "Half Marathon",
-    distance: "13.1 miles",
-    location: "Chicago, IL",
-    region: "midwest",
-    participants: 15000,
-    description: "Run along Lake Michigan",
+    event_id: 3,
+    event_name: "Trail do Gerês",
+    event_location: "Gerês, Portugal",
+    event_coordinates: { lat: 41.7297, lon: -8.1508 },
+    event_country: "Portugal",
+    event_locality: "Gerês",
+    event_distances: [25, 15, 8],
+    event_types: [EventType.Trail],
+    event_images: [],
+    event_start_date: "2024-09-15",
+    event_end_date: "2024-09-15",
+    event_circuit: [],
+    event_description: "Trail running no Parque Nacional da Peneda-Gerês, com paisagens deslumbrantes da natureza minhota.",
+    description_short: "Trail running no Parque Nacional da Peneda-Gerês"
   },
   {
-    id: 4,
-    name: "Austin Trail Run",
-    date: new Date(2024, 4, 25),
-    type: "Trail Run",
-    distance: "10 miles",
-    location: "Austin, TX",
-    region: "south",
-    participants: 800,
-    description: "Challenging trail through Texas Hill Country",
+    event_id: 4,
+    event_name: "Meia Maratona de Coimbra",
+    event_location: "Coimbra, Portugal",
+    event_coordinates: { lat: 40.2033, lon: -8.4103 },
+    event_country: "Portugal",
+    event_locality: "Coimbra",
+    event_distances: [21.1, 10],
+    event_types: [EventType.HalfMarathon, EventType.TenK],
+    event_images: [],
+    event_start_date: "2024-11-17",
+    event_end_date: "2024-11-17",
+    event_circuit: [],
+    event_description: "Percurso pela cidade universitária mais antiga do país, passando pela Universidade e pelo centro histórico.",
+    description_short: "Meia maratona pela cidade universitária de Coimbra"
   },
   {
-    id: 5,
-    name: "San Francisco Bay Run",
-    date: new Date(2024, 5, 8), // June 8, 2024
-    type: "10K",
-    distance: "6.2 miles",
-    location: "San Francisco, CA",
-    region: "west",
-    participants: 5000,
-    description: "Beautiful bay views throughout the course",
-  },
-  {
-    id: 6,
-    name: "Denver Mountain Marathon",
-    date: new Date(2024, 5, 22),
-    type: "Marathon",
-    distance: "26.2 miles",
-    location: "Denver, CO",
-    region: "west",
-    participants: 8000,
-    description: "High altitude marathon with mountain views",
-  },
-  {
-    id: 7,
-    name: "Miami Beach 5K",
-    date: new Date(2024, 6, 4), // July 4, 2024
-    type: "5K",
-    distance: "3.1 miles",
-    location: "Miami, FL",
-    region: "south",
-    participants: 3000,
-    description: "Independence Day beach run",
-  },
-  {
-    id: 8,
-    name: "Seattle Ultra Trail",
-    date: new Date(2024, 6, 15),
-    type: "Ultra Marathon",
-    distance: "50 miles",
-    location: "Seattle, WA",
-    region: "west",
-    participants: 500,
-    description: "Extreme endurance challenge in Pacific Northwest",
-  },
+    event_id: 5,
+    event_name: "Corrida das Pontes",
+    event_location: "Vila Nova de Gaia, Portugal",
+    event_coordinates: { lat: 41.1239, lon: -8.6118 },
+    event_country: "Portugal",
+    event_locality: "Vila Nova de Gaia",
+    event_distances: [10, 5],
+    event_types: [EventType.TenK, EventType.FiveK],
+    event_images: [],
+    event_start_date: "2024-08-25",
+    event_end_date: "2024-08-25",
+    event_circuit: [],
+    event_description: "Corrida que atravessa as pontes icónicas sobre o Rio Douro, ligando Porto e Vila Nova de Gaia.",
+    description_short: "Corrida pelas pontes do Douro entre Porto e Gaia"
+  }
 ]
 
-const eventTypes = ["Marathon", "Half Marathon", "10K", "5K", "Trail Run", "Ultra Marathon"]
-const distances = ["3.1 miles", "6.2 miles", "10 miles", "13.1 miles", "26.2 miles", "50 miles"]
+const eventTypes = getAllEventTypes()
+const distances = [5, 10, 15, 21.1, 25, 42.2]
 const regions = [
   { id: "northeast", name: "Northeast", color: "#3b82f6" },
   { id: "midwest", name: "Midwest", color: "#10b981" },
@@ -113,12 +106,12 @@ const regions = [
 
 export default function RunningEventsPage() {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date())
-  const [selectedEventTypes, setSelectedEventTypes] = useState<string[]>([])
-  const [selectedDistances, setSelectedDistances] = useState<string[]>([])
+  const [selectedEventTypes, setSelectedEventTypes] = useState<EventType[]>([])
+  const [selectedDistances, setSelectedDistances] = useState<number[]>([])
   const [selectedRegions, setSelectedRegions] = useState<string[]>([])
   const [dateRange, setDateRange] = useState<string>("all")
 
-  const handleEventTypeChange = (eventType: string, checked: boolean) => {
+  const handleEventTypeChange = (eventType: EventType, checked: boolean) => {
     if (checked) {
       setSelectedEventTypes([...selectedEventTypes, eventType])
     } else {
@@ -126,7 +119,7 @@ export default function RunningEventsPage() {
     }
   }
 
-  const handleDistanceChange = (distance: string, checked: boolean) => {
+  const handleDistanceChange = (distance: number, checked: boolean) => {
     if (checked) {
       setSelectedDistances([...selectedDistances, distance])
     } else {
@@ -145,34 +138,37 @@ export default function RunningEventsPage() {
   const filteredEvents = useMemo(() => {
     return runningEvents.filter((event) => {
       // Filter by event type
-      if (selectedEventTypes.length > 0 && !selectedEventTypes.includes(event.type)) {
+      if (selectedEventTypes.length > 0 && !event.event_types.some(type => selectedEventTypes.includes(type))) {
         return false
       }
 
       // Filter by distance
-      if (selectedDistances.length > 0 && !selectedDistances.includes(event.distance)) {
+      if (selectedDistances.length > 0 && !event.event_distances.some(distance => selectedDistances.includes(distance))) {
         return false
       }
 
-      // Filter by region
-      if (selectedRegions.length > 0 && !selectedRegions.includes(event.region)) {
+      // Filter by region (using locality for now)
+      if (selectedRegions.length > 0 && !selectedRegions.includes(event.event_locality || '')) {
         return false
       }
 
       // Filter by date range
       const now = new Date()
-      const eventDate = event.date
+      const eventDate = event.event_start_date ? new Date(event.event_start_date) : new Date()
 
       switch (dateRange) {
-        case "week":
+        case "week": {
           const weekFromNow = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000)
           return eventDate >= now && eventDate <= weekFromNow
-        case "month":
+        }
+        case "month": {
           const monthFromNow = new Date(now.getFullYear(), now.getMonth() + 1, now.getDate())
           return eventDate >= now && eventDate <= monthFromNow
-        case "quarter":
+        }
+        case "quarter": {
           const quarterFromNow = new Date(now.getFullYear(), now.getMonth() + 3, now.getDate())
           return eventDate >= now && eventDate <= quarterFromNow
+        }
         default:
           return true
       }
@@ -181,11 +177,14 @@ export default function RunningEventsPage() {
 
   const eventsOnSelectedDate = useMemo(() => {
     if (!selectedDate) return []
-    return filteredEvents.filter((event) => event.date.toDateString() === selectedDate.toDateString())
+    return filteredEvents.filter((event) => {
+      const eventDate = event.event_start_date ? new Date(event.event_start_date) : new Date()
+      return eventDate.toDateString() === selectedDate.toDateString()
+    })
   }, [filteredEvents, selectedDate])
 
   const eventDates = useMemo(() => {
-    return filteredEvents.map((event) => event.date)
+    return filteredEvents.map((event) => event.event_start_date ? new Date(event.event_start_date) : new Date())
   }, [filteredEvents])
 
   const clearAllFilters = () => {
@@ -199,8 +198,8 @@ export default function RunningEventsPage() {
     <div className="min-h-screen">
       <div className="container mx-auto px-3 md:px-4 py-4 md:py-8">
         <div className="mb-6 md:mb-8">
-          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">Running Events Calendar</h1>
-          <p className="text-sm md:text-base text-gray-600">Discover running events across the country</p>
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">Calendário de Corridas</h1>
+          <p className="text-sm md:text-base text-gray-600">Descobre eventos de corrida em Portugal</p>
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-4 gap-4 md:gap-6">
@@ -252,7 +251,7 @@ export default function RunningEventsPage() {
                             onCheckedChange={(checked) => handleEventTypeChange(type, checked as boolean)}
                           />
                           <Label htmlFor={`mobile-${type}`} className="text-sm font-normal">
-                            {type}
+                            {getEventTypeDisplayName(type)}
                           </Label>
                         </div>
                       ))}
@@ -271,7 +270,7 @@ export default function RunningEventsPage() {
                             onCheckedChange={(checked) => handleDistanceChange(distance, checked as boolean)}
                           />
                           <Label htmlFor={`mobile-${distance}`} className="text-sm font-normal">
-                            {distance}
+                            {distance}km
                           </Label>
                         </div>
                       ))}
@@ -369,7 +368,7 @@ export default function RunningEventsPage() {
                           onCheckedChange={(checked) => handleEventTypeChange(type, checked as boolean)}
                         />
                         <Label htmlFor={type} className="text-sm font-normal">
-                          {type}
+                          {getEventTypeDisplayName(type)}
                         </Label>
                       </div>
                     ))}
@@ -383,12 +382,12 @@ export default function RunningEventsPage() {
                     {distances.map((distance) => (
                       <div key={distance} className="flex items-center space-x-2">
                         <Checkbox
-                          id={distance}
+                          id={`desktop-${distance}`}
                           checked={selectedDistances.includes(distance)}
                           onCheckedChange={(checked) => handleDistanceChange(distance, checked as boolean)}
                         />
-                        <Label htmlFor={distance} className="text-sm font-normal">
-                          {distance}
+                        <Label htmlFor={`desktop-${distance}`} className="text-sm font-normal">
+                          {distance}km
                         </Label>
                       </div>
                     ))}
@@ -402,12 +401,12 @@ export default function RunningEventsPage() {
                     <div className="flex flex-wrap gap-2">
                       {selectedEventTypes.map((type) => (
                         <Badge key={type} variant="secondary" className="text-xs">
-                          {type}
+                          {getEventTypeDisplayName(type)}
                         </Badge>
                       ))}
                       {selectedDistances.map((distance) => (
                         <Badge key={distance} variant="secondary" className="text-xs">
-                          {distance}
+                          {distance}km
                         </Badge>
                       ))}
                       {selectedRegions.map((regionId) => (
@@ -565,26 +564,26 @@ export default function RunningEventsPage() {
                   {eventsOnSelectedDate.length > 0 ? (
                     <div className="space-y-4">
                       {eventsOnSelectedDate.map((event) => (
-                        <div key={event.id} className="border rounded-lg p-3 md:p-4 hover:bg-gray-50 transition-colors">
+                        <div key={event.event_id} className="border rounded-lg p-3 md:p-4 hover:bg-gray-50 transition-colors">
                           <div className="flex items-start justify-between mb-2">
-                            <h3 className="font-semibold text-base md:text-lg pr-2">{event.name}</h3>
-                            <Badge variant="outline" className="text-xs shrink-0">
-                              {event.type}
-                            </Badge>
+                            <h3 className="font-semibold text-base md:text-lg pr-2">{event.event_name}</h3>
+                            <div className="flex gap-1 shrink-0">
+                              {event.event_types.map((type, index) => (
+                                <Badge key={index} variant="outline" className="text-xs">
+                                  {getEventTypeDisplayName(type)}
+                                </Badge>
+                              ))}
+                            </div>
                           </div>
-                          <p className="text-gray-600 text-sm mb-3">{event.description}</p>
+                          <p className="text-gray-600 text-sm mb-3">{event.description_short || event.event_description}</p>
                           <div className="space-y-2 md:space-y-0 md:flex md:items-center md:gap-4 text-sm text-gray-500">
                             <div className="flex items-center gap-1">
                               <MapPin className="w-4 h-4 shrink-0" />
-                              <span className="truncate">{event.location}</span>
+                              <span className="truncate">{event.event_location}</span>
                             </div>
                             <div className="flex items-center gap-1">
                               <Clock className="w-4 h-4 shrink-0" />
-                              {event.distance}
-                            </div>
-                            <div className="flex items-center gap-1">
-                              <Users className="w-4 h-4 shrink-0" />
-                              {event.participants.toLocaleString()}
+                              {event.event_distances.join(', ')}km
                             </div>
                           </div>
                         </div>
@@ -609,32 +608,32 @@ export default function RunningEventsPage() {
               <CardContent>
                 <div className="grid gap-3 md:gap-4">
                   {filteredEvents.map((event) => (
-                    <div key={event.id} className="border rounded-lg p-3 md:p-4 hover:bg-gray-50 transition-colors">
+                    <div key={event.event_id} className="border rounded-lg p-3 md:p-4 hover:bg-gray-50 transition-colors">
                       <div className="flex items-start justify-between mb-2">
                         <div className="flex-1 pr-2">
-                          <h3 className="font-semibold text-base md:text-lg">{event.name}</h3>
-                          <p className="text-gray-600 text-sm">{event.description}</p>
+                          <h3 className="font-semibold text-base md:text-lg">{event.event_name}</h3>
+                          <p className="text-gray-600 text-sm">{event.description_short || event.event_description}</p>
                         </div>
-                        <Badge variant="outline" className="text-xs shrink-0">
-                          {event.type}
-                        </Badge>
+                        <div className="flex gap-1 shrink-0">
+                          {event.event_types.map((type, index) => (
+                            <Badge key={index} variant="outline" className="text-xs">
+                              {getEventTypeDisplayName(type)}
+                            </Badge>
+                          ))}
+                        </div>
                       </div>
                       <div className="space-y-2 md:space-y-0 md:flex md:items-center md:gap-6 text-sm text-gray-500">
                         <div className="flex items-center gap-1">
                           <CalendarIcon className="w-4 h-4 shrink-0" />
-                          {event.date.toLocaleDateString()}
+                          {event.event_start_date ? new Date(event.event_start_date).toLocaleDateString('pt-PT') : 'Data por definir'}
                         </div>
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4 shrink-0" />
-                          <span className="truncate">{event.location}</span>
+                          <span className="truncate">{event.event_location}</span>
                         </div>
                         <div className="flex items-center gap-1">
                           <Clock className="w-4 h-4 shrink-0" />
-                          {event.distance}
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <Users className="w-4 h-4 shrink-0" />
-                          {event.participants.toLocaleString()} participants
+                          {event.event_distances.join(', ')}km
                         </div>
                       </div>
                     </div>
