@@ -108,18 +108,24 @@ class Geocoder:
         except Exception:
             return None
 
-    def filter_results(self, results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Filter results by address type relevance."""
+    def prioritize_results(self, results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Prioritize results by address type relevance, but include all types."""
         if self.all_types:
             return results
 
-        filtered = []
+        # Separate relevant and non-relevant types
+        relevant_results = []
+        other_results = []
+
         for result in results:
             address_type = result.get("addresstype", "")
             if address_type in self.relevant_types:
-                filtered.append(result)
+                relevant_results.append(result)
+            else:
+                other_results.append(result)
 
-        return filtered
+        # Return relevant types first, then others (de-prioritized but not filtered out)
+        return relevant_results + other_results
 
     def format_result(self, result: Dict[str, Any]) -> Dict[str, Any]:
         """Format result into clean structure."""
@@ -187,24 +193,28 @@ class Geocoder:
         if verbose:
             print(f"API returned {len(results)} results")
 
-        # Filter results
-        filtered_results = self.filter_results(results)
-        if not filtered_results:
-            if verbose:
-                print("No relevant results after filtering")
-                if not self.all_types:
-                    print(
-                        "Address types found:",
-                        [r.get("addresstype", "") for r in results],
-                    )
-            self.cache_result(cache_key, None)
-            return None
+        # Prioritize results (relevant types first, but include all)
+        prioritized_results = self.prioritize_results(results)
 
         if verbose:
-            print(f"Found {len(filtered_results)} relevant results")
+            relevant_count = len(
+                [r for r in results if r.get("addresstype", "") in self.relevant_types]
+            )
+            print(
+                f"Found {relevant_count} relevant results, {len(results) - relevant_count} other types"
+            )
+            if not self.all_types and len(results) > relevant_count:
+                other_types = [
+                    r.get("addresstype", "")
+                    for r in results
+                    if r.get("addresstype", "") not in self.relevant_types
+                ]
+                print(f"Other address types found: {list(set(other_types))}")
 
-        # Get best result (highest importance)
-        best_result = max(filtered_results, key=lambda x: float(x.get("importance", 0)))
+        # Get best result (highest importance, with relevant types having priority)
+        best_result = max(
+            prioritized_results, key=lambda x: float(x.get("importance", 0))
+        )
         formatted_result = self.format_result(best_result)
 
         if formatted_result:
