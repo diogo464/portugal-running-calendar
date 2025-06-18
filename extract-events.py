@@ -40,6 +40,8 @@ class EventType(Enum):
     WALK = "walk"
     CROSS_COUNTRY = "cross-country"
     SAINT_SILVESTER = "saint-silvester"
+    KIDS = "kids"
+    ESTAFETAS = "estafetas"
 
 
 # Distance constants in meters
@@ -105,17 +107,17 @@ class EventExtractor:
             "Corrida inferior a 10 km's": EventType.RUN.value,
             "Entre 10km's e meia maratona": EventType.RUN.value,
             "Milha": EventType.RUN.value,
-            "Légua": EventType.RUN.value,
-            "Estafetas": EventType.RUN.value,
-            "T-Estafeta": EventType.RUN.value,
+            "Légua": EventType.FIVE_K.value,
+            "Estafetas": EventType.ESTAFETAS.value,
+            "T-Estafeta": EventType.ESTAFETAS.value,
             "Obstáculos": EventType.RUN.value,
             "Pista": EventType.RUN.value,
             "Corta-Mato": EventType.CROSS_COUNTRY.value,
             # Walking types
             "Caminhada": EventType.WALK.value,
             # Kids events
-            "Kids": EventType.RUN.value,
-            "T-Kids": EventType.RUN.value,
+            "Kids": EventType.KIDS.value,
+            "T-Kids": EventType.KIDS.value,
             # Other categories
             "Outras": EventType.RUN.value,
             "Running Tours": EventType.RUN.value,
@@ -139,9 +141,9 @@ class EventExtractor:
             "event_type-corridas-inferior-10": EventType.RUN.value,
             "event_type-corrida-de-15-km": EventType.RUN.value,
             "event_type-milha": EventType.RUN.value,
-            "event_type-legua": EventType.RUN.value,
-            "event_type-estafetas": EventType.RUN.value,
-            "event_type-t-estafeta": EventType.RUN.value,
+            "event_type-legua": EventType.FIVE_K.value,
+            "event_type-estafetas": EventType.ESTAFETAS.value,
+            "event_type-t-estafeta": EventType.ESTAFETAS.value,
             "event_type-obstaculos": EventType.RUN.value,
             "event_type-pista": EventType.RUN.value,
             "event_type-running-tours": EventType.RUN.value,
@@ -149,7 +151,7 @@ class EventExtractor:
             "event_type-backyard": EventType.RUN.value,
             "event_type-corta-mato": EventType.CROSS_COUNTRY.value,
             "event_type-outras": EventType.RUN.value,
-            "event_type-kids": EventType.RUN.value,
+            "event_type-kids": EventType.KIDS.value,
             "event_type-kids-trail": EventType.TRAIL.value,
             "São Silvestre": EventType.SAINT_SILVESTER.value,
             "event_type-sao-silvestre": EventType.SAINT_SILVESTER.value,
