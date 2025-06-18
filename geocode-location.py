@@ -106,8 +106,9 @@ class Geocoder:
                 data = json.loads(response.read().decode("utf-8"))
                 return data if isinstance(data, list) else None
 
-        except Exception:
-            return None
+        except Exception as e:
+            print(f"HTTP request failed: {e}", file=sys.stderr)
+            raise  # Re-raise to trigger non-zero exit code
 
     def prioritize_results(self, results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Prioritize results by address type relevance, but include all types."""
@@ -285,13 +286,17 @@ Examples:
         cache_file.unlink(missing_ok=True)
 
     # Geocode
-    result = geocoder.geocode(args.location, verbose=args.verbose)
+    try:
+        result = geocoder.geocode(args.location, verbose=args.verbose)
 
-    # Output result
-    if result:
-        print(json.dumps(result, indent=2, ensure_ascii=False))
-    else:
-        print("null")
+        # Output result
+        if result:
+            print(json.dumps(result, indent=2, ensure_ascii=False))
+        else:
+            print("null")
+    except Exception as e:
+        print(f"Geocoding failed: {e}", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
