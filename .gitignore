@@ -5,3 +5,5 @@ ics/
 descriptions/
 features/
 media/
+pages/
+geocoding_cache/

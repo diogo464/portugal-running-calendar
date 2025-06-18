@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Geocode location using OpenStreetMap Nominatim API
+# Geocode location using OpenStreetMap Nominatim API with caching
 # Usage: ./geocode_location.sh "Location Name"
 
 if [ $# -eq 0 ]; then
@@ -10,6 +10,21 @@ if [ $# -eq 0 ]; then
 fi
 
 LOCATION="$1"
+
+# Create cache directory
+CACHE_DIR="geocoding_cache"
+mkdir -p "$CACHE_DIR"
+
+# Generate hash for cache filename
+LOCATION_HASH=$(echo -n "$LOCATION" | md5sum | cut -d' ' -f1)
+CACHE_FILE="$CACHE_DIR/${LOCATION_HASH}.txt"
+
+# Check if cached result exists
+if [ -f "$CACHE_FILE" ]; then
+    # Return cached result
+    cat "$CACHE_FILE"
+    exit 0
+fi
 # Clean up the location string: remove escaped commas, normalize spaces, remove duplicates
 CLEANED_LOCATION=$(echo "$LOCATION" | sed 's/\\,/,/g' | sed 's/  */ /g' | sed 's/^ *//g' | sed 's/ *$//g')
 # Remove duplicate parts (e.g. "Pinhal Novo, Palmela Pinhal Novo, Palmela" -> "Pinhal Novo, Palmela")
@@ -63,8 +78,14 @@ if [ -z "$FILTERED_RESULTS" ] || [ "$FILTERED_RESULTS" = "[]" ] || [ "$FILTERED_
     exit 1
 fi
 
-# Parse and display results
-echo "$FILTERED_RESULTS" | jq -r '
+# Generate the complete output
+OUTPUT=""
+OUTPUT+="Original: $LOCATION"$'\n'
+OUTPUT+="Cleaned: $CLEANED_LOCATION"$'\n'
+OUTPUT+="Searching for: $CLEANED_LOCATION"$'\n'
+OUTPUT+="=================================="$'\n'
+
+OUTPUT+=$(echo "$FILTERED_RESULTS" | jq -r '
 .[] |
 {
     name: .name,
@@ -89,11 +110,10 @@ Coordinates: \(.coordinates.lat), \(.coordinates.lon)
 Bounding Box: [\(.boundingbox.south), \(.boundingbox.north), \(.boundingbox.west), \(.boundingbox.east)]
 Importance: \(.importance)
 ---"
-' | head -20  # Limit output to avoid too much data
+' | head -20)
 
-echo ""
-echo "Most relevant result (JSON):"
-echo "$FILTERED_RESULTS" | jq '
+OUTPUT+=$'\n'$'\n'"Most relevant result (JSON):"$'\n'
+OUTPUT+=$(echo "$FILTERED_RESULTS" | jq '
 sort_by(-.importance) | .[0] |
 {
     name: .name,
@@ -109,4 +129,10 @@ sort_by(-.importance) | .[0] |
         west: (.boundingbox[2] | tonumber), 
         east: (.boundingbox[3] | tonumber)
     }
-}'
+}')
+
+# Cache the result
+echo "$OUTPUT" > "$CACHE_FILE"
+
+# Output the result
+echo "$OUTPUT"
