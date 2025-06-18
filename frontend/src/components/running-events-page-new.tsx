@@ -18,6 +18,7 @@ import {
   useEvents,
   filterHelpers
 } from "@/lib/event-filters"
+import SimpleMap from "@/components/SimpleMap"
 
 // Main component with centralized filter management
 export default function RunningEventsPage() {
@@ -87,6 +88,9 @@ export default function RunningEventsPage() {
   return (
     <div className="min-h-screen">
       <div className="container mx-auto px-3 md:px-4 py-4 md:py-8">
+        {/* Simple Map at top */}
+        <SimpleMap />
+        
         {/* Header */}
         <div className="mb-6 md:mb-8">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
