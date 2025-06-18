@@ -44,6 +44,14 @@ class Geocoder:
         # User agent for API compliance
         self.user_agent = "portugal-running-geocoder/1.0"
 
+        # Common Portuguese location corrections
+        self.location_corrections = {
+            "mondim de basto bastos": "mondim de basto",
+            "vila real vila real": "vila real",
+            "porto porto": "porto",
+            "lisboa lisboa": "lisboa",
+        }
+
     def clean_location(self, location: str) -> str:
         """Clean up location string by removing duplicates and normalizing spaces."""
         if not location:
@@ -61,6 +69,38 @@ class Geocoder:
                 unique_words.append(word)
 
         return " ".join(unique_words)
+
+    def preprocess_location(self, location: str) -> List[str]:
+        """Generate multiple cleaned variations of the location."""
+        if not location:
+            return []
+
+        location_lower = location.lower().strip()
+        variants = [location_lower]
+
+        # Apply known corrections
+        for wrong, correct in self.location_corrections.items():
+            if wrong in location_lower:
+                variants.append(location_lower.replace(wrong, correct))
+
+        # Remove duplicate words (like "Basto Bastos" -> "Basto")
+        words = location_lower.split()
+        deduplicated = []
+        for word in words:
+            if word not in deduplicated:
+                deduplicated.append(word)
+        if len(deduplicated) != len(words):
+            variants.append(" ".join(deduplicated))
+
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_variants = []
+        for variant in variants:
+            if variant not in seen:
+                seen.add(variant)
+                unique_variants.append(variant)
+
+        return unique_variants
 
     def get_cache_key(self, location: str) -> str:
         """Generate cache key for location."""
@@ -162,60 +202,29 @@ class Geocoder:
         except (ValueError, TypeError):
             return None
 
-    def geocode(self, location: str, verbose: bool = False) -> Optional[Dict[str, Any]]:
-        """Geocode a location with caching."""
-        if not location:
-            return None
-
+    def _try_single_location(
+        self, location: str, verbose: bool = False
+    ) -> Optional[Dict[str, Any]]:
+        """Try to geocode a single location string."""
         # Clean location
         cleaned_location = self.clean_location(location)
-        if verbose:
-            print(f"Original: '{location}'", file=sys.stderr)
-            print(f"Cleaned: '{cleaned_location}'", file=sys.stderr)
 
         # Check cache
         cache_key = self.get_cache_key(cleaned_location)
         cached_result = self.get_cached_result(cache_key)
         if cached_result is not None:
             if verbose:
-                print("Using cached result", file=sys.stderr)
+                print(f"Using cached result for: '{location}'", file=sys.stderr)
             return cached_result
-
-        if verbose:
-            print("Querying Nominatim API...", file=sys.stderr)
 
         # Query API
         results = self.query_nominatim(cleaned_location)
         if not results:
-            if verbose:
-                print("No results from API", file=sys.stderr)
             self.cache_result(cache_key, None)
             return None
 
-        if verbose:
-            print(f"API returned {len(results)} results", file=sys.stderr)
-
         # Prioritize results (relevant types first, but include all)
         prioritized_results = self.prioritize_results(results)
-
-        if verbose:
-            relevant_count = len(
-                [r for r in results if r.get("addresstype", "") in self.relevant_types]
-            )
-            print(
-                f"Found {relevant_count} relevant results, {len(results) - relevant_count} other types",
-                file=sys.stderr,
-            )
-            if not self.all_types and len(results) > relevant_count:
-                other_types = [
-                    r.get("addresstype", "")
-                    for r in results
-                    if r.get("addresstype", "") not in self.relevant_types
-                ]
-                print(
-                    f"Other address types found: {list(set(other_types))}",
-                    file=sys.stderr,
-                )
 
         # Get best result (highest importance, with relevant types having priority)
         best_result = max(
@@ -224,17 +233,68 @@ class Geocoder:
         formatted_result = self.format_result(best_result)
 
         if formatted_result:
-            if verbose:
-                print(
-                    f"Best result: {formatted_result['display_name']} ({formatted_result['addresstype']})",
-                    file=sys.stderr,
-                )
             self.cache_result(cache_key, formatted_result)
             return formatted_result
 
-        if verbose:
-            print("Failed to format result", file=sys.stderr)
         self.cache_result(cache_key, None)
+        return None
+
+    def geocode(self, location: str, verbose: bool = False) -> Optional[Dict[str, Any]]:
+        """Enhanced geocoding with preprocessing and multiple fallback strategies."""
+        if not location:
+            return None
+
+        if verbose:
+            print(f"Enhanced geocoding for: '{location}'", file=sys.stderr)
+
+        # Strategy 1: Try preprocessed variants (handles duplicates, common errors)
+        variants = self.preprocess_location(location)
+        if len(variants) > 1 and verbose:
+            print(
+                f"Generated {len(variants)} preprocessed variants: {variants}",
+                file=sys.stderr,
+            )
+
+        for variant in variants:
+            if verbose:
+                print(f"Trying variant: '{variant}'", file=sys.stderr)
+            result = self._try_single_location(variant, verbose)
+            if result:
+                if verbose:
+                    print(f"✓ Success with variant: '{variant}'", file=sys.stderr)
+                return result
+
+        # Strategy 2: Comma-based progressive fallback
+        location_parts = [part.strip() for part in location.split(",") if part.strip()]
+        if len(location_parts) > 1:
+            if verbose:
+                print(
+                    f"Trying comma-based fallback with {len(location_parts)} parts",
+                    file=sys.stderr,
+                )
+
+            for i in range(len(location_parts)):
+                current_location = ", ".join(location_parts[i:])
+
+                if verbose:
+                    print(
+                        f"Fallback attempt {i+1}: '{current_location}'", file=sys.stderr
+                    )
+
+                result = self._try_single_location(current_location, verbose)
+                if result:
+                    if verbose:
+                        print(
+                            f"✓ Success with fallback: '{current_location}'",
+                            file=sys.stderr,
+                        )
+                    return result
+                elif verbose:
+                    print(f"✗ Failed fallback: '{current_location}'", file=sys.stderr)
+
+        # All strategies failed
+        if verbose:
+            print(f"All geocoding strategies failed for: '{location}'", file=sys.stderr)
         return None
 
 
