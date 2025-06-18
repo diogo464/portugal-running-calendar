@@ -247,6 +247,46 @@ class EventExtractor:
         except Exception:
             return None
 
+    def _preprocess_location(self, location: str) -> List[str]:
+        """Generate multiple cleaned variations of the location."""
+        if not location:
+            return []
+
+        location_lower = location.lower().strip()
+        variants = [location_lower]
+
+        # Common Portuguese location corrections
+        corrections = {
+            "mondim de basto bastos": "mondim de basto",
+            "vila real vila real": "vila real",
+            "porto porto": "porto",
+            "lisboa lisboa": "lisboa",
+        }
+
+        # Apply known corrections
+        for wrong, correct in corrections.items():
+            if wrong in location_lower:
+                variants.append(location_lower.replace(wrong, correct))
+
+        # Remove duplicate words (like "Basto Bastos" -> "Basto")
+        words = location_lower.split()
+        deduplicated = []
+        for word in words:
+            if word not in deduplicated:
+                deduplicated.append(word)
+        if len(deduplicated) != len(words):
+            variants.append(" ".join(deduplicated))
+
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_variants = []
+        for variant in variants:
+            if variant not in seen:
+                seen.add(variant)
+                unique_variants.append(variant)
+
+        return unique_variants
+
     def _try_geocode_single(self, location: str) -> Optional[Dict[str, Any]]:
         """Try to geocode a single location string."""
         try:
@@ -287,34 +327,52 @@ class EventExtractor:
             return None
 
     def geocode_location(self, location: str) -> Optional[Dict[str, Any]]:
-        """Geocode location with fallback logic - progressively remove location parts."""
+        """Enhanced geocoding with preprocessing and multiple fallback strategies."""
         if not location or self.args.skip_geocoding:
             return None
 
-        # Split location by commas and try progressively smaller parts
-        location_parts = [part.strip() for part in location.split(",") if part.strip()]
-
         if self.args.verbose:
-            print(f"     Trying geocoding with {len(location_parts)} location parts")
+            print(f"     Enhanced geocoding for: '{location}'")
 
-        for i in range(len(location_parts)):
-            # Try with remaining parts (remove first i parts)
-            current_location = ", ".join(location_parts[i:])
+        # Strategy 1: Try preprocessed variants (handles duplicates, common errors)
+        variants = self._preprocess_location(location)
+        if len(variants) > 1 and self.args.verbose:
+            print(f"     Generated {len(variants)} preprocessed variants: {variants}")
 
+        for variant in variants:
             if self.args.verbose:
-                print(f"     Attempt {i+1}: '{current_location}'")
-
-            result = self._try_geocode_single(current_location)
+                print(f"     Trying variant: '{variant}'")
+            result = self._try_geocode_single(variant)
             if result:
                 if self.args.verbose:
-                    print(f"     ✓ Success with: '{current_location}'")
+                    print(f"     ✓ Success with variant: '{variant}'")
                 return result
-            elif self.args.verbose:
-                print(f"     ✗ Failed: '{current_location}'")
 
-        # All attempts failed
+        # Strategy 2: Comma-based progressive fallback
+        location_parts = [part.strip() for part in location.split(",") if part.strip()]
+        if len(location_parts) > 1:
+            if self.args.verbose:
+                print(
+                    f"     Trying comma-based fallback with {len(location_parts)} parts"
+                )
+
+            for i in range(len(location_parts)):
+                current_location = ", ".join(location_parts[i:])
+
+                if self.args.verbose:
+                    print(f"     Fallback attempt {i+1}: '{current_location}'")
+
+                result = self._try_geocode_single(current_location)
+                if result:
+                    if self.args.verbose:
+                        print(f"     ✓ Success with fallback: '{current_location}'")
+                    return result
+                elif self.args.verbose:
+                    print(f"     ✗ Failed fallback: '{current_location}'")
+
+        # All strategies failed
         if self.args.verbose:
-            print(f"     All geocoding attempts failed for: '{location}'")
+            print(f"     All geocoding strategies failed for: '{location}'")
         return None
 
     def generate_short_description(self, description: str) -> Optional[str]:
