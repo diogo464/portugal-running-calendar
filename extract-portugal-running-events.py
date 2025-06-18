@@ -5,6 +5,10 @@ import requests
 import subprocess
 import re
 import time
+import hashlib
+import os
+from urllib.parse import urlparse
+from pathlib import Path
 from typing import Optional, List, Dict, Any
 
 def fetch_all_events() -> List[Dict]:
@@ -166,6 +170,50 @@ def generate_short_description(description: str) -> Optional[str]:
         
     return None
 
+def download_image(image_url: str, media_dir: str = "media") -> Optional[str]:
+    """Download image from URL and save with hash filename. Return local path."""
+    if not image_url:
+        return None
+        
+    try:
+        # Create media directory if it doesn't exist
+        Path(media_dir).mkdir(exist_ok=True)
+        
+        # Generate filename from URL hash
+        url_hash = hashlib.md5(image_url.encode()).hexdigest()
+        
+        # Get file extension from URL
+        parsed_url = urlparse(image_url)
+        path_parts = parsed_url.path.split('.')
+        extension = path_parts[-1].lower() if len(path_parts) > 1 else 'jpg'
+        
+        # Ensure valid extension
+        if extension not in ['jpg', 'jpeg', 'png', 'gif', 'webp']:
+            extension = 'jpg'
+            
+        filename = f"{url_hash}.{extension}"
+        filepath = os.path.join(media_dir, filename)
+        
+        # Skip if already downloaded
+        if os.path.exists(filepath):
+            return filepath
+            
+        # Download the image
+        response = requests.get(image_url, timeout=30, stream=True)
+        response.raise_for_status()
+        
+        # Save to file
+        with open(filepath, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
+                
+        print(f"Downloaded: {image_url} -> {filepath}")
+        return filepath
+        
+    except Exception as e:
+        print(f"Error downloading image {image_url}: {e}")
+        return None
+
 def extract_distances_and_types(description: str, event_types: List[str]) -> tuple[List[str], List[str]]:
     """Extract distances and event types from description and taxonomies."""
     distances = []
@@ -233,10 +281,16 @@ def process_event(event_data: dict) -> Dict[str, Any]:
     # Generate short description
     short_description = generate_short_description(description)
     
-    # Get images
+    # Download and process images
     images = []
     if event_data.get('featured_image_src'):
-        images.append(event_data['featured_image_src'])
+        image_url = event_data['featured_image_src']
+        local_path = download_image(image_url)
+        if local_path:
+            images.append(local_path)
+        else:
+            # Fallback to original URL if download fails
+            images.append(image_url)
     
     return {
         'event_id': event_id,
