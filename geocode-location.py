@@ -325,6 +325,8 @@ Examples:
   %(prog)s "Lisboa" --verbose          # With detailed output
   %(prog)s "Lisboa" --all-types        # Include all address types
   %(prog)s "Lisboa" --cache-dir /tmp   # Custom cache directory
+  %(prog)s "Lisboa" --clear-cache      # Clear cache for Lisboa (no geocoding)
+  %(prog)s "Lisboa" --no-cache         # Skip cache and always query API
         """,
     )
 
@@ -350,10 +352,31 @@ Examples:
         "--no-cache", action="store_true", help="Skip cache and always query API"
     )
 
+    parser.add_argument(
+        "--clear-cache", action="store_true", help="Clear cache for this location and exit (does not geocode)"
+    )
+
     args = parser.parse_args()
 
     # Create geocoder
     geocoder = Geocoder(cache_dir=args.cache_dir, all_types=args.all_types)
+
+    # If clear-cache is specified, clear cache for this location and exit
+    if args.clear_cache:
+        cleaned_location = geocoder.clean_location(args.location)
+        cache_key = geocoder.get_cache_key(cleaned_location)
+        cache_file = geocoder.cache_dir / f"{cache_key}.json"
+        
+        if cache_file.exists():
+            cache_file.unlink()
+            if args.verbose:
+                print(f"Cleared cache for '{args.location}' (key: {cache_key})", file=sys.stderr)
+            print(f"Cache cleared for: {args.location}")
+        else:
+            if args.verbose:
+                print(f"No cache found for '{args.location}' (key: {cache_key})", file=sys.stderr)
+            print(f"No cache found for: {args.location}")
+        return
 
     # If no-cache is specified, clear any existing cache for this location
     if args.no_cache:
