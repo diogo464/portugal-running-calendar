@@ -33,6 +33,31 @@ class EventExtractor:
         self.processed_events = []
         self.errors = []
         
+        # Canonical event type mapping
+        # Maps original event types to clean, standardized types
+        # Add mappings as we discover new types during extraction
+        self.event_type_mapping = {
+            # Marathon types
+            "Maratona": "marathon",
+            "Meia-Maratona": "half-marathon",
+            "marathon": "marathon",
+            
+            # Trail types  
+            "T-Trail": "trail",
+            "Trail": "trail",
+            
+            # Running types
+            "Corrida": "run",
+            "Corrida 10 km": "10k",
+            "Corrida 5 km": "5k",
+            
+            # Walking types
+            "Caminhada": "walk",
+            
+            # Cross country
+            "Cross": "cross-country",
+        }
+        
     def fetch_all_events(self) -> List[Dict]:
         """Fetch events from WordPress API with optional limits."""
         events = []
@@ -262,10 +287,27 @@ class EventExtractor:
                 print(f"   Error downloading image {image_url}: {e}")
             return None
 
+    def map_event_types(self, original_types: List[str]) -> List[str]:
+        """Map original event types to canonical types."""
+        canonical_types = set()
+        
+        for original_type in original_types:
+            if original_type in self.event_type_mapping:
+                canonical_type = self.event_type_mapping[original_type]
+                canonical_types.add(canonical_type)
+            else:
+                # Fatal error - unmapped type found
+                print(f"\n❌ FATAL ERROR: Unmapped event type found: '{original_type}'")
+                print(f"   Please add this mapping to the event_type_mapping dictionary")
+                print(f"   Example: \"{original_type}\": \"canonical-type-name\"")
+                print(f"\n   All original types in this event: {original_types}")
+                raise ValueError(f"Unmapped event type: '{original_type}'")
+        
+        return list(canonical_types)
+
     def extract_distances_and_types(self, description: str, event_types: List[str]) -> tuple[List[str], List[str]]:
         """Extract distances and event types from description and taxonomies."""
         distances = []
-        types = []
         
         # Extract distances from description
         desc_lower = description.lower()
@@ -273,10 +315,8 @@ class EventExtractor:
         # Common distance patterns
         if 'maratona' in desc_lower and 'meia' not in desc_lower:
             distances.append('42.2km')
-            types.append('marathon')
         if 'meia' in desc_lower and 'maratona' in desc_lower:
             distances.append('21.1km')
-            types.append('half marathon')
         
         # Extract numeric distances
         distance_matches = re.findall(r'(\d+)\s*k?m', desc_lower)
@@ -284,21 +324,10 @@ class EventExtractor:
             if match.isdigit():
                 distances.append(f"{match}km")
         
-        # Process taxonomies
-        for event_type in event_types:
-            type_lower = event_type.lower()
-            if 'trail' in type_lower:
-                types.append('trail')
-            elif 'maratona' in type_lower:
-                types.append('marathon')
-            elif 'corrida' in type_lower:
-                types.append('run')
-            elif 'caminhada' in type_lower:
-                types.append('walk')
-            elif 'cross' in type_lower:
-                types.append('cross country')
+        # Map event types using canonical mapping
+        canonical_types = self.map_event_types(event_types)
         
-        return list(set(distances)), list(set(types))
+        return list(set(distances)), canonical_types
 
     def process_event(self, event_data: dict) -> Dict[str, Any]:
         """Process a single event and return enriched data."""
@@ -325,9 +354,8 @@ class EventExtractor:
         bounding_box = geo_data.get('bounding_box') if geo_data else None
         location_display_name = geo_data.get('display_name') if geo_data else location
         
-        # Extract distances and types
-        distances, extracted_types = self.extract_distances_and_types(description, event_types)
-        all_types = list(set(event_types + extracted_types))
+        # Extract distances and canonical types
+        distances, canonical_types = self.extract_distances_and_types(description, event_types)
         
         # Generate short description
         short_description = self.generate_short_description(description)
@@ -350,7 +378,7 @@ class EventExtractor:
             'event_coordinates': coordinates,
             'event_bounding_box': bounding_box,
             'event_distances': distances,
-            'event_types': all_types,
+            'event_types': canonical_types,
             'event_images': images,
             'event_start_date': start_date,
             'event_end_date': end_date,
@@ -416,18 +444,38 @@ class EventExtractor:
         print(f"   📄 Output file: {self.args.output}")
         
         # Statistics
-        events_with_coordinates = sum(1 for e in self.processed_events if e['event_coordinates'])
-        events_with_dates = sum(1 for e in self.processed_events if e['event_start_date'])
-        events_with_distances = sum(1 for e in self.processed_events if e['event_distances'])
-        events_with_short_desc = sum(1 for e in self.processed_events if e['description_short'])
-        events_with_images = sum(1 for e in self.processed_events if e['event_images'])
-        
-        print(f"\n📈 Data quality:")
-        print(f"   🗺️  Events with coordinates: {events_with_coordinates} ({events_with_coordinates/len(self.processed_events)*100:.1f}%)")
-        print(f"   📅 Events with dates: {events_with_dates} ({events_with_dates/len(self.processed_events)*100:.1f}%)")
-        print(f"   🏃‍♀️ Events with distances: {events_with_distances} ({events_with_distances/len(self.processed_events)*100:.1f}%)")
-        print(f"   📝 Events with short descriptions: {events_with_short_desc} ({events_with_short_desc/len(self.processed_events)*100:.1f}%)")
-        print(f"   🖼️  Events with images: {events_with_images} ({events_with_images/len(self.processed_events)*100:.1f}%)")
+        if self.processed_events:
+            events_with_coordinates = sum(1 for e in self.processed_events if e['event_coordinates'])
+            events_with_dates = sum(1 for e in self.processed_events if e['event_start_date'])
+            events_with_distances = sum(1 for e in self.processed_events if e['event_distances'])
+            events_with_short_desc = sum(1 for e in self.processed_events if e['description_short'])
+            events_with_images = sum(1 for e in self.processed_events if e['event_images'])
+            
+            total_events = len(self.processed_events)
+            print(f"\n📈 Data quality:")
+            print(f"   🗺️  Events with coordinates: {events_with_coordinates} ({events_with_coordinates/total_events*100:.1f}%)")
+            print(f"   📅 Events with dates: {events_with_dates} ({events_with_dates/total_events*100:.1f}%)")
+            print(f"   🏃‍♀️ Events with distances: {events_with_distances} ({events_with_distances/total_events*100:.1f}%)")
+            print(f"   📝 Events with short descriptions: {events_with_short_desc} ({events_with_short_desc/total_events*100:.1f}%)")
+            print(f"   🖼️  Events with images: {events_with_images} ({events_with_images/total_events*100:.1f}%)")
+        else:
+            print(f"\n📈 No events were successfully processed")
+            
+            # Show discovered types to help with mapping
+            if self.errors:
+                print(f"\n🔍 To resolve mapping errors, add these types to event_type_mapping:")
+                unique_types = set()
+                for error in self.errors:
+                    if "Unmapped event type:" in error:
+                        # Extract the type from error message
+                        import re
+                        match = re.search(r"Unmapped event type: '([^']+)'", error)
+                        if match:
+                            unique_types.add(match.group(1))
+                
+                for event_type in sorted(unique_types):
+                    print(f"   \"{event_type}\": \"canonical-name\",")
+                print(f"\n   💡 Suggested canonical names: marathon, half-marathon, 10k, 5k, trail, run, walk, cross-country")
         
         if self.errors and self.args.verbose:
             print(f"\n⚠️  Errors encountered:")
