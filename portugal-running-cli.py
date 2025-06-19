@@ -20,8 +20,7 @@ import re
 import urllib.parse
 import asyncio
 from pathlib import Path
-from datetime import datetime
-from typing import Optional, List, Dict, Any, Union, Tuple
+from typing import Optional, List, Dict, Any, Tuple
 from dataclasses import dataclass, asdict, field
 from enum import Enum
 
@@ -66,7 +65,7 @@ class EventLocation:
             "locality": self.locality
         }
         if self.coordinates:
-            result["coordinates"] = self.coordinates.to_dict()
+            result["coordinates"] = self.coordinates.to_dict()  # type: ignore
         return result
 
 
@@ -327,7 +326,7 @@ async def subprocess_run(command: List[str], input_data: Optional[str] = None,
             timeout=timeout
         )
         
-        return proc.returncode, stdout.decode(), stderr.decode()
+        return proc.returncode or 0, stdout.decode(), stderr.decode()
         
     except asyncio.TimeoutError:
         if 'proc' in locals():
@@ -392,6 +391,7 @@ class WordPressClient:
         
         async with self.semaphore:  # Rate limiting
             try:
+                assert self.session is not None
                 status, content = await http_get(self.session, url)
                 if status == 200:
                     data = json.loads(content)
@@ -441,7 +441,7 @@ class WordPressClient:
                 short_description = await self._generate_description(ics_data['description'])
             
             # Prepare result in the expected format
-            result = {
+            result: Dict[str, Any] = {
                 "event_id": event_id,
                 "ics_data": ics_data,
                 "geo_data": geo_data,
@@ -487,6 +487,7 @@ class WordPressClient:
             # Fetch from network
             url = f"{PORTUGAL_RUNNING_BASE_URL.replace('https://', 'http://')}/export-events/{event_id}_0/"
             try:
+                assert self.session is not None
                 status, content = await http_get(self.session, url)
                 if status != 200:
                     logger.error(f"ICS|Bad status|{event_id}|{status}")
@@ -509,6 +510,8 @@ class WordPressClient:
                 return None
         
         # Parse the ICS content (reuse existing sync method)
+        if ics_content is None:
+            return None
         return self._parse_ics_content(ics_content)
     
     def _parse_ics_content(self, ics_content: str) -> Optional[Dict]:
@@ -574,8 +577,8 @@ class WordPressClient:
             'Ã¡': 'á', 'Ã ': 'à', 'Ã¢': 'â', 'Ã£': 'ã',
             'Ã©': 'é', 'Ãª': 'ê', 'Ã­': 'í', 'Ã³': 'ó',
             'Ã´': 'ô', 'Ãµ': 'õ', 'Ãº': 'ú', 'Ã§': 'ç',
-            'Ã±': 'ñ', 'â': '"', 'â': '"', 'â': '–',
-            'â': '—', 'â¢': '•', 'â¦': '…',
+            'Ã±': 'ñ', 'â\x9c': '"', 'â\x9d': '"', 'â\x93': '–',
+            'â\x94': '—', 'â¢': '•', 'â¦': '…',
         }
         
         result = text
@@ -696,6 +699,7 @@ class GoogleGeocodingClient:
         url = f"{self.base_url}?{urllib.parse.urlencode(params)}"
         
         try:
+            assert self.session is not None
             status, content = await http_get(self.session, url)
             if status != 200:
                 logger.error(f"GEOCODING|Bad status|{location}|{status}")
@@ -827,19 +831,19 @@ def parse_ics_data(ics_content: str) -> Optional[IcsData]:
         "end": r"DTEND:(\d{8})"
     }
     
-    for field, pattern in patterns.items():
+    for field_name, pattern in patterns.items():
         match = re.search(pattern, ics_content, re.MULTILINE)
         if match:
             value = match.group(1).strip()
-            if field == "location":
+            if field_name == "location":
                 ics_data.location = value
-            elif field == "summary":
+            elif field_name == "summary":
                 ics_data.summary = value
-            elif field == "description":
+            elif field_name == "description":
                 ics_data.description = value.replace("\\n", "\n")
-            elif field == "start":
+            elif field_name == "start":
                 ics_data.start_date = f"{value[:4]}-{value[4:6]}-{value[6:8]}"
-            elif field == "end":
+            elif field_name == "end":
                 ics_data.end_date = f"{value[:4]}-{value[4:6]}-{value[6:8]}"
     
     return ics_data
@@ -1575,7 +1579,7 @@ async def main():
     )
     
     # Cache stats
-    cache_stats_parser = cache_subparsers.add_parser(
+    cache_subparsers.add_parser(
         'stats',
         help='Show cache statistics'
     )
@@ -1609,7 +1613,7 @@ async def main():
     except KeyboardInterrupt:
         print("\n⚠️  Interrupted by user", file=sys.stderr)
         return 130
-    except Exception as e:
+    except Exception:
         logger.exception("Unhandled exception")
         return 1
 
