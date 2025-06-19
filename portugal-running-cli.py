@@ -16,10 +16,8 @@ import sys
 import os
 import hashlib
 import time
-import subprocess
 import re
 import urllib.parse
-import urllib.request
 import asyncio
 from pathlib import Path
 from datetime import datetime
@@ -27,12 +25,8 @@ from typing import Optional, List, Dict, Any, Union, Tuple
 from dataclasses import dataclass, asdict, field
 from enum import Enum
 
-try:
-    import aiohttp
-    import aiofiles
-    ASYNC_AVAILABLE = True
-except ImportError:
-    ASYNC_AVAILABLE = False
+import aiohttp
+import aiofiles
 
 
 # Constants
@@ -223,100 +217,14 @@ def get_cache_stats(cache_dir: Path) -> Dict[str, Any]:
 
 
 # ============================================================================
-# HTTP Client Functions
-# ============================================================================
-
-def http_get(url: str, timeout: int = 30) -> Tuple[int, str]:
-    """
-    Perform HTTP GET request.
-    Returns (status_code, content).
-    """
-    try:
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; PortugalRunningCLI/1.0)'
-        })
-        
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            content = response.read().decode('utf-8')
-            return response.status, content
-            
-    except urllib.error.HTTPError as e:
-        return e.code, e.read().decode('utf-8', errors='replace')
-    except urllib.error.URLError as e:
-        logger.error(f"HTTP|Request failed|{url}|{str(e)}")
-        raise
-    except Exception as e:
-        logger.error(f"HTTP|Unexpected error|{url}|{str(e)}")
-        raise
-
-
-def cached_get(url: str, cache_path: Path, timeout: int = 30, 
-               force_refresh: bool = False) -> Optional[str]:
-    """
-    Perform cached HTTP GET request.
-    Returns content string or None on error.
-    """
-    # Check cache first
-    if not force_refresh and cache_path.exists():
-        logger.debug(f"Cache hit for {url}")
-        with open(cache_path, 'r', encoding='utf-8') as f:
-            return f.read()
-    
-    # Fetch from network
-    logger.debug(f"Fetching {url}")
-    try:
-        status, content = http_get(url, timeout)
-        if status == 200:
-            write_cache(cache_path, content)
-            return content
-        else:
-            logger.error(f"HTTP|Bad status|{url}|{status}")
-            return None
-    except Exception as e:
-        logger.error(f"HTTP|Request failed|{url}|{str(e)}")
-        return None
-
-
-def download_file(url: str, output_path: Path, timeout: int = 30) -> bool:
-    """
-    Download file from URL to path.
-    Returns True on success.
-    """
-    if output_path.exists():
-        logger.debug(f"File already exists: {output_path}")
-        return True
-    
-    try:
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; PortugalRunningCLI/1.0)'
-        })
-        
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            with open(output_path, 'wb') as f:
-                f.write(response.read())
-        
-        logger.debug(f"Downloaded {url} to {output_path}")
-        return True
-        
-    except Exception as e:
-        logger.error(f"DOWNLOAD|Failed|{url}|{str(e)}")
-        output_path.unlink(missing_ok=True)
-        return False
-
-
-# ============================================================================
 # Async HTTP Client Functions
 # ============================================================================
 
-async def async_http_get(session: 'aiohttp.ClientSession', url: str, timeout: int = 30) -> Tuple[int, str]:
+async def http_get(session: 'aiohttp.ClientSession', url: str, timeout: int = 30) -> Tuple[int, str]:
     """
     Perform async HTTP GET request.
     Returns (status_code, content).
     """
-    if not ASYNC_AVAILABLE:
-        raise RuntimeError("aiohttp not available - install with: pip install aiohttp aiofiles")
     
     try:
         async_timeout = aiohttp.ClientTimeout(total=timeout)
@@ -332,14 +240,12 @@ async def async_http_get(session: 'aiohttp.ClientSession', url: str, timeout: in
         raise
 
 
-async def async_cached_get(session: 'aiohttp.ClientSession', url: str, cache_path: Path, 
-                          timeout: int = 30, force_refresh: bool = False) -> Optional[str]:
+async def cached_get(session: 'aiohttp.ClientSession', url: str, cache_path: Path, 
+                    timeout: int = 30, force_refresh: bool = False) -> Optional[str]:
     """
     Perform cached async HTTP GET request.
     Returns content string or None on error.
     """
-    if not ASYNC_AVAILABLE:
-        raise RuntimeError("aiofiles not available - install with: pip install aiohttp aiofiles")
     
     # Check cache first
     if not force_refresh and cache_path.exists():
@@ -350,7 +256,7 @@ async def async_cached_get(session: 'aiohttp.ClientSession', url: str, cache_pat
     # Fetch from network
     logger.debug(f"Fetching {url}")
     try:
-        status, content = await async_http_get(session, url, timeout)
+        status, content = await http_get(session, url, timeout)
         if status == 200:
             # Ensure cache directory exists
             cache_path.parent.mkdir(parents=True, exist_ok=True)
@@ -365,14 +271,12 @@ async def async_cached_get(session: 'aiohttp.ClientSession', url: str, cache_pat
         return None
 
 
-async def async_download_file(session: 'aiohttp.ClientSession', url: str, output_path: Path, 
-                             timeout: int = 30) -> bool:
+async def download_file(session: 'aiohttp.ClientSession', url: str, output_path: Path, 
+                       timeout: int = 30) -> bool:
     """
     Download file from URL to path asynchronously.
     Returns True on success.
     """
-    if not ASYNC_AVAILABLE:
-        raise RuntimeError("aiohttp not available - install with: pip install aiohttp aiofiles")
     
     if output_path.exists():
         logger.debug(f"File already exists: {output_path}")
@@ -403,8 +307,8 @@ async def async_download_file(session: 'aiohttp.ClientSession', url: str, output
 # Async Subprocess Functions
 # ============================================================================
 
-async def async_subprocess_run(command: List[str], input_data: Optional[str] = None, 
-                              timeout: int = 30, cwd: Optional[Path] = None) -> Tuple[int, str, str]:
+async def subprocess_run(command: List[str], input_data: Optional[str] = None, 
+                        timeout: int = 30, cwd: Optional[Path] = None) -> Tuple[int, str, str]:
     """
     Run subprocess command asynchronously.
     Returns (returncode, stdout, stderr).
@@ -443,436 +347,6 @@ async def async_subprocess_run(command: List[str], input_data: Optional[str] = N
 class WordPressClient:
     """Client for WordPress REST API and EventON endpoints."""
     
-    def __init__(self, base_url: str, cache_config: CacheConfig):
-        self.base_url = base_url
-        self.cache_config = cache_config
-        self.api_base = f"{base_url}/wp-json/wp/v2"
-        
-    def fetch_events_page(self, page: int, use_cache: bool = True) -> Optional[List[Dict]]:
-        """Fetch a page of events from WordPress API."""
-        cache_path = self.cache_config.pages_dir / f"events_page_{page}.json"
-        
-        if use_cache and cache_path.exists():
-            return read_cache(cache_path)
-        
-        url = f"{self.api_base}/ajde_events?page={page}"
-        try:
-            status, content = http_get(url)
-            if status == 200:
-                data = json.loads(content)
-                write_cache(cache_path, data)
-                return data
-            else:
-                logger.error(f"API|Bad status|page {page}|{status}")
-                return None
-        except json.JSONDecodeError as e:
-            logger.error(f"JSON|Invalid response|page {page}|{str(e)}")
-            return None
-        except Exception as e:
-            logger.error(f"API|Request failed|page {page}|{str(e)}")
-            return None
-    
-    def fetch_event_details(self, event_id: int, use_cache: bool = True, 
-                           skip_geocoding: bool = False, skip_descriptions: bool = False,
-                           skip_images: bool = False) -> Optional[Dict]:
-        """Fetch detailed event data with ICS processing."""
-        cache_path = self.cache_config.events_dir / f"event_{event_id}.json"
-        
-        if use_cache and cache_path.exists():
-            return read_cache(cache_path)
-        
-        logger.debug(f"Fetching data for event {event_id}")
-        
-        try:
-            # Fetch WordPress event data
-            wp_data = self._fetch_wordpress_event(event_id)
-            if not wp_data:
-                return None
-            
-            # Fetch ICS calendar data
-            ics_data = self._fetch_ics_data(event_id)
-            
-            # Geocode location if available and not skipped
-            geo_data = None
-            if not skip_geocoding and ics_data and ics_data.get('location'):
-                geo_data = self._geocode_location(ics_data['location'])
-            
-            # Generate short description if not skipped
-            short_description = None
-            if not skip_descriptions and ics_data and ics_data.get('description'):
-                short_description = self._generate_description(ics_data['description'])
-            
-            # Prepare result in the expected format
-            result = {
-                "event_id": event_id,
-                "ics_data": ics_data,
-                "geo_data": geo_data,
-                "short_description": short_description,
-                "images": [],
-                "fetched_at": time.time()
-            }
-            
-            # Cache the result
-            write_cache(cache_path, result)
-            return result
-            
-        except Exception as e:
-            logger.error(f"EVENT|Fetch error|{event_id}|{str(e)}")
-            return None
-    
-    def _fetch_wordpress_event(self, event_id: int) -> Optional[Dict]:
-        """Fetch raw event data from WordPress API."""
-        url = f"{self.api_base}/ajde_events/{event_id}"
-        try:
-            status, content = http_get(url)
-            if status == 200:
-                return json.loads(content)
-            else:
-                logger.error(f"WORDPRESS|Bad status|{event_id}|{status}")
-                return None
-        except json.JSONDecodeError as e:
-            logger.error(f"JSON|Invalid response|{event_id}|{str(e)}")
-            return None
-        except Exception as e:
-            logger.error(f"WORDPRESS|Request failed|{event_id}|{str(e)}")
-            return None
-    
-    def _fetch_ics_data(self, event_id: int) -> Optional[Dict]:
-        """Fetch and parse ICS calendar data."""
-        cache_path = self.cache_config.ics_dir / f"event_{event_id}.ics"
-        
-        # Check cache first
-        if cache_path.exists():
-            try:
-                with open(cache_path, 'r', encoding='utf-8') as f:
-                    ics_content = f.read()
-            except UnicodeDecodeError:
-                # Try different encodings for existing cache files
-                encodings = ['latin-1', 'cp1252', 'iso-8859-1']
-                ics_content = None
-                for encoding in encodings:
-                    try:
-                        with open(cache_path, 'r', encoding=encoding) as f:
-                            ics_content = f.read()
-                        break
-                    except UnicodeDecodeError:
-                        continue
-                if ics_content is None:
-                    logger.error(f"ICS|Encoding error|{event_id}")
-                    return None
-        else:
-            # Fetch from network
-            url = f"{PORTUGAL_RUNNING_BASE_URL.replace('https://', 'http://')}/export-events/{event_id}_0/"
-            try:
-                status, content = http_get(url)
-                if status != 200:
-                    logger.error(f"ICS|Bad status|{event_id}|{status}")
-                    return None
-                
-                ics_content = content
-                
-                # Validate ICS format
-                if not ics_content.strip() or "BEGIN:VCALENDAR" not in ics_content:
-                    logger.warning(f"ICS|Invalid format|{event_id}")
-                    return None
-                
-                # Cache the raw ICS content
-                cache_path.parent.mkdir(exist_ok=True)
-                with open(cache_path, 'w', encoding='utf-8') as f:
-                    f.write(ics_content)
-                    
-            except Exception as e:
-                logger.error(f"ICS|Fetch error|{event_id}|{str(e)}")
-                return None
-        
-        # Parse the ICS content
-        return self._parse_ics_content(ics_content)
-    
-    def _parse_ics_content(self, ics_content: str) -> Optional[Dict]:
-        """Parse ICS content and extract event data."""
-        if not ics_content or "BEGIN:VCALENDAR" not in ics_content:
-            return None
-        
-        # Clean the content
-        ics_content = ics_content.replace('\x00', '')
-        ics_content = ''.join(c for c in ics_content if ord(c) >= 32 or c in '\n\r\t')
-        
-        ics_data = {}
-        
-        # Extract location
-        location_match = re.search(r"LOCATION:(.+)", ics_content)
-        if location_match:
-            location = location_match.group(1).strip()
-            location = location.replace("\\,", ",").replace("  ", " ")
-            # Remove duplicate words
-            parts = location.split()
-            unique_parts = []
-            for part in parts:
-                if part not in unique_parts:
-                    unique_parts.append(part)
-            ics_data['location'] = " ".join(unique_parts)
-        
-        # Extract summary
-        summary_match = re.search(r"SUMMARY:(.+)", ics_content)
-        if summary_match:
-            ics_data['summary'] = summary_match.group(1).strip()
-        
-        # Extract dates
-        dtstart_match = re.search(r"DTSTART:(\d+)", ics_content)
-        if dtstart_match:
-            date_str = dtstart_match.group(1)
-            if len(date_str) == 8:
-                ics_data['start_date'] = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-        
-        dtend_match = re.search(r"DTEND:(\d+)", ics_content)
-        if dtend_match:
-            date_str = dtend_match.group(1)
-            if len(date_str) == 8:
-                ics_data['end_date'] = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-        
-        # Extract description
-        desc_match = re.search(r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL)
-        if desc_match:
-            desc = (desc_match.group(1)
-                   .replace("\n ", "")
-                   .replace("\\n", "\n")
-                   .replace("\\,", ","))
-            ics_data['description'] = self._fix_encoding(desc.strip())
-        
-        return ics_data
-    
-    def _fix_encoding(self, text: str) -> str:
-        """Fix common UTF-8 encoding issues."""
-        if not text:
-            return text
-        
-        # Common UTF-8 sequences that were misinterpreted as ISO-8859-1
-        replacements = {
-            'Ã¡': 'á', 'Ã ': 'à', 'Ã¢': 'â', 'Ã£': 'ã',
-            'Ã©': 'é', 'Ãª': 'ê', 'Ã­': 'í', 'Ã³': 'ó',
-            'Ã´': 'ô', 'Ãµ': 'õ', 'Ãº': 'ú', 'Ã§': 'ç',
-            'Ã±': 'ñ', 'â': '"', 'â': '"', 'â': '–',
-            'â': '—', 'â¢': '•', 'â¦': '…',
-        }
-        
-        result = text
-        for wrong, correct in replacements.items():
-            result = result.replace(wrong, correct)
-        
-        # Handle specific problematic patterns
-        additional_fixes = {
-            'C—mara': 'Câmara', 'Dist—ncias': 'Distâncias',
-            'Const—ncia': 'Constância', 'Gr—ndola': 'Grândola',
-            'ORGANIZAÇÇO': 'ORGANIZAÇÃO', 'SÇO': 'SÃO',
-            'EdiÃ§Ã£o': 'Edição', 'organizaÃ§Ã£o': 'organização',
-        }
-        
-        for wrong, correct in additional_fixes.items():
-            result = result.replace(wrong, correct)
-            result = result.replace(wrong.lower(), correct.lower())
-        
-        return result
-    
-    def _geocode_location(self, location: str) -> Optional[Dict]:
-        """Geocode location using existing geocoding logic."""
-        try:
-            # Get API key
-            api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
-            if not api_key:
-                logger.error("GEOCODING|No API key|Set GOOGLE_MAPS_API_KEY environment variable")
-                return None
-            
-            # Use existing geocoding client
-            geocoding_client = GoogleGeocodingClient(api_key, self.cache_config)
-            location_result = geocoding_client.geocode(location)
-            
-            if location_result:
-                return {
-                    "coordinates": {
-                        "lat": location_result.coordinates.lat,
-                        "lon": location_result.coordinates.lon
-                    },
-                    "display_name": location_result.name,
-                    "country": location_result.country,
-                    "locality": location_result.locality,
-                }
-            return None
-            
-        except Exception as e:
-            logger.error(f"GEOCODING|Error|{location}|{str(e)}")
-            return None
-    
-    def _generate_description(self, description: str) -> Optional[str]:
-        """Generate short description using LLM client."""
-        try:
-            llm_client = LLMClient("claude-3.5-haiku", self.cache_config)
-            return llm_client.generate_description(description)
-        except Exception as e:
-            logger.error(f"LLM|Error|{str(e)}")
-            return None
-
-
-class GoogleGeocodingClient:
-    """Google Maps Geocoding API client with caching."""
-    
-    def __init__(self, api_key: str, cache_config: CacheConfig):
-        self.api_key = api_key
-        self.cache_config = cache_config
-        self.base_url = "https://maps.googleapis.com/maps/api/geocode/json"
-        self.min_request_interval = 0.1
-        self.last_request_time = 0
-    
-    def _wait_for_rate_limit(self):
-        """Enforce rate limiting between requests."""
-        current_time = time.time()
-        time_since_last = current_time - self.last_request_time
-        if time_since_last < self.min_request_interval:
-            time.sleep(self.min_request_interval - time_since_last)
-        self.last_request_time = time.time()
-    
-    def geocode(self, location: str, use_cache: bool = True) -> Optional[EventLocation]:
-        """Geocode a location string."""
-        cache_key = get_cache_key(location.lower().strip(), prefix="google")
-        cache_path = self.cache_config.geocoding_dir / f"{cache_key}.json"
-        
-        if use_cache and cache_path.exists():
-            data = read_cache(cache_path)
-            if data:
-                return EventLocation(
-                    name=data["name"],
-                    country=data["country"],
-                    locality=data["locality"],
-                    coordinates=Coordinates(lat=data["lat"], lon=data["lon"])
-                )
-            return None
-        
-        # Rate limiting
-        self._wait_for_rate_limit()
-        
-        # Build request
-        params = {
-            "address": location,
-            "key": self.api_key,
-            "region": "pt",
-            "language": "pt"
-        }
-        url = f"{self.base_url}?{urllib.parse.urlencode(params)}"
-        
-        try:
-            status, content = http_get(url)
-            if status != 200:
-                logger.error(f"GEOCODING|Bad status|{location}|{status}")
-                return None
-            
-            data = json.loads(content)
-            if data["status"] != "OK" or not data["results"]:
-                logger.warning(f"GEOCODING|No results|{location}|{data['status']}")
-                write_cache(cache_path, None)
-                return None
-            
-            # Extract location data
-            result = data["results"][0]
-            location_data = {
-                "name": location,
-                "lat": result["geometry"]["location"]["lat"],
-                "lon": result["geometry"]["location"]["lng"],
-                "country": "Portugal",
-                "locality": location.split(",")[0].strip()
-            }
-            
-            # Find country and locality from address components
-            for component in result["address_components"]:
-                types = component["types"]
-                if "country" in types:
-                    location_data["country"] = component["long_name"]
-                elif "locality" in types:
-                    location_data["locality"] = component["long_name"]
-                elif "administrative_area_level_1" in types and location_data["locality"] == location.split(",")[0].strip():
-                    location_data["locality"] = component["long_name"]
-            
-            write_cache(cache_path, location_data)
-            
-            return EventLocation(
-                name=location,
-                country=location_data["country"],
-                locality=location_data["locality"],
-                coordinates=Coordinates(lat=location_data["lat"], lon=location_data["lon"])
-            )
-            
-        except Exception as e:
-            logger.error(f"GEOCODING|Error|{location}|{str(e)}")
-            return None
-
-
-class LLMClient:
-    """Client for LLM description generation."""
-    
-    def __init__(self, model: str, cache_config: CacheConfig):
-        self.model = model
-        self.cache_config = cache_config
-    
-    def generate_description(self, text: str, use_cache: bool = True) -> Optional[str]:
-        """Generate short description using LLM."""
-        cache_key = get_cache_key(text)
-        cache_path = self.cache_config.descriptions_dir / f"{cache_key}.txt"
-        
-        if use_cache and cache_path.exists():
-            with open(cache_path, 'r', encoding='utf-8') as f:
-                return f.read().strip()
-        
-        system_prompt = """És um assistente especializado em condensar descrições de eventos de corrida em resumos de uma linha em português de Portugal. Deves extrair e resumir apenas a informação mais importante e relevante da descrição fornecida.
-
-Exemplos de resumos que deves gerar:
-+ Corrida histórica pelas ruas de Lisboa com vista para o Tejo
-+ Trail desafiante pela Serra da Estrela
-+ São Silvestre tradicional no centro histórico do Porto
-+ Meia maratona costeira com paisagens do Atlântico
-+ Corrida solidária organizada pela câmara municipal
-+ Prova de montanha com subidas técnicas
-+ Corrida de Natal pela zona ribeirinha
-+ Trail nocturno por caminhos antigos
-
-IMPORTANTE:
-- Responde APENAS com a descrição de uma linha em português de Portugal
-- Usa apenas informação presente na descrição original
-- Destaca características especiais do percurso, localização ou organização
-- Não menciones distâncias se já estão implícitas no tipo de evento
-- Foca-te no que torna este evento único ou interessante"""
-        
-        try:
-            result = subprocess.run(
-                ["llm", "-m", self.model, "-s", system_prompt, text],
-                capture_output=True,
-                text=True,
-                timeout=30
-            )
-            
-            if result.returncode == 0:
-                description = result.stdout.strip()
-                # Ensure cache directory exists
-                cache_path.parent.mkdir(exist_ok=True)
-                with open(cache_path, 'w', encoding='utf-8') as f:
-                    f.write(description)
-                return description
-            else:
-                logger.error(f"LLM|Generation failed|{result.stderr}")
-                return None
-                
-        except subprocess.TimeoutExpired:
-            logger.error("LLM|Timeout generating description")
-            return None
-        except Exception as e:
-            logger.error(f"LLM|Error|{str(e)}")
-            return None
-
-
-# ============================================================================
-# Async API Clients
-# ============================================================================
-
-class AsyncWordPressClient:
-    """Async client for WordPress REST API and EventON endpoints."""
-    
     def __init__(self, base_url: str, cache_config: CacheConfig, max_concurrent: int = 10):
         self.base_url = base_url
         self.cache_config = cache_config
@@ -881,8 +355,6 @@ class AsyncWordPressClient:
         self.session: Optional['aiohttp.ClientSession'] = None
         
     async def __aenter__(self):
-        if not ASYNC_AVAILABLE:
-            raise RuntimeError("aiohttp not available - install with: pip install aiohttp aiofiles")
         
         connector = aiohttp.TCPConnector(
             limit=100,
@@ -920,7 +392,7 @@ class AsyncWordPressClient:
         
         async with self.semaphore:  # Rate limiting
             try:
-                status, content = await async_http_get(self.session, url)
+                status, content = await http_get(self.session, url)
                 if status == 200:
                     data = json.loads(content)
                     # Cache the result
@@ -1015,7 +487,7 @@ class AsyncWordPressClient:
             # Fetch from network
             url = f"{PORTUGAL_RUNNING_BASE_URL.replace('https://', 'http://')}/export-events/{event_id}_0/"
             try:
-                status, content = await async_http_get(self.session, url)
+                status, content = await http_get(self.session, url)
                 if status != 200:
                     logger.error(f"ICS|Bad status|{event_id}|{status}")
                     return None
@@ -1040,15 +512,89 @@ class AsyncWordPressClient:
         return self._parse_ics_content(ics_content)
     
     def _parse_ics_content(self, ics_content: str) -> Optional[Dict]:
-        """Parse ICS content and extract event data (reuse sync implementation)."""
-        # Reuse the existing parsing logic from the sync WordPressClient
-        sync_client = WordPressClient(self.base_url, self.cache_config)
-        return sync_client._parse_ics_content(ics_content)
+        """Parse ICS content and extract event data."""
+        if not ics_content or "BEGIN:VCALENDAR" not in ics_content:
+            return None
+        
+        # Clean the content
+        ics_content = ics_content.replace('\x00', '')
+        ics_content = ''.join(c for c in ics_content if ord(c) >= 32 or c in '\n\r\t')
+        
+        ics_data = {}
+        
+        # Extract location
+        location_match = re.search(r"LOCATION:(.+)", ics_content)
+        if location_match:
+            location = location_match.group(1).strip()
+            location = location.replace("\\,", ",").replace("  ", " ")
+            # Remove duplicate words
+            parts = location.split()
+            unique_parts = []
+            for part in parts:
+                if part not in unique_parts:
+                    unique_parts.append(part)
+            ics_data['location'] = " ".join(unique_parts)
+        
+        # Extract summary
+        summary_match = re.search(r"SUMMARY:(.+)", ics_content)
+        if summary_match:
+            ics_data['summary'] = summary_match.group(1).strip()
+        
+        # Extract dates
+        dtstart_match = re.search(r"DTSTART:(\d+)", ics_content)
+        if dtstart_match:
+            date_str = dtstart_match.group(1)
+            if len(date_str) == 8:
+                ics_data['start_date'] = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        
+        dtend_match = re.search(r"DTEND:(\d+)", ics_content)
+        if dtend_match:
+            date_str = dtend_match.group(1)
+            if len(date_str) == 8:
+                ics_data['end_date'] = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        
+        # Extract description
+        desc_match = re.search(r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL)
+        if desc_match:
+            desc = (desc_match.group(1)
+                   .replace("\n ", "")
+                   .replace("\\n", "\n")
+                   .replace("\\,", ","))
+            ics_data['description'] = self._fix_encoding(desc.strip())
+        
+        return ics_data
     
     def _fix_encoding(self, text: str) -> str:
-        """Fix common UTF-8 encoding issues (reuse sync implementation)."""
-        sync_client = WordPressClient(self.base_url, self.cache_config)
-        return sync_client._fix_encoding(text)
+        """Fix common UTF-8 encoding issues."""
+        if not text:
+            return text
+        
+        # Common UTF-8 sequences that were misinterpreted as ISO-8859-1
+        replacements = {
+            'Ã¡': 'á', 'Ã ': 'à', 'Ã¢': 'â', 'Ã£': 'ã',
+            'Ã©': 'é', 'Ãª': 'ê', 'Ã­': 'í', 'Ã³': 'ó',
+            'Ã´': 'ô', 'Ãµ': 'õ', 'Ãº': 'ú', 'Ã§': 'ç',
+            'Ã±': 'ñ', 'â': '"', 'â': '"', 'â': '–',
+            'â': '—', 'â¢': '•', 'â¦': '…',
+        }
+        
+        result = text
+        for wrong, correct in replacements.items():
+            result = result.replace(wrong, correct)
+        
+        # Handle specific problematic patterns
+        additional_fixes = {
+            'C—mara': 'Câmara', 'Dist—ncias': 'Distâncias',
+            'Const—ncia': 'Constância', 'Gr—ndola': 'Grândola',
+            'ORGANIZAÇÇO': 'ORGANIZAÇÃO', 'SÇO': 'SÃO',
+            'EdiÃ§Ã£o': 'Edição', 'organizaÃ§Ã£o': 'organização',
+        }
+        
+        for wrong, correct in additional_fixes.items():
+            result = result.replace(wrong, correct)
+            result = result.replace(wrong.lower(), correct.lower())
+        
+        return result
     
     async def _geocode_location(self, location: str) -> Optional[Dict]:
         """Geocode location using async geocoding client."""
@@ -1060,7 +606,7 @@ class AsyncWordPressClient:
                 return None
             
             # Use async geocoding client
-            async with AsyncGoogleGeocodingClient(api_key, self.cache_config) as geocoding_client:
+            async with GoogleGeocodingClient(api_key, self.cache_config) as geocoding_client:
                 location_result = await geocoding_client.geocode(location)
                 
                 if location_result:
@@ -1082,15 +628,15 @@ class AsyncWordPressClient:
     async def _generate_description(self, description: str) -> Optional[str]:
         """Generate short description using async LLM client."""
         try:
-            llm_client = AsyncLLMClient("claude-3.5-haiku", self.cache_config)
+            llm_client = LLMClient("claude-3.5-haiku", self.cache_config)
             return await llm_client.generate_description(description)
         except Exception as e:
             logger.error(f"LLM|Error|{str(e)}")
             return None
 
 
-class AsyncGoogleGeocodingClient:
-    """Async Google Maps Geocoding API client with caching."""
+class GoogleGeocodingClient:
+    """Google Maps Geocoding API client with caching."""
     
     def __init__(self, api_key: str, cache_config: CacheConfig):
         self.api_key = api_key
@@ -1101,9 +647,6 @@ class AsyncGoogleGeocodingClient:
         self.session: Optional['aiohttp.ClientSession'] = None
     
     async def __aenter__(self):
-        if not ASYNC_AVAILABLE:
-            raise RuntimeError("aiohttp not available - install with: pip install aiohttp aiofiles")
-        
         self.session = aiohttp.ClientSession()
         return self
     
@@ -1153,7 +696,7 @@ class AsyncGoogleGeocodingClient:
         url = f"{self.base_url}?{urllib.parse.urlencode(params)}"
         
         try:
-            status, content = await async_http_get(self.session, url)
+            status, content = await http_get(self.session, url)
             if status != 200:
                 logger.error(f"GEOCODING|Bad status|{location}|{status}")
                 return None
@@ -1204,8 +747,8 @@ class AsyncGoogleGeocodingClient:
             return None
 
 
-class AsyncLLMClient:
-    """Async client for LLM description generation."""
+class LLMClient:
+    """Client for LLM description generation."""
     
     def __init__(self, model: str, cache_config: CacheConfig):
         self.model = model
@@ -1240,7 +783,7 @@ IMPORTANTE:
 - Foca-te no que torna este evento único ou interessante"""
         
         try:
-            returncode, stdout, stderr = await async_subprocess_run(
+            returncode, stdout, stderr = await subprocess_run(
                 ["llm", "-m", self.model, "-s", system_prompt, text],
                 timeout=30
             )
@@ -1388,192 +931,9 @@ def map_event_types(wp_types: List[str], event_data: Dict) -> Tuple[List[str], L
 # Subcommand Handlers
 # ============================================================================
 
-def cmd_scrape(args):
-    """Main scraping pipeline dispatcher."""
-    if getattr(args, 'async', False):
-        if not ASYNC_AVAILABLE:
-            logger.error("Async mode requires aiohttp and aiofiles. Install with: pip install aiohttp aiofiles")
-            return 1
-        return asyncio.run(cmd_scrape_async(args))
-    else:
-        return cmd_scrape_sync(args)
-
-
-def cmd_scrape_sync(args):
-    """Synchronous scraping pipeline."""
-    logger.info("Starting event scraping (sync mode)")
-    
-    # Initialize components
-    cache_config = CacheConfig()
-    cache_config.ensure_directories()
-    
-    # Initialize WordPress client
-    wp_client = WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config)
-    
-    # Fetch all events
-    events = []
-    page = 1
-    total_fetched = 0
-    
-    print(f"🔄 Fetching events (limit: {args.limit if args.limit else 'unlimited'})...")
-    
-    while True:
-        if args.pages and page > args.pages:
-            print(f"   Reached page limit ({args.pages})")
-            break
-        
-        if args.limit and total_fetched >= args.limit:
-            print(f"   Reached event limit ({args.limit})")
-            break
-        
-        print(f"   Fetching page {page}...")
-        page_data = wp_client.fetch_events_page(page)
-        
-        if not page_data:
-            break
-        
-        # Check for WordPress API error
-        if isinstance(page_data, dict) and "code" in page_data:
-            if page_data.get("code") == "rest_post_invalid_page_number":
-                logger.info(f"Reached end of pages at {page}")
-                break
-            else:
-                logger.error(f"API error: {page_data}")
-                break
-        
-        # Apply limit
-        if args.limit:
-            remaining = args.limit - total_fetched
-            page_data = page_data[:remaining]
-        
-        events.extend(page_data)
-        total_fetched += len(page_data)
-        print(f"   -> Found {len(page_data)} events (total: {total_fetched})")
-        
-        page += 1
-        time.sleep(args.delay)
-    
-    print(f"✅ Fetched {len(events)} total events")
-    
-    # Process events
-    processed_events = []
-    print(f"\n🔄 Processing {len(events)} events...")
-    
-    for i, event in enumerate(events):
-        event_id = event.get("id")
-        if not event_id:
-            continue
-        
-        print(f"   Processing event {i+1}/{len(events)}: {event_id}")
-        
-        # Fetch detailed data
-        event_data = wp_client.fetch_event_details(
-            event_id,
-            skip_geocoding=args.skip_geocoding,
-            skip_descriptions=args.skip_descriptions,
-            skip_images=args.skip_images
-        )
-        if not event_data:
-            logger.error(f"Failed to fetch details for event {event_id}")
-            continue
-        
-        # Process the event data
-        try:
-            # Extract from nested structure
-            ics_data = event_data.get("ics_data", {})
-            geo_data = event_data.get("geo_data", {})
-            
-            # Get basic info
-            event_name = ics_data.get("summary", "")
-            location = ics_data.get("location", "")
-            description = ics_data.get("description", "")
-            start_date = ics_data.get("start_date", "")
-            end_date = ics_data.get("end_date", "")
-            
-            # Use geocoding data from event_data if available
-            location_data = None
-            if geo_data and geo_data.get("coordinates"):
-                coords = geo_data["coordinates"]
-                location_data = EventLocation(
-                    name=geo_data.get("display_name", location),
-                    country=geo_data.get("country", "Portugal"),
-                    locality=geo_data.get("locality", ""),
-                    coordinates=Coordinates(lat=coords["lat"], lon=coords["lon"])
-                )
-            
-            # Use short description from event_data
-            short_description = event_data.get("short_description")
-            
-            # Use existing images
-            images = event_data.get("images", [])
-            
-            # Extract distances from description
-            distances = extract_distances(description)
-            
-            # Map event types based on the event name and description
-            canonical_types = []
-            text_lower = f"{event_name} {description}".lower()
-            
-            if "maratona" in text_lower and "meia" not in text_lower:
-                canonical_types.append(EventType.MARATHON.value)
-                distances.append(DISTANCES[EventType.MARATHON])
-            elif "meia" in text_lower and "maratona" in text_lower:
-                canonical_types.append(EventType.HALF_MARATHON.value)
-                distances.append(DISTANCES[EventType.HALF_MARATHON])
-            elif "10km" in text_lower or "10 km" in text_lower:
-                canonical_types.append(EventType.TEN_K.value)
-                distances.append(DISTANCES[EventType.TEN_K])
-            elif "5km" in text_lower or "5 km" in text_lower:
-                canonical_types.append(EventType.FIVE_K.value)
-                distances.append(DISTANCES[EventType.FIVE_K])
-            elif "trail" in text_lower:
-                canonical_types.append(EventType.TRAIL.value)
-            elif "caminhada" in text_lower:
-                canonical_types.append(EventType.WALK.value)
-            else:
-                canonical_types.append(EventType.RUN.value)
-            
-            # Remove duplicates
-            distances = sorted(list(set(distances)))
-            
-            # Create processed event
-            processed_event = Event(
-                event_id=event_id,
-                event_name=event_name,
-                event_location=location,
-                event_coordinates=location_data.coordinates if location_data else None,
-                event_country=location_data.country if location_data else "Portugal",
-                event_locality=location_data.locality if location_data else "",
-                event_distances=distances,
-                event_types=canonical_types,
-                event_images=images,
-                event_start_date=start_date,
-                event_end_date=end_date,
-                event_circuit=[],
-                event_description=description,
-                description_short=short_description
-            )
-            
-            processed_events.append(processed_event.to_dict())
-            
-        except Exception as e:
-            logger.error(f"Error processing event {event_id}: {e}")
-            continue
-    
-    print(f"✅ Processed {len(processed_events)} events")
-    
-    # Write output
-    output_path = Path(args.output)
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(processed_events, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n✅ Saved {len(processed_events)} events to {output_path}")
-    return 0
-
-
-async def cmd_scrape_async(args):
-    """Asynchronous scraping pipeline."""
-    logger.info("Starting event scraping (async mode)")
+async def cmd_scrape(args):
+    """Main scraping pipeline."""
+    logger.info("Starting event scraping")
     
     # Initialize components
     cache_config = CacheConfig()
@@ -1581,7 +941,7 @@ async def cmd_scrape_async(args):
     
     print(f"🔄 Fetching events (limit: {args.limit if args.limit else 'unlimited'}) with {args.max_concurrent} concurrent requests...")
     
-    async with AsyncWordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config, args.max_concurrent) as wp_client:
+    async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config, args.max_concurrent) as wp_client:
         # Determine pages to fetch
         max_pages = args.pages if args.pages else 100  # Default reasonable limit for async
         page_numbers = list(range(1, max_pages + 1))
@@ -2068,15 +1428,10 @@ def main():
         help='LLM model for descriptions (default: claude-3.5-haiku)'
     )
     scrape_parser.add_argument(
-        '--async',
-        action='store_true',
-        help='Use async implementation for better performance (requires aiohttp)'
-    )
-    scrape_parser.add_argument(
         '--max-concurrent',
         type=int,
         default=10,
-        help='Maximum concurrent requests when using async mode (default: 10)'
+        help='Maximum concurrent requests (default: 10)'
     )
     scrape_parser.set_defaults(func=cmd_scrape)
     
@@ -2247,7 +1602,11 @@ def main():
     
     # Execute command
     try:
-        return args.func(args)
+        # Handle async commands
+        if args.command == 'scrape':
+            return asyncio.run(args.func(args))
+        else:
+            return args.func(args)
     except KeyboardInterrupt:
         print("\n⚠️  Interrupted by user", file=sys.stderr)
         return 130
