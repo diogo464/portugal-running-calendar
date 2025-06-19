@@ -2,7 +2,7 @@
 """
 Portugal Running Events CLI
 
-A unified command-line interface for extracting, enriching, and processing
+A unified command-line interface for scraping, enriching, and processing
 running events from the Portugal Running website.
 
 This tool consolidates all functionality from the previous shell and Python
@@ -852,9 +852,9 @@ def map_event_types(wp_types: List[str], event_data: Dict) -> Tuple[List[str], L
 # Subcommand Handlers
 # ============================================================================
 
-def cmd_extract(args):
-    """Main extraction pipeline."""
-    logger.info("Starting event extraction")
+def cmd_scrape(args):
+    """Main scraping pipeline."""
+    logger.info("Starting event scraping")
     
     # Initialize components
     cache_config = CacheConfig()
@@ -1245,7 +1245,7 @@ def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
         prog='portugal-running-cli',
-        description='Portugal Running Events CLI - Extract and process running events'
+        description='Portugal Running Events CLI - Scrape and process running events'
     )
     
     # Global options
@@ -1263,53 +1263,53 @@ def main():
         required=True
     )
     
-    # Extract command
-    extract_parser = subparsers.add_parser(
-        'extract',
-        help='Extract all events (main pipeline)'
+    # Scrape command
+    scrape_parser = subparsers.add_parser(
+        'scrape',
+        help='Scrape all events (main pipeline)'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--output', '-o',
         default='portugal-running-events.json',
         help='Output JSON file (default: portugal-running-events.json)'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--limit', '-l',
         type=int,
-        help='Limit number of events to extract'
+        help='Limit number of events to scrape'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--pages', '-p',
         type=int,
         help='Limit number of pages to fetch'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--skip-geocoding',
         action='store_true',
         help='Skip geocoding locations'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--skip-descriptions',
         action='store_true',
         help='Skip generating descriptions'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--skip-images',
         action='store_true',
         help='Skip downloading images'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--delay',
         type=float,
         default=0.5,
         help='Delay between page requests in seconds (default: 0.5)'
     )
-    extract_parser.add_argument(
+    scrape_parser.add_argument(
         '--model',
         default='claude-3.5-haiku',
         help='LLM model for descriptions (default: claude-3.5-haiku)'
     )
-    extract_parser.set_defaults(func=cmd_extract)
+    scrape_parser.set_defaults(func=cmd_scrape)
     
     # Fetch-page command
     fetch_page_parser = subparsers.add_parser(
