@@ -27,6 +27,10 @@ from dataclasses import dataclass, asdict, field
 from enum import Enum
 
 
+# Constants
+PORTUGAL_RUNNING_BASE_URL = "https://www.portugalrunning.com"
+
+
 # Configure logging
 logger = logging.getLogger(__name__)
 
@@ -420,7 +424,7 @@ class WordPressClient:
                     return None
         else:
             # Fetch from network
-            url = f"http://www.portugalrunning.com/export-events/{event_id}_0/"
+            url = f"{PORTUGAL_RUNNING_BASE_URL.replace('https://', 'http://')}/export-events/{event_id}_0/"
             try:
                 status, content = http_get(url)
                 if status != 200:
@@ -868,7 +872,7 @@ def cmd_extract(args):
     cache_config.ensure_directories()
     
     # Initialize WordPress client
-    wp_client = WordPressClient("https://www.portugalrunning.com", cache_config)
+    wp_client = WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config)
     
     # Fetch all events
     events = []
@@ -1036,7 +1040,7 @@ def cmd_fetch_page(args):
     cache_config = CacheConfig()
     cache_config.ensure_directories()
     
-    wp_client = WordPressClient("https://www.portugalrunning.com", cache_config)
+    wp_client = WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config)
     
     events = wp_client.fetch_events_page(args.page, use_cache=not args.no_cache)
     
@@ -1053,7 +1057,7 @@ def cmd_fetch_event(args):
     cache_config = CacheConfig()
     cache_config.ensure_directories()
     
-    wp_client = WordPressClient("https://www.portugalrunning.com", cache_config)
+    wp_client = WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config)
     
     event_data = wp_client.fetch_event_details(args.event_id, use_cache=not args.no_cache)
     
