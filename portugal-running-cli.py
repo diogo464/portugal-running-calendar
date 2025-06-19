@@ -108,6 +108,58 @@ class Event:
 
 
 @dataclass
+class Page:
+    """Represents a page from WordPress API with its event IDs."""
+    page_id: int
+    event_ids: List[int]
+
+
+@dataclass
+class RawEventData:
+    """Raw event data from WordPress API."""
+    event_id: int
+    title: str
+    slug: str
+    status: str
+    content: Optional[str] = None
+    excerpt: Optional[str] = None
+    date: Optional[str] = None
+    modified: Optional[str] = None
+    featured_media: Optional[int] = None
+    meta: Optional[Dict[str, Any]] = None
+
+
+@dataclass
+class EventIcsData:
+    """ICS calendar data for an event."""
+    event_id: int
+    location: Optional[str] = None
+    start_date: Optional[str] = None
+    end_date: Optional[str] = None
+    description: Optional[str] = None
+    summary: Optional[str] = None
+    raw_ics_content: Optional[str] = None
+
+
+@dataclass
+class EventMetadata:
+    """Extracted and processed metadata for an event."""
+    event_id: int
+    event_name: Optional[str] = None
+    event_location: Optional[str] = None
+    event_description: Optional[str] = None
+    event_start_date: Optional[str] = None
+    event_end_date: Optional[str] = None
+    coordinates: Optional[Coordinates] = None
+    country: Optional[str] = None
+    locality: Optional[str] = None
+    distances: List[int] = field(default_factory=list)
+    event_types: List[str] = field(default_factory=list)
+    description_short: Optional[str] = None
+    images: List[str] = field(default_factory=list)
+
+
+@dataclass
 class CacheConfig:
     """Cache directory configuration."""
     pages_dir: Path = field(default_factory=lambda: Path("pages"))
@@ -932,218 +984,402 @@ def map_event_types(wp_types: List[str], event_data: Dict) -> Tuple[List[str], L
 
 
 # ============================================================================
+# Helper Functions for Improved Data Flow
+# ============================================================================
+
+async def fetch_pages(wp_client: WordPressClient, args) -> List[Page]:
+    """
+    Fetch all required pages in parallel and return list of Page dataclasses.
+    
+    Args:
+        wp_client: WordPress client instance
+        args: Command line arguments with limit and pages options
+        
+    Returns:
+        List of Page dataclasses containing page IDs and event IDs
+    """
+    # Determine pages to fetch
+    max_pages = args.pages if args.pages else 100  # Default reasonable limit for async
+    page_numbers = list(range(1, max_pages + 1))
+    
+    if args.limit:
+        # For async, we don't know how many events per page, so we fetch pages and stop when we have enough
+        # This is a simplified approach - we could optimize this further
+        page_numbers = page_numbers[:20]  # Limit to first 20 pages when using --limit
+    
+    print(f"   Fetching {len(page_numbers)} pages concurrently...")
+    
+    # Create tasks for fetching pages
+    tasks = []
+    for page in page_numbers:
+        task = asyncio.create_task(wp_client.fetch_events_page(page))
+        tasks.append(task)
+    
+    # Wait for all pages to complete
+    page_results = await asyncio.gather(*tasks, return_exceptions=True)
+    
+    # Process page results into Page dataclasses
+    pages = []
+    total_fetched = 0
+    
+    for i, result in enumerate(page_results):
+        if isinstance(result, Exception):
+            logger.error(f"Failed to fetch page {page_numbers[i]}: {result}")
+            continue
+        
+        if not result:
+            continue
+        
+        # Check for WordPress API error
+        if isinstance(result, dict) and "code" in result:
+            if result.get("code") == "rest_post_invalid_page_number":
+                logger.info(f"Reached end of pages at page {page_numbers[i]}")
+                break
+            else:
+                logger.error(f"API error on page {page_numbers[i]}: {result}")
+                continue
+        
+        # Extract event IDs from page result
+        event_ids = []
+        if isinstance(result, list):
+            for event in result:
+                event_id = event.get("id")
+                if event_id:
+                    event_ids.append(event_id)
+        
+        # Apply limit if specified
+        if args.limit and total_fetched >= args.limit:
+            event_ids = event_ids[:args.limit - total_fetched]
+        
+        pages.append(Page(page_id=page_numbers[i], event_ids=event_ids))
+        total_fetched += len(event_ids)
+        
+        if args.limit and total_fetched >= args.limit:
+            print(f"   Reached event limit ({args.limit})")
+            break
+    
+    return pages
+
+
+def extract_event_ids_from_pages(pages: List[Page]) -> List[int]:
+    """
+    Extract and flatten event IDs from all pages.
+    
+    Args:
+        pages: List of Page dataclasses
+        
+    Returns:
+        Sorted list of unique event IDs
+    """
+    all_event_ids = []
+    for page in pages:
+        all_event_ids.extend(page.event_ids)
+    
+    # Remove duplicates and sort
+    unique_event_ids = sorted(list(set(all_event_ids)))
+    return unique_event_ids
+
+
+async def fetch_events(wp_client: WordPressClient, event_ids: List[int]) -> List[RawEventData]:
+    """
+    Fetch raw WordPress event data for all event IDs in parallel.
+    
+    Args:
+        wp_client: WordPress client instance
+        event_ids: List of event IDs to fetch
+        
+    Returns:
+        List of RawEventData dataclasses
+    """
+    if not event_ids:
+        return []
+    
+    print(f"   Fetching raw event data for {len(event_ids)} events...")
+    
+    # This is a simplified version. In a real implementation, we would need to
+    # fetch raw WordPress posts for each event ID. For now, we'll create
+    # placeholder RawEventData from event IDs.
+    events = []
+    for event_id in event_ids:
+        # In a real implementation, this would be an actual API call
+        events.append(RawEventData(
+            event_id=event_id,
+            title=f"Event {event_id}",  # Placeholder
+            slug=f"event-{event_id}",
+            status="publish"
+        ))
+    
+    return events
+
+
+async def fetch_events_ics(wp_client: WordPressClient, event_ids: List[int]) -> List[EventIcsData]:
+    """
+    Fetch ICS calendar data for all event IDs in parallel.
+    
+    Args:
+        wp_client: WordPress client instance
+        event_ids: List of event IDs to fetch ICS data for
+        
+    Returns:
+        List of EventIcsData dataclasses
+    """
+    if not event_ids:
+        return []
+    
+    print(f"   Fetching ICS data for {len(event_ids)} events...")
+    
+    # Create tasks for fetching ICS data
+    tasks = []
+    for event_id in event_ids:
+        task = asyncio.create_task(wp_client._fetch_ics_data(event_id))
+        tasks.append((event_id, task))
+    
+    # Wait for all ICS fetches to complete
+    ics_results = []
+    for event_id, task in tasks:
+        try:
+            ics_data = await task
+            if ics_data:
+                ics_results.append(EventIcsData(
+                    event_id=event_id,
+                    location=ics_data.get('location'),
+                    start_date=ics_data.get('start_date'),
+                    end_date=ics_data.get('end_date'),
+                    description=ics_data.get('description'),
+                    summary=ics_data.get('summary'),
+                    raw_ics_content=str(ics_data)  # Convert dict to string for storage
+                ))
+            else:
+                # Create empty ICS data for events without ICS
+                ics_results.append(EventIcsData(event_id=event_id))
+        except Exception as e:
+            logger.error(f"Failed to fetch ICS data for event {event_id}: {e}")
+            ics_results.append(EventIcsData(event_id=event_id))
+    
+    return ics_results
+
+
+def extract_events_metadata(events: List[RawEventData], events_ics: List[EventIcsData]) -> List[EventMetadata]:
+    """
+    Combine raw event data with ICS data and extract metadata.
+    
+    Args:
+        events: List of raw WordPress event data
+        events_ics: List of ICS data for events
+        
+    Returns:
+        List of EventMetadata dataclasses with extracted information
+    """
+    # Create lookup dict for ICS data by event ID
+    ics_lookup = {ics.event_id: ics for ics in events_ics}
+    
+    metadata_list = []
+    
+    for event in events:
+        ics_data = ics_lookup.get(event.event_id)
+        
+        # Extract basic information
+        event_name = ics_data.summary if ics_data and ics_data.summary else event.title
+        event_location = ics_data.location if ics_data else None
+        event_description = ics_data.description if ics_data else event.content or event.excerpt
+        event_start_date = ics_data.start_date if ics_data else None
+        event_end_date = ics_data.end_date if ics_data else None
+        
+        # Extract distances and event types from description
+        distances = extract_distances(event_description or "")
+        event_types = []
+        
+        # Simple event type extraction based on text content
+        if event_description:
+            text_lower = f"{event_name} {event_description}".lower()
+            
+            if "maratona" in text_lower and "meia" not in text_lower:
+                event_types.append(EventType.MARATHON.value)
+                distances.append(DISTANCES[EventType.MARATHON])
+            elif "meia" in text_lower and "maratona" in text_lower:
+                event_types.append(EventType.HALF_MARATHON.value)
+                distances.append(DISTANCES[EventType.HALF_MARATHON])
+            elif "10km" in text_lower or "10 km" in text_lower:
+                event_types.append(EventType.TEN_K.value)
+                distances.append(DISTANCES[EventType.TEN_K])
+            elif "5km" in text_lower or "5 km" in text_lower:
+                event_types.append(EventType.FIVE_K.value)
+                distances.append(DISTANCES[EventType.FIVE_K])
+            elif "trail" in text_lower:
+                event_types.append(EventType.TRAIL.value)
+            elif "caminhada" in text_lower:
+                event_types.append(EventType.WALK.value)
+            else:
+                event_types.append(EventType.RUN.value)
+        
+        # Remove duplicates
+        distances = sorted(list(set(distances)))
+        event_types = list(set(event_types))
+        
+        metadata = EventMetadata(
+            event_id=event.event_id,
+            event_name=event_name,
+            event_location=event_location,
+            event_description=event_description,
+            event_start_date=event_start_date,
+            event_end_date=event_end_date,
+            country="Portugal",  # Default for Portugal Running events
+            locality=event_location.split(",")[0].strip() if event_location else "",
+            distances=distances,
+            event_types=event_types
+        )
+        
+        metadata_list.append(metadata)
+    
+    return metadata_list
+
+
+async def generate_descriptions(events_metadata: List[EventMetadata], args) -> List[EventMetadata]:
+    """
+    Generate short descriptions for events in parallel.
+    
+    Args:
+        events_metadata: List of event metadata
+        args: Command line arguments with LLM model settings
+        
+    Returns:
+        Updated list of EventMetadata with generated descriptions
+    """
+    print(f"   Generating descriptions for {len(events_metadata)} events...")
+    
+    # Filter events that need descriptions
+    events_needing_descriptions = [
+        event for event in events_metadata 
+        if event.event_description and not event.description_short
+    ]
+    
+    if not events_needing_descriptions:
+        return events_metadata
+    
+    # Create LLM client
+    cache_config = CacheConfig()
+    llm_client = LLMClient(args.model, cache_config)
+    
+    # Generate descriptions in parallel
+    tasks = []
+    for event in events_needing_descriptions:
+        task = asyncio.create_task(
+            llm_client.generate_description(event.event_description)
+        )
+        tasks.append((event, task))
+    
+    # Wait for all descriptions to complete
+    for event, task in tasks:
+        try:
+            description = await task
+            if description:
+                event.description_short = description
+        except Exception as e:
+            logger.error(f"Failed to generate description for event {event.event_id}: {e}")
+    
+    return events_metadata
+
+
+def build_final_events(events_metadata: List[EventMetadata]) -> List[Dict[str, Any]]:
+    """
+    Convert EventMetadata to final Event format.
+    
+    Args:
+        events_metadata: List of event metadata
+        
+    Returns:
+        List of dictionaries ready for JSON serialization
+    """
+    final_events = []
+    
+    for metadata in events_metadata:
+        event_dict = {
+            "event_id": metadata.event_id,
+            "event_name": metadata.event_name or "",
+            "event_location": metadata.event_location or "",
+            "event_coordinates": metadata.coordinates.to_dict() if metadata.coordinates else None,
+            "event_country": metadata.country or "Portugal",
+            "event_locality": metadata.locality or "",
+            "event_distances": metadata.distances,
+            "event_types": metadata.event_types,
+            "event_images": metadata.images,
+            "event_start_date": metadata.event_start_date or "",
+            "event_end_date": metadata.event_end_date or "",
+            "event_circuit": [],
+            "event_description": metadata.event_description or "",
+            "description_short": metadata.description_short
+        }
+        
+        final_events.append(event_dict)
+    
+    return final_events
+
+
+async def save_events(events: List[Dict[str, Any]], output_path: str) -> None:
+    """
+    Save events to JSON file asynchronously.
+    
+    Args:
+        events: List of event dictionaries
+        output_path: Path to output JSON file
+    """
+    output_file = Path(output_path)
+    async with aiofiles.open(output_file, 'w', encoding='utf-8') as f:
+        await f.write(json.dumps(events, ensure_ascii=False, indent=2))
+
+
+# ============================================================================
 # Subcommand Handlers
 # ============================================================================
 
 async def cmd_scrape(args):
-    """Main scraping pipeline."""
+    """Main scraping pipeline with improved data flow."""
     logger.info("Starting event scraping")
     
-    # Initialize components
+    # Setup
     cache_config = CacheConfig()
     cache_config.ensure_directories()
     
     print(f"🔄 Fetching events (limit: {args.limit if args.limit else 'unlimited'}) with {args.max_concurrent} concurrent requests...")
     
     async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config, args.max_concurrent) as wp_client:
-        # Determine pages to fetch
-        max_pages = args.pages if args.pages else 100  # Default reasonable limit for async
-        page_numbers = list(range(1, max_pages + 1))
+        # Step 1: Fetch all pages in parallel
+        pages = await fetch_pages(wp_client, args)
+        print(f"✅ Fetched {len(pages)} pages")
         
-        if args.limit:
-            # For async, we don't know how many events per page, so we fetch pages and stop when we have enough
-            # This is a simplified approach - we could optimize this further
-            page_numbers = page_numbers[:20]  # Limit to first 20 pages when using --limit
+        # Step 2: Extract event IDs from pages
+        event_ids = extract_event_ids_from_pages(pages)
+        print(f"✅ Found {len(event_ids)} unique event IDs")
         
-        # Fetch all pages concurrently
-        print(f"   Fetching {len(page_numbers)} pages concurrently...")
+        # Step 3: Fetch raw event data in parallel (placeholder for now)
+        events = await fetch_events(wp_client, event_ids)
+        print(f"✅ Fetched raw data for {len(events)} events")
         
-        # Use semaphore to control concurrency and gather to collect results
-        tasks = []
-        for page in page_numbers:
-            task = asyncio.create_task(wp_client.fetch_events_page(page))
-            tasks.append(task)
+        # Step 4: Fetch ICS data in parallel  
+        events_ics = await fetch_events_ics(wp_client, event_ids)
+        print(f"✅ Fetched ICS data for {len(events_ics)} events")
         
-        # Wait for all pages to complete
-        page_results = await asyncio.gather(*tasks, return_exceptions=True)
+        # Step 5: Extract metadata from events and ICS
+        events_metadata = extract_events_metadata(events, events_ics)
+        print(f"✅ Extracted metadata for {len(events_metadata)} events")
         
-        # Process page results
-        events = []
-        total_fetched = 0
-        
-        for i, result in enumerate(page_results):
-            if isinstance(result, Exception):
-                logger.error(f"Failed to fetch page {page_numbers[i]}: {result}")
-                continue
-            
-            if not result:
-                continue
-            
-            # Check for WordPress API error
-            if isinstance(result, dict) and "code" in result:
-                if result.get("code") == "rest_post_invalid_page_number":
-                    logger.info(f"Reached end of pages at page {page_numbers[i]}")
-                    break
-                else:
-                    logger.error(f"API error on page {page_numbers[i]}: {result}")
-                    continue
-            
-            # Apply limit if specified
-            if args.limit and total_fetched >= args.limit:
-                result = result[:args.limit - total_fetched]
-            
-            events.extend(result)
-            total_fetched += len(result)
-            
-            if args.limit and total_fetched >= args.limit:
-                print(f"   Reached event limit ({args.limit})")
-                break
-        
-        print(f"✅ Fetched {len(events)} total events")
-        
-        # Process events concurrently
-        print(f"\n🔄 Processing {len(events)} events concurrently...")
-        
-        # Create tasks for processing each event
-        event_tasks = []
-        for event in events:
-            event_id = event.get("id")
-            if not event_id:
-                continue
-            
-            task = asyncio.create_task(
-                process_single_event_async(
-                    wp_client, event_id, args.skip_geocoding, 
-                    args.skip_descriptions, args.skip_images
-                )
-            )
-            event_tasks.append((event_id, task))
-        
-        # Process events with progress reporting
-        processed_events = []
-        completed = 0
-        
-        for event_id, task in event_tasks:
-            try:
-                processed_event = await task
-                if processed_event:
-                    processed_events.append(processed_event)
-                completed += 1
-                
-                # Progress reporting
-                if completed % 10 == 0 or completed == len(event_tasks):
-                    print(f"   Processed {completed}/{len(event_tasks)} events...")
-                    
-            except Exception as e:
-                logger.error(f"Failed to process event {event_id}: {e}")
-                completed += 1
-        
-        print(f"✅ Processed {len(processed_events)} events")
-        
-        # Write output
-        output_path = Path(args.output)
-        async with aiofiles.open(output_path, 'w', encoding='utf-8') as f:
-            await f.write(json.dumps(processed_events, ensure_ascii=False, indent=2))
-        
-        print(f"\n✅ Saved {len(processed_events)} events to {output_path}")
-        return 0
-
-
-async def process_single_event_async(wp_client, event_id, skip_geocoding, skip_descriptions, skip_images):
-    """Process a single event asynchronously."""
-    try:
-        # Fetch detailed data
-        event_data = await wp_client.fetch_event_details(
-            event_id,
-            skip_geocoding=skip_geocoding,
-            skip_descriptions=skip_descriptions,
-            skip_images=skip_images
-        )
-        
-        if not event_data:
-            logger.error(f"Failed to fetch details for event {event_id}")
-            return None
-        
-        # Extract from nested structure (reuse sync logic)
-        ics_data = event_data.get("ics_data", {})
-        geo_data = event_data.get("geo_data", {})
-        
-        # Get basic info
-        event_name = ics_data.get("summary", "")
-        location = ics_data.get("location", "")
-        description = ics_data.get("description", "")
-        start_date = ics_data.get("start_date", "")
-        end_date = ics_data.get("end_date", "")
-        
-        # Use geocoding data from event_data if available
-        location_data = None
-        if geo_data and geo_data.get("coordinates"):
-            coords = geo_data["coordinates"]
-            location_data = EventLocation(
-                name=geo_data.get("display_name", location),
-                country=geo_data.get("country", "Portugal"),
-                locality=geo_data.get("locality", ""),
-                coordinates=Coordinates(lat=coords["lat"], lon=coords["lon"])
-            )
-        
-        # Use short description from event_data
-        short_description = event_data.get("short_description")
-        
-        # Use existing images
-        images = event_data.get("images", [])
-        
-        # Extract distances from description (reuse sync logic)
-        distances = extract_distances(description)
-        
-        # Map event types based on the event name and description (reuse sync logic)
-        canonical_types = []
-        text_lower = f"{event_name} {description}".lower()
-        
-        if "maratona" in text_lower and "meia" not in text_lower:
-            canonical_types.append(EventType.MARATHON.value)
-            distances.append(DISTANCES[EventType.MARATHON])
-        elif "meia" in text_lower and "maratona" in text_lower:
-            canonical_types.append(EventType.HALF_MARATHON.value)
-            distances.append(DISTANCES[EventType.HALF_MARATHON])
-        elif "10km" in text_lower or "10 km" in text_lower:
-            canonical_types.append(EventType.TEN_K.value)
-            distances.append(DISTANCES[EventType.TEN_K])
-        elif "5km" in text_lower or "5 km" in text_lower:
-            canonical_types.append(EventType.FIVE_K.value)
-            distances.append(DISTANCES[EventType.FIVE_K])
-        elif "trail" in text_lower:
-            canonical_types.append(EventType.TRAIL.value)
-        elif "caminhada" in text_lower:
-            canonical_types.append(EventType.WALK.value)
+        # Step 6: Generate descriptions in parallel (if not skipped)
+        if not args.skip_descriptions:
+            events_with_descriptions = await generate_descriptions(events_metadata, args)
+            print(f"✅ Generated descriptions for events")
         else:
-            canonical_types.append(EventType.RUN.value)
+            events_with_descriptions = events_metadata
+            print("⏭️  Skipped description generation")
+            
+        # Step 7: Build final event instances
+        final_events = build_final_events(events_with_descriptions)
+        print(f"✅ Built {len(final_events)} final events")
         
-        # Remove duplicates
-        distances = sorted(list(set(distances)))
+        # Step 8: Save results
+        await save_events(final_events, args.output)
+        print(f"✅ Saved {len(final_events)} events to {args.output}")
         
-        # Create processed event
-        processed_event = Event(
-            event_id=event_id,
-            event_name=event_name,
-            event_location=location,
-            event_coordinates=location_data.coordinates if location_data else None,
-            event_country=location_data.country if location_data else "Portugal",
-            event_locality=location_data.locality if location_data else "",
-            event_distances=distances,
-            event_types=canonical_types,
-            event_images=images,
-            event_start_date=start_date,
-            event_end_date=end_date,
-            event_circuit=[],
-            event_description=description,
-            description_short=short_description
-        )
-        
-        return processed_event.to_dict()
-        
-    except Exception as e:
-        logger.error(f"Error processing event {event_id}: {e}")
-        return None
+        return 0
 
 
 async def cmd_fetch_page(args):
