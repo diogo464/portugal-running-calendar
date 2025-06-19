@@ -574,7 +574,7 @@ class WordPressClient:
     def _generate_description(self, description: str) -> Optional[str]:
         """Generate short description using LLM client."""
         try:
-            llm_client = LLMClient("llama3.2:latest", self.cache_config)
+            llm_client = LLMClient("claude-3.5-haiku", self.cache_config)
             return llm_client.generate_description(description)
         except Exception as e:
             logger.error(f"LLM|Error|{str(e)}")
@@ -689,9 +689,20 @@ class LLMClient:
             with open(cache_path, 'r', encoding='utf-8') as f:
                 return f.read().strip()
         
-        system_prompt = """Generate a very concise one-line description (50 chars max) of the running event. 
-        Focus on: distance/type, key feature, location. 
-        Examples: 'Scenic coastal 10K through historic Lisbon', 'Trail marathon in Serra da Estrela mountains'"""
+        system_prompt = """you are a helpful llm that converts descriptions of running events into succint one line descriptions, condensing that information and outputing only the essential.
+here are some examples of the outputs you should generate:
++ The world's oldest annual marathon
++ Scenic run through Central Park
++ Run along Lake Michigan
++ Challenging trail through Texas Hill Country
++ Beautiful bay views throughout the course
++ High altitude marathon with mountain views
++ Independence Day beach run
++ Extreme endurance challenge in Pacific Northwest
+
+you should output ONLY the single line description you generate and NOTHING else.
+use the available information in the description and DO NOT make up anything that isn't there.
+if you say an event is a marathon or half marathon you should NOT say the distance in meters since that is redundant."""
         
         try:
             result = subprocess.run(
@@ -703,6 +714,8 @@ class LLMClient:
             
             if result.returncode == 0:
                 description = result.stdout.strip()
+                # Ensure cache directory exists
+                cache_path.parent.mkdir(exist_ok=True)
                 with open(cache_path, 'w', encoding='utf-8') as f:
                     f.write(description)
                 return description
@@ -1308,8 +1321,8 @@ def main():
     )
     extract_parser.add_argument(
         '--model',
-        default='llama3.2:latest',
-        help='LLM model for descriptions (default: llama3.2:latest)'
+        default='claude-3.5-haiku',
+        help='LLM model for descriptions (default: claude-3.5-haiku)'
     )
     extract_parser.set_defaults(func=cmd_extract)
     
@@ -1399,8 +1412,8 @@ def main():
     )
     describe_parser.add_argument(
         '--model',
-        default='llama3.2:latest',
-        help='LLM model to use (default: llama3.2:latest)'
+        default='claude-3.5-haiku',
+        help='LLM model to use (default: claude-3.5-haiku)'
     )
     describe_parser.set_defaults(func=cmd_describe)
     
