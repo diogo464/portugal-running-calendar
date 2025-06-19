@@ -3,6 +3,7 @@
 *.ical
 ics/
 descriptions/
+__pycache__/
 features/
 media/
 pages/
