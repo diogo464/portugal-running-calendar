@@ -1,7 +1,7 @@
 # Portugal Running CLI - Makefile
 # Development automation and quality assurance commands
 
-.PHONY: help install lint format typecheck test clean dev-setup all-checks
+.PHONY: help install lint format black ruff-format typecheck test clean dev-setup all-checks
 
 # Default target
 help:
@@ -13,7 +13,9 @@ help:
 	@echo ""
 	@echo "Code Quality:"
 	@echo "  lint          Run ruff linter"
-	@echo "  format        Format code with ruff and black"
+	@echo "  format        Format code with both ruff and black"
+	@echo "  black         Format code with black only"
+	@echo "  ruff-format   Format code with ruff only"
 	@echo "  typecheck     Run mypy type checking"
 	@echo "  all-checks    Run all quality checks (lint, format, typecheck)"
 	@echo ""
@@ -41,11 +43,16 @@ lint:
 	@echo "🔍 Running ruff linter..."
 	uv run ruff check portugal-running-cli.py --fix
 
-format:
-	@echo "🎨 Formatting code..."
-	uv run ruff format portugal-running-cli.py
-	@echo "🎨 Running black formatter..."
+format: ruff-format black
+	@echo "✅ Code formatting completed with both ruff and black!"
+
+black:
+	@echo "🎨 Formatting code with black..."
 	uv run black portugal-running-cli.py --line-length 120 --target-version py39
+
+ruff-format:
+	@echo "🎨 Formatting code with ruff..."
+	uv run ruff format portugal-running-cli.py
 
 typecheck:
 	@echo "🔍 Running mypy type checker..."
