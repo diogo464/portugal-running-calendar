@@ -330,31 +330,254 @@ class WordPressClient:
             logger.error(f"API|Request failed|page {page}|{str(e)}")
             return None
     
-    def fetch_event_details(self, event_id: int, use_cache: bool = True) -> Optional[Dict]:
-        """Fetch detailed event data."""
+    def fetch_event_details(self, event_id: int, use_cache: bool = True, 
+                           skip_geocoding: bool = False, skip_descriptions: bool = False,
+                           skip_images: bool = False) -> Optional[Dict]:
+        """Fetch detailed event data with ICS processing."""
         cache_path = self.cache_config.events_dir / f"event_{event_id}.json"
         
         if use_cache and cache_path.exists():
             return read_cache(cache_path)
         
-        # For now, call the existing fetch-event-data.py script
-        # This will be replaced with direct implementation later
+        logger.debug(f"Fetching data for event {event_id}")
+        
         try:
-            result = subprocess.run(
-                ["python3", "fetch-event-data.py", str(event_id)],
-                capture_output=True,
-                text=True,
-                timeout=60
-            )
-            if result.returncode == 0:
-                data = json.loads(result.stdout)
-                write_cache(cache_path, data)
-                return data
-            else:
-                logger.error(f"EVENT|Fetch failed|{event_id}|{result.stderr}")
+            # Fetch WordPress event data
+            wp_data = self._fetch_wordpress_event(event_id)
+            if not wp_data:
                 return None
+            
+            # Fetch ICS calendar data
+            ics_data = self._fetch_ics_data(event_id)
+            
+            # Geocode location if available and not skipped
+            geo_data = None
+            if not skip_geocoding and ics_data and ics_data.get('location'):
+                geo_data = self._geocode_location(ics_data['location'])
+            
+            # Generate short description if not skipped
+            short_description = None
+            if not skip_descriptions and ics_data and ics_data.get('description'):
+                short_description = self._generate_description(ics_data['description'])
+            
+            # Prepare result in the expected format
+            result = {
+                "event_id": event_id,
+                "ics_data": ics_data,
+                "geo_data": geo_data,
+                "short_description": short_description,
+                "images": [],
+                "fetched_at": time.time()
+            }
+            
+            # Cache the result
+            write_cache(cache_path, result)
+            return result
+            
         except Exception as e:
             logger.error(f"EVENT|Fetch error|{event_id}|{str(e)}")
+            return None
+    
+    def _fetch_wordpress_event(self, event_id: int) -> Optional[Dict]:
+        """Fetch raw event data from WordPress API."""
+        url = f"{self.api_base}/ajde_events/{event_id}"
+        try:
+            status, content = http_get(url)
+            if status == 200:
+                return json.loads(content)
+            else:
+                logger.error(f"WORDPRESS|Bad status|{event_id}|{status}")
+                return None
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON|Invalid response|{event_id}|{str(e)}")
+            return None
+        except Exception as e:
+            logger.error(f"WORDPRESS|Request failed|{event_id}|{str(e)}")
+            return None
+    
+    def _fetch_ics_data(self, event_id: int) -> Optional[Dict]:
+        """Fetch and parse ICS calendar data."""
+        cache_path = self.cache_config.ics_dir / f"event_{event_id}.ics"
+        
+        # Check cache first
+        if cache_path.exists():
+            try:
+                with open(cache_path, 'r', encoding='utf-8') as f:
+                    ics_content = f.read()
+            except UnicodeDecodeError:
+                # Try different encodings for existing cache files
+                encodings = ['latin-1', 'cp1252', 'iso-8859-1']
+                ics_content = None
+                for encoding in encodings:
+                    try:
+                        with open(cache_path, 'r', encoding=encoding) as f:
+                            ics_content = f.read()
+                        break
+                    except UnicodeDecodeError:
+                        continue
+                if ics_content is None:
+                    logger.error(f"ICS|Encoding error|{event_id}")
+                    return None
+        else:
+            # Fetch from network
+            url = f"http://www.portugalrunning.com/export-events/{event_id}_0/"
+            try:
+                status, content = http_get(url)
+                if status != 200:
+                    logger.error(f"ICS|Bad status|{event_id}|{status}")
+                    return None
+                
+                ics_content = content
+                
+                # Validate ICS format
+                if not ics_content.strip() or "BEGIN:VCALENDAR" not in ics_content:
+                    logger.warning(f"ICS|Invalid format|{event_id}")
+                    return None
+                
+                # Cache the raw ICS content
+                cache_path.parent.mkdir(exist_ok=True)
+                with open(cache_path, 'w', encoding='utf-8') as f:
+                    f.write(ics_content)
+                    
+            except Exception as e:
+                logger.error(f"ICS|Fetch error|{event_id}|{str(e)}")
+                return None
+        
+        # Parse the ICS content
+        return self._parse_ics_content(ics_content)
+    
+    def _parse_ics_content(self, ics_content: str) -> Optional[Dict]:
+        """Parse ICS content and extract event data."""
+        if not ics_content or "BEGIN:VCALENDAR" not in ics_content:
+            return None
+        
+        # Clean the content
+        ics_content = ics_content.replace('\x00', '')
+        ics_content = ''.join(c for c in ics_content if ord(c) >= 32 or c in '\n\r\t')
+        
+        ics_data = {}
+        
+        # Extract location
+        location_match = re.search(r"LOCATION:(.+)", ics_content)
+        if location_match:
+            location = location_match.group(1).strip()
+            location = location.replace("\\,", ",").replace("  ", " ")
+            # Remove duplicate words
+            parts = location.split()
+            unique_parts = []
+            for part in parts:
+                if part not in unique_parts:
+                    unique_parts.append(part)
+            ics_data['location'] = " ".join(unique_parts)
+        
+        # Extract summary
+        summary_match = re.search(r"SUMMARY:(.+)", ics_content)
+        if summary_match:
+            ics_data['summary'] = summary_match.group(1).strip()
+        
+        # Extract dates
+        dtstart_match = re.search(r"DTSTART:(\d+)", ics_content)
+        if dtstart_match:
+            date_str = dtstart_match.group(1)
+            if len(date_str) == 8:
+                ics_data['start_date'] = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        
+        dtend_match = re.search(r"DTEND:(\d+)", ics_content)
+        if dtend_match:
+            date_str = dtend_match.group(1)
+            if len(date_str) == 8:
+                ics_data['end_date'] = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        
+        # Extract description
+        desc_match = re.search(r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL)
+        if desc_match:
+            desc = (desc_match.group(1)
+                   .replace("\n ", "")
+                   .replace("\\n", "\n")
+                   .replace("\\,", ","))
+            ics_data['description'] = self._fix_encoding(desc.strip())
+        
+        return ics_data
+    
+    def _fix_encoding(self, text: str) -> str:
+        """Fix common UTF-8 encoding issues."""
+        if not text:
+            return text
+        
+        # Common UTF-8 sequences that were misinterpreted as ISO-8859-1
+        replacements = {
+            'Ã¡': 'á', 'Ã ': 'à', 'Ã¢': 'â', 'Ã£': 'ã',
+            'Ã©': 'é', 'Ãª': 'ê', 'Ã­': 'í', 'Ã³': 'ó',
+            'Ã´': 'ô', 'Ãµ': 'õ', 'Ãº': 'ú', 'Ã§': 'ç',
+            'Ã±': 'ñ', 'â': '"', 'â': '"', 'â': '–',
+            'â': '—', 'â¢': '•', 'â¦': '…',
+        }
+        
+        result = text
+        for wrong, correct in replacements.items():
+            result = result.replace(wrong, correct)
+        
+        # Handle specific problematic patterns
+        additional_fixes = {
+            'C—mara': 'Câmara', 'Dist—ncias': 'Distâncias',
+            'Const—ncia': 'Constância', 'Gr—ndola': 'Grândola',
+            'ORGANIZAÇÇO': 'ORGANIZAÇÃO', 'SÇO': 'SÃO',
+            'EdiÃ§Ã£o': 'Edição', 'organizaÃ§Ã£o': 'organização',
+        }
+        
+        for wrong, correct in additional_fixes.items():
+            result = result.replace(wrong, correct)
+            result = result.replace(wrong.lower(), correct.lower())
+        
+        return result
+    
+    def _geocode_location(self, location: str) -> Optional[Dict]:
+        """Geocode location using existing geocoding logic."""
+        try:
+            # Get API key
+            api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
+            if not api_key:
+                try:
+                    result = subprocess.run(
+                        ["pass", "google-geocoding-api-key"],
+                        capture_output=True,
+                        text=True
+                    )
+                    if result.returncode == 0:
+                        api_key = result.stdout.strip()
+                except:
+                    pass
+            
+            if not api_key:
+                return None
+            
+            # Use existing geocoding client
+            geocoding_client = GoogleGeocodingClient(api_key, self.cache_config)
+            location_result = geocoding_client.geocode(location)
+            
+            if location_result:
+                return {
+                    "coordinates": {
+                        "lat": location_result.coordinates.lat,
+                        "lon": location_result.coordinates.lon
+                    },
+                    "display_name": location_result.name,
+                    "country": location_result.country,
+                    "locality": location_result.locality,
+                }
+            return None
+            
+        except Exception as e:
+            logger.error(f"GEOCODING|Error|{location}|{str(e)}")
+            return None
+    
+    def _generate_description(self, description: str) -> Optional[str]:
+        """Generate short description using LLM client."""
+        try:
+            llm_client = LLMClient("llama3.2:latest", self.cache_config)
+            return llm_client.generate_description(description)
+        except Exception as e:
+            logger.error(f"LLM|Error|{str(e)}")
             return None
 
 
@@ -627,28 +850,8 @@ def cmd_extract(args):
     cache_config = CacheConfig()
     cache_config.ensure_directories()
     
-    # Get API key
-    api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
-    if not api_key and not args.skip_geocoding:
-        try:
-            result = subprocess.run(
-                ["pass", "google-geocoding-api-key"],
-                capture_output=True,
-                text=True
-            )
-            if result.returncode == 0:
-                api_key = result.stdout.strip()
-        except:
-            pass
-        
-        if not api_key:
-            logger.error("No Google Maps API key found")
-            return 1
-    
-    # Initialize clients
+    # Initialize WordPress client
     wp_client = WordPressClient("https://www.portugalrunning.com", cache_config)
-    geocoding_client = GoogleGeocodingClient(api_key, cache_config) if api_key else None
-    llm_client = LLMClient(args.model, cache_config)
     
     # Fetch all events
     events = []
@@ -707,7 +910,12 @@ def cmd_extract(args):
         print(f"   Processing event {i+1}/{len(events)}: {event_id}")
         
         # Fetch detailed data
-        event_data = wp_client.fetch_event_details(event_id)
+        event_data = wp_client.fetch_event_details(
+            event_id,
+            skip_geocoding=args.skip_geocoding,
+            skip_descriptions=args.skip_descriptions,
+            skip_images=args.skip_images
+        )
         if not event_data:
             logger.error(f"Failed to fetch details for event {event_id}")
             continue
@@ -725,9 +933,9 @@ def cmd_extract(args):
             start_date = ics_data.get("start_date", "")
             end_date = ics_data.get("end_date", "")
             
-            # Use existing geocoding data if available
+            # Use geocoding data from event_data if available
             location_data = None
-            if geo_data.get("coordinates"):
+            if geo_data and geo_data.get("coordinates"):
                 coords = geo_data["coordinates"]
                 location_data = EventLocation(
                     name=geo_data.get("display_name", location),
@@ -735,13 +943,9 @@ def cmd_extract(args):
                     locality=geo_data.get("locality", ""),
                     coordinates=Coordinates(lat=coords["lat"], lon=coords["lon"])
                 )
-            elif not args.skip_geocoding and geocoding_client and location:
-                location_data = geocoding_client.geocode(location)
             
-            # Use existing short description or generate new one
+            # Use short description from event_data
             short_description = event_data.get("short_description")
-            if not short_description and not args.skip_descriptions and description:
-                short_description = llm_client.generate_description(description)
             
             # Use existing images
             images = event_data.get("images", [])
