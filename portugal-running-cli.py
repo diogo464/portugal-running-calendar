@@ -1142,47 +1142,45 @@ async def process_single_event_async(wp_client, event_id, skip_geocoding, skip_d
         return None
 
 
-def cmd_fetch_page(args):
+async def cmd_fetch_page(args):
     """Fetch a single page of events."""
     cache_config = CacheConfig()
     cache_config.ensure_directories()
     
-    wp_client = WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config)
-    
-    events = wp_client.fetch_events_page(args.page, use_cache=not args.no_cache)
-    
-    if events is None:
-        logger.error(f"Failed to fetch page {args.page}")
-        return 1
-    
-    print(json.dumps(events, ensure_ascii=False, indent=2))
-    return 0
+    async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config) as wp_client:
+        events = await wp_client.fetch_events_page(args.page, use_cache=not args.no_cache)
+        
+        if events is None:
+            logger.error(f"Failed to fetch page {args.page}")
+            return 1
+        
+        print(json.dumps(events, ensure_ascii=False, indent=2))
+        return 0
 
 
-def cmd_fetch_event(args):
+async def cmd_fetch_event(args):
     """Fetch detailed event data."""
     cache_config = CacheConfig()
     cache_config.ensure_directories()
     
-    wp_client = WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config)
-    
-    event_data = wp_client.fetch_event_details(args.event_id, use_cache=not args.no_cache)
-    
-    if event_data is None:
-        logger.error(f"Failed to fetch event {args.event_id}")
-        return 1
-    
-    # Additional enrichment if requested
-    if args.include_all:
-        # This would include geocoding, descriptions, etc.
-        # For now, just return the basic data
-        pass
-    
-    print(json.dumps(event_data, ensure_ascii=False, indent=2))
-    return 0
+    async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config) as wp_client:
+        event_data = await wp_client.fetch_event_details(args.event_id, use_cache=not args.no_cache)
+        
+        if event_data is None:
+            logger.error(f"Failed to fetch event {args.event_id}")
+            return 1
+        
+        # Additional enrichment if requested
+        if args.include_all:
+            # This would include geocoding, descriptions, etc.
+            # For now, just return the basic data
+            pass
+        
+        print(json.dumps(event_data, ensure_ascii=False, indent=2))
+        return 0
 
 
-def cmd_geocode(args):
+async def cmd_geocode(args):
     """Geocode a location."""
     cache_config = CacheConfig()
     cache_config.ensure_directories()
@@ -1204,8 +1202,8 @@ def cmd_geocode(args):
         logger.error("No location provided")
         return 1
     
-    client = GoogleGeocodingClient(api_key, cache_config)
-    result = client.geocode(args.location, use_cache=not args.no_cache)
+    async with GoogleGeocodingClient(api_key, cache_config) as client:
+        result = await client.geocode(args.location, use_cache=not args.no_cache)
     
     if result is None:
         logger.error(f"Failed to geocode '{args.location}'")
@@ -1219,13 +1217,13 @@ def cmd_geocode(args):
     return 0
 
 
-def cmd_describe(args):
+async def cmd_describe(args):
     """Generate event description."""
     cache_config = CacheConfig()
     cache_config.ensure_directories()
     
     client = LLMClient(args.model, cache_config)
-    description = client.generate_description(args.text, use_cache=not args.no_cache)
+    description = await client.generate_description(args.text, use_cache=not args.no_cache)
     
     if description is None:
         logger.error("Failed to generate description")
@@ -1235,16 +1233,17 @@ def cmd_describe(args):
     return 0
 
 
-def cmd_download_image(args):
+async def cmd_download_image(args):
     """Download an image."""
     output_path = Path(args.output)
     
-    if download_file(args.url, output_path):
-        print(str(output_path))
-        return 0
-    else:
-        logger.error(f"Failed to download {args.url}")
-        return 1
+    async with aiohttp.ClientSession() as session:
+        if await download_file(session, args.url, output_path):
+            print(str(output_path))
+            return 0
+        else:
+            logger.error(f"Failed to download {args.url}")
+            return 1
 
 
 def cmd_profile(args):
@@ -1359,7 +1358,7 @@ def setup_logging(level: str):
     )
 
 
-def main():
+async def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
         prog='portugal-running-cli',
@@ -1603,8 +1602,8 @@ def main():
     # Execute command
     try:
         # Handle async commands
-        if args.command == 'scrape':
-            return asyncio.run(args.func(args))
+        if args.command in ['scrape', 'fetch-page', 'fetch-event', 'geocode', 'describe', 'download-image']:
+            return await args.func(args)
         else:
             return args.func(args)
     except KeyboardInterrupt:
@@ -1616,4 +1615,4 @@ def main():
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    sys.exit(asyncio.run(main()))
