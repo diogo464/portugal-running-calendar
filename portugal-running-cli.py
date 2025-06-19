@@ -541,18 +541,7 @@ class WordPressClient:
             # Get API key
             api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
             if not api_key:
-                try:
-                    result = subprocess.run(
-                        ["pass", "google-geocoding-api-key"],
-                        capture_output=True,
-                        text=True
-                    )
-                    if result.returncode == 0:
-                        api_key = result.stdout.strip()
-                except:
-                    pass
-            
-            if not api_key:
+                logger.error("GEOCODING|No API key|Set GOOGLE_MAPS_API_KEY environment variable")
                 return None
             
             # Use existing geocoding client
@@ -1083,19 +1072,7 @@ def cmd_geocode(args):
     # Get API key
     api_key = args.api_key or os.environ.get("GOOGLE_MAPS_API_KEY")
     if not api_key:
-        try:
-            result = subprocess.run(
-                ["pass", "google-geocoding-api-key"],
-                capture_output=True,
-                text=True
-            )
-            if result.returncode == 0:
-                api_key = result.stdout.strip()
-        except:
-            pass
-    
-    if not api_key:
-        logger.error("No Google Maps API key found")
+        logger.error("No Google Maps API key found. Set GOOGLE_MAPS_API_KEY environment variable or use --api-key")
         return 1
     
     # Clear cache if requested
