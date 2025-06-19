@@ -689,20 +689,24 @@ class LLMClient:
             with open(cache_path, 'r', encoding='utf-8') as f:
                 return f.read().strip()
         
-        system_prompt = """you are a helpful llm that converts descriptions of running events into succint one line descriptions, condensing that information and outputing only the essential.
-here are some examples of the outputs you should generate:
-+ The world's oldest annual marathon
-+ Scenic run through Central Park
-+ Run along Lake Michigan
-+ Challenging trail through Texas Hill Country
-+ Beautiful bay views throughout the course
-+ High altitude marathon with mountain views
-+ Independence Day beach run
-+ Extreme endurance challenge in Pacific Northwest
+        system_prompt = """És um assistente especializado em condensar descrições de eventos de corrida em resumos de uma linha em português de Portugal. Deves extrair e resumir apenas a informação mais importante e relevante da descrição fornecida.
 
-you should output ONLY the single line description you generate and NOTHING else.
-use the available information in the description and DO NOT make up anything that isn't there.
-if you say an event is a marathon or half marathon you should NOT say the distance in meters since that is redundant."""
+Exemplos de resumos que deves gerar:
++ Corrida histórica pelas ruas de Lisboa com vista para o Tejo
++ Trail desafiante pela Serra da Estrela
++ São Silvestre tradicional no centro histórico do Porto
++ Meia maratona costeira com paisagens do Atlântico
++ Corrida solidária organizada pela câmara municipal
++ Prova de montanha com subidas técnicas
++ Corrida de Natal pela zona ribeirinha
++ Trail nocturno por caminhos antigos
+
+IMPORTANTE:
+- Responde APENAS com a descrição de uma linha em português de Portugal
+- Usa apenas informação presente na descrição original
+- Destaca características especiais do percurso, localização ou organização
+- Não menciones distâncias se já estão implícitas no tipo de evento
+- Foca-te no que torna este evento único ou interessante"""
         
         try:
             result = subprocess.run(
