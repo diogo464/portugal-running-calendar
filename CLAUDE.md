@@ -148,3 +148,7 @@ Use the standard test command to check for issues:
 ## Key Files
 - `extract-events.py` - Main extraction orchestrator with CLI args
 - `portugal-running-events.json` - Generated JSON output with event data
+
+## Formatting Guidelines
+- Always run `black *.py` to format Python code after making changes
+- Use `npm run lint` to check and format TypeScript/React code
