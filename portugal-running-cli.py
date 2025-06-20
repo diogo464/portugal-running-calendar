@@ -1625,12 +1625,12 @@ async def main():
         "--log-level",
         default="WARNING",
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
-        help="Set logging level (default: WARNING)",
+        help="Set logging level",
     )
     parser.add_argument(
         "--model",
-        default="claude-3.5-haiku",
-        help="LLM model to use for descriptions and inference (default: claude-3.5-haiku)",
+        default="openrouter/anthropic/claude-3.5-haiku",
+        help="LLM model to use for descriptions and inference",
     )
 
     # Subcommands
@@ -1642,7 +1642,7 @@ async def main():
         "--output",
         "-o",
         default="portugal-running-events.json",
-        help="Output JSON file (default: portugal-running-events.json)",
+        help="Output JSON file",
     )
     scrape_parser.add_argument("--limit", "-l", type=int, help="Limit number of events to scrape")
     scrape_parser.add_argument("--pages", "-p", type=int, help="Limit number of pages to fetch")
@@ -1654,13 +1654,13 @@ async def main():
         "--batch-size",
         type=int,
         default=50,
-        help="Number of events to process in parallel batches (default: 50)",
+        help="Number of events to process in parallel batches",
     )
     scrape_parser.add_argument(
         "--delay",
         type=float,
         default=0,
-        help="Delay in seconds between processing batches (default: 0)",
+        help="Delay in seconds between processing batches",
     )
     scrape_parser.set_defaults(func=cmd_scrape)
 
@@ -1707,7 +1707,7 @@ async def main():
     cache_clear_parser.add_argument(
         "--type",
         choices=["pages", "events", "geocoding", "descriptions", "images"],
-        help="Clear specific cache type (default: all)",
+        help="Clear specific cache type",
     )
 
     # Cache stats
