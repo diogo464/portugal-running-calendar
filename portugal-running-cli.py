@@ -1627,6 +1627,11 @@ async def main():
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Set logging level (default: WARNING)",
     )
+    parser.add_argument(
+        "--model",
+        default="claude-3.5-haiku",
+        help="LLM model to use for descriptions and inference (default: claude-3.5-haiku)",
+    )
 
     # Subcommands
     subparsers = parser.add_subparsers(dest="command", help="Available commands", required=True)
@@ -1644,11 +1649,6 @@ async def main():
     scrape_parser.add_argument("--skip-geocoding", action="store_true", help="Skip geocoding locations")
     scrape_parser.add_argument("--skip-descriptions", action="store_true", help="Skip generating descriptions")
     scrape_parser.add_argument("--skip-images", action="store_true", help="Skip downloading images")
-    scrape_parser.add_argument(
-        "--model",
-        default="claude-3.5-haiku",
-        help="LLM model for descriptions (default: claude-3.5-haiku)",
-    )
     scrape_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
     scrape_parser.add_argument(
         "--batch-size",
@@ -1689,21 +1689,11 @@ async def main():
     describe_parser = subparsers.add_parser("describe", help="Generate short description for text")
     describe_parser.add_argument("text", help="Text to summarize")
     describe_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh generation")
-    describe_parser.add_argument(
-        "--model",
-        default="claude-3.5-haiku",
-        help="LLM model to use (default: claude-3.5-haiku)",
-    )
     describe_parser.set_defaults(func=cmd_describe)
 
     # Event command
     event_parser = subparsers.add_parser("event", help="Fetch and display detailed information for a single event")
     event_parser.add_argument("event_id", type=int, help="Event ID to fetch")
-    event_parser.add_argument(
-        "--model",
-        default="claude-3.5-haiku",
-        help="LLM model to use (default: claude-3.5-haiku)",
-    )
     event_parser.set_defaults(func=cmd_event)
 
     # Cache command
@@ -1753,9 +1743,8 @@ async def main():
     http_session = http_session_create()
     geo_client = GoogleGeocodingClient(google_key, cache_config)
 
-    # LLM model will be set per command, use default for now
-    default_model = "claude-3.5-haiku"
-    llm_client = LLMClient(default_model, cache_config)
+    # Use global model argument
+    llm_client = LLMClient(args.model, cache_config)
 
     wp_client = WordPressClient(http_session, PORTUGAL_RUNNING_BASE_URL, cache_config)
 
@@ -1804,13 +1793,9 @@ async def main():
             return await cmd_geocode(cmd_args, ctx)
         elif args.command == "describe":
             cmd_args = DescribeArgs(text=args.text, no_cache=args.no_cache, model=args.model)
-            # Update LLM client with the specific model for this command
-            ctx.llm_client = LLMClient(args.model, ctx.cache_config)
             return await cmd_describe(cmd_args, ctx)
         elif args.command == "event":
             cmd_args = EventArgs(event_id=args.event_id, model=args.model)
-            # Update LLM client with the specific model for this command
-            ctx.llm_client = LLMClient(args.model, ctx.cache_config)
             return await cmd_event(cmd_args, ctx)
         elif args.command == "cache":
             cmd_args = CacheArgs(
