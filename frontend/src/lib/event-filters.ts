@@ -1,4 +1,4 @@
-import { Event, EventType } from './app'
+import { Event, EventType, stringToEventType } from './app'
 
 // Main filter interface containing all filter criteria
 export interface EventFilters {
@@ -45,9 +45,10 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
   return events.filter(event => {
     // Event type filtering
     if (filters.eventTypes.length > 0) {
-      const hasMatchingType = event.event_types.some(type => 
-        filters.eventTypes.includes(type)
-      )
+      const hasMatchingType = event.event_types.some(typeString => {
+        const eventType = stringToEventType[typeString]
+        return eventType && filters.eventTypes.includes(eventType)
+      })
       if (!hasMatchingType) return false
     }
     
