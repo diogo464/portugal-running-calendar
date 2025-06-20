@@ -349,9 +349,7 @@ def cache_get_stats(cache_dir: Path) -> Dict[str, Any]:
 
 
 def http_session_create() -> aiohttp.ClientSession:
-    connector = aiohttp.TCPConnector(
-        limit=100, limit_per_host=30, ttl_dns_cache=300, use_dns_cache=True
-    )
+    connector = aiohttp.TCPConnector(limit=100, limit_per_host=30, ttl_dns_cache=300, use_dns_cache=True)
 
     timeout = aiohttp.ClientTimeout(total=30, connect=10, sock_read=10)
 
@@ -363,9 +361,7 @@ def http_session_create() -> aiohttp.ClientSession:
     return session
 
 
-async def http_get(
-    session: aiohttp.ClientSession, url: str, timeout: int = 30
-) -> Tuple[int, bytes]:
+async def http_get(session: aiohttp.ClientSession, url: str, timeout: int = 30) -> Tuple[int, bytes]:
     """
     Perform async HTTP GET request.
     Returns (status_code, content).
@@ -409,9 +405,7 @@ async def http_get_cached(
             return content
         else:
             logger.error(f"HTTP|Bad status|{url}|{status}")
-            raise Exception(
-                f"http request returned invalid code {status}"
-            )  # TODO(claude): improve exception message
+            raise Exception(f"http request returned invalid code {status}")  # TODO(claude): improve exception message
     except Exception as e:
         logger.error(f"HTTP|Request failed|{url}|{str(e)}")
         raise e  # TODO(claude): improve exception message
@@ -606,16 +600,9 @@ class WordPressClient:
                 ics_end_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
 
         # Extract description
-        desc_match = re.search(
-            r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL
-        )
+        desc_match = re.search(r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL)
         if desc_match:
-            desc = (
-                desc_match.group(1)
-                .replace("\n ", "")
-                .replace("\\n", "\n")
-                .replace("\\,", ",")
-            )
+            desc = desc_match.group(1).replace("\n ", "").replace("\\n", "\n").replace("\\,", ",")
             ics_description = self._fix_encoding(desc.strip())
 
         return WIcs(
@@ -704,9 +691,7 @@ class GoogleGeocodingClient:
             await asyncio.sleep(self.min_request_interval - time_since_last)
         self.last_request_time = time.time()
 
-    async def geocode(
-        self, location: str, use_cache: bool = True
-    ) -> Optional[EventLocation]:
+    async def geocode(self, location: str, use_cache: bool = True) -> Optional[EventLocation]:
         """Geocode a location string asynchronously."""
         cache_key = cache_get_key(location.lower().strip(), prefix="google")
         cache_path = self.cache_config.geocoding_dir / f"{cache_key}.json"
@@ -787,9 +772,7 @@ class GoogleGeocodingClient:
                 name=location,
                 country=location_data["country"],
                 locality=location_data["locality"],
-                coordinates=Coordinates(
-                    lat=location_data["lat"], lon=location_data["lon"]
-                ),
+                coordinates=Coordinates(lat=location_data["lat"], lon=location_data["lon"]),
             )
 
         except Exception as e:
@@ -804,19 +787,25 @@ class LLMClient:
         self.model = model
         self.cache_config = cache_config
 
-    async def _cached_llm_call(self, system_prompt: str, user_prompt: str, cache_suffix: str = "", use_cache: bool = True) -> str:
+    async def _cached_llm_call(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        cache_suffix: str = "",
+        use_cache: bool = True,
+    ) -> str:
         """Execute cached LLM call with system and user prompts."""
         # Create cache key from system + user prompt + model
         cache_input = f"{system_prompt}|{user_prompt}|{self.model}"
         cache_key = cache_get_key(cache_input)
         cache_filename = f"{cache_key}{cache_suffix}.txt"
         cache_path = self.cache_config.descriptions_dir / cache_filename
-        
+
         # Check cache first
         if use_cache and cache_path.exists():
             async with aiofiles.open(cache_path, "r", encoding="utf-8") as f:
                 return (await f.read()).strip()
-        
+
         # Make LLM call
         try:
             _, stdout, stderr = await subprocess_run(
@@ -824,16 +813,16 @@ class LLMClient:
                 timeout=30,
                 check=True,
             )
-            
+
             result = stdout.strip()
-            
+
             # Cache the result
             cache_path.parent.mkdir(exist_ok=True)
             async with aiofiles.open(cache_path, "w", encoding="utf-8") as f:
                 await f.write(result)
-            
+
             return result
-            
+
         except asyncio.TimeoutError:
             logger.error("LLM|Timeout in cached call")
             raise
@@ -921,17 +910,17 @@ distances: """
         try:
             # Get LLM response using cached call
             output = await self._cached_llm_call(system_prompt, text, "_infer", use_cache)
-            
+
             # Parse the output
-            lines = output.split('\n')
+            lines = output.split("\n")
             event_types = []
             distances = []
-            
+
             for line in lines:
                 if line.startswith("event_types:"):
                     types_str = line.replace("event_types:", "").strip()
                     if types_str:
-                        for type_str in types_str.split(','):
+                        for type_str in types_str.split(","):
                             type_str = type_str.strip()
                             try:
                                 # Validate that it's a valid EventType
@@ -939,20 +928,20 @@ distances: """
                                 event_types.append(event_type)
                             except ValueError:
                                 logger.warning(f"LLM returned invalid event type: {type_str}")
-                
+
                 elif line.startswith("distances:"):
                     distances_str = line.replace("distances:", "").strip()
                     if distances_str:
-                        for dist_str in distances_str.split(','):
+                        for dist_str in distances_str.split(","):
                             try:
                                 distance = int(dist_str.strip())
                                 if 100 <= distance <= 200000:  # Reasonable range
                                     distances.append(distance)
                             except ValueError:
                                 logger.warning(f"LLM returned invalid distance: {dist_str}")
-            
+
             return event_types, sorted(list(set(distances)))
-            
+
         except Exception as e:
             logger.error(f"LLM|Error inferring event data|{str(e)}")
             return [], []
@@ -1088,9 +1077,7 @@ def _enrich_extract_distances_from_text(text: str) -> List[int]:
 
 
 def enrich_from_event_details(builder: EventBuilder, details: WEvent):
-    event_types = _enrich_extract_event_types_from_word_press_class_list(
-        details.class_list
-    )
+    event_types = _enrich_extract_event_types_from_word_press_class_list(details.class_list)
     for event_type in event_types:
         builder.add_event_type(event_type)
 
@@ -1125,10 +1112,19 @@ async def enrich_from_llm(builder: EventBuilder, llm: LLMClient):
     short_description = await llm.generate_description(builder.event_description)
     builder.set_description_short(short_description)
 
+    infer_input = ""
+    if builder.event_name is not None:
+        infer_input += builder.event_name + "\n"
+    if builder.event_description is not None:
+        infer_input += builder.event_description + "\n"
+    event_types, event_distances = await llm.infer_event_data(infer_input)
+    for event_type in event_types:
+        builder.add_event_type(event_type)
+    for event_distance in event_distances:
+        builder.add_distance(event_distance)
 
-async def encrich_from_google_maps(
-    builder: EventBuilder, google: GoogleGeocodingClient
-):
+
+async def encrich_from_google_maps(builder: EventBuilder, google: GoogleGeocodingClient):
     if builder.event_location is None:
         return
 
@@ -1305,9 +1301,7 @@ async def cmd_scrape(args: ScrapeArgs):
     http_session = http_session_create()
     geo_client = GoogleGeocodingClient(google_key, cache_config)
     llm_client = LLMClient(args.model, cache_config)
-    wp_client = WordPressClient(
-        http_session, PORTUGAL_RUNNING_BASE_URL, cache_config, args.max_concurrent
-    )
+    wp_client = WordPressClient(http_session, PORTUGAL_RUNNING_BASE_URL, cache_config, args.max_concurrent)
 
     # Step 1: Fetch all pages in parallel
     pages = await fetch_pages(wp_client, args)
@@ -1354,9 +1348,7 @@ async def cmd_fetch_page(args: FetchPageArgs):
     cache_config.ensure_directories()
 
     async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config) as wp_client:
-        events = await wp_client.fetch_events_page(
-            args.page, use_cache=not args.no_cache
-        )
+        events = await wp_client.fetch_events_page(args.page, use_cache=not args.no_cache)
 
         if events is None:
             logger.error(f"Failed to fetch page {args.page}")
@@ -1372,9 +1364,7 @@ async def cmd_fetch_event(args: FetchEventArgs):
     cache_config.ensure_directories()
 
     async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config) as wp_client:
-        event_data = await wp_client.fetch_event_details(
-            args.event_id, use_cache=not args.no_cache
-        )
+        event_data = await wp_client.fetch_event_details(args.event_id, use_cache=not args.no_cache)
 
         if event_data is None:
             logger.error(f"Failed to fetch event {args.event_id}")
@@ -1398,9 +1388,7 @@ async def cmd_geocode(args: GeocodeArgs):
     # Get API key
     api_key = args.api_key or os.environ.get("GOOGLE_MAPS_API_KEY")
     if not api_key:
-        logger.error(
-            "No Google Maps API key found. Set GOOGLE_MAPS_API_KEY environment variable or use --api-key"
-        )
+        logger.error("No Google Maps API key found. Set GOOGLE_MAPS_API_KEY environment variable or use --api-key")
         return 1
 
     # Clear cache if requested
@@ -1435,9 +1423,7 @@ async def cmd_describe(args: DescribeArgs):
     cache_config.ensure_directories()
 
     client = LLMClient(args.model, cache_config)
-    description = await client.generate_description(
-        args.text, use_cache=not args.no_cache
-    )
+    description = await client.generate_description(args.text, use_cache=not args.no_cache)
 
     if description is None:
         logger.error("Failed to generate description")
@@ -1521,17 +1507,13 @@ def cmd_cache(args: CacheArgs):
         ]:
             stats = cache_get_stats(cache_dir)
             if stats["exists"]:
-                print(
-                    f"{name:.<20} {stats['files']:>6} files, {stats['size_mb']:>8.2f} MB"
-                )
+                print(f"{name:.<20} {stats['files']:>6} files, {stats['size_mb']:>8.2f} MB")
                 total_files += stats["files"]
                 total_size += stats["size"]
             else:
                 print(f"{name:.<20} (not found)")
 
-        print(
-            f"\n{'Total':.<20} {total_files:>6} files, {total_size / 1024 / 1024:>8.2f} MB"
-        )
+        print(f"\n{'Total':.<20} {total_files:>6} files, {total_size / 1024 / 1024:>8.2f} MB")
 
     elif args.cache_command == "list":
         cache_dirs = {
@@ -1554,9 +1536,7 @@ def cmd_cache(args: CacheArgs):
             else:
                 print(f"Cache directory not found: {cache_dir}")
         else:
-            print(
-                "Available cache types: pages, events, geocoding, descriptions, images"
-            )
+            print("Available cache types: pages, events, geocoding, descriptions, images")
 
     return 0
 
@@ -1595,35 +1575,21 @@ async def main():
     )
 
     # Subcommands
-    subparsers = parser.add_subparsers(
-        dest="command", help="Available commands", required=True
-    )
+    subparsers = parser.add_subparsers(dest="command", help="Available commands", required=True)
 
     # Scrape command
-    scrape_parser = subparsers.add_parser(
-        "scrape", help="Scrape all events (main pipeline)"
-    )
+    scrape_parser = subparsers.add_parser("scrape", help="Scrape all events (main pipeline)")
     scrape_parser.add_argument(
         "--output",
         "-o",
         default="portugal-running-events.json",
         help="Output JSON file (default: portugal-running-events.json)",
     )
-    scrape_parser.add_argument(
-        "--limit", "-l", type=int, help="Limit number of events to scrape"
-    )
-    scrape_parser.add_argument(
-        "--pages", "-p", type=int, help="Limit number of pages to fetch"
-    )
-    scrape_parser.add_argument(
-        "--skip-geocoding", action="store_true", help="Skip geocoding locations"
-    )
-    scrape_parser.add_argument(
-        "--skip-descriptions", action="store_true", help="Skip generating descriptions"
-    )
-    scrape_parser.add_argument(
-        "--skip-images", action="store_true", help="Skip downloading images"
-    )
+    scrape_parser.add_argument("--limit", "-l", type=int, help="Limit number of events to scrape")
+    scrape_parser.add_argument("--pages", "-p", type=int, help="Limit number of pages to fetch")
+    scrape_parser.add_argument("--skip-geocoding", action="store_true", help="Skip geocoding locations")
+    scrape_parser.add_argument("--skip-descriptions", action="store_true", help="Skip generating descriptions")
+    scrape_parser.add_argument("--skip-images", action="store_true", help="Skip downloading images")
     scrape_parser.add_argument(
         "--delay",
         type=float,
@@ -1641,29 +1607,19 @@ async def main():
         default=10,
         help="Maximum concurrent requests (default: 10)",
     )
-    scrape_parser.add_argument(
-        "--no-cache", action="store_true", help="Skip cache and force fresh fetch"
-    )
+    scrape_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
     scrape_parser.set_defaults(func=cmd_scrape)
 
     # Fetch-page command
-    fetch_page_parser = subparsers.add_parser(
-        "fetch-page", help="Fetch a single page of events"
-    )
+    fetch_page_parser = subparsers.add_parser("fetch-page", help="Fetch a single page of events")
     fetch_page_parser.add_argument("page", type=int, help="Page number to fetch")
-    fetch_page_parser.add_argument(
-        "--no-cache", action="store_true", help="Skip cache and force fresh fetch"
-    )
+    fetch_page_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
     fetch_page_parser.set_defaults(func=cmd_fetch_page)
 
     # Fetch-event command
-    fetch_event_parser = subparsers.add_parser(
-        "fetch-event", help="Fetch detailed data for a single event"
-    )
+    fetch_event_parser = subparsers.add_parser("fetch-event", help="Fetch detailed data for a single event")
     fetch_event_parser.add_argument("event_id", type=int, help="Event ID to fetch")
-    fetch_event_parser.add_argument(
-        "--no-cache", action="store_true", help="Skip cache and force fresh fetch"
-    )
+    fetch_event_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
     fetch_event_parser.add_argument(
         "--include-all",
         action="store_true",
@@ -1674,28 +1630,16 @@ async def main():
     # Geocode command
     geocode_parser = subparsers.add_parser("geocode", help="Geocode a location string")
     geocode_parser.add_argument("location", nargs="?", help="Location to geocode")
-    geocode_parser.add_argument(
-        "--no-cache", action="store_true", help="Skip cache and force fresh geocoding"
-    )
-    geocode_parser.add_argument(
-        "--clear-cache", action="store_true", help="Clear geocoding cache"
-    )
-    geocode_parser.add_argument(
-        "--debug", action="store_true", help="Include debug information in output"
-    )
-    geocode_parser.add_argument(
-        "--api-key", help="Google Maps API key (overrides environment)"
-    )
+    geocode_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh geocoding")
+    geocode_parser.add_argument("--clear-cache", action="store_true", help="Clear geocoding cache")
+    geocode_parser.add_argument("--debug", action="store_true", help="Include debug information in output")
+    geocode_parser.add_argument("--api-key", help="Google Maps API key (overrides environment)")
     geocode_parser.set_defaults(func=cmd_geocode)
 
     # Describe command
-    describe_parser = subparsers.add_parser(
-        "describe", help="Generate short description for text"
-    )
+    describe_parser = subparsers.add_parser("describe", help="Generate short description for text")
     describe_parser.add_argument("text", help="Text to summarize")
-    describe_parser.add_argument(
-        "--no-cache", action="store_true", help="Skip cache and force fresh generation"
-    )
+    describe_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh generation")
     describe_parser.add_argument(
         "--model",
         default="claude-3.5-haiku",
@@ -1704,9 +1648,7 @@ async def main():
     describe_parser.set_defaults(func=cmd_describe)
 
     # Event command
-    event_parser = subparsers.add_parser(
-        "event", help="Fetch and display detailed information for a single event"
-    )
+    event_parser = subparsers.add_parser("event", help="Fetch and display detailed information for a single event")
     event_parser.add_argument("event_id", type=int, help="Event ID to fetch")
     event_parser.add_argument(
         "--model",
@@ -1716,20 +1658,14 @@ async def main():
     event_parser.set_defaults(func=cmd_event)
 
     # Download-image command
-    download_parser = subparsers.add_parser(
-        "download-image", help="Download an image from URL"
-    )
+    download_parser = subparsers.add_parser("download-image", help="Download an image from URL")
     download_parser.add_argument("url", help="Image URL to download")
     download_parser.add_argument("output", help="Output file path")
     download_parser.set_defaults(func=cmd_download_image)
 
     # Profile command
-    profile_parser = subparsers.add_parser(
-        "profile", help="Profile extraction performance"
-    )
-    profile_parser.add_argument(
-        "--operations", nargs="+", help="Specific operations to profile"
-    )
+    profile_parser = subparsers.add_parser("profile", help="Profile extraction performance")
+    profile_parser.add_argument("--operations", nargs="+", help="Specific operations to profile")
     profile_parser.set_defaults(func=cmd_profile)
 
     # Cache command
@@ -1802,9 +1738,7 @@ async def main():
             )
             return await cmd_geocode(cmd_args)
         elif args.command == "describe":
-            cmd_args = DescribeArgs(
-                text=args.text, no_cache=args.no_cache, model=args.model
-            )
+            cmd_args = DescribeArgs(text=args.text, no_cache=args.no_cache, model=args.model)
             return await cmd_describe(cmd_args)
         elif args.command == "event":
             cmd_args = EventArgs(event_id=args.event_id, model=args.model)
@@ -1876,4 +1810,3 @@ if __name__ == "__main__":
     #     except Exception as e:
     #         logger.error(f"LLM|Error|{str(e)}")
     #         return None
-
