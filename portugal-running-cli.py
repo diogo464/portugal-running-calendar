@@ -1257,13 +1257,11 @@ class Context:
 # ============================================================================
 
 
-async def cmd_event(args: EventArgs, ctx: Context):
-    event_builder = EventBuilder(args.event_id)
-    event_details = await ctx.wp_client.fetch_event_details(args.event_id)
-    event_ics = await ctx.wp_client.fetch_event_ics(args.event_id)
-
-    pprint.pprint(event_details)
-    pprint.pprint(event_ics)
+async def scrape_event(ctx: Context, event_id: int) -> Event:
+    """Scrape a single event with all enrichment steps."""
+    event_builder = EventBuilder(event_id)
+    event_details = await ctx.wp_client.fetch_event_details(event_id)
+    event_ics = await ctx.wp_client.fetch_event_ics(event_id)
 
     enrich_from_event_details(event_builder, event_details)
     enrich_from_event_ics(event_builder, event_ics)
@@ -1273,28 +1271,116 @@ async def cmd_event(args: EventArgs, ctx: Context):
     enrich_distances_from_types(event_builder)
 
     # Build the final event
-    event = event_builder.build()
+    return event_builder.build()
 
+
+async def cmd_event(args: EventArgs, ctx: Context):
+    event = await scrape_event(ctx, args.event_id)
     # Print the final event as JSON
     print(json.dumps(event.to_dict(), ensure_ascii=False, indent=2))
 
 
 async def cmd_scrape(args: ScrapeArgs, ctx: Context):
     """Main scraping pipeline with improved data flow."""
-    # TODO: Implement the main scraping pipeline
-    print("⚠️  Scrape command not yet implemented")
-    return 1
+    logger.info("Starting event scraping")
+
+    # Update cache config based on args
+    ctx.cache_config.enabled = not args.no_cache
+
+    # Update LLM client with the specific model for this command
+    ctx.llm_client = LLMClient(args.model, ctx.cache_config)
+
+    print(f"🔄 Fetching events (limit: {args.limit if args.limit else 'unlimited'})")
+
+    # Step 1: Fetch all event IDs from pages
+    current_page = 1
+    event_ids = []
+    pages_to_fetch = args.pages if args.pages else float("inf")
+
+    while current_page <= pages_to_fetch:
+        try:
+            print(f"📄 Fetching page {current_page}...")
+            page = await ctx.wp_client.fetch_events_page(current_page)
+            event_ids.extend(page.event_ids)
+            current_page += 1
+
+            # If we got fewer events than expected, we've reached the end
+            if len(page.event_ids) == 0:
+                break
+
+            # Stop fetching if we already have enough events for the limit
+            if args.limit and len(event_ids) >= args.limit:
+                print(f"🔢 Collected {len(event_ids)} events, reached limit of {args.limit}")
+                break
+
+        except Exception as e:
+            logger.warning(f"Failed to fetch page {current_page}: {e}")
+            break
+
+    print(f"✅ Found {len(event_ids)} unique event IDs from {current_page - 1} pages")
+
+    # Apply limit if specified
+    if args.limit and args.limit < len(event_ids):
+        event_ids = event_ids[: args.limit]
+        print(f"🔢 Limited to {len(event_ids)} events")
+
+    # Step 2: Scrape events in parallel batches
+    BATCH_SIZE = 5  # Process events in batches to avoid overwhelming the API
+    events = []
+
+    for i in range(0, len(event_ids), BATCH_SIZE):
+        batch_ids = event_ids[i : i + BATCH_SIZE]
+        batch_num = (i // BATCH_SIZE) + 1
+        total_batches = (len(event_ids) + BATCH_SIZE - 1) // BATCH_SIZE
+
+        print(f"🔄 Processing batch {batch_num}/{total_batches} ({len(batch_ids)} events)...")
+
+        # Create tasks for parallel processing
+        tasks = [scrape_event(ctx, event_id) for event_id in batch_ids]
+
+        try:
+            # Process batch with timeout
+            batch_events = await asyncio.gather(*tasks, return_exceptions=True)
+
+            # Filter out exceptions and add successful events
+            for j, result in enumerate(batch_events):
+                if isinstance(result, Exception):
+                    logger.error(f"Failed to scrape event {batch_ids[j]}: {result}")
+                    continue
+                assert isinstance(result, Event)
+                events.append(result.to_dict())
+
+            print(
+                f"✅ Completed batch {batch_num} ({len([r for r in batch_events if not isinstance(r, Exception)])} successful)"
+            )
+
+        except Exception as e:
+            logger.error(f"Batch {batch_num} failed: {e}")
+
+        # Add delay between batches if specified
+        if args.delay > 0:
+            await asyncio.sleep(args.delay)
+
+    print(f"✅ Successfully scraped {len(events)} events")
+
+    # Step 3: Save results
+    print(f"💾 Saving events to {args.output}...")
+    async with aiofiles.open(args.output, "w", encoding="utf-8") as f:
+        await f.write(json.dumps(events, ensure_ascii=False, indent=2))
+
+    print(f"✅ Saved {len(events)} events to {args.output}")
+    return 0
 
 
 async def cmd_fetch_page(args: FetchPageArgs, ctx: Context):
     """Fetch a single page of events."""
-    events = await ctx.wp_client.fetch_events_page(args.page)
+    page = await ctx.wp_client.fetch_events_page(args.page)
 
-    if events is None:
+    if page is None:
         logger.error(f"Failed to fetch page {args.page}")
         return 1
 
-    print(json.dumps(events, ensure_ascii=False, indent=2))
+    pprint.pprint(page)
     return 0
 
 
