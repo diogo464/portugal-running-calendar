@@ -1215,6 +1215,7 @@ class ScrapeArgs:
     delay: float
     model: str
     max_concurrent: int
+    batch_size: int
     no_cache: bool = False
 
 
@@ -1375,13 +1376,12 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
         print(f"🔢 Limited to {len(event_ids)} events")
 
     # Step 2: Scrape events in parallel batches
-    BATCH_SIZE = 5  # Process events in batches to avoid overwhelming the API
     events = []
 
-    for i in range(0, len(event_ids), BATCH_SIZE):
-        batch_ids = event_ids[i : i + BATCH_SIZE]
-        batch_num = (i // BATCH_SIZE) + 1
-        total_batches = (len(event_ids) + BATCH_SIZE - 1) // BATCH_SIZE
+    for i in range(0, len(event_ids), args.batch_size):
+        batch_ids = event_ids[i : i + args.batch_size]
+        batch_num = (i // args.batch_size) + 1
+        total_batches = (len(event_ids) + args.batch_size - 1) // args.batch_size
 
         print(f"🔄 Processing batch {batch_num}/{total_batches} ({len(batch_ids)} events)...")
 
@@ -1655,6 +1655,12 @@ async def main():
         help="Maximum concurrent requests (default: 10)",
     )
     scrape_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
+    scrape_parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=50,
+        help="Number of events to process in parallel batches (default: 50)",
+    )
     scrape_parser.set_defaults(func=cmd_scrape)
 
     # Fetch-page command
@@ -1790,6 +1796,7 @@ async def main():
                 delay=args.delay,
                 model=args.model,
                 max_concurrent=args.max_concurrent,
+                batch_size=args.batch_size,
                 no_cache=args.no_cache,
             )
             return await cmd_scrape(cmd_args, ctx)
