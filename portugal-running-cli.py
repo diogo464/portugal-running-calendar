@@ -804,15 +804,45 @@ class LLMClient:
         self.model = model
         self.cache_config = cache_config
 
-    async def generate_description(self, text: str, use_cache: bool = True) -> str:
-        """Generate short description using LLM asynchronously."""
-        cache_key = cache_get_key(text)
-        cache_path = self.cache_config.descriptions_dir / f"{cache_key}.txt"
-
+    async def _cached_llm_call(self, system_prompt: str, user_prompt: str, cache_suffix: str = "", use_cache: bool = True) -> str:
+        """Execute cached LLM call with system and user prompts."""
+        # Create cache key from system + user prompt + model
+        cache_input = f"{system_prompt}|{user_prompt}|{self.model}"
+        cache_key = cache_get_key(cache_input)
+        cache_filename = f"{cache_key}{cache_suffix}.txt"
+        cache_path = self.cache_config.descriptions_dir / cache_filename
+        
+        # Check cache first
         if use_cache and cache_path.exists():
             async with aiofiles.open(cache_path, "r", encoding="utf-8") as f:
                 return (await f.read()).strip()
+        
+        # Make LLM call
+        try:
+            _, stdout, stderr = await subprocess_run(
+                ["llm", "-m", self.model, "-s", system_prompt, user_prompt],
+                timeout=30,
+                check=True,
+            )
+            
+            result = stdout.strip()
+            
+            # Cache the result
+            cache_path.parent.mkdir(exist_ok=True)
+            async with aiofiles.open(cache_path, "w", encoding="utf-8") as f:
+                await f.write(result)
+            
+            return result
+            
+        except asyncio.TimeoutError:
+            logger.error("LLM|Timeout in cached call")
+            raise
+        except Exception as e:
+            logger.error(f"LLM|Error in cached call|{str(e)}")
+            raise
 
+    async def generate_description(self, text: str, use_cache: bool = True) -> str:
+        """Generate short description using LLM asynchronously."""
         system_prompt = """És um assistente especializado em condensar descrições de eventos de corrida em resumos de uma linha em português de Portugal. Deves extrair e resumir apenas a informação mais importante e relevante da descrição fornecida.
 
 Exemplos de resumos que deves gerar:
@@ -832,26 +862,100 @@ IMPORTANTE:
 - Não menciones distâncias se já estão implícitas no tipo de evento
 - Foca-te no que torna este evento único ou interessante"""
 
+        return await self._cached_llm_call(system_prompt, text, "_description", use_cache)
+
+    async def infer_event_data(self, text: str, use_cache: bool = True) -> Tuple[List[EventType], List[int]]:
+        """Infer event types and distances from text using LLM."""
+        system_prompt = """You are analyzing running event data to extract ONLY explicitly mentioned event types and distances.
+
+AVAILABLE EVENT TYPES (use EXACTLY these values):
+- marathon (42.195km marathon)
+- half-marathon (21.0975km half marathon)
+- 10k (10km race)
+- 5k (5km race)
+- run (general running event)
+- trail (trail running)
+- walk (walking event)
+- cross-country (cross country running)
+- saint-silvester (São Silvestre race)
+- kids (children's race)
+- relay (relay/team race)
+
+CRITICAL RULES:
+1. ONLY extract information that is EXPLICITLY stated in the text
+2. DO NOT infer or guess event types or distances that are not clearly mentioned
+3. If you find NO clear evidence, return empty lists
+4. For distances, only include exact numbers mentioned (in meters)
+5. Convert all distances to meters (1km = 1000m)
+6. DO NOT assume standard distances unless explicitly stated
+
+OUTPUT FORMAT (exactly 2 lines):
+event_types: type1,type2,type3
+distances: 5000,10000,21097
+
+If nothing found, output:
+event_types: 
+distances: 
+
+EXAMPLES:
+Input: "Meia Maratona de Lisboa - Percurso de 21km pela cidade"
+Output:
+event_types: half-marathon
+distances: 21000
+
+Input: "Corrida solidária com percursos de 5 e 10 quilómetros"
+Output:
+event_types: run
+distances: 5000,10000
+
+Input: "Trail do Gerês - Aventura pela montanha"
+Output:
+event_types: trail
+distances: 
+
+Input: "Evento desportivo na cidade"
+Output:
+event_types: 
+distances: """
+
         try:
-            _, stdout, stderr = await subprocess_run(
-                ["llm", "-m", self.model, "-s", system_prompt, text],
-                timeout=30,
-                check=True,
-            )
-
-            description = stdout.strip()
-            # Ensure cache directory exists
-            cache_path.parent.mkdir(exist_ok=True)
-            async with aiofiles.open(cache_path, "w", encoding="utf-8") as f:
-                await f.write(description)
-            return description
-
-        except asyncio.TimeoutError:
-            logger.error("LLM|Timeout generating description")
-            raise
+            # Get LLM response using cached call
+            output = await self._cached_llm_call(system_prompt, text, "_infer", use_cache)
+            
+            # Parse the output
+            lines = output.split('\n')
+            event_types = []
+            distances = []
+            
+            for line in lines:
+                if line.startswith("event_types:"):
+                    types_str = line.replace("event_types:", "").strip()
+                    if types_str:
+                        for type_str in types_str.split(','):
+                            type_str = type_str.strip()
+                            try:
+                                # Validate that it's a valid EventType
+                                event_type = EventType(type_str)
+                                event_types.append(event_type)
+                            except ValueError:
+                                logger.warning(f"LLM returned invalid event type: {type_str}")
+                
+                elif line.startswith("distances:"):
+                    distances_str = line.replace("distances:", "").strip()
+                    if distances_str:
+                        for dist_str in distances_str.split(','):
+                            try:
+                                distance = int(dist_str.strip())
+                                if 100 <= distance <= 200000:  # Reasonable range
+                                    distances.append(distance)
+                            except ValueError:
+                                logger.warning(f"LLM returned invalid distance: {dist_str}")
+            
+            return event_types, sorted(list(set(distances)))
+            
         except Exception as e:
-            logger.error(f"LLM|Error|{str(e)}")
-            raise
+            logger.error(f"LLM|Error inferring event data|{str(e)}")
+            return [], []
 
 
 # ============================================================================
