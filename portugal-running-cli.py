@@ -125,6 +125,8 @@ class WEvent:
     id: int
     # this appears to tbe the date at which this object was created in word press, not the actual event date
     date: str
+    # link to the portugal running event page
+    link: str
     slug: str
     title: str
     class_list: list[str]
@@ -151,6 +153,7 @@ class Event:
     event_circuit: List[Any]
     event_description: str
     description_short: Optional[str]
+    event_page: Optional[str]
 
     def to_dict(self) -> Dict[str, Any]:
         result = asdict(self)
@@ -174,6 +177,7 @@ class EventBuilder:
     event_circuit: list[str] = []
     event_description: str | None = None
     event_description_short: str | None = None
+    event_page: str | None = None
 
     def __init__(self, event_id: int):
         self.event_id = event_id
@@ -261,6 +265,12 @@ class EventBuilder:
             self.event_description_short = description_short
             logger.debug(f"EVENT_BUILDER|Set short description|{self.event_id}|{old_value} -> {description_short}")
 
+    def set_event_page(self, event_page: str, overwrite: bool = False):
+        if self.event_page is None or overwrite:
+            old_value = self.event_page
+            self.event_page = event_page
+            logger.debug(f"EVENT_BUILDER|Set event page|{self.event_id}|{old_value} -> {event_page}")
+
     def build(self) -> Event:
         """Build an Event instance from the builder, using default values for any None fields."""
         # Convert EventType enums to strings
@@ -281,6 +291,7 @@ class EventBuilder:
             event_circuit=self.event_circuit or [],
             event_description=self.event_description or "",
             description_short=self.event_description_short,  # Can be None
+            event_page=self.event_page,  # Can be None
         )
 
 
@@ -564,6 +575,7 @@ class WordPressClient:
         return WEvent(
             id=int(json_data["id"]),
             date=json_data["date"],
+            link=json_data["link"],
             slug=json_data["slug"],
             title=json_data["title"]["rendered"],
             class_list=json_data["class_list"],
@@ -1128,6 +1140,32 @@ async def enrich_from_event_details(
             pass
 
 
+async def enrich_event_link(
+    builder: EventBuilder, link: str | None, session: aiohttp.ClientSession, cache_config: CacheConfig
+):
+    if link is None or link == "":
+        return
+
+    try:
+        content = await http_get_cached(session, cache_config, link)
+        content_str = content.decode("utf-8")
+
+        # Use regex to find the event page link
+        # Looking for <a class="evcal_evdata_row evo_clik_row " href="...">
+        pattern = r'<a[^>]*class="[^"]*evcal_evdata_row evo_clik_row[^"]*"[^>]*href="([^"]+)"[^>]*>'
+
+        match = re.search(pattern, content_str)
+        if match:
+            event_page_url = match.group(1)
+            builder.set_event_page(event_page_url)
+            logger.debug(f"EVENT_LINK|Found event page|{builder.event_id}|{event_page_url}")
+        else:
+            logger.debug(f"EVENT_LINK|No event page found|{builder.event_id}|{link}")
+
+    except Exception as e:
+        logger.error(f"EVENT_LINK|Error extracting event page|{builder.event_id}|{link}|{str(e)}")
+
+
 def enrich_from_event_ics(builder: EventBuilder, ics: WIcs):
     if ics.location is not None:
         builder.set_location(ics.location)
@@ -1286,6 +1324,9 @@ async def scrape_event(ctx: Context, event_id: int) -> Event:
 
     logger.info(f"EVENT_SCRAPE|Enriching from event details|{event_id}")
     await enrich_from_event_details(event_builder, event_details, ctx.http_session, ctx.cache_config)
+
+    logger.info(f"EVENT_SCRAPE|Enriching from event link|{event_id}")
+    await enrich_event_link(event_builder, event_details.link, ctx.http_session, ctx.cache_config)
 
     logger.info(f"EVENT_SCRAPE|Enriching from ICS data|{event_id}")
     enrich_from_event_ics(event_builder, event_ics)
