@@ -1241,35 +1241,34 @@ class CacheArgs:
     type: Optional[str] = None
 
 
+@dataclass
+class Context:
+    """Shared context containing all client instances and configuration."""
+
+    cache_config: CacheConfig
+    http_session: aiohttp.ClientSession
+    geo_client: GoogleGeocodingClient
+    llm_client: LLMClient
+    wp_client: WordPressClient
+
+
 # ============================================================================
 # Subcommand Handlers
 # ============================================================================
 
 
-async def cmd_event(args: EventArgs):
-    # Setup
-    cache_config = CacheConfig()
-    cache_config.ensure_directories()
-
-    google_key = os.environ.get(ENV_GOOGLE_MAPS_API_KEY)
-    assert google_key is not None, "missing google maps api key"
-
-    http_session = http_session_create()
-    geo_client = GoogleGeocodingClient(google_key, cache_config)
-    llm_client = LLMClient(args.model, cache_config)
-    wp_client = WordPressClient(http_session, PORTUGAL_RUNNING_BASE_URL, cache_config)
-
+async def cmd_event(args: EventArgs, ctx: Context):
     event_builder = EventBuilder(args.event_id)
-    event_details = await wp_client.fetch_event_details(args.event_id)
-    event_ics = await wp_client.fetch_event_ics(args.event_id)
+    event_details = await ctx.wp_client.fetch_event_details(args.event_id)
+    event_ics = await ctx.wp_client.fetch_event_ics(args.event_id)
 
     pprint.pprint(event_details)
     pprint.pprint(event_ics)
 
     enrich_from_event_details(event_builder, event_details)
     enrich_from_event_ics(event_builder, event_ics)
-    await enrich_from_llm(event_builder, llm_client)
-    await encrich_from_google_maps(event_builder, geo_client)
+    await enrich_from_llm(event_builder, ctx.llm_client)
+    await encrich_from_google_maps(event_builder, ctx.geo_client)
     enrich_distances_from_description(event_builder)
     enrich_distances_from_types(event_builder)
 
@@ -1279,121 +1278,49 @@ async def cmd_event(args: EventArgs):
     # Print the final event as JSON
     print(json.dumps(event.to_dict(), ensure_ascii=False, indent=2))
 
-    await http_session.close()
 
-
-async def cmd_scrape(args: ScrapeArgs):
+async def cmd_scrape(args: ScrapeArgs, ctx: Context):
     """Main scraping pipeline with improved data flow."""
-    logger.info("Starting event scraping")
+    # TODO: Implement the main scraping pipeline
+    print("⚠️  Scrape command not yet implemented")
+    return 1
 
-    # Setup
-    cache_config = CacheConfig()
-    cache_config.enabled = not args.no_cache
-    cache_config.ensure_directories()
 
-    print(
-        f"🔄 Fetching events (limit: {args.limit if args.limit else 'unlimited'}) with {args.max_concurrent} concurrent requests..."
-    )
+async def cmd_fetch_page(args: FetchPageArgs, ctx: Context):
+    """Fetch a single page of events."""
+    events = await ctx.wp_client.fetch_events_page(args.page)
 
-    google_key = os.environ.get(ENV_GOOGLE_MAPS_API_KEY)
-    assert google_key is not None, "missing google maps api key"
+    if events is None:
+        logger.error(f"Failed to fetch page {args.page}")
+        return 1
 
-    http_session = http_session_create()
-    geo_client = GoogleGeocodingClient(google_key, cache_config)
-    llm_client = LLMClient(args.model, cache_config)
-    wp_client = WordPressClient(http_session, PORTUGAL_RUNNING_BASE_URL, cache_config, args.max_concurrent)
-
-    # Step 1: Fetch all pages in parallel
-    pages = await fetch_pages(wp_client, args)
-    print(f"✅ Fetched {len(pages)} pages")
-
-    # Step 2: Extract event IDs from pages
-    event_ids = extract_event_ids_from_pages(pages)
-    print(f"✅ Found {len(event_ids)} unique event IDs")
-
-    # Step 3: Fetch raw event data in parallel (placeholder for now)
-    events = await fetch_events(wp_client, event_ids)
-    print(f"✅ Fetched raw data for {len(events)} events")
-
-    # Step 4: Fetch ICS data in parallel
-    events_ics = await fetch_events_ics(wp_client, event_ids)
-    print(f"✅ Fetched ICS data for {len(events_ics)} events")
-
-    # Step 5: Extract metadata from events and ICS
-    events_metadata = extract_events_metadata(events, events_ics)
-    print(f"✅ Extracted metadata for {len(events_metadata)} events")
-
-    # Step 6: Generate descriptions in parallel (if not skipped)
-    if not args.skip_descriptions:
-        events_with_descriptions = await generate_descriptions(events_metadata, args)
-        print("✅ Generated descriptions for events")
-    else:
-        events_with_descriptions = events_metadata
-        print("⏭️  Skipped description generation")
-
-    # Step 7: Build final event instances
-    final_events = build_final_events(events_with_descriptions)
-    print(f"✅ Built {len(final_events)} final events")
-
-    # Step 8: Save results
-    await save_events(final_events, args.output)
-    print(f"✅ Saved {len(final_events)} events to {args.output}")
-
+    print(json.dumps(events, ensure_ascii=False, indent=2))
     return 0
 
 
-async def cmd_fetch_page(args: FetchPageArgs):
-    """Fetch a single page of events."""
-    cache_config = CacheConfig()
-    cache_config.ensure_directories()
-
-    async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config) as wp_client:
-        events = await wp_client.fetch_events_page(args.page, use_cache=not args.no_cache)
-
-        if events is None:
-            logger.error(f"Failed to fetch page {args.page}")
-            return 1
-
-        print(json.dumps(events, ensure_ascii=False, indent=2))
-        return 0
-
-
-async def cmd_fetch_event(args: FetchEventArgs):
+async def cmd_fetch_event(args: FetchEventArgs, ctx: Context):
     """Fetch detailed event data."""
-    cache_config = CacheConfig()
-    cache_config.ensure_directories()
+    event_data = await ctx.wp_client.fetch_event_details(args.event_id)
 
-    async with WordPressClient(PORTUGAL_RUNNING_BASE_URL, cache_config) as wp_client:
-        event_data = await wp_client.fetch_event_details(args.event_id, use_cache=not args.no_cache)
-
-        if event_data is None:
-            logger.error(f"Failed to fetch event {args.event_id}")
-            return 1
-
-        # Additional enrichment if requested
-        if args.include_all:
-            # This would include geocoding, descriptions, etc.
-            # For now, just return the basic data
-            pass
-
-        print(json.dumps(event_data, ensure_ascii=False, indent=2))
-        return 0
-
-
-async def cmd_geocode(args: GeocodeArgs):
-    """Geocode a location."""
-    cache_config = CacheConfig()
-    cache_config.ensure_directories()
-
-    # Get API key
-    api_key = args.api_key or os.environ.get("GOOGLE_MAPS_API_KEY")
-    if not api_key:
-        logger.error("No Google Maps API key found. Set GOOGLE_MAPS_API_KEY environment variable or use --api-key")
+    if event_data is None:
+        logger.error(f"Failed to fetch event {args.event_id}")
         return 1
 
+    # Additional enrichment if requested
+    if args.include_all:
+        # This would include geocoding, descriptions, etc.
+        # For now, just return the basic data
+        pass
+
+    print(json.dumps(event_data, ensure_ascii=False, indent=2))
+    return 0
+
+
+async def cmd_geocode(args: GeocodeArgs, ctx: Context):
+    """Geocode a location."""
     # Clear cache if requested
     if args.clear_cache:
-        count = cache_clear(cache_config.geocoding_dir)
+        count = cache_clear(ctx.cache_config.geocoding_dir)
         print(f"Cleared {count} cache files")
         if not args.location:
             return 0
@@ -1402,8 +1329,7 @@ async def cmd_geocode(args: GeocodeArgs):
         logger.error("No location provided")
         return 1
 
-    async with GoogleGeocodingClient(api_key, cache_config) as client:
-        result = await client.geocode(args.location, use_cache=not args.no_cache)
+    result = await ctx.geo_client.geocode(args.location, use_cache=not args.no_cache)
 
     if result is None:
         logger.error(f"Failed to geocode '{args.location}'")
@@ -1417,36 +1343,28 @@ async def cmd_geocode(args: GeocodeArgs):
     return 0
 
 
-async def cmd_describe(args: DescribeArgs):
+async def cmd_describe(args: DescribeArgs, ctx: Context):
     """Generate event description."""
-    cache_config = CacheConfig()
-    cache_config.ensure_directories()
-
-    client = LLMClient(args.model, cache_config)
-    description = await client.generate_description(args.text, use_cache=not args.no_cache)
-
-    if description is None:
-        logger.error("Failed to generate description")
-        return 1
+    description = await ctx.llm_client.generate_description(args.text, use_cache=not args.no_cache)
 
     print(description)
     return 0
 
 
-async def cmd_download_image(args: DownloadImageArgs):
+async def cmd_download_image(args: DownloadImageArgs, ctx: Context):
     """Download an image."""
     output_path = Path(args.output)
 
-    async with aiohttp.ClientSession() as session:
-        if await http_download_file(session, args.url, output_path):
-            print(str(output_path))
-            return 0
-        else:
-            logger.error(f"Failed to download {args.url}")
-            return 1
+    try:
+        await http_download_file(ctx.http_session, ctx.cache_config, args.url, output_path)
+        print(str(output_path))
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to download {args.url}: {e}")
+        return 1
 
 
-def cmd_profile(args: ProfileArgs):
+def cmd_profile(args: ProfileArgs, ctx: Context):
     """Profile extraction performance."""
     print("🔬 Profiling extraction pipeline...")
 
@@ -1456,20 +1374,19 @@ def cmd_profile(args: ProfileArgs):
     return 0
 
 
-def cmd_cache(args: CacheArgs):
+def cmd_cache(args: CacheArgs, ctx: Context):
     """Cache management commands."""
-    cache_config = CacheConfig()
 
     if args.cache_command == "clear":
         total = 0
         if args.type:
             # Clear specific cache type
             cache_dirs = {
-                "pages": cache_config.pages_dir,
-                "events": cache_config.events_dir,
-                "geocoding": cache_config.geocoding_dir,
-                "descriptions": cache_config.descriptions_dir,
-                "images": cache_config.media_dir,
+                "pages": ctx.cache_config.pages_dir,
+                "events": ctx.cache_config.events_dir,
+                "geocoding": ctx.cache_config.geocoding_dir,
+                "descriptions": ctx.cache_config.descriptions_dir,
+                "images": ctx.cache_config.media_dir,
             }
             if args.type in cache_dirs:
                 count = cache_clear(cache_dirs[args.type])
@@ -1481,10 +1398,10 @@ def cmd_cache(args: CacheArgs):
         else:
             # Clear all caches
             for name, cache_dir in [
-                ("pages", cache_config.pages_dir),
-                ("events", cache_config.events_dir),
-                ("geocoding", cache_config.geocoding_dir),
-                ("descriptions", cache_config.descriptions_dir),
+                ("pages", ctx.cache_config.pages_dir),
+                ("events", ctx.cache_config.events_dir),
+                ("geocoding", ctx.cache_config.geocoding_dir),
+                ("descriptions", ctx.cache_config.descriptions_dir),
             ]:
                 count = cache_clear(cache_dir)
                 print(f"Cleared {count} files from {name} cache")
@@ -1499,11 +1416,11 @@ def cmd_cache(args: CacheArgs):
         total_size = 0
 
         for name, cache_dir in [
-            ("Pages", cache_config.pages_dir),
-            ("Events", cache_config.events_dir),
-            ("Geocoding", cache_config.geocoding_dir),
-            ("Descriptions", cache_config.descriptions_dir),
-            ("Images", cache_config.media_dir),
+            ("Pages", ctx.cache_config.pages_dir),
+            ("Events", ctx.cache_config.events_dir),
+            ("Geocoding", ctx.cache_config.geocoding_dir),
+            ("Descriptions", ctx.cache_config.descriptions_dir),
+            ("Images", ctx.cache_config.media_dir),
         ]:
             stats = cache_get_stats(cache_dir)
             if stats["exists"]:
@@ -1517,11 +1434,11 @@ def cmd_cache(args: CacheArgs):
 
     elif args.cache_command == "list":
         cache_dirs = {
-            "pages": cache_config.pages_dir,
-            "events": cache_config.events_dir,
-            "geocoding": cache_config.geocoding_dir,
-            "descriptions": cache_config.descriptions_dir,
-            "images": cache_config.media_dir,
+            "pages": ctx.cache_config.pages_dir,
+            "events": ctx.cache_config.events_dir,
+            "geocoding": ctx.cache_config.geocoding_dir,
+            "descriptions": ctx.cache_config.descriptions_dir,
+            "images": ctx.cache_config.media_dir,
         }
 
         if args.type and args.type in cache_dirs:
@@ -1701,6 +1618,34 @@ async def main():
     # Setup logging
     setup_logging(args.log_level)
 
+    # Create shared context with all client instances
+    cache_config = CacheConfig()
+    cache_config.ensure_directories()
+
+    # Get API key for geocoding
+    google_key = os.environ.get(ENV_GOOGLE_MAPS_API_KEY)
+    if not google_key:
+        logger.error("Missing Google Maps API key. Set GOOGLE_MAPS_API_KEY environment variable.")
+        return 1
+
+    # Create client instances
+    http_session = http_session_create()
+    geo_client = GoogleGeocodingClient(google_key, cache_config)
+
+    # LLM model will be set per command, use default for now
+    default_model = "claude-3.5-haiku"
+    llm_client = LLMClient(default_model, cache_config)
+
+    wp_client = WordPressClient(http_session, PORTUGAL_RUNNING_BASE_URL, cache_config)
+
+    ctx = Context(
+        cache_config=cache_config,
+        http_session=http_session,
+        geo_client=geo_client,
+        llm_client=llm_client,
+        wp_client=wp_client,
+    )
+
     # Execute command
     try:
         # Create dataclass instances from args
@@ -1717,17 +1662,17 @@ async def main():
                 max_concurrent=args.max_concurrent,
                 no_cache=args.no_cache,
             )
-            return await cmd_scrape(cmd_args)
+            return await cmd_scrape(cmd_args, ctx)
         elif args.command == "fetch-page":
             cmd_args = FetchPageArgs(page=args.page, no_cache=args.no_cache)
-            return await cmd_fetch_page(cmd_args)
+            return await cmd_fetch_page(cmd_args, ctx)
         elif args.command == "fetch-event":
             cmd_args = FetchEventArgs(
                 event_id=args.event_id,
                 no_cache=args.no_cache,
                 include_all=args.include_all,
             )
-            return await cmd_fetch_event(cmd_args)
+            return await cmd_fetch_event(cmd_args, ctx)
         elif args.command == "geocode":
             cmd_args = GeocodeArgs(
                 location=args.location,
@@ -1736,25 +1681,29 @@ async def main():
                 debug=args.debug,
                 api_key=args.api_key,
             )
-            return await cmd_geocode(cmd_args)
+            return await cmd_geocode(cmd_args, ctx)
         elif args.command == "describe":
             cmd_args = DescribeArgs(text=args.text, no_cache=args.no_cache, model=args.model)
-            return await cmd_describe(cmd_args)
+            # Update LLM client with the specific model for this command
+            ctx.llm_client = LLMClient(args.model, ctx.cache_config)
+            return await cmd_describe(cmd_args, ctx)
         elif args.command == "event":
             cmd_args = EventArgs(event_id=args.event_id, model=args.model)
-            return await cmd_event(cmd_args)
+            # Update LLM client with the specific model for this command
+            ctx.llm_client = LLMClient(args.model, ctx.cache_config)
+            return await cmd_event(cmd_args, ctx)
         elif args.command == "download-image":
             cmd_args = DownloadImageArgs(url=args.url, output=args.output)
-            return await cmd_download_image(cmd_args)
+            return await cmd_download_image(cmd_args, ctx)
         elif args.command == "profile":
             cmd_args = ProfileArgs(operations=args.operations)
-            return cmd_profile(cmd_args)
+            return cmd_profile(cmd_args, ctx)
         elif args.command == "cache":
             cmd_args = CacheArgs(
                 cache_command=args.cache_command,
                 type=args.type if hasattr(args, "type") else None,
             )
-            return cmd_cache(cmd_args)
+            return cmd_cache(cmd_args, ctx)
         else:
             logger.error(f"Unknown command: {args.command}")
             return 1
@@ -1764,6 +1713,9 @@ async def main():
     except Exception:
         logger.exception("Unhandled exception")
         return 1
+    finally:
+        # Clean up HTTP session
+        await http_session.close()
 
 
 if __name__ == "__main__":

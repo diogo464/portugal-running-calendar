@@ -21,6 +21,7 @@ This project scrapes running events from the Portugal Running calendar website a
 - `./generate-one-line-description.sh "description"` - Generate LLM short descriptions
 - `black *.py` - Format Python code after editing
 - `use $(pass google-geocoding-api-key) to obtain the API key for google`
+- `make format` - Format the code using standard project formatting
 
 ### Frontend Development (frontend/ Directory)
 - `npm run dev` - Start development server with Vite (http://localhost:5174)
