@@ -186,55 +186,80 @@ class EventBuilder:
         if event_type in self.event_types:
             return
         self.event_types.append(event_type)
+        logger.debug(f"EVENT_BUILDER|Added event type|{self.event_id}|{event_type.value}")
 
     def set_name(self, name: str, overwrite: bool = False):
         if self.event_name is None or overwrite:
+            old_value = self.event_name
             self.event_name = name
+            logger.debug(f"EVENT_BUILDER|Set name|{self.event_id}|{old_value} -> {name}")
 
     def set_location(self, location: str, overwrite: bool = False):
         if self.event_location is None or overwrite:
+            old_value = self.event_location
             self.event_location = location
+            logger.debug(f"EVENT_BUILDER|Set location|{self.event_id}|{old_value} -> {location}")
 
     def set_coordinates(self, coordinates: Coordinates, overwrite: bool = False):
         if self.event_coordinates is None or overwrite:
+            old_value = self.event_coordinates
             self.event_coordinates = coordinates
+            logger.debug(
+                f"EVENT_BUILDER|Set coordinates|{self.event_id}|{old_value} -> {coordinates.lat},{coordinates.lon}"
+            )
 
     def set_country(self, country: str, overwrite: bool = False):
         if self.event_country is None or overwrite:
+            old_value = self.event_country
             self.event_country = country
+            logger.debug(f"EVENT_BUILDER|Set country|{self.event_id}|{old_value} -> {country}")
 
     def set_locality(self, locality: str, overwrite: bool = False):
         if self.event_locality is None or overwrite:
+            old_value = self.event_locality
             self.event_locality = locality
+            logger.debug(f"EVENT_BUILDER|Set locality|{self.event_id}|{old_value} -> {locality}")
 
     def add_distance(self, distance: int):
         if distance not in self.event_distances:
             self.event_distances.append(distance)
             self.event_distances.sort()
+            logger.debug(f"EVENT_BUILDER|Added distance|{self.event_id}|{distance}m")
 
     def add_image(self, image_url: str):
         if image_url not in self.event_images:
             self.event_images.append(image_url)
+            logger.debug(f"EVENT_BUILDER|Added image|{self.event_id}|{image_url}")
 
     def set_start_date(self, start_date: str, overwrite: bool = False):
         if self.event_start_date is None or overwrite:
+            old_value = self.event_start_date
             self.event_start_date = start_date
+            logger.debug(f"EVENT_BUILDER|Set start date|{self.event_id}|{old_value} -> {start_date}")
 
     def set_end_date(self, end_date: str, overwrite: bool = False):
         if self.event_end_date is None or overwrite:
+            old_value = self.event_end_date
             self.event_end_date = end_date
+            logger.debug(f"EVENT_BUILDER|Set end date|{self.event_id}|{old_value} -> {end_date}")
 
     def add_circuit(self, circuit: str):
         if circuit not in self.event_circuit:
             self.event_circuit.append(circuit)
+            logger.debug(f"EVENT_BUILDER|Added circuit|{self.event_id}|{circuit}")
 
     def set_description(self, description: str, overwrite: bool = False):
         if self.event_description is None or overwrite:
+            old_length = len(self.event_description) if self.event_description else 0
             self.event_description = description
+            new_length = len(description)
+            logger.debug(f"EVENT_BUILDER|Set description|{self.event_id}|{old_length} -> {new_length} chars")
 
     def set_description_short(self, description_short: str, overwrite: bool = False):
         if self.event_description_short is None or overwrite:
+            old_value = self.event_description_short
             self.event_description_short = description_short
+            logger.debug(f"EVENT_BUILDER|Set short description|{self.event_id}|{old_value} -> {description_short}")
 
     def build(self) -> Event:
         """Build an Event instance from the builder, using default values for any None fields."""
@@ -544,6 +569,7 @@ class WordPressClient:
             class_list=json_data["class_list"],
             content=json_data["content"]["rendered"],
             featured_media=featured_media,
+            featured_image_src=json_data["featured_image_src"],
         )
 
     async def fetch_event_ics(self, event_id: int) -> WIcs:
@@ -1076,7 +1102,12 @@ def _enrich_extract_distances_from_text(text: str) -> List[int]:
     return sorted(list(set(distances)))
 
 
-def enrich_from_event_details(builder: EventBuilder, details: WEvent):
+async def enrich_from_event_details(
+    builder: EventBuilder,
+    details: WEvent,
+    session: aiohttp.ClientSession,
+    cache_config: CacheConfig,
+):
     event_types = _enrich_extract_event_types_from_word_press_class_list(details.class_list)
     for event_type in event_types:
         builder.add_event_type(event_type)
@@ -1087,8 +1118,14 @@ def enrich_from_event_details(builder: EventBuilder, details: WEvent):
     if details.content is not None:
         builder.set_description(details.content)
 
-    if details.featured_image_src is not None:
-        builder.add_image(details.featured_image_src)
+    if details.featured_image_src is not None and details.featured_image_src != "":
+        image_path = cache_config.media_dir.joinpath(cache_get_key(details.featured_image_src))
+        try:
+            await http_download_file(session, cache_config, details.featured_image_src, image_path)
+            builder.add_image(str(image_path))
+        except:
+            # TODO(claude): log this error
+            pass
 
 
 def enrich_from_event_ics(builder: EventBuilder, ics: WIcs):
@@ -1259,17 +1296,30 @@ class Context:
 
 async def scrape_event(ctx: Context, event_id: int) -> Event:
     """Scrape a single event with all enrichment steps."""
+    logger.info(f"EVENT_SCRAPE|Starting|{event_id}")
     event_builder = EventBuilder(event_id)
     event_details = await ctx.wp_client.fetch_event_details(event_id)
     event_ics = await ctx.wp_client.fetch_event_ics(event_id)
 
-    enrich_from_event_details(event_builder, event_details)
+    logger.info(f"EVENT_SCRAPE|Enriching from event details|{event_id}")
+    await enrich_from_event_details(event_builder, event_details, ctx.http_session, ctx.cache_config)
+
+    logger.info(f"EVENT_SCRAPE|Enriching from ICS data|{event_id}")
     enrich_from_event_ics(event_builder, event_ics)
+
+    logger.info(f"EVENT_SCRAPE|Enriching from LLM|{event_id}")
     await enrich_from_llm(event_builder, ctx.llm_client)
+
+    logger.info(f"EVENT_SCRAPE|Enriching from Google Maps|{event_id}")
     await encrich_from_google_maps(event_builder, ctx.geo_client)
+
+    logger.info(f"EVENT_SCRAPE|Enriching distances from description|{event_id}")
     enrich_distances_from_description(event_builder)
+
+    logger.info(f"EVENT_SCRAPE|Enriching distances from types|{event_id}")
     enrich_distances_from_types(event_builder)
 
+    logger.info(f"EVENT_SCRAPE|Building final event|{event_id}")
     # Build the final event
     return event_builder.build()
 
@@ -1392,13 +1442,7 @@ async def cmd_fetch_event(args: FetchEventArgs, ctx: Context):
         logger.error(f"Failed to fetch event {args.event_id}")
         return 1
 
-    # Additional enrichment if requested
-    if args.include_all:
-        # This would include geocoding, descriptions, etc.
-        # For now, just return the basic data
-        pass
-
-    print(json.dumps(event_data, ensure_ascii=False, indent=2))
+    pprint.pprint(event_data)
     return 0
 
 
