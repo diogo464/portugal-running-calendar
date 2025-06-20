@@ -917,6 +917,7 @@ CRITICAL RULES:
 4. For distances, only include exact numbers mentioned (in meters)
 5. Convert all distances to meters (1km = 1000m)
 6. DO NOT assume standard distances unless explicitly stated
+7. IT IS saint-silvester NOT saint-silvestre
 
 OUTPUT FORMAT (exactly 2 lines):
 event_types: type1,type2,type3
