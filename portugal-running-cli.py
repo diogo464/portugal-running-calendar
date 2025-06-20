@@ -441,10 +441,10 @@ async def http_get_cached(
             return content
         else:
             logger.error(f"HTTP|Bad status|{url}|{status}")
-            raise Exception(f"http request returned invalid code {status}")  # TODO(claude): improve exception message
+            raise Exception(f"HTTP request failed with status {status} for URL: {url}")
     except Exception as e:
         logger.error(f"HTTP|Request failed|{url}|{str(e)}")
-        raise e  # TODO(claude): improve exception message
+        raise Exception(f"HTTP request failed for URL: {url}") from e
 
 
 async def http_download_file(
@@ -505,8 +505,10 @@ async def subprocess_run(
 
         assert proc.returncode is not None
         if check == True and proc.returncode != 0:
-            # TODO(claude): write a nice error message here
-            raise Exception()
+            logger.error(
+                f"SUBPROCESS|Command failed|exit_code={proc.returncode}|stdout={stdout.decode()}|stderr={stderr.decode()}"
+            )
+            raise Exception(f"Command failed with exit code {proc.returncode}")
 
         return proc.returncode, stdout.decode(), stderr.decode()
 
@@ -548,7 +550,7 @@ class WordPressClient:
                 content = await http_get_cached(self.session, self.cache_config, url)
                 return content
             except Exception as e:
-                logger.error("TODO(claude): improve error message")
+                logger.error(f"WORDPRESS|Failed to fetch from URL|{url}|{str(e)}")
                 raise e
 
     async def fetch_events_page(self, page: int) -> WPage:
@@ -594,7 +596,7 @@ class WordPressClient:
     def _parse_ics_content(self, ics_content: str) -> WIcs:
         """Parse ICS content and extract event data."""
         if not ics_content or "BEGIN:VCALENDAR" not in ics_content:
-            raise Exception("invalid ics file")  # TODO(claude): improve message
+            raise Exception(f"Invalid ICS file format: missing BEGIN:VCALENDAR header")
 
         # Clean the content
         ics_content = ics_content.replace("\x00", "")
@@ -1071,7 +1073,7 @@ def _enrich_extract_event_types_from_word_press_class_list(
             continue
 
         if wp_class not in type_mapping:
-            # TODO(claude): you should print a descriptive warning here so we can later fix this missing type mapping
+            logger.warning(f"MAPPING|Unknown WordPress class found|{wp_class}|Add mapping to fix event type extraction")
             continue
 
         for event_type in type_mapping[wp_class]:
@@ -1135,8 +1137,8 @@ async def enrich_from_event_details(
         try:
             await http_download_file(session, cache_config, details.featured_image_src, image_path)
             builder.add_image(str(image_path))
-        except:
-            # TODO(claude): log this error
+        except Exception as e:
+            logger.error(f"IMAGE|Failed to download image|{builder.event_id}|{details.featured_image_src}|{str(e)}")
             pass
 
 
@@ -1160,7 +1162,7 @@ async def enrich_event_link(
             builder.set_event_page(event_page_url)
             logger.debug(f"EVENT_LINK|Found event page|{builder.event_id}|{event_page_url}")
         else:
-            logger.debug(f"EVENT_LINK|No event page found|{builder.event_id}|{link}")
+            logger.warning(f"EVENT_LINK|No event page found|{builder.event_id}|{link}")
 
     except Exception as e:
         logger.error(f"EVENT_LINK|Error extracting event page|{builder.event_id}|{link}|{str(e)}")
@@ -1205,7 +1207,7 @@ async def encrich_from_google_maps(builder: EventBuilder, google: GoogleGeocodin
 
     location = await google.geocode(builder.event_location)
     if location is None:
-        # TODO(claude): put a nice warning here saying that we failed to geocode the event location
+        logger.warning(f"GEOCODING|Failed to geocode location|{builder.event_id}|{builder.event_location}")
         return
 
     builder.event_location = location.name
