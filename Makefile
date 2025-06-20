@@ -28,6 +28,11 @@ help:
 	@echo "  clean-cache   Clear all application caches"
 	@echo ""
 
+server:
+	# use `demon list` to view running background processes
+	# use `demon cat server` to view server logs
+	cd frontend && demon run server npm run dev
+
 # Development setup
 install:
 	@echo "📦 Installing dependencies with uv..."

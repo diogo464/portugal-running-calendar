@@ -15,3 +15,7 @@ ics_cache/
 wp_cache/
 taxonomy_cache/
 .python-version
+*.pid
+*.stderr
+*.stdout
+

@@ -6,25 +6,28 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 This project scrapes running events from the Portugal Running calendar website and provides a modern React frontend for browsing events. It consists of two main components:
-1. **Data extraction pipeline** - Python/Shell scripts in the root directory
+1. **Data extraction pipeline** - Python CLI tool (`portugal-running-cli.py`) and Shell scripts in the root directory
 2. **React frontend** - TypeScript/React application in the `frontend/` directory
 
 ## Common Commands
 
 ### Data Extraction & Processing (Root Directory)
-- `python3 extract-events.py` - Main extraction script (requires Python 3.7+)
-- `python3 extract-events.py --limit 10` - Extract limited events for testing
-- `./extract-events.py --output events.json --skip-descriptions` - **Standard test command for error checking**
-- `python3 profile-extraction.py` - Performance profiling of extraction pipeline
-- `./fetch-event-page.sh <page_num>` - Fetch single page of events (cached)
-- `./geocode-location.sh "Location"` - Geocode location with caching
-- `./generate-one-line-description.sh "description"` - Generate LLM short descriptions
-- `black *.py` - Format Python code after editing
-- `use $(pass google-geocoding-api-key) to obtain the API key for google`
-- `make format` - Format the code using standard project formatting
+- `python3 portugal-running-cli.py scrape` - Main CLI scraper (requires Python 3.11+)
+- `python3 portugal-running-cli.py scrape --limit 10 --pages 1` - Extract limited events for testing
+- `python3 portugal-running-cli.py cache stats` - View cache statistics
+- `python3 portugal-running-cli.py cache clear` - Clear all caches
+- `make test-scrape` - **Standard test command for error checking** (scrapes 3 events)
+- `make format` - Format code with black (uses uv for dependency management)
+- `make lint` - Run ruff linter with fixes
+- `make typecheck` - Run mypy type checking
+- `make all-checks` - Run all quality checks (lint, format, typecheck)
+- `uv sync` - Install dependencies with uv package manager
 
 ### Frontend Development (frontend/ Directory)
-- `npm run dev` - Start development server with Vite (http://localhost:5174)
+- `make server` - Start development server with Vite in background using demon (http://localhost:5174)
+- `demon list` - View running background processes (including server status)
+- `demon cat server` - View server logs in real-time
+- `npm run dev` - Start development server with Vite directly (foreground)
 - `npm run build` - Build for production (TypeScript compilation + Vite build)
 - `npm run lint` - Run ESLint on TypeScript/React code
 - `npm run preview` - Preview production build locally
@@ -146,10 +149,35 @@ Use the standard test command to check for issues:
 ./extract-events.py --output events.json --skip-descriptions 2>/tmp/errors.log
 ```
 
-## Key Files
-- `extract-events.py` - Main extraction orchestrator with CLI args
-- `portugal-running-events.json` - Generated JSON output with event data
+## Development Workflow
 
-## Formatting Guidelines
-- Always run `black *.py` to format Python code after making changes
-- Use `npm run lint` to check and format TypeScript/React code
+### Python Development (Root Directory)
+1. Use `uv sync` to install dependencies 
+2. Main CLI tool is `portugal-running-cli.py` with subcommands: `scrape`, `cache`
+3. Always run `make all-checks` before committing (lint, format, typecheck)
+4. Use `make test-scrape` for quick validation of scraping functionality
+5. Shell scripts handle individual API calls: `fetch-event-page.sh`, `fetch-event-data.sh`, etc.
+
+### Debugging & Testing
+- Use `make test-scrape` for quick validation (scrapes 3 events with no geocoding/descriptions)
+- Check structured logs with: `python3 portugal-running-cli.py scrape --limit 5 2>/tmp/errors.log`
+- Cache statistics: `python3 portugal-running-cli.py cache stats`
+- All external API calls are cached using MD5 hashes in respective cache directories
+
+### Server Management
+- `make server` - Start frontend dev server in background using demon process manager
+- `demon list` - List all running background processes (shows server status)
+- `demon cat server` - View real-time server logs and output
+- `demon stop server` - Stop the background development server
+
+## Key Files
+- `portugal-running-cli.py` - Main CLI application with async scraping
+- `Makefile` - Development automation (format, lint, test, typecheck)
+- `pyproject.toml` - Python dependencies managed by uv
+- `portugal-running-events.json` - Generated JSON output with event data
+- `frontend/package.json` - React app dependencies and scripts
+
+## Package Management
+- **Python**: Use `uv` package manager (not pip/conda)
+- **Node.js**: Use `npm` for frontend dependencies
+- Python requires Python 3.11+ per pyproject.toml requirements
