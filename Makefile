@@ -43,16 +43,12 @@ lint:
 	@echo "🔍 Running ruff linter..."
 	uv run ruff check portugal-running-cli.py --fix
 
-format: ruff-format black
-	@echo "✅ Code formatting completed with both ruff and black!"
+format: black
+	@echo "✅ Code formatting completed with black!"
 
 black:
 	@echo "🎨 Formatting code with black..."
 	uv run black portugal-running-cli.py --line-length 120 --target-version py39
-
-ruff-format:
-	@echo "🎨 Formatting code with ruff..."
-	uv run ruff format portugal-running-cli.py
 
 typecheck:
 	@echo "🔍 Running mypy type checker..."

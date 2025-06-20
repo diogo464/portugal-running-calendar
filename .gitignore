@@ -2,6 +2,7 @@
 *.ics
 *.ical
 ics/
+http_cache/
 descriptions/
 __pycache__/
 features/

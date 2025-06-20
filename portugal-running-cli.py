@@ -1212,9 +1212,7 @@ class ScrapeArgs:
     skip_geocoding: bool
     skip_descriptions: bool
     skip_images: bool
-    delay: float
     model: str
-    max_concurrent: int
     batch_size: int
     no_cache: bool = False
 
@@ -1233,7 +1231,6 @@ class FetchEventArgs:
 
     event_id: int
     no_cache: bool
-    include_all: bool
 
 
 @dataclass
@@ -1254,21 +1251,6 @@ class DescribeArgs:
     text: str
     no_cache: bool
     model: str
-
-
-@dataclass
-class DownloadImageArgs:
-    """Arguments for the download-image command."""
-
-    url: str
-    output: str
-
-
-@dataclass
-class ProfileArgs:
-    """Arguments for the profile command."""
-
-    operations: Optional[List[str]]
 
 
 @dataclass
@@ -1407,10 +1389,6 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
         except Exception as e:
             logger.error(f"Batch {batch_num} failed: {e}")
 
-        # Add delay between batches if specified
-        if args.delay > 0:
-            await asyncio.sleep(args.delay)
-
     print(f"✅ Successfully scraped {len(events)} events")
 
     # Step 3: Save results
@@ -1478,29 +1456,6 @@ async def cmd_describe(args: DescribeArgs, ctx: Context):
     description = await ctx.llm_client.generate_description(args.text, use_cache=not args.no_cache)
 
     print(description)
-    return 0
-
-
-async def cmd_download_image(args: DownloadImageArgs, ctx: Context):
-    """Download an image."""
-    output_path = Path(args.output)
-
-    try:
-        await http_download_file(ctx.http_session, ctx.cache_config, args.url, output_path)
-        print(str(output_path))
-        return 0
-    except Exception as e:
-        logger.error(f"Failed to download {args.url}: {e}")
-        return 1
-
-
-def cmd_profile(args: ProfileArgs, ctx: Context):
-    """Profile extraction performance."""
-    print("🔬 Profiling extraction pipeline...")
-
-    # This would implement performance profiling
-    # For now, just a placeholder
-    print("Profile functionality not yet implemented")
     return 0
 
 
@@ -1638,21 +1593,9 @@ async def main():
     scrape_parser.add_argument("--skip-descriptions", action="store_true", help="Skip generating descriptions")
     scrape_parser.add_argument("--skip-images", action="store_true", help="Skip downloading images")
     scrape_parser.add_argument(
-        "--delay",
-        type=float,
-        default=0.5,
-        help="Delay between page requests in seconds (default: 0.5)",
-    )
-    scrape_parser.add_argument(
         "--model",
         default="claude-3.5-haiku",
         help="LLM model for descriptions (default: claude-3.5-haiku)",
-    )
-    scrape_parser.add_argument(
-        "--max-concurrent",
-        type=int,
-        default=10,
-        help="Maximum concurrent requests (default: 10)",
     )
     scrape_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
     scrape_parser.add_argument(
@@ -1673,11 +1616,6 @@ async def main():
     fetch_event_parser = subparsers.add_parser("fetch-event", help="Fetch detailed data for a single event")
     fetch_event_parser.add_argument("event_id", type=int, help="Event ID to fetch")
     fetch_event_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
-    fetch_event_parser.add_argument(
-        "--include-all",
-        action="store_true",
-        help="Include geocoding, descriptions, and images",
-    )
     fetch_event_parser.set_defaults(func=cmd_fetch_event)
 
     # Geocode command
@@ -1709,17 +1647,6 @@ async def main():
         help="LLM model to use (default: claude-3.5-haiku)",
     )
     event_parser.set_defaults(func=cmd_event)
-
-    # Download-image command
-    download_parser = subparsers.add_parser("download-image", help="Download an image from URL")
-    download_parser.add_argument("url", help="Image URL to download")
-    download_parser.add_argument("output", help="Output file path")
-    download_parser.set_defaults(func=cmd_download_image)
-
-    # Profile command
-    profile_parser = subparsers.add_parser("profile", help="Profile extraction performance")
-    profile_parser.add_argument("--operations", nargs="+", help="Specific operations to profile")
-    profile_parser.set_defaults(func=cmd_profile)
 
     # Cache command
     cache_parser = subparsers.add_parser("cache", help="Manage cache files")
@@ -1793,9 +1720,7 @@ async def main():
                 skip_geocoding=args.skip_geocoding,
                 skip_descriptions=args.skip_descriptions,
                 skip_images=args.skip_images,
-                delay=args.delay,
                 model=args.model,
-                max_concurrent=args.max_concurrent,
                 batch_size=args.batch_size,
                 no_cache=args.no_cache,
             )
@@ -1807,7 +1732,6 @@ async def main():
             cmd_args = FetchEventArgs(
                 event_id=args.event_id,
                 no_cache=args.no_cache,
-                include_all=args.include_all,
             )
             return await cmd_fetch_event(cmd_args, ctx)
         elif args.command == "geocode":
@@ -1829,12 +1753,6 @@ async def main():
             # Update LLM client with the specific model for this command
             ctx.llm_client = LLMClient(args.model, ctx.cache_config)
             return await cmd_event(cmd_args, ctx)
-        elif args.command == "download-image":
-            cmd_args = DownloadImageArgs(url=args.url, output=args.output)
-            return await cmd_download_image(cmd_args, ctx)
-        elif args.command == "profile":
-            cmd_args = ProfileArgs(operations=args.operations)
-            return cmd_profile(cmd_args, ctx)
         elif args.command == "cache":
             cmd_args = CacheArgs(
                 cache_command=args.cache_command,
@@ -1857,45 +1775,3 @@ async def main():
 
 if __name__ == "__main__":
     sys.exit(asyncio.run(main()))
-
-    # async def _geocode_location(self, location: str) -> Optional[Dict]:
-    #     """Geocode location using async geocoding client."""
-    #     try:
-    #         # Get API key
-    #         api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
-    #         if not api_key:
-    #             logger.error(
-    #                 "GEOCODING|No API key|Set GOOGLE_MAPS_API_KEY environment variable"
-    #             )
-    #             return None
-    #
-    #         # Use async geocoding client
-    #         async with GoogleGeocodingClient(
-    #             api_key, self.cache_config
-    #         ) as geocoding_client:
-    #             location_result = await geocoding_client.geocode(location)
-    #
-    #             if location_result:
-    #                 return {
-    #                     "coordinates": {
-    #                         "lat": location_result.coordinates.lat,
-    #                         "lon": location_result.coordinates.lon,
-    #                     },
-    #                     "display_name": location_result.name,
-    #                     "country": location_result.country,
-    #                     "locality": location_result.locality,
-    #                 }
-    #             return None
-    #
-    #     except Exception as e:
-    #         logger.error(f"GEOCODING|Error|{location}|{str(e)}")
-    #         return None
-    #
-    # async def _generate_description(self, description: str) -> Optional[str]:
-    #     """Generate short description using async LLM client."""
-    #     try:
-    #         llm_client = LLMClient("claude-3.5-haiku", self.cache_config)
-    #         return await llm_client.generate_description(description)
-    #     except Exception as e:
-    #         logger.error(f"LLM|Error|{str(e)}")
-    #         return None
