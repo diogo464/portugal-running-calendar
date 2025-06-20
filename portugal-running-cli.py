@@ -1256,6 +1256,7 @@ class ScrapeArgs:
     skip_images: bool
     model: str
     batch_size: int
+    delay: float
     no_cache: bool = False
 
 
@@ -1433,6 +1434,11 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
 
         except Exception as e:
             logger.error(f"Batch {batch_num} failed: {e}")
+
+        # Add delay between batches if specified
+        if args.delay > 0 and batch_num < total_batches:
+            print(f"⏳ Waiting {args.delay} seconds before next batch...")
+            await asyncio.sleep(args.delay)
 
     print(f"✅ Successfully scraped {len(events)} events")
 
@@ -1649,6 +1655,12 @@ async def main():
         default=50,
         help="Number of events to process in parallel batches (default: 50)",
     )
+    scrape_parser.add_argument(
+        "--delay",
+        type=float,
+        default=0,
+        help="Delay in seconds between processing batches (default: 0)",
+    )
     scrape_parser.set_defaults(func=cmd_scrape)
 
     # Fetch-page command
@@ -1767,6 +1779,7 @@ async def main():
                 skip_images=args.skip_images,
                 model=args.model,
                 batch_size=args.batch_size,
+                delay=args.delay,
                 no_cache=args.no_cache,
             )
             return await cmd_scrape(cmd_args, ctx)
