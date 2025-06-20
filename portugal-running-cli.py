@@ -1153,8 +1153,10 @@ async def enrich_event_link(
         content_str = content.decode("utf-8")
 
         # Use regex to find the event page link
-        # Looking for <a class="evcal_evdata_row evo_clik_row " href="...">
-        pattern = r'<a[^>]*class="[^"]*evcal_evdata_row evo_clik_row[^"]*"[^>]*href="([^"]+)"[^>]*>'
+        # Looking for <a class='evcal_evdata_row evo_clik_row ' href='...'> or <a class="evcal_evdata_row evo_clik_row " href="...">
+        pattern = (
+            r'<a[^>]*class=[\'"][^\'"]*evcal_evdata_row evo_clik_row[^\'"]*[\'"][^>]*href=[\'"]([^\'"]+)[\'"][^>]*>'
+        )
 
         match = re.search(pattern, content_str)
         if match:

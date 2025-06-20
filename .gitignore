@@ -14,3 +14,4 @@ event_data_cache/
 ics_cache/
 wp_cache/
 taxonomy_cache/
+.python-version
