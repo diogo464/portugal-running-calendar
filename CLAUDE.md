@@ -81,21 +81,47 @@ All external API calls are aggressively cached using MD5 hashes:
 Events follow this canonical structure (validated by Zod schemas in frontend):
 ```json
 {
-  "event_id": 180,
-  "event_name": "Event Name",
-  "event_location": "City, Portugal", 
-  "event_coordinates": {"lat": 38.707, "lon": -9.136},
+  "event_id": 271,
+  "event_name": "Meia Maratona dos Descobrimentos",
+  "event_location": "Belém, Portugal",
+  "event_coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
   "event_country": "Portugal",
-  "event_locality": "City",
-  "event_distances": [21097, 42195],
-  "event_types": ["half-marathon", "marathon"],
-  "event_images": ["media/hash.jpg"],
-  "event_start_date": "2020-10-11",
-  "event_end_date": "2020-10-12",
+  "event_locality": "Belém",
+  "event_distances": [4000, 10000, 21097],
+  "event_types": ["half-marathon", "run", "walk"],
+  "event_images": ["media/b4cd8390c30eea92ce85f5e4f6bbf9be"],
+  "event_start_date": "2019-12-08",
+  "event_end_date": "2019-12-09",
   "event_circuit": [],
-  "event_description": "Full description...",
-  "description_short": "One-line summary"
+  "event_description": "<p>Full HTML description with links...</p>",
+  "description_short": "Meia maratona histórica por Lisboa com passagem por monumentos e espaços emblemáticos da cidade",
+  "event_page": "http://www.meiamaratonadosdescobrimentos.com/"
 }
+```
+
+#### Schema Details:
+- **event_id**: `number` - Unique identifier from Portugal Running
+- **event_name**: `string` - Event name in Portuguese
+- **event_location**: `string` - Full location string (locality, country)
+- **event_coordinates**: `{lat: number, lon: number} | null` - GPS coordinates
+- **event_country**: `string` - Country name (usually "Portugal")
+- **event_locality**: `string` - City/locality name
+- **event_distances**: `number[]` - Available distances in meters
+- **event_types**: `string[]` - Event type categories (see enum below)
+- **event_images**: `string[]` - Image file paths relative to media/ directory
+- **event_start_date**: `string` - ISO date format (YYYY-MM-DD)
+- **event_end_date**: `string` - ISO date format (YYYY-MM-DD)  
+- **event_circuit**: `any[]` - Circuit information (currently empty array)
+- **event_description**: `string` - Full HTML description with markup
+- **description_short**: `string | null` - AI-generated one-line summary
+- **event_page**: `string | null` - Official event website URL
+
+#### Available Event Types:
+```
+["10k", "15k", "5k", "Milha", "cross-country", "half-marathon", "kids", "marathon", "relay", "run", "saint-silvester", "trail", "walk"]
 ```
 
 ### Frontend Type System
