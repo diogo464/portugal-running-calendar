@@ -49,8 +49,10 @@ class EventType(Enum):
 
     MARATHON = "marathon"
     HALF_MARATHON = "half-marathon"
+    FIFTEEN_K = "15k"
     TEN_K = "10k"
     FIVE_K = "5k"
+    MILE = "Milha"
     RUN = "run"
     TRAIL = "trail"
     WALK = "walk"
@@ -64,8 +66,10 @@ class EventType(Enum):
 EVENT_TYPE_DISTANCES = {
     EventType.MARATHON: 42195,
     EventType.HALF_MARATHON: 21097,
+    EventType.FIFTEEN_K: 15000,
     EventType.TEN_K: 10000,
     EventType.FIVE_K: 5000,
+    EventType.MILE: 1600,
 }
 
 
@@ -1030,7 +1034,8 @@ async def save_events(events: List[Event], output_path: str) -> None:
 # ============================================================================
 
 
-def _enrich_extract_event_types_from_word_press_class_list(
+def _enrich_from_class_list(
+    builder: EventBuilder,
     class_list: list[str],
 ) -> list[EventType]:
     def _ignored_class(wp_class: str) -> bool:
@@ -1041,12 +1046,50 @@ def _enrich_extract_event_types_from_word_press_class_list(
                 "status-publish",
                 "hentry",
                 "event_type_2-guarda",
+                "event_type_2-acores",
+                "event_type_2-alemanha",
+                "event_type_2-algarve-e-sul",
+                "event_type_2-america",
+                "event_type_2-aveiro",
+                "event_type_2-beja",
+                "event_type_2-braga",
+                "event_type_2-braganca",
+                "event_type_2-castelo-branco",
+                "event_type_2-coimbra",
+                "event_type_2-espanha",
+                "event_type_2-europa",
+                "event_type_2-evora",
+                "event_type_2-faro",
+                "event_type_2-italia",
+                "event_type_2-leiria",
+                "event_type_2-lisboa",
+                "event_type_2-lisboa-e-centro",
+                "event_type_2-madeira",
+                "event_type_2-noruega",
+                "event_type_2-paises-baixos",
+                "event_type_2-portalegre",
+                "event_type_2-porto",
+                "event_type_2-porto-e-norte",
+                "event_type_2-portugal",
+                "event_type_2-reino-unido",
+                "event_type_2-santarem",
+                "event_type_2-setubal",
+                "event_type_2-usa",
+                "event_type_2-viana-do-castelo",
+                "event_type_2-vila-real",
+                "event_type_2-viseu",
+                "event_type_3-sim",
+                "event_type_4-solidarias-sim",
+                "event_type_5-3-rios-trail-trophy",
+                "event_type-corridas-inferior-10",
+                "has-post-thumbnail",
             ]
         )
 
         ignored = wp_class in ignored_classes
         ignored |= wp_class.startswith("post-")
         ignored |= wp_class.startswith("event_location-")
+        ignored |= wp_class.startswith("event_organizer-")
 
         return ignored
 
@@ -1066,6 +1109,41 @@ def _enrich_extract_event_types_from_word_press_class_list(
         "event_type_4-5km": [EventType.FIVE_K],
         "event_type_4-estafetas": [EventType.RELAY],
         "event_type_4-kids": [EventType.KIDS],
+        "event_type-corrida": [EventType.RUN],
+        "event_type-corrida-10-km": [EventType.TEN_K],
+        "event_type-corrida-de-15-km": [EventType.FIFTEEN_K],
+        "event_type-backyard": [EventType.CROSS_COUNTRY],
+        "event_type-canicross": [EventType.CROSS_COUNTRY],
+        "event_type-corta-mato": [EventType.CROSS_COUNTRY],
+        "event_type-estafetas": [EventType.RELAY],
+        "event_type-etapas": [],
+        "event_type-kids": [EventType.KIDS],
+        "event_type-kids-trail": [EventType.KIDS, EventType.TRAIL],
+        "event_type-legua": [EventType.FIVE_K],
+        "event_type-maratona": [EventType.MARATHON],
+        "event_type-meiamaratona": [EventType.HALF_MARATHON],
+        "event_type-milha": [EventType.MILE],
+        "event_type-obstaculos": [],
+        "event_type-outras": [],
+        "event_type-pista": [],
+        "event_type-running-tours": [],
+        "event_type-sao-silvestre": [EventType.SAINT_SILVESTER],
+        "event_type-skyrunning": [],
+        "event_type-t-estafeta": [EventType.RELAY],
+        "event_type-trail-endurance": [EventType.TRAIL],
+        "event_type-trail-ultra": [EventType.TRAIL],
+    }
+
+    circuit_mapping = {
+        "event_type_5-circuito-4-estacoes": "4 Estacoes",
+        "event_type_5-circuito-atrp": "ATRP",
+        "event_type_5-circuito-de-atletismo-do-barreiro": "Atletismo do Barreiro",
+        "event_type_5-circuito-estrelas-de-portugal": "Estrelas de Portugal",
+        "event_type_5-circuito-trail-madeira": "Trail Madeira",
+        "event_type_5-majors": "Majors",
+        "event_type_5-superhalfs": "SuperHalfs",
+        "event_type_5-trofeu-atletismo-de-almada": "Atletismo de Almada",
+        "event_type_5-trofeu-de-almada": "Trofeu de Almada",
     }
 
     event_types = []
@@ -1073,13 +1151,16 @@ def _enrich_extract_event_types_from_word_press_class_list(
         if _ignored_class(wp_class):
             continue
 
-        if wp_class not in type_mapping:
+        if wp_class not in type_mapping and wp_class not in circuit_mapping:
             logger.warning(f"MAPPING|Unknown WordPress class found|{wp_class}|Add mapping to fix event type extraction")
             continue
 
-        for event_type in type_mapping[wp_class]:
-            if event_type not in event_types:
-                event_types.append(event_type)
+        if wp_class in type_mapping:
+            for event_type in type_mapping[wp_class]:
+                if event_type not in event_types:
+                    builder.add_event_type(event_type)
+        if wp_class in circuit_mapping:
+            builder.add_circuit(circuit_mapping[wp_class])
 
     return event_types
 
@@ -1123,9 +1204,7 @@ async def enrich_from_event_details(
     session: aiohttp.ClientSession,
     cache_config: CacheConfig,
 ):
-    event_types = _enrich_extract_event_types_from_word_press_class_list(details.class_list)
-    for event_type in event_types:
-        builder.add_event_type(event_type)
+    _enrich_from_class_list(builder, details.class_list)
 
     if details.title != "":
         builder.set_name(details.title)
@@ -1442,6 +1521,7 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
             await asyncio.sleep(args.delay)
 
     print(f"✅ Successfully scraped {len(events)} events")
+    events.sort(key=lambda e: e["event_start_date"])
 
     # Step 3: Save results
     print(f"💾 Saving events to {args.output}...")
