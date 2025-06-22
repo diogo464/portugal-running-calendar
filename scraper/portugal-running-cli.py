@@ -786,17 +786,13 @@ class GoogleGeocodingClient:
                 "locality": location.split(",")[0].strip(),
             }
 
-            # Find country and locality from address components
+            # Find country and district (administrative_area_level_1) from address components
             for component in result["address_components"]:
                 types = component["types"]
                 if "country" in types:
                     location_data["country"] = component["long_name"]
-                elif "locality" in types:
-                    location_data["locality"] = component["long_name"]
-                elif (
-                    "administrative_area_level_1" in types
-                    and location_data["locality"] == location.split(",")[0].strip()
-                ):
+                elif "administrative_area_level_1" in types:
+                    # Use district as locality for Portugal
                     location_data["locality"] = component["long_name"]
 
             # Cache the result
