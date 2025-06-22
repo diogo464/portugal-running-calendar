@@ -183,8 +183,15 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
             </div>
             
             {/* Permission indicator */}
-            <div className="flex items-center justify-center mt-2">
-              {geolocation.permission === 'granted' && <LocationGrantedIcon />}
+            <div className="flex items-center mt-2">
+              {geolocation.permission === 'granted' && (
+                <div className="flex items-center">
+                  <LocationGrantedIcon />
+                  <span className="text-xs text-green-600 dark:text-green-400 ml-2">
+                    Localização permitida
+                  </span>
+                </div>
+              )}
               {geolocation.permission === 'denied' && <LocationDeniedIcon />}
               {geolocation.permission === 'prompt' && <div className="w-3 h-3 rounded-full bg-gray-300" />}
             </div>
@@ -218,8 +225,11 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
             
             {/* Error message when permission denied */}
             {geolocation.permission === 'denied' && geolocation.error && (
-              <div className="text-xs text-red-600 dark:text-red-400 mt-2 text-center">
-                {geolocation.error}
+              <div className="flex items-center mt-2">
+                <LocationDeniedIcon />
+                <span className="text-xs text-red-600 dark:text-red-400 ml-2">
+                  {geolocation.error}
+                </span>
               </div>
             )}
           </div>
