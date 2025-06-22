@@ -28,7 +28,10 @@ export function MainPage({
     search: "",
     eventTypes: [],
     distanceRange: [0, null],
-    dateRange: "anytime"
+    dateRange: "anytime",
+    proximityRange: [0, null],
+    proximityCenter: null,
+    showEventsWithoutLocation: true
   })
 
   const [pagination, setPagination] = useState<PaginationState>({
@@ -94,6 +97,7 @@ export function MainPage({
             <EventFiltersComponent
               filters={filters}
               onFiltersChange={handleFiltersChange}
+              events={events}
             />
           </div>
         </div>

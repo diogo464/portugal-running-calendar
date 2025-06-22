@@ -58,11 +58,16 @@ export const EventSchema = z.object({
 export type Event = z.infer<typeof EventSchema>
 export type Coordinates = z.infer<typeof CoordinatesSchema>
 
+export type GeolocationPermission = 'prompt' | 'granted' | 'denied'
+
 export interface EventFilters {
   search: string
   eventTypes: EventType[]
   distanceRange: [number, number | null]
   dateRange: 'anytime' | 'next_week' | 'next_month' | 'next_3_months' | 'next_6_months'
+  proximityRange: [number, number | null]
+  proximityCenter: Coordinates | null
+  showEventsWithoutLocation: boolean
 }
 
 export interface PaginationState {

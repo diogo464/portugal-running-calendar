@@ -1,7 +1,7 @@
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
 import { addMonths, addWeeks, isAfter, isBefore, parseISO } from "date-fns"
-import { Event, EventFilters } from "./types"
+import { Event, EventFilters, Coordinates } from "./types"
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -99,6 +99,22 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
       if (!hasMatchingDistance) return false
     }
     
+    // Proximity filter
+    if (filters.proximityCenter) {
+      const [minProximity, maxProximity] = filters.proximityRange
+      
+      if (!event.event_coordinates) {
+        // Event has no location - only show if the checkbox is checked
+        return filters.showEventsWithoutLocation
+      }
+      
+      // Calculate distance from user to event
+      const distanceToEvent = calculateDistance(filters.proximityCenter, event.event_coordinates)
+      
+      if (distanceToEvent < minProximity * 1000) return false // Convert km to meters
+      if (maxProximity !== null && distanceToEvent > maxProximity * 1000) return false
+    }
+    
     return true
   })
 }
@@ -111,4 +127,36 @@ export function paginate<T>(items: T[], page: number, itemsPerPage: number): T[]
 
 export function getTotalPages(totalItems: number, itemsPerPage: number): number {
   return Math.ceil(totalItems / itemsPerPage)
+}
+
+/**
+ * Calculate the distance between two coordinates using the Haversine formula
+ * @param from Starting coordinates
+ * @param to Destination coordinates
+ * @returns Distance in meters
+ */
+export function calculateDistance(from: Coordinates, to: Coordinates): number {
+  const R = 6371000 // Earth's radius in meters
+  const φ1 = (from.lat * Math.PI) / 180
+  const φ2 = (to.lat * Math.PI) / 180
+  const Δφ = ((to.lat - from.lat) * Math.PI) / 180
+  const Δλ = ((to.lon - from.lon) * Math.PI) / 180
+
+  const a =
+    Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+    Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2)
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+
+  return R * c
+}
+
+/**
+ * Format distance for display (converts meters to km when appropriate)
+ */
+export function formatDistanceFromMeters(meters: number): string {
+  if (meters >= 1000) {
+    const km = meters / 1000
+    return `${Math.round(km)}km`
+  }
+  return `${Math.round(meters)}m`
 }
