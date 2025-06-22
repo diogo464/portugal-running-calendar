@@ -1,103 +1,139 @@
-import Image from "next/image";
+"use client"
+
+import { useState, useEffect, useMemo } from "react"
+import { Heart } from "lucide-react"
+import { useRouter } from "next/navigation"
+import { Event, EventFilters, PaginationState } from "@/lib/types"
+import { filterEvents } from "@/lib/utils"
+import { useEvents } from "@/hooks/useEvents"
+import { useSavedEvents } from "@/hooks/useSavedEvents"
+import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
+import { EventList } from "@/components/EventList"
+import { ThemeToggle } from "@/components/ThemeToggle"
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const router = useRouter()
+  const { events, loading, error } = useEvents()
+  const { savedEventIds, toggleSave } = useSavedEvents()
+  
+  const [filters, setFilters] = useState<EventFilters>({
+    search: "",
+    eventTypes: [],
+    distanceRange: [0, null],
+    dateRange: "anytime",
+    proximityRange: [0, null],
+    proximityCenter: null,
+    showEventsWithoutLocation: true
+  })
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  const [pagination, setPagination] = useState<PaginationState>({
+    currentPage: 1,
+    itemsPerPage: 12,
+    totalItems: 0
+  })
+
+  // Filter events based on current filters
+  const filteredEvents = useMemo(() => {
+    if (loading) return []
+    return filterEvents(events, filters)
+  }, [events, filters, loading])
+
+  // Paginate filtered events
+  const paginatedEvents = useMemo(() => {
+    const totalItems = filteredEvents.length
+    const startIndex = (pagination.currentPage - 1) * pagination.itemsPerPage
+    const currentPageEvents = filteredEvents.slice(startIndex, startIndex + pagination.itemsPerPage)
+    
+    setPagination(prev => ({ ...prev, totalItems }))
+    
+    return currentPageEvents
+  }, [filteredEvents, pagination.currentPage, pagination.itemsPerPage])
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setPagination(prev => ({ ...prev, currentPage: 1 }))
+  }, [filters])
+
+  const handleFiltersChange = (newFilters: EventFilters) => {
+    setFilters(newFilters)
+  }
+
+  const handlePageChange = (page: number) => {
+    setPagination(prev => ({ ...prev, currentPage: page }))
+  }
+
+  const handleEventClick = (event: Event) => {
+    // Create event slug from event name if not available
+    const eventSlug = event.event_slug || 
+      event.event_name.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-')
+    
+    router.push(`/event/${event.event_id}/${eventSlug}`)
+  }
+
+  const handleViewSaved = () => {
+    router.push('/saved')
+  }
+
+  if (error) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-red-600 mb-2">Erro ao Carregar</h1>
+          <p className="text-muted-foreground">{error}</p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+      </div>
+    )
+  }
+
+  return (
+    <div className="container mx-auto px-4 py-6">
+      {/* Header */}
+      <div className="flex items-center justify-between mb-6">
+        <div>
+          <h1 className="text-3xl font-bold">Eventos de Corrida</h1>
+          <p className="text-muted-foreground">
+            Descubra os próximos eventos de corrida em Portugal
+          </p>
+        </div>
+        
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <Button variant="outline" onClick={handleViewSaved} className="flex items-center gap-2">
+            <Heart className="h-4 w-4" />
+            Guardados ({savedEventIds.size})
+          </Button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        {/* Filters sidebar */}
+        <div className="lg:col-span-1">
+          <div className="sticky top-6">
+            <EventFiltersComponent
+              filters={filters}
+              onFiltersChange={handleFiltersChange}
+              events={events}
+            />
+          </div>
+        </div>
+
+        {/* Main content */}
+        <div className="lg:col-span-3">
+          <EventList
+            events={paginatedEvents}
+            loading={loading}
+            pagination={pagination}
+            savedEventIds={savedEventIds}
+            onToggleSave={toggleSave}
+            onEventClick={handleEventClick}
+            onPageChange={handlePageChange}
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+      </div>
     </div>
-  );
+  )
 }
