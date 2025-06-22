@@ -1,3 +1,4 @@
 - Use `just dev` to start the dev server
 - Use `just logs` to view the running dev server logs
 - Use `just lint` to run the linter and type checker
+- The local development server runs at `127.0.0.1:5173`

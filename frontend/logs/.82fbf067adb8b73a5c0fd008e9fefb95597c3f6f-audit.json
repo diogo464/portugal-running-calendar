@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/diogo464/build/portugal-running/frontend/logs/.82fbf067adb8b73a5c0fd008e9fefb95597c3f6f-audit.json",
+    "files": [
+        {
+            "date": 1750606008090,
+            "name": "/home/diogo464/build/portugal-running/frontend/logs/mcp-puppeteer-2025-06-22.log",
+            "hash": "66e1b33bae31ad8e6df666d43a8ab01d7f5ac8774e5f68de20b48d91e5b94fb9"
+        }
+    ],
+    "hashType": "sha256"
+}
