@@ -10,7 +10,7 @@ export const Route = createFileRoute('/event/$eventId/$eventSlug')({
 function EventDetail() {
   const { eventId } = Route.useParams()
   const router = useRouter()
-  const { events } = useEvents()
+  const { events, loading } = useEvents()
   const { savedEventIds, toggleSave } = useSavedEvents()
   
   const eventIdNumber = parseInt(eventId, 10)
@@ -20,8 +20,20 @@ function EventDetail() {
     router.history.back()
   }
 
+  // Show loading state while events are loading
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-2"></div>
+          <p className="text-muted-foreground">Carregando evento...</p>
+        </div>
+      </div>
+    )
+  }
+
+  // Only show "not found" if events have finished loading and event is still not found
   if (!event) {
-    // Event not found - we'll create a proper component for this later
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
