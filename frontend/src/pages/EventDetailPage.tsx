@@ -3,6 +3,7 @@ import { Event, EventTypeDisplayNames } from "@/lib/types"
 import { formatDateRange, formatDistance, cn } from "@/lib/utils"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import { EventLocationMap } from "@/components/EventLocationMap"
 
 interface EventDetailPageProps {
   event: Event
@@ -93,6 +94,14 @@ export function EventDetailPage({ event, isSaved, onToggleSave, onBack }: EventD
               )}
             </CardContent>
           </Card>
+
+          {/* Location Map */}
+          <EventLocationMap
+            coordinates={event.event_coordinates}
+            eventName={event.event_name}
+            eventLocation={location}
+            eventPage={event.event_page}
+          />
         </div>
 
         {/* Sidebar */}

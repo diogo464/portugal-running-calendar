@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react"
 import { Search } from "lucide-react"
 import { EventType, EventTypeDisplayNames, EventFilters as IEventFilters, Event } from "@/lib/types"
-import { formatDistance, formatDistanceFromMeters } from "@/lib/utils"
+import { formatDistance } from "@/lib/utils"
 import { useGeolocation } from "@/hooks/useGeolocation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
