@@ -1,0 +1,21 @@
+default:
+    just --list
+
+stop:
+    demon stop dev-v2
+
+dev:
+    demon stop dev-v2
+    demon run dev-v2 npm run dev
+
+logs:
+    demon cat dev-v2
+
+tail:
+    demon tail -f dev-v2
+
+lint:
+    npm run lint
+
+build:
+    npm run build
