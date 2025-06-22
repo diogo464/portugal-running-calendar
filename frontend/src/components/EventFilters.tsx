@@ -1,24 +1,40 @@
-import { useState } from "react"
+import { useState, useMemo } from "react"
 import { Search } from "lucide-react"
-import { EventType, EventTypeDisplayNames, EventFilters as IEventFilters } from "@/lib/types"
-import { formatDistance } from "@/lib/utils"
+import { EventType, EventTypeDisplayNames, EventFilters as IEventFilters, Event } from "@/lib/types"
+import { formatDistance, formatDistanceFromMeters } from "@/lib/utils"
+import { useGeolocation } from "@/hooks/useGeolocation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { LocationGrantedIcon, LocationDeniedIcon, LocationWarningIcon } from "@/components/ui/proximity-icons"
 
 interface EventFiltersProps {
   filters: IEventFilters
   onFiltersChange: (filters: IEventFilters) => void
+  events: Event[]
 }
 
-export function EventFilters({ filters, onFiltersChange }: EventFiltersProps) {
+export function EventFilters({ filters, onFiltersChange, events }: EventFiltersProps) {
+  const geolocation = useGeolocation()
+  
   const [distanceValues, setDistanceValues] = useState<number[]>([
     filters.distanceRange[0],
     filters.distanceRange[1] || 30000
   ])
+  
+  const [proximityValues, setProximityValues] = useState<number[]>([
+    filters.proximityRange[0],
+    filters.proximityRange[1] || 600000
+  ])
+  
+  // Count events without location
+  const eventsWithoutLocation = useMemo(() => 
+    events.filter(event => !event.event_coordinates).length,
+    [events]
+  )
 
   const handleSearchChange = (value: string) => {
     onFiltersChange({ ...filters, search: value })
@@ -33,11 +49,16 @@ export function EventFilters({ filters, onFiltersChange }: EventFiltersProps) {
   }
 
   const handleDistanceChange = (values: number[]) => {
-    setDistanceValues(values)
     const [min, max] = values
+    // Ensure min doesn't exceed max and max doesn't go below min
+    const constrainedValues = [
+      Math.min(min, max),
+      Math.max(min, max)
+    ]
+    setDistanceValues(constrainedValues)
     onFiltersChange({
       ...filters,
-      distanceRange: [min, max === 30000 ? null : max]
+      distanceRange: [constrainedValues[0], constrainedValues[1] === 30000 ? null : constrainedValues[1]]
     })
   }
 
@@ -45,9 +66,38 @@ export function EventFilters({ filters, onFiltersChange }: EventFiltersProps) {
     onFiltersChange({ ...filters, dateRange: value })
   }
 
+  const handleProximityChange = async (values: number[]) => {
+    // Request location permission when user first interacts with proximity slider
+    if (!geolocation.hasLocation && geolocation.permission === 'prompt') {
+      await geolocation.requestLocation()
+    }
+    
+    const [min, max] = values
+    // Ensure min doesn't exceed max and max doesn't go below min
+    const constrainedValues = [
+      Math.min(min, max),
+      Math.max(min, max)
+    ]
+    setProximityValues(constrainedValues)
+    onFiltersChange({
+      ...filters,
+      proximityRange: [constrainedValues[0], constrainedValues[1] === 600000 ? null : constrainedValues[1]],
+      proximityCenter: geolocation.position
+    })
+  }
+
+  const handleShowEventsWithoutLocationChange = (checked: boolean) => {
+    onFiltersChange({ ...filters, showEventsWithoutLocation: checked })
+  }
+
   const formatDistanceValue = (value: number) => {
     if (value >= 30000) return "∞"
     return formatDistance(value)
+  }
+
+  const formatProximityValue = (value: number) => {
+    if (value >= 600000) return "∞"
+    return `${Math.round(value / 1000)}km` // Convert meters to km for display
   }
 
   return (
@@ -111,6 +161,67 @@ export function EventFilters({ filters, onFiltersChange }: EventFiltersProps) {
               <span>{formatDistanceValue(distanceValues[0])}</span>
               <span>{formatDistanceValue(distanceValues[1])}</span>
             </div>
+          </div>
+        </div>
+
+        {/* Proximity Range */}
+        <div className="space-y-3">
+          <Label>Proximidade</Label>
+          <div className="px-2 pt-2">
+            <Slider
+              value={proximityValues}
+              onValueChange={handleProximityChange}
+              max={600000}
+              min={0}
+              step={1000}
+              className="w-full"
+              disabled={geolocation.permission === 'denied'}
+            />
+            <div className="flex justify-between text-xs text-muted-foreground mt-1">
+              <span>{formatProximityValue(proximityValues[0])}</span>
+              <span>{formatProximityValue(proximityValues[1])}</span>
+            </div>
+            
+            {/* Permission indicator */}
+            <div className="flex items-center justify-center mt-2">
+              {geolocation.permission === 'granted' && <LocationGrantedIcon />}
+              {geolocation.permission === 'denied' && <LocationDeniedIcon />}
+              {geolocation.permission === 'prompt' && <div className="w-3 h-3 rounded-full bg-gray-300" />}
+            </div>
+            
+            {/* Show events without location checkbox - only visible when proximity is active */}
+            {geolocation.hasLocation && (
+              <div className="space-y-2 mt-3 pt-2 border-t border-border">
+                <div className="flex items-center space-x-2">
+                  <Checkbox
+                    id="showEventsWithoutLocation"
+                    checked={filters.showEventsWithoutLocation}
+                    onCheckedChange={handleShowEventsWithoutLocationChange}
+                  />
+                  <Label 
+                    htmlFor="showEventsWithoutLocation"
+                    className="text-sm cursor-pointer"
+                  >
+                    Mostrar eventos sem localização
+                  </Label>
+                </div>
+                
+                {/* Warning for events without location */}
+                {eventsWithoutLocation > 0 && (
+                  <div className="flex items-center space-x-2 text-xs text-yellow-600 dark:text-yellow-400">
+                    <LocationWarningIcon />
+                    <span>{eventsWithoutLocation} eventos sem localização conhecida</span>
+                  </div>
+                )}
+              </div>
+            )}
+            
+            {/* Error message when permission denied */}
+            {geolocation.permission === 'denied' && geolocation.error && (
+              <div className="text-xs text-red-600 dark:text-red-400 mt-2 text-center">
+                {geolocation.error}
+              </div>
+            )}
           </div>
         </div>
 
