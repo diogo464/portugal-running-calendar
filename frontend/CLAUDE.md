@@ -1,0 +1,3 @@
+- Use `just dev` to start the dev server
+- Use `just logs` to view the running dev server logs
+- Use `just lint` to run the linter and type checker

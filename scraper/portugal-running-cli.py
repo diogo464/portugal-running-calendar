@@ -600,7 +600,7 @@ class WordPressClient:
     def _parse_ics_content(self, ics_content: str) -> WIcs:
         """Parse ICS content and extract event data."""
         if not ics_content or "BEGIN:VCALENDAR" not in ics_content:
-            raise Exception(f"Invalid ICS file format: missing BEGIN:VCALENDAR header")
+            raise Exception("Invalid ICS file format: missing BEGIN:VCALENDAR header")
 
         # Clean the content
         ics_content = ics_content.replace("\x00", "")

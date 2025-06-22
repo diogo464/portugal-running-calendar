@@ -18,7 +18,7 @@ export enum EventType {
 }
 
 // Zod v4 schema for event type enum - use z.enum() directly with native enum
-export const EventTypeSchema = z.nativeEnum(EventType)
+export const EventTypeSchema = z.enum(EventType)
 
 // Coordinates schema for lat/lon coordinates
 const Coordinates = z.object({
@@ -35,7 +35,7 @@ export const Event = z.object({
   event_country: z.string(),
   event_locality: z.string(),
   event_distances: z.array(z.number().positive("Distance must be positive")),
-  event_types: z.array(z.string()), // Use string array to match actual JSON output
+  event_types: z.array(EventTypeSchema), // Use string array to match actual JSON output
   event_images: z.array(z.string()),
   event_start_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format"),
   event_end_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format"),
