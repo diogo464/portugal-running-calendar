@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from "react"
 import { Heart } from "lucide-react"
+import { useRouter } from "@tanstack/react-router"
 import { Event, EventFilters, PaginationState } from "@/lib/types"
 import { filterEvents } from "@/lib/utils"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
@@ -12,18 +13,15 @@ interface MainPageProps {
   loading: boolean
   savedEventIds: Set<number>
   onToggleSave: (eventId: number) => void
-  onEventClick: (event: Event) => void
-  onViewSaved: () => void
 }
 
 export function MainPage({
   events,
   loading,
   savedEventIds,
-  onToggleSave,
-  onEventClick,
-  onViewSaved
+  onToggleSave
 }: MainPageProps) {
+  const router = useRouter()
   const [filters, setFilters] = useState<EventFilters>({
     search: "",
     eventTypes: [],
@@ -70,6 +68,20 @@ export function MainPage({
     setPagination(prev => ({ ...prev, currentPage: page }))
   }
 
+  const handleEventClick = (event: Event) => {
+    router.navigate({ 
+      to: '/event/$eventId/$eventSlug', 
+      params: { 
+        eventId: event.event_id.toString(), 
+        eventSlug: event.event_slug 
+      } 
+    })
+  }
+
+  const handleViewSaved = () => {
+    router.navigate({ to: '/saved' })
+  }
+
   return (
     <div className="container mx-auto px-4 py-6">
       {/* Header */}
@@ -83,7 +95,7 @@ export function MainPage({
         
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <Button variant="outline" onClick={onViewSaved} className="flex items-center gap-2">
+          <Button variant="outline" onClick={handleViewSaved} className="flex items-center gap-2">
             <Heart className="h-4 w-4" />
             Guardados ({savedEventIds.size})
           </Button>
@@ -110,7 +122,7 @@ export function MainPage({
             pagination={pagination}
             savedEventIds={savedEventIds}
             onToggleSave={onToggleSave}
-            onEventClick={onEventClick}
+            onEventClick={handleEventClick}
             onPageChange={handlePageChange}
           />
         </div>

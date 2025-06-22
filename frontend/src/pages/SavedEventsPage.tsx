@@ -1,4 +1,5 @@
 import { ArrowLeft, Trash2 } from "lucide-react"
+import { useRouter } from "@tanstack/react-router"
 import { Event } from "@/lib/types"
 import { EventCard } from "@/components/EventCard"
 import { Button } from "@/components/ui/button"
@@ -8,7 +9,6 @@ interface SavedEventsPageProps {
   savedEvents: Event[]
   savedEventIds: Set<number>
   onToggleSave: (eventId: number) => void
-  onEventClick: (event: Event) => void
   onBack: () => void
   onClearAll: () => void
 }
@@ -17,10 +17,20 @@ export function SavedEventsPage({
   savedEvents,
   savedEventIds,
   onToggleSave,
-  onEventClick,
   onBack,
   onClearAll
 }: SavedEventsPageProps) {
+  const router = useRouter()
+
+  const handleEventClick = (event: Event) => {
+    router.navigate({ 
+      to: '/event/$eventId/$eventSlug', 
+      params: { 
+        eventId: event.event_id.toString(), 
+        eventSlug: event.event_slug 
+      } 
+    })
+  }
   const handleClearAll = () => {
     if (window.confirm('Tem a certeza que pretende remover todos os eventos guardados?')) {
       onClearAll()
@@ -79,7 +89,7 @@ export function SavedEventsPage({
               event={event}
               isSaved={savedEventIds.has(event.event_id)}
               onToggleSave={onToggleSave}
-              onEventClick={onEventClick}
+              onEventClick={handleEventClick}
             />
           ))}
         </div>

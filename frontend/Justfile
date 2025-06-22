@@ -1,6 +1,9 @@
 default:
     just --list
 
+stop:
+    demon stop dev
+
 dev:
     demon stop dev
     demon run dev npm run dev

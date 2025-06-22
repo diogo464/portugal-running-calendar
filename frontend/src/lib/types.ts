@@ -39,6 +39,7 @@ const CoordinatesSchema = z.object({
 
 export const EventSchema = z.object({
   event_id: z.number(),
+  event_slug: z.string(),
   event_name: z.string(),
   event_location: z.string(),
   event_coordinates: CoordinatesSchema.nullable(),
