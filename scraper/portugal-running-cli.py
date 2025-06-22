@@ -711,21 +711,13 @@ class WordPressClient:
 class GoogleGeocodingClient:
     """Google Maps Geocoding API client with caching."""
 
-    def __init__(self, api_key: str, cache_config: CacheConfig):
+    def __init__(self, api_key: str, cache_config: CacheConfig, session: aiohttp.ClientSession):
         self.api_key = api_key
         self.cache_config = cache_config
+        self.session = session
         self.base_url = "https://maps.googleapis.com/maps/api/geocode/json"
         self.min_request_interval = 0.1
         self.last_request_time = 0
-        self.session: Optional["aiohttp.ClientSession"] = None
-
-    async def __aenter__(self):
-        self.session = aiohttp.ClientSession()
-        return self
-
-    async def __aexit__(self, exc_type, exc_val, exc_tb):
-        if self.session:
-            await self.session.close()
 
     async def _wait_for_rate_limit(self):
         """Enforce rate limiting between requests."""
@@ -769,7 +761,6 @@ class GoogleGeocodingClient:
         url = f"{self.base_url}?{urllib.parse.urlencode(params)}"
 
         try:
-            assert self.session is not None
             status, content = await http_get(self.session, url)
             if status != 200:
                 logger.error(f"GEOCODING|Bad status|{location}|{status}")
@@ -786,6 +777,7 @@ class GoogleGeocodingClient:
 
             # Extract location data
             result = data["results"][0]
+            print(result)
             location_data = {
                 "name": location,
                 "lat": result["geometry"]["location"]["lat"],
@@ -1821,7 +1813,7 @@ async def main():
 
     # Create client instances
     http_session = http_session_create()
-    geo_client = GoogleGeocodingClient(google_key, cache_config)
+    geo_client = GoogleGeocodingClient(google_key, cache_config, http_session)
 
     # Use global model argument
     llm_client = LLMClient(args.model, cache_config)
