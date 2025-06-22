@@ -20,6 +20,10 @@ function EventDetail() {
     router.history.back()
   }
 
+  const handleGoToMain = () => {
+    router.navigate({ to: '/' })
+  }
+
   // Show loading state while events are loading
   if (loading) {
     return (
@@ -40,7 +44,7 @@ function EventDetail() {
           <h1 className="text-2xl font-bold text-red-600 mb-2">Evento não encontrado</h1>
           <p className="text-muted-foreground">O evento solicitado não existe ou foi removido.</p>
           <button 
-            onClick={handleBack}
+            onClick={handleGoToMain}
             className="mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
           >
             Voltar
