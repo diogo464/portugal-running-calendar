@@ -98,7 +98,7 @@ export function EventFilters({ filters, onFiltersChange }: EventFiltersProps) {
         {/* Distance Range */}
         <div className="space-y-3">
           <Label>Distância</Label>
-          <div className="px-2">
+          <div className="px-2 pt-2">
             <Slider
               value={distanceValues}
               onValueChange={handleDistanceChange}
