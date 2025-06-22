@@ -822,45 +822,51 @@ class GoogleGeocodingClient:
         self.cache_config = cache_config
         self.session = session
         self.base_url = "https://maps.googleapis.com/maps/api/geocode/json"
-        self.min_request_interval = 0.1
-        self.last_request_time = 0
 
-    async def _wait_for_rate_limit(self):
-        """Enforce rate limiting between requests."""
-        current_time = time.time()
-        time_since_last = current_time - self.last_request_time
-        if time_since_last < self.min_request_interval:
-            await asyncio.sleep(self.min_request_interval - time_since_last)
-        self.last_request_time = time.time()
+    def _parse_google_response(self, location: str, google_result: dict) -> EventLocation:
+        """Parse Google Maps API response into EventLocation."""
+        location_data = {
+            "name": location,
+            "lat": google_result["geometry"]["location"]["lat"],
+            "lon": google_result["geometry"]["location"]["lng"],
+            "country": "Portugal",
+            "locality": location.split(",")[0].strip(),
+            "administrative_area_level_1": None,
+            "administrative_area_level_2": None,
+            "administrative_area_level_3": None,
+            "district_code": None,
+        }
+
+        # Extract all administrative levels from address components
+        for component in google_result["address_components"]:
+            types = component["types"]
+            if "country" in types:
+                location_data["country"] = component["long_name"]
+            elif "administrative_area_level_1" in types:
+                location_data["administrative_area_level_1"] = component["long_name"]
+                # Use district as locality for Portugal
+                location_data["locality"] = component["long_name"]
+            elif "administrative_area_level_2" in types:
+                location_data["administrative_area_level_2"] = component["long_name"]
+            elif "administrative_area_level_3" in types:
+                location_data["administrative_area_level_3"] = component["long_name"]
+
+        # Calculate district code from administrative_area_level_1 (district)
+        location_data["district_code"] = get_district_code(location_data["administrative_area_level_1"])
+
+        return EventLocation(
+            name=location,
+            country=location_data["country"],
+            locality=location_data["locality"],
+            coordinates=Coordinates(lat=location_data["lat"], lon=location_data["lon"]),
+            administrative_area_level_1=location_data["administrative_area_level_1"],
+            administrative_area_level_2=location_data["administrative_area_level_2"],
+            administrative_area_level_3=location_data["administrative_area_level_3"],
+            district_code=location_data["district_code"],
+        )
 
     async def geocode(self, location: str, use_cache: bool = True) -> Optional[EventLocation]:
         """Geocode a location string asynchronously."""
-        cache_key = cache_get_key(location.lower().strip(), prefix="google")
-        cache_path = self.cache_config.geocoding_dir / f"{cache_key}.json"
-
-        if use_cache and cache_path.exists():
-            try:
-                async with aiofiles.open(cache_path, "r", encoding="utf-8") as f:
-                    content = await f.read()
-                    data = json.loads(content)
-                    if data:
-                        return EventLocation(
-                            name=data["name"],
-                            country=data["country"],
-                            locality=data["locality"],
-                            coordinates=Coordinates(lat=data["lat"], lon=data["lon"]),
-                            administrative_area_level_1=data.get("administrative_area_level_1"),
-                            administrative_area_level_2=data.get("administrative_area_level_2"),
-                            administrative_area_level_3=data.get("administrative_area_level_3"),
-                            district_code=data.get("district_code"),
-                        )
-                    return None
-            except (json.JSONDecodeError, IOError) as e:
-                logger.warning(f"Cache read error for {cache_path}: {e}")
-
-        # Rate limiting
-        await self._wait_for_rate_limit()
-
         # Build request
         params = {
             "address": location,
@@ -871,67 +877,24 @@ class GoogleGeocodingClient:
         url = f"{self.base_url}?{urllib.parse.urlencode(params)}"
 
         try:
-            status, content = await http_get(self.session, url)
-            if status != 200:
-                logger.error(f"GEOCODING|Bad status|{location}|{status}")
-                return None
+            # Use the existing http_get_cached function for automatic caching
+            if use_cache:
+                content = await http_get_cached(self.session, self.cache_config, url)
+            else:
+                status, content = await http_get(self.session, url)
+                if status != 200:
+                    logger.error(f"GEOCODING|Bad status|{location}|{status}")
+                    return None
 
             data = json.loads(content)
             if data["status"] != "OK" or not data["results"]:
                 logger.warning(f"GEOCODING|No results|{location}|{data['status']}")
-                # Cache negative result
-                cache_path.parent.mkdir(parents=True, exist_ok=True)
-                async with aiofiles.open(cache_path, "w", encoding="utf-8") as f:
-                    await f.write("null")
                 return None
 
-            # Extract location data
+            # Parse the first result and return EventLocation
             result = data["results"][0]
-            print(result)
-            location_data = {
-                "name": location,
-                "lat": result["geometry"]["location"]["lat"],
-                "lon": result["geometry"]["location"]["lng"],
-                "country": "Portugal",
-                "locality": location.split(",")[0].strip(),
-                "administrative_area_level_1": None,
-                "administrative_area_level_2": None,
-                "administrative_area_level_3": None,
-                "district_code": None,
-            }
-
-            # Extract all administrative levels from address components
-            for component in result["address_components"]:
-                types = component["types"]
-                if "country" in types:
-                    location_data["country"] = component["long_name"]
-                elif "administrative_area_level_1" in types:
-                    location_data["administrative_area_level_1"] = component["long_name"]
-                    # Use district as locality for Portugal
-                    location_data["locality"] = component["long_name"]
-                elif "administrative_area_level_2" in types:
-                    location_data["administrative_area_level_2"] = component["long_name"]
-                elif "administrative_area_level_3" in types:
-                    location_data["administrative_area_level_3"] = component["long_name"]
-
-            # Calculate district code from administrative_area_level_1 (district)
-            location_data["district_code"] = get_district_code(location_data["administrative_area_level_1"])
-
-            # Cache the result
-            cache_path.parent.mkdir(parents=True, exist_ok=True)
-            async with aiofiles.open(cache_path, "w", encoding="utf-8") as f:
-                await f.write(json.dumps(location_data, ensure_ascii=False, indent=2))
-
-            return EventLocation(
-                name=location,
-                country=location_data["country"],
-                locality=location_data["locality"],
-                coordinates=Coordinates(lat=location_data["lat"], lon=location_data["lon"]),
-                administrative_area_level_1=location_data["administrative_area_level_1"],
-                administrative_area_level_2=location_data["administrative_area_level_2"],
-                administrative_area_level_3=location_data["administrative_area_level_3"],
-                district_code=location_data["district_code"],
-            )
+            logger.debug(f"GEOCODING|Google API result|{location}|{result}")
+            return self._parse_google_response(location, result)
 
         except Exception as e:
             logger.error(f"GEOCODING|Error|{location}|{str(e)}")
