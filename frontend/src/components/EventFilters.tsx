@@ -121,6 +121,23 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
           </div>
         </div>
 
+        {/* Date Range */}
+        <div className="space-y-2">
+          <Label>Período</Label>
+          <Select value={filters.dateRange} onValueChange={handleDateRangeChange}>
+            <SelectTrigger>
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="anytime">Qualquer altura</SelectItem>
+              <SelectItem value="next_week">Próxima semana</SelectItem>
+              <SelectItem value="next_month">Próximo mês</SelectItem>
+              <SelectItem value="next_3_months">Próximos 3 meses</SelectItem>
+              <SelectItem value="next_6_months">Próximos 6 meses</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
         {/* Event Types */}
         <div className="space-y-3">
           <Label>Tipos de evento</Label>
@@ -235,22 +252,6 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
           </div>
         </div>
 
-        {/* Date Range */}
-        <div className="space-y-2">
-          <Label>Período</Label>
-          <Select value={filters.dateRange} onValueChange={handleDateRangeChange}>
-            <SelectTrigger>
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="anytime">Qualquer altura</SelectItem>
-              <SelectItem value="next_week">Próxima semana</SelectItem>
-              <SelectItem value="next_month">Próximo mês</SelectItem>
-              <SelectItem value="next_3_months">Próximos 3 meses</SelectItem>
-              <SelectItem value="next_6_months">Próximos 6 meses</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
       </CardContent>
     </Card>
   )
