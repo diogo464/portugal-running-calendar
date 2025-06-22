@@ -92,11 +92,20 @@ class EventLocation:
     country: str
     locality: str
     coordinates: Optional[Coordinates] = None
+    administrative_area_level_1: Optional[str] = None  # District
+    administrative_area_level_2: Optional[str] = None  # Municipality  
+    administrative_area_level_3: Optional[str] = None  # Parish
 
     def to_dict(self) -> Dict[str, Any]:
         result = {"name": self.name, "country": self.country, "locality": self.locality}
         if self.coordinates:
             result["coordinates"] = self.coordinates.to_dict()  # type: ignore
+        if self.administrative_area_level_1:
+            result["administrative_area_level_1"] = self.administrative_area_level_1
+        if self.administrative_area_level_2:
+            result["administrative_area_level_2"] = self.administrative_area_level_2
+        if self.administrative_area_level_3:
+            result["administrative_area_level_3"] = self.administrative_area_level_3
         return result
 
 
@@ -158,6 +167,9 @@ class Event:
     event_description: str
     description_short: Optional[str]
     event_page: Optional[str]
+    event_administrative_area_level_1: Optional[str] = None  # District
+    event_administrative_area_level_2: Optional[str] = None  # Municipality
+    event_administrative_area_level_3: Optional[str] = None  # Parish
 
     def to_dict(self) -> Dict[str, Any]:
         result = asdict(self)
@@ -182,6 +194,9 @@ class EventBuilder:
     event_description: str | None = None
     event_description_short: str | None = None
     event_page: str | None = None
+    event_administrative_area_level_1: str | None = None  # District
+    event_administrative_area_level_2: str | None = None  # Municipality
+    event_administrative_area_level_3: str | None = None  # Parish
 
     def __init__(self, event_id: int):
         self.event_id = event_id
@@ -227,6 +242,24 @@ class EventBuilder:
             old_value = self.event_locality
             self.event_locality = locality
             logger.debug(f"EVENT_BUILDER|Set locality|{self.event_id}|{old_value} -> {locality}")
+
+    def set_administrative_area_level_1(self, area: str, overwrite: bool = False):
+        if self.event_administrative_area_level_1 is None or overwrite:
+            old_value = self.event_administrative_area_level_1
+            self.event_administrative_area_level_1 = area
+            logger.debug(f"EVENT_BUILDER|Set admin area level 1|{self.event_id}|{old_value} -> {area}")
+
+    def set_administrative_area_level_2(self, area: str, overwrite: bool = False):
+        if self.event_administrative_area_level_2 is None or overwrite:
+            old_value = self.event_administrative_area_level_2
+            self.event_administrative_area_level_2 = area
+            logger.debug(f"EVENT_BUILDER|Set admin area level 2|{self.event_id}|{old_value} -> {area}")
+
+    def set_administrative_area_level_3(self, area: str, overwrite: bool = False):
+        if self.event_administrative_area_level_3 is None or overwrite:
+            old_value = self.event_administrative_area_level_3
+            self.event_administrative_area_level_3 = area
+            logger.debug(f"EVENT_BUILDER|Set admin area level 3|{self.event_id}|{old_value} -> {area}")
 
     def add_distance(self, distance: int):
         if distance not in self.event_distances:
@@ -296,6 +329,9 @@ class EventBuilder:
             event_description=self.event_description or "",
             description_short=self.event_description_short,  # Can be None
             event_page=self.event_page,  # Can be None
+            event_administrative_area_level_1=self.event_administrative_area_level_1,  # Can be None
+            event_administrative_area_level_2=self.event_administrative_area_level_2,  # Can be None
+            event_administrative_area_level_3=self.event_administrative_area_level_3,  # Can be None
         )
 
 
@@ -743,6 +779,9 @@ class GoogleGeocodingClient:
                             country=data["country"],
                             locality=data["locality"],
                             coordinates=Coordinates(lat=data["lat"], lon=data["lon"]),
+                            administrative_area_level_1=data.get("administrative_area_level_1"),
+                            administrative_area_level_2=data.get("administrative_area_level_2"),
+                            administrative_area_level_3=data.get("administrative_area_level_3"),
                         )
                     return None
             except (json.JSONDecodeError, IOError) as e:
@@ -784,16 +823,24 @@ class GoogleGeocodingClient:
                 "lon": result["geometry"]["location"]["lng"],
                 "country": "Portugal",
                 "locality": location.split(",")[0].strip(),
+                "administrative_area_level_1": None,
+                "administrative_area_level_2": None,
+                "administrative_area_level_3": None,
             }
 
-            # Find country and district (administrative_area_level_1) from address components
+            # Extract all administrative levels from address components
             for component in result["address_components"]:
                 types = component["types"]
                 if "country" in types:
                     location_data["country"] = component["long_name"]
                 elif "administrative_area_level_1" in types:
+                    location_data["administrative_area_level_1"] = component["long_name"]
                     # Use district as locality for Portugal
                     location_data["locality"] = component["long_name"]
+                elif "administrative_area_level_2" in types:
+                    location_data["administrative_area_level_2"] = component["long_name"]
+                elif "administrative_area_level_3" in types:
+                    location_data["administrative_area_level_3"] = component["long_name"]
 
             # Cache the result
             cache_path.parent.mkdir(parents=True, exist_ok=True)
@@ -805,6 +852,9 @@ class GoogleGeocodingClient:
                 country=location_data["country"],
                 locality=location_data["locality"],
                 coordinates=Coordinates(lat=location_data["lat"], lon=location_data["lon"]),
+                administrative_area_level_1=location_data["administrative_area_level_1"],
+                administrative_area_level_2=location_data["administrative_area_level_2"],
+                administrative_area_level_3=location_data["administrative_area_level_3"],
             )
 
         except Exception as e:
@@ -1284,6 +1334,12 @@ async def encrich_from_google_maps(builder: EventBuilder, google: GoogleGeocodin
     builder.event_locality = location.locality
     builder.event_coordinates = location.coordinates
     builder.event_country = location.country
+    if location.administrative_area_level_1:
+        builder.set_administrative_area_level_1(location.administrative_area_level_1)
+    if location.administrative_area_level_2:
+        builder.set_administrative_area_level_2(location.administrative_area_level_2)
+    if location.administrative_area_level_3:
+        builder.set_administrative_area_level_3(location.administrative_area_level_3)
 
 
 def enrich_distances_from_description(builder: EventBuilder):
