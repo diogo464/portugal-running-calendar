@@ -34,6 +34,64 @@ PORTUGAL_RUNNING_BASE_URL = "https://www.portugalrunning.com"
 
 ENV_GOOGLE_MAPS_API_KEY = "GOOGLE_MAPS_API_KEY"
 
+# Portugal district codes mapping (ISO 3166-2:PT)
+PORTUGAL_DISTRICT_CODES = {
+    # Mainland Districts
+    "Aveiro": 1,
+    "Beja": 2,
+    "Braga": 3,
+    "Bragança": 4,
+    "Castelo Branco": 5,
+    "Coimbra": 6,
+    "Évora": 7,
+    "Faro": 8,
+    "Guarda": 9,
+    "Leiria": 10,
+    "Lisboa": 11,
+    "Portalegre": 12,
+    "Porto": 13,
+    "Santarém": 14,
+    "Setúbal": 15,
+    "Viana do Castelo": 16,
+    "Vila Real": 17,
+    "Viseu": 18,
+    # Autonomous Regions
+    "Região Autónoma dos Açores": 20,
+    "Açores": 20,
+    "Azores": 20,
+    "Região Autónoma da Madeira": 30,
+    "Madeira": 30,
+}
+
+
+def get_district_code(district_name: Optional[str]) -> Optional[int]:
+    """Get Portuguese district code from district name (ISO 3166-2:PT)."""
+    if not district_name:
+        return None
+    
+    # Direct lookup
+    if district_name in PORTUGAL_DISTRICT_CODES:
+        return PORTUGAL_DISTRICT_CODES[district_name]
+    
+    # Try common variations and normalize
+    normalized = district_name.strip()
+    
+    # Handle common variations for autonomous regions
+    variations = {
+        "Região Autónoma da Madeira": "Madeira",
+        "Região Autónoma dos Açores": "Açores",
+    }
+    
+    if normalized in variations:
+        return PORTUGAL_DISTRICT_CODES[variations[normalized]]
+    
+    # Last resort: try partial matching for districts
+    for district in PORTUGAL_DISTRICT_CODES:
+        if district.lower() in normalized.lower() or normalized.lower() in district.lower():
+            return PORTUGAL_DISTRICT_CODES[district]
+    
+    return None
+
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -95,6 +153,7 @@ class EventLocation:
     administrative_area_level_1: Optional[str] = None  # District
     administrative_area_level_2: Optional[str] = None  # Municipality  
     administrative_area_level_3: Optional[str] = None  # Parish
+    district_code: Optional[int] = None  # Portuguese district code
 
     def to_dict(self) -> Dict[str, Any]:
         result = {"name": self.name, "country": self.country, "locality": self.locality}
@@ -106,6 +165,8 @@ class EventLocation:
             result["administrative_area_level_2"] = self.administrative_area_level_2
         if self.administrative_area_level_3:
             result["administrative_area_level_3"] = self.administrative_area_level_3
+        if self.district_code:
+            result["district_code"] = self.district_code
         return result
 
 
@@ -170,6 +231,7 @@ class Event:
     event_administrative_area_level_1: Optional[str] = None  # District
     event_administrative_area_level_2: Optional[str] = None  # Municipality
     event_administrative_area_level_3: Optional[str] = None  # Parish
+    event_district_code: Optional[int] = None  # Portuguese district code
 
     def to_dict(self) -> Dict[str, Any]:
         result = asdict(self)
@@ -197,6 +259,7 @@ class EventBuilder:
     event_administrative_area_level_1: str | None = None  # District
     event_administrative_area_level_2: str | None = None  # Municipality
     event_administrative_area_level_3: str | None = None  # Parish
+    event_district_code: int | None = None  # Portuguese district code
 
     def __init__(self, event_id: int):
         self.event_id = event_id
@@ -260,6 +323,12 @@ class EventBuilder:
             old_value = self.event_administrative_area_level_3
             self.event_administrative_area_level_3 = area
             logger.debug(f"EVENT_BUILDER|Set admin area level 3|{self.event_id}|{old_value} -> {area}")
+
+    def set_district_code(self, code: int, overwrite: bool = False):
+        if self.event_district_code is None or overwrite:
+            old_value = self.event_district_code
+            self.event_district_code = code
+            logger.debug(f"EVENT_BUILDER|Set district code|{self.event_id}|{old_value} -> {code}")
 
     def add_distance(self, distance: int):
         if distance not in self.event_distances:
@@ -332,6 +401,7 @@ class EventBuilder:
             event_administrative_area_level_1=self.event_administrative_area_level_1,  # Can be None
             event_administrative_area_level_2=self.event_administrative_area_level_2,  # Can be None
             event_administrative_area_level_3=self.event_administrative_area_level_3,  # Can be None
+            event_district_code=self.event_district_code,  # Can be None
         )
 
 
@@ -782,6 +852,7 @@ class GoogleGeocodingClient:
                             administrative_area_level_1=data.get("administrative_area_level_1"),
                             administrative_area_level_2=data.get("administrative_area_level_2"),
                             administrative_area_level_3=data.get("administrative_area_level_3"),
+                            district_code=data.get("district_code"),
                         )
                     return None
             except (json.JSONDecodeError, IOError) as e:
@@ -826,6 +897,7 @@ class GoogleGeocodingClient:
                 "administrative_area_level_1": None,
                 "administrative_area_level_2": None,
                 "administrative_area_level_3": None,
+                "district_code": None,
             }
 
             # Extract all administrative levels from address components
@@ -842,6 +914,9 @@ class GoogleGeocodingClient:
                 elif "administrative_area_level_3" in types:
                     location_data["administrative_area_level_3"] = component["long_name"]
 
+            # Calculate district code from administrative_area_level_1 (district)
+            location_data["district_code"] = get_district_code(location_data["administrative_area_level_1"])
+
             # Cache the result
             cache_path.parent.mkdir(parents=True, exist_ok=True)
             async with aiofiles.open(cache_path, "w", encoding="utf-8") as f:
@@ -855,6 +930,7 @@ class GoogleGeocodingClient:
                 administrative_area_level_1=location_data["administrative_area_level_1"],
                 administrative_area_level_2=location_data["administrative_area_level_2"],
                 administrative_area_level_3=location_data["administrative_area_level_3"],
+                district_code=location_data["district_code"],
             )
 
         except Exception as e:
@@ -1340,6 +1416,8 @@ async def encrich_from_google_maps(builder: EventBuilder, google: GoogleGeocodin
         builder.set_administrative_area_level_2(location.administrative_area_level_2)
     if location.administrative_area_level_3:
         builder.set_administrative_area_level_3(location.administrative_area_level_3)
+    if location.district_code:
+        builder.set_district_code(location.district_code)
 
 
 def enrich_distances_from_description(builder: EventBuilder):
