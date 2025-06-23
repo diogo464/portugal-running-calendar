@@ -8,7 +8,7 @@ import { useUpcomingEvents } from '@/hooks/useUpcomingEvents'
 import { DistrictMap } from '@/components/DistrictMap'
 import { MapFilters } from '@/components/MapFilters'
 import { EventList } from '@/components/EventList'
-import { Header } from '@/components/Header'
+import { PageLayout } from '@/components/PageLayout'
 import { useBreakpoint } from '@/hooks/useBreakpoint'
 import { useSavedEvents } from '@/hooks/useSavedEvents'
 
@@ -136,10 +136,8 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
   if (isMobile) {
     // Mobile layout: stacked vertically
     return (
-      <div className="container mx-auto p-4 space-y-4">
-        <Header savedEventIds={savedEventIds} />
-
-        <div className="space-y-4">
+      <PageLayout savedEventIds={savedEventIds} className="space-y-4">
+        <div className="space-y-4 mt-6">
           <MapFilters
             filters={filters}
             onFiltersChange={handleFiltersChange}
@@ -168,66 +166,56 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
             />
           </div>
         </div>
-      </div>
+      </PageLayout>
     )
   }
 
   // Desktop layout: sidebar + map and events side by side
   return (
-    <div className="h-screen flex flex-col">
-      {/* Header */}
-      <div className="border-b bg-background">
-        <div className="container mx-auto px-4 py-6">
-          <Header savedEventIds={savedEventIds} />
+    <PageLayout savedEventIds={savedEventIds} variant="fullscreen" className="flex overflow-hidden">
+      {/* Sidebar with filters */}
+      <div className="w-80 border-r bg-background overflow-y-auto">
+        <div className="p-6">
+          <MapFilters
+            filters={filters}
+            onFiltersChange={handleFiltersChange}
+            events={events}
+            districtNames={districtNames}
+          />
         </div>
       </div>
 
-      {/* Main content */}
-      <div className="flex-1 flex overflow-hidden">
-        {/* Sidebar with filters */}
-        <div className="w-80 border-r bg-background overflow-y-auto">
-          <div className="p-6">
-            <MapFilters
-              filters={filters}
-              onFiltersChange={handleFiltersChange}
-              events={events}
-              districtNames={districtNames}
-            />
-          </div>
+      {/* Main content: Map and Events side by side */}
+      <div className="flex-1 flex">
+        {/* Map - takes up 45% of remaining width */}
+        <div className="w-[45%] border-r">
+          <DistrictMap
+            selectedDistricts={selectedDistricts}
+            onDistrictSelect={handleDistrictSelect}
+            className="h-full w-full"
+          />
         </div>
 
-        {/* Main content: Map and Events side by side */}
-        <div className="flex-1 flex">
-          {/* Map - takes up 45% of remaining width */}
-          <div className="w-[45%] border-r">
-            <DistrictMap
-              selectedDistricts={selectedDistricts}
-              onDistrictSelect={handleDistrictSelect}
-              className="h-full w-full"
-            />
+        {/* Events list - takes up 55% of remaining width */}
+        <div className="w-[55%] bg-background flex flex-col">
+          <div className="p-6 border-b">
+            <h2 className="text-lg font-semibold">
+              Eventos Encontrados ({filteredEvents.length})
+            </h2>
           </div>
-
-          {/* Events list - takes up 55% of remaining width */}
-          <div className="w-[55%] bg-background flex flex-col">
-            <div className="p-6 border-b">
-              <h2 className="text-lg font-semibold">
-                Eventos Encontrados ({filteredEvents.length})
-              </h2>
-            </div>
-            <div className="flex-1 overflow-y-auto p-6">
-              <EventList
-                events={filteredEvents}
-                loading={false}
-                pagination={pagination}
-                savedEventIds={savedEventIds}
-                onToggleSave={toggleSave}
-                onEventClick={handleEventClick}
-                onPageChange={handlePageChange}
-              />
-            </div>
+          <div className="flex-1 overflow-y-auto p-6">
+            <EventList
+              events={filteredEvents}
+              loading={false}
+              pagination={pagination}
+              savedEventIds={savedEventIds}
+              onToggleSave={toggleSave}
+              onEventClick={handleEventClick}
+              onPageChange={handlePageChange}
+            />
           </div>
         </div>
       </div>
-    </div>
+    </PageLayout>
   )
 }
