@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react"
 import { useRouter } from "next/navigation"
 import { Event, EventFilters, PaginationState } from "@/lib/types"
 import { filterEvents } from "@/lib/utils"
-import { useEvents } from "@/hooks/useEvents"
+import { useUpcomingEvents } from "@/hooks/useUpcomingEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
@@ -16,11 +16,11 @@ interface HomepageClientProps {
 
 export function HomepageClient({ initialEvents }: HomepageClientProps) {
   const router = useRouter()
-  const { events: allEvents, loading, error } = useEvents()
+  const { events: upcomingEvents, loading, error } = useUpcomingEvents()
   const { savedEventIds, toggleSave } = useSavedEvents()
   
   // Use server-rendered events initially, then client-side events once loaded
-  const events = loading ? initialEvents : allEvents
+  const events = loading ? initialEvents : upcomingEvents
   
   const [filters, setFilters] = useState<EventFilters>({
     search: "",

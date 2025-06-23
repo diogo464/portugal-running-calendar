@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { HomepageClient } from '@/components/HomepageClient'
-import { getEventsForHomepage } from '@/lib/server-utils'
+import { getUpcomingEventsForHomepage } from '@/lib/server-utils'
 
 // Generate metadata for homepage SEO
 export const metadata: Metadata = {
@@ -50,8 +50,8 @@ export const metadata: Metadata = {
 }
 
 export default async function Home() {
-  // Get first page of events for SSR
-  const initialEvents = await getEventsForHomepage(12)
+  // Get first page of upcoming events for SSR
+  const initialEvents = await getUpcomingEventsForHomepage(12)
   
   return (
     <>
