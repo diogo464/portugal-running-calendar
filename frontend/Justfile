@@ -19,3 +19,4 @@ lint:
 
 build:
     npm run build
+    just dev

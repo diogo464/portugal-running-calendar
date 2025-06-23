@@ -1,7 +1,7 @@
 'use client'
 
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
-import { LatLngBounds } from 'leaflet'
+// import { LatLngBounds } from 'leaflet'
 import { useDistricts } from '@/hooks/useDistricts'
 
 interface DistrictMapInnerProps {
@@ -47,11 +47,11 @@ export default function DistrictMapInner({
     )
   }
 
-  // Portugal bounds
-  const portugalBounds = new LatLngBounds(
-    [36.838, -12.733], // Southwest
-    [42.280, -6.189]  // Northeast
-  )
+  // Portugal bounds - commented out as not currently used
+  // const portugalBounds = new LatLngBounds(
+  //   [36.838, -12.733], // Southwest
+  //   [42.280, -6.189]  // Northeast
+  // )
 
   return (
     <MapContainer
