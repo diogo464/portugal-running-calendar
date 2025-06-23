@@ -49,17 +49,15 @@ export default function DistrictMapInner({
 
   // Portugal bounds
   const portugalBounds = new LatLngBounds(
-    [36.838, -9.733], // Southwest
+    [36.838, -12.733], // Southwest
     [42.280, -6.189]  // Northeast
   )
 
   return (
     <MapContainer
-      center={[39.5, -8.0]}
+      center={[39.5, -12.0]}
       zoom={7}
       style={{ height: '100%', width: '100%', borderRadius: '0.5rem' }}
-      bounds={portugalBounds}
-      maxBounds={portugalBounds}
       minZoom={6}
       maxZoom={10}
     >
