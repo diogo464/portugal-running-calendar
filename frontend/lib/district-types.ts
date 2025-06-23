@@ -1,46 +1,36 @@
 import { z } from 'zod/v4'
+import { GeoJsonObject } from 'geojson'
 
 // Coordinate pair schema (longitude, latitude)
-const CoordinateSchema = z.tuple([z.number(), z.number()])
-
-// Array of coordinates forming a polygon ring
-const PolygonRingSchema = z.array(CoordinateSchema)
-
-// Polygon geometry with one or more rings
-const PolygonGeometrySchema = z.object({
-  type: z.literal('Polygon'),
-  coordinates: z.array(PolygonRingSchema)
-})
+const Coordinate = z.tuple([z.number(), z.number()])
 
 // GeometryCollection containing polygon geometries
-const GeometryCollectionSchema = z.object({
-  type: z.literal('GeometryCollection'),
-  geometries: z.array(PolygonGeometrySchema)
+const GeometryCollection = z.object({
+  type: z.string(),
+  geometries: z.any(),
 })
 
 // Individual district schema
-export const DistrictSchema = z.object({
+export const District = z.object({
   code: z.number(),
   name: z.string(),
-  geo_shape: GeometryCollectionSchema
+  geo_shape: z.custom<GeoJsonObject>(), // Cast to GeoJsonObject
 })
 
 // Complete districts file schema (object with string keys mapping to districts)
-export const DistrictsFileSchema = z.record(z.string(), DistrictSchema)
+export const DistrictsFile = z.record(z.string(), District)
 
 // TypeScript types inferred from schemas
-export type Coordinate = z.infer<typeof CoordinateSchema>
-export type PolygonRing = z.infer<typeof PolygonRingSchema>
-export type PolygonGeometry = z.infer<typeof PolygonGeometrySchema>
-export type GeometryCollection = z.infer<typeof GeometryCollectionSchema>
-export type District = z.infer<typeof DistrictSchema>
-export type DistrictsFile = z.infer<typeof DistrictsFileSchema>
+export type Coordinate = z.infer<typeof Coordinate>
+export type GeometryCollection = z.infer<typeof GeometryCollection>
+export type District = z.infer<typeof District>
+export type DistrictsFile = z.infer<typeof DistrictsFile>
 
 // Utility functions for validation
 export function validateDistrict(data: unknown): District {
-  return DistrictSchema.parse(data)
+  return District.parse(data)
 }
 
 export function validateDistrictsFile(data: unknown): DistrictsFile {
-  return DistrictsFileSchema.parse(data)
+  return DistrictsFile.parse(data)
 }
