@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect, useMemo } from "react"
-import { Heart } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { Event, EventFilters, PaginationState } from "@/lib/types"
 import { filterEvents } from "@/lib/utils"
@@ -9,8 +8,7 @@ import { useEvents } from "@/hooks/useEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
-import { ThemeToggle } from "@/components/ThemeToggle"
-import { Button } from "@/components/ui/button"
+import { Header } from "@/components/Header"
 
 interface HomepageClientProps {
   initialEvents: Event[]
@@ -80,9 +78,6 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
     router.push(`/event/${event.id}/${eventSlug}`)
   }
 
-  const handleViewSaved = () => {
-    router.push('/saved')
-  }
 
   if (error) {
     return (
@@ -97,23 +92,7 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      {/* Header */}
-      <div className="flex items-center justify-between mb-6">
-        <div>
-          <h1 className="text-3xl font-bold">Eventos de Corrida</h1>
-          <p className="text-muted-foreground">
-            Descubra os próximos eventos de corrida em Portugal
-          </p>
-        </div>
-        
-        <div className="flex items-center gap-2">
-          <ThemeToggle />
-          <Button variant="outline" onClick={handleViewSaved} className="flex items-center gap-2">
-            <Heart className="h-4 w-4" />
-            Guardados ({savedEventIds.size})
-          </Button>
-        </div>
-      </div>
+      <Header savedEventIds={savedEventIds} />
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Filters sidebar */}
