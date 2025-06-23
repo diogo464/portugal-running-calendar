@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import { Event, EventFilters, PaginationState } from '@/lib/types'
 import { useDistricts } from '@/hooks/useDistricts'
+import { useUpcomingEvents } from '@/hooks/useUpcomingEvents'
 import { DistrictMap } from '@/components/DistrictMap'
 import { MapFilters } from '@/components/MapFilters'
 import { EventList } from '@/components/EventList'
@@ -17,7 +18,10 @@ interface MapPageClientProps {
 
 
 export function MapPageClient({ initialEvents }: MapPageClientProps) {
-  const [events] = useState<Event[]>(initialEvents)
+  const { events: upcomingEvents, loading, error } = useUpcomingEvents()
+  // Use server-rendered events initially, then client-side events once loaded
+  const events = loading ? initialEvents : upcomingEvents
+  
   const [selectedDistricts, setSelectedDistricts] = useState<number[]>([])
   const [filters, setFilters] = useState({
     distanceRange: [0, null] as [number, number | null],
@@ -116,6 +120,17 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
 
   const handlePageChange = (page: number) => {
     setPagination(prev => ({ ...prev, currentPage: page }))
+  }
+
+  if (error) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-red-600 mb-2">Erro ao Carregar</h1>
+          <p className="text-muted-foreground">{error}</p>
+        </div>
+      </div>
+    )
   }
 
   if (isMobile) {

@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapPageClient } from '@/components/MapPageClient'
-import { getEventsForHomepage } from '@/lib/server-utils'
+import { getUpcomingEvents } from '@/lib/server-utils'
 
 export const metadata: Metadata = {
   title: 'Mapa de Eventos | Portugal Running',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 }
 
 export default async function MapPage() {
-  const initialEvents = await getEventsForHomepage(500) // Load more events for map view
+  const initialEvents = await getUpcomingEvents() // Load all upcoming events for map view
   
   return <MapPageClient initialEvents={initialEvents} />
 }
