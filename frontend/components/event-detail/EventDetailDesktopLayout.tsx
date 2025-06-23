@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { EventImage } from "./EventImage"
 import { EventDetails } from "./EventDetails"
 import { EventRegistration } from "./EventRegistration"
@@ -36,12 +37,18 @@ export function EventDetailDesktopLayout({
   hasRegistrationLink,
   onRegistrationClick
 }: EventDetailDesktopLayoutProps) {
+  const [isImageFullscreen, setIsImageFullscreen] = useState(false)
+
   return (
     <div className="grid gap-6 md:grid-cols-3">
       {/* Main content - Left column */}
       <div className="md:col-span-2 space-y-6">
         {/* Image */}
-        <EventImage images={eventImages} eventName={eventName} />
+        <EventImage 
+          images={eventImages} 
+          eventName={eventName} 
+          onFullscreenChange={setIsImageFullscreen}
+        />
         
         {/* Description */}
         <EventDescription 
@@ -50,12 +57,14 @@ export function EventDetailDesktopLayout({
         />
         
         {/* Map */}
-        <EventLocationMapWrapper
-          coordinates={coordinates}
-          eventName={eventName}
-          eventLocation={location}
-          eventPage={eventPage}
-        />
+        {!isImageFullscreen && (
+          <EventLocationMapWrapper
+            coordinates={coordinates}
+            eventName={eventName}
+            eventLocation={location}
+            eventPage={eventPage}
+          />
+        )}
       </div>
 
       {/* Sidebar - Right column */}
