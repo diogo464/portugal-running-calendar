@@ -14,17 +14,17 @@ interface EventCardProps {
 export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventCardProps) {
   const handleSaveClick = (e: React.MouseEvent) => {
     e.stopPropagation()
-    onToggleSave(event.event_id)
+    onToggleSave(event.id)
   }
 
   const handleCardClick = () => {
     onEventClick(event)
   }
 
-  const hasRegistrationLink = Boolean(event.event_page)
-  const eventDate = formatDateRange(event.event_start_date, event.event_end_date)
-  const distances = event.event_distances.map(formatDistance).join(", ")
-  const location = event.event_locality || event.event_location || "Localização não disponível"
+  const hasRegistrationLink = Boolean(event.page)
+  const eventDate = formatDateRange(event.start_date, event.end_date)
+  const distances = event.distances.map(formatDistance).join(", ")
+  const location = event.locality || event.location || "Localização não disponível"
 
   return (
     <Card 
@@ -33,7 +33,7 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
     >
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between gap-2">
-          <CardTitle className="text-lg line-clamp-2">{event.event_name}</CardTitle>
+          <CardTitle className="text-lg line-clamp-2">{event.name}</CardTitle>
           <Button
             variant="ghost"
             size="icon"
@@ -84,7 +84,7 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
           onClick={(e) => {
             e.stopPropagation()
             if (hasRegistrationLink) {
-              window.open(event.event_page!, '_blank', 'noopener,noreferrer')
+              window.open(event.page!, '_blank', 'noopener,noreferrer')
             }
           }}
           title={hasRegistrationLink ? "Abrir página de inscrição" : "Página de inscrição não disponível"}

@@ -40,24 +40,29 @@ const CoordinatesSchema = z.object({
   lon: z.number()
 })
 
-// Event schema matching the data structure from portugal-running-cli.py
+// Event schema matching the actual JSON structure
 export const EventSchema = z.object({
-  event_id: z.number(),
-  event_slug: z.string().optional(),
-  event_name: z.string().min(1, "Event name is required"),
-  event_location: z.string(),
-  event_coordinates: CoordinatesSchema.nullable(),
-  event_country: z.string().nullable(),
-  event_locality: z.string().nullable(),
-  event_distances: z.array(z.number().positive("Distance must be positive")),
-  event_types: z.array(z.nativeEnum(EventType)),
-  event_images: z.array(z.string()),
-  event_start_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format").nullable(),
-  event_end_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format").nullable(),
-  event_circuit: z.array(z.any()), // Array of any to match current empty arrays
-  event_description: z.string(),
+  id: z.number(),
+  slug: z.string().optional(),
+  name: z.string().min(1, "Event name is required"),
+  location: z.string(),
+  coordinates: CoordinatesSchema.nullable(),
+  country: z.string().nullable(),
+  locality: z.string().nullable(),
+  distances: z.array(z.number().positive("Distance must be positive")),
+  types: z.array(z.string()), // Use string array to match JSON format
+  images: z.array(z.string()),
+  start_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format").nullable(),
+  end_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format").nullable(),
+  circuit: z.array(z.any()), // Array of any to match current empty arrays
+  description: z.string(),
   description_short: z.string().nullable(),
-  event_page: z.string().nullable()
+  page: z.string().nullable(),
+  // Additional properties from the JSON
+  administrative_area_level_1: z.string().nullable().optional(),
+  administrative_area_level_2: z.string().nullable().optional(),
+  administrative_area_level_3: z.string().nullable().optional(),
+  district_code: z.number().nullable().optional()
 })
 
 // Array of events schema

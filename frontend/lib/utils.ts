@@ -64,34 +64,34 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
   
   return events.filter(event => {
     // Filter out past events
-    if (event.event_start_date) {
-      const eventDate = parseISO(event.event_start_date)
+    if (event.start_date) {
+      const eventDate = parseISO(event.start_date)
       if (isBefore(eventDate, dateStart)) return false
     }
     
     // Date range filter
-    if (dateEnd && event.event_start_date) {
-      const eventDate = parseISO(event.event_start_date)
+    if (dateEnd && event.start_date) {
+      const eventDate = parseISO(event.start_date)
       if (isAfter(eventDate, dateEnd)) return false
     }
     
     // Search filter (case insensitive)
-    if (filters.search && !event.event_name.toLowerCase().includes(filters.search.toLowerCase())) {
+    if (filters.search && !event.name.toLowerCase().includes(filters.search.toLowerCase())) {
       return false
     }
     
     // Event type filter
     if (filters.eventTypes.length > 0) {
-      const hasMatchingType = event.event_types.some(type => 
-        filters.eventTypes.includes(type)
+      const hasMatchingType = event.types.some(type => 
+        filters.eventTypes.includes(type as any)
       )
       if (!hasMatchingType) return false
     }
     
     // Distance filter
     const [minDistance, maxDistance] = filters.distanceRange
-    if (event.event_distances.length > 0) {
-      const hasMatchingDistance = event.event_distances.some(distance => {
+    if (event.distances.length > 0) {
+      const hasMatchingDistance = event.distances.some(distance => {
         if (distance < minDistance) return false
         if (maxDistance !== null && distance > maxDistance) return false
         return true
@@ -103,13 +103,13 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
     if (filters.proximityCenter) {
       const [minProximity, maxProximity] = filters.proximityRange
       
-      if (!event.event_coordinates) {
+      if (!event.coordinates) {
         // Event has no location - only show if the checkbox is checked
         return filters.showEventsWithoutLocation
       }
       
       // Calculate distance from user to event
-      const distanceToEvent = calculateDistance(filters.proximityCenter, event.event_coordinates)
+      const distanceToEvent = calculateDistance(filters.proximityCenter, event.coordinates)
       
       if (distanceToEvent < minProximity * 1000) return false // Convert km to meters
       if (maxProximity !== null && distanceToEvent > maxProximity * 1000) return false

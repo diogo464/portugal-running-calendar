@@ -15,34 +15,34 @@ interface EventDetailPageProps {
 
 export function EventDetailPage({ event, isSaved, onToggleSave, onBack }: EventDetailPageProps) {
   const { isMobile } = useBreakpoint()
-  const hasRegistrationLink = Boolean(event.event_page)
-  const eventDate = formatDateRange(event.event_start_date, event.event_end_date)
-  const distances = event.event_distances.map(formatDistance).join(", ")
-  const location = event.event_locality || event.event_location || "Localização não disponível"
-  const eventTypes = event.event_types.map(type => EventTypeDisplayNames[type] || type).join(", ")
+  const hasRegistrationLink = Boolean(event.page)
+  const eventDate = formatDateRange(event.start_date, event.end_date)
+  const distances = event.distances.map(formatDistance).join(", ")
+  const location = event.locality || event.location || "Localização não disponível"
+  const eventTypes = event.types.map(type => EventTypeDisplayNames[type] || type).join(", ")
   
   const handleSaveClick = () => {
-    onToggleSave(event.event_id)
+    onToggleSave(event.id)
   }
 
   const handleRegistrationClick = () => {
     if (hasRegistrationLink) {
-      window.open(event.event_page!, '_blank', 'noopener,noreferrer')
+      window.open(event.page!, '_blank', 'noopener,noreferrer')
     }
   }
 
   // Common props for both layouts
   const layoutProps = {
-    eventName: event.event_name,
-    eventImages: event.event_images,
+    eventName: event.name,
+    eventImages: event.images,
     eventDate,
     location,
-    coordinates: event.event_coordinates,
+    coordinates: event.coordinates,
     distances,
     eventTypes,
     descriptionShort: event.description_short,
-    description: event.event_description,
-    eventPage: event.event_page,
+    description: event.description,
+    eventPage: event.page,
     hasRegistrationLink,
     onRegistrationClick: handleRegistrationClick
   }
@@ -54,7 +54,7 @@ export function EventDetailPage({ event, isSaved, onToggleSave, onBack }: EventD
         <Button variant="outline" size="icon" onClick={onBack}>
           <ArrowLeft className="h-4 w-4" />
         </Button>
-        <h1 className="text-2xl font-bold flex-1">{event.event_name}</h1>
+        <h1 className="text-2xl font-bold flex-1">{event.name}</h1>
         <Button
           variant="ghost"
           size="icon"

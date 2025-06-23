@@ -45,7 +45,7 @@ export function useSavedEvents() {
   }
 
   const getSavedEvents = (allEvents: Event[]): Event[] => {
-    return allEvents.filter(event => savedEventIds.has(event.event_id))
+    return allEvents.filter(event => savedEventIds.has(event.id))
   }
 
   return {

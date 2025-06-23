@@ -18,7 +18,7 @@ export default function EventDetail({ params }: EventDetailProps) {
   const { savedEventIds, toggleSave } = useSavedEvents()
   
   const eventIdNumber = parseInt(params.eventId, 10)
-  const event = events.find(e => e.event_id === eventIdNumber)
+  const event = events.find(e => e.id === eventIdNumber)
 
   const handleBack = () => {
     router.back()
@@ -61,7 +61,7 @@ export default function EventDetail({ params }: EventDetailProps) {
   return (
     <EventDetailPage
       event={event}
-      isSaved={savedEventIds.has(event.event_id)}
+      isSaved={savedEventIds.has(event.id)}
       onToggleSave={toggleSave}
       onBack={handleBack}
     />

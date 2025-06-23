@@ -24,13 +24,13 @@ export function SavedEventsPage({
 
   const handleEventClick = (event: Event) => {
     // Create event slug from event name if not available
-    const eventSlug = event.event_slug || 
-      event.event_name.toLowerCase()
+    const eventSlug = event.slug || 
+      event.name.toLowerCase()
         .replace(/[^a-z0-9\s-]/g, '')
         .trim()
         .replace(/\s+/g, '-')
     
-    router.push(`/event/${event.event_id}/${eventSlug}`)
+    router.push(`/event/${event.id}/${eventSlug}`)
   }
   
   const handleClearAll = () => {
@@ -87,9 +87,9 @@ export function SavedEventsPage({
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {savedEvents.map((event) => (
             <EventCard
-              key={event.event_id}
+              key={event.id}
               event={event}
-              isSaved={savedEventIds.has(event.event_id)}
+              isSaved={savedEventIds.has(event.id)}
               onToggleSave={onToggleSave}
               onEventClick={handleEventClick}
             />

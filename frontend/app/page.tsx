@@ -65,13 +65,13 @@ export default function Home() {
 
   const handleEventClick = (event: Event) => {
     // Create event slug from event name if not available
-    const eventSlug = event.event_slug || 
-      event.event_name.toLowerCase()
+    const eventSlug = event.slug || 
+      event.name.toLowerCase()
         .replace(/[^a-z0-9\s-]/g, '')
         .trim()
         .replace(/\s+/g, '-')
     
-    router.push(`/event/${event.event_id}/${eventSlug}`)
+    router.push(`/event/${event.id}/${eventSlug}`)
   }
 
   const handleViewSaved = () => {
