@@ -1,6 +1,6 @@
 'use client'
 
-import { Heart, Map, Calendar } from "lucide-react"
+import { Heart, Map, Calendar, List } from "lucide-react"
 import { useRouter, usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ThemeToggle"
@@ -37,45 +37,45 @@ export function Header({ savedEventIds }: HeaderProps) {
     <div className="flex items-center justify-between mb-6">
       <div>
         <h1 className="text-3xl font-bold cursor-pointer" onClick={handleViewHome}>
-          {isMapPage 
-            ? 'Mapa de Eventos' 
-            : isCalendarPage 
-              ? 'Calendário de Eventos'
-              : 'Eventos de Corrida'
-          }
+          Portugal Run Calendar
         </h1>
         <p className="text-muted-foreground">
-          {isMapPage 
-            ? 'Explore eventos por distrito no mapa interativo'
-            : isCalendarPage
-              ? 'Visualize eventos no calendário anual e filtre por datas'
-              : 'Descubra os próximos eventos de corrida em Portugal'
-          }
+          Descubra os próximos eventos de corrida em Portugal
         </p>
       </div>
       
       <div className="flex items-center gap-2">
         <ThemeToggle />
         
-        {!isCalendarPage && (
-          <Button variant="outline" onClick={handleViewCalendar} className="flex items-center gap-2">
-            <Calendar className="h-4 w-4" />
-            Calendário
-          </Button>
-        )}
+        <Button 
+          variant="outline" 
+          onClick={isHomePage ? undefined : handleViewHome}
+          disabled={isHomePage}
+          className={`flex items-center gap-2 ${isHomePage ? 'bg-muted' : ''}`}
+        >
+          <List className="h-4 w-4" />
+          Lista
+        </Button>
         
-        {!isMapPage && (
-          <Button variant="outline" onClick={handleViewMap} className="flex items-center gap-2">
-            <Map className="h-4 w-4" />
-            Mapa
-          </Button>
-        )}
+        <Button 
+          variant="outline" 
+          onClick={isCalendarPage ? undefined : handleViewCalendar}
+          disabled={isCalendarPage}
+          className={`flex items-center gap-2 ${isCalendarPage ? 'bg-muted' : ''}`}
+        >
+          <Calendar className="h-4 w-4" />
+          Calendário
+        </Button>
         
-        {!isHomePage && (
-          <Button variant="outline" onClick={handleViewHome} className="flex items-center gap-2">
-            Lista
-          </Button>
-        )}
+        <Button 
+          variant="outline" 
+          onClick={isMapPage ? undefined : handleViewMap}
+          disabled={isMapPage}
+          className={`flex items-center gap-2 ${isMapPage ? 'bg-muted' : ''}`}
+        >
+          <Map className="h-4 w-4" />
+          Mapa
+        </Button>
         
         <Button variant="outline" onClick={handleViewSaved} className="flex items-center gap-2">
           <Heart className="h-4 w-4" />
