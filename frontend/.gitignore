@@ -41,3 +41,8 @@ next-env.d.ts
 # wrangler files
 .wrangler
 .dev.vars*
+
+# Generated event files
+/public/events.json
+/public/upcoming.json
+/public/upcoming-by-district.json

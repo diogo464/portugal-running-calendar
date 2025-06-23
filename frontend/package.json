@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev --turbopack --port 5173",
+		"prebuild": "node scripts/build-events.js",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
