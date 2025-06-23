@@ -1,9 +1,8 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import { LatLngBounds } from 'leaflet'
-import { District, validateDistrictsFile } from '@/lib/district-types'
+import { useDistricts } from '@/hooks/useDistricts'
 
 interface DistrictMapInnerProps {
   selectedDistricts: number[]
@@ -14,42 +13,7 @@ export default function DistrictMapInner({
   selectedDistricts,
   onDistrictSelect
 }: DistrictMapInnerProps) {
-  const [geoJsonLayers, setGeoJsonLayers] = useState<Array<District>>([])
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    const loadDistricts = async () => {
-      try {
-        // Load the combined file to get district codes and names
-        const response = await fetch('/opt_districts.json')
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`)
-        }
-
-        const rawData = await response.json()
-        const districtsData = validateDistrictsFile(rawData)
-
-        // Create layers from the district data
-        const layers: Array<District> = []
-        for (const [key, district] of Object.entries(districtsData)) {
-          try {
-            // Use the geo_shape directly from the combined file
-            layers.push(district)
-          } catch (error) {
-            console.warn(`Failed to load district ${key}:`, error)
-          }
-        }
-
-        setGeoJsonLayers(layers)
-      } catch (error) {
-        console.error('Failed to load districts:', error)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadDistricts()
-  }, [])
+  const { districts, loading, error } = useDistricts()
 
   const getDistrictStyle = (districtCode: number) => {
     const isSelected = selectedDistricts.includes(districtCode)
@@ -75,6 +39,14 @@ export default function DistrictMapInner({
     )
   }
 
+  if (error) {
+    return (
+      <div className="bg-red-50 rounded-lg flex items-center justify-center h-full">
+        <div className="text-red-600">Erro ao carregar distritos: {error}</div>
+      </div>
+    )
+  }
+
   // Portugal bounds
   const portugalBounds = new LatLngBounds(
     [36.838, -9.733], // Southwest
@@ -96,13 +68,13 @@ export default function DistrictMapInner({
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      {geoJsonLayers.map((layer) => (
+      {districts.map((district) => (
         <GeoJSON
-          key={`district-${layer.code}`}
-          data={layer.geo_shape}
-          style={() => getDistrictStyle(layer.code)}
+          key={`district-${district.code}`}
+          data={district.geo_shape}
+          style={() => getDistrictStyle(district.code)}
           eventHandlers={{
-            click: () => handleDistrictClick(layer.code),
+            click: () => handleDistrictClick(district.code),
             mouseover: (e) => {
               const leafletLayer = e.target
               leafletLayer.setStyle({
@@ -113,7 +85,7 @@ export default function DistrictMapInner({
             },
             mouseout: (e) => {
               const leafletLayer = e.target
-              leafletLayer.setStyle(getDistrictStyle(layer.code))
+              leafletLayer.setStyle(getDistrictStyle(district.code))
             }
           }}
         />

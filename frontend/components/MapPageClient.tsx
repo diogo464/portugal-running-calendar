@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import { Event, EventFilters, PaginationState } from '@/lib/types'
-import { validateDistrictsFile } from '@/lib/district-types'
+import { useDistricts } from '@/hooks/useDistricts'
 import { DistrictMap } from '@/components/DistrictMap'
 import { MapFilters } from '@/components/MapFilters'
 import { EventList } from '@/components/EventList'
@@ -19,13 +19,13 @@ interface MapPageClientProps {
 export function MapPageClient({ initialEvents }: MapPageClientProps) {
   const [events] = useState<Event[]>(initialEvents)
   const [selectedDistricts, setSelectedDistricts] = useState<number[]>([])
-  const [districtNames, setDistrictNames] = useState<Record<number, string>>({})
   const [filters, setFilters] = useState({
     distanceRange: [0, null] as [number, number | null],
     dateRange: 'anytime' as EventFilters['dateRange'],
     selectedDistricts: [] as number[]
   })
 
+  const { districts } = useDistricts()
   const { isMobile } = useBreakpoint()
   const { savedEventIds, toggleSave } = useSavedEvents()
   const router = useRouter()
@@ -36,25 +36,14 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     totalItems: 0
   })
 
-  // Load district names
-  useEffect(() => {
-    const loadDistrictNames = async () => {
-      try {
-        const response = await fetch('/opt_districts.json')
-        const rawData = await response.json()
-        const data = validateDistrictsFile(rawData)
-        const names: Record<number, string> = {}
-        Object.values(data).forEach(district => {
-          names[district.code] = district.name
-        })
-        setDistrictNames(names)
-      } catch (error) {
-        console.error('Failed to load district names:', error)
-      }
-    }
-
-    loadDistrictNames()
-  }, [])
+  // Create district names lookup from districts array
+  const districtNames = useMemo(() => {
+    const names: Record<number, string> = {}
+    districts.forEach(district => {
+      names[district.code] = district.name
+    })
+    return names
+  }, [districts])
 
   // Update filters when districts change
   useEffect(() => {
