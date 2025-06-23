@@ -25,11 +25,11 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     dateRange: 'anytime' as EventFilters['dateRange'],
     selectedDistricts: [] as number[]
   })
-  
+
   const { isMobile } = useBreakpoint()
   const { savedEventIds, toggleSave } = useSavedEvents()
   const router = useRouter()
-  
+
   const [pagination, setPagination] = useState<PaginationState>({
     currentPage: 1,
     itemsPerPage: 12,
@@ -96,7 +96,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
       if (filters.dateRange !== 'anytime' && event.start_date) {
         const eventDate = new Date(event.start_date)
         const now = new Date()
-        
+
         switch (filters.dateRange) {
           case 'next_week':
             const nextWeek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000)
@@ -118,7 +118,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
       }
 
       // District filter
-      const districtMatch = filters.selectedDistricts.length === 0 || 
+      const districtMatch = filters.selectedDistricts.length === 0 ||
         (event.district_code && filters.selectedDistricts.includes(event.district_code))
 
       return distanceMatch && dateMatch && districtMatch
@@ -134,7 +134,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     return (
       <div className="container mx-auto p-4 space-y-4">
         <Header savedEventIds={savedEventIds} />
-        
+
         <div className="space-y-4">
           <MapFilters
             filters={filters}
@@ -142,18 +142,18 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
             events={events}
             districtNames={districtNames}
           />
-          
+
           <DistrictMap
             selectedDistricts={selectedDistricts}
             onDistrictSelect={handleDistrictSelect}
             className="h-64 w-full"
           />
-          
+
           <div>
             <h2 className="text-lg font-semibold mb-3">
               Eventos ({filteredEvents.length})
             </h2>
-            <EventList 
+            <EventList
               events={filteredEvents}
               loading={false}
               pagination={pagination}
@@ -177,50 +177,50 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
           <Header savedEventIds={savedEventIds} />
         </div>
       </div>
-      
+
       {/* Main content */}
       <div className="flex-1 flex">
         {/* Sidebar with filters */}
         <div className="w-80 border-r bg-background overflow-y-auto">
           <div className="p-6">
-          <MapFilters
-            filters={filters}
-            onFiltersChange={handleFiltersChange}
-            events={events}
-            districtNames={districtNames}
-          />
-        </div>
-      </div>
-
-      {/* Main content: Map and Events */}
-      <div className="flex-1 flex flex-col">
-        {/* Map */}
-        <div className="flex-1">
-          <DistrictMap
-            selectedDistricts={selectedDistricts}
-            onDistrictSelect={handleDistrictSelect}
-            className="h-full w-full"
-          />
-        </div>
-
-        {/* Events list */}
-        <div className="h-80 border-t bg-background overflow-y-auto">
-          <div className="p-6">
-            <h2 className="text-lg font-semibold mb-4">
-              Eventos Encontrados ({filteredEvents.length})
-            </h2>
-            <EventList 
-              events={filteredEvents}
-              loading={false}
-              pagination={pagination}
-              savedEventIds={savedEventIds}
-              onToggleSave={toggleSave}
-              onEventClick={handleEventClick}
-              onPageChange={handlePageChange}
+            <MapFilters
+              filters={filters}
+              onFiltersChange={handleFiltersChange}
+              events={events}
+              districtNames={districtNames}
             />
           </div>
         </div>
-      </div>
+
+        {/* Main content: Map and Events */}
+        <div className="flex-1 flex flex-col">
+          {/* Map */}
+          <div className="flex-1">
+            <DistrictMap
+              selectedDistricts={selectedDistricts}
+              onDistrictSelect={handleDistrictSelect}
+              className="h-full w-full"
+            />
+          </div>
+
+          {/* Events list */}
+          <div className="h-80 border-t bg-background overflow-y-auto">
+            <div className="p-6">
+              <h2 className="text-lg font-semibold mb-4">
+                Eventos Encontrados ({filteredEvents.length})
+              </h2>
+              <EventList
+                events={filteredEvents}
+                loading={false}
+                pagination={pagination}
+                savedEventIds={savedEventIds}
+                onToggleSave={toggleSave}
+                onEventClick={handleEventClick}
+                onPageChange={handlePageChange}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

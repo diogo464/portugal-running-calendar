@@ -3,23 +3,18 @@
 import { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import { LatLngBounds } from 'leaflet'
-import { GeoJsonObject } from 'geojson'
-import { validateDistrictsFile } from '@/lib/district-types'
+import { District, validateDistrictsFile } from '@/lib/district-types'
 
 interface DistrictMapInnerProps {
   selectedDistricts: number[]
   onDistrictSelect: (districtCode: number) => void
 }
 
-export default function DistrictMapInner({ 
-  selectedDistricts, 
-  onDistrictSelect 
+export default function DistrictMapInner({
+  selectedDistricts,
+  onDistrictSelect
 }: DistrictMapInnerProps) {
-  const [geoJsonLayers, setGeoJsonLayers] = useState<Array<{
-    districtCode: number;
-    districtName: string;
-    geoJson: GeoJsonObject;
-  }>>([])
+  const [geoJsonLayers, setGeoJsonLayers] = useState<Array<District>>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -30,29 +25,21 @@ export default function DistrictMapInner({
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}: ${response.statusText}`)
         }
-        
+
         const rawData = await response.json()
         const districtsData = validateDistrictsFile(rawData)
-        
+
         // Create layers from the district data
-        const layers: Array<{
-          districtCode: number;
-          districtName: string;
-          geoJson: GeoJsonObject;
-        }> = []
+        const layers: Array<District> = []
         for (const [key, district] of Object.entries(districtsData)) {
           try {
             // Use the geo_shape directly from the combined file
-            layers.push({
-              districtCode: district.code,
-              districtName: district.name,
-              geoJson: district.geo_shape
-            })
+            layers.push(district)
           } catch (error) {
             console.warn(`Failed to load district ${key}:`, error)
           }
         }
-        
+
         setGeoJsonLayers(layers)
       } catch (error) {
         console.error('Failed to load districts:', error)
@@ -108,14 +95,14 @@ export default function DistrictMapInner({
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      
+
       {geoJsonLayers.map((layer) => (
         <GeoJSON
-          key={`district-${layer.districtCode}`}
-          data={layer.geoJson}
-          style={() => getDistrictStyle(layer.districtCode)}
+          key={`district-${layer.code}`}
+          data={layer.geo_shape}
+          style={() => getDistrictStyle(layer.code)}
           eventHandlers={{
-            click: () => handleDistrictClick(layer.districtCode),
+            click: () => handleDistrictClick(layer.code),
             mouseover: (e) => {
               const leafletLayer = e.target
               leafletLayer.setStyle({
@@ -126,7 +113,7 @@ export default function DistrictMapInner({
             },
             mouseout: (e) => {
               const leafletLayer = e.target
-              leafletLayer.setStyle(getDistrictStyle(layer.districtCode))
+              leafletLayer.setStyle(getDistrictStyle(layer.code))
             }
           }}
         />
