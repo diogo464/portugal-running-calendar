@@ -49,7 +49,11 @@ export function EventImage({ images, eventName, onFullscreenChange }: EventImage
           <img
             src={`/${images[0]}`}
             alt={eventName}
-            className="w-full h-64 object-cover rounded-lg cursor-pointer transition-opacity duration-200 hover:opacity-90"
+            className={`w-full object-contain rounded-lg cursor-pointer transition-all duration-300 ease-out ${
+              !isFullscreen 
+                ? "h-64 hover:h-80 hover:opacity-90" 
+                : "h-64"
+            }`}
             onClick={handleImageClick}
             onError={(e) => {
               e.currentTarget.style.display = 'none'
