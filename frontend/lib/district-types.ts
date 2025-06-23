@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 // Coordinate pair schema (longitude, latitude)
 const CoordinateSchema = z.tuple([z.number(), z.number()])

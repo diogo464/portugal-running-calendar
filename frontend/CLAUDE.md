@@ -64,6 +64,7 @@ This is a Next.js 15 frontend for Portugal Running - a comprehensive platform fo
 - Event data schema is defined in `lib/types.ts` with Zod validation
 - Portuguese district codes follow ISO 3166-2:PT standard
 - Event images use hash-based filenames in `/public/media/`
+- **Zod Import**: Always use `import { z } from 'zod/v4'` - Zod v4 is shipped alongside v3, use v4 even if package.json shows v3
 
 ### Deployment
 - Production builds are optimized for Cloudflare Workers edge deployment

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { readFile } from 'fs/promises'
 import { join } from 'path'
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 // Simple event ID validation
 const EventIdSchema = z.string().regex(/^\d+$/, 'Event ID must be numeric')
