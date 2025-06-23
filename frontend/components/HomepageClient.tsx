@@ -8,7 +8,7 @@ import { useUpcomingEvents } from "@/hooks/useUpcomingEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
-import { Header } from "@/components/Header"
+import { PageLayout } from "@/components/PageLayout"
 
 interface HomepageClientProps {
   initialEvents: Event[]
@@ -91,10 +91,8 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
   }
 
   return (
-    <div className="container mx-auto px-4 py-6">
-      <Header savedEventIds={savedEventIds} />
-
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+    <PageLayout savedEventIds={savedEventIds}>
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6">
         {/* Filters sidebar */}
         <div className="lg:col-span-1">
           <div className="sticky top-6">
@@ -119,6 +117,6 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
           />
         </div>
       </div>
-    </div>
+    </PageLayout>
   )
 }
