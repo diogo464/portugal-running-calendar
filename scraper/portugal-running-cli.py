@@ -228,6 +228,7 @@ class Event:
     description: str
     description_short: Optional[str]
     page: Optional[str]
+    slug: Optional[str] = None
     administrative_area_level_1: Optional[str] = None  # District
     administrative_area_level_2: Optional[str] = None  # Municipality
     administrative_area_level_3: Optional[str] = None  # Parish
@@ -256,6 +257,7 @@ class EventBuilder:
     description: str | None = None
     description_short: str | None = None
     page: str | None = None
+    slug: str | None = None
     administrative_area_level_1: str | None = None  # District
     administrative_area_level_2: str | None = None  # Municipality
     administrative_area_level_3: str | None = None  # Parish
@@ -377,6 +379,12 @@ class EventBuilder:
             self.page = event_page
             logger.debug(f"EVENT_BUILDER|Set event page|{self.id}|{old_value} -> {event_page}")
 
+    def set_slug(self, slug: str, overwrite: bool = False):
+        if self.slug is None or overwrite:
+            old_value = self.slug
+            self.slug = slug
+            logger.debug(f"EVENT_BUILDER|Set slug|{self.id}|{old_value} -> {slug}")
+
     def build(self) -> Event:
         """Build an Event instance from the builder, using default values for any None fields."""
         # Convert EventType enums to strings
@@ -398,6 +406,7 @@ class EventBuilder:
             description=self.description or "",
             description_short=self.description_short,  # Can be None
             page=self.page,  # Can be None
+            slug=self.slug,  # Can be None
             administrative_area_level_1=self.administrative_area_level_1,  # Can be None
             administrative_area_level_2=self.administrative_area_level_2,  # Can be None
             administrative_area_level_3=self.administrative_area_level_3,  # Can be None
@@ -1288,6 +1297,9 @@ async def enrich_from_event_details(
 
     if details.content is not None:
         builder.set_description(details.content)
+
+    if details.slug:
+        builder.set_slug(details.slug)
 
     if details.featured_image_src is not None and details.featured_image_src != "":
         image_path = cache_config.media_dir.joinpath(cache_get_key(details.featured_image_src))
