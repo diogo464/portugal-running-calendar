@@ -1,39 +1,25 @@
-import { readFile } from 'fs/promises'
-import { join } from 'path'
-import { Event, EventsArraySchema, EventSchema } from './types'
+import { Event, EventsArraySchema } from './types'
+import { getCloudflareContext } from '@opennextjs/cloudflare'
 
 /**
  * Server-side utility to read all events from the events.json file
  */
 export async function getAllEvents(): Promise<Event[]> {
-  try {
-    const filePath = join(process.cwd(), 'public', 'events.json')
-    const fileContent = await readFile(filePath, 'utf-8')
-    const data = JSON.parse(fileContent)
-    
-    // Validate with Zod schema
-    return EventsArraySchema.parse(data)
-  } catch (error) {
-    console.error('Error reading events.json:', error)
-    return []
-  }
+  const { env } = await getCloudflareContext({ async: true });
+  const object = await env.NEXT_R2.get("events.json");
+  if (!object) throw new Error("failed to obtain events.json from r2");
+  const data = await object.json();
+  return EventsArraySchema.parse(data);
 }
 
 /**
  * Server-side utility to read a single event by ID
  */
 export async function getEventById(eventId: number): Promise<Event | null> {
-  try {
-    const filePath = join(process.cwd(), 'public', 'events', `${eventId}.json`)
-    const fileContent = await readFile(filePath, 'utf-8')
-    const data = JSON.parse(fileContent)
-    
-    // Validate with Zod schema
-    return EventSchema.parse(data)
-  } catch (error) {
-    console.error(`Error reading event ${eventId}:`, error)
-    return null
-  }
+  const events = await getAllEvents();
+  const event = events.find(e => e.id == eventId);
+  if (!event) return null;
+  return event;
 }
 
 /**
@@ -48,17 +34,11 @@ export async function getEventsForHomepage(limit: number = 12): Promise<Event[]>
  * Server-side utility to read upcoming events from the upcoming.json file
  */
 export async function getUpcomingEvents(): Promise<Event[]> {
-  try {
-    const filePath = join(process.cwd(), 'public', 'upcoming.json')
-    const fileContent = await readFile(filePath, 'utf-8')
-    const data = JSON.parse(fileContent)
-    
-    // Validate with Zod schema
-    return EventsArraySchema.parse(data)
-  } catch (error) {
-    console.error('Error reading upcoming.json:', error)
-    return []
-  }
+  const { env } = await getCloudflareContext({ async: true });
+  const object = await env.NEXT_R2.get("upcoming.json");
+  if (!object) throw new Error("failed to obtain events.json from r2");
+  const data = await object.json();
+  return EventsArraySchema.parse(data);
 }
 
 /**
@@ -74,7 +54,7 @@ export async function getUpcomingEventsForHomepage(limit: number = 12): Promise<
  */
 export async function getAllEventUrls(): Promise<Array<{ id: number; slug: string; lastModified?: Date }>> {
   const events = await getAllEvents()
-  
+
   return events.map(event => ({
     id: event.id,
     slug: event.slug || createSlugFromName(event.name),
@@ -109,10 +89,10 @@ export function generateEventDescription(event: Event): string {
   if (event.description_short) {
     return event.description_short
   }
-  
+
   const location = event.locality || event.location || 'Portugal'
   const dateStr = event.start_date ? ` em ${formatPortugueseDate(event.start_date)}` : ''
-  
+
   return `Evento de corrida em ${location}${dateStr}. Descubra mais detalhes e inscreva-se no Portugal Running.`
 }
 
