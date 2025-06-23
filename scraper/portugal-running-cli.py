@@ -213,195 +213,195 @@ class WEvent:
 class Event:
     """Complete event data structure."""
 
-    event_id: int
-    event_name: str
-    event_location: str
-    event_coordinates: Optional[Coordinates]
-    event_country: str
-    event_locality: str
-    event_distances: List[int]
-    event_types: List[str]
-    event_images: List[str]
-    event_start_date: str
-    event_end_date: str
-    event_circuit: List[Any]
-    event_description: str
+    id: int
+    name: str
+    location: str
+    coordinates: Optional[Coordinates]
+    country: str
+    locality: str
+    distances: List[int]
+    types: List[str]
+    images: List[str]
+    start_date: str
+    end_date: str
+    circuit: List[Any]
+    description: str
     description_short: Optional[str]
-    event_page: Optional[str]
-    event_administrative_area_level_1: Optional[str] = None  # District
-    event_administrative_area_level_2: Optional[str] = None  # Municipality
-    event_administrative_area_level_3: Optional[str] = None  # Parish
-    event_district_code: Optional[int] = None  # Portuguese district code
+    page: Optional[str]
+    administrative_area_level_1: Optional[str] = None  # District
+    administrative_area_level_2: Optional[str] = None  # Municipality
+    administrative_area_level_3: Optional[str] = None  # Parish
+    district_code: Optional[int] = None  # Portuguese district code
 
     def to_dict(self) -> Dict[str, Any]:
         result = asdict(self)
-        if self.event_coordinates:
-            result["event_coordinates"] = self.event_coordinates.to_dict()
+        if self.coordinates:
+            result["coordinates"] = self.coordinates.to_dict()
         return result
 
 
 class EventBuilder:
-    event_id: int
-    event_name: str | None = None
-    event_location: str | None = None
-    event_coordinates: Coordinates | None = None
-    event_country: str | None = None
-    event_locality: str | None = None
-    event_distances: list[int] = []
-    event_types: list[EventType] = []
-    event_images: list[str] = []
-    event_start_date: str | None = None
-    event_end_date: str | None = None
-    event_circuit: list[str] = []
-    event_description: str | None = None
-    event_description_short: str | None = None
-    event_page: str | None = None
-    event_administrative_area_level_1: str | None = None  # District
-    event_administrative_area_level_2: str | None = None  # Municipality
-    event_administrative_area_level_3: str | None = None  # Parish
-    event_district_code: int | None = None  # Portuguese district code
+    id: int
+    name: str | None = None
+    location: str | None = None
+    coordinates: Coordinates | None = None
+    country: str | None = None
+    locality: str | None = None
+    distances: list[int] = []
+    types: list[EventType] = []
+    images: list[str] = []
+    start_date: str | None = None
+    end_date: str | None = None
+    circuit: list[str] = []
+    description: str | None = None
+    description_short: str | None = None
+    page: str | None = None
+    administrative_area_level_1: str | None = None  # District
+    administrative_area_level_2: str | None = None  # Municipality
+    administrative_area_level_3: str | None = None  # Parish
+    district_code: int | None = None  # Portuguese district code
 
     def __init__(self, event_id: int):
-        self.event_id = event_id
-        self.event_distances = []
-        self.event_types = []
-        self.event_images = []
-        self.event_circuit = []
+        self.id = event_id
+        self.distances = []
+        self.types = []
+        self.images = []
+        self.circuit = []
 
     def add_event_type(self, event_type: EventType):
-        if event_type in self.event_types:
+        if event_type in self.types:
             return
-        self.event_types.append(event_type)
-        logger.debug(f"EVENT_BUILDER|Added event type|{self.event_id}|{event_type.value}")
+        self.types.append(event_type)
+        logger.debug(f"EVENT_BUILDER|Added event type|{self.id}|{event_type.value}")
 
     def set_name(self, name: str, overwrite: bool = False):
-        if self.event_name is None or overwrite:
-            old_value = self.event_name
-            self.event_name = name
-            logger.debug(f"EVENT_BUILDER|Set name|{self.event_id}|{old_value} -> {name}")
+        if self.name is None or overwrite:
+            old_value = self.name
+            self.name = name
+            logger.debug(f"EVENT_BUILDER|Set name|{self.id}|{old_value} -> {name}")
 
     def set_location(self, location: str, overwrite: bool = False):
-        if self.event_location is None or overwrite:
-            old_value = self.event_location
-            self.event_location = location
-            logger.debug(f"EVENT_BUILDER|Set location|{self.event_id}|{old_value} -> {location}")
+        if self.location is None or overwrite:
+            old_value = self.location
+            self.location = location
+            logger.debug(f"EVENT_BUILDER|Set location|{self.id}|{old_value} -> {location}")
 
     def set_coordinates(self, coordinates: Coordinates, overwrite: bool = False):
-        if self.event_coordinates is None or overwrite:
-            old_value = self.event_coordinates
-            self.event_coordinates = coordinates
+        if self.coordinates is None or overwrite:
+            old_value = self.coordinates
+            self.coordinates = coordinates
             logger.debug(
-                f"EVENT_BUILDER|Set coordinates|{self.event_id}|{old_value} -> {coordinates.lat},{coordinates.lon}"
+                f"EVENT_BUILDER|Set coordinates|{self.id}|{old_value} -> {coordinates.lat},{coordinates.lon}"
             )
 
     def set_country(self, country: str, overwrite: bool = False):
-        if self.event_country is None or overwrite:
-            old_value = self.event_country
-            self.event_country = country
-            logger.debug(f"EVENT_BUILDER|Set country|{self.event_id}|{old_value} -> {country}")
+        if self.country is None or overwrite:
+            old_value = self.country
+            self.country = country
+            logger.debug(f"EVENT_BUILDER|Set country|{self.id}|{old_value} -> {country}")
 
     def set_locality(self, locality: str, overwrite: bool = False):
-        if self.event_locality is None or overwrite:
-            old_value = self.event_locality
-            self.event_locality = locality
-            logger.debug(f"EVENT_BUILDER|Set locality|{self.event_id}|{old_value} -> {locality}")
+        if self.locality is None or overwrite:
+            old_value = self.locality
+            self.locality = locality
+            logger.debug(f"EVENT_BUILDER|Set locality|{self.id}|{old_value} -> {locality}")
 
     def set_administrative_area_level_1(self, area: str, overwrite: bool = False):
-        if self.event_administrative_area_level_1 is None or overwrite:
-            old_value = self.event_administrative_area_level_1
-            self.event_administrative_area_level_1 = area
-            logger.debug(f"EVENT_BUILDER|Set admin area level 1|{self.event_id}|{old_value} -> {area}")
+        if self.administrative_area_level_1 is None or overwrite:
+            old_value = self.administrative_area_level_1
+            self.administrative_area_level_1 = area
+            logger.debug(f"EVENT_BUILDER|Set admin area level 1|{self.id}|{old_value} -> {area}")
 
     def set_administrative_area_level_2(self, area: str, overwrite: bool = False):
-        if self.event_administrative_area_level_2 is None or overwrite:
-            old_value = self.event_administrative_area_level_2
-            self.event_administrative_area_level_2 = area
-            logger.debug(f"EVENT_BUILDER|Set admin area level 2|{self.event_id}|{old_value} -> {area}")
+        if self.administrative_area_level_2 is None or overwrite:
+            old_value = self.administrative_area_level_2
+            self.administrative_area_level_2 = area
+            logger.debug(f"EVENT_BUILDER|Set admin area level 2|{self.id}|{old_value} -> {area}")
 
     def set_administrative_area_level_3(self, area: str, overwrite: bool = False):
-        if self.event_administrative_area_level_3 is None or overwrite:
-            old_value = self.event_administrative_area_level_3
-            self.event_administrative_area_level_3 = area
-            logger.debug(f"EVENT_BUILDER|Set admin area level 3|{self.event_id}|{old_value} -> {area}")
+        if self.administrative_area_level_3 is None or overwrite:
+            old_value = self.administrative_area_level_3
+            self.administrative_area_level_3 = area
+            logger.debug(f"EVENT_BUILDER|Set admin area level 3|{self.id}|{old_value} -> {area}")
 
     def set_district_code(self, code: int, overwrite: bool = False):
-        if self.event_district_code is None or overwrite:
-            old_value = self.event_district_code
-            self.event_district_code = code
-            logger.debug(f"EVENT_BUILDER|Set district code|{self.event_id}|{old_value} -> {code}")
+        if self.district_code is None or overwrite:
+            old_value = self.district_code
+            self.district_code = code
+            logger.debug(f"EVENT_BUILDER|Set district code|{self.id}|{old_value} -> {code}")
 
     def add_distance(self, distance: int):
-        if distance not in self.event_distances:
-            self.event_distances.append(distance)
-            self.event_distances.sort()
-            logger.debug(f"EVENT_BUILDER|Added distance|{self.event_id}|{distance}m")
+        if distance not in self.distances:
+            self.distances.append(distance)
+            self.distances.sort()
+            logger.debug(f"EVENT_BUILDER|Added distance|{self.id}|{distance}m")
 
     def add_image(self, image_url: str):
-        if image_url not in self.event_images:
-            self.event_images.append(image_url)
-            logger.debug(f"EVENT_BUILDER|Added image|{self.event_id}|{image_url}")
+        if image_url not in self.images:
+            self.images.append(image_url)
+            logger.debug(f"EVENT_BUILDER|Added image|{self.id}|{image_url}")
 
     def set_start_date(self, start_date: str, overwrite: bool = False):
-        if self.event_start_date is None or overwrite:
-            old_value = self.event_start_date
-            self.event_start_date = start_date
-            logger.debug(f"EVENT_BUILDER|Set start date|{self.event_id}|{old_value} -> {start_date}")
+        if self.start_date is None or overwrite:
+            old_value = self.start_date
+            self.start_date = start_date
+            logger.debug(f"EVENT_BUILDER|Set start date|{self.id}|{old_value} -> {start_date}")
 
     def set_end_date(self, end_date: str, overwrite: bool = False):
-        if self.event_end_date is None or overwrite:
-            old_value = self.event_end_date
-            self.event_end_date = end_date
-            logger.debug(f"EVENT_BUILDER|Set end date|{self.event_id}|{old_value} -> {end_date}")
+        if self.end_date is None or overwrite:
+            old_value = self.end_date
+            self.end_date = end_date
+            logger.debug(f"EVENT_BUILDER|Set end date|{self.id}|{old_value} -> {end_date}")
 
     def add_circuit(self, circuit: str):
-        if circuit not in self.event_circuit:
-            self.event_circuit.append(circuit)
-            logger.debug(f"EVENT_BUILDER|Added circuit|{self.event_id}|{circuit}")
+        if circuit not in self.circuit:
+            self.circuit.append(circuit)
+            logger.debug(f"EVENT_BUILDER|Added circuit|{self.id}|{circuit}")
 
     def set_description(self, description: str, overwrite: bool = False):
-        if self.event_description is None or overwrite:
-            old_length = len(self.event_description) if self.event_description else 0
-            self.event_description = description
+        if self.description is None or overwrite:
+            old_length = len(self.description) if self.description else 0
+            self.description = description
             new_length = len(description)
-            logger.debug(f"EVENT_BUILDER|Set description|{self.event_id}|{old_length} -> {new_length} chars")
+            logger.debug(f"EVENT_BUILDER|Set description|{self.id}|{old_length} -> {new_length} chars")
 
     def set_description_short(self, description_short: str, overwrite: bool = False):
-        if self.event_description_short is None or overwrite:
-            old_value = self.event_description_short
-            self.event_description_short = description_short
-            logger.debug(f"EVENT_BUILDER|Set short description|{self.event_id}|{old_value} -> {description_short}")
+        if self.description_short is None or overwrite:
+            old_value = self.description_short
+            self.description_short = description_short
+            logger.debug(f"EVENT_BUILDER|Set short description|{self.id}|{old_value} -> {description_short}")
 
     def set_event_page(self, event_page: str, overwrite: bool = False):
-        if self.event_page is None or overwrite:
-            old_value = self.event_page
-            self.event_page = event_page
-            logger.debug(f"EVENT_BUILDER|Set event page|{self.event_id}|{old_value} -> {event_page}")
+        if self.page is None or overwrite:
+            old_value = self.page
+            self.page = event_page
+            logger.debug(f"EVENT_BUILDER|Set event page|{self.id}|{old_value} -> {event_page}")
 
     def build(self) -> Event:
         """Build an Event instance from the builder, using default values for any None fields."""
         # Convert EventType enums to strings
-        event_type_strings = [et.value for et in self.event_types]
+        event_type_strings = [et.value for et in self.types]
 
         return Event(
-            event_id=self.event_id,
-            event_name=self.event_name or "Unknown Event",
-            event_location=self.event_location or "Unknown Location",
-            event_coordinates=self.event_coordinates,  # Can be None
-            event_country=self.event_country or "Portugal",
-            event_locality=self.event_locality or "Unknown",
-            event_distances=self.event_distances or [],
-            event_types=event_type_strings or [],
-            event_images=self.event_images or [],
-            event_start_date=self.event_start_date or "1970-01-01",
-            event_end_date=self.event_end_date or self.event_start_date or "1970-01-01",
-            event_circuit=self.event_circuit or [],
-            event_description=self.event_description or "",
-            description_short=self.event_description_short,  # Can be None
-            event_page=self.event_page,  # Can be None
-            event_administrative_area_level_1=self.event_administrative_area_level_1,  # Can be None
-            event_administrative_area_level_2=self.event_administrative_area_level_2,  # Can be None
-            event_administrative_area_level_3=self.event_administrative_area_level_3,  # Can be None
-            event_district_code=self.event_district_code,  # Can be None
+            id=self.id,
+            name=self.name or "Unknown Event",
+            location=self.location or "Unknown Location",
+            coordinates=self.coordinates,  # Can be None
+            country=self.country or "Portugal",
+            locality=self.locality or "Unknown",
+            distances=self.distances or [],
+            types=event_type_strings or [],
+            images=self.images or [],
+            start_date=self.start_date or "1970-01-01",
+            end_date=self.end_date or self.start_date or "1970-01-01",
+            circuit=self.circuit or [],
+            description=self.description or "",
+            description_short=self.description_short,  # Can be None
+            page=self.page,  # Can be None
+            administrative_area_level_1=self.administrative_area_level_1,  # Can be None
+            administrative_area_level_2=self.administrative_area_level_2,  # Can be None
+            administrative_area_level_3=self.administrative_area_level_3,  # Can be None
+            district_code=self.district_code,  # Can be None
         )
 
 
@@ -1295,7 +1295,7 @@ async def enrich_from_event_details(
             await http_download_file(session, cache_config, details.featured_image_src, image_path)
             builder.add_image(str(image_path))
         except Exception as e:
-            logger.error(f"IMAGE|Failed to download image|{builder.event_id}|{details.featured_image_src}|{str(e)}")
+            logger.error(f"IMAGE|Failed to download image|{builder.id}|{details.featured_image_src}|{str(e)}")
             pass
 
 
@@ -1319,12 +1319,12 @@ async def enrich_event_link(
         if match:
             event_page_url = match.group(1)
             builder.set_event_page(event_page_url)
-            logger.debug(f"EVENT_LINK|Found event page|{builder.event_id}|{event_page_url}")
+            logger.debug(f"EVENT_LINK|Found event page|{builder.id}|{event_page_url}")
         else:
-            logger.warning(f"EVENT_LINK|No event page found|{builder.event_id}|{link}")
+            logger.warning(f"EVENT_LINK|No event page found|{builder.id}|{link}")
 
     except Exception as e:
-        logger.error(f"EVENT_LINK|Error extracting event page|{builder.event_id}|{link}|{str(e)}")
+        logger.error(f"EVENT_LINK|Error extracting event page|{builder.id}|{link}|{str(e)}")
 
 
 def enrich_from_event_ics(builder: EventBuilder, ics: WIcs):
@@ -1343,16 +1343,16 @@ def enrich_from_event_ics(builder: EventBuilder, ics: WIcs):
 
 
 async def enrich_from_llm(builder: EventBuilder, llm: LLMClient):
-    if builder.event_description is None:
+    if builder.description is None:
         return
-    short_description = await llm.generate_description(builder.event_description)
+    short_description = await llm.generate_description(builder.description)
     builder.set_description_short(short_description)
 
     infer_input = ""
-    if builder.event_name is not None:
-        infer_input += builder.event_name + "\n"
-    if builder.event_description is not None:
-        infer_input += builder.event_description + "\n"
+    if builder.name is not None:
+        infer_input += builder.name + "\n"
+    if builder.description is not None:
+        infer_input += builder.description + "\n"
     event_types, event_distances = await llm.infer_event_data(infer_input)
     for event_type in event_types:
         builder.add_event_type(event_type)
@@ -1361,18 +1361,18 @@ async def enrich_from_llm(builder: EventBuilder, llm: LLMClient):
 
 
 async def encrich_from_google_maps(builder: EventBuilder, google: GoogleGeocodingClient):
-    if builder.event_location is None:
+    if builder.location is None:
         return
 
-    location = await google.geocode(builder.event_location)
+    location = await google.geocode(builder.location)
     if location is None:
-        logger.warning(f"GEOCODING|Failed to geocode location|{builder.event_id}|{builder.event_location}")
+        logger.warning(f"GEOCODING|Failed to geocode location|{builder.id}|{builder.location}")
         return
 
-    builder.event_location = location.name
-    builder.event_locality = location.locality
-    builder.event_coordinates = location.coordinates
-    builder.event_country = location.country
+    builder.set_location(location.name, overwrite=True)
+    builder.set_locality(location.locality, overwrite=True)
+    builder.set_coordinates(location.coordinates, overwrite=True)
+    builder.set_country(location.country, overwrite=True)
     if location.administrative_area_level_1:
         builder.set_administrative_area_level_1(location.administrative_area_level_1)
     if location.administrative_area_level_2:
@@ -1384,14 +1384,14 @@ async def encrich_from_google_maps(builder: EventBuilder, google: GoogleGeocodin
 
 
 def enrich_distances_from_description(builder: EventBuilder):
-    if builder.event_description is None:
+    if builder.description is None:
         return
-    for distance in _enrich_extract_distances_from_text(builder.event_description):
+    for distance in _enrich_extract_distances_from_text(builder.description):
         builder.add_distance(distance)
 
 
 def enrich_distances_from_types(builder: EventBuilder):
-    for event_type in builder.event_types:
+    for event_type in builder.types:
         if event_type not in EVENT_TYPE_DISTANCES:
             continue
         distance = EVENT_TYPE_DISTANCES[event_type]
@@ -1606,7 +1606,7 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
             await asyncio.sleep(args.delay)
 
     print(f"✅ Successfully scraped {len(events)} events")
-    events.sort(key=lambda e: e["event_start_date"])
+    events.sort(key=lambda e: e["start_date"])
 
     # Step 3: Save results
     print(f"💾 Saving events to {args.output}...")
