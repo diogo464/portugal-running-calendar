@@ -177,7 +177,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     <div className="h-screen flex flex-col">
       {/* Header */}
       <div className="border-b bg-background">
-        <div className="container mx-auto px-6 py-4">
+        <div className="container mx-auto px-4 py-6">
           <Header savedEventIds={savedEventIds} />
         </div>
       </div>
