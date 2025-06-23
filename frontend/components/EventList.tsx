@@ -35,7 +35,7 @@ export function EventList({
           <Skeleton className="h-6 w-32" />
           <Skeleton className="h-6 w-24" />
         </div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))' }}>
           {Array.from({ length: pagination.itemsPerPage }).map((_, i) => (
             <div key={i} className="space-y-3">
               <Skeleton className="h-48 w-full" />
@@ -72,7 +72,7 @@ export function EventList({
       </div>
 
       {/* Events grid */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))' }}>
         {events.map((event) => (
           <EventCard
             key={event.id}

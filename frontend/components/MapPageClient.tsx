@@ -172,7 +172,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     )
   }
 
-  // Desktop layout: sidebar + map + events
+  // Desktop layout: sidebar + map and events side by side
   return (
     <div className="h-screen flex flex-col">
       {/* Header */}
@@ -183,7 +183,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
       </div>
 
       {/* Main content */}
-      <div className="flex-1 flex">
+      <div className="flex-1 flex overflow-hidden">
         {/* Sidebar with filters */}
         <div className="w-80 border-r bg-background overflow-y-auto">
           <div className="p-6">
@@ -196,10 +196,10 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
           </div>
         </div>
 
-        {/* Main content: Map and Events */}
-        <div className="flex-1 flex flex-col">
-          {/* Map */}
-          <div className="flex-1">
+        {/* Main content: Map and Events side by side */}
+        <div className="flex-1 flex">
+          {/* Map - takes up 45% of remaining width */}
+          <div className="w-[45%] border-r">
             <DistrictMap
               selectedDistricts={selectedDistricts}
               onDistrictSelect={handleDistrictSelect}
@@ -207,12 +207,14 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
             />
           </div>
 
-          {/* Events list */}
-          <div className="h-80 border-t bg-background overflow-y-auto">
-            <div className="p-6">
-              <h2 className="text-lg font-semibold mb-4">
+          {/* Events list - takes up 55% of remaining width */}
+          <div className="w-[55%] bg-background flex flex-col">
+            <div className="p-6 border-b">
+              <h2 className="text-lg font-semibold">
                 Eventos Encontrados ({filteredEvents.length})
               </h2>
+            </div>
+            <div className="flex-1 overflow-y-auto p-6">
               <EventList
                 events={filteredEvents}
                 loading={false}
