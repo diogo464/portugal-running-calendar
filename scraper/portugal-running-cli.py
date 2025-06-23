@@ -15,7 +15,6 @@ import logging
 import sys
 import os
 import hashlib
-import time
 import re
 import urllib.parse
 import asyncio
@@ -68,28 +67,31 @@ def get_district_code(district_name: Optional[str]) -> Optional[int]:
     """Get Portuguese district code from district name (ISO 3166-2:PT)."""
     if not district_name:
         return None
-    
+
     # Direct lookup
     if district_name in PORTUGAL_DISTRICT_CODES:
         return PORTUGAL_DISTRICT_CODES[district_name]
-    
+
     # Try common variations and normalize
     normalized = district_name.strip()
-    
+
     # Handle common variations for autonomous regions
     variations = {
         "Região Autónoma da Madeira": "Madeira",
         "Região Autónoma dos Açores": "Açores",
     }
-    
+
     if normalized in variations:
         return PORTUGAL_DISTRICT_CODES[variations[normalized]]
-    
+
     # Last resort: try partial matching for districts
     for district in PORTUGAL_DISTRICT_CODES:
-        if district.lower() in normalized.lower() or normalized.lower() in district.lower():
+        if (
+            district.lower() in normalized.lower()
+            or normalized.lower() in district.lower()
+        ):
             return PORTUGAL_DISTRICT_CODES[district]
-    
+
     return None
 
 
@@ -151,12 +153,15 @@ class EventLocation:
     locality: str
     coordinates: Optional[Coordinates] = None
     administrative_area_level_1: Optional[str] = None  # District
-    administrative_area_level_2: Optional[str] = None  # Municipality  
+    administrative_area_level_2: Optional[str] = None  # Municipality
     administrative_area_level_3: Optional[str] = None  # Parish
     district_code: Optional[int] = None  # Portuguese district code
 
     def to_dict(self) -> Dict[str, Any]:
-        result = {"name": self.name, "country": self.country, "locality": self.locality}
+        result = {}
+        result["name"] = self.name
+        result["country"] = self.country
+        result["locality"] = self.locality
         if self.coordinates:
             result["coordinates"] = self.coordinates.to_dict()  # type: ignore
         if self.administrative_area_level_1:
@@ -286,7 +291,9 @@ class EventBuilder:
         if self.location is None or overwrite:
             old_value = self.location
             self.location = location
-            logger.debug(f"EVENT_BUILDER|Set location|{self.id}|{old_value} -> {location}")
+            logger.debug(
+                f"EVENT_BUILDER|Set location|{self.id}|{old_value} -> {location}"
+            )
 
     def set_coordinates(self, coordinates: Coordinates, overwrite: bool = False):
         if self.coordinates is None or overwrite:
@@ -300,37 +307,49 @@ class EventBuilder:
         if self.country is None or overwrite:
             old_value = self.country
             self.country = country
-            logger.debug(f"EVENT_BUILDER|Set country|{self.id}|{old_value} -> {country}")
+            logger.debug(
+                f"EVENT_BUILDER|Set country|{self.id}|{old_value} -> {country}"
+            )
 
     def set_locality(self, locality: str, overwrite: bool = False):
         if self.locality is None or overwrite:
             old_value = self.locality
             self.locality = locality
-            logger.debug(f"EVENT_BUILDER|Set locality|{self.id}|{old_value} -> {locality}")
+            logger.debug(
+                f"EVENT_BUILDER|Set locality|{self.id}|{old_value} -> {locality}"
+            )
 
     def set_administrative_area_level_1(self, area: str, overwrite: bool = False):
         if self.administrative_area_level_1 is None or overwrite:
             old_value = self.administrative_area_level_1
             self.administrative_area_level_1 = area
-            logger.debug(f"EVENT_BUILDER|Set admin area level 1|{self.id}|{old_value} -> {area}")
+            logger.debug(
+                f"EVENT_BUILDER|Set admin area level 1|{self.id}|{old_value} -> {area}"
+            )
 
     def set_administrative_area_level_2(self, area: str, overwrite: bool = False):
         if self.administrative_area_level_2 is None or overwrite:
             old_value = self.administrative_area_level_2
             self.administrative_area_level_2 = area
-            logger.debug(f"EVENT_BUILDER|Set admin area level 2|{self.id}|{old_value} -> {area}")
+            logger.debug(
+                f"EVENT_BUILDER|Set admin area level 2|{self.id}|{old_value} -> {area}"
+            )
 
     def set_administrative_area_level_3(self, area: str, overwrite: bool = False):
         if self.administrative_area_level_3 is None or overwrite:
             old_value = self.administrative_area_level_3
             self.administrative_area_level_3 = area
-            logger.debug(f"EVENT_BUILDER|Set admin area level 3|{self.id}|{old_value} -> {area}")
+            logger.debug(
+                f"EVENT_BUILDER|Set admin area level 3|{self.id}|{old_value} -> {area}"
+            )
 
     def set_district_code(self, code: int, overwrite: bool = False):
         if self.district_code is None or overwrite:
             old_value = self.district_code
             self.district_code = code
-            logger.debug(f"EVENT_BUILDER|Set district code|{self.id}|{old_value} -> {code}")
+            logger.debug(
+                f"EVENT_BUILDER|Set district code|{self.id}|{old_value} -> {code}"
+            )
 
     def add_distance(self, distance: int):
         if distance not in self.distances:
@@ -347,13 +366,17 @@ class EventBuilder:
         if self.start_date is None or overwrite:
             old_value = self.start_date
             self.start_date = start_date
-            logger.debug(f"EVENT_BUILDER|Set start date|{self.id}|{old_value} -> {start_date}")
+            logger.debug(
+                f"EVENT_BUILDER|Set start date|{self.id}|{old_value} -> {start_date}"
+            )
 
     def set_end_date(self, end_date: str, overwrite: bool = False):
         if self.end_date is None or overwrite:
             old_value = self.end_date
             self.end_date = end_date
-            logger.debug(f"EVENT_BUILDER|Set end date|{self.id}|{old_value} -> {end_date}")
+            logger.debug(
+                f"EVENT_BUILDER|Set end date|{self.id}|{old_value} -> {end_date}"
+            )
 
     def add_circuit(self, circuit: str):
         if circuit not in self.circuit:
@@ -365,19 +388,25 @@ class EventBuilder:
             old_length = len(self.description) if self.description else 0
             self.description = description
             new_length = len(description)
-            logger.debug(f"EVENT_BUILDER|Set description|{self.id}|{old_length} -> {new_length} chars")
+            logger.debug(
+                f"EVENT_BUILDER|Set description|{self.id}|{old_length} -> {new_length} chars"
+            )
 
     def set_description_short(self, description_short: str, overwrite: bool = False):
         if self.description_short is None or overwrite:
             old_value = self.description_short
             self.description_short = description_short
-            logger.debug(f"EVENT_BUILDER|Set short description|{self.id}|{old_value} -> {description_short}")
+            logger.debug(
+                f"EVENT_BUILDER|Set short description|{self.id}|{old_value} -> {description_short}"
+            )
 
     def set_event_page(self, event_page: str, overwrite: bool = False):
         if self.page is None or overwrite:
             old_value = self.page
             self.page = event_page
-            logger.debug(f"EVENT_BUILDER|Set event page|{self.id}|{old_value} -> {event_page}")
+            logger.debug(
+                f"EVENT_BUILDER|Set event page|{self.id}|{old_value} -> {event_page}"
+            )
 
     def set_slug(self, slug: str, overwrite: bool = False):
         if self.slug is None or overwrite:
@@ -420,13 +449,7 @@ class CacheConfig:
 
     enabled: bool = True
     http_dir: Path = field(default_factory=lambda: Path("http_cache"))
-    pages_dir: Path = field(default_factory=lambda: Path("pages"))
-    events_dir: Path = field(default_factory=lambda: Path("event_data_cache"))
-    geocoding_dir: Path = field(default_factory=lambda: Path("geocoding_cache"))
-    descriptions_dir: Path = field(default_factory=lambda: Path("description_cache"))
-    ics_dir: Path = field(default_factory=lambda: Path("ics_cache"))
-    taxonomy_dir: Path = field(default_factory=lambda: Path("taxonomy_cache"))
-    wp_cache_dir: Path = field(default_factory=lambda: Path("wp_cache"))
+    llm_dir: Path = field(default_factory=lambda: Path("llm_cache"))
     media_dir: Path = field(default_factory=lambda: Path("media"))
 
     def ensure_directories(self):
@@ -504,7 +527,9 @@ def cache_get_stats(cache_dir: Path) -> Dict[str, Any]:
 
 
 def http_session_create() -> aiohttp.ClientSession:
-    connector = aiohttp.TCPConnector(limit=100, limit_per_host=30, ttl_dns_cache=300, use_dns_cache=True)
+    connector = aiohttp.TCPConnector(
+        limit=100, limit_per_host=30, ttl_dns_cache=300, use_dns_cache=True
+    )
 
     timeout = aiohttp.ClientTimeout(total=30, connect=10, sock_read=10)
 
@@ -516,7 +541,9 @@ def http_session_create() -> aiohttp.ClientSession:
     return session
 
 
-async def http_get(session: aiohttp.ClientSession, url: str, timeout: int = 30) -> Tuple[int, bytes]:
+async def http_get(
+    session: aiohttp.ClientSession, url: str, timeout: int = 30
+) -> Tuple[int, bytes]:
     """
     Perform async HTTP GET request.
     Returns (status_code, content).
@@ -547,9 +574,10 @@ async def http_get_cached(
     Returns content string or None on error.
     """
     cache_path = cache_config.http_dir.joinpath(cache_get_key(url))
-    cache_data = await cache_read(cache_path)
-    if cache_data is not None:
-        return cache_data
+    if cache_config.enabled:
+        cache_data = await cache_read(cache_path)
+        if cache_data is not None:
+            return cache_data
 
     # Fetch from network
     logger.debug(f"Fetching {url}")
@@ -759,9 +787,16 @@ class WordPressClient:
                 ics_end_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
 
         # Extract description
-        desc_match = re.search(r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL)
+        desc_match = re.search(
+            r"DESCRIPTION:(.+?)(?=\n[A-Z]|\nEND:)", ics_content, re.DOTALL
+        )
         if desc_match:
-            desc = desc_match.group(1).replace("\n ", "").replace("\\n", "\n").replace("\\,", ",")
+            desc = (
+                desc_match.group(1)
+                .replace("\n ", "")
+                .replace("\\n", "\n")
+                .replace("\\,", ",")
+            )
             ics_description = self._fix_encoding(desc.strip())
 
         return WIcs(
@@ -826,13 +861,17 @@ class WordPressClient:
 class GoogleGeocodingClient:
     """Google Maps Geocoding API client with caching."""
 
-    def __init__(self, api_key: str, cache_config: CacheConfig, session: aiohttp.ClientSession):
+    def __init__(
+        self, api_key: str, cache_config: CacheConfig, session: aiohttp.ClientSession
+    ):
         self.api_key = api_key
         self.cache_config = cache_config
         self.session = session
         self.base_url = "https://maps.googleapis.com/maps/api/geocode/json"
 
-    def _parse_google_response(self, location: str, google_result: dict) -> EventLocation:
+    def _parse_google_response(
+        self, location: str, google_result: dict
+    ) -> EventLocation:
         """Parse Google Maps API response into EventLocation."""
         location_data = {
             "name": location,
@@ -861,7 +900,9 @@ class GoogleGeocodingClient:
                 location_data["administrative_area_level_3"] = component["long_name"]
 
         # Calculate district code from administrative_area_level_1 (district)
-        location_data["district_code"] = get_district_code(location_data["administrative_area_level_1"])
+        location_data["district_code"] = get_district_code(
+            location_data["administrative_area_level_1"]
+        )
 
         return EventLocation(
             name=location,
@@ -874,7 +915,9 @@ class GoogleGeocodingClient:
             district_code=location_data["district_code"],
         )
 
-    async def geocode(self, location: str, use_cache: bool = True) -> Optional[EventLocation]:
+    async def geocode(
+        self, location: str, use_cache: bool = True
+    ) -> Optional[EventLocation]:
         """Geocode a location string asynchronously."""
         # Build request
         params = {
@@ -883,28 +926,15 @@ class GoogleGeocodingClient:
             "region": "pt",
             "language": "pt",
         }
-        url = f"{self.base_url}?{urllib.parse.urlencode(params)}"
 
         try:
-            # Use the existing http_get_cached function for automatic caching
-            if use_cache:
-                content = await http_get_cached(self.session, self.cache_config, url)
-            else:
-                status, content = await http_get(self.session, url)
-                if status != 200:
-                    logger.error(f"GEOCODING|Bad status|{location}|{status}")
-                    return None
-
+            url = f"{self.base_url}?{urllib.parse.urlencode(params)}"
+            content = await http_get_cached(self.session, self.cache_config, url)
+            logger.debug(f"GEOCODING|Google API content|{location}|{content}")
             data = json.loads(content)
-            if data["status"] != "OK" or not data["results"]:
-                logger.warning(f"GEOCODING|No results|{location}|{data['status']}")
-                return None
-
-            # Parse the first result and return EventLocation
             result = data["results"][0]
             logger.debug(f"GEOCODING|Google API result|{location}|{result}")
             return self._parse_google_response(location, result)
-
         except Exception as e:
             logger.error(f"GEOCODING|Error|{location}|{str(e)}")
             return None
@@ -929,7 +959,7 @@ class LLMClient:
         cache_input = f"{system_prompt}|{user_prompt}|{self.model}"
         cache_key = cache_get_key(cache_input)
         cache_filename = f"{cache_key}{cache_suffix}.txt"
-        cache_path = self.cache_config.descriptions_dir / cache_filename
+        cache_path = self.cache_config.llm_dir / cache_filename
 
         # Check cache first
         if use_cache and cache_path.exists():
@@ -938,7 +968,7 @@ class LLMClient:
 
         # Make LLM call
         try:
-            _, stdout, stderr = await subprocess_run(
+            _, stdout, _ = await subprocess_run(
                 ["llm", "-m", self.model, "-s", system_prompt, user_prompt],
                 timeout=30,
                 check=True,
@@ -981,9 +1011,13 @@ IMPORTANTE:
 - Não menciones distâncias se já estão implícitas no tipo de evento
 - Foca-te no que torna este evento único ou interessante"""
 
-        return await self._cached_llm_call(system_prompt, text, "_description", use_cache)
+        return await self._cached_llm_call(
+            system_prompt, text, "_description", use_cache
+        )
 
-    async def infer_event_data(self, text: str, use_cache: bool = True) -> Tuple[List[EventType], List[int]]:
+    async def infer_event_data(
+        self, text: str, use_cache: bool = True
+    ) -> Tuple[List[EventType], List[int]]:
         """Infer event types and distances from text using LLM."""
         system_prompt = """You are analyzing running event data to extract ONLY explicitly mentioned event types and distances.
 
@@ -1040,7 +1074,9 @@ distances: """
 
         try:
             # Get LLM response using cached call
-            output = await self._cached_llm_call(system_prompt, text, "_infer", use_cache)
+            output = await self._cached_llm_call(
+                system_prompt, text, "_infer", use_cache
+            )
 
             # Parse the output
             lines = output.split("\n")
@@ -1058,7 +1094,9 @@ distances: """
                                 event_type = EventType(type_str)
                                 event_types.append(event_type)
                             except ValueError:
-                                logger.warning(f"LLM returned invalid event type: {type_str}")
+                                logger.warning(
+                                    f"LLM returned invalid event type: {type_str}"
+                                )
 
                 elif line.startswith("distances:"):
                     distances_str = line.replace("distances:", "").strip()
@@ -1069,7 +1107,9 @@ distances: """
                                 if 100 <= distance <= 200000:  # Reasonable range
                                     distances.append(distance)
                             except ValueError:
-                                logger.warning(f"LLM returned invalid distance: {dist_str}")
+                                logger.warning(
+                                    f"LLM returned invalid distance: {dist_str}"
+                                )
 
             return event_types, sorted(list(set(distances)))
 
@@ -1238,7 +1278,9 @@ def _enrich_from_class_list(
             continue
 
         if wp_class not in type_mapping and wp_class not in circuit_mapping:
-            logger.warning(f"MAPPING|Unknown WordPress class found|{wp_class}|Add mapping to fix event type extraction")
+            logger.warning(
+                f"MAPPING|Unknown WordPress class found|{wp_class}|Add mapping to fix event type extraction"
+            )
             continue
 
         if wp_class in type_mapping:
@@ -1302,17 +1344,26 @@ async def enrich_from_event_details(
         builder.set_slug(details.slug)
 
     if details.featured_image_src is not None and details.featured_image_src != "":
-        image_path = cache_config.media_dir.joinpath(cache_get_key(details.featured_image_src))
+        image_path = cache_config.media_dir.joinpath(
+            cache_get_key(details.featured_image_src)
+        )
         try:
-            await http_download_file(session, cache_config, details.featured_image_src, image_path)
+            await http_download_file(
+                session, cache_config, details.featured_image_src, image_path
+            )
             builder.add_image(str(image_path))
         except Exception as e:
-            logger.error(f"IMAGE|Failed to download image|{builder.id}|{details.featured_image_src}|{str(e)}")
+            logger.error(
+                f"IMAGE|Failed to download image|{builder.id}|{details.featured_image_src}|{str(e)}"
+            )
             pass
 
 
 async def enrich_event_link(
-    builder: EventBuilder, link: str | None, session: aiohttp.ClientSession, cache_config: CacheConfig
+    builder: EventBuilder,
+    link: str | None,
+    session: aiohttp.ClientSession,
+    cache_config: CacheConfig,
 ):
     if link is None or link == "":
         return
@@ -1323,9 +1374,7 @@ async def enrich_event_link(
 
         # Use regex to find the event page link
         # Looking for <a class='evcal_evdata_row evo_clik_row ' href='...'> or <a class="evcal_evdata_row evo_clik_row " href="...">
-        pattern = (
-            r'<a[^>]*class=[\'"][^\'"]*evcal_evdata_row evo_clik_row[^\'"]*[\'"][^>]*href=[\'"]([^\'"]+)[\'"][^>]*>'
-        )
+        pattern = r'<a[^>]*class=[\'"][^\'"]*evcal_evdata_row evo_clik_row[^\'"]*[\'"][^>]*href=[\'"]([^\'"]+)[\'"][^>]*>'
 
         match = re.search(pattern, content_str)
         if match:
@@ -1336,7 +1385,9 @@ async def enrich_event_link(
             logger.warning(f"EVENT_LINK|No event page found|{builder.id}|{link}")
 
     except Exception as e:
-        logger.error(f"EVENT_LINK|Error extracting event page|{builder.id}|{link}|{str(e)}")
+        logger.error(
+            f"EVENT_LINK|Error extracting event page|{builder.id}|{link}|{str(e)}"
+        )
 
 
 def enrich_from_event_ics(builder: EventBuilder, ics: WIcs):
@@ -1372,18 +1423,23 @@ async def enrich_from_llm(builder: EventBuilder, llm: LLMClient):
         builder.add_distance(event_distance)
 
 
-async def encrich_from_google_maps(builder: EventBuilder, google: GoogleGeocodingClient):
+async def encrich_from_google_maps(
+    builder: EventBuilder, google: GoogleGeocodingClient
+):
     if builder.location is None:
         return
 
     location = await google.geocode(builder.location)
     if location is None:
-        logger.warning(f"GEOCODING|Failed to geocode location|{builder.id}|{builder.location}")
+        logger.warning(
+            f"GEOCODING|Failed to geocode location|{builder.id}|{builder.location}"
+        )
         return
 
     builder.set_location(location.name, overwrite=True)
     builder.set_locality(location.locality, overwrite=True)
-    builder.set_coordinates(location.coordinates, overwrite=True)
+    if location.coordinates is not None:
+        builder.set_coordinates(location.coordinates, overwrite=True)
     builder.set_country(location.country, overwrite=True)
     if location.administrative_area_level_1:
         builder.set_administrative_area_level_1(location.administrative_area_level_1)
@@ -1505,10 +1561,14 @@ async def scrape_event(ctx: Context, event_id: int) -> Event:
     event_ics = await ctx.wp_client.fetch_event_ics(event_id)
 
     logger.info(f"EVENT_SCRAPE|Enriching from event details|{event_id}")
-    await enrich_from_event_details(event_builder, event_details, ctx.http_session, ctx.cache_config)
+    await enrich_from_event_details(
+        event_builder, event_details, ctx.http_session, ctx.cache_config
+    )
 
     logger.info(f"EVENT_SCRAPE|Enriching from event link|{event_id}")
-    await enrich_event_link(event_builder, event_details.link, ctx.http_session, ctx.cache_config)
+    await enrich_event_link(
+        event_builder, event_details.link, ctx.http_session, ctx.cache_config
+    )
 
     logger.info(f"EVENT_SCRAPE|Enriching from ICS data|{event_id}")
     enrich_from_event_ics(event_builder, event_ics)
@@ -1566,7 +1626,9 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
 
             # Stop fetching if we already have enough events for the limit
             if args.limit and len(event_ids) >= args.limit:
-                print(f"🔢 Collected {len(event_ids)} events, reached limit of {args.limit}")
+                print(
+                    f"🔢 Collected {len(event_ids)} events, reached limit of {args.limit}"
+                )
                 break
 
         except Exception as e:
@@ -1588,7 +1650,9 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
         batch_num = (i // args.batch_size) + 1
         total_batches = (len(event_ids) + args.batch_size - 1) // args.batch_size
 
-        print(f"🔄 Processing batch {batch_num}/{total_batches} ({len(batch_ids)} events)...")
+        print(
+            f"🔄 Processing batch {batch_num}/{total_batches} ({len(batch_ids)} events)..."
+        )
 
         # Create tasks for parallel processing
         tasks = [scrape_event(ctx, event_id) for event_id in batch_ids]
@@ -1655,13 +1719,6 @@ async def cmd_fetch_event(args: FetchEventArgs, ctx: Context):
 
 async def cmd_geocode(args: GeocodeArgs, ctx: Context):
     """Geocode a location."""
-    # Clear cache if requested
-    if args.clear_cache:
-        count = cache_clear(ctx.cache_config.geocoding_dir)
-        print(f"Cleared {count} cache files")
-        if not args.location:
-            return 0
-
     if not args.location:
         logger.error("No location provided")
         return 1
@@ -1682,93 +1739,11 @@ async def cmd_geocode(args: GeocodeArgs, ctx: Context):
 
 async def cmd_describe(args: DescribeArgs, ctx: Context):
     """Generate event description."""
-    description = await ctx.llm_client.generate_description(args.text, use_cache=not args.no_cache)
+    description = await ctx.llm_client.generate_description(
+        args.text, use_cache=not args.no_cache
+    )
 
     print(description)
-    return 0
-
-
-def cmd_cache(args: CacheArgs, ctx: Context):
-    """Cache management commands."""
-
-    if args.cache_command == "clear":
-        total = 0
-        if args.type:
-            # Clear specific cache type
-            cache_dirs = {
-                "pages": ctx.cache_config.pages_dir,
-                "events": ctx.cache_config.events_dir,
-                "geocoding": ctx.cache_config.geocoding_dir,
-                "descriptions": ctx.cache_config.descriptions_dir,
-                "images": ctx.cache_config.media_dir,
-            }
-            if args.type in cache_dirs:
-                count = cache_clear(cache_dirs[args.type])
-                print(f"Cleared {count} files from {args.type} cache")
-                total = count
-            else:
-                logger.error(f"Unknown cache type: {args.type}")
-                return 1
-        else:
-            # Clear all caches
-            for name, cache_dir in [
-                ("pages", ctx.cache_config.pages_dir),
-                ("events", ctx.cache_config.events_dir),
-                ("geocoding", ctx.cache_config.geocoding_dir),
-                ("descriptions", ctx.cache_config.descriptions_dir),
-            ]:
-                count = cache_clear(cache_dir)
-                print(f"Cleared {count} files from {name} cache")
-                total += count
-
-        print(f"\n✅ Total files cleared: {total}")
-
-    elif args.cache_command == "stats":
-        print("📊 Cache Statistics\n")
-
-        total_files = 0
-        total_size = 0
-
-        for name, cache_dir in [
-            ("Pages", ctx.cache_config.pages_dir),
-            ("Events", ctx.cache_config.events_dir),
-            ("Geocoding", ctx.cache_config.geocoding_dir),
-            ("Descriptions", ctx.cache_config.descriptions_dir),
-            ("Images", ctx.cache_config.media_dir),
-        ]:
-            stats = cache_get_stats(cache_dir)
-            if stats["exists"]:
-                print(f"{name:.<20} {stats['files']:>6} files, {stats['size_mb']:>8.2f} MB")
-                total_files += stats["files"]
-                total_size += stats["size"]
-            else:
-                print(f"{name:.<20} (not found)")
-
-        print(f"\n{'Total':.<20} {total_files:>6} files, {total_size / 1024 / 1024:>8.2f} MB")
-
-    elif args.cache_command == "list":
-        cache_dirs = {
-            "pages": ctx.cache_config.pages_dir,
-            "events": ctx.cache_config.events_dir,
-            "geocoding": ctx.cache_config.geocoding_dir,
-            "descriptions": ctx.cache_config.descriptions_dir,
-            "images": ctx.cache_config.media_dir,
-        }
-
-        if args.type and args.type in cache_dirs:
-            cache_dir = cache_dirs[args.type]
-            if cache_dir.exists():
-                files = sorted(cache_dir.glob("*"))
-                print(f"📁 {args.type} cache ({len(files)} files):\n")
-                for f in files[:50]:  # Limit output
-                    print(f"  {f.name}")
-                if len(files) > 50:
-                    print(f"  ... and {len(files) - 50} more")
-            else:
-                print(f"Cache directory not found: {cache_dir}")
-        else:
-            print("Available cache types: pages, events, geocoding, descriptions, images")
-
     return 0
 
 
@@ -1811,22 +1786,38 @@ async def main():
     )
 
     # Subcommands
-    subparsers = parser.add_subparsers(dest="command", help="Available commands", required=True)
+    subparsers = parser.add_subparsers(
+        dest="command", help="Available commands", required=True
+    )
 
     # Scrape command
-    scrape_parser = subparsers.add_parser("scrape", help="Scrape all events (main pipeline)")
+    scrape_parser = subparsers.add_parser(
+        "scrape", help="Scrape all events (main pipeline)"
+    )
     scrape_parser.add_argument(
         "--output",
         "-o",
         default="portugal-running-events.json",
         help="Output JSON file",
     )
-    scrape_parser.add_argument("--limit", "-l", type=int, help="Limit number of events to scrape")
-    scrape_parser.add_argument("--pages", "-p", type=int, help="Limit number of pages to fetch")
-    scrape_parser.add_argument("--skip-geocoding", action="store_true", help="Skip geocoding locations")
-    scrape_parser.add_argument("--skip-descriptions", action="store_true", help="Skip generating descriptions")
-    scrape_parser.add_argument("--skip-images", action="store_true", help="Skip downloading images")
-    scrape_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
+    scrape_parser.add_argument(
+        "--limit", "-l", type=int, help="Limit number of events to scrape"
+    )
+    scrape_parser.add_argument(
+        "--pages", "-p", type=int, help="Limit number of pages to fetch"
+    )
+    scrape_parser.add_argument(
+        "--skip-geocoding", action="store_true", help="Skip geocoding locations"
+    )
+    scrape_parser.add_argument(
+        "--skip-descriptions", action="store_true", help="Skip generating descriptions"
+    )
+    scrape_parser.add_argument(
+        "--skip-images", action="store_true", help="Skip downloading images"
+    )
+    scrape_parser.add_argument(
+        "--no-cache", action="store_true", help="Skip cache and force fresh fetch"
+    )
     scrape_parser.add_argument(
         "--batch-size",
         type=int,
@@ -1842,34 +1833,56 @@ async def main():
     scrape_parser.set_defaults(func=cmd_scrape)
 
     # Fetch-page command
-    fetch_page_parser = subparsers.add_parser("fetch-page", help="Fetch a single page of events")
+    fetch_page_parser = subparsers.add_parser(
+        "fetch-page", help="Fetch a single page of events"
+    )
     fetch_page_parser.add_argument("page", type=int, help="Page number to fetch")
-    fetch_page_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
+    fetch_page_parser.add_argument(
+        "--no-cache", action="store_true", help="Skip cache and force fresh fetch"
+    )
     fetch_page_parser.set_defaults(func=cmd_fetch_page)
 
     # Fetch-event command
-    fetch_event_parser = subparsers.add_parser("fetch-event", help="Fetch detailed data for a single event")
+    fetch_event_parser = subparsers.add_parser(
+        "fetch-event", help="Fetch detailed data for a single event"
+    )
     fetch_event_parser.add_argument("event_id", type=int, help="Event ID to fetch")
-    fetch_event_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh fetch")
+    fetch_event_parser.add_argument(
+        "--no-cache", action="store_true", help="Skip cache and force fresh fetch"
+    )
     fetch_event_parser.set_defaults(func=cmd_fetch_event)
 
     # Geocode command
     geocode_parser = subparsers.add_parser("geocode", help="Geocode a location string")
     geocode_parser.add_argument("location", nargs="?", help="Location to geocode")
-    geocode_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh geocoding")
-    geocode_parser.add_argument("--clear-cache", action="store_true", help="Clear geocoding cache")
-    geocode_parser.add_argument("--debug", action="store_true", help="Include debug information in output")
-    geocode_parser.add_argument("--api-key", help="Google Maps API key (overrides environment)")
+    geocode_parser.add_argument(
+        "--no-cache", action="store_true", help="Skip cache and force fresh geocoding"
+    )
+    geocode_parser.add_argument(
+        "--clear-cache", action="store_true", help="Clear geocoding cache"
+    )
+    geocode_parser.add_argument(
+        "--debug", action="store_true", help="Include debug information in output"
+    )
+    geocode_parser.add_argument(
+        "--api-key", help="Google Maps API key (overrides environment)"
+    )
     geocode_parser.set_defaults(func=cmd_geocode)
 
     # Describe command
-    describe_parser = subparsers.add_parser("describe", help="Generate short description for text")
+    describe_parser = subparsers.add_parser(
+        "describe", help="Generate short description for text"
+    )
     describe_parser.add_argument("text", help="Text to summarize")
-    describe_parser.add_argument("--no-cache", action="store_true", help="Skip cache and force fresh generation")
+    describe_parser.add_argument(
+        "--no-cache", action="store_true", help="Skip cache and force fresh generation"
+    )
     describe_parser.set_defaults(func=cmd_describe)
 
     # Event command
-    event_parser = subparsers.add_parser("event", help="Fetch and display detailed information for a single event")
+    event_parser = subparsers.add_parser(
+        "event", help="Fetch and display detailed information for a single event"
+    )
     event_parser.add_argument("event_id", type=int, help="Event ID to fetch")
     event_parser.set_defaults(func=cmd_event)
 
@@ -1898,8 +1911,6 @@ async def main():
         help="List specific cache type",
     )
 
-    cache_parser.set_defaults(func=cmd_cache)
-
     # Parse arguments
     args = parser.parse_args()
 
@@ -1913,7 +1924,9 @@ async def main():
     # Get API key for geocoding
     google_key = os.environ.get(ENV_GOOGLE_MAPS_API_KEY)
     if not google_key:
-        logger.error("Missing Google Maps API key. Set GOOGLE_MAPS_API_KEY environment variable.")
+        logger.error(
+            "Missing Google Maps API key. Set GOOGLE_MAPS_API_KEY environment variable."
+        )
         return 1
 
     # Create client instances
@@ -1969,17 +1982,13 @@ async def main():
             )
             return await cmd_geocode(cmd_args, ctx)
         elif args.command == "describe":
-            cmd_args = DescribeArgs(text=args.text, no_cache=args.no_cache, model=args.model)
+            cmd_args = DescribeArgs(
+                text=args.text, no_cache=args.no_cache, model=args.model
+            )
             return await cmd_describe(cmd_args, ctx)
         elif args.command == "event":
             cmd_args = EventArgs(event_id=args.event_id, model=args.model)
             return await cmd_event(cmd_args, ctx)
-        elif args.command == "cache":
-            cmd_args = CacheArgs(
-                cache_command=args.cache_command,
-                type=args.type if hasattr(args, "type") else None,
-            )
-            return cmd_cache(cmd_args, ctx)
         else:
             logger.error(f"Unknown command: {args.command}")
             return 1
@@ -1996,3 +2005,4 @@ async def main():
 
 if __name__ == "__main__":
     sys.exit(asyncio.run(main()))
+
