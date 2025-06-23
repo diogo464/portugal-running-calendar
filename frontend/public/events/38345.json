@@ -1,0 +1,34 @@
+{
+  "id": 38345,
+  "name": "Trail Convívio 100 Gás Trail Team 2025",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/321e8cf742221e770431d5585eec5692"
+  ],
+  "start_date": "2024-11-24",
+  "end_date": "2024-11-24",
+  "circuit": [],
+  "description": "\n<p>A 7ª edição do &#8220;Convívio 100 Gás Trail Team&#8221; realiza-se no dia 24 de Novembro de 2024. Trata-se de um Convívio Solidário a favor dos BOMBEIROS VOLUNTÁRIOS DE ANSIÃO. A inscrição tem um valor de 9,00€ com oferta de T-Shirt. Haverá um percurso de trail +-18 km e caminhada +-10km.<br>Local de partida e chegada: Bombeiros Voluntário de Ansião</p>\n",
+  "description_short": "Trail solidário de apoio aos Bombeiros Voluntários de Ansião com percurso pela região",
+  "page": "https://www.queroir.pt/7-trail-convivio-100-gas-trail-team",
+  "slug": "trail-convivio-100-gas-trail-team-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

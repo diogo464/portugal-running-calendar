@@ -1,0 +1,32 @@
+{
+  "id": 37946,
+  "name": "São Silvestre Constância 2024",
+  "location": "Constância, Santarém",
+  "coordinates": {
+    "lat": 39.4780719,
+    "lon": -8.337225199999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/1c05586eeba7ea9e14c808d9fb819875"
+  ],
+  "start_date": "2024-12-14",
+  "end_date": "2024-12-15",
+  "circuit": [],
+  "description": "\n<p>A Brigada Mecanizada (BrigMec) e a Câmara Municipal de Constância (CMC) organizam, a 9ª Corrida São Silvestre Solidária Constância – BrigMec, em Atletismo, no dia 14 de dezembro de 2024, a partir das 08h30. Em simultâneo, realiza-se a 9ª Caminhada e Mini Caminhada Solidária Constância – BrigMec.</p>\n\n\n\n<p><br>As provas decorrem maioritariamente dentro das instalações do Campo Militar de Santa Margarida (CMSM), sendo que na prova principal é alargada até à povoação da Aldeia de Santa Margarida da Coutada.</p>\n\n\n\n<p><br>Esta prova tem como objetivo apoiar a Santa Casa da Misericórdia – Loja Social e a Associação para o desenvolvimento social e comunitário da Pereira – Quatro Cantos do Cisne.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária São Silvestre em Constância, a decorrer no Campo Militar de Santa Margarida com apoio à ação social local",
+  "page": "https://www.trilhoperdido.com/evento/9-Corrida-Sao-Silvestre-Solidaria-Constancia-BrigMec",
+  "slug": "sao-silvestre-constancia-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Constância",
+  "administrative_area_level_3": "Constância",
+  "district_code": 14
+}

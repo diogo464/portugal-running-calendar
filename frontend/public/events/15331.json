@@ -1,0 +1,30 @@
+{
+  "id": 15331,
+  "name": "Torres Vedras Night Run Urban Trail 2022",
+  "location": "Torres Vedras",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/972d67c8718e4a75f706c4e5b10dff87"
+  ],
+  "start_date": "2022-10-29",
+  "end_date": "2022-10-30",
+  "circuit": [],
+  "description": "\n<p><strong>A Câmara Municipal de Torres Vedras</strong>, em parceria com as associações <strong>Académico de Torres Vedras, Associação Cultural Recreativa Desportiva do Furadouro (Dolce Furadouro), Clube Académico de Penafirme (CAP Running), Clube Desportivo A-dos-Cunhados (GOAT – West Trail Team) e Turres Trail Clube,</strong> organiza o <strong>TORRES VEDRAS NIGHT RUN URBAN TRAIL</strong> no dia 29 de outubro de 2022.</p>\n\n\n\n<p>Com partidas e chegadas no Pavilhão Expotorres, os percursos decorrem em contexto noturno e maioritariamente urbano, com pequenos segmentos em trilhos seminaturais na cidade de Torres Vedras e em sistema open road. Incluirá passagens nos locais mais emblemáticos da cidade percorrendo ruas, travessas, escadas, interiores de edifícios e outros locais menos conhecidos da maioria da população.</p>\n\n\n\n<p>O Torres Vedras Night Run Urban Trail não é um evento de competição. Os participantes percorrem um percurso ao seu ritmo em toda a extensão, sendo-lhes no entanto cronometrado por meios eletrónicos (exceto caminhadas), o tempo que demoram a completar a totalidade desse percurso.</p>\n",
+  "description_short": "Trail nocturno urbano pelos locais emblemáticos de Torres Vedras",
+  "page": "https://www.recordepessoal.pt/evento/torresvedrasnightrunurbantrail2022",
+  "slug": "torres-vedras-night-run-urban-trail-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

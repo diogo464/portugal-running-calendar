@@ -1,0 +1,33 @@
+{
+  "id": 15439,
+  "name": "II Trail da Escarpiada 2022",
+  "location": "Zambujal, Condeixa-a-Nova",
+  "coordinates": {
+    "lat": 40.0575111,
+    "lon": -8.4476921
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/87ef015fb4c66a8052cd07add4ca26db"
+  ],
+  "start_date": "2022-11-26",
+  "end_date": "2022-11-27",
+  "circuit": [],
+  "description": "\n<p>O II Trail da Escarpiada terá partida e chegada junto à Associação da aldeia do Casmilo, concelho de Condeixa-a-Nova e percorrerá a Serra de Sicó nas freguesias do Zambujal e do Furadouro. Terá 2 provas competitivas, uma com aproximadamente 15Km (Trail Curto) e outra com 25Km (Trail Longo), e ainda uma caminhada de 10Km. A prova de 25Km é candidata ao Circuito de Trail Longo da Associação Distrital de Atletismo de Coimbra e poderá vir a fazer parte dele. As duas provas competitivas farão parte dum Circuito que juntará 4 provas, a divulgar oportunamente.</p>\n",
+  "description_short": "Trail desafiante pela Serra de Sicó com partida na aldeia do Casmilo em Condeixa-a-Nova",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/122/",
+  "slug": "trail-da-escarpiada-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "Zambujal",
+  "district_code": 6
+}

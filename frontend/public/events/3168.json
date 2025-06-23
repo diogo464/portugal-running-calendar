@@ -1,0 +1,29 @@
+{
+  "id": 3168,
+  "name": "Trail Caminhos do Diabo 2021",
+  "location": "Soure, Coimbra",
+  "coordinates": {
+    "lat": 40.0610524,
+    "lon": -8.6239203
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/1ea0dba695ef913f1238026fb8694ce8"
+  ],
+  "start_date": "2021-11-07",
+  "end_date": "2021-11-08",
+  "circuit": [],
+  "description": "\n<p><br>O Trail Caminhos do Diabo é uma prova em regime de auto-suficiência que percorre os trilhos da Freguesia de Samuel. A Prova este ano vai contar com um Trail e Mini Trail.</p>\n",
+  "description_short": "Trail desafiante pelos misteriosos trilhos da Freguesia de Samuel",
+  "page": "https://www.facebook.com/events/2882404368692255",
+  "slug": "trail-caminhos-do-diabo-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Soure",
+  "administrative_area_level_3": "Soure",
+  "district_code": 6
+}

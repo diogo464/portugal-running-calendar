@@ -1,0 +1,33 @@
+{
+  "id": 37201,
+  "name": "Corrida pela Diabetes 2024",
+  "location": "Caldas da Rainha, Leiria",
+  "coordinates": {
+    "lat": 39.4061871,
+    "lon": -9.1348206
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/e00d0a5c4975d8f56dc9cb43149e855e"
+  ],
+  "start_date": "2024-11-23",
+  "end_date": "2024-11-24",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Associação Cultural Desportiva e Recreativa Arneirense</strong>&nbsp;em conjunto com a&nbsp;<strong>Unidade Local de Saúde do Oeste</strong>, em coorganização com a Recorde Pessoal, com o apoio da&nbsp;<strong>Câmara Municipal de Caldas da Rainha</strong>, organiza no dia&nbsp;<strong>23 de novembro de 2024</strong>, pelas 18h, a&nbsp;<strong>1ª edição</strong>&nbsp;de uma prova de estrada denominada&nbsp;<strong>“Corrida pelas Diabetes”</strong>.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>O local de partida e meta será na Praça 25 de Abril (onde funcionará o secretariado).</li>\n\n\n\n<li>O evento é composto por Uma prova competitiva:</li>\n\n\n\n<li>Corrida Principal – A corrida tem uma distância de 10km e será um percurso de 2 voltas;</li>\n\n\n\n<li>Em paralelo e não competitivo haverá uma caminhada com cerca de 5km</li>\n</ul>\n\n\n",
+  "description_short": "Corrida solidária contra a diabetes pelas ruas das Caldas da Rainha",
+  "page": "https://www.recordepessoal.pt/evento/corridapeladiabetes2024",
+  "slug": "corrida-pela-diabetes-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Caldas da Rainha",
+  "administrative_area_level_3": "União das freguesias de Caldas da Rainha - Nossa Senhora do Pópulo, Coto e São Gregório",
+  "district_code": 10
+}

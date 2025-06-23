@@ -1,0 +1,34 @@
+{
+  "id": 13420,
+  "name": "Trilhos de Viana 2022",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    17000,
+    30000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f94d4e781a9a02ab34966bcbcc710935"
+  ],
+  "start_date": "2022-02-06",
+  "end_date": "2022-02-07",
+  "circuit": [],
+  "description": "\n<p>ORGANIZAÇÃO<br>Com o objetivo de promover a prática desportiva e o contacto com a natureza, a Associação<br>Trilhos de Viana e Leandro Freitas, na qualidade de diretor do evento, organiza o Trilhos de Viana 2022,  nas distâncias de 30, 17km Trail e 10km caminhada.<br></p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Viana com várias opções de percurso",
+  "page": "http://cyclonessports.com/index.php/227-iii-trilhos-de-viana",
+  "slug": "trilhos-de-viana-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

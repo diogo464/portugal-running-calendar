@@ -1,0 +1,30 @@
+{
+  "id": 37349,
+  "name": "Castanha Trail 2024",
+  "location": "Brufe, Terras de Bouro",
+  "coordinates": {
+    "lat": 41.7653867,
+    "lon": -8.2389147
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/f7045dc8727732e44c4bbeaccf30f057"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [],
+  "description": "\n<p>A Associação Bicicletas Temos Todos BRUFEBTT em colaboração com a Junta de Freguesia de Brufe realiza, no dia 17 de Novembro 2024 pelas 9:30 a 2ª edição DA CASTANHA TRAIL.</p>\n\n\n",
+  "description_short": "Trail solidário pela região de Brufe com sabor a castanha",
+  "page": "https://www.sinctime.com/evento/290",
+  "slug": "castanha-trail-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Terras de Bouro",
+  "administrative_area_level_3": "União das freguesias de Cibões e Brufe",
+  "district_code": 3
+}

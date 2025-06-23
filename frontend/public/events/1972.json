@@ -1,0 +1,32 @@
+{
+  "id": 1972,
+  "name": "Trail Terras do Cartaxo 2020",
+  "location": "Quinta das Pratas, Cartaxo",
+  "coordinates": {
+    "lat": 39.1695637,
+    "lon": -8.796564600000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    11000,
+    26000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/45c68d6a3938ae64252cf2552c4af7ca"
+  ],
+  "start_date": "2020-05-03",
+  "end_date": "2020-05-04",
+  "circuit": [],
+  "description": "<p>Com o apoio da Câmara Municipal do Cartaxo, da Adega do Cartaxo, do MyCamp e da Casa das Peles, a primeira edição do Trail Terras do Cartaxo, será percorrido pelos trilhos do Concelho do Cartaxo, num Trail Longo de 26km e num Trail Curto/Caminhada de 11km.</p>\n<p>Distâncias e Partidas:<br />\n26Km: 09:30<br />\n11Km: 09:30</p>\n",
+  "description_short": "Trail inaugural pelos trilhos pitorescos do Cartaxo com apoio municipal",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/86802-1o_trail_terras_do_cartaxo-cartaxo/",
+  "slug": "trail-terras-do-cartaxo-2020",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Cartaxo",
+  "administrative_area_level_3": "União das freguesias do Cartaxo e Vale da Pinta",
+  "district_code": 14
+}

@@ -1,0 +1,36 @@
+{
+  "id": 30454,
+  "name": "Trail Rota dos Peregrinos 2024",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    7000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/251435f9b11b5a835e4a20baa4a3deb8"
+  ],
+  "start_date": "2024-02-25",
+  "end_date": "2024-02-26",
+  "circuit": [],
+  "description": "\n<p>O “2º TRAIL ROTA DOS PEREGRINOS UCRA”, é uma organização da União Cultural e Recreativa de Aborim com a colaboração da BestMove e entidades locais.<br>Realiza-se no dia 25 de fevereiro de 2024, em Aborim, Barcelos e será constituído por cinco atividades:<br>● Trail Longo +/- 25km – 1000D+<br>● Trail Curto +/- 15km – 700D+<br>● Trail Rafakids &#8211; (Sem carater competitivo)<br>● Caminhada +/- 7km – 300D+ (Sem carater competitivo)</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Aborim com percursos para diferentes níveis de participantes",
+  "page": "https://www.sinctime.com/evento/199",
+  "slug": "trail-rota-dos-peregrinos-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

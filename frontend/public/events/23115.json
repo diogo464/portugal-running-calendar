@@ -1,0 +1,35 @@
+{
+  "id": 23115,
+  "name": "Corrida Cidade de Beja &#8211; 10km Fernando Mamede 2023",
+  "location": "Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    5000,
+    7500,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/86fab7a3726e0c892b9c454a7e84c693"
+  ],
+  "start_date": "2023-05-14",
+  "end_date": "2023-05-15",
+  "circuit": [],
+  "description": "\n<p>É um evento organizado pela Câmara Municipal de Beja em parceria com Base Área 11 e o Regimento de Infantaria 1, com a colaboração, supervisão técnica e de arbitragem da Associação de Atletismo de Beja.<br>Esta iniciativa tem também um cariz solidário, sendo que parte das receitas das inscrições reverterá<br>na presente edição a favor da Associação ESTAR.</p>\n\n\n\n<p><br>A Caminhada não competitiva inicia-se às 09h30m, com partida no Regimento de Infantaria nº1 e chegada ao Complexo Desportivo Fernando Mamede numa distância de 7,5Km. Esta atividade será guiada.<br></p>\n\n\n\n<p>A Corrida, prova competitiva, inicia-se às 09h30 com partida no Regimento de Infantaria nº1 e chegada ao Complexo Desportivo Fernando Mamede, numa distância de 10Km</p>\n\n\n",
+  "description_short": "Caminhada e corrida solidária em Beja com apoio militar e desportivo, revertendo verbas para associação local",
+  "page": "https://acorrer.pt/eventos/info/3187",
+  "slug": "corrida-cidade-de-beja-10km-fernando-mamede-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

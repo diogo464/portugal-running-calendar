@@ -1,0 +1,33 @@
+{
+  "id": 38905,
+  "name": "Alcanena Trail 2025",
+  "location": "Alcanena, Santarém",
+  "coordinates": {
+    "lat": 39.4595628,
+    "lon": -8.666868899999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/9bc0619b06810c56c24611d54edd45f2"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-24",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 8ª edição do Alcanena Trail é organizada pela Câmara Municipal de Alcanena em parceria com<br>a Casa do Povo de Alcanena, contando ainda com o apoio de diversas coletividades, Juntas e<br>Uniões de Freguesia do Concelho, e será composto por:</p>\n\n\n\n<p>EVENTOS DE TRAIL:</p>\n\n\n\n<p>Trail;</p>\n\n\n\n<p>Sprint;</p>\n\n\n\n<p>Mini Trilhos;</p>\n\n\n\n<p>Trail Jovem</p>\n\n\n\n<p>CAMINHADA:</p>\n\n\n\n<p>Caminhada – Caminhada pelos pontos mais emblemáticos do Polje de Minde/Mira;</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail tradicional pela região de Alcanena com várias provas para diferentes escalões e caminhada pelos pontos emblemáticos do Polje de Minde/Mira",
+  "page": "https://www.trilhoperdido.com/evento/8-Alcanena-Trail",
+  "slug": "alcanena-trail-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Alcanena",
+  "administrative_area_level_3": "União das freguesias de Alcanena e Vila Moreira",
+  "district_code": 14
+}

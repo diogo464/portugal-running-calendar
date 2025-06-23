@@ -1,0 +1,33 @@
+{
+  "id": 21201,
+  "name": "São Silvestre de Quarteira 2022",
+  "location": "Quarteira, Faro",
+  "coordinates": {
+    "lat": 37.0674543,
+    "lon": -8.0996497
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/d0dc4ceedb66a05a54d7734d108dcc04"
+  ],
+  "start_date": "2022-12-28",
+  "end_date": "2022-12-29",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre de Quarteira é uma prova pedestre de cariz lúdico, organizada pelos Quarteira Night Runner´s, Free Challenge e Junta de Freguesia de Quarteira.</p>\n\n\n\n<p>Data: Dia 28 de Dezembro de 2022<br>Hora:&nbsp;20,30h.<br>Local: Calçadão de Quarteira</p>\n\n\n",
+  "description_short": "Corrida noturna de São Silvestre animada no calçadão de Quarteira com espírito festivo e local",
+  "page": "https://www.crono.aaalgarve.org/eventos/sao-silvestre-de-quarteira",
+  "slug": "sao-silvestre-de-quarteira-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Quarteira",
+  "district_code": 8
+}

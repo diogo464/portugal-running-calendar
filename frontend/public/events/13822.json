@@ -1,0 +1,29 @@
+{
+  "id": 13822,
+  "name": "Douro Montemuro Ultra Trail 2022",
+  "location": "Cinfães",
+  "coordinates": {
+    "lat": 41.071713,
+    "lon": -8.0898477
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3b06c697b8817b05d8e9192d2ab27f7e"
+  ],
+  "start_date": "2022-06-12",
+  "end_date": "2022-06-13",
+  "circuit": [],
+  "description": "\n<p>O Douro Montemuro Ultra Trail 2022 (DMUT) é um evento desportivo de trail running da responsabilidade<br>organizativa da Associação Desportiva Cinfães a Correr (ADCC), associação sem fins lucrativos, com sede no<br>Município de Cinfães, que se realizará nos dias 11 e 12 de Junho de 2022.<br>O Rio Douro, o vale do Bestança, a Serra de Montemuro e o Parque do Ladário, serão os protagonistas principais<br>com que os participantes irão embarcar nesta magnífica aventura pela natureza no seu estado puro. Será um<br>redescobrir Cinfães e os seus encantos naturais.</p>\n",
+  "description_short": "Trail desafiante pela Serra de Montemuro com paisagens únicas do Rio Douro e vale do Bestança",
+  "page": "https://stopandgo.net/event/?id=675",
+  "slug": "douro-montemuro-ultra-trail-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Cinfães",
+  "administrative_area_level_3": "Cinfães",
+  "district_code": 18
+}

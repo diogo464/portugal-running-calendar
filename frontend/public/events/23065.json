@@ -1,0 +1,30 @@
+{
+  "id": 23065,
+  "name": "Beast OCR Fireman Bragança Team 2023",
+  "location": "Bragança",
+  "coordinates": {
+    "lat": 41.8061131,
+    "lon": -6.756737999999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/b096d36c328090664b201e92ec67fc95"
+  ],
+  "start_date": "2023-11-18",
+  "end_date": "2023-11-19",
+  "circuit": [],
+  "description": "\n<p>A OCR Fireman vai estar pela primeira vez em bragança em casa dos Caretos de Podence, vestindo as suas roupas de corrida calçando as suas sapatilhas, ao contrário dos caretos comas as suas vestimentas fantasias próprias. Os trajes destes diabos transmontanos são feitos de colchas vermelhas, decoradas com franjas de lã colorida, e máscaras angulares de folha de zinco, encarnadas, podendo ser ornamentadas com tinta. Por cima da cabeça, cobrem-se com um capuz de onde sai uma longa cauda. O OCR vai estar vestido de adrenalina ao longo de dois dias cheios de adrenalina.</p>\n",
+  "description_short": "Trail de obstáculos inspirado nos tradicionais Caretos de Podence, com corrida em trajes e ambiente único na região transmontana",
+  "page": "https://meutempo.pt/prova?ocrfiremanbraganca12k",
+  "slug": "beast-ocr-fireman-braganca-12k-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Bragança",
+  "administrative_area_level_3": "União das freguesias de Sé, Santa Maria e Meixedo",
+  "district_code": 4
+}

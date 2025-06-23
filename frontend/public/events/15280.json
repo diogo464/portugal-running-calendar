@@ -1,0 +1,37 @@
+{
+  "id": 15280,
+  "name": "Trail Mosteiro de Arnoso 2022",
+  "location": "Arnoso, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.46701240000001,
+    "lon": -8.5018254
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    450,
+    700,
+    800,
+    8000,
+    12000,
+    19000
+  ],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/5bb773eace1632dc2e056435a6dc1646"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p>O Trail Mosteiro de Arnoso, é uma organização da associação Quebraritmo e surge no âmbito de um grupo de atletas da associação divulgar os encantos e beleza natural dos trilhos e caminhos das freguesias de Arnoso Santa Eulália e Santa Maria, Nine, Jesufrei, Couto de Cambeses, Arentim, Ruilhe e Tebosa, as quais se situam nos limites dos concelhos de Vila Nova de Famalicão, Braga e Barcelos. O evento tem inicio junto do emblemático Mosteiro de Arnoso e termina na praia fluvial de Arnoso Santa Eulália, a qual se situa junto do Mosteiro e é composto pelo Kids Run, o qual é tem um percurso com cerca de 800 metros para as crianças poderem disfrutar dos benefícios deste desporto; a caminhada tem uma extensão de 8 Km, o Trail curto com uma distancia de 12 Km e um desnível positivo com cerca de 450 metros e o Trail longo com uma distancia de 19 Km e um desnível positivo com cerca de 700 metros. Todos estes trajetos dão-nos a oportunidade de conhecer os encantos naturais destas freguesias, como seja o mosteiro de Arnoso, a Praia Fluvial de Arnoso Santa Eulália, o Castro das Ermidas, o Buraco do Olheiro, a Fonte de Azevedo, o Rio Este, o Rio Guisande e os montes, bosques e campos envolventes.</p>\n",
+  "description_short": "Trail desafiante entre mosteiros e paisagens naturais de Vila Nova de Famalicão, Braga e Barcelos",
+  "page": "https://www.sinctime.com/evento/100",
+  "slug": "trail-mosteiro-de-arnoso-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Santa Maria",
+  "district_code": 3
+}

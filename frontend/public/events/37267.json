@@ -1,0 +1,38 @@
+{
+  "id": 37267,
+  "name": "Meia Maratona Almada 2024",
+  "location": "Almada, Setúbal",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    500,
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "half-marathon"
+  ],
+  "images": [
+    "media/aae953baf664046f417569898df72102"
+  ],
+  "start_date": "2024-11-10",
+  "end_date": "2024-11-10",
+  "circuit": [],
+  "description": "\n<p>A última edição foi organizada em 2017 e o evento retorna com um percurso desafiante de 21 km, convidando atletas de todos os níveis a participarem numa experiência desportiva única e memorável. Realizada pela Câmara Municipal de Almada,&nbsp;a&nbsp;<strong>Meia Maratona de Almada</strong>&nbsp;é um evento emblemático no calendário desportivo local, que reúne a comunidade atlética para celebrar a prática desportiva e promover um estilo de vida saudável.</p>\n\n\n\n<p>Com um percurso de 21 km, 10km, 5km e 500m, visa fortalecer o espírito comunitário através do desporto</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona de regresso em Almada com percurso desafiante e diferentes distâncias para toda a comunidade",
+  "page": "https://xistarca.pt/eventos/meia-maratona-de-almada",
+  "slug": "meia-maratona-almada-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

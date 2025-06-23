@@ -1,0 +1,35 @@
+{
+  "id": 3032,
+  "name": "Associação Montepio Corrida do Centenário FPA",
+  "location": "Jamor Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/3ed9bc713e47130f4d64dd62dc1f79dd"
+  ],
+  "start_date": "2021-09-12",
+  "end_date": "2021-09-13",
+  "circuit": [],
+  "description": "\n<p>A Federação Portuguesa de Atletismo (FPA), com o patrocínio principal da Associação Mutualista Montepio (AMM), organiza a Associação Montepio Corrida do Centenário FPA, a 12 de setembro, no Estádio Nacional, no Jamor.<br>Uma corrida de 10 km, uma caminhada solidária de 5 km e a Pelicas The Daily Mile prometem reunir toda a família em torno do gosto pela prática desportiva ao ar livre, mas o programa incluirá outras surpresas, a divulgar brevemente, que farão da corrida às inscrições o primeiro desafio deste evento. A corrida de 10 km será gratuita para atletas federados e terá um custo de 12 euros para não filiados. No entanto, a FPA oferece a filiação a quem se inscrever na corrida. A inscrição na caminhada terá um custo de 5 euros, valor a ser entregue, na totalidade, a uma instituição de solidariedade social. Já a Pelicas The Daily Mile será gratuita e aberta a toda a família.Todos os participantes têm direito a um kit de atleta composto por Gym bag, t-shirt, dorsal, chip (para a corrida de 10 km) e brindes dos parceiros.</p>\n\n\n\n<p>Inscrições e regulamento disponibilizados em breve</p>\n",
+  "description_short": "Corrida do Centenário da FPA no Jamor com provas para toda a família e vertente solidária",
+  "page": "https://fpatletismo.pt/",
+  "slug": "associacao-montepio-corrida-do-centenario-fpa",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

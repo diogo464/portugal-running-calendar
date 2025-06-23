@@ -1,0 +1,41 @@
+{
+  "id": 36419,
+  "name": "Trail dos Flamingos 2024",
+  "location": "Nadadouro, Caldas da Rainha",
+  "coordinates": {
+    "lat": 39.4191785,
+    "lon": -9.188948
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    1500,
+    5000,
+    10000,
+    12000,
+    23000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk",
+    "relay"
+  ],
+  "images": [
+    "media/0ed7a54136bb40258a0c9ea57a263e77"
+  ],
+  "start_date": "2024-09-08",
+  "end_date": "2024-09-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Centro de Apoio Social do Nadadouro em parceria com o Grupo de Praticantes, Não Fazemos Nem Mais Um..Km, vão realizar um evento denominado &#8220;TRAIL DOS FLAMINGOS”.<br>Este evento irá decorrer no concelho de Caldas da Rainha e irá desenvolver-se maioritariamente em trilhos, caminhos e estradas de terra da Freguesia de Nadadouro e Freguesia de Santa Maria, São Pedro e Sobral da Lagoa. Todas as provas [Caminhada &#8211; 10 km, CãoMinhada &#8211; 10 km, Kids – aproximadamente 1,5 km e Mini Trail de 12 km e Trail Sprint 23 km], partem da sede do Centro de Apoio Social do Nadadouro, junto ao Campo de Futebol</p>\n",
+  "description_short": "Trail solidário nas Caldas da Rainha com passagem por trilhos e caminhos rurais do Nadadouro",
+  "page": "https://www.trilhoperdido.com/evento/trail-dos-flamingos-2024",
+  "slug": "trail-dos-flamingos-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Caldas da Rainha",
+  "administrative_area_level_3": "Nadadouro",
+  "district_code": 10
+}

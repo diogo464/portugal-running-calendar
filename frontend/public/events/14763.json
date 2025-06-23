@@ -1,0 +1,32 @@
+{
+  "id": 14763,
+  "name": "Corrida Do Bombeiro 2022",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/6ee260cc6994baeb24849acf03afa8eb"
+  ],
+  "start_date": "2022-05-01",
+  "end_date": "2022-05-02",
+  "circuit": [],
+  "description": "\n<p>Entre os dias 30 de Abril e 7 de Maio, Lisboa é o palco&nbsp;do evento “<em>World Firefighters Games 2022</em>“!</p>\n\n\n\n<p>O World Firefighters Games é um evento internacional que reúne a participação de milhares de bombeiros de todo mundo a competir em + 40 desportos.</p>\n\n\n\n<p>A&nbsp;<em>Corrida do Bombeiro</em>&nbsp;insere-se no programa do evento,&nbsp;é aberta ao público em geral&nbsp;e está marcada para o&nbsp;dia 1 de Maio.</p>\n\n\n\n<p>Venha correr com bombeiros de + 30 países. Corrida Do Bombeiro 2022</p>\n",
+  "description_short": "Corrida solidária de bombeiros internacionais pelas ruas de Lisboa",
+  "page": "https://xistarca.pt/eventos/7999",
+  "slug": "corrida-do-bombeiro-2022-2",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

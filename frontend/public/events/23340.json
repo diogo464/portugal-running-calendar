@@ -1,0 +1,33 @@
+{
+  "id": 23340,
+  "name": "Grande Prémio de Atletismo Cerejeiras em Flor 2023",
+  "location": "Fundão, Castelo Branco",
+  "coordinates": {
+    "lat": 40.137963,
+    "lon": -7.501077299999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/0fbeac069537145086022fc77a9f7311"
+  ],
+  "start_date": "2023-04-02",
+  "end_date": "2023-04-03",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<a href=\"https://www.facebook.com/gcadonasoficial\" target=\"_blank\" rel=\"noreferrer noopener\">Grupo de Convívio e Amizade nas Donas</a>, em parceria com a Câmara Municipal do Fundão, organiza, no dia 02&nbsp;de abril, mais uma edição do&nbsp;<a href=\"https://www.gcadonas.pt/blog/destaques-1/post/grande-premio-de-atletismo-cerejeiras-em-flor-17\" target=\"_blank\" rel=\"noreferrer noopener\">Grande Prémio de Atletismo Cerejeiras em Flor e Passeio Pedestre</a>.</p>\n\n\n\n<p>A prova é&nbsp;dividida em diversos escalões masculinos e femininos, nomeadamente benjamins, infantis, iniciados, juvenis, juniores, seniores e veteranos.</p>\n\n\n\n<p>As inscrições limitadas, para a prova e para o passeio, podem&nbsp;ser feitas até dia 26 março,&nbsp;<a href=\"https://www.gcadonas.pt/blog/destaques-1/post/grande-premio-de-atletismo-cerejeiras-em-flor-17\" target=\"_blank\" rel=\"noreferrer noopener\">aqui</a>, onde pode, ainda, consultar o programa e regulamento das provas e passeio pedestre.</p>\n\n\n\n<p>O Instituto Português do Desporto e Juventude apoia&nbsp;o&nbsp;<a href=\"https://www.gcadonas.pt/blog/destaques-1/post/grande-premio-de-atletismo-cerejeiras-em-flor-17\" target=\"_blank\" rel=\"noreferrer noopener\">Grande Prémio de Atletismo Cerejeiras em Flor e Passeio Pedestre</a>, promovido por uma associação inscrita no registo nacional&nbsp;do associativismo jovem.</p>\n\n\n",
+  "description_short": "Corrida de atletismo e passeio pedestre durante a época de floração das cerejeiras no Fundão",
+  "page": "https://www.gcadonas.pt/blog/destaques-1/post/grande-premio-de-atletismo-cerejeiras-em-flor-17",
+  "slug": "grande-premio-de-atletismo-cerejeiras-em-flor-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Fundão",
+  "administrative_area_level_3": "União das freguesias de Fundão, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo",
+  "district_code": 5
+}

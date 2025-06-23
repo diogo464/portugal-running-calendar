@@ -1,0 +1,29 @@
+{
+  "id": 35453,
+  "name": "IPB4ALL Corrida da Liberdade 2024",
+  "location": "Bragança",
+  "coordinates": {
+    "lat": 41.8061131,
+    "lon": -6.756737999999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/8d63a72a456c8ce12d224ff235269313"
+  ],
+  "start_date": "2024-05-22",
+  "end_date": "2024-05-22",
+  "circuit": [],
+  "description": "\n<p>No âmbito das celebrações dos 50 anos do 25 de abril pelo Instituto Politécnico de Bragança, realizar-se-á   IPB4ALL Corrida da Liberdade. Este será um momento de convívio e celebração, proporcionando aos participantes uma oportunidade para promover a saúde e o bem-estar, enquanto recordam e celebram os valores de liberdade e democracia tão importantes para a comunidade académica.</p>\n\n\n",
+  "description_short": "Corrida comemorativa dos 50 anos do 25 de Abril pelo Instituto Politécnico de Bragança, celebrando a liberdade e a democracia",
+  "page": "https://inqueritos.ipb.pt/?r=survey/index/sid/933449/newtest/Y/lang/pt",
+  "slug": "pb4all-corrida-da-liberdade-2024",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Bragança",
+  "administrative_area_level_3": "União das freguesias de Sé, Santa Maria e Meixedo",
+  "district_code": 4
+}

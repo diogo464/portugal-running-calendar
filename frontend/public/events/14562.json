@@ -1,0 +1,29 @@
+{
+  "id": 14562,
+  "name": "Argon Trail 2022",
+  "location": "Argoncilhe, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 41.0180447,
+    "lon": -8.5466368
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/90c90c78dd26d8e07953a722e3071556"
+  ],
+  "start_date": "2022-06-19",
+  "end_date": "2022-06-20",
+  "circuit": [],
+  "description": "\n<p>A corrida Argon Trail é uma organização conjunta da Casa da Gaia – Centro de Cultura Desporto e Recreio de Argoncilhe e do Grupo de Corrida de Argoncilhe, com o apoio da Câmara Municipal de Santa Maria da Feira, IPDJ e Junta de Freguesia de Argoncilhe.</p>\n",
+  "description_short": "Trail desafiante em Argoncilhe com organização local e apoio municipal",
+  "page": "https://lap2go.com/pt/event/argon-trail-2022",
+  "slug": "argon-trail-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Argoncilhe",
+  "district_code": 1
+}

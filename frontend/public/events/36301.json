@@ -1,0 +1,27 @@
+{
+  "id": 36301,
+  "name": "A Encosta 2024",
+  "location": "Alcobaça, Leiria",
+  "coordinates": {
+    "lat": 39.5503343,
+    "lon": -8.9730531
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [],
+  "images": [
+    "media/bcce09344f33a2c59d4213d4a273feed"
+  ],
+  "start_date": "2024-09-14",
+  "end_date": "2024-09-15",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://stopandgo.net/events/a-encosta-2024",
+  "slug": "a-encosta-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Alcobaça",
+  "district_code": 10
+}

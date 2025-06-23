@@ -1,0 +1,29 @@
+{
+  "id": 14840,
+  "name": "1º Trail Manuelino &#8211; SicóTrilhos 2022",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ea9988cc8e1a65b33db33334fd81e513"
+  ],
+  "start_date": "2022-05-15",
+  "end_date": "2022-05-16",
+  "circuit": [],
+  "description": "\n<p>1º Trail Manuelino &#8211; SicóTrilhos 2022</p>\n",
+  "description_short": "Trail histórico inspirado na época manuelina pelos trilhos da região de Sicó",
+  "page": "https://www.queroir.pt/trailmanuelino2022",
+  "slug": "1o-trail-manuelino-sicotrilhos-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

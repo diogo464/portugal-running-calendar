@@ -1,0 +1,30 @@
+{
+  "id": 32132,
+  "name": "Trail da Gardunha 2024",
+  "location": "Louriçal do Campo, Castelo Branco",
+  "coordinates": {
+    "lat": 40.0446331,
+    "lon": -7.509562300000001
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2024-04-13",
+  "end_date": "2024-04-14",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": null,
+  "slug": "trail-da-gardunha-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Louriçal do Campo",
+  "district_code": 5
+}

@@ -1,0 +1,33 @@
+{
+  "id": 37775,
+  "name": "Corrida dos Reis &#8211; Benção do Atleta 2025",
+  "location": "Fátima, Santarém",
+  "coordinates": null,
+  "country": "Portugal",
+  "locality": "Fátima, Santarém",
+  "distances": [
+    3000,
+    10000,
+    10300
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/7bd72d2a66c3f5aa1c2a78a699f114a0"
+  ],
+  "start_date": "2025-01-05",
+  "end_date": "2025-01-06",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>FET &#8211; Fátima Escola de Triatlo</strong>, com o apoio da&nbsp;<strong>Câmara Municipal de Ourém</strong>&nbsp;e da&nbsp;<strong>Junta de Freguesia de Fátima</strong>, organiza, no dia&nbsp;<strong>05 de Janeiro de 2025</strong>, pelas&nbsp;<strong>9h00</strong>, a&nbsp;<strong>6ª edição da prova denominada “Corrida dos Reis &#8211; Benção do Atleta”</strong>.</p>\n\n\n\n<p>O local de partida e meta será na&nbsp;Avenida Dom José Alves Correia da Silva, perto do&nbsp;Posto de Turismo de Fátima.</p>\n\n\n\n<p>O evento é composto por duas provas competitivas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Corrida Principal</strong> – A corrida tem uma distância de 10,3km;</li>\n\n\n\n<li><strong>Corrida Jovem</strong> – Provas de distâncias variáveis consoante os escalões.</li>\n\n\n\n<li>Paralelamente, existirá uma <strong>Caminhada</strong> de 10km, sem carácter competitivo.</li>\n</ul>\n\n\n",
+  "description_short": "Corrida dos Reis em Fátima com bênção de atletas e partida junto ao Posto de Turismo",
+  "page": "https://www.recordepessoal.pt/evento/6corridadosreis-bencaodoatleta",
+  "slug": "corrida-dos-reis-bencao-do-atleta-2025",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

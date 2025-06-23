@@ -1,0 +1,34 @@
+{
+  "id": 23911,
+  "name": "5.º Trail nos Trilhos do Dão 2023",
+  "location": "S. João de Lourosa, Viseu",
+  "coordinates": {
+    "lat": 40.6134218,
+    "lon": -7.9055623
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    13000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/5124f8aada69c91546a6c242b60dd2e6"
+  ],
+  "start_date": "2023-06-11",
+  "end_date": "2023-06-12",
+  "circuit": [],
+  "description": "\n<p>Promover a atividade física e o turismo na nossa freguesia é um dos nossos objetivos, dando a conhecer todo o património histórico, cultural e ambiental da nossa região. O evento será composto por dois percursos:<br>Trail – 13 quilómetros;<br>Caminhada – 8 quilómetros.</p>\n\n\n",
+  "description_short": "Trail e caminhada pela descoberta do heritage local com promoção da atividade física e turismo da região",
+  "page": "https://acorrer.pt/eventos/info/3234",
+  "slug": "5-o-trail-nos-trilhos-do-dao-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "São João de Lourosa",
+  "district_code": 18
+}

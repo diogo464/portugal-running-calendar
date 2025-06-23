@@ -1,0 +1,29 @@
+{
+  "id": 14574,
+  "name": "Queiriga Trail 2022",
+  "location": "Queiriga Queiriga, Viseu",
+  "coordinates": {
+    "lat": 40.8043546,
+    "lon": -7.746682799999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a359b8172891c624b8434951267758c9"
+  ],
+  "start_date": "2022-03-27",
+  "end_date": "2022-03-28",
+  "circuit": [],
+  "description": "\n<p>Queiriga Trail 2022</p>\n",
+  "description_short": "Trail desafiante pela paisagem rural da região de Viseu",
+  "page": "https://acorrer.pt/eventos/info/2892",
+  "slug": "queiriga-trail-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vila Nova de Paiva",
+  "administrative_area_level_3": "Queiriga",
+  "district_code": 18
+}

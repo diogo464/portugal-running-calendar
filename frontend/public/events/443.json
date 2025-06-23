@@ -1,0 +1,29 @@
+{
+  "id": 443,
+  "name": "Douro River Trail",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6b0bd597938797a8182b1540a1d3c237"
+  ],
+  "start_date": "2020-02-09",
+  "end_date": "2020-02-10",
+  "circuit": [],
+  "description": "<p>Depois do sucesso da primeira edição do DOURO River Trail, que esgotou com 1000 participantes, vamos para a segunda edição do evento que vai percorrer percursos de beleza ímpar que convidam à contemplação, ao desafio, à aventura e à plena comunhão com a natureza, em que um dos planos de fundo é o rio Douro e o outro é a serra de Montedeiras.</p>\n<p>A entidade promotora é a Junta de Freguesia de Sande &#8211; São Lourenço do Douro, no Marco de Canaveses, que quer promover a prática da atividade física e turismo ativo, dando a conhecer o património histórico, cultural e ambiental da nossa região.</p>\n<p>Reserva já o teu lugar!</p>\n",
+  "description_short": "Trail desafiante pelo Douro com paisagens únicas entre o rio e a serra de Montedeiras",
+  "page": "https://www.prozis.com/pt/pt/evento/douro-river-trail2020",
+  "slug": "douro-river-trail",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}

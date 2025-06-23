@@ -1,0 +1,29 @@
+{
+  "id": 33288,
+  "name": "Grande Prémio de Atletismo da Páscoa 2024",
+  "location": "Vila Nova do Campo, Santo Tirso",
+  "coordinates": {
+    "lat": 41.3524242,
+    "lon": -8.358134399999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/dfcaa1b3216a0e668eb913b874ae7149"
+  ],
+  "start_date": "2024-03-30",
+  "end_date": "2024-03-31",
+  "circuit": [],
+  "description": "\n<p>Será em Vila Nova do Campo (Santo Tirso) que decorrerá a 24ª edição do Grande Prémio de Atletismo, entre amêndoas e os festejos religiosos da Páscoa, sendo já uma referência na região do Porto. Seja jovem ou de mais idade, venha correr e viver a Páscoa com as suas pernas.</p>\n",
+  "description_short": "Corrida tradicional de Páscoa em Vila Nova do Campo com ambiente festivo e regional",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-da-pascoa-2024",
+  "slug": "grande-premio-da-pascoa-em-atletismo-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Vila Nova do Campo",
+  "district_code": 13
+}

@@ -1,0 +1,33 @@
+{
+  "id": 42133,
+  "name": "Pinhal Novo Night Run 2025",
+  "location": "Pinhal Novo, Palmela",
+  "coordinates": {
+    "lat": 38.631495,
+    "lon": -8.9143738
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/1f379d887a17ff27e761266c25adfcc5"
+  ],
+  "start_date": "2025-06-21",
+  "end_date": "2025-06-22",
+  "circuit": [],
+  "description": "\n<p>O <strong>Pinhal Novo Night Run 2025</strong> – competição de Corrida a pé em estrada e Caminhada Desportiva (sem classificação) – é um evento desportivo organizado conjuntamente pela Câmara Municipal de Palmela, Palmela Desporto, E.M., Junta da Freguesia de Pinhal Novo e Associação Académica Pinhalnovense, contando com o apoio técnico-desportivo da Xistarca.</p>\n\n\n\n<p>.&nbsp;&nbsp;</p>\n\n\n",
+  "description_short": "Corrida noturna em Pinhal Novo com organização municipal e associativa",
+  "page": "https://xistarca.pt/eventos/pinhal-novo-night-run-2025",
+  "slug": "pinhal-novo-night-run-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Palmela",
+  "administrative_area_level_3": "Pinhal Novo",
+  "district_code": 15
+}

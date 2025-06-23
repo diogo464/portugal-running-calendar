@@ -1,0 +1,35 @@
+{
+  "id": 38911,
+  "name": "Torres Vedras Night Run Urban Trail 2025",
+  "location": "Torres Vedras",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    8000,
+    11000,
+    18000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/3249b1eda9140e01d979805245e4b14f"
+  ],
+  "start_date": "2025-10-25",
+  "end_date": "2025-10-26",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Torres Vedras e a Promotorres E.M, em parceria com as associações Académico de Torres Vedras, Clube de Praticantes de Trail Dolce Furadouro, Clube Académico de Penafirme (CAP Running), Grupo Desportivo Sobreirense (GOAT – West Trail Team) e Turres Trail Clube, organiza o 5º TORRES VEDRAS NIGHT RUN URBAN TRAIL no dia 25 de outubro de 2025, inserido na programação das&nbsp;<strong>Festas de Torres Vedras</strong>.</p>\n\n\n\n<p>No ato da inscrição o participante escolhe uma das seguintes opções:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Prova 18km trail – 3 segmentos cronometrados independentes</li>\n\n\n\n<li>Prova 11km trail – 2 segmentos cronometrados independentes</li>\n\n\n\n<li>Caminhada aventura 11km</li>\n\n\n\n<li>Caminhada guiada urbana – 8km</li>\n</ul>\n\n\n\n<p>As partidas e chegadas de todos os segmentos são na Escola Secundária Henriques Nogueira.</p>\n",
+  "description_short": "Trail nocturno urbano pelas ruas históricas de Torres Vedras durante as Festas da cidade",
+  "page": "https://www.recordepessoal.pt/evento/5torresvedrasnightrunurbantrail",
+  "slug": "torres-vedras-night-run-urban-trail-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

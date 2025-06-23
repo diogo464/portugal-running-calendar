@@ -1,0 +1,29 @@
+{
+  "id": 714,
+  "name": "Trail da Boa Ventura 2020",
+  "location": "Boa Ventura Ventura, Madeira",
+  "coordinates": {
+    "lat": 32.8177488,
+    "lon": -16.972755
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b6a59cc0f3116c88317a819cc205bd97"
+  ],
+  "start_date": "2020-01-12",
+  "end_date": "2020-01-13",
+  "circuit": [],
+  "description": "<p>A 5ª edição do Trail da Boa Ventura decorrerá no dia 12 de janeiro. Esta próxima edição manterá o formato da edição anterior, com a retirada de mais algum asfalto após o último abastecimento. Ambas as provas, certificadas com nível 4 pela ATRP, são pontuáveis para o Circuito Trail Madeira 2019-20, sendo que a prova principal – Trail Naturnorte – passa a integrar o Circuito Nacional de Trail (série 150) e a ATRP PRO – Portugal Trail League, da ATRP, entidade reguladora da modalidade a nível nacional. Neste paraíso plantado à beira mar, orgulhamo-nos imenso da nossa freguesia onde o património humano coabita com as riquezas das paisagens naturais e onde o mar e a montanha dão as mãos numa perfeita simbiose de cores e cheiros e as emoções despontam perante tão extasiantes cenários… No Trail da Boa Ventura, prometemos-te isto e muito mais… Uma viagem a um passado bem recente onde o arvoredo, a floresta Laurissilva, as levadas, as atividades agrícolas e artesanais, os ribeiros e ribeiras, as cascatas, o declive das encostas, o trabalho braçal, os antigos caminhos reais, os solares e muito mais, sempre fizeram (e ainda fazem) parte do quotidiano destas gentes e constituem um marco de referência que importa ver, ouvir, cheirar, sentir e valorizar… A Junta de Freguesia e a Casa do Povo de Boa Ventura receberão de braços abertos todos os atletas e acompanhantes, mostrando o que de melhor existe nesta freguesia nortenha! Bem-vindos!</p>\n",
+  "description_short": "Trail desafiante pela Laurissilva da Madeira com paisagens únicas entre mar e montanha",
+  "page": "https://trailboaventura.com/",
+  "slug": "trail-da-boa-ventura-2020",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": "Boaventura",
+  "district_code": 30
+}

@@ -1,0 +1,35 @@
+{
+  "id": 33943,
+  "name": "Trail do Moleiro 2024",
+  "location": "Castro Marim, Faro",
+  "coordinates": {
+    "lat": 37.2179422,
+    "lon": -7.4423339
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000,
+    18000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/77fe72460d71da4535c33f60539c4aa1"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-20",
+  "circuit": [],
+  "description": "\n<p>O evento desportivo, III Trail do Moleiro promovido e organizado pela Equipa Campesino Trail e o Clube Campesino R.F.C., com o apoio da Câmara Municipal de Castro Marim e a Junta de Freguesia de Castro Marim.</p>\n\n\n\n<p>Sprint 18 Km </p>\n\n\n\n<p>Trail 30 Km </p>\n\n\n\n<p>Caminhada 10 km</p>\n",
+  "description_short": "Trail desafiante pela região de Castro Marim com diferentes percursos e apoio municipal",
+  "page": "https://acorrer.pt/eventos/info/3409",
+  "slug": "trail-do-moleiro-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Castro Marim",
+  "administrative_area_level_3": "Castro Marim",
+  "district_code": 8
+}

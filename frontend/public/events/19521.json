@@ -1,0 +1,30 @@
+{
+  "id": 19521,
+  "name": "São Silvestre de Esmoriz Cortegaça",
+  "location": "Esmoriz, Aveiro",
+  "coordinates": {
+    "lat": 40.9580147,
+    "lon": -8.626692199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/862dc43e36ac48a68ed0f6464a21bcc5"
+  ],
+  "start_date": "2022-12-11",
+  "end_date": "2022-12-12",
+  "circuit": [],
+  "description": "\n<p>&nbsp;A Academia de Boxe Vitor Sá , organiza no dia 11&nbsp;de Dezembro de 2022&nbsp;a 1ª São Silvestre de Esmoriz/Cortegaça.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Primeira São Silvestre a realizar-se em Esmoriz e Cortegaça pela Academia de Boxe Vitor Sá",
+  "page": "https://racingtime.pt/SSilvestreEsmoriz?p=stephalf",
+  "slug": "sao-silvestre-de-esmoriz-cortegaca",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ovar",
+  "administrative_area_level_3": "Esmoriz",
+  "district_code": 1
+}

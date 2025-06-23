@@ -1,0 +1,34 @@
+{
+  "id": 33750,
+  "name": "Trail RFM Monsanto 2024",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    6000,
+    10000,
+    17000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/fb88ab2853a4f315dc1c47ece87ed87e"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>A RFM em parceria com Ganhardestak, organizam no próximo dia 24 de Março de 2024, a 2ª edição do Trail RFM Monsanto percorrido por caminhos e trilhos dentro do Parque Florestal do Monsanto. O mesmo é composto por um Trail Longo de 17K+, um Trail Curto/Caminhada de 10K+ e uma Cãominhada de 6Km, com partida e chegada na sede do Grupo Renascença na Quinta do Bom Pastor em Lisboa.</p>\n\n\n",
+  "description_short": "Trail solidário pela mata de Monsanto com diferentes percursos e inclusão canina",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/135380-2o_trail_rfm_monsanto-quinta_do_bom_pastor/",
+  "slug": "trail-rfm-monsanto-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

@@ -1,0 +1,30 @@
+{
+  "id": 42126,
+  "name": "Lynxrace Oeiras 2025",
+  "location": "Oeiras, Lisboa",
+  "coordinates": {
+    "lat": 38.69686069999999,
+    "lon": -9.314601399999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/ad26247dc545e69eb2a70ae74720a311"
+  ],
+  "start_date": "2025-11-09",
+  "end_date": "2025-11-10",
+  "circuit": [],
+  "description": "\n<p>A LYNXRACE é uma Corrida de Obstáculos. A LYNX OEIRAS de 09 de Novembro de 2025 é uma etapa da LIGA OCR PORTUGAL mas também uma prova para quem procura um evento desportivo para pura DIVERSÃO.</p>\n\n\n\n<p><br>A LYNX OEIRAS tem duas distâncias e está por isso dividida em duas partes:<br>A PRIMEIRA PARTE do percurso tem os obstáculos mais divertidos e fáceis de executar.<br>Ideal para quem procura DIVERSÃO. Excelente para adultos e crianças.<br>A SEGUNDA PARTE (o resto da distância) é para atletas que procuram um pouco mais de emoção e exigência. Continua a diversão mas o nível sobe.</p>\n\n\n\n<p><br>Em termos competitivos, há duas provas a decorrer:<br>a) Competição da LIGA ORC PORTUGAL<br>b) Competição LYNX OEIRAS</p>\n\n\n",
+  "description_short": "Corrida de obstáculos em Oeiras com níveis de dificuldade para todos os públicos, desde famílias até atletas mais experientes",
+  "page": "https://stopandgo.net/events/lynxrace-oeiras-2025",
+  "slug": "lynxrace-oeiras-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+  "district_code": 11
+}

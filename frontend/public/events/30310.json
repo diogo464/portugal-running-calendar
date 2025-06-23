@@ -1,0 +1,36 @@
+{
+  "id": 30310,
+  "name": "Corrida Solidária Adeptos e Simpatizantes 2024",
+  "location": "Oriente, Lisboa",
+  "coordinates": {
+    "lat": 38.7686316,
+    "lon": -9.095858
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    5500,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/5e67c05d45597c2945dfecee63fcb1e0"
+  ],
+  "start_date": "2024-01-21",
+  "end_date": "2024-01-22",
+  "circuit": [],
+  "description": "\n<p>Reserva já o dia 21 de Janeiro e participa na 8ª edição da Corrida Solidária dos Adeptos e Simpatizantes – Memorial Arons de Carvalho!</p>\n\n\n\n<p>Com partida e chegada no<strong>&nbsp;Parque Ribeirinho do Oriente,&nbsp;</strong>o percurso desenrolar-se-á pela magnífica<strong>&nbsp;Av.&nbsp;Infante D. Henrique,&nbsp;</strong>na zona oriental de Lisboa.</p>\n\n\n\n<p>Solidária como sempre, no dia do evento, haverá um espaço próprio para a <strong>doação de bens alimentares com período de validade alargado</strong> <strong>ou vestuário</strong>, que serão <strong>entregues à Associação O Companheiro</strong>. Um pequeno gesto que valerá muito para tanta gente!</p>\n\n\n\n<p>Parque Ribeirinho do Oriente | Lisboa</p>\n\n\n\n<p>Kids Race&nbsp;(até aos 14 anos) |&nbsp;<strong>09h30</strong><br>Corrida 10km |&nbsp;<strong>10h00</strong><br>Mini-Corrida e Caminhada 5.5km |<strong>&nbsp;10h05</strong></p>\n",
+  "description_short": "Corrida solidária em Lisboa com recolha de alimentos e vestuário no Parque Ribeirinho do Oriente",
+  "page": "https://xistarca.pt/eventos/8a-corrida-adeptos-simpatizantes-2024",
+  "slug": "corrida-solidaria-adeptos-e-simpatizantes-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Parque das Nações",
+  "district_code": 11
+}

@@ -1,0 +1,36 @@
+{
+  "id": 34937,
+  "name": "Crosstrail Praia da Tocha 2024",
+  "location": "Tocha, Coimbra",
+  "coordinates": {
+    "lat": 40.322234,
+    "lon": -8.770147
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    19000
+  ],
+  "types": [
+    "kids",
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/6cc848f4283602fd4ed295148916cf8d"
+  ],
+  "start_date": "2024-06-15",
+  "end_date": "2024-06-16",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O 5º Crosstrail Praia da Tocha &#8211; Trilho da Arte-Xávega é um evento desportivo, realizado nos dias 15 e 16 de junho de 2024. Do evento fará parte o Crosstrail KIDS, no dia 15 de junho de 2024; o Crosstrail (19 km), o Mini Crosstrail (12 km) e uma Caminhada, no dia 16 de junho de 2024.</p>\n",
+  "description_short": "Trail desportivo na Praia da Tocha com percursos para diferentes idades e níveis",
+  "page": "https://stopandgo.net/events/crosstrail-praia-da-tocha-2024",
+  "slug": "crosstrail-praia-da-tocha-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "Tocha",
+  "district_code": 6
+}

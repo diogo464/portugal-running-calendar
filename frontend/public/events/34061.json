@@ -1,0 +1,37 @@
+{
+  "id": 34061,
+  "name": "Night Running Cidade Santiago do Cacém 2024",
+  "location": "Santiago do Cacém, Setúbal Setubal",
+  "coordinates": {
+    "lat": 38.0162314,
+    "lon": -8.6956768
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    7000,
+    10000,
+    12000,
+    15000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/30930091ae1bf99a67145d39280355df"
+  ],
+  "start_date": "2024-03-09",
+  "end_date": "2024-03-10",
+  "circuit": [],
+  "description": "\n<p>Com organização do Juventude Atlético Clube J.A.C., União de Freguesias de Santiago do Cacém, Santa Cruz e S. Bartolomeu da Serra e Câmara Municipal de Santiago do Cacém, realiza-se a 9 de março de 2024, pelas 18:30h, com partida e chegada no Pavilhão do J.A.C. na Cidade de Santiago do Cacém, uma prova desportiva denominada “5º NIGHT RUNNING CIDADE SANTIAGO DO CACÉM”.</p>\n\n\n\n<p>Esta acção consiste numa prova noturna de uma Corrida 12 Km e uma Caminhada 7 Km nas quais o traçado terá: a partida no exterior do Pavilhão do J.A.C e a meta no seu interior, com vários tipos de terreno como Terra Batida, Estradão, Empedrados, etc.</p>\n\n\n\n<p>A Corrida terá 12Km e é aberta a todo o público em geral, com idade igual ou superior a 18 anos, não havendo limite de idade para a Caminhada que será de 7Km.</p>\n\n\n",
+  "description_short": "Trail nocturno por caminhos diversos na cidade de Santiago do Cacém",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/133524-5o_night_running_cidade_santiago_do_cacem-pav_juv_atletico_clube/",
+  "slug": "night-running-cidade-santiago-do-cacem-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santiago do Cacém",
+  "district_code": 15
+}

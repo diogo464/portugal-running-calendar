@@ -1,0 +1,29 @@
+{
+  "id": 13223,
+  "name": "Pinga Trail 2021",
+  "location": "Arruda dos Vinhos, Lisboa",
+  "coordinates": {
+    "lat": 38.9829298,
+    "lon": -9.0776401
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5659e04a1a299555f19936562d3a4a0b"
+  ],
+  "start_date": "2021-12-19",
+  "end_date": "2021-12-20",
+  "circuit": [],
+  "description": "\n<p>A Associação K4ninos Runners com o apoio da Câmara Municipal de Arruda dos Vinhos, vai realizar  no dia 19 de Dezembro a 4ª Edição do Pinga Trail 2021.</p>\n",
+  "description_short": "Trail solidário pela região vinícola de Arruda dos Vinhos organizado pela associação local K4ninos Runners",
+  "page": "https://www.trilhoperdido.com/evento/Pinga-Trail-2021",
+  "slug": "pinga-trail-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Arruda dos Vinhos",
+  "administrative_area_level_3": "Arruda dos Vinhos",
+  "district_code": 11
+}

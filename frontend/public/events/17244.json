@@ -1,0 +1,33 @@
+{
+  "id": 17244,
+  "name": "Santa Luzia Night Trail 2022",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    16000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2dac3c131e5cee7322ce96ac53b19e88"
+  ],
+  "start_date": "2022-08-27",
+  "end_date": "2022-08-28",
+  "circuit": [],
+  "description": "\n<p>Prova designada por “Santa Luzia Night Trail”. Nesta primeira edição, com duas distâncias disponíveis:<br>→ Trail Curto &#8211; 16km com cerca de 700D+<br>→ Mini Trail / Caminhada – 10km com cerca de 450D+</p>\n",
+  "description_short": "Trail nocturno de estreia em Santa Luzia com dois percursos de montanha",
+  "page": "https://stopandgo.net/event/?id=800",
+  "slug": "santa-luzia-night-trail-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

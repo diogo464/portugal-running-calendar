@@ -1,0 +1,30 @@
+{
+  "id": 40169,
+  "name": "Grande Prémio Pinhal / Sertã 2025",
+  "location": "Sertã, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/e01e7e16f8b14c268a2c4e2b54cf0129"
+  ],
+  "start_date": "2025-03-29",
+  "end_date": "2025-03-30",
+  "circuit": [],
+  "description": "\n<p><strong>O Grupo Desp de S.º Domingos&nbsp;</strong>e&nbsp;<strong>Câmara Municipal da Sertã&nbsp;</strong>em colaboração com a Junta de freguesia, Assoc. Atletismo Castelo Branco, Bombeiros Voluntários, Guarda Nacional Republicana Órgãos de Comunicação, Comércio Local e outras empresas ou entidades, Colaboram na realização do evento<strong>.</strong></p>\n\n\n\n<p>Todas as provas terão partida e chegada com a meta localizada na Alameda da Carvalha, junto ao Palácio da Justiça da Sertã, sendo que as mesmas se disputam no dia&nbsp;<strong>29/03/2025&nbsp;(sábado)&nbsp;</strong></p>\n\n\n",
+  "description_short": "Corrida organizada pelo Grupo Desportivo de Santo Domingos e Câmara Municipal da Sertã com partida e chegada junto ao Palácio da Justiça",
+  "page": "https://werun.pt/eventos/20-grande-premio-do-pinhal-serta/",
+  "slug": "grande-premio-pinhal-serta-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

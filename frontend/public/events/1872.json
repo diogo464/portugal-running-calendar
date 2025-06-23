@@ -1,0 +1,32 @@
+{
+  "id": 1872,
+  "name": "VII Trail Serra Dos Candeeiros 2020",
+  "location": "Pedreiras, Leiria",
+  "coordinates": {
+    "lat": 39.5901561,
+    "lon": -8.861821599999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    13000,
+    23000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cfeacc315a454fc368cdc6897f1ff149"
+  ],
+  "start_date": "2020-04-10",
+  "end_date": "2020-04-11",
+  "circuit": [],
+  "description": "<p align=\"justify\">A prova denominada VII Trail Serra dos Candeeiros, organizada pela Casa do Povo de Pedreiras é constituída no seu percurso por trilhos, estradões, carreiros e caminhos em zona de pinhal, zonas calcárias na Serra dos Candeeiros.</p>\n<p align=\"justify\">A partida e chegada da prova e da caminhada será no mesmo local, junto ao Parque de Campismo de Pedreiras (Pedreiras-Porto de Mós).</p>\n<p align=\"justify\">Os percursos estarão devidamente sinalizados, com fita sinalizadora e placas para que ninguém se perca nem tenha dúvidas quanto ao percurso a seguir.</p>\n<p align=\"justify\">Ao longo do percurso poderão ser atravessadas algumas estradas de alcatrão, embora mais de 95% do percurso seja feito fora de alcatrão e fora de zonas de circulação de viaturas. Nas zonas onde serão cruzadas estradas com maior circulação rodoviária existirão voluntários da organização, devidamente identificados, a ajudar na sua transposição, tendo em conta que o transito tem sempre prioridade.</p>\n<p align=\"justify\">Meia-Maratona Trail Serra dos Candeeiros 23 km, pela classificação ATRP este Trail Longo tem a escala grau 3 com +650 de desnível positivo.</p>\n<p>&#8211; Trail Longo 23 Km &#8211; 350 atletas</p>\n<p align=\"justify\">Trail curto de 13 km, pela classificação ATRP este Trail curto tem a escala de grau 3 com +650 de desnível positivo.</p>\n<p>&#8211; Trail Curto 13 Km &#8211; 350 atletas</p>\n<p align=\"justify\">Caminhada com cerca de 13km com classificação de moderado-difícil.</p>\n<p>&#8211; Caminhada 13 Km ( não competitiva ) – 300 Caminhantes</p>\n",
+  "description_short": "Trail desafiante pela Serra dos Candeeiros, com percursos técnicos por zonas calcárias e pinhal, partindo do Parque de Campismo de Pedreiras",
+  "page": "https://www.prozis.com/pt/pt/evento/vii-trail-serra-dos-candeeiros",
+  "slug": "vii-trail-serra-dos-candeeiros-2020",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Pedreiras",
+  "district_code": 10
+}

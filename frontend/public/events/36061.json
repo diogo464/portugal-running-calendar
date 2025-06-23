@@ -1,0 +1,35 @@
+{
+  "id": 36061,
+  "name": "Corrida Solidária FACIT NOVA 2024",
+  "location": "Monte Caparica, Almada",
+  "coordinates": {
+    "lat": 38.665845,
+    "lon": -9.194594600000002
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/1bf78d12ac8887a08c360c2b9eb50f18"
+  ],
+  "start_date": "2024-10-06",
+  "end_date": "2024-10-06",
+  "circuit": [],
+  "description": "\n<p>No dia 5 de outubro de 2024 terá lugar a 6ª edição da Corrida Solidária FACIT NOVA a realizar no campus da NOVA School of Science and Technology (NOVA FCT), Campus da Caparica, no Monte de Caparica, concelho de Almada, constituída pelas seguintes provas: 10 000 m, 5 000 m, provas jovens (ver Informações Gerais), e uma Caminhada de 5 000 m.</p>\n\n\n\n<p>Esta iniciativa é organizada pelos Serviços de Ação Social da Universidade Nova de Lisboa (SASNOVA).&nbsp;<strong>O valor angariado através dos donativos dos participantes reverte totalmente para os alunos apoiados pela FACIT</strong>, uma associação informal da NOVA FCT que apoia alunos com dificuldades económicas.</p>\n\n\n",
+  "description_short": "Corrida solidária no campus da NOVA FCT em Caparica com apoio a estudantes carenciados",
+  "page": "https://xistarca.pt/eventos/6a-edicao-da-corrida-solidaria-facit-nova",
+  "slug": "corrida-solidaria-facit-nova-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "União das freguesias de Caparica e Trafaria",
+  "district_code": 15
+}

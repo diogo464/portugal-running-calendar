@@ -1,0 +1,34 @@
+{
+  "id": 29639,
+  "name": "Vulcan Trail 2024",
+  "location": "Igreja Nova, Mafra",
+  "coordinates": {
+    "lat": 38.9176339,
+    "lon": -9.3178134
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    12000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c6d8ae28faa444b0f618ca1234aee919"
+  ],
+  "start_date": "2024-01-07",
+  "end_date": "2024-01-08",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo de Igreja Nova irá organizar, a 7 de Janeiro de 2024, pelas 09h00, a<br>primeira edição do Vulcan Trail 2024 em Igreja Nova, concelho de Mafra. O Vulcan Trail 2024<br>é uma prova de TrailRunning, corrida pedestre em natureza, com três provas, Trail Longo (TL)<br>K20+, Trail Curto (TC) K10+ e Caminhada.</p>\n\n\n\n<p><br>Com partida e chegada na localidade de Igreja Nova, concelho de Mafra, distrito de Lisboa, visa<br>a promoção e divulgação turística e ambiental da região, e da promoção do desporto em meio<br>natural.</p>\n\n\n\n<p><strong>Distâncias:</strong><br>Trail Longo – 24 kms<br>Trail Curto – 12 kms<br>Caminhada – 12 kms</p>\n",
+  "description_short": "Trail pela região de Mafra com vista para a promoção turística e desportiva da zona de Igreja Nova",
+  "page": "https://www.trilhoperdido.com/evento/vulcan-trail-2024",
+  "slug": "vulcan-trail-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "União das freguesias de Igreja Nova e Cheleiros",
+  "district_code": 11
+}

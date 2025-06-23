@@ -1,0 +1,32 @@
+{
+  "id": 3235,
+  "name": "Trail Amigos da Montanha 2021",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    22000,
+    35000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4745ddd47fabde68e7775019ea088c0d"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<p>O XI Trail AM, uma organização da Associação Amigos da Montanha, realiza-se no dia 28 Novembro de 2021. A 11.ª edição do evento tem quatro provas competitivas – Trail Curto Águas de Barcelos (Grau 2); Trail Longo Martins &amp; Filhos &#8211; 22Kms (Grau 2), Trail Longo Crédito Agrícola Caixa do Noroeste &#8211; 35Kms (Grau 2) e o Trail Ultra Sidónios (Grau 2).</p>\n",
+  "description_short": "Trail desafiante pela região de Barcelos com diferentes percursos de montanha",
+  "page": "https://www.amigosdamontanha.com/_trail_am_2021",
+  "slug": "trail-amigos-da-montanha-2021",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

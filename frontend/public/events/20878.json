@@ -1,0 +1,34 @@
+{
+  "id": 20878,
+  "name": "Viseu XMAS Run 2022",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/ad3cb15b7ed7a2248a543f4819ea84a8"
+  ],
+  "start_date": "2022-12-18",
+  "end_date": "2022-12-19",
+  "circuit": [],
+  "description": "\n<p>Em 2022, o Viseu XMAS RUN está de regresso para trazer o espírito natalício às ruas e avenidas da Cidade-Jardim!  Realiza-se a 18 de dezembro este evento, 100% solidário, que pretende envolver a comunidade, convidando-a e incentivando-a a dar um pouco de si aos que mais precisam. Para isso, basta que os interessados se inscrevam numa das modalidades: na caminhada, de cerca de 5 quilómetros, ou na corrida, a rondar os 10 quilómetros.<br><br>As inscrições realizam-se online, em <a href=\"https://registerandgo.net/?evento=924\" target=\"_blank\" rel=\"noopener\">https://registerandgo.net/?evento=924</a>, ou presencialmente, no Pavilhão Cidade de Viseu, nas Piscinas Municipais do Fontelo e Juntas de Freguesia.<br> <br>O custo é de 5 euros para a caminhada e de 10 euros para a corrida, sendo que a data limite de pagamento é até 16 de dezembro.<br></p>\n\n\n",
+  "description_short": "Corrida e caminhada solidária de Natal pelas ruas de Viseu com espírito natalício",
+  "page": "https://stopandgo.net/event/?id=924",
+  "slug": "viseu-xmas-run-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

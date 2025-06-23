@@ -1,0 +1,30 @@
+{
+  "id": 25328,
+  "name": "Grande Prémio de Atletismo de Rossas 2023",
+  "location": "Rossas, Arouca",
+  "coordinates": {
+    "lat": 40.9057311,
+    "lon": -8.3034531
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/9f527aa4285b97b65f7589ac92ce8cc9"
+  ],
+  "start_date": "2023-08-12",
+  "end_date": "2023-08-13",
+  "circuit": [],
+  "description": "\n<p>O 44º Grande Prémio de Atletismo de Rossas é uma corrida popular de verão que ocorre todos os anos em Arouca, Portugal. A edição de 2023 está agendada para o dia 12 de agosto. Este evento é organizado pela Associação Social, Cultural e Desportiva &#8220;Unidos de Rossas&#8221;.</p>\n\n\n",
+  "description_short": "Corrida popular de verão na vila de Arouca com 44 anos de tradição",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-rossas-2023",
+  "slug": "grande-premio-de-atletismo-de-rossas-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Arouca",
+  "administrative_area_level_3": "Rossas",
+  "district_code": 1
+}

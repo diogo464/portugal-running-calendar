@@ -1,0 +1,29 @@
+{
+  "id": 23398,
+  "name": "Pt281 2023",
+  "location": "Proença a Nova Proença-a-Nova",
+  "coordinates": {
+    "lat": 39.7494186,
+    "lon": -7.9233898
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/958ce7bdb9670e81e6099ca929a622dd"
+  ],
+  "start_date": "2023-07-20",
+  "end_date": "2023-07-21",
+  "circuit": [],
+  "description": "\n<p>O percurso é muito diversificado em pisos e paisagem. Também o é no número de povoações onde pode se abastecer. Em alguns trechos o isolamento será total e a sensação de isolamento poderá trazer alguns desconfortos.</p>\n\n\n\n<p>As temperaturas médias para esta época do ano são acima dos 30º e em alguns locais já registamos, ao sol, 47º. Nos trechos de asfalto, e em alguns caminhos florestais mais expostos ao sol, essas temperaturas serão uma realidade. O uso de óculos de sol é recomendado.</p>\n\n\n\n<p>Não facilite no transporte de água, nem descure os seus momentos de descanso ou sono. Estude bem os gráficos da corrida, as distâncias entre as bases de apoio e considere parar sempre e em todos os espaços comerciais que lhe possam fornecer bebidas frias ou alimentos que lhe tragam valor.</p>\n\n\n\n<p>O percurso é muito longo e exige uma boa capacidade de gestão. As 66 horas são suficientes para percorrer toda a distância, mas será muito curto se não conseguir gerir tempos de descanso e ritmos médios de progressão.</p>\n",
+  "description_short": "Trail desafiante com percurso isolado e condições extremas de calor",
+  "page": "https://horizontes.pt/events/pt281/",
+  "slug": "pt281-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Proença-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Proença-a-Nova e Peral",
+  "district_code": 5
+}

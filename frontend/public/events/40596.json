@@ -1,0 +1,30 @@
+{
+  "id": 40596,
+  "name": "Trail Lama Solta 2025",
+  "location": "Louriçal, Pombal",
+  "coordinates": {
+    "lat": 40.0034578,
+    "lon": -8.737392
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-08-09",
+  "end_date": "2025-08-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": null,
+  "slug": "trail-lama-solta-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Louriçal",
+  "district_code": 10
+}

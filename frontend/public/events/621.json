@@ -1,0 +1,33 @@
+{
+  "id": 621,
+  "name": "Troviscal Trail",
+  "location": "Sertã, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000,
+    12000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4a6baf633ccd4c1b8e988620c970754c"
+  ],
+  "start_date": "2020-05-31",
+  "end_date": "2020-06-01",
+  "circuit": [],
+  "description": "<p>A Associação Desportiva e Recreativa do Troviscal com o apoio da Câmara Municipal de Sertã e com a organização técnica da Werun, irá realizar o I Troviscal Trail.</p>\n<p>Esta é uma prova de TrailRunning, corrida pedestre em Natureza, com três provas, Trail Longo (TL) K25+, Trail Curto (TC) K12+ e Caminhada 10km.</p>\n",
+  "description_short": "Trail desafiante pela região do Troviscal com apoio municipal e diferentes percursos em natureza",
+  "page": "https://werun.pt/eventos/troviscal-trail-2020/",
+  "slug": "troviscal-trail",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

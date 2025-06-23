@@ -1,0 +1,32 @@
+{
+  "id": 21469,
+  "name": "Meia Maratona de Montejunto 2023",
+  "location": "Cadaval, Lisboa",
+  "coordinates": {
+    "lat": 39.2433402,
+    "lon": -9.102780500000001
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.turresevents.com/eventos/meia-maratona-montejunto-2023",
+  "slug": "meia-maratona-de-montejunto-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cadaval",
+  "administrative_area_level_3": "Cadaval",
+  "district_code": 11
+}

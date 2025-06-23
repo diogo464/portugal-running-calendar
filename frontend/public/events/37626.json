@@ -1,0 +1,37 @@
+{
+  "id": 37626,
+  "name": "Trail Running Vila de Nisa 2024",
+  "location": "Nisa, Portalegre",
+  "coordinates": {
+    "lat": 39.5179524,
+    "lon": -7.648376700000001
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    12000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7e2f4fc9ebc8546c0fed6429f6b806cd"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n\n\n<p>O&nbsp;VIII Trail Running Vila de Nisa será realizado no dia 17 de novembro de 2024 e é um evento organizado pela Inijovem, Câmara Municipal de Nisa e União de Freguesias do Espírito Santo, Nossa Srª da Graça.</p>\n\n\n\n<p>Terá parcerias com entidades governamentais bem como empresas locais e nacionais para que a realização da prova decorra com sucesso. Do evento fará parte um&nbsp;<strong>Trail Longo Vila de Nisa &#8211; 25KM (TLVN)</strong>, um&nbsp;<strong>Trail Curto Vila de Nisa &#8211; 15KM (TCVN)</strong>,&nbsp;<strong>Caminhada Vila de Nisa – 12KM (CVN)</strong>. Todas as partidas serão no centro de Vila de Nisa, na Praça da República.&nbsp;</p>\n",
+  "description_short": "Trail running desafiante em Nisa com diferentes percursos e partida no centro histórico",
+  "page": "https://www.omdceventos.com/evento/viii-trail-running-vila-de-nisa",
+  "slug": "trail-running-vila-de-nisa-2024",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Nisa",
+  "administrative_area_level_3": "União das freguesias de Espírito Santo, Nossa Senhora da Graça e São Simão",
+  "district_code": 12
+}

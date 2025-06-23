@@ -1,0 +1,30 @@
+{
+  "id": 42181,
+  "name": "Trail Bombeiros Voluntários de Lordelo 2025",
+  "location": "Lordelo, Paredes",
+  "coordinates": {
+    "lat": 41.2379674,
+    "lon": -8.4239055
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/c96e8a103d07552c39679944d464155a"
+  ],
+  "start_date": "2025-09-21",
+  "end_date": "2025-09-22",
+  "circuit": [],
+  "description": "\n<p>O Trail Bombeiros Voluntários de Lordelo é organizado pela Associação Humanitária dos Bombeiros Voluntários de Lordelo e será no Parque Urbano do Rio Ferreira – Lordelo (Paredes) independentemente das condições climatéricas do dia, desde que a organização entenda que não ofereçam risco aos participantes.</p>\n\n\n",
+  "description_short": "Trail solidário em homenagem aos bombeiros voluntários no Parque Urbano do Rio Ferreira em Lordelo",
+  "page": "https://lap2go.com/pt/event/trail-bv-lordelo-2025",
+  "slug": "trail-bombeiros-voluntarios-de-lordelo-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Lordelo",
+  "district_code": 13
+}

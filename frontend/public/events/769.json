@@ -1,0 +1,37 @@
+{
+  "id": 769,
+  "name": "Trail Serra do Branco",
+  "location": "Colmeias Colmeias, Leiria",
+  "coordinates": {
+    "lat": 39.7998737,
+    "lon": -8.7107516
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    350,
+    600,
+    1000,
+    11000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7941ac002f0810f00ddbbbd4b3ef3899"
+  ],
+  "start_date": "2020-02-23",
+  "end_date": "2020-02-24",
+  "circuit": [],
+  "description": "<div>A quarta edição do <strong>TRAIL SERRA DO BRANCO</strong> será realizada no dia <strong>23 de fevereiro de 2020</strong>, com partida no <strong>Campo de Futebol das Colmeias, junto ao Pavilhão Gimnodesportivo das Colmeias</strong> com início previsto para as 09H00 para as provas principais. Trata-se de um evento misto com trail e caminhada em ambiente natural, na freguesia de Colmeias e Memória &#8211; Leiria, que se realizará independentemente das condições climatéricas do dia, desde que a organização entenda que não ofereça risco para os participantes.</div>\n<div></div>\n<div>Este evento é organizado por um conjunto de atletas amadores, tendo como entidade promotora a União de Freguesias de Colmeias e Memória. Distâncias e Acumulado Os valores aproximados para as diferentes provas são os seguintes:</div>\n<ul>\n<li> Trail Longo 25K | D+1000m</li>\n<li>Trail Curto 15K | D+600m</li>\n<li>Caminhada 11K | D+350m</li>\n</ul>\n<div></div>\n<div>As provas irão decorrer num circuito plenamente natural, com passagem por locais de interesse e beleza do nosso concelho. Todas as provas – Trail e Caminhada – são circulares (partida e chegada no mesmo local). Serão percursos com grau de dificuldade baixa para a caminhada e média (com passagens mais técnicas em alguns pontos) para o trail curto e longo.</div>\n<div></div>\n<div>Podem participar todos os atletas desde que formalizem a sua inscrição nos prazos definidos no presente regulamento e que se enquadrem e aceitem as condições aqui apresentadas</div>\n",
+  "description_short": "Trail desafiante pela Serra do Branco com diferentes percursos naturais em Colmeias e Memória",
+  "page": "https://www.recordepessoal.pt/evento/ivtrailserradobranco",
+  "slug": "trail-serra-do-branco",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das freguesias de Colmeias e Memória",
+  "district_code": 10
+}

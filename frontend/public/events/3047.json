@@ -1,0 +1,34 @@
+{
+  "id": 3047,
+  "name": "Meia Maratona de Vila Real 201",
+  "location": "Vila Real",
+  "coordinates": {
+    "lat": 41.3011532,
+    "lon": -7.7409832
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/935aaf4d867673911049aafe8cdcdfda"
+  ],
+  "start_date": "2021-09-12",
+  "end_date": "2021-09-13",
+  "circuit": [],
+  "description": "\n<p>A IV Meia Maratona de Vila Real está a cargo da Associação de Atletismo de Vila Real, em co-organização com a Câmara Municipal de Vila Real, sendo promovida pela EXCELLUS Lda.<br></p>\n",
+  "description_short": "Quarta edição da Meia Maratona de Vila Real organizada pela associação local e câmara municipal",
+  "page": "http://www.meiamaratonavr.pt/",
+  "slug": "meia-maratona-de-vila-real-201",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Real",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

@@ -1,0 +1,33 @@
+{
+  "id": 909,
+  "name": "Trail da Loba 2020",
+  "location": "Rio de Loba, Viseu",
+  "coordinates": {
+    "lat": 40.6646716,
+    "lon": -7.8778339
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    18000,
+    28000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e4f08f43c326152f2fca35b67f89cbfa"
+  ],
+  "start_date": "2020-01-26",
+  "end_date": "2020-01-27",
+  "circuit": [],
+  "description": "<p>Este evento é organizado pela Junta de Freguesia de Rio de Loba em parceria com o Centro Social Cultural Desportivo e Recreativo Leões da Beira e tem como objetivo promover a prática da atividade física, dando a conhecer os trilhos e caminhos da Freguesia de Rio de Loba.</p>\n<p>&nbsp;</p>\n<p>O Trail é composto por três percursos:<br />\n• Trail Longo de +/- 28Km (Adiante designado TL);<br />\n• Trail Curto de +/- 18Km (Adiante designado TC);<br />\n• Minitrail/Caminhada +/- 8Km (Adiante designado CA).</p>\n",
+  "description_short": "Trail desafiante pelos trilhos históricos da Freguesia de Rio de Loba",
+  "page": "https://www.acorrer.pt/eventos/info/2462",
+  "slug": "trail-da-loba-2020",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Rio de Loba",
+  "district_code": 18
+}

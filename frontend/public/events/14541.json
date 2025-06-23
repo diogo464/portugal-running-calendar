@@ -1,0 +1,27 @@
+{
+  "id": 14541,
+  "name": "Brutus Brave Lake 2022",
+  "location": "Mira, Coimbra",
+  "coordinates": {
+    "lat": 40.4287977,
+    "lon": -8.738126099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [],
+  "images": [
+    "media/6c8f3940e620d2f6147ac3921188048e"
+  ],
+  "start_date": "2022-04-25",
+  "end_date": "2022-04-26",
+  "circuit": [],
+  "description": "\n<p>A Brutus Brave Lake 2022 voltará a ter palco em Mira, com os habituais obstáculos duros, mas criativos. Não percas a oportunidade de te superar, de te libertar com a adrenalina da Brutus Brave Lake.</p>\n",
+  "description_short": "Prova de obstáculos desafiante e criativa junto à Lagoa de Mira",
+  "page": "https://lap2go.com/pt/event/brutus-brave-lake-2022",
+  "slug": "brutus-brave-lake-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Mira",
+  "administrative_area_level_3": "Mira",
+  "district_code": 6
+}

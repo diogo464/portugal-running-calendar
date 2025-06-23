@@ -1,0 +1,35 @@
+{
+  "id": 2504,
+  "name": "Meia Maratona de Lisboa 2021",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/5f5934828e8898bf9f467e2ef6dce25e"
+  ],
+  "start_date": "2021-11-21",
+  "end_date": "2021-11-22",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://results.sporthive.com/events/6641699407497361920\" target=\"_blank\" rel=\"noopener\">Resultados</a></h2>\n\n\n\n<p>Detentora do record do mundo da distância (21km) de 2010 a 2018, na sua 30ª edição, a EDP Meia Maratona de Lisboa 2021 vai juntar os melhores atletas do mundo da distância para recuperar o record mundo!</p>\n\n\n\n<p>A EDP Meia Maratona de Lisboa  2021 é também uma das cinco meias maratonas que integra o novo circuito internacional Super Halfs. Um circuito que une cinco das melhores meias maratonas do mundo, Cardiff, Copenhaga, Lisboa, Praga e Valência com objetivo oferecer a melhor experiência aos seus participantes, combinando: cinco provas de excelência, percursos únicos em cidades históricas e ao mesmo tempo promover a consciencialização ambiental entre todos os participantes e acompanhantes.</p>\n\n\n\n<p><a href=\"https://www.maratonaclubedeportugal.com/corrida-marco/edp-meia-maratona-de-lisboa-2021/\" target=\"_blank\" rel=\"noreferrer noopener\">Organização </a></p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona internacional em Lisboa com record mundial e circuito Super Halfs",
+  "page": "https://www.maratonaclubedeportugal.com/corrida-marco/edp-meia-maratona-de-lisboa-2021/",
+  "slug": "meia-maratona-de-lisboa-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

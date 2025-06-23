@@ -1,0 +1,35 @@
+{
+  "id": 312,
+  "name": "São Silvestre de Ermesinde",
+  "location": "Ermesinde, Porto",
+  "coordinates": {
+    "lat": 41.21143259999999,
+    "lon": -8.547604
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/b7f6249253ff96e40d60a1230309f3d6"
+  ],
+  "start_date": "2019-12-27",
+  "end_date": "2019-12-28",
+  "circuit": [],
+  "description": "<p align=\"justify\">A Junta da Freguesia de Ermesinde, em coorganização com a Câmara Municipal de Valongo e a CandiByke Associação de Ciclismo, vai realizar a IV CORRIDA SÃO SILVESTRE de ERMESINDE, no próximo dia 27 de dezembro, pelas 21h00.</p>\n<p align=\"justify\">A referida iniciativa contará com uma corrida de 10Km e uma caminhada de 5Km.</p>\n<p align=\"justify\">Depois de no ano passado terem percorrido as ruas da Cidade de Ermesinde mais de 1000 participantes, a fasquia está elevada para a edição de 2019.</p>\n<p align=\"justify\">Não faltes. Vem correr connosco!!</p>\n",
+  "description_short": "Corrida São Silvestre noturna pelas ruas de Ermesinde com grande adesão popular",
+  "page": "https://www.prozis.com/pt/pt/evento/iv-corrida-sao-silvestre-de-ermesinde",
+  "slug": "sao-silvestre-de-ermesinde",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Ermesinde",
+  "district_code": 13
+}

@@ -1,0 +1,29 @@
+{
+  "id": 13916,
+  "name": "Corrida Urbana Terras de Santa Maria 2022",
+  "location": "Santa Maria da Feira, Aveiro",
+  "coordinates": {
+    "lat": 40.9257594,
+    "lon": -8.5478589
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/37f072f4077d949afaeaea5eb474faf3"
+  ],
+  "start_date": "2022-07-09",
+  "end_date": "2022-07-10",
+  "circuit": [],
+  "description": "\n<p>ACorrida Urbana Terras de Santa Maria 2022 é um Trail noturno e citadino que alia o desporto ao ar livre com uma forte componente cultural. O Percurso permitirá aos participantes passar pelas ruas e avenidas da cidade, locais de beleza extrema como o Castelo de Santa Maria da Feira, Convento dos Lóios, Grutas da Quinta do Castelo, Estádio Municipal, Mercado, entre outros. Inscreva-se e venha descobrir Santa Maria da Feira.</p>\n",
+  "description_short": "Trail nocturno por Santa Maria da Feira com passagem por locais históricos e culturais",
+  "page": "https://lap2go.com/pt/event/corrida-urbana-smfeira-2022",
+  "slug": "corrida-urbana-terras-de-santa-maria-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "União das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo",
+  "district_code": 1
+}

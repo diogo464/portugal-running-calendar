@@ -1,0 +1,35 @@
+{
+  "id": 27772,
+  "name": "Trail Abela 2023",
+  "location": "Abela, Santiago do Cacém",
+  "coordinates": {
+    "lat": 37.9876524,
+    "lon": -8.506200699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    14000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/d62a2ae4e3e3dd984f4992703f9f6969"
+  ],
+  "start_date": "2023-10-29",
+  "end_date": "2023-10-30",
+  "circuit": [],
+  "description": "\n<p>O 3º Trail em Abela ocorre a 29 de Outubro é um evento organizado a pelo Sporting Futebol Clube Abelense e tem como principal propósito percorrer trilhos e caminhos do concelho de Santiago do Cacém.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Percursos</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail curto com 14km;</li>\n\n\n\n<li>Trail longo com 19km;</li>\n\n\n\n<li>Caminhada com 10km.</li>\n</ul>\n",
+  "description_short": "Trail desafiante pelos trilhos históricos do município de Santiago do Cacém",
+  "page": "https://acorrer.pt/eventos/info/3288",
+  "slug": "trail-abela-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Abela",
+  "district_code": 15
+}

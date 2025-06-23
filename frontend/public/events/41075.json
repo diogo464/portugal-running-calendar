@@ -1,0 +1,31 @@
+{
+  "id": 41075,
+  "name": "Resistência Trail Glória do Ribatejo 2025",
+  "location": "Salvaterra de Magos, Santarém",
+  "coordinates": {
+    "lat": 39.0272019,
+    "lon": -8.794182
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    3000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ffc5576ed80bf236e372c9d4ac79825f"
+  ],
+  "start_date": "2025-06-28",
+  "end_date": "2025-06-29",
+  "circuit": [],
+  "description": "\n<p>A prova de resistência de 3H será percorrida em piso misto (asfalto e terra batida) na malha<br>urbana e rural de Glória do Ribatejo, num percurso sinalizado por setas refletoras, com uma<br>distância de 3km e com grau de dificuldade médio</p>\n",
+  "description_short": "Trail de resistência em Glória do Ribatejo com percurso misto entre zonas urbanas e rurais",
+  "page": "https://www.trilhoperdido.com/evento/IV-resistencia-trail-gloria-do-ribatejo",
+  "slug": "resistencia-trail-gloria-do-ribatejo-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "Salvaterra de Magos",
+  "district_code": 14
+}

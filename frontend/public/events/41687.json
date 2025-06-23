@@ -1,0 +1,32 @@
+{
+  "id": 41687,
+  "name": "Brisas do Atlântico 2025",
+  "location": "Almograve , Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/6ceeda9c82d936054b59988936671687"
+  ],
+  "start_date": "2025-06-10",
+  "end_date": "2025-06-10",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no feriado de 10 de Junho, terça-feira, a partir das 09h00 com partida e chegada da praia do Almograve na vertente de lazer, e partidas da Praia do Almograve e chegada à Zambujeira do Mar para a vertente competitiva. Nesta edição realiza-se em simultâneo o Campeonato Distrital de Meia Maratona da responsabilidade da Associação de Atletismo de Beja.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de Dia de Portugal com duas vertentes entre Almograve e Zambujeira do Mar, incluindo Campeonato Distrital de Meia Maratona",
+  "page": "https://acorrer.pt/eventos/3906/info",
+  "slug": "brisas-do-atlantico-2025",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": 21853,
+  "name": "Trilho Dos Cogumelos 2023",
+  "location": "Vidigueira, Beja",
+  "coordinates": {
+    "lat": 38.2118842,
+    "lon": -7.8005203
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    12000,
+    22000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/561b5b3f12416470dd384f3e83167b8c"
+  ],
+  "start_date": "2023-02-26",
+  "end_date": "2023-02-27",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Vidigueira com o apoio da Junta de Freguesia de Selmes, da Associação ARFA de Alcaria da Serra e da Associação de Atletismo de Beja vai organizar, no próximo dia 26 DE FEVEREIRO DE 2023, o Trilho dos Cogumelos em Alcaria da Serra e em simultâneo realiza-se o Campeonato Distrital de Trail da Associação de Atletismo de Beja.</p>\n\n\n\n<p>Os percursos competitivos têm aproximadamente 12 e 22 km de extensão, designados como Trilho dos Cogumelos e Campeonato Distrital de Trail, com partida às 10 horas no Largo da Bica em Alcaria da Serra.</p>\n",
+  "description_short": "Trail solidário pelos caminhos de Alcaria da Serra com destaque para o Campeonato Distrital de Trail",
+  "page": "https://acorrer.pt/eventos/info/3108",
+  "slug": "trilho-dos-cogumelos-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Vidigueira",
+  "administrative_area_level_3": "Vidigueira",
+  "district_code": 2
+}

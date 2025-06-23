@@ -1,0 +1,34 @@
+{
+  "id": 33418,
+  "name": "Rota Olho do Tordo 2024",
+  "location": "Alvaiázere, Leiria",
+  "coordinates": {
+    "lat": 39.8237427,
+    "lon": -8.3807264
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    14000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f1e871c627872b01a6116675d3d49f8f"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [],
+  "description": "\n<p>O III Rota do Olho do tordo, sob organização da Câmara Municipal de Alvaiázere, pretende afirmar-se como uma prova de desporto e lazer, sem carácter competitivo, na vertente de corrida [Trail Running], a realizar por percursos e trilhos envolventes à nascente do Olho do Tordo. </p>\n\n\n\n<p>A terceira edição realiza-se no dia 18 de fevereiro de 2024.</p>\n\n\n\n<p>É categorizado por duas distâncias não cronometradas [na vertente de Trail e Caminhada], de acordo com as seguintes distâncias: Trail 14 quilómetros e Caminhada de Natureza não competitiva com a extensão aproximada de 10 quilómetros.</p>\n\n\n\n<ol class=\"wp-block-list\" start=\"2024\"></ol>\n\n\n",
+  "description_short": "Trail descontraído pelos trilhos de Alvaiázere com passagem pela nascente do Olho do Tordo",
+  "page": "https://www.queroir.pt/rotaolhotordo2024",
+  "slug": "rota-olho-do-tordo-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alvaiázere",
+  "administrative_area_level_3": "Alvaiázere",
+  "district_code": 10
+}

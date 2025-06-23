@@ -1,0 +1,30 @@
+{
+  "id": 40921,
+  "name": "Trail do Queijo da Fajãzinha 2025",
+  "location": "Fajãzinha, Ilha das Flores",
+  "coordinates": {
+    "lat": 39.4335369,
+    "lon": -31.2526216
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d74652b9cc44e41bbb53e5f5734901f4"
+  ],
+  "start_date": "2025-10-11",
+  "end_date": "2025-10-11",
+  "circuit": [],
+  "description": "\n<p>O Trail do Queijo da Fajãzinha é uma prova de trail running com uma organização conjunta entre a Queijaria do Pico Redondo, o Atlético Clube Fajã Grande, e a Câmara Municipal de Lajes das Flores, e decorrerá no dia 11 de outubro de 2025, com partida e chegada marcadas para o Largo do Rossio, na<br>freguesia da Fajãzinha, com absoluto respeito pelo meio ambiente.</p>\n\n\n",
+  "description_short": "Trail desafiante pela ilha das Flores com organização local e respeito ambiental",
+  "page": "https://acorrer.pt/eventos/3863/info",
+  "slug": "trail-do-queijo-da-fajazinha-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Flores",
+  "administrative_area_level_3": "Fajãzinha",
+  "district_code": 20
+}

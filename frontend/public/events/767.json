@@ -1,0 +1,32 @@
+{
+  "id": 767,
+  "name": "Trilhos do Pastor 2020",
+  "location": "Batalha, Leiria",
+  "coordinates": {
+    "lat": 39.6583864,
+    "lon": -8.8241787
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/760b155c4a8db7252b7e66e59b66d874"
+  ],
+  "start_date": "2020-03-29",
+  "end_date": "2020-03-30",
+  "circuit": [],
+  "description": "<p>A prova 12º Trilhos do Pastor® é constituída na sua maioria (cerca de 95%) por trilhos técnicos, estradões, carreiros e por serras e vales no parque natural das Serras d&#8217; Aire e Candeeiros e do maciço calcário estremenho.</p>\n<p>Com passagem em locais tão únicos e especiais como por exemplo:</p>\n<p>&#8211; Interior das Grutas da Moeda (TL, TC e Caminhada)</p>\n<p>&#8211; Aldeia de Pia do Urso e respetivo Eco Parque Sensorial (TL, TC e Caminhada)</p>\n<p>&#8211; Antigos moinhos de vento reconstruídos (TL, TC e Caminhada)</p>\n<p>&#8211; Aldeia de Reguengo do Fetal (TL)</p>\n<p>&#8211; Buraco Roto (Reguengo do Fetal) (TL)</p>\n<p>&#8211; A prova percorre alguns dos pontos mais altos das nossas serras onde podemos ter vistas espetaculares de Fátima com o seu Santuário, Serra da Lousã, Serra de Aire e Candeeiros e inclusive das ilhas das Berlengas. (TL, TC e Caminhada)</p>\n<p>&#8211; Explorações de pedra desativadas (TL)</p>\n<p>&#8211; Devemos referir que a caminhada terá aproximadamente 12km´com um grau de dificuldade médio / elevado principalmente devido ao grau técnico de alguns trilhos. Queremos que também os caminheiros aproveitem ao máximo a beleza das nossas serras.</p>\n",
+  "description_short": "Trail técnico pelas serras calcárias com passagem no interior de grutas e locais históricos do Parque Natural das Serras d'Aire e Candeeiros",
+  "page": "https://www.prozis.com/pt/pt/evento/12o-trilhos-do-pastor",
+  "slug": "trilhos-do-pastor",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Batalha",
+  "administrative_area_level_3": "Batalha",
+  "district_code": 10
+}

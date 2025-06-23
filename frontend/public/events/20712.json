@@ -1,0 +1,31 @@
+{
+  "id": 20712,
+  "name": "Ultra Blue Island 2023",
+  "location": "Ilha do Faial, Açores",
+  "coordinates": {
+    "lat": 38.5912552,
+    "lon": -28.6964752
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e5800d54b41e6d2735f8abcacef284dd"
+  ],
+  "start_date": "2023-05-05",
+  "end_date": "2023-05-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O ULTRA BLUE ISLAND é um magnífico evento no meio do Atlântico Norte, nos Açores (Portugal), na Ilha do Faial. Este desafiante envento de trail running leva-te para o melhor da natureza. A visão do oceano, as majestosas crateras dos vulcões que formaram a ilha do Faial e os caminhos antigos dos descobridores contam a história de uma terra e do seu povo.</p>\n\n\n\n<p>​Do azul profundo do oceano até a vastidão verde das florestas e campos, das areias negras do última erupção vulcânica da ilha até à paleta de cores com que se pintam as casas são apenas algumas das maravilhas que vais experimentar nessa jornada.</p>\n\n\n\n<p>A sensação é de se ter viajado da terra para a lua e de volta. Serás mentalmente estimulado, ficarás fisicamente exausto, te sentirás pessoalmente recompensado e ficarás com vontade de repetir esse magnífico percurso evento.</p>\n\n\n",
+  "description_short": "Trail running épico entre vulcões e oceano na ilha do Faial, Açores",
+  "page": "https://stopandgo.net/events/ultra-blue-island-2023",
+  "slug": "ultra-blue-island-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Horta",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

@@ -1,0 +1,35 @@
+{
+  "id": 41886,
+  "name": "Trail dos Catrinos 2025",
+  "location": "Santa Catarina, Alcácer do Sal",
+  "coordinates": {
+    "lat": 38.396869,
+    "lon": -8.4302689
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    11000,
+    16000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a73b287779711f64987dd26b958c8e96"
+  ],
+  "start_date": "2025-10-12",
+  "end_date": "2025-10-13",
+  "circuit": [],
+  "description": "\n<p>O Trail, dos “Catrinos” é uma prova no âmbito do desporto aventura ao ar livre e de natureza. Esta iniciativa é organizada pela Associação, Santa Catarina Futebol Clube, e tem como principal objetivo proporcionar aos amantes desta modalidade o contacto e conhecimento de locais que a nossa aldeia dispõe, com excelentes características naturais e de extrema beleza para a prática do Desporto Aventura.<br>O Trail dos “Catrinos” será composto por um Trail curto de 16km e médio de 27km e caminhada de 11Km.</p>\n\n\n",
+  "description_short": "Trail de natureza pela aldeia com percursos por paisagens naturais únicas e locais de grande beleza",
+  "page": "https://acorrer.pt/eventos/3872/info",
+  "slug": "trail-dos-catrinos-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcácer do Sal",
+  "administrative_area_level_3": "União das freguesias de Alcácer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana",
+  "district_code": 15
+}

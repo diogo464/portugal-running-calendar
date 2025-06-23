@@ -1,0 +1,36 @@
+{
+  "id": 33615,
+  "name": "3 Léguas do Nabão 2024",
+  "location": "Tomar, Santarém",
+  "coordinates": {
+    "lat": 39.6053819,
+    "lon": -8.4043125
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    15000,
+    16716
+  ],
+  "types": [
+    "run",
+    "10k",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/410cfb2dcd769ccbaaddfc288b6207d3"
+  ],
+  "start_date": "2024-03-03",
+  "end_date": "2024-03-04",
+  "circuit": [],
+  "description": "<p>A 40ª Edição das 3 Léguas do Nabão, decorrerá no dia 03 de Março de 2024.</p>\n<p>Sabia que a data da prova está permanentemente agendada?</p>\n<p>As 3 Léguas disputam-se sempre no primeiro domingo de Março, excepto quando coincide com o dia 1, dia da Cidade, situação em que a data é alterada para o 2º domingo, dia 8, Dia Internacional da Mulher.</p>\n<p class=\"TLNprovasdesc\">\n",
+  "description_short": "Prova tradicional pelas 3 Léguas do Nabão com data fixa no primeiro domingo de Março",
+  "page": "https://clubecalma.pt/3-leguas-do-nabao/",
+  "slug": "3-leguas-do-nabao-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

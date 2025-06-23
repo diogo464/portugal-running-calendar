@@ -1,0 +1,29 @@
+{
+  "id": 2769,
+  "name": "Trail de Ficalho 2021",
+  "location": "Serpa",
+  "coordinates": {
+    "lat": 37.9469642,
+    "lon": -7.602181900000001
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/85faa2e66dfa01c14873c75d62766edc"
+  ],
+  "start_date": "2021-11-07",
+  "end_date": "2021-11-08",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.facebook.com/traildeficalho2021",
+  "slug": "trail-de-ficalho-2021",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Serpa",
+  "administrative_area_level_3": "União das freguesias de Serpa (Salvador e Santa Maria)",
+  "district_code": 2
+}

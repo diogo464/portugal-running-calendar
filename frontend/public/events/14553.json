@@ -1,0 +1,34 @@
+{
+  "id": 14553,
+  "name": "Tranquilidade Corrida do Bombeiro 2022",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/d47d997de13878fb243bd68ee2652bb0"
+  ],
+  "start_date": "2022-10-23",
+  "end_date": "2022-10-24",
+  "circuit": [],
+  "description": "\n<p><strong>No dia 23 de outubro de 2022, a Eventsport organiza a quarta edição da Tranquilidade Corrida do Bombeiro 2022, em parceria com os Bombeiros Voluntários de Valadares. Este evento é composto por uma Corrida 10 km e uma Caminhada 5 km que contará com muitas surpresas e uma grande onda de energia e boa disposição.</strong></p>\n\n\n\n<p>A prova tem como ponto de partida a capela do Senhor da Pedra, em plena praia de Miramar, uma localização acrescida pelo cheiro a maresia e uma paisagem marítima deslumbrante ao longo de todo o percurso, assim torna-se irrecusável a sua presença.</p>\n\n\n\n<p>É no final do verão que contamos consigo para ser herói por um dia. Esta iniciativa tem como objetivo&nbsp;<strong>homenagear</strong>&nbsp;<strong>o bombeiro</strong>&nbsp;e prestar o devido respeito pelo seu trabalho realizado na comunidade, e claro proporcionar-lhe bem-estar e bons momentos de lazer.</p>\n\n\n\n<p>Não deixe de lado a oportunidade de&nbsp;<strong>homenagear estes heróis</strong>.</p>\n\n\n\n<p>Os bombeiros não salvam apenas casas, florestas e animais. Os bombeiros salvam memórias e sonhos…&nbsp;<strong>salvam vidas</strong>!</p>\n\n\n\n<p>Vai ser novamente uma festa memorável!</p>\n\n\n\n<p>Contamos consigo neste dia!</p>\n",
+  "description_short": "Corrida solidária pela praia de Miramar que homenageia os bombeiros voluntários",
+  "page": "https://4corridadobombeiro.eventsport.net/",
+  "slug": "corrida-do-bombeiro-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

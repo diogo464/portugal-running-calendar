@@ -1,0 +1,33 @@
+{
+  "id": 41572,
+  "name": "Duas Léguas Gandaresas 2025",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/ba2c40a2bafb5fdee56898fd39f7a0f0"
+  ],
+  "start_date": "2025-07-05",
+  "end_date": "2025-07-06",
+  "circuit": [],
+  "description": "\n<p>A 7ª Edição das Duas Léguas Gandaresas, realiza-se no dia 05 de julho de 2025 e é uma Organização<br>do Atletismo Clube da Tocha, Centro Social de Recreio e Cultura da Sanguinheira e da Junta de<br>Freguesia da Sanguinheira e com o apoio do Município de Cantanhede.</p>\n\n\n\n<p>Da 7ª Edição das Duas Léguas faz parte uma prova de corrida com 10 km e uma caminhada com aproximadamente 10 km. O percurso das provas será circular, com início e fim no Parque S. João na Sanguinheira</p>\n\n\n",
+  "description_short": "Corrida tradicional das Duas Léguas Gandaresas pela região da Sanguinheira com percurso circular e apoio municipal",
+  "page": "https://stopandgo.net/events/duas-leguas-gandaresas-2025",
+  "slug": "duas-leguas-gandaresas-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

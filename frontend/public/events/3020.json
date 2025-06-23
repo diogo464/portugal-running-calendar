@@ -1,0 +1,29 @@
+{
+  "id": 3020,
+  "name": "Trail Nossa Senhora do Amparo 2021",
+  "location": "Mirandela, Bragança",
+  "coordinates": {
+    "lat": 41.4853545,
+    "lon": -7.180871100000001
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2889bc716d2b409768066d4cd5c22806"
+  ],
+  "start_date": "2021-07-24",
+  "end_date": "2021-07-25",
+  "circuit": [],
+  "description": "\n<p>Campeonato Nacional de Trail (ANAV)<br>Uma prova onde a paisagem do Vale do Tua está presente; o serpenteante Rio Tua, sobreiros, castanheiros, pinheiros mansos e oliveiras; a riqueza da fauna local; a linha de comboio do Tua; as nossas aldeias e as paisagens deslumbrantes não vão faltar.<br>Será uma prova em trilho especialmente cénico e sensorialmente rico, com o perfume das árvores e a paisagem serpenteante emoldurada pela verdejante flora esta será uma viagem verdadeiramente inesquecível.<br></p>\n",
+  "description_short": "Trail panorâmico pelo verde e histórico Vale do Tua com paisagens naturais únicas",
+  "page": "https://stopandgo.com.pt/events/trail-nossa-senhora-do-amparo",
+  "slug": "trail-nossa-senhora-do-amparo-2021",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mirandela",
+  "administrative_area_level_3": "Mirandela",
+  "district_code": 4
+}

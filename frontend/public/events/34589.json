@@ -1,0 +1,33 @@
+{
+  "id": 34589,
+  "name": "Corrida Vila Rio 2024",
+  "location": "Póvoa de Santa Iria , Vila Franca Xira Iria,",
+  "coordinates": {
+    "lat": 38.86130010000001,
+    "lon": -9.0649483
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/fb9da3696a201949971d5245d0fada47"
+  ],
+  "start_date": "2024-06-02",
+  "end_date": "2024-06-02",
+  "circuit": [],
+  "description": "\n<p>Entre o rio e a terra, abraçado pela brisa do rio Tejo encontra-se o bairro Vila Rio, na Póvoa de Santa Íria, um lugar mágico que transforma 17 hectares num lugar dinâmico e sustentável.</p>\n\n\n\n<p>Um processo que consubstancia uma nova oportunidade de viver a exclusividade da frente ribeirinha com o rio Tejo. Um projeto que respeita a beleza do lugar e que vai ao encontro da nova forma de viver; uma forma de viver mais calma, mais intensa com tempo para aqueles que são importantes.</p>\n\n\n\n<p>Para celebrar, convidamos-te a participar na Corrida Vila Rio. Desfruta do percurso plano, sempre com vista para o Rio Tejo e aproveita o novo passadiço que liga Lisboa à zona oriental da cidade!</p>\n\n\n",
+  "description_short": "Corrida panorâmica pela frente ribeirinha com vistas deslumbrantes sobre o rio Tejo",
+  "page": "https://xistarca.pt/eventos/corrida-vila-rio-2024",
+  "slug": "corrida-vila-rio-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "União das freguesias de Póvoa de Santa Iria e Forte da Casa",
+  "district_code": 11
+}

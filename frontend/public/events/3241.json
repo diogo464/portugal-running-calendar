@@ -1,0 +1,29 @@
+{
+  "id": 3241,
+  "name": "Trail do Texugo 2022",
+  "location": "Redondo, Évora",
+  "coordinates": {
+    "lat": 38.6469313,
+    "lon": -7.5470141
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/130cf5aca8133512332577e6f8849055"
+  ],
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-11",
+  "circuit": [],
+  "description": "\n<p>O Trail do texugo irá ter início e final na Aldeia da Serra D’Ossa, local pitoresco onde até há poucas décadas se podiam ver as mulheres sentadas à porta de suas casas, conversando sobre a vida dura da lavoura, a lida da casa, ou simplesmente acenado a quem subia e descia a Serra pela estrada. Sofrendo hoje com a desertificação que assola todo o interior, o Trail do Texugo é sem dúvida um evento que além de a dar a conhecer a outros, poderá ainda dar-lhe uma nova alma…</p>\n",
+  "description_short": "Trail intimista pela aldeia serrana de D'Ossa com homenagem às tradições locais e combate à desertificação",
+  "page": "https://www.traildotexugo.pt/",
+  "slug": "trail-do-texugo-2022",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Redondo",
+  "administrative_area_level_3": "Redondo",
+  "district_code": 7
+}

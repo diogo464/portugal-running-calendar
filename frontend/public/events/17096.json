@@ -1,0 +1,35 @@
+{
+  "id": 17096,
+  "name": "IX Trilhos Nocturnos dos Templários 2023",
+  "location": "Tomar, Santarém",
+  "coordinates": {
+    "lat": 39.6053819,
+    "lon": -8.4043125
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    18000,
+    32000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a42520ba1cf52bd1703028a6680566ce"
+  ],
+  "start_date": "2023-01-07",
+  "end_date": "2023-01-08",
+  "circuit": [],
+  "description": "\n<p>Na sequência do sucesso obtido nos X Trilhos dos Templários em 2021, a equipa dos Trilhos dos Templários da A.C.R. de Santa Cita, vai realizar no próximo dia 7 de janeiro de 2023 , os &#8220;XI TRILHOS DOS TEMPLÁRIOS&#8221;. O evento é constituído por TRÊS distâncias competitivas e por uma caminhada.<br></p>\n\n\n\n<p>Percursos:</p>\n\n\n\n<p>Trail Longo +-32Km com 1300D+<br>Trail Curto +-18Km com 700D+<br>Mini-Trilhos +-12Km com 300D+<br>Caminhada +-12Km com 300D+</p>\n",
+  "description_short": "Trail dos Templários com três distâncias competitivas em Santa Cita, marcando a 11ª edição do evento regional",
+  "page": "https://www.trilhoperdido.com/evento/IX-trilhos-noturnos-dos-templarios",
+  "slug": "trilhos-nocturnos-dos-templarios-2022-2",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

@@ -1,0 +1,34 @@
+{
+  "id": 35494,
+  "name": "Corrida &#8220;Trilhos do Montado e dos Enchidos&#8221; 2024",
+  "location": "Santa Luzia, Beja",
+  "coordinates": {
+    "lat": 38.0156893,
+    "lon": -7.872914300000001
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/30479c257b1eb663de260e808d3d5168"
+  ],
+  "start_date": "2024-06-15",
+  "end_date": "2024-06-16",
+  "circuit": [],
+  "description": "\n<p>A 2ª Corrida “Trilhos do Montado e dos Enchidos” consiste numa prova de 10km e numa caminhada de 5km.</p>\n\n\n",
+  "description_short": "Trail gastronómico pelos caminhos rurais do Alentejo com homenagem aos enchidos locais",
+  "page": "https://acorrer.pt/eventos/info/3554",
+  "slug": "corrida-trilhos-do-montado-e-dos-enchidos-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

@@ -1,0 +1,28 @@
+{
+  "id": 30588,
+  "name": "Vitalis Kids Challenge By Hyundai 1 &#8211; 2024",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.runporto.com/eventos/vitalis-kids-challenge/",
+  "slug": "vitalis-kids-challenge-by-hyundai-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

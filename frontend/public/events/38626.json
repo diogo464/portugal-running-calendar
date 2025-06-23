@@ -1,0 +1,27 @@
+{
+  "id": 38626,
+  "name": "Corrida da Mulher 2025",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>A 19ª EDP Corrida da Mulher realiza-se no dia 25 de maio de 2025, às 09h30, na cidade do Porto, com partida e chegada na Alameda das Antas.</p>\n",
+  "description_short": "Corrida solidária dedicada às mulheres no coração do Porto",
+  "page": "https://www.runporto.com/pt/eventos/corrida-da-mulher/",
+  "slug": "corrida-da-mulher-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

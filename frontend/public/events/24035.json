@@ -1,0 +1,32 @@
+{
+  "id": 24035,
+  "name": "7º Trail São Macário 2023",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    9000,
+    15000,
+    29000,
+    49000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [],
+  "description": "\n<p>O GTT.SPS &#8211; Grupo Todo Terreno de São Pedro do Sul, vai realizar o 7º TRAIL SÃO MACÁRIO, no próximo dia 12 de Novembro de 2023, em Sul. O evento incluiu 4 provas: o ULTRA TRAIL com cerca 49km, o TRAIL LONGO com cerca de 29Km, TRAIL CURTO com cerca de 15Km e a CAMINHADA com 9Km.<br>Todos os percursos incluem trilhos fantásticos na magnífica Serra da Arada (São Macário).<br>Todas as provas terão início e fim em Sul.</p>\n",
+  "description_short": "Trail desafiante pela Serra da Arada com 4 provas de diferentes distâncias em São Pedro do Sul",
+  "page": "https://stopandgo.net/events/7-trail-sao-macario",
+  "slug": "7o-trail-sao-macario-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

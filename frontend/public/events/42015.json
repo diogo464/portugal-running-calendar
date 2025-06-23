@@ -1,0 +1,31 @@
+{
+  "id": 42015,
+  "name": "Trail Running “Santo António da Ribeira&#8221; 2025",
+  "location": "Casal Vasco, Santo António da Ribeira",
+  "coordinates": {
+    "lat": 40.6186392,
+    "lon": -7.564705
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bc6d8e09a1af5e257cb9ff9922dbbbf2"
+  ],
+  "start_date": "2025-06-15",
+  "end_date": "2025-06-15",
+  "circuit": [],
+  "description": "\n<p>A PAP Santo António da Ribeira em parceria com a Associação Cultural Desportiva Recreativa do Santo António da Ribeira, apoio da junta de Freguesia de Casal Vasco, da Junta de Freguesia de Infias, da Junta de freguesia de Fornos de Algodres, da Junta de freguesia de Algodres, da Junta de freguesia de Muxagata e<br>da Camara de Fornos de Algodres, irá levar a efeito, no dia 18 de maio, Sábado, a 1ª Edição do Traill Running “Santo António da Ribeira e a 1ª Edição da “Caminhada”! Em simultâneo e da responsabilidade da Associação Cultural Desportiva Recreativa do Santo António da Ribeira realiza-se a PAP Santo António<br>da Ribeira.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desportivo pela região de Fornos de Algodres com apoio de várias juntas de freguesia",
+  "page": "https://acorrer.pt/eventos/3925/info",
+  "slug": "trail-running-santo-antonio-da-ribeira-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "Casal Vasco",
+  "district_code": 9
+}

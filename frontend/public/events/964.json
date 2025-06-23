@@ -1,0 +1,29 @@
+{
+  "id": 964,
+  "name": "Trail Fisgas de Ermelo 2020",
+  "location": "Mondim de Basto Bastos Vila Real",
+  "coordinates": {
+    "lat": 41.4112348,
+    "lon": -7.9526065
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f840a93338714a4c2e17af2abe0b3599"
+  ],
+  "start_date": "2020-04-19",
+  "end_date": "2020-04-20",
+  "circuit": [],
+  "description": "<p align=\"justify\">O Trail Fisgas de Ermelo é uma iniciativa da AMA – Associação Mondim Atletismo, que tem como objetivo aliar a prática desportiva ao contacto com a natureza e com as populações locais, promover a Região de Basto, as nossas paisagens e a sua beleza natural, bem como a gastronomia, comércio e a gente da nossa terra.</p>\n<p align=\"justify\">Convidamos-vos a participarem no V Trail Fisgas de Ermelo, evento desportivo realizado entre as Fisgas de Ermelo, quedas de água de beleza única integradas no Parque Natural do Alvão, Senhora da Graça – santuário da prova rainha do ciclismo nacional – e a vila de Mondim de Basto, situada nas margens do Tâmega.</p>\n<p align=\"justify\">As provas têm início na aldeia histórica de Ermelo e terminam na Praça do Município em Mondim de Basto.</p>\n",
+  "description_short": "Trail nas Fisgas de Ermelo com passagem pelo Parque Natural do Alvão e paisagens únicas do Tâmega",
+  "page": null,
+  "slug": "trail-fisgas-de-ermelo-2020",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Mondim de Basto",
+  "administrative_area_level_3": "São Cristóvão de Mondim de Basto",
+  "district_code": 17
+}

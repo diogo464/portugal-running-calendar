@@ -1,0 +1,27 @@
+{
+  "id": 24073,
+  "name": "Corrida de Monte Real 2023",
+  "location": "Monte Real, Leiria",
+  "coordinates": {
+    "lat": 39.8412644,
+    "lon": -8.8748765
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-17",
+  "circuit": [],
+  "description": "\n<p>A Corrida Monte Real é uma organização da Câmara Municipal de Leiria em parceria com a União de Freguesias de Monte Real e Carvide e a Base Aérea n.º 5, com o apoio da ADAL, GAU, e Associação de Turismo de Monte Real.</p>\n\n\n",
+  "description_short": "Corrida tradicional de Monte Real com apoio institucional de Leiria e Base Aérea n.º 5",
+  "page": "https://lap2go.com/pt/event/corrida-monte-real-2023",
+  "slug": "corrida-de-monte-real-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das freguesias de Monte Real e Carvide",
+  "district_code": 10
+}

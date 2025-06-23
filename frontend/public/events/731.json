@@ -1,0 +1,29 @@
+{
+  "id": 731,
+  "name": "TRAILRUNING Bombeiros de Messines",
+  "location": "Messines Messines, Faro",
+  "coordinates": {
+    "lat": 37.2568841,
+    "lon": -8.2862187
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f5cd3f400514fbbdf1d8e21d7e543c23"
+  ],
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-02",
+  "circuit": [],
+  "description": "<p><span class=\"ed-titulo\">ONDE?</span><br />\n<b>S.B. Messines</b>, Faro</p>\n<p><span class=\"ed-titulo\">QUANDO?</span><br />\nDomingo, 01 de Março de 2020 às 09:00<br />\n<b>Pagamentos até:</b> Terça, 25 de Fevereiro de 2020 às 23:59</p>\n<p><span class=\"ed-titulo\">QUANTO?</span></p>\n<table class=\"evento-preco-table\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>INSCRIÇÃO<br />\n<span class=\"preco\">€<b> 12.00</b></span></td>\n<td>ALMOçO<br />\n<span class=\"preco\">€ <b>6.00</b></span></td>\n<td>ACOMPANHANTES<br />\n<span class=\"preco\">€ <b>6.00</b></span></td>\n</tr>\n</tbody>\n</table>\n<p><span class=\"ed-titulo\">CONTACTOS DA ORGANIZAÇÃO</span><br />\n967594094</p>\n",
+  "description_short": "Trail desportivo em S. B. Messines, Faro, com almoço incluído",
+  "page": "https://www.acorrer.pt/eventos/info/2426",
+  "slug": "trail-messines",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Silves",
+  "administrative_area_level_3": "São Bartolomeu de Messines",
+  "district_code": 8
+}

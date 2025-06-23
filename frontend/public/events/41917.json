@@ -1,0 +1,33 @@
+{
+  "id": 41917,
+  "name": "Grande Prémio de Santo António 2025",
+  "location": "Torres Novas, Santarém",
+  "coordinates": {
+    "lat": 39.478072,
+    "lon": -8.5404429
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/367d06f14d4b8b29dd00d839310f8126"
+  ],
+  "start_date": "2025-06-07",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p>O 46º Grande Prémio de S. António em atletismo a realizar no dia 07 de Junho de 2025 pelas 17h00m, tem como entidade organizadora, a União Desportiva e Recreativa da Zona Alta.</p>\n\n\n",
+  "description_short": "Tradicional Grande Prémio de S. António pela zona alta da cidade no início do verão",
+  "page": "https://www.queroir.pt/gpsantoantonio2025",
+  "slug": "grande-premio-de-santo-antonio-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

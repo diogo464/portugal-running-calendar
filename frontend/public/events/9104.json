@@ -1,0 +1,32 @@
+{
+  "id": 9104,
+  "name": "Grande Prémio de Atletismo A-do-Barbas 2021",
+  "location": "Maceira, Leiria",
+  "coordinates": {
+    "lat": 39.685696,
+    "lon": -8.8841275
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/384a6a16862b318b02f0f094671f5763"
+  ],
+  "start_date": "2021-12-08",
+  "end_date": "2021-12-09",
+  "circuit": [],
+  "description": "\n<p>O Centro Popular e Recreativo de A-do-Barbas, em coorganização com a Associação de Atletismo de Leiria – ADAL, com o apoio da Câmara Municipal de Leiria e Junta de Freguesia de Maceira, organiza no dia 08 de dezembro de 2021, pelas 9:30h a 30ª edição de uma prova de estrada denominada “Grande Prémio de Atletismo de A-do-Barbas 2021 (Memorial Fernando Figueiredo”).</p>\n",
+  "description_short": "Trigésima edição de prova de estrada tradicional em A-do-Barbas, homenageando Fernando Figueiredo",
+  "page": "https://www.recordepessoal.pt/evento/30grandeprmiodeatletismoa-do-barbas",
+  "slug": "grande-premio-de-atletismo-a-do-barbas-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Maceira",
+  "district_code": 10
+}

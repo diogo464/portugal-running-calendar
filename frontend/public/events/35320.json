@@ -1,0 +1,30 @@
+{
+  "id": 35320,
+  "name": "Vadia Solidária 2024",
+  "location": "Oliveira de Azeméis, Aveiro",
+  "coordinates": {
+    "lat": 40.839305,
+    "lon": -8.4770079
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/5fe400d50b86554e98bdb35409bb7b28"
+  ],
+  "start_date": "2024-06-09",
+  "end_date": "2024-06-10",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://stopandgo.net/events/vadia-solidaria-2024",
+  "slug": "vadia-solidaria-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "União das freguesias de Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail",
+  "district_code": 1
+}

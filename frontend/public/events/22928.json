@@ -1,0 +1,35 @@
+{
+  "id": 22928,
+  "name": "Trail dos Arrozais 2023",
+  "location": "Paradela, Águeda",
+  "coordinates": {
+    "lat": 40.5457426,
+    "lon": -8.4891626
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6cb516eba4305673a8500a91b36672ca"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>A Secção de Trail do Sport Clube Paradela, em parceria com o Município de Águeda organizará a primeira edição TRAIL DOS ARROZAIS, que decorrerá no dia 24 de Setembro de 2023. </p>\n\n\n\n<p>O evento incluirá o Trail Longo, Trail Curto e Caminhada dos Arrozais.<br>Com início no Largo da Igreja de S. Pedro, no centro de Paradela (Rua da Lavoura), Freguesia de Recardães e Espinhel, no Concelho de Águeda (coordenadas GPS 40o 32’ 47.54” N 008o 29’ 11.81” W), esta será uma prova circular (início e término no mesmolocal).</p>\n\n\n\n<p><br>O evento terá as distâncias de 25Km, 15Km e uma Caminhada de 8km. Os participantes do TRAIL DOS ARROZAIS terão oportunidade de correr/caminhar na área patrimonial natural da União de Freguesias de Recardães e Espinhel, por trilhos inéditos, técnicos e estradão junto aos campos de arroz no vale do Rio Cértima. Em simultâneo com as provas de competição, realizar-se-á uma caminhada de dificuldade fácil e carácter não competitivo</p>\n",
+  "description_short": "Trail técnico por arrozais no vale do Rio Cértima em Águeda",
+  "page": "https://lap2go.com/pt/event/trail-dos-arrozais-2023",
+  "slug": "trail-dos-arrozais-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Recardães e Espinhel",
+  "district_code": 1
+}

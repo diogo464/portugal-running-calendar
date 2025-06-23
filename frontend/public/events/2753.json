@@ -1,0 +1,38 @@
+{
+  "id": 2753,
+  "name": "Ultra Madeira 2021",
+  "location": "Funchal, Madeira",
+  "coordinates": {
+    "lat": 32.6506129,
+    "lon": -16.9082357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    310,
+    350,
+    1360,
+    3800,
+    8000,
+    17000,
+    30000,
+    85000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3416fe4790c09cfe1294d64b114392f9"
+  ],
+  "start_date": "2021-10-02",
+  "end_date": "2021-10-03",
+  "circuit": [],
+  "description": "\n<p>A 5ª edição do“ULTRA MADEIRA” decorrerá nos dias 2 e 3 de outubro de 2021. Este evento será a penúltima prova do CIRCUITO TRAIL MADEIRA, época 2020-21.</p>\n\n\n\n<p>O evento integra 4 provas:</p>\n\n\n\n<p><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"📈\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1/1/16/1f4c8.png\">&nbsp;ULTRA MADEIRA – 85 km e 3800 m D+<br><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"📈\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1/1/16/1f4c8.png\">&nbsp;TRAIL 30K –30 km e 1360 m D+<br><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"📈\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1/1/16/1f4c8.png\">&nbsp;TRAIL 17K – 17 km e 350 m D+<br><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"📈\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1/1/16/1f4c8.png\">&nbsp;MINI TRAIL – 8 km e 310 m D+</p>\n",
+  "description_short": "Trail desafiante pela paisagem montanhosa da Madeira com quatro provas de diferentes distâncias",
+  "page": "https://www.ultratrailmadeiraisland.com",
+  "slug": "ultra-madeira-2021",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

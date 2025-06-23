@@ -1,0 +1,33 @@
+{
+  "id": 39098,
+  "name": "A Milha APCL 2025",
+  "location": "Odivelas, Lisboa",
+  "coordinates": {
+    "lat": 38.7928952,
+    "lon": -9.183161499999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "kids",
+    "Milha"
+  ],
+  "images": [
+    "media/44e5a9578551a442f276fe69f5b96a2c"
+  ],
+  "start_date": "2025-01-12",
+  "end_date": "2025-01-12",
+  "circuit": [],
+  "description": "\n<p>A APCL (Associação de Paralisia Cerebral de Lisboa) CJAP (Centro José Azeredo de Perdigão), Odivelas, em parceria com a Câmara Municipal de Odivelas, organiza uma prova de atletismo denominada “1ª Corrida Solidária: A Milha APCL&#8221;, no dia 12 de janeiro de 2025 entre as 9h30 e as 12h30, integrada no 13º aniversário do CJAP.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária da APCL em Odivelas para apoiar pessoas com paralisia cerebral",
+  "page": "https://werun.pt/eventos/a-milha-apcl/",
+  "slug": "a-milha-apcl-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Odivelas",
+  "administrative_area_level_3": "Odivelas",
+  "district_code": 11
+}

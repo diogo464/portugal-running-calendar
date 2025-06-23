@@ -1,0 +1,30 @@
+{
+  "id": 36084,
+  "name": "GP São Paio de Oleiros 2024",
+  "location": "São Paio de Oleiros, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9890047,
+    "lon": -8.5968868
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/224181fe45b7d0cf193c6ff645d7f540"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-08",
+  "circuit": [],
+  "description": "\n<p>Vai para a estrada mais uma prova a contar para o calendário de provas de estrada de Santa Maria da Feira. Desta vez, pela mão do G.D. de S. Paio de Oleiros, acontecerá a 34ª edição do Grande Prémio local, uma das mais antigas provas da região</p>\n\n\n",
+  "description_short": "Prova clássica de ciclismo em estrada na região de Santa Maria da Feira",
+  "page": "https://lap2go.com/pt/event/gp-paio-oleiros-2024",
+  "slug": "gp-sao-paio-de-oleiros-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "São Paio de Oleiros",
+  "district_code": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": 40573,
+  "name": "Furnas Nigth Trail 2025",
+  "location": "Ponta Delgada, Ilha de São Miguel",
+  "coordinates": {
+    "lat": 37.7394207,
+    "lon": -25.6686725
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/03ef0ad31dd9264d0bbb32afb5c2bc11"
+  ],
+  "start_date": "2025-06-14",
+  "end_date": "2025-06-14",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Furnas Night Trail é um evento de Trail Running realizado na ilha de São Miguel e, na sua 1ª edição, deixou a sua marca, destacando-se pela diferença quer em termos de animação, percursos e promover a sustentabilidade ambiental e divulgar a cultura e os territórios do concelho da Povoação.</p>\n\n\n",
+  "description_short": "Trail noturno desafiante pelas paisagens únicas das Furnas em São Miguel, com foco na sustentabilidade e cultura local",
+  "page": "https://lap2go.com/pt/event/furnas-night-trail-2025",
+  "slug": "furnas-nigth-trail-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "São Miguel",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

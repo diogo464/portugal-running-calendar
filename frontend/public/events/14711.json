@@ -1,0 +1,33 @@
+{
+  "id": 14711,
+  "name": "Trail Trilhos Romanos 2022",
+  "location": "Bárrio, Alcobaça",
+  "coordinates": {
+    "lat": 39.561667,
+    "lon": -9.0185348
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    12000,
+    18000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2779f4ab3422b09dc3bc39bcfddb7626"
+  ],
+  "start_date": "2022-05-29",
+  "end_date": "2022-05-30",
+  "circuit": [],
+  "description": "\n<p>A <strong>Junta de Freguesia do Bárrio,</strong> concelho de Alcobaça, no próximo dia <strong>29 de Maio de 2022</strong>, dia do aniversário da freguesia, levará a cabo a organização da <strong>1ª edição do Trail Trilhos Romanos</strong> 2022. O evento contará com duas provas competitivas, um Trail de 18 km, um Mini-trail de 12 km e uma Caminhada de 10 km, sem carater competitivo.</p>\n",
+  "description_short": "Trail histórico pelos caminhos romanos da freguesia do Bárrio em Alcobaça",
+  "page": "https://www.recordepessoal.pt/evento/trailtrilhosromanos",
+  "slug": "trail-trilhos-romanos-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Bárrio",
+  "district_code": 10
+}

@@ -1,0 +1,31 @@
+{
+  "id": 33442,
+  "name": "Fafe Trail Run 2024",
+  "location": "Fafe, Braga",
+  "coordinates": {
+    "lat": 41.4507439,
+    "lon": -8.1754442
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/6ca20d5f470d7ff24bb92a3ba40af8e4"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>A Caminhada da Primavera + FAFE TRAIL RUN &#8211; “À Conquista do Maroiço”, é respetivamente uma caminhada em montanha e uma prova de trail running que percorre trilhos, caminhos e estradões do concelho de Fafe, desenvolvendo-se maioritariamente na união de freguesias de Monte e Queimadela.</p>\n",
+  "description_short": "Prova de trail running e caminhada pelos trilhos e caminhos montanhosos de Fafe, com passagem por Monte e Queimadela",
+  "page": "https://lap2go.com/pt/event/fafe-trail-run-2024",
+  "slug": "fafe-trail-run-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Fafe",
+  "administrative_area_level_3": "Fafe",
+  "district_code": 3
+}

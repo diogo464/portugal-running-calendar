@@ -1,0 +1,32 @@
+{
+  "id": 17512,
+  "name": "14ª Meia Maratona do Concelho de Castro Marim 2022",
+  "location": "Castro Marim, Faro",
+  "coordinates": {
+    "lat": 37.2179422,
+    "lon": -7.4423339
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/a605510ce957e32c6b6b5064a6fb0f45"
+  ],
+  "start_date": "2022-11-01",
+  "end_date": "2022-11-02",
+  "circuit": [],
+  "description": "\n<p>O CLUBE RECREATIVO ALTURENSE vai levar a efeito no dia 01, de novembro de 2022, pelas 09:15 Horas, a 14ª Meia Maratona do Concelho de Castro Marim.</p>\n",
+  "description_short": "Meia maratona tradicional no Algarve pelo Clube Recreativo Alturense em Castro Marim",
+  "page": "https://www.crono.aaalgarve.org/eventos/14-meia-maratona-do-concelho-de-castro-marim-2022",
+  "slug": "14a-meia-maratona-do-concelho-de-castro-marim-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Castro Marim",
+  "administrative_area_level_3": "Castro Marim",
+  "district_code": 8
+}

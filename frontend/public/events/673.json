@@ -1,0 +1,29 @@
+{
+  "id": 673,
+  "name": "Trail do Capitão",
+  "location": "Paredes, Porto",
+  "coordinates": {
+    "lat": 41.2051674,
+    "lon": -8.3303867
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/828b6080dd49dddcc09f36b8a0617d5c"
+  ],
+  "start_date": "2020-01-25",
+  "end_date": "2020-01-26",
+  "circuit": [],
+  "description": "<p>O Grupo Desportivo da Portela, com o apoio da Câmara Municipal de Paredes, da Junta de Freguesia de Rebordosa e da Associação Amigos do Trail, vai organizar, no dia 25 de janeiro de 2020, o II Trail do Capitão, uma prova que percorre trilhos e caminhos das freguesias de Rebordosa, Vandoma e Baltar do concelho de Paredes. A correr ou a caminhar, vem conhecer e divertir-te nesses trilhos.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos tradicionais das freguesias de Paredes",
+  "page": "https://www.prozis.com/pt/pt/evento/ii-trail-do-capitao",
+  "slug": "trail-do-capitao",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Paredes",
+  "district_code": 13
+}

@@ -1,0 +1,38 @@
+{
+  "id": 29160,
+  "name": "Grande Prémio Natal 2023",
+  "location": "Benfica, Lisboa",
+  "coordinates": {
+    "lat": 38.7510519,
+    "lon": -9.2026693
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    1000,
+    1800,
+    4000,
+    8000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/547223cad4e0151d27761238f5c374ff"
+  ],
+  "start_date": "2023-12-10",
+  "end_date": "2023-12-11",
+  "circuit": [],
+  "description": "\n<p>No dia 10 de dezembro de 2023 irá realizar-se o 64º Grande Prémio Natal, que se caracteriza por ser realizado na quadra natalícia, pelo percurso fácil que atravessa as principais artérias da cidade de Lisboa.<br>É um evento de corrida de estrada, com a distância de 10.000 metros, uma caminhada de cerca de 4.000 metros e outras corridas juvenis com distâncias ajustadas a cada idade.</p>\n\n\n\n<p>O 64º Grande Prémio de Natal é um evento da Associação de Atletismo de Lisboa, sendo promovido e organizado pela Last Lap Eventos Lda.</p>\n\n\n\n<p></p>\n\n\n\n<h3 class=\"wp-block-heading\">Provas</h3>\n\n\n\n<h4 class=\"wp-block-heading\">GP Natal &#8211; Corrida 10km</h4>\n\n\n\n<p><br>A partida será dada em “Benfica” em contra mão, na Avenida Lusíada (no enfiamento da estação de metro Alto dos Moinhos) seguindo em mão pela Avenida Marechal Teixeira Rebelo; seguindo á direita para a Estrada da Correia, novamente à direita para a Rua Maria Brown, Rua da Fonte, Largo da Luz<br>(contornando todo o Largo da Luz em contramão), direita Estrada da Luz. Entra à esquerda na Travessa da Luz, direita Rua Fernando Namora, esquerda Rua Professor Viera de Almeida, direita Rua Professor Fernando da Fonseca, Rua Francisco Stromp, direita Rua Cipriano Dourado, passam a Avenida Marechal<br>Craveiro Lopes, Campo Grande, Avenida da República, Saldanha, Avenida Fontes Pereira de Melo e terminam no anel exterior da Rotunda da Praça Marquês de Pombal (no enfiamento do acesso ao parque estacionamento Empark).</p>\n\n\n\n<p></p>\n\n\n\n<h4 class=\"wp-block-heading\">GP Natal &#8211; Caminhada + Escalão Juvenis 4km</h4>\n\n\n\n<p><br>A partida será dada no “Campo Grande” (lado norte, no enfiamento do Museu de Lisboa) onde seguirá pelo Campo Grande, Avenida da República, Saldanha, Avenida Fontes Pereira de Melo e terminam no anel exterior da Rotunda da Praça Marquês de Pombal (no enfiamento do acesso ao parque estacionamento Empark).</p>\n\n\n\n<p></p>\n\n\n\n<h4 class=\"wp-block-heading\">GP Natal Jovem – Escalão Iniciados 1,8km</h4>\n\n\n\n<p>A partida será dada na “Avenida da Republica” (no cruzamento com a Avenida Elias Garcia) onde seguirá em direção ao Saldanha, Avenida Fontes Pereira de Melo e terminam no anel exterior da Rotunda da Praça Marquês de Pombal (no enfiamento do acesso ao parque estacionamento Empark).</p>\n\n\n\n<h4 class=\"wp-block-heading\">GP Natal Jovem – Escalão Infantis 1km</h4>\n\n\n\n<p>A partida será dada na “Praça Duque de Saldanha” onde seguirá em direção à Avenida Fontes Pereira de Melo e terminam no anel exterior da Rotunda da Praça Marquês de Pombal (no enfiamento do acesso ao parque estacionamento Empark).</p>\n\n\n\n<p><br></p>\n",
+  "description_short": "Corrida de Natal tradicional por Lisboa, atravessando várias artérias da cidade com final na Rotunda Marquês de Pombal",
+  "page": "https://lap2go.com/pt/event/grande-premio-de-natal-lisboa-2023",
+  "slug": "grande-premio-natal-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Benfica",
+  "district_code": 11
+}

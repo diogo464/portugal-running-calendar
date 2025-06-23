@@ -1,0 +1,31 @@
+{
+  "id": 38348,
+  "name": "Noctis Trail Noturno 2024",
+  "location": "Águeda, Leiria",
+  "coordinates": {
+    "lat": 40.5754246,
+    "lon": -8.446436799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bb8e201b128fd2c2d9df90922b231a27"
+  ],
+  "start_date": "2024-12-14",
+  "end_date": "2024-12-15",
+  "circuit": [],
+  "description": "\n<p>O NOCTIS TRAIL 24 é um convívio desportivo noturno, nas vertentes de Trail e Caminhada, a realizar no dia 14 de dezembro de 2024, com partida às 17h no Instituto Duarte de Lemos, situado em Trofa do Vouga. É organizado pela associação VOUGAVIDA e com o apoio do Instituto Duarte de Lemos, da União de Freguesias de Trofa, Segadães e Lamas do Vouga e da Câmara Municipal de Águeda. Os trajetos percorrerão alguns locais e lugares circundantes à respetiva União de Freguesias explorando algumas das suas ruas e respetivos espaços naturais.</p>\n",
+  "description_short": "Trail nocturno pela região de Águeda com partida em Trofa do Vouga",
+  "page": "https://lap2go.com/pt/event/net24-nature-epic-trail-2024",
+  "slug": "noctis-trail-noturno-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Águeda e Borralha",
+  "district_code": 1
+}

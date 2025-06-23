@@ -1,0 +1,34 @@
+{
+  "id": 33709,
+  "name": "NEG Run 2024",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/7ff16133392247162d54d0967afe9916"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-17",
+  "circuit": [],
+  "description": "\n<p>A organização da NEG Run está ao encargo do NEG/AAC &#8211; Núcleo de Estudantes de Gestão da Associação de Coimbra. O NEG/AAC é uma associação estudantil sem fins lucrativos e integra 1 dos 4 núcleos da Faculdade de Economia da Universidade de Coimbra, tendo como principal objetivo, lutar pelos direitos dos estudantes que representa. Sendo um dos 26 Núcleos de Estudantes que integram a Associação Académica de Coimbra (AAC), apresenta um longo historial de credibilidade ecompetência que nos orgulha enquanto estudantes de Gestão da tão antiga e especial Universidade de Coimbra</p>\n\n\n\n<p>Será realizada uma corrida de 10 km, cronometrada com recurso a tecnologia da responsabilidade da Acorrer, para fins competitivos e lúdicos. Quem pretender, poderá fazer um trajeto de 5 km de caminhada que ocorrerá simultaneamente à corrida, para fins lúdicos.</p>\n\n\n\n<p>Corrida 10 km: dia 17 de Março, domingo, às 10h, com partida e chegada na cidade de Coimbra.</p>\n\n\n\n<p>Caminhada 5 km: dia 17 de Março, domingo, às 10h, com partida e chegada na cidade de Coimbra.</p>\n\n\n",
+  "description_short": "Corrida e caminhada solidária organizada por estudantes de Gestão da Universidade de Coimbra",
+  "page": "https://acorrer.pt/eventos/info/3419",
+  "slug": "neg-run-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

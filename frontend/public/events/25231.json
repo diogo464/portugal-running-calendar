@@ -1,0 +1,32 @@
+{
+  "id": 25231,
+  "name": "Great North Run 2023",
+  "location": "Newcastle, Reino Unido",
+  "coordinates": {
+    "lat": 54.978252,
+    "lon": -1.61778
+  },
+  "country": "Reino Unido",
+  "locality": "Inglaterra",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/b710abef3ad3d3b7d5a9c5cfafd8f669"
+  ],
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-11",
+  "circuit": [],
+  "description": "\n<p>Famosa pela sua atmosfera inclusiva, entretenimento imbatível no percurso e boas-vindas calorosas de Geordie, sem mencionar os milhões arrecadados todos os anos para causas dignas, a mágica do Great North Run pode ser difícil de entender &#8211; até que você a experimente por si mesmo .</p>\n\n\n\n<p>Não importa se estás a correr para bater o teu recorde pessoal, para arrecadar algum dinheiro para caridade ou simplesmente para uma cerveja no final, o que sabes é que tens a garantia de uma corrida como nenhuma outra &#8211; e uma sensação de linha de chegada que você nunca esquecer!</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona icónica no nordeste de Inglaterra com ambiente festivo e espírito solidário",
+  "page": "https://www.greatrun.org/events/great-north-run/",
+  "slug": "great-north-run-2023",
+  "administrative_area_level_1": "Inglaterra",
+  "administrative_area_level_2": "Tyne and Wear",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

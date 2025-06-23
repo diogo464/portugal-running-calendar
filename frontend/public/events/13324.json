@@ -1,0 +1,32 @@
+{
+  "id": 13324,
+  "name": "Corrida 4 Estações Venda da Luísa 2021",
+  "location": "Venda da Luísa, Condeixa",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/65a511504e066042c1241007c690bba6"
+  ],
+  "start_date": "2021-12-08",
+  "end_date": "2021-12-09",
+  "circuit": [],
+  "description": "\n<p>Corrida 4 Estações Venda da Luísa 2021 a 8 de Dezembro de 2021.</p>\n",
+  "description_short": "Trail temático pelas quatro estações na região da Venda da Luísa em Dezembro",
+  "page": "https://corrida4estacoesportugal.wordpress.com/",
+  "slug": "corrida-4-estacoes-venda-da-luisa-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

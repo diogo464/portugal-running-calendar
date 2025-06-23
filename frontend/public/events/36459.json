@@ -1,0 +1,37 @@
+{
+  "id": 36459,
+  "name": "São Silvestre El Corte Inglés 2024",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    500,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/6024d160e46d3e366cb9a66e84663eb1"
+  ],
+  "start_date": "2024-12-15",
+  "end_date": "2024-12-16",
+  "circuit": [],
+  "description": "\n<p>Em 2024, a prova que conta com o apoio de&nbsp;<strong>Record</strong>&nbsp;vai correr-se a 15 de dezembro (domingo) e com um percurso renovado, com partida e chegada no Saldanha, bem mais acessível aos novatos e também aos mais experientes. Será uma oportunidade de ouro para apreciar e viver a magia da quadra natalícia em pleno centro da capital ao final do dia.</p>\n\n\n\n<p><strong>DISTÂNCIAS/HORÁRIOS</strong></p>\n\n\n\n<p>» Corrida Crianças 500m&nbsp;</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>500m (2017 e mais novos) com partida às 18h00</li>\n\n\n\n<li>500m (2015 e 2016) com partida às 18h05</li>\n\n\n\n<li>500m (2013 e 2014) com partida às 18h10</li>\n\n\n\n<li>500m (2011 e 2012) com partida às 18h15</li>\n</ul>\n\n\n\n<p>» Corrida&nbsp;10km&nbsp;| 19h00&nbsp;</p>\n\n\n\n<p>» Caminhada 5km | 19h15&nbsp;</p>\n",
+  "description_short": "Corrida de Natal festiva no Saldanha com percurso renovado e ambiente natalício lisboeta",
+  "page": "https://xistarca.pt/eventos/sao-silvestre-el-corte-ingles-2024",
+  "slug": "sao-silvestre-el-corte-ingles-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

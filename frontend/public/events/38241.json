@@ -1,0 +1,34 @@
+{
+  "id": 38241,
+  "name": "O Natal Passa a Correr – CVP Frazão 2024",
+  "location": "Frazão, Paços de Ferreira",
+  "coordinates": {
+    "lat": 41.2595267,
+    "lon": -8.4019754
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    14000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6098557a2a40c606d3be83df995f482b"
+  ],
+  "start_date": "2024-12-26",
+  "end_date": "2024-12-27",
+  "circuit": [],
+  "description": "\n<p>A prova pretende dar a conhecer alguns locais da freguesia e freguesias vizinhas, potenciando a prática desportiva e tem um cariz solidário.</p>\n\n\n\n<p>Trail 14 km:<br>Caminhada 10 km;</p>\n\n\n",
+  "description_short": "Trail solidário por caminhos da região com objetivo de promover o desporto local",
+  "page": "https://www.sinctime.com/evento/304",
+  "slug": "o-natal-passa-a-correr-cvp-frazao-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paços de Ferreira",
+  "administrative_area_level_3": "Frazão Arreigada",
+  "district_code": 13
+}

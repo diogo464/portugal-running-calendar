@@ -1,0 +1,35 @@
+{
+  "id": 39828,
+  "name": "Trilhos do Pelourinho 2025",
+  "location": "Santiago do Cacém, Setúbal Setubal",
+  "coordinates": {
+    "lat": 38.0162314,
+    "lon": -8.6956768
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    14000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/1df07c4d466f279d81a67f8ad7a20390"
+  ],
+  "start_date": "2025-03-30",
+  "end_date": "2025-03-30",
+  "circuit": [],
+  "description": "\n<p>O evento é composto por dois percursos de caracter competitivo a decorrer em simultâneo, trilho curto com aproximadamente 14 km e trilho longo com 24 km. A caminhada de 10 km tem carácter de lazer.</p>\n\n\n",
+  "description_short": "Trail com dois percursos competitivos e caminhada de lazer na natureza",
+  "page": "https://acorrer.pt/eventos/info/3714",
+  "slug": "trilhos-do-pelourinho-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santiago do Cacém",
+  "district_code": 15
+}

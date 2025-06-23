@@ -1,0 +1,31 @@
+{
+  "id": 23409,
+  "name": "I Trail Medieval De Ourém 2023",
+  "location": "Ourém, Santarém",
+  "coordinates": {
+    "lat": 39.6564974,
+    "lon": -8.5773408
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/7e0a7ffe3985217db8b9b63c33e813b5"
+  ],
+  "start_date": "2023-06-03",
+  "end_date": "2023-06-04",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>G.C.D.R.Bairrense</strong>&nbsp;juntamente com a&nbsp;<strong>A.C.R.Outeiro das Matas</strong>&nbsp;e a equipa&nbsp;<strong>Serra D&#8217;Aire Trail Team</strong>, em parceria com a&nbsp;<strong>Junta de Freguesia Nossa Senhora das Misericórdias</strong>&nbsp;organizam a&nbsp;<strong>3 de junho de 2023</strong>&nbsp;a&nbsp;<strong>I Edição do Trail Medieval de Ourém</strong>.</p>\n\n\n\n<p>O Trail terá a distância de 15km, com início no Pavilhão Municipal do Caneiro e terminará no Castelo de Ourém.</p>\n\n\n",
+  "description_short": "Trail histórico com partida no Caneiro e chegada no icónico Castelo de Ourém, num percurso que celebra o ambiente medieval da região.",
+  "page": "https://www.recordepessoal.pt/evento/itrailmedievaldeourem",
+  "slug": "i-trail-medieval-de-ourem-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Olival",
+  "district_code": 14
+}

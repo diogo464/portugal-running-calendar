@@ -1,0 +1,30 @@
+{
+  "id": 41602,
+  "name": "Ste &#8211; Sintra Trail X´Treme 2025",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7dd48f268337d1ea52a6b24c01dd00bc"
+  ],
+  "start_date": "2025-09-07",
+  "end_date": "2025-09-08",
+  "circuit": [],
+  "description": "\n<p>O evento STE – CARAVELA SEGUROS SINTRA TRAIL X’TREME, contextualiza-se na vontade de<br>dar a possibilidade a todos os atletas de poder usufruir dos trilhos fantásticos da Serra de Sintra, num<br>percurso desenhado em 2014. Foi aperfeiçoado e adaptado para efeitos deste evento e inclui<br>passagens por propriedades privadas de inegável beleza, que de outra forma não seriam acessíveis<br>aos participantes.</p>\n",
+  "description_short": "Trail desafiante com percurso exclusivo por trilhos e propriedades privadas da Serra de Sintra",
+  "page": "https://stopandgo.net/events/ste-sintra-trail-xtreme-2025",
+  "slug": "ste-sintra-trail-xtreme-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

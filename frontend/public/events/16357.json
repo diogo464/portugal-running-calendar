@@ -1,0 +1,32 @@
+{
+  "id": 16357,
+  "name": "Corrida Volkswagen 2022",
+  "location": "Palmela",
+  "coordinates": {
+    "lat": 38.569441,
+    "lon": -8.9016937
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/be1f3fe013fb23532dca571dd8ecff4f"
+  ],
+  "start_date": "2022-10-05",
+  "end_date": "2022-10-06",
+  "circuit": [],
+  "description": "\n<p>As inscrições para a Corrida Volkswagen 2022 já estão abertas! Garante já o teu lugar na linha de partida e junta-te a nós no dia 5 de outubro.</p>\n",
+  "description_short": "Corrida urbana de outono promovida pela Volkswagen em Lisboa",
+  "page": "https://www.corridavolkswagen.pt/",
+  "slug": "corrida-volkswagen-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Palmela",
+  "administrative_area_level_3": "Palmela",
+  "district_code": 15
+}

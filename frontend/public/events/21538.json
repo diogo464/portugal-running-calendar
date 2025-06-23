@@ -1,0 +1,40 @@
+{
+  "id": 21538,
+  "name": "Lisbon ECO Marathon 2023",
+  "location": "Parque Eduardo Sétimo, Lisboa",
+  "coordinates": {
+    "lat": 38.7267017,
+    "lon": -9.1540483
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    3500,
+    5000,
+    12000,
+    21000,
+    21097,
+    42000,
+    42195
+  ],
+  "types": [
+    "run",
+    "marathon",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/8191e4a3157230f87d190197c75bf4bc"
+  ],
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-08",
+  "circuit": [],
+  "description": "\n<p>A prova desportiva Lisbon Eco Marathon terá lugar no dia 7 de maio de 2023.</p>\n\n\n\n<p>Devido a questões de logística a Lisbon Eco Marathon é limitada a 2000 lugares, no total das<br>quatro distâncias &#8211; Maratona 42km; Meia Maratona 21km; 12km e Caminhada<br>3,5km (aprox)</p>\n",
+  "description_short": "Maratona ecológica por Lisboa com percurso variado e número limitado de participantes",
+  "page": "https://stopandgo.net/events/lisbon-eco-marathon-2025",
+  "slug": "lisbon-eco-marathon-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Avenidas Novas",
+  "district_code": 11
+}

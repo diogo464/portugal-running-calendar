@@ -1,0 +1,29 @@
+{
+  "id": 33505,
+  "name": "GP Carnaval Alto do Moinho 2024",
+  "location": "Alto do Moinho, Corroios",
+  "coordinates": {
+    "lat": 38.6359573,
+    "lon": -9.1608722
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/67edc6bae215a5a48787eef263a47c00"
+  ],
+  "start_date": "2024-02-11",
+  "end_date": "2024-02-12",
+  "circuit": [],
+  "description": "\n<p>O CCR Alto do Moinho, vai realizar no dia 11 de fevereiro, pelas 09H30, mais uma edição da tradicional prova de atletismo que celebra o Carnaval e que este ano estará integrada nas comemorações do 50º aniversário do 25 de Abril, a mesma terá como padrinho o consagrado atleta Nelson Cruz.<br>A prova está integrada no Troféu de Atletismo do Seixal.</p>\n\n\n\n<p><br>Os primeiros 350 atletas a cortar a meta receberão uma t-shirt técnica.</p>\n\n\n\n<p><br>Reserva já esta data no teu calendário, vem participar na festa do atletismo. Esperamos por ti!<br>Inscrições: desporto@ccram.pt ou inscricoes.atletismo@cm-seixal.pt</p>\n\n\n",
+  "description_short": "Corrida de Carnaval no Seixal homenageia os 50 anos do 25 de Abril, com o atleta Nelson Cruz como padrinho",
+  "page": "https://ccram.pt/37o-gp-de-carnaval-do-alto-do-moinho/",
+  "slug": "gp-carnaval-dalto-do-moinho-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "Corroios",
+  "district_code": 15
+}

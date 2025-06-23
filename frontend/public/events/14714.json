@@ -1,0 +1,29 @@
+{
+  "id": 14714,
+  "name": "Trail Alte Algarve 2022",
+  "location": "Alte, Loulé",
+  "coordinates": {
+    "lat": 37.2361971,
+    "lon": -8.1763125
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/322be9ffc35c1409fe2832fb0268569d"
+  ],
+  "start_date": "2022-04-25",
+  "end_date": "2022-04-26",
+  "circuit": [],
+  "description": "\n<p>Trail Alte Algarve 2022</p>\n",
+  "description_short": "Trail desafiante pelas serras do Algarve interior com partida em Alte",
+  "page": "https://acorrer.pt/eventos/info/2899",
+  "slug": "trail-alte-algarve-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Alte",
+  "district_code": 8
+}

@@ -1,0 +1,37 @@
+{
+  "id": 36507,
+  "name": "Amazing Espite Trail 2025",
+  "location": "Espite, Ourém",
+  "coordinates": {
+    "lat": 39.7629395,
+    "lon": -8.6366807
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    19000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b77b1d2bfd5fb5cf454b666cadf9fdb0"
+  ],
+  "start_date": "2025-07-20",
+  "end_date": "2025-07-21",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O clube vai contar com o apoio da junta de freguesia de Espite, da câmara municipal de Ourém, do Bombeiros de Ourém – Secção de Espite e de todas as entidades que têm vindo apoiar o clube.<br></p>\n\n\n\n<p>Será realizado a 20 de julho de 2025 independentemente das condições climatéricas do dia desde que o organizador entenda que não há riscos acrescidos pelas mesmas para este tipo de eventos.<br>O evento é constituído por uma caminhada, por um Mini Trail (K10), por um Trail Sprint (K19) e por um Trail Longo s100 (K31).</p>\n\n\n\n<p><br></p>\n",
+  "description_short": "Trail diversificado em Ourém com apoio local, incluindo diferentes percursos para vários níveis de participantes",
+  "page": "https://stopandgo.net/events/the-v-amazing-espite-trail",
+  "slug": "amazing-espite-trail-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Espite",
+  "district_code": 14
+}

@@ -1,0 +1,34 @@
+{
+  "id": 36536,
+  "name": "Maratona do Porto 2024 WIP",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    42195
+  ],
+  "types": [
+    "run",
+    "10k",
+    "marathon"
+  ],
+  "images": [
+    "media/b656d973b30ebd7b8489443826ee18a5"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-04",
+  "circuit": [],
+  "description": "\n<p>A EDP Maratona do Porto com os seus 19 anos de vida, inicia a sua campanha de divulgação, com vista à 20ª. Edição, em 2024 a 3 de novembro, com início às 8h00, e tal como no passado, pretendemos fazer desta EDP Maratona do Porto, um evento de referência nacional e internacional.</p>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Ainda podes ganhar dorsais duplos para as melhores corridas</strong>!</h2>\n\n\n\n<IMG SRC=\"https://ad.doubleclick.net/ddm/trackimp/N1606021.5177411PORTUGALRUNNINGP/B32424798.400712229;dc_trk_aid=592297438;dc_trk_cid=219523879;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?\" attributionsrc BORDER=\"0\" HEIGHT=\"1\" WIDTH=\"1\" ALT=\"Advertisement\">\n\n\n\n\n<figure class=\"wp-block-image size-medium\"><img fetchpriority=\"high\" decoding=\"async\" width=\"300\" height=\"265\" src=\"https://www.portugalrunning.com/wp-content/uploads/2024/08/image-300x265.png\" alt=\"\" class=\"wp-image-36626\" srcset=\"https://www.portugalrunning.com/wp-content/uploads/2024/08/image-300x265.png 300w, https://www.portugalrunning.com/wp-content/uploads/2024/08/image.png 568w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></figure>\n\n\n\n<div class=\"wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size has-medium-font-size\"><a class=\"wp-block-button__link has-white-color has-luminous-vivid-amber-background-color has-text-color has-background has-link-color wp-element-button\" href=\"https://ad.doubleclick.net/ddm/trackclk/N1606021.5177411PORTUGALRUNNINGP/B32424798.400712229;dc_trk_aid=592297438;dc_trk_cid=219523879;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1\" style=\"border-style:none;border-width:0px\" target=\"_blank\" rel=\"noreferrer noopener\">Saber Mais</a></div>\n</div>\n\n\n\n<figure class=\"wp-block-video\"><video autoplay controls loop muted preload=\"auto\" src=\"https://www.portugalrunning.com/wp-content/uploads/2024/08/MARATONAS-OFERTA-DORSAIS_V2.mp4\" playsinline></video></figure>\n",
+  "description_short": "Maratona de referência nacional e internacional no Porto, celebrando a sua 20ª edição em novembro de 2024.",
+  "page": "https://www.maratonadoporto.com/",
+  "slug": "maratona-do-porto-2024-wip",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

@@ -1,0 +1,34 @@
+{
+  "id": 34005,
+  "name": "Trail Urbano Bombeiros Tavira 2024",
+  "location": "Tavira, Faro",
+  "coordinates": {
+    "lat": 37.1335906,
+    "lon": -7.643001899999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ab6c717e5c2c82e5be92e80dc3abadeb"
+  ],
+  "start_date": "2024-03-23",
+  "end_date": "2024-03-23",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Tavira organiza, no dia 23 de Março de 2024 a I “Trail” Urbano Bombeiros Tavira e uma caminhada, prova totalmente corrida em meio urbano na cidade de Tavira.</p>\n\n\n\n<p>Os atletas do “Trail” Urbano percorrerão 10 km e os atletas da caminhada irão percorrer 4 km.</p>\n\n\n",
+  "description_short": "Trail solidário pelos caminhos históricos de Tavira, organizado em homenagem aos bombeiros locais",
+  "page": "https://www.crono.aaalgarve.org/eventos/i-trail-urbano-bombeiros-tavira",
+  "slug": "trail-urbano-bombeiros-tavira-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Tavira",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

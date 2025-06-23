@@ -1,0 +1,34 @@
+{
+  "id": 18717,
+  "name": "Corrida Multicare Vitality 2022",
+  "location": "Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/f31e24bcd7e427e5cb2f4a593aaaad4e"
+  ],
+  "start_date": "2022-10-02",
+  "end_date": "2022-10-03",
+  "circuit": [],
+  "description": "\n\n\n<p>Dia 2 de Outubro, pelas 10h00 no Parque do Jamor, venha correr na prova de 5 ou 10 km, ou caminhe na prova de 5 km.</p>\n\n\n\n<p>Inscreva-se neste evento familiar, que tem como objetivo promover o desporto para uma vida mais saudável em todas as idades. Porque a saúde começa na prevenção e nas nossas rotinas diárias.</p>\n\n\n\n<p>Junte-se às nossas embaixadoras Patrícia Mamona e Isabel Silva e ao nosso convidado especial António Raminhos na 2ª edição da Corrida Multicare Vitality, no Parque do Jamor.</p>\n\n\n\n<p>No final, ganha a sua saúde e ganha quem mais precisa. O valor da sua inscrição (5€) reverte para a Associação SEMEAR e para o trabalho por esta desenvolvido na inclusão de pessoas com deficiência e na melhoria de qualidade de vida em todas as dimensões.</p>\n",
+  "description_short": "Corrida solidária no Parque do Jamor com causa social de inclusão e apoio a pessoas com deficiência",
+  "page": "https://corrida.multicarevitality.pt/site/",
+  "slug": "corrida-multicare-vitality-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

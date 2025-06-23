@@ -1,0 +1,29 @@
+{
+  "id": 11024,
+  "name": "Corrida do Fim da Europa 2022",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/299367b1f68aae9a15abff408e7c446f"
+  ],
+  "start_date": "2022-02-06",
+  "end_date": "2022-02-07",
+  "circuit": [],
+  "description": "<p>Uma das mais antigas e tradicionais provas nacionais, a Corrida Fim da Europa 2022 decorre numa das paisagens mais encantadoras de Portugal, a Vila de Sintra – Património Mundial da Unesco.<br />\nEsta beleza é comprovada pelo o facto de estar entre as 10 primeiras no livro World’s Ultimate Running Races, da Harper Collins Publishers, que destaca as 500 mais emblemáticas provas a nível mundial.</p>\n",
+  "description_short": "Corrida histórica por Sintra, vila Património Mundial com paisagem única",
+  "page": "https://www.fimdaeuropa.com/",
+  "slug": "corrida-do-fim-da-europa-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

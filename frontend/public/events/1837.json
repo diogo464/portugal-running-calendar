@@ -1,0 +1,32 @@
+{
+  "id": 1837,
+  "name": "Corrida da Liberdade Cidade da Maia 2020",
+  "location": "Maia, Porto",
+  "coordinates": {
+    "lat": 41.2326543,
+    "lon": -8.622938699999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/7a1b9994e36ab9270c7c15843c7ba00d"
+  ],
+  "start_date": "2020-04-18",
+  "end_date": "2020-04-19",
+  "circuit": [],
+  "description": "<p align=\"justify\">Vem participar na corrida da marginal.</p>\n<p align=\"justify\">Contamos contigo.</p>\n",
+  "description_short": "Corrida pela marginal com vista para o mar",
+  "page": "https://www.prozis.com/pt/pt/evento/corrida-da-liberdade-cidade-da-maia-2020",
+  "slug": "corrida-da-liberdade-cidade-da-maia-2020",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Maia",
+  "administrative_area_level_3": "Cidade da Maia",
+  "district_code": 13
+}

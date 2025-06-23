@@ -1,0 +1,35 @@
+{
+  "id": 29471,
+  "name": "São Silvestre Cocheiros &#038; Comp.ª 2023",
+  "location": "Santo Aleixo da Restauração, Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/712235b860b0ceac94b84a89c68f2816"
+  ],
+  "start_date": "2023-12-30",
+  "end_date": "2023-12-31",
+  "circuit": [],
+  "description": "\n<p>Prova desportiva constituída por dois percursos: Corrida 10 Kms (com contagem e divulgação de tempos) e Caminhada 5 km (sem contagem de tempos);</p>\n\n\n",
+  "description_short": "Corrida e caminhada pela cidade com dois percursos distintos",
+  "page": "https://acorrer.pt/eventos/info/3333",
+  "slug": "sao-silvestre-cocheiros-comp-a-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

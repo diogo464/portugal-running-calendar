@@ -1,0 +1,32 @@
+{
+  "id": 954,
+  "name": "Trilhos de São Barbabé 2020",
+  "location": "Vouzela, Viseu",
+  "coordinates": {
+    "lat": 40.7229086,
+    "lon": -8.1122167
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    18000,
+    45000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e4b0fe22b31be03794627e4e7741b52b"
+  ],
+  "start_date": "2020-06-13",
+  "end_date": "2020-06-14",
+  "circuit": [],
+  "description": "<p>Os Trilhos de São Barbabé é um evento composto por dois percursos, um com 45 km e pontuável para o campeonato nacional Atrp, sendo uma etapa em linha com partida na praia fluvial de campia e chegada a Vouzela, eo  segundo percurso de 18 km é circular com partida e chegada a Vouzela.</p>\n",
+  "description_short": "Trail desafiante pela região de Vouzela com etapa competitiva para o campeonato nacional",
+  "page": "https://stopandgo.com.pt/events/trilhos-sa-o-barnabe-",
+  "slug": "trilhos-de-sao-barbabe-2020",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vouzela",
+  "administrative_area_level_3": "Vouzela",
+  "district_code": 18
+}

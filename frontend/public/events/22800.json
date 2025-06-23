@@ -1,0 +1,34 @@
+{
+  "id": 22800,
+  "name": "Corrida Dos Viriatos 2023",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    5000,
+    11500,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/999095ce95b1067e5130efa0dc58f992"
+  ],
+  "start_date": "2023-03-25",
+  "end_date": "2023-03-26",
+  "circuit": [],
+  "description": "\n<p>Integrada no programa desportivo do Dia da Unidade do Regimento de Infantaria 14, faz o Comando da referida Unidade disputar, no dia 25 de março de 2023, sábado, a prova Corrida Dos Viriatos.<br>A corrida será realizada num circuito urbano em linha pelas ruas da cidade de Viseu numa distância de 11,5 Km (masculinos / femininos), com partida junto ao monumento a Viriato e término no RI 14.</p>\n\n\n",
+  "description_short": "Corrida histórica por Viseu homenageando Viriato com partida junto ao monumento do herói lusitano",
+  "page": "https://stopandgo.net/event/?id=998",
+  "slug": "corrida-dos-viriatos-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

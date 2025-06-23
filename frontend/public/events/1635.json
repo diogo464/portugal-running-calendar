@@ -1,0 +1,29 @@
+{
+  "id": 1635,
+  "name": "TRILHOS SÃO BARNABÉ 2020",
+  "location": "Praia fluvial de Campia",
+  "coordinates": {
+    "lat": 40.67035449999999,
+    "lon": -8.2121549
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d01ed91b3ef99a0d15e43793721321fd"
+  ],
+  "start_date": "2020-06-13",
+  "end_date": "2020-06-14",
+  "circuit": [],
+  "description": "<p>O Trilhos São Barnabé é um evento competitivo de Trail organizado pela Spotcriativo Eventos em conjunto com a equipa Viseu Running Team e com o apoio institucional e logístico do município de Vouzela a realizar no dia 13 de Junho de 2020.</p>\n",
+  "description_short": "Trail desafiante pela região de Vouzela com organização da Spotcriativo e Viseu Running Team",
+  "page": "https://stopandgo.com.pt/events/trilhos-sa-o-barnabe-/",
+  "slug": "trilhos-sa%cc%83o-barnabe-2020",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vouzela",
+  "administrative_area_level_3": "Campia",
+  "district_code": 18
+}

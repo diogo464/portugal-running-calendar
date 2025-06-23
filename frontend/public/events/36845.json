@@ -1,0 +1,37 @@
+{
+  "id": 36845,
+  "name": "São Silvestre de Vila Real de Santo António 2024",
+  "location": "Vila Real de Santo António, Faro",
+  "coordinates": {
+    "lat": 37.1937766,
+    "lon": -7.420787899999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    350,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/40be473fb5e17b3afa726e4b218c24bd"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-07",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre de Vila Real de Santo António &#8211; Monte Gordo, será organizada pelo Jardim Funcional VRSA – Associação Desportiva e pelo Município de Vila Real de Santo António.</p>\n\n\n\n<p>17:30 &#8211; São Silvestre KIDS (350 Metros) – Escalão de Sub-10 e Sub-12.<br>18h00 Corrida São Silvestre (10 Km).<br>18h05 Caminhada (5 Km).</p>\n\n\n",
+  "description_short": "São Silvestre festiva no Algarve com provas para diferentes idades junto à costa",
+  "page": "https://www.crono.aaalgarve.org/eventos/sao-silvestre-de-vila-real-santo-antonio-monte-gordo",
+  "slug": "sao-silvestre-de-vila-real-de-santo-antonio-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Vila Real de Santo António",
+  "administrative_area_level_3": "Vila Real de Santo António",
+  "district_code": 8
+}

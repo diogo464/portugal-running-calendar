@@ -1,0 +1,36 @@
+{
+  "id": 33294,
+  "name": "São Silvestre Gondomar 2024",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/1fb5b0c884930ca94695005b6233104f"
+  ],
+  "start_date": "2024-12-14",
+  "end_date": "2024-12-15",
+  "circuit": [],
+  "description": "\n<p>No dia 14 de Dezembro de 2024, pelas 21h00, o Município de Gondomar recebe a 8ª edição São Silvestre Gondomar. Com mais de 90 anos de história, esta temática foi inspirada numa corrida noturna onde os atletas corriam pela cidade com tochas acesas nas mãos, é considerada uma das mais míticas corridas do mundo e pretende-se que se torne num símbolo desportivo do município.</p>\n\n\n\n<p>Tem um percurso citadino que passa por alguns dos pontos de interesse mais conhecidos de Gondomar, com partida e chegada junto da Câmara Municipal de Gondomar, a prova é ideal para todos os amantes da corrida mas também para todos os entusiastas de desporto. A prova será composta por uma Corrida de 10 Km com carácter competitivo e por uma Caminhada de 4 Km.</p>\n",
+  "description_short": "Trail nocturno tradicional por Gondomar com passagem por locais emblemáticos",
+  "page": "https://8saosilvestregondomar.eventsport.net/",
+  "slug": "sao-silvestre-gondomar-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

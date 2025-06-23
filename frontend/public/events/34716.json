@@ -1,0 +1,31 @@
+{
+  "id": 34716,
+  "name": "Epic Trail Azores 2024",
+  "location": "Ponta Delgada, Açores",
+  "coordinates": {
+    "lat": 37.7394207,
+    "lon": -25.6686725
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4cd40cdf8727c2f1bbe49ad368316007"
+  ],
+  "start_date": "2024-12-06",
+  "end_date": "2024-12-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O EPIC Trail Run Azores by decathlon (9ª edição) é um evento certificado pela Internacional Trail Run association (ITRA), pela UTMB world series, pela Associação Trail Running Portugal (ATRP) e faz parte do Circuito de Trail São Miguel (AASM). É constituído por 4 provas e que tem por base a corrida em trilhos (trail running) e decorrerá entre os dias 06 e 07 de dezembro de 2024 na Ilha de São Miguel &#8211; Açores percorrendo os concelhos de Lagoa, Vila Franca do Campo, Nordeste e Povoação.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos da ilha de São Miguel nos Açores com etapas em diferentes concelhos",
+  "page": "https://stopandgo.net/events/epic-azores-by-decathlon-2024",
+  "slug": "epic-trail-azores-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "São Miguel",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

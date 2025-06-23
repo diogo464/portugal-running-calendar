@@ -1,0 +1,30 @@
+{
+  "id": 34395,
+  "name": "Trail do Mouro &#8211; Alcobertas 2024",
+  "location": "Rio Maior, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/63d4197d3ee658ab262175b8abeb2b8b"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-20",
+  "circuit": [],
+  "description": "\n<p>O evento conta com a organização do&nbsp;<strong>Agrupamento de Escuteiros 1187 de Alcobertas&nbsp;</strong>em conjunto com a&nbsp;<strong>Junta de Freguesia de Alcobertas</strong>, inserido nas comemorações da elevação de Alcobertas a Vila.</p>\n\n\n\n<p>O&nbsp;<strong>Trail de Alcobertas é uma Prova de TrailRunning,</strong>&nbsp;realizada em troços rurais e florestais, por trilhos sinalizados, em piso acidentado, estradões e obstáculos naturais, na Serra dos Candeeiros.</p>\n",
+  "description_short": "Trail desafiante pela Serra dos Candeeiros, organizado pelos Escuteiros de Alcobertas",
+  "page": "https://www.recordepessoal.pt/evento/6traildomouro-alcobertas",
+  "slug": "trail-do-mouro-alcobertas-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

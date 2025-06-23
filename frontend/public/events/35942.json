@@ -1,0 +1,35 @@
+{
+  "id": 35942,
+  "name": "Trail de Ficalho 2024",
+  "location": "Vila Verde de Ficalho, Serpa",
+  "coordinates": {
+    "lat": 37.9307792,
+    "lon": -7.3192542
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    17000,
+    32000,
+    50000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/4c5830209e0343ea8e457cc2c17dcc90"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-04",
+  "circuit": [],
+  "description": "\n<p>A IV edição do Trail de Ficalho integra as seguintes distâncias:<br>a) &#8211; Trail Ultra &#8211; 50 Km<br>b) &#8211; Trail &#8211; 32 Km<br>c) – Trail Sprint – 17 Km<br>c) &#8211; Caminhada/Minitrail 10 km, sem vertente competitiva.</p>\n",
+  "description_short": "Trail desafiante pela zona rural de Ficalho com diferentes percursos de montanha",
+  "page": "https://acorrer.pt/eventos/info/3578",
+  "slug": "trail-de-ficalho-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Serpa",
+  "administrative_area_level_3": "Vila Verde de Ficalho",
+  "district_code": 2
+}

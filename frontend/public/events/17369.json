@@ -1,0 +1,33 @@
+{
+  "id": 17369,
+  "name": "I Trail Caminhos da Artilharia 2022",
+  "location": "Vendas Novas, Évora",
+  "coordinates": {
+    "lat": 38.6768924,
+    "lon": -8.4633558
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    5000,
+    12000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/71e872f919c815632262c647f0007c87"
+  ],
+  "start_date": "2022-09-10",
+  "end_date": "2022-09-11",
+  "circuit": [],
+  "description": "\n<p>Integrado nas Comemorações 60º Aniversário do Concelho de Vendas Novas o Município de Vendas Novas vai organizar o 1º Trail “Caminhos da Artilharia” com as provas, trail longo, trail curto e uma caminhada. Partida e chegada no recinto das festas na parada D. Pedro V do Regimento de Artilharia nº 5 (junto à Câmara Municipal de Vendas Novas).</p>\n\n\n\n<p>Programa / Horário:</p>\n\n\n\n<p>16h30 &#8211; Partida K20+<br>17h00 &#8211; Partida K12+<br>17h30 &#8211; Partida Caminhada 5km<br>19h00 &#8211; Entrega prevista dos troféus</p>\n",
+  "description_short": "Trail comemorativo pelos caminhos históricos do Regimento de Artilharia em Vendas Novas",
+  "page": "https://werun.pt/eventos/1-trail-caminhos-da-artilharia/",
+  "slug": "i-trail-caminhos-da-artilharia-2022",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Vendas Novas",
+  "administrative_area_level_3": "Vendas Novas",
+  "district_code": 7
+}

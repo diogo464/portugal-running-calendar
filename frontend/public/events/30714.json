@@ -1,0 +1,32 @@
+{
+  "id": 30714,
+  "name": "Sintra Trail Monte da Lua 2024",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7d049eacd0709d1c8476c30a994452f5"
+  ],
+  "start_date": "2024-04-07",
+  "end_date": "2024-04-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": null,
+  "slug": "sintra-trail-monte-da-lua-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

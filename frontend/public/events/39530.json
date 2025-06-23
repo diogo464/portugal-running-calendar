@@ -1,0 +1,33 @@
+{
+  "id": 39530,
+  "name": "Mini Maratona de Lisboa 2025",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    8000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/a0e7722f63b8cc7ca07da846989c85f9"
+  ],
+  "start_date": "2025-10-26",
+  "end_date": "2025-10-27",
+  "circuit": [],
+  "description": "\n<p>A EDP 8K é umas das mais populares provas nacionais, com a partida localizada na Ponte Vasco da Gama e a meta no Parque das Nações.</p>\n\n\n\n<p>Com partida em simultâneo com a Hyundai Meia Maratona, esta prova oferece aos seus participantes um dia diferente e percorrer a pé parte da Ponte Vasco da Gama com uma vista única do rio Tejo e da cidade de Lisboa.</p>\n\n\n\n<p>VIDEO DA PROVA de 2022</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"zak-oembed-container\"><iframe title=\"Atletismo: Meia e Mini Maratona de Lisboa - 09/10/2022\" width=\"812\" height=\"457\" src=\"https://www.youtube.com/embed/XNISNhO6LJI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n</div></figure>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida urbana icónica pela Ponte Vasco da Gama com vistas deslumbrantes sobre Lisboa e o Tejo",
+  "page": "https://www.maratonaclubedeportugal.com/prova/edp-8k/",
+  "slug": "mini-maratona-de-lisboa-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

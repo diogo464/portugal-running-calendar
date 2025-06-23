@@ -1,0 +1,36 @@
+{
+  "id": 24168,
+  "name": "VII Trail Running Vila de Nisa 2023",
+  "location": "Nisa, Portalegre",
+  "coordinates": {
+    "lat": 39.5179524,
+    "lon": -7.648376700000001
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    12000,
+    15000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/020ba7ef11f7d57b6c6c16b24a91a769"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n\n\n<p>O VII Trail Running Vila de Nisa será realizado no dia 19 de novembro de 2023 e é um evento organizado pela Inijovem, Câmara Municipal de Nisa, União de Freguesias do Espírito Santo, Nossa Srª da Graça e São Simão e Freguesia de Montalvão.</p>\n\n\n\n<p>Terá parcerias com entidades governamentais bem como empresas locais e nacionais para que a realização da prova decorra com sucesso. Do evento fará parte um Trail Longo Vila de Nisa &#8211; 30KM (TLVN), um Trail Curto Vila de Nisa &#8211; 15KM (TCVN), Caminhada Vila de Nisa – 12KM. As partidas e chegadas das provas TCVN e Caminhada serão efetuadas no centro de Vila de Nisa, na Praça da República, a prova TLVN terá a partida na Salavessa e chegada em Nisa, na Praça da República.</p>\n",
+  "description_short": "Trail pela região de Nisa com percursos variados e passagem pelo centro histórico da vila",
+  "page": "https://meutempo.pt/prova?traildenisa2023",
+  "slug": "vii-trail-running-vila-de-nisa-2023",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Nisa",
+  "administrative_area_level_3": "União das freguesias de Espírito Santo, Nossa Senhora da Graça e São Simão",
+  "district_code": 12
+}

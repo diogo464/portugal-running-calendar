@@ -1,0 +1,29 @@
+{
+  "id": 21227,
+  "name": "UTRSC- Ultra Trail Run Santa Cruz 2023",
+  "location": "Santa Cruz, Torres Vedras",
+  "coordinates": {
+    "lat": 39.1340863,
+    "lon": -9.3814444
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/182117c45facedbcfbe97e393008ad72"
+  ],
+  "start_date": "2023-07-29",
+  "end_date": "2023-07-30",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.turresevents.com/eventos/utrsc-ultra-trail-santa-cruz-2023",
+  "slug": "utrsc-ultra-trail-run-santa-cruz-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Silveira",
+  "district_code": 11
+}

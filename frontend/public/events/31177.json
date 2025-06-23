@@ -1,0 +1,34 @@
+{
+  "id": 31177,
+  "name": "Corrida Avintes 2024",
+  "location": "Avintes, Vila Nova de Gaia",
+  "coordinates": {
+    "lat": 41.1052453,
+    "lon": -8.5519354
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/ca60ca4da4bc1a41a887121975e707ee"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [],
+  "description": "\n<p>Realiza-se na Vila de Avintes, com partida e chegada na Escola Fernando Guedes a 11ª edição dos 10 Km de Avintes, na qual se integrará uma Mini/Caminhada com a distância de 5 km.</p>\n\n\n",
+  "description_short": "Prova de corrida e caminhada na Vila de Avintes com partida na Escola Fernando Guedes",
+  "page": "https://lap2go.com/pt/event/10-km-avintes-2024",
+  "slug": "corrida-avintes-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "Avintes",
+  "district_code": 13
+}

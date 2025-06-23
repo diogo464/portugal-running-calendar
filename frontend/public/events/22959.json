@@ -1,0 +1,35 @@
+{
+  "id": 22959,
+  "name": "III Trail da Filhós 2023",
+  "location": "Cabrela, Évora",
+  "coordinates": {
+    "lat": 38.5994256,
+    "lon": -8.460667899999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    7000,
+    10000,
+    17000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3d012e63662f4c603fe632b663672392"
+  ],
+  "start_date": "2023-05-28",
+  "end_date": "2023-05-29",
+  "circuit": [],
+  "description": "\n<p>O “III Trail da Filhós” realiza-se no dia 28 de maio de 2023, a partida terá lugar às 09h00, no Largo<br>da Dr. Pascoal Coelho, em Cabrela.</p>\n\n\n\n<p>Será composto por 3 percursos:<br>O 1.º com aproximadamente 17 Km, de dificuldade média, marcado com placas e fitas sinalizadoras;<br>O 2.º com aproximadamente 10 Km, de dificuldade Média, marcado com placas e fitas sinalizadoras.<br>O 3.º, caminhada, com aproximadamente 7 Km, marcado com placas e fitassinalizadoras.</p>\n\n\n",
+  "description_short": "Trail tradicional em Cabrela com três percursos de diferentes distâncias e dificuldades",
+  "page": "https://acorrer.pt/eventos/info/3169",
+  "slug": "iii-trail-da-filhos-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Montemor-o-Novo",
+  "administrative_area_level_3": "Cabrela",
+  "district_code": 7
+}

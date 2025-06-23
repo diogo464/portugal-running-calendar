@@ -1,0 +1,34 @@
+{
+  "id": 23445,
+  "name": "Corrida Sport Tortosendo e Benfica &#8220;Edição Francisco Albino&#8221; 2023",
+  "location": "Tortosendo, Covilhã",
+  "coordinates": {
+    "lat": 40.2383588,
+    "lon": -7.5138947
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/c24de18692531af023ad8af30b95745f"
+  ],
+  "start_date": "2023-07-08",
+  "end_date": "2023-07-09",
+  "circuit": [],
+  "description": "\n<p>Edição 2023 conta com várias distâncias de corrida, possibilitando uma corrida em família para todas as idades.</p>\n\n\n\n<p>Para além da fantástica CORRIDA DA PEQUENADA, iremos ter uma novidade este ano, 5K CORRIDA EM FAMÍLIA.</p>\n\n\n\n<p>Uma corrida para todos com uma distância de 5km não competitiva mas, com uma vertente solidária.</p>\n\n\n\n<p>Não vais querer perder esta corrida, que vai decorrer novamente ao final da tarde.</p>\n\n\n",
+  "description_short": "Corrida familiar solidária com percurso adaptado para todas as idades no final da tarde",
+  "page": "https://meutempo.pt/prova?corridatortosendoebenfica",
+  "slug": "corrida-sport-tortosendo-e-benfica-edicao-francisco-albino-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "Tortosendo",
+  "district_code": 5
+}

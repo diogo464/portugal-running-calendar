@@ -1,0 +1,29 @@
+{
+  "id": 14613,
+  "name": "Trilho Do Infante 2022",
+  "location": "Penela, Portugal",
+  "coordinates": {
+    "lat": 40.0265106,
+    "lon": -8.374571699999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/eac679fa403578f85c368bc63ee1d489"
+  ],
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-11",
+  "circuit": [],
+  "description": "\n<p>Trilho Do Infante 2022</p>\n",
+  "description_short": "Trail desafiante pelo interior algarvio com referências históricas ao Infante D. Henrique",
+  "page": "https://stopandgo.net/event/?id=697",
+  "slug": "trilho-do-infante-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penela",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

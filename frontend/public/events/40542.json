@@ -1,0 +1,29 @@
+{
+  "id": 40542,
+  "name": "Ultra Madeira 2025",
+  "location": "Madeira",
+  "coordinates": {
+    "lat": 32.76070740000001,
+    "lon": -16.9594723
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-04-26",
+  "end_date": "2025-04-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": null,
+  "slug": "ultra-madeira-2025",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

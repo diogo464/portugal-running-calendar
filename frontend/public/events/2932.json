@@ -1,0 +1,29 @@
+{
+  "id": 2932,
+  "name": "São Brás Trail 2021",
+  "location": "Granja, Castro Daire",
+  "coordinates": {
+    "lat": 40.8954616,
+    "lon": -7.8757343
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a1e7e536db3e675b9162fb2605fd1173"
+  ],
+  "start_date": "2021-07-18",
+  "end_date": "2021-07-19",
+  "circuit": [],
+  "description": "\n<p>O São Brás Trail é uma Organização do Grupo Desportivo e Recreativo da Granja, que tem como vertente os desportos de natureza, que conta com o apoio do Município de Castro Daire, Junta de Freguesia de Mões e de várias entidades locais. Na edição de 2021, o mote de sustentabilidade ambiental alia-se à componente desportiva, sem nunca esquecer a vertente inclusiva que diferencia esta prova das demais</p>\n",
+  "description_short": "Trail solidário pela natureza em Castro Daire com apoio local",
+  "page": "https://lap2go.com/pt/event/sao-bras-trail-2021/",
+  "slug": "sao-bras-trail-2021",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Mões",
+  "district_code": 18
+}

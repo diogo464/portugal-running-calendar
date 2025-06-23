@@ -1,0 +1,30 @@
+{
+  "id": 36416,
+  "name": "Trail Noturno Pombal Oeste 2024",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/f2a097a0e2a39dfb96de59f3505e27c2"
+  ],
+  "start_date": "2024-10-05",
+  "end_date": "2024-10-06",
+  "circuit": [],
+  "description": "\n<p><em>Esta prova irá ser organizada pela União de Freguesias Guia, Ilha e Mata Mourisca em parceria com os Bombeiros Voluntários de Pombal, o Município de Pombal com o apoio técnico da Record pessoal.</em></p>\n\n\n\n<p><strong><em>O valor das inscrições irá reverter na sua totalidade a favor dos Bombeiros Voluntários de Pombal, para a aquisição de material e equipamento de proteção individual.</em></strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária em Pombal que apoia os Bombeiros Voluntários locais",
+  "page": "https://www.recordepessoal.pt/evento/7trailnoturnopombaloeste",
+  "slug": "trail-noturno-pombal-oeste-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

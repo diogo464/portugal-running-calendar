@@ -1,0 +1,29 @@
+{
+  "id": 14604,
+  "name": "Estrela Grande Trail 2022",
+  "location": "Manteigas Manteigas, Guarda",
+  "coordinates": {
+    "lat": 40.4022206,
+    "lon": -7.538339300000001
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/c0f49531e6bcd53aea8191bf318662ed"
+  ],
+  "start_date": "2022-05-20",
+  "end_date": "2022-05-21",
+  "circuit": [],
+  "description": "\n<p>Estrela Grande Trail 2022</p>\n",
+  "description_short": "Trail desafiante pela imponente Serra da Estrela com percurso técnico e paisagens deslumbrantes",
+  "page": "https://stopandgo.net/event/?id=723",
+  "slug": "estrela-grande-trail-2022",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Manteigas",
+  "administrative_area_level_3": null,
+  "district_code": 9
+}

@@ -1,0 +1,36 @@
+{
+  "id": 24218,
+  "name": "São Silvestre de Almeirim 2023",
+  "location": "Almeirim, Santarém",
+  "coordinates": {
+    "lat": 39.2075098,
+    "lon": -8.6270969
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    15000,
+    20000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "15k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/46bab6f1f5e74d3aa023947f3f08e52e"
+  ],
+  "start_date": "2023-12-30",
+  "end_date": "2023-12-31",
+  "circuit": [],
+  "description": "\n<p>36ª EDIÇÃO 20 KMS DE ALMEIRIM &#8211; Rota da sopa da Pedra Com as provas; &#8211; 20 Km BORREGO LEONOR &amp; IRMÃO, SA, com mesmo percurso passando na Ponte D. Luís. &#8211; 10 Km com percurso parcialmente alterado. &#8211; Mini/Caminhada FARMÁCIA MENDONÇA</p>\n\n\n",
+  "description_short": "Tradicional prova de atletismo em Almeirim com passagem pela histórica Ponte D. Luís",
+  "page": "https://lap2go.com/pt/event/ssalmeirim-2023",
+  "slug": "sao-silvestre-de-almeirim-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Almeirim",
+  "administrative_area_level_3": "Almeirim",
+  "district_code": 14
+}

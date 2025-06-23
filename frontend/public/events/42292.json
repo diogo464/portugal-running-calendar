@@ -1,0 +1,31 @@
+{
+  "id": 42292,
+  "name": "Trail e Caminhada &#8220;Rota Passadiços do Távora&#8221; 2025",
+  "location": "Vila da Ponte, Viseu",
+  "coordinates": {
+    "lat": 40.9176168,
+    "lon": -7.510652599999998
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c38f6635be67ca6c9e5ca83e23c4985a"
+  ],
+  "start_date": "2025-06-29",
+  "end_date": "2025-06-30",
+  "circuit": [],
+  "description": "\n<p>O 3º Trail e Caminhada “Rota Passadiços do Távora” são organizados pelo Núcleo Desportivo e Cultural de Vila da Ponte e Câmara Municipal de Sernancelhe, com o apoio da Junta de Freguesia de Vila da Ponte, Escola Profissional de Sernancelhe, Runners Sernancelhe Terra da Castanha e Bombeiros Voluntários de Sernancelhe.</p>\n\n\n",
+  "description_short": "Trail desafiante pela região dos passadiços do Távora com organização local e comunitária",
+  "page": "https://acorrer.pt/eventos/3935/info",
+  "slug": "trail-e-caminhada-rota-passadicos-do-tavora-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sernancelhe",
+  "administrative_area_level_3": "Vila da Ponte",
+  "district_code": 18
+}

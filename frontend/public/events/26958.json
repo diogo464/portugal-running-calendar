@@ -1,0 +1,32 @@
+{
+  "id": 26958,
+  "name": "Corrida Popular de Esmeriz / Cabeçudos 2023",
+  "location": "Esmeriz, Vila Nova de Famalicão Famalicão, Braga",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/7d1ca4248f4447a9586c39c217d37bbd"
+  ],
+  "start_date": "2023-09-09",
+  "end_date": "2023-09-10",
+  "circuit": [],
+  "description": "\n<p>Numa organização da Junta de Freguesia de Esmeriz e Cabeçudos com o apoio da Câmara<br>Municipal de V. N. de Famalicão, com a colaboração da Associação de Atletismo de Braga e o<br>Apoio Técnico da Desportave – Eventos Desportivos, vai realizar-se no dia 9 de setembro, a 7ª<br>Corrida Popular de Esmeriz e Cabeçudos com início agendado para as 16.00 horas, tendo como<br>objetivo fomentar a prática desportiva.</p>\n",
+  "description_short": "Corrida popular no Norte do país que promove o desporto em Esmeriz e Cabeçudos",
+  "page": "https://www.queroir.pt/7-corrida-popular-de-esmeriz--cabecudos",
+  "slug": "corrida-popular-de-esmeriz-cabecudos-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

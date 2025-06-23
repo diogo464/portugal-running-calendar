@@ -1,0 +1,29 @@
+{
+  "id": 15383,
+  "name": "VI Trail Vitoriano 2022",
+  "location": "Ermidas Sado, Setúbal",
+  "coordinates": {
+    "lat": 38.00685970000001,
+    "lon": -8.385532
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/145e5835aa722aebd5c22ea7f026d2e9"
+  ],
+  "start_date": "2022-11-20",
+  "end_date": "2022-11-21",
+  "circuit": [],
+  "description": "\n<p>O 6º TRAIL VITORIANO de Ermidas Sado é um evento de natureza desportiva, organizado e co-organizado pela secção de atletismo do Vitória Futebol Clube Ermidense (VFCE) e Junta de Freguesia de Ermidas Sado, com os apoios da Câmara Municipal de Santiago do Cacém, Guarda Nacional Republicana e Cruz Vermelha Portuguesa – delegação de Ermidas Sado, entre outros.</p>\n",
+  "description_short": "Trail desafiante pela região de Ermidas Sado com organização local e apoios institucionais",
+  "page": "https://acorrer.pt/eventos/info/2972",
+  "slug": "vi-trail-vitoriano-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Ermidas-Sado",
+  "district_code": 15
+}

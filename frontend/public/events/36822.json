@@ -1,0 +1,35 @@
+{
+  "id": 36822,
+  "name": "Trail Mortágua 2024",
+  "location": "Mortágua, Viseu",
+  "coordinates": {
+    "lat": 40.3971448,
+    "lon": -8.2309134
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    14000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a3ec4468fe3ac2182862077a509c652e"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-04",
+  "circuit": [],
+  "description": "\n<p>O Trail de Mortágua 2024 é uma organização do Núcleo do Sporting Clube de Portugal de Mortágua, e terá lugar em Mortágua, com partida e chegada junto à Câmara Municipal de Mortágua às 9h00.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Provas</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Trail 22k</strong> &#8211; Percurso circular de cerca de 22 km com o tempo limite de realização de 4 horas.</li>\n\n\n\n<li><strong>Trail 14k</strong> &#8211; Percurso circular de cerca de 14 km com o tempo limite de realização de 3 horas.</li>\n\n\n\n<li><strong>Caminhada 8k</strong> &#8211; Percurso circular de cerca de 8 km.</li>\n</ul>\n",
+  "description_short": "Trail de Mortágua com partida na Câmara Municipal e percursos circulares por paisagens da região",
+  "page": "https://www.runmanager.net/Eventos/trail-de-mortagua-2024/858",
+  "slug": "trail-mortagua-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Mortágua",
+  "administrative_area_level_3": "Mortágua",
+  "district_code": 18
+}

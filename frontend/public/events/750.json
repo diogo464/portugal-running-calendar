@@ -1,0 +1,29 @@
+{
+  "id": 750,
+  "name": "Peninha Sky Race 2020",
+  "location": "Malveira da Serra Serra, Cascais, Lisboa",
+  "coordinates": {
+    "lat": 38.7537142,
+    "lon": -9.4464594
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4ccb495f0e297341bb2e22a688def37a"
+  ],
+  "start_date": "2020-02-09",
+  "end_date": "2020-02-10",
+  "circuit": [],
+  "description": "<p>1º &#8211; O TURRES TRAIL CLUBE , com o apoio da Câmara Municipal de Cascais , Parque Natural Sintra Cascais e a FCMP- Federação de Caravanismo e Montanhismo de Portugal vai realizar no próximo dia 9 de Fevereiro de 2020, um evento denominado &#8221; PENINHA SkyRace ® . Este evento, terá um Percurso Sky Race longo , um Percurso Sky Race Curto e uma Mini Sky / caminhada será inserido na taça de Portugal de Sky Race FCMP &#8211; Federação Montanhismo e Caravanismo de Portugal . O percurso é circular. O local de partida e secretariado e chegada na Malveira da Serra .</p>\n",
+  "description_short": "Trail desafiante pela Serra de Sintra com apoio do Parque Natural de Sintra-Cascais",
+  "page": "https://www.turresevents.com/eventos/peninha-sky-race-2020",
+  "slug": "peninha-sky-race",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "Alcabideche",
+  "district_code": 11
+}

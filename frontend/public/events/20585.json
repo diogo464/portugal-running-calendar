@@ -1,0 +1,34 @@
+{
+  "id": 20585,
+  "name": "Sao Silvestre Oliveira De Frades 2022",
+  "location": "Oliveira de Frades, Viseu",
+  "coordinates": {
+    "lat": 40.7322554,
+    "lon": -8.1737805
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/3d21081495cc185cd59078da56dd15e8"
+  ],
+  "start_date": "2022-12-17",
+  "end_date": "2022-12-18",
+  "circuit": [],
+  "description": "\n<p>A Associação Académica Santa Cruz, em parceria com o Município, promove no próximo dia 17 de dezembro, a 1ª S. Silvestre &#8211; Corrida/Caminhada, cujo percurso, com cerca de 10 km, começa em Santa Cruz (Arcozelo das Maias) e termina em Oliveira de Frades.</p>\n\n\n\n<p>Existem duas opções de participação: corrida 10km ou caminhada 10km</p>\n\n\n\n<p>A concentração está marcada para as 17h30, no dia 17 de dezembro, no Parque Urbano de Oliveira de Frades.</p>\n\n\n",
+  "description_short": "São Silvestre pela região de Santa Cruz com partida em Arcozelo das Maias e chegada a Oliveira de Frades",
+  "page": "https://meutempo.pt/prova?saosilvestreoliveiradefrades",
+  "slug": "sao-silvestre-oliveira-de-frades-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Oliveira de Frades",
+  "administrative_area_level_3": "Oliveira de Frades",
+  "district_code": 18
+}

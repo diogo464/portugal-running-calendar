@@ -1,0 +1,30 @@
+{
+  "id": 22591,
+  "name": "18º Grande Prémio Do Pinhal / Sertã 2023",
+  "location": "Sertã, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/e726766d90672f41c687913ee7908981"
+  ],
+  "start_date": "2023-03-25",
+  "end_date": "2023-03-26",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo de S.º Domingos e Câmara Municipal da Sertã em colaboração com a Junta de freguesia, Assoc. Atletismo Castelo Branco, Bombeiros Voluntários, Guarda Nacional Republicana Órgãos de Comunicação, Comércio Local e outras empresas ou entidades, colaboram na realização do evento.</p>\n\n\n\n<p>Todas as provas terão partida e chegada com a meta localizada na Alameda da Carvalha, junto ao Palácio da Justiça da Sertã.</p>\n\n\n",
+  "description_short": "Corrida organizada em colaboração com múltiplas entidades locais na Sertã, com partida e chegada na Alameda da Carvalha",
+  "page": "https://werun.pt/eventos/18-grande-premio-do-pinhal-serta/",
+  "slug": "18o-grande-premio-do-pinhal-serta-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

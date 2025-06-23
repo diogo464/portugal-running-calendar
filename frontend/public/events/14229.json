@@ -1,0 +1,29 @@
+{
+  "id": 14229,
+  "name": "Vouzela Trail 2022",
+  "location": "Caramulo, Viseu",
+  "coordinates": {
+    "lat": 40.5717838,
+    "lon": -8.1706399
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d991b55b8118876c64d01aedbc303e51"
+  ],
+  "start_date": "2022-06-10",
+  "end_date": "2022-06-11",
+  "circuit": [],
+  "description": "\n<ul class=\"wp-block-list\"><li>Vouzela Trail 2022 é organizado pela SpotCriavo Eventos em colaboração<br>com o Município de Vouzela, contando com o apoio de diversas endades<br>locais.<br></li></ul>\n",
+  "description_short": "Trail técnico pela região de Vouzela com apoio municipal",
+  "page": "https://stopandgo.net/event/?id=687",
+  "slug": "vouzela-trail-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tondela",
+  "administrative_area_level_3": "Guardão",
+  "district_code": 18
+}

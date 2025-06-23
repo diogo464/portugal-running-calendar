@@ -1,0 +1,31 @@
+{
+  "id": 34023,
+  "name": "Trail VIMONT Rota do Corço 2024",
+  "location": "Vilar do Monte, Macedo de Cavaleiros",
+  "coordinates": {
+    "lat": 41.50500940000001,
+    "lon": -6.9479814
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/381c097f5c5ce6c2556dae18fbadfa7a"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-17",
+  "circuit": [],
+  "description": "\n<p>Terão lugar no dia 17 de março de 2024, a 3a edição do Trail VIMONT Rota do Corço e caminhada, sendo promotor a Vimont, Associação juvenil de Vilar doMonte e em parceria com o Município de Macedo de Cavaleiros com o envolvimentodireto do GEOPARK Terras de Cavaleiros e com apoio técnico da Associação de Atletismo de Bragança.</p>\n\n\n",
+  "description_short": "Trail desafiante pela paisagem do Geopark Terras de Cavaleiros em Macedo de Cavaleiros",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLScRnuHBMKpIh6ERxA_-EY6aiVhBNhnvoTCykAAQjL2MXQUulQ/viewform",
+  "slug": "trail-vimont-rota-do-corco-2024",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Macedo de Cavaleiros",
+  "administrative_area_level_3": "Vilar do Monte",
+  "district_code": 4
+}

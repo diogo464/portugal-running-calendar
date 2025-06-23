@@ -1,0 +1,35 @@
+{
+  "id": 34836,
+  "name": "Paiva Montemuro Trail 2024",
+  "location": "Parada de Ester, Castro Daire",
+  "coordinates": {
+    "lat": 40.9304969,
+    "lon": -8.0537908
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    11000,
+    16000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b2f26b13ea81ce6e673afdea455020ad"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-03",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo de Parada e a Casa do Povo de Parada de Ester organizam no dia 3 de Novembro de 2024 o PAIVA MONTEMURO TRAIL. A prova será constituída por 2 eventos competitivos, o Trail Curto (16kms) e o Trail Longo (28kms) e ainda uma caminhada na distância de 11 kms. A prova terá início e fim na Av. António Ademar da Costa Cunha.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante pelas encostas do Montemuro com percursos de diferentes distâncias",
+  "page": "https://acorrer.pt/eventos/info/3508",
+  "slug": "paiva-montemuro-trail-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Parada de Ester",
+  "district_code": 18
+}

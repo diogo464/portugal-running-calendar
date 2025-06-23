@@ -1,0 +1,29 @@
+{
+  "id": 14559,
+  "name": "Trail Encostas do Mondego 2022",
+  "location": "Vila Verde Verde, Braga",
+  "coordinates": {
+    "lat": 41.6507161,
+    "lon": -8.433281299999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0e19a8fae1a0e28ad55fde1efc315744"
+  ],
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-04",
+  "circuit": [],
+  "description": "\n<p>A quinta edição do Trail Encostas do Mondego 2022 realiza-se em Vila Verde, concelho de Figueira da Foz. Lado a lado com o rio Mondego, o evento leva-o a percorrer trilhos rodeados de paisagem de Inverno e únicos na região.</p>\n",
+  "description_short": "Trail desafiante junto ao rio Mondego com paisagens de Inverno únicas em Vila Verde",
+  "page": "https://lap2go.com/pt/event/trail-encostas-do-mondego-2022",
+  "slug": "trail-encostas-do-mondego-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Verde",
+  "administrative_area_level_3": "Vila Verde e Barbudo",
+  "district_code": 3
+}

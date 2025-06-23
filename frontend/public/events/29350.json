@@ -1,0 +1,33 @@
+{
+  "id": 29350,
+  "name": "Meia Maratona do Foral 2024",
+  "location": "Idanha-a-Nova, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/558fca4ce7f5c6f4676a0e84c5fae9e8"
+  ],
+  "start_date": "2024-01-28",
+  "end_date": "2024-01-29",
+  "circuit": [],
+  "description": "\n<p>Com uma distância de 21 km, a Meia Maratona anual, organizada pelo Club União Idanhense, realiza-se entre a Aldeia de Santa Margarida e Idanha-a-Nova, alternando a partida e chegada a cada ano, entre as duas localidades.</p>\n\n\n\n<p>A prova está inserida na comemoração da Carta Foral de Idanha-a-Nova, que data de 23 de Janeiro de 1206, sendo que este ano decorre no próximo dia 28 de janeiro a partir das 10h.</p>\n\n\n\n<p>As inscrições encontram-se abertas e podem ser efetuadas junto do Club União Idanhense (atletismo.cui.1917@gmail.com) ou da Associação de Atletismo de Castelo Branco (cbranco@fpatletismo.org).</p>\n\n\n\n<p>Para além do Club União Idanhense, a meia maratona do foral conta com a parceria da Junta de Freguesia de Aldeia de Santa Margarida e a União das Freguesias de Idanha-a-Nova e Alcafozes, e com o apoio do Município de Idanha-a-Nova e da Associação de Atletismo de Castelo Branco.</p>\n\n\n",
+  "description_short": "Meia maratona histórica que celebra a Carta Foral de Idanha-a-Nova entre Santa Margarida e Idanha-a-Nova",
+  "page": null,
+  "slug": "meia-maratona-do-foral-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

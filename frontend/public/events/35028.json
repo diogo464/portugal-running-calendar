@@ -1,0 +1,29 @@
+{
+  "id": 35028,
+  "name": "Bairrada Eco Challenge 2024",
+  "location": "Oliveira do Bairro, Aveiro",
+  "coordinates": {
+    "lat": 40.5170209,
+    "lon": -8.498208
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d69bbeab81b3a218e61fbd4f4dce7191"
+  ],
+  "start_date": "2024-09-07",
+  "end_date": "2024-09-08",
+  "circuit": [],
+  "description": "\n<p>O Bairrada Eco Challenge é um evento desportivo e de lazer que irá percorrer as margens do Rio Cértima em particular nas freguesias de Oliveira do Bairro e Oiã.<br>Consiste numa prova de trail composta com obstáculos alguns deles naturais, ao longo de um trilho especificamente pensado para percorrer não só as 3 freguesias, mas também mostrar as incríveis paisagens e espaços verdes que as contemplam.<br>Será uma experiência para todas as idades, com desafios que farão os participantes sairem da sua zona de conforto. Tendo como premissa um evento para toda a família, haverão outras iniciativas de animação e diversão que permitirão aos participantes manterem-se no local após a prova.</p>\n\n\n",
+  "description_short": "Trail desafiante pelas margens do Rio Cértima com obstáculos naturais em Oliveira do Bairro e Oiã",
+  "page": "https://stopandgo.net/events/bairrada-eco-challenge-2024",
+  "slug": "bairrada-eco-challenge-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira do Bairro",
+  "administrative_area_level_3": "Oliveira do Bairro",
+  "district_code": 1
+}

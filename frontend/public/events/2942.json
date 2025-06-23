@@ -1,0 +1,32 @@
+{
+  "id": 2942,
+  "name": "Trail Lagoa de Óbidos 2021",
+  "location": "Lagoa de Óbidos",
+  "coordinates": {
+    "lat": 39.41262589999999,
+    "lon": -9.214829
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000,
+    27000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0af50a84d4ba88a68223440ca4a83815"
+  ],
+  "start_date": "2021-09-04",
+  "end_date": "2021-09-05",
+  "circuit": [],
+  "description": "\n<p>Com o apoio da Câmara Municipal de Óbidos e da Junta de Freguesia do Vau, realiza-se no dia 4 de setembro de 2021, o Trail Lagoa de Óbidos que será percorrido por caminhos e trilhos na zona da Lagoa de Óbidos. Será composto por um Trail Longo na distância de 27k e um Trail Curto de 12k. Partida e chegada no Vau em Óbidos.</p>\n",
+  "description_short": "Trail desafiante pela região da Lagoa de Óbidos com apoio local",
+  "page": "https://traillagoaobidos.com/",
+  "slug": "trail-lagoa-de-obidos-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

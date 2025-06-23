@@ -1,0 +1,33 @@
+{
+  "id": 34598,
+  "name": "Oudinot Race 2024",
+  "location": "Gafanha da Nazaré, Ílhavo",
+  "coordinates": {
+    "lat": 40.6363737,
+    "lon": -8.7004614
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    6000,
+    12000
+  ],
+  "types": [
+    "run",
+    "cross-country"
+  ],
+  "images": [
+    "media/9f3d4db233c68133e80641f97c96e01b"
+  ],
+  "start_date": "2024-06-23",
+  "end_date": "2024-06-24",
+  "circuit": [],
+  "description": "\n<p>2º Oudinot Race OCR é uma prova diferente rodeada por uma fantástica paisagem, realizado no jardim Oudinot na Gafanha da Nazaré.</p>\n\n\n\n<p>Prova organizada pela associação Bússola Partilhada, será uma corrida de obstáculos no interior jardim Oudinot com cerca 30 Obstáculos perfazendo 12 km Elite e 6Km Overall.</p>\n\n\n\n<p>A prova irá realizar-se no dia 23 Junho de 2024, com a partida e chega no Jardim Oudinot, contando com os mais diversos obstáculos.</p>\n\n\n",
+  "description_short": "Corrida de obstáculos desafiante no pitoresco Jardim Oudinot na Gafanha da Nazaré",
+  "page": "https://waitastart.com/oudinot_race24/",
+  "slug": "oudinot-race-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

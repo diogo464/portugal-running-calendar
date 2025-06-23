@@ -1,0 +1,37 @@
+{
+  "id": 23771,
+  "name": "Vi Trail Senhora Do Carmo 2023",
+  "location": "Arentim e Cunha, Braga",
+  "coordinates": {
+    "lat": 41.48469559999999,
+    "lon": -8.512797299999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    550,
+    900,
+    8000,
+    14000,
+    21000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e6481e3a516e92c3c64e0df375d62a0a"
+  ],
+  "start_date": "2023-06-11",
+  "end_date": "2023-06-12",
+  "circuit": [],
+  "description": "\n<p>O VI Trail Senhora do Carmo será realizado no dia 11 de junho 2023, sendo constituído por 3<br>eventos:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo com a distância aproximada de 21 km, ±900 m de desnível positivo.</li>\n\n\n\n<li>Trail Curto com a distância aproximada de 14 km, ±550 m de desnível positivo.</li>\n\n\n\n<li>Caminhada com a distância aproximada de 8 km</li>\n</ul>\n\n\n",
+  "description_short": "Trail desafiante pela região com diferentes percursos para todos os níveis de trail running",
+  "page": "http://cyclonessports.com/index.php/275-vi-trail-senhora-do-carmo",
+  "slug": "vi-trail-senhora-do-carmo-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": "União das freguesias de Arentim e Cunha",
+  "district_code": 3
+}

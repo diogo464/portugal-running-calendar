@@ -1,0 +1,30 @@
+{
+  "id": 38673,
+  "name": "GP Atletismo Nossa Senhora da Conceição/Zé Espanhol 2024",
+  "location": "Covilhã, Castelo Branco",
+  "coordinates": {
+    "lat": 40.2805633,
+    "lon": -7.504327199999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/d07c2e51368321a42e0e2f3454ba4314"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-08",
+  "circuit": [],
+  "description": "\n<p>Estão abertas as inscrições para a 29ª edição do Grande Prémio de Atletismo Nossa Senhora da Conceição/Zé Espanhol, que terá lugar na Covilhã a 8 de dezembro.</p>\n\n\n\n<p><br>A atividade é organizada pela União de Freguesias da Covilhã e Canhoso e é aberta a todos os escalões etários. A primeira corrida tem início pelas 10h30, sendo que a prova principal tem partida junto à sede da Junta, no Canhoso, e meta no Jardim Público, na Covilhã. Os interessados em participar podem inscrever-se até às 17h30 de 6 de dezembro na UF Covilhã e Canhoso ou na Associação de Atletismo de Castelo Branco.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional de Natal a realizar na Covilhã com partida no Canhoso e chegada ao Jardim Público",
+  "page": "https://ufcovilhaecanhoso.pt/29-o-grande-premio-de-atletismo-nossa-senhora-da-conceicao-ze-espanhol/",
+  "slug": "gp-atletismo-nossa-senhora-da-conceicao-ze-espanhol-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "São Martinho",
+  "district_code": 5
+}

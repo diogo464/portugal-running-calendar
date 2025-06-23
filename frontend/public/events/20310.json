@@ -1,0 +1,35 @@
+{
+  "id": 20310,
+  "name": "Amarante Christmas Trail 2022",
+  "location": "Amarante, Porto",
+  "coordinates": {
+    "lat": 41.2732068,
+    "lon": -8.0822829
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    12000,
+    20000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8750abcc363abd0e3b745fbac2ad239f"
+  ],
+  "start_date": "2022-12-18",
+  "end_date": "2022-12-19",
+  "circuit": [],
+  "description": "\n<p>O Natal é tempo de família e amigos mas também é sinónimo de Trail e o Amarante Christmas Trail é um evento que fica na memória de todos os participantes, aliando o espírito natalício da época aos belos trilhos que a equipa A.D.Amarante Trail Running prepara para ti.</p>\n\n\n\n<p></p>\n\n\n\n<p>O “XI Amarante Christmas Trail” será constituído por 4 eventos:<br>• Trail Longo com a distância aproximada de 30 km.<br>• Trail Curto com a distância aproximada de 20 km.<br>• Mini-Trail com a distância aproximada de 12 km.<br>• Caminhada com a distância aproximada de 12 km.</p>\n\n\n",
+  "description_short": "Trail de Natal pelos caminhos pitorescos de Amarante com diferentes percursos para todos os níveis",
+  "page": "https://lap2go.com/pt/event/amarante-christmas-trail-2022/",
+  "slug": "amarante-christmas-trail-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Amarante",
+  "administrative_area_level_3": "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão",
+  "district_code": 13
+}

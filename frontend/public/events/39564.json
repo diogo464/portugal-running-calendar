@@ -1,0 +1,34 @@
+{
+  "id": 39564,
+  "name": "Trail da Tomina 2025",
+  "location": "Moura, Beja",
+  "coordinates": {
+    "lat": 38.1426988,
+    "lon": -7.4512581
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    16000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/87a5ba18890c81602faf68b6ef48403b"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [],
+  "description": "\n<p>A Comissão de Festas da Tomina em Honra de Nossa Senhora das Necessidades convida todos a participar a 5.ª edição do Trail da Tomina. Volvidos cinco anos sobre o I Trail, esta 5.ª edição mostra que as gentes de Santo Aleixo da Restauração estão empenhadas em manter o evento e consolidar a sua presença no contexto desportivo, para isso muito têm contribuído a Comissão de Festas, as gentes da terra e as entidades parceiras, mas sobretudo os atletas que nos têm brindado com a sua presença ano após ano.</p>\n\n\n\n<p>Trail (30km) <br>Trail Sprint (16km) <br>Mini Trail (10Km) <br>Caminhada (10Km)</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail da Tomina na histórica terra de Santo Aleixo da Restauração com várias opções de percurso",
+  "page": "https://acorrer.pt/eventos/info/3734",
+  "slug": "trail-da-tomina-2025",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "São João Baptista",
+  "district_code": 2
+}

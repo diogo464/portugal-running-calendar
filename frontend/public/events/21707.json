@@ -1,0 +1,31 @@
+{
+  "id": 21707,
+  "name": "Trail Contra A Pas-Maceira 2023",
+  "location": "Fornos de Algodres, Guarda",
+  "coordinates": {
+    "lat": 40.6201957,
+    "lon": -7.539550699999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/caa81228f7f9b7ca3d14b97093718df5"
+  ],
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-06",
+  "circuit": [],
+  "description": "\n<p>O “TRAIL CONTRA A PAS-MACEIRA” é uma corrida de montanha, organizada pela “AVCAT\u0002Associação Vila Chã Aldeia Trail de Portugal”, a realizar no dia 5 de novembro, em Maceira\u0002Fornos de Algodres.<br>Este trail faz parte do Circuito Municipal de Corrida de Montanha-Trilhos D`O Bom Sabor da<br>Serra-VI(r)VER Fornos de Algodres e será a 7ª etapa.</p>\n\n\n\n<p>O ” TRAIL CONTRA A PAS-MACEIRA” é uma prova de corrida de montanha, constituído por<br>um Trail Longo, um Trail Curto e uma caminhada, realizados predominantemente em trilhos,<br>caminhos rurais, vias de terra batida circundantes à aldeia de Maceira e aldeias adjacentes.</p>\n\n\n",
+  "description_short": "Trail solidário contra a PAS em trilhos rurais da aldeia de Maceira",
+  "page": "https://acorrer.pt/eventos/info/3086",
+  "slug": "trail-contra-a-pas-maceira-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "Fornos de Algodres",
+  "district_code": 9
+}

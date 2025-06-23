@@ -1,0 +1,32 @@
+{
+  "id": 657,
+  "name": "Corrida da Árvore 2020",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/541c3230337d8e35d53eb2b7c5e96e43"
+  ],
+  "start_date": "2020-02-16",
+  "end_date": "2020-02-17",
+  "circuit": [],
+  "description": "<p>Uma prova única, por onde já passaram mais de 20 000 atletas! Na sua 25ª edição, a Corrida da Árvore, inserida no projeto ecoX, continuará a sua missão, oferecendo uma árvore para cada participante plantar. Vamos ajudar o ambiente! Uma atitude mais ecológica só depende de cada um de nós!</p>\n",
+  "description_short": "Corrida ecológica com 25 anos de história que promove plantação de árvores pelos participantes",
+  "page": "https://www.prozis.com/pt/pt/evento/25a-corrida-da-arvore",
+  "slug": "corrida-da-arvore-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

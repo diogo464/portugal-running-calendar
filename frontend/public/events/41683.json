@@ -1,0 +1,35 @@
+{
+  "id": 41683,
+  "name": "Corrida Dom Dinis 2025",
+  "location": "Odivelas, Lisboa",
+  "coordinates": {
+    "lat": 38.7928952,
+    "lon": -9.183161499999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/3794d79565de6ce34c2073233ea7b293"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Odivelas, com a colaboração do Centro de Marcha e Corrida de Odivelas e dos Bombeiros Voluntários de Odivelas, promove no próximo dia 08 de Junho de 2025, pelas 09h30, a prova de atletismo Corrida Dom Dinis, que este ano assinala o 7º centenário da morte do Rei D. Dinis. É uma prova de atletismo de estrada na distância de 10 km e que inclui uma Caminhada de 4 km e a Corridinha do Dinis.</p>\n\n\n",
+  "description_short": "Corrida histórica em Odivelas a homenagear o Rei D. Dinis no seu 7º centenário",
+  "page": "https://werun.pt/eventos/corrida-dom-dinis-2025/",
+  "slug": "corrida-dom-dinis-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Odivelas",
+  "administrative_area_level_3": "Odivelas",
+  "district_code": 11
+}

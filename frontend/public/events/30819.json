@@ -1,0 +1,31 @@
+{
+  "id": 30819,
+  "name": "Ansiães Douro Trail 2024",
+  "location": "Carrazeda de Ansiães, Bragança",
+  "coordinates": {
+    "lat": 41.2428631,
+    "lon": -7.307555700000001
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/62a1792866b2b2d4156834414477b1d9"
+  ],
+  "start_date": "2024-10-13",
+  "end_date": "2024-10-14",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Organizador anuncia que este ano, em 2024, não haverá Ansiães Douro Trail.</p>\n",
+  "description_short": "Trail do Douro cancelado para 2024 pelo organizador",
+  "page": null,
+  "slug": "ansiaes-douro-trail-2024",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Carrazeda de Ansiães",
+  "administrative_area_level_3": "Carrazeda de Ansiães",
+  "district_code": 4
+}

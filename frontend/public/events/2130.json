@@ -1,0 +1,33 @@
+{
+  "id": 2130,
+  "name": "VII Trilhos dos Avós 2020",
+  "location": "Ortigosa, Leiria",
+  "coordinates": {
+    "lat": 39.8242187,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8f072029e9d28892ddcfbda6e685500c"
+  ],
+  "start_date": "2020-05-16",
+  "end_date": "2020-05-17",
+  "circuit": [],
+  "description": "<div>Os “<strong>Trilhos dos Avós</strong>” são uma iniciativa da <strong>SAMVIPAZ &#8211; Associação de Solidariedade Social</strong>, que através da sua organização, dará pleno cumprimento ao regulamento da prova e responderá por todos os detalhes da realização do evento.</div>\n<div></div>\n<div><strong>EVENTO</strong></div>\n<ul>\n<li>Tipo de Prova: <strong>Trail de 15 Kms, Mini-Trail 10Kms e Caminhada de 10 Kms</strong> de dificuldade média</li>\n<li>Data e Hora: <strong>16 de Maio de 2020</strong> com partida às <strong>17.00 h</strong></li>\n<li>Local do Secretariado, Partida e Chegada: Sede da Samvipaz, em Rua Professora Margarida Fernandes de Carvalho, 61- Ortigosa- Leiria</li>\n</ul>\n<div><strong>Percurso</strong></div>\n<div>Tipo de Terreno: 90% de terra batida em caminhos agrícolas, vinhas, ribeiros e pinhais. Os restantes 10% serão zonas de transição com percurso em alcatrão.</div>\n<div></div>\n<div><strong>Distância do Trail: 15 Km</strong></div>\n<ul>\n<li>Total de Subida: 330 mts.</li>\n<li>Total de Descida: 330 mts</li>\n</ul>\n<div></div>\n<div><strong>Distância do Mini-Trail: 10 Km</strong></div>\n<ul>\n<li>Total de Subida: 200 mts.</li>\n<li>Total de Descida: 200 mts</li>\n</ul>\n<div></div>\n<div><strong>Distância da Caminhada: 10 Km</strong></div>\n",
+  "description_short": "Trail solidário pelos caminhos agrícolas e pinhais de Ortigosa com diferentes percursos para todos os níveis",
+  "page": "https://www.recordepessoal.pt/evento/trilhosdosavos",
+  "slug": "vii-trilhos-dos-avos-2020",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Souto da Carpalhosa e Ortigosa",
+  "district_code": 10
+}

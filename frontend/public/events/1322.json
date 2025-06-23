@@ -1,0 +1,33 @@
+{
+  "id": 1322,
+  "name": "Trail Castelejo 2020",
+  "location": "Alvados, Porto de Mós Mós, Lisboa",
+  "coordinates": {
+    "lat": 39.5526081,
+    "lon": -8.765693599999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    20000,
+    30000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/385da6aa735f96243d8628cd01239ba3"
+  ],
+  "start_date": "2020-02-16",
+  "end_date": "2020-02-17",
+  "circuit": [],
+  "description": "<div>A prova é organizada pela <strong>Trilho do Castelejo Associação de Aventura de Alvados</strong>.</div>\n<div></div>\n<div>A prova realiza se no dia <strong>16 de Fevereiro de 2020</strong> , com início pelas <strong>09H00</strong> e término pelas 15H00.</div>\n<div></div>\n<div>\n<div>O <strong>Trail Castelejo 2020</strong> ,</div>\n<ul>\n<li>Promover as corridas de montanha/trail, desporto com um impacto ambiental nulo como forma de chamar a atenção da população para a preservação do meio ambiente;</li>\n<li>Promover o Parque Natural de Serras de Aire e Candeeiros, local de excelênciapara este tipo de desporto e região natural que deve ser preservada.</li>\n</ul>\n<div>O <strong>Trail Castelejo 2020</strong> é constituído por <strong>3 provas K10 K20 e K30</strong></div>\n</div>\n",
+  "description_short": "Trail de montanha no Parque Natural de Serras de Aire e Candeeiros com sensibilização ambiental",
+  "page": "https://www.recordepessoal.pt/evento/trailcastelejo2020",
+  "slug": "trail-castelejo-2020",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Alvados",
+  "district_code": 10
+}

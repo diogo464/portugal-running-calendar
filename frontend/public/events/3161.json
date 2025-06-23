@@ -1,0 +1,29 @@
+{
+  "id": 3161,
+  "name": "Trilhos do 0615 2021",
+  "location": "Brasfemes, Coimbra",
+  "coordinates": {
+    "lat": 40.2744134,
+    "lon": -8.3910127
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3cca92d89d05b2961c1f197d51d086b0"
+  ],
+  "start_date": "2021-11-14",
+  "end_date": "2021-11-15",
+  "circuit": [],
+  "description": "\n<p>Trilhos do 0615 um desafio para os mais audazes. Sobe e desce, single-tracks e trilhos técnicos como o povo gosta!</p>\n",
+  "description_short": "Trail desafiante com single-tracks técnicas por paisagens montanhosas",
+  "page": "https://www.facebook.com/Trilhosdo0615/",
+  "slug": "trilhos-do-0615-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "Brasfemes",
+  "district_code": 6
+}

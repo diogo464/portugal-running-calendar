@@ -1,0 +1,33 @@
+{
+  "id": 752,
+  "name": "Columbeira TRAIL RUN",
+  "location": "Bombarral Bombarral, Leiria",
+  "coordinates": {
+    "lat": 39.2680991,
+    "lon": -9.158511299999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    15000,
+    30000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5500574c48f52272bd4c2797ea31009f"
+  ],
+  "start_date": "2020-06-28",
+  "end_date": "2020-06-29",
+  "circuit": [],
+  "description": "<p>O TURRES TRAIL CLUBE juntamente com o PENHAS TRAIL TEAM , e o apoio da Câmara Municipal do Bombarral e junta de freguesia da Roliça , vai realizar no próximo dia 15 de Março de 2020 , pelas 9:00 horas, um evento denominado &#8221; 4º edição COLUMBEIRA TRAIL RUN &#8220;. Este evento, terá um Trail Longo com 30 km, um Trail Curto com 15 km e um MiniTrail/Caminhada de 10 km . O percurso do Trail Run é circular, o local de partida e chegada assim como o secretariado será no pavilhão Municipal Bombarral.</p>\n",
+  "description_short": "Trail desafiante na região do Bombarral com três percursos diferentes e apoio municipal",
+  "page": "https://www.turresevents.com/eventos/columbeira-trail-run-2020",
+  "slug": "columbeira-trail-run",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Bombarral",
+  "administrative_area_level_3": "União das freguesias do Bombarral e Vale Covo",
+  "district_code": 10
+}

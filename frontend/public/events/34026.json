@@ -1,0 +1,31 @@
+{
+  "id": 34026,
+  "name": "Furnas Nigth Trail 2024",
+  "location": "Ponta Delgada, Ilha de São Miguel",
+  "coordinates": {
+    "lat": 37.7394207,
+    "lon": -25.6686725
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/41a83657e62f2d494363cc27ad6b366d"
+  ],
+  "start_date": "2024-06-15",
+  "end_date": "2024-06-15",
+  "circuit": [],
+  "description": "\n<p>O Furnas Night Trail é organizado pelo Clube Desportivo e Cultural Juventude Ilha Verde e ocorre à noite. O evento é iluminado pelos focos/lanternas e luzes frontais dos participantes e, em algumas partes do percurso, conta com a presença de músicos, o que cria uma atmosfera única.</p>\n\n\n\n<p>O evento é dividido em duas categorias: competitiva e não competitiva. A categoria competitiva é cronometrada e integra o trail curto e o mini trail; a categoria não competitiva é em formato caminhada.</p>\n\n\n\n<p>A imersão no noturno, nas luzes e na música irá despertar-lhe experiências sensoriais únicas.</p>\n\n\n\n<p>Prepare-se para a escuridão. Aproveite a experiência: Relaxe e curta a música e a natureza.</p>\n\n\n",
+  "description_short": "Trail nocturno nas Furnas com música ao vivo e iluminação única dos participantes",
+  "page": "https://sites.google.com/view/furnasnighttrail2024/home",
+  "slug": "furnas-nigth-trail-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "São Miguel",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

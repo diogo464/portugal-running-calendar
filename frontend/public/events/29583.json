@@ -1,0 +1,34 @@
+{
+  "id": 29583,
+  "name": "Maratona de Londres 2024",
+  "location": "Londres, Inglaterra",
+  "coordinates": {
+    "lat": 51.5072178,
+    "lon": -0.1275862
+  },
+  "country": "Reino Unido",
+  "locality": "Inglaterra",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "run",
+    "marathon"
+  ],
+  "images": [
+    "media/530c45f5bc6cc15d5d4fb0ae8eb2addc"
+  ],
+  "start_date": "2024-04-21",
+  "end_date": "2024-04-22",
+  "circuit": [
+    "Majors"
+  ],
+  "description": "\n<p>A Maratona de Londres, conhecida em inglês como &#8220;London Marathon,&#8221; é uma das corridas de maratona mais prestigiadas e populares do mundo que vai ocorrer a 21 de Abril de 2024. A primeira Maratona de Londres foi realizada em 1981 e desde então tornou-se uma das maratonas mais emblemáticas do planeta.</p>\n\n\n\n<p>A Maratona de Londres é conhecida por seu percurso icónico, que leva os corredores a passar por diversos pontos turísticos e culturais importantes da cidade, como o Rio Tâmisa, a Torre de Londres, a London Eye, o Palácio de Buckingham e a Abadia de Westminster. O percurso cénico proporciona uma experiência única aos corredores e atrai atletas de elite e amadores de todo o mundo.</p>\n\n\n\n<p>A participação na Maratona de Londres é altamente competitiva, e a maioria dos corredores amadores precisa de qualificar-se por meio de tempos de maratona anteriores ou ganhar uma vaga por meio de caridade. A corrida também arrecada fundos significativos para diversas organizações de caridade todos os anos.</p>\n\n\n\n<p>A Maratona de Londres faz parte do grupo das World Marathon Majors, que inclui as maratonas de Boston, Berlim, Chicago, Nova Iorque, Tóquio e Londres. Essas seis maratonas são amplamente reconhecidas como algumas das mais importantes e prestigiadas do mundo.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Maratona épica por Londres, passando por monumentos históricos e às margens do Tâmisa",
+  "page": "https://www.tcslondonmarathon.com/",
+  "slug": "maratona-de-londres-2024",
+  "administrative_area_level_1": "Inglaterra",
+  "administrative_area_level_2": "Grande Londres",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

@@ -1,0 +1,34 @@
+{
+  "id": 34148,
+  "name": "Trail Nossa Senhora das Neves 2024",
+  "location": "Minhotães, Barcelos",
+  "coordinates": {
+    "lat": 41.4349751,
+    "lon": -8.5712574
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    7000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ec98f14fcd3ca1e6bc36c09073a83bd8"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-05",
+  "circuit": [],
+  "description": "\n<p>Localizada no concelho de Barcelos às margens do rio Este, MINHOTÃES tem por iniciativa da sua confraria a organização do 1°TRAIL NOSSA SENHORA DAS NEVES, venham desfrutar dos trilhos e paisagens que temos para lhe oferecer.</p>\n\n\n\n<p><strong>Trail Curto &#8211; 15km</strong></p>\n\n\n\n<p><strong>Caminhada &#8211; 7KM</strong></p>\n\n\n",
+  "description_short": "Trail desafiante por trilhos de Barcelos com passagem pelo rio Este",
+  "page": "https://www.sinctime.com/evento/222",
+  "slug": "trail-nossa-senhora-das-neves-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Minhotães",
+  "district_code": 3
+}

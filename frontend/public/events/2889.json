@@ -1,0 +1,29 @@
+{
+  "id": 2889,
+  "name": "Trail de Santa Justa 2021",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/185543ea2747b4ef0385b2af0ef1b2dc"
+  ],
+  "start_date": "2021-10-30",
+  "end_date": "2021-10-31",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://resultados.stopandgo.pro/577/Individual\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>Pertencente uma vez mais ao Campeonato Nacional de Trail, a 9a edição do Trail de Santa Justa decorrerá no ultimo domingo do mês de Julho. Parta de Verão, mas antes corra em Valongo num dos mais emocionantes trails da zona Norte de Portugal.</p>\n",
+  "description_short": "Trail de Santa Justa num domingo de Verão, integrado no Campeonato Nacional de Trail em Valongo",
+  "page": "https://registerandgo.net/?evento=577",
+  "slug": "trail-de-santa-justa-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

@@ -1,0 +1,35 @@
+{
+  "id": 15095,
+  "name": "Meia Maratona na Areia Analice Silva 2022",
+  "location": "Costa da Caparica, Almada",
+  "coordinates": {
+    "lat": 38.64455299999999,
+    "lon": -9.2333757
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/405b2ace79f2654aef555aa490591f8a"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "<p>13ª Edição da Meia Maratona na Areia Analice Silva 2022 em areia mais antiga do País. Para além da Meia Maratona, uma prova e uma caminhada de 10 km</p>\n",
+  "description_short": "Meia maratona na praia histórica com provas complementares de 10 km",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/115/",
+  "slug": "meia-maratona-na-areia-analice-silva-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

@@ -1,0 +1,29 @@
+{
+  "id": 3034,
+  "name": "Vouga Trail 2022",
+  "location": "Sever do Vouga, Aveiro",
+  "coordinates": {
+    "lat": 40.7334189,
+    "lon": -8.371767199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ea545a86dfb8d0437a3c776205263bec"
+  ],
+  "start_date": "2022-01-08",
+  "end_date": "2022-01-09",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://resultados.stopandgo.pro/630/Individual\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n",
+  "description_short": "Desculpe, mas isso parece ser apenas um link para resultados de uma corrida, não uma descrição completa do evento. Sem informação adicional sobre o tipo de corrida, localização ou características específicas, não posso gerar um resumo.",
+  "page": "http://www.vougatrail.pt/",
+  "slug": "vouga-trail-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Sever do Vouga",
+  "administrative_area_level_3": "Sever do Vouga",
+  "district_code": 1
+}

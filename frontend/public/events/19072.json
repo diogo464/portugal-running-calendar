@@ -1,0 +1,34 @@
+{
+  "id": 19072,
+  "name": "V Trail das Andorinhas 2022",
+  "location": "Póvoa de Lanhoso, Braga",
+  "coordinates": {
+    "lat": 41.5784784,
+    "lon": -8.2689012
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000,
+    17000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/649542c409798a4b18eab3a941380a26"
+  ],
+  "start_date": "2022-12-11",
+  "end_date": "2022-12-12",
+  "circuit": [],
+  "description": "\n<p>O V Trail das Andorinhas é um evento organizado pelo GRUPO DESPORTIVO DA GOMA, em parceria com o Município da Póvoa de Lanhoso, e a Associação de Atletismo de Braga.</p>\n\n\n\n<p>Tipo de prova: Trail Running inserida no Circuito Regional de Trail da ASSOCIAÇÃO ATLETISMO DE BRAGA.<br>Distâncias: Trail Longo – 28Kms | Trail Curto 17kms – Caminhada – 5Kms</p>\n",
+  "description_short": "Trail desafiante pela região da Póvoa de Lanhoso com percursos variados em ambiente natural",
+  "page": "https://www.sinctime.com/evento/116",
+  "slug": "trail-das-andorinhas-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Póvoa de Lanhoso",
+  "administrative_area_level_3": "Póvoa de Lanhoso (Nossa Senhora do Amparo)",
+  "district_code": 3
+}

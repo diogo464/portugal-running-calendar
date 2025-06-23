@@ -1,0 +1,27 @@
+{
+  "id": 41742,
+  "name": "Trilhos D. Fuas 2025",
+  "location": "Porto de Mós, Leiria",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-07-06",
+  "end_date": "2025-07-06",
+  "circuit": [],
+  "description": "\n<p></p>\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa condensá-la num resumo sucinto.",
+  "page": "https://www.recordepessoal.pt/evento/trilhosdfuas2025",
+  "slug": "trilhos-d-fuas-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

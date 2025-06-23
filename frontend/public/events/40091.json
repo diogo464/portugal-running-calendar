@@ -1,0 +1,30 @@
+{
+  "id": 40091,
+  "name": "Acropolis &#8211; The Iron Challenge 2025",
+  "location": "Briteiros São Salvador, Guimarães",
+  "coordinates": {
+    "lat": 41.5211599,
+    "lon": -8.3229511
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7856f91aa3bc01a78775b9d42276e031"
+  ],
+  "start_date": "2025-07-13",
+  "end_date": "2025-07-14",
+  "circuit": [],
+  "description": "\n<p>A “Acropolis – The Iron Challenge” é uma corrida de obstáculos inserida num percurso em plena natureza, utilizando o mais possível os recursos naturais da zona em que se insere, incluindo obstáculos naturais e estruturas artificiais montadas ao longo do percurso.</p>\n\n\n",
+  "description_short": "Trail de obstáculos desafiante pela natureza com elementos naturais e artificiais integrados no percurso",
+  "page": "https://lap2go.com/pt/event/acropolis-the-iron-challenge-2025",
+  "slug": "acropolis-the-iron-challenge-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Salvador",
+  "district_code": 3
+}

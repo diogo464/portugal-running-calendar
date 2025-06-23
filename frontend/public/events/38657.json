@@ -1,0 +1,36 @@
+{
+  "id": 38657,
+  "name": "Trilhos do Alfusqueiro 2025",
+  "location": "Praia Fluvial de Alfusqueiro, Águeda Alfusqueiro",
+  "coordinates": {
+    "lat": 40.6267405,
+    "lon": -8.360085399999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    8000,
+    10000,
+    15000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ce708f173943c5ffc9f743b4056885c1"
+  ],
+  "start_date": "2025-04-13",
+  "end_date": "2025-04-14",
+  "circuit": [],
+  "description": "\n<p>O Mexe Mexe em Excelente Companhia organiza o evento desportivo Trilhos do Alfusqueiro 2025, nas vertentes de Trail Running e Caminhada. Este evento ocorrerá no dia 13 de abril de 2025, sendo composto por três percursos com carácter competitivo (provas de Trail Running 22K, 15K e 10K), e com um percurso recreativo (Caminhada com 8K).<br>Este evento está, também, inserido no Troféu Trail Terras de Águeda 2025, da responsabilidade da Câmara Municipal de Águeda, sendo esta a terceira etapa, com duas provas a contar para esse Troféu.</p>\n",
+  "description_short": "Trail Running pela região de Águeda com diferentes percursos competitivos e caminhada recreativa",
+  "page": "https://lap2go.com/pt/event/alfusqueiro-trail-2025",
+  "slug": "alfusqueiro-trail-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias do Préstimo e Macieira de Alcoba",
+  "district_code": 1
+}

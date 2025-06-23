@@ -1,0 +1,29 @@
+{
+  "id": 4076,
+  "name": "Ultra Trail Serra da Freita 2022",
+  "location": "Arouca, Aveiro",
+  "coordinates": {
+    "lat": 40.9312766,
+    "lon": -8.237704899999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6ddb95b4f1f5c20b2b79d4f18cfcd208"
+  ],
+  "start_date": "2022-06-25",
+  "end_date": "2022-06-26",
+  "circuit": [],
+  "description": "\n<p>Ultra Trail Serra da Freita 2022 é um evento de Trail Running em que o atleta se irá aventurar, por alguns dos mais belos trilhos, nos concelhos de Arouca, Vale de Cambra e S. Pedro do Sul.</p>\n",
+  "description_short": "Trail desafiante pela Serra da Freita com passagem por três concelhos do norte de Portugal",
+  "page": "https://registerandgo.net/?evento=579",
+  "slug": "ultra-trail-serra-da-freita-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Arouca",
+  "administrative_area_level_3": "Arouca",
+  "district_code": 1
+}

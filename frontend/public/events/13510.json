@@ -1,0 +1,29 @@
+{
+  "id": 13510,
+  "name": "Melgaço Alvarinho Trail 2022",
+  "location": "Melgaço",
+  "coordinates": {
+    "lat": 42.1150676,
+    "lon": -8.259597399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/7bacfee4469dd1b1c4072a24238fbd3f"
+  ],
+  "start_date": "2022-05-15",
+  "end_date": "2022-05-16",
+  "circuit": [],
+  "description": "\n<p>As paisagens deslumbrantes do Melgaço Alvarinho Trail 2022 a tranquilidade, a adrenalina, a deliciosa gastronomia, o alvarinho motivam entusiastas de vários pontos do País e também de Espanha a participarem neste trail, no Destino de Natureza Mais Radical de Portugal.</p>\n",
+  "description_short": "Trail pela região de Melgaço com paisagens únicas e oferta de vinhos alvarinho",
+  "page": "https://stopandgo.net/event/?id=589",
+  "slug": "melgaco-alvarinho-trail-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Melgaço",
+  "administrative_area_level_3": "Vila",
+  "district_code": 16
+}

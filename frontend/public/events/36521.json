@@ -1,0 +1,34 @@
+{
+  "id": 36521,
+  "name": "Carcavelos Wine Trail 2024",
+  "location": "Oeiras, Lisboa",
+  "coordinates": {
+    "lat": 38.69686069999999,
+    "lon": -9.314601399999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    6000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/19c526e2001a99c101e37b1ba4d812de"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-08",
+  "circuit": [],
+  "description": "\n<p>Com o apoio dos municípios de Oeiras e de Cascais, e organização da Confraria do Vinho de Carcavelos e da Ganhardestak, realiza-se no dia 8 de dezembro a 1ª edição do Carcavelos Wine Trail, com partida e chegada no Jardim do Marquês inserido na Estação Agronómica Nacional em Oeiras, composto por um Trail de 12K e uma caminhada de 6K.</p>\n\n\n",
+  "description_short": "Trail vínico entre Oeiras e Cascais com passagem pela histórica Estação Agronómica Nacional",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/143158-1o_carcavelos_wine_trail-jardins_do_marques/",
+  "slug": "carcavelos-wine-trail-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+  "district_code": 11
+}

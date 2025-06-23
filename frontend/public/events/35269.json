@@ -1,0 +1,33 @@
+{
+  "id": 35269,
+  "name": "Cross &#8220;Ar Puro&#8221; 2024",
+  "location": "Carvalhal, Grândola",
+  "coordinates": {
+    "lat": 38.3045172,
+    "lon": -8.7697564
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    12500
+  ],
+  "types": [
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/a8766cf1b80a8e0b15f33975b0fa6007"
+  ],
+  "start_date": "2024-05-25",
+  "end_date": "2024-05-25",
+  "circuit": [],
+  "description": "\n<p>A prova realiza-se no dia 25 de Maio de 2024, pelas 09.00h, com partida em frente à Junta de Freguesia e Chegada ao recinto de Feiras e Mercados do Carvalhal. A corrida terá́ a distância de 12,5km.</p>\n\n\n",
+  "description_short": "Corrida matinal pela zona do Carvalhal com partida em frente à Junta de Freguesia",
+  "page": "https://www.trilhoperdido.com/evento/Cross-Ar-Puro",
+  "slug": "cross-ar-puro-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "Carvalhal",
+  "district_code": 15
+}

@@ -1,0 +1,38 @@
+{
+  "id": 1889,
+  "name": "Parceria Portugal Running &#8211; Maratona de Aveiro a 26 Abril 2020",
+  "location": "Aveiro",
+  "coordinates": {
+    "lat": 40.6405055,
+    "lon": -8.6537539
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    21000,
+    21097,
+    42000,
+    42195
+  ],
+  "types": [
+    "marathon",
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/b6db6dbce43511c2c7061eea0bb292f7"
+  ],
+  "start_date": "2020-02-14",
+  "end_date": "2020-02-15",
+  "circuit": [],
+  "description": "<h3>Parceria<strong> Portugal Runnnig &#8211; 10% sobre o preço abaixo à data</strong></h3>\n<p>(para os nossos Utilizadores Registados nas seguintes provas)</p>\n<ul>\n<li>Maratona (42 Km)</li>\n<li>Meia Maratona (21 Km)</li>\n<li>Mini Maratona (10 Km)</li>\n</ul>\n<p>DATAS  | MARATONA | MEIA MARATONA | MINI MARATONA</p>\n<p>&#8211;<strong> Até 26 Março: 54,90€ | 17,00€ | 15,00€ </strong></p>\n<p><strong>&#8211; Até 20 Abril: 74,90€ | 20,00€ | 15,00€ | </strong></p>\n<p><strong>&#8211; A partir de 21 Abril: 100,00€ |25,00€ | 20,00€</strong></p>\n<p>&nbsp;</p>\n<h3>Como fazer?</h3>\n<p>Comentar abaixo (após o mapa) a dizer que pretendes tirar partido desta Parceria.</p>\n",
+  "description_short": "Parceria Portugal Running com descontos para maratona, meia maratona e mini maratona em diferentes períodos de inscrição",
+  "page": null,
+  "slug": "maratona-de-aveiro-2020-parceria",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Aveiro",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

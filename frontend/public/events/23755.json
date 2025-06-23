@@ -1,0 +1,32 @@
+{
+  "id": 23755,
+  "name": "Sunset Cordinhã 2023",
+  "location": "Cordinhã, Cantanhede",
+  "coordinates": {
+    "lat": 40.3381593,
+    "lon": -8.5355511
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/6823dd28a94d6aee647eb121dabb8519"
+  ],
+  "start_date": "2023-06-03",
+  "end_date": "2023-06-04",
+  "circuit": [],
+  "description": "\n<p>Sunset Cordinhã realiza-se a 3 de junho em Cordinhã, uma organização da Associação Trilhos da Baga.</p>\n\n\n\n<p>Junho é o mês da Festa do Vinho e da Gastronomia de Cordinhã.<br>inserido nesse contexto temos este evento desportivo para oferecer a todos os interessados, comparece e não esqueças de trazer os amigos.</p>\n\n\n",
+  "description_short": "Trail ao pôr-do-sol na região vinícola de Cordinhã, integrado na Festa do Vinho e da Gastronomia",
+  "page": "https://www.runmanager.net/Eventos/sunset-cordinha/721",
+  "slug": "sunset-cordinha-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "Cordinhã",
+  "district_code": 6
+}

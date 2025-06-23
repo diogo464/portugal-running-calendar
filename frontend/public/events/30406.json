@@ -1,0 +1,36 @@
+{
+  "id": 30406,
+  "name": "Meia Maratona Praia Monte Gordo 2024",
+  "location": "Monte Gordo, Vila Real de Santo António",
+  "coordinates": {
+    "lat": 37.1825903,
+    "lon": -7.4520212
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000,
+    10000,
+    10500,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/ce4b92162e6e5fa8fb68ce3f3aea22a0"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo Pic-Nic e a Câmara Municipal de Vila Real de Santo António, com a colaboração da Associação de Atletismo do Algarve, da Autoridade Marítima Nacional e do Masters Athletics Club, vão realizar no dia 28 de abril de 2024, com início às 10.30 horas uma Prova de Atletismo, denominada Meia Maratona Praia Monte Gordo.</p>\n\n\n\n<p><br>Integrada no programa da Meia Maratona, disputa-se em simultâneo uma corrida com 10,5 km de extensão, denominada Mini Maratona Praia de Monte Gordo.</p>\n\n\n",
+  "description_short": "Meia maratona à beira-mar em Monte Gordo com apoio municipal e associativo",
+  "page": "https://www.crono.aaalgarve.org/eventos/i-meia-maratona-praia-de-monte-gordo",
+  "slug": "meia-maratona-monte-gordo-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Vila Real de Santo António",
+  "administrative_area_level_3": "Monte Gordo",
+  "district_code": 8
+}

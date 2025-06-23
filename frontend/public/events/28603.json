@@ -1,0 +1,29 @@
+{
+  "id": 28603,
+  "name": "Trail ACTIB 2023",
+  "location": "Águeda",
+  "coordinates": {
+    "lat": 40.5754246,
+    "lon": -8.446436799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A contar para o Troféu Trail Terras de Águeda, no ACTIB-TRAIL, além de poderes desfrutar da natureza que o concelho oferece, também poderás percorrer a mítica pista do Casarão, uma verdadeira montanha russa de emoções que recebe provas mundiais de outras modalidades e que irá certamente proporcionar uma experiência única. Vem partilhar a emoção de um verdadeiro campeão do mundo, com a natureza aos teus pés</p>\n",
+  "description_short": "Trail pela região de Águeda com passagem pela icónica pista do Casarão",
+  "page": "https://lap2go.com/pt/event/trail-actib-2023",
+  "slug": "trail-actib-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Águeda e Borralha",
+  "district_code": 1
+}

@@ -1,0 +1,35 @@
+{
+  "id": 33827,
+  "name": "Trail da Desgarça 2024",
+  "location": "Anobra, Condeixa",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ec85454f2c39dd6d1792c67a2660fea2"
+  ],
+  "start_date": "2024-04-21",
+  "end_date": "2024-04-21",
+  "circuit": [],
+  "description": "\n<p>“<em>Vem aí o primeiro trail da (Des) Garça e as inscrições já estão abertas!</em></p>\n\n\n\n<p><em>Após 18 ou 12 quilómetros a correr ou 10 quilómetros a caminhar por trilhos e terrenos irregulares, terá a recompensa merecida: um delicioso almoço quentinho!</em></p>\n\n\n\n<p><em>No dia 21 de abril de 2024, vai decorrer a estreia do Trail da (Des) Garça, por trilhos com belíssimas paisagens, fontes e lavadouros antigos onde ainda se lava à mão nos dias de hoje. Na freguesia de Anobra, paredes meias com o buliço da cidade e com as tranquilas paisagens verdes, preenchidas com a Reserva Natural do Paúl de Arzila, património natural desta Freguesia.”</em></p>\n\n\n",
+  "description_short": "Trail pioneiro com paisagens tradicionais na Reserva Natural do Paúl de Arzila, com paragem em fontes e lavadouros históricos da freguesia de Anobra",
+  "page": "https://waitastart.com/trail_desgarca2024/",
+  "slug": "trail-da-desgarca-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

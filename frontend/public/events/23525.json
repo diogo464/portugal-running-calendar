@@ -1,0 +1,34 @@
+{
+  "id": 23525,
+  "name": "Trail Senhor Do Calvário 2023",
+  "location": "Matacães, Torres Vedras",
+  "coordinates": {
+    "lat": 39.0926979,
+    "lon": -9.2115195
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    12000,
+    17000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d79f615557ef8a4cccc422ae7e8d14a1"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [],
+  "description": "\n<p>O Trail Senhor do Calvário é uma organização entre do Grupo Desportivo de Matacães com a colaboração da Equipa GOAT-West Trail Team e do SantAventura, com o apoio da Junta de Freguesia Santa Maria, São Pedro e Matacães e de várias entidades. </p>\n\n\n\n<p>O Trail Senhor do Calvário será realizado no dia 19 de Novembro de 2023 (Domingo), em Matacães/Torres Vedras independentemente das condições climatéricas desse dia, desde que a Organização<br>entenda que as mesmas não oferecem risco para os participantes.<br>Será constituído por duas provas de carácter competitivo: “Trail Longo – K27”, “Trail Curto – K17”, para além de uma Caminhada de aproximadamente 12Kms</p>\n\n\n",
+  "description_short": "Trail desafiante em Matacães com provas competitivas e caminhada pela região de Torres Vedras",
+  "page": "https://www.trilhoperdido.com/evento/Trail-Senhor-do-Calvario",
+  "slug": "trail-senhor-do-calvario-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Matacães",
+  "district_code": 11
+}

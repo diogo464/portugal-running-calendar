@@ -1,0 +1,35 @@
+{
+  "id": 38927,
+  "name": "Aquarace Sesimbra 2025",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "relay"
+  ],
+  "images": [
+    "media/59336d5f0d350fa2c67cd41771eca1da"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [],
+  "description": "\n<p>A AQUARACE SESIMBRA dia 11 de maio de 2025, à semelhança da edição anterior, é uma atividade que envolve a Serra e o Mar de Sesimbra.<br>Os atletas, em equipa poderão se desafiar, saindo da sua zona de conforto.</p>\n\n\n\n<p>As equipas, este ano compostas por apenas 2 elementos, irão efetuar um percurso com um total de 15 km, 10 km em corrida pela Serra e 5 km no mar na modalidade de canoagem.</p>\n\n\n\n<p>Vamos poder contar com a emblemática Ribeira do Cavalo como ponto de picagem na modalidade de canoagem e o famoso Castelo de Sesimbra como ponto de passagem e picagem na modalidade de corrida.</p>\n\n\n\n<p>Com partida e chegada na Praia do Ouro, em Sesimbra, este ano os atletas poderão se inscrever em Elite (competitivo) ou em Open (não competitivo), saindo assim nas respetivas vagas.</p>\n\n\n",
+  "description_short": "Desafio de trail e canoagem entre a Serra e o Mar de Sesimbra com passagem por locais emblemáticos",
+  "page": "https://waitastart.com/aquarace-sesimbra-2025/",
+  "slug": "aquarace-sesimbra-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

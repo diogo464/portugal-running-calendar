@@ -1,0 +1,31 @@
+{
+  "id": 42054,
+  "name": "Trail Penedo da Moura 2025",
+  "location": "Vila Nova de Famalicão, Braga Porto",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/0f00719b60e8c1696132f31687a61f0d"
+  ],
+  "start_date": "2025-07-12",
+  "end_date": "2025-07-13",
+  "circuit": [],
+  "description": "\n<p>8a edição &#8211; Trail Penedo da Moura</p>\n\n\n\n<p>6a Prova do Campeonato Concelhio de Trail de Vila Nova de Famalicão</p>\n\n\n\n<p>O Evento terá lugar na freguesia de Mogege, Concelho de Vila Nova de Famalicão.</p>\n\n\n\n<p>Procura fomentar a prática de atividade desportiva ao ar livre e o contacto com a natureza, sensibilizando para a proteção das florestas, dos espaços verdes e do ambiente em geral, levando essa consciência para exercício em contexto familiar e práticas de boa e sadia convivência social, numa Organização da Associação Mogege Aventura, em parceria com o Staff do Trail Penedo da Moura, a Junta de Freguesia de Mogege e a Câmara Municipal de Vila Nova de Famalicão.</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Mogege com objetivo de promover desporto, natureza e consciência ambiental",
+  "page": "https://www.sinctime.com/evento/356",
+  "slug": "trail-penedo-da-moura-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

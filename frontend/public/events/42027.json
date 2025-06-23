@@ -1,0 +1,32 @@
+{
+  "id": 42027,
+  "name": "Corrida das Vindimas 2025",
+  "location": "Cartaxo, Santarém",
+  "coordinates": {
+    "lat": 39.16181660000001,
+    "lon": -8.7888254
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/9d564140135a8514864a75c9e64b968b"
+  ],
+  "start_date": "2025-09-20",
+  "end_date": "2025-09-21",
+  "circuit": [],
+  "description": "\n<p>A VIII CORRIDA DAS VINDIMAS – CARTAXO é organizada pelo Município do Cartaxo com o apoio da Escola de Atletismo Correr + do Cartaxo e do e o Trilho dos Cágados.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional alusiva às vindimas no município do Cartaxo",
+  "page": "https://lap2go.com/pt/event/corrida-das-vindimas-2025",
+  "slug": "corrida-das-vindimas-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Cartaxo",
+  "administrative_area_level_3": "União das freguesias do Cartaxo e Vale da Pinta",
+  "district_code": 14
+}

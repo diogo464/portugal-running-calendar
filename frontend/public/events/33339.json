@@ -1,0 +1,32 @@
+{
+  "id": 33339,
+  "name": "Grande Prémio de Atletismo de Ancede &#8211; Baião 2024",
+  "location": "Ancede, Baião",
+  "coordinates": {
+    "lat": 41.1025689,
+    "lon": -8.0572191
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/d03118034d3ee70b2e01ed15923cffa3"
+  ],
+  "start_date": "2024-10-27",
+  "end_date": "2024-10-28",
+  "circuit": [],
+  "description": "\n<p>O Grande Prémio de Atletismo de Ancede, também conhecido como a Prova da Bengala, estende-se ao longo de 10 quilómetros. Venha até Ancede correr!</p>\n",
+  "description_short": "Prova de atletismo tradicional por caminhos rurais em Ancede",
+  "page": "https://www.desportave.pt/events.file.php?cid=169",
+  "slug": "grande-premio-de-atletismo-de-ancede-baiao-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Baião",
+  "administrative_area_level_3": "União das freguesias de Ancede e Ribadouro",
+  "district_code": 13
+}

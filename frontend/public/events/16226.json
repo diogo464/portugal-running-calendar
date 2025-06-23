@@ -1,0 +1,35 @@
+{
+  "id": 16226,
+  "name": "Meia Maratona São João das Lampas 2022",
+  "location": "São João Das Lampas, Lisboa",
+  "coordinates": {
+    "lat": 38.8744196,
+    "lon": -9.3986994
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    9000,
+    13000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/de3342e3fc862e10cbf753e235420d16"
+  ],
+  "start_date": "2022-09-10",
+  "end_date": "2022-09-11",
+  "circuit": [],
+  "description": "<div class=\"col-12 col-md-6\">\n<p>Está à porta a 44ª Meia Maratona São João das Lampas, a Meia da região saloia e 2ª mais antiga do País na distância, conhecida pelo seu perfil em carrocel e por ser exigente e selectiva, mas amada por muitos. E o facto de sabermos que há muita gente a gostar de nós, é o que mais nos anima a manter no calendário esta prova de tradição, já quarentona.</p>\n<p>Vamos também realizar a 3ª Meia Rampa, a tal prova de 13 km correspondente à 1ª parte da Meia Maratona, terminando na passagem por S. João das Lampas. Esperamos que nesta terceira edição possamos contar com a recomendação de quem participou nesta prova o ano passado. Se começou a correr há pouco tempo, ou não se sente preparado para fazer a meia maratona, aproveite esta oportunidade de fazer parte desta prova.</p>\n</div>\n<div class=\"col-12 col-md-6\">\n<p>Mantém-se a Caminhada, com cerca de 9 km, num percurso misto, que alia o asfalto ao Trilho, ou não fosse a Meia Maratona de S. João das Lampas caracterizada por ser uma prova em asfalto com paisagens de Trilho.</p>\n<p>Estando integrada nas grandes Festas anuais de Nª Srª da Saúde, todos poderão usufruir do habitual ambiente festivo.</p>\n</div>\n\n\n<p></p>\n",
+  "description_short": "Meia maratona tradicional em São João das Lampas com percurso desafiante e paisagens únicas entre asfalto e trilho",
+  "page": "https://www.lampas.org/",
+  "slug": "meia-maratona-sao-joao-das-lampas-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

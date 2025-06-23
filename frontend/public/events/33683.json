@@ -1,0 +1,31 @@
+{
+  "id": 33683,
+  "name": "3Up Extreme 2024",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    27000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8c0e1563cf85d7dfd38daa49bac3c615"
+  ],
+  "start_date": "2024-06-01",
+  "end_date": "2024-06-01",
+  "circuit": [],
+  "description": "\n<p>O evento 3up Extreme é organizado pela SpotCriativo Eventos em colaboração com o Município de São Pedro do Sul e apoio das entidades locais. O evento será realizado no dia1 de Junho de 2024, com partida em local a indicar no dossier de atleta, será composto por 1 percurso de 27 km e 2700 D+, e duas corridas verticais que somarão pontos para o campeonato nacional vertical da FCMP e Campeonato regional Sky.</p>\n\n\n",
+  "description_short": "Trail desafiante pela Serra de São Pedro do Sul com duas corridas verticais pontuáveis",
+  "page": "https://stopandgo.net/events/3up-extreme-2024",
+  "slug": "3up-extreme-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

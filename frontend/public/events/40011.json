@@ -1,0 +1,31 @@
+{
+  "id": 40011,
+  "name": "Grande Prémio Atletismo Vila de Mozelos 2025",
+  "location": "Mozelos, Aveiro",
+  "coordinates": {
+    "lat": 40.9953015,
+    "lon": -8.568315799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/82b2449e48a58582d209f8d8a44e6a43"
+  ],
+  "start_date": "2025-03-09",
+  "end_date": "2025-03-10",
+  "circuit": [],
+  "description": "\n<p>O Grande Prémio de Atletismo Vila de Mozelos é um tradicional momento de reunião dos muitos participantes de corrida da região de Aveiro e do concelho de Santa Maria da Feira, organizado pela 24ª vez. Regresse ou venha experimentar pela primeira vez este evento.</p>\n",
+  "description_short": "Prova de atletismo tradicional que reúne corredores da região de Aveiro em Mozelos",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-vila-de-mozelos-2025",
+  "slug": "grande-premio-atletismo-vila-de-mozelos-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Mozelos",
+  "district_code": 1
+}

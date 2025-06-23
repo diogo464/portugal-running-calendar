@@ -1,0 +1,35 @@
+{
+  "id": 21531,
+  "name": "V Edição Trail Trilhos Pina Manique 2023",
+  "location": "Azambuja, Lisboa",
+  "coordinates": {
+    "lat": 39.0704397,
+    "lon": -8.8730393
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    13000,
+    23000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2c476b4efa6f98771f7450d67547c764"
+  ],
+  "start_date": "2023-04-23",
+  "end_date": "2023-04-24",
+  "circuit": [],
+  "description": "\n<p>A Associação dos Amigos de Trilhos Pina Manique e a Câmara Municipal de Azambuja<br>organizam, no próximo dia 23 de abril de 2023, a V edição do Trail &#8220;Trilhos Pina Manique&#8221;.</p>\n\n\n\n<p>A prova, está integrada na Festa das Tasquinhas de Manique do Intendente 2023, em estreita<br>colaboração com a União das Freguesias de Manique do Intendente, Vila Nova de S. Pedro<br>e Maçussa, que decorre nos dias 21, 22 e 23 de abril de 2023.</p>\n\n\n\n<p>Esta prova é composta por duas corridas de caráter competitivo, sendo uma o Trail de 23km<br>e o Mini Trail de 13km. Realiza-se também uma caminhada pedestre, sem intuito competitivo,<br>com uma distância aproximada de 10km.</p>\n",
+  "description_short": "Trail competitivo pelos trilhos históricos de Manique do Intendente, integrado na Festa das Tasquinhas",
+  "page": "https://www.trilhoperdido.com/evento/5-Trail-Trilhos-Pina-Manique",
+  "slug": "trail-trilhos-pina-manique-20223",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Azambuja",
+  "administrative_area_level_3": "Azambuja",
+  "district_code": 11
+}

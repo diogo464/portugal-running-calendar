@@ -1,0 +1,29 @@
+{
+  "id": 23846,
+  "name": "Ii Resistência Trail 3H Glória Do Ribatejo 2023",
+  "location": "Glória do Ribatejo, Santarém",
+  "coordinates": {
+    "lat": 39.0324461,
+    "lon": -8.6270628
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ceb6b05c92bcc074b61124e92ac13f32"
+  ],
+  "start_date": "2023-07-15",
+  "end_date": "2023-07-16",
+  "circuit": [],
+  "description": "\n<p>Esta prova, com trajeto designado de II Resistência Trail Glória do Ribatejo – 3H, será a segunda edição realizada pela Secção de Trail de Glória do Ribatejo, em parceria com a Câmara Municipal de Salvaterra e a União de Freguesias de Glória do Ribatejo e Granho. Durante a corrida, os atletas terão oportunidade de passar por alguns locais emblemáticos da Vila de Glória do Ribatejo e desfrutar do apoio vibrante da população gloriana no centro da Vila.</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Trail desafiante pela Vila de Glória do Ribatejo com apoio local animado",
+  "page": "https://acorrer.pt/eventos/info/3227",
+  "slug": "ii-resistencia-trail-3h-gloria-do-ribatejo-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "União das freguesias de Glória do Ribatejo e Granho",
+  "district_code": 14
+}

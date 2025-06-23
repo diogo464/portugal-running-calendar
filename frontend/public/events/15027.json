@@ -1,0 +1,31 @@
+{
+  "id": 15027,
+  "name": "ALUT &#8211; Algarviana Ultra Trail 2022",
+  "location": "Alcoutim, Faro",
+  "coordinates": {
+    "lat": 37.4689817,
+    "lon": -7.4735957
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d5ef73c455f7ecf682e0af42bd1d4ddf"
+  ],
+  "start_date": "2022-11-24",
+  "end_date": "2022-11-25",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>ALUT &#8211; Algarviana Ultra Trail 2022</p>\n",
+  "description_short": "Trail desafiante pela serranias algarvias com paisagens únicas do interior do Algarve",
+  "page": "https://stopandgo.net/event/?id=730",
+  "slug": "alut-algarviana-ultra-trail-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Alcoutim",
+  "administrative_area_level_3": "União das freguesias de Alcoutim e Pereiro",
+  "district_code": 8
+}

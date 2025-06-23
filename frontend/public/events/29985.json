@@ -1,0 +1,32 @@
+{
+  "id": 29985,
+  "name": "Trail da Amizade Kids 2023",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/347ddb9ff7f509d47657c0dac8a63181"
+  ],
+  "start_date": "2023-12-02",
+  "end_date": "2023-12-03",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>No próximo dia 2 de dezembro, irá organizar a 2ª edição do TRAIL DA AMIZADE KIDS que contará com o apoio e colaboração do Município de Ansião, entre outros patrocinadores e colaboradores.</p>\n\n\n",
+  "description_short": "Trail infantil em Ansião com apoio municipal para promover amizade e desporto",
+  "page": "https://www.queroir.pt/traildaamizadekids2023",
+  "slug": "trail-da-amizade-kids-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

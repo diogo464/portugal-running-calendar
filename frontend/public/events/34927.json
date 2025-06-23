@@ -1,0 +1,33 @@
+{
+  "id": 34927,
+  "name": "Corrida Solidária AEISA 2024",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/cfdb3fdd660627ea2b6b51fb6f14e1cb"
+  ],
+  "start_date": "2024-04-13",
+  "end_date": "2024-04-14",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Associação dos Estudantes do Instituto Superior de Agronomia</strong>&nbsp;apresenta a “IV Corrida Solidária AEISA”, a realizar-se no&nbsp;<strong>dia&nbsp;13 de abril de 2024</strong>, com o apoio do ISA, CM-Lisboa, Junta de Freguesia da Ajuda, Junta de Freguesia de Alcântara, ADESL, FAL, ULisboa, Mais Superior e Xistarca.</p>\n\n\n\n<p>A <strong>Associação dos Estudantes do Instituto Superior de Agronomia </strong>pretende oferecer aos participantes um <strong>percurso desafiante pelos brilhantes cenários</strong> que irão encontrar na Tapada da Ajuda e Mata de Monsanto, bem como a oportunidade de contribuir para uma <strong>causa solidária</strong>.</p>\n\n\n\n<p>» Corrida 10km | <strong>09h45</strong><br>» Caminhada 5km | <strong>10h00</strong></p>\n",
+  "description_short": "Corrida solidária pelos cenários verdes da Tapada da Ajuda e Mata de Monsanto em Lisboa",
+  "page": "https://xistarca.pt/eventos/iv-corrida-solidaria-aeisa",
+  "slug": "corrida-solidaria-aeisa-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

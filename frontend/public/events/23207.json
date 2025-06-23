@@ -1,0 +1,34 @@
+{
+  "id": 23207,
+  "name": "IV Trail Bombeiros Voluntários de Mêda 2023",
+  "location": "Mêda, Guarda",
+  "coordinates": {
+    "lat": 40.965806,
+    "lon": -7.2612127
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    12000,
+    18000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d1e44dd5cc81ca00d59b36c1cc42cd68"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [],
+  "description": "\n<p>A província da Beira Alta, região do Centro, irá ser palco do IV Trail dos Bombeiros Voluntários de Mêda no dia 30 de Abril de 2023.</p>\n\n\n\n<p>O percurso vai ser constituído por um Trail Longo de 30 quilómetros, um Trail Curto de 18 quilómetros e uma Caminhada de 12 quilómetros.</p>\n\n\n\n<p>O evento é organizado pela “A.H.B.V.M.” (Associação Humanitária dos Bombeiros Voluntários de Mêda), com os apoios institucionais aderentes e imprescindíveis na realização das atividades.</p>\n\n\n",
+  "description_short": "Trail solidário pelos trilhos da Beira Alta em apoio aos Bombeiros Voluntários de Mêda",
+  "page": "https://meutempo.pt/prova?trailbvmeda",
+  "slug": "iv-trail-bombeiros-voluntarios-de-meda-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Mêda",
+  "administrative_area_level_3": "Mêda, Outeiro de Gatos e Fonte Longa",
+  "district_code": 9
+}

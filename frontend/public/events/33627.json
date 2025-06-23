@@ -1,0 +1,34 @@
+{
+  "id": 33627,
+  "name": "Corrida da Lagoa de Santo André 2024",
+  "location": "Santiago do Cacém, Setúbal Setubal",
+  "coordinates": {
+    "lat": 38.0162314,
+    "lon": -8.6956768
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/00f7540ac0843d507f4b904fb23534be"
+  ],
+  "start_date": "2024-07-13",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de Santo André, em co-organização com a Ganhardestak realiza no próximo dia 13 de julho de 2024, a “27ª Corrida da Lagoa de Santo André” em Santo André, Santiago do Cacém.</p>\n\n\n\n<p>É uma prova desportiva que tem como objetivo de promover a prática desportiva, o bem estar e o convívio entre os participantes. A corrida terá 10 Km, que inclui ainda a 15ª Caminhada Reserva Natural numa distância de 7K.</p>\n",
+  "description_short": "Corrida tradicional pela zona da Lagoa de Santo André com caminhada integrada",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/134869-27o_corrida_da_lagoa_de_santo_andre-lagoa_de_santo_andre/",
+  "slug": "corrida-da-lagoa-de-santo-andre-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santiago do Cacém",
+  "district_code": 15
+}

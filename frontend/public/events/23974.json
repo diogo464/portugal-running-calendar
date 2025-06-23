@@ -1,0 +1,34 @@
+{
+  "id": 23974,
+  "name": "3 Milhas da Mealhada 2023",
+  "location": "Mealhada, Aveiro",
+  "coordinates": {
+    "lat": 40.3807921,
+    "lon": -8.449581400000001
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    4800,
+    8000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/736bde9850133cc40ac3063105500ad8"
+  ],
+  "start_date": "2023-06-10",
+  "end_date": "2023-06-11",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal da Mealhada, em parceria com a Associação Trilhos Luso Bussaco, vai realizar, no próximo dia 10 de Junho de 2023, pelas 10h, junto à Câmara Municipal da Mealhada, mais uma edição da prova de Atletismo “3 Milhas da Mealhada”, inserida no programa da Feira de Artesanato e Gastronomia da Mealhada.</p>\n\n\n\n<p>É uma corrida de estrada com a distância de cerca de 4,8Km, com classificação e cronometragem, destinada a atletas federados e não federados, sem distinção de raça, sexo, ou nacionalidade, depois de devidamente inscritos.</p>\n\n\n\n<p>Do programa faz parte também uma caminhada com a mesma extensão, sem cronometragem e sem classificações, estando sujeita a inscrição prévia, de acordo com os prazos gerais de inscrições.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida de estrada nas 3 Milhas da Mealhada durante evento de artesanato e gastronomia",
+  "page": "https://www.runmanager.net/Eventos/3-milhas-da-mealhada/731",
+  "slug": "3-milhas-da-mealhada-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "União das freguesias da Mealhada, Ventosa do Bairro e Antes",
+  "district_code": 1
+}

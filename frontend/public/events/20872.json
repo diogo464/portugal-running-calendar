@@ -1,0 +1,32 @@
+{
+  "id": 20872,
+  "name": "XIX G.P.A De Grândola – Circuito José Afonso 2023",
+  "location": "Grândola, Setúbal",
+  "coordinates": {
+    "lat": 38.1770597,
+    "lon": -8.5669509
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/e3daf26c20c3478acc73ec281e5deeb1"
+  ],
+  "start_date": "2023-02-05",
+  "end_date": "2023-02-06",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de Grândola e Santa Margarida da Serra, com a colaboração técnica da XISTARCA, leva a efeito no próximo dia 05 de Fevereiro de 2023 a <strong>19ª edição do Grande Prémio de Atletismo de Grândola – Circuito José Afonso,</strong> com uma distância de 10km, onde poderão tomar parte atletas federados, ou não, sem distinção de sexo ou nacionalidade.</p>\n\n\n",
+  "description_short": "Prova de atletismo em homenagem a José Afonso pelas ruas de Grândola",
+  "page": "https://xistarca.pt/eventos/xix-gpa-grandola-circuito-jose-afonso",
+  "slug": "xix-g-p-a-de-grandola-circuito-jose-afonso-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "União das freguesias de Grândola e Santa Margarida da Serra",
+  "district_code": 15
+}

@@ -1,0 +1,30 @@
+{
+  "id": 40590,
+  "name": "Iron Trail 2025",
+  "location": "Almargem do Bispo, Sintra",
+  "coordinates": {
+    "lat": 38.8484282,
+    "lon": -9.2694885
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-07-06",
+  "end_date": "2025-07-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": null,
+  "slug": "iron-trail-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+  "district_code": 11
+}

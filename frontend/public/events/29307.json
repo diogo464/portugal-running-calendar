@@ -1,0 +1,33 @@
+{
+  "id": 29307,
+  "name": "Corrida Do Exército 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/b8bb1727e540a2df4e2d7cd1da5ed893"
+  ],
+  "start_date": "2023-10-28",
+  "end_date": "2023-10-29",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 28 de outubro de 2023, pelas 10h00, com partida e chegada na Praia do Norte, a Corrida do Exército 2023, na qual se integrará uma corrida/caminhada com a distância de 10 km e um conjunto de obstáculos designados por atividades “SUPERA” a realizar de forma voluntária no final da<br>corrida/caminhada.</p>\n\n\n\n<p><br>As Atividades “SUPERA” podem, ainda, ser realizadas por qualquer interessado mesmo sem inscrição na Corrida Solidária.</p>\n\n\n",
+  "description_short": "Corrida do Exército com desafio solidário na Praia do Norte e atividades \"SUPERA\" abertas à comunidade",
+  "page": "http://cyclonessports.com/index.php/291-corrida-do-exercito-2023",
+  "slug": "corrida-do-exercito-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

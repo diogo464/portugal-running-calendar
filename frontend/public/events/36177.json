@@ -1,0 +1,29 @@
+{
+  "id": 36177,
+  "name": "Pico Ruivo Vertical Challenge 2024",
+  "location": "Pico Ruivo, Madeira",
+  "coordinates": {
+    "lat": 32.758953,
+    "lon": -16.9430303
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/901333a2d8ac2ea11ebea3529d243ab0"
+  ],
+  "start_date": "2024-09-14",
+  "end_date": "2024-09-15",
+  "circuit": [],
+  "description": "\n<p>O “Pico Ruivo Vertical Challenge” é um evento de trail running, que decorre integralmente no concelho de Santana, contando com uma prova de etapa única, que liga o Calhau de São Jorge ao Ponto mais alto da ilha; o Pico Ruivo.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante que liga o Calhau de São Jorge ao Pico Ruivo na Madeira",
+  "page": "https://lap2go.com/pt/event/pico-ruivo-vertical-challenge-2024",
+  "slug": "pico-ruivo-vertical-challenge-2024",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Santana",
+  "administrative_area_level_3": "Faial",
+  "district_code": 30
+}

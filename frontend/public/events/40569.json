@@ -1,0 +1,31 @@
+{
+  "id": 40569,
+  "name": "Trail do Brinquedo 2025",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": null,
+  "slug": "trail-do-brinquedo-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

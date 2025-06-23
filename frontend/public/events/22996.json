@@ -1,0 +1,33 @@
+{
+  "id": 22996,
+  "name": "Trail do Ludens &#8211; Santo da Serra 2023",
+  "location": "Machico, Madeira",
+  "coordinates": {
+    "lat": 32.7318412,
+    "lon": -16.791291
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    11000,
+    21200,
+    200000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/757da6fd74fc91e3501ebcb1d20358e9"
+  ],
+  "start_date": "2023-04-02",
+  "end_date": "2023-04-03",
+  "circuit": [],
+  "description": "\n<p>O “X TRAIL DO LUDENS &#8211; SANTO DA SERRA” é promovido pelo Ludens Clube de Machico e pela Junta de Freguesia do Santo da Serra. O evento que integra duas provas, o Trail Rota dos Lamaceiros– 21,200km/1200D+ doravante designado por TRL, e o Trail Rota da Sidra designado por TRS com cerca de 11 km/550D+.</p>\n",
+  "description_short": "Trail desafiante pela Serra da Serra com duas provas de diferentes distâncias no Santo da Serra",
+  "page": "https://lap2go.com/pt/event/trail-ludens-santo-da-serra-2023",
+  "slug": "trail-do-ludens-santo-da-serra-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

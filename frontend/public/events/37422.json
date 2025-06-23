@@ -1,0 +1,32 @@
+{
+  "id": 37422,
+  "name": "Trilhos dos Abutres 2025",
+  "location": "Miranda do Corvo, Coimbra",
+  "coordinates": {
+    "lat": 40.09019809999999,
+    "lon": -8.329640099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/7d72d8add81b1c418e295ada10295cc2"
+  ],
+  "start_date": "2025-02-01",
+  "end_date": "2025-02-02",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A Associação Abutrica organiza o evento Trilhos dos Abutres® (marca registada), cuja 13ª edição ocorrerá nos dias 31 de janeiro a 2 de fevereiro de 2025. Este evento contará com 5 provas, envolvendo um total de 2.000 participantes:</p>\n\n\n\n<p>UTA – Ultra Trilhos dos Abutres;<br>TA – Trilhos dos Abutres;<br>MTA – Mini trilhos dos Abutres;<br>TJA – Trilhos Jovem dos Abutres;<br>TJ – Trilhos Júnior José Godinho;</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail em montanha com cinco categorias diferentes, organizado pela Associação Abutrica na 13ª edição dos Trilhos dos Abutres",
+  "page": "https://stopandgo.net/events/trilhos-dos-abutres-2025",
+  "slug": "trilhos-dos-abutres-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Miranda do Corvo",
+  "administrative_area_level_3": "Miranda do Corvo",
+  "district_code": 6
+}

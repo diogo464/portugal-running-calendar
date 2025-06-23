@@ -1,0 +1,34 @@
+{
+  "id": 14419,
+  "name": "Trilho Dos Gatos 2022",
+  "location": "Montemor-o-Velho, Coimbra",
+  "coordinates": {
+    "lat": 40.1748245,
+    "lon": -8.6826636
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    12000,
+    19000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b42237f05092f309574a64cdb0d7f546"
+  ],
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-11",
+  "circuit": [],
+  "description": "\n<h4 class=\"wp-block-heading\">O Trilho Dos Gatos 2022-TRAIL RUNNING, é organizado pelo GATÕES BTT ,com o apoio de várias entidades de zona de Montemor-o-Velho.</h4>\n\n\n\n<p>Este evento de Trail em estado puro será composto por:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Trail Curto com cerca 19 KM (prova esta que faz parte do Circuito Distrital de Trail Curto – CDTRC)</li><li>Mini Trail com cerca de 12 Kms</li><li>Caminhada com cerca 10 kms.</li></ul>\n\n\n\n<h5 class=\"wp-block-heading\">Trata se de uma organização da equipa de BTT de Trail / GATÕES BTTcom o apoio do Municipio de Montemor-o-velho, da União de Freguesias de Montemor-o-Velho e Gatões, entre outros parceiros.</h5>\n\n\n\n<h3 class=\"wp-block-heading\">Programa</h3>\n\n\n\n<p>&nbsp;09 de Abril de 2022</p>\n\n\n\n<ul class=\"wp-block-list\"><li>15h00/20h00 &#8211; Levantamento de dorsais no polidesportivo de Gatões</li></ul>\n\n\n\n<p>&nbsp;10 de Abril de 2022</p>\n\n\n\n<ul class=\"wp-block-list\"><li>07h00 &#8211; Abertura do parque de estacionamento e balneários localizados no polidesportivo de Gatões .</li><li>Abertura do secretariado para entrega de dorsais – Polidesportivo de Gatões</li><li>9h30 &#8211; Partida do Trail Curto 19 km.</li><li>9h45 &#8211; Partida Mini Trail 12 km.</li><li>9h45 &#8211; Partida da Caminhada 10 km.</li><li>12h30 &#8211; Entrega de prémios.</li></ul>\n",
+  "description_short": "Trail running em Montemor-o-Velho com várias provas e percursos pela região de Gatões",
+  "page": "https://www.runmanager.net/Eventos/viii-trilho-dos-gatos/514",
+  "slug": "trilho-dos-gatos-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "União das freguesias de Montemor-o-Velho e Gatões",
+  "district_code": 6
+}

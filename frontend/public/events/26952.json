@@ -1,0 +1,33 @@
+{
+  "id": 26952,
+  "name": "A Encosta 2023",
+  "location": "Alcobaça, Leiria",
+  "coordinates": {
+    "lat": 39.5503343,
+    "lon": -8.9730531
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    7000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/03c03ce9b3f63064edebe1a7958c1e50"
+  ],
+  "start_date": "2023-09-30",
+  "end_date": "2023-10-01",
+  "circuit": [],
+  "description": "\n<p>A ENCOSTA é um evento co-organizado pela A.D.R.C. Crossmates em conjunto com a Junta de Freguesia de Alcobaça e Vestiaria e acontecerá no dia 30 de Setembro de 2023 Paralelamente à Encosta, decorrera também uma caminhada de 7 km, esta sem carácter competitivo.</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Alcobaça com passeio pedestre complementar",
+  "page": "https://stopandgo.net/events/a-encosta-2023",
+  "slug": "a-encosta-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Alcobaça",
+  "district_code": 10
+}

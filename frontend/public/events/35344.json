@@ -1,0 +1,35 @@
+{
+  "id": 35344,
+  "name": "Quinhendros Trail 2024",
+  "location": "Quinhendros, Montemor-o-Velho",
+  "coordinates": {
+    "lat": 40.1783271,
+    "lon": -8.696233099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    8000,
+    12000,
+    23000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/438035ef0fe0add1b481f0c837cf8ff0"
+  ],
+  "start_date": "2024-09-08",
+  "end_date": "2024-09-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O QUINHENDROS TRAIL 2024 é uma organização da ACDRS QUINHENDROS que pretende afirmar-se como uma prova desportiva de referência no CIRCUITO DISTRITAL DE TRAIL RUNNING DE COIMBRA.</p>\n\n\n\n<p>A zona de partida e de chegada será efetuada junto ao pavilhão da ACDRS QUINHENDROS, na localidade de Quinhendros, Concelho de Montemor-o-Velho, distrito de Coimbra.</p>\n\n\n\n<p>O QUINHENDROS TRAIL 2024 será composto por um TRAIL LONGO, prova federada, um MINI TRAIL e uma CAMINHADA que vai permitir aos participantes percorrer as zonas emblemáticas da nossa localidade e da vila de Montemor-o-Velho.<ul style=\"margin-bottom: 10.5px; color: rgb(51, 51, 51); font-family: &quot;Source Sans Pro&quot;, Calibri, Candara, Arial, sans-serif; font-size: 15px; white-space-collapse: collapse;\"><li style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">TRAIL LONGO</strong>Distância máxima estimada: 23,00 kmTempo Limite: 4 horas<strong style=\"box-sizing: border-box;\">MINI TRAIL</strong>Distância máxima estimada: 12,00 kmTempo Limite: 3 horas<strong style=\"box-sizing: border-box;\">CAMINHADA</strong>Distância máxima estimada: 8,00 kmTempo Limite: 3 horas</li></ul></p>\n",
+  "description_short": "Trail desafiante por Quinhendros e Montemor-o-Velho, com provas de diferentes distâncias integradas no Circuito Distrital de Trail Running de Coimbra",
+  "page": "https://www.runmanager.net/Eventos/quinhendros-trail-2024/834",
+  "slug": "quinhendros-trail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "União das freguesias de Montemor-o-Velho e Gatões",
+  "district_code": 6
+}

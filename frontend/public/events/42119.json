@@ -1,0 +1,29 @@
+{
+  "id": 42119,
+  "name": "Betclic Challenge Up – Miradouro Alvito 2025",
+  "location": "Alcântara, Lisboa",
+  "coordinates": {
+    "lat": 38.7059957,
+    "lon": -9.1827535
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/c8df46efa616c07586f0490789728caf"
+  ],
+  "start_date": "2025-06-07",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p>Chegou um novo desafio em inclinação! Em parceria com a Junta de Freguesia de Alcântara, este desafio propõe-te a subida desde Alcântara até ao Miradouro do Alvito e o objetivo é seres apurado para a fase final seguinte, dentro da tua liga.</p>\n",
+  "description_short": "Corrida em subida desafiante pela encosta de Alcântara com chegada ao Miradouro do Alvito",
+  "page": "https://xistarca.pt/eventos/betclic-challenge-up-2025-miradouro-alvito",
+  "slug": "betclic-challenge-up-miradouro-alvito-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Alcântara",
+  "district_code": 11
+}

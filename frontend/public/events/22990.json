@@ -1,0 +1,33 @@
+{
+  "id": 22990,
+  "name": "I Trail do Contrabando do Café 2023",
+  "location": "Miranda do Douro, Bragança",
+  "coordinates": {
+    "lat": 41.4995412,
+    "lon": -6.2712311
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    8000,
+    16000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ffac05646feff72d146c8517dcd9766f"
+  ],
+  "start_date": "2023-04-23",
+  "end_date": "2023-04-24",
+  "circuit": [],
+  "description": "\n<p>23 ABRIL 2023- PARADELA &#8211; MIRANDA DO DOURO &#8211; PORTUGAL<br>&#8211; Trail &#8211; 16 km<br>&#8211; Caminhada &#8211; 8 km</p>\n\n\n",
+  "description_short": "Trail desafiante pelos caminhos tradicionais de Miranda do Douro",
+  "page": "https://inscripciones.runvasport.es/inscripcion/i-trail-contrabando-do-cafe/?lang=pt",
+  "slug": "i-trail-do-contrabando-do-cafe-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Miranda do Douro",
+  "administrative_area_level_3": "Miranda do Douro",
+  "district_code": 4
+}

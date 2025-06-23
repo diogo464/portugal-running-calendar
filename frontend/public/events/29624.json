@@ -1,0 +1,34 @@
+{
+  "id": 29624,
+  "name": "Trail do Serrote 2024",
+  "location": "Vila Nova De Monsarros, Anadia",
+  "coordinates": {
+    "lat": 40.4092995,
+    "lon": -8.397875299999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/66ca220797ed4ddd3f00d5478450672f"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>Mais uma vez o Trail do Serrote vai correr as encostas serranas da Freguesia de Vila Nova de Monsarros contornando vales e desafiando as encostas rochosas junto ao Rio da Serra. Pelo caminho, vamos ter as nossas aldeias, com os seus arruamentos e as suas gentes a puxar por todos vós!!<br>Também temos uma bela Caminhada, um pouco mais longa do que a anterior, mas toda a beleza é compensatória, percorrendo vinhedos e caminhos florestais com recantos mágicos!!</p>\n\n\n\n<p>A Prova irá ter a vertente de competição, mas também uma vertente de lazer e convívio:<br>●&nbsp;&nbsp;&nbsp; Trail 18 Km – 1000 D+*<br>●&nbsp;&nbsp;&nbsp; Mini Trail 12 Km &#8211; Acumulado a apresentar<br>●&nbsp;&nbsp;&nbsp; Caminhada – 12 Km &#8211; Acumulado a apresentar<br></p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante pelas encostas serranas de Vila Nova de Monsarros com passagem por vinhedos e caminhos florestais",
+  "page": "https://www.runmanager.net/Eventos/iii-trail-do-serrote/779",
+  "slug": "trail-do-serrote-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Anadia",
+  "administrative_area_level_3": "Vila Nova de Monsarros",
+  "district_code": 1
+}

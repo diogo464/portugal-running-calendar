@@ -1,0 +1,33 @@
+{
+  "id": 180,
+  "name": "Maratona de Lisboa",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    21097,
+    42195
+  ],
+  "types": [
+    "marathon",
+    "half-marathon"
+  ],
+  "images": [
+    "media/295fa71a66ad3b0e260e1791b95786f5"
+  ],
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-12",
+  "circuit": [],
+  "description": "<p>A EDP Maratona de Lisboa oferece-lhe a oportunidade de percorrer a estrada costeira de Cascais, Oeiras, Estoril, oferecendo-lhe uma das vistas mais pitorescas e belas. Não perca esta oportunidade</p>\n",
+  "description_short": "Maratona icónica ao longo da marginal de Lisboa com paisagens deslumbrantes da costa atlântica",
+  "page": "https://www.maratonaclubedeportugal.com/edp-maratona-de-lisboa/",
+  "slug": "maratona-de-lisboa",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

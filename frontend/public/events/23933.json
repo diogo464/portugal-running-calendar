@@ -1,0 +1,30 @@
+{
+  "id": 23933,
+  "name": "II Lamas Trail 2023",
+  "location": "Satão, Viseu",
+  "coordinates": {
+    "lat": 40.7423572,
+    "lon": -7.732120099999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7ad2e8f0c8a2ede85f338cd51e3ffc52"
+  ],
+  "start_date": "2023-06-18",
+  "end_date": "2023-06-19",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/3235",
+  "slug": "ii-lamas-trail-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sátão",
+  "administrative_area_level_3": "Sátão",
+  "district_code": 18
+}

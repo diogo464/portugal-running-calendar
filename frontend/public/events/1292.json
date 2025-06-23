@@ -1,0 +1,34 @@
+{
+  "id": 1292,
+  "name": "Corrida Saúde+Solidária 2020",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000,
+    15000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/c5b3e4d80ee1bb19b4b7f2c8e207c48c"
+  ],
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-11",
+  "circuit": [],
+  "description": "<p>A Corrida Saúde+Solidária é um projeto de empreendedorismo social na área do desporto, organizado pela Associação de Estudantes da Faculdade de Medicina de Lisboa AEFML. Consiste numa prova 100% solidária com dois objetivos primordiais bem definidos: a prática desportiva aliada à solidariedade.</p>\n<p>A VII edição da Corrida Saúde+Solidária, terá lugar no próximo dia .10 de maio de 2020 e poderás optar por fazer os teus quilómetros solidários numa das seguintes provas: caminhada/corrida de 5km, corrida de 10 km ou corrida de 15 km.</p>\n<p>Todo o valor angariado reverterá a 100% para as quatro instituições parceiras da VII edição: Associação Coração Amarelo, Associação Raízes, Associação Vox Lisboa e Fundo iMM Laço (Instituto de Medicina Molecular João Lobo Antunes). No ato da inscrição poderás alocar diretamente 20% do valor da mesma a uma destas instituições, sendo que os restantes 80% serão distribuídos equitativamente por todas.</p>\n<p>A Corrida Saúde + Solidária está preparada e aberta a todos! Crianças, famílias até aos atletas de alta competição! Se és Estudante Universitário tens ainda mais razões para participar, tendo a possibilidade de participar e ganhar um dos lugares do pódio dos escalões universitários. Esta é atualmente a Maior Corrida Universitária do País!</p>\n<p>Junta-te a nós e vem passar uma manhã repleta de boa energia! Contamos contigo para fazer desta a prova mais solidária de sempre porque a correr ou a andar, já estás a ajudar!</p>\n",
+  "description_short": "Corrida solidária universitária em Lisboa com provas de 5, 10 e 15 km que apoia quatro instituições sociais",
+  "page": "https://www.prozis.com/pt/pt/evento/vii-corrida-saudesolidaria-2020",
+  "slug": "corrida-saudesolidaria-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

@@ -1,0 +1,29 @@
+{
+  "id": 41761,
+  "name": "MAR Shopping Algarve Night Run 2025",
+  "location": "Almancil, Loulé",
+  "coordinates": {
+    "lat": 37.0876993,
+    "lon": -8.029945099999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/8d4c04629c5bf8c05f8395d66324671c"
+  ],
+  "start_date": "2025-05-16",
+  "end_date": "2025-05-17",
+  "circuit": [],
+  "description": "\n<p>Numa co-organização da Free Challenge, MAR Shopping Algarve, Designer Outlet Algarve, realiza-se no dia 16 de maio de 2025, a &#8220;MAR SHOPPING ALGARVE NIGHT RUN&#8221;, com início agendado para as 23h30<br>no centro comercial MAR Shopping Algarve na freguesia Almancil.</p>\n\n\n",
+  "description_short": "Corrida noturna pelo MAR Shopping Algarve em Almancil com partida após o anoitecer",
+  "page": "https://www.crono.aaalgarve.org/inscrever/mar-shopping-algarve-nigth-run-2025",
+  "slug": "mar-shopping-algarve-night-run-2025",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Almancil",
+  "district_code": 8
+}

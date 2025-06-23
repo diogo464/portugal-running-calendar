@@ -1,0 +1,35 @@
+{
+  "id": 20172,
+  "name": "8º São Silvestre da Golegã 2022",
+  "location": "Golegã, Santarém",
+  "coordinates": {
+    "lat": 39.4047966,
+    "lon": -8.4880572
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/fa5c4c5825f76f7d23b4850f943b768c"
+  ],
+  "start_date": "2022-12-30",
+  "end_date": "2022-12-31",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal da Golegã, vai realizar, no dia 30 de dezembro de 2022 pelas 20 H a “VIII CORRIDA SÃO SILVESTRE DA GOLEGÃ” e “V CAMINHADA DA BIOSFERA&#8221;.</p>\n\n\n\n<p>O percurso da corrida tem a extensão aproximada de 10.000 metros com partida e a chegada no Largo da Câmara Municipal da Golegã. O percurso da caminhada tem uma extensão aproximada de 5000 metros. Ambos percorrerão por em ruas da Vila da Golegã.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida de São Silvestre tradicional pelas ruas históricas da Golegã",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/127/",
+  "slug": "8o-sao-silvestre-da-golega-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Golegã",
+  "administrative_area_level_3": "Golegã",
+  "district_code": 14
+}

@@ -1,0 +1,36 @@
+{
+  "id": 175,
+  "name": "Maratona do Funchal 2020",
+  "location": "Funchal, Madeira",
+  "coordinates": {
+    "lat": 32.6506129,
+    "lon": -16.9082357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    10000,
+    21097,
+    42195
+  ],
+  "types": [
+    "marathon",
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/989897cbdb10c633298990b204e34410"
+  ],
+  "start_date": "2020-01-19",
+  "end_date": "2020-01-20",
+  "circuit": [],
+  "description": "<h3><a href=\"https://www.madeiramarathon.com/resultados\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #99cc00;\">RESULTADOS</span></a></h3>\n<p>A Meia Maratona do Funchal vai decorrer no dia 19 de Janeiro, com a presença esperada de muitos visitantes que vão alegrar as ruas do Funchal nessa manhã de Domingo. Conta com a distância de Maratona, Meia Maratona e Mini Maratona.</p>\n<p>A organização está a cabo da <a href=\"https://www.madeira.run/associacao-de-atletismo-da-madeira/\" target=\"_blank\" rel=\"noopener\">Associação de Atletismo da Região Autónoma da Madeira</a>.</p>\n<p>Mais informações em: <a href=\"https://madeiramarathon.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://madeiramarathon.com/</a></p>\n",
+  "description_short": "Meia Maratona do Funchal a decorrer pelas ruas da cidade com diferentes distâncias de prova",
+  "page": "https://www.madeiramarathon.com/",
+  "slug": "maratona-do-funchal",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

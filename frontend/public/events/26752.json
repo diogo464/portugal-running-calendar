@@ -1,0 +1,31 @@
+{
+  "id": 26752,
+  "name": "Corrida Mestre de Avis 2023",
+  "location": "Avis, Portalegre",
+  "coordinates": {
+    "lat": 39.07417119999999,
+    "lon": -7.8939317
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    7300
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/98046e09e76e0ae3b42b4c316c544357"
+  ],
+  "start_date": "2023-08-15",
+  "end_date": "2023-08-16",
+  "circuit": [],
+  "description": "\n<p>Integrado nas <strong>Festas da Batalha</strong>, organizadas pelo <strong>Município da Batalha</strong>, realiza se no dia <strong>15 de agosto de 2023</strong> na Batalha, mais uma edição da <strong>Prova de Atletismo “Mestre de Avis”</strong>, a <strong>XIV Prova de Atletismo “Batalha Jovem”</strong> e uma <strong>caminhada</strong>.</p>\n\n\n\n<p>A prova realiza-se no dia 15 de agosto de 2023, às 10h30, com uma distância de 7300 metros, com partida do Campo Militar de S. Jorge e chegada à Praça Mouzinho de Albuquerque.</p>\n\n\n\n<p>As inscrições terão um valor solidário de&nbsp;<strong>3€</strong>&nbsp;e reverterão para a o&nbsp;Associação Humanitária dos Bombeiros Voluntários da Batalha, devendo ser efetuadas até ao dia 9 de agosto de 2023.</p>\n",
+  "description_short": "Prova de atletismo solidária nas Festas da Batalha com apoio aos bombeiros voluntários",
+  "page": "https://www.recordepessoal.pt/evento/provadeatletismomestredeavis",
+  "slug": "corrida-mestre-de-avis-2023",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Avis",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

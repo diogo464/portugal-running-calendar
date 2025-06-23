@@ -1,0 +1,34 @@
+{
+  "id": 33912,
+  "name": "Trail Antonino 2024",
+  "location": "Vila Verde, Braga",
+  "coordinates": {
+    "lat": 41.6507161,
+    "lon": -8.433281299999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000,
+    17000,
+    29000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/ea30897ffcb90fc0a5233cbcda56a39e"
+  ],
+  "start_date": "2024-06-02",
+  "end_date": "2024-06-03",
+  "circuit": [],
+  "description": "\n<p>O VI trail Antonino será realizado no dia 2 de junho e pretende promover o desporto, a saúde e o bem-estar das populações.</p>\n\n\n\n<p>A prova é constituído por TRAIL Longo 29km&nbsp; Trail Curto 17km e caminhada de 8 km.&nbsp;</p>\n",
+  "description_short": "Trail desafiante pelo território com provas de diferentes distâncias e foco na promoção da saúde",
+  "page": "https://www.sinctime.com/evento/217",
+  "slug": "trail-antonino-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Verde",
+  "administrative_area_level_3": "Vila Verde e Barbudo",
+  "district_code": 3
+}

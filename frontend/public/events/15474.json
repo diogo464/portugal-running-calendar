@@ -1,0 +1,29 @@
+{
+  "id": 15474,
+  "name": "1º Trail Veredas de Nexe 2022",
+  "location": "Santa Barbara de Nexe, Faro",
+  "coordinates": {
+    "lat": 37.1035956,
+    "lon": -7.963840599999998
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/48aa7a2dc11d4af4fe85ac34bd94b238"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>O Trail Veredas de Nexe é um evento solidário com a Refood de Faro, os atletas que quiserem poderão trazer bens alimentares não perecíveis</p>\n",
+  "description_short": "Trail solidário em Nexe com recolha de alimentos para a Refood de Faro",
+  "page": "https://meutempo.pt/prova?trailveredasnexe",
+  "slug": "1o-trail-veredas-de-nexe-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": "Santa Bárbara de Nexe",
+  "district_code": 8
+}

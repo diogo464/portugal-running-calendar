@@ -1,0 +1,37 @@
+{
+  "id": 30307,
+  "name": "Meia Maratona Torres Vedras 2024",
+  "location": "Torres Vedras, Lisboa",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/c414cbb838c83a26e8443bfb16f3b830"
+  ],
+  "start_date": "2024-01-14",
+  "end_date": "2024-01-15",
+  "circuit": [],
+  "description": "\n<p>Em 2021 chegou um novo desafio que juntou mais de um milhar de atletas, na Meia Maratona Torres Vedras. Em 2024, o mote está dado e promete juntar os apaixonados da distância dos <strong>21km</strong>, juntamente com os atletas de <strong>10km</strong> e a família na caminhada de <strong>5km</strong>.</p>\n\n\n\n<p><strong>Torres Vedras</strong>, uma zona cheia de atrativos para quem gosta de&nbsp;<strong>natureza, história, desporto, gastronomia e boa gente</strong></p>\n",
+  "description_short": "Meia maratona em Torres Vedras com percurso diversificado e ambiente familiar",
+  "page": "https://xistarca.pt/eventos/arena-shopping-3a-meia-maratona-torres-vedras",
+  "slug": "meia-maratona-torres-vedras-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

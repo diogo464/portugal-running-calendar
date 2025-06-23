@@ -1,0 +1,34 @@
+{
+  "id": 22259,
+  "name": "V Queiriga Trail 2023",
+  "location": "Queiriga, Viseu",
+  "coordinates": {
+    "lat": 40.8043546,
+    "lon": -7.746682799999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    12000,
+    22000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c319d7cf8f93ad1556331659f3938cbf"
+  ],
+  "start_date": "2023-03-26",
+  "end_date": "2023-03-27",
+  "circuit": [],
+  "description": "\n<p>O evento é composto por três percursos e realiza-se no dia 26 de Março de 2023:<br>• Trail Curto de 22 km;<br>• Mini Trail 12km;<br>• Caminhada 8 km ou 12Km.</p>\n",
+  "description_short": "Trail com três opções de percurso na Serra da Estrela, oferecendo uma experiência adaptada a diferentes níveis de dificuldade",
+  "page": "https://acorrer.pt/eventos/info/3116",
+  "slug": "v-queiriga-trail-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vila Nova de Paiva",
+  "administrative_area_level_3": "Queiriga",
+  "district_code": 18
+}

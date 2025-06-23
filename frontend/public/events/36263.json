@@ -1,0 +1,36 @@
+{
+  "id": 36263,
+  "name": "Trail Piodão 2025",
+  "location": "Piódão, Coimbra",
+  "coordinates": {
+    "lat": 40.22956509999999,
+    "lon": -7.825189699999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    13000,
+    25000,
+    54000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/dcdb9ead26577c962cf2ef23dbe5b68e"
+  ],
+  "start_date": "2025-04-05",
+  "end_date": "2025-04-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A&nbsp;<strong>Associação Desportiva OMundodaCorrida.com</strong>, com o apoio da&nbsp;<strong>Câmara Municipal de Arganil</strong>&nbsp;vai realizar a 5 de Abril de 2025 a XIII edição da prova de Trail, denominada &#8220;Piódão Trail Running&#8221;.</p>\n\n\n\n<p>O&nbsp;<strong>Piódão Trail Running</strong>&nbsp;é um evento de Trail Running, que decorre em freguesias dos Concelhos de Arganil e Oliveira do Hospital e integra três provas de trail: 54 km, 25 km, e 13 km. Haverá ainda uma caminhada de 13km.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante por aldeias históricas da Serra do Açor com três distâncias de prova",
+  "page": "https://www.omdceventos.com/evento/xiii-piodao-trail-running",
+  "slug": "trail-piodao-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Arganil",
+  "administrative_area_level_3": "Piódão",
+  "district_code": 6
+}

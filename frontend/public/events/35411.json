@@ -1,0 +1,36 @@
+{
+  "id": 35411,
+  "name": "Trilho da Burra 2024",
+  "location": "Vila Boa, Castro Daire",
+  "coordinates": {
+    "lat": 40.86965800000001,
+    "lon": -7.903202199999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    5000,
+    6500,
+    10000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/8b30896a45e2801c5151c301d58ad04f"
+  ],
+  "start_date": "2024-06-09",
+  "end_date": "2024-06-09",
+  "circuit": [],
+  "description": "\n<p> A Câmara Municipal de Castro Daire e a ADCR de Vila Boa organizam, no dia <strong>9 de junho de 2024</strong>, na povoação de Vila Boa, em colaboração com a Junta de Freguesia de Mões e Associação de Atletismo de Viseu, o <strong>3º TRILHO DA BURRA</strong>, corrida pedestre e caminhada em natureza aberta a participantes de ambos os sexos, sem limite de idade.</p>\n\n\n\n<p><br>Este evento está integrado no Circuito Municipal de Corrida Pedestre em Natureza (PER) CORRER CASTRO DAIRE 2024 – 5ª jornada, e consta de uma CORRIDA PEDESTRE, na distância de 10 km, uma CAMINHADA, na distância de 6,5 km , e CORRIDAS JOVENS para atletas dos escalões de formação.</p>\n\n\n",
+  "description_short": "Trail desafiante em Vila Boa, Castro Daire, com percurso em plena natureza e provas para todas as idades",
+  "page": "https://waitastart.com/trilhodaburra24/",
+  "slug": "trilho-da-burra-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Mões",
+  "district_code": 18
+}

@@ -1,0 +1,35 @@
+{
+  "id": 40511,
+  "name": "Foz Côa Douro Trail Adventure 2025",
+  "location": "Vila Nova de Foz Côa, Guarda",
+  "coordinates": {
+    "lat": 41.0822466,
+    "lon": -7.1403598
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    15000,
+    31000,
+    46000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/35d77de0ae2ea25d3b779b453e828e28"
+  ],
+  "start_date": "2025-03-09",
+  "end_date": "2025-03-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Foz Côa Douro Trail Adventure® (FCDTA) é organizado pela Carlos Sá Nature Events®, com o apoio do Município de Vila Nova de Foz Côa e irá realizar-se de 7 a 9 de Março de 2025. </p>\n\n\n\n<p>O Alto Douro será o palco principal para este fantástico evento de Trail, que contará com o pack 3 dias/ 3 etapas e ainda, dia 9 com distâncias a contar para o circuito Best Trail Series e ATRP, 46km, 31km e 15km.</p>\n",
+  "description_short": "Trail desafiante pelo Alto Douro com etapas múltiplas e paisagens únicas",
+  "page": "https://carlossanatureevents.com/pt/fcdta2020",
+  "slug": "foz-coa-trail-adventure-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Vila Nova de Foz Côa",
+  "administrative_area_level_3": "Vila Nova de Foz Coa",
+  "district_code": 9
+}

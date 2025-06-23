@@ -1,0 +1,35 @@
+{
+  "id": 29111,
+  "name": "Trail do Míscaro 2023",
+  "location": "Aguiar da Beira, Guarda",
+  "coordinates": {
+    "lat": 40.816453,
+    "lon": -7.5454104
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    11000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/da1a78c5a2e704990a818bcf0eea2fa1"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [],
+  "description": "\n<p>O 9º Trail do Míscaro, prova de corrida/trail running e caminhada na natureza, realiza-se em Aguiar da Beira, no dia 19 de novembro de 2023.</p>\n\n\n\n<p>O Trail do Míscaro 2023, 9ª edição, apresentará duas provas competitivas – Trail Longo (+/- 25 km) e Trail Curto (+/- 15 km) – e uma recreativa – Caminhada / Mini Trail (+/- 11 km). Os percursos serão constituídos por zonas rápidas que alternam com zonas de trilhos bastante técnicos e outros locais com um desnível acentuado.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos trilhos técnicos de Aguiar da Beira com diferentes percursos e dificuldades",
+  "page": "https://acorrer.pt/eventos/info/3312",
+  "slug": "trail-do-miscaro-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Aguiar da Beira",
+  "administrative_area_level_3": "União das freguesias de Aguiar da Beira e Coruche",
+  "district_code": 9
+}

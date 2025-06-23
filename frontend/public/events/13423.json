@@ -1,0 +1,29 @@
+{
+  "id": 13423,
+  "name": "Trail Santa Luzia 2022",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2266d72a471f38e05a289c0d73610a70"
+  ],
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-11",
+  "circuit": [],
+  "description": "\n<p>O Trail Santa Luzia 2022 é organizado pelo Clube de Atletismo OLÍMPICO VIANENSE com a colaboração da Câmara Municipal de Viana do Castelo e decorrerá nos dias 09 e 10 de abril, em Viana do Castelo, independentemente das condições climatéricas desses dias, desde que a organização entenda que não ofereçam riscos aos participantes.</p>\n",
+  "description_short": "Trail desafiante pela região de Viana do Castelo, organizado pelo Clube Olímpico Vianense e câmara municipal",
+  "page": "http://cyclonessports.com/index.php/231-viii-trail-santa-luzia",
+  "slug": "trail-santa-luzia-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

@@ -1,0 +1,32 @@
+{
+  "id": 41126,
+  "name": "Trail ARC Vale São Cosme 2025",
+  "location": "Vale São Cosme, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.45299910000001,
+    "lon": -8.478759
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    15000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/76cad83eba624b01b4617eb2a8d35065"
+  ],
+  "start_date": "2025-06-22",
+  "end_date": "2025-06-22",
+  "circuit": [],
+  "description": "\n<p>A Associação Recreativa e Cultural de Vale São Cosme, realiza a 22 de junho de 2025 a sua 2ª edição do Trail ARC Vale São Cosme, prova que pertence ao Campeonato Concelhio Trail de Famalicão.</p>\n\n\n\n<p>Nesta edição teremos 2 distâncias, 15 Kms para o trail curto e 25 Kms para o trail longo.</p>\n\n\n",
+  "description_short": "Trail desafiante por Vale São Cosme, no Campeonato Concelhio de Famalicão",
+  "page": "https://www.sinctime.com/evento/345",
+  "slug": "trail-arc-vale-sao-cosme-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vale (São Cosme), Telhado e Portela",
+  "district_code": 3
+}

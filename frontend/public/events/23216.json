@@ -1,0 +1,30 @@
+{
+  "id": 23216,
+  "name": "Sky Speed da Ribeira dos Socorridos 2023",
+  "location": "Câmara de Lobos, Madeira",
+  "coordinates": {
+    "lat": 32.6607565,
+    "lon": -16.9867462
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/96b7531c243b7b11e6459fa0df520ea9"
+  ],
+  "start_date": "2023-05-28",
+  "end_date": "2023-05-29",
+  "circuit": [],
+  "description": "\n<p>A quarta edição do Sky Speed da Ribeira dos Socorridos é uma prova de cariz nacional e regional que já se impôs no calendário e que terá este ano uma edição consolidada e cheia de emoção. Venha subir os 1571 degraus que estão à sua espera.</p>\n",
+  "description_short": "Trail desafiador com 1571 degraus na Ribeira dos Socorridos",
+  "page": "https://lap2go.com/pt/event/sky-speed-ribeira-dos-socorridos-2023",
+  "slug": "sky-speed-da-ribeira-dos-socorridos-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

@@ -1,0 +1,36 @@
+{
+  "id": 21883,
+  "name": "Trail Praia Mag8 2023",
+  "location": "Magoito, Sintra",
+  "coordinates": {
+    "lat": 38.8696394,
+    "lon": -9.4308087
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    8000,
+    11000,
+    22000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/9be934ac90983c8d9150ae9a1f2988d2"
+  ],
+  "start_date": "2023-05-27",
+  "end_date": "2023-05-28",
+  "circuit": [],
+  "description": "\n<p>Este evento decorre em Magoito, a 27 e 28 de Maio de 2023, evento que se destina à promoção do Trail, tendo como base o convívio, o contacto com a natureza, o espirito de aventura e a prática de exercício físico.</p>\n\n\n\n<p>dia 27 &#8211; sabado de tarde &#8211; Trail Kids<br>dia 28 &#8211; domingo manhã &#8211; Caminhada, Mini Trail, Trail Curto, Trail Longo</p>\n\n\n\n<p><br>O evento é organizado com base nas boas práticas e modelo de regulamento da Associação de Trail Running de Portugal (ATRP), sendo composto por:</p>\n\n\n\n<p><br>“Trail Longo” – distância de 22Km, considerada como prova de resistência pois são 2 voltas ao percurso do Trail curto, percurso de dificuldade média, totalmente integrado no Parque Natural Sintra-Cascais, com início e fim junto do bar da praia do Magoito, que percorrerá trilhos e caminhos de terra batida junto da costa entre as praias de Magoito e Aguda, alguns trilhos integrantes da Grande Rota do Atlântico<br>(GR11), e ainda corrida na praia entre a Praia do Magoito e Praia da Aguda e destinado a atletas mais experimentados neste tipo de distâncias.</p>\n\n\n\n<p>“Trail Curto” &#8211; percurso de cerca de 11Km, dirigido a atletas que se iniciam na prática desta especialidade do Atletismo ou que pretendem evoluir para distância  um pouco maiores.</p>\n\n\n\n<p><br>“Mini-Trail” &#8211; percurso de cerca de 8Km, parte dos trilhos que compõem o Trai Longo e Curto, dirigido a atletas que se iniciam na prática desta especialidade do Atletismo.</p>\n\n\n\n<p><br>“Trail Kids” &#8211; em paralelo será efectuado um mini percurso para crianças entre 5 e 13 anos de idade, que percorrerão de acordo com o escalão da sua idade.</p>\n\n\n\n<p><br>“Caminhada” &#8211; em paralelo será efetuada uma caminhada nos mesmos trilhos e caminhos, com um percurso de cerca de 8km, percurso idêntico ao mini trail.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos costeiros do Parque Natural Sintra-Cascais com passagem pela Grande Rota do Atlântico",
+  "page": "https://acorrer.pt/eventos/info/3096",
+  "slug": "trail-praia-mag8-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

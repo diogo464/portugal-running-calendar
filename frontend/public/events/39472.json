@@ -1,0 +1,35 @@
+{
+  "id": 39472,
+  "name": "Trail da Póvoa de Varzim 2025",
+  "location": "Póvoa de Varzim, Porto",
+  "coordinates": {
+    "lat": 41.3828815,
+    "lon": -8.759989299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    8000,
+    16000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/32368269317d7e8a68831bc8cf77a69b"
+  ],
+  "start_date": "2025-01-19",
+  "end_date": "2025-01-20",
+  "circuit": [],
+  "description": "\n<p>O TPV &#8211; TRAIL PÓVOA DE VARZIM é um evento organizado pelo Centro Desportivo e Cultural de Navais, em parceria com a empresa Municipal Varzim lazer e conta com o apoio da Junta da União das Freguesias de Aguçadoura e Navais e da Câmara Municipal da Póvoa de Varzim.<br>Este evento decorrerá no dia 19 de janeiro durante o dia, e inclui as seguintes provas:<br>➔ 16Km – Trail curto<br>➔ 25Km – Trail longo<br>➔ 8km &#8211; Caminhada<br>O evento percorrerá ambiente natural, rural e urbano do norte do concelho da Póvoa de Varzim, com início no Parque Desportivo Alberto Silva, em Navais – Póvoa de Varzim.</p>\n",
+  "description_short": "Trail pela paisagem diversificada do norte da Póvoa de Varzim, com percursos por zonas naturais, rurais e urbanas",
+  "page": "https://ultratrailpv.wixsite.com/trailpovoa",
+  "slug": "trail-da-povoa-de-varzim-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Póvoa de Varzim",
+  "district_code": 13
+}

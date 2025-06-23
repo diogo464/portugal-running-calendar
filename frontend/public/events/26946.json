@@ -1,0 +1,30 @@
+{
+  "id": 26946,
+  "name": "Trail Terras De Sal E Serra 2023",
+  "location": "Rio Maior, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/13f7afdcbd0267b244a91f41b62f4e3b"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/trailterrasdesaleserra",
+  "slug": "trail-terras-de-sal-e-serra-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

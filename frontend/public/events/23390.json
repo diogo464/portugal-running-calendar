@@ -1,0 +1,34 @@
+{
+  "id": 23390,
+  "name": "7º Street Cross Lustosa 2023",
+  "location": "Lousada, Porto",
+  "coordinates": {
+    "lat": 41.2778714,
+    "lon": -8.2815432
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "cross-country"
+  ],
+  "images": [
+    "media/cbf969a015f3d906fc1bedc68445d141"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [],
+  "description": "\n<p>A Associação Desportiva de Lustosa, com o apoio da Câmara Municipal de Lousada e União de Freguesias de Lustosa e Barrosas Santo Estêvão, irá organizar o 7º Street Cross Lustosa, com partida e chegada na Alameda da Igreja – Lustosa, no dia 21 de maio de 2023, com inicio às 9 horas.</p>\n\n\n",
+  "description_short": "Street cross desafiante pelas ruas de Lustosa com organização local",
+  "page": "https://www.queroir.pt/7-street-cross-lustosa-",
+  "slug": "7o-street-cross-lustosa-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Lousada",
+  "administrative_area_level_3": "União das freguesias de Cristelos, Boim e Ordem",
+  "district_code": 13
+}

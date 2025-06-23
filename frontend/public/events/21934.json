@@ -1,0 +1,35 @@
+{
+  "id": 21934,
+  "name": "6ª Edição Trail Running Canha 2023",
+  "location": "Canha, Setúbal",
+  "coordinates": {
+    "lat": 38.7723991,
+    "lon": -8.638059799999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    7000,
+    10000,
+    21000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/744f49d3cb931a660fed80135b38fced"
+  ],
+  "start_date": "2023-03-05",
+  "end_date": "2023-03-06",
+  "circuit": [],
+  "description": "\n<p>Com o objetivo de promover e dinamizar a vila de Canha, a Associação para a Formação e Desenvolvimento Desportivo em protocolo com a Câmara Municipal do Montijo e com a Freguesia de Canha, vai levar a efeito a 6 ª Edição do Trail Running Canha a realizar-se no dia 05 de Março de 2023 em Canha com inicio e término nos Bombeiros Voluntários de Canha.</p>\n\n\n\n<p>Trail 10 kms</p>\n\n\n\n<p>Trail 21kms</p>\n\n\n\n<p>Caminhada +/- 7kms guiada</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante por Canha com apoio municipal e dos bombeiros locais",
+  "page": "https://acorrer.pt/eventos/info/3104",
+  "slug": "6a-edicao-trail-running-canha-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Montijo",
+  "administrative_area_level_3": "Canha",
+  "district_code": 15
+}

@@ -1,0 +1,34 @@
+{
+  "id": 38445,
+  "name": "Milha Quinta da Lomba 2025",
+  "location": "Quinta da Lomba, Barreiro",
+  "coordinates": {
+    "lat": 38.6447641,
+    "lon": -9.0568846
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "Milha"
+  ],
+  "images": [
+    "media/bf4e8d3f87c8415aac3fbbcac827f625"
+  ],
+  "start_date": "2025-04-13",
+  "end_date": "2025-04-13",
+  "circuit": [
+    "Atletismo do Barreiro"
+  ],
+  "description": "\n<p>A Câmara Municipal do Barreiro e organização técnica da Xistarca, organiza no dia 13 de abril de 2025, a <strong>3ª Milha Quinta da Lomba.</strong></p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Corrida urbana organizada pela Câmara Municipal do Barreiro na zona da Quinta da Lomba",
+  "page": "https://xistarca.pt/eventos/cab-3a-milha-quinta-da-lomba",
+  "slug": "milha-quinta-da-lomba-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "União das freguesias de Alto do Seixalinho, Santo André e Verderena",
+  "district_code": 15
+}

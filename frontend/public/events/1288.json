@@ -1,0 +1,33 @@
+{
+  "id": 1288,
+  "name": "Corrida do Carnaval Cidade de Rio Tinto 2020",
+  "location": "Estádio do Sport Clube Rio Tinto",
+  "coordinates": {
+    "lat": 41.1736409,
+    "lon": -8.555323399999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/f9e393b36df6e203125b244e3367f942"
+  ],
+  "start_date": "2020-02-15",
+  "end_date": "2020-02-16",
+  "circuit": [],
+  "description": "<p>Pelas 17:00 horas partida e chegada no Estádio do Sport Clube Rio Tinto, organizada pela ProEvents, com o apoio da JF de Rio Tinto e da CM de Gondomar.</p>\n<p>O que inclui a inscrição?<br />\nCorrida:<br />\n&#8211; T-shirt<br />\n&#8211; Medalha Finnisher<br />\n&#8211; Seguro<br />\n&#8211; Mochila<br />\n&#8211; Bola de Berlim<br />\n&#8211; Água</p>\n<p>Caminhada:<br />\n&#8211; T-shirt<br />\n&#8211; Seguro<br />\n&#8211; Mochila<br />\n&#8211; Bola de Berlim<br />\n&#8211; Água</p>\n",
+  "description_short": "Corrida com partida e chegada no Estádio de Rio Tinto, apoiada pela junta de freguesia e câmara municipal de Gondomar",
+  "page": "https://www.prozis.com/pt/pt/evento/corrida-do-carnaval-cidade-de-rio-tinto",
+  "slug": "corrida-do-carnaval-cidade-de-rio-tinto-2020",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "Rio Tinto",
+  "district_code": 13
+}

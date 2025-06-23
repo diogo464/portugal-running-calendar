@@ -1,0 +1,34 @@
+{
+  "id": 13831,
+  "name": "Trail do Capitão 2022",
+  "location": "Paredes, Porto",
+  "coordinates": {
+    "lat": 41.2051674,
+    "lon": -8.3303867
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    350,
+    900,
+    10000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cef9bf1f5dadd5bd4d2407cd02d4a4f4"
+  ],
+  "start_date": "2022-01-29",
+  "end_date": "2022-01-30",
+  "circuit": [],
+  "description": "\n<p>O<strong> grupo desportivo da portela </strong>é a entidade organizadora da iii edição do evento <strong>trail do capitão</strong>, que decorrerá dia 29 de janeiro de 2022, em rebordosa, independentemente das condições climatéricas do dia, desde que a organização entenda que não ofereçam risco aos participantes.</p>\n\n\n\n<p>a iii edição do trail do capitão tem como parceiros estratégicos a câmara municipal de paredes, a junta de freguesia de rebordosa e a atad &#8211; amigos do trail associação desportiva e conta como o apoio dos bombeiros voluntários de rebordosa.</p>\n\n\n\n<p>a iii edição do trail do capitão será constituída por duas provas competitivas:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>o  Trail do Capitão 2022 terá uma distância de 20 km e um desnível positivo de aproximadamente 900m d+.</li><li>o <strong>mini-trail do capitão</strong> terá uma distância de 10 km e um desnível positivo de aproximadamente 350m d+ e poderá ser feito a correr ou caminhar.</li></ul>\n\n\n\n<p>a organização reserva o direito de alterar as distâncias se assim o entender, sendo que essas alterações nunca excederão os 10%.</p>\n",
+  "description_short": "Trail desafiante em Rebordosa com duas distâncias e apoio municipal",
+  "page": "http://events.portimer.pt/eventos/traildocapitao",
+  "slug": "trail-do-capitao-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Paredes",
+  "district_code": 13
+}

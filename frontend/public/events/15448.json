@@ -1,0 +1,30 @@
+{
+  "id": 15448,
+  "name": "Caminhada/Trail da Salamandra 2022",
+  "location": "Penina, Faro",
+  "coordinates": {
+    "lat": 37.2502961,
+    "lon": -8.1147206
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/65306bffe0c61eb1d50fdc4457828a86"
+  ],
+  "start_date": "2022-09-25",
+  "end_date": "2022-09-26",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/2907",
+  "slug": "trail-da-salamandra-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "União de freguesias de Querença, Tôr e Benafim",
+  "district_code": 8
+}

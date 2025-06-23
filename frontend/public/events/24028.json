@@ -1,0 +1,31 @@
+{
+  "id": 24028,
+  "name": "Trail Vila de Campo Maior 2023",
+  "location": "Campo Maior, Portalegre",
+  "coordinates": {
+    "lat": 39.0441326,
+    "lon": -7.0713572
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/25b3e43072ad0c0c524f89aab5c71e41"
+  ],
+  "start_date": "2023-10-07",
+  "end_date": "2023-10-08",
+  "circuit": [],
+  "description": "\n<p>O Trail Vila de Campo Maior procura ser promotor de estilos de vida saudáveis, de competição desportiva e de promoção do nosso património natural, cultural, empresarial e Humano.</p>\n\n\n\n<p>Valorizar o nosso concelho e realçar a vertente cultural é fundamental para criar um evento distintivo no panorama do Trail em Portugal e que seja uma marca identitária da nossa vila.</p>\n\n\n\n<p>Juntar o melhor que nos carateriza é o objetivo da organização que deseja que o Trail Vila de Campo Maior (TCM) seja um evento aglutinador da comunidade, dos parceiros, entidades e patrocinadores.</p>\n\n\n\n<p>Despertar os sentidos, com aromas a café e a cor e beleza das nossas flores (património da Humanidade) acompanhado pelo som das saias, castanholas e pandeiretas é um dos nossos trunfos para enquadrar este evento desportivo.</p>\n\n\n\n<p>A organização é da responsabilidade da equipa CMTR- Campo Maior Trail Runners/GEDA em conjunto com um vasto grupo de parceiros e entidades, enquadrada no Campeonato regional de trail curto e longo da AADP (Associação Atletismo do Distrito de Portalegre) mas aberta a todos os participantes de qualquer ponto do pais e estrangeiro.</p>\n\n\n",
+  "description_short": "Trail desafiante por Campo Maior com promoção do Património cultural e natural da região",
+  "page": "https://meutempo.pt/prova?trailviladecampomaior",
+  "slug": "trail-vila-de-campo-maior-2023",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Campo Maior",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

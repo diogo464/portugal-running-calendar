@@ -1,0 +1,34 @@
+{
+  "id": 23052,
+  "name": "Trilhos Da Cola By Qenergy 2023",
+  "location": "Ourique, Beja",
+  "coordinates": {
+    "lat": 37.6521402,
+    "lon": -8.224390399999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/94aaa97051ceeebc21404311f4f5e242"
+  ],
+  "start_date": "2023-05-01",
+  "end_date": "2023-05-02",
+  "circuit": [],
+  "description": "\n<p>O evento desportivo, Trilhos da Cola by Qenergy, 1ª. edição, é promovido e organizado pelo Ourique Desportos Clube, com o apoio da Câmara Municipal de Ourique</p>\n\n\n\n<p>1 &#8211; O evento desportivo Trail da Cola integra as seguintes distâncias:<br>a) &#8211; Trail Longo – 25 Km<br>b) – Trail Curto – 15 Km<br>c) – Caminhada 8 km, sem vertente competitiva.</p>\n\n\n",
+  "description_short": "Trail pela região de Ourique com várias opções de percurso e apoio municipal",
+  "page": "https://acorrer.pt/eventos/info/3178",
+  "slug": "trilhos-da-cola-by-qenergy-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Ourique",
+  "administrative_area_level_3": "Ourique",
+  "district_code": 2
+}

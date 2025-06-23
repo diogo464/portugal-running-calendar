@@ -1,0 +1,33 @@
+{
+  "id": 41628,
+  "name": "Maratona de Paris 2026",
+  "location": "Paris, França",
+  "coordinates": {
+    "lat": 48.8575475,
+    "lon": 2.3513765
+  },
+  "country": "França",
+  "locality": "Île-de-France",
+  "distances": [
+    42195,
+    195000
+  ],
+  "types": [
+    "run",
+    "marathon"
+  ],
+  "images": [
+    "media/0d07e734b17edfd9a5b40ee9a22f3ee1"
+  ],
+  "start_date": "2026-04-12",
+  "end_date": "2026-04-12",
+  "circuit": [],
+  "description": "\n<p>A Maratona Schneider Electric de Paris oferece uma oportunidade única de tornar a cidade sua, participando de uma das corridas mais prestigiadas, com a lendária distância de 42,195 km.</p>\n\n\n\n<p>A Maratona Schneider Electric de Paris é hoje uma das maiores maratonas do mundo, tanto pelo tamanho de sua competição quanto pelo desempenho de seus corredores. Cada corredor volta para casa com memórias incríveis.</p>\n\n\n\n<p>Dezenas de milhares de corredores vêm para enfrentar a disciplina de longa distância mais lendária do atletismo. Esta corrida por Paris, passando pelos Champs-Élysées, Bois de Vincennes e Boulogne, oferece um cenário incomparável, com vistas espetaculares e pontos turísticos ao longo de todo o percurso.</p>\n\n\n\n<p>A feira Run Experience, na Porte de Versailles, que acontece três dias antes da maratona, também é uma ocasião imperdível para muitos profissionais do mundo da corrida.</p>\n",
+  "description_short": "Maratona icónica por Paris passando pelos locais mais emblemáticos da cidade",
+  "page": "https://www.schneiderelectricparismarathon.com/en/",
+  "slug": "maratona-de-paris-2026",
+  "administrative_area_level_1": "Île-de-France",
+  "administrative_area_level_2": "Paris",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": 38796,
+  "name": "Trail Trilhos Pina Manique 2025",
+  "location": "Azambuja, Lisboa",
+  "coordinates": {
+    "lat": 39.0704397,
+    "lon": -8.8730393
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    13000,
+    23000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/4fd8025ea1ad28e4264265671b8a9062"
+  ],
+  "start_date": "2025-04-27",
+  "end_date": "2025-04-28",
+  "circuit": [],
+  "description": "\n<p>A Associação dos Amigos de Trilhos Pina Manique e a Câmara Municipal de Azambuja organizam, no próximo dia 27 de abril de 2025 a VII edição do Trail &#8220;Trilhos Pina Manique&#8221;.</p>\n\n\n\n<p>Esta prova é composta por duas corridas de caráter competitivo, sendo uma o Trail de 23km e o Mini Trail de 13km. Realiza-se também uma caminhada pedestre, sem intuito competitivo, com uma distância aproximada de 10km.</p>\n",
+  "description_short": "Trail tradicional pelos caminhos rurais de Azambuja com provas para diferentes níveis de participantes",
+  "page": "https://trilhospinamanique.pt/",
+  "slug": "trail-trilhos-pina-manique-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Azambuja",
+  "administrative_area_level_3": "Azambuja",
+  "district_code": 11
+}

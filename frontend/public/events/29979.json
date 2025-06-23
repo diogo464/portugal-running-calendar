@@ -1,0 +1,40 @@
+{
+  "id": 29979,
+  "name": "Linhas de Torres 100 2024",
+  "location": "Sobral de Monte Agraço, Lisboa",
+  "coordinates": {
+    "lat": 39.0188114,
+    "lon": -9.1505771
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    25000,
+    35000,
+    45000,
+    100000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk",
+    "relay"
+  ],
+  "images": [
+    "media/7d0e51927ab88eaa47abbf21e441d4c3"
+  ],
+  "start_date": "2024-01-26",
+  "end_date": "2024-01-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Linhas de Torres 100 integra 7 variantes de corrida/progressão a pé em plena natureza, em regime de semiautonomia num tempo limitado e dois passeios, um pedestre e outro equestre, conforme segue:</p>\n\n\n\n<p></p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>LT100 – K100: prova realizada a solo num percurso com cerca de 100km com partida e chegada em Sobral de Monte Agraço;</li>\n\n\n\n<li>LT100 – K100/2: prova realizada em estafetas de 2 elementos no mesmo percurso do LT100 – K100;</li>\n\n\n\n<li>LT100 – K100/4: prova realizada em estafetas de até 4 elementos no mesmo percurso do LT100 – K100;</li>\n\n\n\n<li>LT100 – K45: prova realizada a solo com cerca de 45km maioritariamente no percurso do LT100 – K100 com partida e chegada em Sobral de Monte Agraço;</li>\n\n\n\n<li>LT100 – K35: prova realizada a solo com cerca de 35km maioritariamente no percurso do LT100 – K100, com partida e chegada em Sobral de Monte Agraço;</li>\n\n\n\n<li>LT100 – K25: prova realizada a solo com cerca de 25km maioritariamente no percurso do LT100 – K100, com partida e chegada em Sobral de Monte Agraço;</li>\n\n\n\n<li>LT100 – K10: passeio pedestre realizado a solo com cerca de 10km maioritariamente no percurso do LT100 – K100, com partida e chegada em Sobral de Monte Agraço;</li>\n\n\n\n<li>LTB100 – K100: passeio realizado a solo, de bicicleta, num percurso com cerca de100km com partida e chegada em Sobral de Monte Agraço;</li>\n\n\n\n<li>LTE100 – K25, passeio equestre realizado no percurso do LT100 – k25.</li>\n</ol>\n",
+  "description_short": "Trail Linhas de Torres com 7 variantes de corrida e passeios em Sobral de Monte Agraço, desde 10 até 100 quilómetros",
+  "page": "https://www.trilhoperdido.com/evento/Linhas-de-Torres-100",
+  "slug": "linhas-de-torres-100-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sobral de Monte Agraço",
+  "administrative_area_level_3": "Sobral de Monte Agraço",
+  "district_code": 11
+}

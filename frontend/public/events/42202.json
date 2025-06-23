@@ -1,0 +1,31 @@
+{
+  "id": 42202,
+  "name": "Trail Monges de Cister 2025",
+  "location": "Alcobaça",
+  "coordinates": {
+    "lat": 39.5503343,
+    "lon": -8.9730531
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/a80bdfcb22bcc9676b777ba45a5aa62f"
+  ],
+  "start_date": "2025-10-19",
+  "end_date": "2025-10-20",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/trailmongesdecister2025",
+  "slug": "trail-monges-de-cister-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Alcobaça",
+  "district_code": 10
+}

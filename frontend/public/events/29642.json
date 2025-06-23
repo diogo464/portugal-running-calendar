@@ -1,0 +1,33 @@
+{
+  "id": 29642,
+  "name": "Trilhos dos Templários 2024 &#8211; Nocturnos",
+  "location": "Tomar, Santarém",
+  "coordinates": {
+    "lat": 39.6053819,
+    "lon": -8.4043125
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/48ef1d33027f4947c017cd6d69504760"
+  ],
+  "start_date": "2024-01-06",
+  "end_date": "2024-01-07",
+  "circuit": [],
+  "description": "\n<p>Na sequência do sucesso obtido nos X Trilhos dos Templários em 2021, a equipa dos Trilhos dos Templários da A.C.R. de Santa Cita, vai realizar no próximo dia 6 de janeiro de 2024, o X Trilhos Noturnos Dos Templários.<br></p>\n\n\n\n<p>Trail Curto (sprint) &#8211; 22 km<br>Mini Trail &#8211; 12 km<br>Caminhada &#8211; 12 km</p>\n",
+  "description_short": "Trail noturno histórico pelos caminhos dos Templários com diferentes percursos em Santa Cita",
+  "page": "https://www.trilhoperdido.com/evento/X-trilhos-noturnos-dos-templarios",
+  "slug": "trilhos-dos-templarios-2024-nocturnos",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

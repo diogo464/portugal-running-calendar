@@ -1,0 +1,33 @@
+{
+  "id": 21229,
+  "name": "Luso 7k 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    7000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/b2370f9ae0cff33fe5eee4466ed54e98"
+  ],
+  "start_date": "2023-03-11",
+  "end_date": "2023-03-12",
+  "circuit": [],
+  "description": "\n<p>Com uma partida no templo do atletismo de Lisboa,&nbsp;Estádio Nacional, a prova Luso 7K faz parte integrante do programa da&nbsp;EDP Meia Maratona de Lisboa.</p>\n\n\n\n<h2 class=\"wp-block-heading\"><a href=\"https://results.sporthive.com/events/7034597458377179392/races/484948\" target=\"_blank\" rel=\"noreferrer noopener\">RESULTADOS AQUI</a> </h2>\n\n\n\n<p><strong>Acompanhamento Personalizado</strong></p>\n\n\n\n<p>O <strong>Portugal Running</strong> disponibiliza um<a href=\"https://www.portugalrunning.com/plano-treino-corrida/\" data-type=\"URL\" data-id=\"plano-treino-corrida\"> <strong>acompanhamento personalizado </strong></a>para os atletas que queiram melhorar as suas performances ou fazer a sua primeira corrida.</p>\n",
+  "description_short": "Corrida urbana de 7K com partida no histórico Estádio Nacional em Lisboa",
+  "page": "https://www.maratonaclubedeportugal.com/corrida-marco/luso-7k-2023/",
+  "slug": "luso-7k-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

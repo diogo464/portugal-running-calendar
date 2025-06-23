@@ -1,0 +1,30 @@
+{
+  "id": 37677,
+  "name": "Volta à Freguesia de S. Sebastião 2024",
+  "location": "Rio Maior Maior, Santarém",
+  "coordinates": {
+    "lat": 39.3384417,
+    "lon": -8.942707600000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/57004c1f30fb2fff8f97a14d978c13ba"
+  ],
+  "start_date": "2024-10-06",
+  "end_date": "2024-10-07",
+  "circuit": [],
+  "description": "\n<p>O Torneio de Atletismo das Freguesias de Rio Maior “Jorge Miguel” consiste num conjunto de provas<br>desportivas na modalidade de atletismo, organizadas pelas Coletividades/Clubes/Associações/Juntas<br>de Freguesia do Concelho de Rio Maior, com o apoio da Câmara Municipal de Maior.<br>Esta iniciativa municipal tem como principais objetivos promover hábitos de prática da atividade<br>física e desportiva regular, potenciar a captação de praticantes desportivos para o atletismo e<br>valorizar o trabalho realizado pelo movimento associativo desportivo do Concelho.</p>\n\n\n",
+  "description_short": "Torneio de atletismo municipal que promove a prática desportiva nas freguesias de Rio Maior",
+  "page": "https://www.queroir.pt/volta-a-freguesia-de-sao-sebastiao-1",
+  "slug": "volta-a-freguesia-de-s-sebastiao-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Rio Maior",
+  "administrative_area_level_3": "Rio Maior",
+  "district_code": 14
+}

@@ -1,0 +1,32 @@
+{
+  "id": 34985,
+  "name": "Meia Maratona Caminha 2024",
+  "location": "Caminha, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8732082,
+    "lon": -8.837845399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run"
+  ],
+  "images": [
+    "media/e11a5078217816bf8ddd5a3d4972e9b2"
+  ],
+  "start_date": "2024-06-15",
+  "end_date": "2024-06-16",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 15 de junho 2024, pelas 18h00 horas (Meia Maratona) e 18h00 (Mini Maratona), com  partida junto à torre do relógio no centro de Caminha onde será dado o tiro de partida.</p>\n",
+  "description_short": "Trail nocturno pela zona histórica de Caminha ao final da tarde",
+  "page": "https://www.classificacoes.net/modalidades/atletismo/viii-meia-maratona-sunset-caminha-2024",
+  "slug": "meia-maratona-caminha-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Caminha (Matriz) e Vilarelho",
+  "district_code": 16
+}

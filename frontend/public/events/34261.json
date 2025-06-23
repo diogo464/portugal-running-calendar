@@ -1,0 +1,32 @@
+{
+  "id": 34261,
+  "name": "Palmilhar A Freguesia 2024",
+  "location": "Alcobaça, Leiria",
+  "coordinates": {
+    "lat": 39.5503343,
+    "lon": -8.9730531
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2fb0d8691816294f7d3fd0b9f24a75f3"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de Évora de Alcobaça vai realizar no próximo dia 24 de Março de 2024 um evento denominado &#8220;Palmilhar a Freguesia&#8221;. O Palmilhar a Freguesia é um evento convívio de Trail Running, que decorre no Concelho de Alcobaça, Freguesia de Évora de Alcobaça e que integra três percursos distintos: Iniciação ao Trail, Caminhada e Kids Trail,</p>\n\n\n",
+  "description_short": "Trail convívio pela região de Alcobaça com percursos para diferentes níveis de participantes",
+  "page": "https://stopandgo.net/events/palmilhar-a-freguesia-2024",
+  "slug": "palmilhar-a-freguesia-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Alcobaça",
+  "district_code": 10
+}

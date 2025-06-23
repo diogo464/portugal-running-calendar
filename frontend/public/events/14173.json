@@ -1,0 +1,35 @@
+{
+  "id": 14173,
+  "name": "Coimbra Trail 2022",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    25000,
+    42000
+  ],
+  "types": [
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/cee67be269f2bfb2e0afa728c2688311"
+  ],
+  "start_date": "2022-09-25",
+  "end_date": "2022-09-26",
+  "circuit": [],
+  "description": "\n<p>O Coimbra Trail é um evento de Trail Running, numa organização conjunta do Clube de Praticantes Coimbra Trail Running, Câmara Municipal de Coimbra e Junta de Freguesia de Santo António dos Olivais, que irá ocorrer em Coimbra nos dias 24 e 25 de Setembro de 2022, integrando três provas competitivas, uma caminhada e uma prova de iniciação:</p>\n\n\n\n<p><br> Ultra Trail de 42 km (aproximadamente);<br> Trail de 25 km (aproximadamente);<br> Mini Trail de 10 km (aproximadamente);<br> Caminhada de 10km (aproximadamente);<br> CT Kids<br></p>\n",
+  "description_short": "Trail de montanha em Coimbra com provas para todos os níveis e escalões etários",
+  "page": "http://www.coimbratrail.pt/",
+  "slug": "coimbra-trail-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

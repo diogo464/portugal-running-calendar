@@ -1,0 +1,35 @@
+{
+  "id": 13568,
+  "name": "Maratona do Porto 2022",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    42000,
+    42195
+  ],
+  "types": [
+    "run",
+    "10k",
+    "marathon"
+  ],
+  "images": [
+    "media/ddb776a0d88c7d423a6bee66c6ddb108"
+  ],
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-07",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://www.maratonadoporto.com/pt/resultados-2022/\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados 2022</a></h2>\n\n\n\n<p>A EDP Maratona do Porto 2022 com os seus 17 anos de vida, inicia a sua campanha de divulgação, com vista à 18ª. Edição, em 2022 a 6 de outubro, com início às 9h00, e tal como no passado, pretendemos fazer desta EDP Maratona do Porto, um evento de referência nacional e internacional.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Percurso da Maratona do Porto</h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"zak-oembed-container\"><iframe title=\"Percurso EDP Maratona do Porto - 42 km\" width=\"812\" height=\"457\" src=\"https://www.youtube.com/embed/LHA4nzfxC10?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>\n</div></figure>\n\n\n\n<p></p>\n",
+  "description_short": "Maratona tradicional com 18 anos de história a percorrer as ruas do Porto",
+  "page": "https://www.maratonadoporto.com/",
+  "slug": "maratona-do-porto-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

@@ -1,0 +1,35 @@
+{
+  "id": 17198,
+  "name": "Trail Noturno Pombal Oeste 2022",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    7000,
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/d0fb375c1d51dfba7db9a495da889d2d"
+  ],
+  "start_date": "2022-10-15",
+  "end_date": "2022-10-16",
+  "circuit": [],
+  "description": "\n<p>O 5º Trail Noturno Pombal Oeste 2022 é organizada pela União de Freguesias Guia, Ilha e Mata Mourisca em parceria com os Bombeiros Voluntários de Pombal e o Município de Pombal. O valor das inscrições irá reverter na sua totalidade a favor dos Bombeiros Voluntários de Pombal, para a aquisição de equipamento de proteção individual.</p>\n\n\n\n<p>Trail Longo: 25 km / maiores de 18 anos;<br>Trail Curto: 15 km / maiores de 18 anos;<br>Caminhada: 10 km;<br>Trail Júnior: 7 km / dos 12 aos 17 anos.</p>\n",
+  "description_short": "Trail nocturno solidário em Pombal com apoio aos bombeiros voluntários locais",
+  "page": "https://lap2go.com/pt/event/trail-pombal-oeste-2022",
+  "slug": "5o-trail-noturno-pombal-oeste-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

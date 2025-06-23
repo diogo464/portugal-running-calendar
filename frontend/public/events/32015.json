@@ -1,0 +1,36 @@
+{
+  "id": 32015,
+  "name": "Boticas Trail 2024",
+  "location": "Boticas, Vila Real",
+  "coordinates": {
+    "lat": 41.6984124,
+    "lon": -7.6710889
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    13000,
+    19000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/5b992150f80496be1f64739d44c8e703"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [],
+  "description": "\n<p>O Boticas Trail Caminhos do Galaico é uma das maiores provas desportivas da região de Barroso,o único território portugues com o selo de Patrimônio agrícola Mundial A prova é composta por 3 fantásticos trilhos de montanha ( 13,19 e 30km) e uma caminhada de 13km, oferecendo ainda um leque de atividades para as crianças.</p>\n\n\n\n<p>A verdadeira prova das famílias, do convívio e da amizade.</p>\n\n\n\n<p>Uma iniciativa que pretende promover o Boticas Parque Natureza e Biodiversidade e o concelho de Boticas, oferecendo o que de melhor a região tem em termos de paisagem e natureza.</p>\n",
+  "description_short": "Trail desafiante em Boticas que celebra o Patrimônio Agrícola Mundial do Barroso",
+  "page": "https://www.boticasparque.com/",
+  "slug": "boticas-trail-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Boticas",
+  "administrative_area_level_3": "Boticas e Granja",
+  "district_code": 17
+}

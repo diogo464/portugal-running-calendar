@@ -1,0 +1,36 @@
+{
+  "id": 30777,
+  "name": "Ultra Caminhos do Tejo 2024",
+  "location": "Ourém, Santarém",
+  "coordinates": {
+    "lat": 39.6564974,
+    "lon": -8.5773408
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    42195,
+    57000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "marathon"
+  ],
+  "images": [
+    "media/0c9b8f7cbb5f1e1d65aae5b3f2aea488"
+  ],
+  "start_date": "2024-06-07",
+  "end_date": "2024-06-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A&nbsp;<strong>Ultra Maratona Caminhos do Tejo</strong>&nbsp;é um momento de reflexão interior, de partilha de experiências e de desafio à resistência física.&nbsp;Chegar ao destino representa assim, um mundo de emoções e uma enorme esperança na capacidade de ultrapassar todas as adversidades.</p>\n\n\n\n<p>A partida da&nbsp;<strong>XVII Ultra Maratona Caminhos do Tejo</strong>&nbsp;será dada às 20H do dia 7 de Junho de 2024, no km 0 ao lado do Pavilhão de Portugal, no Parque das Nações, seguindo os caminhos de peregrinação até ao Santuário de Fátima.&nbsp;<br>A partida da&nbsp;<strong>Ultra de 57 km</strong>&nbsp;será dada às 9H do dia 8 de Junho de 2024, na antiga Escola Prática de Cavalaria em Santarém, seguindo o mesmo percurso da prova que parte de Lisboa.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Ultra Maratona noturna de Lisboa a Fátima, unindo desafio físico e reflexão espiritual pelos caminhos históricos do Tejo",
+  "page": "https://www.omdceventos.com/evento/xvii-ultra-maratona-caminhos-do-tejo",
+  "slug": "ultra-caminhos-do-tejo-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Olival",
+  "district_code": 14
+}

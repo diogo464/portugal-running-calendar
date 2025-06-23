@@ -1,0 +1,31 @@
+{
+  "id": 38663,
+  "name": "Zela Trail Running 2025",
+  "location": "Vouzela, Viseu",
+  "coordinates": {
+    "lat": 40.7229086,
+    "lon": -8.1122167
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/bb272e1e5c9658d34a72bcf068930921"
+  ],
+  "start_date": "2025-04-12",
+  "end_date": "2025-04-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O evento Zela Ultra Marathon é organizado pela SpotCriavo Eventos em colaboração com o Município de Vouzela e apoio das endades locais. O evento será realizado nos dias 12 e 13 Abril de 2025, com partida e chegada na Vila de Vouzela, será composto por 6 percursos de Trail Running e Skyrunning.</p>\n\n\n\n<p></p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Trail épico de montanha em Vouzela com múltiplos percursos de Trail Running e Skyrunning",
+  "page": "https://stopandgo.net/events/zela-trail-running-2025",
+  "slug": "zela-ultra-marathon-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vouzela",
+  "administrative_area_level_3": "Vouzela",
+  "district_code": 18
+}

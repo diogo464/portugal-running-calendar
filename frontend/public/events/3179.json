@@ -1,0 +1,29 @@
+{
+  "id": 3179,
+  "name": "Trail da Costa Saloia 2021",
+  "location": "Mucifal - Sintra",
+  "coordinates": {
+    "lat": 38.8066164,
+    "lon": -9.442691199999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/47b0075f9bdbc665ea7bca5adcb4d381"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<p>Pela 1ª vez como etapa integrante do Circuito Lisboa Trail, esta é já a 6ª edição do Trail da Costa Saloia 2021!</p>\n\n\n\n<p>Com partida e chegada no Complexo Desportivo da União Mucifalense poderás contar com uma prova de trail longo, trail curto e uma caminhada formados por caminhos, trilhos e carreiros em zona de pinhal e arribas com vistas que fazem valer a pena junto à costa atlântica.&nbsp;</p>\n\n\n\n<p>Esta é uma organização da União Mucifalense com organização técnica da WeRun.</p>\n",
+  "description_short": "Trail da Costa Saloia com percursos panorâmicos pelas zonas de pinhal e arribas atlânticas",
+  "page": "https://werun.pt/eventos/trail-da-costa-saloia/",
+  "slug": "trail-da-costa-saloia-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "Colares",
+  "district_code": 11
+}

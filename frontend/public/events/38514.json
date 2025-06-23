@@ -1,0 +1,30 @@
+{
+  "id": 38514,
+  "name": "Corrida Vila de Redondo 2025",
+  "location": "Redondo, Évora",
+  "coordinates": {
+    "lat": 38.6469313,
+    "lon": -7.5470141
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/4e125df8d5d522f4454627bc2cd9f70a"
+  ],
+  "start_date": "2025-01-10",
+  "end_date": "2025-01-11",
+  "circuit": [],
+  "description": "\n<p>A 3ª CORRIDA VILA DE REDONDO é um evento de natureza desportiva, que visa promover o desporto e hábitos de vida saudáveis. O evento é uma organização conjunta entre a Junta de Freguesia de Redondo e o Trail do Texugo.</p>\n\n\n",
+  "description_short": "Corrida tradicional pela vila alentejana de Redondo com organização local",
+  "page": "https://acorrer.pt/eventos/info/3683",
+  "slug": "corrida-vila-de-redondo-2025",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Redondo",
+  "administrative_area_level_3": "Redondo",
+  "district_code": 7
+}

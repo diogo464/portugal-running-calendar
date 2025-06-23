@@ -1,0 +1,34 @@
+{
+  "id": 30584,
+  "name": "Corrida Dia do Pai 2024",
+  "location": "Matosinhos, Porto",
+  "coordinates": {
+    "lat": 41.182863,
+    "lon": -8.688951
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/44ce134fdc2929571d53597f83451a5c"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>A antecipar o dia do maior herói das crianças, do melhor amigo de toda a vida, a Runporto irá realizar no dia 17 de março de 2024 a 20ª edição ISAG Corrida do Pai.</p>\n\n\n\n<p>O evento pretende juntar pais e filhos de todas as idades e tem partida marcada para as 9h00, na Cidade de Matosinhos.&nbsp;</p>\n\n\n\n<p>Para além da corrida cronometrada de 10km, haverá também a Mini/Caminhada com 5km sem fins competitivos, ambas as provas têm partida e chegada na AV. Norton de Matos.</p>\n",
+  "description_short": "Corrida familiar em Matosinhos que celebra a relação entre pais e filhos na 20ª edição",
+  "page": "https://www.runporto.com/pt/eventos/corrida-dia-do-pai/",
+  "slug": "corrida-dia-do-pai-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das Freguesias de Matosinhos e Leça da Palmeira",
+  "district_code": 13
+}

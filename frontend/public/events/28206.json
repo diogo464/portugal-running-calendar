@@ -1,0 +1,33 @@
+{
+  "id": 28206,
+  "name": "Meia Maratona Lagos 2023",
+  "location": "Lagos, Faro",
+  "coordinates": {
+    "lat": 37.1027881,
+    "lon": -8.6730275
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/3b3706a9a628bbb91baaa2e38be8d5f5"
+  ],
+  "start_date": "2023-10-29",
+  "end_date": "2023-10-30",
+  "circuit": [],
+  "description": "\n<p>Numa organização do Olímpico Clube de Lagos, vai realizar-se no dia 29 de Outubro de 2023 pelas<br>9h30, a 33.ª Meia Maratona Lagos 2023, Mini Meia Maratona e a MegaCaminhada.</p>\n\n\n\n<p>Este evento, pretende ser uma experiência única de corrida em Portugal, tendo como ex-librisa<br>passagem do percurso pela ponte levadiça que liga a marina à cidade de Lagos, para além da<br>passagem pela conhecida meia- praia, pela avenida da cidade.</p>\n",
+  "description_short": "Meia maratona em Lagos com passagem pela marina histórica e meia-praia",
+  "page": "https://www.crono.aaalgarve.org/eventos/33-meia-maratona-internacional-de-lagos",
+  "slug": "meia-maratona-lagos-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Lagos",
+  "administrative_area_level_3": "São Gonçalo de Lagos",
+  "district_code": 8
+}

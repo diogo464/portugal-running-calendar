@@ -1,0 +1,31 @@
+{
+  "id": 23285,
+  "name": "41ª Edição do Circuito de Atletismo “Vila de Odemira” 2023",
+  "location": "Odemira, Beja",
+  "coordinates": {
+    "lat": 37.6098303,
+    "lon": -8.6270628
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/78c0deed5f091155af74a09f3f5220df"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [],
+  "description": "\n<p>O Núcleo Desportivo e Cultural de Odemira em colaboração com o Município de Odemira, com o apoio<br>da Associação de Atletismo de Beja e dos Bombeiros Voluntários de Odemira, irá levar a efeito, no dia 30<br>de abril, domingo, a 41ª Edição do Circuito de Atletismo “Vila de Odemira” e a 15ª Edição da “Caminhada<br>da Saúde&#8221;</p>\n\n\n",
+  "description_short": "Circuito tradicional de atletismo com caminhada solidária em Odemira",
+  "page": "https://acorrer.pt/eventos/info/3185",
+  "slug": "41a-edicao-do-circuito-de-atletismo-vila-de-odemira-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Odemira",
+  "administrative_area_level_3": "São Salvador e Santa Maria",
+  "district_code": 2
+}

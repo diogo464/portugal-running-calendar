@@ -1,0 +1,34 @@
+{
+  "id": 517,
+  "name": "Meia Maratona Manuela Machado",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    5000,
+    21095,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run"
+  ],
+  "images": [
+    "media/d98f9a43f1d6aee5765bdc6cd44501bd"
+  ],
+  "start_date": "2020-01-19",
+  "end_date": "2020-01-20",
+  "circuit": [],
+  "description": "<p>1) A prova realiza-se no dia 19 de Janeiro de 2020, pelas 10:30 horas e terá<br />\numa distância de 21.095 metros (distância oficial – FPA).<br />\n2) A prova será aberta a todos os atletas federados e não federados.<br />\n3) A Mini &#8211; Maratona e Caminhada serão abertas a atletas de ambos os sexos<br />\ne não terá carácter competitivo e terá uma distância aproximadamente de<br />\n5.000 metros.</p>\n",
+  "description_short": "Meia maratona de janeiro com participação aberta a todos os atletas no centro da cidade",
+  "page": "http://www.cyclonessports.com/index.php/205-22-meia-maratona-manuela-machado-viana-fica-no-coracao",
+  "slug": "meia-maratona-manuela-machado",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

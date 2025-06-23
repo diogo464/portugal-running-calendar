@@ -1,0 +1,29 @@
+{
+  "id": 14708,
+  "name": "Trilhos do Alecrim 2023",
+  "location": "Porto de Mós",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/59112f95294f9cda2ff4f0857562807f"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [],
+  "description": "\n<p>Trilhos do Alecrim 2023</p>\n",
+  "description_short": "Trail pela paisagem algarvia com percursos entre olivais e colinas aromáticas de alecrim",
+  "page": "https://www.recordepessoal.pt/evento/trilhosdoalecrim2023",
+  "slug": "trilhos-do-alecrim-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

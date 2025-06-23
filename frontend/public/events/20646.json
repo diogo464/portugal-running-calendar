@@ -1,0 +1,35 @@
+{
+  "id": 20646,
+  "name": "Trail do Porto Moniz 2023",
+  "location": "Porto Moniz, Ilha da Madeira",
+  "coordinates": {
+    "lat": 32.8659619,
+    "lon": -17.1673851
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    12000,
+    26000,
+    48000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/01c3e1c537a76a82a35b747fc7325356"
+  ],
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Clube de Montanha do Funchal é a associação organizadora do evento denominado Trail do Porto Moniz, que decorrerá no dia 12 de fevereiro de 2023 no Concelho do Porto Moniz na Ilha da Madeira. Devido a razões de logística o evento Trail do Porto Moniz é limitado a cerca de&nbsp;800 participantes, no total das 3 provas, distribuídos da seguinte forma:</p>\n\n\n\n<p>Trail Ultra (48km) – 200<br>Trail Longo (26km) – 300<br>Trail Curto (12km) – 300</p>\n\n\n\n<p>A prova Trail Ultra (48km), integra o Circuito de Trail Ultra da Associação de Atletismo da RAM e o Circuito Nacional de Trail Ultra da ATRP.</p>\n\n\n\n<p>A prova Trail Longo (26km), integra o Circuito de Trail Longo, é também prova do&nbsp;<strong>Campeonato de Trail Longo 2022/2023 da Associação de Atletismo da RAM</strong>&nbsp;e integra igualmente o Circuito Nacional de Trail da ATRP.<br>A prova Trail Curto (12km), integra o Circuito de Trail Curto da Associação de Atletismo da RAM e o Circuito Nacional de Trail Sprint da ATRP.</p>\n",
+  "description_short": "Trail desafiante pelo litoral norte da Madeira com provas de diferentes distâncias no Porto Moniz",
+  "page": "https://trailportomoniz.com/",
+  "slug": "trail-do-porto-moniz-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

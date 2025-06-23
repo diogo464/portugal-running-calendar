@@ -1,0 +1,30 @@
+{
+  "id": 39756,
+  "name": "Trail Valezim Aldeia Desporto 2025",
+  "location": "Valezim, Guarda",
+  "coordinates": {
+    "lat": 40.35961169999999,
+    "lon": -7.7198878
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/e3b72a454712ffc775cf4b06fc0c3532"
+  ],
+  "start_date": "2025-04-13",
+  "end_date": "2025-04-14",
+  "circuit": [],
+  "description": "\n<p>O 4º Trail Valezim Aldeia Desporto, é um evento competitivo, amador, da modalidade de Trail Running, realizado numa das encostas da Serra da Estrela e é organizado pela Associação Vallecinus Cultura e Desporto – AVACD.<br>O 4º Trail Valezim Aldeia Desporto será realizado no dia 13 de Abril de 2025 e é composto 2 percursos de trail e uma caminhada guiada.</p>\n\n\n",
+  "description_short": "Trail desafiante nas encostas da Serra da Estrela com dois percursos de trail e caminhada",
+  "page": "https://acorrer.pt/eventos/info/3759",
+  "slug": "trail-valezim-aldeia-desporto-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Seia",
+  "administrative_area_level_3": "Valezim",
+  "district_code": 9
+}

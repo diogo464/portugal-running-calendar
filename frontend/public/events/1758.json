@@ -1,0 +1,34 @@
+{
+  "id": 1758,
+  "name": "Meia Maratona de Guimarães 2020",
+  "location": "Guimarães, Braga",
+  "coordinates": {
+    "lat": 41.44253,
+    "lon": -8.2917857
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/0f3d21f0ce3ca06470d8869446979e2f"
+  ],
+  "start_date": "2020-06-21",
+  "end_date": "2020-06-22",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://events.globalsport.pt/",
+  "slug": "meia-maratona-de-guimaraes-2020",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Serzedo",
+  "district_code": 3
+}

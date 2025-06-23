@@ -1,0 +1,30 @@
+{
+  "id": 34017,
+  "name": "Penafirme Trail Run 2024",
+  "location": "Penafirme, Torres Vedras",
+  "coordinates": {
+    "lat": 39.1475592,
+    "lon": -9.3578829
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/44715b6e6df97de45d59bde6bf63e1b7"
+  ],
+  "start_date": "2024-09-29",
+  "end_date": "2024-09-30",
+  "circuit": [],
+  "description": "\n<p>Em 2024 um novo sponsor para o evento Turres Trail Clube  realizado com base no Externato de Penafirme .<br> Teve a sua 1º edição como Trail Maceira -TVD e mais tarde  Vimeiro Trail Run  tendo como sponsor as águas do Vimeiro. Em 2024 o sponsor principal será o Externato de Penafirme que dará o nome ao evento.</p>\n",
+  "description_short": "Trail pela zona de Penafirme com novo patrocínio escolar",
+  "page": "https://www.recordepessoal.pt/evento/pefirmetrail",
+  "slug": "penafirme-trail-run-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "União das freguesias de A dos Cunhados e Maceira",
+  "district_code": 11
+}

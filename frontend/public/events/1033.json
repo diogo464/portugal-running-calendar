@@ -1,0 +1,31 @@
+{
+  "id": 1033,
+  "name": "Corvus Trail 2020",
+  "location": "Mouriscas Mouriscas, Santarém",
+  "coordinates": {
+    "lat": 39.5029891,
+    "lon": -8.0951724
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    30000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/89ea58e01e9544fd413c09be0d9dbc54"
+  ],
+  "start_date": "2020-03-22",
+  "end_date": "2020-03-23",
+  "circuit": [],
+  "description": "<p>O COA – Clube de Orientação e Aventura em parceria com a EPDRA – Escola Profissional de Desenvolvimento Rural de Abrantes e ACROM – Associação Cultural das Rotas de Mouriscas e com o apoio da Junta de Freguesia de Mouriscas e do Município de Abrantes irá organizar a 3a edição do Corvus Trail, proporcionando aos seus participantes novas experiênciase sensações em trilhos e caminhos da região, promovendo os já transitáveis, e recuperando alguns há muito engolidos pela vegetação, fruto do abandono.</p>\n<p>Inserido nas Comemorações dos 30 anos de história da EPDRA, o Trail Longo EPDRA 30/30 (30anos/30km), irá integrar o Circuito Nacional de Trail da ATRP, Zona Centro – Séries 100.</p>\n<p>“EPDRA, há 3 décadas a preparar o Futuro”</p>\n",
+  "description_short": "Trail desafiante por caminhos rurais de Mouriscas com recuperação de trilhos históricos",
+  "page": "https://www.prozis.com/pt/pt/evento/corvustrail",
+  "slug": "corvus-trail-2020",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Abrantes",
+  "administrative_area_level_3": "Mouriscas",
+  "district_code": 14
+}

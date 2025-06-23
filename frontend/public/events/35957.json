@@ -1,0 +1,37 @@
+{
+  "id": 35957,
+  "name": "Povoação Trail 2025",
+  "location": "Povoação, Açores",
+  "coordinates": {
+    "lat": 37.7486524,
+    "lon": -25.2390903
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    9000,
+    15000,
+    30000,
+    50000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/99ae5d9ec5e0beae39880d764b7ee657"
+  ],
+  "start_date": "2025-03-09",
+  "end_date": "2025-03-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O “Povoação Trail” é um evento de Trail Running que percorre trilhos e caminhos no concelho da<br>Povoação, enquadrado nas vertentes de Trail Ultra (50 kms), Trail (30 kms), Trail Sprint (15 Kms) e<br>Caminhada (9 kms).</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos caminhos da Povoação em São Miguel, Açores",
+  "page": "https://stopandgo.net/events/povoacao-trail-2025",
+  "slug": "povoacao-trail-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Povoação",
+  "administrative_area_level_3": "Povoação",
+  "district_code": 20
+}

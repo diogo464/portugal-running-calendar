@@ -1,0 +1,33 @@
+{
+  "id": 17306,
+  "name": "Trail Caminhos do Diabo 2022",
+  "location": "Soure, Coimbra",
+  "coordinates": {
+    "lat": 40.0610524,
+    "lon": -8.6239203
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    16000,
+    27000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a5b2d8d55db56c6fbbf45f0e411d8657"
+  ],
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-07",
+  "circuit": [],
+  "description": "\n<p><br></p>\n\n\n\n<p>O Trail Caminhos do Diabo é uma prova que percorre trilhos e caminhos locais rurais e florestais na Freguesia de Samuel, Concelho de Soure.<br>O Trail Caminhos do Diabo está dividido em três provas: Trail Longo de 27 km, Trail Curto de 16 km e Caminhada 12 km.</p>\n",
+  "description_short": "Trail desafiante por trilhos rurais e florestais em Samuel, Soure",
+  "page": "https://stopandgo.net/event/?id=837",
+  "slug": "trail-caminhos-do-diabo-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Soure",
+  "administrative_area_level_3": "Soure",
+  "district_code": 6
+}

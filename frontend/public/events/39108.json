@@ -1,0 +1,38 @@
+{
+  "id": 39108,
+  "name": "Eco Meia Maratona do Lizandro 2025",
+  "location": "São João Das Lampas, Lisboa",
+  "coordinates": {
+    "lat": 38.8744196,
+    "lon": -9.3986994
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    12000,
+    15000,
+    21097,
+    21120,
+    120000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/1920314bd65dd49075067256440741c0"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "circuit": [],
+  "description": "\n<p>A 1ª Eco Meia Maratona do Lizandro será constituída por 2 provas de caracter competitivo e uma  caminhada de lazer:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Eco Meia Maratona ( 21,120 Kms )</li>\n\n\n\n<li>Mini Mini Maratona ( 12 Kms )</li>\n\n\n\n<li>Eco Caminhada ( 12 Kms )</li>\n</ul>\n\n\n\n<p></p>\n",
+  "description_short": "Primeira edição de evento desportivo sustentável na zona do Lizandro com meia maratona e caminhada ecológica",
+  "page": "https://www.trilhoperdido.com/evento/Eco-Meia-Maratona-do-Lizandro",
+  "slug": "eco-meia-maratona-do-lizandro-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

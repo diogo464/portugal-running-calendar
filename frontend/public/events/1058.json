@@ -1,0 +1,29 @@
+{
+  "id": 1058,
+  "name": "4º Trail Summer Challenge 2020",
+  "location": "Praia Foz do Lizandro, Ericeira",
+  "coordinates": {
+    "lat": 38.9681277,
+    "lon": -9.4073004
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5c0928ba1c714209ac8db40f181e0d8f"
+  ],
+  "start_date": "2020-06-21",
+  "end_date": "2020-06-22",
+  "circuit": [],
+  "description": "<p><strong>Regulamento:</strong><br />\nDownload do regulamento <a href=\"https://www.trilhoperdido.com/admin/upload/ficheiros/ficheirosMultimedia/Regulamento%204%C2%BAedi%C3%A7%C3%A3o%20Trail%20Summer%20Challenge%202020%20V2_JOds.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">AQUI</a></p>\n<p><strong>Data:</strong><br />\n21 de Junho de 2020</p>\n<p><strong>Fecho Inscrições:</strong><br />\n18 Junho 2020<strong> às 13h</strong></p>\n<p><strong>Limite de Inscrições:</strong><br />\n600 inscrições confirmadas (pagas)</p>\n<p><strong>Localidade:</strong><br />\nPraia Foz do Lizandro &#8211; Ericeira,</p>\n<p><strong>Organização:</strong><br />\nSports For All</p>\n",
+  "description_short": "Trail de verão à beira-mar na Ericeira com partida na Praia do Lizandro",
+  "page": "https://www.trilhoperdido.com/evento/4-Trail-Summer-Challenge",
+  "slug": "4o-trail-summer-challenge",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Ericeira",
+  "district_code": 11
+}

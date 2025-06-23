@@ -1,0 +1,33 @@
+{
+  "id": 36595,
+  "name": "Trail do Chícaro da Serra 2024",
+  "location": "Santa Catarina da Serra, Leiria",
+  "coordinates": {
+    "lat": 39.68149,
+    "lon": -8.686981099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    6000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/dd359ed6c6ed0bbd8b03a460eeba9d17"
+  ],
+  "start_date": "2024-11-16",
+  "end_date": "2024-11-16",
+  "circuit": [],
+  "description": "\n<p>O 7º “Trail d’O Chícharo da Serra”, está de volta, com o objetivo de promover a atividade de trail, caminhada e o território de Santa Catarina da Serra &#8211; Leiria.</p>\n\n\n\n<p>Este evento surge do desafio lançado a praticantes de trail da freguesia para criar um evento ligado à modalidade e integrar no Festival Gastronómico “Chícharo da Serra”, evento gastronómico e associativo que se realiza anualmente em Santa Catarina da Serra e Chainça. Após um interregno está de volta ao calendário dos praticantes de trail e conta com a organização dos SerranosRun Team/União Desportiva da Serra.</p>\n\n\n\n<p>Evento a realizar no dia 16 de novembro de 2024, em Santa Catarina da Serra (6 km de Fátima), concelho de Leiria, contando com o importante apoio da Câmara Municipal de Leiria, da União das Freguesias de Santa Catarina da Serra e Chainça e da Fprserra.</p>\n\n\n\n<p>A prova é constituída por três categorias competitivas designadas por Mini-Trail, Trail Curto e Trail Longo e por uma caminhada de carácter não competitivo.</p>\n\n\n",
+  "description_short": "Trail desafiante em Santa Catarina da Serra, integrado no Festival Gastronómico do Chícharo",
+  "page": "https://www.recordepessoal.pt/evento/7traildochicharodaserra",
+  "slug": "trail-do-chicaro-da-serra-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das freguesias de Santa Catarina da Serra e Chainça",
+  "district_code": 10
+}

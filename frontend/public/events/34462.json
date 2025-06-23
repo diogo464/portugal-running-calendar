@@ -1,0 +1,36 @@
+{
+  "id": 34462,
+  "name": "Meia Maratona Vila Real 2024",
+  "location": "Vila Real",
+  "coordinates": {
+    "lat": 41.3011532,
+    "lon": -7.7409832
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    5000,
+    7000,
+    21097,
+    97000
+  ],
+  "types": [
+    "run",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/1b444d74e283fe6c7b987bfb5f8bf50c"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "\n<p>A VII Meia Maratona de Vila Real está a cargo da Associação de Atletismo de Vila Real em coorganização com a Câmara Municipal de Vila Real, sendo promovida pela EXCELLUS, Unipessoal Lda.<br>Eventos:<br>&#8211; Meia Maratona<br>Distância de 21,097 km (distância oficial), para participantes com 18 anos ou mais à data.<br>&#8211; Mini Maratona<br>Distância de 7 km, para participantes com 18 anos ou mais à data.<br>&#8211; Caminhada<br>Distância de 5 km, destinada a todas as classes etárias e não tem fins competitivos.</p>\n\n\n\n<p><br></p>\n",
+  "description_short": "Meia maratona com tour por Vila Real, com opções de mini maratona e caminhada para todos os níveis",
+  "page": "http://events.portimer.pt/eventos/viimeiamaratonavilareal",
+  "slug": "meia-maratona-vila-real-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Real",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

@@ -1,0 +1,30 @@
+{
+  "id": 39071,
+  "name": "Trilhos do Castro de Santiago Sunset Edition 2025",
+  "location": "Figueiró da Granja, Guarda",
+  "coordinates": {
+    "lat": 40.6302212,
+    "lon": -7.4868283
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/76e10e87a102123a6f068c2fdbb7154c"
+  ],
+  "start_date": "2025-06-07",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p>O ”III TRILHOS DO CASTRO DE SANTIAGO &#8211; SUNSET EDITION” é um trail, organizado pela “AVCAT-Associação Vila Chã Aldeia Trail de Portugal” a realizar no dia 7 de junho de 2025, em Figueiró da Granja &#8211; Fornos de Algodres.<br>Este trail faz parte da 4ª edição do Circuito Municipal de Trail &#8211; Trilhos D`O Bom Sabor da Serra-VI(r)VER Fornos de Algodres e será a 4ª etapa.</p>\n\n\n",
+  "description_short": "Trail ao pôr-do-sol pelos trilhos históricos de Figueiró da Granja, integrado no Circuito Municipal de Trail da Serra",
+  "page": "https://acorrer.pt/eventos/3705/info",
+  "slug": "trilhos-do-castro-de-santiago-sunset-edition-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "Figueiró da Granja",
+  "district_code": 9
+}

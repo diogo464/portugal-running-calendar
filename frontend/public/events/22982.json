@@ -1,0 +1,31 @@
+{
+  "id": 22982,
+  "name": "ALUT &#8211; Algarviana Ultra Trail 2023",
+  "location": "Alcoutim, Faro",
+  "coordinates": {
+    "lat": 37.4689817,
+    "lon": -7.4735957
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/af0d20f9acb616016486e27d8f8f8df0"
+  ],
+  "start_date": "2023-11-30",
+  "end_date": "2023-12-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://stopandgo.net/events/alut-algarviana-ultra-trail-2023",
+  "slug": "alut-algarviana-ultra-trail-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Alcoutim",
+  "administrative_area_level_3": "União das freguesias de Alcoutim e Pereiro",
+  "district_code": 8
+}

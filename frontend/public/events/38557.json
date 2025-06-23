@@ -1,0 +1,30 @@
+{
+  "id": 38557,
+  "name": "Trail Winter Challenge &#8211; Vila Galé 2025",
+  "location": "Ericeira, Mafra",
+  "coordinates": {
+    "lat": 38.9681277,
+    "lon": -9.4073004
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/bc5d1388223d0a65cc20130ae2c63cb7"
+  ],
+  "start_date": "2025-12-14",
+  "end_date": "2025-12-14",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.trilhoperdido.com/evento/2-Trail-Winter-Challenge",
+  "slug": "trail-winter-challenge-vila-gale-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Ericeira",
+  "district_code": 11
+}

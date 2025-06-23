@@ -1,0 +1,29 @@
+{
+  "id": 14445,
+  "name": "Trilho Dos Cogumelos 2022",
+  "location": "Vidigueira Vidigueira, Beja",
+  "coordinates": {
+    "lat": 38.2118842,
+    "lon": -7.8005203
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/67046f4c4f683c8eb685a259a3fc17d6"
+  ],
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-14",
+  "circuit": [],
+  "description": "\n<p>Trilho Dos Cogumelos 2022</p>\n",
+  "description_short": "Trail de outono pela região montanhosa com temática micológica",
+  "page": "https://acorrer.pt/eventos/info/2884?fbclid=IwAR3i4bRMdrRfTsldJspcFzjHNUIgzBXK4xFhBNHORCkgKyvnljOAJItxqqo",
+  "slug": "trilho-dos-cogumelos-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Vidigueira",
+  "administrative_area_level_3": "Vidigueira",
+  "district_code": 2
+}

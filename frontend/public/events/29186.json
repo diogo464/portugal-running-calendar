@@ -1,0 +1,37 @@
+{
+  "id": 29186,
+  "name": "Grande Prémio de Atletismo A do Barbas 2023",
+  "location": "Maceira, Leiria",
+  "coordinates": {
+    "lat": 39.685696,
+    "lon": -8.8841275
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    5000,
+    8000,
+    10000,
+    10500
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/6f1ad5f1c4718ec003dd7d3fe84408e6"
+  ],
+  "start_date": "2023-12-08",
+  "end_date": "2023-12-09",
+  "circuit": [],
+  "description": "\n<p>A prova denominada Grande Prémio de Atletismo de A do Barbas, 32ª edição é organizada por o Centro Popular e Recreativo de A-do-Barbas, em coorganização da Associação Atletismo de Leiria, com o apoio da Câmara Municipal de Leiria e Junta de Freguesia de Maceira.</p>\n\n\n\n<p>Será realizado no dia 8 de dezembro de 2023 independentemente das condições climatéricas do dia desde que o organizador entenda que não há riscos acrescidos pelas mesmas para este tipo de evento.</p>\n\n\n\n<p>O local de partida e meta é junto ao Centro Popular e Recreativo de A-do-Barbas (onde funcionará o secretariado)</p>\n\n\n\n<p>O evento é composto por duas provas competitivas</p>\n\n\n\n<p>Corrida Principal – A corrida tem uma distância de ±10,5km e será de volta única;<br>Corrida Jovem – Provas de distâncias variáveis consoante os escalões;<br>Não competitivo – Caminhada Rota da Tufeira (9h)</p>\n\n\n\n<p>Em paralelo e não competitivo haverá uma caminhada com cerca de 8km, caminhada esta que será por caminhos e trilhos de A-do-Barbas (Tufeira e Marco Geodésico).</p>\n",
+  "description_short": "Corrida tradicional de atletismo na região de Leiria com prova principal e caminhada pela zona rural de A-do-Barbas",
+  "page": "https://www.recordepessoal.pt/evento/32grandepremiodeatletismoa-do-barbas",
+  "slug": "grande-premio-de-atletismo-a-do-barbas-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Maceira",
+  "district_code": 10
+}

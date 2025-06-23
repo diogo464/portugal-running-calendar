@@ -1,0 +1,33 @@
+{
+  "id": 31468,
+  "name": "Grande Prémio Atletismo Bajouca 2024",
+  "location": "Bajouca, Leiria",
+  "coordinates": {
+    "lat": 39.8896745,
+    "lon": -8.7756556
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/69a55ff1e8ebe2e01df17a6725dd7e21"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "\n<p><strong>O Departamento de Atletismo do Grupo Alegre e Unido – Bajouca,</strong>&nbsp;vai realizar no dia&nbsp;<strong>5 de Maio de 2024 o 32º Grande Prémio de Atletismo Bajouca &#8211; Medicis</strong>, com partida e meta no&nbsp;<strong>Largo da Feira dos 13 &#8211; Bajouca</strong>.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>A prova principal tem a distância de 10km, um traçado que percorre as ruas da freguesia (distância homologada pela FPA).</strong></li>\n\n\n\n<li>Há a prova aberta de 5 km para todos (com idade de Juniores/Seniores/Veteranos), sem prémios mas cronometrada e com classificação absoluta.</li>\n\n\n\n<li>Haverá um Prémio a anunciar para a equipa com mais atletas chegados à meta na prova principal/prova aberta (10 000 Distância Homologada FPA e 5 000m).</li>\n\n\n\n<li>Haverá a&nbsp;<strong>20ª Volta à Bajouca</strong>, com&nbsp;NOVO PERCURSO,&nbsp;maioritariamente na Natureza.</li>\n</ul>\n",
+  "description_short": "Corrida tradicional em Bajouca com percurso pela freguesia e novo traçado pela natureza",
+  "page": "https://www.recordepessoal.pt/evento/32grandepremioatletismobajouca",
+  "slug": "grande-premio-atletismo-bajouca-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Bajouca",
+  "district_code": 10
+}

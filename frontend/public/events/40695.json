@@ -1,0 +1,33 @@
+{
+  "id": 40695,
+  "name": "Grande Prémio de São João 2025",
+  "location": "Évora",
+  "coordinates": {
+    "lat": 38.571431,
+    "lon": -7.913501999999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/27ff9fe53b54ae18f50c7124fd57f13f"
+  ],
+  "start_date": "2025-06-21",
+  "end_date": "2025-06-22",
+  "circuit": [],
+  "description": "\n<p>O XLIII Grande Prémio de São João de Atletismo é uma organização da Câmara Municipal de Évora, com<br>o apoio técnico da Associação de Atletismo de Évora.</p>\n\n\n",
+  "description_short": "Corrida tradicional de atletismo no centro histórico de Évora, organizada pela autarquia local",
+  "page": "https://stopandgo.net/events/xliii-grande-premio-de-sao-joao",
+  "slug": "grande-premio-de-sao-joao-2025",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Évora",
+  "administrative_area_level_3": "Santo Antão",
+  "district_code": 7
+}

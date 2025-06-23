@@ -1,0 +1,32 @@
+{
+  "id": 36112,
+  "name": "Al Cor Race &amp; Fun Almeirim 2024",
+  "location": "Almeirim, Santarém",
+  "coordinates": {
+    "lat": 39.2075098,
+    "lon": -8.6270969
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    400,
+    2400
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/d1429f3da5dab65d9e2a137e16b6b7a0"
+  ],
+  "start_date": "2024-08-03",
+  "end_date": "2024-08-04",
+  "circuit": [],
+  "description": "\n<p>IX Edição da Al Cor Race &amp; Race &amp; Fun &#8211; Borrego Leonor &amp; Irmão, SA. circuito com cerca de 2 400 m, com obstáculos, muito pó colorido, muita animação e surpresas, até à meia noite.</p>\n\n\n",
+  "description_short": "Corrida colorida e animada com obstáculos ao estilo dos eventos de diversão à noite",
+  "page": "https://lap2go.com/pt/event/al-cor-race-fun-2024",
+  "slug": "al-cor-race-fun-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Almeirim",
+  "administrative_area_level_3": "Almeirim",
+  "district_code": 14
+}

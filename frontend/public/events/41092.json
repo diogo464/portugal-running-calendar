@@ -1,0 +1,32 @@
+{
+  "id": 41092,
+  "name": "Barquinha Night Run 2025",
+  "location": "Vila Nova da Barquinha, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/ec1d8bf0f027d66e830eb2abafa56ba8"
+  ],
+  "start_date": "2025-05-24",
+  "end_date": "2025-05-24",
+  "circuit": [],
+  "description": "\n<p><strong>Partida e chegada</strong> | Centro Cultural de Vila Nova da Barquinha, Largo 1.º Dezembro.</p>\n",
+  "description_short": "Corrida com início e término no Centro Cultural de Vila Nova da Barquinha",
+  "page": "https://xistarca.pt/eventos/barquinha-night-run-2025",
+  "slug": "barquinha-night-run-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

@@ -1,0 +1,35 @@
+{
+  "id": 34459,
+  "name": "Meia Maratona Cávado 2024",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/92a55d42ac16d7a538e08c0573619a69"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-20",
+  "circuit": [],
+  "description": "\n<p>Se juntarmos o rio, o mar e a zona rural, as tradições, a cultura e o artesanato, com uma população que está habituada, gosta e sabe receber, que é ativa em participar, conviver e bem viver, com o hábito de assistir e aplaudir eventos desportivos e culturais, é fácil constatar que estão reunidos todos os ingredientes para um grande evento de atletismo.<br>É esta a nova proposta dos Amigos da Montanha para 2024, num evento realizado em parceria com as autarquias de Barcelos e Esposende.</p>\n\n\n\n<p>&#8220;O rio que nos une&#8221; será o ponto de partida para este um evento que trará aos atletas um novo desafio a ligar as duas cidades no dia 19 de maio. O evento terá duas provas, a meia e mini maratona e, ainda, uma caminhada não competitiva.</p>\n\n\n",
+  "description_short": "Corrida que liga Barcelos a Esposende, unindo rio, mar e tradições locais",
+  "page": "https://www.sinctime.com/evento/227",
+  "slug": "meia-maratona-cavado-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

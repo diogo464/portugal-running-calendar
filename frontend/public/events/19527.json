@@ -1,0 +1,37 @@
+{
+  "id": 19527,
+  "name": "Iron Trail 2023",
+  "location": "Almargem do Bispo, Sintra",
+  "coordinates": {
+    "lat": 38.8484282,
+    "lon": -9.2694885
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    15000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7fac7d69d451d01b6aba6cf1b9f8491d"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Iron Trail é um evento desportivo de caráter lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de trail running, mas também as localidades onde decorre o evento. É um evento organizado pela Associação Desportiva Trilhos do Costume com o apoio da Sociedade Recreativa “OS Bem-Entendidos” de Albogas, localidade que faz parte da Freguesia de Almargem do Bispo, integrando duas provas competitivas e caminhada:<br>✓ Trail de 28 km (aproximadamente);<br>✓ Trail Curto de 15 km (aproximadamente);<br>✓ Caminhada de 10km (aproximadamente).</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Almargem do Bispo com apoio local e provas para diferentes níveis de atletas",
+  "page": "https://www.trilhoperdido.com/evento/iron-trail-2023",
+  "slug": "iron-trail-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+  "district_code": 11
+}

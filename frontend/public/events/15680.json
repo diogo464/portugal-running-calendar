@@ -1,0 +1,34 @@
+{
+  "id": 15680,
+  "name": "Meia Maratona da Nazaré 2022",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/8c92276d2f7a456ee7de783bf7571de0"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>A &#8220;mãe das meias&#8221; vai voltar à estrada no dia 13 de novembro de 2022, numa organização conjunta da Meia Maratona da Nazaré &#8211; Associação de Cultura e Desporto e do Clube de Atletismo da Nazaré.<br>Contamos convosco!</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona tradicional pela vila piscatória da Nazaré",
+  "page": "https://lap2go.com/pt/event/mm-nazare-2022",
+  "slug": "meia-maratona-da-nazare-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

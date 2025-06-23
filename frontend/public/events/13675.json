@@ -1,0 +1,32 @@
+{
+  "id": 13675,
+  "name": "Corrida Do Adepto 2022",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/1160e1d95b129b3ce59573ff4142e516"
+  ],
+  "start_date": "2022-01-29",
+  "end_date": "2022-01-30",
+  "circuit": [],
+  "description": "\n<p><strong>A Corrida Do Adepto 2022</strong> é um evento desportivo organizado pela <strong>Fundação do Futebol &#8211;</strong> <strong>Liga Portugal</strong>, com o apoio da Câmara Municipal de Leiria, do Instituto Português do Desporto e da Juventude e do Ministério de Educação. A organização técnica é da responsabilidade da empresa HMS Sports.</p>\n",
+  "description_short": "Corrida de solidariedade em Leiria com apoio institucional e organização desportiva",
+  "page": "https://corridadoadepto.ligaportugal.pt/pt/home",
+  "slug": "corrida-do-adepto-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

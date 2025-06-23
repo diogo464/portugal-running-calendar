@@ -1,0 +1,38 @@
+{
+  "id": 288,
+  "name": "São Silvestre de Almada",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    200,
+    300,
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "run",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/690c4df0b10b2d70e3005d16814cc60c"
+  ],
+  "start_date": "2019-12-14",
+  "end_date": "2019-12-15",
+  "circuit": [],
+  "description": "<p style=\"font-weight: 400;\">O Clube de Atletismo Amigos do Parque da Paz, e a Associação Desportiva O Mundo da Corrida, com o apoio da Câmara Municipal de Almada, vai realizar no próximo dia 14 de Dezembro de 2019, pelas 18:30 horas, uma corrida de 10 km, denominada &#8220;SÃO SILVESTRE DE ALMADA&#8221;.</p>\n<p style=\"font-weight: 400;\">Nesta edição haverá uma caminhada de cerca de 5 km.</p>\n<p style=\"font-weight: 400;\">Pela primeira vez a prova será aberta a Bambis de 5 a 6 anos que percorrem um percurso de 200 metros e a Benjamins A e B de 7 a 11 anos que percorrem um percurso de 300 metros.</p>\n",
+  "description_short": "São Silvestre noturna de Almada com corrida para todas as idades",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/72/",
+  "slug": "sao-silvestre-de-almada",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

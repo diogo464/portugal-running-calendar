@@ -1,0 +1,34 @@
+{
+  "id": 41336,
+  "name": "Corrida entre Nabos e Nabais 2025",
+  "location": "Carapelhos, Mira",
+  "coordinates": {
+    "lat": 40.4400187,
+    "lon": -8.6902986
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    6000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a5308d6f7c52adaa013fc04a0f2223e2"
+  ],
+  "start_date": "2025-05-17",
+  "end_date": "2025-05-17",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;9ª Corrida Entre Nabos e Nabais&nbsp;será realizada no dia&nbsp;17 de Maio de 2025, na Freguesia de Carapelhos.&nbsp;Esta será a sequência de uma prova que teve a estreia em 2015 e que este ano procura crescer e alcançar mais de uma centena de participantes.</p>\n\n\n\n<p>É uma prova que vai percorrer trilhos e caminhos em locais rurais e florestais, sendo organizada pela Associação Cultural, Recreativa e Desportiva Os Unidos em parceria com a Confraria Nabos e Companhia e Junta de Freguesia de Carapelhos e apoio de entidades locais.&nbsp;</p>\n\n\n\n<p>Este evento será então composto por um Mini Trail com cerca de 12 kms e por uma Caminhada de 6 kms.</p>\n",
+  "description_short": "Trail rural pelos trilhos de Carapelhos com homenagem local aos nabos",
+  "page": "https://meutempo.pt/prova?entrenabosenabais",
+  "slug": "corrida-entre-nabos-e-nabais-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Mira",
+  "administrative_area_level_3": "Carapelhos",
+  "district_code": 6
+}

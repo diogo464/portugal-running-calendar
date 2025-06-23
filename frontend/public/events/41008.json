@@ -1,0 +1,33 @@
+{
+  "id": 41008,
+  "name": "Epic Sana Algarve 2025",
+  "location": "Praia da Falésia, Albufeira",
+  "coordinates": {
+    "lat": 37.0890719,
+    "lon": -8.2478796
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/d00004d4055a5c76f0afeda57b261bb5"
+  ],
+  "start_date": "2025-03-30",
+  "end_date": "2025-03-30",
+  "circuit": [],
+  "description": "\n<p>Numa co-organizacao da Free Challenge, EPIC SANA Algarve, realiza-se no dia 30 de Margo de 2025, a EPIC SANA Beach Run. Com inicio agendado para as 10h00 horas, com partida na Praia da Falésia e chegada no EPIC SANA Algarve, nas distancias de 5 e 10kms.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida costeira pela Praia da Falésia com chegada no hotel EPIC SANA Algarve",
+  "page": "https://www.crono.aaalgarve.org/eventos/epic-sana-algarve-2025",
+  "slug": "epic-sana-algarve-2025",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Albufeira",
+  "administrative_area_level_3": "Albufeira",
+  "district_code": 8
+}

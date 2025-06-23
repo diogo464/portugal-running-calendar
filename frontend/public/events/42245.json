@@ -1,0 +1,33 @@
+{
+  "id": 42245,
+  "name": "Trail do Míscaro 2025",
+  "location": "Aguiar da Beira, Guarda",
+  "coordinates": {
+    "lat": 40.816453,
+    "lon": -7.5454104
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    11000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2025-11-16",
+  "end_date": "2025-11-17",
+  "circuit": [],
+  "description": "\n<p>Caminhada/Mini Trail 11K | Trail Curto 15K | Trail Longo 25K</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail com três distâncias num percurso pelos trilhos da região",
+  "page": null,
+  "slug": "trail-do-miscaro-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Aguiar da Beira",
+  "administrative_area_level_3": "União das freguesias de Aguiar da Beira e Coruche",
+  "district_code": 9
+}

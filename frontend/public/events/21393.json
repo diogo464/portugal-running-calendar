@@ -1,0 +1,36 @@
+{
+  "id": 21393,
+  "name": "Coronado Trail 2023",
+  "location": "Trofa, Porto",
+  "coordinates": {
+    "lat": 41.3125528,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    7500,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fce6535b131c84f8ab03307a52a55136"
+  ],
+  "start_date": "2023-04-02",
+  "end_date": "2023-04-03",
+  "circuit": [],
+  "description": "\n<p>O Coronado Trail é constituído por 2 provas e 1 caminhada.<br>Trail longo-25km<br>Trail Curto-15km<br>Caminhada – 7.5km<br></p>\n\n\n\n<p>As provas de trail que constituem o Coronado Trail decorrerão no dia 02 de Abril de 2023, com partida e<br>chegada no Largo de Mendões ( coordenadas GPS Lat: 41.291695, Lon: -8.574357), percorrendo caminhos e<br>trilhos do concelho da Trofa.<br>A caminhada terá início em Covelas, na capela de São Gonçalo ( coordenadas GPS Lat: 41.298142, Lon:-<br>8.535177) terminando no Largo de Mendões.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos e trilhos do município da Trofa com partida e chegada em Mendões",
+  "page": "https://stopandgo.net/event/?id=951",
+  "slug": "coronado-trail-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Trofa",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

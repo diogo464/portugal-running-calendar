@@ -1,0 +1,35 @@
+{
+  "id": 42482,
+  "name": "Mangualde Trail &#8211; Desafio dos Santos 2025",
+  "location": "Mangualde, Viseu",
+  "coordinates": {
+    "lat": 40.604979,
+    "lon": -7.762452099999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fa42dc0ff4dd972ec3b2f801990beaf5"
+  ],
+  "start_date": "2025-10-26",
+  "end_date": "2025-10-26",
+  "circuit": [],
+  "description": "\n<p>O evento tem como objetivo a promoção da prática de atividade física e turismo activo no concelho de Mangualde. O evento é composto por três percursos, em quatro tipologias de prova, sendo elas:</p>\n\n\n\n<p><br>Trail Longo de 25 km;<br>Trail Curto 15 km;<br>Mini-Trail 8 Km;<br>Caminhada 8 km;</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela região de Mangualde com opções para diferentes níveis de participantes",
+  "page": "https://acorrer.pt/eventos/3884/info",
+  "slug": "mangualde-trail-desafio-dos-santos-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Mangualde",
+  "administrative_area_level_3": "União das freguesias de Mangualde, Mesquitela e Cunha Alta",
+  "district_code": 18
+}

@@ -1,0 +1,30 @@
+{
+  "id": 4989,
+  "name": "CROSS e TRAIL CPR. A-DO-BARBAS 2021",
+  "location": "Maceira, Leiria",
+  "coordinates": {
+    "lat": 39.685696,
+    "lon": -8.8841275
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/2da029747276df35ab75be0eb0359b97"
+  ],
+  "start_date": "2021-10-10",
+  "end_date": "2021-10-11",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://www.recordepessoal.pt/resultados?class=2246\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>O&nbsp;<strong>Centro Popular e Recreativo de A-do-Barbas</strong>&nbsp;em&nbsp;<strong>co-organização da ADAL</strong>, com o apoio da&nbsp;<strong>Câmara Municipal de Leiria e Junta de Freguesia de Maceira</strong>, organiza no dia&nbsp;<strong>10 de outubro de 2021&nbsp;</strong>a<strong>&nbsp;5ª Edição do Cross/Trail CPR. A-do-Barbas</strong>&nbsp;2021 – Campeonato Distrital de Traill Longo ADAL, que consiste numa prova de Trail, na localidade de A-do-Barbas com partida e chegada junto à sede do Centro Popular e Recreativo de A-do-Barbas.</p>\n\n\n\n<p>A prova é constituída no seu percurso por trilhos, carreiros e caminhos com pouco desnível, no entanto e estando o tempo húmido se podem tornar escorregadios, essencialmente onde o piso é pedra. Por tal a organização aconselha a máxima prudência aos participantes. O percurso alia beleza, técnica conciliado com alguma dureza. Dado o carácter da prova, a organização limita o número de atletas, de acordo com as normas da DGS, à data do evento e à logística disponível</p>\n",
+  "description_short": "Trail técnico e desafiante nos arredores de Leiria, com passagem por A-do-Barbas em ambiente rural",
+  "page": "https://www.recordepessoal.pt/evento/5crosstraila-do-barbas",
+  "slug": "cross-trail-cpr-a-do-barbas-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Maceira",
+  "district_code": 10
+}

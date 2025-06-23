@@ -1,0 +1,33 @@
+{
+  "id": 38770,
+  "name": "Grande Prémio dos Reis 2025",
+  "location": "Matosinhos, Porto",
+  "coordinates": {
+    "lat": 41.182863,
+    "lon": -8.688951
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/8d1be9eb6ba03baf74b84fb254897984"
+  ],
+  "start_date": "2025-01-11",
+  "end_date": "2025-01-12",
+  "circuit": [],
+  "description": "\n<p>Prova de estrada, incluída no Plano de Atividades dos Grupos/Equipa (G/E) de Atletismo e Desporto Adaptado da CLDE – Porto numa coorganização com a ANDDI e APPACDM – Matosinhos e Câmara de Matosinhos.</p>\n\n\n",
+  "description_short": "Corrida inclusiva de atletismo adaptado organizada pela autarquia de Matosinhos",
+  "page": "https://www.queroir.pt/31-grande-premio-dos-reis",
+  "slug": "grande-premio-dos-reis-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das Freguesias de Matosinhos e Leça da Palmeira",
+  "district_code": 13
+}

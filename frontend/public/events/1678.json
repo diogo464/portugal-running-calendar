@@ -1,0 +1,32 @@
+{
+  "id": 1678,
+  "name": "7ª Corrida Porto de Leixões 2020",
+  "location": "Porto de Leixões,",
+  "coordinates": {
+    "lat": 41.1827778,
+    "lon": -8.703055599999999
+  },
+  "country": "Portugal",
+  "locality": "Porto de Leixões",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/a31b88dffbbcd6495d708a37d6968826"
+  ],
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-14",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://7corridaportodeleixoes.eventsport.net/",
+  "slug": "7a-corrida-porto-de-leixoes-2020",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

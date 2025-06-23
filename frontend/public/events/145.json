@@ -1,0 +1,30 @@
+{
+  "id": 145,
+  "name": "Trilhos Nocturnos dos Templários",
+  "location": "Tomar, Santarém",
+  "coordinates": {
+    "lat": 39.6053819,
+    "lon": -8.4043125
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f599f399dee093c0e1b21e143a457b1b"
+  ],
+  "start_date": "2020-01-04",
+  "end_date": "2020-01-05",
+  "circuit": [],
+  "description": "<h5 align=\"justify\"></h5>\n<h5 align=\"justify\"><span style=\"color: #ff0000;\"><strong><a style=\"color: #ff0000;\" href=\"https://www.prozis.com/pt/pt/evento/vii-trilhos-noturnos-dos-templarios/q/subpage/results?ctr_FREE_TEXT=&amp;ctr_competition=0&amp;ctr_athleteLevel=0\" target=\"_blank\" rel=\"noopener\">RESULTADOS</a></strong></span></h5>\n<p align=\"justify\">Estamos de volta para mais uma edição da MELHOR prova de TRILHOS NOTURNOS de PORTUGAL.</p>\n<p align=\"justify\">Na sequência do sucesso obtido nos VI Trilhos Noturnos dos Templários em 2019, em que tivemos 520 atletas e caminheiros inscritos, a equipa Trilhos dos Templários da A.C.R. de Santa Cita vai realizar, no próximo dia 4 de janeiro de 2020, os &#8220;VII TRILHOS NOTURNOS DOS TEMPLÁRIOS&#8221;. Este ano, o evento é constituído pelos Trilhos, Mini-trilhos, ambos de carácter competitivo, e por uma caminhada de andamento livre.</p>\n<p align=\"justify\">Os percursos serão em trilhos e estradões de terra batida e muito pouco alcatrão.</p>\n<p align=\"justify\">Teremos trilhos balizados com velas, tochas, fogo de artifício, etc….</p>\n",
+  "description_short": "Trail nocturno com ambiente mágico pelos trilhos dos Templários em Santa Cita",
+  "page": "https://www.prozis.com/pt/pt/evento/vii-trilhos-noturnos-dos-templarios?utm_source=&utm_medium=&utm_content=home&utm_campaign=",
+  "slug": "trilhos-nocturnos-dos-templarios",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

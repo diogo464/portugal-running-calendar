@@ -1,0 +1,34 @@
+{
+  "id": 42296,
+  "name": "Trail Os Lobos 2025",
+  "location": "Graça do Divor, Évora",
+  "coordinates": {
+    "lat": 38.654616,
+    "lon": -7.981172099999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/805495317eb4db5caaa523dc10e3f5f9"
+  ],
+  "start_date": "2025-09-27",
+  "end_date": "2025-09-27",
+  "circuit": [],
+  "description": "\n<p>A prova realiza-se no dia 27 de Setembro 2025, com partida e chegada no campo de futebol da Graça do Divor.</p>\n\n\n\n<p></p>\n\n\n\n<p>TRAIL – 15 KM<br>CAMINHADA – 10 KM</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail pela região rural da Graça do Divor com partida e chegada no campo de futebol local",
+  "page": "https://acorrer.pt/eventos/3923/info",
+  "slug": "trail-os-lobos-2025",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Évora",
+  "administrative_area_level_3": "Nossa Senhora da Graça do Divor",
+  "district_code": 7
+}

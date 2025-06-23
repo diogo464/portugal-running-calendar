@@ -1,0 +1,39 @@
+{
+  "id": 30695,
+  "name": "AXTrail 2024",
+  "location": "Lousã, Coimbra",
+  "coordinates": {
+    "lat": 40.1125621,
+    "lon": -8.2468738
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    14000,
+    24000,
+    55000,
+    110000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6aa00b0ee3c9250438bf5275dac62bc9"
+  ],
+  "start_date": "2024-10-18",
+  "end_date": "2024-10-19",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>No âmbito do AXtrail®series 2024, realizar-se-á nos dias 18, 19 e 20 de Outubro de 2024, a décima primeira edição do AXtrail / sétima edição do UTAX (Ultra Trail das Aldeias do Xisto).</p>\n\n\n\n<h2 class=\"wp-block-heading\">Provas</h2>\n\n\n\n<p>O programa inclui 4 provas de carácter competitivo (UTAX, TSL, TX e MTX &#8211; prova de iniciação ao Trail), 1 caminhada, 2 eventos de carácter social (AXtrail Kids e AXtrail da Inclusão).</p>\n\n\n\n<p>UTAX (110 km) | Partida sexta 18 de Outubro | 350 participantes<br>TSL (55 km) | Partida sábado 19 de Outubro | 400 participantes<br>Trail do Xisto (24 km) | Partida domingo 20 de Outubro | 550 participantes<br>Caminho do Xisto (14 km) | Partida domingo 20 de Outubro | 100 participantes<br>Mini Trail do Xisto (14 km) | Partida domingo 20 de Outubro | 300 participantes<br>AXtrail Kids | Partida domingo 20 de Outubro | 200 participantes<br>AXtrail da Inclusão | Partida domingo 20 de Outubro</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail pelas Aldeias do Xisto com quatro provas competitivas e eventos sociais em Outubro de 2024",
+  "page": "https://stopandgo.net/events/axtrail2024",
+  "slug": "axtrail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Lousã",
+  "administrative_area_level_3": "União das freguesias de Lousã e Vilarinho",
+  "district_code": 6
+}

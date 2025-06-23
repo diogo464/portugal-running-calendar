@@ -1,0 +1,30 @@
+{
+  "id": 36663,
+  "name": "Juntos pela Solidariedade 2024",
+  "location": "Santo António dos Cavaleiros, Lisboa",
+  "coordinates": {
+    "lat": 38.8134044,
+    "lon": -9.166081
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/b5ac480cb4e19dd12ce68fd8156b1ec3"
+  ],
+  "start_date": "2024-08-24",
+  "end_date": "2024-08-24",
+  "circuit": [],
+  "description": "\n<p>Junta-te a nós, no próximo dia 24&nbsp;de Agosto pelas 21h30, a Junta de Freguesia de Santo António dos Cavaleiros e Frielas juntamente com&nbsp;o Grupo Desportivo de São Domingos e o Correr Loures irão realizar a Corrida / Caminhada Noturna Solidária &#8220;Juntos pela Solidariedade&#8221;.</p>\n\n\n\n<p>Com o apoio da Câmara Municipal de Loures e o Gimnofrielas.</p>\n\n\n\n<p>E com o patrocínio do Intermarchê de Santo António dos Cavaleiros.</p>\n\n\n\n<p><strong>Inscrições de benfeitoria para a Atleta &#8220;Maria Mendes&#8221; e para a CREACIL.</strong></p>\n\n\n",
+  "description_short": "Corrida solidária nocturna em Santo António dos Cavaleiros com apoio municipal e objetivo beneficente",
+  "page": "https://werun.pt/eventos/juntos-pela-solidariedade/",
+  "slug": "juntos-pela-solidariedade-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "União das freguesias de Santo António dos Cavaleiros e Frielas",
+  "district_code": 11
+}

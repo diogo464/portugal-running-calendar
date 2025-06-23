@@ -1,0 +1,33 @@
+{
+  "id": 801,
+  "name": "Cascais Trail Experience 2020",
+  "location": "Cascais, Lisboa",
+  "coordinates": {
+    "lat": 38.6960614,
+    "lon": -9.430364599999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    30000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2ce9c7b45814a985c482fc5ea34e2d0e"
+  ],
+  "start_date": "2020-05-03",
+  "end_date": "2020-05-04",
+  "circuit": [],
+  "description": "<p>A Werun com o apoio da Câmara Municipal de Cascais irá realizar no próximo dia 03/05/2020 o 4º Cascais Trail Experience.</p>\n<p>Corrida pedestre em Natureza, com três provas &#8211; Trail Longo (TL) K30+, Trail Curto (TC) K10+ e Caminhada.</p>\n<p>&nbsp;</p>\n<p><strong>Programa / Horário</strong><br />\n09h15 &#8211; &#8220;Controlo Zero&#8221; K30+<br />\n09h30 &#8211; Partida K30+<br />\n10h00 &#8211; Partida K10+<br />\n10h02 &#8211; Partida Caminhada<br />\n11h00- Previsão de chegada dos primeiros atletas K10+<br />\n11h30 &#8211; Previsão de chegada dos primeiros atletas K30+<br />\n13h00 &#8211; Entrega prevista dos troféus</p>\n",
+  "description_short": "Trail técnico pela natureza de Cascais com três provas de diferentes distâncias",
+  "page": "https://werun.pt/eventos/4-cascais-trail-experience/",
+  "slug": "cascais-trail-experience",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "União das freguesias de Cascais e Estoril",
+  "district_code": 11
+}

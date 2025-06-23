@@ -1,0 +1,34 @@
+{
+  "id": 38605,
+  "name": "LAP50 Ultra Trail 2025",
+  "location": "Vila Nova de Famalicão, Braga Porto",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    50000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/233354bae17c38e6e9727755ca7a35f3"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Tudo começou com os 50 anos do Rotary Club de Famalicão!</p>\n\n\n\n<p>Como forma de celebrar os 50 anos do Rotary, nasceu a ideia de realizar uma prova de trail running no concelho de Vila Nova de Famalicão, que tivesse precisamente a distância de 50km.</p>\n\n\n\n<p>A prova desenrola-se unindo freguesias e concelhos de Famalicão e Guimarães, percorrendo locais de elevada beleza e interesse histórico.</p>\n\n\n",
+  "description_short": "Trail solidário de 50 km a celebrar o aniversário do Rotary Club de Famalicão, unindo concelhos e paisagens históricas",
+  "page": "https://www.sinctime.com/evento/308",
+  "slug": "lap50-ultra-trail-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

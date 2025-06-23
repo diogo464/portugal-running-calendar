@@ -1,0 +1,29 @@
+{
+  "id": 14795,
+  "name": "Trail De Santo António 2022",
+  "location": "Vila Nova da Barquinha Barquinha, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d0cd8e26aab925df386ffc5731f44161"
+  ],
+  "start_date": "2022-06-12",
+  "end_date": "2022-06-13",
+  "circuit": [],
+  "description": "\n<p><em>Grupo Cicloturismo Barquinhense com apoio da Câmara Municipal de Vila Nova da Barquinha, organiza e promove o Trail de Santo António em Vila Nova da Barquinha. O Trail De Santo António 2022 em Vila Nova da Barquinha tem como objetivo fomentar o desporto (a correr ou a andar), permitindo aos participantes a descoberta das suas lindas e bonitas paisagens ribeirinhas junto do Rio Tejo (Trilho Panorâmico do Tejo inaugurado recentemente), tendo como slogan &#8220;AMANHECER NO CASTELO DE ALMOUROL&#8221;, ex-líbris do concelho.</em></p>\n",
+  "description_short": "Trail panorâmico ao amanhecer junto ao Castelo de Almourol, com paisagens ribeirinhas do Rio Tejo",
+  "page": "https://www.trilhoperdido.com/evento/Trail-de-Santo-Antonio",
+  "slug": "trail-de-santo-antonio-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

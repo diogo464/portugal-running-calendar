@@ -1,0 +1,31 @@
+{
+  "id": 39022,
+  "name": "Lisboa Green Trail 2025",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/1fec92be83fb551540f77d94c69c35a6"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>O Parque florestal de Monsanto prepara-se para receber a VIII edição do Lisboa Green Trail com as habituais provas, TL e TC, não esquecendo a caminhada e a&nbsp; Caorrida. Com partida do ISCSP-ULisboa&nbsp; ISCSP, vamos dar-te a conhecer os trilhos mais sinuosos e as vistas soberbas sobre o Rio Tejo!</p>\n\n\n\n<p>Esta é uma organização Associação Walk and Run em parceria com ISCSP e com o apoio da Junta de Freguesia da Ajuda e do Município de Lisboa.&nbsp;</p>\n",
+  "description_short": "Trail urbano por Monsanto com vistas panorâmicas sobre o Tejo",
+  "page": "https://werun.pt/eventos/viii-lisboa-green-trail/",
+  "slug": "lisboa-green-trail-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

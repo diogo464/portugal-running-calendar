@@ -1,0 +1,34 @@
+{
+  "id": 34703,
+  "name": "Ultra Maratona Atlântica Melides Tróia 2024",
+  "location": "Melides - Tróia",
+  "coordinates": {
+    "lat": 38.147037,
+    "lon": -8.7291925
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    42195,
+    43000
+  ],
+  "types": [
+    "marathon",
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/b678aa54c313b05d016532cab4d76e17"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-08",
+  "circuit": [],
+  "description": "\n<p>A ULTRA MARATONA ATLÂNTICA MELIDES &#8211; TRÓIA é uma organização do Município de Grândola e vai decorrer a 19ª edição, no dia 7 de julho de 2024, na costa atlântica do concelho de Grândola.<br><br>* A Ultra Maratona Atlântica Melides &#8211; Tróia, é uma Corrida de Aventura toda ela percorrida na areia da praia, numa extensão aproximada de 43 km, com início na Praia de Melides e final na Praia do Bico das Lulas, em Tróia<em>.</em></p>\n\n\n\n<p>43 KM</p>\n",
+  "description_short": "Ultra maratona desafiante totalmente realizada na areia das praias entre Melides e Tróia",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/137231-ultra_maratona_atlantica_melides_troia_2024-troia_grandola/",
+  "slug": "ultra-maratona-atlantica-melides-troia-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "Melides",
+  "district_code": 15
+}

@@ -1,0 +1,34 @@
+{
+  "id": 35246,
+  "name": "Meia Maratona Castro Marim 2024",
+  "location": "Castro Marim, Faro",
+  "coordinates": {
+    "lat": 37.2179422,
+    "lon": -7.4423339
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/73a190e4a63c18a683ce75f93f8f6780"
+  ],
+  "start_date": "2024-09-07",
+  "end_date": "2024-09-08",
+  "circuit": [],
+  "description": "\n<p>O CLUBE RECREATIVO ALTURENSE vai levar a efeito no dia 7 de stemebro de 2024 a 15ª Meia Maratona do Concelho de Castro Marim.</p>\n",
+  "description_short": "Meia maratona anual no Algarve a cargo do Clube Recreativo Alturense em Castro Marim",
+  "page": "https://www.crono.aaalgarve.org/eventos/15-meia-maratona-do-concelho-de-castro-marim",
+  "slug": "meia-maratona-castro-marim-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Castro Marim",
+  "administrative_area_level_3": "Castro Marim",
+  "district_code": 8
+}

@@ -1,0 +1,31 @@
+{
+  "id": 21701,
+  "name": "Vila Chã Corrida de Montanha 2023",
+  "location": "Vila Chã-Fornos de Algodres, Guarda",
+  "coordinates": {
+    "lat": 40.6635605,
+    "lon": -7.4787104
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/9b632c8b19a587d9e7d52f27d3973f48"
+  ],
+  "start_date": "2023-08-12",
+  "end_date": "2023-08-13",
+  "circuit": [],
+  "description": "\n<p>O “VILA CHÃ CORRIDA DE MONTANHA” é uma corrida de montanha, organizada pela<br>“AVCAT-Associação Vila Chã Aldeia Trail de Portugal”, a realizar no dia 12 de agosto, em Vila<br>Chã-Fornos de Algodres.<br>Este trail faz parte do Circuito Municipal de Corrida de Montanha-Trilhos D`O Bom Sabor da<br>Serra-VI(r)VER Fornos de Algodres e será a 5ª etapa.</p>\n\n\n\n<p>O ”VILA CHÃ CORRIDA DE MONTANHA” é uma prova de corrida de montanha, constituída<br>por um Trail Longo, um Trail Curto e uma caminhada, realizados predominantemente em trilhos,<br>caminhos rurais, vias de terra batida circundantes à aldeia de Vila Chã e aldeias adjacentes.</p>\n",
+  "description_short": "Trail de montanha em Vila Chã com percursos por trilhos e caminhos rurais nas aldeias de Fornos de Algodres",
+  "page": "https://acorrer.pt/eventos/info/3084",
+  "slug": "vila-cha-corrida-de-montanha-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "União das Freguesias de Cortiçô e Vila Chã",
+  "district_code": 9
+}

@@ -1,0 +1,36 @@
+{
+  "id": 309,
+  "name": "São Silvestre Trilhos da Marateca",
+  "location": "Marateca Marateca, Setúbal",
+  "coordinates": {
+    "lat": 38.5796755,
+    "lon": -8.6778791
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    8000,
+    10000,
+    15000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/9e0726516bf138a869f46ed49ccb5bfa"
+  ],
+  "start_date": "2019-12-22",
+  "end_date": "2019-12-23",
+  "circuit": [],
+  "description": "<p>DATA / HORA / LOCAL</p>\n<p>22 Dezembro – Marateca –  09:30 horas</p>\n<p>DISTÂNCIA E PERCURSO</p>\n<p>Existirá nesta data uma corrida na extensão de 15km e uma Caminhada na extensão de 8km com início das atividades pelas 09:30Horas, com um tempo máximo de 2 horas de duração.</p>\n",
+  "description_short": "Corrida tradicional de fim de ano pela zona rural da Marateca",
+  "page": "https://werun.pt/eventos/sao-silvestre-trilhos-da-marateca/",
+  "slug": "sao-silvestre-trilhos-da-marateca",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Palmela",
+  "administrative_area_level_3": "União das freguesias de Poceirão e Marateca",
+  "district_code": 15
+}

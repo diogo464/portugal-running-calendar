@@ -1,0 +1,32 @@
+{
+  "id": 5523,
+  "name": "Corrida Nacional dos Professores 2021",
+  "location": "Praça do Império (Belém), Lisboa",
+  "coordinates": {
+    "lat": 38.6971694,
+    "lon": -9.2063788
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/865f8a8ef9c3dc413dc432b21f845682"
+  ],
+  "start_date": "2021-10-23",
+  "end_date": "2021-10-24",
+  "circuit": [],
+  "description": "\n<h4 class=\"wp-block-heading\"><strong>Já se pode inscrever para a 3ª Corrida Nacional dos Professores!</strong></h4>\n\n\n\n<p>A corrida é só no dia&nbsp;<strong>23 de outubro</strong>, às&nbsp;<strong>16 horas</strong>, mas a&nbsp;<strong>inscrição é até dia 17</strong>!</p>\n\n\n\n<p>A partida é em Belém (Lisboa) frente ao CCB. A chegada também. Quanto aos quilómetros percorridos, isso depende do estofo de cada um. Importante é mesmo participar!</p>\n",
+  "description_short": "Corrida nacional dos professores em Lisboa, com partida e chegada junto ao CCB em Belém",
+  "page": "https://corridafenprof.sports4all.pt/",
+  "slug": "corrida-nacional-dos-professores-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

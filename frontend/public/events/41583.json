@@ -1,0 +1,35 @@
+{
+  "id": 41583,
+  "name": "Corrida Solidária ISCPSI 2025",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    3500,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/0e5279b979308c5db1902c1a0b66cd26"
+  ],
+  "start_date": "2025-05-01",
+  "end_date": "2025-05-01",
+  "circuit": [],
+  "description": "\n<p>O ISCPSI desenvolve várias ações de cariz solidário, decorrentes de causas sociais e da angariação de fundos para instituições de solidariedade social, com o apoio dos seus parceiros.</p>\n\n\n\n<p>O principal objetivo da 1.ª Corrida Solidária ISCPSI é angariar receitas que revertem para a Associação Acreditar &#8211; Associação de Pais e Amigos de Crianças com Cancro.</p>\n\n\n\n<p>Data: 3 de maio</p>\n\n\n\n<p>Hora: 10h30</p>\n\n\n\n<p>Local de partida: ISCPSI, Alcântara</p>\n\n\n\n<p>Local de chegada: Praça do Império, Belém</p>\n\n\n\n<p>A inscrição pode ser efetuada para:</p>\n\n\n\n<p>Percurso de Corrida: 10K</p>\n\n\n\n<p>Caminhada &#8211; Marcha dos Amigos: 3.5K</p>\n\n\n\n<p>O kit atribuído a cada participante é composto por uma t-shirt técnica unissexo, dorsal, garrafa de água e chip (este último apenas para quem efetua a inscrição no percurso de corrida de 10km).</p>\n\n\n\n<p>Valor de inscrição: 7€</p>\n\n\n\n<p>Assume um papel ativo nesta causa solidária. Contagia quem te rodeia com a tua vontade de fazer o bem — traz a tua família, os amigos e os colegas. Vem fazer a diferença connosco!</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária em Lisboa a favor da Associação Acreditar, com partida em Alcântara e chegada em Belém",
+  "page": "https://forms.gle/i27g5uKwdSuuQ8H7A",
+  "slug": "corrida-solidaria-iscpsi-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

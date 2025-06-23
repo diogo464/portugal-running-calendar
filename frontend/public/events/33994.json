@@ -1,0 +1,30 @@
+{
+  "id": 33994,
+  "name": "Cross das Amendoeiras 2024",
+  "location": "Aldeia das Açoteias, Albufeira",
+  "coordinates": {
+    "lat": 37.0971926,
+    "lon": -8.169047899999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "cross-country"
+  ],
+  "images": [
+    "media/052c56aa2be6215ed784d08968859fec"
+  ],
+  "start_date": "2024-02-25",
+  "end_date": "2024-02-26",
+  "circuit": [],
+  "description": "\n<p>A Associação de Atletismo do Algarve e a Camara Municipal de Albufeira, com o apoio do Instituto Português de Desporto e Juventude e Região de Turismo do Algarve, organizam a 47.ª Edição do Cross Internacional das Amendoeiras em Flor, em simultâneo com a Taça dos Clubes Campeões Europeus de Corta Mato, no dia 25 de Fevereiro de 2024, onde integra também o Campeonato Regional de Corta Mato Longo.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Cross internacional de corta-mato com história em Albufeira, integrando competição europeia e regional",
+  "page": "https://lap2go.com/pt/event/cross-internacional-amendoeiras-em-flor-2024",
+  "slug": "cross-das-amendoeiras-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Albufeira",
+  "administrative_area_level_3": "Albufeira e Olhos de Água",
+  "district_code": 8
+}

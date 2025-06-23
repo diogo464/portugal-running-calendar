@@ -1,0 +1,32 @@
+{
+  "id": 40103,
+  "name": "Ecotur Skymarathon Porto Moniz 2025",
+  "location": "Porto Moniz, Ilha da Madeira",
+  "coordinates": {
+    "lat": 32.8659619,
+    "lon": -17.1673851
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "trail",
+    "marathon"
+  ],
+  "images": [
+    "media/14a844a943625e046131b34b7df2f1aa"
+  ],
+  "start_date": "2025-08-15",
+  "end_date": "2025-08-16",
+  "circuit": [],
+  "description": "\n<p>O Ecotur Skymarathon Porto Moniz é uma organização do CDCPM – Clube Desportivo e Cultural do Porto Moniz, com o apoio do Município do Porto Moniz e das freguesias das Achadas da Cruz e do Porto Moniz.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela costa norte da Madeira com organização local",
+  "page": "https://lap2go.com/pt/event/ecotur-skymarathon-porto-moniz-2025",
+  "slug": "ecotur-skymarathon-porto-moniz-2025",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

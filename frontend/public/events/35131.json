@@ -1,0 +1,35 @@
+{
+  "id": 35131,
+  "name": "Corrida da Liberdade Vila Pouca de Aguiar 2024",
+  "location": "Vila Pouca de Aguiar, Real",
+  "coordinates": {
+    "lat": 41.5002387,
+    "lon": -7.6432318
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    600,
+    1500,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/3f3ed7d1c1d94818c8ff95aa3709f118"
+  ],
+  "start_date": "2024-04-27",
+  "end_date": "2024-04-27",
+  "circuit": [],
+  "description": "\n<p>A prova irá realizar-se no dia 27 de abril 2024 com início às 10h00 com partida e chegada na<br>Praça João Paulo II</p>\n\n\n\n<p>PROVAS<br>Corrida Kids &#8211; 600mt<br>Corrida Juvenil – 1500mt<br>Corrida da Liberdade – 10km</p>\n\n\n",
+  "description_short": "Corrida da Liberdade em festa na Praça João Paulo II com provas para todas as idades",
+  "page": "http://cyclonessports.com/index.php/303-corrida-10km-vpa",
+  "slug": "corrida-da-liberdade-vila-pouca-de-aguiar-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Pouca de Aguiar",
+  "administrative_area_level_3": "Vila Pouca de Aguiar",
+  "district_code": 17
+}

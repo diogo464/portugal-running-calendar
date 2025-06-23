@@ -1,0 +1,35 @@
+{
+  "id": 38125,
+  "name": "São Silvestre Estremoz 2024",
+  "location": "Estremoz, Évora",
+  "coordinates": {
+    "lat": 38.8425123,
+    "lon": -7.588837799999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/5e7aec6b9fe29037eacc7403a02f04cc"
+  ],
+  "start_date": "2024-12-21",
+  "end_date": "2024-12-22",
+  "circuit": [],
+  "description": "\n<p>No dia 21 de dezembro de 2024, irá realizar-se a São Silvestre ESTREMOZ, percurso, pela cidade de Estremoz.</p>\n\n\n\n<p>A Corrida contará com 10km, corridos pelos pontos principais da cidade de Estremoz, e caminhada terá cerca de 5km.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "São Silvestre urbana pela histórica cidade alentejana de Estremoz",
+  "page": "https://acorrer.pt/eventos/info/3679",
+  "slug": "sao-silvestre-estremoz-2024",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Estremoz",
+  "administrative_area_level_3": "União das freguesias de Estremoz (Santa Maria e Santo André)",
+  "district_code": 7
+}

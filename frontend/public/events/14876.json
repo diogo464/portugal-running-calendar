@@ -1,0 +1,29 @@
+{
+  "id": 14876,
+  "name": "Ladário Adventure Trail 2022",
+  "location": "Oliveira de Frades",
+  "coordinates": {
+    "lat": 40.7322554,
+    "lon": -8.1737805
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/70bd5e05972066606a3b958c04fc4164"
+  ],
+  "start_date": "2022-06-11",
+  "end_date": "2022-06-12",
+  "circuit": [],
+  "description": "\n<p>Ladário Adventure Trail 2022</p>\n",
+  "description_short": "Trail desafiante pela região de Ladário com ambiente de aventura",
+  "page": "https://stopandgo.net/event/?id=746",
+  "slug": "ladario-adventure-trail-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Oliveira de Frades",
+  "administrative_area_level_3": "Oliveira de Frades",
+  "district_code": 18
+}

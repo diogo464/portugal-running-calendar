@@ -1,0 +1,34 @@
+{
+  "id": 16231,
+  "name": "Meia Maratona de Guimarães 2022",
+  "location": "Guimarães, Braga",
+  "coordinates": {
+    "lat": 41.44253,
+    "lon": -8.2917857
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/c359ec3b1bf0a9f722c346a4b4406a2e"
+  ],
+  "start_date": "2022-09-25",
+  "end_date": "2022-09-26",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona de Guimarães &#8211; Cidade Berço é um evento que se vai realizar no dia de 25 de setembro em Guimarães. Inscreve-te nas diferentes provas ou participa com voluntário na organização. Um novo conceito com uma vertente solidária e sustentável.</p>\n",
+  "description_short": "Meia maratona solidária nas ruas históricas de Guimarães com foco na sustentabilidade",
+  "page": "https://meiamaratonacidadeberco.pt/",
+  "slug": "meia-maratona-de-guimaraes-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Serzedo",
+  "district_code": 3
+}

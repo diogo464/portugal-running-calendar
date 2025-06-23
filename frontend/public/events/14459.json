@@ -1,0 +1,29 @@
+{
+  "id": 14459,
+  "name": "Demo Trail 2022",
+  "location": "Vila Nova de Paiva, Viseu",
+  "coordinates": {
+    "lat": 40.8508324,
+    "lon": -7.7309812
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ac042130e19e56d38a33b6fe5bbf0737"
+  ],
+  "start_date": "2022-05-22",
+  "end_date": "2022-05-23",
+  "circuit": [],
+  "description": "\n<p>Demo Trail 2022</p>\n",
+  "description_short": "Trail desafiante com características técnicas pela região (sem mais detalhes específicos)",
+  "page": "https://stopandgo.net/event/?id=708",
+  "slug": "demo-trail-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vila Nova de Paiva",
+  "administrative_area_level_3": "Vila Nova de Paiva",
+  "district_code": 18
+}

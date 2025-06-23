@@ -1,0 +1,35 @@
+{
+  "id": 36257,
+  "name": "Trail Entre o Dão e o Mondego 2024",
+  "location": "Carregal do Sal, Viseu",
+  "coordinates": {
+    "lat": 40.4347784,
+    "lon": -7.9980002
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    12000,
+    14000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8060fc36d1150be2c15d84790cc81472"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [],
+  "description": "\n<p>Promover a atividade física e o turismo no Concelho de Carregal do Sal,dando a conhecer todo o património histórico, cultural e ambiental da nossa região.<br>O evento será composto por duas provas (Trail Curto – 14 Km e Trail Longo – 24 km) e Caminhada<br>12 Km.</p>\n\n\n",
+  "description_short": "Trail com duas distâncias a explorar o rico patrimônio de Carregal do Sal",
+  "page": "https://acorrer.pt/eventos/info/3564",
+  "slug": "trail-entre-o-dao-e-o-mondego-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Carregal do Sal",
+  "administrative_area_level_3": null,
+  "district_code": 18
+}

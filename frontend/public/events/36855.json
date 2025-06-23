@@ -1,0 +1,32 @@
+{
+  "id": 36855,
+  "name": "Volta aos 7 Vidrala 2024",
+  "location": "Marinha Grande, Leiria",
+  "coordinates": {
+    "lat": 39.7503802,
+    "lon": -8.931805899999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    7000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/defa971ec365ea2417286878e5038067"
+  ],
+  "start_date": "2024-10-06",
+  "end_date": "2024-10-06",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>1ª edição da prova &#8220;Volta aos 7 &#8211; Vidrala&#8221;</strong>&nbsp;é uma organização do&nbsp;<strong>Clube Atletismo de Marinha Grande</strong>&nbsp;e da empresa&nbsp;<strong>Vidrala S.A.</strong>, com o apoio da&nbsp;<strong>Câmara Municipal da Marinha Grande</strong>, da&nbsp;<strong>Junta de Freguesia da Marinha Grande</strong>&nbsp;e da&nbsp;<strong>Associação de Atletismo de Leiria</strong>. A prova realiza-se no dia&nbsp;<strong>6 de outubro de 2024</strong>.</p>\n\n\n\n<p>Este evento é uma corrida de estrada com o percurso de 7kms.</p>\n\n\n",
+  "description_short": "Primeira edição de corrida urbana na Marinha Grande com apoio municipal e empresarial",
+  "page": "https://www.recordepessoal.pt/evento/voltaaos7-vidrala",
+  "slug": "volta-aos-7-vidrala-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

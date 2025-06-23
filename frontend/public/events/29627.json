@@ -1,0 +1,35 @@
+{
+  "id": 29627,
+  "name": "São Silvestre Melides 2023",
+  "location": "Melides, Setúbal",
+  "coordinates": {
+    "lat": 38.147037,
+    "lon": -8.7291925
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/688bad9407ebd271e73aefe5859830a0"
+  ],
+  "start_date": "2023-12-02",
+  "end_date": "2023-12-03",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre Melides terá como principal objectivo incentivar a população à prática desportiva de forma saudável e regular. À semelhança do ano transacto o evento conta com uma corrida de 10 km e uma caminhada de 5 km.</p>\n\n\n",
+  "description_short": "Corrida solidária em Melides que promove estilo de vida activo e desportivo",
+  "page": "https://acorrer.pt/eventos/info/3337",
+  "slug": "sao-silvestre-melides-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "Melides",
+  "district_code": 15
+}

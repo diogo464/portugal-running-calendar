@@ -1,0 +1,34 @@
+{
+  "id": 21092,
+  "name": "Montepio Meia Maratona de Cascais 2023",
+  "location": "Cascais, Lisboa",
+  "coordinates": {
+    "lat": 38.6960614,
+    "lon": -9.430364599999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/da675866d2db1d9692db7f7d2787f930"
+  ],
+  "start_date": "2023-02-05",
+  "end_date": "2023-02-06",
+  "circuit": [],
+  "description": "\n<p>A Montepio Meia Maratona de Cascais,&nbsp;<em>powered by</em>&nbsp;Associação Mutualista Montepio, organizada pela HMS Sports, em parceria com a Câmara Municipal de Cascais e o CCD Cascais, celebra a 7ª edição e contará com a Corrida das Crianças, no dia 4 de fevereiro, a Meia Maratona (21,0975km) e os 5 Km, no dia 5 de fevereiro.</p>\n\n\n\n<p>O evento tem partida e chegada na Baía de Cascais e passa pelos sítios mais emblemáticos do Concelho.</p>\n",
+  "description_short": "Meia maratona junto ao mar com passagem pelos locais mais icónicos de Cascais",
+  "page": "https://meiamaratonadecascais.pt/site/",
+  "slug": "meia-maratona-de-cascais-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "União das freguesias de Cascais e Estoril",
+  "district_code": 11
+}

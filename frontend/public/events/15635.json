@@ -1,0 +1,34 @@
+{
+  "id": 15635,
+  "name": "Corrida Auchan 2022",
+  "location": "Jamor Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/24d4be7686628f365ba69c5df6a1d682"
+  ],
+  "start_date": "2022-09-10",
+  "end_date": "2022-09-11",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>9ª Edição da Corrida Auchan</strong>&nbsp;está de volta no dia 10 de setembro, desta vez no Centro Desportivo Nacional do Jamor com a Corrida de 10 Km, Caminhada de 5 Km, Corrida Rik&amp;Rok, Street Basket e muitas modalidades desportivas para experimentarem.</p>\n\n\n\n<p>RESULTADOS <a href=\"https://www.corridaauchan.pt/site/?local=home#results\" target=\"_blank\" rel=\"noreferrer noopener\">aqui</a>.</p>\n",
+  "description_short": "Corrida Auchan no Jamor com múltiplas provas desportivas e animação para toda a família",
+  "page": "https://www.corridaauchan.pt/",
+  "slug": "corrida-auchan-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

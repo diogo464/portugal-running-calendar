@@ -1,0 +1,34 @@
+{
+  "id": 23887,
+  "name": "Trail Noturno de Toledo 2023",
+  "location": "Lourinhã, Lisboa",
+  "coordinates": {
+    "lat": 39.2425234,
+    "lon": -9.3132718
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    16000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/abc95fc5f1b08085bf9dcd3b0cd6d3e9"
+  ],
+  "start_date": "2023-07-22",
+  "end_date": "2023-07-23",
+  "circuit": [],
+  "description": "\n<p>No dia 22 de julho de 2023 terá lugar a 2ª edição Do Trail noturno de Toledo, na localidade de<br>Toledo, freguesia de Vimeiro, concelho de Lourinhã.<br>Prova maioritariamente em terra batida, que começa e termina na localidade Toledo, e que<br>passará nas localidades de Vimeiro, Maceira, Ribamar, Fonte Lima, Ventosa.<br>Evento com aproximadamente 16Km na prova de trail, e 10km na caminhada.<br>Este evento é promovido pela Associação Recreativa Social e Cultural de Toledo.</p>\n",
+  "description_short": "Trail noturno desafiante pela região de Toledo, com passagem por várias localidades da Lourinhã",
+  "page": "https://www.trilhoperdido.com/evento/trail-noturno-de-toledo-2023",
+  "slug": "trail-noturno-de-toledo-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de Lourinhã e Atalaia",
+  "district_code": 11
+}

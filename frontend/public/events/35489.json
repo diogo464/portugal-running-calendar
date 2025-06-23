@@ -1,0 +1,33 @@
+{
+  "id": 35489,
+  "name": "Grande Prémio Manuel Maia 2024",
+  "location": "Vila Nova da Barquinha, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/78b449ce295d1f6e2d9b2b9b4694c8b6"
+  ],
+  "start_date": "2024-06-16",
+  "end_date": "2024-06-16",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>Clube Instrução e Recreio</strong>, organiza com o apoio técnico da&nbsp;<strong>Recorde Pessoal</strong>, no dia&nbsp;<strong>16 de Junho de 2024</strong>, pelas 9:00 horas, uma competição denominada&nbsp;<strong>&#8220;Grande Prémio Manuel Maia&#8221;</strong>.</p>\n\n\n\n<p><strong>Percursos</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>PARTIDA e CHEGADA, JUNTO AO PAVILHÃO MUNICIPAL, SAÍDA EM DIREÇÃO AO CENTRO DE VILA NOVA DA BARQUINHA, COM RETORNO AO FUNDO DA VILA, NOVA PASSAGEM PELO PONTO DE PARTIDA, APROXIMADAMENTE AOS 5KM, COM NOVA VOLTA NO MESMO PERCURSO.</li>\n</ul>\n\n\n\n<p><strong>Distância</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Prova de cerca de 10 km</strong></li>\n</ul>\n\n\n",
+  "description_short": "Corrida em Vila Nova da Barquinha com partida e chegada junto ao Pavilhão Municipal",
+  "page": "https://www.recordepessoal.pt/evento/grandepremiomanuelmaia10km",
+  "slug": "grande-premio-manuel-maia-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

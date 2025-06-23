@@ -1,0 +1,29 @@
+{
+  "id": 2185,
+  "name": "3° Trail &#8211; Trilhos Luso Bussaco 2020",
+  "location": "Luso, Aveiro",
+  "coordinates": {
+    "lat": 40.3852407,
+    "lon": -8.3771782
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ca20cdf5f6197079a4dcbc8c9d604119"
+  ],
+  "start_date": "2020-05-17",
+  "end_date": "2020-05-18",
+  "circuit": [],
+  "description": "<p>Terceira edição do 🏃‍♂️🏃‍♀️ trail e caminhada pela Mata Nacional do Bussaco e zonas limitrofes com partida e chegada no Jardim do Luso (<a href=\"https://goo.gl/maps/6Lx3Gdu29NAikPa59?fbclid=IwAR1p3keLnEcNOjQgjBlYgRqKhI1Zr0HHP6jgufQUxPnWKSkFYdyTuBPBhLY\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" data-lynx-mode=\"hover\" data-lynx-uri=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2Fmaps%2F6Lx3Gdu29NAikPa59%3Ffbclid%3DIwAR1p3keLnEcNOjQgjBlYgRqKhI1Zr0HHP6jgufQUxPnWKSkFYdyTuBPBhLY&amp;h=AT118g9NtuXC9u9FdhfJUyQ9syZ27uX2EvuKBh6YRnfD_rvThsPa3mUmSCgqVmPoTw2AceyAfh9x2o_1LiWmdG79dHZ-6ThjtCt0wdnu_Ak2qsH6A7cf7YSwN5hj8_xYBxT3kQjeR5if3YBDsQ\">https://goo.gl/maps/6Lx3Gdu29NAikPa59</a>) . Prova a contar para a TAÇA DE PORTUGAL DE TRAIL 🇵🇹 inscrições já abertas.</p>\n",
+  "description_short": "Trail pela deslumbrante Mata Nacional do Bussaco com partida e chegada em Luso",
+  "page": "https://www.prozis.com/pt/pt/evento/iii-trilhos-luso-bussaco",
+  "slug": "3-trail-trilhos-luso-bussaco-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "Luso",
+  "district_code": 1
+}

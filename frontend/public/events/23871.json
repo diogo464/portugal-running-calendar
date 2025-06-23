@@ -1,0 +1,35 @@
+{
+  "id": 23871,
+  "name": "Trail Do Marco 2023",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    12000,
+    20000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail do Marco é um evento competitivo de Trail Running, organizado pela Associação<br>Desportiva do Marco 09, com o apoio do Município de Marco de Canaveses, e diversas<br>entidades locais, a realizar no dia 12 Novembro de 2023.</p>\n\n\n\n<p>Trail Longo &#8211; 30km &#8211; 1300 D+ <br>Trail Curto &#8211; 20 km &#8211; 800 D+ <br>Mini Trail &#8211; 12 km &#8211; 450 D+ <br>Caminhada &#8211; 12 km </p>\n",
+  "description_short": "Trail desafiante pela região de Marco de Canaveses com diferentes percursos de montanha",
+  "page": "https://stopandgo.net/events/trail-do-marco-2023",
+  "slug": "trail-do-marco-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}

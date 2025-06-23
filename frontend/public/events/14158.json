@@ -1,0 +1,34 @@
+{
+  "id": 14158,
+  "name": "Corrida 4 Estações Condeixa 2022",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/c161a2cac7c43a500b1fc1e6b2a37159"
+  ],
+  "start_date": "2022-04-30",
+  "end_date": "2022-05-01",
+  "circuit": [],
+  "description": "\n<p>Corrida 4 Estações Condeixa 2022</p>\n\n\n\n<p>4 CORRIDAS DE ATLETISMO DE ESTRADA EM 4 LOCAIS DIFERENTES EM 4 ESTAÇÕES DO ANO.NO FINAL DE CADA CORRIDA TENS UM DIPLOMA DIGITAL COM A TUA MARCA.PRÉMIO PARA EQUIPAS MAIS NUMEROSAS A TERMINAR A CORRIDA.1º&nbsp;EQUIPA UM LEITÃO ASSADO2º&nbsp;EQUIPA MEIO LEITÃO ASSADO3º&nbsp;EQUIPA MEIO LEITÃO ASSADOPRÉMIOS POR ESCALÃOPRÉMIOS CLASSIFICAÇÃO GERAL1º CLASSIFICADO MASCULINO GERAL MÁQUINA DE CAFÉ DELTA1ª CLASSIFICADA FEMININA GERAL MÁQUINA DE CAFÉ DELTAEM TODOS AS CORRIDAS FARÁ PARTE UMA CAMINHADA/CORRIDA SEM CLASSIFICAÇÃO.O CIRCUITO TEM A PARTICULARIDADE DOS FINISHERS EM CADA CORRIDA CONQUISTAREM UMA MEDALHA PUZZLE PARA QUE NO FINAL POSSAM CONSTITUIR UM MAGNÍFICO MEDALHÃO.</p>\n\n\n\n<p>Do evento consta uma caminhada com cerca de 5km, solidária com a Associação das Cozinhas Económicas Rainha Santa Isabel, com a recolha de bens alimentares não perecíveis.</p>\n\n\n\n<p>A inscrição da caminhada é grátis e obrigatória, mas carece da entrega de um bem alimentar em troca do dorsal.</p>\n",
+  "description_short": "Circuito de corridas únicas em Condeixa, com provas em diferentes locais e estações do ano, e medalhas puzzle que se completam",
+  "page": "https://corrida4estacoesportugal.wordpress.com/",
+  "slug": "corrida-4-estacoes-condeixaa-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

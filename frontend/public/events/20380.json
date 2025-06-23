@@ -1,0 +1,30 @@
+{
+  "id": 20380,
+  "name": "7º TRSA &#8211; Trail Run Socorro e Archeira 2023",
+  "location": "Torres Vedras",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/102b8f4845eaed17eee583a2ba4b6da1"
+  ],
+  "start_date": "2023-01-29",
+  "end_date": "2023-01-30",
+  "circuit": [],
+  "description": "\n<p>O TURRES TRAIL CLUBE , com o apoio da Câmara Municipal de Torres Vedras, junta de freguesia do Turcifal e APPLSSA &#8211; Área de paisagem protegida Local da serra do Socorro e Archeira vai realizar no próximo dia 29 de Janeiro de 2023, um evento denominado &#8221; 7º TRAIL RUN SOCORRO E ARCHEIRA&#8221;. Este evento, terá um Trail Longo , um Trail Curto e um Mini trail, o percurso do Trail Run é circular. O local de partida e chegada assim como o secretariado será no polidesportivo do Turcifal.</p>\n",
+  "description_short": "Trail desafiante pela serra do Socorro com apoio municipal em Torres Vedras",
+  "page": "https://www.turresevents.com/eventos/trsa-trail-run-socorro-e-archeira-2023",
+  "slug": "7o-trsa-trail-run-socorro-e-archeira-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

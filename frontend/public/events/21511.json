@@ -1,0 +1,37 @@
+{
+  "id": 21511,
+  "name": "28ª Corrida das Lezírias 2023",
+  "location": "Vila Franca de Xira, Lisboa",
+  "coordinates": {
+    "lat": 38.9549979,
+    "lon": -8.9888982
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    400,
+    800,
+    5000,
+    10000,
+    15500
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/94a6e308daf62e793d2fe51133ca1013"
+  ],
+  "start_date": "2023-03-05",
+  "end_date": "2023-03-06",
+  "circuit": [],
+  "description": "\n<p>Vila Franca de Xira volta a ser, no dia<strong>&nbsp;05 de Março 2023</strong>, o palco para a tradicional&nbsp;<strong>Corrida das Lezírias</strong>&nbsp;que anualmente, reúne na cidade milhares de atletas e amantes do desporto, oriundos de todo o país.</p>\n\n\n\n<p>A&nbsp;prova volta à estrada e ao seu percurso habitual com os<strong>&nbsp;15,5 km</strong>&nbsp;percorridos em asfalto, calçada e terra batida, os&nbsp;<strong>5 km</strong>&nbsp;em piso betuminoso e com a&nbsp;<strong>corridinha</strong>&nbsp;de 400 metros a&nbsp;800 metros.</p>\n",
+  "description_short": "Corrida das Lezírias regressa a Vila Franca de Xira com percurso variado pelas tradicionais paisagens ribeirinhas",
+  "page": "https://xistarca.pt/eventos/corrida-das-lezirias-2023",
+  "slug": "corrida-das-lezirias-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "Vila Franca de Xira",
+  "district_code": 11
+}

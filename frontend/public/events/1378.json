@@ -1,0 +1,31 @@
+{
+  "id": 1378,
+  "name": "Trilhos Termais 2020",
+  "location": "Unknown Location",
+  "coordinates": null,
+  "country": "Portugal",
+  "locality": "Unknown",
+  "distances": [
+    6000,
+    13000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/33afdfde0cf1d56fa32d890f81ba20eb"
+  ],
+  "start_date": "2020-04-04",
+  "end_date": "2020-04-05",
+  "circuit": [],
+  "description": "<p>Evento desportivo sunset e noturno com três percursos:<br />\n&#8211; Trail Curto: 13 Km<br />\n&#8211; Trail Longo: 20 Km<br />\n&#8211; Caminhada: 6 Km<br />\nO facto de se tratar de um evento diurno e noturno, para além de permitir aos participantes desfrutar de uma perspetiva diferente de todos os fantásticos trilhos que o percurso oferece, os participantes gozam também de um magnífico pôr do sol a meio do percurso que coincide com o ponto mais alto do mesmo.</p>\n",
+  "description_short": "Trail sunset com percursos panorâmicos e Vista deslumbrante ao pôr do sol no ponto mais alto do percurso",
+  "page": "http://www.trilhostermais.pt",
+  "slug": "trilhos-termais-2020",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": 29282,
+  "name": "Zebra Trail 2024",
+  "location": "Pena, Cantanhede",
+  "coordinates": {
+    "lat": 40.309785,
+    "lon": -8.5558394
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/2339aa60f290ab82bb5992d0b3d458ac"
+  ],
+  "start_date": "2024-01-14",
+  "end_date": "2024-01-15",
+  "circuit": [],
+  "description": "\n<p>Realiza-se a 14 de janeiro de 2024 a 2ª edição do Zebra Trail, uma prova Trail Running que percorrerá percursos e trilhos maioritariamente envolventes à localidade da Pena, no município de Cantanhede.<br>Sob organização da Secção de Atletisto do C. F. “Os Marialvas”, com o apoio institucional da Câmara Municipal de Cantanhede e da União das Freguesias de Cantanhede e Pocariça,<br>União das Freguesias Portunhos e Outil e Freguesia de Ançã, entre outras instituições locais de relevo.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos da região de Cantanhede com apoio municipal",
+  "page": "https://www.runmanager.net/Eventos/ii-zebra-trail/775",
+  "slug": "zebra-trail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Portunhos e Outil",
+  "district_code": 6
+}

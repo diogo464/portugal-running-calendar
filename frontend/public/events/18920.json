@@ -1,0 +1,42 @@
+{
+  "id": 18920,
+  "name": "Vouga Trail 2023",
+  "location": "Sever do Vouga, Aveiro",
+  "coordinates": {
+    "lat": 40.7334189,
+    "lon": -8.371767199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    500,
+    2000,
+    12000,
+    17000,
+    27000,
+    37000,
+    57000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/b1b3059821eb3e188081f37d141215db"
+  ],
+  "start_date": "2023-01-07",
+  "end_date": "2023-01-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Serão nos dias 07 e 08 de janeiro de 2023, que a Associação AZtrail, em parceria com o Município de Sever de Vouga, organizará a quarta edição do Vouga Trail, dividida nos eventos Vouga Trail Ultra, Vouga Trail Longo, Vouga Trail, Vouga Mini Trail, Caminhada Vouga e Vouga Kids.<br>Com início e fim no centro de Sever de Vouga, no Parque Urbano e Lazer de Sever do Vouga, na Av. Comendador Augusto Martins Pereira 102, 3740-271 Sever do Vouga, será uma prova circular. Este evento terá as distâncias de 57 Km, 37Km, 27km, 17 km e uma Caminhada de 12km. </p>\n\n\n\n<p>No evento Vouga Kids, as distâncias serão ajustadas às faixas etárias dos participantes, tendo no mínimo a extensão de 500mts e no seu máximo a extensão de 2000mts</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Sever de Vouga com várias opções de percurso para todos os níveis",
+  "page": "https://stopandgo.net/event/?id=863",
+  "slug": "vouga-trail-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Sever do Vouga",
+  "administrative_area_level_3": "Sever do Vouga",
+  "district_code": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": 39902,
+  "name": "Corrida das Pontes 2025",
+  "location": "Coruche, Santarém",
+  "coordinates": {
+    "lat": 38.9596619,
+    "lon": -8.52473
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    3000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/edae99ec0f367f50d7b5cbe7f09845c7"
+  ],
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-02",
+  "circuit": [],
+  "description": "\n<p>O Serviço Desporto do Município de Coruche, com a colaboração técnica do Trilho Perdido, levam a efeito no próximo dia 1 de Junho a 19.ª Corrida das Pontes, com uma extensão de 10Km e a 19ª Corrida da Família com uma extensão de 3Km. Estes dois eventos estão integrados na FICOR, Feira Internacional da Cortiça.</p>\n",
+  "description_short": "Corrida tradicional em Coruche integrada na Feira Internacional da Cortiça",
+  "page": "https://www.trilhoperdido.com/evento/Corrida-das-Pontes-2025",
+  "slug": "corrida-das-pontes-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Coruche",
+  "administrative_area_level_3": "União das freguesias de Coruche, Fajarda e Erra",
+  "district_code": 14
+}

@@ -1,0 +1,29 @@
+{
+  "id": 41307,
+  "name": "CardioRun 2025",
+  "location": "Parque Keil do Amaral, Monsanto",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/2ef5869abb3213fd4277152b87804dd4"
+  ],
+  "start_date": "2025-04-12",
+  "end_date": "2025-04-12",
+  "circuit": [],
+  "description": "\n<p>CARDIORUN, é uma corrida desportiva organizada pelos alunos finalistas da Licenciatura em Cardiopneumologia enquadrada no evento Inovações em Cardiopneumologia que tem como principal objetivo a promoção de atividade física na prevenção das doenças cerebrocardiovasculares. Esta atividade irá ocorrer em Monsanto </p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária em Monsanto promovida por estudantes de Cardiopneumologia para sensibilização sobre prevenção de doenças cardiovasculares",
+  "page": "https://secretaria.esscvp.eu/gereventos/page?stage=registerhome&eventID=89",
+  "slug": "cardiorun-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

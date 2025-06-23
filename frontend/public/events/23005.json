@@ -1,0 +1,34 @@
+{
+  "id": 23005,
+  "name": "12ª Corrida E 7ª Caminhada Do Vinho E Da Pera Rocha 2023",
+  "location": "Bombarral, Leiria",
+  "coordinates": {
+    "lat": 39.2680991,
+    "lon": -9.158511299999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/60b9fb15e48cf2ca0787d25ee1edc4ff"
+  ],
+  "start_date": "2023-06-03",
+  "end_date": "2023-06-04",
+  "circuit": [],
+  "description": "\n<p>A 12.ª CORRIDA E 7.ª CAMINHADA DO VINHO E DA PERA ROCHA é uma organização do CDBBR Clube Desportivo do Bombarral com o apoio da União das Freguesias de Bombarral e Vale Covo, do Município do Bombarral e da Associação Distrital de Atletismo de Leiria (ADAL).</p>\n\n\n\n<p>O evento realiza-se no dia 3 de junho de 2023, com partidas e chegadas junto ao edifício-sede da Junta de Freguesia de Bombarral e Vale Covo, sito na Rua Luís de Camões, junto ao Hotel Comendador.</p>\n\n\n",
+  "description_short": "Corrida e caminhada temática dedicada ao vinho e pera rocha no Bombarral",
+  "page": "https://www.recordepessoal.pt/evento/12corridae7caminhadadovinhoedaperarocha",
+  "slug": "12a-corrida-e-7a-caminhada-do-vinho-e-da-pera-rocha-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Bombarral",
+  "administrative_area_level_3": "União das freguesias do Bombarral e Vale Covo",
+  "district_code": 10
+}

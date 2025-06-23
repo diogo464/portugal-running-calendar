@@ -1,0 +1,33 @@
+{
+  "id": 37778,
+  "name": "Grande Prémio Atletismo Mendiga 2024",
+  "location": "Mendiga, Porto de Mós",
+  "coordinates": {
+    "lat": 39.4984386,
+    "lon": -8.8482916
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/60b9f4a7c592686bd87b1028d366b6ef"
+  ],
+  "start_date": "2024-11-24",
+  "end_date": "2024-11-25",
+  "circuit": [],
+  "description": "\n<p>A <strong>Associação Recreativa Cultural e Desportiva de Mendiga</strong>, organiza no dia 24 de novembro de 2024 pelas 11.00 horas, o <strong>“36º Grande Prémio de Atletismo de Mendiga”</strong>, com a distância de 15km.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Grande Prémio de Atletismo tradicional na zona rural de Mendiga com 15km de percurso",
+  "page": "https://www.recordepessoal.pt/evento/36grandepremiodeatletismodemendiga",
+  "slug": "grande-premio-atletismo-mendiga-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Mendiga",
+  "district_code": 10
+}

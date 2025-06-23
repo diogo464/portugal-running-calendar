@@ -1,0 +1,31 @@
+{
+  "id": 21922,
+  "name": "Ferreira Trail 2023",
+  "location": "Dornes, Ferreira do Zêzere Santarém",
+  "coordinates": {
+    "lat": 39.7705103,
+    "lon": -8.2689834
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/a23e6cad2b4b52482901bf056cabc6e4"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [],
+  "description": "\n<p>Será realizado no p<strong>róximo dia 30 de Abril 2023</strong>, a primeira edição do&nbsp;<strong>Ferreira Trail, organizado pela secção de Trail do Sport Club Ferreira do Zêzere&nbsp;</strong>(SCFZ Trail Runners),&nbsp; e com o apoio deste.</p>\n\n\n\n<p><strong>A prova terá início em Dornes</strong>, uma das 7 maravilhas de Portugal. Os&nbsp;<strong>trajetos divididos em três categorias</strong>, sendo elas,&nbsp;<strong>Caminhada, Trail Curto e Trail Longo</strong>, vão passar por vários locais com uma vista incrível sobre o rio Zêzere, e sobre alguns dos mais incríveis pontos turísticos e paisagístico, alguns deles apenas com acesso através de caminhos outdoor.&nbsp;</p>\n",
+  "description_short": "Trail inaugural em Dornes com percursos por paisagens únicas do rio Zêzere",
+  "page": "https://waitastart.com/ferreira-trail-23",
+  "slug": "trail-ferreira-do-zezere-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ferreira do Zêzere",
+  "administrative_area_level_3": "Nossa Senhora do Pranto",
+  "district_code": 14
+}

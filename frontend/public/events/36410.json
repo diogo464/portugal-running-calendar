@@ -1,0 +1,33 @@
+{
+  "id": 36410,
+  "name": "Vila Urbana Trail 2024",
+  "location": "Ponte de Lima, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7622565,
+    "lon": -8.5832339
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/cf98626027108e540635d56c63d337ca"
+  ],
+  "start_date": "2024-10-12",
+  "end_date": "2024-10-13",
+  "circuit": [],
+  "description": "\n<p>O VILA URBANA TRAIL é organizado pela Associação Minho e Lima Trail com o apoio e colaboração da Câmara Municipal de Ponte de Lima, da Junta de Freguesia de Arca e Ponte de Lima, e com o apoio de várias empresas locais.  A 7.ª edição do VILA URBANA TRAIL irá realizar-se no dia 12 de outubro de 2024 com uma distância competitiva de 10 km e uma caminhada solidária organizada em parceria com o Rotary Club de Ponte de Lima.</p>\n",
+  "description_short": "Trail solidário em Ponte de Lima com apoio da câmara municipal e comunidade local",
+  "page": "https://cyclonessports.com/index.php/311-vila-urbana-trail-2024",
+  "slug": "vila-urbana-trail-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Arca e Ponte de Lima",
+  "district_code": 16
+}

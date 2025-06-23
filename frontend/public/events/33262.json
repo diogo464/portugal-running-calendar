@@ -1,0 +1,34 @@
+{
+  "id": 33262,
+  "name": "Trail da Tomina 2024",
+  "location": "Moura, Beja",
+  "coordinates": {
+    "lat": 38.1426988,
+    "lon": -7.4512581
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    16000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/92e84f4161081faaf733567dd5a8d145"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>A Comissão de Festas da Tomina em Honra de Nossa Senhora das Necessidades convida todos a participar na 4.ª edição do Trail da Tomina. Volvidos quatro anos sobre o I Trail, esta 4.ª edição mostra que as gentes de Santo Aleixo da Restauração estão empenhadas em manter o evento e consolidar a sua presença no contexto desportivo, para isso muito têm contribuído a Comissão de Festas, as gentes da terra e as entidades parceiras, mas sobretudo os atletas que nos têm brindado com a sua presença ano após ano.</p>\n\n\n\n<p>Trail (25km) <br>Trail Sprint (16km) <br>Mini Trail (10Km) <br>Caminhada (10Km) </p>\n",
+  "description_short": "Trail da Tomina reúne atletas em Santo Aleixo da Restauração com diferentes percursos de montanha",
+  "page": "https://acorrer.pt/eventos/info/3406",
+  "slug": "trail-da-tomina-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "São João Baptista",
+  "district_code": 2
+}

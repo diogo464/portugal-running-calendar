@@ -1,0 +1,31 @@
+{
+  "id": 41684,
+  "name": "Trail e Caminhada &#8220;A Pérola da Zebreira&#8221; &#8211; Macieira 2025",
+  "location": "Sernancelhe, Viseu",
+  "coordinates": {
+    "lat": 40.8998417,
+    "lon": -7.4900188
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/eefc5a9856844a3aaf9504da4eab005b"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>O Trail e Caminhada “Pérola da Zebreira” são organizados pela União de Freguesias de Ferreirim e Macieira, Câmara Municipal de Sernancelhe e Comissão de Festas de Macieira, no dia 25 de maio de 2025, na freguesia de Macieira.</p>\n\n\n\n<p>Este evento não tem cariz competitivo, e tem como objetivo promover a prática da atividade física em meio natural, dando a conhecer os lugares e costumes da freguesia de Macieira.</p>\n\n\n",
+  "description_short": "Trail recreativo pela região de Macieira que celebra os lugares e tradições locais",
+  "page": "https://acorrer.pt/eventos/3911/info",
+  "slug": "trail-e-caminhada-a-perola-da-zebreira-macieira-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sernancelhe",
+  "administrative_area_level_3": "União das freguesias de Sernancelhe e Sarzeda",
+  "district_code": 18
+}

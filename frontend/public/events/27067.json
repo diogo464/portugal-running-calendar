@@ -1,0 +1,30 @@
+{
+  "id": 27067,
+  "name": "Corrida do Mirante 2024",
+  "location": "Ota, Lisboa",
+  "coordinates": {
+    "lat": 39.1109089,
+    "lon": -8.9907639
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fc97f8875340a1c1d2c450c16bcda0d0"
+  ],
+  "start_date": "2024-06-02",
+  "end_date": "2024-06-03",
+  "circuit": [],
+  "description": "\n<p>A Corrida do Mirante é sem dúvida uma das provas mais emblemáticas do Circuito Lisboa Trail.</p>\n\n\n\n<p>Com partida no Centro Social Recreativo Desportivo da Ota esta etapa vai levar-te a conhecer os melhores pontos de interesse da Ota, como o Mirante, por subidas e descidas bastante acentuadas, mas com vistas 360º soberbas sobre toda a região!&nbsp;</p>\n\n\n\n<p>Para além do Trail Longo, do Trail Curto e da caminhada poderás também contar com almoço para todos os participantes!</p>\n\n\n\n<p>Esta é uma organização da Junta de Freguesia da Ota e das coletividades locais com organização técnica WeRun.&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n\n\n<p><strong>LOCAL PARTIDA E CHEGADA:</strong>&nbsp;Centro Social Recreativo Desportivo da Ota</p>\n",
+  "description_short": "Trail desafiante na Ota com subidas técnicas e vistas panorâmicas sobre a região",
+  "page": "https://werun.pt/eventos/20-corrida-do-mirante/",
+  "slug": "corrida-do-mirante-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Alenquer",
+  "administrative_area_level_3": "Ota",
+  "district_code": 11
+}

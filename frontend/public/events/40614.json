@@ -1,0 +1,42 @@
+{
+  "id": 40614,
+  "name": "Trail dos Morcegos 2025",
+  "location": "São Miguel, Açores",
+  "coordinates": {
+    "lat": 37.780411,
+    "lon": -25.4970466
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    1000,
+    2300,
+    3000,
+    7000,
+    8000,
+    21100,
+    33700
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/95164ab11b77a99b8707301657743b4f"
+  ],
+  "start_date": "2025-09-20",
+  "end_date": "2025-09-21",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A IX edição do Trail dos Morcegos by Mitsubishi Motors é um evento de Trail Running, que percorre trilhos e caminhos do concelho de Ponta Delgada. Integra 6 provas com 4 percursos: o TdM Trail – 33,7 km / 1660 d+ / 1620 d-, o TdM Sprint – 21,1 km / 800 d+ / 1140 d-, o TdM Mini Trail/TdM Caminhada – 8,0 km / 300<br>d+ / 430 d- e o TdM Kids/TdM Desporto Adaptado – 2,3 km / 90 d+ / 100 d-. O TdM Trail inicia-se na Rocha da Relva (Relva), o TdM Sprint começa no Merendário do Charquinho das Moças (Covoada), o TdM Mini Trail e TdM Caminhada principiam no Parque de Merendas de Santa Bárbara (Santa Bárbara), enquanto o TdM Kids e o TdM Desporto Adaptado arrancam da Igreja de Santo António (Santo António). </p>\n\n\n\n<p>Todas as provas terminam no Polidesportivo de Santo António, localizado em Santo António</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail dos Morcegos nos trilhos pitorescos de Ponta Delgada com percursos para todos os níveis de trail running",
+  "page": "https://stopandgo.net/events/ix-tdm-trail-dos-morcegos-by-mitsubishi-motors",
+  "slug": "trail-dos-morcegos-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

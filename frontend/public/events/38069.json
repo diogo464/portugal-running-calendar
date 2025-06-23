@@ -1,0 +1,33 @@
+{
+  "id": 38069,
+  "name": "Pinga Trail 2024",
+  "location": "Arruda dos Vinhos, Lisboa",
+  "coordinates": {
+    "lat": 38.9829298,
+    "lon": -9.0776401
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    11000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/27eede90bed1c23c8d3afb1329cf7dee"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-09",
+  "circuit": [],
+  "description": "\n<p>A Associação K4ninos Runners com o apoio da Câmara Municipal de Arruda dos Vinhos, vai realizar no dia 8 de Dezembro a 7ª Edição do Pinga </p>\n\n\n\n<p>A 7ª edição do Pinga Trail, va incluir três percursos:</p>\n\n\n\n<p><br>Caminhada (não competitivo) &#8211; Aproximadamente 11 km que poderás fazer a correr ou a caminhar. Nesta distância não há controlo de tempo. </p>\n\n\n\n<p><br>Trail Curto e Trail Longo &#8211; Provas competitivas com percurso circular.</p>\n\n\n\n<p></p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Trail solidário pela região de Arruda dos Vinhos com diferentes percursos para todos os níveis",
+  "page": "https://www.trilhoperdido.com/evento/pinga-trail-2024",
+  "slug": "pinga-trail-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Arruda dos Vinhos",
+  "administrative_area_level_3": "Arruda dos Vinhos",
+  "district_code": 11
+}

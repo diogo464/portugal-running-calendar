@@ -1,0 +1,33 @@
+{
+  "id": 22557,
+  "name": "Demo Wolves Trail 2023",
+  "location": "Moimenta da Beira, Viseu",
+  "coordinates": {
+    "lat": 40.9817183,
+    "lon": -7.613923300000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000,
+    20000,
+    35000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3f55816658a1dd9bb760c0484db64159"
+  ],
+  "start_date": "2023-06-18",
+  "end_date": "2023-06-19",
+  "circuit": [],
+  "description": "\n<p>O Município de Moimenta da Beira, com o apoio do Boavista FC Trail, são as entidades organizadoras do evento “2. Edição – Demo Wolves Trail“, que decorrerá no dia 18 de Junho de 2023, em Moimenta da Beira, independentemente das condições climatéricas do dia, desde que a organização entenda que estas não ofereçam riscos aos participantes.<br>O Demo Wolves Trail é um evento que integra duas provas competitivas e uma não competitiva, Trail Longo 35km (TL com cerca de 35km e 1600mD+), Trail Curto (TC com cerca de 20km e 900mD+) e uma caminhada com 10Km e 450mD+.</p>\n",
+  "description_short": "Trail desafiante pela região de Moimenta da Beira com diferentes percursos de montanha",
+  "page": "https://lap2go.com/pt/event/demo-wolves-trail-2023",
+  "slug": "demo-wolves-trail-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Moimenta da Beira",
+  "administrative_area_level_3": "Moimenta da Beira",
+  "district_code": 18
+}

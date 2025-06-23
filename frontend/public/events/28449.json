@@ -1,0 +1,37 @@
+{
+  "id": 28449,
+  "name": "FKTrail 2023",
+  "location": "Buarcos, Coimbra",
+  "coordinates": {
+    "lat": 40.1681559,
+    "lon": -8.8814631
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    500,
+    1000,
+    10000,
+    12000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e4a71c1dcd8bbfaa18067b489676cabd"
+  ],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [],
+  "description": "\n<p>O FkTrail 2023 irá realizar-se a 12 de Novembro entre Quiaios e Buarcos na Serra da Boa Viagem. A prova faz parte do circuito distrital de trail de Coimbra.</p>\n\n\n\n<p>FKTRAIL 2023 será constituído por 3 distâncias distintas:</p>\n\n\n\n<p>Trail &#8211; Trail com cerca de 20 km e 1000m de desnível positivo.<br>Sprint &#8211; Mini Trail com cerca de 12 km e 500m de desnível positivo.<br>Caminhada &#8211; Caminhada com cerca de 10 Km.</p>\n",
+  "description_short": "Trail desafiante pela Serra da Boa Viagem com diferentes percursos no distrito de Coimbra",
+  "page": "https://lap2go.com/pt/event/fk-trail-2023",
+  "slug": "fktrail-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": "Buarcos",
+  "district_code": 6
+}

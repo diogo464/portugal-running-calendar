@@ -1,0 +1,32 @@
+{
+  "id": 1674,
+  "name": "6ª Corrida Portucale Generali 2020",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/2bf5aaf87166540f1352573e0c65bbfe"
+  ],
+  "start_date": "2020-07-12",
+  "end_date": "2020-07-13",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://6corridaportucale.eventsport.net/",
+  "slug": "6a-corrida-portucale-generali-2020",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

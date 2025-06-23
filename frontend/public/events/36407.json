@@ -1,0 +1,32 @@
+{
+  "id": 36407,
+  "name": "X Milhas do Guadiana 2024",
+  "location": "Vila Real de Santo António, Faro",
+  "coordinates": {
+    "lat": 37.1937766,
+    "lon": -7.420787899999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/527e666105d0f8880914f7dd6afd9f0d"
+  ],
+  "start_date": "2024-11-10",
+  "end_date": "2024-11-11",
+  "circuit": [],
+  "description": "\n<p>A Comissão Desportiva Mista de Vila Real de Santo António, Castro Marin e Ayamonte, constituída pelos Municípios de Vila Real de Santo Antonio e Castro Marin, a Câmara Municipal de Ayamonte, a<br>Grupo Desportivo Pic-Nic e Direção Municipal de Desporto de Ayamonte, se organizará no dia 10 de novembro de 2024,  o Prova de atletismo de estrada X MILES DEL GUADIANA, em sua 29ª edição.<br></p>\n\n\n",
+  "description_short": "Prova internacional de atletismo na região do Guadiana, unindo Portugal e Espanha",
+  "page": "http://www.10millasdelguadiana.com/",
+  "slug": "x-milhas-do-guadiana-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Vila Real de Santo António",
+  "administrative_area_level_3": "Vila Real de Santo António",
+  "district_code": 8
+}

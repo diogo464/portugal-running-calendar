@@ -1,0 +1,35 @@
+{
+  "id": 2142,
+  "name": "20 km Marginal 2020",
+  "location": "Belém, Lisboa",
+  "coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    20000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/96dd815404b41c72cfad13e22332af38"
+  ],
+  "start_date": "2020-04-19",
+  "end_date": "2020-04-20",
+  "circuit": [],
+  "description": "<p><strong>20KM DA MARGINAL</strong><br />\n<strong>Partida no Estoril | 09h00</strong><br />\nJunto ao Casino Estoril, em frente ao Centro de Exposições e chegada na Praça do Império, Belém.</p>\n<p><strong>CAMINHADA 4KM<br />\n</strong><strong>Partida na Praça do Império | 09h45</strong><br />\nPartida e chegada na Praça do Império, Belém.</p>\n",
+  "description_short": "Corrida costeira clássica pela marginal de Lisboa, ligando Estoril a Belém com vista para o Atlântico",
+  "page": "http://xistarca.pt/eventos/20km-da-marginal-2020",
+  "slug": "20-km-marginal-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

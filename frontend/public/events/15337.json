@@ -1,0 +1,34 @@
+{
+  "id": 15337,
+  "name": "Trail do Grupo Desportivo Concha Azul 2023",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/5ff9f6009a3387077c242c55b7903942"
+  ],
+  "start_date": "2023-03-19",
+  "end_date": "2023-03-20",
+  "circuit": [],
+  "description": "\n<p>Este regulamento só deverá ser aplicado no evento “<strong>2º Trail do G. D. Concha Azul</strong>, organizado pelo&nbsp;<strong>Grupo Desportivo Concha Azul</strong>, de&nbsp;<strong>São Martinho do Porto</strong>&nbsp;(doravante designado por GDCA).</p>\n\n\n\n<p>A promoção deste evento enquadra-se nos objetivos estatutários do GDCA, designadamente, no fomento da prática de atividades físicas e estilos de vida saudáveis (todos fundos que venham a ser angariados revertem para o Grupo Desportivo Concha Azul e para a promoção futura destes mesmos objetivos).</p>\n\n\n\n<p><strong>Descrição das Provas</strong></p>\n\n\n\n<p>O evento organizado irá dividir-se em duas provas competitivas e cronometradas com chip:</p>\n\n\n\n<p><strong>Trail curto:</strong> 15 km, com 500 D+, aproximadamente;</p>\n\n\n\n<p><strong>Trail longo:</strong> 25 km, com 1000 D+, aproximadamente;</p>\n\n\n\n<p>O evento contará ainda com uma<strong> caminhada</strong> de aproximadamente 8 km.</p>\n\n\n\n<p>As duas provas de trail e a caminhada passarão, essencialmente, por trilhos de areia, estradas de terra, caminhos florestais, single-tracks, e em ambiente de falésias e montanha, proporcionando a todos os participantes a oportunidade de desfrutar dos&nbsp;trilhos por entre serra e mar, com os quais a natureza brindou a Vila de São Martinho do Porto e os seus arredores.</p>\n",
+  "description_short": "Trail desafiante entre serra e mar em São Martinho do Porto com percursos técnicos por trilhos florestais e falésias",
+  "page": "https://www.recordepessoal.pt/evento/2traildogrupodesportivoconchaazul",
+  "slug": "trail-do-g-d-concha-azul-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

@@ -1,0 +1,32 @@
+{
+  "id": 17239,
+  "name": "Trail Aguieira 2022",
+  "location": "Santa Comba Dão, Viseu",
+  "coordinates": {
+    "lat": 40.3966275,
+    "lon": -8.1314525
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    11000,
+    22000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4a900294b412944e72bee1b4ebcae98a"
+  ],
+  "start_date": "2022-10-16",
+  "end_date": "2022-10-17",
+  "circuit": [],
+  "description": "\n<p>A Associação de Profissionais de Desporto e Educação Física, em colaboração com a câmara municipal de Santa Comba Dão, vai realizar no próximo dia 16 de outubro de 2022, o Trail Aguieira 2022, na cidade de Santa Comba Dão.<br>É uma prova de trail running, realizada em trilhos sinalizados, em piso acidentado, estradões e obstáculos naturais, por terrenos circundantes à cidade de Santa Comba Dão.<br>Apresentação das Provas Trail: O Percurso principal tem a distância aproximada de +/- 22 e 11Km. Estará sinalizado com fita identificadora. Caminhada/Trekking: O Percurso tem a distância aproximada de +/- 11 Kms. Estará sinalizado com fita, todas as Provas iniciam e acabam junto à Camara Municipal de Santa Comba Dão Nota: Distâncias medidas não utilizando as normas da AIMS (Association of International Marathons and Distance Races</p>\n",
+  "description_short": "Trail desafiante por trilhos e estradões em Santa Comba Dão com apoio da câmara municipal",
+  "page": "https://www.runmanager.net/Eventos/trail-aguieira/657",
+  "slug": "trail-aguieira-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Santa Comba Dão",
+  "administrative_area_level_3": "União das freguesias de Santa Comba Dão e Couto do Mosteiro",
+  "district_code": 18
+}

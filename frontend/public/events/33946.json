@@ -1,0 +1,29 @@
+{
+  "id": 33946,
+  "name": "Leiria Ocr Police 2024",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/46b77091e454dd66a685d56e5f6356c4"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-08",
+  "circuit": [],
+  "description": "\n<p>Esta é a 2ª etapa do&nbsp;<strong>Circuito Trichallenge 2024</strong>, um circuito com 3 conceitos diferentes: Montanha,&nbsp;<strong>Cidade&nbsp;</strong>e Praia.</p>\n\n\n\n<p>Leiria&nbsp;recebe assim a 5ª edição da OCR Police Challenge, com duas categorias:</p>\n\n\n\n<p><strong>FUN&nbsp;</strong>– os atletas participam de forma lúdica, em equipa com familiares e ou amigos, podendo ajudarem-se uns aos outros a transpor os obstáculos;</p>\n\n\n\n<p><strong>ELITE&nbsp;</strong>– uma participação exigente de grande competitividade, com luta pelos melhores resultados e classificação nos pódios.</p>\n\n\n",
+  "description_short": "Prova de obstáculos com categorias lúdica e competitiva nas ruas de Leiria",
+  "page": "https://waitastart.com/leiria-ocr-police-24/",
+  "slug": "leiria-ocr-police-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

@@ -1,0 +1,37 @@
+{
+  "id": 30837,
+  "name": "Trail Serra D&#8217;Arga 2024",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    5260,
+    5510,
+    15000,
+    50000,
+    100000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/07c3fb9925f82356235b863e26b1b54a"
+  ],
+  "start_date": "2024-09-27",
+  "end_date": "2024-09-28",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Grande Trail da Serra d’Arga é organizado pela Carlos Sá Nature Events®. Conta ainda com a colaboração das Câmaras Municipais de Caminha, Viana do Castelo e Vila Nova de Cerveira, das Juntas de Freguesias de Dem, São Lourenço da Montaria, Estorãos, Arga S. João, Arga de Cima e Arga de Baixo, Amonde, Gondar, Orbacém, Afife e Covas.<br></p>\n\n\n\n<p>Provas:<br>No dia 27 de Setembro no centro de Vila Praia de Âncora partirá o GTSA 100km com início às 22h00. O percurso do GTSA 100km com 5510m D+ e 5260m D-, segue pelas localidades de Dem, Covas, Cerquido, Montaria, Pedrulhos terminando em Dem. No dia 28 de Setembro decorrerá a prova rainha do evento, o GTSA 50km, e uma novidade, o GTSA 15km.</p>\n",
+  "description_short": "Trail desafiante pela Serra d'Arga com provas noturnas e diurnas em Vila Praia de Âncora",
+  "page": "https://stopandgo.net/events/grande-trail-serra-darga-2024",
+  "slug": "trail-serra-darga-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

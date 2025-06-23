@@ -1,0 +1,32 @@
+{
+  "id": 37047,
+  "name": "Proença Cross Trail 2024",
+  "location": "Proença a Nova, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/79952714c0fdeb4c703c718e2b9ab538"
+  ],
+  "start_date": "2024-12-14",
+  "end_date": "2024-12-15",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Proença Cross Trail é um evento turístico / desportivo de pedestrianismo, constituído por 3 distâncias aqui classificadas com as siglas ATRP, Jovem, Sprint e Ultra.</p>\n",
+  "description_short": "Trail desafiante pela região de Proença com diferentes percursos para todos os níveis de Trail running",
+  "page": "https://stopandgo.net/events/proenca-cross-trail-2024",
+  "slug": "proenca-cross-trail-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

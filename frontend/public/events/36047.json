@@ -1,0 +1,35 @@
+{
+  "id": 36047,
+  "name": "Meia Maratona Douro Vinhateiro 2025",
+  "location": "Peso da Régua, Vila Real",
+  "coordinates": {
+    "lat": 41.1635467,
+    "lon": -7.7797049
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    5000,
+    21097,
+    97000
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/090d40561e69ed2c8af85e4f313c0c49"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona Douro Vinhateiro realiza-se a 25 de Maio de 2025 pelas 9h00.</p>\n\n\n\n<p>Serão três as corridas:</p>\n\n\n\n<p>&#8211; Meia Maratona, 21,097 km</p>\n\n\n\n<p>&#8211; Mini Maratona Cronometrada, 5km </p>\n\n\n\n<p>&#8211; Caminhada, 5 km</p>\n",
+  "description_short": "Meia Maratona pela região vinícola do Douro com diferentes provas para todos os níveis",
+  "page": "https://www.douro-half-marathon.com/",
+  "slug": "meia-maratona-douro-vinhateiro-2025",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Peso da Régua",
+  "administrative_area_level_3": "Peso da Régua",
+  "district_code": 17
+}

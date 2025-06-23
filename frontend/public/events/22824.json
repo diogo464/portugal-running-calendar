@@ -1,0 +1,32 @@
+{
+  "id": 22824,
+  "name": "Meia-Maratona do Porto Santo 2023",
+  "location": "Porto Santo, Madeira",
+  "coordinates": {
+    "lat": 33.05,
+    "lon": -16.35
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/3d754962e3c41f332c1df783c12558cc"
+  ],
+  "start_date": "2023-03-11",
+  "end_date": "2023-03-12",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona do Porto Santo é a prova que designa os atletas campeões regionais absolutos e dos vários escalões de veteranos da Meia Maratona e também os clubes campeões regionais coletivos.</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>A participação nestas provas obriga a uma inscrição prévia até ao dia 26 de fevereiro.<br>a. Mini Maratona do Porto Santo – 5 euros<br>b. Meia Maratona do Porto Santo / Campeonato Regional de Meia Maratona – 10 euros</li>\n</ol>\n\n\n\n<p></p>\n",
+  "description_short": "Meia Maratona competitiva que decide os campeões regionais na ilha do Porto Santo",
+  "page": "https://atletismodamadeira.pt/event/mini-meia-maratona-do-porto-santo-c-r-de-meia-maratona-2/",
+  "slug": "meia-maratona-do-porto-santo-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Porto Santo",
+  "administrative_area_level_3": "Porto Santo",
+  "district_code": 30
+}

@@ -1,0 +1,30 @@
+{
+  "id": 23678,
+  "name": "Trail do ladário / rota do vinho verde 2023",
+  "location": "Celorico de Basto, Braga",
+  "coordinates": {
+    "lat": 41.3889737,
+    "lon": -7.999703599999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d12c36230ad23d260f0d18c144d486d7"
+  ],
+  "start_date": "2023-06-11",
+  "end_date": "2023-06-12",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "http://events.portimer.pt/eventos/trail-ladario-2023",
+  "slug": "trail-do-ladario-rota-do-vinho-verde-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Celorico de Basto",
+  "administrative_area_level_3": "União das freguesias de Britelo, Gémeos e Ourilhe",
+  "district_code": 3
+}

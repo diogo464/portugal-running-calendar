@@ -1,0 +1,32 @@
+{
+  "id": 23454,
+  "name": "I Edição Da Corrida Internacional De 10 Km Viana Do Castelo",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/42ea7491472fbef1c5a890dd7ccf2085"
+  ],
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-03",
+  "circuit": [],
+  "description": "\n<p>A Associação Desportiva &#8220;Cyclones Sanitop&#8221; e o Município de Viana do Castelo vão organizar a 1ª edição da Corrida Internacional de 10 km &#8220;Viana do Castelo Cidade Europeia do Desporto&#8221;. A prova será no Domingo, 02 de Julho de 2023, pela 10h com partida e chegada em frente ao Centro Cultural de Viana do Castelo. A prova é composta por uma corrida de 10 km em circuito de estrada, estando totalmente fechado ao trânsito, tem início às 10h, com encerramento de controlo dos tempos 2h após a partida.</p>\n\n\n",
+  "description_short": "Corrida internacional de 10 km em Viana do Castelo com partida no Centro Cultural",
+  "page": "http://cyclonessports.com/index.php/271-i-edicao-da-corrida-internacional-de-10-km-viana-do-castelo-cidade-europeia-do-desporto",
+  "slug": "i-edicao-da-corrida-internacional-de-10-km-viana-do-castelo",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

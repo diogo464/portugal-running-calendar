@@ -1,0 +1,35 @@
+{
+  "id": 29313,
+  "name": "Trail na Rota da Perdiz 2023",
+  "location": "Alcoutim, Faro",
+  "coordinates": {
+    "lat": 37.4689817,
+    "lon": -7.4735957
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000,
+    9000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f8b1a1234c6e1a5a591e20b800c4f5a7"
+  ],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [],
+  "description": "\n<p>O “IV Trail na Rota da Perdiz” é uma prova de Trail Running organizada pela Associação Inter-Vivos em colaboração com a Câmara Municipal de Alcoutim, que será realizada no dia 12 de novembro de 2023, com início as 09:30 horas com o complemento da opção da caminhada.</p>\n\n\n\n<p>Os percursos têm as seguintes distâncias:</p>\n\n\n\n<p>• Trail &#8211; 18 Km com idade mínima permitida de participação, maior ou igual a 18 anos;</p>\n\n\n\n<p>• Caminhada de 5 e 9 Km que não terá classificações, idade mínima maior ou igual a 12 anos, sendo que os menores de idade terão de ser acompanhados por um responsável maior de idade</p>\n\n\n",
+  "description_short": "Trail pedestre pela região de Alcoutim com passagem pela rota da perdiz, organizado pela Associação Inter-Vivos e câmara municipal",
+  "page": "https://www.crono.aaalgarve.org/eventos/iv-trail-na-rota-da-perdiz",
+  "slug": "trail-na-rota-da-perdiz-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Alcoutim",
+  "administrative_area_level_3": "União das freguesias de Alcoutim e Pereiro",
+  "district_code": 8
+}

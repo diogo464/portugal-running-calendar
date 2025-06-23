@@ -1,0 +1,40 @@
+{
+  "id": 20257,
+  "name": "XTERRA Trail de Mato de Miranda 2022",
+  "location": "Golegã, Santarém",
+  "coordinates": {
+    "lat": 39.4047966,
+    "lon": -8.4880572
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    11000,
+    21000,
+    42000,
+    42195
+  ],
+  "types": [
+    "run",
+    "trail",
+    "marathon",
+    "walk"
+  ],
+  "images": [
+    "media/b68066d5fecb57af20c4d1d4a8610dbf"
+  ],
+  "start_date": "2022-11-27",
+  "end_date": "2022-11-28",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O <strong>XTERRA Trail de Mato de Miranda</strong> terá a sua primeira edição no dia 27 de Novembro de 2022, com partida e chegada junto à Estação dos Caminhos de Ferro de Mato Miranda. A organização do resulta de uma parceria entre o Bikeweels Team do Pombalinho e o Núcleo do Sporting Clube de Portugal da Golegã que aproveita assim a licença de utilização da marca em Portugal que detém fruto da organização do triatlo.</p>\n\n\n\n<p>O XTERRA Trail, é um evento desportivo que pretende promover a prática desportiva em geral e o Trail Run em particular, dando a conhecer os trilhos e desafios presentes na nossa região e é composto por :</p>\n\n\n\n<p>Trail Maratona com cerca de 42 Km</p>\n\n\n\n<p>Trail longo com 21 Km</p>\n\n\n\n<p>Trail Curto &nbsp;com 11 e Caminhada de 10 Km&nbsp;</p>\n\n\n\n<p>Todas as partidas e chegadas serão junto à Estação de Caminhos de Ferro de Mato de Miranda</p>\n\n\n\n<p>Os percursos são essencialmente em terra batida, trilhos com muita pedra solta, zonas com água, riachos e ribeiros, com troncos de árvores, atravessando uma estrada de alcatrão e com a zona de chegada também em alcatrão.</p>\n\n\n",
+  "description_short": "Trail XTERRA desafiante em Mato de Miranda com percursos técnicos por trilhos e paisagens naturais rústicas",
+  "page": "http://xterra-portugal.com/",
+  "slug": "xterra-trail-de-mato-de-miranda-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Golegã",
+  "administrative_area_level_3": "Golegã",
+  "district_code": 14
+}

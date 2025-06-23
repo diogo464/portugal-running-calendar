@@ -1,0 +1,40 @@
+{
+  "id": 25435,
+  "name": "Canelas Trail 2023",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    250,
+    500,
+    1000,
+    1500,
+    8000,
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/1a7bd369d10b864cc1a09fd7d51b0fa8"
+  ],
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-11",
+  "circuit": [],
+  "description": "\n<p>O Canelas Trail é um evento desportivo de Trail Running da responsabilidade organizativa da Associação Desportiva e Cultural de Santa Isabel, através da sua secção de Trail Running.<br>É uma Associação sem fins lucrativos, com sede na Freguesia de&nbsp;<strong>Canelas</strong>, Município de<strong>&nbsp;Vila Nova de Gaia</strong>, que se realizará no dia&nbsp;<strong>10 de setembro de 2023</strong>.<br>O Canelas Trail, terá no total 2 provas de carácter competitivo, distribuídas da seguinte forma:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail 18km</li>\n\n\n\n<li>Mini Trail 12km</li>\n</ul>\n\n\n\n<p>Haverá também, para os amantes de Caminhada, que apreciam a natureza na sua plenitude, um percurso circular de 8km, sem carácter competitivo.<br>Realizar-se-à ainda um Kid’s Trail, para pequenos amantes de Trail, com idades entre os 4/ 12 anos.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>4/5 anos – 250m</li>\n\n\n\n<li>6/7 anos – 500m</li>\n\n\n\n<li>8/9 anos – 1000m</li>\n\n\n\n<li>10/12 anos 1500m</li>\n</ul>\n\n\n",
+  "description_short": "Trail solidário em Canelas, Vila Nova de Gaia, com percursos competitivos e caminhada pela natureza local",
+  "page": "https://waitastart.com/canelas-trail23/",
+  "slug": "canelas-trail-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

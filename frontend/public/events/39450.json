@@ -1,0 +1,28 @@
+{
+  "id": 39450,
+  "name": "Limestone Ultra Trail 2025",
+  "location": "Porto de Mós, Leiria",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-07-26",
+  "end_date": "2025-07-27",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/limestoneultratrail2025",
+  "slug": "limestone-ultra-trail-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

@@ -1,0 +1,36 @@
+{
+  "id": 17144,
+  "name": "TEX &#8211; Trail Encostas de Xira 2022",
+  "location": "Vila Franca de Xira, Lisboa",
+  "coordinates": {
+    "lat": 38.9549979,
+    "lon": -8.9888982
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    100,
+    600,
+    10000,
+    16000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/988f4b140e5b8ebf3b1a492996a9af07"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>O <strong>Trail Encostas de Xira</strong> é um conjunto de provas de trail running – corrida de montanha e trilhos, com caracter competitivo e lúdico que decorrerá no dia <strong>11 de Setembro de 2022</strong> com início e fim na <strong>Quinta Municipal da SubSerra</strong>, concelho de <strong>Vila Franca de Xira</strong>.</p>\n\n\n\n<p>O evento é planeado, organizado e produzido pelos&nbsp;<strong>“Alverca Urban Runners” – DESTINOLIMPICO – Associação de Desportos Urbanos de Alverca</strong>, daqui em diante designados por Alverca Urban Runners ou organização, com o apoio da&nbsp;<strong>Câmara Municipal de Vila Franca de Xira, União de Freguesias de Alverca do Ribatejo e Sobralinho e União de Freguesias de Alhandra, São João dos Montes e Calhandriz.</strong></p>\n\n\n\n<p><strong>Caraterísticas da Prova</strong></p>\n\n\n\n<p>A primeira edição do&nbsp;<strong>Trail “Encostas de Xira</strong>&nbsp;será composta por duas provas competitivas:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Trail Longo com cerca de 25 km</strong>, aproximadamente, 1.100 metros de desnível acumulado positivo,&nbsp;<strong>início previsto para as 8h30m</strong>&nbsp;e 3 abastecimentos (2 durante o percurso e 1 no final)</li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Trail Curto com cerca de 16 km</strong>, aproximadamente, 600 metros de desnível acumulado positivo,&nbsp;<strong>início previsto para as 9h</strong>&nbsp;e 2 abastecimentos (1 no percurso e 1 no final);</li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>E por uma caminhada com cerca de 10 km</strong>, duas vertentes, livre ou guiada,&nbsp;<strong>início previsto para as 9h30m</strong>&nbsp;e 2 abastecimentos (1 no percurso e 1 no final).</li></ul>\n",
+  "description_short": "Trail competitivo nas encostas de Vila Franca de Xira com provas de montanha e caminhada, numa organização dos Alverca Urban Runners",
+  "page": "https://www.recordepessoal.pt/evento/tex-trailencostasdexira",
+  "slug": "trail-encostas-de-xira-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "Vila Franca de Xira",
+  "district_code": 11
+}

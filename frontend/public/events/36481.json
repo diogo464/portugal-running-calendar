@@ -1,0 +1,36 @@
+{
+  "id": 36481,
+  "name": "Trail da Escarpiada 2024",
+  "location": "Zambujal, Condeixa-a-Nova",
+  "coordinates": {
+    "lat": 40.0575111,
+    "lon": -8.4476921
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    16000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/f51e8df6fe2c57387cc3c4e0e38c4e43"
+  ],
+  "start_date": "2024-11-30",
+  "end_date": "2024-12-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A ARCD Venda da Luísa vai realizar no dia 30 de novembro de 2024 o&nbsp;<strong>IV Trail da Escarpiada</strong>.</p>\n\n\n\n<p>A prova terá partida e chegada junto à Associação da aldeia do Casmilo, concelho de Condeixa-a-Nova e percorrerá a Serra de Sicó nas freguesias do Zambujal e do Furadouro. Terá 3 provas competitivas, uma com aproximadamente&nbsp;<strong>31Km&nbsp;</strong>(Trail Longo), outra com&nbsp;<strong>16Km</strong>&nbsp;(Trail Curto/Sprint), e ainda uma de&nbsp;<strong>10Km</strong>&nbsp;(Mini Trail) coincidente com o percurso da caminhada e que servirá aos que se querem iniciar na prática da modalidade. A prova de&nbsp;<strong>31Km integra o Circuito de Trail Longo</strong>&nbsp;da Associação Distrital de Atletismo de Coimbra e todas as distâncias são candidatas aos Circuitos da ATRP.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela Serra de Sicó com várias distâncias em Condeixa-a-Nova",
+  "page": "https://www.omdceventos.com/evento/iv-trail-da-escarpiada",
+  "slug": "trail-da-escarpiada-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "Zambujal",
+  "district_code": 6
+}

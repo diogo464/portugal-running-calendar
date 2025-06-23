@@ -1,0 +1,33 @@
+{
+  "id": 17126,
+  "name": "1º Trail Rota Vale do Alcoa &#8211; a Caminhar Pela Maiorga 2022",
+  "location": "Maiorga, Alcobaça",
+  "coordinates": {
+    "lat": 39.5789157,
+    "lon": -8.9804674
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e87ddadf028a7162a7723f3a6e2fd9fa"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p>A 1ª Rota do Vale do Alcoa , a decorrer no dia 9 de outubro de 2022 é um evento da Associação de Freguesias Vale do Alcoa, sendo esta edição organizada pela Junta de Freguesia de Maiorga.</p>\n\n\n\n<p>Caminhada de 10 Km</p>\n\n\n\n<p>Prova de Trail de 15 Km</p>\n",
+  "description_short": "Caminhada e trail pela primeira rota do pitoresco Vale do Alcoa",
+  "page": "https://www.trilhoperdido.com/evento/1-Trail-Rota-Vale-do-Alcoa",
+  "slug": "1a-rota-do-vale-do-alcoa-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Maiorga",
+  "district_code": 10
+}

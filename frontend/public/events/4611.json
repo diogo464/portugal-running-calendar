@@ -1,0 +1,33 @@
+{
+  "id": 4611,
+  "name": "Meia Maratona de Setúbal 2021",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/e705a94d0e173f37e0cdb47457c482d2"
+  ],
+  "start_date": "2021-10-30",
+  "end_date": "2021-10-31",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://www.alegromeiamaratonadesetubal.pt/forms/pt/classificacao.aspx\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<h2 class=\"wp-block-heading\"><a href=\"https://www.alegromeiamaratonadesetubal.pt/site/?local=info\" target=\"_blank\" rel=\"noreferrer noopener\">Percurso</a></h2>\n\n\n\n<p>A <strong>Meia Maratona de Setúbal 2021, Corrida das Famílias e Corrida Miúdos Alegro</strong>&nbsp;são as propostas de Setúbal para um fim-de-semana repleto de desafios! Escolha a sua prova, venha participar e conhecer Setúbal</p>\n",
+  "description_short": "Meia maratona familiar com percurso pela cidade de Setúbal e envolvente do Alegro",
+  "page": "https://www.alegromeiamaratonadesetubal.pt/site/",
+  "slug": "meia-maratona-de-setubal-2021",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

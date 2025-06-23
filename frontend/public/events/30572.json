@@ -1,0 +1,39 @@
+{
+  "id": 30572,
+  "name": "Trail Aqui Há Os 2024",
+  "location": "Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1521398,
+    "lon": -8.857583
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    17000,
+    30000,
+    46000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/bffbff10bb907e7e10d37c68aaef8c6a"
+  ],
+  "start_date": "2024-05-11",
+  "end_date": "2024-05-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A associação Talentos Objetivos — Clube de Enduro e Recreio irá promover, com o apoio da junta de freguesia de Quiaios e da Câmara Municipal da Figueira da Foz, a quarta edição de Trail Running intitulada 4° TRAIL RUN AQUI HÁ-OS.<br>Será realizada nos dias 11 e 12 de maio de 2024 independentemente das condições climatéricas e que o organizador entenda que não há riscos acrescidos pelas mesmas para este tipo de evento.</p>\n\n\n\n<p>0 4° TRAIL RUN AQUI HÁ-OS é composto pelas distâncias de 12km, 17km, 30km e 46km.<br>Os traçados estão desenhados na encosta norte e oeste da Serra da Boa Viagem em percursos já existentes: estradões, single-tracks, caminhos agrícolas e muito pouco de estrada asfaltada. A localidade da Praia de Quiaios sedeará o Secretariado e a Partida/Chegada.<br>Exceção para o Trail Ultra que tem a partida no Farol do Cabo Mondego e chegada na Praia de Quiaios.</p>\n\n\n\n<p>Distâncias:<br>12km &#8211; Caminhada<br>12km &#8211; Trail Jovem &#8211; circuito ATRP &#8211; [série 150]<br>17km &#8211; Trail Sprint &#8211; circuito ATRP &#8211; [série 100]<br>30km &#8211; Trail &#8211; circuito ATRP &#8211; [série 100]<br>46km &#8211; Trail Ultra &#8211; circuito ATRP &#8211; [serie 100] e circuito ADAC [prova única]</p>\n",
+  "description_short": "Trail Running com múltiplas distâncias na Serra da Boa Viagem, com partida no Farol do Cabo Mondego e chegada na Praia de Quiaios",
+  "page": "https://www.runmanager.net/Eventos/4-trail-run-aqui-ha-os/754",
+  "slug": "trail-aqui-ha-os-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

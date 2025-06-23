@@ -1,0 +1,29 @@
+{
+  "id": 163,
+  "name": "Poiares Trail 2020",
+  "location": "Poiares, Coimbra",
+  "coordinates": {
+    "lat": 40.2107667,
+    "lon": -8.25907
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/fa7a177e9bccf28eed2c289901ea42f2"
+  ],
+  "start_date": "2020-02-23",
+  "end_date": "2020-02-24",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://poiarestrail.wixsite.com/arsm",
+  "slug": "poiares-trail-2020",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Vila Nova de Poiares",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

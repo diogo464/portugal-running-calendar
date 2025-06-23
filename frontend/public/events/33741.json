@@ -1,0 +1,37 @@
+{
+  "id": 33741,
+  "name": "Meia Maratona Loures Odivelas 2024",
+  "location": "Odivelas, Lisboa",
+  "coordinates": {
+    "lat": 38.7928952,
+    "lon": -9.183161499999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/3f7c17bbc940487ca2f9e65628ffe383"
+  ],
+  "start_date": "2024-09-22",
+  "end_date": "2024-09-23",
+  "circuit": [],
+  "description": "\n<p>Os Municípios de Loures e Odivelas organizam pela segunda vez a Meia Maratona – Loures-Odivelas-Loures, no dia 22 de setembro. Sob o slogan Juntos pelo Desporto, as duas autarquias unem-se uma vez mais para reviver uma prova de atletismo que se realizava nos anos 80 e 90 e que ligava as duas cidades. A iniciativa, integra também, uma corrida de 10km, uma caminhada de 5km e uma corrida para os mais pequenos na véspera.</p>\n\n\n",
+  "description_short": "Meia maratona que une Loures e Odivelas, resgatando tradição histórica dos anos 80 e 90",
+  "page": "https://werun.pt/eventos/meia-maratona-loures-odivelas-loures/",
+  "slug": "meia-maratona-loures-odivelas-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Odivelas",
+  "administrative_area_level_3": "Odivelas",
+  "district_code": 11
+}

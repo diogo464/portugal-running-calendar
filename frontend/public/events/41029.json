@@ -1,0 +1,35 @@
+{
+  "id": 41029,
+  "name": "Corrida e Caminhada da Liberdade Montijo 2025",
+  "location": "Montijo, Setúbal",
+  "coordinates": {
+    "lat": 38.7275547,
+    "lon": -8.6820636
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    1000,
+    5000,
+    9000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/959b1bb3209fbef61a2d5074f143d2b7"
+  ],
+  "start_date": "2025-04-25",
+  "end_date": "2025-04-26",
+  "circuit": [],
+  "description": "\n<p>A X Corrida e Caminhada da Liberdade da Cidade do Montijo terá três percursos, um percurso com 1000mts para os escalões jovens, um percurso com 9000mts para a corrida principal e um percurso de 5000mts para a caminhada.</p>\n\n\n",
+  "description_short": "Corrida comemorativa da Liberdade com múltiplos percursos no Montijo",
+  "page": "https://xistarca.pt/eventos/11a-corrida-da-liberdade-montijo-2025",
+  "slug": "corrida-e-caminhada-da-liberdade-montijo-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Montijo",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

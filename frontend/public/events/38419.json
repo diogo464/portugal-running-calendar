@@ -1,0 +1,33 @@
+{
+  "id": 38419,
+  "name": "Prova de Atletismo de Cesar 2025",
+  "location": "Cesar, Oliveira de Azeméis",
+  "coordinates": {
+    "lat": 40.9188813,
+    "lon": -8.4430997
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/4aa06615a6e56f5d37caba3d78d6c7ac"
+  ],
+  "start_date": "2025-03-30",
+  "end_date": "2025-03-31",
+  "circuit": [],
+  "description": "\n<p>A Associação Villa Cesari, através da sua secção de Atletismo, organiza de novo a Prova de Atletismo de Cesar, que reunirá nesta vila do concelho de Oliveira de Azeméis provas para todos os escalões etários e um leque dos melhores atletas nacionais.</p>\n",
+  "description_short": "Prova de atletismo tradicional na vila de Cesar com participação de atletas nacionais",
+  "page": "https://lap2go.com/pt/event/atletismo-cesar-2025",
+  "slug": "prova-de-atletismo-de-cesar-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "Cesar",
+  "district_code": 1
+}

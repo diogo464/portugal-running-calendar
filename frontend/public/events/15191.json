@@ -1,0 +1,33 @@
+{
+  "id": 15191,
+  "name": "11ª Corrida das Castanhas 2022",
+  "location": "Ajuda, Lisboa",
+  "coordinates": {
+    "lat": 38.71131159999999,
+    "lon": -9.1982123
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/bbe3f7c05c5152373b3364b023d06c57"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>A 11ª edição deste evento &#8211; Corrida das Castanhas 2022, proporcionará a todos os participantes de corrida e caminhada, uma manhã diferente <strong>acompanhada de um convívio final com oferta de castanhas e água-pé.</strong></p>\n\n\n\n<p>Acompanhamos com um <strong><a href=\"https://www.portugalrunning.com/plano-de-treino-de-corrida/\">Plano de Treino de Corrida</a> </strong>adequado.</p>\n",
+  "description_short": "Corrida tradicional com convívio e oferta de castanhas e água-pé no final",
+  "page": "https://xistarca.pt/eventos/corrida-das-castanhas-2022",
+  "slug": "corrida-das-castanhas-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Ajuda",
+  "district_code": 11
+}

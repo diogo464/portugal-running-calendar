@@ -1,0 +1,32 @@
+{
+  "id": 36276,
+  "name": "Prova do Sal 2024",
+  "location": "Praia dos Moinhos, Alcochete",
+  "coordinates": {
+    "lat": 38.7479629,
+    "lon": -8.970922500000002
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/88ec96f29bb3f88da655f273a1137617"
+  ],
+  "start_date": "2024-09-22",
+  "end_date": "2024-09-22",
+  "circuit": [],
+  "description": "\n<p>10 Km – Competição na areia e caminhos de terra batida denominada “Prova do Sal”.</p>\n\n\n\n<p>A partida será dada às 10h00 do dia 22 de setembro 2024, na Praia dos Moinhos em Alcochete.</p>\n\n\n",
+  "description_short": "Corrida desafiante pela areia e caminhos de terra batida em Alcochete",
+  "page": "https://acorrer.pt/eventos/info/3598",
+  "slug": "prova-do-sal-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcochete",
+  "administrative_area_level_3": "Alcochete",
+  "district_code": 15
+}

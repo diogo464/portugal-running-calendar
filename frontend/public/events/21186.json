@@ -1,0 +1,34 @@
+{
+  "id": 21186,
+  "name": "Meia Maratona de Cardiff 2023",
+  "location": "Cardiff, Reino Unido",
+  "coordinates": {
+    "lat": 51.483707,
+    "lon": -3.1680962
+  },
+  "country": "Reino Unido",
+  "locality": "País de Gales",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/b731c098151af43d792922b14f7e0330"
+  ],
+  "start_date": "2023-10-01",
+  "end_date": "2023-10-02",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>Since it was founded in 2003, the Wizz Air Cardiff Half Marathon&nbsp;has established itself as one of the UK’s leading road races.&nbsp;</p>\n\n\n\n<p>With 27,500 entries selling out each year, this is now one of the biggest events in Europe – a huge achievement considering only 1,500 runners took part in the inaugural event. The route takes in all of the cities most iconic landmarks including the Principality Stadium, Cardiff Bay, the Civic Centre and Cardiff Castle.&nbsp;</p>\n\n\n\n<p>As <strong>SuperHalfs </strong>compreendem as seguintes corridas:<br>1.&nbsp;&nbsp; &nbsp;EDP Half Marathon Lisbon<br>2.&nbsp;&nbsp; &nbsp;Sportisimo Prague Half Marathon<br>3.&nbsp;&nbsp; &nbsp;Copenhagen Half Marathon<br>4.&nbsp;&nbsp; &nbsp;Cardiff Half Marathon<br>5.&nbsp;&nbsp; &nbsp;Medio Maratón Valencia Trinidad Alfonso Zurich</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Meia maratona de Cardiff com percurso histórico passando pelos principais monumentos da cidade, integrada no circuito SuperHalfs.",
+  "page": "https://www.cardiffhalfmarathon.co.uk/",
+  "slug": "meia-maratona-de-cardiff-2023",
+  "administrative_area_level_1": "País de Gales",
+  "administrative_area_level_2": "Cardiff",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

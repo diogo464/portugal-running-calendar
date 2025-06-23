@@ -1,0 +1,34 @@
+{
+  "id": 25225,
+  "name": "Meia Maratona de Berlim 2024",
+  "location": "Berlim, Alemanha",
+  "coordinates": {
+    "lat": 52.52000659999999,
+    "lon": 13.404954
+  },
+  "country": "Alemanha",
+  "locality": "Berlim",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/2fe305bd07c66735ef5268a27c8bc938"
+  ],
+  "start_date": "2024-04-07",
+  "end_date": "2024-04-08",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>A Meia Maratona de Berlim ocorre no início de abril, no início da primavera. A corrida pela capital alemã é um evento internacional de alto nível e marca o início de toda a comunidade de runners. O percurso plano oferece óptimas oportunidades para obter excelentes tempos.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona internacional por Berlim com percurso plano e rápido na primavera alemã",
+  "page": "https://www.generali-berliner-halbmarathon.de/en/",
+  "slug": "meia-maratona-de-berlim-2024",
+  "administrative_area_level_1": "Berlim",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": "Kreisfreie Stadt Berlin",
+  "district_code": null
+}

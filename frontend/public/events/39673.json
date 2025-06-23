@@ -1,0 +1,32 @@
+{
+  "id": 39673,
+  "name": "Caramulo Ocr Police 2025",
+  "location": "Caramulo, Viseu",
+  "coordinates": {
+    "lat": 40.5717838,
+    "lon": -8.1706399
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    500,
+    10000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/7fef2cffd6dd8de4e8815bcef2b759ee"
+  ],
+  "start_date": "2025-05-17",
+  "end_date": "2025-05-18",
+  "circuit": [],
+  "description": "\n\n\n<p>Desafia-te na 1ª de 3 etapas, do circuito Trichallenge 2025. Este é um desafio onde podes participar individualmente ou com a tua equipa de amigos, mais importante do que vencer é terminar e conquistar a meta.</p>\n\n\n\n<p>Um fim de semana com 2 eventos:</p>\n\n\n\n<p>dia 18 maio: OCR Super Sprint 500 m</p>\n\n\n\n<p>dia 17 maio: OCR Caramulo 10K</p>\n",
+  "description_short": "Evento de obstáculos no Caramulo com duas provas complementares de OCR em ambiente desafiante",
+  "page": "https://nativewarriors.pt/evento/caramulo-ocr-police-2025/",
+  "slug": "caramulo-ocr-police-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tondela",
+  "administrative_area_level_3": "Guardão",
+  "district_code": 18
+}

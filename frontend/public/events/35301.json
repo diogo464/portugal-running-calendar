@@ -1,0 +1,33 @@
+{
+  "id": 35301,
+  "name": "Corrida Bombeiros de Portimão 2024",
+  "location": "Portimão, Faro",
+  "coordinates": {
+    "lat": 37.13617,
+    "lon": -8.5376926
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/a21fa4cd2729c04747aaf6354d79ad79"
+  ],
+  "start_date": "2024-05-26",
+  "end_date": "2024-05-27",
+  "circuit": [],
+  "description": "\n<p>A Associação Humanitária de Bombeiros Voluntários de Portimão, vai realizar no domingo, dia 26 de<br>maio de 2024, pelas 10:00 horas, um evento desportivo de Atletismo, designado por VIII<br>Corrida/Caminhada Solidária Bombeiros de Portimão “Uma Força da Sociedade Civil”.</p>\n\n\n",
+  "description_short": "Corrida solidária organizada pelos Bombeiros Voluntários de Portimão em apoio à comunidade",
+  "page": "https://acorrer.pt/eventos/info/3532",
+  "slug": "corrida-bombeiros-de-portimao-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Portimão",
+  "administrative_area_level_3": "Portimão",
+  "district_code": 8
+}

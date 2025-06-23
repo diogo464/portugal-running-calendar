@@ -1,0 +1,36 @@
+{
+  "id": 14550,
+  "name": "12KM Salvaterra De Magos 2022",
+  "location": "Salvaterra de Magos, Santarém",
+  "coordinates": {
+    "lat": 39.0272019,
+    "lon": -8.794182
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    10000,
+    12000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/5ed65d104d9ccca1913ba495be436889"
+  ],
+  "start_date": "2022-03-27",
+  "end_date": "2022-03-28",
+  "circuit": [],
+  "description": "\n<p>O “ACS – Amigos da Corrida de Salvaterra”, organiza no dia 27 de Março de 2022, pelas 10h30, a corrida “XX 12KM Salvaterra De Magos 2022 Professor António Lopes”, a “II Mini-Corrida 5km Fernando José Andrade” e a “Caminhada Mexa-se por nós”.</p>\n\n\n\n<p>Aos atletas inscritos na edição de 2020, informamos que a vossa inscrição foi automaticamente transferida para esta edição (2022). Receberão, brevemente, o comprovativo de inscrição da plataforma Xistarca.</p>\n",
+  "description_short": "Corrida tradicional em Salvaterra de Magos homenageando figuras locais com percurso de 12km e mini-corrida",
+  "page": "https://xistarca.pt/eventos/12km-salvaterra-de-magos",
+  "slug": "12km-salvaterra-de-magos-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "Salvaterra de Magos",
+  "district_code": 14
+}

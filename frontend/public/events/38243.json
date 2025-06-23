@@ -1,0 +1,33 @@
+{
+  "id": 38243,
+  "name": "São Silvestre Alqueidão da Serra 2024",
+  "location": "Alqueidão da Serra, Leiria",
+  "coordinates": {
+    "lat": 39.616726,
+    "lon": -8.7824046
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/a0fb91073c81ea26753d6bd43adf9187"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-08",
+  "circuit": [],
+  "description": "\n<p>No próximo dia 7 de dezembro de 2024, realiza-se a&nbsp;<strong>7ª&nbsp;</strong><strong>SÃO SILVESTRE DE ALQUEIDÃO DA SERRA</strong>, organizada pelo CCR Alqueidão da Serra.</p>\n\n\n",
+  "description_short": "Corrida de São Silvestre tradicional na região de Alqueidão da Serra",
+  "page": "https://www.recordepessoal.pt/evento/7saosilvestredealqueidaodaserra",
+  "slug": "sao-silvestre-alqueidao-da-serra-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Alqueidão da Serra",
+  "district_code": 10
+}

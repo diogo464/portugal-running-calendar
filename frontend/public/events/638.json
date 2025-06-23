@@ -1,0 +1,29 @@
+{
+  "id": 638,
+  "name": "Vales de Vimioso TrailRun",
+  "location": "Vimioso, Bragança",
+  "coordinates": {
+    "lat": 41.5844451,
+    "lon": -6.529121099999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/c47464377b27db9848bbd4a1e74cb3c6"
+  ],
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-02",
+  "circuit": [],
+  "description": "<p>Contamos com os nossos amigos e amantes da modalidade de trail!</p>\n<p>Acreditem que vão encontrar montes e vales de suster a respiração!</p>\n<p>VIMIOSO, São Joanico e outras aldeias recheadas de terra, abrigo de cogumelos e frutos silvestres, mas também de rios e riachos de águas cristalinas, de pontões e pontes romanas, de gentes humildes e acolhedoras&#8230; região onde se pode sentir o pulsar do tempo, transportando-nos para tempos ancestrais através da contemplação de paisagens naturais enriquecidas por verdadeiros quadros de vida de um povo em evolução, com cultura e tradições.</p>\n<p>Curiosos? Dia 1 de março de 2020, todos os caminhos levam-nos a Trás-os-Montes: VIMIOSO, São Joanico!</p>\n",
+  "description_short": "Trail pela região transmontana de Vimioso, descobrindo paisagens ancestrais, rios cristalinos e pontes romanas",
+  "page": "https://www.prozis.com/pt/pt/evento/vales-de-vimioso-trailrun",
+  "slug": "vales-de-vimioso-trailrun",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Vimioso",
+  "administrative_area_level_3": "Vimioso",
+  "district_code": 4
+}

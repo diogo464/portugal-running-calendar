@@ -1,0 +1,32 @@
+{
+  "id": 29362,
+  "name": "10km da Amieirinha 2023",
+  "location": "Marinha Grande, Leiria",
+  "coordinates": {
+    "lat": 39.7503802,
+    "lon": -8.931805899999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/f6e6947b8be9e5906f4c7a823580e4a4"
+  ],
+  "start_date": "2023-11-18",
+  "end_date": "2023-11-19",
+  "circuit": [],
+  "description": "\n<p>Integrado nas comemorações do&nbsp;<strong>49º Aniversário</strong>, vai o&nbsp;<strong>Clube Recreativo Amieirinhense</strong>, com a colaboração do&nbsp;<strong>Clube Atletismo de Marinha Grande</strong>, realizar a prova designada&nbsp;<strong>“10km da AMIEIRINHA”</strong>&nbsp;no próximo dia&nbsp;<strong>18 de novembro, sábado,&nbsp;</strong>pelas<strong>&nbsp;16h45</strong>.</p>\n\n\n\n<p>A competição conta com o apoio institucional do&nbsp;<strong>Município e Junta de Freguesia da Marinha Grande</strong>.</p>\n",
+  "description_short": "Prova de 10km à tarde organizada pelo Clube Recreativo Amieirinhense na Marinha Grande",
+  "page": "https://www.recordepessoal.pt/evento/10kmdaamieirinha2023",
+  "slug": "10km-da-amieirinha-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

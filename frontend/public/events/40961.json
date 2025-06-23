@@ -1,0 +1,34 @@
+{
+  "id": 40961,
+  "name": "Mmtac &#8211; Meia Maratona Trail Areias do Caetano 2025",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    8000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b1c1573d4b57b5b0ded9c72bb929307c"
+  ],
+  "start_date": "2025-07-13",
+  "end_date": "2025-07-14",
+  "circuit": [],
+  "description": "\n<p>Ao organizar este evento o organizador pretende:</p>\n\n\n\n<p>&#8211; promover a prática de um desporto com um impacto ambiental nulo como forma de chamar a atenção da população para a preservação do meio ambiente.</p>\n\n\n\n<p>&#8211; promover a corrida por trilhos (trail running);</p>\n\n\n\n<p>-promover a Freguesia de São Caetano como palco para este desporto e como região natural que deve ser preservada;</p>\n\n\n\n<p>Caminhada Trail Areias do Caetano 8 Km <br>Mini maratona Trail Areias do Caetano 12Km</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário pela natureza da Freguesia de São Caetano com foco na preservação ambiental",
+  "page": "https://www.runmanager.net/Eventos/6-mmtac-meia-maratona-trail-areias-do-caetano/919",
+  "slug": "mmtac-meia-maratona-trail-areias-do-caetano-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

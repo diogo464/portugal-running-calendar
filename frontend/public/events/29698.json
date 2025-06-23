@@ -1,0 +1,34 @@
+{
+  "id": 29698,
+  "name": "Trilhos do Viso 2024",
+  "location": "Celorico de Basto, Braga",
+  "coordinates": {
+    "lat": 41.3889737,
+    "lon": -7.999703599999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000,
+    17000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/5d259ba127cbdb0c596ce3c184e5481f"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [],
+  "description": "\n<p>O Trail Trilhos do Viso é uma prova que percorre trilhos de montanha, caminhos rurais e estradas da Serra do Viso, Concelho de Celorico de Basto no dia 18 de fevereiro de 2024.<br><br>Trail Longo 27km <br>Trail Curto 17km<br>Caminhada 8km</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e caminhos da Serra do Viso em Celorico de Basto",
+  "page": "https://stopandgo.net/events/trail-trilhos-do-viso-2024",
+  "slug": "trilhos-do-viso-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Celorico de Basto",
+  "administrative_area_level_3": "União das freguesias de Britelo, Gémeos e Ourilhe",
+  "district_code": 3
+}

@@ -1,0 +1,29 @@
+{
+  "id": 21524,
+  "name": "Challenge Rota do Cabreira 2023",
+  "location": "Vieira do Minho, Braga",
+  "coordinates": {
+    "lat": 41.6343218,
+    "lon": -8.141619799999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f5156de83a84745d9fde10bc4467f100"
+  ],
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-13",
+  "circuit": [],
+  "description": "\n<p>O Challenge Rota do Cabreira é um evento multidesportivo, sem caráter competitivo oficial, que terá como principal dificuldade a escolha da modalidade a participar. Com o <strong>Trail</strong>, BTT, 4X4 e Moto TT, o mesmo ponto de partida e chegada, percursos diferentes e modalidades distintas, farão desta prova, um desafio único e inovador, garantindo uma experiência única e memorável</p>\n\n\n",
+  "description_short": "Trail e multidesportivo pela região do Cabreira com diversas modalidades num único evento aventureiro",
+  "page": "https://lap2go.com/pt/event/challenge-rota-do-fumeiro-2023",
+  "slug": "challenge-rota-do-cabreira-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vieira do Minho",
+  "administrative_area_level_3": "Vieira do Minho",
+  "district_code": 3
+}

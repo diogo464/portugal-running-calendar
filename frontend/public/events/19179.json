@@ -1,0 +1,33 @@
+{
+  "id": 19179,
+  "name": "6 Corrida de Pedome 2022",
+  "location": "Pedome, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.414967,
+    "lon": -8.3881947
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/f6990e37e1e84b7469ff05cfbc5a5154"
+  ],
+  "start_date": "2022-10-22",
+  "end_date": "2022-10-23",
+  "circuit": [],
+  "description": "\n<p>A Associação sem fins lucrativos, Grupo Recreativo Amigos de Calça Ferros (GRACAFE) com o objetivo de fomentar a prática desportiva junto das comunidades, apresenta a REN 6ª Corrida e Caminhada Solidária de Pedome e Oliveira Santa Maria, a realizar-se no dia 22 de outubro de 2022 com partida e chegada na REN Subestação de Riba de Ave em Oliveira Santa Maria.</p>\n\n\n\n<p>O evento 6 Corrida de Pedome realizar-se-á no espaço adjacente à REN – Subestação de Riba de Ave em Oliveira Santa Maria, sendo também ponto de partida e chegada da corrida de 8km e da caminhada.</p>\n\n\n",
+  "description_short": "Corrida solidária com partida e chegada na subestação da REN em Oliveira Santa Maria",
+  "page": "http://cyclonessports.com/index.php/253-6-corrida-de-pedome",
+  "slug": "6-corrida-de-pedome-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Pedome",
+  "district_code": 3
+}

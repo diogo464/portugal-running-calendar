@@ -1,0 +1,35 @@
+{
+  "id": 26748,
+  "name": "Oeiras Trail 2023",
+  "location": "Barcarena, Oeiras",
+  "coordinates": {
+    "lat": 38.7330247,
+    "lon": -9.280344200000002
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/e1495c70ee3bb6fded43c4cb05dd8908"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Com o apoio da Câmara Municipal de Oeiras, realiza-se no dia 19 de novembro de 2023 a 4ª edição do Oeiras Trail, que será percorrido por trilhos na zona de Barcarena – Oeiras, num Trail Longo de 20K+ e num Trail Curto/Caminhada de 10K+. Com partida e chegada na Fábrica da Pólvora. O Trail Longo é prova de qualificação para a Taça de Portugal ATRP.</p>\n\n\n\n<p><strong>TRAIL LONGO – 20 K+</strong></p>\n\n\n\n<p>O Trail tem a distância de 20 K+, e tem início às 09:00 horas. Tem partida e chegada na Fábrica da Pólvora em Barcarena – Oeiras.<br>Tempo limite de 3 horas e 30 minutos.</p>\n\n\n\n<p><strong>TRAIL CURTO/Caminhada – 10 K+</strong></p>\n\n\n\n<p>O Trail tem a distância de 10 K, e tem início às 09:15 horas. Tem partida e chegada na Fábrica da Pólvora em Barcarena – Oeiras.<br>Tempo limite de 3 horas.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Preços</h2>\n\n\n\n<p><strong>Trail Longo</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Até 24 de agosto: 13 €</li>\n\n\n\n<li>25 de agosto a 30 de setembro: 14 €</li>\n\n\n\n<li>1 a 31 de outubro: 16 €</li>\n\n\n\n<li>1 a 11 de novembro: 18,5€</li>\n</ul>\n\n\n\n<p><strong>Trail Curto</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Até 24 de agosto: 11 €</li>\n\n\n\n<li>25 de agosto a 30 de setembro: 12 €</li>\n\n\n\n<li>1 a 31 de outubro: 13 €</li>\n\n\n\n<li>1 a 11 de novembro: 14,5€</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Secretariado</h2>\n\n\n\n<p>Levantamento do kit do atleta na Fábrica da Pólvora.</p>\n\n\n\n<p>O levantamento do kit do atleta é individual, com apresentação do bilhete da BOL.</p>\n\n\n\n<p><strong>Horário:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Sábado dia 18 de novembro das 14h00 às 18h00</li>\n\n\n\n<li>Domingo dia 19 de novembro das 07h00 às 08h30</li>\n</ul>\n\n\n\n<p><strong>Recomenda-se o levantamento do kit do atleta no sábado dia 18 de novembro, por questões de segurança.</strong></p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Barcarena com partida e chegada na Fábrica da Pólvora em Oeiras",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/127093-4o_oeiras_trail-fabrica_da_polvora/",
+  "slug": "oeiras-trail-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "Barcarena",
+  "district_code": 11
+}

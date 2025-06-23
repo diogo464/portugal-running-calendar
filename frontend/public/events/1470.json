@@ -1,0 +1,29 @@
+{
+  "id": 1470,
+  "name": "Portugal 281 Ultramarathon 2020",
+  "location": "Proença a Nova Proença-a-Nova",
+  "coordinates": {
+    "lat": 39.7494186,
+    "lon": -7.9233898
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0440ed268b8ffd4f32bf82302f9c8795"
+  ],
+  "start_date": "2020-07-23",
+  "end_date": "2020-07-24",
+  "circuit": [],
+  "description": "<p>Este evento tem como objetivo conjugar o espírito de aventura na natureza, o turismo e o desporto. Será realizado nos dias <strong>23 a 26 de Julho de 2020</strong>.</p>\n<p>A Organização da PT281+ Ultramarathon Portugal cabe à Horizontes Turismo Desportivo, com sede em Proença-a-Nova e com o apoio institucional da Câmara de Proença-a-Nova.</p>\n<p>A PT281+ Ultramarathon é um evento lúdico/desportivo, pedestre em natureza com características de montanha. Desenvolve-se em percursos com a utilização de veredas, trilhos florestais, caminhos rurais, carreiros, trilhos pedestres e estradas de asfalto. Realizando-se o itinerário a pé e no menor tempo possível, guiados por GPS. Em alguns casos a organização poderá usar marcações fixas e móveis no terreno de forma a facilitar a leitura do caminho a seguir.</p>\n<p>O finalidade deste regulamento é garantir condições iguais para todos. Os princípios orientadores do regulamento são tão simples como: jogar limpo, ser seguro e respeitar o espaço onde estás.</p>\n",
+  "description_short": "Ultramaratona de montanha por trilhos naturais em Proença-a-Nova com apoio da câmara municipal",
+  "page": "http://www.pt281.com/",
+  "slug": "portugal-281-ultramarathon-2020",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Proença-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Proença-a-Nova e Peral",
+  "district_code": 5
+}

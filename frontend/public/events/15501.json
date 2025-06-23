@@ -1,0 +1,29 @@
+{
+  "id": 15501,
+  "name": "Trilhos Ocultos 2022",
+  "location": "Entre Ambos-os-Rios, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8192551,
+    "lon": -8.3099305
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/41c8778951ed6e272c75d1cbc1542ddb"
+  ],
+  "start_date": "2022-10-16",
+  "end_date": "2022-10-17",
+  "circuit": [],
+  "description": "<p>Animação, desporto, aventura, muita água e corda nos sapatos são algumas das coisas que podes esperar no fim de semana de 15 e 16 de outubro de 2022! Vem à 4.ª edição dos Trilhos Ocultos no Parque Nacional Peneda Gerês!</p>\n<p>A iniciativa dos Trilhos Ocultos é organizada pela ACRD Entre Ambos-os-rios, com o apoio da Junta de Freguesia de Entre Ambos-os-rios, Ermida e Germil, Município de Ponte da Barca, Paróquia de Entre Ambos-os-rios.</p>\n",
+  "description_short": "Trail desafiante pela paisagem única do Parque Nacional Peneda-Gerês com apoio local",
+  "page": "https://meutempo.pt/prova?trilhosocultos2022",
+  "slug": "trilhos-ocultos-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte da Barca",
+  "administrative_area_level_3": "Entre Ambos-os-Rios",
+  "district_code": 16
+}

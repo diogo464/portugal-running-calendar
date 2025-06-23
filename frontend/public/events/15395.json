@@ -1,0 +1,29 @@
+{
+  "id": 15395,
+  "name": "Trail Entre os Moinhos do Guadiana 2022",
+  "location": "Quinto, Beja",
+  "coordinates": {
+    "lat": 37.962942,
+    "lon": -7.7061408
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/be96431bcf9211e091f7e40ef9b13a1f"
+  ],
+  "start_date": "2022-10-16",
+  "end_date": "2022-10-17",
+  "circuit": [],
+  "description": "\n<p>Trail Entre os Moinhos do Guadiana em <strong>Quintos</strong>, Beja, no dia <strong>16 de Outubro de 2022</strong></p>\n",
+  "description_short": "Trail entre moinhos históricos pelos caminhos rurais de Quintos, no Alentejo",
+  "page": "https://acorrer.pt/eventos/info/2662",
+  "slug": "trail-entre-os-moinhos-do-guadiana-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "Quintos",
+  "district_code": 2
+}

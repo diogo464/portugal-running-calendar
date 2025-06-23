@@ -1,0 +1,35 @@
+{
+  "id": 21850,
+  "name": "4º Night Running Cidade Santiago Do Cacém 2023",
+  "location": "Santiago do Cacém, Setúbal Setubal",
+  "coordinates": {
+    "lat": 38.0162314,
+    "lon": -8.6956768
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    15000,
+    18000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "15k"
+  ],
+  "images": [
+    "media/bf423d4941d6badf52a3f7dd08a2c660"
+  ],
+  "start_date": "2023-03-18",
+  "end_date": "2023-03-19",
+  "circuit": [],
+  "description": "\n<p>Organização do Juventude Atlético Clube J.A.C., União de Freguesias de Santiago do Cacém, Santa Cruz e S. Bartolomeu da Serra e Câmara Municipal de Santiago do Cacém, realiza-se, com partida e chegada no Pavilhão do J.A.C. na Cidade de Santiago do Cacém, a 18 de março de 2023, pelas 18:30h, uma prova desportiva denominada “4º NIGHT RUNNING CIDADE SANTIAGO DO CACÉM”.</p>\n\n\n\n<p>Esta acção consiste numa prova noturna de (Corrida 18 Km) e uma (Corrida/Caminhada 10 Km) nas quais o traçado terá: a partida no exterior do Pavilhão do J.A.C., Parque Verde do Rio da Figueira, Castelo, todo o Centro Histórico, Bairro da Carapinha e a meta no interior do Pavilhão do J.A.C. com vários tipos de terreno como Terra Batida, Estradão, Empedrados, etc..</p>\n\n\n\n<p>A Corrida terá 18Km e é aberta a todo o público em geral, com idade igual ou superior a 18 anos, não havendo limite de idade para a Corrida/Caminhada que será de 10Km.</p>\n\n\n",
+  "description_short": "Trail nocturno pela cidade histórica de Santiago do Cacém com passagem pelo castelo e centro antigo",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/118796-4o_night_running_cidade_santiago_do_cacem-pav_juv_atletico_clube/",
+  "slug": "4o-night-running-cidade-santiago-do-cacem-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santiago do Cacém",
+  "district_code": 15
+}

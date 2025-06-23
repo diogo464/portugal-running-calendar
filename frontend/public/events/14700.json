@@ -1,0 +1,29 @@
+{
+  "id": 14700,
+  "name": "3º Trail Solidário B. V. Pampilhosa 2022",
+  "location": "Pampilhosa do Botão, Mealhada",
+  "coordinates": {
+    "lat": 40.3348393,
+    "lon": -8.4178386
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e4f53cada4f004080aaaec14f7b636dc"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>III Trail Solidário dos Bombeiros Voluntários da Pampilhosa 2022</strong>&nbsp;é organizado pelos Bombeiros Voluntários da Pampilhosa com a parceria e apoio técnico da Associação Trilhos Luso Bussaco, tendo o apoio da Junta de Freguesia da Pampilhosa e da Câmara Municipal da Mealhada no qual toda a receita do evento reverterá a favor dos Bombeiros Voluntários da Pampilhosa, que servirá para apoiar as obras de requalificação do quartel.</p>\n",
+  "description_short": "Trail solidário para apoio aos Bombeiros Voluntários da Pampilhosa com toda a receita a reverter para obras de requalificação do quartel",
+  "page": "https://www.runmanager.net/Eventos/3-trail-solidario-b-v-pampilhosa/600",
+  "slug": "trail-solidario-dos-bombeiros-voluntarios-da-pampilhosa-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "Pampilhosa",
+  "district_code": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": 30808,
+  "name": "Espite Trail 2024",
+  "location": "Espite, Ourém",
+  "coordinates": {
+    "lat": 39.7629395,
+    "lon": -8.6366807
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    9000,
+    15000,
+    25000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6c885a0c92471b6d6f2f0f97bc9fddd8"
+  ],
+  "start_date": "2024-07-21",
+  "end_date": "2024-07-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O clube vai contar com o apoio da junta de freguesia de Espite, da câmara municipal de Ourém, dos Bombeiros de Ourém – Secção de Espite e de todas as entidades que têm vindo apoiar o clube.<br>Será realizado a 21 de julho de 2024 independentemente das condições climatéricas do dia desde que o<br>organizador entenda que não há riscos acrescidos pelas mesmas para este tipo de eventos.<br>O evento é constituído por uma caminhada, por um Mini Trail (K9), um Trail Curto (K15), por um Trail<br>Sprint s150 (K25) e por um Trail Longo s100 (K31).</p>\n",
+  "description_short": "Trail de Espite com várias distâncias e apoio local em Ourém",
+  "page": "https://stopandgo.net/events/the-iv-amazing-espite-trail",
+  "slug": "espite-trail-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Espite",
+  "district_code": 14
+}

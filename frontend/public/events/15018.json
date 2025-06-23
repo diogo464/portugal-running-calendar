@@ -1,0 +1,29 @@
+{
+  "id": 15018,
+  "name": "Trail Terras Do Conde 2022",
+  "location": "Aveiro",
+  "coordinates": {
+    "lat": 40.6405055,
+    "lon": -8.6537539
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/551032e26f851eee498c569103728f75"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>Trail Terras Do Conde 2022</p>\n",
+  "description_short": "Trail técnico e desafiante pelos caminhos históricos da região do Conde",
+  "page": "https://stopandgo.net/event/?id=734",
+  "slug": "trail-terras-do-conde-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Aveiro",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": 20346,
+  "name": "Trail Costa Norte 2023",
+  "location": "Ilha de São Miguel, Açores",
+  "coordinates": {
+    "lat": 37.780411,
+    "lon": -25.4970466
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    18000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d3dba24f0e5c150337aadb1be7ee4ce6"
+  ],
+  "start_date": "2023-02-11",
+  "end_date": "2023-02-12",
+  "circuit": [],
+  "description": "\n<p>O Trail Costa Norte (TCN) by ADSP é um evento de trail running realizado pelo Clube Atlético Desportivo de São Pedro, com o apoio da Câmara Municipal da Ribeira Grande, e que percorre os trilhos que envolvem a cidade. O TCN é uma prova que integra o Circuito de Trail de São Miguel, nas provas TCN30 – TL e TCN18 &#8211; TC.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos históricos da costa norte de São Miguel, Açores",
+  "page": "https://lap2go.com/pt/event/trail-costa-norte-2023",
+  "slug": "trail-costa-norte-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

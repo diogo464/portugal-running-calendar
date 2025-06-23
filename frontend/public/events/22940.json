@@ -1,0 +1,35 @@
+{
+  "id": 22940,
+  "name": "Corrida Caixa 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/929da4413d452a84de6c30d88781a237"
+  ],
+  "start_date": "2023-04-16",
+  "end_date": "2023-04-17",
+  "circuit": [],
+  "description": "\n<p>Chegou a primeira edição da “Corrida Caixa”, um evento que promete juntar os aficionados da corrida de 10km, as famílias na caminhada de 5km e as crianças numa distância mais pequena.</p>\n\n\n",
+  "description_short": "Primeira edição da \"Corrida Caixa\" com percursos para corredores, famílias e crianças no centro da cidade",
+  "page": "https://xistarca.pt/eventos/corrida-caixa",
+  "slug": "corrida-caixa-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

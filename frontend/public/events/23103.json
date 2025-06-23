@@ -1,0 +1,34 @@
+{
+  "id": 23103,
+  "name": "VI Trail do Pinheiro Manso 2023",
+  "location": "Caranguejeira, Leiria",
+  "coordinates": {
+    "lat": 39.74776629999999,
+    "lon": -8.693068499999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    8000,
+    11000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/f59a19c58aba5f75b594514f359c0f4e"
+  ],
+  "start_date": "2023-05-28",
+  "end_date": "2023-05-29",
+  "circuit": [],
+  "description": "\n<p>Sob organização do clube – Grupo de Atletismo da Caranguejeira, em parceria com a Junta de Freguesia da Caranguejeira, realiza-se a 28 de Maio de 2023 a VI edição do Trail do Pinheiro Manso, uma prova Trail Running que percorrerá percursos e trilhos na freguesia da Caranguejeira, no concelho de Leiria.</p>\n\n\n\n<p>A prova é constituída por:<br>Trail Longo – K20 &#8211; Aproximadamente 20 km, 1100 D+;<br>Trail Curto – K11 &#8211; Aproximadamente 11 km, 400 D+;<br>Caminhada &#8211; Aproximadamente 8 km, 200 D+.</p>\n\n\n\n<p>A prova integra o circuito de trail curto da Associação Distrital de Atletismo de Leiria &#8211; ADAL.</p>\n\n\n\n<p>A concentração e chegada de ambas as provas e caminhada será no Pavilhão da Pedreira no Souto (Associação dos Soutos).</p>\n",
+  "description_short": "Trail desafiante pela região de Leiria com percursos tradicionais da Caranguejeira",
+  "page": "https://www.recordepessoal.pt/evento/vitraildopinheiromanso",
+  "slug": "v-trail-do-pinheiro-manso-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Caranguejeira",
+  "district_code": 10
+}

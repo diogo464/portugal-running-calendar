@@ -1,0 +1,29 @@
+{
+  "id": 5833,
+  "name": "Trail Quinta das Arcas 2021",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8497dcf8288ff4fd51391af175e13cf2"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<p>O Trail Quinta das Arcas 2021 este evento será realizado no concelho de valongo, na freguesia de sobrado no dia 28 novembro 2021.</p>\n",
+  "description_short": "Trail desafiante pelas paisagens rurais de Sobrado em Valongo",
+  "page": "http://events.portimer.pt/eventos/trailquintadasarcas",
+  "slug": "trail-quinta-das-arcas-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

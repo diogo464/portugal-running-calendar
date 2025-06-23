@@ -1,0 +1,29 @@
+{
+  "id": 37878,
+  "name": "Sky Race Cucos 2025",
+  "location": "Cucos, Torres Vedras Vedras, Lisboa",
+  "coordinates": {
+    "lat": 39.090818,
+    "lon": -9.2412499
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e2238511e545de7503a24ee8c229eb8b"
+  ],
+  "start_date": "2025-06-10",
+  "end_date": "2025-06-11",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.turresevents.com/eventos/sky-race-cucos-2025",
+  "slug": "sky-race-cucos-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Matacães",
+  "district_code": 11
+}

@@ -1,0 +1,33 @@
+{
+  "id": 30209,
+  "name": "Stut Trail Santo Tirso 2024",
+  "location": "Santo Tirso, Porto",
+  "coordinates": {
+    "lat": 41.3431376,
+    "lon": -8.4738078
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/7f616723d0f747ffcf651180432c04b4"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 9a Edição do STUT-Santo Thyrso Ultra Trilhos é uma prova de corrida de montanha, organizada pelo NAST – Núcleo Associativo de Santo Tirso e Câmara Municipal de Santo Tirso, que se desenvolve pelas Montanhas dos concelhos de Santo Tirso e Paços de Ferreira e em simultâneo com as provas, realiza-se um percurso pedestre de dificuldade moderada e carácter não competitivo, bem como um trail com vertente educativa para as crianças.</p>\n",
+  "description_short": "Trail de montanha pela região de Santo Tirso com vertente educativa para diferentes escalões etários",
+  "page": "https://stopandgo.net/events/stut-santo-thyrso-ultra-trilhos-2024",
+  "slug": "stut-trail-santo-tirso-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Santo Tirso",
+  "district_code": 13
+}

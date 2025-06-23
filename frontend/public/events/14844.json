@@ -1,0 +1,29 @@
+{
+  "id": 14844,
+  "name": "Trail do Almonda 2022",
+  "location": "Torres Novas, Santarém",
+  "coordinates": {
+    "lat": 39.478072,
+    "lon": -8.5404429
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/9e861b149f73d9ec20cdd316707c3925"
+  ],
+  "start_date": "2022-05-22",
+  "end_date": "2022-05-23",
+  "circuit": [],
+  "description": "\n<p>Trail do Almonda 2022</p>\n",
+  "description_short": "Trail técnico pelos trilhos históricos de Torres Novas",
+  "page": "https://www.queroir.pt/traildoalmonda2022",
+  "slug": "trail-do-almonda-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

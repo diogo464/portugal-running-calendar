@@ -1,0 +1,33 @@
+{
+  "id": 17583,
+  "name": "I Trail Rota dos Conventos Ancede &#8211; Baião 2022",
+  "location": "Ancede, Baião",
+  "coordinates": {
+    "lat": 41.1025689,
+    "lon": -8.0572191
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    9000,
+    15000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5acb094a89fb99cc062e51ab3f5921e8"
+  ],
+  "start_date": "2022-10-30",
+  "end_date": "2022-10-31",
+  "circuit": [],
+  "description": "\n<p>O I Trail Rota dos Conventos é um evento organizado pela associação desportiva de Ancede que tem como objetivo dar a conhecer os magníficos trilhos na nossa Freguesia, a prova é realizada em trilhos sinalizados, em piso acidentado e estradas de terra batida.</p>\n\n\n\n<p>Estamos a preparar um verdadeiro dia de competição, aventura e convívio não vais querer perder esta festa de trail.</p>\n\n\n\n<p>Podes fazer um trail Longo de 20 km, um trail curto de 15 km e uma caminhada de 9 km.</p>\n\n\n\n<p>Estamos a vossa espera!</p>\n",
+  "description_short": "Trail pela região de Ancede com percursos por trilhos históricos e paisagens características",
+  "page": "https://meutempo.pt/prova?rotadosconventos",
+  "slug": "i-trail-rota-dos-conventos-ancede-baiao-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Baião",
+  "administrative_area_level_3": "União das freguesias de Ancede e Ribadouro",
+  "district_code": 13
+}

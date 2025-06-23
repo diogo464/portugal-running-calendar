@@ -1,0 +1,30 @@
+{
+  "id": 29172,
+  "name": "Trilho do Vinho de Talha 2023",
+  "location": "Vidigueira, Beja",
+  "coordinates": {
+    "lat": 38.2118842,
+    "lon": -7.8005203
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/ced5c2644b0d58ac667760f579884888"
+  ],
+  "start_date": "2023-12-01",
+  "end_date": "2023-12-02",
+  "circuit": [],
+  "description": "\n<p>A Subunidade de Desporto e Tempos Livres da Câmara Municipal de Vidigueira em colaboração com a Junta de Freguesia de Vila de Frades e com o apoio da Associação de Atletismo de Beja vai organizar, no próximo dia 01 DE DEZEMBRO DE 2023, o Trilho do Vinho de Talha e a 4ª edição da Subida da Ermida de Sto. António em Vila de Frades.</p>\n\n\n",
+  "description_short": "Trail tradicional na região vinícola de Vidigueira com partida em Vila de Frades",
+  "page": "https://acorrer.pt/eventos/info/3317",
+  "slug": "trilho-do-vinho-de-talha-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Vidigueira",
+  "administrative_area_level_3": "Vidigueira",
+  "district_code": 2
+}

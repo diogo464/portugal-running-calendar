@@ -1,0 +1,30 @@
+{
+  "id": 25029,
+  "name": "Trail Mestre De Avis 2023",
+  "location": "Avis, Portalegre",
+  "coordinates": {
+    "lat": 39.07417119999999,
+    "lon": -7.8939317
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/2c1bd26d49bd79838116c7c29c295fce"
+  ],
+  "start_date": "2023-10-01",
+  "end_date": "2023-10-02",
+  "circuit": [],
+  "description": "\n<p>O Trail Mestre de Avis é uma prova de Trail Running, realizada por trilhos sinalizados, em piso<br>acidentado, estradões e obstáculos naturais em contato com a Natureza, com a partida e chegada em<br>Figueira e Barros. Este evento inclui Trail Curto (competitivo), Mini Trail (não competitivo) e<br>Caminhada, sendo que existirá tempo limite para execução de 5h00.</p>\n\n\n\n<p><br>O Trail Mestre de Avis 2023 faz parte do Circuito Distrital da AADP Trail Running, no qual<br>pretende promover a prática desportiva, em geral, o desporto pela Natureza, dinamizando, desta<br>forma, o Trail Running na região e trazendo ao Concelho de Avis e nesta edição à Freguesia de<br>Figueira e Barros atletas de diversos pontos do País.</p>\n\n\n\n<p><br>Esta prova é organizada pela A.D.R.A.A.A. (Associação Desportiva e Recreativa dos Amigos do<br>Atletismo de Avis), Centro Cultural e Recreativo de Figueira e Barros e conta com apoio dos<br>proprietários, do Município de Avis, Junta de Freguesia de Figueira e Barros, e coletividades</p>\n",
+  "description_short": "Trail desafiante pelos trilhos rurais de Figueira e Barros com obstáculos naturais e contato com a paisagem alentejana",
+  "page": "https://www.trilhoperdido.com/evento/Trail-Mestre-de-Avis-2023",
+  "slug": "trail-mestre-de-avis-2023",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Avis",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

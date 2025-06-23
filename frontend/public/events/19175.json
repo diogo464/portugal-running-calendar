@@ -1,0 +1,32 @@
+{
+  "id": 19175,
+  "name": "Corrida Associação Jorge Pina 2022",
+  "location": "Parque Ribeirinho do Oriente, Lisboa",
+  "coordinates": {
+    "lat": 38.7457891,
+    "lon": -9.0970474
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/38c4e801cacfcddfc32ec79d89157a71"
+  ],
+  "start_date": "2022-10-02",
+  "end_date": "2022-10-03",
+  "circuit": [],
+  "description": "\n<p>A <strong>Corrida Associação Jorge Pina powered by MultiOpticas, 6</strong>ª edição, é uma corrida de cariz solidário que pretende angariar verbas para o desenvolvimento dos projectos da AJP, e consiste num conjunto de provas desportivas na modalidade do atletismo, a realizar-se no dia 02 de Outubro de 2022 no Parque Ribeirinho do Oriente.</p>\n\n\n",
+  "description_short": "Corrida solidária organizada pela Associação Jorge Pina no Parque Ribeirinho do Oriente",
+  "page": "https://corridajorgepina.sports4all.pt/",
+  "slug": "corrida-associacao-jorge-pina-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Marvila",
+  "district_code": 11
+}

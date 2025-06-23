@@ -1,0 +1,31 @@
+{
+  "id": 31158,
+  "name": "Corrida dos Namorados 2024",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/2c1b036973305a7a85977d35beeb54ca"
+  ],
+  "start_date": "2024-02-11",
+  "end_date": "2024-02-12",
+  "circuit": [],
+  "description": "\n<p>Um percurso de 8km, no Estádio Universitário de Lisboa, unidos num só objetivo… passar a meta em conjunto!</p>\n\n\n\n<p>Não importa o ritmo, o importante é compartilhar o prazer da atividade física, num ambiente de natureza e envolvidos por uma atmosfera de romantismo e cumplicidade.</p>\n\n\n\n<p>A classificação da vertente casais é feita por ordem de chegada do casal. Obrigatório cruzarem a meta juntos!</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida romântica para casais no Estádio Universitário de Lisboa com meta conjunta",
+  "page": "https://xistarca.pt/eventos/10a-corrida-dos-namorados-2024",
+  "slug": "corrida-dos-namorados-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

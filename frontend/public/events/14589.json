@@ -1,0 +1,30 @@
+{
+  "id": 14589,
+  "name": "4º Mesh Nazareth Trail 2022",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/28261fb720e88dd3d0d66122bb7942ab"
+  ],
+  "start_date": "2022-05-01",
+  "end_date": "2022-05-02",
+  "circuit": [],
+  "description": "\n<p><strong>4º Mesh Nazareth Trail 2022 </strong>organizado pela Mesh <strong>Nazareth-Associação de Solidariedade Social.com</strong></p>\n\n\n\n<p><strong>4º Mesh Nazareth Trail 2022</strong> consiste numa corrida e caminhada de montanha a realizar no dia <strong>01 de Maio de 2022</strong>.</p>\n",
+  "description_short": "Trail solidário na região de Nazaré com percursos de montanha",
+  "page": "https://www.recordepessoal.pt/evento/4meshnazarethtrail2022",
+  "slug": "4o-mesh-nazareth-trail-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

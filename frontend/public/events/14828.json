@@ -1,0 +1,33 @@
+{
+  "id": 14828,
+  "name": "Trail Dos Trilhos Da Mata 2022",
+  "location": "Milagres, Leiria",
+  "coordinates": {
+    "lat": 39.790627,
+    "lon": -8.7948185
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    19000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/1aa938d846972816c525f647c4696174"
+  ],
+  "start_date": "2022-05-14",
+  "end_date": "2022-05-15",
+  "circuit": [],
+  "description": "\n<p>A <strong>Associação Desportiva e Recreativa da Mata</strong> realizará no dia <strong>14 de Maio de 2022</strong> a <strong>quarta edição do Trail Dos Trilhos Da Mata 2022</strong>. Uma prova de Trail Running (aproximadamente 19 km) que percorrerá percursos e trilhos na freguesia dos Milagres, concelho e distrito de Leiria. Para além, da prova de Trail running, haverá também uma caminha com cerca de 10 km, sem carater competitivo.</p>\n\n\n\n<ul class=\"wp-block-list\"><li>A concentração, Partida e chegada da prova e da caminhada será junto à sede da Associação Desportiva e Recreativa da Mata.</li><li>Ao longo do percurso os participantes passarão em antigos caminhos de rega, caminhos rurais e trilhos preparados especialmente para este evento.</li></ul>\n",
+  "description_short": "Trail desafiante por caminhos rurais e trilhos nos arredores dos Milagres, em Leiria",
+  "page": "https://www.recordepessoal.pt/evento/4traildostrilhosdamata",
+  "slug": "trail-dos-trilhos-da-mata-2022-2",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Milagres",
+  "district_code": 10
+}

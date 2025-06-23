@@ -1,0 +1,36 @@
+{
+  "id": 28442,
+  "name": "Cork Trail Running 2023",
+  "location": "Coruche Coruche, Santarém",
+  "coordinates": {
+    "lat": 38.959465,
+    "lon": -8.5243404
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    8000,
+    12000,
+    22000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "relay"
+  ],
+  "images": [
+    "media/19492c0205e8ff222de9442b942dbef4"
+  ],
+  "start_date": "2023-12-08",
+  "end_date": "2023-12-09",
+  "circuit": [],
+  "description": "\n<p>O Cork Trail regressa no dia 8 de Dezembro 2023, levando pelo sétimo ano consecutivo a festa do Trail<br>aos Trilhos de constante sobe e desce existentes na localidade de Erra, no concelho de Coruche. </p>\n\n\n\n<p><br>A prova tem quatro percursos diferentes: </p>\n\n\n\n<p>Trail Longo 22km, Estafetas 2 elementos 22km, Trail Curto 12km,<br>e Caminhada 8 km. </p>\n\n\n\n<p>Conta também com o Cork Kids para os participantes mais jovens.<br>A organização continua a cargo do Coruche Outdoor Adventure Club, com o apoio da Câmara Municipal<br>de Coruche, União de Freguesias de Coruche, Fajarda e Erra e outras associações da região.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos trilhos acidentados de Erra, com várias opções de percurso e vertente familiar em Coruche",
+  "page": "https://www.trilhoperdido.com/evento/Cork-Trail-2023",
+  "slug": "cork-trail-running-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Coruche",
+  "administrative_area_level_3": "União das freguesias de Coruche, Fajarda e Erra",
+  "district_code": 14
+}

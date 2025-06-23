@@ -1,0 +1,32 @@
+{
+  "id": 23036,
+  "name": "1ª Milha de Eiras 2023",
+  "location": "Eiras, Coimbra",
+  "coordinates": {
+    "lat": 40.2482705,
+    "lon": -8.4164827
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    1609
+  ],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/442fce56c987d2cb8f8a580f0bb0f889"
+  ],
+  "start_date": "2023-04-08",
+  "end_date": "2023-04-09",
+  "circuit": [],
+  "description": "\n<p>Para todos os Eirenses, amantes das corridas e demais interessados: estão todos convocados para a 𝑰 𝑴𝑰𝑳𝑯𝑨 𝑼𝑹𝑩𝑨𝑵𝑨 𝑫𝑬 𝑬𝑰𝑹𝑨𝑺.</p>\n\n\n",
+  "description_short": "Primeira edição da corrida urbana pela cidade deEiras",
+  "page": "https://fpacompeticoes.pt/2145/inscrever",
+  "slug": "1a-milha-de-eiras-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "União das freguesias de Eiras e São Paulo de Frades",
+  "district_code": 6
+}

@@ -1,0 +1,30 @@
+{
+  "id": 14961,
+  "name": "Belas Cross Trail 2022",
+  "location": "Belas, Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7764372,
+    "lon": -9.2642481
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/6ab72d8bf86c91edffb0eb64831cd48a"
+  ],
+  "start_date": "2022-09-03",
+  "end_date": "2022-09-04",
+  "circuit": [],
+  "description": "\n<p>Belas Cross Trail 2022</p>\n",
+  "description_short": "Trail desafiante em Belas com percurso técnico e envolvente paisagem natural",
+  "page": "https://www.trilhoperdido.com/evento/I-Belas-Cross-Trail",
+  "slug": "belas-cross-trail-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Queluz e Belas",
+  "district_code": 11
+}

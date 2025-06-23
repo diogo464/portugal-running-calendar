@@ -1,0 +1,31 @@
+{
+  "id": 14486,
+  "name": "6º Trail Costa Vicentina 2022",
+  "location": "Santiago do Cacém Cacém, Setubal",
+  "coordinates": {
+    "lat": 38.0176336,
+    "lon": -8.7035161
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    57000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/827825f52480bb371020cccb3749832d"
+  ],
+  "start_date": "2022-10-23",
+  "end_date": "2022-10-24",
+  "circuit": [],
+  "description": "\n<p>No próximo dia 23 de outubro de 2022, realiza-se com o apoio dos Municipios de Sines e de Santiago do Cacém, a 6ª edição do Trail Costa Vicentina 2022. O mesmo será percorrido pelo belo e único trilho/caminho pedestre da Rota Vicentina entre Santiago do Cacém e Porto Covo, na distância de 57 Km, com partida ás 8h30 na Igreja Matriz de Santiago do Cacém.</p>\n",
+  "description_short": "Trail desafiante pela Rota Vicentina entre Santiago do Cacém e Porto Covo, com paisagens únicas do litoral alentejano",
+  "page": "https://ganhardestak.bol.pt/Comprar/Bilhetes/105534-6o_trail_costa_vicentina-santiago_do_cacem_e_sines/",
+  "slug": "trail-costa-vicentina-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "União das freguesias de Santiago do Cacém, Santa Cruz e São Bartolomeu da Serra",
+  "district_code": 15
+}

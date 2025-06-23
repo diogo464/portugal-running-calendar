@@ -1,0 +1,35 @@
+{
+  "id": 14363,
+  "name": "Trilho Herdade Dos Hospitais 2022",
+  "location": "Montemor-o-Novo, Évora",
+  "coordinates": {
+    "lat": 38.64814,
+    "lon": -8.211679799999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/493f03f24d0cc0f582091c72d2e79321"
+  ],
+  "start_date": "2022-02-20",
+  "end_date": "2022-02-21",
+  "circuit": [],
+  "description": "\n<p>A organização, vai realizar o 1º Trilho Herdade Dos Hospitais 2022, o qual vai decorrer em<br>Montemor-o-Novo, na Herdade dos Hospitais, no local onde no dia anterior se realizou<br>um Raid Equestre Internacional.<br>Esta prova contará com dois percursos, dentro da Herdade dos Hospitais :</p>\n\n\n\n<ol class=\"wp-block-list\"><li>10km – corrida</li><li>06km – caminhada (não competitiva)</li></ol>\n",
+  "description_short": "Trail inaugural na Herdade dos Hospitais em Montemor-o-Novo, com percursos de corrida e caminhada num local recentemente usado para um Raid Equestre Internacional.",
+  "page": "https://www.trilhoperdido.com/evento/1-trilho-herdade-dos-hospitais",
+  "slug": "trilho-herdade-dos-hospitais-2022",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Montemor-o-Novo",
+  "administrative_area_level_3": "União das freguesias de Nossa Senhora da Vila, Nossa Senhora do Bispo e Silveiras",
+  "district_code": 7
+}

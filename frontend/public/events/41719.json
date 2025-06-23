@@ -1,0 +1,36 @@
+{
+  "id": 41719,
+  "name": "Trail Trilhos do Viso 2025",
+  "location": "Celorico de Basto, Braga",
+  "coordinates": {
+    "lat": 41.3889737,
+    "lon": -7.999703599999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    900,
+    1000,
+    10000,
+    17000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/4d55c2979ae9a39fd70537ab0de3375d"
+  ],
+  "start_date": "2025-06-22",
+  "end_date": "2025-06-23",
+  "circuit": [],
+  "description": "\n<p>O Trail Trilhos do Viso é organizado pela – Associação Motolicos Agilde Celorico de Basto e será<br>realizado dia 22 de junho de 2025, no Santuário da Nossa Senhora do Viso independentemente<br>das condições climatéricas do dia, desde que a organização entenda que não ofereçam risco aos<br>participantes. A organização acompanha, em permanência, a evolução das condições<br>meteorológicas podendo anular a prova em qualquer altura.<br>O Trail Trilhos do Viso será constituído por 3 eventos:<br></p>\n\n\n\n<p>Trail Longo – cerca de 25 km de distância, com ±1000 m de desnível positivo</p>\n\n\n\n<p>Trail Curto – cerca de 17 km de distância, com ±900 m de desnível positivo.</p>\n\n\n\n<p>Caminhada – cerca de 10 km, sem fins competitivos.</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos do Santuário da Nossa Senhora do Viso em Celorico de Basto",
+  "page": "http://events.portimer.pt/eventos/trail_trilhos_viso_2025",
+  "slug": "trail-trilhos-do-viso-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Celorico de Basto",
+  "administrative_area_level_3": "União das freguesias de Britelo, Gémeos e Ourilhe",
+  "district_code": 3
+}

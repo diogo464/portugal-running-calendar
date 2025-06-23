@@ -1,0 +1,34 @@
+{
+  "id": 33298,
+  "name": "Corrida da Nau 2024",
+  "location": "Vila do Conde, Porto",
+  "coordinates": {
+    "lat": 41.3517302,
+    "lon": -8.7478619
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/b223416e93f19544281700469be2f3b2"
+  ],
+  "start_date": "2024-09-01",
+  "end_date": "2024-09-02",
+  "circuit": [],
+  "description": "\n<p>O Clube de Atletismo os Rompe Solas e a EventSport organizam a 29ª Edição Corrida da Nau que tem a finalidade de estimular a prática desportiva como elemento da promoção da saúde e da qualidade de vida. Realiza-se no dia 1 de Setembro de 2024, com início às 10h00, a Corrida 10 Km e a Caminhada de 5 Km junto da Nau quinhentista em Vila do Conde. Este evento conta com o apoio da Câmara Municipal e Junta de Freguesia de Vila do Conde, Associação de Atletismo do Porto e Conselho Regional de Arbitragem da AAP.</p>\n",
+  "description_short": "Corrida histórica junto à Nau em Vila do Conde com vista para o elemento marítimo tradicional",
+  "page": "https://29corridadanau.eventsport.net/",
+  "slug": "corrida-da-nau-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila do Conde",
+  "administrative_area_level_3": "Vila do Conde",
+  "district_code": 13
+}

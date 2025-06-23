@@ -1,0 +1,32 @@
+{
+  "id": 15045,
+  "name": "Marginal à noite 2022",
+  "location": "Oeiras, Lisboa",
+  "coordinates": {
+    "lat": 38.69686069999999,
+    "lon": -9.314601399999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/cdfe7a32b6becfa38f3ff213980c6b62"
+  ],
+  "start_date": "2022-06-18",
+  "end_date": "2022-06-19",
+  "circuit": [],
+  "description": "\n<p>A Marginal à Noite 2022 é uma corrida de estrada que se carateriza pelo percurso fácil e de enquadramento ímpar junto à orla marítima do município de Oeiras, que atrai tanto atletas regulares que procuram a sua superação, como os corredores moderados e iniciantes, partilhando todos em comum o prazer de correr.</p>\n",
+  "description_short": "Corrida noturna pela marginal de Oeiras com vista panorâmica para o mar",
+  "page": "https://marginalanoite.pt/",
+  "slug": "marginal-a-noite-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+  "district_code": 11
+}

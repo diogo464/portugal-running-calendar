@@ -1,0 +1,29 @@
+{
+  "id": 4891,
+  "name": "Trail de Conímbriga Terras de Sicó 2022",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/72c7b3eb247a882df5fd84e843d21a09"
+  ],
+  "start_date": "2022-02-25",
+  "end_date": "2022-02-26",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://www.associacaomundodacorrida.com/class_diplomas/results\" target=\"_blank\" rel=\"noopener\">Resultados</a></h2>\n\n\n\n<p>Já está em andamento a organização da XIII edição do Trail de Conímbriga Terras de Sicó 2022. </p>\n",
+  "description_short": "Trail histórico pelos trilhos arqueológicos de Conímbriga e pela região de Sicó",
+  "page": "http://www.ultrasico.com/index.php",
+  "slug": "trail-de-conimbriga-terras-de-sico-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

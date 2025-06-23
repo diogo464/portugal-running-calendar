@@ -1,0 +1,36 @@
+{
+  "id": 28445,
+  "name": "Volta a Paranhos 2023",
+  "location": "Paranhos, Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    500,
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/e1e9ec45e71066f15ce61e5d18dbace5"
+  ],
+  "start_date": "2023-12-08",
+  "end_date": "2023-12-09",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>Sport Comércio e Salgueiros</strong>&nbsp;em conjunto com a&nbsp;<strong>Eventsport</strong>&nbsp;organizam a&nbsp;<strong>66ª edição Volta a Paranhos</strong>, com o objetivo de estimular a prática desportiva como elemento da promoção da saúde e da qualidade de vida na prova mais antiga do país.</p>\n\n\n\n<p>Realiza-se no dia 8 de dezembro de 2023, com início às 10h00, uma corrida de 500m direcionada para os mais pequenos, às 10h45 uma Corrida 10K e caminhada de 4 Km, que se pretende que seja uma verdadeira festa para os amantes de desporto. O evento conta com o apoio técnico da Associação de Atletismo do Porto, Câmara Municipal do Porto, ÁGORA Cultura e Desporto EM, Federação Portuguesa de Atletismo, Conselho Regional de Arbitragem e Polícia de Segurança Pública.</p>\n",
+  "description_short": "Tradicional Volta a Paranhos no Porto reúne corrida e caminhada numa festa desportiva de Dezembro",
+  "page": "https://66voltaparanhos.eventsport.net/",
+  "slug": "volta-a-paranhos-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

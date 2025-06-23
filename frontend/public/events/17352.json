@@ -1,0 +1,33 @@
+{
+  "id": 17352,
+  "name": "Viseu Trail Running 2022",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    15000,
+    28000,
+    45000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b503a40c8af09663ec68d1fe4a79d432"
+  ],
+  "start_date": "2022-10-23",
+  "end_date": "2022-10-24",
+  "circuit": [],
+  "description": "\n<p>O Viseu Trail Running 2022 realiza-se em 23 de outubro de 2022.</p>\n\n\n\n<p>A VI Edição do Viseu Trail Running será constituída por três provas:<br>• TRAIL CURTO (TC15) – Distância de 15km<br>• TRAIL LONGO (TL28) – Distância de 28km – (Circuito Nacional de Trail)<br>• ULTRA TRAIL MÉDIO (UTM45) – Distância de 45 km – (Circuito<br>Nacional de Trail)<br></p>\n\n\n\n<p>O Viseu Trail Running 2022 é o maior evento de Trail Running realizado no Distrito de Viseu e, na sua 6ª edição renova as ambições de fazer diferente, cuidar e proteger a natureza, e assim, manter a notoriedade, não só fazendo parte do Circuito Nacional de Trail longo e Ultra Trail de Portugal, da ATRP, mas também pela forma como recebemos quem nos visita.</p>\n\n\n\n<p><br>Além da prova desportiva, o Viseu Trail Running 2022 contará com a realização de um conjunto de atividades, de natureza cultural, social e recreativa, cujo objetivo é dar a conhecer territórios menos mediáticos, mas com potencial e extraordinárias paisagens;</p>\n",
+  "description_short": "Trail Running por paisagens únicas em Viseu com diferentes distâncias e integrado no Circuito Nacional de Trail",
+  "page": "https://stopandgo.net/event/?id=841",
+  "slug": "viseu-trail-running-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

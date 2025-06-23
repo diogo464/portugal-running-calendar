@@ -1,0 +1,30 @@
+{
+  "id": 32114,
+  "name": "Trail Fornos de Algodres 2024",
+  "location": "Fornos de Algodres, Guarda",
+  "coordinates": {
+    "lat": 40.6201957,
+    "lon": -7.539550699999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/15e81ee85161f43d7f497f431a3be1f3"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [],
+  "description": "\n<p>O ”TRAIL DOS BOMBEIROS” é uma corrida de montanha, organizada pela “AVCAT-Associação<br>Vila Chã Aldeia Trail de Portugal”, a realizar no dia 18 de fevereiro de 2024, em Fornos de<br>Algodres.</p>\n\n\n\n<p>Este trail faz parte da 3ª edição do Circuito Municipal de Corrida de Montanha-Trilhos D`O Bom<br>Sabor da Serra-VI(r)VER Fornos de Algodres e será a 1ª etapa.</p>\n\n\n\n<p>O ”II TRAIL DOS BOMBEIROS” é uma prova de corrida de montanha, constituído por um Trail<br>Longo, um Trail Curto e uma caminhada, realizados predominantemente em trilhos, caminhos<br>rurais, vias de terra batida e ribeiras circundantes à vila de Fornos de Algodres e aldeias<br>adjacentes</p>\n\n\n",
+  "description_short": "Trail solidário dos bombeiros pelas serranias de Fornos de Algodres com percursos variados",
+  "page": "https://acorrer.pt/eventos/info/3376",
+  "slug": "trail-fornos-de-algodres-2024",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "Fornos de Algodres",
+  "district_code": 9
+}

@@ -1,0 +1,32 @@
+{
+  "id": 38564,
+  "name": "Trail Monte do São João 2024",
+  "location": "São João do Monte, Nelas",
+  "coordinates": {
+    "lat": 40.5243561,
+    "lon": -7.795871
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0ecf452078178cb7bf6eea4d2ee116ca"
+  ],
+  "start_date": "2024-12-22",
+  "end_date": "2024-12-22",
+  "circuit": [],
+  "description": "\n<p>O I Trail Monte do São João é um evento inserido no “Mercadinho de Natal de São João do Monte”, com a organização da A.R.D.C. de São João do Monte e Mercadinho de Natal, tendo o apoio do Município de Nelas, Freguesia de Senhorim e B.V. Nelas.</p>\n\n\n\n<p><br>TRAIL ÚNICO (15Km), terá a partida às 09:30h, na capela de São João do Monte.<br></p>\n\n\n\n<ol class=\"wp-block-list\"></ol>\n\n\n\n<p></p>\n",
+  "description_short": "Trail de Natal pela zona montanhosa de Nelas com partida junto à capela local",
+  "page": "https://acorrer.pt/eventos/info/3697",
+  "slug": "trail-monte-do-sao-joao-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Nelas",
+  "administrative_area_level_3": "Senhorim",
+  "district_code": 18
+}

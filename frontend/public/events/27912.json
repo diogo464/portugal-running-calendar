@@ -1,0 +1,38 @@
+{
+  "id": 27912,
+  "name": "Trail Câmara de Lobos 2023",
+  "location": "Câmara de Lobos, Madeira",
+  "coordinates": {
+    "lat": 32.6607565,
+    "lon": -16.9867462
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    960,
+    1790,
+    3100,
+    5000,
+    6500,
+    14500,
+    24000,
+    44000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/97856516d96472ba93a57242b776ee9c"
+  ],
+  "start_date": "2023-11-18",
+  "end_date": "2023-11-19",
+  "circuit": [],
+  "description": "\n<p>A ACDJS (Associação Cultural e Desportiva do Jardim da Serra) e a ACRE (Associação Cultural e Recreativa do Estreito), promovem no dia 18 de novembro a X Edição do Trail Câmara de Lobos, evento do Circuito Regional “Trail Madeira”, um projeto da AARAM &#8211; 2023/2024. Contando com percursos – Ultra Trail 44km 3100m D+, Trail Longo 24Km 1790m D+, Trail Curto 14,5Km 960M D+ e Trail Mini 6,5Km 170 D+, a prova mais longa percorre as cinco freguesias do concelho de Câmara de Lobos e ainda com passagens pelos concelhos de São Vicente e Ribeira Brava. </p>\n\n\n\n<p>O início das provas está agendado para o dia 18 de novembro de 2023, pelas 06h00 o Ultra Trail (44Km), às 08h00 o Trail Longo (24km), às 9:30 o Trail Curto (14,5km) e por fim às 10:30 Trail Mini (6,5km). </p>\n\n\n\n<p>A partida da prova Ultra tem lugar no Centro da Vila do Estreito de Câmara de Lobos, junto à Praça do Mercado Municipal local. O Trail Longo terá como ponto de partida a freguesia do Curral das Freiras, o Trail Curto terá início no Cais de Câmara de Lobos e o Trail Mini na freguesia do Jardim da Serra, tendo todos os percursos como meta comum o Mercado Municipal do Estreito.</p>\n\n\n",
+  "description_short": "Trail atravessando cinco freguesias da Madeira com partidas em locais distintos e meta no Estreito de Câmara de Lobos",
+  "page": "https://lap2go.com/pt/event/trail-camara-de-lobos-2023",
+  "slug": "trail-camara-de-lobos-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

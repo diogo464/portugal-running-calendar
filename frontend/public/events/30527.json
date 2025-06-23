@@ -1,0 +1,32 @@
+{
+  "id": 30527,
+  "name": "Trail do Camarnal 2023",
+  "location": "Camarnal, Alenquer",
+  "coordinates": {
+    "lat": 39.0605434,
+    "lon": -8.981741
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    14000,
+    24000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cb5e757357bcf6f9558a5c5bdaaacb30"
+  ],
+  "start_date": "2023-12-17",
+  "end_date": "2023-12-18",
+  "circuit": [],
+  "description": "\n<p>A Sociedade Recreativa do Camarnal é a associação organizadora do evento denominado Trail<br>do Camarnal, que decorrerá no dia 17 de dezembro de 2023 na aldeia do Camarnal e áreas<br>circundantes, dentro do concelho de Alenquer.<br><br>O Trail do Camarnal é um evento de Trail Running, que integra 2 provas em formato circular,<br>com início em simultâneo.</p>\n\n\n\n<p><br>Os percursos do Trail do Camarnal são compostos por passagem em estradas municipais e/ou<br>nacionais de alcatrão, estradões de terra, trilhos e estradas florestais, ribeiras, etc.</p>\n\n\n\n<p>Por estes motivos e razões de logística o evento Trail do Camarnal é limitado a cerca de 300<br>participantes, no total das 2 provas, distribuídos da seguinte forma:<br>Trail Curto (14km) – 150<br>Trail Longo (24km) – 150</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Alenquer com passagens por trilhos, estradas e ribeiras",
+  "page": "http://www.chronos.pt/",
+  "slug": "trail-do-camarnal-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Alenquer",
+  "administrative_area_level_3": "União das freguesias de Alenquer (Santo Estêvão e Triana)",
+  "district_code": 11
+}

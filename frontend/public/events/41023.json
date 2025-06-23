@@ -1,0 +1,33 @@
+{
+  "id": 41023,
+  "name": "Corrida de Belém 2025",
+  "location": "Belém, Lisboa",
+  "coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/875b9d49c246521ba1d2b7f1906ce6c9"
+  ],
+  "start_date": "2025-05-10",
+  "end_date": "2025-05-11",
+  "circuit": [],
+  "description": "\n<p><strong>Um encontro com a história e uma corrida com passagem pelos mais belos monumentos históricos da cidade de Lisboa.</strong></p>\n\n\n\n<p>Belém, batizado com o nome da estrela guia, o lugar de Belém foi, através dos séculos, um pouco de tudo. Aldeia rural na Idade Média, porto de mar dos Descobrimentos, lugar de quintas aristocráticas, sede do governo após o terramoto de 1755, zona industrial no século XIX, praia de banhos com a moda do veraneio, palco da Exposição do Mundo Português, em 1940, cenário da adesão de Portugal à CEE e, finalmente, um dos mais importantes polos turísticos de Lisboa, onde, a par da proximidade do rio o visitante pode encontrar museus, monumentos e jardins históricos.</p>\n",
+  "description_short": "Corrida histórica por Belém, revelando os monumentos emblemáticos de Lisboa junto ao Tejo",
+  "page": "https://xistarca.pt/eventos/11a-corrida-de-belem",
+  "slug": "corrida-de-belem-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

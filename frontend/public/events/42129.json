@@ -1,0 +1,33 @@
+{
+  "id": 42129,
+  "name": "Monsanto Fest Run 2025",
+  "location": "Estrada da Serafina, Lisboa",
+  "coordinates": {
+    "lat": 38.736671,
+    "lon": -9.182596
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/ad3be0f4007ba7ce652f06dac7902d91"
+  ],
+  "start_date": "2025-07-06",
+  "end_date": "2025-07-06",
+  "circuit": [],
+  "description": "\n<p>O festival de música “Monsanto Fest”, a caminho da sua 7ª edição,&nbsp; junta, este ano, a&nbsp;música urbana e o desporto!</p>\n\n\n\n<p>As Juntas de Freguesia de Benfica, Ajuda, Alcântara e Campolide, vão realizar o “Monsanto Fest Run”, no próximo dia 06 de Julho, num percurso pelas estradas do Monsanto.&nbsp;</p>\n\n\n",
+  "description_short": "Corrida urbana e festiva pela floresta de Monsanto com música e desporto",
+  "page": "https://xistarca.pt/eventos/monsanto-fest-run-2025",
+  "slug": "monsanto-fest-run-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Benfica",
+  "district_code": 11
+}

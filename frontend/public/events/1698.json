@@ -1,0 +1,33 @@
+{
+  "id": 1698,
+  "name": "Maratona de Badajoz 2020",
+  "location": "Badajoz, Espanha",
+  "coordinates": {
+    "lat": 38.8781352,
+    "lon": -6.9704837
+  },
+  "country": "Espanha",
+  "locality": "Estremadura",
+  "distances": [
+    21097,
+    42195
+  ],
+  "types": [
+    "marathon",
+    "half-marathon"
+  ],
+  "images": [
+    "media/3124b609d959447feb23b924758bcc33"
+  ],
+  "start_date": "2020-03-22",
+  "end_date": "2020-03-23",
+  "circuit": [],
+  "description": "<p>La FUNDACIÓN MUNICIPAL DE DEPORTES del AYUNTAMIENTO DE BADAJOZ organizará el día 22 de Marzo de 2020 el 28º MARATÓN POPULAR &#8220;CIUDAD DE BADAJOZ&#8221; Y 6º MEDIO MARATÓN POPULAR “CIUDAD DE BADAJOZ”, para más información dirigirse a la página web: www.aytobadajoz.es/deportes .</p>\n<p>Además la prueba de Maratón será valedera para la celebración del Campeonato de Extremadura de Maratón<br />\npor parte de la Federación Extremeña de Atletismo.</p>\n",
+  "description_short": "Maratona e meia maratona urbana de Badajoz com campeonato regional de atletismo",
+  "page": "https://www.aytobadajoz.es/pt/ayto/especiales/especial/41381/41381",
+  "slug": "maratona-de-badajoz-2020",
+  "administrative_area_level_1": "Estremadura",
+  "administrative_area_level_2": "Badajoz",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

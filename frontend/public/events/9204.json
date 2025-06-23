@@ -1,0 +1,34 @@
+{
+  "id": 9204,
+  "name": "Ultra Trail de São Mamede 2022",
+  "location": "Portalegre",
+  "coordinates": {
+    "lat": 39.2967086,
+    "lon": -7.4284755
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    12000,
+    22000,
+    43000,
+    110000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f3d06fd88cc2a5bf9dad8e19c48afd5f"
+  ],
+  "start_date": "2022-05-06",
+  "end_date": "2022-05-07",
+  "circuit": [],
+  "description": "\n<p>O Ultra Trail da Serra de São Mamede 2022 é um evento de corrida por trilhos de ultra distância com 8 fantásticas edições disputadas. Em 2022 realiza-se nos dias 6, 7 e 8 de maio nas distâncias de 110 Km, 43 Km, 22 Km e 12 Km. Decorre nos concelhos de Portalegre, Castelo de Vide, Marvão e Valencia de Alcántara (Espanha). Um evento inspirador que contribuiu e contribui para a adesão cada vez mais significativa da população portuguesa a este Desporto fantástico de contacto íntimo com a Natureza.</p>\n",
+  "description_short": "Trail internacional pela Serra de São Mamede com etapas entre Portugal e Espanha",
+  "page": "https://utsm.wordpress.com/",
+  "slug": "ultra-trail-de-sao-mamede-2022",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Portalegre",
+  "administrative_area_level_3": "União das freguesias da Sé e São Lourenço",
+  "district_code": 12
+}

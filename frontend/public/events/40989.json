@@ -1,0 +1,35 @@
+{
+  "id": 40989,
+  "name": "Trilhos do Nabão 2025",
+  "location": "Linhaceira, Tomar",
+  "coordinates": {
+    "lat": 39.5207915,
+    "lon": -8.3772712
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    11000,
+    15000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e883a2cc0fc3378bdeccd6bcad56bdf6"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n\n\n<p>A organização da Caminhada 11k, Trail Curto 15k e Trail Longo 30k é da responsabilidade da Associação<br>Cultural e Recreativa da Linhaceira</p>\n",
+  "description_short": "Prova de trail na Linhaceira com três percursos de diferentes distâncias",
+  "page": "https://www.queroir.pt/trilhosdonabao2025",
+  "slug": "trilhos-do-nabao-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "Asseiceira",
+  "district_code": 14
+}

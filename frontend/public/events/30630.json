@@ -1,0 +1,37 @@
+{
+  "id": 30630,
+  "name": "Trail dos Calceteiros 2024",
+  "location": "Fanhões, Loures",
+  "coordinates": {
+    "lat": 38.8922525,
+    "lon": -9.1732936
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    17000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7316766b1eca8d5be79c8481b3be1bde"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail dos Calceteiros é um evento desportivo de caráter lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de trail running, mas também as localidades onde decorre o evento. É um evento organizado pela Associação Desportiva Trilhos do Costume e o apoio institucional da Junta de Freguesia de Fanhões, integrando duas provas competitivas e caminhada:<br>✓ Trail de 31 km (aproximadamente);<br>✓ Trail Curto de 17 km (aproximadamente);<br>✓ Caminhada de 10km (aproximadamente).</p>\n",
+  "description_short": "Trail dos Calceteiros pela região de Fanhões com provas de trail running e caminhada",
+  "page": "https://www.trilhoperdido.com/evento/Trail-dos-Calceteiros-2024",
+  "slug": "trail-dos-calceteiros-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Fanhões",
+  "district_code": 11
+}

@@ -1,0 +1,34 @@
+{
+  "id": 34829,
+  "name": "Sunrise Trail Running 2024",
+  "location": "Ferreira do Alentejo, Beja",
+  "coordinates": {
+    "lat": 38.0593873,
+    "lon": -8.114071299999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/6fad82937960cfaee070e9cc0651e3a8"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "\n<p>O SUNRISE TRAIL RUNNING Ferreira do Alentejo é um evento desportivo de caráter lúdicocompetitivo,  organizado pela associação SINGARUNNERS, em estreita parceira com a Câmara Municipal de Ferreira do Alentejo, a União das Freguesias de Ferreira do Alentejo e Canhestros, Associação dos Bombeiros Voluntários de Ferreira do Alentejo, Casas de hotelaria, restauração e bebidas da localidade de Ferreira do Alentejo e sob a supervisão técnica da Associação de Atletismo de Beja.</p>\n\n\n\n<p>O evento é composto por três provas:<br>▪ Trail Longo (TL25K): Prova competitiva a decorrer num percurso predominantemente rural, de aproximadamente 25km;<br>▪ Trail Curso (TL15K): Prova competitiva a decorrer num percurso predominantemente rural, de aproximadamente 15km;<br>▪ Caminhada (C10K): Prova lúdica a decorrer num percurso urbano e rural, de aproximadamente 10km.</p>\n\n\n",
+  "description_short": "Trail desportivo pela zona rural de Ferreira do Alentejo com apoio local e múltiplas modalidades",
+  "page": "https://acorrer.pt/eventos/info/3511",
+  "slug": "sunrise-trail-running-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Ferreira do Alentejo",
+  "administrative_area_level_3": "União das freguesias de Ferreira do Alentejo e Canhestros",
+  "district_code": 2
+}

@@ -1,0 +1,32 @@
+{
+  "id": 39785,
+  "name": "Trail dos Patinhos 2025",
+  "location": "Arrimal, Porto de Mós",
+  "coordinates": {
+    "lat": 39.4869989,
+    "lon": -8.881981699999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000
+  ],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/76c2e60516fa092d7574309aa93d1c76"
+  ],
+  "start_date": "2025-02-15",
+  "end_date": "2025-02-15",
+  "circuit": [],
+  "description": "\n<p>O evento<strong>&nbsp;Trail dos Patinhos&nbsp;</strong>é um evento de&nbsp;<strong>Atletismo e modalidade de Trail</strong>, organizado pelo&nbsp;<strong>Afonso Durão da Silva</strong>&nbsp;como a sua&nbsp;<strong>Prova de Aptidão Profissional&nbsp;</strong>que irá decorrer no&nbsp;<strong>CCRD Arrimal e a sua secção de Atletismo/Trail</strong>, com o apoio da Câmara Municipal de Porto de Mós e União de Freguesias de Arrimal e Mendiga.</p>\n\n\n\n<p>É constituído por um&nbsp;<strong>percurso de 12 km e um KIDS RUN</strong>&nbsp;nos melhores e mais belos trilhos do Parque Natural da Serra de Aire e Candeeiros, no Concelho de Porto de Mós, a realizar no dia<strong>&nbsp;15 de Fevereiro de 2024.</strong></p>\n\n\n\n<p>O local de partida e chegada encontra-se localizado junto ao Centro Cultural Recreativo e Desportivo de Arrimal, Rua do Outeiro, N. º15, Arrimal, 2480-043 Porto de Mós.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos trilhos do Parque Natural da Serra de Aire e Candeeiros",
+  "page": "https://www.recordepessoal.pt/evento/traildospatinhos",
+  "slug": "trail-dos-patinhos-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Arrimal",
+  "district_code": 10
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4913,
+  "name": "Meia Maratona de Braga 2021",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    6000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/9090aae21a47602527959429c79f9c49"
+  ],
+  "start_date": "2021-10-17",
+  "end_date": "2021-10-18",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://www.runporto.com/pt/eventos/meia-maratona-de-braga/meia-maratona-de-braga-2020/resultados-provisorios/\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>A Caravela Seguros Meia Maratona de Braga 2021 está de volta.<br><br>É com muito prazer que podemos confirmar a realização deste grande evento na Cidade de Braga no dia 17 de Outubro de 2021.</p>\n\n\n\n<p>Com o Plano de Segurança concluído a Meia Maratona de Braga volta às principais ruas da cidade contanto com 2 distâncias no seu programa, a Meia Maratona de 21k e a Mini Maratona de 6k.</p>\n",
+  "description_short": "Meia maratona tradicional pelas principais artérias da cidade histórica de Braga",
+  "page": "https://www.runporto.com/pt/eventos/meia-maratona-de-braga/",
+  "slug": "meia-maratona-de-braga-2021",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

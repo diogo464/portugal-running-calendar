@@ -1,0 +1,33 @@
+{
+  "id": 662,
+  "name": "Grande Prémio Atletismo Clube Do Pessoal Águas de Gaia",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/b904262e567c5651371be78cc66757e2"
+  ],
+  "start_date": "2020-04-19",
+  "end_date": "2020-04-20",
+  "circuit": [],
+  "description": "<p align=\"justify\">Mais uma edição da Corrida das Águas de Gaia, promovida pelo Clube do Pessoal, vai para a estrada. Venham correr ou caminhar nas bonitas ruas de Gaia!</p>\n<p align=\"justify\">Contamos com vocês! Participem!</p>\n",
+  "description_short": "Corrida descontraída pelas pitorescas ruas de Gaia, organizada pelo Clube do Pessoal",
+  "page": "https://www.prozis.com/pt/pt/evento/xii-grande-premio-atletismo-clube-do-pessoal-aguas-de-gaia",
+  "slug": "grande-premio-atletismo-clube-do-pessoal-aguas-de-gaia",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

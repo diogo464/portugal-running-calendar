@@ -1,0 +1,39 @@
+{
+  "id": 42332,
+  "name": "Meia Maratona da Benedita",
+  "location": "Benedita, Alcobaça",
+  "coordinates": {
+    "lat": 39.4269534,
+    "lon": -8.9798156
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    500,
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/df7dae19b54d2d47273f69e634a4f764"
+  ],
+  "start_date": "2025-09-14",
+  "end_date": "2025-09-14",
+  "circuit": [],
+  "description": "\n<p>A primeira edição da<strong>&nbsp;MEIA MARATONA DA BENEDITA</strong>&nbsp;chega a 14 de setembro 2025, para marcar o calendário desportivo com um novo desafio em terras de tradição e dinamismo.</p>\n\n\n\n<p>Num percurso que cruza o coração da vila com a sua envolvente natural, esta prova promete ser mais do que uma corrida — será uma celebração do espírito comunitário, do desporto e da superação pessoal.</p>\n\n\n\n<p>Sintam-se assim, todos convidados a participar e vivenciar esta 2ª etapa do circuito –&nbsp;<strong>Grande Prémio&nbsp;<em>“Road Warriors”</em>&nbsp;de Portugal</strong>.<br>O evento conta com 4 segmentos:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Kids, corrida pais e filhos ( +/- 500m)</li>\n\n\n\n<li>Meia Maratona – 21K</li>\n\n\n\n<li>Distância 10K</li>\n\n\n\n<li>Caminhada – 5km</li>\n</ul>\n\n\n\n<p></p>\n",
+  "description_short": "Primeira edição da Meia Maratona da Benedita celebra desporto e comunidade em percurso que une vila e natureza",
+  "page": "https://waitastart.com/meia-maratona-benedita-2025/",
+  "slug": "meia-maratona-da-benedita",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Benedita",
+  "district_code": 10
+}

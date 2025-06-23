@@ -1,0 +1,34 @@
+{
+  "id": 725,
+  "name": "Corrida do Adepto 2020",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/ff1e9b7d97b2fe85d55bffd73b2c9e0e"
+  ],
+  "start_date": "2020-01-25",
+  "end_date": "2020-01-26",
+  "circuit": [],
+  "description": "<h3><span style=\"color: #99cc00;\"><a style=\"color: #99cc00;\" href=\"https://www.runporto.com/pt/eventos/corrida-do-adepto/corrida-do-adepto-2020/resultados-provisorios/\" target=\"_blank\" rel=\"noopener\">RESULTADOS</a></span></h3>\n<p>A 4ª edição da Corrida do Adepto já tem data marcada! A prova realizar-se-à no dia 25 de janeiro de 2020 na Cidade de Braga, dia que vai marcar o jogo da Final da Taça da Liga.</p>\n<p>A Corrida do Adepto é um evento desportivo organizado pela Liga Portugal, com o apoio da Câmara Municipal de Braga e Instituto Português do Desporto e da Juventude. A organização técnica é da responsabilidade da empresa Runporto.</p>\n<p>Serão realizadas duas provas: uma corrida de 10 km cronometrada e uma caminhada de 5 km, ambas sem fins competitivos.</p>\n<p>A cor da t-shirt oficial depende da escolha do clube de cada participante. Nas inscrições realizadas até 15 de Janeiro será perguntado a cada participante (nas opções extra de inscrição) qual o clube que apoia, dos 37 disponíveis e a cor da t-shirt varia de clube para clube.</p>\n<p>Após esta data todos os participantes integrarão a equipa do Fair Play.</p>\n",
+  "description_short": "Corrida do Adepto em Braga no dia da Final da Taça da Liga com apoio municipal e espírito desportivo",
+  "page": "https://www.runporto.com/pt/eventos/corrida-do-adepto/corrida-do-adepto-2020/",
+  "slug": "corrida-do-adepto",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

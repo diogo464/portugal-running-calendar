@@ -1,0 +1,34 @@
+{
+  "id": 23224,
+  "name": "1ª Corrida Da Biosfera, 6ª Caminhada Da Biosfera 2023",
+  "location": "Golegã, Santarém",
+  "coordinates": {
+    "lat": 39.4047966,
+    "lon": -8.4880572
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e6e2dd61e3df73783ee7701b539fad6e"
+  ],
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-08",
+  "circuit": [],
+  "description": "\n<p>Estão abertas as inscrições para a 1ª Corrida da Biosfera do Paul do Boquilobo e para a 6ª Caminhada da Biosfera, eventos que irão brindar os atletas com percursos de corrida maioritariamente em estradão de terra batida, rápidos e com as magníficas paisagens da Reserva da Biosfera do Paul do Boquilobo.</p>\n\n\n\n<p><br>Efetue a sua inscrição e garanta lugar nesta corrida que será marcante, com as receitas das inscrições a reverterem para a conservação da natureza, através de investimentos a realizar nesta que é a primeira Reserva da Biosfera do nosso país, numa classificação atribuída pela UNESCO.</p>\n\n\n",
+  "description_short": "Corrida solidária pelos caminhos de terra batida da Reserva da Biosfera do Paul do Boquilobo",
+  "page": "https://www.queroir.pt/corridadabiosfera",
+  "slug": "1a-corrida-da-biosfera-6a-caminhada-da-biosfera-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Golegã",
+  "administrative_area_level_3": "Golegã",
+  "district_code": 14
+}

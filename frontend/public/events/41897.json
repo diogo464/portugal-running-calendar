@@ -1,0 +1,34 @@
+{
+  "id": 41897,
+  "name": "Corrida Popular da Costa Nova do Prado 2025",
+  "location": "Costa Nova, Ílhavo Ílhavo, Aveiro",
+  "coordinates": {
+    "lat": 40.602309,
+    "lon": -8.672371
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/647557db2e93fc46f2e5df9317b8540f"
+  ],
+  "start_date": "2025-07-05",
+  "end_date": "2025-07-06",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Ílhavo vai promover a Corrida Popular da Costa Nova do Prado com tiro de partida junto ao Mercado da Costa Nova. O trajeto, de dez quilómetros em asfalto, entre a Costa Nova e a Vagueira é completamente plano, sempre junto à Ria de Aveiro. Em simultâneo, decorre a caminhada e a Corrida dos mais Pequenos, sem fins competitivos.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida popular plana junto à Ria de Aveiro, com partida no Mercado da Costa Nova em Ílhavo",
+  "page": "https://lap2go.com/pt/event/corrida-popular-costa-nova-do-prado-2025",
+  "slug": "corrida-popular-da-costa-nova-do-prado-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

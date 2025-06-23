@@ -1,0 +1,30 @@
+{
+  "id": 3043,
+  "name": "Night Run Urban Trail 2021",
+  "location": "Torres Vedras",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/58be4198c6a9bbb73b65880ceb8e26e0"
+  ],
+  "start_date": "2021-10-30",
+  "end_date": "2021-10-31",
+  "circuit": [],
+  "description": "\n<p><strong>A Câmara Municipal de Torres Vedras</strong>, em parceria com as associações&nbsp;<strong>Académico de Torres Vedras, Associação Cultural Recreativa Desportiva do Furadouro, Clube Académico de Penafirme, e Turres Trail Clube</strong>, organiza o&nbsp;<strong>NIGHT RUN URBAN TRAIL</strong>&nbsp;no dia&nbsp;<strong>30 de outubro de 2021</strong>.&nbsp;Com partidas e chegadas na&nbsp;<strong>Praça Machado Santos</strong>, os percursos decorrem em contexto noturno e maioritariamente urbano, com pequenos segmentos em trilhos seminaturais na cidade de Torres Vedras e em sistema open road. Incluirá passagens nos locais mais emblemáticos da cidade percorrendo ruas, travessas, escadas, interiores de edifícios e outros locais menos conhecidos da maioria da população.&nbsp;O&nbsp;<strong>Night Run Urban Trail</strong>&nbsp;não é um evento de competição. Os participantes percorrem um percurso ao seu ritmo em toda a extensão, sendo-lhes no entanto cronometrado por meios eletrónicos (exceto caminhada), o tempo que demoram a completar a totalidade desse percurso.</p>\n",
+  "description_short": "Trail noturno urbano por Torres Vedras com passagens em locais históricos e trilhos seminaturais",
+  "page": "https://www.recordepessoal.pt/evento/nightrunurbantrail2021",
+  "slug": "night-run-urban-trail-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

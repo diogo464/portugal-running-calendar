@@ -1,0 +1,32 @@
+{
+  "id": 305,
+  "name": "Corrida Santa Maria Maior",
+  "location": "Largo das Portas do Sol, Lisboa",
+  "coordinates": {
+    "lat": 38.7123345,
+    "lon": -9.1305044
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/d5088ac5eaa321a774125286258f1fec"
+  ],
+  "start_date": "2019-12-22",
+  "end_date": "2019-12-23",
+  "circuit": [],
+  "description": "<p>Está a chegar a 4ª CORRIDA SANTA MARIA MAIOR!<br />\nNo dia 22 de dezembro (domingo), partimos do Castelo para 10km de corrida no coração da cidade.<br />\nDo Largo das Portas do Sol ao Terreiro do Paço, percorrendo artérias de diferentes zonas da freguesia, a Corrida de Santa Maria Maior, promovida pela Junta de Freguesia de Santa Maria Maior, já é um evento que marca a agenda desportiva de Lisboa.</p>\n",
+  "description_short": "Corrida urbana pelo coração histórico de Lisboa, com partida no Castelo e passagem por emblemáticas zonas de Santa Maria Maior",
+  "page": "https://www.acorrer.pt/eventos/info/2408",
+  "slug": "corrida-santa-maria-maior",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Santa Maria Maior",
+  "district_code": 11
+}

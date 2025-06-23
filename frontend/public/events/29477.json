@@ -1,0 +1,33 @@
+{
+  "id": 29477,
+  "name": "Meia Do Futuro 2023",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "kids",
+    "half-marathon"
+  ],
+  "images": [
+    "media/4546d7b0537bce6cb40445834b244722"
+  ],
+  "start_date": "2023-11-11",
+  "end_date": "2023-11-12",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>18ª Meia do Futuro DOCAPESCA</strong>&nbsp;é organizada numa parceria conjunta entre a&nbsp;<strong>Meia Maratona Internacional da Nazaré</strong>&nbsp;e o&nbsp;<strong>Clube de Atletismo da Nazaré</strong>.</p>\n\n\n\n<p>Será realizada no dia <strong>11 de Novembro de 2023</strong> a partir das <strong>15h30</strong> com partida na <strong>Praça Manuel de Arriaga &#8211; Nazaré</strong>.</p>\n",
+  "description_short": "Meia maratona na Nazaré com partida na icónica Praça Manuel de Arriaga",
+  "page": "https://www.recordepessoal.pt/evento/18meiadofuturodocapesca",
+  "slug": "meia-do-futuro-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

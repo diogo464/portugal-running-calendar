@@ -1,0 +1,35 @@
+{
+  "id": 19561,
+  "name": "São Silvestre de Melides 2022",
+  "location": "Melides, Setúbal",
+  "coordinates": {
+    "lat": 38.147037,
+    "lon": -8.7291925
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/a19096b44c21773e5cac6471a49111f6"
+  ],
+  "start_date": "2022-12-03",
+  "end_date": "2022-12-04",
+  "circuit": [],
+  "description": "\n<p>A Juventude Desportiva Melidense com o apoio da Junta de Freguesia de Melides, Câmara Municipal de Grândola e seus patrocinadores, irá organizar uma prova desportiva denominada por “SÃO SILVESTRE DE MELIDES 2022”. Este convívio desportivo terá como principal objetivo incentivar a população à prática desportiva de forma saudável e regular. À semelhança do ano transato o evento conta com uma corrida de 10 km e uma caminhada de 5 km.<br>A corrida e a caminhada têm início e fim no mesmo local, no campo de futebol em Melides (Campo do Castelo) e decorrem em percurso misto (alcatrão, terra batida, estradão e calçada). A corrida e caminhada realizam-se durante o período tarde/noite e como tal será de todo aconselhável o uso de frontal ou lanterna, principalmente para os atletas de ritmo mais lento.<br>A corrida de 10 km é aberta a todo o público em geral com idade igual ou superior a 18 anos, não havendo limite de idade para a caminhada de 5 km.<br>Todos os participantes terão direito a Dorsal, T-Shirt Técnica, Seguro, Duche Quente e uma Refeição Ligeira (Caldo Verde e Bifana).</p>\n\n\n",
+  "description_short": "Corrida noturna em Melides com percurso misto e ambiente convívio desportivo",
+  "page": "https://acorrer.pt/eventos/info/3032",
+  "slug": "sao-silvestre-de-melides-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "Melides",
+  "district_code": 15
+}

@@ -1,0 +1,30 @@
+{
+  "id": 27412,
+  "name": "Trail Montes Saloios 2024",
+  "location": "Covas de Ferro, Sintra",
+  "coordinates": {
+    "lat": 38.864331,
+    "lon": -9.2487985
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/de25f4b0d0d0f678bb21ecd6f0da2808"
+  ],
+  "start_date": "2024-02-04",
+  "end_date": "2024-02-05",
+  "circuit": [],
+  "description": "\n<p>O Motoclube TT Montes Saloios e a Liga dos Amigos de Covas de Ferro vão organizar a 04 de Fevereiro de 2024, o em Covas de Ferro, concelho de Sintra.</p>\n\n\n\n<p>É uma prova de Trail Running, corrida pedestre em natureza, com 3 provas: Trail Longo (TL), Trail Curto (TC) e Caminhada (CAM). </p>\n\n\n\n<p>A partida e chegada será no pavilhão gimnodesportivo do edifício multiusos da Liga dos Amigos de Covas de Ferro.<br></p>\n\n\n",
+  "description_short": "Trail pela região de Sintra com partida em Covas de Ferro, organizado pelo Motoclube TT Montes Saloios",
+  "page": "https://www.trilhoperdido.com/evento/X-Trail-Montes-Saloios",
+  "slug": "trail-montes-saloios-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+  "district_code": 11
+}

@@ -1,0 +1,29 @@
+{
+  "id": 40037,
+  "name": "Last WoMan Coura 2025",
+  "location": "Paredes de Coura, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.913112,
+    "lon": -8.5614378
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/7d75a12f8abdf527596a75d89e9abb2f"
+  ],
+  "start_date": "2025-03-08",
+  "end_date": "2025-03-08",
+  "circuit": [],
+  "description": "\n<p>A 8 de março, os Amigos da Montanha, em parceria com o Município de Paredes de Coura, trazem-te uma experiência de trail única que vai testar a tua força, estratégia e resistência mental. Apresentamos-te o Last WoMan Coura AM, a prova onde o relógio dita as regras e em cada volta tens a oportunidade de um novo recomeço.<br>Aqui, não há favoritos nem posições fixas. Cada volta começa do zero. És tu, os teus limites e a vontade de continuar. À medida que o tempo diminui e o ritmo acelera, só os mais determinados ficarão na linha de partida para a volta seguinte. É uma prova de estratégia e superação, onde cada segundo conta e cada decisão pode mudar o resultado.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante em Paredes de Coura com formato de eliminação progressiva e estratégia de sobrevivência",
+  "page": "https://www.sinctime.com/evento/335",
+  "slug": "last-woman-coura-2025",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Paredes de Coura",
+  "administrative_area_level_3": "União das freguesias de Paredes de Coura e Resende",
+  "district_code": 16
+}

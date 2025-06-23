@@ -1,0 +1,37 @@
+{
+  "id": 26970,
+  "name": "Meia Maratona Algarve 2023",
+  "location": "Passeio das Dunas, Vilamoura",
+  "coordinates": {
+    "lat": 37.0708435,
+    "lon": -8.1110487
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000,
+    10000,
+    10500,
+    21097,
+    97000
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/c23281a5e25339384798b72d0cfd4fbc"
+  ],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona  Algarve/ Mamamaratona vai acontecer no dia <strong>15 de Outubro de 2023</strong> e é  uma organização da Câmara Municipal de Loulé e da Associação de Atletismo do Algarve, em parceria com a Associação Oncológica do Algarve, Junta de Freguesia do Quarteira, Vilamoura World, Inframoura.</p>\n\n\n\n<p>Mini Maratona (Aproximadamente 10,5km)<br>Meia Maratona (21,097km) Percurso homologado pela FPA.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Secretariado</h2>\n\n\n\n<p>A organização fornece os dorsais que deverão ser levantados no dia&nbsp;<strong><u>14 de Outubro</u></strong>&nbsp;no secretariado da competição situado no Passeio das Dunas,&nbsp;<strong>entre as 15h00 e as 19h00</strong><strong>,</strong>&nbsp;pelo delegado de cada Clube/ Equipa ou individualmente (atletas individuais), e no dia&nbsp;<strong>15 de Outubro, até às 9:00h</strong>&nbsp;(hora de fecho do secretariado).<br>Os atletas devem ser portadores de 4 alfinetes para colocação dos respetivos dorsais.<br>O Kit de atleta é composto por:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Saco&nbsp;</li>\n\n\n\n<li>Dorsal</li>\n\n\n\n<li>T-shirt</li>\n\n\n\n<li>Chip</li>\n\n\n\n<li>Material promocional variado</li>\n</ul>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia Maratona solidária pela costa algarvia com apoio à Associação Oncológica em Loulé e Quarteira",
+  "page": "https://www.crono.aaalgarve.org/eventos/meia-maratona-do-algarve-mamamaratona-2023",
+  "slug": "meia-maratona-algarve-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Quarteira",
+  "district_code": 8
+}

@@ -1,0 +1,30 @@
+{
+  "id": 22195,
+  "name": "Trilho dos Pernetas 2023",
+  "location": "Canedo, Santa Maria da Feira Feira, Aveiro",
+  "coordinates": {
+    "lat": 41.0083753,
+    "lon": -8.4622869
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/8c03dd23d69f1002dca851479e367558"
+  ],
+  "start_date": "2023-05-01",
+  "end_date": "2023-05-02",
+  "circuit": [],
+  "description": "\n<p>Os Trilhos dos Pernetas 5.8 – edição ”C.U.” são uma organização do CAL &#8211; Clube Atletismo de Lamas, com o apoio da Câmara Municipal de Santa Maria da Feira e a União de Juntas de Freguesia de Canedo, Vale e Vila Maior e tem como director da prova Carlos Cardoso.</p>\n\n\n\n<p><br>A prova realiza-se no dia 1 de Maio de 2023 pelas 9h00, com partida e chegada na Capela da Senhora da Piedade, em Canedo, concelho de Santa Maria da Feira e integrará 3 percursos decorrida (trail longo, trail médio e trail curto) e um de caminhada.</p>\n",
+  "description_short": "Trail dos Pernetas em Canedo com partida na Capela da Senhora da Piedade, num evento multi-distâncias organizado pelo CAL",
+  "page": "https://lap2go.com/pt/event/trilhos-dos-pernetas-2023",
+  "slug": "trilho-dos-pernetas-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Canedo",
+  "district_code": 1
+}

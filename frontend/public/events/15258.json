@@ -1,0 +1,33 @@
+{
+  "id": 15258,
+  "name": "Bimbo Global Race 2022",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/1705468e922f26a1d9e531f2ac55e11f"
+  ],
+  "start_date": "2022-09-25",
+  "end_date": "2022-09-26",
+  "circuit": [],
+  "description": "\n<p>O Ursinho Bimbo nasce com o Grupo Bimbo, acompanhando-o sempre, assando cada fatia de pão, cada biscoito, cada alimento, lado a lado. O seu propósito é o mesmo, colocar em cada grão de farinha a vontade de alimentar um mundo melhor.</p>\n\n\n\n<p>Dessa mesma forma, nasceu a <strong>Bimbo Global Race</strong>, em busca de um estilo de vida saudável e sustentável e, tal como o Ursinho Bimbo, ser um agente de mudança. E hoje, oito anos após a primeira corrida, temos o orgulho de continuar a crescer, sendo atualmente uma das maiores comunidades do mundo.</p>\n\n\n\n<p>Este ano queremos fazer mais e superar-nos. É por isso que corremos na Bimbo Global Race, por essa razão tão humana que nos une ao mundo em redor. Queremos fazer parte de grandes causas como a de doar pão e alimentar nossas comunidades, assim garantindo que alimentos nutritivos estão acessíveis a todos. Damos a nossa energia para dar energia aos outros.</p>\n\n\n\n<p><strong>&nbsp;JUNTOS ALIMENTAMOS UM MUNDO MELHOR!</strong></p>\n",
+  "description_short": "Corrida solidária mundial com missão social de apoiar comunidades através da doação de alimentos",
+  "page": "https://xistarca.pt/eventos/bimbo-global-race-2022",
+  "slug": "bimbo-global-race-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

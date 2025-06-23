@@ -1,0 +1,31 @@
+{
+  "id": 30765,
+  "name": "Poço Negro Trail 2024",
+  "location": "Rio Mau, Penafiel",
+  "coordinates": {
+    "lat": 41.0530542,
+    "lon": -8.3674684
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3244e59dec1f210f6cea5f4675d78a7b"
+  ],
+  "start_date": "2024-06-30",
+  "end_date": "2024-07-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Poço Negro Trail vai em 2024 para a sua sétima edição, que percorrerá trilhos na Serra da Boneca, Estivada e no vale do Rio Mau. Tal como em anos anteriores o valor das inscrições reverterá para uma causa solidária, a Associação para o Desenvolvimento da Freguesia de Rio Mau.</p>\n",
+  "description_short": "Trail solidário na Serra da Boneca com percurso pelo vale do Rio Mau",
+  "page": "https://lap2go.com/pt/event/poco-negro-trail-2024",
+  "slug": "poco-negro-trail-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Penafiel",
+  "administrative_area_level_3": "Rio Mau",
+  "district_code": 13
+}

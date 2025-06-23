@@ -1,0 +1,33 @@
+{
+  "id": 37747,
+  "name": "Volta à Cidade do Funchal 2024",
+  "location": "Funchal, Madeira",
+  "coordinates": {
+    "lat": 32.6506129,
+    "lon": -16.9082357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/a76274555c2d166c03adef1cbd7cf98b"
+  ],
+  "start_date": "2024-12-28",
+  "end_date": "2024-12-29",
+  "circuit": [],
+  "description": "\n<p>A Volta à Cidade do Funchal acontece pela 65ª vez na ilha da Madeira e é uma das mais míticas corridas de estrada de fim de ano, aberta a todas as idades.</p>\n",
+  "description_short": "Tradicional corrida de São Silvestre no coração do Funchal, com 65 anos de história",
+  "page": "https://lap2go.com/pt/event/volta-cidade-do-funchal-2024",
+  "slug": "volta-a-cidade-do-funchal-2024",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

@@ -1,0 +1,33 @@
+{
+  "id": 38868,
+  "name": "São Silvestre Sado 2025",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/946ea75af5f92dca0a3971b4c1f343b4"
+  ],
+  "start_date": "2025-01-11",
+  "end_date": "2025-01-12",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre do Sado, em Setúbal, volta a sair para a rua, nos primeiros dias do ano de 2025. Na sua 26ª edição, a prova terá a distância de 10 Km irá iniciar-se-á às 18 horas, com partida e chegada em Praias do Sado. Venha participar e aventurar-se por terras do Sado e nas suas paisagens e gastronomia fantásticas.</p>\n",
+  "description_short": "Corrida de São Silvestre nas primeiras horas do ano pelas paisagens de Setúbal e margens do Sado",
+  "page": "https://lap2go.com/pt/event/ss-sado-2025",
+  "slug": "sao-silvestre-sado-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

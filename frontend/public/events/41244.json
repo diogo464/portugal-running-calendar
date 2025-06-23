@@ -1,0 +1,33 @@
+{
+  "id": 41244,
+  "name": "Sunset Run Ribeirinha 2025",
+  "location": "Baixa da Banheira, Setúbal",
+  "coordinates": {
+    "lat": 38.6595324,
+    "lon": -9.0434313
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    9000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/8738cc971a155181a7fa6f8447cc5672"
+  ],
+  "start_date": "2025-07-12",
+  "end_date": "2025-07-12",
+  "circuit": [],
+  "description": "\n<p>A 7ª SUNSET RUN RIBEIRINHA é composta por uma prova (corrida 9Km) e uma caminhada (5Km).</p>\n\n\n",
+  "description_short": "Corrida ribeirinha com trajeto ao final do dia no centro da cidade",
+  "page": "https://acorrer.pt/eventos/3858/info",
+  "slug": "sunset-run-ribeirinha-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Moita",
+  "administrative_area_level_3": "União das freguesias de Baixa da Banheira e Vale da Amoreira",
+  "district_code": 15
+}

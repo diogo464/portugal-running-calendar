@@ -1,0 +1,32 @@
+{
+  "id": 15304,
+  "name": "Torres Novas Nigth Trail 2022",
+  "location": "Torres Novas, Santarém",
+  "coordinates": {
+    "lat": 39.478072,
+    "lon": -8.5404429
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    6000,
+    10600
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/56c09d285d981c7d640228929d1abb58"
+  ],
+  "start_date": "2022-08-27",
+  "end_date": "2022-08-28",
+  "circuit": [],
+  "description": "\n<p>A União Desportiva e Recreativa da Zona Alta, em parceria com a Câmara Municipal de Torres Novas, vão realizar um evento denominado &#8220;TORRES NOVAS NIGHT TRAIL-2022”.</p>\n\n\n\n<p>Este evento irá decorrer no concelho de Torres Novas e irá desenvolver-se maioritariamente na zona urbana, passando pelas aldeias de Lapas, Ribeira Branca, Ribeira Ruiva, Casal da Pinheira, Casais Martanes e Zibreira (nascente do Rio Almonda), trilhos, caminhos e estradas de terra batida das zonas limítrofes destas localidades.</p>\n\n\n\n<p>O &#8220;TORRES NOVAS NIGHT TRAIL &#8211; 2022” tem duas distâncias competitivas:</p>\n\n\n\n<p>Trail Longo</p>\n\n\n\n<p>&#8211; Circuito Nacional de Trail (índice 100) da ATRP;</p>\n\n\n\n<p>&#8211; Circuito de Trail do Ribatejo (TL);</p>\n\n\n\n<p>&#8211; Campeonato Regional de Santarém de Trail Longo.</p>\n\n\n\n<p>Trail Curto</p>\n\n\n\n<p>– Circuito Nacional de Trail Sprint (índice 100) da ATRP;</p>\n\n\n\n<p>&#8211; Circuito Nacional Jovem (índice 150) da ATRP;</p>\n\n\n\n<p>&#8211; Circuito de Trail do Ribatejo (TC);</p>\n\n\n\n<p>&#8211; Campeonato Regional de Santarém de Trail Curto.</p>\n\n\n\n<p>Caminhada (não competitiva) – 10,6 km; 250 d+</p>\n\n\n\n<p>Todas as provas partem do Jardim das Rosas &#8211; Torres Novas.</p>\n",
+  "description_short": "Trail nocturno por caminhos e aldeias de Torres Novas, com passagem por locais históricos e zonas rurais envolventes",
+  "page": "https://www.totalcrono.pt/eventos/tnnt2022",
+  "slug": "torres-novas-nigth-trail-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

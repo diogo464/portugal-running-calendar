@@ -1,0 +1,39 @@
+{
+  "id": 20508,
+  "name": "IX Trail Santa Luzia 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    14000,
+    18000,
+    30000,
+    50000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/1d59541a75a3c6dfe1677d628941ad41"
+  ],
+  "start_date": "2023-04-01",
+  "end_date": "2023-04-02",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Prova designada Trail Santa Luzia (TSL) sendo no ano 2023 a sua 9.ª Edição, nas versões Ultra Trail, com 50 km, Trail Longo, com 30 km, Trail Curto com 18 km, Mini Trail/Jovem com 14 km e caminhada com 10 km.</p>\n\n\n\n<p>O Trail de Santa Luzia é organizado pelo Clube de Atletismo OLÍMPICO VIANENSE com a colaboração da Câmara Municipal de Viana do Castelo e decorrerá nos dias 01 e 02 de abril, em Viana do Castelo, independentemente das condições climatéricas desses dias, desde que a organização entenda que não ofereçam riscos aos participantes;</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail de montanha em Viana do Castelo com múltiplos percursos e organização local",
+  "page": "https://stopandgo.net/event/?id=904",
+  "slug": "ix-trail-santa-luzia-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

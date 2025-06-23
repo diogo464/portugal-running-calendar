@@ -1,0 +1,37 @@
+{
+  "id": 30364,
+  "name": "São Silvestre da Trofa 2024",
+  "location": "Trofa, Porto",
+  "coordinates": {
+    "lat": 41.3125528,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    300,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/442af07a0115531b482501b0e6ad8af1"
+  ],
+  "start_date": "2024-01-13",
+  "end_date": "2024-01-14",
+  "circuit": [],
+  "description": "\n<p>A edição 2024 da São Silvestre Cidade da Trofa by Remax Cool terá lugar no dia 13 de Janeiro de 2024.<br>A São Silvestre Cidade da Trofa é uma organização da Associação Recreativa de Paradela, onde a Alameda da Estação será o inicio da sua segunda edição e a grande festa terá como palco, o centro da cidade da Trofa.</p>\n\n\n\n<p>Corrida São Silvestre 10km, que irá decorrer no sábado, dia 13 de janeiro de 2024, às 18:30, com partida e chegada na Alameda da Estação.</p>\n\n\n\n<p><br>Caminhada 5km, que irá decorrer no sábado, dia 14 de janeiro de 2023, às 18h30, com partida e chegada na Alameda da Estação.</p>\n\n\n\n<p><br>São Silvestre Kids 300 metros, que irá decorrer no sábado, dia 13 de janeiro de 2023, às 17h30, com um mini circuito de aproximadamente 300 metros na Alameda da Estação.</p>\n",
+  "description_short": "Corrida São Silvestre animada no centro da cidade da Trofa com provas para diferentes escalões",
+  "page": "https://www.raidbttdatrofa.pt/evento.php?i_e=11",
+  "slug": "sao-silvestre-da-trofa-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Trofa",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

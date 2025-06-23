@@ -1,0 +1,35 @@
+{
+  "id": 40178,
+  "name": "Sines Corre Mais 2025",
+  "location": "Sines, Setúbal",
+  "coordinates": {
+    "lat": 37.9571555,
+    "lon": -8.860890699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/5e8bddd2c16b236ce5dd8ff6e2da7f3d"
+  ],
+  "start_date": "2025-09-20",
+  "end_date": "2025-09-21",
+  "circuit": [],
+  "description": "\n<p><strong>A 20 de setembro 2025, temos encontro marcado em Sines.</strong></p>\n\n\n\n<p>A HMS Sports e a Associação Desportiva Mais Inclusão promovem a quarta edição do Sines Corre Mais, com a corrida de 10 km e a caminhada de 5 km.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário junto ao litoral alentejano com provas de corrida e caminhada em Sines",
+  "page": "https://sinescorremais.pt/",
+  "slug": "sines-corre-mais-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sines",
+  "administrative_area_level_3": "Sines",
+  "district_code": 15
+}

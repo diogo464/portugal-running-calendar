@@ -1,0 +1,29 @@
+{
+  "id": 14684,
+  "name": "Corrida da Liberdade 2022",
+  "location": "Maia, Porto",
+  "coordinates": {
+    "lat": 41.2326543,
+    "lon": -8.622938699999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/2c56378c6ed2ec47d0ff553079f11b55"
+  ],
+  "start_date": "2022-04-24",
+  "end_date": "2022-04-25",
+  "circuit": [],
+  "description": "\n<p>Realiza-se Corrida da Liberdade 2022</p>\n",
+  "description_short": "Corrida evocativa das memórias históricas da Revolução de Abril",
+  "page": "https://corridadaliberdade.statusmarathon.net",
+  "slug": "corrida-da-liberdade-2022-2",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Maia",
+  "administrative_area_level_3": "Cidade da Maia",
+  "district_code": 13
+}

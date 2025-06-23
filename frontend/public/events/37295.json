@@ -1,0 +1,29 @@
+{
+  "id": 37295,
+  "name": "Corrida Sempre Mulher 2024 &#8211; Outubro",
+  "location": "Parque das Nações, Lisboa",
+  "coordinates": {
+    "lat": 38.7686316,
+    "lon": -9.095858
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/7fe0800799d32393b394a105b9c38e15"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [],
+  "description": "\n<p>A Associação Portuguesa de Apoio à Mulher com Cancro da Mama, em parceria com Câmara Municipal de Lisboa e com o apoio técnico da Sports High Performance e da Azores Sports Leader vai realizar no dia 20 de outubro de 2024, com início às 10h30m, a <strong>&#8220;HERBALIFE CORRIDA SEMPRE MULHER&#8221;</strong>, prova com vertente competitiva exclusiva para mulheres e vertente não competitiva em que a participação dos homens é permitida.</p>\n",
+  "description_short": "Corrida solidária em Lisboa dedicada ao apoio das mulheres com cancro da mama",
+  "page": "https://www.corridasempremulher.com",
+  "slug": "corrida-sempre-mulher-2024-outubro",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Parque das Nações",
+  "district_code": 11
+}

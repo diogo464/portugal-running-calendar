@@ -1,0 +1,34 @@
+{
+  "id": 14177,
+  "name": "Ecologic Trail Run Azores 2022",
+  "location": "Ribeira Grande, São Miguel",
+  "coordinates": {
+    "lat": 37.8226777,
+    "lon": -25.5238789
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    21000,
+    42000,
+    83000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a1d45a0231c82411c967b47180ff533e"
+  ],
+  "start_date": "2022-10-15",
+  "end_date": "2022-10-16",
+  "circuit": [],
+  "description": "\n<p>JÁ PODES MARCAR NA TUA AGENDA!Este ano o Ecologic Trail Run Azores 2022 &#8211; Ribeira Grande regressa dia 15 de outubro de 2022&#8230; e aumenta as distâncias!- 83 kms- 42 kms- 21 kms- CaminhadaACEITA O DESAFIO DA NATUREZA(ENG) ***** NEW DATE *****BOOK IN YOUR AGENDA!This year the Ecologic Trail Run Azores &#8211; Ribeira Grande will be back on October 15, 2022&#8230; and the distances will be longer!- 83 kms- 42 kms- 21 kms- HikingACCEPT THE CHALLENGE OF NATURE</p>\n",
+  "description_short": "Trail épico pelos trilhos naturais da Ribeira Grande nos Açores, com múltiplas distâncias para todos os níveis",
+  "page": "https://ecologictrailrunaz.wixsite.com/etra",
+  "slug": "ecologic-trail-run-azores-2022",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Ribeira Grande",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

@@ -1,0 +1,33 @@
+{
+  "id": 34176,
+  "name": "Corrida da Liberdade 2024",
+  "location": "Custóias, Matosinhos",
+  "coordinates": {
+    "lat": 41.2023934,
+    "lon": -8.6414565
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/74b0abc9e5b6fa77b3ca7f900e5a80af"
+  ],
+  "start_date": "2024-04-25",
+  "end_date": "2024-04-25",
+  "circuit": [],
+  "description": "\n<p>A União de Freguesias de Custóias, Leça do Balio e Guifões, no próximo dia 25 de abril, organiza a 45ª Edição da Corrida da Liberdade integrada nas comemorações do 50º Aniversário da Revolução dos Cravos, com partida e chegada no Largo do Souto.</p>\n",
+  "description_short": "Corrida histórica que celebra o 50º aniversário do 25 de Abril em Custóias, Leça do Balio e Guifões",
+  "page": "https://www.desportave.pt/events.file.php?cid=170",
+  "slug": "corrida-da-liberdade-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das freguesias de Custóias, Leça do Balio e Guifões",
+  "district_code": 13
+}

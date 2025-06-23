@@ -1,0 +1,34 @@
+{
+  "id": 1781,
+  "name": "Night Run Seaside 2020",
+  "location": "Vendas Novas",
+  "coordinates": {
+    "lat": 38.6768924,
+    "lon": -8.4633558
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    100,
+    4000,
+    7000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/e0fe42be3f0c832f50a18b8fee8fb49c"
+  ],
+  "start_date": "2020-06-05",
+  "end_date": "2020-06-06",
+  "circuit": [],
+  "description": "<p>A sétima edição da Night Run Seaside de Vendas Novas já tem data marcada! Aponte na agenda o dia 13 de março, para a participação nesta prova que pretende assinalar o Dia Internacional da Mulher, homenageando o universo feminino através da prática de atividade física, mas onde os homens também são bem-vindos!</p>\n<p>Escolha entre a corrida de 100 m de salto alto, a caminhada de 4 km ou a corrida de 7 km.</p>\n<p>Para todos há t-shirt técnica, ofertas de patrocinadores, animação no percurso e, para as mais rápidas, prémios Seaside.</p>\n<p>Todos juntos vamos ainda ajudar a “Make a Wish” a concretizar desejos de crianças e jovens com doenças graves. Contamos consigo!</p>\n",
+  "description_short": "Corrida nocturna em Vendas Novas celebra o Dia Internacional da Mulher com prova solidária",
+  "page": "https://werun.pt/eventos/night-run-seaside/",
+  "slug": "night-run-seaside-2020",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Vendas Novas",
+  "administrative_area_level_3": "Vendas Novas",
+  "district_code": 7
+}

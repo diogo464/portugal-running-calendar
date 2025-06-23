@@ -1,0 +1,36 @@
+{
+  "id": 29410,
+  "name": "Trail do Covão 2024",
+  "location": "Paredes, Porto",
+  "coordinates": {
+    "lat": 41.2051674,
+    "lon": -8.3303867
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    17000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7114dcc4896ec34c4ef014fb07d69f9d"
+  ],
+  "start_date": "2024-02-11",
+  "end_date": "2024-02-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A terceira edição do Trail do Covão é uma prova que percorre trilhos e caminhos nas Freguesias de Cête, Parada de Todeia, Baltar e Recarei, com início e fim no Parque Urbano de Cête.</p>\n\n\n\n<p>A prova de caracter competitivo tem três distâncias (10 km; 17km e 25km).</p>\n",
+  "description_short": "Trail técnico pelas freguesias rurais de Paredes com partida e chegada no Parque Urbano de Cête",
+  "page": "https://stopandgo.net/events/trail-do-covao-2024",
+  "slug": "trail-do-covao-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Paredes",
+  "district_code": 13
+}

@@ -1,0 +1,30 @@
+{
+  "id": 29904,
+  "name": "Spt Trail Serra Galega 2024",
+  "location": "Alenquer, Lisboa",
+  "coordinates": {
+    "lat": 39.0550936,
+    "lon": -9.010930499999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/221ee5a0f4a2717254473be828cb26a2"
+  ],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.recordepessoal.pt/evento/spttrail-serragalega2024",
+  "slug": "spt-trail-serra-galega-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Alenquer",
+  "administrative_area_level_3": "União das freguesias de Alenquer (Santo Estêvão e Triana)",
+  "district_code": 11
+}

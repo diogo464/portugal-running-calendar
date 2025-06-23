@@ -1,0 +1,37 @@
+{
+  "id": 30757,
+  "name": "Trilhos Luso Bussaco 2024",
+  "location": "Luso, Aveiro",
+  "coordinates": {
+    "lat": 40.3852407,
+    "lon": -8.3771782
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    18000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/5b25f30fd915d7be9e8558fea70933c5"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Numa organização da Associação Trilhos Luso Bussaco, com o apoio da Câmara Municipal da Mealhada, Junta de Freguesia do Luso e Fundação Mata do Bussaco. Vai realizar-se no próximo dia 05 de maio de 2024 na Vila de Luso-Mealhada, o evento de Trail denominado “6.º Trilhos Luso Bussaco&#8221;. Este evento decorrerá na Serra do Bussaco e zonas limítrofes, maioritariamente em estradas de terra, caminhos florestais e single-tracks e contará para o Circuito Nacional de Trail nas 3 distâncias e será Campeonato Distrital de Trail Sprint.</p>\n\n\n\n<p><br>Este evento é composto por 3 provas de trail e uma caminhada/mini trail.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail – 31km com uma altimetria 1300 D+ (C.N.Trail)</li>\n\n\n\n<li>Trail Curto –18km e com uma altimetria de 800 D+ (C.N.Sprint/Camp.Distrital)</li>\n\n\n\n<li>Mini Trail – 10km e com uma altimetria de 400 D+ (C.N.Jovem)<br>As provas de trail serão cronometradas com chip e terão classificação.<br>Tanto a nível geral como classificações por género e escalões.</li>\n\n\n\n<li>Caminhada – caminhada em trilhos marcados com cerca de 10km e com dificuldade<br>média. Sem caráter competitivo, não tendo cronometragem nem classificação.</li>\n</ul>\n",
+  "description_short": "Trail desafiante pela Serra do Bussaco com várias provas de trail e caminhada, integrado no Circuito Nacional de Trail",
+  "page": "https://lap2go.com/pt/event/trilhos-luso-bussaco-2024",
+  "slug": "trilhos-luso-bussaco-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "Luso",
+  "district_code": 1
+}

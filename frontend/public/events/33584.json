@@ -1,0 +1,32 @@
+{
+  "id": 33584,
+  "name": "Trail e Caminhada da Coruja 2024",
+  "location": "Coruche, Santarém",
+  "coordinates": {
+    "lat": 38.9596619,
+    "lon": -8.52473
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7ab40f3bae42a60527cea58f999b07c4"
+  ],
+  "start_date": "2024-07-06",
+  "end_date": "2024-07-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail da Coruja e Caminhada candidatou-se à ATRP, estando certificada para a época 2023/2024 ( o Trail<br>Longo fará parte do Circuito Nacional de Trail | Trail Série 100 e o Trail Curto fará parte do Circuito Nacional<br>Trail | Trail Jovem, Série 150) e Circuito Regional de Santarém de Trail fazendo parte do Campeonato (o Trail<br>Longo fará parte do Campeonato Regional de Trail e o Trail Curto fará parte do Campeonato Regional Trail<br>Sprint).</p>\n",
+  "description_short": "Trail competitivo na região de Santarém com provas de diferentes distâncias integradas em circuitos nacionais e regionais",
+  "page": "https://www.trilhoperdido.com/evento/Trail-Caminhada-da-Coruja-2024",
+  "slug": "trail-da-coruja-e-caminhada-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Coruche",
+  "administrative_area_level_3": "União das freguesias de Coruche, Fajarda e Erra",
+  "district_code": 14
+}

@@ -1,0 +1,32 @@
+{
+  "id": 35081,
+  "name": "Corrida do Avante 2024",
+  "location": "Seixal, Setúbal",
+  "coordinates": {
+    "lat": 38.6410676,
+    "lon": -9.0975
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/38171c665a3329735d7865b925ad60eb"
+  ],
+  "start_date": "2024-09-08",
+  "end_date": "2024-09-09",
+  "circuit": [],
+  "description": "\n<p>A 35ª Corrida da Festa do “Avante!” realiza-se no dia 8 de Setembro de 2024 às 9h30m, na distância de 10.000 metros&nbsp;<strong>(Distância Homologada</strong>).</p>\n\n\n\n<p>Esta corrida é uma prova aberta, destinada a representantes de clubes federados ou não, associações, ou atletas individuais.</p>\n\n\n\n<p>A 35ª Corrida da Festa do Avante! é organizada por uma Comissão, integrada na Comissão de Desporto da Festa do Avante!</p>\n",
+  "description_short": "Corrida tradicional integrada na Festa do Avante! com percurso de 10 km aberto a todos os atletas",
+  "page": "https://werun.pt/eventos/35-corrida-da-festa-do-avante-2024/",
+  "slug": "corrida-do-avante-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "União das freguesias do Seixal, Arrentela e Aldeia de Paio Pires",
+  "district_code": 15
+}

@@ -1,0 +1,31 @@
+{
+  "id": 41098,
+  "name": "Grande Prémio Atletismo Joaquim Almeida Ramalho 2025",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/a612076773c6df19036bbd50e5193c86"
+  ],
+  "start_date": "2025-04-25",
+  "end_date": "2025-04-26",
+  "circuit": [],
+  "description": "\n<p>Vai a Câmara Municipal de São Pedro do Sul, em coorganização com a Termalistur EM e com a<br>colaboração da União de Freguesias de S. Pedro do Sul, Várzea e Baiões, levar a efeito, no dia 25 de<br>Abril de 2025, com início às 10:00 horas, uma corrida pedestre, denominada GRANDE PRÉMIO DE<br>ATLETISMO JOAQUIM ALMEIDA “RAMALHO”.</p>\n",
+  "description_short": "Corrida de atletismo em São Pedro do Sul em homenagem a Joaquim Almeida \"Ramalho\"",
+  "page": "https://stopandgo.net/events/grande-premio-de-atletismo-joaquim-almeida-ramalho-2025",
+  "slug": "grande-premio-atletismo-joaquim-almeida-ramalho-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

@@ -1,0 +1,32 @@
+{
+  "id": 14489,
+  "name": "Sanguinhal Wine Trail 2022",
+  "location": "Bombarral Bombarral, Leiria",
+  "coordinates": {
+    "lat": 39.2680991,
+    "lon": -9.158511299999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/24ffa156d469dcc3947872d08a286ffc"
+  ],
+  "start_date": "2022-04-03",
+  "end_date": "2022-04-04",
+  "circuit": [],
+  "description": "\n<p>O Sanguinhal Wine Trail 2022 é uma co-organização da  Companhia Agrícola do Sanguinhal e da Ganhardestak, com o apoio dos municípios do Bombarral e do Cadaval e do Turismo do Centro. A prova realiza-se no dia 3 de abril de 2022, com partida e chegada na Quinta do Sanguinhal, percorrendo ainda a Quinta de S. Francisco e a Quinta das Cerejeiras. Terá duas distâncias de K10+ e K25+.</p>\n",
+  "description_short": "Trail entre vinhas históricas do Sanguinhal com passagem por quintas tradicionais do Oeste",
+  "page": "https://ganhardestak.bol.pt/Comprar/Bilhetes/105362-sanguinhal_wine_trail-quinta_do_sanguinhal/",
+  "slug": "sanguinhal-wine-trail-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Bombarral",
+  "administrative_area_level_3": "União das freguesias do Bombarral e Vale Covo",
+  "district_code": 10
+}

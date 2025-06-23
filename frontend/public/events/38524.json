@@ -1,0 +1,29 @@
+{
+  "id": 38524,
+  "name": "Grande Prémio do C.S. Armada 2025",
+  "location": "Almada, Setúbal",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2025-03-30",
+  "end_date": "2025-03-31",
+  "circuit": [
+    "Atletismo de Almada"
+  ],
+  "description": "\n<p>A&nbsp;<strong>30 de março de 2025</strong>&nbsp;vai realizar-se o&nbsp;<strong>7º Grande Prémio de Atletismo do C.S. Armada</strong>, prova inserida no&nbsp;<strong>Troféu de Almada Atletismo ‘Mário Pinto Claro’ 2024/2025.</strong></p>\n\n\n\n<p>A organização é da responsabilidade da da&nbsp;<strong>Clube do Sargento da Armada</strong>&nbsp;com o apoio da&nbsp;<strong>Câmara Municipal de Almada.</strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "7º Grande Prémio de Atletismo pela zona de Almada com organização do Clube do Sargento da Armada",
+  "page": "https://xistarca.pt/eventos/taa-7o-gp-atletismo-do-c-s-armada",
+  "slug": "grande-premio-do-c-s-armada-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

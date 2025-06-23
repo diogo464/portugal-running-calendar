@@ -1,0 +1,33 @@
+{
+  "id": 599,
+  "name": "Trail Glória do Ribatejo",
+  "location": "Glória do Ribatejo, Santarém",
+  "coordinates": {
+    "lat": 39.0324461,
+    "lon": -8.6270628
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    18000,
+    30000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7278cbf6624020259d29bfd6206925f5"
+  ],
+  "start_date": "2020-04-26",
+  "end_date": "2020-04-27",
+  "circuit": [],
+  "description": "<p><strong>Limite de Inscrições:</strong><br />\nTrail Longo -30k &#8211; 250 inscritos confirmados<br />\nTrail Curto &#8211; 18k &#8211; 250 inscritos confirmados<br />\nCaminhada &#8211; 200 inscritos confirmados</p>\n<p><strong>Localidade:</strong><br />\nGlória do Ribatejo (concelho de Salvaterra de Magos)</p>\n<p>Secretariado: Pavilhão Municipal<br />\nMeta: Pavilhão Municipal<br />\nBanhos: Pavilhão Municipal<br />\nAlmoços: Associação de Caçadores (a 200mt do Pavilhão Municipal) &#8211; Sopa, prato, bebida e sobremesa.</p>\n",
+  "description_short": "Trail pelos caminhos rurais da Glória do Ribatejo com provas de diferentes distâncias e almoço tradicional incluído",
+  "page": "https://trilhoperdido.com/evento/Trail-Gloria-do-Ribatejo-2020",
+  "slug": "trail-gloria-do-ribatejo",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "União das freguesias de Glória do Ribatejo e Granho",
+  "district_code": 14
+}

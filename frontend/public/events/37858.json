@@ -1,0 +1,32 @@
+{
+  "id": 37858,
+  "name": "Trail Solidário do 25 &#8211; 2024",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fc1728d55fe948b911c07fa1d89b6d7a"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-08",
+  "circuit": [],
+  "description": "\n<p>A organização informa que este evento, a realizar no dia 7 de Dezembro de 2024, trata-se de um evento de Trail Running, Kids trail e caminhada SEM cariz competitivo. O mesmo irá decorrer em Pombal, com partida na localidade de Pousadas Vedras e chegada junto à Câmara Municipal de Pombal.</p>\n\n\n",
+  "description_short": "Trail familiar em Pombal com percursos de corrida e caminhada para todas as idades",
+  "page": "https://stopandgo.net/events/trail-solidario-do-25-2024",
+  "slug": "trail-solidario-do-25-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

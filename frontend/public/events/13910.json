@@ -1,0 +1,29 @@
+{
+  "id": 13910,
+  "name": "Ultra Trail Douro e Paiva 2022",
+  "location": "Cinfães",
+  "coordinates": {
+    "lat": 41.071713,
+    "lon": -8.0898477
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2ed6c67866828c47d36afe38606fe1b4"
+  ],
+  "start_date": "2022-07-09",
+  "end_date": "2022-07-10",
+  "circuit": [],
+  "description": "\n<p>O Ultra Trail Douro e Paiva 2022 by Compressport é um circuito de provas competitivas de corrida a pé em montanha, organizado pela Xsports Events. Este evento tem o apoio institucional e logístico do Município de Cinfães e conta este ano com um novo desafio: o Team Challenge.</p>\n",
+  "description_short": "Trail desafiante pelas montanhas do Douro e Paiva com novo desafio de equipas",
+  "page": "https://lap2go.com/pt/event/trail-douro-paiva-2022",
+  "slug": "ultra-trail-douro-e-paiva-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Cinfães",
+  "administrative_area_level_3": "Cinfães",
+  "district_code": 18
+}

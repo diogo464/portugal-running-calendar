@@ -1,0 +1,32 @@
+{
+  "id": 35970,
+  "name": "Corrida da Ponte 2024",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/519d7364ec8e90c8f203c10905da99ad"
+  ],
+  "start_date": "2024-10-13",
+  "end_date": "2024-10-14",
+  "circuit": [],
+  "description": "\n<p>Prova designada Corrida da Ponte (CP) sendo no ano 2024 a sua 2.a Edição, na versão de 10 km, onde<br>acolherá o Campeonato Regional de Estrada.</p>\n\n\n",
+  "description_short": "Corrida da Ponte com Campeonato Regional de Estrada nas pontes de Lisboa",
+  "page": "https://stopandgo.net/events/corrida-da-ponte-2024",
+  "slug": "corrida-da-ponte-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

@@ -1,0 +1,36 @@
+{
+  "id": 33328,
+  "name": "Corrida dos Sinos 2024",
+  "location": "Mafra, Lisboa",
+  "coordinates": {
+    "lat": 38.9443106,
+    "lon": -9.3320856
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    6500,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/0c11fcecd8227a9b6a8bb87df153bb46"
+  ],
+  "start_date": "2024-04-07",
+  "end_date": "2024-04-08",
+  "circuit": [],
+  "description": "\n<p>A Corrida dos Sinos e a MiniCorrida/Caminhada dos Sininhos são organizadas pela Associação dos Amigos do Atletismo de Mafra em colaboração com a Câmara Municipal de Mafra, Junta de Freguesia de Mafra e Escola das Armas.</p>\n\n\n\n<p>Corrida dos Sinos &#8211; 15 km</p>\n\n\n\n<p>MiniCorrida/Caminhada dos Sininhos &#8211; 6,5 km</p>\n",
+  "description_short": "Corrida tradicional em Mafra com apoio autárquico e militar, com duas opções de percurso",
+  "page": "https://stopandgo.net/events/40a-corrida-dos-sinos",
+  "slug": "corrida-dos-sinos-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Mafra",
+  "district_code": 11
+}

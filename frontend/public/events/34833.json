@@ -1,0 +1,34 @@
+{
+  "id": 34833,
+  "name": "Lamas Trail 2024",
+  "location": "Lamas, Viseu",
+  "coordinates": {
+    "lat": 40.7918917,
+    "lon": -7.6910781
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    13000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/44348bce0031d50f5597514a4ff4a34c"
+  ],
+  "start_date": "2024-06-09",
+  "end_date": "2024-06-10",
+  "circuit": [],
+  "description": "\n<p>O evento é composto por três percursos:<br> Trail de 22 km (aprox.);<br>Mini Trail 13 km (aprox.);<br>Caminhada 13Km (aprox.).</p>\n\n\n",
+  "description_short": "Trail desafiante com três opções de percurso em ambiente natural",
+  "page": "https://acorrer.pt/eventos/info/3487",
+  "slug": "lamas-trail-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sátão",
+  "administrative_area_level_3": "Ferreira de Aves",
+  "district_code": 18
+}

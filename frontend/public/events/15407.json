@@ -1,0 +1,30 @@
+{
+  "id": 15407,
+  "name": "VII Caminhada/Trail  Feira da Tôr 2022",
+  "location": "Loulé, Faro",
+  "coordinates": {
+    "lat": 37.1379187,
+    "lon": -8.020216
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3bfbca43a2204a18fe8e9b08904d307a"
+  ],
+  "start_date": "2022-09-04",
+  "end_date": "2022-09-05",
+  "circuit": [],
+  "description": "\n<p>Está de regresso a tão esperada 7ª edição da Caminhada &amp; Trail inserida na Feira da Tôr, Trail Feira da Tôr, dia 4 de Setembro de 2022!</p>\n",
+  "description_short": "Trail pela tradicional Feira da Tôr no Algarve com sétima edição consecutiva",
+  "page": "https://acorrer.pt/eventos/info/2994",
+  "slug": "trail-feira-da-tor-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

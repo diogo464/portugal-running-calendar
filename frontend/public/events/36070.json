@@ -1,0 +1,35 @@
+{
+  "id": 36070,
+  "name": "Desafio JuveRun 2024",
+  "location": "Vagos, Aveiro",
+  "coordinates": {
+    "lat": 40.5552822,
+    "lon": -8.6814272
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    6000,
+    12000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c70eb72353d3d65a92d0802ab5b90cf1"
+  ],
+  "start_date": "2024-10-06",
+  "end_date": "2024-10-06",
+  "circuit": [],
+  "description": "\n<p>A JuveRunTeam (secção de corrida da Juveforce &#8211; Associação Desportiva e Cultural de Ponte de Vagos), com o apoio da Câmara Municipal de Vagos e da União das Freguesias de Ponte de Vagos e Santa Catarina, organiza a&nbsp;<strong>1ª edição do Desafio JuveRun</strong>, a decorrer a 06 de outubro de 2024.</p>\n\n\n\n<p>Esta iniciativa, que promete proporcionar uma emocionante experiência de corrida em trilhos, vai contar com um Trail Longo 19k, um Trail Curto 12k e uma Caminhada 6k, apontando a vários tipos de participantes, numa componente mais competitiva ou apenas de puro lazer e convívio.</p>\n\n\n",
+  "description_short": "Primeiro trail da JuveRunTeam pelos trilhos de Vagos com diferentes percursos para todos os níveis",
+  "page": "https://meutempo.pt/prova?desafiojuverun2024",
+  "slug": "desafio-juverun-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vagos",
+  "administrative_area_level_3": "União das freguesias de Vagos e Santo António",
+  "district_code": 1
+}

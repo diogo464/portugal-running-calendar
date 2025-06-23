@@ -1,0 +1,34 @@
+{
+  "id": 41814,
+  "name": "Meia Maratona Ameal 2025",
+  "location": "Ameal, Coimbra",
+  "coordinates": {
+    "lat": 40.19037900000001,
+    "lon": -8.5433463
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/5d9e4574e42d0a968211f6969a568ab5"
+  ],
+  "start_date": "2025-09-21",
+  "end_date": "2025-09-21",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona do Ameal é Aberta a atletas de qualquer nacionalidade, sem distinção de sexo, dentro dos escalões etários definidos no ponto 4.1. Competição certificada pela FPA e com Certificado Internacional da World Athetics.</p>\n\n\n\n<p>A Meia Maratona do Ameal integra, pela primeria vez na história do atletismo distrital, o Campeonato Distrital da Associação Distrital Atletismo de Coimbra (ADAC).</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Primeira meia maratona histórica em Ameal, integrada no Campeonato Distrital de Coimbra",
+  "page": "https://stopandgo.net/events/meia-maratona-do-ameal-2025",
+  "slug": "meia-maratona-ameal-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "União das freguesias de Taveiro, Ameal e Arzila",
+  "district_code": 6
+}

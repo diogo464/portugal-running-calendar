@@ -1,0 +1,30 @@
+{
+  "id": 22641,
+  "name": "Trail Terras da Hera 2023",
+  "location": "Ereira, Cartaxo",
+  "coordinates": {
+    "lat": 39.1764212,
+    "lon": -8.866413
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/1e32c8eb9d29513d3c6df0ea178748e4"
+  ],
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-13",
+  "circuit": [],
+  "description": "\n<p>A casa do povo da Ereira no Cartaxo vai realizar o primeiro Trail “Rota da Hera” no próximo 12 de março de 2023, com o apoio da Junta de freguesias da união de freguesias Ereira e Lapa e a câmara do Cartaxo.<br>Com esta prova pretendemos dinamizar a nossa freguesia e dar a conhecer a natureza que a rodeia e os seus trilhos campestres.</p>\n\n\n",
+  "description_short": "Trail inaugural pelos trilhos campestres da Ereira no Cartaxo",
+  "page": "https://forms.gle/fkMfzggMUbpJyK8aA",
+  "slug": "trail-terras-da-hera-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Cartaxo",
+  "administrative_area_level_3": "Ereira",
+  "district_code": 14
+}

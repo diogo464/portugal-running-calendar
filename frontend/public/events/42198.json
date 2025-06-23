@@ -1,0 +1,31 @@
+{
+  "id": 42198,
+  "name": "Bocal Trail Run 2025",
+  "location": "Bocal, Mafra",
+  "coordinates": {
+    "lat": 38.9443106,
+    "lon": -9.3320856
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/39e5174d2db12a21fbe2f434571a8e5f"
+  ],
+  "start_date": "2025-09-28",
+  "end_date": "2025-09-28",
+  "circuit": [],
+  "description": "\n<p>O é uma prova de Trail Running, corrida pedestre em natureza, com 2 provas: Trail Curto (TC), Mini Trail (MT)/Caminhada (CAM). A partida e chegada será no Campo Santo do ACD Bocal.<br>O objectivo desta prova visa a promoção e divulgação turística e ambiental da região além da promoção do desporto em meio natural.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela natureza com ponto de partida e chegada no Campo Santo do ACD Bocal",
+  "page": "https://www.trilhoperdido.com/evento/Bocal-Trail-Run",
+  "slug": "bocal-trail-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Mafra",
+  "district_code": 11
+}

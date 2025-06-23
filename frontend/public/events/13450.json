@@ -1,0 +1,29 @@
+{
+  "id": 13450,
+  "name": "Trail Do Rio Paiva 2022",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f9893a62890869a696279df84cf8b7ab"
+  ],
+  "start_date": "2022-01-16",
+  "end_date": "2022-01-17",
+  "circuit": [],
+  "description": "\n<p>Trail Do Rio Paiva 2022</p>\n",
+  "description_short": "Trail desafiante pelas margens do rio Paiva em paisagem natural impressionante",
+  "page": "https://stopandgo.com.pt/events/ii-trail-do-rio-paiva",
+  "slug": "trail-do-rio-paiva-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

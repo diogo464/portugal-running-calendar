@@ -1,0 +1,35 @@
+{
+  "id": 37053,
+  "name": "Night Run Urban Trail 2024",
+  "location": "Torres Vedras",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    8000,
+    11000,
+    18000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/3c7c8b272f06a23f31125bad98363222"
+  ],
+  "start_date": "2024-10-26",
+  "end_date": "2024-10-27",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Torres Vedras, em parceria com as associações Académico de Torres Vedras, Clube de Praticantes de Trail Dolce Furadouro, Clube Académico de Penafirme (CAP Running), Grupo Desportivo Sobreirense (GOAT – West Trail Team) e Turres Trail Clube, organiza o TORRES VEDRAS NIGHT RUN URBAN TRAIL no dia 26 de outubro de 2024.</p>\n\n\n\n<p>No ato da inscrição o participante escolhe uma das seguintes opções:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Prova 18km trail – 3 segmentos cronometrados independentes (Castelo + Gaio+ Cucos)</li>\n\n\n\n<li>Prova 11km trail – 2 segmentos cronometrados independentes (Castelo + Gaio)</li>\n\n\n\n<li>Caminhada guiada – 8km</li>\n</ul>\n",
+  "description_short": "Trail nocturno pela cidade de Torres Vedras com passagem por locais históricos e desafiantes",
+  "page": "https://www.recordepessoal.pt/evento/nightrunurbantrail2024",
+  "slug": "night-run-urban-trail-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

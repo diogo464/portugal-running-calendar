@@ -1,0 +1,34 @@
+{
+  "id": 2484,
+  "name": "Meia Maratona do Porto 2021",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/c075f1d56725668d733367ecd6fbec96"
+  ],
+  "start_date": "2021-09-19",
+  "end_date": "2021-09-20",
+  "circuit": [],
+  "description": "\n<p>A Hyundai Meia Maratona do Porto 2021 no seu formato tradicional está de volta em 2021.</p>\n\n\n\n<p><strong><a href=\"https://www.meiamaratonadoporto.com/pt/resultados-provisorios/\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados provisórios</a></strong></p>\n\n\n\n<p>Percurso:</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img fetchpriority=\"high\" decoding=\"async\" width=\"954\" height=\"443\" src=\"https://www.portugalrunning.com/wp-content/uploads/2021/09/image.png\" alt=\"\" class=\"wp-image-4557\" srcset=\"https://www.portugalrunning.com/wp-content/uploads/2021/09/image.png 954w, https://www.portugalrunning.com/wp-content/uploads/2021/09/image-300x139.png 300w, https://www.portugalrunning.com/wp-content/uploads/2021/09/image-768x357.png 768w\" sizes=\"(max-width: 954px) 100vw, 954px\" /></figure>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona tradicional pelas ruas históricas do Porto",
+  "page": "https://www.meiamaratonadoporto.com/pt/",
+  "slug": "meia-maratona-do-porto",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

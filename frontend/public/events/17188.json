@@ -1,0 +1,29 @@
+{
+  "id": 17188,
+  "name": "Douro Ultra Trail 2022",
+  "location": "Peso da Régua, Vila Real",
+  "coordinates": {
+    "lat": 41.1635467,
+    "lon": -7.7797049
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/94f4cb1a2b25d7dfcffa33e459152d33"
+  ],
+  "start_date": "2022-10-08",
+  "end_date": "2022-10-09",
+  "circuit": [],
+  "description": "\n<p>O Douro Ultra Trail é já um dos grandes eventos do ano para a modalidade de trail running em Portugal. Enfrentando a temível Serra do Marão no meio de outros complexos montanhosos como a Serra da Estrela, Serra de Montemuro, Gerês e Cabreira, venha sentir a adrenalina e finalizar no coração da Região Demarcada do Douro.</p>\n",
+  "description_short": "Trail desafiante pelas serras do Norte com passagem pela icónica Região Demarcada do Douro",
+  "page": "https://lap2go.com/pt/event/douro-ultra-trail-2022",
+  "slug": "douro-ultra-trail-2022",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Peso da Régua",
+  "administrative_area_level_3": "Peso da Régua",
+  "district_code": 17
+}

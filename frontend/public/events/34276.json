@@ -1,0 +1,29 @@
+{
+  "id": 34276,
+  "name": "Trilho Dos Cogumelos 2024",
+  "location": "Vidigueira, Beja",
+  "coordinates": {
+    "lat": 38.2118842,
+    "lon": -7.8005203
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/32ca561c459ec7211da9de4b88e26a2b"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Vidigueira com o apoio da Junta de Freguesia de Selmes e da Associação de Atletismo de Beja vai organizar, no próximo dia 24 DE MARÇO DE 2024, pelas 10h00 o Trilho dos Cogumelos em Alcaria da Serra, divididos em dois percursos Mini Trail e Trail Sprint.</p>\n",
+  "description_short": "Trail desafiante pela região de Selmes com tema dos cogumelos",
+  "page": "https://acorrer.pt/eventos/info/3462",
+  "slug": "trilho-dos-cogumelos-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Vidigueira",
+  "administrative_area_level_3": "Vidigueira",
+  "district_code": 2
+}

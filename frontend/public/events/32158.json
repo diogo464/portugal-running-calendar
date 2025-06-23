@@ -1,0 +1,32 @@
+{
+  "id": 32158,
+  "name": "Trail Rota do Castro 2024",
+  "location": "Romariz, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.941354,
+    "lon": -8.4534102
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/be79f9d3ef7630f77508e602a6fe5969"
+  ],
+  "start_date": "2024-05-25",
+  "end_date": "2024-05-26",
+  "circuit": [],
+  "description": "\n<p>O III Trail Rota do Castro pretende promover a prática desportiva, em geral, o desporto pela Natureza.</p>\n\n\n\n<p>Esta prova é organizada pela Junta de Freguesia de Romariz em parceria com o Município de Santa Maria da Feira.</p>\n\n\n\n<p>O Trail é uma prova de Trail Running, realizada por trilhos sinalizados, em piso acidentado, estradões, estrada, e obstáculos naturais, com a partida e chegada em Romariz.<br>Este evento, conta com a realização de um Trail curto, Trail Kids e caminhada.</p>\n",
+  "description_short": "Trail desafiante por trilhos sinalizados em Romariz com provas para diferentes níveis de participantes",
+  "page": "https://lap2go.com/pt/event/trail-rota-do-castro-2024",
+  "slug": "trail-rota-do-castro-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Romariz",
+  "district_code": 1
+}

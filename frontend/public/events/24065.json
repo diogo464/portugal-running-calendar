@@ -1,0 +1,31 @@
+{
+  "id": 24065,
+  "name": "2º Challenge Up – Escadinhas Da Saúde 2023",
+  "location": "Martim Moniz, Lisboa",
+  "coordinates": {
+    "lat": 38.7160206,
+    "lon": -9.1367671
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    250
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/91cd2243b5044ce1cd5e99837966a5d9"
+  ],
+  "start_date": "2023-09-16",
+  "end_date": "2023-09-17",
+  "circuit": [],
+  "description": "\n<p>O Martim Moniz&nbsp;recebe a 2ª<strong>&nbsp;</strong>edição do<strong>&nbsp;Santa Maria Maior Challenge Up&nbsp;– Escadinhas da Saúde!</strong></p>\n\n\n\n<p>Desafia-te, ou melhor, delicia-te com um percurso localizado no coração de Lisboa. São&nbsp;<strong>250 metros</strong>&nbsp;sempre a subir, com uma&nbsp;<strong>inclinação total de 53 metros</strong>&nbsp;e&nbsp;<strong>287&nbsp;degraus</strong>&nbsp;que vais ter pela frente nesta prova…&nbsp;<strong>Contamos contigo!</strong></p>\n",
+  "description_short": "Desafio urbano por escadinhas históricas no centro de Lisboa com subida intensa",
+  "page": "https://xistarca.pt/eventos/2o-challenge-up-escadinhas-da-saude",
+  "slug": "2o-challenge-up-escadinhas-da-saude-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Santa Maria Maior",
+  "district_code": 11
+}

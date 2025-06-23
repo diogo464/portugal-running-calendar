@@ -1,0 +1,36 @@
+{
+  "id": 20784,
+  "name": "II Dark Side Night Trail 2023",
+  "location": "Abitureiras, Santarém",
+  "coordinates": {
+    "lat": 39.3148294,
+    "lon": -8.7821951
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/d3f18c5ae9ca53f43fa782c97ea31c95"
+  ],
+  "start_date": "2023-09-02",
+  "end_date": "2023-09-03",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A II Edição do Dark Side Night Trail é uma Co-organização entre a Equipa Trilho Perdido Eventos / Imporlux, Câmara Municipal de Santarém, Centro de Convívio Cultura e Desporto de Abitureiras e a empresa de Cronomentragens e Organização de Eventos Desportivos “Trilho Perdido”, com o apoio da Junta de Freguesia de Abitureiras e de várias entidades.</p>\n\n\n\n<p><br>Será realizada no dia 02 de setembro de 2023 (sábado), em Abitureiras/Santarém, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para os participantes.<br></p>\n\n\n\n<p>Será constituído por 1 prova de caracter competitivo: “Trail – K15”, para além de uma Caminhada de aproximadamente 10Kms.</p>\n",
+  "description_short": "Trail nocturno pelas aldeias de Santarém com prova competitiva e caminhada",
+  "page": "https://www.trilhoperdido.com/evento/dark-side-night-trail-2023",
+  "slug": "ii-dark-side-night-trail-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "Abitureiras",
+  "district_code": 14
+}

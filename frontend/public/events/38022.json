@@ -1,0 +1,34 @@
+{
+  "id": 38022,
+  "name": "Amarante Christmas Trail 2024",
+  "location": "Amarante, Porto",
+  "coordinates": {
+    "lat": 41.2732068,
+    "lon": -8.0822829
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    12000,
+    20000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/2db138163c0ce90ae469f08cbb5d494b"
+  ],
+  "start_date": "2024-12-22",
+  "end_date": "2024-12-23",
+  "circuit": [],
+  "description": "\n<p>O XIII Amarante Christmas Trail é um evento organizado pela Associação Desportiva de Amarante, composto por quatro modalidades: Trail Longo (30 km), Trail Curto (20 km), Mini-Trail (12 km) e Caminhada (12 km).</p>\n\n\n\n<p>O evento faz parte do Porto Trail Series e é uma das provas de destaque na época natalícia, atraindo atletas para percursos desafiantes e divertidos das Portas do Marão até Amarante.</p>\n\n\n",
+  "description_short": "Trail de Natal pela região do Marão com diferentes percursos em Amarante",
+  "page": "https://meutempo.pt/prova?amarantechristmastrail2024",
+  "slug": "amarante-christmas-trail-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Amarante",
+  "administrative_area_level_3": "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão",
+  "district_code": 13
+}

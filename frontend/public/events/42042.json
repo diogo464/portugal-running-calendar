@@ -1,0 +1,34 @@
+{
+  "id": 42042,
+  "name": "Trail Run Pinhel Cidade Falcão 2025",
+  "location": "Pinhel, Guarda",
+  "coordinates": {
+    "lat": 40.7732736,
+    "lon": -7.0685935
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    11000,
+    18000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/83cbf770c96709cbd80dd4042c4dae12"
+  ],
+  "start_date": "2025-06-22",
+  "end_date": "2025-06-23",
+  "circuit": [],
+  "description": "\n\n\n<p>Está aí a 4ª edição do Trail Running – Pinhel Cidade Falcão, que para além de ser uma aventura, poderá conhecer alguns locais emblemáticos do concelho de Pinhel.</p>\n\n\n\n<p>É apontar na agenda, a prova realiza-se a 22 de Junho e é composta por três distâncias: Trail Longo, com 28 quilómetros, Trail Curto, com uma distância de 18 quilómetros e Mini Trail/ Caminhada com 11 quilómetros.</p>\n\n\n\n<p>O evento terá início às 08:30h em frente á Câmara Municipal de Pinhel e percorrerá um trajeto por estradas locais, trilhos e caminhos rurais pelo concelho.</p>\n",
+  "description_short": "Trail running pela região histórica de Pinhel com descoberta de paisagens e percursos tradicionais do concelho",
+  "page": "https://meutempo.pt/prova?trailrunpinhel2025",
+  "slug": "trail-run-pinhel-cidade-falcao-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Pinhel",
+  "administrative_area_level_3": "Pinhel",
+  "district_code": 9
+}

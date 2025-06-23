@@ -1,0 +1,39 @@
+{
+  "id": 19052,
+  "name": "Corre Jamor by Saúde Prime 2022",
+  "location": "Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    300,
+    500,
+    700,
+    1000,
+    3000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/f810ba4099a685aea77eaaefaeea9edd"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>O <strong>Corre Jamor by Saúde Prime</strong> é organizado pelo Clube Olímpico de Oeiras, em parceria com o Centro Desportivo Nacional do Jamor, a Câmara Municipal de Oeiras e o Instituto Português do Desporto e Juventude, e com o apoio técnico da HMS Sports Consulting, Lda.</p>\n\n\n\n<p></p>\n\n\n\n<p><strong>Data:</strong>&nbsp;13 de novembro de 2022.</p>\n\n\n\n<p><strong>Horários:</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Corrida 10 Km: 10h00</li><li>Caminhada 3 Km: 10h00</li><li>Corrida das Crianças: 9h00<ul><li>Bambis (2016 a 2017): aprox. 300 metros (*)</li><li>Benjamins A (2013 a 2015): aprox. 500 metros</li><li>Benjamins B (2011 a 2012): aprox. 700 metros</li><li>Infantis (2009 a 2010): aprox. 1000 metros</li></ul></li></ul>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional no Jamor com provas para todas as idades, organizada por instituições desportivas locais",
+  "page": "https://correjamor.com/",
+  "slug": "corre-jamor-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

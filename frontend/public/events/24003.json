@@ -1,0 +1,32 @@
+{
+  "id": 24003,
+  "name": "Grande Premio Santa Maria Lamas 2023",
+  "location": "Santa Maria de Lamas, da Feira",
+  "coordinates": {
+    "lat": 40.9780231,
+    "lon": -8.5725509
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    700,
+    3000,
+    8700
+  ],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2023-07-08",
+  "end_date": "2023-07-09",
+  "circuit": [],
+  "description": "\n<p>O CAL – Clube Atletismo de Lamas, em parceria com a Câmara Municipal de Stª Mª da Feira e a Junta de<br>Freguesia de Stª Mª de Lamas, leva a efeito no próximo dia 08 de julho de 2023, pelas 17.00 horas, uma prova de Atletismo, na distância de 8.700 metros. O evento, denominado 7º Grande Prémio de Santa Maria de Lamas 2023, inclui uma Minicorrida/Caminhada na distância 3000 metros e corrida para Escalões.</p>\n\n\n",
+  "description_short": "Prova de atletismo pela vila de Santa Maria de Lamas com corrida para todos os escalões etários",
+  "page": "https://lap2go.com/pt/event/gp-lamas-2023",
+  "slug": "grande-premio-santa-maria-lamas-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Santa Maria de Lamas",
+  "district_code": 1
+}

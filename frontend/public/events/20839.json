@@ -1,0 +1,36 @@
+{
+  "id": 20839,
+  "name": "Colcurinho Epic Trail 2023",
+  "location": "Aldeia das Dez, Oliveira do Hospital",
+  "coordinates": {
+    "lat": 40.2945145,
+    "lon": -7.864944500000001
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    230,
+    12000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/57ad8c512c2b6bc3d6168b98516e834d"
+  ],
+  "start_date": "2023-10-22",
+  "end_date": "2023-10-23",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>É uma corrida, com percursos recheados de trilhos técnicos, muitas vezes inacessíveis de qualquer outra forma, sem ser a pé. Com grandes declives, subidas de pequenos riachos, com fundos rochosos e com pouca água, subida de pedras, entre outros tipos de piso com terrenos acidentados.</p>\n\n\n\n<p>​Porque já alguém o chamou de “Angliru” português. Situado 1.230 m de altitude constitui um espaço natural de grande beleza, localizado num dos cumes mais importantes da serra do Açor. Este monte permite a realização de um evento único, com três provas, 24km, 12km e uma Caminhada de 12km, visa a promoção e divulgação turística e ambiental da região e da promoção do desporto em meio natural.</p>\n\n\n\n<p>​O COLCURINHO EPIC TRAIL, é organizado pelo Município de Oliveira do Hospital e as Aldeias do Xisto, com o apoio de várias entidades e empresas da região de Oliveira do Hospital.</p>\n\n\n\n<p>​Partida/Chegada- Santuário de Nossa Senhora das Preces, Vale de Maceira – Aldeia das Dez.</p>\n",
+  "description_short": "Trail desafiante pela Serra do Açor com trilhos técnicos e paisagens deslumbrantes em Oliveira do Hospital",
+  "page": "https://waitastart.com/colcurinho-epic-trail-2023/",
+  "slug": "colcurinho-epic-trail-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Oliveira do Hospital",
+  "administrative_area_level_3": "Aldeia das Dez",
+  "district_code": 6
+}

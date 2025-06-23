@@ -1,0 +1,31 @@
+{
+  "id": 34401,
+  "name": "Grande Prémio do CSArmada 2024",
+  "location": "Almada, Setúbal",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/dffda3f373fd2029ab981b7417c68601"
+  ],
+  "start_date": "2024-06-02",
+  "end_date": "2024-06-03",
+  "circuit": [
+    "Trofeu de Almada"
+  ],
+  "description": "\n<p>A <strong>02 Junho 2024</strong> vai realizar-se o <strong>6º Grande Prémio de Atletismo do CS Armada</strong>, prova inserida no <strong>Troféu de Almada Atletismo ‘Mário Pinto Claro’ 2023/2024.</strong></p>\n",
+  "description_short": "Grande Prémio de Atletismo do Clube de Setúbal pela Margem Sul em data comemorativa",
+  "page": "https://xistarca.pt/eventos/taampc-6o-g-p-a-do-csarmada",
+  "slug": "grande-premio-do-csarmada-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

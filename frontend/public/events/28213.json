@@ -1,0 +1,37 @@
+{
+  "id": 28213,
+  "name": "Meia Maratona Guimarães 2023",
+  "location": "Guimarães, Braga",
+  "coordinates": {
+    "lat": 41.44253,
+    "lon": -8.2917857
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "run",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/adcc77524bd7d6c88017f475cb049589"
+  ],
+  "start_date": "2023-10-05",
+  "end_date": "2023-10-06",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona Guimarães é um evento que se vai realizar no dia de 05 de Outubro em Guimarães.</p>\n\n\n\n<p>Provas:</p>\n\n\n\n<p>Corrida: 21k,10k, 5k</p>\n\n\n\n<p>Caminhada: 5k</p>\n",
+  "description_short": "Meia maratona histórica em Guimarães na data comemorativa do Dia da Implantação da República",
+  "page": "https://meiamaratonacidadeberco.pt/",
+  "slug": "meia-maratona-guimaraes-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Serzedo",
+  "district_code": 3
+}

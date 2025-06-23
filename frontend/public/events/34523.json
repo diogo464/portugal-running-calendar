@@ -1,0 +1,30 @@
+{
+  "id": 34523,
+  "name": "Trail Guerreiros do Mira 2024",
+  "location": "Vila Nova de Milfontes, Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/edefce6f4c42eddf67487f9a6e7e910c"
+  ],
+  "start_date": "2024-04-21",
+  "end_date": "2024-04-21",
+  "circuit": [],
+  "description": "\n<p>O “I Trail Guerreiros do Mira – CDP de Milfontes” é composto pelo trail e caminhada.</p>\n\n\n",
+  "description_short": "Trail desafiante pela zona de Vila Nova de Milfontes junto ao Rio Mira",
+  "page": "https://acorrer.pt/eventos/info/3486",
+  "slug": "trail-guerreiros-do-mira-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

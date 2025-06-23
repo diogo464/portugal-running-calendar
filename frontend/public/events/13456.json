@@ -1,0 +1,32 @@
+{
+  "id": 13456,
+  "name": "Zela Ultra Marathon 2022",
+  "location": "Vouzela, Viseu",
+  "coordinates": {
+    "lat": 40.7229086,
+    "lon": -8.1122167
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "trail",
+    "marathon"
+  ],
+  "images": [
+    "media/d5fda14b98d77aa8442d081fd5cfe067"
+  ],
+  "start_date": "2022-04-23",
+  "end_date": "2022-04-24",
+  "circuit": [],
+  "description": "\n<p>A pure skyrunning adventure</p>\n\n\n\n<p>!23 de Abril, as tuas ambições só são limitadas pela tua vontade de superares o desafio Zela Ultra Marathon 2022 !</p>\n",
+  "description_short": "Trail desafiante de skyrunning com perspetiva de superação pessoal",
+  "page": "https://www.facebook.com/zelaultramarathon/",
+  "slug": "zela-ultra-marathon-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vouzela",
+  "administrative_area_level_3": "Vouzela",
+  "district_code": 18
+}

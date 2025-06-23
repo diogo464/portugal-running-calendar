@@ -1,0 +1,34 @@
+{
+  "id": 27931,
+  "name": "Corrida do Património 2023",
+  "location": "Angra do Heroísmo, Ilha Terceira, Açores",
+  "coordinates": {
+    "lat": 38.6635375,
+    "lon": -27.2293969
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/38c7a85b215a7c1ecc645b124a8b5e61"
+  ],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "\n<p>A “Corrida do Património &#8211; edição Angra do Heroísmo 2023” é constituída por uma <strong>Prova de Corrid</strong>a cronometrada com a <strong>distância de 10Km</strong> e a opção de <strong>Caminhada de 6km</strong>. A Corrida terá lugar no <strong>domingo 15 de Outubro</strong>, com partida<strong> às 10:00</strong>, na <strong>Praça Velha de Angra</strong>.</p>\n\n\n\n<p><br>A “Corrida do Património &#8211; edição Angra do Heroísmo 2023” conta com o apoio da Associação de Atletismo da Ilha Terceira.</p>\n\n\n",
+  "description_short": "Corrida do Património pelos pontos históricos de Angra do Heroísmo nos Açores",
+  "page": "https://stopandgo.net/events/corrida-do-patrimonio-edicao-angra-do-heroismo-2023",
+  "slug": "corrida-do-patrimonio-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Terceira",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

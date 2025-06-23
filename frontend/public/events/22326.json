@@ -1,0 +1,34 @@
+{
+  "id": 22326,
+  "name": "17 kms Porto de Mós &#8211; Serra D Aire 2023",
+  "location": "Porto de Mós, Leiria",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    8000,
+    17000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8910a2b661c576da1d572c8385953545"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [],
+  "description": "\n<p>A <strong>Associação Porto de Mós a Correr</strong> em conjunto com a <strong>Câmara Municipal de Porto de Mós</strong> organiza no dia <strong>21 de maio de 2023</strong>, pelas <strong>10 horas</strong>, um evento desportivo, denominado de <strong>“17KM PORTO DE MÓS &#8211; SERRA DE AIRE”</strong>.</p>\n\n\n\n<p>O evento contará com&nbsp;<strong>duas distâncias</strong>, uma&nbsp;competitiva, de&nbsp;<strong>17km</strong>&nbsp;em estrada e uma&nbsp;não competitiva&nbsp;em formato de&nbsp;caminhada&nbsp;no âmbito do&nbsp;<strong>programa Tok’Andar</strong>, com aproximadamente&nbsp;<strong>8km</strong>, realizada maioritariamente em trilhos.</p>\n",
+  "description_short": "Prova de trail em Porto de Mós com percurso pela Serra de Aire",
+  "page": "https://www.recordepessoal.pt/evento/17kmportodemos-serradeaire-2023",
+  "slug": "17-kms-porto-de-mos-serra-d-aire-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

@@ -1,0 +1,41 @@
+{
+  "id": 22684,
+  "name": "Ultra Madeira 2023",
+  "location": "Madeira",
+  "coordinates": {
+    "lat": 32.76070740000001,
+    "lon": -16.9594723
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    290,
+    340,
+    1360,
+    2000,
+    3810,
+    8000,
+    15000,
+    30000,
+    50000,
+    83000
+  ],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/e51bc7b7c60a043c7c632ed54c022d81"
+  ],
+  "start_date": "2023-10-07",
+  "end_date": "2023-10-08",
+  "circuit": [],
+  "description": "\n<p>A AARAM – Associação de Atletismo da Região Autónoma da Madeira é a associação organizadora do evento denominado “ULTRA MADEIRA”, 7ª edição, que decorrerá nos dias 7 e 8 de outubro de 2023, com absoluto respeito pelo meio ambiente. Este evento será a penúltima prova do CIRCUITO TRAIL MADEIRA, época 2022-23.</p>\n\n\n\n<p>A “ULTRA MADEIRA” é um evento de trail running, que decorre integralmente na ilha da Madeira e que integra 5 provas:<br>• ULTRA MADEIRA – 83 km e 3810 metros de desnível positivo (formato linear)<br>• ULTRA 50K – 50 km e 2000 metros de desnível positivo (formato linear)<br>• TRAIL 30K –30 km e 1360 metros de desnível positivo (formato linear)<br>• TRAIL 15K – 15 km e 340 metros de desnível positivo (formato linear)<br>CAMPEONATO REGIONAL DE TRAIL (JUNIORES)<br>• MINI TRAIL – 8 km e 290 metros de desnível positivo (formato linear)<br>CAMPEONATO REGIONAL DE TRAIL (JUVENIS)</p>\n",
+  "description_short": "Trail running pela ilha da Madeira com cinco provas a diferentes distâncias e desníveis, integrando o Circuito Trail Madeira",
+  "page": "https://lap2go.com/pt/event/ultra-madeira-2023",
+  "slug": "ultra-madeira-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

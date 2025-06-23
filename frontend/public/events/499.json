@@ -1,0 +1,29 @@
+{
+  "id": 499,
+  "name": "Boticas Trail &#8211; Caminhos do Galaico",
+  "location": "Boticas, Vila Real",
+  "coordinates": {
+    "lat": 41.6984124,
+    "lon": -7.6710889
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cc903ae4abd6bbb860f9a6ca3b1ffd5f"
+  ],
+  "start_date": "2020-05-31",
+  "end_date": "2020-06-01",
+  "circuit": [],
+  "description": "<p>Numa terra cheia de encantos e recantos por descobrir, apresentamos a 4ª edição do <a href=\"https://www.facebook.com/boticastrail/\" target=\"_blank\" rel=\"noopener noreferrer\">Boticas Trail &#8211; Caminhos do Galaico</a> um prova onde o conceito de família, o espírito de equipa, a ruralidade, a natureza e a genuinidade da nossa cultura marcam a diferença.<br />\nVenha conhecer o reino do Guerrerio Galaico por caminhos e terras milenares, as gentes os sabores e os saberes do Barroso, Património agrícola Mundial&#8221;<br />\nUma prova organizada pela <a href=\"https://www.facebook.com/Celtiberus/\" target=\"_blank\" rel=\"noopener noreferrer\">Associação Celtiberus</a>, o <a href=\"https://www.facebook.com/boticas/\" target=\"_blank\" rel=\"noopener noreferrer\">Município de Boticas</a> e o <a href=\"https://www.facebook.com/projetoraizesbasto/\" target=\"_blank\" rel=\"noopener noreferrer\">Projeto Raízes</a> são garantias de qualidade.<br />\nO <a href=\"https://www.facebook.com/boticasparque.pt/\" target=\"_blank\" rel=\"noopener noreferrer\">Boticas Parque &#8211; Natureza e Biodiversidade</a> será o palco deste dia mítico que deve já colocar na agenda.</p>\n",
+  "description_short": "Trail em Boticas que celebra a cultura e paisagens milenares do Barroso, com percurso por terras do Guerreiro Galaico",
+  "page": "https://www.facebook.com/pg/boticastrai",
+  "slug": "boticas-trail-caminhos-do-galaico",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Boticas",
+  "administrative_area_level_3": "Boticas e Granja",
+  "district_code": 17
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1211,
+  "name": "Sesimbra Night Run 2020",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/9162303ce6b8aae75149c1b9c38a1662"
+  ],
+  "start_date": "2020-09-12",
+  "end_date": "2020-09-13",
+  "circuit": [],
+  "description": "<p>Nada melhor do que comemorar a 26º Corrida de Sesimbra, com uma corrida noturna na bonita vila de Sesimbra.</p>\n<p>Sesimbra Night Run</p>\n<p>10 km</p>\n<p>21h00</p>\n<p>🇵🇹✨12 de Setembro de 2020✨🇵🇹</p>\n<p><a href=\"http://www.corridadesesimbra.com/?fbclid=IwAR3QRSqpShxYdVkpoNfpbuEvK57yI_SxCuqCHrmU7VZ0VuCQWt3w3OJ-zcU\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" data-lynx-mode=\"hover\" data-lynx-uri=\"https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.corridadesesimbra.com%2F%3Ffbclid%3DIwAR3QRSqpShxYdVkpoNfpbuEvK57yI_SxCuqCHrmU7VZ0VuCQWt3w3OJ-zcU&amp;h=AT34KIyzaBy74Y0RvalRqJqkEetXw_4EVlcRbSTM5P43KjJG2FihASHGJOpfsnvZQSNnYkaxSS2Wfia5yHekR9CROcTQtAldIj4UHZC_6FuYhRjAsnm8lzSFId2hDeLsmQ\">http://www.corridadesesimbra.com/</a></p>\n",
+  "description_short": "Corrida noturna pela pitoresca vila de Sesimbra na 26ª edição do evento",
+  "page": "http://www.corridadesesimbra.com/",
+  "slug": "sesimbra-night-run-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

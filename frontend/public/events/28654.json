@@ -1,0 +1,32 @@
+{
+  "id": 28654,
+  "name": "Grande Prémio Peniche 2024",
+  "location": "Peniche, Leiria",
+  "coordinates": {
+    "lat": 39.3603291,
+    "lon": -9.387622
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/80d6331f340f6529872a482c2b097673"
+  ],
+  "start_date": "2024-01-14",
+  "end_date": "2024-01-15",
+  "circuit": [],
+  "description": "\n<p>No dia 14 de janeiro de 2024 terá lugar a 5ª edição da Corrida Peniche a Correr. Prova de corrida de aproximadamente 10 mil metros, realizada no concelho Peniche, mais concretamente no interior da Cidade de Peniche. Esta iniciativa, é promovida pela Associação Peniche a Correr e pelos Bombeiros Voluntários de Peniche.</p>\n",
+  "description_short": "Corrida urbana pela cidade de Peniche com apoio dos Bombeiros Voluntários",
+  "page": "https://www.trilhoperdido.com/evento/5-grande-premio-peniche-a-correr",
+  "slug": "corrida-peniche-a-correr-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Peniche",
+  "administrative_area_level_3": "Peniche",
+  "district_code": 10
+}

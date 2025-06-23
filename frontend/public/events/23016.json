@@ -1,0 +1,36 @@
+{
+  "id": 23016,
+  "name": "Corrida Das Areias 2023",
+  "location": "Praia da Murtosa, Torreira",
+  "coordinates": {
+    "lat": 40.7606812,
+    "lon": -8.7052604
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    1500,
+    5000,
+    15000,
+    16000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "trail"
+  ],
+  "images": [
+    "media/b22e45ca0326f26a048a70ff96304351"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [],
+  "description": "\n<p>Um&nbsp;<a></a>prólogo com 1,5 km percorrido em pelotão, em corrida lenta, desde o Parque do Monte Branco até às areias da Praia da Torreira!</p>\n\n\n\n<p>Nas areias da praia o verdadeiro desafio, com início no Concelho da Murtosa na praia da Torreira e chegada ao Concelho de Aveiro ao RI10. São cerca de 16km percorridos junto ao mar e no interior do RI10 em S. Jacinto, com a meta junto à estátua do paraquedista!</p>\n\n\n\n<p><strong>Data e local:</strong>&nbsp;21 maio 2023 – Praia da Murtosa – Torreira</p>\n",
+  "description_short": "Trail desafiante entre praias de Murtosa e São Jacinto, com passagem pelos areais e junto ao mar de Aveiro",
+  "page": "https://www.runmanager.net/Eventos/corrida-das-areias/704",
+  "slug": "corrida-das-areias-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Murtosa",
+  "administrative_area_level_3": "Torreira",
+  "district_code": 1
+}

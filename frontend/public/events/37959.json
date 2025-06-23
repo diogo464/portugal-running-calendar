@@ -1,0 +1,33 @@
+{
+  "id": 37959,
+  "name": "Trail das Ondas Gigantes 2025",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    18000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/cb2b1ccb6aefaafba2cda354f4c54272"
+  ],
+  "start_date": "2025-03-09",
+  "end_date": "2025-03-09",
+  "circuit": [],
+  "description": "\n<p><strong>O evento solidário</strong> será realizado a&nbsp;<strong>09&nbsp;de março de 2025</strong>.</p>\n\n\n\n<p>-Trail 18Km, distância aproximada;</p>\n\n\n\n<p>-Caminhada 10km;Local da partida/chegadas dos atletas e no final incluiu almoço de convívio com atletas e parceiros/convidados, no Largo do Santuário da Nossa Senhora da Nazaré &#8211; Sítio.</p>\n",
+  "description_short": "Trail solidário no Sítio da Nazaré com almoço de convívio",
+  "page": "https://www.recordepessoal.pt/evento/traildasondasgigantes",
+  "slug": "trail-das-ondas-gigantes-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

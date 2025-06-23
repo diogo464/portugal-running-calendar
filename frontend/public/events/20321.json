@@ -1,0 +1,37 @@
+{
+  "id": 20321,
+  "name": "III Ultra Trail Do Falcão Real 2022",
+  "location": "Alcoutim, Faro",
+  "coordinates": {
+    "lat": 37.4689817,
+    "lon": -7.4735957
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    8000,
+    16000,
+    29000,
+    46000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/6da22c7dd65e0b92d4eff6a3e3d86019"
+  ],
+  "start_date": "2022-12-11",
+  "end_date": "2022-12-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Evento “<strong>III Trail do Falcão Real</strong>” é uma prova de TrailRunning organizada pela Secção de Trail do Grupo Desportivo de Alcoutim, em colaboração com a Câmara Municipal de Alcoutim e União das Freguesias Alcoutim e Pereiro, que será realizada por trilhos e caminhos do concelho de Alcoutim, no dia 11 de dezembro de 2022, pelas 07:45 horas, prova certificada pela ATRP, que integra a Taça Alengarve de Trail e o Circuito Regional de Trail do Algarve.<br> <br>Os percursos têm as seguintes distâncias:<br>Ultra Trail de 46Km, com partida e chegada a Alcoutim;                                                           <br>Trail Longo de 29 Km, com partida de Santa Marta* e chegada a Alcoutim;<br>Trail Curto de 16 Km, com partida e chegada a Alcoutim;<br>Caminhada de 8 Km com partida e chegada a Alcoutim e que não terá classificações.</p>\n\n\n\n<p>A próxima edição da TAT está de volta e começa já dia 12 de Dezembro no Trail do Falcão Real 2021 em Alcoutim.</p>\n",
+  "description_short": "Trail rural desafiante por trilhos do Algarve com diferentes percursos em Alcoutim",
+  "page": "https://www.crono.aaalgarve.org/eventos/iii-ultra-trail-do-falcao-real",
+  "slug": "iii-ultra-trail-do-falcao-real-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Alcoutim",
+  "administrative_area_level_3": "União das freguesias de Alcoutim e Pereiro",
+  "district_code": 8
+}

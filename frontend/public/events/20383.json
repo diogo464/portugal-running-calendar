@@ -1,0 +1,35 @@
+{
+  "id": 20383,
+  "name": "II Corrida São Silvestre de Mogadouro 2022",
+  "location": "Mogadouro, Bragança",
+  "coordinates": {
+    "lat": 41.3426456,
+    "lon": -6.7099863
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/9bd83955f8f4dbf6bcadc0c81760901f"
+  ],
+  "start_date": "2022-12-10",
+  "end_date": "2022-12-11",
+  "circuit": [],
+  "description": "\n\n\n<p>A São Silvestre de Mogadouro é uma organização do Município de Mogadouro e pretende afirmar-se como uma referência nas provas de corrida de fim de ano em Portugal.<br><br>Esta 2.ª edição da prova contempla uma corrida de 10 Kms, para atletas federados e não federados, <strong>corridas para os mais jovens</strong> e uma caminhada destinada a todas as classes etárias.</p>\n\n\n\n<p><strong>Marca já na agenda o dia 10 de dezembro de 2022.</strong></p>\n",
+  "description_short": "Corrida de fim de ano no Interior transmontano com provas para todas as idades em Mogadouro",
+  "page": "https://www.mogadouro.pt/",
+  "slug": "sao-silvestre-de-mogadouro-2022",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mogadouro",
+  "administrative_area_level_3": "Mogadouro",
+  "district_code": 4
+}

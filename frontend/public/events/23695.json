@@ -1,0 +1,29 @@
+{
+  "id": 23695,
+  "name": "IV Trail por Terras de Lavre 2023",
+  "location": "Lavre, Évora",
+  "coordinates": {
+    "lat": 38.7740254,
+    "lon": -8.370968399999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/206df625773170ae45111f996d409776"
+  ],
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-09",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/3152",
+  "slug": "iv-trail-por-terras-de-lavre-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Montemor-o-Novo",
+  "administrative_area_level_3": "Lavre",
+  "district_code": 7
+}

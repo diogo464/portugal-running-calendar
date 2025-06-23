@@ -1,0 +1,30 @@
+{
+  "id": 35945,
+  "name": "Trail Terra do Sol 2024",
+  "location": "Amareleja, Beja",
+  "coordinates": {
+    "lat": 38.2076493,
+    "lon": -7.227816
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/71c5f22568f6191621ad0e2cde904fd4"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [],
+  "description": "\n<p>O TRAIL “TERRAS DO SOL” é uma prova de corrida, constituída por um Trail Longo, um Mini Trail, um Trail Curto, e uma caminhada, realizados predominantemente em trilhos, caminhos rurais, vias de terra batida e ribeiras circundantes à Freguesia da Amareleja.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos rurais e ribeiras da Amareleja",
+  "page": "https://acorrer.pt/eventos/info/3574",
+  "slug": "trail-terra-do-sol-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "Amareleja",
+  "district_code": 2
+}

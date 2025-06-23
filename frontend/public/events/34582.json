@@ -1,0 +1,36 @@
+{
+  "id": 34582,
+  "name": "Trail Demónios do Lizandro 2024",
+  "location": "São João Das Lampas, Lisboa",
+  "coordinates": {
+    "lat": 38.8744196,
+    "lon": -9.3986994
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    12000,
+    15000,
+    25000,
+    50000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/cd7a3067129ef57fd18c0736602a8eaa"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-04",
+  "circuit": [],
+  "description": "\n<p>O Trail será constituído por 3 provas de caracter competitivo e uma caminhada de lazer.</p>\n\n\n\n<p>Ultra Trail ( 50km / 2100D+ )</p>\n\n\n\n<p>Trail longo ( 25km / 1100D+ ) – Prova inserida no Circuito de Trail de Lisboa 2024</p>\n\n\n\n<p>Trail curto ( 15km / 600D+ ) – Prova inserida no Circuito de Trail de Lisboa 2024</p>\n\n\n\n<p>Caminhada ( 12Km )</p>\n",
+  "description_short": "Trail com 3 provas competitivas e caminhada integrado no Circuito de Trail de Lisboa 2024",
+  "page": "https://www.trilhoperdido.com/evento/3-trail-demonios-do-lizandro",
+  "slug": "trail-demonios-do-lizandro-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

@@ -1,0 +1,33 @@
+{
+  "id": 41568,
+  "name": "Corrida Intermunicipal Solidária Appda V.C. / P.V. 2025",
+  "location": "Vila do Conde, Porto",
+  "coordinates": {
+    "lat": 41.3517302,
+    "lon": -8.7478619
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/37e9cc84e32ed4175969d0d7942d5cf5"
+  ],
+  "start_date": "2025-05-10",
+  "end_date": "2025-05-10",
+  "circuit": [],
+  "description": "\n<p></p>\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa condensá-la num resumo sucinto.",
+  "page": "https://stopandgo.net/events/corrida-intermunicipal-solidaria-appda-vila-do-conde-povoa-de-varzim",
+  "slug": "corrida-intermunicipal-solidaria-appda-v-c-p-v-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila do Conde",
+  "administrative_area_level_3": "Vila do Conde",
+  "district_code": 13
+}

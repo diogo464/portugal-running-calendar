@@ -1,0 +1,35 @@
+{
+  "id": 41744,
+  "name": "Trail Terras de Sal e Serra 2025",
+  "location": "Rio Maior, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    11000,
+    18000,
+    32000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/87578c9783a637d2634b6263f804ceca"
+  ],
+  "start_date": "2025-11-16",
+  "end_date": "2025-11-17",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>“TRAIL TERRAS DE SAL E SERRA”</strong>&nbsp;é um conjunto de provas de trail running, desenvolvidas ao longo de caminhos rurais, trilhos individuais e serra, com carácter competitivo e lúdico, que decorrerá no dia&nbsp;<strong>16 de Novembro de 2025</strong>, pelas<strong>&nbsp;9 horas</strong>, em&nbsp;<strong>Rio Maior, distrito de Santarém.</strong></p>\n\n\n\n<p>A prova é constituída por quatro distâncias:</p>\n\n\n\n<p>Aproximadamente <strong>32 Km, Trail Longo,</strong> com cerca de 1400 D+, com partida nas Salinas de Rio Maior e chegada no Pavilhão Multiusos de Rio Maior, com passagem pela Serra dos Candeeiros.</p>\n\n\n\n<p>Aproximadamente <strong>18 Km, Trail Curto,</strong> com cerca de 1000 D+, com partida nas Salinas de Rio Maior e chegada no Pavilhão Multiusos de Rio Maior, com passagem pela Serra dos Candeeiros.</p>\n\n\n\n<p>Aproximadamente <strong>11 Km, Mini Trail,</strong> com cerca de 400 D+, com partida nas Salinas de Rio Maior e chegada no Pavilhão Multiusos de Rio Maior.</p>\n\n\n\n<p>Aproximadamente <strong>11 Km, Caminhada</strong>, com cerca de 400 D+, com partida nas Salinas de Rio Maior e chegada no Pavilhão Multiusos de Rio Maior.</p>\n\n\n",
+  "description_short": "Trail pela Serra dos Candeeiros com partida nas Salinas de Rio Maior e passagem por caminhos rurais e trilhos individuais",
+  "page": "https://www.recordepessoal.pt/evento/trailterrasdesaleserra2025",
+  "slug": "trail-terras-de-sal-e-serra-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

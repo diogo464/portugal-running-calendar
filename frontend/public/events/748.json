@@ -1,0 +1,32 @@
+{
+  "id": 748,
+  "name": "Proença Cross Trail 2020",
+  "location": "Proença a Nova Proença-a-Nova",
+  "coordinates": {
+    "lat": 39.7494186,
+    "lon": -7.9233898
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    20000,
+    50000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/25d0f6a6ccb5d116e6827e617176aab0"
+  ],
+  "start_date": "2020-02-08",
+  "end_date": "2020-02-09",
+  "circuit": [],
+  "description": "<p><strong>Proença Cross Trail – 8/Fev´20</strong></p>\n<p><strong>Trail Longo20 / Trail Ultra50</strong></p>\n<p>2 distâncias que percorrem caminhos e trilhos com um grau de dificuldade <strong>2</strong> de acordo com as indicações da ATRP.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Proença com duas opções de percurso técnico",
+  "page": null,
+  "slug": "proenca-cross-trail-2020",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Proença-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Proença-a-Nova e Peral",
+  "district_code": 5
+}

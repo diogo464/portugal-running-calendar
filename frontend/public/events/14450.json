@@ -1,0 +1,30 @@
+{
+  "id": 14450,
+  "name": "Trail Anadia Capital do Espumante 2022",
+  "location": "Anadia, Aveiro",
+  "coordinates": {
+    "lat": 40.4409572,
+    "lon": -8.4354306
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c426a150d1dd379870610d1ce171fa3e"
+  ],
+  "start_date": "2022-06-19",
+  "end_date": "2022-06-20",
+  "circuit": [],
+  "description": "\n<p>Trail Anadia Capital do Espumante 2022TE. <img decoding=\"async\" height=\"16\" width=\"16\" alt=\"📢\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t39/1/16/1f4e2.png\"> Prémios surpresa para as 3 equipas mais numerosas, juntando as duas provas de trail e caminhada:No dia 01/02/2022, após 478 inscrições, o ponto da situação é: <img decoding=\"async\" height=\"16\" width=\"16\" alt=\"👇\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t4f/1/16/1f447.png\">MT Crecusport 22 atletasVamos a pé 19 atletasBravos 17 atletasOiã Runners 12 atletas100 Juízo runners 9 atletasEspigueiros Runners Caparrosinha 9 atletas</p>\n",
+  "description_short": "Trail pela região de Anadia com competição entre equipas locais de corrida",
+  "page": "https://registerandgo.net/?evento=698",
+  "slug": "trail-anadia-capital-do-espumante-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Anadia",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

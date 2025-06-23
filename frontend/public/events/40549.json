@@ -1,0 +1,33 @@
+{
+  "id": 40549,
+  "name": "Trail da Nexebra 2025",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/bfd086b3d97e2bfed565f44fd88c9f3c"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O VII Trilhos da Nexebra Trail &#8211; TNT® trata-se de um evento misto que contará com 4 provas competitivas de trail running &#8211; Trail, Trail Sprint, Trail Jovem e trilhos de ambiente natural e rural, na freguesia de Chão de Couce, concelho de Ansião. A realização deste evento tem como principais objetivos a divulgação e promoção da beleza natural da nossa fregu esia e concelho e a fomentação de hábitos saudáveis junto das populações.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos naturais de Chão de Couce em Ansião",
+  "page": "https://www.queroir.pt/trilhosdanexebratrail2025",
+  "slug": "trail-da-nexebra-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

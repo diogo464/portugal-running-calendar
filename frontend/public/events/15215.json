@@ -1,0 +1,32 @@
+{
+  "id": 15215,
+  "name": "V Meia Maratona de Vila Real 2022",
+  "location": "Vila Real",
+  "coordinates": {
+    "lat": 41.3011532,
+    "lon": -7.7409832
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/a7654ff6a0ca79a66375ed145c610fd8"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>A V Meia Maratona de Vila Real está a cargo da Associação de Atletismo de Vila Real,<br>em co-organização com a Câmara Municipal de Vila Real, sendo promovida pela<br>EXCELLUS, Unipessoal Lda.</p>\n\n\n\n<p><br></p>\n",
+  "description_short": "Meia maratona organizada pela Associação de Atletismo de Vila Real no distrito de Vila Real",
+  "page": "https://www.meiamaratonavr.pt/",
+  "slug": "meia-maratona-de-vila-real-2022",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Real",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

@@ -1,0 +1,33 @@
+{
+  "id": 34799,
+  "name": "10Km De Tramagal 2024",
+  "location": "Tramagal, Abrantes",
+  "coordinates": {
+    "lat": 39.4516253,
+    "lon": -8.2541155
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/7cd8c43597eef6171d22967236cbddfe"
+  ],
+  "start_date": "2024-05-01",
+  "end_date": "2024-05-02",
+  "circuit": [],
+  "description": "\n<p>A Freguesia de Tramagal realiza anualmente a prova de atletismo “10 Km de Tramagal”, que vai na sua 5.ª edição, como forma de incentivar a prática desportiva, o convívio e a valorização do território. A realização deste popular evento faz parte das Comemorações do 1º de Maio na Freguesia de Tramagal.<br><br>A prova de atletismo “10km de Tramagal” é um evento desportivo organizado pela Junta de Freguesia de Tramagal e Tramagal Sport União, com o apoio da Câmara Municipal de Abrantes e organização técnica da empresa “Trilho Perdido”.</p>\n\n\n",
+  "description_short": "Prova de atletismo anual em Tramagal promovendo convívio e valorização do território local",
+  "page": "https://www.trilhoperdido.com/evento/10Km-Freguesia-de-Tramagal-2024",
+  "slug": "10km-de-tramagal-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Abrantes",
+  "administrative_area_level_3": "Tramagal",
+  "district_code": 14
+}

@@ -1,0 +1,34 @@
+{
+  "id": 41343,
+  "name": "Corrida do Lusitano Ginásio Clube 2025",
+  "location": "Évora",
+  "coordinates": {
+    "lat": 38.571431,
+    "lon": -7.913501999999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/b21fb2e4b9e31f1e7cfa3aee037e5d98"
+  ],
+  "start_date": "2025-04-25",
+  "end_date": "2025-04-26",
+  "circuit": [],
+  "description": "\n<p>A Corrida Lusitano Ginásio Clube é promovida pelo Lusitano Ginásio Clube; com o apoio da Câmara Municipal de Évora e de outros parceiros que, de alguma forma, estão também a ajudar na realização deste evento.</p>\n\n\n\n<p>O evento será composto por dois percursos:</p>\n\n\n\n<p><br>Corrida de 10Km</p>\n\n\n\n<p>Caminhada de 5Km</p>\n\n\n",
+  "description_short": "Corrida solidária em Évora com apoio da câmara municipal e dois percursos distintos",
+  "page": "https://acorrer.pt/eventos/3885/info",
+  "slug": "corrida-do-lusitano-ginasio-clube-2025",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Évora",
+  "administrative_area_level_3": "Santo Antão",
+  "district_code": 7
+}

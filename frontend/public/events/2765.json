@@ -1,0 +1,39 @@
+{
+  "id": 2765,
+  "name": "Alcochete a Correr 2021",
+  "location": "Alcochete, Setúbal",
+  "coordinates": {
+    "lat": 38.7560205,
+    "lon": -8.9603438
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    1000,
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/c7b946716215a7134839380e3c5b8241"
+  ],
+  "start_date": "2021-11-07",
+  "end_date": "2021-11-08",
+  "circuit": [],
+  "description": "\n<p>Com organização da Junta de Freguesia de Alcochete e organização técnica da Xistarca, no dia&nbsp;7 de&nbsp;Novembro de 2021, todos os caminhos vão dar a Alcochete!<br>A pensar em todos, a organização disponibiliza a inscrição em&nbsp;3&nbsp;distâncias diferentes:<br>– meia maratona 21km;<br>– corrida 10km;<br>– caminhada de 5km.</p>\n\n\n\n<p>A pensar nos mais pequenos existirá, também, a Kids Race para crianças até aos 14 anos, com a distância de 1km.</p>\n",
+  "description_short": "Corrida com várias distâncias na vila de Alcochete, com Kids Race para crianças",
+  "page": "https://xistarca.pt/eventos/alcochete-a-correr-2021",
+  "slug": "alcochete-a-correr-2021",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcochete",
+  "administrative_area_level_3": "Alcochete",
+  "district_code": 15
+}

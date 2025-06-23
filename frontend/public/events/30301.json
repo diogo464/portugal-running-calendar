@@ -1,0 +1,34 @@
+{
+  "id": 30301,
+  "name": "Estafeta dos Reis 2024",
+  "location": "Estádio Universitário de Lisboa Lisboa,",
+  "coordinates": {
+    "lat": 38.75185,
+    "lon": -9.1625361
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    3000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "relay"
+  ],
+  "images": [
+    "media/b099cb2913e119035b39003e06100f68"
+  ],
+  "start_date": "2024-01-06",
+  "end_date": "2024-01-07",
+  "circuit": [],
+  "description": "\n<p><strong>A Estafeta dos Reis</strong>&nbsp;é uma corrida por<strong>&nbsp;equipas de 3 elementos</strong>, num circuito fechado com o perímetro de 3&nbsp;km, com&nbsp;<strong>partida e chegada na Pista do Estádio de Honra</strong>, do Estádio Universitário de Lisboa.&nbsp;</p>\n\n\n\n<p><strong>As equipas poderão ser masculinas, femininas ou mistas (pelo menos um atleta de&nbsp;género diferente).</strong></p>\n\n\n\n<p>Junta a tua equipa, corram e no&nbsp;<strong>convívio final desfrutem do melhor Bolo-rei de Lisboa</strong>!</p>\n",
+  "description_short": "Corrida de equipas de Ano Novo no Estádio Universitário de Lisboa com convívio e Bolo-rei",
+  "page": "https://xistarca.pt/eventos/estafeta-dos-reis-2024",
+  "slug": "estafeta-dos-reis-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Alvalade",
+  "district_code": 11
+}

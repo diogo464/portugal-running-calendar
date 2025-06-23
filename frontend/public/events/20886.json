@@ -1,0 +1,34 @@
+{
+  "id": 20886,
+  "name": "Vii Cross Trail Soure 1111 2023",
+  "location": "Soure, Coimbra",
+  "coordinates": {
+    "lat": 40.0610524,
+    "lon": -8.6239203
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    13000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bab0b65bfcb27b560aba15a5aacd03e3"
+  ],
+  "start_date": "2023-04-23",
+  "end_date": "2023-04-24",
+  "circuit": [],
+  "description": "\n<p>O VII CROSS TRAIL SOURE 1111 é um evento desportivo organizado pelo Soure Mov, clube de atletismo da APPACDM de Soure (secção autónoma), em parceria com a Câmara Municipal de Soure, Junta Freguesia de Soure e a Associação Distrital de Atletismo de Coimbra (ADAC). </p>\n\n\n\n<p>O VII CROSS TRAIL SOURE 1111 realizar-se-á no dia 23 de abril de 2023, domingo, será constituído por duas distâncias competitivas (TRAIL LONGO 27K e TRAIL CURTO 13K) e CAMINHADA.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Soure com duas provas competitivas e caminhada solidária",
+  "page": "https://stopandgo.net/events/vii-cross-trail-soure-1111",
+  "slug": "vii-cross-trail-soure-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Soure",
+  "administrative_area_level_3": "Soure",
+  "district_code": 6
+}

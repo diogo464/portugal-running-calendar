@@ -1,0 +1,34 @@
+{
+  "id": 489,
+  "name": "Trail-Run Ourém &#8211; Serra d`Aire",
+  "location": "Ourém, Santarém",
+  "coordinates": {
+    "lat": 39.6564974,
+    "lon": -8.5773408
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    15000,
+    30000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3b2c6083d490fb8336cd7e3d707e5861"
+  ],
+  "start_date": "2020-01-26",
+  "end_date": "2020-01-27",
+  "circuit": [],
+  "description": "<p>É com enorme prazer que vimos por este meio apresentar a V edição do CS Design &#8211; Trail-Run de Ourém &#8211; Serra d`Aire, um dos mais conceituados e reconhecidos eventos da zona centro, que se realiza no próximo dia 26 de Janeiro, com centro operativo no Pavilhão do Bairro (Ourém).</p>\n<p>Depois do enorme sucesso das três edições anteriores, a prova regressará para mais e melhor naquela que esperamos que seja mais uma enorme festa do Trail, com uma organização uma vez mais a cargo do G.C.D.R.Bairrense, em parceria com a A.C.R. Outeiro das Matas, BTT Clube dos Pinheiros (BTTCP) e Município de Ourém.</p>\n<p align=\"justify\">Agendada como uma verdadeira Festa do Trail-Run para os meses de inverno, a prova contará com 2 distâncias à escolha dos atletas na vertente Trail: Um Trail Curto com cerca de 15km de extensão que irá percorrer o &#8220;coração&#8221; da Serra d`Aire, e ainda um Trail Longo, com cerca de 30km, que irá extender-se aos sectores mais periféricos da Serra (com partida 30 minutos antes). Por fim, espaço para um Mini-Trail e ainda a habitual caminhada, de ritmo livre, ambas com cerca de 10 kms de extensão (sem registo de tempos para a segunda).</p>\n<p align=\"justify\">Com uma organização de reconhecida qualidade e com mais de uma década de experiência, será com toda a certeza um evento capaz reunir todos os ingredientes para um fim de semana memorável e uma manhã inesquecível, na verdadeira Gala do Trail dos meses de Inverno.</p>\n<p align=\"justify\">Não hesite&#8230;. Aventure-se!</p>\n",
+  "description_short": "Trail ao coração da Serra d'Aire com diferentes percursos em Ourém durante o inverno",
+  "page": "http://www.trailourem.com/",
+  "slug": "trail-run-ourem-serra-daire",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Olival",
+  "district_code": 14
+}

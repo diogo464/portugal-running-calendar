@@ -1,0 +1,35 @@
+{
+  "id": 41227,
+  "name": "Trilho Urbano São Vicente 2025",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    7000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0cbfd3a4539ef996c1486f7050417a69"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [],
+  "description": "\n<p>O Trilho Urbano de São Vicente surge como uma ideia inovadora da Junta de Freguesia de São Vicente em parceria com as coletividades da freguesia.</p>\n\n\n\n<p>Um percurso pelos três pontos principais da freguesia (São Vicente de Fora, Graça e Sta. Engrácia), sendo o seu principal objetivo a promoção desportiva conectada à divulgação das coletividades desportivas existentes na freguesia.</p>\n\n\n\n<p>A 4ª edição do Trilho Urbano de São Vicente irá realizar-se no dia 11&nbsp;de maio de 2025&nbsp;com uma distância competitiva de 7km,&nbsp;&nbsp;uma caminhada de 5km e uma Corrida Kids a abrir o Evento pelas 9h15.</p>\n\n\n",
+  "description_short": "Trail urbano por São Vicente a descobrir coletividades desportivas da freguesia",
+  "page": "https://werun.pt/eventos/4-trilho-urbano-de-sao-vicente/",
+  "slug": "trilho-urbano-sao-vicente-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

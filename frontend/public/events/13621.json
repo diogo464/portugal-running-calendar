@@ -1,0 +1,29 @@
+{
+  "id": 13621,
+  "name": "BMW-ACF Santarém Trail 2022",
+  "location": "Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/eb74bfdbf79c2e4a3e2f94ee59a13f78"
+  ],
+  "start_date": "2022-05-08",
+  "end_date": "2022-05-09",
+  "circuit": [],
+  "description": "\n<p>Associação pace.makers running club, em parceria com o Agrupamento 52 Santarém (Corpo Nacional de Escutas) organização o BMW-ACF Santarém Trail 2022 a 8 de Maio de 2022.</p>\n",
+  "description_short": "Trail em Santarém com organização conjunta entre clube de corrida e escuteiros",
+  "page": "https://www.trilhoperdido.com/evento/BMW-ACF-Santarem-Trail-2022",
+  "slug": "bmw-acf-santarem-trail-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

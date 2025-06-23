@@ -1,0 +1,31 @@
+{
+  "id": 1038,
+  "name": "Piódão Trail 2020",
+  "location": "Piódão Piódão, Coimbra",
+  "coordinates": {
+    "lat": 40.22956509999999,
+    "lon": -7.825189699999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    55000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0fa7168ca737dc2191001b958b646dee"
+  ],
+  "start_date": "2020-10-03",
+  "end_date": "2020-10-04",
+  "circuit": [],
+  "description": "<p>Prova mítica realizada no coração da Serra do Açor. Partida e chegada na aldeia presépio do Piódão. Percurso renovados. &lt; A Prova de 55 km faz parte do Circuito Distrital de Trail do Distrito de Coimbra. Os associados na ADAC terão nessa prova um desconto de 1.5€ &gt;</p>\n",
+  "description_short": "Trail desafiante pela Serra do Açor com partida e chegada na icónica aldeia do Piódão",
+  "page": "http://www.ultrapiodao.com/",
+  "slug": "piodao-trail-2020",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Arganil",
+  "administrative_area_level_3": "Piódão",
+  "district_code": 6
+}

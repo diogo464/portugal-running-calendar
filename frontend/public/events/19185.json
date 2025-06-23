@@ -1,0 +1,36 @@
+{
+  "id": 19185,
+  "name": "III Meia Maratona de Alcoutim 2022",
+  "location": "Alcoutim, Faro",
+  "coordinates": {
+    "lat": 37.4689817,
+    "lon": -7.4735957
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    6000,
+    21097,
+    21100,
+    100000
+  ],
+  "types": [
+    "run",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/64a1c0cb01ee6e467391e88eb662e95d"
+  ],
+  "start_date": "2022-12-01",
+  "end_date": "2022-12-02",
+  "circuit": [],
+  "description": "\n<p>A 3ª Meia Maratona de Alcoutim é uma prova pedestre organizada pela Câmara Municipal de Alcoutim e Centro de Apoio ao Trabalhadores da CM Alcoutim e com o apoio da Associação de Atletismo do Algarve da Comissão Regional de Juízes de Atletismo, Grupo Desportivo de Alcoutim, Bombeiros Voluntários de Alcoutim, GNR e outras entidades que manifestem interesse em participar.<br> <br><strong>2.DATA/HORA/LOCAL</strong><br><strong>Data:</strong> 01 Dezembro 2022<br><strong>Hora:</strong> Meia Maratona, inicio às 10:00H, com aproximadamente 21,100 Km<br>           Caminhada, inicio às 10:00H, distância de 6 Km<br><strong>Local:</strong> Partida e chegada junto a ponte dos cadavais (Alcoutim)</p>\n\n\n",
+  "description_short": "Meia maratona solidária no interior do Algarve com partida e chegada junto à ponte dos Cadavais em Alcoutim",
+  "page": "https://www.crono.aaalgarve.org/eventos/iii-meia-maratona-de-alcoutim",
+  "slug": "meia-maratona-de-alcoutim-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Alcoutim",
+  "administrative_area_level_3": "União das freguesias de Alcoutim e Pereiro",
+  "district_code": 8
+}

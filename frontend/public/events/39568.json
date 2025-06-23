@@ -1,0 +1,36 @@
+{
+  "id": 39568,
+  "name": "3 Léguas do Nabão 2025",
+  "location": "Tomar, Santarém",
+  "coordinates": {
+    "lat": 39.6053819,
+    "lon": -8.4043125
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "15k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/dee3d97eb1842431b2e143ba38382208"
+  ],
+  "start_date": "2025-03-02",
+  "end_date": "2025-03-03",
+  "circuit": [],
+  "description": "\n<p>Numa organização do Clube da Actividades de Lazer e Manutenção &#8211; CALMA, vai realizar-se no dia 02 de Março de 2025, uma prova de atletismo denominada «3 LÉGUAS DO NABÃO» com a distância de 15km. Haverá ainda provas para a camada jovem assim como uma caminhada de 10km.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Prova de atletismo tradicional pelas margens do Rio Nabão com diferentes escalões e caminhada",
+  "page": "https://clubecalma.pt/3-leguas-do-nabao/",
+  "slug": "3-leguas-do-nabao-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

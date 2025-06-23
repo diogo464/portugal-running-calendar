@@ -1,0 +1,36 @@
+{
+  "id": 32280,
+  "name": "Trail Oiã 2024",
+  "location": "Oia, Oliveira do Bairro Oiã,",
+  "coordinates": {
+    "lat": 40.530151,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    1000,
+    8000,
+    16000,
+    24000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/31da706890b0e0e882aceea453456063"
+  ],
+  "start_date": "2024-07-28",
+  "end_date": "2024-07-29",
+  "circuit": [],
+  "description": "\n<p>Decorre no próximo dia 28 de julho de 2024 a 5ª edição do Trail &#8211; Terras de Oiã.</p>\n\n\n\n<p>Esta prova decorrerá em trilhos e estradas florestais na Freguesia de Oiã, com uma considerável área florestal com vista privilegiada sobre vários afluentes do Rio Levira e Rio Cértima, com passagem pelo Parque da Fonte Doce, Parque da Seara, com trilhos completamente novos e renovados.</p>\n\n\n\n<p>Com o almoço de confraternização no parque do Vieiro em Oiã.</p>\n\n\n\n<p>Kit de participação: Camisola Técnica, Saco, Dorsal, Chip, Seguro Desportivo, Abastecimentos e Outros brindes que a organização consiga arranjar.</p>\n\n\n\n<p>A organização deste evento está a cargo da Associação Jovem Oianense juntamente com os OiãRunners, com o apoio da Câmara Municipal de Oliveira do Bairro, da Junta de Freguesia de Oiã, do IPDJ e Região de Aveiro</p>\n\n\n\n<p>O Trail &#8211; Terras de Oiã será constituído por duas provas:</p>\n\n\n\n<p>Trail Longo &#8211; 24 (km) &#8211; Trail Rota do Kiwi</p>\n\n\n\n<p>Trail Curto &#8211; 16 (km) &#8211; Trail Rota do Rio Ervedal</p>\n\n\n\n<p>Kids Trail &#8211; 1 (km) &#8211; Trail Rota da Fonte da Preguiça</p>\n\n\n\n<p>Caminhada (8Km) &#8211; ABTF</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail pelas florestas de Oiã com percursos técnicos e vistas panorâmicas sobre os rios Levira e Cértima",
+  "page": "https://meutempo.pt/prova?trail-terras-oia-2024",
+  "slug": "trail-oia-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira do Bairro",
+  "administrative_area_level_3": "Oiã",
+  "district_code": 1
+}

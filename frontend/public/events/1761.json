@@ -1,0 +1,34 @@
+{
+  "id": 1761,
+  "name": "Meia Maratona do Dão 2020",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/7538237fb8347cd2206d54e731836ab9"
+  ],
+  "start_date": "2020-09-20",
+  "end_date": "2020-09-21",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://events.globalsport.pt/",
+  "slug": "meia-maratona-do-dao-2020",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

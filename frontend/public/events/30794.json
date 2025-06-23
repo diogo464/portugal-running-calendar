@@ -1,0 +1,37 @@
+{
+  "id": 30794,
+  "name": "Trail da Trofa 2024",
+  "location": "Trofa, Porto",
+  "coordinates": {
+    "lat": 41.3125528,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    17000,
+    31000,
+    49000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/aeff7acfb074d74385265f32bf95a0e2"
+  ],
+  "start_date": "2024-09-08",
+  "end_date": "2024-09-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Nesta VII Edição do Trail da Trofa serão enquadradas as seguintes provas:</p>\n\n\n\n<p>Tipo Distância<br>FYKE ULTRA TRAIL +- 49km<br>ERA TROFA Trail Longo +- 31km<br>CONTROLAR Trail Curto +- 17km<br>FARMÁCIA TROFENSE Caminhada +- 10km</p>\n",
+  "description_short": "Trail desafiante com diferentes percursos na região da Trofa, incluindo opções para todos os níveis de trail running",
+  "page": "https://stopandgo.net/events/trail-da-trofa-2024",
+  "slug": "trail-da-trofa-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Trofa",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

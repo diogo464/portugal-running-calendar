@@ -1,0 +1,36 @@
+{
+  "id": 20753,
+  "name": "Serra Amarela Skymarathon 2023",
+  "location": "Ponte da Barca, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8055334,
+    "lon": -8.417051599999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    9000,
+    15000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7a6196f2028faebfceb326817bbc3ac5"
+  ],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Será nos dias 3 e 4 de Junho de 2023, que a Carlos Sá Nature Events organizará a quinta edição do<br>evento Serra Amarela SkyMarathon, em parceria com o Município de Ponte da Barca.</p>\n\n\n\n<p><br>A aposta na Serra Amarela surge do reconhecimento das potencialidades fantásticas desta região, com<br>toda a sua beleza e relevo agreste, para a prática da modalidade em franco crescimento em Portugal.<br>Este evento contará com várias distâncias competitivas e outras atividades. No dia 3 de Junho realizar-se-á na Vila de Ponte da Barca as Jornadas do Desporto e Saúde. No dia 4 de Junho realizar-se-ão as<br>distâncias de 30km, 15km e Caminhada 9km.</p>\n\n\n\n<p><br>Os participantes percorrerão mais uma vez trilhos inóspitos, por castelos, rios, vegetação luxuriante e<br>verdejante, com vistas incríveis sobre os espelhos de água da Albufeira de Vilarinho das Furnas e<br>da Albufeira de Tamente, pelas aldeias preservadas de Lindoso, Germil, Paradela, Sobredo, Lourido,<br>Ermida, S. Miguel e Froufe, aldeias que fazem parte deste maciço montanhoso do único Parque<br>Nacional de Portugal – o Parque Nacional Peneda-Gerês!</p>\n\n\n\n<p><br>No dia 4 todos os participantes devem dirigir-se para o centro da aldeia de Entre-Ambos-os-Rios (local<br>de concentração) de forma autónoma.<br>No final das suas provas todos os participantes terão reforço alimentar na meta.</p>\n\n\n",
+  "description_short": "Trail desafiante pela Serra Amarela com passagem pelo Parque Nacional Peneda-Gerês e vistas sobre albufeiras históricas",
+  "page": "https://stopandgo.net/events/serra-amarela-skymarathon-2023",
+  "slug": "serra-amarela-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte da Barca",
+  "administrative_area_level_3": "Ponte da Barca",
+  "district_code": 16
+}

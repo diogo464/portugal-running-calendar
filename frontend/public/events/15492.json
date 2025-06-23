@@ -1,0 +1,35 @@
+{
+  "id": 15492,
+  "name": "Boticas Trail Caminhos do Galaico 2022",
+  "location": "Boticas, Vila Real",
+  "coordinates": {
+    "lat": 41.6984124,
+    "lon": -7.6710889
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    14000,
+    19000,
+    29000
+  ],
+  "types": [
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/8d41f300fc3692f877619f589a01d2c7"
+  ],
+  "start_date": "2022-10-02",
+  "end_date": "2022-10-03",
+  "circuit": [],
+  "description": "<p>O 4º Boticas Trail Caminhos do Galaico é uma prova de trail running inovadora que pretende integrar toda a família num ambiente de natureza e biodiversidade com ideais de sustentabilidade e preservação ambiental. Esta prova decorre no Boticas Parque Natureza e Biodiversidade e além das provas de 14k, 19k e 29k tem também caminhada e atividades para as crianças num ambiente natural e pura diversão.</p>\n<p>Os trilhos do Boticas Trail são desenhados em plena serra Barrosã, na sua imensa diversidade atravessando, levadas, rios, montanhas e sinuosos caminhos ancestrais de rara beleza.</p>\n",
+  "description_short": "Trail familiar pela Serra Barrosã com trilhos ancestrais em ambiente natural e biodiversidade",
+  "page": "https://meutempo.pt/prova?boticastrail",
+  "slug": "boticas-trail-2022",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Boticas",
+  "administrative_area_level_3": "Boticas e Granja",
+  "district_code": 17
+}

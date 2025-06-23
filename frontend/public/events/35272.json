@@ -1,0 +1,35 @@
+{
+  "id": 35272,
+  "name": "Besouros Trail 2024",
+  "location": "Sepins, Cantanhede",
+  "coordinates": {
+    "lat": 40.3880011,
+    "lon": -8.500711599999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    14000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/74436ea78611c09e369874f3e566eb24"
+  ],
+  "start_date": "2024-06-16",
+  "end_date": "2024-06-16",
+  "circuit": [],
+  "description": "\n<p>O 4º Trail Rota dos Besouros vai realizar-se no próximo dia 16 de junho de 2024 pelas 09h30, com partida e chegada no Campo de Futebol em Sepins &#8211; Cantanhede.<br>Organização compete à associação sem fins lucrativos ROTA DOS BESOUROS ASSOCIAÇÃO DESPORTIVA E CULTURAL.<br>Evento<br>Composto por 2 percursos cronometrados e 1 percurso de caminhada não cronometrado:</p>\n\n\n\n<p>Trail Sprint: ~14km<br>Trail Curto: ~19km<br>Caminhada: ~10km</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Cantanhede com passagem por Sepins e diferentes percursos de montanha",
+  "page": "https://www.runmanager.net/Eventos/besouros-trail/829",
+  "slug": "besouros-trail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Sepins e Bolho",
+  "district_code": 6
+}

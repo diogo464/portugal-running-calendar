@@ -1,0 +1,32 @@
+{
+  "id": 41120,
+  "name": "Corrida Secil Entrefábricas 2025",
+  "location": "Maceira, Leiria",
+  "coordinates": {
+    "lat": 39.685696,
+    "lon": -8.8841275
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/0e819b95423c06e81514b33604425bb8"
+  ],
+  "start_date": "2025-06-21",
+  "end_date": "2025-06-21",
+  "circuit": [],
+  "description": "\n<p>As&nbsp;<strong>Casas do Pessoal dos Cimentos Cibra-Pataias e dos Cimentos Maceira</strong>, em colaboração com o&nbsp;<strong>Centro Popular e Recreativo de A-do-Barbas</strong>, vão organizar, no dia&nbsp;<strong>21 de Junho de 2025, pelas 10:00 horas, a 2ª edição&nbsp;</strong>de uma prova de estrada denominada&nbsp;<strong>“Corrida SECIL – EntreFábricas”.&nbsp;</strong>Esta prova estará também integrada na comemoração do aniversário da Vila de Maceira &#8211;&nbsp;<strong>“Festa da Vila 2025”.</strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de estrada entre fábricas SECIL celebrando o aniversário da Vila de Maceira",
+  "page": "https://www.recordepessoal.pt/evento/2corridasecil-entrefabricas",
+  "slug": "corrida-secil-entrefabricas-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Maceira",
+  "district_code": 10
+}

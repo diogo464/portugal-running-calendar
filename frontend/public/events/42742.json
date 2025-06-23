@@ -1,0 +1,34 @@
+{
+  "id": 42742,
+  "name": "Milha da Vila Boim 2025",
+  "location": "Vila Boim, Elvas",
+  "coordinates": {
+    "lat": 38.8610732,
+    "lon": -7.276630699999999
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    1600,
+    1609
+  ],
+  "types": [
+    "run",
+    "kids",
+    "Milha"
+  ],
+  "images": [
+    "media/f3e020496ec1a61d7b9f5b16e1d67e6f"
+  ],
+  "start_date": "2025-07-26",
+  "end_date": "2025-07-26",
+  "circuit": [],
+  "description": "\n<p>A organização da 1ª Edição da Milha de Vila Boim é uma iniciativa conjunta da Junta de Freguesia de Vila Boim e da Associação Desportiva IALBAX com a colaboração técnica da Associação de Atletismo do Distrito de Portalegre (AADP).</p>\n\n\n\n<p></p>\n",
+  "description_short": "Primeira edição da Milha de Vila Boim com organização local e apoio distrital",
+  "page": "https://www.portimer.pt/eventos/i_milha_vila_boim",
+  "slug": "milha-da-vila-boim-2025",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Elvas",
+  "administrative_area_level_3": "Vila Boim",
+  "district_code": 12
+}

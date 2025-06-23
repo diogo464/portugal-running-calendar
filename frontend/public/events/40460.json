@@ -1,0 +1,28 @@
+{
+  "id": 40460,
+  "name": "Trail das Masseiras 2025",
+  "location": "Aguçadoura, Póvoa de Varzim",
+  "coordinates": {
+    "lat": 41.4312668,
+    "lon": -8.7780304
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-09-07",
+  "end_date": "2025-09-08",
+  "circuit": [],
+  "description": "\n<p>O I Trail das Masseiras decorre em trilhos e caminhos rurais do Concelho da Póvoa de Varzim.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos caminhos rurais da Póvoa de Varzim",
+  "page": "https://stopandgo.net/events/trail-das-masseiras-2025",
+  "slug": "trail-das-masseiras-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Aguçadoura",
+  "district_code": 13
+}

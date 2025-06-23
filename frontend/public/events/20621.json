@@ -1,0 +1,29 @@
+{
+  "id": 20621,
+  "name": "Trail Pé Do Negro 2023",
+  "location": "Ponte de Lima, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7622565,
+    "lon": -8.5832339
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2023-10-29",
+  "end_date": "2023-10-30",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O evento Trail Pé do Negro Ponte de Lima é organizado e promovido pela Escola Desportiva Limiana.</p>\n\n\n\n<p>Realizar-se-á no dia 29 de Outubro de 2023 pelas diversas zonas circundantes na Freguesia do Bárrio, Ponte de Lima, e Freguesias contíguas.</p>\n\n\n\n<p>Mais info BREVEMENTE</p>\n\n\n",
+  "description_short": "Trail desafiante pelos caminhos tradicionais de Ponte de Lima",
+  "page": "https://www.sinctime.com/evento/120",
+  "slug": "trail-pe-do-negro-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Arca e Ponte de Lima",
+  "district_code": 16
+}

@@ -1,0 +1,35 @@
+{
+  "id": 321,
+  "name": "São Silvestre de Vila Real",
+  "location": "Vila Real",
+  "coordinates": {
+    "lat": 41.3011532,
+    "lon": -7.7409832
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    5000,
+    6500,
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/b64354a3ca570a0c514f555bb4f5a2bd"
+  ],
+  "start_date": "2019-12-28",
+  "end_date": "2019-12-29",
+  "circuit": [],
+  "description": "<p>Realiza-se no dia 28 de Dezembro de 2019, pelas 18horas, com partida no Regimento de Infantaria 13 e chegada na Praça do Município (Avª. Carvalho Araújo) a XIV S. Silvestre Cidade de Vila Real, na qual se integrará uma Caminhada S. Silvestre Cidade de Vila Real com a distância de 6,5 km, sem fins competitivos.</p>\n<p>Trata-se de uma prova solidária, para isso, conta com a participação de todos.</p>\n<p>É uma organização conjunta da Câmara Municipal de Vila Real, do Regimento de Infantaria 13, da Associação de Atletismo de Vila Real, Fundação Inatel, Policia Segurança Pública e Junta de Freguesia de Vila Real.</p>\n",
+  "description_short": "São Silvestre solidária pela cidade de Vila Real, com partida no Regimento de Infantaria 13 e chegada na Praça do Município",
+  "page": "https://aavilareal.wixsite.com/aavr",
+  "slug": "sao-silvestre-de-vila-real",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Real",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

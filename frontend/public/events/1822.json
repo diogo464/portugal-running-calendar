@@ -1,0 +1,29 @@
+{
+  "id": 1822,
+  "name": "1º Trail &#8211; Bombeiros São Martinho do Porto 2020",
+  "location": "Quartel dos Bombeiros Voluntários de São Martinho do Porto",
+  "coordinates": {
+    "lat": 39.5149698,
+    "lon": -9.130990599999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4ee95af84de1d1a0f9d35eda226311a4"
+  ],
+  "start_date": "2020-03-29",
+  "end_date": "2020-03-30",
+  "circuit": [],
+  "description": "<p data-adtags-visited=\"true\">Pelo primeiro ano decorrerá o “1º Trail – Bombeiros Voluntários de São Martinho do Porto”  em simultâneo com o tradicional Passeio de BTT e Passeio Pedestre, proporcionando desta forma várias actividades de carácter desportivo  para que todos possam desfrutar das belas paisagens urbanísticas e naturais da vila de São Martinho do Porto, os interessados deverão inscrever-se.</p>\n<p data-adtags-visited=\"true\">Sugerimos está actividade a toda população, aos acompanhantes dos participantes do 9º Passeio de BTT e do Passeio Pedestre.</p>\n",
+  "description_short": "Trail inaugural em homenagem aos Bombeiros Voluntários nas paisagens de São Martinho do Porto",
+  "page": "http://www.bvsmp.pt/?fbclid=IwAR2MGAnngisqOHaLa4b_DaZSsPm2Lb-uDihZDzzYaGbURrOI5T-O8KqD-QU",
+  "slug": "1o-trail-bombeiros-sao-martinho-do-porto-2020",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "São Martinho do Porto",
+  "district_code": 10
+}

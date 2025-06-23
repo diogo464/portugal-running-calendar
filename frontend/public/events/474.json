@@ -1,0 +1,37 @@
+{
+  "id": 474,
+  "name": "Lisbon ECO Marathon",
+  "location": "Parque Eduardo Sétimo, Lisboa",
+  "coordinates": {
+    "lat": 38.7267017,
+    "lon": -9.1540483
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    12000,
+    21097,
+    42195,
+    195000
+  ],
+  "types": [
+    "trail",
+    "half-marathon",
+    "marathon",
+    "run"
+  ],
+  "images": [
+    "media/a40c1ea6ef4cba364730c35452c41c60"
+  ],
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-11",
+  "circuit": [],
+  "description": "<h4>A Eco Maratona de Lisboa é a única Maratona totalmente disputada na cidade de Lisboa.</h4>\n<p>Posiciona a capital de Portugal no calendário deste tipo de provas de referência em todo o mundo.</p>\n<p>A Ecologia, a Competição e a Solidariedade Social são os principais pressupostos desta prova.</p>\n<p>Além da distância “mítica” de 42,195 Km, existe a possibilidade de fazer mais duas distâncias, a Meia Maratona e uma prova de 12 Km, abrindo assim o desafio a todo o tipo de atletas. O convívio e a boa disposição são as palavras de ordem.</p>\n<p>As Provas são disputadas no pulmão da cidade – Parque Florestal de Monsanto, num traçado que minimiza os incómodos para a população residente, pela reduzida necessidade de corte de estrada, ao mesmo tempo que a torna uma prova com um dos percursos mais marcantes para os praticantes da modalidade.</p>\n<p>Para tornar esta prova uma experiência única,  juntamos à prática do desporto o convívio de todos os participantes, em ambiente de festa no centro da capital.</p>\n<p>O espaço da Partida coincide com a partida e chegada das três distâncias, para acolher os atletas e familiares de forma cómoda e divertida num espaço icónico – Parque Eduardo VII, junto à bandeira de Portugal.</p>\n",
+  "description_short": "Eco Maratona em Lisboa no Parque de Monsanto, combinando desporto, ecologia e solidariedade junto à bandeira nacional",
+  "page": "https://maratonadelisboa.pt/",
+  "slug": "lisbon-eco-marathon",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Avenidas Novas",
+  "district_code": 11
+}

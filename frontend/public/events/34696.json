@@ -1,0 +1,34 @@
+{
+  "id": 34696,
+  "name": "Street Cross Lustosa 2024",
+  "location": "Lousada, Porto",
+  "coordinates": {
+    "lat": 41.2778714,
+    "lon": -8.2815432
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "cross-country"
+  ],
+  "images": [
+    "media/2b583d4d23e5138be16800a69ec08b5e"
+  ],
+  "start_date": "2024-05-12",
+  "end_date": "2024-05-13",
+  "circuit": [],
+  "description": "\n<p>Prova para todos os escalões. Prova principal: 10km</p>\n\n\n\n<p>Informações extra: Meta Volante para o primeiro classificado feminino e masculino; oferta de t-shirt técnica e lanche para todos os participantes; massagem gratuita no final das corridas.</p>\n\n\n",
+  "description_short": "Corrida urbana com meta volante e ofertas para todos os participantes",
+  "page": "https://www.desportave.pt/events.file.php?cid=174",
+  "slug": "street-cross-lustosa-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Lousada",
+  "administrative_area_level_3": "União das freguesias de Cristelos, Boim e Ordem",
+  "district_code": 13
+}

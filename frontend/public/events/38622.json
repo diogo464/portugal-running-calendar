@@ -1,0 +1,34 @@
+{
+  "id": 38622,
+  "name": "Corrida Dia do Pai 2025",
+  "location": "Matosinhos, Porto",
+  "coordinates": {
+    "lat": 41.182863,
+    "lon": -8.688951
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/576803ea0dfbee5e7e320f5cfc49edc2"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [],
+  "description": "\n<p>A comemorar um dia muito especial, a 21ª edição da Corrida Mimosa Dia do Pai pretende juntar a 16 de março, pelas 9h00, pais e filhos de todas as idades.</p>\n\n\n\n<p>Com duas distâncias disponíveis, uma corrida com 10 km cronometrada e uma caminhada com 5 km sem fins competitivos, espera-se a participação de muitos pais e filhos.</p>\n",
+  "description_short": "Corrida festiva do Dia do Pai que promove união familiar nas ruas da cidade",
+  "page": "https://www.runporto.com/pt/eventos/corrida-dia-do-pai/",
+  "slug": "corrida-dia-do-pai-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das Freguesias de Matosinhos e Leça da Palmeira",
+  "district_code": 13
+}

@@ -1,0 +1,34 @@
+{
+  "id": 21216,
+  "name": "Forum Barreiro Night Run 2023",
+  "location": "Barreiro, Setúbal",
+  "coordinates": {
+    "lat": 38.6608149,
+    "lon": -9.0790724
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/9c165fa3a4b199c4e084de6814c98328"
+  ],
+  "start_date": "2023-05-06",
+  "end_date": "2023-05-07",
+  "circuit": [],
+  "description": "\n<p>O Forum Barreiro Night Run está de volta! A 8ª edição deste evento de referência está agendada para sábado, 06 de Maio, com partida às 21h30.<br>Não perca a oportunidade de correr ou caminhar à noite pelas ruas do Barreiro!</p>\n\n\n\n<p><strong>Corrida 10km</strong>&nbsp;| 21h30 |&nbsp;Forum Barreiro</p>\n\n\n\n<p><strong>Mini-Corrida/Caminhada</strong><strong>&nbsp;5km&nbsp;</strong>| 21h45 |&nbsp;Forum Barreiro</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida nocturna urbana pelo Barreiro com opções de 10km e 5km",
+  "page": "https://xistarca.pt/eventos/forum-barreiro-night-run-2023",
+  "slug": "forum-barreiro-night-run-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "Barreiro",
+  "district_code": 15
+}

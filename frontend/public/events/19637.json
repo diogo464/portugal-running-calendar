@@ -1,0 +1,33 @@
+{
+  "id": 19637,
+  "name": "Lusco Fusco Gouveia 2022",
+  "location": "Gouveia, Guarda",
+  "coordinates": {
+    "lat": 40.4923318,
+    "lon": -7.5936526
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    13000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/78ee60efde8023b979a24fbbe0473736"
+  ],
+  "start_date": "2022-10-29",
+  "end_date": "2022-10-30",
+  "circuit": [],
+  "description": "\n<p>A 1a edição do Trail Noturno Lusco Fusco, um evento organizado pelos Bombeiros de Gouveia, tem como objetivo a angariação de fundos para a aquisição de um veículo cisterna de água, VTTU (Veículo Tanque Tático Urbano), essencial para a Corporação e para Cidade de Gouveia.</p>\n\n\n\n<p>Decorrerá no próximo dia 29 de outubro de 2022, Lusco Fusco Gouveia 2022, com partida e chegada junto ao Quartel dos Bombeiros de Gouveia. É composto por um Trail com cerca de 13 Km e uma caminhada “À Descoberta dos Bombeiros”.</p>\n\n\n\n<p>Após a conclusão do Trail e caminhada haverá um jantar convívio oferecido a todos os participantes e patrocinadores.</p>\n\n\n",
+  "description_short": "Trail solidário noturno em Gouveia para apoiar os bombeiros locais",
+  "page": "https://meutempo.pt/prova?luscofusco2022",
+  "slug": "lusco-fusco-gouveia-2022",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Gouveia",
+  "administrative_area_level_3": "Gouveia",
+  "district_code": 9
+}

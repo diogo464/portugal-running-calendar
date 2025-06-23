@@ -1,0 +1,31 @@
+{
+  "id": 28637,
+  "name": "Corrida Sempre Mulher 2023",
+  "location": "Parque das Nações, Lisboa",
+  "coordinates": {
+    "lat": 38.7686316,
+    "lon": -9.095858
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/e89630808fd9f1d98dbd2746b4bb97ee"
+  ],
+  "start_date": "2023-10-22",
+  "end_date": "2023-10-23",
+  "circuit": [],
+  "description": "\n<p>No dia 22 de Outubro 2023 junte-se a nós e <strong>venha andar ou correr 5km por uma boa causa</strong>. Inscreva-se já e passe uma manhã saudável e inesquecível!</p>\n\n\n\n<p>Poderá participar na Corrida de Competição (exclusiva para mulheres) ou então na Caminhada | Corrida de Lazer (participação aberta a todos). Porque o Cancro da Mama não é exclusivo das mulheres os homens também podem participar na Caminhada | Corrida de Lazer. Se desejar também pode participar com o seu cão ou gato de estimação; para isso terá de inscrever-se no escalão Team Pet.</p>\n\n\n\n<p><br>Todas(os) as(os) participantes terão direito a um Kit de Participação com T-shirt, Nº Frontal, Saco Mochila Promocional e Brindes. Contamos consigo para encher novamente o Parque das Nações de cor de rosa e ajudar-nos a fazer a diferença na Luta Contra o Cancro da Mama!!!</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária contra o cancro da mama no Parque das Nações com opções para diferentes participantes",
+  "page": "https://www.corridasempremulher.com",
+  "slug": "corrida-sempre-mulher-2023-2",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Parque das Nações",
+  "district_code": 11
+}

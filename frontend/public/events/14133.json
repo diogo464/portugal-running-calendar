@@ -1,0 +1,29 @@
+{
+  "id": 14133,
+  "name": "Corrida da Mulher &#8211; Porto &#8211; 2022",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2022-05-22",
+  "end_date": "2022-05-23",
+  "circuit": [],
+  "description": "\n<p>Corrida da Mulher &#8211; Porto &#8211; 2022</p>\n\n\n\n<p>22 de Maio de 2022 &#8211; Porto &#8211; 5km</p>\n",
+  "description_short": "Corrida exclusiva para mulheres no centro histórico do Porto",
+  "page": "https://www.runporto.com/pt/eventos/corrida-da-mulher/",
+  "slug": "corrida-da-mulher-porto-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

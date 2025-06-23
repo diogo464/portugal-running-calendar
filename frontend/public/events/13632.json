@@ -1,0 +1,29 @@
+{
+  "id": 13632,
+  "name": "Trilho das Dores 2022",
+  "location": "Abitureiras, Santarém",
+  "coordinates": {
+    "lat": 39.3148294,
+    "lon": -8.7821951
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/824ddd466f3b5816e2e424a78cbfb5dd"
+  ],
+  "start_date": "2022-04-16",
+  "end_date": "2022-04-17",
+  "circuit": [],
+  "description": "\n<p>A VIII Edição do Trilho das Dores 2022 / Imporlux é uma Co-organização entre a Equipa Trilho Perdido Eventos / Imporlux, Câmara Municipal de Santarém, Centro de Convívio Cultura e Desporto de Abitureiras e a empresa de Cronomentragens e Organização de Eventos Desportivos “Trilho Perdido”, com o apoio da Junta de Freguesia de Abitureiras e de várias entidades.</p>\n\n\n\n<p><br>A VIII Edição do Trilho das Dores / Imporlux será realizada no dia 16 de Abril de 2022 (sábado), em Abitureiras/Santarém, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para os participantes.</p>\n",
+  "description_short": "Trail tradicional pelas zonas rurais de Santarém com organização local e apoio municipal",
+  "page": "https://www.trilhoperdido.com/evento/8-Trail-Running-Trilho-das-Dores",
+  "slug": "trilho-das-dores-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "Abitureiras",
+  "district_code": 14
+}

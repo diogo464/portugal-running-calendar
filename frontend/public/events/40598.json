@@ -1,0 +1,32 @@
+{
+  "id": 40598,
+  "name": "Trail da Raia 2025",
+  "location": "Aldeia do Bispo, Sabugal",
+  "coordinates": {
+    "lat": 40.3151253,
+    "lon": -6.8511814
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "walk",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2025-08-09",
+  "end_date": "2025-08-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail da Raia é uma manifestação desportiva transfronteiriça com percursos elaborados por caminhos rurais e pelos trilhos dos contrabandistas de Portugal e Espanha.</p>\n\n\n\n<p>A atividade do contrabando ocasionou excursões repetidas, que, para além dos laços económicos, criou laços culturais e pessoais de amizade entre os habitantes « de los pueblos hermanos » que agora relembramos.</p>\n\n\n\n<p>Integram este evento, quatro provas competitivas Trail Ultra, Trail Longo, Trail Curto, Trail Mini e dois percursos de iniciação &#8211; Caminhada e Trail Kids.<br>A organização está a cargo da Raiar &#8211; Associação de Aldeia do Bispo e da associação Mocidade de Aldeia do Bispo em parceria com o Lar de Santo Antão e com o apoio da Junta de Freguesia de Aldeia do Bispo e da Camara Municipal do Sabugal.</p>\n",
+  "description_short": "Trail histórico pelos caminhos dos contrabandistas entre Portugal e Espanha",
+  "page": "https://acorrer.pt/eventos/3813/info",
+  "slug": "trail-da-raia-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Sabugal",
+  "administrative_area_level_3": "Aldeia do Bispo",
+  "district_code": 9
+}

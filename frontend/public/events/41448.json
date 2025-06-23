@@ -1,0 +1,34 @@
+{
+  "id": 41448,
+  "name": "Meia Maratona Castelo Branco &#8211; Alcains 2025",
+  "location": "Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "half-marathon",
+    "run"
+  ],
+  "images": [
+    "media/e36c98ffe50732194f0c9900a8496c65"
+  ],
+  "start_date": "2025-04-25",
+  "end_date": "2025-04-25",
+  "circuit": [],
+  "description": "\n<p>No próximo dia 25 de Abril, numa organização conjunta das Freguesias de Castelo Branco, Junta de Freguesia de Alcains e Associação de Atletismo de Castelo Branco, vai para a estrada a XI Edição da Meia-Maratona, Mini-Maratona e a Corrida da Liberdade.</p>\n\n\n\n<p>Este evento está inserido nas comemorações do 51º Aniversário do 25 de Abril.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia-maratona comemorativa do 25 de Abril em Castelo Branco, celebrando a liberdade",
+  "page": "https://meutempo.pt/prova?meiamaratona25deabril",
+  "slug": "meia-maratona-castelo-branco-alcains-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

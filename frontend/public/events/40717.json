@@ -1,0 +1,35 @@
+{
+  "id": 40717,
+  "name": "Trail das Migas 2025",
+  "location": "Mourão, Évora",
+  "coordinates": {
+    "lat": 38.3824046,
+    "lon": -7.3424
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    8000,
+    16000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/5f168b57563d388308cbea6e357559fc"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>O Trail das Migas 3ª edição é organizado pelo Município de Mourão.</p>\n\n\n\n<p>-Trail Longo +- 25 Km</p>\n\n\n\n<p>-Trail Curto +- 16 Km</p>\n\n\n\n<p>-Caminhada +- 8 Km</p>\n\n\n",
+  "description_short": "Trail desafiante pelos caminhos rurais de Mourão com diferentes percursos para todos os níveis",
+  "page": "https://acorrer.pt/eventos/3819/info",
+  "slug": "trail-das-migas-2025",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Mourão",
+  "administrative_area_level_3": "Mourão",
+  "district_code": 7
+}

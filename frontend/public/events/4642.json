@@ -1,0 +1,34 @@
+{
+  "id": 4642,
+  "name": "Meia Maratona Internacional da Nazaré 2021",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/0b6a820fb4f5103606a6bb528e2919f6"
+  ],
+  "start_date": "2021-11-14",
+  "end_date": "2021-11-15",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona Internacional da Nazaré é a mais antiga prova da distância corrida em Portugal e a segunda mais antiga da Península Ibérica.</p>\n",
+  "description_short": "Meia maratona histórica na vila piscatória da Nazaré com percurso tradicional",
+  "page": "https://www.facebook.com/mmnazare/",
+  "slug": "meia-maratona-internacional-da-nazare-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

@@ -1,0 +1,35 @@
+{
+  "id": 40952,
+  "name": "Trail dos Descobrimentos 2025",
+  "location": "Belmonte, Castelo Branco",
+  "coordinates": {
+    "lat": 40.351063,
+    "lon": -7.3408535
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000,
+    15000,
+    20000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d3aca98d76e8bf7c0631de2bc0ee31b4"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>No dia 25 de Maio de 2025 a Câmara Municipal de Belmonte organizará a quarta edição do Trail<br>dos Descobrimentos.</p>\n\n\n\n<p><br>Com um percurso atrativo, o evento é composto por um Trail Sprint de 20/25km que terá início na mítica Torre de Centum Cellas e fim no histórico Castelo de Belmonte. Os participantes no Trail dos Descobrimentos terão a oportunidade de correr nos trilhos e caminhos da Serra do Colmeal da Torre e da Serra de Maçainhas com uma fantástica vista para a encosta oriental da Serra da Estrela e Beira Interior.</p>\n\n\n\n<p><br>Em simultâneo com o Trail Sprint decorrerá também um Trail Jovem/Mini de 10/15km com dificuldade média e uma Caminhada de 10km. No final de ambas as provas todos os participantes terão direito a banhos e almoço.<br>Este ano de 2025, o Trail dos Descobrimentos conta para o Campeonato Distrital de Sprint da Associação de Atletismo de Castelo Branco e está inserido no Circuito de Trail Running da Beira Baixa (Trail Jovem/Mini e Trail Sprint).</p>\n\n\n",
+  "description_short": "Trail histórico pela Serra do Colmeal com vista para a Serra da Estrela, ligando a Torre de Centum Cellas ao Castelo de Belmonte",
+  "page": "https://meutempo.pt/prova?traildosdescobrimentos25",
+  "slug": "trail-dos-descobrimentos-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Belmonte",
+  "administrative_area_level_3": "União das freguesias de Belmonte e Colmeal da Torre",
+  "district_code": 5
+}

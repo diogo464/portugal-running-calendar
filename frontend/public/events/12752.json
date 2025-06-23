@@ -1,0 +1,33 @@
+{
+  "id": 12752,
+  "name": "São Silvestre do Porto 2021",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/c62d1ad9061c9cbc5ba98217ea7f117f"
+  ],
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-14",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n<p> </p>\n<p>Lidl Sao Silvestre do Porto 2021 adiada para março de 2022</p>\n<p>São Silvestre do Porto, uma das mais antigas corridas de atletismo do País está de volta às principais ruas da cidade do Porto, com o tiro de partida marcado para dia 26 de Dezembro na Avenida dos Aliados. É um evento mítico na cidade onde o desporto se alia ao convívio e lazer, e nada melhor que terminar o ano de 2021 com uma grande festa!</p>",
+  "description_short": "São Silvestre tradicional pelas ruas históricas do Porto com partida na Avenida dos Aliados",
+  "page": "https://www.runporto.com/pt/eventos/sao-silvestre-do-porto/sao-silvestre-do-porto-2021/",
+  "slug": "sao-silvestre-do-porto-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

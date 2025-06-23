@@ -1,0 +1,33 @@
+{
+  "id": 17205,
+  "name": "Demo Wolves Trail 2022",
+  "location": "Moimenta da Beira, Viseu",
+  "coordinates": {
+    "lat": 40.9817183,
+    "lon": -7.613923300000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000,
+    15000,
+    30000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3d220234c99d73ab14ccc521b54fbb36"
+  ],
+  "start_date": "2022-10-30",
+  "end_date": "2022-10-31",
+  "circuit": [],
+  "description": "\n<p>O Município de Moimenta da Beira, com o apoio do Boavista Futebol Clube, são as entidades organizadoras do evento “1. Edição – Demo Wolves Trail“, que decorrerá no dia 30 de Outubro de 2022, em Moimenta da Beira, independentemente das condições climatéricas do dia, desde que a organização entenda que estas não ofereçam riscos aos participantes.<br>O Demo Wolves Trail é um evento que integra duas provas competitivas e uma não competitiva, Trail Longo 30km (TL com cerca de 30km 1000mD+), Trail Curto (TC com cerca de 15km 500mD+) e uma caminhada com 10Km e 300mD+. Este evento decorrerá com absoluto respeito pelo meio ambiente.</p>\n",
+  "description_short": "Trail desafiante pelas encostas de Moimenta da Beira com apoio do Boavista Futebol Clube",
+  "page": "https://lap2go.com/pt/event/demo-wolves-trail-2022",
+  "slug": "demo-wolves-trail-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Moimenta da Beira",
+  "administrative_area_level_3": "Moimenta da Beira",
+  "district_code": 18
+}

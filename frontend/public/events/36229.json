@@ -1,0 +1,34 @@
+{
+  "id": 36229,
+  "name": "Trail do Cerco 2024",
+  "location": "Celorico da Beira, Guarda",
+  "coordinates": {
+    "lat": 40.6335005,
+    "lon": -7.3927217
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    9000,
+    14000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/c8c7ab370cf7c4cff100a32f03c1242b"
+  ],
+  "start_date": "2024-09-15",
+  "end_date": "2024-09-16",
+  "circuit": [],
+  "description": "\n<p>O “TRAIL DO CERCO” é uma prova de corrida de montanha, organizada pelo “Município de Celorico da Beira”, a realizar no dia 15 de setembro, 2024, em Celorico da Beira.</p>\n\n\n\n<p>Distâncias:</p>\n\n\n\n<p>Prova longa: +/-22km (aprox. 800D+</p>\n\n\n\n<p>Prova curta: +/-14km (aprox. 600D+)</p>\n\n\n\n<p>Caminhada: +/-9km (aprox. 300D+)</p>\n\n\n",
+  "description_short": "Trail desafiante pela Serra da Beira com duas opções de percurso e paisagens montanhosas",
+  "page": "https://acorrer.pt/eventos/info/3585",
+  "slug": "trail-do-cerco-2024",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Celorico da Beira",
+  "administrative_area_level_3": null,
+  "district_code": 9
+}

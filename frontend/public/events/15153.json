@@ -1,0 +1,33 @@
+{
+  "id": 15153,
+  "name": "Espaço Casa São Silvestre de Coimbra 2022",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/7067596cce49b892aaae6fe6cf475c9a"
+  ],
+  "start_date": "2022-12-17",
+  "end_date": "2022-12-18",
+  "circuit": [],
+  "description": "\n<p>A festa da São Silvestre está de regresso. Cada vez mais ativa e relevante, a São Silvestre de Coimbra 2022 continua a garantir a tradição e a mística de ser uma das mais antigas provas de São Silvestre em Portugal. Vem participar e fazer a festa, antes de entrares na preparação do Natal.</p>\n",
+  "description_short": "São Silvestre tradicional nas ruas históricas de Coimbra",
+  "page": "https://lap2go.com/pt/event/sscoimbra-2022",
+  "slug": "sao-silvestre-de-coimbra-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

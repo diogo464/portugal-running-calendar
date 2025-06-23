@@ -1,0 +1,36 @@
+{
+  "id": 30469,
+  "name": "Trail Encostas do Mondego 2024",
+  "location": "Vila Verde, Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1430544,
+    "lon": -8.8056117
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    17000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/2cc9594b358a944c62cb38492dd6f4d6"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Grupo Recreativo Vilaverdense (GRV) organiza no dia 17 de março de 2024 o TRAIL ENCOSTAS<br>DO MONDEGO. A prova será constituída por 2 eventos competitivos, o Mini Trail (17kms) e o Trail (31kms) e ainda uma caminhada na distância de 10 kms.</p>\n\n\n\n<p><br>A prova de 17 kms fará parte do Circuito Nacional De Trail Sprint – 2024 (Série 150) e do Circuito<br>Distrital de Trail Running de Coimbra – Curto, inseridos respetivamente nos circuitos promovidos pela<br>ATRP – Associação de Trail Running de Portugal e pela ADAC – Associação Distrital de Atletismo<br>de Coimbra.A prova de 31 kms fará parte do Circuito Nacional De Trail – 2024 (Série 100), circuito promovido pela ATRP.</p>\n",
+  "description_short": "Trail desafiante pelas encostas do Mondego com duas provas competitivas e caminhada",
+  "page": "https://stopandgo.net/events/trail-encostas-do-mondego-2024",
+  "slug": "trail-encostas-do-mondego-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": "Vila Verde",
+  "district_code": 6
+}

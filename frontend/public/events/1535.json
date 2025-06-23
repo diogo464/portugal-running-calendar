@@ -1,0 +1,34 @@
+{
+  "id": 1535,
+  "name": "Trilhos de Espinho 2020",
+  "location": "Espinho, Aveiro",
+  "coordinates": {
+    "lat": 41.0071914,
+    "lon": -8.641033199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    8000,
+    14000,
+    21000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/d5e487b96f5783a56ee319aa196592f9"
+  ],
+  "start_date": "2020-06-13",
+  "end_date": "2020-06-14",
+  "circuit": [],
+  "description": "<p align=\"justify\">Os Trilhos de Espinho é um evento desportivo de corrida/trail com as distancias de 21 e 14km e uma caminhada de 8km onde convidamos as famílias a participar pelos Trilhos do Concelho de Espinho e arredores.</p>\n<p align=\"justify\">Vem conhecer o outro lado de Espinho, vem divertir-te connosco o lunch é garantido!&#8230;</p>\n<p align=\"justify\">Não fiques de fora! Vem divertir-te connosco, esperamos por ti!</p>\n",
+  "description_short": "Trail familiar pelos trilhos de Espinho com percursos para diferentes níveis",
+  "page": "https://www.prozis.com/pt/pt/evento/trilhos-de-espinho-2020",
+  "slug": "trilhos-de-espinho-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Espinho",
+  "administrative_area_level_3": "Espinho",
+  "district_code": 1
+}

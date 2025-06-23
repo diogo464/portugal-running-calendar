@@ -1,0 +1,36 @@
+{
+  "id": 40936,
+  "name": "São Silvestre de Almeirim 2025",
+  "location": "Almeirim, Santarém",
+  "coordinates": {
+    "lat": 39.2075098,
+    "lon": -8.6270969
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    10000,
+    15000,
+    20000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "15k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2025-12-27",
+  "end_date": "2025-12-28",
+  "circuit": [],
+  "description": "\n<p>A Associação 20Kms de Almeirim, vai organizar a 3ª Edição da São Silvestre de Almeirim, prova pedestre de 10 Km , com circuito certificado pela WORLD ATHLETICS, com tempos homologados aos 5 e 10 km e uma Mini/Caminhada com cerca de 5 Km.</p>\n\n\n",
+  "description_short": "São Silvestre tradicional com percurso certificado pelas ruas de Almeirim",
+  "page": "https://lap2go.com/pt/event/ssalmeirim-2025",
+  "slug": "sao-silvestre-de-almeirim-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Almeirim",
+  "administrative_area_level_3": "Almeirim",
+  "district_code": 14
+}

@@ -1,0 +1,35 @@
+{
+  "id": 23109,
+  "name": "V Trail das Eiras",
+  "location": "Vermoim, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.4229179,
+    "lon": -8.4485846
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000,
+    13000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7a6a81e49dc95fa91275464bdeadbc5d"
+  ],
+  "start_date": "2023-06-18",
+  "end_date": "2023-06-19",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n\n<p>Decorre no próximo dia 18 de junho de 2023 a 5ª edição do Trail das Eiras.</p>\n\n\n\n<p>Esta prova decorrerá em trilhos e estradas florestais na zona do monte das Eiras, uma considerável área florestal com vista privilegiada sobre o vale do Ave, com passagens pelo Castelo de Vermoim, mamoas e calçada romana, com trilhos completamente novos e renovados.</p>\n\n\n\n<p>A organização deste evento está a cargo da Associação Moinho Vermoim com o apoio da Câmara Municipal de Vila Nova de Famalicão, da Junta de Freguesia de Vermoim e do IPDJ.</p>\n\n\n\n<p>O Trail Longo das Eiras (25km) e o Trail Curto (13km), contam para o Campeonato Regional de Trail da AABRAGA e teremos também uma caminhada (8Km).</p>\n\n\n",
+  "description_short": "Trail pela zona histórica de Vermoim com paisagens sobre o vale do Ave e passagem por vestígios arqueológicos",
+  "page": "https://meutempo.pt/prova?5-trail-das-eiras",
+  "slug": "v-trail-das-eiras",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Vermoim",
+  "district_code": 3
+}

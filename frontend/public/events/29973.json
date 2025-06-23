@@ -1,0 +1,35 @@
+{
+  "id": 29973,
+  "name": "Corrida Hovione 2023",
+  "location": "Loures",
+  "coordinates": {
+    "lat": 38.8297603,
+    "lon": -9.166369699999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    500,
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/71caf5f0260bea81e30d8d3f06e1d82d"
+  ],
+  "start_date": "2023-12-16",
+  "end_date": "2023-12-17",
+  "circuit": [],
+  "description": "\n<p>A 5ª Corrida Hovione Solidária realiza-se no dia 16 de Dezembro, com partida às 09h30 no Parque da Cidade de Loures, num percurso de 10 quilómetros ou de 5 quilómetros, para quem optar pela caminhada. A participação está também aberta aos mais novos que poderão participar na “Kids Race”, um desafio de 500 metros.</p>\n\n\n\n<p>A prova, organizada pela Hovione, em parceria com a Câmara Municipal de Loures, tem como objetivo principal a angariação de fundos para a Instituição Casa do Infantado, em Loures.</p>\n\n\n\n<p>Para a Hovione, a corrida solidária é um momento de encontro com a comunidade local, que acolhe desde 1969 a sede e instalações industriais da empresa.</p>\n",
+  "description_short": "Corrida solidária em Loures para apoiar a Casa do Infantado com diferentes percursos para todas as idades",
+  "page": "https://corridahovione.pt/",
+  "slug": "corrida-hovione-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Loures",
+  "district_code": 11
+}

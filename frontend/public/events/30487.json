@@ -1,0 +1,33 @@
+{
+  "id": 30487,
+  "name": "Corrida Viana a par de Alvito 2024",
+  "location": "Alvito, Beja",
+  "coordinates": {
+    "lat": 38.2558735,
+    "lon": -7.991930099999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/42fd2edbe81e804f37eedc82fb3a950f"
+  ],
+  "start_date": "2024-01-14",
+  "end_date": "2024-01-15",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Alvito, a Câmara Municipal de Viana do Alentejo, a Junta de Freguesia de Alvito, a Junta de Freguesia de Viana do Alentejo e a Junta de Freguesia de Vila Nova da Baronia, com o apoio das Associações de Atletismo de Beja e de Évora, com o apoio dos Bombeiros Voluntários e G.N.R. de Alvito e Viana do Alentejo, vão levar a efeito no dia 14.01.2024, na estrada entre Alvito e Viana do Alentejo (passando por Vila Novada Baronia), a Corrida Viana a Par de Alvito.</p>\n",
+  "description_short": "Corrida tradicional pelas estradas alentejanas entre Alvito e Viana do Alentejo",
+  "page": "https://acorrer.pt/eventos/info/3349",
+  "slug": "corrida-viana-a-par-de-alvito-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Alvito",
+  "administrative_area_level_3": "Alvito",
+  "district_code": 2
+}

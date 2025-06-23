@@ -1,0 +1,31 @@
+{
+  "id": 667,
+  "name": "Bragança Granfondo",
+  "location": "Bragança, Portugal",
+  "coordinates": {
+    "lat": 41.8061131,
+    "lon": -6.756737999999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "walk"
+  ],
+  "images": [
+    "media/b42cd5b59bc45e0335be542405b3181a"
+  ],
+  "start_date": "2020-06-12",
+  "end_date": "2020-06-13",
+  "circuit": [],
+  "description": "<p>Faz a Caminhada do Bragança Granfondo by Trek 2020 e ajuda o lado solidário do Granfondo mais animado do Mundo.</p>\n<p>A 12 de julho de 2020, mesmo quem não pedala pode participar no Granfondo mais animado do Mundo: a Caminhada também permite fazer parte do Bragança Granfondo by Trek 2020 e na sua vertente solidária, já que a receita angariada será destinada a organizações de solidariedade a anunciar oportunamente.</p>\n<p>Serão cerca de 5 quilómetros, com oferta de T-shirt e lanche. A inscrição custa 7 euros e terá de ser feita até 1 de julho para garantir o tamanho da T-shirt. Mas atenção que as inscrições estão limitadas a 200 participantes!</p>\n",
+  "description_short": "Caminhada solidária de 5 km em Bragança integrada no Granfondo by Trek, com limite de 200 participantes",
+  "page": "https://www.prozis.com/pt/pt/evento/caminhadabragaca-granfondo-2020",
+  "slug": "braganca-granfondo",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Bragança",
+  "administrative_area_level_3": "União das freguesias de Sé, Santa Maria e Meixedo",
+  "district_code": 4
+}

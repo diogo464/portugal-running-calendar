@@ -1,0 +1,36 @@
+{
+  "id": 35347,
+  "name": "Vilamoura Nature Run 2024",
+  "location": "Vilamoura, Faro",
+  "coordinates": {
+    "lat": 37.0902287,
+    "lon": -8.1173454
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    6000,
+    11000,
+    15000,
+    17000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "trail"
+  ],
+  "images": [
+    "media/2eb21c113177a9ee1f65e5c39f486ee3"
+  ],
+  "start_date": "2024-05-25",
+  "end_date": "2024-05-26",
+  "circuit": [],
+  "description": "\n<p>Numa coorganização da Free Challenge, Vilamoura World e com o apoio da Junta de Freguesia de Quarteira, Câmara Municipal de Loulé e Inframoura, realiza-se no dia 25 de Maio de 2024, a VILAMOURA NATURE RUN, com início agendado para as 16h30 em Vilamoura, com partida e chegada na Marina de Vilamoura, nas distâncias de 6 e 11 e 17km.</p>\n\n\n",
+  "description_short": "Trail pela marina de Vilamoura com panorâmicas da zona costeira algarvia",
+  "page": "https://acorrer.pt/eventos/info/3551",
+  "slug": "vilamoura-nature-run-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Quarteira",
+  "district_code": 8
+}

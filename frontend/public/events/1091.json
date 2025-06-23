@@ -1,0 +1,30 @@
+{
+  "id": 1091,
+  "name": "Terrugem Trail 2020",
+  "location": "Terrugem, Sintra",
+  "coordinates": {
+    "lat": 38.847884,
+    "lon": -9.378472799999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f15592ab148e36e8d70941b1acb7fe98"
+  ],
+  "start_date": "2020-02-16",
+  "end_date": "2020-02-17",
+  "circuit": [],
+  "description": "<p align=\"justify\">A ABIT – Associação de Bicicletas da Terrugem apresenta o “IV TERRUGEM TRAIL”, a decorrer no dia 16 de fevereiro de 2020!</p>\n<p align=\"justify\">Vem participar neste Trail Running na histórica freguesia de Terrugem, em Sintra! Vais explorar trilhos, passar por piso acidentado, pedreiras, estradões e obstáculos, pela linda localidade de Terrugem! Vem surpreender-te com esta aventura por esta típica vila saloia do concelho de Sintra! Tu escolhes: Trail Longo, Trail Curto ou caminhada, qualquer um deles vai te proporcionar momentos de aventura e lazer!</p>\n<p align=\"justify\">Este evento conta com o apoio da Câmara Municipal de Sintra, da União de Freguesias de Terrugem e São João das Lampas, bem como de outras entidades com sede social no Concelho!</p>\n",
+  "description_short": "Trail desafiante pelos trilhos históricos e paisagísticos da Terrugem em Sintra",
+  "page": "https://cronochip.pt/event/iv-terrugem-trail-2020/?fbclid=IwAR36QD32a1kol8U7icz2EQOGe8Q-GOJtjr2fNVMVEfDf4kBLv8cc1hR20LM",
+  "slug": "terrugem-trail-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

@@ -1,0 +1,33 @@
+{
+  "id": 36926,
+  "name": "Penafiel Run 2024",
+  "location": "Penafiel, Porto",
+  "coordinates": {
+    "lat": 41.2070076,
+    "lon": -8.2831551
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/8d709a624f373d339c461070df8d7641"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-20",
+  "circuit": [],
+  "description": "\n<p>Corrida 10Km /caminhada 5Km com caracter solidário, a reverter a favor dos Bombeiros Voluntário de Penafiel.</p>\n",
+  "description_short": "Corrida solidária que apoia os Bombeiros Voluntários de Penafiel",
+  "page": "https://www.sinctime.com/evento/280",
+  "slug": "city-run-penafiel-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Penafiel",
+  "administrative_area_level_3": "Penafiel",
+  "district_code": 13
+}

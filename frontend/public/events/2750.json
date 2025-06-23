@@ -1,0 +1,32 @@
+{
+  "id": 2750,
+  "name": "Corrida da Nazaré 2022",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/648567686fc5f529f97c6f1a94de3cbb"
+  ],
+  "start_date": "2022-06-11",
+  "end_date": "2022-06-12",
+  "circuit": [],
+  "description": "\n<p>No dia 11 de Junho de 2022 pelas 20 horas a mais típica praia portuguesa abre as portas a todos os atletas para cumprirem 10km num dos percursos mais rápidos e bonitos do calendário de estrada português.</p>\n\n\n\n<p>Com duas passagens pela marginal sul, uma pela marginal norte e Praça Sousa Oliveira e, sobretudo, pelo percurso dentro do porto de abrigo onde poderá disfrutar da sua beleza, da sua tranquilidade e da visão das suas mais diversas embarcações, os atletas não podem faltar a esta corrida que vai na 6ª edição e já é uma referência nas provas de 10 Kms. em Portugal.</p>\n\n\n\n<p>Organizada pelo Clube de Atletismo da Nazaré e por todos os seus atletas, é uma prova que vai ao encontro dos desejos e necessidades dos seus participantes, pois “os seus organizadores são também atletas de pelotão e “falam” a mesma linguagem de todos os participantes.”</p>\n",
+  "description_short": "Corrida nocturna de 10 km na Nazaré com passagens pela marginal e porto de abrigo, num dos percursos mais emblemáticos do país",
+  "page": "http://www.corridadanazare.pt/",
+  "slug": "corrida-da-nazare-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

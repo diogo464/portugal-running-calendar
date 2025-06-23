@@ -1,0 +1,37 @@
+{
+  "id": 31307,
+  "name": "Meia Maratona Gondomar 2024",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000,
+    21097,
+    97000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/f7a2eea03da148949411f8fbe87b30ab"
+  ],
+  "start_date": "2024-06-09",
+  "end_date": "2024-06-10",
+  "circuit": [],
+  "description": "\n<p>Gondomar recebe no dia 9 de Junho de 2024 às 09h00 a 9ª edição da Tranquilidade Meia Maratona D´Ouro Run Gondomar que se vai realizar na estrada marginal do Município, entre Valbom e Foz do Sousa &#8211; Esposade, é uma organização da Associação Comvidacorrer com o apoio do Municipio de Gondomar e parte técnica da Eventsport.</p>\n\n\n\n<p>Depois do sucesso alcançado nas oito edições que confirmou e ultrapassou todas as expectativas e com elogios á organização por parte dos atletas e caminhantes, a organização decidiu renovar a oitava edição que contém a&nbsp;<strong>Meia Maratona D´Ouro Run Gondomar</strong>&nbsp;com&nbsp;<strong>21.097Km</strong>, a&nbsp;<strong>Mini Maratona de 10 Km</strong>&nbsp;e a&nbsp;<strong>Caminhada de 5 Km</strong>&nbsp;que têm como pano de fundo a extraordinária beleza do Rio D`Ouro.</p>\n",
+  "description_short": "Meia maratona junto ao Rio D'Ouro com percurso marginal entre Valbom e Foz do Sousa em Gondomar",
+  "page": "https://dourorun.pt/",
+  "slug": "meia-maratona-gondomar-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

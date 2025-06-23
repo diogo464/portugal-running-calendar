@@ -1,0 +1,34 @@
+{
+  "id": 23868,
+  "name": "Ii Trail Vicentino Noturno 2023",
+  "location": "Ponta Delgada, Açores",
+  "coordinates": {
+    "lat": 37.7394207,
+    "lon": -25.6686725
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    12000,
+    20000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/67c296d12df4eac273ef83598ebb402e"
+  ],
+  "start_date": "2023-09-09",
+  "end_date": "2023-09-10",
+  "circuit": [],
+  "description": "\n<p>A II edição do Trail Vicentino Noturno é um evento de Trail Running, com carácter competitivo e lúdico, que percorre trilhos e caminhos do concelho de Ponta Delgada e Ribeira Grande, designadamente, nas freguesias de São Vicente Ferreira, Fenais da Luz, Calhetas e Pico da Pedra.</p>\n\n\n\n<p>Dele fazem parte o Trail Longo – 30 km / 900 d+ / 790 d-, o Trail Curto – 20 km / 450 d+ / 360 d-, bem como um Mini Trail e uma Caminhada, sem carácter competitivo, com 12km.</p>\n\n\n\n<p>Todas as provas têm início nos Poços de São Vicente Ferreira e terminam no centro daquela Freguesia.</p>\n\n\n\n<p>O II Trail Vicentino Noturno (Trail Longo, Trail Curto e Mini Trail/Caminhada) está aberto à participação de todos os atletas, de ambos os géneros, federados e não federados, que detenham uma preparação física adequada à prática da modalidade.</p>\n\n\n",
+  "description_short": "Trail nocturno por trilhos dos Açores nas zonas de Ponta Delgada e Ribeira Grande",
+  "page": "https://meutempo.pt/prova?trailvicentinonoturno",
+  "slug": "ii-trail-vicentino-noturno-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "São Miguel",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

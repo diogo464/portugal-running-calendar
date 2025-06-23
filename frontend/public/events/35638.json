@@ -1,0 +1,32 @@
+{
+  "id": 35638,
+  "name": "Corrida Luzecu 2024",
+  "location": "Alvaiázere, Leiria",
+  "coordinates": {
+    "lat": 39.8237427,
+    "lon": -8.3807264
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/b421090ba61a313ca01e86586637c4db"
+  ],
+  "start_date": "2024-06-14",
+  "end_date": "2024-06-15",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.queroir.pt/corridaluzecu2023",
+  "slug": "corrida-luzecu-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alvaiázere",
+  "administrative_area_level_3": "Alvaiázere",
+  "district_code": 10
+}

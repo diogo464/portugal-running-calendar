@@ -1,0 +1,32 @@
+{
+  "id": 30731,
+  "name": "Trail Run Nordeste Real Priolo 2024",
+  "location": "Ilha de São Miguel, Açores",
+  "coordinates": {
+    "lat": 37.780411,
+    "lon": -25.4970466
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/124012f1b169d7e168eb9b80c93b39c6"
+  ],
+  "start_date": "2024-04-27",
+  "end_date": "2024-04-28",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Run Nordeste Real Priolo é um evento lúdico e desportivo que une diversão, beleza natural e desporto num único espaço!</p>\n\n\n\n<p>É um evento de caráter individual que tem como objetivo promover a atividade desportiva ao ar livre e o respeito pelo meio ambiente, incentivando as boas práticas e transmissão dos bons valores associados às modalidades de Atletismo e Trail Running.</p>\n\n\n\n<p>Os quatro percursos passam por locais incríveis, curvas, encostas e desníveis muito interessantes, por alguns dos trilhos mais bonitos e deslumbrantes do belo concelho do Nordeste.&nbsp;</p>\n\n\n\n<p>A prova da responsabilidade da Câmara Municipal do Nordeste realiza-se a 27&nbsp;de Abril de 2024&nbsp;e é organizado pelo CDC Juventude Ilha Verde e o Centro Desportivo e Recreativo do Concelho do Nordeste com a colaboração da Associação de Atletismo de São Miguel.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos deslumbrantes do Nordeste nos Açores",
+  "page": "https://sites.google.com/view/realpriolo4/home",
+  "slug": "trail-run-nordeste-real-priolo-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

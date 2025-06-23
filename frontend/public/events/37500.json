@@ -1,0 +1,31 @@
+{
+  "id": 37500,
+  "name": "Ultra Trail São Mamede 2025",
+  "location": "Portalegre",
+  "coordinates": {
+    "lat": 39.2967086,
+    "lon": -7.4284755
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b1cfb6364a8618f1ee2fa7a1187e078b"
+  ],
+  "start_date": "2025-04-25",
+  "end_date": "2025-04-26",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>.</p>\n",
+  "description_short": "Por favor, forneça a descrição completa do evento de corrida para que eu possa gerar um resumo sucinto em português de Portugal.",
+  "page": "https://stopandgo.net/events/ultra-trail-sao-mamede-2025",
+  "slug": "ultra-trail-sao-mamede-2025",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Portalegre",
+  "administrative_area_level_3": "União das freguesias da Sé e São Lourenço",
+  "district_code": 12
+}

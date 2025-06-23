@@ -1,0 +1,29 @@
+{
+  "id": 14904,
+  "name": "LouzaSkyrace 2022",
+  "location": "Lousã, Coimbra",
+  "coordinates": {
+    "lat": 40.1125621,
+    "lon": -8.2468738
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4bc10e63c0fd49edbd10b18c745277ec"
+  ],
+  "start_date": "2022-09-03",
+  "end_date": "2022-09-04",
+  "circuit": [],
+  "description": "\n<p>LouzaSkyrace 2022</p>\n",
+  "description_short": "Trail desafiante pela Serra da Louzã com paisagens serranas únicas",
+  "page": "https://stopandgo.net/event/?id=733",
+  "slug": "louzaskyrace-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Lousã",
+  "administrative_area_level_3": "União das freguesias de Lousã e Vilarinho",
+  "district_code": 6
+}

@@ -1,0 +1,33 @@
+{
+  "id": 3072,
+  "name": "Luso Meia Maratona Lisboa 2021",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/5cb81b9b0ba79bc6edace95d0809fb15"
+  ],
+  "start_date": "2021-10-17",
+  "end_date": "2021-10-18",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n\n<h2 class=\"wp-block-heading\"><a href=\"https://results.sporthive.com/events/6854892113662505728\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<h2 class=\"wp-block-heading\"><a href=\"https://www.google.com/maps/d/u/0/viewer?mid=1xFY7SCAFxgMajn8UszYr2xeexZ-jLMC_&amp;hl=en&amp;ll=38.747814547516775%2C-9.117262552411367&amp;z=13\" target=\"_blank\" rel=\"noopener\">Percurso</a></h2>\n\n\n\n<p>A Luso Meia Maratona Lisboa 2021 é uma das mais populares provas de Portugal. O seu percurso de 21 Km tem início na&nbsp;<a href=\"https://pt.wikipedia.org/wiki/Ponte_Vasco_da_Gama\" target=\"_blank\" rel=\"noreferrer noopener\">Ponte Vasco da Gama</a>&nbsp;terminando na&nbsp;<a href=\"https://pt.wikipedia.org/wiki/Pra%C3%A7a_do_Com%C3%A9rcio\" target=\"_blank\" rel=\"noreferrer noopener\">Praça do Comércio</a>, um marco histórico da cidade de Lisboa, em frente ao rio Tejo. A Luso Meia Maratona, ocorre no mesmo dia da&nbsp;<a href=\"https://www.maratonaclubedeportugal.com/prova/edp-maratona-de-lisboa\" target=\"_blank\" rel=\"noopener\">EDP Maratona de Lisboa</a>, que em conjunto, trazem todos os anos à cidade os grandes nomes do atletismo nacional e internacional e atraem milhares de corredores estrangeiros, que juntam o prazer da corrida com a visita a uma cidade única como Lisboa.</p>\n",
+  "description_short": "Meia maratona icónica que atravessa Lisboa, da Ponte Vasco da Gama à Praça do Comércio, com vista para o Tejo",
+  "page": "https://www.maratonaclubedeportugal.com/prova/luso-meia-maratona/",
+  "slug": "meia-maratona-lisboa-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

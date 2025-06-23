@@ -1,0 +1,29 @@
+{
+  "id": 665,
+  "name": "Love Tiles Douro Granfondo",
+  "location": "Peso da Régua, Vila Real",
+  "coordinates": {
+    "lat": 41.1635467,
+    "lon": -7.7797049
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "walk"
+  ],
+  "images": [
+    "media/58623bf1b19fc8cd98b447e6fd9c23e6"
+  ],
+  "start_date": "2020-05-03",
+  "end_date": "2020-05-04",
+  "circuit": [],
+  "description": "<p align=\"justify\">Inscreva-se na Caminhada até 15 de abril e garanta o teu lugar e a tua T-shirt.</p>\n<p align=\"justify\">No Love Tiles Douro Granfondo 2020, há atividades para toda a família. Como não queremos que ninguém fique de fora da maior festa do ciclismo para todos em Portugal, propomos-lhe participar na Caminhada, que inclui a oferta de um lanche, enquanto espera pelos ciclistas.</p>\n<p align=\"justify\">Mas não perca tempo: haverá um limite de 300 participantes e o dia 15 de abril como <em>deadline</em> para garantir o seu tamanho de T-shirt.</p>\n<p align=\"justify\">A inscrição custa 7 euros.</p>\n<p align=\"justify\">Love Tiles Douro Grafondo 2020, a 3 de maio, vem sofrer de alegria!</p>\n<p align=\"justify\">\n<div class=\"accordion__title accordion__title--open\">O que inclui a inscrição?</div>\n<div class=\"accordion__content accordion__content--open\">&#8211; Direito a participar na Caminhada | Love Tiles Douro Granfondo 2020<br />\n&#8211; T-shirt<br />\n&#8211; Lanche<br />\n&#8211; Seguro</div>\n",
+  "description_short": "Caminhada familiar no Love Tiles Douro Granfondo com lanche e t-shirt incluídos",
+  "page": "https://www.prozis.com/pt/pt/evento/caminhada-love-tiles-douro-granfondo-2020",
+  "slug": "love-tiles-douro-granfondo",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Peso da Régua",
+  "administrative_area_level_3": "Peso da Régua",
+  "district_code": 17
+}

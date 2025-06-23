@@ -1,0 +1,35 @@
+{
+  "id": 37396,
+  "name": "Trilhos Ocultos 2024",
+  "location": "Entre Ambos-os-Rios, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8192551,
+    "lon": -8.3099305
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    18000,
+    30000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/2b051862d72acfd5aba39ce9bc09997e"
+  ],
+  "start_date": "2024-11-02",
+  "end_date": "2024-11-03",
+  "circuit": [],
+  "description": "\n<p>Animação, desporto, aventura, muita água e corda nos sapatos são algumas das coisas que podes esperar no fim de semana de 04 e 05 de novembro de 2023! Vem à 5.ª edição dos Trilhos Ocultos no Parque Nacional Peneda Gerês!</p>\n\n\n\n<p>A iniciativa é organizada pela ACRD Entre Ambos-os-rios, com o apoio da Junta de Freguesia de Entre Ambos-os-rios, Ermida e Germil, Município de Ponte da Barca, Paróquia de Entre Ambos-os-rios.</p>\n\n\n\n<p>Distâncias:</p>\n\n\n\n<p>a) CAMINHADA – 10km <br>a) TRAIL CURTO – 18km <br>b) TRAIL LONGO – 30km </p>\n",
+  "description_short": "Trail desafiante pelos caminhos ocultos do Parque Nacional Peneda Gerês",
+  "page": "https://meutempo.pt/prova?trilhosocultos2024",
+  "slug": "trilhos-ocultos-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte da Barca",
+  "administrative_area_level_3": "Entre Ambos-os-Rios",
+  "district_code": 16
+}

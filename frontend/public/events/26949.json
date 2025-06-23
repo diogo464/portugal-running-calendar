@@ -1,0 +1,35 @@
+{
+  "id": 26949,
+  "name": "Ameal Trail 2024",
+  "location": "Ameal, Coimbra",
+  "coordinates": {
+    "lat": 40.19037900000001,
+    "lon": -8.5433463
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ee41ff49a86ddb366982faa3a177dfb2"
+  ],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [],
+  "description": "\n<p>O Ameal Trail realizar-se a 14 de Abril de 2024 pretende dinamizar a aldeia do Ameal com uma prova desportiva.<br>A Partida e Chegada de todas as provas do evento, será no Campo de Futebol do Ameal – Coimbra, Google: Polidesportiva Ameal – coordenadas: 40.1870444,-8.5516997</p>\n\n\n\n<p>O Trail do Ameal: </p>\n\n\n\n<p>18KM Trail</p>\n\n\n\n<p>12KM Trail</p>\n\n\n\n<p>10 KM Caminhada</p>\n\n\n",
+  "description_short": "Trail desafiante pelo Campo de Futebol do Ameal em Coimbra, dinamizando a aldeia local",
+  "page": "https://stopandgo.net/events/ameal-trail-2025",
+  "slug": "ameal-trail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "União das freguesias de Taveiro, Ameal e Arzila",
+  "district_code": 6
+}

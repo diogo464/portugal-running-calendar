@@ -1,0 +1,33 @@
+{
+  "id": 30750,
+  "name": "Trail da Nexebra 2024",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/8381f4bb47cdadb318ff7835006075c0"
+  ],
+  "start_date": "2024-05-12",
+  "end_date": "2024-05-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O VI Trilhos da Nexebra Trail &#8211; TNT® trata-se de um evento misto que contará com 3 provas competitivas de trail running &#8211; Trail Longo, Trail Curto, Mini Trail e uma prova não competitiva de Caminhada por caminhos e trilhos de ambiente natural e rural, na freguesia de Chã o deCouce, concelho de Ansião.</p>\n\n\n\n<p>Trail Kids dia 11 de Maio</p>\n",
+  "description_short": "Trail desafiante por caminhos rurais e naturais em Chã do Couce com provas competitivas e caminhada",
+  "page": "https://www.queroir.pt/tnt2024",
+  "slug": "trail-da-nexebra-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

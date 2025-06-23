@@ -1,0 +1,31 @@
+{
+  "id": 23591,
+  "name": "V Viana Race 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/68a70e5fc39fd3da717f2f90d6382462"
+  ],
+  "start_date": "2023-07-15",
+  "end_date": "2023-07-16",
+  "circuit": [],
+  "description": "\n<p>Desafia-te e supera os teus limites! A quinta edição da Viana Race está a chegar! Prepara-te para testar a tua resistência, força e habilidade num percurso desafiante que mistura aventura, obstáculos naturais e artificiais no belo Centro Histórico de Viana do Castelo. </p>\n\n\n\n<p>A partida será às 16:00h do dia 15 de Julho e será dividida em várias categorias: </p>\n\n\n\n<p>1) Individual M/F </p>\n\n\n\n<p>2) Mistos: 1 atleta M e 1 F </p>\n\n\n\n<p>3) Grupos com máximo de 20 atletas M/F </p>\n\n\n\n<p>A Viana Race desafia tanto os atletas profissionais que procuram desafiar-se em competição, como os iniciantes que se querem divertir e desafiar os seus limites. Há lugar para todos! O percurso de 10 km é composto por 30 obstáculos e preparem-se para muitas surpresas e inovações.</p>\n",
+  "description_short": "Desafio de obstáculos pelo Centro Histórico de Viana do Castelo com 30 provas de resistência e aventura",
+  "page": "https://www.classificacoes.net/modalidades/caminhada/viana-race-2023-corrida-urbana-de-obstaculos",
+  "slug": "v-viana-race-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

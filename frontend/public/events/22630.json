@@ -1,0 +1,33 @@
+{
+  "id": 22630,
+  "name": "Vii Trail Cidade De Estremoz 2023",
+  "location": "Estremoz, Évora",
+  "coordinates": {
+    "lat": 38.8425123,
+    "lon": -7.588837799999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/09632c56e6d1e11ab823ef04387faeb8"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [],
+  "description": "\n<p>O COAAL-Cube de Orientação do Alto Alentejo irá organizar no dia 21 de maio de 2023 o VII TRAIL CIDADE DE ESTREMOZ &#8220;PELOS TRILHOS DE ÉVORA MONTE&#8221;</p>\n\n\n\n<p>O VII TRAIL CIDADE DE ESTREMOZ é um evento de Trail Running, que percorre trilhos e caminhos no concelho de Estremoz, mais propriamente na Vila de Évora Monte.</p>\n\n\n\n<p>Évora Monte é uma vila com mais de 700 anos de história e pertence ao concelho de Estremoz e fica muito perto de Évora. Do seu alto, a vista é simplesmente deslumbrante, perdendo-se de vista os verdes campos alentejanos. Não deixe de visitar o castelo e, quando estiver a caminhar pelas suas ruelas, olhe para o chão e se vir casinhas pintadas nas pedras da calçada…</p>\n\n\n\n<p>PERCURSOS:</p>\n\n\n\n<p>TRAIL CURTO: (20KMS) Prova de Trail Running com distancia aproximada de 20kms que percorre trilhos em redor de Évora Monte, com inicio e chegada na Casa do Povo.</p>\n\n\n\n<p>MINI TRAIL: (10KMS) Prova de Trail Running com distancia aproximada de 10kms que percorre trilhos em redor de Évora Monte, com inicio e chegada na Casa do Povo.</p>\n\n\n",
+  "description_short": "Trail pelos trilhos históricos de Évora Monte com vistas deslumbrantes sobre os campos alentejanos",
+  "page": "https://meutempo.pt/prova?vii-trail-estremoz",
+  "slug": "vii-trail-cidade-de-estremoz-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Estremoz",
+  "administrative_area_level_3": "União das freguesias de Estremoz (Santa Maria e Santo André)",
+  "district_code": 7
+}

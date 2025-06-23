@@ -1,0 +1,35 @@
+{
+  "id": 41739,
+  "name": "Barosa Trail 2025",
+  "location": "Barosa, Leiria",
+  "coordinates": {
+    "lat": 39.7572278,
+    "lon": -8.8439587
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    7000,
+    13000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/3cfb7db231d0f4f37c62d4d475453703"
+  ],
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-01",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Tribo de Escoteiros do Grupo 251 Barosa</strong>, dos Escoteiros de Portugal, com o apoio de alguns encarregados de educação, organiza no dia&nbsp;<strong>1 de junho de 2025</strong>&nbsp;o evento&nbsp;<strong>“Barosa Trail – 1st Edition 2025”</strong>, que consiste numa prova de trail running e numa caminhada, a realizar-se na Barosa, com partida e chegada junto ao Parque de Merendas da Barosa.</p>\n\n\n\n<p>O evento celebra também o Dia Mundial da Criança, contando com a presença de insufláveis para os mais novos.</p>\n\n\n\n<p><strong>O evento é composto por:</strong></p>\n\n\n\n<p>Prova competitiva:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail (T 13Km) &#8211; Percurso com cerca de 13 kms de fácil progressão, ideal para iniciantes à prática de Trail Running;</li>\n</ul>\n\n\n\n<p>Prova não competitiva:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Caminhada – Percurso com cerca de 7 kms de dificuldade média/baixa.</li>\n</ul>\n",
+  "description_short": "Trail familiar organizado por Escoteiros na Barosa no Dia Mundial da Criança",
+  "page": "https://www.recordepessoal.pt/evento/barosatrail1stedition2025",
+  "slug": "barosa-trail-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Barosa",
+  "district_code": 10
+}

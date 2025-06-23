@@ -1,0 +1,33 @@
+{
+  "id": 24283,
+  "name": "Santa Luzia Night Trail 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    12000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/705ad6e9057885836a546139ff73f510"
+  ],
+  "start_date": "2023-08-26",
+  "end_date": "2023-08-27",
+  "circuit": [],
+  "description": "\n<p>O Santa Luzia Night Trail é organizado pelo MUTSeries.<br>Contando com a colaboração da Câmara Municipal de Viana do Castelo.</p>\n\n\n\n<p>Nesta segunda edição, com duas distâncias disponíveis:</p>\n\n\n\n<p>&#8211; Trail Curto / Caminhada &#8211; 12km com cerca de 550D+</p>\n\n\n\n<p>&#8211; Trail Longo – 22km com cerca de 1 000D+</p>\n",
+  "description_short": "Trail noturno pela região de Viana do Castelo com duas opções de percurso",
+  "page": "https://stopandgo.net/events/santa-luzia-night-trail-2023",
+  "slug": "santa-luzia-night-trail-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

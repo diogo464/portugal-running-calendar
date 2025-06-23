@@ -1,0 +1,32 @@
+{
+  "id": 38106,
+  "name": "SkySpeed do Pico do Facho 2024",
+  "location": "Pico do Facho, Machico",
+  "coordinates": {
+    "lat": 32.7296142,
+    "lon": -16.7625357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    273,
+    1500
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e41b213072c8d8bd84260bb09d8ccf35"
+  ],
+  "start_date": "2024-11-23",
+  "end_date": "2024-11-23",
+  "circuit": [],
+  "description": "\n<p>O I Skyspeed Pico do Facho é uma competição disputada em percurso predominantemente a subir, apresenta um desnível positivo de (+/-) 273 metros e uma distância aproximada de 1500 metros entre a partida e a chegada, com saída no emblemático Largo dos Milagres no Sitio da Banda de Além Machico, em estrada, escadas e trilho que termina no Pico do Facho.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida vertical desafiante em Machico com subida até ao Pico do Facho por estrada, escadas e trilho",
+  "page": "https://lap2go.com/pt/event/skyspeed-pico-facho-2024",
+  "slug": "skyspeed-do-pico-do-facho-2024",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Machico",
+  "administrative_area_level_3": "Machico",
+  "district_code": 30
+}

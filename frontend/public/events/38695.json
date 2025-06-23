@@ -1,0 +1,35 @@
+{
+  "id": 38695,
+  "name": "Estafeta dos Reis 2025",
+  "location": "Estádio Universitário de Lisboa, Lisboa",
+  "coordinates": {
+    "lat": 38.75185,
+    "lon": -9.1625361
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    2500,
+    5000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "relay"
+  ],
+  "images": [
+    "media/5144d84284c0fcc9fe9cfd736e8368bc"
+  ],
+  "start_date": "2025-01-11",
+  "end_date": "2025-01-12",
+  "circuit": [],
+  "description": "\n<p>É verdade,&nbsp;<strong>em 2025, a Estafeta dos Reis comemora a sua 10ª edição</strong>!</p>\n\n\n\n<p>Para além deste marco histórico, numa parceria com a GNR, vais poder correr nas instalações do antigo&nbsp;Posto de Comando do Movimento das Forças Armadas, instalado no Regimento de Engenharia nº 1 da Pontinha, local responsável pelas operações militares de 25 de Abril de 1974.</p>\n\n\n\n<p><strong>A Estafeta dos Reis</strong>&nbsp;é uma corrida por<strong>&nbsp;equipas de 3 elementos</strong>, num circuito fechado com o perímetro de 2.5km.&nbsp;As equipas poderão ser masculinas, femininas ou mistas (pelo menos um atleta de&nbsp;género diferente).</p>\n\n\n\n<p>Junta a tua equipa, sejam solidários e corram. No&nbsp;convívio final desfrutem do<strong>&nbsp;melhor Bolo-rei de Lisboa</strong>!</p>\n",
+  "description_short": "Estafeta dos Reis celebra 10 anos com corrida de equipas em local histórico militar da Pontinha",
+  "page": "https://xistarca.pt/eventos/10a-estafeta-dos-reis",
+  "slug": "estafeta-dos-reis-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Alvalade",
+  "district_code": 11
+}

@@ -1,0 +1,36 @@
+{
+  "id": 30851,
+  "name": "Viseu Trail Running 2024",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    18000,
+    28000,
+    45000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/c508879f0f929b9471f6a0f4f4d60bee"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A prova realizar-se-á no concelho de Viseu, com partida e chegada da Freguesia de Côta e passagem, nas distâncias mais longas, pela freguesia de Calde. O percurso far-se-á essencialmente em zona florestal e de mato, intercetada pontualmente com piso de estradão e pequenas povoações rurais;<br>Todos os percursos são marcados de acordo com as setas, fitas e ou indicação específica, de modo a que sejam de fácil identificação para o atleta. </p>\n\n\n\n<p>O VTR24 é composto por três percursos:</p>\n\n\n\n<p>Ultra Trail Médio de 45 km (UT45) – Altimetria aproximada (a designar)D+;</p>\n\n\n\n<p>Trail Longo de 28 km (TL28) – Altimetria aproximada (a designar D+;</p>\n\n\n\n<p>Trail Curto/Sprint 18km (MT18) – Altimetria aproximada (a designar) D+.</p>\n",
+  "description_short": "Trail desafiante pelas zonas florestais e rurais de Côta e Calde, no distrito de Viseu",
+  "page": "https://stopandgo.net/events/viseu-trail-running-2024",
+  "slug": "viseu-trail-running-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

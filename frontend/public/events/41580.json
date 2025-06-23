@@ -1,0 +1,36 @@
+{
+  "id": 41580,
+  "name": "Runset Alcobaça 2025",
+  "location": "Alcobaça, Leiria",
+  "coordinates": {
+    "lat": 39.5503343,
+    "lon": -8.9730531
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    8000,
+    12000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/bc37971518446f247356e346927ef330"
+  ],
+  "start_date": "2025-07-12",
+  "end_date": "2025-07-13",
+  "circuit": [],
+  "description": "\n<p>A RUNSET Alcobaça é um evento co-organizado pela Associação MakeMove em conjunto com o<br>Município de Alcobaça.<br>Paralelamente à Runset Alcobaça com aprox. 12km, decorrerá também a MiniRace/Caminhada de<br>+/- 8km , bem como a Kids Race e a Runset Sénior, todas elas sem qualquer carácter competitivo</p>\n\n\n",
+  "description_short": "Evento desportivo familiar em Alcobaça com várias provas inclusivas para diferentes idades e níveis de aptidão física",
+  "page": "https://stopandgo.net/events/runset-alcobaca-2025",
+  "slug": "runset-alcobaca-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Alcobaça",
+  "district_code": 10
+}

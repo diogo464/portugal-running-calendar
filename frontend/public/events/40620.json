@@ -1,0 +1,31 @@
+{
+  "id": 40620,
+  "name": "Aquae Brunheiro Trail Running 2025",
+  "location": "Chaves, Vila Real",
+  "coordinates": {
+    "lat": 41.7158962,
+    "lon": -7.4814163
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-09-21",
+  "end_date": "2025-09-21",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": null,
+  "slug": "aquae-brunheiro-trail-running-2025",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Chaves",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

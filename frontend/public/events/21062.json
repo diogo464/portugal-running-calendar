@@ -1,0 +1,27 @@
+{
+  "id": 21062,
+  "name": "Corrida do Halloween 2023",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2023-10-28",
+  "end_date": "2023-10-29",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.runporto.com/pt/eventos/corrida-do-halloween",
+  "slug": "corrida-do-halloween-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

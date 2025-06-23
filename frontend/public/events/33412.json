@@ -1,0 +1,32 @@
+{
+  "id": 33412,
+  "name": "Trail Rota das Fontes 2024",
+  "location": "Castanheira do Vouga, Águeda",
+  "coordinates": {
+    "lat": 40.5883197,
+    "lon": -8.360760299999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fca7844b27793139963b4caf4ed790f0"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>O 5º Trail / Caminhada ROTA DAS FONTES 2024 decorrerá no lugar da Igreja em Castanheira do Vouga, Águeda junto às instalações da referida Associação. O Trail e a Caminhada decorrerão quase na totalidade por caminhos e trilhos.</p>\n",
+  "description_short": "Trail por caminhos tradicionais em Castanheira do Vouga com passagem junto à Igreja local",
+  "page": "https://lap2go.com/pt/event/rota-das-fontes-2024",
+  "slug": "trail-rota-das-fontes-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Belazaima do Chão, Castanheira do Vouga e Agadão",
+  "district_code": 1
+}

@@ -1,0 +1,37 @@
+{
+  "id": 29246,
+  "name": "São Silvestre Gondomar 2023",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    500,
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/74cdd8f7aa2c54b72d504f9e20f34656"
+  ],
+  "start_date": "2023-12-02",
+  "end_date": "2023-12-03",
+  "circuit": [],
+  "description": "\n<p>No dia 2 de Dezembro de 2023, pelas 21h00, o Município de Gondomar recebe a 7ª edição São Silvestre Gondomar. Com mais de 90 anos de história, esta temática foi inspirada numa corrida noturna onde os atletas corriam pela cidade com tochas acesas nas mãos, é considerada uma das mais míticas corridas do mundo e pretende-se que se torne num símbolo desportivo do município.</p>\n\n\n\n<p>Tem um percurso citadino que passa por alguns dos pontos de interesse mais conhecidos de Gondomar, com partida e chegada junto da Câmara Municipal de Gondomar, a prova é ideal para todos os amantes da corrida mas também para todos os entusiastas de desporto. A prova será composta por uma Corrida de 10 Km com carácter competitivo e por uma Caminhada de 4 Km.</p>\n\n\n\n<p>Integramos também a&nbsp;<strong>São Silvestre dos Pequenos</strong>&nbsp;, uma prova direcionada para os mais pequenos com a distância de 500 metros. Todos os participantes têm direito a uma t-shirt e medalha alusiva ao evento. Para seguir a temática São Silvestre, todos os mini-atletas vão correr com um bastão luminoso que simboliza as &#8220;tochas acessas nas mãos&#8221;, esta prova começa as&nbsp;<strong>20h15</strong>.</p>\n\n\n\n<p>Também&nbsp;para tornar mais caracteristica está temática (São Silvestre), vamos criar um&nbsp;<strong>ambiente mais luminoso e festivo</strong>&nbsp;adequado a época natalícia no municipo de Gondomar, onde vai estar iluminado com as luzes de Natal por toda a cidade. Vamos&nbsp;<strong>oferecer vários artigos de neon</strong>&nbsp;aos participantes.</p>\n\n\n\n<p><strong>Diversão</strong>,&nbsp;<strong>satisfação</strong>&nbsp;e&nbsp;<strong>companheirismo</strong>&nbsp;são os adjetivos caracterizadores da 7ª edição São Silvestre Gondomar.</p>\n",
+  "description_short": "Corrida noturna festiva de Natal por Gondomar com percurso iluminado e ambiente natalício",
+  "page": "https://7saosilvestregondomar.eventsport.net/",
+  "slug": "sao-silvestre-gondomar-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

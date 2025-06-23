@@ -1,0 +1,39 @@
+{
+  "id": 38455,
+  "name": "Oh Meu Deus 2025",
+  "location": "Seia, Guarda",
+  "coordinates": {
+    "lat": 40.4148619,
+    "lon": -7.707845000000001
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    20000,
+    40000,
+    50000,
+    100000,
+    160000,
+    200000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3f726a12ea10bc5908df8666332966d2"
+  ],
+  "start_date": "2025-06-06",
+  "end_date": "2025-06-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<ul class=\"wp-block-list\">\n<li>Este evento contará com 4 distâncias: OMD20, OMD50, OMD100 e OMD160.</li>\n\n\n\n<li>A prova do OMD20 será no formato circular com partida e chegada em Seia, no sábado, dia 7 de Junho às 9 horas.</li>\n\n\n\n<li>A prova do OMD50 será no formato linear com partida na Aldeia de Sazes da Beira e chegada em Seia, no sábado, dia 7 de Junho às 8 horas.</li>\n\n\n\n<li>A prova do OMD100 será no formato circular com partida na sexta-feira às 22 horas do dia 6 de Junho e chegada em Seia.</li>\n\n\n\n<li>A prova do OMD160 será no formato circular com partida com partida na sexta-feira às 11 horas do dia 6 de Junho e chegada em Seia. (Nesta distância, o atleta que concluir em 34 horas, poderá percorrer mais 40 quilómetros e concluir o total de 200km dentro do limite de 44 horas.)</li>\n\n\n\n<li>Para quem concluir os 200km (OMD160 + 40km) dentro do limite das 44 horas, ser-lhe-á atribuído o título de VIRIATO.</li>\n\n\n\n<li>A Caminhada será no formato linear com partida em Vila Verde</li>\n</ul>\n",
+  "description_short": "Trail de montanha pela Serra da Estrela com múltiplas distâncias e desafio épico de 200km com título de Viriato",
+  "page": "https://stopandgo.net/events/oh-meu-deus-2025",
+  "slug": "oh-meu-deus-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Seia",
+  "administrative_area_level_3": "União das freguesias de Seia, São Romão e Lapa dos Dinheiros",
+  "district_code": 9
+}

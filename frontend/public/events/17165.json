@@ -1,0 +1,29 @@
+{
+  "id": 17165,
+  "name": "Aziborne 2022",
+  "location": "Macedo de Cavaleiros, Bragança",
+  "coordinates": {
+    "lat": 41.5370005,
+    "lon": -6.9617993
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "relay"
+  ],
+  "images": [
+    "media/a9904ab11f4c7024254dd6fd29d28c69"
+  ],
+  "start_date": "2022-09-03",
+  "end_date": "2022-09-04",
+  "circuit": [],
+  "description": "\n<p>O Aziborne 2022 assume-se como a derradeira aventura entre a Albufeira do Azibo e a Serra de Bornes, na qual as equipas realizam uma competição única e onde os principais adversários são os elementos, terra, água e ar, numa corrida de estafeta não convencional, composta por um trajeto de Atletismo, Canoagem, Ciclismo e Parapente.</p>\n",
+  "description_short": "Prova multidisciplinar épica entre a Albufeira do Azibo e a Serra de Bornes com desafio único de atletismo, canoagem, ciclismo e parapente",
+  "page": "https://lap2go.com/pt/event/aziborne-2022",
+  "slug": "aziborne-2022",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Macedo de Cavaleiros",
+  "administrative_area_level_3": "Macedo de Cavaleiros",
+  "district_code": 4
+}

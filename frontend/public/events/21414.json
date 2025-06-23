@@ -1,0 +1,32 @@
+{
+  "id": 21414,
+  "name": "Corrida 4 Estações Coimbra 2023",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/30787e8249f32ece816276bee9418d4c"
+  ],
+  "start_date": "2023-02-05",
+  "end_date": "2023-02-06",
+  "circuit": [],
+  "description": "\n<p>Numa co organização entre a Associação Desportiva 4 Estações e a Câmara Municipal de Coimbra, vai realizar no dia 5 de Fevereiro de 2023 pelas 10.30h na Cidade de Coimbra uma corrida de atletismo de estrada com a distância de 10km num <strong>percurso certificado e homologado pela World Athletics, Federação Portuguesa de Atletismo</strong>, designada por Corrida das 4 Estações Inverno Coimbra. Esta prova faz parte do Circuito de Corrida 4 Estações Portugal.</p>\n",
+  "description_short": "Corrida de atletismo de estrada em Coimbra com percurso certificado internacionalmente",
+  "page": "https://corrida4estacoesportugal.wordpress.com/inscricoes-e-regulamento/",
+  "slug": "corrida-4-estacoes-coimbra-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

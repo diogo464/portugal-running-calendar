@@ -1,0 +1,35 @@
+{
+  "id": 22916,
+  "name": "Trilho das Lampas 2023",
+  "location": "São João Das Lampas, Lisboa",
+  "coordinates": {
+    "lat": 38.8744196,
+    "lon": -9.3986994
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    500,
+    10000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/35bfb723fc0d58f709433110ae38fcb5"
+  ],
+  "start_date": "2023-05-13",
+  "end_date": "2023-05-14",
+  "circuit": [],
+  "description": "\n<p>O IX Trilho das Lampas realiza-se no dia 13 de Maio de 2023, em S. João das Lampas e será constituído por uma prova competitiva de 20Km, a contar para o Circuito de Trail da Associação de Atletismo de Lisboa, e uma Caminhada de caracter não competitivo, com cerca de 10Km.</p>\n\n\n\n<p><br>É uma organização do Meia Maratona de S. João das Lampas &#8211; Grupo de Dinamização Desportiva, em parceria com a Sociedade Recreativa, Desportiva e Familiar de S. João das Lampas<br>Se a organização o entender e a segurança dos participantes o justificar, poderão ser alterados os percursos previamente estabelecidos.</p>\n\n\n\n<p><br>O IX Trilho das Lampas tem partida e chegada ao Largo de S. João das Lampas e o seu percurso situa-se ao longo da bacia hidrográfica da Ribeira da Samarra, com grande parte dele integrado no Parque Natural Sintra-Cascais e tem um desnível acumulado de cerca de 500m. O percurso da Caminhada tem cerca de 10km.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail nas Lampas pela bacia hidrográfica da Ribeira da Samarra com passagem pelo Parque Natural Sintra-Cascais",
+  "page": "https://lap2go.com/pt/event/trilho-das-lampas-2023",
+  "slug": "trilho-das-lampas-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

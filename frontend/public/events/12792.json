@@ -1,0 +1,34 @@
+{
+  "id": 12792,
+  "name": "São Silveste Caminhense 2021",
+  "location": "Caminha, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8732082,
+    "lon": -8.837845399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/ec12322a257d7f2f0d27c83de98c6841"
+  ],
+  "start_date": "2021-12-04",
+  "end_date": "2021-12-05",
+  "circuit": [],
+  "description": "\n<p>São Silveste Caminhense 2021, a 7 de dezembro, pela segunda vez, Caminha acolhe um evento deste género, um evento que obteve muito sucesso na edição anterior, fazendo referência ao mês de dezembro.</p>\n",
+  "description_short": "Caminhada tradicional de fim de ano pelas ruas históricas de Caminha",
+  "page": "https://saosilvestrecaminhense.pt/",
+  "slug": "sao-silveste-caminhense-2021",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Caminha (Matriz) e Vilarelho",
+  "district_code": 16
+}

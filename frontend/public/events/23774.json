@@ -1,0 +1,30 @@
+{
+  "id": 23774,
+  "name": "I Trail Noturno Gondarense 2023",
+  "location": "Gondar, Caminha",
+  "coordinates": {
+    "lat": 41.8183522,
+    "lon": -8.7798045
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/b11b8273fae0d228d29cacaff7a50ad0"
+  ],
+  "start_date": "2023-07-22",
+  "end_date": "2023-07-23",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "http://cyclonessports.com/index.php/276-i-trail-noturno-gondarense",
+  "slug": "i-trail-noturno-gondarense-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Gondar e Orbacém",
+  "district_code": 16
+}

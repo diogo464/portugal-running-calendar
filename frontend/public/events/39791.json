@@ -1,0 +1,34 @@
+{
+  "id": 39791,
+  "name": "Trilhos D. Pedro e D. Inês edição “À noite” 2025",
+  "location": "Lourinhã, Peniche",
+  "coordinates": {
+    "lat": 39.3603291,
+    "lon": -9.387622
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    7000,
+    15000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/e0aa7ab8a722bb70fd052e0cbce09f91"
+  ],
+  "start_date": "2025-05-03",
+  "end_date": "2025-05-04",
+  "circuit": [],
+  "description": "\n<p>URDC do Paço irá realizar, no próximo dia <strong>3 de maio de 2025</strong>, um evento denominado <strong>&#8220;Trilhos D. Pedro e D. Inês”,</strong> que consistirá numa <strong>prova de trail com cerca de 15 Km</strong> e numa <strong>caminhada com cerca de 7 Km</strong>. Todos os percursos serão circulares, terão início e fim junto à sede da URDC Paço (Lat., long.39.2978025, -9.2863444).</p>\n",
+  "description_short": "Trail histórico pelos trilhos de D. Pedro e D. Inês em percurso circular pela região do Paço",
+  "page": "https://www.recordepessoal.pt/evento/trilhosdpedroedinesedicaoanoite",
+  "slug": "trilhos-d-pedro-e-d-ines-edicao-a-noite-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Peniche",
+  "administrative_area_level_3": "Peniche",
+  "district_code": 10
+}

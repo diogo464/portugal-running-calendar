@@ -1,0 +1,32 @@
+{
+  "id": 39111,
+  "name": "G.P.A de Grândola – Circuito José Afonso 2025",
+  "location": "Grândola, Setúbal",
+  "coordinates": {
+    "lat": 38.1770597,
+    "lon": -8.5669509
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/4d602354e36bd6825c6f116d16870065"
+  ],
+  "start_date": "2025-02-02",
+  "end_date": "2025-02-03",
+  "circuit": [],
+  "description": "\n<p>A <strong>Junta de Freguesia de Grândola e Santa Margarida da Serra</strong>, com a colaboração técnica da XISTARCA, leva a efeito no próximo dia 02 de Fevereiro de 2025, a <strong>21ª edição do Grande Prémio de Atletismo de Grândola – Circuito José Afonso,</strong> com uma distância de 10km, onde poderão tomar parte atletas federados, ou não, sem distinção de sexo ou nacionalidade.</p>\n\n\n",
+  "description_short": "Prova de atletismo em homenagem a José Afonso pelas ruas de Grândola",
+  "page": "https://xistarca.pt/eventos/xxi-g-p-a-de-grandola-circuito-jose-afonso",
+  "slug": "g-p-a-de-grandola-circuito-jose-afonso-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "União das freguesias de Grândola e Santa Margarida da Serra",
+  "district_code": 15
+}

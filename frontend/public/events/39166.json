@@ -1,0 +1,34 @@
+{
+  "id": 39166,
+  "name": "Trail Fisgas de Ermelo 2025",
+  "location": "Mondim de Basto, Vila Real Bastos",
+  "coordinates": {
+    "lat": 41.4112348,
+    "lon": -7.9526065
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2872241dcc9c2f6555ac3dddb364d9da"
+  ],
+  "start_date": "2025-04-26",
+  "end_date": "2025-04-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Será realizado nos dias 26 e 27 de abril a 8ª edição do Trail Fisgas de Ermelo com partida na Aldeia de Ermelo e chegada em Mondim de Basto. Paralelamente ao evento haverá a ExpoFisgas – uma exposição de material de desporto.<br>O Trail Fisgas de Ermelo será constituído pelas seguintes provas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo e Trail Curto – Carácter competitivo</li>\n\n\n\n<li>Caminhada – Sem carácter competitivo</li>\n\n\n\n<li>FISGAS KIDS – Sem carácter competitivo</li>\n</ul>\n",
+  "description_short": "Trail desafiante pela região de Mondim de Basto com provas para diferentes níveis e escalões",
+  "page": "https://cyclonessports.com/index.php/324-trail-fisgas-de-ermelo-2025",
+  "slug": "trail-fisgas-de-ermelo-2025",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Mondim de Basto",
+  "administrative_area_level_3": "São Cristóvão de Mondim de Basto",
+  "district_code": 17
+}

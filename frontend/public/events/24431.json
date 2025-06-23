@@ -1,0 +1,39 @@
+{
+  "id": 24431,
+  "name": "Trail dos Flamingos 2023",
+  "location": "Nadadouro, Caldas da Rainha",
+  "coordinates": {
+    "lat": 39.4191785,
+    "lon": -9.188948
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    1500,
+    5000,
+    11000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/e4735ce81acccac00d4b0869590829f3"
+  ],
+  "start_date": "2023-09-16",
+  "end_date": "2023-09-17",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Centro de Apoio Social do Nadadouro em parceria com o Grupo de Praticantes, Não Fazemos Nem Mais Um..Km, vão realizar um evento denominado &#8220;TRAIL DOS FLAMINGOS”.</p>\n\n\n\n<p><br>Este evento irá decorrer no concelho de Caldas da Rainha e irá desenvolver-se maioritariamente em trilhos, caminhos e estradas de terra da Freguesia de Nadadouro e Freguesia de Santa Maria, São Pedro e Sobral da Lagoa. </p>\n\n\n\n<p>Todas as provas [Caminhada &#8211; 11 km, CãoMinhada &#8211; 11 km, Kids – aproximadamente 1,5 km e Trail de 11 km e 22 km], partem da sede do Centro de Apoio Social do Nadadouro, junto ao Campo de Futebol.</p>\n",
+  "description_short": "Trail solidário na região das Caldas da Rainha com percursos por trilhos e caminhos rurais do Nadadouro",
+  "page": "https://www.trilhoperdido.com/evento/2-trail-dos-flamingos",
+  "slug": "trail-dos-flamingos-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Caldas da Rainha",
+  "administrative_area_level_3": "Nadadouro",
+  "district_code": 10
+}

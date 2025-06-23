@@ -1,0 +1,39 @@
+{
+  "id": 22189,
+  "name": "1ª Natur Race &#8211; Farmácia dos Alamos-Évora 2023",
+  "location": "Nossa Senhora de Machede, Évora",
+  "coordinates": {
+    "lat": 38.5784167,
+    "lon": -7.775703899999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    200,
+    400,
+    1000,
+    8000,
+    15000,
+    30000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/03cf28eb4c307c55faebc0d93512d085"
+  ],
+  "start_date": "2023-03-19",
+  "end_date": "2023-03-20",
+  "circuit": [],
+  "description": "\n<p>A 1ª Natur Race – Farmácia Alamos será realizado no dia 19 de março de 2023, sendo constituído por 4 modalidades:</p>\n\n\n\n<p>Corrida Longa com a distância aproximada de 30km, ±400 m de desnível positivo. Dificuldade de 3 pontos (de 1 a 5)</p>\n\n\n\n<p>Corrida Curta com a distância aproximada de 15km, ±200 m de desnível positivo. Dificuldade de 2 ponto (de 1 a 5)</p>\n\n\n\n<p>Corrida Kids com a distância aproximada de 1km, sem desnível positivo.</p>\n\n\n\n<p>Caminhada com a distância aproximada de 8 km (sem carácter competitivo).</p>\n\n\n",
+  "description_short": "Trail com diferentes percursos pelos caminhos rurais, incluindo opções para crianças e famílias",
+  "page": "https://acorrer.pt/eventos/info/3134",
+  "slug": "1a-natur-race-farmacia-dos-alamos-evora-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Évora",
+  "administrative_area_level_3": "Nossa Senhora de Machede",
+  "district_code": 7
+}

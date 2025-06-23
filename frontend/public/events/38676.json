@@ -1,0 +1,37 @@
+{
+  "id": 38676,
+  "name": "Meia Maratona das Cantarinhas 2025",
+  "location": "Bragança",
+  "coordinates": {
+    "lat": 41.8061131,
+    "lon": -6.756737999999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    5000,
+    10000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/56f354811ff43054bbad93c32444cbf8"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [],
+  "description": "\n<p>O Ginásio Clube de Bragança teria muito gosto em contar com a participação dos clubes da Associação de Atletismo de Viseu na nossa prova. Para além das corridas gratuitas destinadas a crianças e jovens, o evento inclui uma caminhada e provas de 5 km, 10 km e meia maratona. Todos os percursos serão homologados pela FPA e pela World Athletics, garantindo um evento de elevado nível competitivo.</p>\n",
+  "description_short": "Trail competitivo em Bragança com provas para todas as idades e níveis de preparação física",
+  "page": "https://timerspeed.com/?tribe_events=4a-meia-maratona-das-cantarinhas",
+  "slug": "meia-maratona-das-cantarinhas-2025",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Bragança",
+  "administrative_area_level_3": "União das freguesias de Sé, Santa Maria e Meixedo",
+  "district_code": 4
+}

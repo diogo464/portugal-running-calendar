@@ -1,0 +1,34 @@
+{
+  "id": 23977,
+  "name": "Meia Maratona na Areia Analice Silva 2023",
+  "location": "Costa da Caparica, Almada",
+  "coordinates": {
+    "lat": 38.64455299999999,
+    "lon": -9.2333757
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/4adf0c4195cedfe7ec5c07dc7a9feeae"
+  ],
+  "start_date": "2023-06-18",
+  "end_date": "2023-06-19",
+  "circuit": [],
+  "description": "\n<p>XIV edição realizada no belo areal da Costa da Caparica, praia de longos e finos areais, rodeados de dunas, bosques e sapais. Aqui encontramos excelentes condições para a prática da corrida. Não falte!!! Venha até à Costa da Caparica!!! </p>\n\n\n\n<p><strong>Meia Maratona&nbsp;</strong>– 21.097 metros</p>\n\n\n\n<p>Prova de&nbsp;<strong>10 km</strong>&nbsp;a correr ou andar</p>\n",
+  "description_short": "Meia maratona e corrida de 10 km à beira-mar na Costa da Caparica, com paisagens naturais deslumbrantes",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/137/",
+  "slug": "meia-maratona-na-areia-analice-silva-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

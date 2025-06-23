@@ -1,0 +1,33 @@
+{
+  "id": 1786,
+  "name": "Nigth Run Urban Trail 2020",
+  "location": "Torres Vedras",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    7000,
+    12000,
+    17000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/985abeeeaf4058b6fcc7b0fe9eb94fe9"
+  ],
+  "start_date": "2020-10-17",
+  "end_date": "2020-10-18",
+  "circuit": [],
+  "description": "<p class=\"agenda-detalhe-def\" style=\"box-sizing: border-box; margin: 0px 0px 10px; color: #58595b; font-family: Roboto, sans-serif; font-size: 14px;\"><em style=\"box-sizing: border-box;\">Esta atividade integra o programa <a style=\"box-sizing: border-box; color: #e73d3d; text-decoration-line: none;\" href=\"http://www.cm-tvedras.pt/agenda/programa/61\" target=\"_blank\" rel=\"noopener\">Torres Vedras Running 2020</a></em></p>\n<div class=\"sinopse\" style=\"box-sizing: border-box; color: #58595b; font-family: Roboto, sans-serif; font-size: 14px;\">\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">A Nigth Run Urban Trail realiza-se no dia 17 de outubro, às 19h30, em Torres Vedras.</p>\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">Evento de Trail e caminhada noturno em contexto maioritariamente urbano com troços em trilhos seminaturais nas imediações da cidade. O percurso incluirá passagens nos locais mais emblemáticos da cidade percorrendo ruas, travessas, escadas e outros locais pouco conhecidos da maioria da população.</p>\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\">Muita animação, surpresas e claro… exercício físico! A festa do trail run em Torres Vedras!</p>\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\"><br style=\"box-sizing: border-box;\" /><span style=\"box-sizing: border-box; font-weight: bold;\">Tipo: </span>Trail urbano noturno<br style=\"box-sizing: border-box;\" /><span style=\"box-sizing: border-box; font-weight: bold;\">Provas:<br style=\"box-sizing: border-box;\" /></span>Trail &#8211; 17 kms<br style=\"box-sizing: border-box;\" />Trail Curto e caminhada aventura &#8211; 12 kms <br style=\"box-sizing: border-box;\" />Mini Caminhada (guiada) &#8211; 7 kms</p>\n</div>\n<div class=\"zc\" style=\"box-sizing: border-box; padding: 30px 0px; color: #58595b; font-family: Roboto, sans-serif; font-size: 14px;\">\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px;\"><span style=\"box-sizing: border-box; font-weight: bold;\">Inscrições: </span>brevemente disponível <br style=\"box-sizing: border-box;\" /><span style=\"box-sizing: border-box; font-weight: bold;\">Organização: </span>Câmara Municipal de Torres Vedras<br style=\"box-sizing: border-box;\" /><span style=\"box-sizing: border-box; font-weight: bold;\">Parceiros: </span>ATV, Clube Académico de Penafirme, Dolce Furadouro, Dirtrunners &#8211; Fonte Grada, Turres Trail Clube</p>\n</div>\n",
+  "description_short": "Trail urbano nocturno por Torres Vedras com passagens em locais emblemáticos da cidade",
+  "page": "http://www.cm-tvedras.pt/agenda/detalhes/102207/",
+  "slug": "nigth-run-urban-trail-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

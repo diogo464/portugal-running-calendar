@@ -1,0 +1,29 @@
+{
+  "id": 24250,
+  "name": "1º Trail Nª Srª D´Ajuda 2023",
+  "location": "Vieira de Leiria, Marinha Grande",
+  "coordinates": {
+    "lat": 39.753089,
+    "lon": -8.9312993
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f356514f154cd8ad0e1e77160b63775b"
+  ],
+  "start_date": "2023-07-30",
+  "end_date": "2023-07-31",
+  "circuit": [],
+  "description": "\n<p>A <strong>Comissão de Festas da Passagem</strong> com o apoio do <strong>Industrial Desportivo Vieirense</strong>, organiza no dia <strong>30 de Julho de 2023</strong>, o <strong>1º Trail</strong>, inserido nas <strong>Festas de Na Sra D &#8216;Ajuda da Passagem</strong> – <strong>Vieira de Leiria</strong>.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail inaugural nas festas de Nossa Senhora da Ajuda em Vieira de Leiria, organizado pela Comissão de Festas local",
+  "page": "https://www.recordepessoal.pt/evento/1trailnsrdajuda",
+  "slug": "1o-trail-na-sra-dajuda-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

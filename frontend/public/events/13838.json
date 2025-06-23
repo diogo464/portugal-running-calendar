@@ -1,0 +1,29 @@
+{
+  "id": 13838,
+  "name": "Trail dos Reis 2022",
+  "location": "Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d2ea8dbc6e3f1c515ba5efb66872da11"
+  ],
+  "start_date": "2022-01-09",
+  "end_date": "2022-01-10",
+  "circuit": [],
+  "description": "\n<p>O evento desportivo, Trail dos Reis 2022é promovido e organizado pelo Despertar<br>Sporting Clube, com o apoio da Camara Municipal de Beja e as uniões de<br>freguesias de União de freguesias de Beja, Santiago Maior e São João Batista e<br>Salvador e Santa Maria da Feira e destina-se a todos os cidadãos que cumpram<br>o disposto no presente regulamento.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos históricos de Beja com apoio municipal",
+  "page": "https://acorrer.pt/eventos/info/2857",
+  "slug": "trail-dos-reis-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

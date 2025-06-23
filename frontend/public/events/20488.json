@@ -1,0 +1,29 @@
+{
+  "id": 20488,
+  "name": "Zela Ultra Marathon 2023",
+  "location": "Vouzela, Viseu",
+  "coordinates": {
+    "lat": 40.7229086,
+    "lon": -8.1122167
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/db82c7a48d60dcb2f450b187047fe50c"
+  ],
+  "start_date": "2023-04-29",
+  "end_date": "2023-04-30",
+  "circuit": [],
+  "description": "\n<p>O Zela Ultra Marathon é um evento competitivo de corrida de montanha organizado pela Spotcriativo Eventos com o apoio do Município de Vouzela, e diversas entidades locais, a realizar no dia 29 e 30 de Abril de 2023.</p>\n",
+  "description_short": "Trail desafiante por Vouzela com apoio municipal e organização local",
+  "page": "https://stopandgo.net/events/zela-ultra-marathon-2023",
+  "slug": "zela-ultra-marathon-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vouzela",
+  "administrative_area_level_3": "Vouzela",
+  "district_code": 18
+}

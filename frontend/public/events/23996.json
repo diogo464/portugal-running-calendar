@@ -1,0 +1,33 @@
+{
+  "id": 23996,
+  "name": "Cristo Rei Trail 2023",
+  "location": "Caniço, Madeira",
+  "coordinates": {
+    "lat": 32.6503682,
+    "lon": -16.8518296
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    5000,
+    10500,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8e56ac4d3da5238cd3400326003606e2"
+  ],
+  "start_date": "2023-06-24",
+  "end_date": "2023-06-25",
+  "circuit": [],
+  "description": "\n<p>A Associação Desportiva Galomar é a associação organizadora do evento denominado “Cristo Rei Trail, prova que decorrerá com absoluto respeito pelo meio ambiente. Este evento constitui o Circuito Trail Madeira, época 2022-2023 da AARAM &#8211; Associação de Atletismo da Região Autónoma da Madeira.</p>\n\n\n\n<p>É um evento de Trail Running que integra 2 provas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>O Cristo Rei Trail Longo (CRT Longo) &#8211; 25 km / 1000 D+</li>\n\n\n\n<li>O Cristo Rei Trail Curto (CRT Curto) &#8211; 10.5 km / 400 D+.</li>\n</ul>\n\n\n",
+  "description_short": "Trail desafiante pela paisagem natural da Madeira, com provas de diferentes distâncias integradas no Circuito Trail Madeira",
+  "page": "https://lap2go.com/pt/event/cristo-rei-trail-2023",
+  "slug": "cristo-rei-trail-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

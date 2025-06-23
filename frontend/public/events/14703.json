@@ -1,0 +1,33 @@
+{
+  "id": 14703,
+  "name": "Trail Trilhos da Barreira 2022",
+  "location": "Montemor-o-Velho, Coimbra",
+  "coordinates": {
+    "lat": 40.1748245,
+    "lon": -8.6826636
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    12000,
+    17000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a2cb265908e58c7725b799c49e59733b"
+  ],
+  "start_date": "2022-05-22",
+  "end_date": "2022-05-23",
+  "circuit": [],
+  "description": "\n<h4 class=\"wp-block-heading\">O <strong>II Trail Trilhos da Barreira 2022</strong> será realizado no dia <strong>22 de Maio de 2022</strong>, na Aldeia de <strong>Gordos</strong>, freguesia de Arazede, concelho de Montemor-o-Velho.</h4>\n\n\n\n<h5 class=\"wp-block-heading\">É com muito orgulho que anuncia&nbsp;<strong>Tiago Duarte</strong>&nbsp;(Campeão Distrital de Trail Longo e Vice-Campeão Distrital de Trail Curto da ADAC) e&nbsp;<strong>Ana Saborano</strong>&nbsp;(Vencedora do Circuito Nacional de Endurance) como padrinhos da prova.</h5>\n\n\n\n<h5 class=\"wp-block-heading\">É uma prova organizada pela&nbsp;<strong>Associação Gordos em Movimento (AGM)</strong>&nbsp;associação esta sem fins lucrativos e de cariz social, desportivo, cultural e recreativo que desta feita integra o Circuito</h5>\n\n\n\n<h5 class=\"wp-block-heading\">Distrital de Trail Running da Associação Distrital de Atletismo de Coimbra (ADAC), que conta com o apoio da Junta de Freguesia e Câmara Municipal.</h5>\n\n\n\n<h5 class=\"wp-block-heading\">Este evento será composto por um Trail Curto com cerca de&nbsp;<strong>17 Kms</strong>, por um Mini Trail com cerca de&nbsp;<strong>12kms</strong>&nbsp;e por uma Caminhada com cerca&nbsp;<strong>10 kms</strong>, onde os participantes irão percorrer na sua maioria trilhos e caminhos florestais, bastante aprazíveis, sem grande altimetria e muito rolantes.<br><br>O PRESENTE EVENTO TEM POR OBJETIVO:<br>Promover a prática de exercício físico entre a comunidade desta aldeia, freguesia e concelho.<br>Angariação de fundos para que no futuro se possa vir a construir um pavilhão multiusos como sede da associação.<br>Levar a cabo as tradições festivas, religiosas e culturais desta aldeia em parceria com a comissão de festas.</h5>\n",
+  "description_short": "Trail pelas aldeias de Montemor-o-Velho com percursos florestais suaves e organizado por associação local solidária",
+  "page": "https://www.runmanager.net/Eventos/ii-trail-trilhos-da-barreira/591",
+  "slug": "trail-trilhos-da-barreira-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "União das freguesias de Montemor-o-Velho e Gatões",
+  "district_code": 6
+}

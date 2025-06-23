@@ -1,0 +1,37 @@
+{
+  "id": 13367,
+  "name": "Meia Maratona De Torres Vedras 2022",
+  "location": "Torres Vedras",
+  "coordinates": {
+    "lat": 39.09177589999999,
+    "lon": -9.2600341
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/e915dbd8903b5e6cbfff995924e3bf66"
+  ],
+  "start_date": "2022-03-20",
+  "end_date": "2022-03-21",
+  "circuit": [],
+  "description": "\n<p>Um novo desafio chegou, chama-se &#8220;Meia Maratona De Torres Vedras  2022&#8221; e  promete juntar os apaixonados da distância dos&nbsp;<strong>21km</strong>, juntamente com os atletas de&nbsp;<strong>10km</strong>&nbsp;e a família na caminhada de&nbsp;<strong>5km</strong>.&nbsp;<strong>Torres Vedras</strong>, uma zona cheia de atrativos para quem gosta de&nbsp;<strong>natureza, história, desporto, gastronomia e boa gente!</strong></p>\n",
+  "description_short": "Meia maratona pela histórica Torres Vedras com provas para diferentes níveis de atletas",
+  "page": "https://xistarca.pt/eventos/bmw-meia-maratona-de-torres-vedras",
+  "slug": "meia-maratona-de-torres-vedras-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria do Castelo e São Miguel",
+  "district_code": 11
+}

@@ -1,0 +1,29 @@
+{
+  "id": 20831,
+  "name": "DuraTrail 2023",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2023-10-21",
+  "end_date": "2023-10-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Desculpe, mas não consegui identificar o texto da descrição da corrida. Para poder ajudar a gerar um resumo conciso, precisaria que me fornecesse a descrição completa do evento.",
+  "page": "https://www.trilhoperdido.com/evento/duratrail2022",
+  "slug": "duratrail-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

@@ -1,0 +1,32 @@
+{
+  "id": 24039,
+  "name": "Boticas Parque Galaico Rural Race 2023",
+  "location": "Boticas, Vila Real",
+  "coordinates": {
+    "lat": 41.6984124,
+    "lon": -7.6710889
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    7000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/302627c08ade075848772ef276dfc55b"
+  ],
+  "start_date": "2023-07-09",
+  "end_date": "2023-07-10",
+  "circuit": [],
+  "description": "\n<p>Boticas Parque- Galaicos Rural Race é uma prova de corrida em montanha, que pode ser classificada dentro das provas de “Obstacle Course Racing”.</p>\n\n\n\n<p>Uma prova nas imediações do Boticas Parque Natureza e Biodiversidade onde os obstáculos naturais, os trilhos, o rio e os obstáculos criados para o efeito, tornam esta prova numa divertida aventura.</p>\n\n\n\n<p>Percorra a distância de 7km desta prova desenhada para ser acessível a todos onde a diferença estará na resistência , técnica e velocidade dos verdadeiros Guerreiros Galaicos.</p>\n\n\n\n<p>No final terá oportunidade de repor as forças no nosso reforço convívio.</p>\n\n\n\n<p>Uma prova inserida no Festival Cibos da Terra Barrosã, uma ótima oportunidade de conhecer Boticas e o Boticas Parque.</p>\n",
+  "description_short": "Trail desafiante em Boticas com obstáculos naturais e artificiais numa aventura pelos trilhos do Parque da Biodiversidade",
+  "page": "https://meutempo.pt/prova?galaicorace2023",
+  "slug": "boticas-parque-galaico-rural-race-2023",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Boticas",
+  "administrative_area_level_3": "Boticas e Granja",
+  "district_code": 17
+}

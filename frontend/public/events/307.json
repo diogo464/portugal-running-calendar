@@ -1,0 +1,36 @@
+{
+  "id": 307,
+  "name": "São Silvestre de Braga",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5700,
+    7000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/f52ee3698d2940ba19a5bb7738cbf4f0"
+  ],
+  "start_date": "2019-12-22",
+  "end_date": "2019-12-23",
+  "circuit": [],
+  "description": "<p>A 42ª edição da S. Silvestre de Braga este ano realiza-se no dia 22 de Dezembro!</p>\n<p>A prova mítica da cidade de Braga tem a partida marcada para as 19h00 e conta com uma prova cronometrada de 10 km e uma caminhada de 5.7 km.</p>\n",
+  "description_short": "São Silvestre tradicional pelas ruas históricas de Braga em edição de Natal",
+  "page": "https://www.runporto.com/pt/eventos/s-silvestre-braga/s-silvestre-braga-2019/",
+  "slug": "sao-silvestre-de-brag",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

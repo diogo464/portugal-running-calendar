@@ -1,0 +1,29 @@
+{
+  "id": 746,
+  "name": "Trail do Cavalo",
+  "location": "Alter do Chão Chão, Portalegre",
+  "coordinates": {
+    "lat": 39.2967086,
+    "lon": -7.4284755
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/90b2ff70a6442fbae7ed8b46e024c978"
+  ],
+  "start_date": "2020-02-02",
+  "end_date": "2020-02-03",
+  "circuit": [],
+  "description": "<p>É a dia 2 de fevereiro que se irá realizar o 3º Trail do Cavalo, em Alter do Chão, organizado pela Alter Runners.</p>\n<p>Após o interregno da época passada voltamos com algumas alterações aos percursos, tentando com isto melhorar a experiência dos participantes.</p>\n<p>É uma prova acessível a todos e excelente para a iniciação ao Trail Running.</p>\n<p>O 3º Trail do Cavalo é prova integrante do Circuito Distrital AADPortalegre. Contamos convosco.</p>\n",
+  "description_short": "Trail acessível na região de Alter do Chão com foco na iniciação ao Trail Running",
+  "page": "https://www.prozis.com/pt/pt/evento/3-trail-do-cavalo",
+  "slug": "trail-do-cavalo",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Portalegre",
+  "administrative_area_level_3": "União das freguesias da Sé e São Lourenço",
+  "district_code": 12
+}

@@ -1,0 +1,34 @@
+{
+  "id": 22269,
+  "name": "Trail Rota do Bolinhol 2023",
+  "location": "Vizela, Braga",
+  "coordinates": {
+    "lat": 41.3764108,
+    "lon": -8.309834799999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    6000,
+    13000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/10a9ea27295e5e94138a6181fd65fc0e"
+  ],
+  "start_date": "2023-04-16",
+  "end_date": "2023-04-17",
+  "circuit": [],
+  "description": "\n<p>O 7º Trail Rota do Bolinhol será constituído por um Mini-Trail de 13km, um Trail de 20km e uma caminhada de 6km, organizados pela Casa do Futebol Clube do Porto-Dragões Vale do Vizela.</p>\n",
+  "description_short": "Trail técnico pela região de Vizela com diferentes percursos para todos os níveis de trail running",
+  "page": "https://fpacompeticoes.pt/1952/inscrever",
+  "slug": "trail-rota-do-bolinhol-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vizela",
+  "administrative_area_level_3": "União das freguesias de Caldas de Vizela (São Miguel e São João)",
+  "district_code": 3
+}

@@ -75,9 +75,9 @@ export function EventList({
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {events.map((event) => (
           <EventCard
-            key={event.event_id}
+            key={event.id}
             event={event}
-            isSaved={savedEventIds.has(event.event_id)}
+            isSaved={savedEventIds.has(event.id)}
             onToggleSave={onToggleSave}
             onEventClick={onEventClick}
           />

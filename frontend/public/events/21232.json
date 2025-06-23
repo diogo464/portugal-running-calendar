@@ -1,0 +1,33 @@
+{
+  "id": 21232,
+  "name": "Maratona de Lisboa 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    34000,
+    42195
+  ],
+  "types": [
+    "marathon",
+    "run"
+  ],
+  "images": [
+    "media/cd2abfc59ce72629272d6cb95ccd3cee"
+  ],
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-09",
+  "circuit": [],
+  "description": "\n<p>A Maratona de Lisboa realiza-se a <strong>8 de Outubro</strong>, parte de&nbsp;<strong>Cascais</strong>&nbsp;e segue sempre pela&nbsp;<strong>Estrada Marginal</strong>, primeiro junto ao mar e depois ao longo do rio até à meta em Lisboa no&nbsp;<strong>Parque das Nações</strong>.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Preços</h2>\n\n\n\n<p>Alerta! Há outro site a vender mais caro&#8230;</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img fetchpriority=\"high\" decoding=\"async\" width=\"564\" height=\"410\" src=\"https://www.portugalrunning.com/wp-content/uploads/2023/07/image-16.png\" alt=\"\" class=\"wp-image-26901\" srcset=\"https://www.portugalrunning.com/wp-content/uploads/2023/07/image-16.png 564w, https://www.portugalrunning.com/wp-content/uploads/2023/07/image-16-300x218.png 300w\" sizes=\"(max-width: 564px) 100vw, 564px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Percurso</h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"zak-oembed-container\"><iframe title=\"Lisbon Marathon full racecourse 2021\" width=\"812\" height=\"457\" src=\"https://www.youtube.com/embed/cYWOFhcj34k?start=8&#038;feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n</div></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Kit de Participação</h2>\n\n\n\n<p>O “kit de participação” na prova será composto por uma t-shirt técnica, um dorsal com chip e um saco. Os finalistas terão ainda direito a uma medalha.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Chegar à Partida</h2>\n\n\n\n<p>Para aceder à partida, localizada no Hipódromo de Cascais, os participantes devidamente inscritos podem utilizar gratuitamente os transportes parceiros do evento. Atenção: haverá um comboio especial a partir do Cais do Sodré às 06:15.</p>\n\n\n\n<p>Para beneficiar do transporte gratuito, os participantes deverão apresentar o dorsal oficial da prova. Os transportes gratuitos disponibilizados pela organização são: Metropolitano de Lisboa, Carris, Comboios da CPLisboa nas linhas de Sintra, Cascais, Azambuja e Sado (para viagens CP de longo curso, os participantes terão 30% de desconto com a apresentação do dorsal).</p>\n\n\n\n<p>Os transportes gratuitos são válidos desde a sua abertura até às 17h00 do dia da prova.</p>\n",
+  "description_short": "Maratona épica de Lisboa com partida em Cascais, seguindo a Estrada Marginal até ao Parque das Nações",
+  "page": "https://www.maratonaclubedeportugal.com/prova/edp-maratona-de-lisboa/",
+  "slug": "edp-maratona-de-lisboa-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

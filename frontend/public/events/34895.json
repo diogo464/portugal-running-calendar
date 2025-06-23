@@ -1,0 +1,30 @@
+{
+  "id": 34895,
+  "name": "5º Trail St Luzia &#8211; S. Miguel Da Carreira 2024",
+  "location": "São Miguel da Carreira, Barcelos",
+  "coordinates": {
+    "lat": 41.4770218,
+    "lon": -8.5554986
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0c07930d7d8bf557a16890e102ea3bb4"
+  ],
+  "start_date": "2024-07-14",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>Com o intuito de promover a cultura e o desporto da união de freguesias de Carreira e Fonte Coberta, a A.D. Carreira, a Comissão de festas da Santa Luzia, vão organizar o 5ºTrail e uma caminhada pelos mais bonitos trilhos das duas freguesias.</p>\n\n\n\n<p>Ao longo do percurso, vamos ter oportunidade de ver o renovado parque de Santa Luzia, a pedra d`agua, as quintas vinícolas, os campos em plena época de sementeira, a “fonte coberta”, a criação de caracóis, os ribeiros e riachos, tudo isto num percurso meticulosamente desenhado para que possa disfrutar desta beleza natural em pleno convívio com os amigos e família envoltos numa sã e agradável competição que terminará com uma refrescante bebida e a tradicional “broinha de Santa Luzia”.</p>\n\n\n\n<p>Num dia dedicado ao desporto e á cultura, Carreira e Fonte Coberta abrirá as suas portas para vos receber de braços abertos e vos dar o que de melhor temos para oferecer a quem nos visita.</p>\n\n\n",
+  "description_short": "Trail pelos trilhos históricos e naturais de Carreira e Fonte Coberta, com passagem por parque, quintas vinícolas e paisagens tradicionais",
+  "page": "https://www.sinctime.com/evento/232",
+  "slug": "5o-trail-st-luzia-s-miguel-da-carreira-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "União das freguesias de Carreira e Fonte Coberta",
+  "district_code": 3
+}

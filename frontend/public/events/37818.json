@@ -1,0 +1,35 @@
+{
+  "id": 37818,
+  "name": "São Silvestre Famalicão 2024",
+  "location": "Vila Nova de Famalicão, Braga",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/515de8036a64c186307d8fce0c781138"
+  ],
+  "start_date": "2024-12-23",
+  "end_date": "2024-12-24",
+  "circuit": [],
+  "description": "\n<p>Já bem perto do Natal realiza-se uma vez mais uma das maiores provas de São Silvestre do país, onde além da prova de 10 kms se realizará uma Mini/Caminhada com a distância de 4 kms.</p>\n",
+  "description_short": "São Silvestre tradicional com percurso urbano e caminhada solidária",
+  "page": "https://lap2go.com/pt/event/ss-famalicao-2024",
+  "slug": "sao-silvestre-famalicao-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

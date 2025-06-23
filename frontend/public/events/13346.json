@@ -1,0 +1,33 @@
+{
+  "id": 13346,
+  "name": "São Silvestre Barcelos 2021",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/3b2da71126e31f85996b342bc4b120be"
+  ],
+  "start_date": "2021-12-30",
+  "end_date": "2021-12-31",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.amigosdamontanha.com/?it=event4&co=7096#",
+  "slug": "sao-silvestre-barcelos-2021",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

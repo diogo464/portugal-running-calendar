@@ -1,0 +1,29 @@
+{
+  "id": 40602,
+  "name": "Penacova Trail do Centro 2025",
+  "location": "Penacova, Coimbra Bombeiros Voluntários de Penacova",
+  "coordinates": {
+    "lat": 40.2683222,
+    "lon": -8.2832606
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-09-07",
+  "end_date": "2025-09-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p><br></p>\n",
+  "description_short": "Peço desculpa, mas não foi fornecida nenhuma descrição de corrida para eu resumir. Por favor, partilhe os detalhes do evento de corrida para que eu possa criar um resumo conciso em português de Portugal.",
+  "page": null,
+  "slug": "penacova-trail-do-centro-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penacova",
+  "administrative_area_level_3": "Penacova",
+  "district_code": 6
+}

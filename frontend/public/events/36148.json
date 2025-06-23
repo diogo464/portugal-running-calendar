@@ -1,0 +1,38 @@
+{
+  "id": 36148,
+  "name": "Trail e Caminhada Clube Trilheiros &amp; Amigos 2024",
+  "location": "Paços de Ferreira, Porto",
+  "coordinates": {
+    "lat": 41.2782274,
+    "lon": -8.3750991
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    500,
+    1500,
+    9000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bdbe0aac44ac2896672093a70e1b72f1"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [],
+  "description": "\n<p>É uma prova de Trail running por trilhos e montanhas vales, que se desenvolve no território de Paços de Ferreira, tendo como partida da prova nos jardins do Mosteiro de S. Pedro de Ferreira.</p>\n\n\n\n<p>VII Trail &amp; Caminhada clube Trilheiros &amp; Amigos ,não só vempromover acidade de Paços de Ferreira, como toda a zona das freguesias de Ferreira e Paços de Ferreira, como também ajudar na dinamização económica e social. VII Trail clube Trilheiros &amp; Amigos decorrerá a 17 de Novembro de 2024,em Paços de Ferreira,na freguesia de Ferreira, tendo como partida da prova nos jardins do Mosteiro de S. Pedro de Ferreira Este<br>evento é constituído por duas provas competitivas, uma comcerca de 25 km e outra de 15 km, além destas provas também irá realizar-se umacaminhada,com 9 km. TRAIL KIDS 500 MTS/1500 MTS.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos e montanhas de Paços de Ferreira, com partida junto ao histórico Mosteiro de S. Pedro de Ferreira",
+  "page": "https://lap2go.com/pt/event/trail-trilheiros-e-amigos-2024",
+  "slug": "trail-e-caminhada-clube-trilheiros-amigos-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paços de Ferreira",
+  "administrative_area_level_3": "Paços de Ferreira",
+  "district_code": 13
+}

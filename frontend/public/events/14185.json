@@ -1,0 +1,29 @@
+{
+  "id": 14185,
+  "name": "Ultra Madeira 2022",
+  "location": "Madeira",
+  "coordinates": {
+    "lat": 32.76070740000001,
+    "lon": -16.9594723
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8954d8b61d3b887613ba1d8761a271ab"
+  ],
+  "start_date": "2022-10-01",
+  "end_date": "2022-10-02",
+  "circuit": [],
+  "description": "\n<p>A AARAM – Associação de Atletismo da Região Autónoma da Madeira é a associação organizadora do evento denominado “Ultra Madeira 2022”, 6ª edição, que decorrerá com absoluto respeito pelo meio ambiente</p>\n",
+  "description_short": "Trail pela Madeira com compromisso ambiental na sua sexta edição",
+  "page": "https://www.ultratrailmadeiraisland.com",
+  "slug": "ultra-madeira-2022-2",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

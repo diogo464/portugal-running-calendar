@@ -1,0 +1,32 @@
+{
+  "id": 15451,
+  "name": "Mondego Ultra Trail 2022",
+  "location": "Torres Do Mondego, Coimbra",
+  "coordinates": {
+    "lat": 40.1955531,
+    "lon": -8.3802653
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    22000,
+    45000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/54a9397f5284e9bf60ddc0f5d9a2f0a5"
+  ],
+  "start_date": "2022-09-10",
+  "end_date": "2022-09-11",
+  "circuit": [],
+  "description": "\n<p>O Mondego Ultra Trail® é um evento em trilhos com o objectivo de percorrer determinada distância ultrapassando os obstáculos naturais do terreno e enfrentar as suas adversidades no menor tempo possível, não é uma caminhada.<br>Desenvolve-se a partir da Freguesia de Torres do Mondego, e apresenta características que o levam a enquadrar-se na modalidade de Skyrunning, mais concretamente os 45km na vertente de Skymarathon® etapa da Taça de Portugal e do Troféu Nacional de Clubes na disciplina de Sky, e os 22km na vertente SkyRace® a contar para a Taça de Portugal de Juventude SUB-23.</p>\n",
+  "description_short": "Trail técnico e desafiante pelas serras de Torres do Mondego, com etapas oficiais de Skyrunning",
+  "page": "https://stopandgo.net/event/?id=796",
+  "slug": "mondego-ultra-trail-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "Torres do Mondego",
+  "district_code": 6
+}

@@ -1,0 +1,29 @@
+{
+  "id": 471,
+  "name": "Corrida do Fim da Europa",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/ae98b67d27ae0d3a8ea027a139bc1982"
+  ],
+  "start_date": "2020-01-26",
+  "end_date": "2020-01-27",
+  "circuit": [],
+  "description": "<h4><a href=\"https://resultados.stopandgo.pro/?id_evento=466&amp;page=Individual\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #99cc00;\"><strong>RESULTADOS</strong></span></a></h4>\n<p><span style=\"color: #99cc00;\"><a style=\"color: #99cc00;\" href=\"https://www.facebook.com/pg/Paulo-Sezilio-Foto-Desporto-449424891861386/photos/?tab=album&amp;album_id=1711454088991787&amp;ref=page_internal\" target=\"_blank\" rel=\"noopener\">FOTOS</a></span></p>\n<p>&nbsp;</p>\n<p>Uma das mais antigas e tradicionais provas nacionais, a Corrida Fim da Europa decorre numa das paisagens mais encantadoras de Portugal, a Vila de Sintra – Património Mundial da Unesco.<br />\nEsta beleza é comprovada pelo o facto de estar entre as 10 primeiras no livro World’s Ultimate Running Races, da Harper Collins Publishers, que destaca as 500 mais emblemáticas provas a nível mundial.</p>\n",
+  "description_short": "Corrida histórica em Sintra, UNESCO, considerada uma das mais emblemáticas provas de running a nível mundial",
+  "page": "https://www.fimdaeuropa.com/",
+  "slug": "corrida-do-fim-da-europa",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

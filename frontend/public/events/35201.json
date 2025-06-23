@@ -1,0 +1,34 @@
+{
+  "id": 35201,
+  "name": "Trilhos Moinhos da Gândara 2024",
+  "location": "Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1521398,
+    "lon": -8.857583
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    8000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/854deb287ab0350ccca1e950b6aade9d"
+  ],
+  "start_date": "2024-06-01",
+  "end_date": "2024-06-02",
+  "circuit": [],
+  "description": "\n<p>Realizar-se-á no dia 01 de junho de 2024, pelas 17h00, organizada pela Junta de Freguesia de Moinhos da Gândara, com o apoio das várias associações locais e de diversas entidades e empresas, sendo os seus percursos traçados maioritariamente na área geográfica da referida freguesia.</p>\n\n\n\n<p>Os Trilhos Moinhos da Gândara &#8211; 2024 serão compostos por:</p>\n\n\n\n<p><br>Trilho com cerca de 15 kms, de dificuldade moderada;</p>\n\n\n\n<p>Caminhada com cerca de 8 kms.</p>\n",
+  "description_short": "Trilho e caminhada local com percursos pela pitoresca região de Moinhos da Gândara",
+  "page": "https://www.runmanager.net/Eventos/trilhos-moinhos-da-g-ndara/833",
+  "slug": "trilhos-moinhos-da-gandara-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

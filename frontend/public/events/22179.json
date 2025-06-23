@@ -1,0 +1,38 @@
+{
+  "id": 22179,
+  "name": "Alegro Meia Maratona De Setúbal 2023",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    1000,
+    5000,
+    10000,
+    21097,
+    21100
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/e841be5cf2d489d9b1bd297013aa4936"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [],
+  "description": "\n<p>A Alegro Meia Maratona de Setúbal 21,1 Km, a Corrida de 10 Km e a Corrida das Famílias 5 Km irão decorrer no seguinte horário e locais:</p>\n\n\n\n<p>Data: 30 de abril de 2023<br>Hora de partida: 9h30<br>Local de partida: Alegro Setúbal<br>Local da meta: Avenida Luísa Todi, em frente ao auditório José Afonso<br>A Corrida Miúdos Alegro irá decorrer no seguinte horário e local:</p>\n\n\n\n<p>Data: 29 de abril de 2023<br>Hora de partida: 16h00<br>Local de partida / meta: Alegro Setúbal</p>\n",
+  "description_short": "Meia maratona e corridas na cidade de Setúbal com partida no Alegro e meta na Avenida Luísa Todi",
+  "page": "https://www.alegromeiamaratonadesetubal.pt/",
+  "slug": "alegro-meia-maratona-de-setubal-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

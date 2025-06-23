@@ -1,0 +1,35 @@
+{
+  "id": 23650,
+  "name": "Trail Costa Vicentina 2023",
+  "location": "Santiago do Cacém, Setúbal Setubal",
+  "coordinates": {
+    "lat": 38.0162314,
+    "lon": -8.6956768
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    15000,
+    25000,
+    57000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/9b10c39c63a4088a9cb40a5e642a1fbd"
+  ],
+  "start_date": "2023-11-26",
+  "end_date": "2023-11-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>No próximo dia 26 de novemebro (adiaado de 1 de outubro) de 2023, realiza-se com o apoio dos Municipios de Sines e de Santiago do Cacém, a 7ª edição do Trail Costa Vicentina. </p>\n\n\n\n<p>O mesmo será percorrido pelo belo e único trilho/caminho pedestre da Rota Vicentina entre Santiago do Cacém e Porto Covo, na distância de 57 Km, com partida ás 8h30 na Igreja Matriz de Santiago do Cacém.</p>\n\n\n\n<p>Com início ás 10h00 no centro do Cercal do Alentejo, partem os atletas para uma distância intermédia de 25 Km até Porto Covo.</p>\n\n\n\n<p>Finalmente pelas 10h30 tem lugar a partida para uma distância mais curta num percurso de 15 Km entre a Sonega e Porto Covo.</p>\n\n\n\n<p>O Trail Ultra, Trail Médio e Trail Sprint são etapas dos Circuitos Nacionais de Trail Ultra, Trail e Trail Sprint.</p>\n\n\n\n<p>No mesmo dia uma Caminhada não competitiva, num percurso circular no Cercal do Alentejo também percorrida na Rota Vicentina. O valor da inscrição da Caminhada reverte na totalidade para os Bombeiros Voluntários do Cercal do Alentejo.</p>\n",
+  "description_short": "Trail Costa Vicentina pela Rota Vicentina, ligando Santiago do Cacém a Porto Covo com três distâncias e apoio solidário aos bombeiros locais",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/122871-7o_transactlat_trail_costa_vicentina-santiago_do_cacem_e_sines/",
+  "slug": "7o-trail-costa-vicentina-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santiago do Cacém",
+  "district_code": 15
+}

@@ -1,0 +1,32 @@
+{
+  "id": 40592,
+  "name": "Trail da Lomba 2025",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/e5bea9a0064bcf92f0e1eeb7ad5bc0cc"
+  ],
+  "start_date": "2025-07-13",
+  "end_date": "2025-07-14",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p></p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Desculpe, mas não forneceu nenhuma descrição de evento de corrida para eu resumir. Poderia partilhar os detalhes da corrida para que eu possa gerar um resumo conciso?",
+  "page": "https://stopandgo.net/events/trail-da-lomba-2025",
+  "slug": "trail-da-lomba-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

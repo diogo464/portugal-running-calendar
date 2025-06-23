@@ -1,0 +1,33 @@
+{
+  "id": 27710,
+  "name": "Trail Vale Do Homem 2023",
+  "location": "Vila Verde, Braga",
+  "coordinates": {
+    "lat": 41.6507161,
+    "lon": -8.433281299999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    14000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/78e4ad4fe2248ed7e775bb806f9b4f22"
+  ],
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-09",
+  "circuit": [],
+  "description": "\n<p>Com o objetivo de promover o desporto e a vida saudável, o TRAIL VALE DO HOMEM tem características únicas e propõe aos seus participantes uma fantástica aventura, percorrendo magníficas paisagens ao longo das margens do Rio Homem durante 14 km ou 24 km em trail no dia 8 de Outubro.</p>\n\n\n",
+  "description_short": "Trail desafiante pelas margens do Rio Homem com paisagens naturais únicas",
+  "page": "https://www.sinctime.com/evento/184",
+  "slug": "trail-vale-do-homem-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Verde",
+  "administrative_area_level_3": "Vila Verde e Barbudo",
+  "district_code": 3
+}

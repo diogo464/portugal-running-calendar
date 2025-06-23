@@ -1,0 +1,33 @@
+{
+  "id": 34136,
+  "name": "Corrida 1º de Maio 2024",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/92111a279a283c770d492f4fbbb5bde1"
+  ],
+  "start_date": "2024-05-01",
+  "end_date": "2024-05-02",
+  "circuit": [],
+  "description": "\n<p>As avenidas de Lisboa voltam a ser no dia 1 de Maio 2024, o palco para a tradicional Corrida Internacional 1º de Maio, promovida pela União dos Sindicatos de Lisboa / CGTP, prova que anualmente, reúne mais de um milhar de atletas e amantes do desporto.</p>\n\n\n\n<h6 class=\"wp-block-heading\"><strong>Corrida 15 km<br>Corrida/Caminhada 4 km</strong></h6>\n",
+  "description_short": "Corrida tradicional de 1º de Maio pelas avenidas de Lisboa, organizada pela União dos Sindicatos de Lisboa",
+  "page": "https://xistarca.pt/eventos/corrida-1o-de-maio-2024",
+  "slug": "corrida-1o-de-maio-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

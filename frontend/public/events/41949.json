@@ -1,0 +1,30 @@
+{
+  "id": 41949,
+  "name": "Sunset Desportivo Santa Bárbara de Nexe 2025",
+  "location": "Santa Barbara de Nexe, Faro",
+  "coordinates": {
+    "lat": 37.1035956,
+    "lon": -7.963840599999998
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/4bb21eb681a91cffcca6232fd58d2c29"
+  ],
+  "start_date": "2025-06-21",
+  "end_date": "2025-06-21",
+  "circuit": [],
+  "description": "\n<p>A Algarviana Team – Associação Cultural e Desportiva, sem fins lucrativos e com sede em Gorjões, com o apoio da Câmara Municipal de Faro e Junta de Freguesia de Santa Bárbara de Nexe organiza e promove o evento “2º Sunset Desportivo”, que decorrerá no dia 21 de junho de 2025.</p>\n\n\n",
+  "description_short": "Evento desportivo ao pôr-do-sol organizado pela Algarviana Team em Santa Bárbara de Nexe, Faro",
+  "page": "https://www.crono.aaalgarve.org/eventos/2-sunset-desportivo",
+  "slug": "sunset-desportivo-santa-barbara-de-nexe-2025",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": "Santa Bárbara de Nexe",
+  "district_code": 8
+}

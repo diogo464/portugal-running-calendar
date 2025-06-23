@@ -1,0 +1,32 @@
+{
+  "id": 35030,
+  "name": "10 km Pataias 2024",
+  "location": "Pataias, Alcobaça",
+  "coordinates": {
+    "lat": 39.6703746,
+    "lon": -8.9949554
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/dd34f69b6a7068e9bea6c18fb56e1e0f"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-19",
+  "circuit": [],
+  "description": "\n<p>A União de Freguesias Pataias e Martingança, com o apoio da Organização 10Km Pataias realiza no próximo dia 19 de Maio de 2024 pelas 10:00 uma corrida de estrada denominada 10Km de Pataias.</p>\n\n\n",
+  "description_short": "Corrida de estrada na região de Pataias com apoio da junta de freguesia local",
+  "page": "https://sportchip.net/index.php?pg=evento&id=233",
+  "slug": "10-km-pataias-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "União das freguesias de Pataias e Martingança",
+  "district_code": 10
+}

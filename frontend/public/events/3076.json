@@ -1,0 +1,33 @@
+{
+  "id": 3076,
+  "name": "Bonito by Night 2021",
+  "location": "Entroncameto, Santarém",
+  "coordinates": {
+    "lat": 39.4611239,
+    "lon": -8.478759
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    15000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f3e06e3dd8d745457647b51f6deca14e"
+  ],
+  "start_date": "2021-09-11",
+  "end_date": "2021-09-12",
+  "circuit": [],
+  "description": "\n<p><strong>Localidade:</strong><br>Complexo Desportivo do Bonito &#8211; Entroncamento<br><br><br><strong>Distâncias:</strong></p>\n\n\n\n<p><strong>•&nbsp;&nbsp;&nbsp; Trail – 25 km</strong>&nbsp;&#8211; Prova de qualificação para a Taça de Portugal de Trail (ATRP), e prova pontuável para o trail longo do CTR (idade mínima 18 anos)</p>\n\n\n\n<p><strong>•&nbsp;&nbsp;&nbsp; Mini Trail – 15 km</strong>&nbsp;&#8211; Prova pontuável para o circuito de trail curto do CTR&nbsp;(idade mínima 18 anos)</p>\n\n\n\n<p><strong>•&nbsp;&nbsp;&nbsp;</strong><strong>Caminhada</strong>&nbsp;(idade mínima 16 anos)</p>\n",
+  "description_short": "Trail competitivo no Entroncamento com provas de qualificação para a Taça de Portugal",
+  "page": "https://www.trilhoperdido.com/evento/Bonito-By-Night-2021",
+  "slug": "bonito-by-night-2021",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Entroncamento",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

@@ -1,0 +1,38 @@
+{
+  "id": 20655,
+  "name": "Trilhos de Mértola 2023",
+  "location": "Mértola, Beja",
+  "coordinates": {
+    "lat": 37.6415148,
+    "lon": -7.6606665
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    9000,
+    15000,
+    25000,
+    45000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/b4bbd9389199a0a224ae5fab78247cab"
+  ],
+  "start_date": "2023-03-05",
+  "end_date": "2023-03-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O evento desportivo Trilhos de Mértola -Trail Run integra as seguintes distâncias (previsíveis):<br>a) &#8211; Ultra Trail &#8211; 45 Km<br>b) &#8211; Trail Longo- 25 Km<br>c) – Trail Curto – 15 Km<br>c) &#8211; Caminhada de 9 km, sem vertente competitiva.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos históricos do Alentejo com várias opções de percurso em Mértola",
+  "page": "https://stopandgo.net/event/?id=950",
+  "slug": "trilhos-de-mertola-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Mértola",
+  "administrative_area_level_3": "Mértola",
+  "district_code": 2
+}

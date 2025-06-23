@@ -1,0 +1,37 @@
+{
+  "id": 28470,
+  "name": "Trail Nascente e Vale do Neiva 2024",
+  "location": "Vila Verde, Braga",
+  "coordinates": {
+    "lat": 41.6507161,
+    "lon": -8.433281299999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000,
+    17000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3a92fba3e4ca5ecb8990b27105023ee1"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O IV Trail Nascente e Vale do Neiva pretende promover o desporto, a saúde e o bem-estar das populações, e terá lugar no dia 28 de Abril de 2024, incluindo uma Caminhada com 10km, um Trail Curto com 17km e um Trail Longo com 27 km.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos do Vale do Neiva a promover desporto e bem-estar local",
+  "page": "https://www.sinctime.com/evento/189",
+  "slug": "trail-nascente-do-vale-do-neiva-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Verde",
+  "administrative_area_level_3": "Vila Verde e Barbudo",
+  "district_code": 3
+}

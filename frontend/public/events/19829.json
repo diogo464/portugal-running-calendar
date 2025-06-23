@@ -1,0 +1,32 @@
+{
+  "id": 19829,
+  "name": "Cross Laminha 2023",
+  "location": "Cumeira, Leiria",
+  "coordinates": {
+    "lat": 39.691046,
+    "lon": -8.8026334
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    13000
+  ],
+  "types": [
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/8188bc280ba5c6645cc6bb29d975f896"
+  ],
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-16",
+  "circuit": [],
+  "description": "\n<p>A Fábrica da Igreja não Paroquial da Boieira organiza no dia 15 janeiro de 2023, pelas 10h00, a 19ª edição do CROSS LAMINHA, com percurso de cerca de 13 kms. Se a organização entender que as condições climatéricas são adversas à segurança dos atletas ou que existem outras razões de natureza diversa que se<br>incompatibilizem com o evento, o percurso poderá sofrer alterações ou, no limite, o evento pode ser suspenso ou anulado.</p>\n",
+  "description_short": "Cross tradicional em zona rural com percurso de 13 kms organizado pela Fábrica da Igreja da Boieira",
+  "page": "https://eventos.dreamstudio.pt/crosslaminha2023",
+  "slug": "cross-laminha-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

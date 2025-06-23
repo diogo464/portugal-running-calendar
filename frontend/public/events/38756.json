@@ -1,0 +1,30 @@
+{
+  "id": 38756,
+  "name": "River Trail 2025",
+  "location": "Fornos de Algodres, Guarda",
+  "coordinates": {
+    "lat": 40.6201957,
+    "lon": -7.539550699999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/9d68516398dd23f8823bc7edc753ab71"
+  ],
+  "start_date": "2025-07-13",
+  "end_date": "2025-07-14",
+  "circuit": [],
+  "description": "\n<p>O ”IV RIVER TRAIL” é um trail, organizado pela “AVCAT-Associação Vila Chã Aldeia Trail de Portugal” a realizar no dia 13 de julho de 2025, na Praia Fluvial da Ponte de Juncais, em Fornos de Algodres.<br>Este trail faz parte da 4ª edição do Circuito Municipal de Trail &#8211; Trilhos D`O Bom Sabor da Serra-VI(r)VER Fornos de Algodres e será a 5ª etapa.</p>\n\n\n",
+  "description_short": "Trail pela zona fluvial de Fornos de Algodres com passagem pela Ponte de Juncais",
+  "page": "https://acorrer.pt/eventos/3706/info",
+  "slug": "river-trail-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "Fornos de Algodres",
+  "district_code": 9
+}

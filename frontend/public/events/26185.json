@@ -1,0 +1,35 @@
+{
+  "id": 26185,
+  "name": "Free Trail Solidário 2023",
+  "location": "Póvoa de Varzim, Porto",
+  "coordinates": {
+    "lat": 41.3828815,
+    "lon": -8.759989299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    6000,
+    16000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/efdc0b987719bb0a5ec1a804a5bde11f"
+  ],
+  "start_date": "2023-12-17",
+  "end_date": "2023-12-18",
+  "circuit": [],
+  "description": "\n<p>O percurso estará completamente sinalizado com fitas e setas, com equipas de resgate e salvamentos com enfermeiros, escuteiros e elementos da organização durante todo o percurso. Este é um evento solidário onde, para além do teu contributo com o valor da inscrição, poderás trazer bens de primeira necessidade (artigos de mercearia e higiene pessoal) e brinquedos ou qualquer contribuição para ajudar estas instituições de apoio aos mais carenciados. Poderão existir prémios para sorteio ,todos aqueles que a organização possa vir a angariar ! No final cada participante terá direito a uma lembrança finisher.<br></p>\n\n\n\n<p><strong>Caminhada</strong>:</p>\n\n\n\n<p>A caminhada terá cerca de 6km pelo percurso do trail e será guiada e sinalizada, e poderá ser<br>feita ao ritmo de cada participante.</p>\n\n\n\n<p>Valor da inscrição 8 euros<br></p>\n\n\n\n<p><strong>Trail</strong>:</p>\n\n\n\n<p>O trail terá cerca de 16 km e todo o percurso estará devidamente sinalizado com fitas e terá<br>membros da organização a prestar auxílio ao longo do percurso<br>. Valor da inscrição 12 euros</p>\n\n\n\n<p>Inscrições obrigatórias através da plataforma de inscrições stopandgo.</p>\n\n\n\n<p><strong>Kids trail:</strong></p>\n\n\n\n<p>O kids trail destina-se a crianças com idade mínima de 5 anos e máxima 12 anos</p>\n\n\n\n<p>Valor da inscrição 5 euros</p>\n",
+  "description_short": "Corrida solidária com trail, caminhada e percurso infantil, angariando bens para instituições de apoio social",
+  "page": "https://stopandgo.net/events/free-trail-solidario-2023",
+  "slug": "free-trail-solidario-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Póvoa de Varzim",
+  "district_code": 13
+}

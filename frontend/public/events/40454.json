@@ -1,0 +1,30 @@
+{
+  "id": 40454,
+  "name": "Trail do Mouro &#8211; Alcobertas 2025",
+  "location": "Rio Maior, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/68a446777f5fe663f6a9e70a2ccb96a4"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [],
+  "description": "\n<p>O evento conta com a organização do <strong>Agrupamento de Escuteiros 1187 de Alcobertas</strong> em conjunto com a<strong> Junta de Freguesia de Alcobertas,</strong> inserido nas comemorações da elevação de Alcobertas a Vila.</p>\n",
+  "description_short": "Trail solidário organizado pelos Escuteiros em Alcobertas durante as celebrações da elevação a Vila",
+  "page": "https://www.recordepessoal.pt/evento/7traildomouro-alcobertas",
+  "slug": "trail-do-mouro-alcobertas-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

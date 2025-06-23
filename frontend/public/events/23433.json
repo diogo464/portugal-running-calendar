@@ -1,0 +1,32 @@
+{
+  "id": 23433,
+  "name": "5.ªCorrida Da Liberdade &#8211; Macedo De Cavaleiros 2023",
+  "location": "Macedo de Cavaleiros, Bragança",
+  "coordinates": {
+    "lat": 41.5370005,
+    "lon": -6.9617993
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/1156e20f0b6728c7713b8c064a50ef9b"
+  ],
+  "start_date": "2023-04-25",
+  "end_date": "2023-04-26",
+  "circuit": [],
+  "description": "\n<p>Terá lugar no dia 25 de Abril de 2023, a 45 edição da Corrida da Liberdade  promovida pela Autarquia de Macedo de Cavaleiros.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida comemorativa do 25 de Abril a decorrer em Macedo de Cavaleiros",
+  "page": "https://www.sinctime.com/evento/143",
+  "slug": "5-acorrida-da-liberdade-macedo-de-cavaleiros-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Macedo de Cavaleiros",
+  "administrative_area_level_3": "Macedo de Cavaleiros",
+  "district_code": 4
+}

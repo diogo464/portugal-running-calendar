@@ -1,0 +1,30 @@
+{
+  "id": 41339,
+  "name": "GP de Atletismo Alpedrinha 2025",
+  "location": "Fundão, Castelo Branco",
+  "coordinates": {
+    "lat": 40.137963,
+    "lon": -7.501077299999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/f1d1be70867f03560c70bbe6e7056471"
+  ],
+  "start_date": "2025-05-17",
+  "end_date": "2025-05-17",
+  "circuit": [],
+  "description": "\n<p>I GP de Atletismo &#8220;Dr. José Vasco Mendes de Matos&#8221; a festa do atletismo está de volta a Alpedrinha, este ano 2025 conta com muitas novidades que te vão proporcionar excelentes momentos de convívio, animação e superação.</p>\n\n\n\n<p>Novos percursos, mais animação, muitos prémios, brindes e uma kit de participação, para poderes levar uma recordação do nosso evento para casa.</p>\n\n\n\n<p>Se não és adepto da corrida, podes vir caminhar, iremos contar com uma caminhada com um percurso pela zona histórica de Alpedrinha.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Primeiro Grande Prémio de Atletismo em Alpedrinha com percursos inovadores e caminhada pela zona histórica",
+  "page": "https://meutempo.pt/prova?gpalpedrinha",
+  "slug": "gp-de-atletismo-dr-jose-vasco-mendes-de-matos-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Fundão",
+  "administrative_area_level_3": "União das freguesias de Fundão, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo",
+  "district_code": 5
+}

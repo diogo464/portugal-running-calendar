@@ -1,0 +1,30 @@
+{
+  "id": 34285,
+  "name": "Corrida da Liberdade Portimão 2024",
+  "location": "Portimão, Faro",
+  "coordinates": {
+    "lat": 37.13617,
+    "lon": -8.5376926
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/5e26611da820e14d42fde68e61181b10"
+  ],
+  "start_date": "2024-04-25",
+  "end_date": "2024-04-25",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Portimão promove, a 25 de abril 2024, a Corrida da Liberdade Portimão, com partida e chegada na Zona Ribeirinha de Portimão. </p>\n\n\n",
+  "description_short": "Corrida da Liberdade a celebrar o 25 de abril na zona ribeirinha de Portimão",
+  "page": "https://www.corridadaliberdadeportimao.pt/",
+  "slug": "corrida-da-liberdade-portimao-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Portimão",
+  "administrative_area_level_3": "Portimão",
+  "district_code": 8
+}

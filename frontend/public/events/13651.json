@@ -1,0 +1,34 @@
+{
+  "id": 13651,
+  "name": "Corrida da Árvore 2022",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    1000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/db25fec673f47bb30a467c11f80f5992"
+  ],
+  "start_date": "2022-02-20",
+  "end_date": "2022-02-21",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://xistarca.pt/resultados/27a-corrida-da-arvore\" target=\"_blank\" rel=\"noreferrer noopener\">RESULTADOS</a></h2>\n\n\n\n<p>Uma corrida histórica, no coração verde de Lisboa e amiga do ambiente. Com mais de 20 000 atletas que já cruzaram a meta, a Corrida da Árvore 2022 está à sua espera. Este ano a prova voltará a ter uma corrida dedicada aos mais pequenos, com um percurso de 1km para eles brilharem!</p>\n\n\n\n<p>Cada participante receberá uma árvore para plantar, ajudando o meio ambiente!</p>\n",
+  "description_short": "Corrida histórica em Lisboa com missão ambiental e participação infantil, onde cada atleta planta uma árvore",
+  "page": "https://xistarca.pt/eventos/27a-corrida-da-arvore",
+  "slug": "corrida-da-arvore-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

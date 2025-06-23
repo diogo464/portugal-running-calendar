@@ -1,0 +1,36 @@
+{
+  "id": 30746,
+  "name": "Castellum Trail 2024",
+  "location": "Condeixa-a-Nova, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    15000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/4c4ff9bd40dad1df66a0cb4c69ad1d3e"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-20",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A realização da quinta edição do Castellum Trail está agendada para a data de 19 de Maio de 2024, sendo constituída por uma prova integrante do Circuito Distrital de Trail Running de Coimbra na categoria de Trail Longo referente à época de 2023/2024, Circuito ATRP de Trail Sprint e Trail, competições federadas e regulamentadas pela ADAC – Associação Distrital de Atletismo de Coimbra, ATRP – Associação de Trail Running de Portugal pela FPA – Federação Portuguesa de Atletismo.</p>\n\n\n\n<p>A prova será composta por duas distâncias de natureza competitiva designadas por Trail Longo (31K), Trail Sprint (15K) e uma distância não competitiva de Caminhada (10K).</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail competitivo pelas paisagens de Coimbra com duas provas de distâncias diferentes integradas em circuitos regionais",
+  "page": "https://stopandgo.net/events/castellum-trail-2024",
+  "slug": "castellum-trail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

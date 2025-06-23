@@ -1,0 +1,37 @@
+{
+  "id": 29006,
+  "name": "São Silvestre Espinho 2024",
+  "location": "Espinho, Aveiro",
+  "coordinates": {
+    "lat": 41.0071914,
+    "lon": -8.641033199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    300,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/7b9520b71da93f74b7736fefaba1d34d"
+  ],
+  "start_date": "2024-01-07",
+  "end_date": "2024-01-08",
+  "circuit": [],
+  "description": "\n<p>A 9ª São Silvestre Espinho, a realizar no dia 7 de janeiro de 2024, é composta por 3 provas:<br>uma corrida de 10km, uma caminhada de 5km, e uma prova para crianças com aproximadamente 300<br>metros. Para segurança de todos os participantes, não será permitida a participação de atletas em<br>bicicletas, patins, skate ou acompanhados por animais</p>\n\n\n\n<p></p>\n",
+  "description_short": "São Silvestre tradicional em Espinho com provas para diferentes escalões etários",
+  "page": "https://lap2go.com/pt/event/ss-espinho-2024",
+  "slug": "sao-silvestre-espinho-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Espinho",
+  "administrative_area_level_3": "Espinho",
+  "district_code": 1
+}

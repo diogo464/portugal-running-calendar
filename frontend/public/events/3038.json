@@ -1,0 +1,29 @@
+{
+  "id": 3038,
+  "name": "IX edição do DURATRAIL 2021",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e48fb2ba8124c66fe07424832cd3699b"
+  ],
+  "start_date": "2021-10-09",
+  "end_date": "2021-10-10",
+  "circuit": [],
+  "description": "\n<p>Inscrições em breve! Estejam atentos!</p>\n",
+  "description_short": "Sem informação suficiente para criar um resumo de corrida.",
+  "page": "https://www.facebook.com/duratrail",
+  "slug": "ix-edicao-do-duratrail-2021",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

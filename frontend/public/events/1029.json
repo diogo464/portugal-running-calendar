@@ -1,0 +1,29 @@
+{
+  "id": 1029,
+  "name": "Trail de Mafra 2020",
+  "location": "Mafra Mafra, Lisboa",
+  "coordinates": {
+    "lat": 38.9443106,
+    "lon": -9.3320856
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/77ef2fdc11706cc0437caa9281cc677b"
+  ],
+  "start_date": "2020-04-26",
+  "end_date": "2020-04-27",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.turresevents.com/eventos/",
+  "slug": "trail-de-mafra-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Mafra",
+  "district_code": 11
+}

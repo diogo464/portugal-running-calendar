@@ -1,0 +1,33 @@
+{
+  "id": 18822,
+  "name": "2º Grande Prémio de Atletismo de Alvito 2022",
+  "location": "Alvito, Beja",
+  "coordinates": {
+    "lat": 38.2558735,
+    "lon": -7.991930099999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/3b6de51e595db30a122bfca15f5c8985"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/3022",
+  "slug": "2o-grande-premio-de-atletismo-de-alvito-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Alvito",
+  "administrative_area_level_3": "Alvito",
+  "district_code": 2
+}

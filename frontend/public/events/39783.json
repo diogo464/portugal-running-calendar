@@ -1,0 +1,32 @@
+{
+  "id": 39783,
+  "name": "Corrida da Primavera de Guimarães 2025",
+  "location": "Guimarães, Braga",
+  "coordinates": {
+    "lat": 41.44253,
+    "lon": -8.2917857
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/348d2302cb28f16e17e60a0e5c5067cc"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-23",
+  "circuit": [],
+  "description": "\n<p>A Corrida da Primavera, parte integrante da Festa da Primavera 2025, promovida pelo Laboratório da Paisagem e com o apoio do Município de Guimarães, celebra a chegada da estação mais vibrante do ano com foco no desporto, natureza e sustentabilidade.</p>\n\n\n\n<p>Esta primeira edição será realizada no dia 23 de março de 2025, e marcará um importante passo na preparação de Guimarães para ser a Capital Verde Europeia em 2026, reforçando o seu compromisso com práticas ecológicas e a promoção de um estilo de vida saudável. No dia anterior, dia 22 de março de 2025, haverá uma atividade prévia onde os participantesm poderão explorar a emblemática Rota da Biodiversidade.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida da Primavera em Guimarães celebra sustentabilidade e natureza como preparação para Capital Verde Europeia",
+  "page": "https://www.sinctime.com/evento/313",
+  "slug": "corrida-da-primavera-de-guimaraes-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Serzedo",
+  "district_code": 3
+}

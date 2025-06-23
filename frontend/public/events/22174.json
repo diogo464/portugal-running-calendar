@@ -1,0 +1,31 @@
+{
+  "id": 22174,
+  "name": "Corrida Sempre Mulher 2023",
+  "location": "Praça dos Restauradores, Lisboa",
+  "coordinates": {
+    "lat": 38.7157819,
+    "lon": -9.1412387
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/0c8cb1e225ac38ec1cfb6a619521ff99"
+  ],
+  "start_date": "2023-03-26",
+  "end_date": "2023-03-27",
+  "circuit": [],
+  "description": "\n<p>No dia 26 de Março 2023 junte-se a nós e&nbsp;<strong>venha andar ou correr 5km por uma boa causa</strong>. Inscreva-se já e passe uma manhã saudável e inesquecível!</p>\n",
+  "description_short": "Corrida solidária de 5km numa manhã dedicada a uma causa especial",
+  "page": "https://www.corridasempremulher.com",
+  "slug": "corrida-sempre-mulher-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Santa Maria Maior",
+  "district_code": 11
+}

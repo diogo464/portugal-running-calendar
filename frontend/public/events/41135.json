@@ -1,0 +1,34 @@
+{
+  "id": 41135,
+  "name": "Maratona Porto 2025",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    42195
+  ],
+  "types": [
+    "run",
+    "10k",
+    "marathon"
+  ],
+  "images": [
+    "media/ed90fa8a4d6a79ce05eea9b836e24100"
+  ],
+  "start_date": "2025-11-02",
+  "end_date": "2025-11-03",
+  "circuit": [],
+  "description": "\n<p>A EDP Maratona do Porto com os seus 20 anos de vida, inicia a sua campanha de divulgação, com vista à 21ª. Edição, em 2025 a 2 de novembro, com início às 8h00, e tal como no passado, pretendemos fazer desta EDP Maratona do Porto, um evento de referência nacional e internacional.<a href=\"https://ad.doubleclick.net/ddm/trackclk/N1606021.5177411PORTUGALRUNNINGP/B31249597.386886229;dc_trk_aid=577923062;dc_trk_cid=209102372;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1\" target=\"_blank\" rel=\"noopener\"></a></p>\n\n\n\n<p></p>\n",
+  "description_short": "Maratona histórica do Porto celebra 20 anos com edição de prestígio nacional e internacional",
+  "page": "https://www.maratonadoporto.com/",
+  "slug": "maratona-porto-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

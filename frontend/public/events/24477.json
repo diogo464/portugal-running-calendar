@@ -1,0 +1,35 @@
+{
+  "id": 24477,
+  "name": "Trail Papatrilhos By Serra D’Ossa 2023",
+  "location": "Vila Viçosa, Évora",
+  "coordinates": {
+    "lat": 38.7754165,
+    "lon": -7.416119999999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    8000,
+    13000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/4dddda1c0a907f4effcd960552d01827"
+  ],
+  "start_date": "2023-09-03",
+  "end_date": "2023-09-04",
+  "circuit": [],
+  "description": "\n<p>O Trail Papatrilhos Vila Viçosa by Serra D’ossa é um evento organizado pela Associação Papatrilhos Vila Viçosa. Este evento pretende dinamizar a prática desportiva na região nomeadamente o Trail Running,<br>trazendo ao Concelho de Vila Viçosa, atletas de todo o País.</p>\n\n\n\n<p><br>A Associação Papatrilhos Vila Viçosa conta com o apoio da Camara Municipal de Vila Viçosa e<br>dasJuntas de Freguesia doConselho e de outros parceiros locais. O Trail Papatrilhos Vila Viçosa by Serra d’ossa é uma Prova de Trail Running, realizada em trilhos sinalizados, em piso acidentado, estradões e obstáculos naturais, com partida e chegada no mesmo local, em estrada do Monte da Cavaleira.</p>\n\n\n\n<p><br>Evento este que conta com a realização de um Trail Curto (aprox. 13km), um Trail Longo (aprox.<br>22Km) e ainda uma Caminhada (aprox. 8km)</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos de Vila Viçosa com apoio da câmara municipal e comunidade local",
+  "page": "https://www.trilhoperdido.com/evento/Trail-Papatrilhos-by-Serra-DOssa",
+  "slug": "trail-papatrilhos-by-serra-dossa-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Vila Viçosa",
+  "administrative_area_level_3": "Nossa Senhora da Conceição e São Bartolomeu",
+  "district_code": 7
+}

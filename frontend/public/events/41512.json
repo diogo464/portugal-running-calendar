@@ -1,0 +1,33 @@
+{
+  "id": 41512,
+  "name": "Corrida Clube Millennium BCP 2025",
+  "location": "Belém, Lisboa",
+  "coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/3c01d537edb13b61893fc1dcf51cac98"
+  ],
+  "start_date": "2025-10-05",
+  "end_date": "2025-10-06",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;Clube Millennium BCP irá realizar a&nbsp;<strong>“VII&nbsp;Corrida Clube Millennium BCP</strong>”, no dia&nbsp;<strong>05 outubro 2025</strong>, em Belém.&nbsp;É um evento de natureza desportiva que tem como objetivo incentivar e consciencializar a população para a importância da prática de exercício físico, num cenário com o Rio Tejo como imagem de fundo!</p>\n\n\n\n<p>Haverá animação para as crianças com insufláveis, jogos tradicionais e dança!</p>\n",
+  "description_short": "Corrida solidária em Belém com vista panorâmica para o Tejo e atividades para famílias",
+  "page": "https://xistarca.pt/eventos/vii-corrida-clube-millennium-bcp",
+  "slug": "corrida-clube-millennium-bcp-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

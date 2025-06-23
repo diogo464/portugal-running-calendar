@@ -1,0 +1,31 @@
+{
+  "id": 38340,
+  "name": "Maxi Race Madeira 2024",
+  "location": "São Vicente, Madeira",
+  "coordinates": {
+    "lat": 32.803304,
+    "lon": -17.0455668
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/fb3cad1e094123253e66a3d86415539f"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 6ª edição da Maxi Race Madeira, prova de Trail Running internacional, terá lugar maioritariamente no Município de São Vicente, sendo o centro de prova na freguesia de São Vicente, as provas percorrerão os trilhos das Freguesias de São Vicente, Ponta Delgada e Boaventura.</p>\n\n\n\n<p>A Maxi Race Madeira será realizada nos dias 7 e 8 de Dezembro 2024, num cenário de combinações únicas da nossa ilha, numa paisagem que alterna entre a floresta Laurissilva e o Mar.</p>\n\n\n\n<p>A Maxi Race Madeira integra um circuito mundial que se caracteriza por um conjunto de provas de trail running de aventura e descoberta localizadas um pouco por todo o mundo. Portugal assim como França, China, Equador, África do Sul e Itália dão as boas vindas a todos os apaixonados de Trail Running.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail running internacional em São Vicente com paisagens únicas entre a Laurissilva e o mar da Madeira",
+  "page": "https://maxiracemadeira.com/pt-pt/",
+  "slug": "maxi-race-madeira-2024",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": "São Vicente",
+  "district_code": 30
+}

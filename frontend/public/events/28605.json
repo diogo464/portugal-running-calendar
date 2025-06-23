@@ -1,0 +1,31 @@
+{
+  "id": 28605,
+  "name": "Sabrosa Trail 2023",
+  "location": "Sabrosa, Vila Real",
+  "coordinates": {
+    "lat": 41.2689661,
+    "lon": -7.5752443
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a6ddb2f9ce76ea869dbb38a7d3371e97"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://lap2go.com/pt/event/sabrosa-trail-por-terras-de-magalhaes-2023",
+  "slug": "sabrosa-trail-2023",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Sabrosa",
+  "administrative_area_level_3": "Sabrosa",
+  "district_code": 17
+}

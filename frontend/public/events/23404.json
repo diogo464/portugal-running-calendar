@@ -1,0 +1,32 @@
+{
+  "id": 23404,
+  "name": "Lidl Corrida De Santo António 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/7a8321b16ba99e11afb31592732b749d"
+  ],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.corridadesantoantonio.com/",
+  "slug": "lidl-corrida-de-santo-antonio-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

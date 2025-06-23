@@ -1,0 +1,31 @@
+{
+  "id": 27272,
+  "name": "Às Voltas Na Aldeia 2023",
+  "location": "Aldeia Grande, Setúbal",
+  "coordinates": {
+    "lat": 38.5185695,
+    "lon": -8.963564
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    3380
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4461478267df1ca2b9fb4fc3c89502fa"
+  ],
+  "start_date": "2023-10-01",
+  "end_date": "2023-10-02",
+  "circuit": [],
+  "description": "\n<p>ÀS VOLTAS NA ALDEIA é uma organização conjunta da Associação de Moradores da Aldeia Grande e Associação de Atletismo Lebres do Sado.</p>\n\n\n\n<p>A prova consiste em dar o máximo de voltas possível, durante 6 horas, no sentido do ponteiro dos relógios, a um circuito com uma extensão de 3380 m e em piso misto de asfalto, trilhos e estradão. Caracteriza-se como uma prova de “trail running”, de resistência e de longa duração, junto à localidade da Aldeia Grande,</p>\n\n\n\n<p>A prova terá início às 9h do dia 1 de outubro de 2023 e terminará às 15h do mesmo dia.</p>\n\n\n\n<p>Às 15h será emitido um sinal sonoro indicando o final do tempo, sendo que a distância a contabilizar será a que tenha sido registada na última passagem pela meta. No caso de empate relativamente à distância percorrida por mais do que um atleta (número de voltas), o critério de desempate será favorável ao atleta que tenha percorrido essa distância em menos tempo. O abandono, definitivo ou temporário para descanso do atleta, terá que ser feito sempre obrigatoriamente na zona antes da meta, em local identificado e destinado ao efeito, devendo sempre a organização ser informada do facto.</p>\n\n\n",
+  "description_short": "Trail de resistência de 6 horas na Aldeia Grande com circuito de terreno misto e voltas contínuas",
+  "page": "https://werun.pt/eventos/as-voltas-na-aldeia/",
+  "slug": "as-voltas-na-aldeia-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": "União das freguesias de Setúbal (São Julião, Nossa Senhora da Anunciada e Santa Maria da Graça)",
+  "district_code": 15
+}

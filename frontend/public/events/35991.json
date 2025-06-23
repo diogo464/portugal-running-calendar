@@ -1,0 +1,34 @@
+{
+  "id": 35991,
+  "name": "1º Fúria Trail 2024",
+  "location": "Freixianda, Ourém",
+  "coordinates": {
+    "lat": 39.6564974,
+    "lon": -8.5773408
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    8000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0a85b2c7befa81b500d3e047f0d8dc65"
+  ],
+  "start_date": "2024-08-10",
+  "end_date": "2024-08-10",
+  "circuit": [],
+  "description": "\n<p>O 1º Fúria Trail, sob organização da Associação Cultural e Recreativa Vale do Nabão (ACRVN), pretende afirmar-se como uma prova de desporto e lazer, sem carácter competitivo, na vertente de corrida [Trail Running], a realizar por percursos e trilhos envolventes à sede da ACRVN, em S. Jorge – Freixianda e localidades próximas. A primeira edição realiza-se no dia 10 de agosto de 2024. </p>\n\n\n\n<p>É categorizado por duas distâncias não cronometradas [na vertente de Trail e Caminhada], de acordo com as seguintes distâncias: Trail 12 km de natureza não competitiva e Caminhada com a extensão aproximada de 8 km.</p>\n\n\n",
+  "description_short": "Trail descontraído pelos trilhos de São Jorge com paragem na Freixianda",
+  "page": "https://www.queroir.pt/furiatrail",
+  "slug": "1o-furia-trail-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Olival",
+  "district_code": 14
+}

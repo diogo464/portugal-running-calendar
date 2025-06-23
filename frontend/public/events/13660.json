@@ -1,0 +1,29 @@
+{
+  "id": 13660,
+  "name": "Trail dos Moinhos da Bajouca 2022",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8b1a011347f76e9acea7f4eca84d439d"
+  ],
+  "start_date": "2022-03-19",
+  "end_date": "2022-03-20",
+  "circuit": [],
+  "description": "\n<p>O Trail dos Moinhos da Bajouca 2022 organizado pelo <strong>Grupo Alegre e Unido da Bajouca</strong> conjuntamente com a <strong>Associação Bajouquense</strong> para o Desenvolvimento. Conta com o apoio técnico da <strong>Recorde Pessoal e Associação Distrital de Atletismo de Leiria</strong>.</p>\n\n\n\n<p>Os eventos serão realizados no dia&nbsp;<strong>19 de Março 2022</strong>, independentemente das condições climatéricas desse dia, desde que a organização entenda que não ofereçam risco aos participantes.</p>\n\n\n\n<p>Se a organização o entender e a segurança dos participantes o justificar, poderão ser alterados os percursos previamente estabelecidos.</p>\n",
+  "description_short": "Trail tradicional pelos caminhos rurais da Bajouca, organizado por associações locais",
+  "page": "https://www.recordepessoal.pt/evento/traildosmoinhosdabajouca2022",
+  "slug": "trail-dos-moinhos-da-bajouca-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

@@ -1,0 +1,29 @@
+{
+  "id": 716,
+  "name": "Trail Meda de Douros",
+  "location": "Meda de Douros Mouros, Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/da8f6efd6989cb121b3e193b186f2dab"
+  ],
+  "start_date": "2020-01-12",
+  "end_date": "2020-01-13",
+  "circuit": [],
+  "description": "<p>O Meda de Mouros Trail é uma prova que decorre ao longo da pequena aldeia que lhe dá o nome. Pertence ao concelho de Tábua. O percurso é desenrolado na aldeia e nas suas imediações, estendendo-se até às magníficas margens do rio Alva, cujas águas correm cristalinas, com abundância de peixes. O solo é rico em xisto ou lousa, os vales verdejantes e os bosques cerrados fazem parte da maioria do percurso, com os trilhos a serpentear pelo sobe e desce constante, transcrevendo-se uma montanha russa de emoções e sensações incríveis que só o nosso Trail consegue fazer sentir a todos os seus participantes. Sendo este o primeiro Trail do ano, põe à prova as capacidades físicas e mentais dos participantes, com as condições climáticas que habitualmente se fazem sentir nesta altura do ano. É do seu apanágio o café e o chá quente para confortar todos os atletas, bem como o cepo a arder espalhando o seu calor.</p>\n",
+  "description_short": "Trail desafiante pelas serpenteantes margens do rio Alva, com paisagens de xisto e vales verdejantes em Meda de Mouros",
+  "page": "https://www.prozis.com/pt/pt/evento/meda-de-mouros-trail-2020",
+  "slug": "trail-meda-de-douros",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

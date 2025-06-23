@@ -1,0 +1,36 @@
+{
+  "id": 38364,
+  "name": "Trail da Loba 2025",
+  "location": "Rio de Loba, Viseu",
+  "coordinates": {
+    "lat": 40.6646716,
+    "lon": -7.8778339
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    12000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/187294acc66d247f9ad9a2f056659260"
+  ],
+  "start_date": "2025-01-19",
+  "end_date": "2025-01-20",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O 7º Trail da Loba será realizado no dia 19/01/2025 em Rio de Loba – Viseu. Este evento é organizado pela Junta de Freguesia de Rio de Loba, em parceria com o Centro Social Cultural Recreativo e Desportivo Leões da Beira e tem como objetivo promover a prática da atividade física, dando a conhecer os trilhos e caminhos da Freguesia de Rio de Loba.</p>\n\n\n\n<p><br>O Trail é composto por três percursos:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo de +/- 22Km </li>\n\n\n\n<li>Trail Curto de +/- 12Km );</li>\n\n\n\n<li>Mini-Trail de +/- 8Km <br>&#8211; Caminhada de +/- 8Km </li>\n</ul>\n",
+  "description_short": "Trail pela Serra de Viseu com descoberta dos caminhos rurais de Rio de Loba",
+  "page": "https://acorrer.pt/eventos/info/3664",
+  "slug": "trail-da-loba-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Rio de Loba",
+  "district_code": 18
+}

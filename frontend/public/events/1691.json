@@ -1,0 +1,29 @@
+{
+  "id": 1691,
+  "name": "Trail do Centro Penacova 2020",
+  "location": "Bombeiros Voluntários de Penacova",
+  "coordinates": {
+    "lat": 40.2683222,
+    "lon": -8.2832606
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/601f5af7365e672d409f8a347be4e5fe"
+  ],
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-09",
+  "circuit": [],
+  "description": "<p>Partindo de uma experiência acumulada no âmbito da organização de eventos, a rede de Centros de Trail Running Carlos Sá nasce para dar resposta e meios às necessidades dos amantes desta modalidade (e outras), de conhecerem um novo território, de uma forma completamente autónoma.</p>\n<p>O objetivo é orientar o visitante e, em simultâneo, fornecer-lhe todas as informações do local em que se  encontra, enriquecendo a sua visita. Para a promoção e visibilidade deste projeto nasce o Penacova Trail do Centro.</p>\n",
+  "description_short": "Trail de descoberta pela região de Penacova com rotas desenhadas por especialistas",
+  "page": "https://www.carlossanatureevents.com/pt/pntc",
+  "slug": "trail-do-centro-penacova-2020",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penacova",
+  "administrative_area_level_3": "Penacova",
+  "district_code": 6
+}

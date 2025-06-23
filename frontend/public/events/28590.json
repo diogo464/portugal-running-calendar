@@ -1,0 +1,34 @@
+{
+  "id": 28590,
+  "name": "São Silvestre Amares 2023",
+  "location": "Amares, Braga",
+  "coordinates": {
+    "lat": 41.6318252,
+    "lon": -8.3503217
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/6e5ab45a27999f4b0b77a373aa636133"
+  ],
+  "start_date": "2023-12-30",
+  "end_date": "2023-12-31",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 30 de Dezembro de 2023 pelas 17h00, em Amares com partida e chegada no Largo D. Gualdim Pais, a 9ª São Silvestre Amares, na qual se integrará uma caminhada com a distância de 5 km e uma prova para crianças, denominada de São Silvestre da Pequenada, sem fins competitivos.</p>\n\n\n",
+  "description_short": "São Silvestre tradicional em Amares com caminhada e prova infantil na véspera de passagem de ano",
+  "page": "https://lap2go.com/pt/event/ss-amares-2023",
+  "slug": "sao-silvestre-amares-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Amares",
+  "administrative_area_level_3": "União das freguesias de Amares e Figueiredo",
+  "district_code": 3
+}

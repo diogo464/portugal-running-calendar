@@ -1,0 +1,31 @@
+{
+  "id": 37213,
+  "name": "Sabrosa Trail 2024",
+  "location": "Sabrosa, Vila Real",
+  "coordinates": {
+    "lat": 41.2689661,
+    "lon": -7.5752443
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/efe7debb6630fea006e72ce3c58ab3c0"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O ST é uma prova de Trail Running certificada pela ATRP que percorre trilhos, caminhos rurais e estradões do concelho de Sabrosa, tendo como ponto de partida e chegada no Parque B.B. King junto à Exposição Permanente Fernão Magalhães</p>\n",
+  "description_short": "Trail pela região vinhateira com partida na zona de Fernão Magalhães em Sabrosa",
+  "page": "https://lap2go.com/pt/event/sabrosa-trail-por-terras-de-magalhaes-2024",
+  "slug": "sabrosa-trail-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Sabrosa",
+  "administrative_area_level_3": "Sabrosa",
+  "district_code": 17
+}

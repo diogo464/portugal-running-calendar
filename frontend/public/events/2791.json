@@ -1,0 +1,33 @@
+{
+  "id": 2791,
+  "name": "Azores Bravos Trail 2021",
+  "location": "Ilha Terceira, Açores",
+  "coordinates": {
+    "lat": 38.7216415,
+    "lon": -27.2205771
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    15000,
+    30000,
+    58000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/08ba152a756e322417e9b39e683977bd"
+  ],
+  "start_date": "2021-10-09",
+  "end_date": "2021-10-10",
+  "circuit": [],
+  "description": "\n<p>Este evento comporta três provas, sendo uma de 15 km, outra de 30 km e uma última de 58 km, que terão lugar na Ilha Terceira. A terra brava no seu melhor, da serra ao mar, com um piso técnico que desafiará a sua resistência e vontade de superação</p>\n",
+  "description_short": "Trail desafiante pela Ilha Terceira com percursos técnicos pelos cenários da terra brava açoriana",
+  "page": "http://azoresbravostrail.com/",
+  "slug": "azores-bravos-trail-2021",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

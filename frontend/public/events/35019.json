@@ -1,0 +1,34 @@
+{
+  "id": 35019,
+  "name": "Corrida Aniversário MTBA 2024",
+  "location": "Magoito, Sintra",
+  "coordinates": {
+    "lat": 38.8696394,
+    "lon": -9.4308087
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/47e2eda91314b51f1c78df310303f7c3"
+  ],
+  "start_date": "2024-07-14",
+  "end_date": "2024-07-15",
+  "circuit": [],
+  "description": "\n<p>A seção de atletismo do Grupo União Recreativo Desportivo MTBA, com o apoio da União de Freguesias de São João das Lampas e Terrugem e a Câmara Municipal de Sintra, no dia 14 de Julho de 2024, promove a realização da IV edição da Corrida Aniversário M.T.B.A., uma prova de atletismo de estrada de 10 Km percorrendo as ruas das 4 aldeias, Magoito, Tojeira, Bolembre e Arneiro dos Marinheiros. Para quem preferir caminhar teremos também a possibilidade de caminhada numa distância de aproximadamente 5 km.</p>\n\n\n",
+  "description_short": "Corrida de aniversário pelas pitorescas aldeias de Sintra com passagem por Magoito, Tojeira, Bolembre e Arneiro dos Marinheiros",
+  "page": "https://werun.pt/eventos/iv-corrida-aniversario-mtba/",
+  "slug": "corrida-aniversario-mtba-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

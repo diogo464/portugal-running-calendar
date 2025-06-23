@@ -1,0 +1,29 @@
+{
+  "id": 13360,
+  "name": "Trail Rota do Crasto 2022",
+  "location": "Serra do Crasto, Viseu",
+  "coordinates": {
+    "lat": 40.6883285,
+    "lon": -7.9340179
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f99de89994e6ebe0035ce836e1a945cd"
+  ],
+  "start_date": "2022-01-23",
+  "end_date": "2022-01-24",
+  "circuit": [],
+  "description": "\n<p>Trail Rota do Crasto 2022, é uma iniciativa da Associação Social, Desportiva, Recreativa, Educativa e Cultural de Quintela de Orgens, ASDREQ. Todos os percursos terão como passagem os belos trilhos da Serra do Crasto.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos pitorescos da Serra do Crasto, organizado pela associação local de Quintela de Orgens",
+  "page": "https://registerandgo.net/?evento=647&openL=1",
+  "slug": "trail-rota-do-crasto-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Abraveses",
+  "district_code": 18
+}

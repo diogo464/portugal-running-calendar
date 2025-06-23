@@ -1,0 +1,32 @@
+{
+  "id": 15202,
+  "name": "Corrida do Dragão 2022",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/2a6c43d83220566936f65c91e1e72201"
+  ],
+  "start_date": "2022-09-25",
+  "end_date": "2022-09-26",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://resultados.stopandgo.pro/874/Individual\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n<div class=\"cxmmr5t8 oygrvhab hcukyx3x c1et5uql o9v6fnle ii04i59q\">\n<div dir=\"auto\">Vem aí a terceira edição da Corrida do Dragão!</div>\n</div>\n<div class=\"cxmmr5t8 oygrvhab hcukyx3x c1et5uql o9v6fnle ii04i59q\">\n<div dir=\"auto\">Depois de dois anos de ausência devido à pandemia, serão muitos os milhares os adeptos do nosso FC Porto que irão celebrar o verdadeiro espírito azul e branco. Com Partida e Chegada no Estádio do Dragão, junta-te a esta festa e vem correr de Dragão ao peito.</div>\n</div>",
+  "description_short": "Corrida oficial do FC Porto com partida e chegada no lendário Estádio do Dragão",
+  "page": "https://www.corridadodragao.eu/",
+  "slug": "corrida-do-dragao-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

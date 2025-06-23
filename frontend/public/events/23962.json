@@ -1,0 +1,36 @@
+{
+  "id": 23962,
+  "name": "17ª Corrida Solidariedade Apav 2023",
+  "location": "Belém, Lisboa",
+  "coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    600,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/1151eb397bd2a3400b2d981876a39803"
+  ],
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-11",
+  "circuit": [],
+  "description": "\n<p>A Associação Portuguesa de Apoio à Vítima (APAV) é uma instituição particular de solidariedade social, que tem como missão o apoio às vítimas de crime, suas famílias e amigos, prestando-lhes serviços de qualidade, gratuitos e confidenciais e contribuir para o aperfeiçoamento das políticas públicas, sociais e privadas centradas no estatuto da vítima.</p>\n\n\n\n<p>Kids Race 600m </p>\n\n\n\n<p>Corrida 10km </p>\n\n\n\n<p>Caminhada 5km</p>\n",
+  "description_short": "Corrida solidária da APAV em apoio às vítimas de crime",
+  "page": "https://xistarca.pt/eventos/corrida-solidariedade-apav",
+  "slug": "17a-corrida-solidariedade-apav-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

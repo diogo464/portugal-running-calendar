@@ -1,0 +1,32 @@
+{
+  "id": 28636,
+  "name": "Corrida Sempre Mulher 2024",
+  "location": "Praça dos Restauradores, Lisboa",
+  "coordinates": {
+    "lat": 38.7157819,
+    "lon": -9.1412387
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run",
+    "5k"
+  ],
+  "images": [
+    "media/2636f9a8bcf7e58f289953ab9a52984d"
+  ],
+  "start_date": "2024-04-21",
+  "end_date": "2024-04-22",
+  "circuit": [],
+  "description": "\n<p>No dia 21 Abril de 2024 junte-se a nós e venha andar ou correr <strong>5km</strong> por uma boa causa. Inscreva-se já e passe uma manhã inesquecível e saudável!</p>\n",
+  "description_short": "Corrida solidária de 5km para apoiar uma causa especial",
+  "page": "https://www.corridasempremulher.com",
+  "slug": "corrida-sempre-mulher-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Santa Maria Maior",
+  "district_code": 11
+}

@@ -1,0 +1,35 @@
+{
+  "id": 20595,
+  "name": "XVI S. Silvestre Cidade De Vila Real 2023",
+  "location": "Vila Real",
+  "coordinates": {
+    "lat": 41.3011532,
+    "lon": -7.7409832
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/2f424858cab01b585550b24118e675ab"
+  ],
+  "start_date": "2023-01-07",
+  "end_date": "2023-01-08",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 7 de Janeiro de 2023, pelas 18Horas, com partida no Regimento de Infantaria 13 e chegada na Praça do Município (Avª. Carvalho Araújo) a XVI S. Silvestre Cidade de Vila Real, na qual se integrará uma Caminhada S. Silvestre Cidade de Vila Real com a distância de 6 kms, sem fins competitivos. </p>\n\n\n\n<p>Será uma corrida de 10 kms, para atletas de nacionalidade Portuguesa, federados e não federados nascidos em 2004 e anteriores e uma caminhada na distância de 6 kms destinada a todas as classes etárias e sem fins competitivos.</p>\n",
+  "description_short": "São Silvestre tradicional pelas ruas históricas de Vila Real com partida no Regimento de Infantaria 13",
+  "page": "http://cyclonessports.com/index.php/262-xvi-s-silvestre-cidade-de-vila-real",
+  "slug": "xvi-s-silvestre-cidade-de-vila-real-2023",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Real",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

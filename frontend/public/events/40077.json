@@ -1,0 +1,29 @@
+{
+  "id": 40077,
+  "name": "Trilhos do Vouga 2025",
+  "location": "Macinhata do Vouga, Águeda",
+  "coordinates": {
+    "lat": 40.6513366,
+    "lon": -8.4521225
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/c74e10fdc18dff1ad72534e67ef6e377"
+  ],
+  "start_date": "2025-06-22",
+  "end_date": "2025-06-23",
+  "circuit": [],
+  "description": "\n<p>A contar para o Troféu Trail Terras de Águeda, o Trilhos do Vouga será uma prova com trêss distâncias competitivas e uma caminhada. Atravesse alguns dos locais mais interessantes de Macinhata do Vouga e usufrua dos incríveis espaços naturais.</p>\n",
+  "description_short": "Trail pelos espaços naturais de Macinhata do Vouga a contar para o Troféu Trail Terras de Águeda",
+  "page": "https://lap2go.com/pt/event/trilhos-do-vouga-2025",
+  "slug": "trilhos-do-vouga-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "Macinhata do Vouga",
+  "district_code": 1
+}

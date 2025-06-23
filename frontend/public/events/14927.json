@@ -1,0 +1,32 @@
+{
+  "id": 14927,
+  "name": "Corrida Da Lagoa de Santo André 2022",
+  "location": "Santiago do Cacém Cacém, Setubal",
+  "coordinates": {
+    "lat": 38.0176336,
+    "lon": -8.7035161
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/689918f62212865eedc16446b700648d"
+  ],
+  "start_date": "2022-07-09",
+  "end_date": "2022-07-10",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de Santo André irá realizar a “25ª Corrida Da Lagoa de Santo André 2022”, no dia 09 de Julho 2022, em Santo André. É um evento de natureza desportiva que tem como objetivo incentivar e consciencializar a população para a importância da prática de exercício físico que inclui 2 provas!</p>\n",
+  "description_short": "Corrida comemorativa pelos caminhos de Santo André com duas provas desportivas",
+  "page": "https://xistarca.pt/eventos/corrida-da-lagoa-de-santo-andre-2022",
+  "slug": "corrida-da-lagoa-de-santo-andre-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "União das freguesias de Santiago do Cacém, Santa Cruz e São Bartolomeu da Serra",
+  "district_code": 15
+}

@@ -1,0 +1,29 @@
+{
+  "id": 605,
+  "name": "Trail de Lousa 2020",
+  "location": "Lousa, Lisboa",
+  "coordinates": {
+    "lat": 38.8896044,
+    "lon": -9.2063205
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b524f652fb70ca9113bffae3f603c518"
+  ],
+  "start_date": "2020-01-19",
+  "end_date": "2020-01-20",
+  "circuit": [],
+  "description": "<h2><a href=\"https://trilhoperdido.com/evento/Trail-de-Lousa-2020\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #99cc00;\">RESULTADOS</span></a></h2>\n<p><strong>Data:</strong><br />\n19 de Janeiro de 2020</p>\n<p><strong>Localidade:</strong><br />\nLousa (concelho de Loures)</p>\n<p><strong>Local da partida:</strong><br />\nSede do Grupo Desportivo de Lousa<br />\nRua Heróis Ultramar, 2670-759 Lousa</p>\n",
+  "description_short": "Trail desafiante pela região de Lousa com partida na sede do Grupo Desportivo local",
+  "page": "https://trilhoperdido.com/evento/Trail-de-Lousa-2020",
+  "slug": "trail-de-lousa",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Lousa",
+  "district_code": 11
+}

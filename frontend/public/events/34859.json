@@ -1,0 +1,32 @@
+{
+  "id": 34859,
+  "name": "Corrida e Caminhada da Campa do Preto 2024",
+  "location": "Castêlo da Maia, Porto",
+  "coordinates": {
+    "lat": 41.2634682,
+    "lon": -8.6152492
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/de602b254d06af8a547466a71c5c6176"
+  ],
+  "start_date": "2024-05-26",
+  "end_date": "2024-05-27",
+  "circuit": [],
+  "description": "\n<p>Associada à Festa da Campa do Preto (festa das cerejas), realiza-se no município da Maia este evento, composta por uma corrida de 10 quilómetros e uma caminhada. Venha à festa e prepare-se para mais um desafio.</p>\n\n\n",
+  "description_short": "Corrida tradicional associada à Festa da Campa do Preto na Maia com passagem pelas zonas de produção de cerejas",
+  "page": "https://lap2go.com/pt/event/corrida-e-caminhada-campa-do-preto-2024",
+  "slug": "corrida-e-caminhada-da-campa-do-preto-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Maia",
+  "administrative_area_level_3": "Gemunde",
+  "district_code": 13
+}

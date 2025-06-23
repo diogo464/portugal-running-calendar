@@ -1,0 +1,36 @@
+{
+  "id": 20731,
+  "name": "Trail Serra Das Flores &#8211; Gondomar 2023",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    7000,
+    11000,
+    21000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6b2890fe68d2e19f42543760a5e6ef2f"
+  ],
+  "start_date": "2023-05-14",
+  "end_date": "2023-05-15",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O TSF &#8211; TRAIL SERRA DAS FLORES, é um evento de trail-running que decorre na Serra das Flores e montes adjacentes e que integra 3 provas, todas elas de formato circular, non-stop:<br>• TRAIL SERRA DAS FLORES 21km &#8211; (TSF 21)<br>• MINI TRAIL SERRA DAS FLORES 11km &#8211; (MTSF 11)<br>• CAMINHADA 7km &#8211; (CTSF 7)<br>A organização estará a cargo do Medense Futebol Clube (MFC) e Associação S4L (S4L), com a coorganização da Câmara Municipal de Gondomar (CMG) e Junta da União de Freguesias de Melres e Medas (JUFMM).</p>\n",
+  "description_short": "Trail desafiante pelas serras e montes de Gondomar com provas de diferentes distâncias",
+  "page": "https://stopandgo.net/events/trail-serra-das-flores-2023",
+  "slug": "trail-serra-das-flores-gondomar-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

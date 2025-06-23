@@ -1,0 +1,35 @@
+{
+  "id": 40181,
+  "name": "Trail entre o Rio e a Aldeia 2025",
+  "location": "Santo Amador, Moura",
+  "coordinates": {
+    "lat": 38.1372534,
+    "lon": -7.3091043
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    7000,
+    16000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/50f6a950c7d4c95254dda8319626f62f"
+  ],
+  "start_date": "2025-04-19",
+  "end_date": "2025-04-20",
+  "circuit": [],
+  "description": "\n<p>O 4º Trail Entre o Rio e a Aldeia será realizado nos dias 19 de abril de 2025 e é um evento organizado pela Associação em Honra de Santo Amador, com o apoio de vários parceiros institucionais e privados.</p>\n\n\n\n<p>Trail Longo (25 Km).</p>\n\n\n\n<p>Trail curto (16 Km).</p>\n\n\n\n<p>Caminhada (7 Km).</p>\n\n\n",
+  "description_short": "Trail desafiante entre o rio e a aldeia com provas de diferentes distâncias",
+  "page": "https://acorrer.pt/eventos/3759/info",
+  "slug": "trail-entre-o-rio-e-a-aldeia-2025",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "Santo Amador",
+  "district_code": 2
+}

@@ -1,0 +1,34 @@
+{
+  "id": 33925,
+  "name": "Trail Terras do Sardão 2024",
+  "location": "Sardoal, Santarém",
+  "coordinates": {
+    "lat": 39.5511009,
+    "lon": -8.1557066
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    17000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/30e7f30b2bb9ad9bbfc7256452388577"
+  ],
+  "start_date": "2024-05-26",
+  "end_date": "2024-05-27",
+  "circuit": [],
+  "description": "\n<p>O IX Trail “Terras do Sardão” será realizado no dia 26 de maio de 2024, em Sardoal,<br>independentemente das condições climatéricas do dia, desde que a organização entenda<br>que não ofereçam risco aos participantes.<br>O evento será constituído por três percursos:</p>\n\n\n\n<p>Trail Longo “Terras do Sardão” &#8211; 30km – Prova classificativa para a Taça de Portugal de<br>Trail e Circuito de Trail do Ribatejo;<br></p>\n\n\n\n<p>Trail Curto “Terras do Sardão” &#8211; 17km &#8211; Prova classificativa para o Circuito de Trail do<br>Ribatejo;<br></p>\n\n\n\n<p>Caminhada “Terras do Sardão” &#8211; 10km – Sem caracter competitivo.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelas paisagens de Sardoal com três percursos para diferentes níveis de trail running",
+  "page": "https://www.trilhoperdido.com/evento/IX-Trail-Terras-do-Sardao",
+  "slug": "trail-terras-do-sardao-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Sardoal",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

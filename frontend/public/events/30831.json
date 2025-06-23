@@ -1,0 +1,36 @@
+{
+  "id": 30831,
+  "name": "Trail de Alpiarça 2024",
+  "location": "Alpiarça, Santarém",
+  "coordinates": {
+    "lat": 39.2591889,
+    "lon": -8.5820055
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    16000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0732b81a39d6833ccc9ae25528d6c002"
+  ],
+  "start_date": "2024-10-05",
+  "end_date": "2024-10-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O “6° GRANDE TRAIL DE ALPIARÇA” adiante denominado de GTdA, será realizado no dia 05 de Outubro de 2024 (sábado), em Alpiarça.<br>Será constituído por duas provas de carácter competitivo, “Trail Longo –31K”, “Trail curto – 16K” e uma prova de carácter lúdico “Caminhada – 10K”. É uma Organização da Secção de Trail/running em conjunto com Clube Desportivo “Os Águias” de Alpiarça, com o apoio do Município de Alpiarça, Junta de Freguesia<br>de Alpiarça e de várias outras entidades.</p>\n",
+  "description_short": "Trail técnico pelos caminhos rurais de Alpiarça com provas de diferentes distâncias",
+  "page": "https://www.trilhoperdido.com/evento/6-Grande-Trail-Alpiarca",
+  "slug": "trail-de-alpiarca-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Alpiarça",
+  "administrative_area_level_3": "Alpiarça",
+  "district_code": 14
+}

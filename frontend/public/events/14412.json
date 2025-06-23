@@ -1,0 +1,30 @@
+{
+  "id": 14412,
+  "name": "Corvus Trail 2022",
+  "location": "Abrantes, Santarém",
+  "coordinates": {
+    "lat": 39.4621054,
+    "lon": -8.1986484
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/dc8ce0c3b4b349bee04f8b652c9730bf"
+  ],
+  "start_date": "2022-04-02",
+  "end_date": "2022-04-03",
+  "circuit": [],
+  "description": "\n<p>A prova “Corvus Trail 2022” tem como objetivo proporcionar aos atletas novas experiências e sensações em trilhos distintos, valorização e divulgação do território e promoção da Grande Rota das Ribeiras de Arçês e Rio Frio e do Rio Tejo (GR-55) que atravessa várias aldeias e pontos de interesse cultural e natural dos conselhos de Abrantes, Sardoal e Mação.</p>\n\n\n\n<p>O projeto da GR-55 foi desenvolvido pela ACROM – Associação Cultural das Rotas de Mouriscas, um dos parceiros na Organização do Corvus Trail.</p>\n\n\n\n<p>Este evento irá decorrer nos dias 2 e 3 de Abril de 2022, organizado pelo COA &#8211; Clube de Orientação e Aventura, em parceria com a EPDRA e ACROM &#8211; Associação Cultural das Rotas de Mouriscas e com o apoio da Junta de Freguesia de Mouriscas, dos municípios de Abrantes, Mação e Sardoal nas vertentes de Trail Ultra, Trail Longo, Trail Curto, Mini Trail, Trail Kids e Caminhada.</p>\n\n\n\n<p>O “Corvus Trail” é uma prova&nbsp;<strong>Certificada pela ATRP</strong>&nbsp;– Associação de Trail Running de Portugal que integra os&nbsp;<strong>Circuitos Nacionais de Trail Ultra, Trail, Trail Sprint e Jovem.</strong>&nbsp;Esta prova é&nbsp;<strong>reconhecida pela ITRA</strong>&nbsp;– International Trail Running Association, é uma prova&nbsp;<strong>UTMB World Séries Qualifier</strong>&nbsp;e&nbsp;<strong>integra o CTR</strong>&nbsp;– Circuito de Trail do Ribatejo.</p>\n",
+  "description_short": "Trail certificado pelos circuitos nacionais que promove as rotas e aldeias históricas de Abrantes, Sardoal e Mação junto ao Rio Tejo",
+  "page": "https://www.totalcrono.pt/eventos/corvustrail2022",
+  "slug": "corvus-trail-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Abrantes",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

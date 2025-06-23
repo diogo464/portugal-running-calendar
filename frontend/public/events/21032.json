@@ -1,0 +1,34 @@
+{
+  "id": 21032,
+  "name": "4ª São Silvestre de Corroios",
+  "location": "Corroios, Setúbal",
+  "coordinates": {
+    "lat": 38.630219,
+    "lon": -9.1605095
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/a0bb2123590b5b10b781a085fd5b62dc"
+  ],
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-05",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": null,
+  "slug": "4a-sao-silvestre-de-corroios",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "Corroios",
+  "district_code": 15
+}

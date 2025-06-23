@@ -1,0 +1,34 @@
+{
+  "id": 29413,
+  "name": "Corrida/Caminhada Solidária ‘Mama em Movimento’ 2023",
+  "location": "Santa Barbara de Nexe, Faro",
+  "coordinates": {
+    "lat": 37.1035956,
+    "lon": -7.963840599999998
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/9deab249a8108a25481d91b5ae465967"
+  ],
+  "start_date": "2023-10-29",
+  "end_date": "2023-10-30",
+  "circuit": [],
+  "description": "\n<p>O Algarve Biomedical Center, em conjunto com a Algarviana Team, a Associação Oncológica do Algarve (AOA) e a Liga Portuguesa contra o Cancro &#8211; Núcleo Regional do Sul (LPCC-NRS), está a organizar a 2ª corrida/caminhada solidária ‘Mama em Movimento’, com vista à angariação de fundos para a AOA e a LPCC-NRS.</p>\n\n\n",
+  "description_short": "Corrida solidária no Algarve em prol do combate ao cancro da mama",
+  "page": "https://meutempo.pt/prova?mamaemmovimento",
+  "slug": "corrida-caminhada-solidaria-mama-em-movimento-2023-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": "Santa Bárbara de Nexe",
+  "district_code": 8
+}

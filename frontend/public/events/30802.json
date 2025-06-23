@@ -1,0 +1,38 @@
+{
+  "id": 30802,
+  "name": "Trail da Raia 2024",
+  "location": "Aldeia do Bispo, Sabugal",
+  "coordinates": {
+    "lat": 40.3151253,
+    "lon": -6.8511814
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    2000,
+    9000,
+    16000,
+    27000,
+    44000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/11602ade5ebe27a146fc107169d95aac"
+  ],
+  "start_date": "2024-08-10",
+  "end_date": "2024-08-11",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Internacional da Raia é uma manifestação desportiva transfronteiriça com percursos elaborados por caminhos rurais e pelos trilhos dos contrabandistas de Portugal e Espanha : Sierra de Gata – Serra das Mesas – Area protegida da Malcata – Rota do Alto Côa.<br>As provas pontuam para os circuitos nacionais da ATRP (Trail e Trail Sprint) e internacionais da ITRA e UTMB Index.<br>30% dos atletas vêm do estrangeiro (14 países representados).<br>Integram este evento, quatro provas competitivas Ultra Trail de 44 km, Trail Longo de 27 km, Trail Curto de 16 km, Mini-Trail/Caminhada de 9 km e uma prova de iniciação de 2 km.</p>\n",
+  "description_short": "Trail internacional entre Portugal e Espanha por caminhos históricos de contrabandistas, com provas em zonas de montanha protegidas e diversas distâncias",
+  "page": "https://traildaraia.pt/7edicao/",
+  "slug": "trail-da-raia-2024",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Sabugal",
+  "administrative_area_level_3": "Aldeia do Bispo",
+  "district_code": 9
+}

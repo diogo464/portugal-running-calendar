@@ -1,0 +1,32 @@
+{
+  "id": 27070,
+  "name": "Corrida MegaFitness 2023",
+  "location": "Ourique, Beja",
+  "coordinates": {
+    "lat": 37.6521402,
+    "lon": -8.224390399999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/776a28a9b975ddb2802bcdee3d9e4720"
+  ],
+  "start_date": "2023-10-01",
+  "end_date": "2023-10-02",
+  "circuit": [],
+  "description": "\n<p>O Município de Ourique em colaboração com o Ourique Desportos Clube, irá levar a efeito, no dia 1 de Outubro, Domingo, pelas 17:00h, a 4º Corrida MegaFitness.</p>\n",
+  "description_short": "Corrida desportiva dinamizada pela câmara de Ourique e clube local no Alentejo",
+  "page": "https://acorrer.pt/eventos/info/3265",
+  "slug": "corrida-megafitness-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Ourique",
+  "administrative_area_level_3": "Ourique",
+  "district_code": 2
+}

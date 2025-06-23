@@ -1,0 +1,33 @@
+{
+  "id": 30849,
+  "name": "Azores Triangle Adventure 2024",
+  "location": "Açores",
+  "coordinates": {
+    "lat": 37.7412488,
+    "lon": -25.6755944
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    86000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/1e6359f3d9f5ef6478774b9b2c2b5488"
+  ],
+  "start_date": "2024-10-25",
+  "end_date": "2024-10-26",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A Azores Triangle Adventure é uma emocionante prova de trail running que se realiza ao longo de três dias, percorrendo três ilhas do Triângulo Açoriano: Ilha de São Jorge, Ilha do Pico e Ilha do Faial. A corrida percorre uma distância total de mais de 86 quilómetros e oferece vistas deslumbrantes sobre as paisagens mais emblemáticas das ilhas.</p>\n",
+  "description_short": "Trail running épico por três ilhas dos Açores, revelando as paisagens únicas do Triângulo Açoriano",
+  "page": "https://www.azorestriangleadventure.com/",
+  "slug": "azores-triangle-adventure-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

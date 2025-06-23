@@ -1,0 +1,34 @@
+{
+  "id": 24915,
+  "name": "II Trail Convívio &#8220;Trilhos de STo Onofre&#8221; 2023",
+  "location": "Meãs do Campo, Montemor-o-Velho",
+  "coordinates": {
+    "lat": 40.2138321,
+    "lon": -8.6299485
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/cb28b4cacabf3a8e689ea084a5bcd1d1"
+  ],
+  "start_date": "2023-08-12",
+  "end_date": "2023-08-13",
+  "circuit": [],
+  "description": "\n<p>O <strong>II TRAIL CONVÍVIO DOS TRILHOS DE STO ONOFRE</strong> é organizado pela Comissão de Festas em Honra de S. Sebastião com a colaboração da Box N111, levando os atletas/caminheiros a percorrer trilhos da zona do Sto Onofre e caminhos florestais com bonitas paisagens da freguesia de Meãs do Campo. É uma prova essencialmente de índole recreativa/desportiva que contará com um trail de 15 km, uma caminhada de 10 km e a possibilidade de participar numa animada aula de Zumba. Apenas para o trail haverá uma cronometragem e classificação geral, com a identificação dos primeiros classificados masculinos e femininos.</p>\n\n\n\n<p>As inscrições, para a participação no II TRAIL CONVÍVIO DOS TRILHOS DE STO ONOFRE serão feitas através do site www.runmanager.net até às 24h de dia 10 de Agosto, eventualmente, poderão estender-se para depois dessa data apenas inscrições para caminhada/participação na aula de zumba.</p>\n\n\n\n<p>Apenas ficam efetivadas, quando efetuado o respetivo pagamento:</p>\n\n\n\n<p>&nbsp;&#8211; Para o trail: 12€</p>\n\n\n\n<p>&nbsp;&#8211; Para a caminhada/participação na aula de Zumba: 10€</p>\n\n\n\n<p>A inscrição inclui a participação no evento, uma t-shirt do evento, seguro de acidentes pessoais,&nbsp; &nbsp;abastecimento com água e fruta ao longo do percurso e abastecimento final com bifana, água e fruta. Poderão ser oferecidos outros produtos, que venham a ser angariados pela organização.</p>\n\n\n\n<p>Ao regularizar a inscrição, os participantes, estarão a aceitar todas as informações constantes do presente regulamento. Apenas haverá prémios de valor simbólico para os 3 primeiros classificados masculino e feminino da classificação&nbsp; geral.</p>\n\n\n",
+  "description_short": "Trail desportivo e recreativo pelos trilhos florestais de Sto Onofre com passagem pela freguesia de Meãs do Campo",
+  "page": "https://www.runmanager.net/Eventos/ii-trail-convivio-trilhos-de-sto-onofre/745",
+  "slug": "ii-trail-convivio-trilhos-de-sto-onofre-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "Meãs do Campo",
+  "district_code": 6
+}

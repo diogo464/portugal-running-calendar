@@ -1,0 +1,35 @@
+{
+  "id": 34456,
+  "name": "Aquarace Sesimbra 2024",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "relay"
+  ],
+  "images": [
+    "media/eaed3ed9142fe6e6d0f9051c7f649694"
+  ],
+  "start_date": "2024-05-18",
+  "end_date": "2024-05-19",
+  "circuit": [],
+  "description": "\n<p>O AQUARACE SESIMBRA é uma atividade de promoção da atividade física, disciplina de treino e espírito de equipa. Será realizado em equipas de 2 elementos que têm de efetuar 2 percursos, sendo 10 km em corrida com algum desnível + 5km de canoagem.</p>\n\n\n\n<p>No total, todos os participantes percorrerão 15 km.</p>\n\n\n",
+  "description_short": "Prova de aventura em Sesimbra combinando corrida e canoagem em equipas de dois elementos",
+  "page": "https://waitastart.com/aquarace-sesimbra-24/",
+  "slug": "aquarace-sesimbra-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

@@ -1,0 +1,37 @@
+{
+  "id": 36867,
+  "name": "Meia Maratona Baía do Seixal 2025",
+  "location": "Seixal",
+  "coordinates": {
+    "lat": 38.6410676,
+    "lon": -9.0975
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000,
+    21097,
+    97000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/7a6b50ea3d09515b47ea241669cb7d13"
+  ],
+  "start_date": "2025-03-30",
+  "end_date": "2025-03-31",
+  "circuit": [],
+  "description": "\n<p>No dia 30 de março de 2025, com início às 10h00, ao longo da baía das cidades do Seixal e Amora, vai ter lugar um evento desportivo solidário denominado MEIA MARATONA BAÍA DO SEIXAL, composto por 3 distâncias distintas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Meia Maratona Baía do Seixal – 21 097 Km</li>\n\n\n\n<li>Prova 10 Km</li>\n\n\n\n<li>Caminhada/Corrida &#8211; 5 km</li>\n</ul>\n\n\n\n<p>&nbsp;<strong>Um euro (1,00€) do valor de cada inscrição reverterá para a instituição&nbsp;ANPAR &#8211; Associação Nacional de Pais e Amigos Rett</strong><strong>&nbsp;.</strong></p>\n",
+  "description_short": "Corrida solidária pela baía do Seixal a favor da associação ANPAR",
+  "page": "https://werun.pt/eventos/meia-maratona-baia-do-seixal-2025/",
+  "slug": "meia-maratona-baia-do-seixal-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "União das freguesias do Seixal, Arrentela e Aldeia de Paio Pires",
+  "district_code": 15
+}

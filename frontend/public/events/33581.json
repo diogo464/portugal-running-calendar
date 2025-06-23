@@ -1,0 +1,30 @@
+{
+  "id": 33581,
+  "name": "Grande Prémio de Atletismo ACD Os Ilhavos 2024",
+  "location": "Ílhavo, Aveiro",
+  "coordinates": {
+    "lat": 40.602309,
+    "lon": -8.672371
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/4ef07201f65cda05e6100f5ab06b1b58"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>A Associação Cultural e Desportiva &#8220;Os Ílhavos&#8221; organiza uma das mais clássicas provas de estrada da região de Aveiro em parceria com o Município de Ílhavo, que será este ano Campeonato Distrital de Estrada.</p>\n",
+  "description_short": "Corrida clássica de estrada em Ílhavo, pontuável para o Campeonato Distrital",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-os-ilhavos-2024",
+  "slug": "grande-premio-de-atletismo-acd-os-ilhavos-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

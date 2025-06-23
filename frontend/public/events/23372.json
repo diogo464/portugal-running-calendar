@@ -1,0 +1,38 @@
+{
+  "id": 23372,
+  "name": "Trilhos Do Nabão 2023",
+  "location": "Linhaceira, Tomar",
+  "coordinates": {
+    "lat": 39.5207915,
+    "lon": -8.3772712
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    400,
+    600,
+    1100,
+    11000,
+    12000,
+    15000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/28ea76ff45891a07e3fdaced30f23ade"
+  ],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [],
+  "description": "\n\n\n<p>“TRILHOS DO NABÃO- 5ª Edição” é uma prova de aventura percorrida em trilhos sinalizados, a pé, pequenos estradões, ou estradas, em autonomia pedestre, visando percorrer todo o percurso no menor tempo possível.<br>Disputa-se a 04 de JUNHO de 2023 visando a promoção e prática de desporto em meio natural.</p>\n\n\n\n<p>O local de início e fim é no Pavilhão da Associação Cultural e Recreativa da Linhaceira.</p>\n\n\n\n<p></p>\n\n\n\n<p>Trail Curto 15k ; +/- 15km; +/- 600m de desnível positivo acumulado; TC 2; Trail Curto Grau 2;<br>Trail Longo 30k; +/- 30km; +/- 1100m de desnível positivo acumulado; TL3; Trail Longo Grau 3;<br>Caminhada 11k; +/- 12km, +/- 400m de desnível positivo acumulado.</p>\n",
+  "description_short": "Trail de aventura pelos trilhos do Nabão com diferentes percursos desafiantes na região da Linhaceira",
+  "page": "https://www.queroir.pt/trilhosdonabao2023",
+  "slug": "trilhos-do-nabao-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "Asseiceira",
+  "district_code": 14
+}

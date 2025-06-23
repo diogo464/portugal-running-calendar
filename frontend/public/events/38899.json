@@ -1,0 +1,38 @@
+{
+  "id": 38899,
+  "name": "Trail Run Aqui HÁ-OS 2025",
+  "location": "Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1521398,
+    "lon": -8.857583
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    17000,
+    30000,
+    46000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0e33dd10b8b80697feaf9f4bf5b9a140"
+  ],
+  "start_date": "2025-05-04",
+  "end_date": "2025-05-05",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A associação Talentos Objetivos – Clube de Enduro e Recreio irá promover, com o apoio da junta de freguesia de Quiaios e da Câmara Municipal da Figueira da Foz, a quinta edição de Trail Running intitulada &#8220;5º TRAIL RUN AQUI HÁ-OS&#8221;.</p>\n\n\n\n<p>Será realizada no dia 4 de maio de 2025, independentemente das condições climatéricas, desde que o organizador entenda que não há riscos acrescidos. As distâncias são: 12km, 17km, 30km e 46km.</p>\n\n\n\n<p>Os percursos estão desenhados na encosta norte e oeste da Serra da Boa Viagem, com estradões, single-tracks, caminhos agrícolas e pouca estrada asfaltada. A Praia de Quiaios será o local da Partida/Chegada.</p>\n\n\n\n<p>46km &#8211; Trail Ultra (circuito ATRP e circuito ADAC)</p>\n\n\n\n<p>12km &#8211; Caminhada</p>\n\n\n\n<p>12km &#8211; Trail 12k</p>\n\n\n\n<p>17km &#8211; Trail Sprint (circuito ATRP)</p>\n\n\n\n<p>30km &#8211; Trail (circuito ATRP)</p>\n",
+  "description_short": "Trail running pela encosta da Serra da Boa Viagem com partida e chegada na Praia de Quiaios",
+  "page": "https://www.runmanager.net/Eventos/5-trail-run-aqui-ha-os/887",
+  "slug": "trail-run-aqui-ha-os-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

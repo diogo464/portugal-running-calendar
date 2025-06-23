@@ -1,0 +1,30 @@
+{
+  "id": 14254,
+  "name": "Corrida S Silvestre Manuel Dos Santos Almeida 2022",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/def87ecb8a87c82091076d2257918373"
+  ],
+  "start_date": "2022-03-26",
+  "end_date": "2022-03-27",
+  "circuit": [],
+  "description": "\n<p>Corrida S Silvestre Manuel Dos Santos Almeida 2022</p>\n",
+  "description_short": "Trail tradicional em homenagem a Manuel dos Santos Almeida no final do ano",
+  "page": "https://stopandgo.net/event/?id=656",
+  "slug": "corrida-s-silvestre-manuel-dos-santos-almeida-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

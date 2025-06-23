@@ -1,0 +1,31 @@
+{
+  "id": 21695,
+  "name": "Trilhos do Castro de Santiago 2023",
+  "location": "Fornos de Algodres, Guarda",
+  "coordinates": {
+    "lat": 40.6201957,
+    "lon": -7.539550699999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3ca319e37e29283d576e98acd0a4dc57"
+  ],
+  "start_date": "2023-06-11",
+  "end_date": "2023-06-12",
+  "circuit": [],
+  "description": "\n<p>O ”TRILHOS DO CASTRO DE SANTIAGO” é uma corrida de montanha, organizada pela<br>“AVCAT-Associação Vila Chã Aldeia Trail de Portugal”, a realizar no dia 11 de junho, em Figueiró<br>da Granja-Fornos de Algodres.</p>\n\n\n\n<p><br>Este trail faz parte do Circuito Municipal de Corrida de Montanha-Trilhos D`O Bom Sabor da<br>Serra-VI(r)VER Fornos de Algodres e será a 3ª etapa.</p>\n\n\n\n<p>O ”TRILHOS DO CASTRO DE SANTIAGO” é uma prova de corrida de montanha, constituído<br>por um Trail Longo, um Trail Curto e uma caminhada, realizados predominantemente em trilhos,<br>caminhos rurais, vias de terra batida e ribeiras circundantes à aldeia de Figueiró da Granja e<br>aldeias adjacentes.</p>\n\n\n",
+  "description_short": "Trail de montanha pelos caminhos tradicionais de Figueiró da Granja, integrado no Circuito Municipal de Corrida de Montanha",
+  "page": "https://acorrer.pt/eventos/info/3082",
+  "slug": "trilhos-do-castro-de-santiago-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "Fornos de Algodres",
+  "district_code": 9
+}

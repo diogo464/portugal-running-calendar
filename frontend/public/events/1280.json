@@ -1,0 +1,29 @@
+{
+  "id": 1280,
+  "name": "5º Trail Noturno de São Pedro do Sul &#8211; Assalto à Sr.ª da Guia 2020",
+  "location": "São Pedro do Sul Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5d461ff6a3a12c1da2a0ae0bcada32ee"
+  ],
+  "start_date": "2020-04-11",
+  "end_date": "2020-04-12",
+  "circuit": [],
+  "description": "<p>Dia 11 de Abril de 2020, podes viver uma experiência fantástica, no 5o TRAIL NOTURNO DE SÃO PEDRO DO SUL &#8211; ASSALTO À SR.a DA GUIA. Como tem acontecido nas edições anteriores, o evento será na véspera da Páscoa e antevéspera da Romaria à Nossa Senhora da Guia. Além dos trilhos e das paisagens fantásticas, podes ter a experiência de correr ao escurecer nesta magnifica região de Lafões.</p>\n<p>Não faltes a esta aventura!!</p>\n",
+  "description_short": "Trail nocturno desafiante pela região de Lafões na véspera da Páscoa, com paisagens fantásticas e percurso à noite em São Pedro do Sul",
+  "page": "https://www.prozis.com/pt/pt/evento/5-trail-noturno-de-sao-pedro-do-sul-assalto-a-sr.-da-guia",
+  "slug": "5o-trail-noturno-de-sao-pedro-do-sul-assalto-a-sr-a-da-guia-2020",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

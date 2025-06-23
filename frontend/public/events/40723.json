@@ -1,0 +1,36 @@
+{
+  "id": 40723,
+  "name": "Trail do Contrabando do Café 2025",
+  "location": "Miranda do Douro, Bragança",
+  "coordinates": {
+    "lat": 41.4995412,
+    "lon": -6.2712311
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    2000,
+    12000,
+    25000,
+    45000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3f45f5d4fec19f26c4c7d0dd3f224c0e"
+  ],
+  "start_date": "2025-04-06",
+  "end_date": "2025-04-07",
+  "circuit": [],
+  "description": "\n<p>A III edição do Trail Contrabando do Café será realizada no dia 06 de abril de 2025, em Paradela, Miranda do Douro. A aldeia de Paradela, em Miranda do Douro, está inserida no Parque Natural do Douro Internacional, situada na zona de Proteção Especial do Douro Internacional e Vale do Rio Angueira.</p>\n\n\n\n<p>É uma aldeia raiana, muito próxima de Espanha (a 2 km do Castro de Alcañices, 25 km de Alcañices e 45 km de Zamora). Com o passar dos anos, as trocas comerciais com Espanha foram-se esvanecendo, mas na história ficaram as aventuras dos contrabandistas, bem como as taxas que se pagavam no mercado transfronteiriço. Daí surgiu o nome deste Evento, em homenagem aos antepassados desta povoação. Os percursos que constituem as provas aliam troços com dureza relativa, complexidade técnica e beleza natural indiscritível.</p>\n\n\n\n<p>A caminhada, de caráter recreativo e lúdico, terá a distância aproximada de 12 km, em trilhos e caminhos de terra batida, pelas paisagens envolventes às Arribas do Douro Internacional. Na caminhada existem uns trilhos, com alguma inclinação, onde as pessoas terão que caminhar em fila e com precaução.</p>\n\n\n",
+  "description_short": "Trail desafiante nas aldeias raianas de Miranda do Douro, inspirado nas histórias de contrabando de café",
+  "page": "https://contrabandotrail.github.io/contrabandotrail/",
+  "slug": "trail-do-contrabando-do-cafe-2025",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Miranda do Douro",
+  "administrative_area_level_3": "Miranda do Douro",
+  "district_code": 4
+}

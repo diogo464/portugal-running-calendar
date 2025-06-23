@@ -1,0 +1,36 @@
+{
+  "id": 21066,
+  "name": "São Silvestre Braga 2023",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5700,
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/b54e4f13696b3386efdfd85de1ff46b1"
+  ],
+  "start_date": "2023-12-16",
+  "end_date": "2023-12-17",
+  "circuit": [],
+  "description": "\n<p>A São Silveste Braga acontece a 16 de dezembro de 2023 pelas 21h30 na cidade de Braga.</p>\n\n\n\n<p>Com partida e chegada na Praça da República a 45ª edição da São Silvestre Braga conta com prova de 10 km cronometrada e uma caminhada com a distância de 5,7 km sem fins competitivos.</p>\n",
+  "description_short": "Corrida de São Silvestre tradicional no coração histórico de Braga",
+  "page": "https://www.runporto.com/pt/eventos/s-silvestre-braga/",
+  "slug": "sao-silvestre-de-braga-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

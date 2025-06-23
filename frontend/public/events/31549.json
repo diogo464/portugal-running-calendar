@@ -1,0 +1,29 @@
+{
+  "id": 31549,
+  "name": "EDP Lisboa, a Mulher e a Vida 2024",
+  "location": "Santos, Lisboa",
+  "coordinates": {
+    "lat": 38.707983,
+    "lon": -9.1580693
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/53d111d956b67dc59921b5e381c3d65e"
+  ],
+  "start_date": "2024-05-12",
+  "end_date": "2024-05-13",
+  "circuit": [],
+  "description": "\n<p>Questões sobre esta Corrida devem ser endereçadas ao Organizador: <a href=\"mailto:info@maratonaportugal.com\" target=\"_blank\" rel=\"noreferrer noopener\">info@maratonaportugal.com</a></p>\n\n\n\n<p>A Corrida da Mulher “EDP Lisboa a Mulher e a Vida”, antes de ser uma prova de atletismo, é um ato de cidadania em que o objetivo número um é alertar a o sociedade para o Cancro da Mama e em segundo lugar a recolha de fundos para ajudar a combate-lo.</p>\n\n\n\n<p>Venha participar e contribuir para a compra de aparelhos de rastreio do cancro da mama. No conjunto de todas as edições EDP Lisboa, a Mulher e a Vida foram angariados mais de 900.000 euros para a&nbsp;Liga Portuguesa Contra o Cancro.</p>\n\n\n\n<p>O desafio que aqui deixamos é que participem na Corrida da Mulher “EDP Lisboa a Mulher e a Vida”, e contribuam para esta luta!</p>\n",
+  "description_short": "Corrida solidária em Lisboa em prol da sensibilização e combate ao cancro da mama",
+  "page": "https://www.maratonaclubedeportugal.com/corrida-mulher/corrida-da-mulher/",
+  "slug": "edp-lisboa-a-mulher-e-a-vida-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Estrela",
+  "district_code": 11
+}

@@ -1,0 +1,33 @@
+{
+  "id": 23878,
+  "name": "Grande Prémio Alberto Bastos 2023",
+  "location": "Vale de Cambra, Aveiro",
+  "coordinates": {
+    "lat": 40.8424421,
+    "lon": -8.3960727
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/0525048c5c46a3e55ffa637d92d53c37"
+  ],
+  "start_date": "2023-06-25",
+  "end_date": "2023-06-26",
+  "circuit": [],
+  "description": "\n<p>A Associação Cívica Alberto Bastos (ACAB), a ACR de Vale de Cambra e o Inter Caima Pinheiro Manso Futebol Clube, com o apoio da Câmara Municipal de Vale de Cambra e da Junta de Freguesia de São Pedro de Castelões, levam a efeito a primeira edição do Grande Prémio de Atletismo Alberto Bastos, integrado na 30ª Semana Cultural de São Pedro de Castelões,</p>\n\n\n",
+  "description_short": "Primeira edição de Grande Prémio de Atletismo em Vale de Cambra com apoio municipal",
+  "page": "https://lap2go.com/pt/event/gp-alberto-bastos-2023",
+  "slug": "grande-premio-alberto-bastos-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vale de Cambra",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

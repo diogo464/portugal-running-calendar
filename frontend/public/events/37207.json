@@ -1,0 +1,32 @@
+{
+  "id": 37207,
+  "name": "Corrida Contra o Tempo Nestlé Lindahls Pro+2024",
+  "location": "Pavilhão Altice Arena, Lisboa",
+  "coordinates": {
+    "lat": 38.7685312,
+    "lon": -9.0940297
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/afc8485bf7e708e43b0187963f5cc3ca"
+  ],
+  "start_date": "2024-10-27",
+  "end_date": "2024-10-27",
+  "circuit": [],
+  "description": "\n<p>A Corrida contra o tempo Nestlé Lindahls Pro+ 10km, é um evento de cariz solidário organizado pela Declive Sublime, cuja receita reverte na íntegra para a Associação Jorge Pina.</p>\n\n\n\n<p>A partida e chegada de todas as provas e caminhada, será junto ao Pavilhão Altice Arena, no Rossio dos Olivais.</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária a favor da Associação Jorge Pina junto à Altice Arena em Lisboa",
+  "page": "https://www.trilhoperdido.com/evento/Corrida-Contra-o-Tempo",
+  "slug": "corrida-contra-o-tempo-lindhals-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Parque das Nações",
+  "district_code": 11
+}

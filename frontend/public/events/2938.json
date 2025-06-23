@@ -1,0 +1,29 @@
+{
+  "id": 2938,
+  "name": "Piodão Trail Running 2021",
+  "location": "Piódão Piódão, Coimbra",
+  "coordinates": {
+    "lat": 40.22956509999999,
+    "lon": -7.825189699999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3b1f9d4edf30cbb1c8ee8aae0267432b"
+  ],
+  "start_date": "2021-09-18",
+  "end_date": "2021-09-19",
+  "circuit": [],
+  "description": "\n<p>IX Edição com partida e chegada na aldeia histórica do Piódão. Passagem pela Aldeia do Xisto, Sobral de São Miguel.</p>\n",
+  "description_short": "Trail desafiante pela Serra do Piódão passando por aldeias históricas e de xisto",
+  "page": "http://www.plataformaomdc.com/CLIENTE/ver_evento_cli/106/",
+  "slug": "piodao-trail-running-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Arganil",
+  "administrative_area_level_3": "Piódão",
+  "district_code": 6
+}

@@ -1,0 +1,31 @@
+{
+  "id": 18886,
+  "name": "3ª Edição Do Trilho Da Aguardente Doc Lourinhã 2022",
+  "location": "Lourinhã, Lisboa",
+  "coordinates": {
+    "lat": 39.2425234,
+    "lon": -9.3132718
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/cb236d889797d3267fac03f640f32e5e"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n\n\n<p>A 3ª edição do Trilho da Aguardente DOC Lourinhã será realizado no dia 13 de Novembro de 2022, com partida e chegada na Lourinhã, com início previsto para as 09H00 para as provas principais. Trata-se de um evento misto com três distâncias de trail e uma de caminhada em ambiente natural, por entre paisagens deslumbrantes, com passagem por pontos históricos do concelho da Lourinhã, com surpresas para todos os participantes no decorrer da prova. O evento vai-se realizar independentemente das condições climatéricas do dia, desde que a organização entenda que não está em causa a segurança de todos os participantes. O evento é co &#8211; organizado por um conjunto de várias entidades locais, nomeadamente a Câmara Municipal da Lourinhã, Troféu dos Dinossauros, Hóquei Clube da Lourinhã.</p>\n",
+  "description_short": "Trail histórico pela região da Lourinhã com passagem por paisagens deslumbrantes e pontos emblemáticos do concelho",
+  "page": "https://www.trilhoperdido.com/evento/trilho-da-aguardente-2022",
+  "slug": "3a-edicao-do-trilho-da-aguardente-doc-lourinha-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de Lourinhã e Atalaia",
+  "district_code": 11
+}

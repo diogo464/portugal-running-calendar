@@ -1,0 +1,34 @@
+{
+  "id": 35359,
+  "name": "Trail Dmós 2024",
+  "location": "Porto de Mós, Leiria",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    8000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/4260d16b77d2e515c9aa7af1b5e3a33e"
+  ],
+  "start_date": "2024-06-29",
+  "end_date": "2024-06-29",
+  "circuit": [],
+  "description": "\n<p>A<strong>&nbsp;Associação Humanitária dos Bombeiros Voluntários de Porto de Mós</strong>&nbsp;organiza no dia&nbsp;<strong>29 de junho, o 1º Trail D’Mós,&nbsp;</strong>inserido no programa das&nbsp;<strong>Festas de São Pedro 2024</strong>.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Este evento é de carácter solidário, com a finalidade de aquisição de equipamentos de protecção individual para os operacionais desta Associação.</li>\n</ul>\n\n\n\n<p>O evento é composto por uma prova de trail e uma caminhada.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail 15Km &#8211; Percurso com aproximadamente 15km de dificuldade média.</li>\n\n\n\n<li>Caminhada 8K &#8211; Percurso com aproximadamente 8km de dificuldade média bai</li>\n</ul>\n\n\n",
+  "description_short": "Trail solidário nos arredores de Porto de Mós em apoio aos Bombeiros Voluntários",
+  "page": "https://www.recordepessoal.pt/evento/traildmos",
+  "slug": "trail-dmos-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

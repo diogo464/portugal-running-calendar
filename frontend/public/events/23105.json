@@ -1,0 +1,32 @@
+{
+  "id": 23105,
+  "name": "Marginal à noite 2023",
+  "location": "Oeiras, Lisboa",
+  "coordinates": {
+    "lat": 38.69686069999999,
+    "lon": -9.314601399999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/7dca345e2cb42df93c3168b068b0e1b4"
+  ],
+  "start_date": "2023-06-17",
+  "end_date": "2023-06-18",
+  "circuit": [],
+  "description": "\n<p>A Marginal à Noite é uma corrida de estrada que se carateriza pelo percurso fácil e de enquadramento ímpar junto à orla marítima do município de Oeiras, que atrai tanto atletas regulares que procuram a sua superação, como os corredores moderados e iniciantes, partilhando todos em comum o prazer de correr.</p>\n\n\n\n<p>Voltando ao figurino de partida e chegada na Av. Marginal, manter-se-ão as partidas desfasadas para melhorar a fruição do percurso.</p>\n",
+  "description_short": "Corrida nocturna ao longo da marginal de Oeiras com vista para o mar",
+  "page": "https://marginalanoite.pt/",
+  "slug": "marginal-a-noite-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+  "district_code": 11
+}

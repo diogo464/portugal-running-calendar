@@ -1,0 +1,32 @@
+{
+  "id": 18581,
+  "name": "Vital Sport Km + Rápido 2022",
+  "location": "Amadora, Lisboa",
+  "coordinates": {
+    "lat": 38.7577603,
+    "lon": -9.224547399999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    1000
+  ],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/1ebea96f9cc3ed87876ccad7c84108e9"
+  ],
+  "start_date": "2022-09-24",
+  "end_date": "2022-09-25",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;Decathlon apresenta a&nbsp;<strong>1ª edição da corrida “Km + rápido”,&nbsp;</strong>inserida no Vital Sport.</p>\n\n\n\n<p>Uma prova que te leva ao limite, para seres&nbsp;<strong>o mais rápido em apenas 1km!</strong></p>\n\n\n",
+  "description_short": "Corrida de velocidade da Decathlon com desafio de 1 km para apurar o atleta mais rápido",
+  "page": "https://xistarca.pt/eventos/km-rapido",
+  "slug": "vital-sport-km-rapido-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Amadora",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

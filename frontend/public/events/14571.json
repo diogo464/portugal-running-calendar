@@ -1,0 +1,29 @@
+{
+  "id": 14571,
+  "name": "Trail Quinta Do Pinhão 2022",
+  "location": "Seixal",
+  "coordinates": {
+    "lat": 38.6410676,
+    "lon": -9.0975
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ff3ef1902d80ce337b58a220840b3b5e"
+  ],
+  "start_date": "2022-04-03",
+  "end_date": "2022-04-04",
+  "circuit": [],
+  "description": "\n<p>Trail Quinta Do Pinhão 2022</p>\n",
+  "description_short": "Trail desafiante pelas encostas vinhateiras do Douro com partida na Quinta do Pinhão",
+  "page": "https://acorrer.pt/eventos/info/2895",
+  "slug": "trail-quinta-do-pinhao-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "União das freguesias do Seixal, Arrentela e Aldeia de Paio Pires",
+  "district_code": 15
+}

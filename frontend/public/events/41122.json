@@ -1,0 +1,31 @@
+{
+  "id": 41122,
+  "name": "Trail e Camihada VIMONT 2025",
+  "location": "Vilar do Monte, Macedo de Cavaleiros",
+  "coordinates": {
+    "lat": 41.50500940000001,
+    "lon": -6.9479814
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b03f0cbd6075a8958b070407da222344"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-16",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://vimont.blogspot.com/2025/01/iv-prova-de-trail-e-caminhada-vimont.html",
+  "slug": "trail-e-camihada-vimont-2025",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Macedo de Cavaleiros",
+  "administrative_area_level_3": "Vilar do Monte",
+  "district_code": 4
+}

@@ -1,0 +1,33 @@
+{
+  "id": 41756,
+  "name": "Corrida A.C.S. 2025",
+  "location": "São Brás de Alportel, Faro",
+  "coordinates": {
+    "lat": 37.152576,
+    "lon": -7.889052299999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/4898ad715b6beb6e647df1a24421f44d"
+  ],
+  "start_date": "2025-05-31",
+  "end_date": "2025-06-01",
+  "circuit": [],
+  "description": "\n<p>A Associação Cultural Sambrasense vai organizar a “12º Corrida ACS”, que terá lugar em São Brás de<br>Alportel no dia 31 de Maio de 2025, pelas 18:30h</p>\n\n\n\n<p></p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Corrida da Associação Cultural Sambrasense pelas ruas de São Brás de Alportel ao final da tarde",
+  "page": "https://www.crono.aaalgarve.org/eventos/12-corrida-acs",
+  "slug": "corrida-a-c-s-2025",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "São Brás de Alportel",
+  "administrative_area_level_3": "São Brás de Alportel",
+  "district_code": 8
+}

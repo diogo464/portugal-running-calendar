@@ -1,0 +1,35 @@
+{
+  "id": 20671,
+  "name": "Trail Encostas do Mondego 2023",
+  "location": "Vila Verde, Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1430544,
+    "lon": -8.8056117
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/c984002881bc26566b369dc0cdbd58f0"
+  ],
+  "start_date": "2023-03-19",
+  "end_date": "2023-03-20",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A sexta edição do TRAIL ENCOSTAS DO MONDEGO será realizada no dia 19 de março de 2023 (domingo), independentemente das condições climatéricas desse dia, desde que a organização considere que as mesmas não oferecem risco para os participantes.O TRAIL ENCOSTAS DO MONDEGO é organizado pelo Grupo Recreativo Vilaverdense (GRV) levando os atletas a percorrer trilhos da Freguesia de Vila Verde. Conta com o apoio da Câmara Municipal da Figueira da Foz, Junta de Freguesia de Vila Verde, bem como de outras entidades.</p>\n\n\n\n<p>O TRAIL ENCOSTAS DO MONDEGO, será constituído por duas distâncias competitivas (trail e mini trail) na distância de 25 e 15 kms em que poderão participar atletas com idade superior a 18 anos no trail e 16 anos no mini-trail (feitos até à data da prova). É obrigatório o preenchimento de uma declaração de responsabilidade pelo encarregado de educação a entregar à organização até ao levantamento dos dorsais (a solicitar à organização por mail) no caso dos menores que participem no mini-trail</p>\n",
+  "description_short": "Trail desafiante pelas encostas do Mondego com partida em Vila Verde da Figueira da Foz",
+  "page": "https://lap2go.com/pt/event/trail-encostas-do-mondego-2023",
+  "slug": "trail-encostas-do-mondego-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": "Vila Verde",
+  "district_code": 6
+}

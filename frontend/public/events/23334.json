@@ -1,0 +1,32 @@
+{
+  "id": 23334,
+  "name": "Corrida do Coração 2023",
+  "location": "Vilamoura, Faro",
+  "coordinates": {
+    "lat": 37.0902287,
+    "lon": -8.1173454
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/4a895fd057a79ef33baaea3d33107f2f"
+  ],
+  "start_date": "2023-04-15",
+  "end_date": "2023-04-16",
+  "circuit": [],
+  "description": "\n<p>Numa organização conjunta entre a Sociedade Portuguesa de Cardiologia, a Câmara Municipal de Loulé e Associação de Atletismo do Algarve, com o apoio do Centro Desportivo de Quarteira, realiza-se no dia 15 de Abril de 2023, a 6ª Corrida do Coração, com início agendado para as 18.30 horas, no Passeio das Dunas com partida e chegada no Passeio das Dunas, na distância total de 10km.</p>\n\n\n",
+  "description_short": "Corrida solidária contra doenças cardíacas pelo Passeio das Dunas em Quarteira",
+  "page": "https://www.crono.aaalgarve.org/eventos/6-corrida-do-coracao",
+  "slug": "corrida-do-coracao-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Quarteira",
+  "district_code": 8
+}

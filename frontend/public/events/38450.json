@@ -1,0 +1,34 @@
+{
+  "id": 38450,
+  "name": "Viseu XMAS Run 2024",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/0452d6350c6dbd2413dedc94d218b2e7"
+  ],
+  "start_date": "2024-12-22",
+  "end_date": "2024-12-23",
+  "circuit": [],
+  "description": "\n<p>O Viseu XMAS RUN é um evento desportivo 100% solidário, promovido pelo Município de Viseu, e que pretende contar com o envolvimento de toda a comunidade Viseense no apoio a crianças e jovens mais vulneráveis, do concelho de Viseu.</p>\n\n\n\n<p> <br>O resultado do valor angariado, com as inscrições na Corrida e Caminhada, será canalizado para a criação de um conjunto de atividades e experiências, durante o ano de 2025, para os utentes da APCV &#8211; Associação de Paralisia Cerebral de Viseu.</p>\n\n\n\n<p>Provas<br>O Viseu XMAS RUN é composto por:</p>\n\n\n\n<ol start=\"2\" class=\"wp-block-list\"></ol>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Uma prova de corrida com 10 quilómetros</li>\n\n\n\n<li>Uma caminhada com 5 quilómetros</li>\n</ul>\n\n\n\n<p><br></p>\n\n\n",
+  "description_short": "Corrida solidária de Natal em Viseu para apoiar crianças com paralisia cerebral",
+  "page": "https://stopandgo.net/events/viseu-xmas-run-2024",
+  "slug": "viseu-xmas-run-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

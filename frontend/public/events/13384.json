@@ -1,0 +1,30 @@
+{
+  "id": 13384,
+  "name": "São Silvestre Mirandela 2021",
+  "location": "Mirandela, Bragança",
+  "coordinates": {
+    "lat": 41.4853545,
+    "lon": -7.180871100000001
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/d1c152725c2f287abe8c249d9a022aab"
+  ],
+  "start_date": "2021-12-18",
+  "end_date": "2021-12-19",
+  "circuit": [],
+  "description": "\n<p>São Silvestre Mirandela 2021 com prémios Monetários! Haverá prémios monetários para os 3 primeiros classificados da Classificação Geral Masculina e Feminina: 1º &#8211; €300 / 2º &#8211; €200 / 3º &#8211; €100</p>\n",
+  "description_short": "São Silvestre tradicional em Mirandela com prémios monetários para os melhores atletas",
+  "page": "https://stopandgo.com.pt/events/s-o-silvestre-mirandela-2021?fbclid=IwAR0c_FInYmF5O3EOkBJ8xooHJtjVe3VukNvQ0RzWVm2bQXNniFc3vU6B7Tw",
+  "slug": "sao-silvestre-mirandela-2021",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mirandela",
+  "administrative_area_level_3": "Mirandela",
+  "district_code": 4
+}

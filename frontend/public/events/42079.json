@@ -1,0 +1,31 @@
+{
+  "id": 42079,
+  "name": "Bike and Run 3070 2025",
+  "location": "Praia de Mira, Mira",
+  "coordinates": {
+    "lat": 40.4557388,
+    "lon": -8.7962259
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    3070
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/5329f7ae5a93fd7b238007c53b1d6abe"
+  ],
+  "start_date": "2025-06-19",
+  "end_date": "2025-06-19",
+  "circuit": [],
+  "description": "\n<p>2º Bike and Run FitMe 3070 [19 Junho 2025] Praia de Mira</p>\n\n\n\n<p>A aventura continua! Vem aí a 2.ª edição da Bike and Run 3070!</p>\n\n\n\n<p>No dia 19 de junho (feriado), voltamos à incrível Praia de Mira para mais uma jornada de superação, adrenalina e espírito de equipa.</p>\n",
+  "description_short": "Prova de Bike and Run na Praia de Mira com espírito de aventura e desafio em equipa",
+  "page": "https://waitastart.com/bikeandrun2025/",
+  "slug": "bike-and-run-3070-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Mira",
+  "administrative_area_level_3": "Praia de Mira",
+  "district_code": 6
+}

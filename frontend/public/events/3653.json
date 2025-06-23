@@ -1,0 +1,34 @@
+{
+  "id": 3653,
+  "name": "Meia Maratona de Ovar 2022",
+  "location": "Ovar, Aveiro",
+  "coordinates": {
+    "lat": 40.8596399,
+    "lon": -8.6253313
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/09e32190a3ce45afceeb08dbf65a82b8"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p> Meia Maratona Cidade de Ovar 2022 </p>\n\n\n\n<p>&#8220;Caros atletas, treinadores, entidades oficiais locais, patrocinadores, colaboradores, voluntários, amigos&#8230;Informamos que o AFIS/Ovar, após uma cuidada avaliação e ponderação, tomou a difícil decisão de adiar a 32ª Meia Maratona Cidade de Ovar 2022 e todas as provas com ela relacionadas, para dia 9 de outubro de 2022.Neste momento, é-nos impossível, devido à situação epidemiológica do país e a proximidade da data prevista, garantir aos atletas um evento com a qualidade pela qual a nossa prova é amplamente reconhecida. Como tal, estamos convictos que em outubro de 2022, estarão reunidas as condições para voltarmos com mais uma grande Meia Maratona “Cidade de Ovar” bem como todos os seus eventos associados, certos que voltaremos a poder dizer: </p>\n\n\n\n<p>&#8220;A correr ou a caminhar, vamos todos a Ovar!&#8221;Vemo-nos em outubro de 2022. Até lá, bons treinos!</p>\n\n\n\n<p>AFIS/Ovar&#8221;</p>\n",
+  "description_short": "Meia Maratona de Ovar adiada para outubro devido a condições epidemiológicas",
+  "page": "https://mmovar.afis.pt/",
+  "slug": "meia-maratona-cidade-de-ovar-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ovar",
+  "administrative_area_level_3": "União das freguesias de Ovar, São João, Arada e São Vicente de Pereira Jusã",
+  "district_code": 1
+}

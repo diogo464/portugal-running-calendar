@@ -1,0 +1,35 @@
+{
+  "id": 36273,
+  "name": "Sines Corre Mais 2024",
+  "location": "Sines, Setúbal",
+  "coordinates": {
+    "lat": 37.9571555,
+    "lon": -8.860890699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/cfb760729ee9992d183224a577e1e477"
+  ],
+  "start_date": "2024-09-28",
+  "end_date": "2024-09-29",
+  "circuit": [],
+  "description": "\n<p>Dia 28 de setembro de 2024, com partida e chegada Praia Vasco da Gama, nos seguintes horários:</p>\n\n\n\n<p></p>\n\n\n\n<p><strong>Corrida 10 Km:</strong>&nbsp;Dia 28 de setembro de 2024 às 18h00, com partida e chegada na Praia Vasco da Gama</p>\n\n\n\n<p><strong>Caminhada 5 Km:</strong>&nbsp;Dia 28 de setembro de 2024 às 18h00, com partida e chegada na Praia Vasco da Gama</p>\n\n\n",
+  "description_short": "Corrida e caminhada noturna à beira-mar na Praia Vasco da Gama",
+  "page": "https://www.sinescorremais.pt/",
+  "slug": "sines-corre-mais-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sines",
+  "administrative_area_level_3": "Sines",
+  "district_code": 15
+}

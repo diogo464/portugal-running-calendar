@@ -1,0 +1,31 @@
+{
+  "id": 39240,
+  "name": "AXTrail 2025",
+  "location": "Lousã, Coimbra",
+  "coordinates": {
+    "lat": 40.1125621,
+    "lon": -8.2468738
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/72cbf5f1475b9fa4ca28ddf89820ba58"
+  ],
+  "start_date": "2025-10-17",
+  "end_date": "2025-10-18",
+  "circuit": [],
+  "description": "\n<p>No âmbito do AXtrail®series 2025, realizar-se-á nos dias 17, 18 e 19 de Outubro de 2025, a décima segunda edição do AXtrail / oitava edição do UTAX (Ultra Trail das Aldeias do Xisto). O programa inclui 4 provas de carácter competitivo (UTAX, TSL, TX e MTX &#8211; prova de iniciação ao Trail), 1 caminhada, 2 eventos de carácter social (AXtrail Kids e AXtrail da Inclusão).</p>\n\n\n",
+  "description_short": "Trail das Aldeias do Xisto com provas diversas e inclusivas pela região montanhosa do interior centro",
+  "page": "https://stopandgo.net/events/axtrail2025",
+  "slug": "axtrail-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Lousã",
+  "administrative_area_level_3": "União das freguesias de Lousã e Vilarinho",
+  "district_code": 6
+}

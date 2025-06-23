@@ -1,0 +1,30 @@
+{
+  "id": 1225,
+  "name": "Trail de Santa Cruz 2020",
+  "location": "Santa Cruz",
+  "coordinates": {
+    "lat": 32.6892815,
+    "lon": -16.7907398
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/35fa91b53abfbeda52235cf6104cff85"
+  ],
+  "start_date": "2020-08-01",
+  "end_date": "2020-08-02",
+  "circuit": [],
+  "description": "<p>O  TURRES TRAIL CLUBE  , com o apoio da CAP &#8211; Penafirme , Câmara Municipal de Torres Vedras , Juntas de freguesias da Silveira , A dos Cunhados e São Pedro da Cadeira  , vai realizar no  dia 1 de Agosto  de 2020, um evento denominado &#8220;<b>  UTRSC- Ultra Trail Run Santa Cruz 2020  </b>&#8220;. Este evento, terá um Ultra Trail um Trail Longo um Trail Curto  e uma  caminhada . O percurso do Trail Run é circular. O local de partida e chegada assim como o secretariado será  em Santa Cruz ( Local a definir) .</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Santa Cruz com diferentes percursos de montanha",
+  "page": "https://www.turresevents.com/eventos/ultra-trail-santa-cruz",
+  "slug": "trail-de-santa-cruz-2020",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

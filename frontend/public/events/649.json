@@ -1,0 +1,35 @@
+{
+  "id": 649,
+  "name": "São Silvestre de Santo Tirso",
+  "location": "Santo Tirso, Porto",
+  "coordinates": {
+    "lat": 41.3431376,
+    "lon": -8.4738078
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/fd3c8ab70ceb57660eb69162319033cb"
+  ],
+  "start_date": "2019-12-21",
+  "end_date": "2019-12-22",
+  "circuit": [],
+  "description": "<p><i>A S. Silvestre de Santo Tirso é, sem dúvida, um marco de destaque para o concelho. Mais do que uma iniciativa desportiva, é um fator de união, de importância e notoriedade. Esta prova consegue reunir milhares de pessoas, não apenas os participantes, mas também todos aqueles que, pelo apoio e camaradagem, assistem a este evento. Este, sim, é o sinal de que a S. Silvestre é um sucesso e uma referência que há muito ultrapassou as fronteiras do Concelho de Santo Tirso.</i></p>\n<p><i>Venha a Santo Tirso correr ou caminhar!</i></p>\n<p style=\"font-weight: 400;\"><strong>PROGRAMA</strong><br />\n16:30 HORAS &#8211; INICIO DAS PROVAS PARA OS ESCALÕES JOVENS</p>\n<p>18:00 HORAS &#8211; PROVA DOS 10 KM E CAMINHADA</p>\n",
+  "description_short": "S. Silvestre tradicional em Santo Tirso com provas para todas as idades e ambiente de festa concelhia",
+  "page": "http://desportave.pt/events.file.php?cid=121",
+  "slug": "sao-silvestre-de-santo-tirso",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Santo Tirso",
+  "district_code": 13
+}

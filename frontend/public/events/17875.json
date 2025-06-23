@@ -1,0 +1,35 @@
+{
+  "id": 17875,
+  "name": "Trail de Ficalho 2022",
+  "location": "Vila Verde de Ficalho, Serpa",
+  "coordinates": {
+    "lat": 37.9307792,
+    "lon": -7.3192542
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    17000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/d6d3fc1aa5c3748fb59fbbfd0d1d1086"
+  ],
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-07",
+  "circuit": [],
+  "description": "\n<p>O 2º Trail do Ficalho é composto por 3 provas e ocorre no dia 6 de novembro de 2022.</p>\n\n\n\n<p>Caminhada, 10km</p>\n\n\n\n<p>Trai Curto &#8211; 17 km, +600</p>\n\n\n\n<p>Trail Longo &#8211;  25 km, +800</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela região de Ficalho com três provas de diferentes distâncias e dificuldades",
+  "page": "https://lap2go.com/pt/event/trail-ficalho-2022",
+  "slug": "trail-de-ficalho-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Serpa",
+  "administrative_area_level_3": "Vila Verde de Ficalho",
+  "district_code": 2
+}

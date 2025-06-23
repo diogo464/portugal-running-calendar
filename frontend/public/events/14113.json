@@ -1,0 +1,32 @@
+{
+  "id": 14113,
+  "name": "Corrida da Marginal 2022",
+  "location": "Póvoa de Varzim, Porto",
+  "coordinates": {
+    "lat": 41.3828815,
+    "lon": -8.759989299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/084f1af1ae7fbd8b80fd9d9bbc50cf7c"
+  ],
+  "start_date": "2022-03-27",
+  "end_date": "2022-03-28",
+  "circuit": [],
+  "description": "\n<p>Corrida da Marginal 2022 </p>\n",
+  "description_short": "Clássica prova de atletismo pela marginal de Lisboa com vista para o rio Tejo",
+  "page": "https://www.proevents.pt/",
+  "slug": "corrida-da-marginal-povoa-de-varzim-vila-do-conde-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Póvoa de Varzim",
+  "district_code": 13
+}

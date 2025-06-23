@@ -1,0 +1,29 @@
+{
+  "id": 1046,
+  "name": "Santarém Trail 2020",
+  "location": "Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/52f99fb5be375394a6d2c6a226345fd0"
+  ],
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-11",
+  "circuit": [],
+  "description": "<p>Os pace.makers e o Agrupamento 52 do Corpo Nacional de Escutas voltam a associar-se para trazer de volta o Santarém Trail, evento que visa dar a conhecer a cidade de Santarém e espaços verdes envolventes, permitindo em simultâneo apoiar a promoção do exercício físico e de um espírito de vida saudável.</p>\n",
+  "description_short": "Trail solidário que celebra Santarém e promove exercício físico pelos seus espaços verdes",
+  "page": "https://www.prozis.com/pt/pt/evento/bmw-acf-santarem-trail-2020",
+  "slug": "santarem-trail-2020",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

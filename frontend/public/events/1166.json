@@ -1,0 +1,31 @@
+{
+  "id": 1166,
+  "name": "Corrida do Chocolate 2020",
+  "location": "Óbidos",
+  "coordinates": {
+    "lat": 39.3572399,
+    "lon": -9.1578614
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/a367526fb986420aa39c6fdfe6fe1cbf"
+  ],
+  "start_date": "2020-04-25",
+  "end_date": "2020-04-26",
+  "circuit": [],
+  "description": "<p>O Clube de Atletismo de Óbidos (CAOB) organiza em parceria com a Empresa Municipal “Óbidos Criativa” (OC) e a Câmara Municipal de Óbidos (CMO), no dia 25 de abril de 2020, uma competição denominada &#8220;III CORRIDA DO CHOCOLATE&#8221;, integrando ainda a “II CAMINHADA DO CHOCOLATE” e as corridas jovem “Milha de Chocolate”, todas com partida e chegada à porta da Vila de Óbidos.</p>\n",
+  "description_short": "Corrida temática do chocolate com partida e chegada na histórica vila de Óbidos",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/99/",
+  "slug": "corrida-do-chocolate-2020",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Município do Óbidos",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Sobral da Lagoa",
+  "district_code": 10
+}

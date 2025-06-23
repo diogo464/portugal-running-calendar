@@ -1,0 +1,35 @@
+{
+  "id": 23112,
+  "name": "15ª Corrida do Benfica António Leitão 2023",
+  "location": "Avenida Machado Santos, Lisboa",
+  "coordinates": {
+    "lat": 38.7534037,
+    "lon": -9.1821887
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/b18e4c9eb5a706fee0e93f53ecfb5544"
+  ],
+  "start_date": "2023-04-01",
+  "end_date": "2023-04-02",
+  "circuit": [],
+  "description": "\n<p>A 15ª Corrida do Benfica António Leitão é organizada pelo Sport Lisboa e Benfica sob a direção técnica da Prof. Ana Oliveira.</p>\n\n\n\n<h3 class=\"wp-block-heading\">INFORMAÇÕES ADICIONAIS</h3>\n\n\n\n<p>Horários e Local&nbsp;<br>1 abril às 11H00: Corrida da Pequenada com partida e chegada no relvado do Estádio da Luz.<br><br>2&nbsp;abril às 10H30: Corrida 10Km com partida na Avenida Machado Santos (junto ao Estádio da Luz), e chegada na Praça Centenário (Estádio da Luz).<br><br>2&nbsp;abril às 11H00: Fun Run/Caminhada, 5Km,&nbsp;com partida no anel exterior do estádio da Luz, junto à Porta 23 e chegada na Praça Centenário (Estádio da Luz).<br><br><br>Entrega do kit do atleta<br>Sala dos Campeões Europeus, do Estádio do Sport Lisboa e Benfica:<br>Dias 30 e 31 de março, quinta e sexta-feira: 10h00 às 20h00<br>Dia 1 de abril, sábado: 9h00 às 22h00</p>\n",
+  "description_short": "Corrida anual do Benfica com percurso à volta do Estádio da Luz em Lisboa",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/86977-15a_corrida_do_benfica_antonio_leitao-sport_lisboa_e_benfica/",
+  "slug": "15a-corrida-do-benfica-antonio-leitao-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "São Domingos de Benfica",
+  "district_code": 11
+}

@@ -1,0 +1,34 @@
+{
+  "id": 37763,
+  "name": "Corrida da Água 2024",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/e446fd4080ca0afede9ad29a07177493"
+  ],
+  "start_date": "2024-11-24",
+  "end_date": "2024-11-25",
+  "circuit": [],
+  "description": "\n<p><strong>A Xistarca e a EPAL unem esforços para trazer&nbsp;até ti a&nbsp;12ª Corrida da Água, no dia&nbsp;24 de novembro de 2024, às 9h30.&nbsp;</strong></p>\n\n\n\n<p>Este evento imperdível inclui uma experiência única de corrida e caminhada pelo majestoso Aqueduto das Águas Livres, um Monumento Nacional desde 1910 e um feito notável da engenharia hidráulica.</p>\n\n\n\n<p>» Caminhada 4km | <strong>9h30</strong> | Parque do Calhau<br>» Corrida 10km | <strong>10h00 |</strong> Estrada da Serafina (Junto ao Parque)</p>\n\n\n",
+  "description_short": "Corrida e caminhada pela histórica rota do Aqueduto das Águas Livres em Lisboa",
+  "page": "https://xistarca.pt/eventos/12a-corrida-da-agua",
+  "slug": "corrida-da-agua-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

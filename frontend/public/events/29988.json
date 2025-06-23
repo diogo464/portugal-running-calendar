@@ -1,0 +1,29 @@
+{
+  "id": 29988,
+  "name": "Sky Race Montejunto 2024",
+  "location": "Montejunto, Cadaval",
+  "coordinates": {
+    "lat": 39.2395487,
+    "lon": -9.102103099999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b0402f5d960eac82ef05bd7902092b5e"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-20",
+  "circuit": [],
+  "description": "\n<p>&nbsp;</p>\n\n\n\n<p>O   TURRES TRAIL CLUBE   com o apoio da Área Protegida da Serra da Montejunto   , Câmara Municipal do Cadaval e FCMP- Federação Caravanismo e Montanhismo Portugal , vai levar a efeito a 8º edição  <strong>SkyRace Montejunto  </strong>no dia 19 de Maio de 2024. O percurso   é circular, o local de partida,  chegada , secretariado e entrega  de prémios e no  centro interpretação ambiental da Serra de Montejunto </p>\n",
+  "description_short": "Trail desafiante pela Serra de Montejunto com apoio de entidades locais e ambientais",
+  "page": "https://www.turresevents.com/eventos/skyrace-montejunto-2024",
+  "slug": "sky-race-montejunto-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cadaval",
+  "administrative_area_level_3": "União das freguesias do Cadaval e Pêro Moniz",
+  "district_code": 11
+}

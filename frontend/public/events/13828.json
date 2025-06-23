@@ -1,0 +1,33 @@
+{
+  "id": 13828,
+  "name": "Xvi S. Silvestre Cidade de Vila Real 2022",
+  "location": "Vila Real",
+  "coordinates": {
+    "lat": 41.3011532,
+    "lon": -7.7409832
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/a367e8340e2be41bf66151f9008b83dd"
+  ],
+  "start_date": "2022-01-29",
+  "end_date": "2022-01-30",
+  "circuit": [],
+  "description": "\n<p>A organização do São Silvestre Cidade de Vila Real 2022 é da responsabilidade da Câmara Municipal de Vila Real, do Regimento de Infantaria 13, da Associação de<br>Atletismo de Vila Real, Fundação Inatel, Policia Segurança Pública, Junta de Freguesia de Vila Real.c</p>\n",
+  "description_short": "São Silvestre tradicional pelas ruas históricas de Vila Real com amplo apoio institucional",
+  "page": "http://cyclonessports.com/index.php/233-xv-s-silvestre-cidade-de-vila-real",
+  "slug": "sao-silvestre-cidade-de-vila-real-2022",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Real",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

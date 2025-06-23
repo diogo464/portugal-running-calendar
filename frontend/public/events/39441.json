@@ -1,0 +1,32 @@
+{
+  "id": 39441,
+  "name": "Trilhos da Lapa 2025",
+  "location": "Mendiga, Porto de Mós",
+  "coordinates": {
+    "lat": 39.4984386,
+    "lon": -8.8482916
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/ace00f11fa9b4a49797cb124276e2a98"
+  ],
+  "start_date": "2025-05-31",
+  "end_date": "2025-06-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/4trilhosdalapa",
+  "slug": "trilhos-da-lapa-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Mendiga",
+  "district_code": 10
+}

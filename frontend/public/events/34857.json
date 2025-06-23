@@ -1,0 +1,36 @@
+{
+  "id": 34857,
+  "name": "Volta a Paranhos 2024",
+  "location": "Paranhos, Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    500,
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/430884a4b59157e4c3d711682958ff28"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-09",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 8 de dezembro de 2024, com início às 10h00, uma corrida de 500m direcionada para os mais pequenos, às 10h45 uma Corrida 10K e caminhada de 4 Km, que se pretende que seja uma verdadeira festa para os amantes de desporto. O evento conta com o apoio técnico da Associação de Atletismo do Porto, Câmara Municipal do Porto, ÁGORA Cultura e Desporto EM, Federação Portuguesa de Atletismo, Conselho Regional de Arbitragem e Polícia de Segurança Pública.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida familiar no Porto com prova para crianças e percurso urbano de 10K",
+  "page": "https://67voltaparanhos.eventsport.net/",
+  "slug": "volta-a-paranhos-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

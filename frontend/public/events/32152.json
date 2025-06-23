@@ -1,0 +1,36 @@
+{
+  "id": 32152,
+  "name": "Grande Prémio do Atlântico 2024",
+  "location": "Costa da Caparica, Almada",
+  "coordinates": {
+    "lat": 38.64455299999999,
+    "lon": -9.2333757
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    500,
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/3adebff69bb9b9355531e05ac9adb9dc"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [],
+  "description": "\n<p>A mítica corrida “G.P. do Atlântico” será realizada no dia <strong>18 de Fevereiro de 2024</strong>. Percorre as principais ruas da Costa de Caparica e o fantástico paredão, junto às praias. </p>\n\n\n\n<p><strong>Kids Race 500m</strong> |  Av. Gen. Humberto Delgado, junto ao Caparica Oceano</p>\n\n\n\n<p><strong>Corrida 10km</strong> | Av. Gen. Humberto Delgado, junto ao Caparica Oceano</p>\n\n\n\n<p><strong>Caminhada 5km</strong> | Av. Gen. Humberto Delgado, junto ao Caparica Oceano</p>\n",
+  "description_short": "Corrida histórica pela Costa de Caparica com percurso junto ao paredão e praias atlânticas",
+  "page": "https://xistarca.pt/eventos/xxiv-g-p-do-atlantico-serafim-martins",
+  "slug": "grande-premio-do-atlantico-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

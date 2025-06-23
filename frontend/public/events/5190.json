@@ -1,0 +1,37 @@
+{
+  "id": 5190,
+  "name": "Meia Maratona D´Ouro Run Gondomar 2022",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000,
+    21097,
+    97000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/1c528b88c688ef56b595f775308dd980"
+  ],
+  "start_date": "2022-06-12",
+  "end_date": "2022-06-13",
+  "circuit": [],
+  "description": "\n<p>É este ano que vamos realizar a 7ª edição da Tranquilidade Meia Maratona D`Ouro Run Gondomar.</p>\n\n\n\n<p>A <strong>EVENTSPORT</strong> e o <strong>Município de Gondomar</strong> organizam a <strong>7ª edição</strong> da <strong>Tranquilidade Meia Maratona D`Ouro Run Gondomar</strong>, que se realiza no dia 12 de Junho de 2022, Domingo, pelas 10h00, entre Valbom e Foz do Sousa – Esposade.</p>\n\n\n\n<p>O evento é composto por uma Meia Maratona de 21.097 Km, uma Mini Maratona de 10 Km e uma caminhada de 5 Km com partida e chegada em Ribeira de Abade na Nacional 108 que tem como pano de fundo a extraordinária beleza do Rio Douro.</p>\n\n\n\n<p><strong>Rosa Maria Correia dos Santos Mota</strong>, é madrinha pela sétima vez da <strong>Tranquilidade Meia Maratona D`Ouro Run Gondomar</strong>.</p>\n",
+  "description_short": "Meia maratona junto ao Rio Douro em Gondomar com o patrocínio da Tranquilidade e madrinhas de Rosa Mota",
+  "page": "http://www.dourorun.pt/?page=13",
+  "slug": "meia-maratona-douro-run-gondomar-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

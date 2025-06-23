@@ -1,0 +1,29 @@
+{
+  "id": 23989,
+  "name": "Milha Grupo Juvenil Pinheiro da Bemposta 2023",
+  "location": "Pinheiro da Bemposta, Oliveira de Azeméis",
+  "coordinates": {
+    "lat": 40.7843537,
+    "lon": -8.490186500000002
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    1609
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2023-06-03",
+  "end_date": "2023-06-04",
+  "circuit": [],
+  "description": "\n<p>O Grupo Juvenil de Pinheiro da Bemposta irá inaugurar este ano a primeira edição de uma prova de estrada com distância de Milha, que animará o fim de tarde do primeiro sábado de junho.</p>\n\n\n",
+  "description_short": "Primeira milha competitiva organizada pelo Grupo Juvenil de Pinheiro da Bemposta no início de junho",
+  "page": "https://lap2go.com/pt/event/milha-grupo-juvenil-pinheiro-da-bemposta-2023",
+  "slug": "milha-grupo-juvenil-pinheiro-da-bemposta-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "Pinheiro da Bemposta",
+  "district_code": 1
+}

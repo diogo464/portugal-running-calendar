@@ -1,0 +1,34 @@
+{
+  "id": 29118,
+  "name": "Trail da Barreira Off Road 2024",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/475268a7fc358216e3d1165be447f5c2"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Clube de Atletismo da Barreira organiza no dia 18 de Fevereiro de 2024 o 10º Trail Off-Road da Barreira.</p>\n\n\n\n<p>Se a organização entender que as condições climatéricas são adversas à segurança dos atletas ou que existem outras razões de qualquer natureza que se incompatibilizem com o evento, os percursos poderão sofrer alterações ou, no limite, o evento pode ser suspenso ou anulado.</p>\n\n\n\n<p>O evento é composto por duas provas competitivas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Curto 20Km &#8211; Percurso com cerca de +/-20km de dificuldade média.</li>\n\n\n\n<li>Mini-Trail 12K &#8211; Percurso com cerca de +/-12km de dificuldade média baixa.</li>\n</ul>\n",
+  "description_short": "Trail Off-Road da Barreira com duas provas técnicas pelos caminhos da região",
+  "page": "https://www.recordepessoal.pt/evento/10trailoff-roaddabarreira",
+  "slug": "trail-da-barreira-off-road-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

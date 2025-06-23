@@ -1,0 +1,29 @@
+{
+  "id": 15404,
+  "name": "Trilhos do Outeiro do Circo 2022",
+  "location": "Mombeja, Beja",
+  "coordinates": {
+    "lat": 38.0239578,
+    "lon": -8.0368557
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/7f638e535f7a452933739c3bb696ff66"
+  ],
+  "start_date": "2022-09-18",
+  "end_date": "2022-09-19",
+  "circuit": [],
+  "description": "\n<p>O evento desportivo, 1º Trail “Trilhos do Outeiro do Circo” é promovido e organizado pelo Grupo Desportivo e Cultural Mombeja e destina-se a todos os cidadãos que cumpram o disposto no presente regulamento.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos da aldeia de Mombeja",
+  "page": "https://acorrer.pt/eventos/info/2923",
+  "slug": "trilhos-do-outeiro-do-circo-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "Mombeja",
+  "district_code": 2
+}

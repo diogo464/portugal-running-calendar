@@ -1,0 +1,30 @@
+{
+  "id": 155,
+  "name": "Cross Laminha",
+  "location": "Cumeira, Leiria",
+  "coordinates": {
+    "lat": 39.691046,
+    "lon": -8.8026334
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/5c7e29388ce6e01a85b87ad94c9ea8ca"
+  ],
+  "start_date": "2020-01-19",
+  "end_date": "2020-01-20",
+  "circuit": [],
+  "description": "<p>A prova denominada Cross Laminha, é constituída no seu percurso por trilhos, carreiros e caminhos, bastante desnivelados, que estando o tempo húmido, se tornam bastante escorregadios, essencialmente onde o piso é pedra e barro. Por tal se aconselha a máxima prudência aos participantes.</p>\n<p>O percurso de rara beleza é muito duro e técnico, com características de orientação em floresta, percorrendo carreiros e túneis florestais.</p>\n<p>Poderá sofrer alterações por imposição das autoridades competentes ou por razões de obras ou imprevistos que impeçam a passagem dos participantes.</p>\n<p>Dado o carácter do evento, a organização limita o número de participantes à logística disponível.</p>\n<p>Pela classificação ATRP este percurso tem a escala TC2.</p>\n",
+  "description_short": "Trail técnico e desafiante pelos trilhos e carreiros da Laminha, com percurso exigente em piso escorregadio de pedra e barro",
+  "page": "https://eventos.dreamstudio.pt/crosslaminha2020",
+  "slug": "cross-laminha",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

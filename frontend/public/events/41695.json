@@ -1,0 +1,34 @@
+{
+  "id": 41695,
+  "name": "Trail do Côa 2025",
+  "location": "Rapoula do Côa, Sabugal",
+  "coordinates": {
+    "lat": 40.4354607,
+    "lon": -7.044467099999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    10000,
+    14000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/bff47297b50324e16bedf1640413b743"
+  ],
+  "start_date": "2025-07-06",
+  "end_date": "2025-07-06",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de Rapoula do Côa, com o apoio da Associação Arcôa e Município do Sabugal, vai realizar no dia 06 de julho de 2025, a segunda edição do evento desportivo &#8220;Trail do Côa&#8221;.</p>\n\n\n\n<p><br>O Trail do Côa é uma prova de trail running que vai decorrer na Praia Fluvial de Rapoula do Côa, freguesia de Rapoula do Côa, concelho do Sabugal e integra provas de 24km, 14km e 10km de caminhada.</p>\n\n\n\n<p><br>Esta prova iniciar-se-á e terminará na Praia Fluvial de Rapoula do Côa, concelho do Sabugal, percorrendo parte do percurso as zonas envolventes das Termas do Cró e das margens do Rio Côa. Este percurso visa promover o património histórico, cultural e natural do concelho e ainda sensibilizar para a preservação da Natureza.</p>\n\n\n",
+  "description_short": "Trail desafiante pelas margens do Rio Côa com partida na Praia Fluvial de Rapoula do Côa",
+  "page": "https://acorrer.pt/eventos/3852/info",
+  "slug": "trail-do-coa-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Sabugal",
+  "administrative_area_level_3": "Rapoula do Côa",
+  "district_code": 9
+}

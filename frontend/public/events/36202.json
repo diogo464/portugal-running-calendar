@@ -1,0 +1,32 @@
+{
+  "id": 36202,
+  "name": "Maratona de Sevilha 2025",
+  "location": "Sevilha, Espanha",
+  "coordinates": {
+    "lat": 37.3890924,
+    "lon": -5.9844589
+  },
+  "country": "Espanha",
+  "locality": "Andaluzia",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "run",
+    "marathon"
+  ],
+  "images": [
+    "media/c5e1f46c7698de8e69a8591d385f978c"
+  ],
+  "start_date": "2025-02-23",
+  "end_date": "2025-02-24",
+  "circuit": [],
+  "description": "\n<p>A Maratona de Sevilha 2025 realiza-se a 23 de fevereiro de 2025 e é organizada pelo Instituto Municipal de Deportes del Ayuntamiento de Sevilla.</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida urbana pela histórica cidade de Sevilha no início da primavera",
+  "page": "https://pt.zurichmaratonsevilla.es/",
+  "slug": "maratona-de-sevilha-2025",
+  "administrative_area_level_1": "Andaluzia",
+  "administrative_area_level_2": "Sevilha",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": 21239,
+  "name": "Trail do Cavalo 2023",
+  "location": "Alter do Chão, Portalegre",
+  "coordinates": {
+    "lat": 39.201007,
+    "lon": -7.660334
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/8c3901ccb97c4fd4c9240ad1abe7200b"
+  ],
+  "start_date": "2023-01-29",
+  "end_date": "2023-01-30",
+  "circuit": [],
+  "description": "\n<p>É com enorme satisfação que, depois dos tempos atribulados decorrentes da pandemia, apresentamos o regulamento da 5ªedição do Trail do Cavalo nos seus moldes normais.</p>\n\n\n\n<p>O 5º Trail do Cavalo é uma prova de resistência que combina vários tipos de pisos e desníveis onde os atletas competirão num percurso pela natureza.</p>\n\n\n\n<p>Organizada pela R&amp;W &#8211; Alter Runners Associação, esta prova será realizada no dia 29 de janeiro de 2023 em Alter do Chão, distrito de Portalegre, com início às 09:00 horas.</p>\n\n\n\n<p>Pretende-se assim trazer a esta vila alentejana, uma prova de atletismo nesta modalidade, para cativar todos os amantes da corrida, e assim ajudar a dinamizar a prática do desporto no seio da população em geral.</p>\n\n\n\n<p>Este evento é parte integrante do Circuito Distrital de Trail Curto e Trail Longo da Associação de Atletismo do Distrito de Portalegre (AADP). O presente regulamento assentará no regulamento geral do circuito bem como da Federação Portuguesa de Atletismo e da ATRP para a modalidade.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos naturais de Alter do Chão em pleno Alentejo",
+  "page": "https://www.totalcrono.pt/eventos/traildocavalo2023",
+  "slug": "trail-do-cavalo-2023",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Alter do Chão",
+  "administrative_area_level_3": "Alter do Chão",
+  "district_code": 12
+}

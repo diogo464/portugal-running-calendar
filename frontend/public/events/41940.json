@@ -1,0 +1,33 @@
+{
+  "id": 41940,
+  "name": "Corrida de São Brás 2025",
+  "location": "Granja, Castro Daire",
+  "coordinates": {
+    "lat": 40.8954616,
+    "lon": -7.8757343
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    10800
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/818e6f523cbd90b93f39fd88338b21d7"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Castro Daire e o GDR Granja organizam, no dia 8 de junho de 2025, na povoação da Granja – Freguesia de Mões, em colaboração com a Junta de Freguesia de Mões e a Associação de Atletismo de Viseu a 18ª CORRIDA DE SÃO BRÁS e o 5º Campeonato Distrital de Viseu de Corrida em Montanha, evento pedestre em natureza, destinado a participantes de ambos os sexos enquadrados nos escalões etários adiante indicados.</p>\n\n\n\n<p>O evento conta com uma competição pedestre com características de montanha, na distância de 10,8 km,<br>para atletas seniores, veteranos e juniores de ambos os sexos (duas voltas ao circuito de montanha e está<br>integrado no “(PER) CORRER CASTRO DAIRE” 2025 – 5ª jornada.</p>\n",
+  "description_short": "Trail de montanha desafiante pela Serra de Castro Daire com vista para a região de Viseu",
+  "page": "https://stopandgo.net/events/18-corrida-de-sao-bras",
+  "slug": "corrida-de-sao-bras-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Mões",
+  "district_code": 18
+}

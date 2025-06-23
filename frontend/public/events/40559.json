@@ -1,0 +1,32 @@
+{
+  "id": 40559,
+  "name": "Trail Agroal 2025",
+  "location": "Agroal, Ourém",
+  "coordinates": {
+    "lat": 39.67754499999999,
+    "lon": -8.431096
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/536d19815b3d5ad9ca5451f57aa0840b"
+  ],
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-02",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 3 ª edição do Agroal Trail é um evento desportivo de Trail Running, constituído por 3 provas<br>competitivas e uma caminhada, organizada pela Liga dos Amigos da Secção da Freixianda, dos<br>Bombeiros dos Voluntários de Ourém, contando com a colaboração do Município de Ourém, da<br>União das freguesias de Freixianda, Ribeira do Fárrio e Formigais, entre outros patrocinadores e<br>apoiantes.<br>A sua 3ª edição realizar-se-á no dia a 1 de junho de 2025, no Agroal, Concelho Ourém, Distrito de<br>Santarém, Localidade, constituída por montes e vales, onde a Praia Fluvial do Agroal é o seu exlibris, a qual integra a maior nascente do rio Nabão, conferindo-lhe uma beleza paisagística<br>extensa, onde o verde da serra se une com a sua bela nascente de Águas “gélidas termais”</p>\n\n\n",
+  "description_short": "Trail pela paisagem única do Agroal com nascente do rio Nabão e cenário serrano de Ourém",
+  "page": "https://www.queroir.pt/traildoagroal2025",
+  "slug": "trail-agroal-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "União das freguesias de Freixianda, Ribeira do Fárrio e Formigais",
+  "district_code": 14
+}

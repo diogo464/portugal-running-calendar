@@ -1,0 +1,32 @@
+{
+  "id": 5965,
+  "name": "Corre Jamor 2021",
+  "location": "Jamor Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/4c91353040d13658ff945fce366b6c5b"
+  ],
+  "start_date": "2021-11-14",
+  "end_date": "2021-11-15",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://www.correjamor.com/site/#results\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>A 14 de novembro, o Corre Jamor 2021 está de volta, prova promovida pelo Clube Olímpico de Oeiras no Centro Desportivo Nacional do Jamor.</p>\n",
+  "description_short": "Corrida emblemática no Centro Desportivo Nacional do Jamor em Oeiras",
+  "page": "https://correjamor.com/",
+  "slug": "corre-jamor-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

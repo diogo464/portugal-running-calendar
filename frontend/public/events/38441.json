@@ -1,0 +1,32 @@
+{
+  "id": 38441,
+  "name": "CCM Quinta Marques da Costa 2025",
+  "location": "Quinta da Lomba, Barreiro",
+  "coordinates": {
+    "lat": 38.6447641,
+    "lon": -9.0568846
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/49b34d8eaaea456e7ed35e3a2f45cad8"
+  ],
+  "start_date": "2025-02-09",
+  "end_date": "2025-02-09",
+  "circuit": [
+    "Atletismo do Barreiro"
+  ],
+  "description": "\n<p>A Câmara Municipal do Barreiro e organização técnica da Xistarca, organiza no dia <strong>09 fevereiro 2025</strong>, o <strong>CCM Quinta Marques da Costa.</strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida camarária na zona do Barreiro com organização técnica da Xistarca",
+  "page": "https://xistarca.pt/eventos/cab-ccm-quinta-marques-da-costa",
+  "slug": "ccm-quinta-marques-da-costa-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "União das freguesias de Alto do Seixalinho, Santo André e Verderena",
+  "district_code": 15
+}

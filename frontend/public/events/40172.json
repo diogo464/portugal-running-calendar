@@ -1,0 +1,33 @@
+{
+  "id": 40172,
+  "name": "Lardosa em Movimento 2025",
+  "location": "Lardosa, Castelo Branco",
+  "coordinates": {
+    "lat": 39.9882374,
+    "lon": -7.443744099999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/10de5e7bb86bf82b8e5a5adf0aff135c"
+  ],
+  "start_date": "2025-04-12",
+  "end_date": "2025-04-12",
+  "circuit": [],
+  "description": "\n<p>Pela primeira vez na Lardosa (Castelo Branco), com a organização da Comissão de Festas de Lardosa em Honra de Santo António 2025 e Camara Municipal de Castelo Branco, temos a audácia de apresentar o conceito “Lardosa em Movimento” no dia 12 de Abril 2025, um evento desportivo que integra uma corrida e uma caminhada.</p>\n\n\n\n<p>O evento está aberto a todos os participantes, seja na caminhada, ou na corrida que se destina a atletas juniores, seniores e veteranos. Podem participar atletas federados e não federados, em representação de clubes e outras instituições ou a título individual.</p>\n\n\n\n<p>Contamos também com a vertente solidária, onde desafiamos todos os participantes a entregar no dia do evento um bem não perecível que será doado a uma instituição.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Primeira edição de evento desportivo solidário na Lardosa com corrida e caminhada em honra de Santo António",
+  "page": "https://meutempo.pt/prova?lardosaemmovimento2025",
+  "slug": "lardosa-em-movimento-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Lardosa",
+  "district_code": 5
+}

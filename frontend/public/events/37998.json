@@ -1,0 +1,37 @@
+{
+  "id": 37998,
+  "name": "São Silveste Casto Daire 2024",
+  "location": "Castro Daire, Viseu",
+  "coordinates": {
+    "lat": 40.8997924,
+    "lon": -7.933502
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    3500,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/d2ce8069ffc952ec8d49892ddda7626b"
+  ],
+  "start_date": "2024-11-30",
+  "end_date": "2024-11-30",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Castro Daire e a AD Castro Daire organizam, no dia 30 de novembro de 2024, no Complexo Desportivo de Castro Daire, em colaboração com a Junta de Freguesia de Castro Daire e a Associação de Atletismo de Viseu, o 6º CASTRO DAIRE CHRISTMAS RUN,&nbsp;<strong>1ª SÃO SILVESTRE AD CASTRO DAIRE</strong>, corrida pedestre e caminhada.</p>\n\n\n\n<p>Este evento está integrado no “<strong>(PER) CORRER CASTRO DAIRE” 2024</strong>&nbsp;– 9ª e última jornada, e consta de uma CORRIDA, na distância de 10 km (tempo limite de 1h30 horas), uma CAMINHADA, na distância de 3,5 km (tempo limite de 1 hora), e CORRIDAS JOVENS na pista do Complexo Desportivo de Castro Daire, para atletas dos escalões de formação (Benjamins a Juvenis).</p>\n",
+  "description_short": "Corrida de Natal em Castro Daire com percurso festivo e provas para diferentes escalões etários",
+  "page": "https://waitastart.com/sao-silvestre-castrodaire24/",
+  "slug": "sao-silveste-casto-daire-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Castro Daire",
+  "district_code": 18
+}

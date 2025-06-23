@@ -1,0 +1,31 @@
+{
+  "id": 35414,
+  "name": "Trail Penedo da Moura 2024",
+  "location": "Vila Nova de Famalicão, Braga Porto",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/c0f4da2d9d2cf51e9e16a6890c0c3217"
+  ],
+  "start_date": "2024-07-13",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>7a edição &#8211; Trail Penedo da Moura</p>\n\n\n\n<p>6a Prova do Campeonato Concelhio de Trail de Vila Nova de Famalicão</p>\n\n\n\n<p>O Evento terá lugar na freguesia de Mogege, Concelho de Vila Nova de Famalicão.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante na região de Famalicão com paragem no Penedo da Moura",
+  "page": "https://www.sinctime.com/evento/254",
+  "slug": "trail-penedo-da-moura-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

@@ -1,0 +1,36 @@
+{
+  "id": 25022,
+  "name": "1º Trail de Angra 2023",
+  "location": "Angra do Heroísmo, Ilha Terceira, Açores",
+  "coordinates": {
+    "lat": 38.6635375,
+    "lon": -27.2293969
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    5000,
+    5500,
+    10000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/9f83c7632105094fd57c18323fb9842a"
+  ],
+  "start_date": "2023-07-29",
+  "end_date": "2023-07-30",
+  "circuit": [],
+  "description": "\n<p>Caminhada 5,5 kms<br>Trail Curto 10 Kms<br>Trail Longo 22 kms</p>\n\n\n\n<p>O valor das inscrições será de 10€ para o Trail curto/Longo com inscrições confirmadas até ao dia 8 de julho de 2023 e de 15€ para as inscrições confirmadas entre 9 e 22 de julho de 2023. O valor da inscrição da caminhada será de 4€ até ao fecho das inscrições</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Prova de trail com diferentes distâncias e opções para caminhantes",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLSflfP0xCatnKaGp1Q2YMoIe4emNBrt8yAm_YQGMSmYz-4lTWw/viewform",
+  "slug": "1o-trail-de-angra-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Terceira",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

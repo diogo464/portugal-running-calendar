@@ -1,0 +1,37 @@
+{
+  "id": 20643,
+  "name": "Colombus Trail 2023",
+  "location": "Ilha de Santa Maria, Açores",
+  "coordinates": {
+    "lat": 36.9788003,
+    "lon": -25.1059054
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    21097,
+    24000,
+    42000,
+    42195,
+    76000
+  ],
+  "types": [
+    "trail",
+    "marathon",
+    "half-marathon"
+  ],
+  "images": [],
+  "start_date": "2023-02-03",
+  "end_date": "2023-02-04",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A Columbus Trail Run é uma prova anual na Ilha de Santa Maria, nos Açores, composta por 3 corridas: CUT 76k &#8211; Columbus Grand Trail; CTM 42K &#8211; Columbus Trail Marathon; CTHM &#8211; Meia Maratona da Trilha Columbus 24K.</p>\n\n\n",
+  "description_short": "Trail desafiante pela paisagem única da Ilha de Santa Maria nos Açores",
+  "page": "https://pt.azorestrailrun.com/columbus-trail",
+  "slug": "colombus-trail-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Vila do Porto",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

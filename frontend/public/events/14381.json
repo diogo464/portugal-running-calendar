@@ -1,0 +1,29 @@
+{
+  "id": 14381,
+  "name": "Trail dos Arrozais 2022",
+  "location": "Paradela, Águeda",
+  "coordinates": {
+    "lat": 40.5457426,
+    "lon": -8.4891626
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6cb516eba4305673a8500a91b36672ca"
+  ],
+  "start_date": "2022-09-18",
+  "end_date": "2022-09-19",
+  "circuit": [],
+  "description": "\n<p>O Trail dos Arrozais 2022 conta para o Troféu Trail Terras de Águeda, os participantes serão direcionados até Paradela, na zona sul do concelho de Águeda, para percorrer mais algumas das fantásticas paisagens deste município.</p>\n",
+  "description_short": "Trail técnico pelos arrozais e paisagens únicas de Águeda com passagem por Paradela",
+  "page": "https://lap2go.com/pt/event/trail-dos-arrozais-2022",
+  "slug": "trail-dos-arrozais-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Recardães e Espinhel",
+  "district_code": 1
+}

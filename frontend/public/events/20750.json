@@ -1,0 +1,36 @@
+{
+  "id": 20750,
+  "name": "3º Trail Run Aqui HÁ-OS 2023",
+  "location": "Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1521398,
+    "lon": -8.857583
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    17000,
+    27000,
+    50000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/b3cbb4cf92a1f79540d6e86c61ef7c13"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A associação Talentos Objetivos – Clube de Enduro e Recreio irá promover, com o apoio da junta de freguesia de Quiaios, da Camara Municipal da Figueira da Foz e da Camara Municipal de Montemor-o-Velho, a terceira edição de Trail Running intitulada 3 º TRAIL RUN AQUI HÁ-OS.<br>Será realizada nos dias 29 e 30 de abril de 2023 independentemente das condições climatéricas e que o organizador entenda que não há riscos acrescidos pelas mesmas para este tipo de evento.<br>O evento é composto pelas distâncias de 17km, 27km e 50km. O traçado (17 e 27 km) está desenhado no perímetro da freguesia de Quiaios, estando sediado o Secretariado e a Partida/Chegada na localidade de Praia de Quiaios.<br>Para os 50 km o traçado esta delineado entre a Montemor-o-Velho (partida) e Praia de Quiaios (chegada).</p>\n",
+  "description_short": "Trail running com percursos entre Montemor-o-Velho e Praia de Quiaios, passando pela região da Figueira da Foz",
+  "page": "https://www.runmanager.net/Eventos/3-trail-run-aqui-ha-os/677",
+  "slug": "trail-run-aqui-ha-os-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

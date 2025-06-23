@@ -1,0 +1,32 @@
+{
+  "id": 41040,
+  "name": "Avelar Sunset Trail 2025",
+  "location": "Avelar, Ansião",
+  "coordinates": {
+    "lat": 39.9206273,
+    "lon": -8.358134399999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6209c553bdb2b6e2e4699a2320e42db7"
+  ],
+  "start_date": "2025-06-28",
+  "end_date": "2025-06-29",
+  "circuit": [],
+  "description": "\n<p>O Avelar Sunset Trail 2025, sob organização da junta de freguesia de Avelar, pretende afirmar-se como uma prova de desporto e lazer, com carácter competitivo, na vertente de corrida [trail running], a realizar por percursos e trilhos integrados na freguesia de Avelar, concelho de Ansião. A quinta edição realiza-se a 28 de junho de 2025 e pela primeira vez será composta por quatro distâncias cronometradas: Trail Longo, Trail Sprint, Trail Mini-Jovem e a uma Prova de Kids. Teremos uma outra não cronometrada: A Caminhada…</p>\n\n\n",
+  "description_short": "Trail ao pôr-do-sol com várias distâncias na freguesia de Avelar, entre trilhos e percursos naturais de Ansião",
+  "page": "https://www.queroir.pt/avelarsunsettrail2025",
+  "slug": "avelar-sunset-trail-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Avelar",
+  "district_code": 10
+}

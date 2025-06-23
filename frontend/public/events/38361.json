@@ -1,0 +1,35 @@
+{
+  "id": 38361,
+  "name": "Trail Run Real Priolo 2025",
+  "location": "Ilha de São Miguel, Açores",
+  "coordinates": {
+    "lat": 37.780411,
+    "lon": -25.4970466
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0fb44189b2556c1d4164205d67db82c8"
+  ],
+  "start_date": "2025-04-26",
+  "end_date": "2025-04-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Run Real Priolo 2025 é dos maiores eventos de Trail Running realizado na ilha de São Miguel e, na sua 5ª edição, renova a mesma ambição: fazer com o nível de qualidade que o caracteriza, promover a sustentabilidade ambiental e divulgar a cultura e os territórios do concelho de Nordeste.</p>\n\n\n\n<p>Além da prova desportiva, o Trail Run Real Priolo 2025, contará com a realização de uma Caminhada/Percurso Ativo, com a distância de cerca de 10 KM, assim como um conjunto de atividades de natureza cultural, social e recreativa, cujo objetivo é dar a conhecer territórios menos mediáticos, mas com potencial e extraordinárias paisagens.</p>\n\n\n\n<p>O Trail Run Real Priolo 2025 tem como preocupação primeira, trazer aos atletas de competição e a todos os praticantes novos percursos, diferentes paisagens e novos desafios, e transversalmente comprometer todos com o objetivo de preservar e proteger a natureza: a proteção do ambiente, a redução da pegada ecológica e a bio capacidade da região.</p>\n\n\n",
+  "description_short": "Trail running na ilha de São Miguel com foco na sustentabilidade ambiental e valorização do território do Nordeste",
+  "page": "https://meutempo.pt/prova?trailrealpriolo25",
+  "slug": "trail-run-real-priolo-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

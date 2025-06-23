@@ -1,0 +1,32 @@
+{
+  "id": 5003,
+  "name": "Oeiras Trail 2021",
+  "location": "Barcarena, Oeiras",
+  "coordinates": {
+    "lat": 38.7330247,
+    "lon": -9.280344200000002
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/29e5fad1ebc0d9511733c7ef52e6d022"
+  ],
+  "start_date": "2021-10-31",
+  "end_date": "2021-11-01",
+  "circuit": [],
+  "description": "\n<p>Com o apoio da Câmara Municipal de Oeiras e da Consilcar, realiza-se no dia 31 de outubro de 2021 a 2ª edição do Oeiras Trail 2021, que será percorrido por trilhos na zona de Barcarena – Oeiras, num Trail Longo de 20km e num Trail Curto, de 10km. Com partida e chegada nos Nirvana Studios. O Trail Longo faz parte do calendário da Taça de Portugal ATRP.</p>\n",
+  "description_short": "Trail desafiante por trilhos de Barcarena com apoio municipal de Oeiras",
+  "page": "https://oeirastrail.com/",
+  "slug": "oeiras-trail-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "Barcarena",
+  "district_code": 11
+}

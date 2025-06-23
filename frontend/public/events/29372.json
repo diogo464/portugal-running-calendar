@@ -1,0 +1,33 @@
+{
+  "id": 29372,
+  "name": "São Silvestre Mirandela 2023",
+  "location": "Mirandela, Bragança",
+  "coordinates": {
+    "lat": 41.4853545,
+    "lon": -7.180871100000001
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/79c6310212132ff8a99c4c6720c8166d"
+  ],
+  "start_date": "2023-12-30",
+  "end_date": "2023-12-31",
+  "circuit": [],
+  "description": "\n<p>O grupo Mirandela a Correr irá realizar a 5a São Silvestre de Mirandela, no dia 30 de dezembro<br>2023, pelas 19h:00h. A &#8220;5a São Silvestre de Mirandela”, é um evento desportivo que tem como objetivo incentivar e consciencializar a população para a importância da prática de exercício físico.</p>\n",
+  "description_short": "São Silvestre de Natal com história em Mirandela promovendo exercício físico",
+  "page": "https://stopandgo.net/events/sao-silvestre-mirandela-2023",
+  "slug": "sao-silvestre-mirandela-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mirandela",
+  "administrative_area_level_3": "Mirandela",
+  "district_code": 4
+}

@@ -1,0 +1,35 @@
+{
+  "id": 18635,
+  "name": "Lisboa Trail Halloween 2022",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    1000,
+    10000,
+    22000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/2dcdfaf3a3053892738c3ccbce09db74"
+  ],
+  "start_date": "2022-10-30",
+  "end_date": "2022-10-31",
+  "circuit": [],
+  "description": "\n\n\n<p>No dia 30 de Outubro de 2022, o Parque de Campismo de Lisboa, em Monsanto será o palco para o 1º LISBOA TRAIL HALLOWEEN! Temos três distâncias para todos, desde os Trail Longo 22km para os mais aventureiros, passando pelo Trail Curto 10km/Caminhada para todos e o Trail Kids 1km para os mais pequenotes. Contamos convosco?</p>\n",
+  "description_short": "Trail noturno temático de Halloween em Monsanto com percursos para todas as idades",
+  "page": "https://xistarca.pt/eventos/lisboa-trail-halloween",
+  "slug": "lisboa-trail-halloween-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

@@ -1,0 +1,31 @@
+{
+  "id": 15224,
+  "name": "Oliveira do Bairro Trilhos na Natureza 2022",
+  "location": "Oliveira do Bairro",
+  "coordinates": {
+    "lat": 40.5170209,
+    "lon": -8.498208
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/25f9495a794c7a05a169f10675ea5d8d"
+  ],
+  "start_date": "2022-08-27",
+  "end_date": "2022-08-28",
+  "circuit": [],
+  "description": "\n<p>O Município de Oliveira do Bairro vai realizar dia 27 de Agosto no “coração” da Bairrada, uma corrida de atletismo/caminhada na natureza, Oliveira do Bairro Trilhos na Natureza.</p>\n\n\n\n<p>A corrida integra o programa das Comemorações do 19.º Aniversário da Elevação de Oliveira do Bairro a Cidade.<br>Aproveitando uma magnifica extensão de trilhos, as margens do Rio Cértima levam-nos ao verde dos arrozais com passagem no Parque dos Pinheiros Mansos e sobre o olhar das cegonhas brancas percorremos a Rota das Cegonhas. Tudo começa na Natureza.</p>\n",
+  "description_short": "Trail pela Bairrada com passagem pela Rota das Cegonhas e margens do Rio Cértima",
+  "page": "https://oliveiradobairrotrilhosnanatureza.wordpress.com/",
+  "slug": "oliveira-do-bairro-trilhos-na-natureza-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira do Bairro",
+  "administrative_area_level_3": "Oliveira do Bairro",
+  "district_code": 1
+}

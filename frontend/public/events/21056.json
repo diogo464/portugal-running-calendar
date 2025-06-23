@@ -1,0 +1,27 @@
+{
+  "id": 21056,
+  "name": "Corrida do Parque à Noite 2023",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2023-10-07",
+  "end_date": "2023-10-08",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.runporto.com/pt/eventos/corrida-do-parque-noite/",
+  "slug": "corrida-do-parque-a-noite-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

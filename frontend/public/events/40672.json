@@ -1,0 +1,32 @@
+{
+  "id": 40672,
+  "name": "Runcambra 2025",
+  "location": "Vale de Cambra, Aveiro",
+  "coordinates": {
+    "lat": 40.8424421,
+    "lon": -8.3960727
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/fabf4b75f8e0d546669394f57628f497"
+  ],
+  "start_date": "2025-05-18",
+  "end_date": "2025-05-19",
+  "circuit": [],
+  "description": "\n<p>Organizada pela Câmara Municipal de Vale de Cambra a RUNCAMBRA já se implementou nos calendários de corrida em estrada e volta novamente às estradas. Estimular e promover hábitos desportivos que levam a uma vida saudável são alguns dos valores desta prova que se realiza no centro-norte do país.</p>\n\n\n",
+  "description_short": "Corrida de estrada no centro-norte com apoio da Câmara Municipal de Vale de Cambra",
+  "page": "https://lap2go.com/pt/event/runcambra-2025",
+  "slug": "runcambra-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vale de Cambra",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

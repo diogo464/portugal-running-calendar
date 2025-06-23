@@ -1,0 +1,35 @@
+{
+  "id": 21068,
+  "name": "São Silvestre Porto 2023",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/266ff9e5450e05fc2a51a5a4a064ae9d"
+  ],
+  "start_date": "2023-12-30",
+  "end_date": "2023-12-31",
+  "circuit": [],
+  "description": "\n<p>No dia 30 de dezembro de 2023, pelas 18h00, a 29ª edição da Lidl São Silvestre Porto regressa à Avenida dos Aliados.</p>\n\n\n\n<p>A Invicta volta a ser iluminada pelos milhares de atletas que irão percorrer as características e emblemáticas ruas da cidade na tradicional prova. Para além da corrida dos 10 km, o evento conta com uma caminhada com a distância de 5 km sem fins competitivos.</p>\n\n\n\n<p></p>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Vencedores 2022</strong></h2>\n\n\n\n<p><strong>Prova Masculina:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>1º classificado:</strong>&nbsp;Pedro Amaro &#8211; 30.06 min</li>\n\n\n\n<li><strong>2º classificado:</strong>&nbsp;Hélio Gomes &#8211; 30.10 min</li>\n\n\n\n<li><strong>3º classificado:</strong>&nbsp;Rui Teixeira &#8211; 30.11 min</li>\n</ul>\n\n\n\n<p><strong>Prova Feminina:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>1º classificado:</strong>&nbsp;Mónica Silva &#8211; 35.20 min</li>\n\n\n\n<li><strong>2º classificado:&nbsp;</strong>Sara Duarte &#8211; 36.46 min</li>\n\n\n\n<li><strong>3º classificado:</strong>&nbsp;Laura Silva &#8211; 37.12 min</li>\n</ul>\n\n\n\n<p></p>\n",
+  "description_short": "São Silvestre tradicional no centro histórico do Porto, com corrida de 10 km e caminhada, iluminando a Avenida dos Aliados",
+  "page": "https://www.runporto.com/pt/eventos/sao-silvestre-do-porto/sao-silvestre-do-porto-2023/",
+  "slug": "sao-silvestre-cidade-do-porto-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

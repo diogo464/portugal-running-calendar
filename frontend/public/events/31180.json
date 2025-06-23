@@ -1,0 +1,31 @@
+{
+  "id": 31180,
+  "name": "Corrida São Silvestre dos Madeiros 2023",
+  "location": "Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/37e649f80061bc1aa5ed4990436112ee"
+  ],
+  "start_date": "2023-12-23",
+  "end_date": "2023-12-24",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://meutempo.pt/prova?9saosilvestremadeiros",
+  "slug": "corrida-sao-silvestre-dos-madeiros-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

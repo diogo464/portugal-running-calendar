@@ -1,0 +1,32 @@
+{
+  "id": 41703,
+  "name": "Corrida da Filarmonia 2025",
+  "location": "Montelavar, Sintra",
+  "coordinates": {
+    "lat": 38.8606132,
+    "lon": -9.3323562
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/2d8ed9de03f18b3cc5022db43cfb8c68"
+  ],
+  "start_date": "2025-09-21",
+  "end_date": "2025-09-22",
+  "circuit": [],
+  "description": "\n<p>A Sociedade Filarmónica Boa União Montelavarense vai realizar no domingo, dia 21 de Setembro de 2025, pelas 10:00 horas, um evento desportivo de Atletismo, designado por VI Corrida da Filarmonia.</p>\n\n\n\n<p>A Corrida da Filarmonia é composta por I corrida (de carácter competitivo) com o seguinte percurso:<br>Corrida (+/-10000 metros)</p>\n\n\n",
+  "description_short": "Corrida competitiva da Sociedade Filarmónica Boa União Montelavarense no interior do distrito",
+  "page": "https://acorrer.pt/eventos/3879/info",
+  "slug": "corrida-da-filarmonia-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+  "district_code": 11
+}

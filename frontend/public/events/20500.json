@@ -1,0 +1,34 @@
+{
+  "id": 20500,
+  "name": "Grande Corrida De Natal São Silvestre De Portalegre 2022",
+  "location": "Portalegre",
+  "coordinates": {
+    "lat": 39.2967086,
+    "lon": -7.4284755
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/f31e16373f8b4e869d1477d5a465c201"
+  ],
+  "start_date": "2022-12-10",
+  "end_date": "2022-12-11",
+  "circuit": [],
+  "description": "\n<p>A Grande Corrida de Natal Solidária &#8211; São Silvestre de Portalegre, é uma prova de atletismo (estrada) e realiza-se no dia 10 de Dezembro de 2022 (Sábado), entre as 14:30 e as 16:30. É organizada pela DAP -Associação de Desporto e Aventura de Portalegre com o apoio do Município de Portalegre, União de Freguesias da Sé e São Lourenço, IPDJ, PSP de Portalegre entre outras entidades locais.</p>\n\n\n\n<p><br>O evento conta ainda com a colaboração técnica da Associação de Atletismo do Distrito de Portalegre (A.A.D.P.) e o evento integra ainda os Circuito de Corrida da A.A.D.P.</p>\n\n\n\n<p>O evento 100% solidário, todas as receitas angariados através das inscrições dos participantes serão doadas a uma causa social, com a compra de equipamento que for necessário para a mesma. A Causa solidária será identificada pela organização aquando do lançamento do evento.</p>\n\n\n",
+  "description_short": "Corrida de Natal solidária pelas ruas de Portalegre com apoio municipal e causa social",
+  "page": "https://stopandgo.net/event/?id=912",
+  "slug": "grande-corrida-de-natal-sao-silvestre-de-portalegre-2022",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Portalegre",
+  "administrative_area_level_3": "União das freguesias da Sé e São Lourenço",
+  "district_code": 12
+}

@@ -1,0 +1,29 @@
+{
+  "id": 9170,
+  "name": "Trail Barracas de Pedra 2022",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cf9616f586f2f71f6eda7f0c0304c5cb"
+  ],
+  "start_date": "2022-05-29",
+  "end_date": "2022-05-30",
+  "circuit": [],
+  "description": "<p>O V Trail Barracas de Pedra será realizado no dia 29 de Maio de 2022, na Aldeia da Povoa da Lomba – Cantanhede, “casa” da equipa de Trail / Atletismo S. C. Povoense – Caracóis de Corrida.</p>\n",
+  "description_short": "Trail desafiante pela região de Cantanhede com partida na Aldeia da Povoa da Lomba",
+  "page": "https://www.facebook.com/SC-Povoense-Caracois-de-Corrida-1783372081957415",
+  "slug": "trail-barracas-de-pedra-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

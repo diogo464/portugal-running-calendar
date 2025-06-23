@@ -1,0 +1,36 @@
+{
+  "id": 30304,
+  "name": "Corrida Ano Novo Santa Maria Maior 2024",
+  "location": "Praça do Comércio, Lisboa",
+  "coordinates": {
+    "lat": 38.7072828,
+    "lon": -9.136361299999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    400,
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/2032b83891a654f95f0d17d3f91f265f"
+  ],
+  "start_date": "2024-01-07",
+  "end_date": "2024-01-08",
+  "circuit": [],
+  "description": "\n<p>Com partida e chegada na icónica&nbsp;<strong>Praça do Comércio, em Lisboa</strong>!<br>Se um dos teus desejos é começar a correr em 2023, esta prova será o teu primeiro desafio.</p>\n\n\n\n<p>» Kids Race 400m |&nbsp;<strong>09h30</strong><br>» Corrida 10km |&nbsp;<strong>10h00<br></strong>» Caminhada 4km<strong>&nbsp;| 10h05</strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de iniciação em Lisboa com partida e chegada na Praça do Comércio",
+  "page": "https://xistarca.pt/eventos/2a-grande-corrida-ano-novo-santa-maria-maior",
+  "slug": "corrida-ano-novo-santa-maria-maior-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Santa Maria Maior",
+  "district_code": 11
+}

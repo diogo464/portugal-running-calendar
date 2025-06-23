@@ -1,0 +1,34 @@
+{
+  "id": 20833,
+  "name": "Sem Limites Trail 2023",
+  "location": "Amarante, Porto",
+  "coordinates": {
+    "lat": 41.2732068,
+    "lon": -8.0822829
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    16000,
+    28000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2023-10-22",
+  "end_date": "2023-10-23",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O &#8220;Sem Limtes Trail&#8221; é organizado pela Associação Fridão Sem Limites, através da sua secção de<br>Trail Running. O “Sem Limites Trail” será realizado no dia 22 de Outubro de 2023.<br>O “Sem Limites Trail ” será constituído por 3 eventos:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo, com a distância aproximada de 28km (prova Circuito Nacional de Trail)</li>\n\n\n\n<li>Trail Curto com a distância aproximada de 16km (prova Circuito Nacional de Trail Sprint)</li>\n\n\n\n<li>Caminhada com a distância aproximada de 10 km.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Preços</h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"289\" src=\"https://www.portugalrunning.com/wp-content/uploads/2023/07/image-10-1024x289.png\" alt=\"\" class=\"wp-image-26081\" srcset=\"https://www.portugalrunning.com/wp-content/uploads/2023/07/image-10-1024x289.png 1024w, https://www.portugalrunning.com/wp-content/uploads/2023/07/image-10-300x85.png 300w, https://www.portugalrunning.com/wp-content/uploads/2023/07/image-10-768x217.png 768w, https://www.portugalrunning.com/wp-content/uploads/2023/07/image-10.png 1318w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Secretariado</h2>\n\n\n\n<p><strong>SÁBADO – 21/10/2023</strong><br>15h abertura do secretariado (local a ser divulgado em www.facebook.com/semlimitestrail)<br>21h Encerramento Secretariado<br><strong>DOMINGO – 22/10/2023</strong><br>07:00 abertura secretariado (local a ser divulgado em www.facebook.com/semlimitestrail)<br>09:00 Partida Trail Longo e Trail Curto<br>09:30 inicio caminhada<br>14:00 Cerimónia protocolar de entrega de prémios</p>\n",
+  "description_short": "Trail desafiante pela região de Fridão com provas de trail longo, curto e caminhada integradas no Circuito Nacional de Trail",
+  "page": "https://stopandgo.net/events/sem-limites-trail-2023",
+  "slug": "sem-limites-trail-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Amarante",
+  "administrative_area_level_3": "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão",
+  "district_code": 13
+}

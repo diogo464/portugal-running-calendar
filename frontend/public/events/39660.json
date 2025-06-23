@@ -1,0 +1,30 @@
+{
+  "id": 39660,
+  "name": "Trail do Pote Gondar e Orbacém 2025",
+  "location": "Caminha, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8732082,
+    "lon": -8.837845399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/380d29f2cd1a28fec329acdd66c3a78e"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-24",
+  "circuit": [],
+  "description": "\n<p>O Trail do Pote de Gondar e Orbacém é um evento de Trail Running que decorre nas Serras de Gondar e Orbacém, e na Serra D´Arga, percorrendo caminhos e trilhos nas freguesias do concelho de Caminha.</p>\n",
+  "description_short": "Trail desafiante pelas serras de Gondar, Orbacém e D´Arga no município de Caminha",
+  "page": "https://cyclonessports.com/index.php/326-viii-trail-do-pote-gondar-e-orbacem",
+  "slug": "trail-do-pote-gondar-e-orbacem-2025",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Caminha (Matriz) e Vilarelho",
+  "district_code": 16
+}

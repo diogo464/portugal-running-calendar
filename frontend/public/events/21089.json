@@ -1,0 +1,30 @@
+{
+  "id": 21089,
+  "name": "Trail Vilarinho De Cima &#8211; 1ª Edição 2023",
+  "location": "Vilarinho de Cima, Paredes",
+  "coordinates": {
+    "lat": 41.1826437,
+    "lon": -8.4381033
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0e7df4d1dd5499ad69df0f7b3e54a233"
+  ],
+  "start_date": "2023-02-05",
+  "end_date": "2023-02-06",
+  "circuit": [],
+  "description": "\n<p>Este evento será realizado no concelho de Paredes, na freguesia de Gandra, no dia 05 de fevereiro de 2023, com partidas/chegadas nas instalações da Associação Cultural e Recreativa Vilarinho Cima. Coordenadas ( 41.17800,-8.43163 )</p>\n\n\n\n<p>O Trail Vilarinho de Cima é uma prova que percorre trilhos e caminhos da freguesia de Gandra e arredores.<br>A Caminhada será aberta a menores desde que acompanhados por uma pessoa maior de idade, O Mini-Trail está aberto a maiores de 16 anos e o Trail será aberto apenas a maiores de idade.</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Gandra com percursos para diferentes escalões etários",
+  "page": "https://www.portimer.pt/eventos/trail-vilarinho-cima-2023",
+  "slug": "trail-vilarinho-de-cima-1a-edicao-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Gandra",
+  "district_code": 13
+}

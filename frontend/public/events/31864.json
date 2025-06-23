@@ -1,0 +1,29 @@
+{
+  "id": 31864,
+  "name": "Caramulo Ocr Police 2024",
+  "location": "Caramulo, Viseu",
+  "coordinates": {
+    "lat": 40.5717838,
+    "lon": -8.1706399
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/417ddd75fbc3715fd985130262e42f59"
+  ],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [],
+  "description": "\n<p>Desafia-te na 1ª de 3 etapas, do circuito Trichallenge 2024.</p>\n\n\n\n<p>Montanha / Cidade / Praia</p>\n\n\n\n<p>Este é um desafio onde podes participar individualmente ou com a tua equipa de amigos, mais importante do que vencer é terminar e conquistar a meta.</p>\n\n\n\n<p>O evento possui 2 categorias de participação : FUN (lúdico) ou ELITE ( competição).</p>\n\n\n",
+  "description_short": "Primeiro evento do circuito Trichallenge 2024 com etapas de montanha, cidade e praia",
+  "page": "https://waitastart.com/ocrmontanha2024/",
+  "slug": "caramulo-ocr-police-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tondela",
+  "administrative_area_level_3": "Guardão",
+  "district_code": 18
+}

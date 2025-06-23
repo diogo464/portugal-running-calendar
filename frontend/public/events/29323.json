@@ -1,0 +1,39 @@
+{
+  "id": 29323,
+  "name": "Trilho dos Reis 2024",
+  "location": "Portalegre",
+  "coordinates": {
+    "lat": 39.2967086,
+    "lon": -7.4284755
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    12000,
+    18000,
+    27000,
+    48000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/31ae2d6e8d4c91a6771a097194c416ef"
+  ],
+  "start_date": "2024-01-13",
+  "end_date": "2024-01-14",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Os Trilhos dos Reis serão realizados nos dias 13 e 14 de Janeiro de 2024 e é um evento organizado pela DAP ± Associação de Desporto e Aventura de Portalegre, com o apoio do Município de Portalegre, Turismo do Alentejo, E.R.T., Uniões de Freguesias de Sé e São Lourenço, Ribeira de Nisa, Carreiras, Reguengo e São Julião.</p>\n\n\n\n<p><br>Do evento farão parte quatro provas diferentes:<br>&#8211; Ultra Trilhos dos Reis ± 48 km<br>&#8211; Trilhos dos Reis ± 27 km<br>&#8211; Mini Trilhos dos Reis ± 18 km<br>&#8211; Caminhada ± 12 km<br>&#8211; Corrida noturna dos Príncipes (Kids Nigth Run)</p>\n",
+  "description_short": "Trail com quatro provas diferentes pelos caminhos de Portalegre no Alentejo",
+  "page": "https://stopandgo.net/events/trilhos-dos-reis-2024",
+  "slug": "trilho-dos-reis-2024",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Portalegre",
+  "administrative_area_level_3": "União das freguesias da Sé e São Lourenço",
+  "district_code": 12
+}

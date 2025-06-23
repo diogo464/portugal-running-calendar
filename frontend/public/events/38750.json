@@ -1,0 +1,33 @@
+{
+  "id": 38750,
+  "name": "WalkRun GDCT Repsol Polímeros 2025",
+  "location": "Vila Nova de Santo André, Santiago do Cacém",
+  "coordinates": {
+    "lat": 38.0588998,
+    "lon": -8.7844006
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/ca0ab44cdcab7c5504efe7fe6b841cf1"
+  ],
+  "start_date": "2025-01-18",
+  "end_date": "2025-01-18",
+  "circuit": [],
+  "description": "\n<p>O segundo evento WalkRun é um evento com carácter de lazer, comunitário e solidário, desportivo não competitivo. Promovido e organizado pelo Grupo Desportivo e Cultural dos Trabalhadores da Repsol Polímeros. Conta com o apoio da Junta Freguesia de Santo André e da Câmara Municipal de Santiago do Cacém. Terá lugar no dia 19 de janeiro de 2025. Esta iniciativa contará com a colaboração e participação dos sócios do clube e outros amigos da sociedade local e desportiva.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária e comunitária em Santiago do Cacém organizada por trabalhadores da Repsol",
+  "page": "https://acorrer.pt/eventos/info/3709",
+  "slug": "walkrun-gdct-repsol-polimeros-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santo André",
+  "district_code": 15
+}

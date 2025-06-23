@@ -1,0 +1,29 @@
+{
+  "id": 22094,
+  "name": "Leira Ocr Police 2023",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/194fc9983922cc60fc2a4049739f4613"
+  ],
+  "start_date": "2023-07-09",
+  "end_date": "2023-07-10",
+  "circuit": [],
+  "description": "\n<p>A zona Polis de Leiria é já considerada uma referência no OCR em Portugal, um desafio que permite a envolvência dos atletas, da cidade e de um público acolhedor, num evento cheio de emoções!</p>\n\n\n\n<p>Um fim de semana que promete ser diversificado, com múltiplas atividades e festividades numa cidade que respira e inspira a pratica desportiva.</p>\n\n\n\n<p>A prova conta com a tão desejada meta aquática, o ponto alto desta etapa, uma reta final única no mundo, com milhares de espectadores a vibrar com a chegada dos atletas à meta</p>\n\n\n",
+  "description_short": "Prova de OCR em Leiria com meta aquática espetacular e ambiente festivo",
+  "page": "https://waitastart.com/leiria-ocr-police-23/",
+  "slug": "leira-ocr-police-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

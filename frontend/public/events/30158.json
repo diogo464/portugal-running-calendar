@@ -1,0 +1,35 @@
+{
+  "id": 30158,
+  "name": "Ferreira Trail 2024",
+  "location": "Dornes, Ferreira do Zêzere Santarém",
+  "coordinates": {
+    "lat": 39.7705103,
+    "lon": -8.2689834
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    19000,
+    33000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/fef7c77538ad3cfa68c8e60a48a3632d"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [],
+  "description": "\n<p>A 2ª Edição “FERREIRA TRAIL” irá realizar-se dia 28 de Abril de 2024 e tem o apoio da Câmara Municipal de Ferreira do Zêzere, entre outras entidades do Concelho.</p>\n\n\n\n<p><br>As 4 provas serão constituídas por uma Caminhada, Mini Trail, Trail Curto e Trail Longo:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>A prova “Trail Longo K33” terá a distância aproximada de 33km (1.700 D+). </li>\n\n\n\n<li>A prova de “Trail Curto K19” terá a distância aproximada de 19km (860 D+). </li>\n\n\n\n<li>A prova “Mini Trail K12” terá a distância aproximada de 12km (400 D+). </li>\n\n\n\n<li>A prova “Caminhada K12” terá a distância aproximada de 12km (400 D+).</li>\n</ul>\n\n\n\n<p><br>As provas irão percorrer os vários caminhos do concelho de Ferreira do Zêzere, tendo início em Dornes e tendo o seu término no Pavilhão Municipal de Ferreira do Zêzere.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Ferreira do Zêzere, com partida em Dornes e chegada ao Pavilhão Municipal",
+  "page": "https://www.totalcrono.pt/eventos/ferreiratrail2024",
+  "slug": "ferreira-trail-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ferreira do Zêzere",
+  "administrative_area_level_3": "Nossa Senhora do Pranto",
+  "district_code": 14
+}

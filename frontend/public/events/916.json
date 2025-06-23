@@ -1,0 +1,36 @@
+{
+  "id": 916,
+  "name": "Fafe Trail Run 2020",
+  "location": "Fafe, Braga",
+  "coordinates": {
+    "lat": 41.4507439,
+    "lon": -8.1754442
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    500,
+    1000,
+    1600,
+    15000,
+    22000,
+    35000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/84038208a62d43bf1e83fd5dc669a701"
+  ],
+  "start_date": "2020-03-08",
+  "end_date": "2020-03-09",
+  "circuit": [],
+  "description": "<p data-adtags-visited=\"true\">Com partida e chegada na <strong>Barragem de Queimadela</strong>, esta aventura, que caminha já para a sua 5ª edição, leva os participantes à conquista do Alto do Maroiço, do maciço granítico da Laje Branca e ao ponto mais alto do concelho de Fafe, o Alto de Morgaír, passando por aldeias típicas minhotas.</p>\n<p data-adtags-visited=\"true\">Tal com já havia acontecido nas três edições anteriores, em 2020 a prova principal do Fafe Trail Run volta a integrar o <strong>Circuito Nacional de Trail</strong>, nas <strong>Series – 150.</strong></p>\n<p data-adtags-visited=\"true\">Aproveitando o enorme potencial do território, a componente de Trail Running subiu a parada em 2018, incluindo no trajecto a mancha de Carvalhal das Serras de Fafe, uma das maiores da Europa.</p>\n<p data-adtags-visited=\"true\">Para a sua V Edição, o Fafe Trail Run reservou algumas surpresas, contando com as seguintes distâncias competitivas:</p>\n<ul>\n<li><strong>TRAIL LONGO / 35k – D+ 1600m</strong></li>\n<li><strong>TRAIL / 22k – D+ 1000m</strong></li>\n<li><strong>TRAIL CURTO / 15k – D+ 500m</strong></li>\n</ul>\n<p data-adtags-visited=\"true\">Mas o Fafe Trail Run não é só composto pelas vertentes mais competitivas, pois, paralelamente, existe também um grande convívio com a Natureza através da realização da componente de <strong>Caminhada</strong>, organizada pela associação <a href=\"https://pt-pt.facebook.com/bolotacampestre/\" target=\"_blank\" rel=\"noopener noreferrer\">Bolota Campestre</a>.</p>\n<p data-adtags-visited=\"true\">\n",
+  "description_short": "Trail desafiante por Fafe, com percursos por paisagens minhotas e passagem pelo Alto de Morgaír, com ponto alto no maciço granítico da Laje Branca",
+  "page": "https://fafetrailrun.wordpress.com/",
+  "slug": "fafe-trail-run-2020",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Fafe",
+  "administrative_area_level_3": "Fafe",
+  "district_code": 3
+}

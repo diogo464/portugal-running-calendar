@@ -1,0 +1,35 @@
+{
+  "id": 40437,
+  "name": "NEG Run 2025",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk",
+    "5k"
+  ],
+  "images": [
+    "media/30936ac2f4f3e41b956db28d74400ad1"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-23",
+  "circuit": [],
+  "description": "\n<p>A organização da NEG Run está ao encargo do NEG/AAC &#8211; Núcleo de Estudantes de Gestão da Associação de Coimbra. O NEG/AAC é uma associação estudantil sem fins lucrativos e integra 1 dos 4 núcleos da Faculdade de Economia da Universidade de Coimbra, tendo como principal objetivo, lutar pelos direitos dos estudantes que representa. Sendo um dos 26 Núcleos de Estudantes que integram a Associação Académica de Coimbra (AAC), apresenta um longo historial de credibilidade e competência que nos orgulha enquanto estudantes de Gestão da tão antiga e especial Universidade de Coimbra.<br></p>\n\n\n\n<p>Será realizada uma corrida de 10 km, cronometrada com recurso a tecnologia da responsabilidade da Acorrer, para ns competitivos e lúdicos. Quem pretender, poderá fazer um trajeto de 5 km de caminhada que ocorrerá simultaneamente à corrida, para ns lúdicos.</p>\n\n\n\n<ol class=\"wp-block-list\"></ol>\n\n\n",
+  "description_short": "Corrida académica organizada por estudantes de Gestão da Universidade de Coimbra",
+  "page": "https://acorrer.pt/eventos/info/3802",
+  "slug": "neg-run-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

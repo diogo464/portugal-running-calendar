@@ -1,0 +1,34 @@
+{
+  "id": 319,
+  "name": "São Silvestre de Torres Novas",
+  "location": "Torres Novas, Santarém",
+  "coordinates": {
+    "lat": 39.478072,
+    "lon": -8.5404429
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "walk",
+    "run"
+  ],
+  "images": [
+    "media/92f5f8462ebb15881bb9eb9ea5b21ff4"
+  ],
+  "start_date": "2019-12-28",
+  "end_date": "2019-12-29",
+  "circuit": [],
+  "description": "<p align=\"justify\">A Corrida de São Silvestre é uma prova com bastante tradição em Torres Novas. Realiza-se no último sábado do ano e traz à cidade várias centenas de participantes oriundos de todo o país.</p>\n<p align=\"justify\">Esta prova é organizada pelo Município de Torres Novas com a colaboração técnica de 3 clubes do concelho, que dinamizam a modalidade de atletismo.</p>\n<p align=\"justify\">A prova principal, e que conta com o maior número de participantes, são os 10km; no entanto, a Corrida de São Silvestre tem atualmente uma caminhada associada e provas de várias distâncias para os diferentes escalões, que vão desde os Bambis até aos Juniores.</p>\n<p align=\"justify\">A realização desta prova traz “vida” à cidade. Durante a tarde/noite desse dia, os cerca de 1500 participantes percorrem algumas das principais ruas e, em conjunto com a decoração da época natalícia, proporcionam imagens de grande beleza ao longo do percurso.</p>\n",
+  "description_short": "São Silvestre tradicional em Torres Novas com percurso pelas principais ruas da cidade durante a época natalícia",
+  "page": "https://www.prozis.com/pt/pt/evento/corrida-de-sao-silvestre-torres-novas-2019",
+  "slug": "sao-silvestre-de-torres-novas",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

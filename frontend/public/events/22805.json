@@ -1,0 +1,38 @@
+{
+  "id": 22805,
+  "name": "Oliveira do Bairro Trilhos na Natureza 2023",
+  "location": "Oliveira do Bairro",
+  "coordinates": {
+    "lat": 40.5170209,
+    "lon": -8.498208
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    500,
+    1000,
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8673d4f4bd19bc288ef6adcfec6ffa46"
+  ],
+  "start_date": "2023-08-26",
+  "end_date": "2023-08-27",
+  "circuit": [],
+  "description": "\n<p>O Município de Oliveira do Bairro, em parceria com a Associação Jovem Oianense, vai organizar a segunda edição da corrida-caminhada “Oliveira do Bairro &#8211; Trilhos na Natureza”, agendada para 26 de agosto, no âmbito das Comemorações do 20.º Aniversário da Elevação de Oliveira do Bairro a Cidade.</p>\n\n\n\n<p>A iniciativa vai contar com um “Trail Longo” de 25 km, um “Trail Curto” de 15 km, ambos para corrida, uma caminhada de 10 km, e 2 provas para os mais novos, apontando a vários tipos de participantes, numa componente mais competitiva ou de puro lazer e convívio.</p>\n\n\n\n<p>Os participantes vão ter a oportunidade de percorrer trilhos em terrenos mistos nas margens do Rio Cértima, em percursos que apresentam uma paisagem natural absolutamente deslumbrante.</p>\n\n\n\n<p>A prova arranca no magnífico Parque dos Pinheiros Mansos, percorrendo a Rota das Cegonhas, com passagem pelo Vale do Cértima, onde se podem contemplar o manto verdejante (nesta altura do ano) das marinhas de arroz e observar as cegonhas-brancas, assim como garças, milhafres e águias.”</p>\n\n\n\n<p>Oliveira do Bairro &#8211; Trilhos na Natureza será constituído, pelas seguintes provas:</p>\n\n\n\n<p>Trail Longo &#8211; 25 km</p>\n\n\n\n<p>Trail Curto &#8211; 15 km</p>\n\n\n\n<p>Caminhada &#8211; 10 km</p>\n\n\n\n<p>Mini Trilhos &#8211; 1000 m</p>\n\n\n\n<p>Mini Trilhos &#8211; 500 m</p>\n",
+  "description_short": "Trail desafiante pelos trilhos verdejantes junto ao Rio Cértima, com passagem pela Rota das Cegonhas em Oliveira do Bairro",
+  "page": "https://meutempo.pt/prova?tirlhosnatureza2023",
+  "slug": "oliveira-do-bairro-trilhos-na-natureza-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira do Bairro",
+  "administrative_area_level_3": "Oliveira do Bairro",
+  "district_code": 1
+}

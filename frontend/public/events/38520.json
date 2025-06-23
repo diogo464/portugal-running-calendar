@@ -1,0 +1,36 @@
+{
+  "id": 38520,
+  "name": "Trail Running Almourol à Vista 2025",
+  "location": "Vila Nova da Barquinha, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    13000,
+    20000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/dfac190514f65ef6cfeb5148d91524cb"
+  ],
+  "start_date": "2025-03-02",
+  "end_date": "2025-03-03",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O percurso Trail Longo terá a distância aproximada de 31 km com D+1000, passando pelo Trilho Panorâmico do Tejo e junto ao Castelo de Almourol, deslocando-se ao longo do Rio Zêzere e do Rio Tejo. </p>\n\n\n\n<p>É uma prova dirigida a atletas experientes. Esta distância integra o calendário do Troféu 3 Rios Trail Trophy, do calendário de Trail da Associação de Atletismo de Santarém e do Calendário do circuito nacional Trail Running de Portugal &#8211; ATRP O percurso Trail curto tem a distância aproximada de 20 km com D+700 É uma prova de promoção do Trail dirigida a atletas que se iniciam na prática desta especialidade do Atletismo. Esta distância integra o calendário do Troféu 3 Rios Trail Trophy, do calendário de Trail da Associação de Atletismo de Santarém e do Calendário do circuito nacional Trail Running de Portugal &#8211; ATRP.</p>\n\n\n\n<p><br>O percurso Mini Trail e caminhada tem a distância aproximada de 13 km com D+200 é dirigida a atletas que queiram correr e caminhar, esta prova não tem qualquer intento classificativo.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos rios Zêzere e Tejo, com passagem junto ao Castelo de Almourol",
+  "page": "https://www.trilhoperdido.com/evento/trail-running-almourol-a-vista-2025",
+  "slug": "trail-running-almourol-a-vista-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

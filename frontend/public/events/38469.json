@@ -1,0 +1,29 @@
+{
+  "id": 38469,
+  "name": "Provas Técnicas do 50º Aniversário do 25 de Abril 2025",
+  "location": "Almada, Setúbal",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2025-05-01",
+  "end_date": "2025-05-01",
+  "circuit": [
+    "Trofeu de Almada"
+  ],
+  "description": "\n<p>A&nbsp;<strong>1 de maio de 2025</strong>&nbsp;vai realizar-se as&nbsp;<strong>Provas Técnicas do 51º Aniversário do 25 de Abril</strong>, prova inserida no&nbsp;<strong>Troféu de Almada Atletismo ‘Mário Pinto Claro’ 2024/2025.</strong></p>\n\n\n\n<p>A organização é da responsabilidade dos&nbsp;<strong>Amigos do Atletismo da Charneca de Caparica</strong>&nbsp;com o apoio da&nbsp;<strong>Câmara Municipal de Almada.</strong></p>\n\n\n",
+  "description_short": "Corrida comemorativa do 51º aniversário do 25 de Abril em Almada, organizada pelos Amigos do Atletismo da Charneca de Caparica",
+  "page": "https://xistarca.pt/eventos/taa-51o-aniversario-do-25-de-abril",
+  "slug": "provas-tecnicas-do-50o-aniversario-do-25-de-abril-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

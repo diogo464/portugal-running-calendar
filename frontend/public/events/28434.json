@@ -1,0 +1,31 @@
+{
+  "id": 28434,
+  "name": "Trail e Caminhada Rota da Castanha e do Castanheiro 2023",
+  "location": "Sernancelhe, Viseu",
+  "coordinates": {
+    "lat": 40.8998417,
+    "lon": -7.4900188
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/4494a864be7331524f6d117e97472812"
+  ],
+  "start_date": "2023-10-28",
+  "end_date": "2023-10-29",
+  "circuit": [],
+  "description": "\n<p>A Organização do Trail e Caminhada encontra-se integrada na edição de 2023 da Festa da Castanha e é da responsabilidade da Câmara Municipal de Sernancelhe. Foi adotada a denominação de Trail e Caminhada “Rota da Castanha e do Castanheiro” e terá lugar, no sábado, dia 28 de Outubro de 2023.</p>\n",
+  "description_short": "Trail pela região de Sernancelhe durante a Festa da Castanha",
+  "page": "https://acorrer.pt/eventos/info/3304",
+  "slug": "trail-e-caminhada-rota-da-castanha-e-do-castanheiro-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sernancelhe",
+  "administrative_area_level_3": "União das freguesias de Sernancelhe e Sarzeda",
+  "district_code": 18
+}

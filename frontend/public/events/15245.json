@@ -1,0 +1,34 @@
+{
+  "id": 15245,
+  "name": "38ª Prova do Bodo 2022",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    3000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/bda82d965e779d973e930e249461708d"
+  ],
+  "start_date": "2022-07-30",
+  "end_date": "2022-07-31",
+  "circuit": [],
+  "description": "\n<figure class=\"wp-block-table\"><table><tbody><tr><td>As Festas do Bodo estão de volta e com elas a tradicional Prova do Bodo, evento de corrida de estrada que se realizará no dia <strong>30/07/2022, a partir das 19 horas.</strong> A edição deste ano será constituída por: 10 km do Bodo Corrida das Farturas (3 km) Caminhada do Bodo (3 km) Volta também a solidariedade e por isso ao se inscrever no evento o Intermarché de Pombal oferece <strong>um euro à Associação Humanitária dos Bombeiros Voluntários de Pombal.</strong> Porque vir à Prova do Bodo não é só correr, vem ainda participar connosco nesta festa e descontrair ao som de GU.TA, WET BED GANG, SMELLS Like 90&#8217;S e DJ NS (entrada gratuita).<br></td></tr><tr><td></td></tr></tbody></table></figure>\n",
+  "description_short": "Corrida de estrada solidária nas Festas do Bodo em Pombal com animação musical e apoio aos bombeiros voluntários",
+  "page": "https://lap2go.com/pt/event/prova-bodo-2022",
+  "slug": "38a-prova-do-bodo-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

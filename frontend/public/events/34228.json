@@ -1,0 +1,35 @@
+{
+  "id": 34228,
+  "name": "Trail Cidade de Moura 2024",
+  "location": "Moura, Beja",
+  "coordinates": {
+    "lat": 38.1426988,
+    "lon": -7.4512581
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    16000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/51e0904ffbe23a88caa50c66725f6cb9"
+  ],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [],
+  "description": "\n<p>O “IV TRAIL CIDADE DE MOURA – TERRA DO GRANDE LAGO” será realizado no dia 14 de abril de 2024, em Moura, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para os participantes.<br>O local da partida e chegada será no Edifício dos Quartéis (exceto a partida do trail longo que é realizada do Núcleo da Barragem de Alqueva – Estação Náutica de Moura &#8211; Alqueva) e os banhos serão no Pavilhão Gimnodesportivo Municipal – Romana Ângelo. </p>\n\n\n\n<p>A prova disputa-se nas seguintes categorias;</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Trail Longo: +/- 28 km por caminhos, estradas florestais, trilhos e ribeiras.</li>\n\n\n\n<li>Trail Curto: +/- 16km por caminhos, estradas florestais, trilhos e ribeiras.</li>\n</ol>\n\n\n\n<p>Em paralelo às provas existirá também uma caminhada com a distância de 10km em caminhos e trilhos de terra batida, pelas paisagens envolventes à cidade de Moura</p>\n",
+  "description_short": "Trail desafiante por caminhos e trilhos na região de Moura, com partida junto ao Grande Lago de Alqueva",
+  "page": "https://lap2go.com/pt/event/trail-cidade-de-moura-2024",
+  "slug": "trail-cidade-de-moura-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "São João Baptista",
+  "district_code": 2
+}

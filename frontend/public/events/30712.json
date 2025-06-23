@@ -1,0 +1,37 @@
+{
+  "id": 30712,
+  "name": "Trilho das Dores 2024",
+  "location": "Abitureiras, Santarém",
+  "coordinates": {
+    "lat": 39.3148294,
+    "lon": -8.7821951
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    17000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fdcc3cc2d293a44339eff0c3a1763f56"
+  ],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A X Edição do Trilho das Dores / Imporlux é uma Co-organização entre a Equipa Trilho Perdido Eventos / Imporlux, Câmara Municipal de Santarém, Centro de Convívio Cultura e Desporto de Abitureiras e a empresa de Cronomentragens e Organização de Eventos Desportivos “Trilho Perdido”, com o apoio da Junta de Freguesia de Abitureiras e de várias entidades.</p>\n\n\n\n<p><br>A X Edição do Trilho das Dores / Imporlux será realizada no dia 14 de Abril de 2024 (domingo), em Abitureiras/Santarém, independentemente das condições climatéricas desse dia, desde que<br>a Organização entenda que as mesmas não oferecem risco para os participantes. </p>\n\n\n\n<p>Será constituído por três provas de carácter competitivo: “Trail Longo – K31”, “Trail Curto – K17”, “Mini-Trail – K12” para além de uma Caminhada (Hell Energy) de aproximadamente 12Kms.</p>\n",
+  "description_short": "Trail competitivo em Abitureiras com três provas de diferentes distâncias e caminhada associada",
+  "page": "https://www.trilhoperdido.com/evento/10-Trail-Running-Trilho-das-Dores",
+  "slug": "trilho-das-dores-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "Abitureiras",
+  "district_code": 14
+}

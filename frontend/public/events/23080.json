@@ -1,0 +1,32 @@
+{
+  "id": 23080,
+  "name": "Corrida 4 Estações Primavera &#8211; Condeixa 2023",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/581498af07b03f9d4d6422f60000f639"
+  ],
+  "start_date": "2023-04-29",
+  "end_date": "2023-04-30",
+  "circuit": [],
+  "description": "\n<p>Numa co organização entre a Associação Desportiva 4 Estações e a Câmara Municipal de Condeixa, vai realizar no dia 29 de Abril de 2023 pelas 19.00h na vila de Condeixa uma corrida de atletismo de estrada com a distância de 10k, designada por Corrida das 4 Estações primavera Condeixa. Esta prova faz parte do Circuito de Corrida 4 Estações Portugal.</p>\n",
+  "description_short": "Corrida noturna de primavera pelas ruas pitorescas de Condeixa",
+  "page": "https://corrida4estacoesportugal.wordpress.com/",
+  "slug": "corrida-4-estacoes-primavera-condeixa-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

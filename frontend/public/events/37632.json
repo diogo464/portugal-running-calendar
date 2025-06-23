@@ -1,0 +1,32 @@
+{
+  "id": 37632,
+  "name": "Milha de Atletismo Alberto Bastos 2024",
+  "location": "Vale de Cambra, Aveiro",
+  "coordinates": {
+    "lat": 40.8424421,
+    "lon": -8.3960727
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "Milha"
+  ],
+  "images": [
+    "media/ee86ace9c0f59c67a2f90c38c03dc2af"
+  ],
+  "start_date": "2024-11-02",
+  "end_date": "2024-11-03",
+  "circuit": [],
+  "description": "\n<p>A Associação Cívica Alberto Bastos (ACAB), a ACR de Vale de Cambra e o Inter Caima Pinheiro Manso Futebol Clube, com o apoio da Câmara Municipal de Vale de Cambra e da Junta de Freguesia de São Pedro de Castelões, levam a efeito no dia 2 de novembro de 2024, pelas 15:00 horas, a I Milha em Atletismo Alberto Bastos, integrado na Feira da Castanha de São Pedro de Castelões, que pretende ser mais uma grande jornada desportiva em homenagem a este grande valecambrense, que ao longo da sua vida sempre procurou promover as terras de Cambra não só nos domínios da cultura e animação social, mas também no campo desportivo.</p>\n",
+  "description_short": "Primeira milha de atletismo homenageando Alberto Bastos durante a Feira da Castanha em Vale de Cambra",
+  "page": "https://meutempo.pt/prova?1milhaalbertobastos",
+  "slug": "milha-de-atletismo-alberto-bastos-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vale de Cambra",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

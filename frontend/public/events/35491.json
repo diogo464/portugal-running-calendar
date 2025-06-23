@@ -1,0 +1,34 @@
+{
+  "id": 35491,
+  "name": "Trail dos Catrinos 2024",
+  "location": "Santa Catarina, Alcácer do Sal",
+  "coordinates": {
+    "lat": 38.396869,
+    "lon": -8.4302689
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    12000,
+    16000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d90ab17711fe1bd82b6782330e7c3371"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [],
+  "description": "\n<p>O Trail, dos “Catrinos” é uma prova no âmbito do desporto aventura ao ar livre e de natureza. Esta iniciativa é organizada pela Associação, Santa Catarina Futebol Clube, e tem como principal objetivo proporcionar aos amantes desta modalidade o contacto e conhecimento de locais que a nossa aldeia dispõe, com excelentes características naturais e de extrema beleza para a prática do Desporto Aventura.<br>O Trail dos “Catrinos” será composto por um Trail curto de 16km e médio de 27km e caminhada de 12Km.</p>\n\n\n",
+  "description_short": "Trail pelos trilhos de aldeia com percursos de diferentes distâncias e contacto com paisagens naturais únicas",
+  "page": "https://www.trilhoperdido.com/evento/2-Trail-dos-Catrinos",
+  "slug": "trail-dos-catrinos-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcácer do Sal",
+  "administrative_area_level_3": "União das freguesias de Alcácer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana",
+  "district_code": 15
+}

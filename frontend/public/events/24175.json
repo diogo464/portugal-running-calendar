@@ -1,0 +1,32 @@
+{
+  "id": 24175,
+  "name": "Corrida da Ponte 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/c5f1f3a88ad708313df26682f8f53a7d"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>Prova designada Corrida da Ponte (CP) sendo no ano 2023 a sua 1.a Edição, na versão de 10 km, onde<br>acolherá o Campeonato Nacional de Estrada</p>\n\n\n",
+  "description_short": "Primeira edição da Corrida da Ponte com Campeonato Nacional de Estrada em 10 km",
+  "page": "https://stopandgo.net/events/corrida-da-ponte-2023",
+  "slug": "corrida-da-ponte-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

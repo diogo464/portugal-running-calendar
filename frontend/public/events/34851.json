@@ -1,0 +1,29 @@
+{
+  "id": 34851,
+  "name": "Freita Skyrunning 2024",
+  "location": "Vale de Cambra, Aveiro",
+  "coordinates": {
+    "lat": 40.8424421,
+    "lon": -8.3960727
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/656e8c4de2c0fd29561595dd7e76ff64"
+  ],
+  "start_date": "2024-07-13",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>FREITA SKYRUNNING 2024 é uma organização da&nbsp;<strong>Associação Desportiva e Cultural de Felgueira</strong>, em parceria com a&nbsp;<strong>Câmara Municipal de Vale de Cambra</strong>&nbsp;e em cooperação com várias instituições públicas e privadas.</p>\n",
+  "description_short": "Trail de montanha na Serra da Freita com organização local e apoio municipal",
+  "page": "https://www.recordepessoal.pt/evento/freitaskyrunning2024",
+  "slug": "freita-skyrunning-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vale de Cambra",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": 41082,
+  "name": "Grande Prova de Atletismo da Acarf 2025",
+  "location": "Forjães, Esposende",
+  "coordinates": {
+    "lat": 41.6045646,
+    "lon": -8.7427272
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [],
+  "images": [
+    "media/2d0374d3f64af835165036b219700275"
+  ],
+  "start_date": "2025-04-25",
+  "end_date": "2025-04-26",
+  "circuit": [],
+  "description": "\n<p>A XIX Grande Prova de Atletismo da ACARF, realiza-se no dia 25 de abril de 2025. As provas terão início na Avenida Santa Marinha terminando no mesmo local, em plena freguesia de Forjães (Esposende).</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Prova de atletismo comemorativa em Forjães com partida e chegada na Avenida Santa Marinha",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-acarf-2025",
+  "slug": "grande-prova-de-atletismo-da-acarf-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Esposende",
+  "administrative_area_level_3": "Forjães",
+  "district_code": 3
+}

@@ -1,0 +1,34 @@
+{
+  "id": 20888,
+  "name": "Passeio Solidário de Natal 2022",
+  "location": "Gatões, Montemor-o-Velho",
+  "coordinates": {
+    "lat": 40.214215,
+    "lon": -8.704530199999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/81589d450032d0685533a69237f8efd2"
+  ],
+  "start_date": "2022-12-18",
+  "end_date": "2022-12-19",
+  "circuit": [],
+  "description": "\n<p>O GATÕES BTT irá organizar mais um passeio de Natal no dia 18 de Dezembro de 2022. Será um passeio de cariz familiar e de convívio pelos nossos belos trilhos.<br>Como é hábito, será também um passeio solidário, para isso pedimos a todos os participantes um bem alimentar para ser doado a APPACDM .</p>\n\n\n\n<p>Trail &#8211; 12 KM<br>O percurso será todo fitado e cada um poderá seguir ao seu ritmo , terá um reforço solido e liquido a meio .<br>O objetivo é o convívio e o reforço da amizade entre a comunidade, se gostas de TRAIL e se conheces o GATOESBTT estás convidado em vir passar uma manha diferente e almoçar connosco.<br>Caminhada &#8211; 10 KM<br>O percurso será todo fitado e terá um reforço a meio . O objetivo é o convívio e o reforço da amizade entre a comunidade, se gostas de caminhar e se conheces o GATOESBTT estás convidado em vir passar uma manha diferente e almoçar connosco</p>\n\n\n",
+  "description_short": "Passeio de Natal solidário do GATÕES BTT com trail e caminhada, apelando à doação de bens alimentares para APPACDM",
+  "page": "https://www.runmanager.net/Eventos/passeio-solidario-de-natal-2022/678",
+  "slug": "passeio-solidario-de-natal-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "Gatões",
+  "district_code": 6
+}

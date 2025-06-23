@@ -1,0 +1,33 @@
+{
+  "id": 29440,
+  "name": "Trail do Capitão 2024",
+  "location": "Paredes, Porto",
+  "coordinates": {
+    "lat": 41.2051674,
+    "lon": -8.3303867
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/8dc4d28a48650a3acfe962e7ed9273f8"
+  ],
+  "start_date": "2024-01-27",
+  "end_date": "2024-01-28",
+  "circuit": [],
+  "description": "\n<p>A V edição do Trail do Capitão é uma prova que percorre trilhos e caminhos das freguesias de<br>Rebordosa, Vandoma e Baltar do concelho de Paredes. As duas provas de caracter<br>competitivo: Trail de 20km e Mini-Trail de 10 km (a correr ou a andar) estão abertas a maiores<br>de idade (18 anos).</p>\n",
+  "description_short": "Trail desafiante pelos trilhos rurais de Rebordosa, Vandoma e Baltar no concelho de Paredes",
+  "page": "https://www.portimer.pt/eventos/v-trail-capitao-2024",
+  "slug": "trail-do-capitao-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Paredes",
+  "district_code": 13
+}

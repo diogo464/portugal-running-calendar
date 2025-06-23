@@ -1,0 +1,34 @@
+{
+  "id": 21897,
+  "name": "Trail Marvão 2023",
+  "location": "Marvão, Portalegre",
+  "coordinates": {
+    "lat": 39.3939447,
+    "lon": -7.376536299999999
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    10000,
+    21000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0efdff7bbc95bac7381ecfbe4b693626"
+  ],
+  "start_date": "2023-03-05",
+  "end_date": "2023-03-06",
+  "circuit": [],
+  "description": "\n<p>O Trail de Marvão é uma organização conjunta entre o Município de Marvão, UJA &#8211; União da Juventude<br>Arenense e do GDA &#8211; Grupo Desportivo Arenense.</p>\n\n\n\n<p><br>O Trail de Marvão é um evento composto por duas provas de trail running e por uma caminhada, que se<br>realiza por trilhos, azinhagas e caminhos rurais do concelho de Marvão, inserido no Parque Natural da Serra<br>de S. Mamede, sendo a passagem pela Vila de Marvão e pelas tradicionais choças as grandes referências<br>da beleza desta região.</p>\n\n\n\n<p><br>As provas de trail running a realizar (21Km e 10Km) são consideradas acessíveis a todos os participantes,<br>no entanto, com algumas zonas técnicas e exigentes fisicamente. </p>\n\n\n\n<p><br>O evento Trail de Marvão decorrerá no dia 05 de março de 2023.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e paisagens históricas de Marvão no Parque Natural da Serra de S. Mamede",
+  "page": "https://www.queroir.pt/trailmarvao2023",
+  "slug": "trail-marvao-2023",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Marvão",
+  "administrative_area_level_3": "Santa Maria de Marvão",
+  "district_code": 12
+}

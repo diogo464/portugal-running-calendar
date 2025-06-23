@@ -1,0 +1,35 @@
+{
+  "id": 13369,
+  "name": "Linhas De Torres Runnig Challenge 2022",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    42195
+  ],
+  "types": [
+    "run",
+    "10k",
+    "marathon",
+    "trail"
+  ],
+  "images": [
+    "media/109e8993a937eb470acc5ec9bc161ef1"
+  ],
+  "start_date": "2022-04-09",
+  "end_date": "2022-04-10",
+  "circuit": [],
+  "description": "\n<p>O evento “Linhas De Torres Runnig Challenge 2022” é uma corrida maioritariamente de trail e com alguns percursos em estrada, realizada pela primeira vez em 2013, para homenagear todos aqueles que construíram e defenderam o sistema defensivo, património turístico-militar de Portugal, conhecido como Linhas de Torres, inserido nos concelhos de <a href=\"https://www.cm-vfxira.pt/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Vila Franca de Xira</strong></a><strong>, </strong><a href=\"https://www.cm-loures.pt/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Loures</strong></a><strong>, </strong><a href=\"https://www.cm-arruda.pt/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Arruda dos Vinhos</strong></a><strong>, </strong><a href=\"https://www.cm-sobral.pt/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Sobral de Monte Agraço</strong></a><strong>, </strong><a href=\"https://www.cm-tvedras.pt/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Torres Vedras</strong></a> e <a href=\"https://www.cm-mafra.pt/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Mafra</strong></a>.</p>\n",
+  "description_short": "Trail histórico pelas Linhas de Torres, homenageando o sistema defensivo da região de Lisboa",
+  "page": "https://xistarca.pt/eventos/running-challenge-2022",
+  "slug": "linhas-de-torres-running-challenge-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

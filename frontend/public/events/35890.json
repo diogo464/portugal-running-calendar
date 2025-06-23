@@ -1,0 +1,31 @@
+{
+  "id": 35890,
+  "name": "São Silvestre de Sobral de Monte Agraço 2024",
+  "location": "Sobral de Monte Agraço, Lisboa",
+  "coordinates": {
+    "lat": 39.0188114,
+    "lon": -9.1505771
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/dc9a922064a37b04f8b8c9f93e0e2750"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-07",
+  "circuit": [],
+  "description": "\n<p>O evento “São Silvestre | Sobral de Monte Agraço”, é organizado por Barbio Sports &amp; Health, Unipessoal, Lda, doravante “ORGANIZAÇÃO”, com o apoio institucional/patrocínio da Câmara Municipal de Sobral de Monte Agraço.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "São Silvestre tradicional em Sobral de Monte Agraço com apoio da câmara municipal",
+  "page": "https://www.trilhoperdido.com/evento/Sao-Silvestre-Sobral-de-Monte-Agraco",
+  "slug": "sao-silvestre-de-monte-agraco-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sobral de Monte Agraço",
+  "administrative_area_level_3": "Sobral de Monte Agraço",
+  "district_code": 11
+}

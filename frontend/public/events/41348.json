@@ -1,0 +1,31 @@
+{
+  "id": 41348,
+  "name": "Vila Wild Trail 2025",
+  "location": "Vilar Maior, Sabugal",
+  "coordinates": {
+    "lat": 40.4736897,
+    "lon": -6.938586399999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/65c21637b599c1fd232a578625a8e95b"
+  ],
+  "start_date": "2025-10-26",
+  "end_date": "2025-10-27",
+  "circuit": [],
+  "description": "\n<p><br>Esta prova é organizada pela associação Muralhas de Vilar Maior, com o patrocínio da Câmara Municipal<br>do Sabugal, da Rewilding Portugal, da Junta de Freguesia da Aldeia da Ribeira, Vilar Maior e Badamalos,<br>e da Santa Casa da Misericórdia de Vilar Maior.<br>A prova integra o circuito 5 QUINAS – 6 Trails | 1 Desafio, e a classificação final da prova conta para o<br>troféu em questão, uma iniciativa da Câmara Municipal do Sabugal, pela sua marca, Sabugal Respira<br>Desporto.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail integrado no circuito 5 Quinas pela região do Sabugal, com apoio de entidades locais",
+  "page": "https://acorrer.pt/eventos/3860/info",
+  "slug": "vila-wild-trail-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Sabugal",
+  "administrative_area_level_3": "Vilar Maior",
+  "district_code": 9
+}

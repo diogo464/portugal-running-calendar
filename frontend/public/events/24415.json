@@ -1,0 +1,35 @@
+{
+  "id": 24415,
+  "name": "2º Trail Serra e Mar &#8211; Black Pig 2023",
+  "location": "São Francisco da Serra, Setúbal",
+  "coordinates": {
+    "lat": 38.0911325,
+    "lon": -8.671060299999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    7000,
+    9700,
+    14000,
+    23000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/302bbae37f42c848e6944740c4ac9c0d"
+  ],
+  "start_date": "2023-09-17",
+  "end_date": "2023-09-18",
+  "circuit": [],
+  "description": "\n<p>O 2º Trail Serra e Mar – Black Pig é um evento de Trail Running, que percorre trilhos e caminhos<br>na freguesia de São Francisco da Serra e zonas limítrofes, nas vertentes de Caminhada (9,7 km),<br>Trail Serra (14 km) e Trail Mar (23 km).</p>\n",
+  "description_short": "Trail desafiante entre a serra e o mar na região de São Francisco da Serra",
+  "page": "https://acorrer.pt/eventos/info/3250",
+  "slug": "2o-trail-serra-e-mar-black-pig-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "São Francisco da Serra",
+  "district_code": 15
+}

@@ -1,0 +1,35 @@
+{
+  "id": 34958,
+  "name": "Trail Santa Apolónia 2024",
+  "location": "Vila do Conde, Porto",
+  "coordinates": {
+    "lat": 41.3517302,
+    "lon": -8.7478619
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    13000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e078ce9f10da5908b2bc557ed041f113"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-28",
+  "circuit": [],
+  "description": "\n<p>Explorando as riquezas da freguesia de Malta e das freguesias vizinhas, o nosso trail oferece uma experiência única de grande contacto com a natureza.<br>Neste trail, não só percorremos ruas, trilhamos memórias, celebrando a singularidade de cada freguesia que enriquece a nossa região. Este é mais do que um percurso; é uma experiência viva das histórias que habitam nas nossas comunidades.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail&nbsp;18km&nbsp;&#8211; 375d+</li>\n\n\n\n<li>Mini Trail 13km &#8211;&nbsp;230d+</li>\n\n\n\n<li>Caminhada 10km &#8211;&nbsp;200d+</li>\n</ul>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail pela natureza e história das comunidades de Malta, revelando memórias locais em percursos únicos",
+  "page": "https://meutempo.pt/prova?trailsantaapolonia2024",
+  "slug": "trail-santa-apolonia-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila do Conde",
+  "administrative_area_level_3": "Vila do Conde",
+  "district_code": 13
+}

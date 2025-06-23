@@ -1,0 +1,29 @@
+{
+  "id": 1324,
+  "name": "V Trail Antonino 2020",
+  "location": "Vila Verde Verde, Braga",
+  "coordinates": {
+    "lat": 41.6507161,
+    "lon": -8.433281299999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2afda97bfc4b189e1a2a3a320c635d3a"
+  ],
+  "start_date": "2020-06-21",
+  "end_date": "2020-06-22",
+  "circuit": [],
+  "description": "<p align=\"justify\">O V Trail Antonino, realizar-se no dia 21 de Junho de 2020, tratava-te de uma actividade de corrida e caminhada que atravessa parte norte do concelho de Vila Verde, por caminhos de montanha agrícolas e florestais.</p>\n<p align=\"justify\">Este ano o Trail longo vai voltar às origens com início no magnífico Santuário de S.to Antonio Mixões da Serra</p>\n<p align=\"justify\">Fica garantida assim uma manhã de diversão na natureza.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos agrícolas e florestais do norte de Vila Verde, com partida do Santuário de Santo António Mixões da Serra",
+  "page": "https://www.prozis.com/pt/pt/evento/v-trail-antonino",
+  "slug": "v-trail-antonino-2020",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Verde",
+  "administrative_area_level_3": "Vila Verde e Barbudo",
+  "district_code": 3
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1947,
+  "name": "Scalabis Night Race 2020",
+  "location": "Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/a38ef5d3b5d1f36f80481f053cd46b20"
+  ],
+  "start_date": "2020-04-18",
+  "end_date": "2020-04-19",
+  "circuit": [],
+  "description": "<p>A Associação Scalabis Night Runners Club vai realizar, no dia 18 de abril, em Santarém, a <a href=\"http://www.scalabisnightrace.pt/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Scalabis Night Race 2020</strong></a>, uma <strong>Corrida Noturna de 10 km</strong> com um percurso urbano constituído por uma volta única e sem desníveis consideráveis. Paralelamente também irá decorrer uma <strong>&#8220;Mini Race&#8221; de 5 km</strong> sem caráter competitivo. Todas as provas têm partida e chegada no Jardim da Liberdade.</p>\n<p>No final haverá oferta de bifanas, mini pampilhos, não esquecendo o vinho da região. Há melhor? Venha fazer a festa connosco!</p>\n",
+  "description_short": "Corrida noturna urbana em Santarém com sabores tradicionais e ambiente festivo",
+  "page": "https://scalabisnightrace.pt/",
+  "slug": "scalabis-night-race-2020",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

@@ -1,0 +1,33 @@
+{
+  "id": 39905,
+  "name": "Azores Bravos Trail 2025",
+  "location": "Angra do Heroísmo, Ilha Terceira, Açores",
+  "coordinates": {
+    "lat": 38.6635375,
+    "lon": -27.2293969
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    35000,
+    65000,
+    100000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6333a68f551af4df4846a6781d12cfb1"
+  ],
+  "start_date": "2025-10-04",
+  "end_date": "2025-10-05",
+  "circuit": [],
+  "description": "\n<p>O Azores Bravos Trail® (AzBT®) é um evento competitivo de Trail-Running organizado pela Associação de Atletismo da Ilha Terceira (AAIT), em parceria com o Governo Regional dos Açores e dos Municípios de Angra do Heroísmo e da Praia da Vitória, e que integra cinco provas: Azores Bravos Trail® 100K (AzBT®_100), Azores Bravos Trail® 65K (AzBT®_65), Azores Bravos Trail® 35K (AzBT®_35), Azores.</p>\n",
+  "description_short": "Trail desafiante pela ilha Terceira, nos Açores, com múltiplas provas de diferentes distâncias",
+  "page": "https://stopandgo.net/events/azores-bravos-trail-2025",
+  "slug": "azores-bravos-trail-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Terceira",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

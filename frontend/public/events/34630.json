@@ -1,0 +1,33 @@
+{
+  "id": 34630,
+  "name": "Grande Prémio de Atletismo Cerejeiras em Flor 2024",
+  "location": "Fundão, Castelo Branco",
+  "coordinates": {
+    "lat": 40.137963,
+    "lon": -7.501077299999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/e1101592a304952e98ee78de1b9a2170"
+  ],
+  "start_date": "2024-04-07",
+  "end_date": "2024-04-08",
+  "circuit": [],
+  "description": "\n<p>O Grupo de Convívio e Amizade nas Donas em parceria com a Câmara Municipal do Fundão, levam<br>a efeito no dia 7 de abril de 2024, uma prova de atletismo designada: GRANDE PRÉMIO DE ATLETISMO CEREJEIRAS EM FLOR.</p>\n\n\n\n<p><br>Será realizado em simultâneo o Passeio Pedestre Cerejeiras em Flor com início às 09h00 e partida e<br>chegada junto á sede do GCA Donas (Sr.ª do Souto – Donas).</p>\n\n\n",
+  "description_short": "Corrida e caminhada entre cerejeiras em flor no Fundão, com partida na sede local",
+  "page": "https://www.gcadonas.pt/blog/destaques-1/post/grande-premio-de-atletismo-cerejeiras-em-flor-17",
+  "slug": "grande-premio-de-atletismo-cerejeiras-em-flor-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Fundão",
+  "administrative_area_level_3": "União das freguesias de Fundão, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo",
+  "district_code": 5
+}

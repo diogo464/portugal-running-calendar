@@ -1,0 +1,32 @@
+{
+  "id": 31928,
+  "name": "Estafeta da Família 2024",
+  "location": "Entroncamento, Santarém",
+  "coordinates": {
+    "lat": 39.4611239,
+    "lon": -8.478759
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    1000
+  ],
+  "types": [
+    "run",
+    "relay"
+  ],
+  "images": [
+    "media/bdfd5e300a42b9a7e232f6c2b624abf2"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [],
+  "description": "\n<p>A prova “Estafeta da Família” é organizado pelo CLAC, trata-se de um evento desportivo, de caráter não competitivo, de forma a incentivar a prática de atividade física, unindo a família através do desporto.</p>\n\n\n\n<p>A prova realiza-se no Parque do Bonito e consiste numa volta completa ao parque — aproximadamente 1000m, cada família constitui uma equipa (com limite de 4 elementos, caso sejam menos de 4, haverá atletas que darão mais voltas.)</p>\n\n\n\n<p>Cada elemento da família corre de forma autónoma, com a exceção dos mais pequenos, que poderão correr acompanhados, mas o dorsal pertence ao mais novo.</p>\n\n\n",
+  "description_short": "Estafeta familiar não competitiva no Parque do Bonito que promove atividade física e união familiar",
+  "page": "https://entrocamento.wixsite.com/estafetadafamilia",
+  "slug": "estafeta-da-familia-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Entroncamento",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

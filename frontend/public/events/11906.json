@@ -1,0 +1,32 @@
+{
+  "id": 11906,
+  "name": "Lisbon ECO Marathon 2022",
+  "location": "Parque Eduardo Sétimo, Lisboa",
+  "coordinates": {
+    "lat": 38.7267017,
+    "lon": -9.1540483
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "trail",
+    "marathon"
+  ],
+  "images": [
+    "media/ff6b2f322fa297fd38c9f32dbfc0754b"
+  ],
+  "start_date": "2022-05-08",
+  "end_date": "2022-05-09",
+  "circuit": [],
+  "description": "\n<p>Tendo em conta a evolução da situação e os dados oficiais relacionados com a pandemia de Covid-19 em Portugal e as medidas que foram anunciadas pelo Governo Português no passado dia 11 de Março, a organização da Lisbon Eco Marathon 2022, em conjunto com a CM de Lisboa, foi obrigada a reagendar a&nbsp;<strong>7ª edição da Lisbon Eco Marathon</strong>, calendarizada para o dia 2 de Maio, adiando a prova para o dia&nbsp;<strong>8 de Maio de 2022</strong>.</p>\n\n\n\n<p>Foi ponderado o adiamento da prova para uma data posterior em 2021, mas a saturação de provas no calendário nacional após o mês de Maio, levaria a uma inevitável sobreposição com outras provas já calendarizadas, facto que nos levou a optar pelo&nbsp;<strong>adiamento para 2022</strong>, na data habitual no início do mês de Maio &#8211; 8 de Maio de 2022.</p>\n\n\n\n<p>Foi enviado um email a todos os atletas inscritos, com as informações sobre este adiamento.</p>\n\n\n\n<p>Apelamos para a vossa compreensão sobre uma decisão tomada em nome da segurança de todos.</p>\n\n\n\n<p>Contamos consigo, e já em plena segurança a&nbsp;<strong>8 de Maio de 2022</strong>.</p>\n\n\n\n<p>Boas corridas.</p>\n",
+  "description_short": "Maratona ecológica de Lisboa adiada para 8 de Maio devido à pandemia de Covid-19",
+  "page": "https://maratonadelisboa.pt/",
+  "slug": "lisbon-eco-marathon-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Avenidas Novas",
+  "district_code": 11
+}

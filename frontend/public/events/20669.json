@@ -1,0 +1,29 @@
+{
+  "id": 20669,
+  "name": "Trilhos do Paleozoico 2023",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2023-03-19",
+  "end_date": "2023-03-20",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A Trilhos do Paleozoico 2023 é uma prova que percorre trilhos e caminhos na serra de Santa Justa e de Pias no concelho de Valongo, onde está inserido o Parque Paleozóico de Valongo e o Centro de Trail de Valongo, com partida e chegada no Largo do Centenário (centro de Valongo).</p>\n",
+  "description_short": "Trail geológico pela serra de Valongo com passagem pelo Parque Paleozóico",
+  "page": "https://stopandgo.net/event/?id=947",
+  "slug": "trilhos-do-paleozoico-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

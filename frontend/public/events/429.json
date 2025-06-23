@@ -1,0 +1,34 @@
+{
+  "id": 429,
+  "name": "Trilho dos Dinossauros",
+  "location": "Praia da Areia Branca, Lourinhã, Lisboa",
+  "coordinates": {
+    "lat": 39.2659327,
+    "lon": -9.333571
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    11000,
+    18000,
+    32000
+  ],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/662a2ba1c7cb6613729c7d4933dcfe20"
+  ],
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-02",
+  "circuit": [],
+  "description": "<div id=\"wrapper\" class=\"container\">\n<div id=\"contentRow\" class=\"row\">\n<div id=\"contentCol\" class=\"col-xs-12\">\n<div class=\"row\">\n<div class=\"hidden-xs col-sm-6 col-md-7\">\n<div class=\"cssTexto\">\n<p><strong>Data:</strong><br />\n01 de Março de 2020</p>\n<p><strong>Localidade:</strong><br />\nPraia da Areia Branca (concelho da Lourinhã)</p>\n<p><strong>Limite de inscritos:</strong><br />\nTrail Longo &#8211; 250 atletas<br />\nTrail Curto &#8211; 500 atletas<br />\nMini Trail &#8211; 400 atletas<br />\nCaminhada: 150 atletas</p>\n<p><strong>Preços:</strong></p>\n<p><strong>Entre 26 de Novembro e 30 de Novembro – Promocional !!</strong></p>\n<p>Inclui <strong>Camisola Técnica Long Sleeve by Compressport</strong>, para as provas de Trail , Mini-Trail e opção para Caminhada !!</p>\n<p>•    Trail Longo 32K – 17 € ( Prova pontuável para Taça de Portugal 2019/2020)<br />\n•    Trail Curto 18K – 13 €<br />\n•    Mini Trail 11K – 12 €<br />\n•    Caminhada 11K (inclui Long Sleeve Compressport)– 12 €<br />\n•    Caminhada 11K – 8 €<br />\n•    Trail Kids  – Gratuito</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n",
+  "description_short": "Trail desafiante pela Praia da Areia Branca com várias distâncias e camisola técnica Compressport",
+  "page": "https://trilhoperdido.com/evento/Trilho-dos-Dinossauros-2020",
+  "slug": "trilho-dos-dinossauros",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de Lourinhã e Atalaia",
+  "district_code": 11
+}

@@ -1,0 +1,37 @@
+{
+  "id": 40571,
+  "name": "Serra Amarela Skymarathon 2025",
+  "location": "Ponte da Barca, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8055334,
+    "lon": -8.417051599999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    16000,
+    30000,
+    42195,
+    45000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "kids",
+    "marathon"
+  ],
+  "images": [],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>No dia <strong>8 de Junho de 2025</strong>, que a Carlos Sá Nature Events®, em parceria como Município de Ponte da Barca, organizará a 7ª edição do evento Serra Amarela SkyMarathon.  A aposta na Serra Amarela surge do reconhecimento das potencialidades fantásticas desta região, com toda a sua beleza e relevo agreste, para a prática da modalidade em franco crescimento em Portugal. Este evento contará com várias distâncias competitivas. No dia <strong>8 de Junho </strong>realizar-se-ão as distâncias de <strong>45km</strong>, <strong>30km</strong> e <strong>16Km</strong>. O evento também contará com o <strong>Serra Amarela Kids</strong>, provas de corrida não competitivas para crianças entre os 6 e os 17 anos. A inscrição para o Serra Amarela Kids é gratuita.</p>\n\n\n\n<p></p>\n\n\n\n<p><br></p>\n\n\n",
+  "description_short": "Trail de montanha pela Serra Amarela com vista para paisagens agrestes de Ponte da Barca",
+  "page": "https://carlossanatureevents.com/serraamarela",
+  "slug": "serra-amarela-skymarathon-2025",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte da Barca",
+  "administrative_area_level_3": "Ponte da Barca",
+  "district_code": 16
+}

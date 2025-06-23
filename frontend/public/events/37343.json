@@ -1,0 +1,29 @@
+{
+  "id": 37343,
+  "name": "Grande Prémio Atletismo de Tregosa 2024",
+  "location": "Tregosa, Barcelos",
+  "coordinates": {
+    "lat": 41.63576949999999,
+    "lon": -8.695395999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/6b3f2ef2186eabab2a5d66ef2b1f6ad6"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [],
+  "description": "\n<p>A.D.C. de Tregosa vai realizar no dia 20 de Outubro de 2024 o seu 28º Grande Prémio de Atletismo de Tregosa que decorrerá nas principais artérias da União de Freguesias Durrães-Tregosa.<br>As partidas e chegadas serão realizadas junto às instalações desta Associação.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional pelos caminhos de Durrães-Tregosa na 28ª edição do Grande Prémio de Atletismo local",
+  "page": "https://www.sinctime.com/evento/289",
+  "slug": "grande-premio-atletismo-de-tregosa-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Tregosa",
+  "district_code": 3
+}

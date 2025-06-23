@@ -1,0 +1,36 @@
+{
+  "id": 40610,
+  "name": "Trail Boneca Douro 2025",
+  "location": "Sebolido, Penafiel",
+  "coordinates": {
+    "lat": 41.048798,
+    "lon": -8.345632199999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    12000,
+    24000,
+    46000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2025-09-14",
+  "end_date": "2025-09-15",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Boneca Douro é um evento da responsabilidade organizativa da Associação para o Desenvolvimento de Sebolido (ADSebolido), que organizará esta oitava edição no dia 14 de setembro de 2025, dividida nos eventos Ultra Trail Serra da Boneca, Trail Sprint Boneca Douro, Mini-Trail Boneca Douro e a Caminhada da Boneca.<br>A Serra da Boneca, vales, serras e aldeias preservadas circundantes serão o palco para este fantástico evento, que contará com as distâncias de 46km, 24km, 12km e uma caminhada de 10km.</p>\n",
+  "description_short": "Trail desafiante pela Serra da Boneca com vista para os vales e aldeias preservadas do Douro",
+  "page": "https://stopandgo.net/events/viii-trail-boneca-douro-2025",
+  "slug": "trail-boneca-douro-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Penafiel",
+  "administrative_area_level_3": "Sebolido",
+  "district_code": 13
+}

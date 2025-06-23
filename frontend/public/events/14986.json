@@ -1,0 +1,29 @@
+{
+  "id": 14986,
+  "name": "Trail Lama Solta 2022",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/34c291828c29a16bbae0d353e4036a66"
+  ],
+  "start_date": "2022-08-14",
+  "end_date": "2022-08-15",
+  "circuit": [],
+  "description": "\n<p>Trail Lama Solta 2022</p>\n",
+  "description_short": "Trail desafiante por trilhos rurais com nome sugestivo da dificuldade do percurso",
+  "page": "https://runmanager.net/Eventos/4-trail-lama-solta/619",
+  "slug": "trail-lama-solta-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

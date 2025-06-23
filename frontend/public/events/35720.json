@@ -1,0 +1,30 @@
+{
+  "id": 35720,
+  "name": "Trail Solidário de Ribeirão 2024",
+  "location": "Ribeirão, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.3569535,
+    "lon": -8.5666077
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/bc80511f39e6f9ea6066c1501a5f3f00"
+  ],
+  "start_date": "2024-07-21",
+  "end_date": "2024-07-22",
+  "circuit": [],
+  "description": "\n<p>O 6º Trail solidário de Ribeirão pretende promover a prática desportiva e dar a conhecer os trilhos da vila de Ribeirão &#8211; V. N. Famalicão, com um novo trajeto para descobrires  Em 2024 aliamos novamente o evento a várias causas solidárias. A verba resultante das inscrições da caminhada revertem a favor da soraia aguiar aos 3 anos fui diagnosticada com um atraso de desenvolvimento global, com alguns exames verificamos hipoplasia do vermis (parte cerebral) que dificulta todo o tipo de aprendizagem. As racões para os animais resultantes de cada inscrição vão ser doados ao centro de recolha animal de Vila Nova de Famalicão. Contamos com a tua presença e assim juntares o desporto á solidariedade no que vai ser um dia de plena atividade física, de convívio e festa.</p>\n\n\n",
+  "description_short": "Trail solidário em Ribeirão com percurso único e apoio a causas sociais e animais",
+  "page": "https://www.sinctime.com/evento/264",
+  "slug": "trail-solidario-de-ribeirao-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Ribeirão",
+  "district_code": 3
+}

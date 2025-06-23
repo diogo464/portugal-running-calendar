@@ -1,0 +1,31 @@
+{
+  "id": 40421,
+  "name": "Corrida de Monte Real 2025",
+  "location": "Monte Real, Leiria",
+  "coordinates": {
+    "lat": 39.8412644,
+    "lon": -8.8748765
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2025-07-19",
+  "end_date": "2025-07-20",
+  "circuit": [],
+  "description": "\n<p>A Corrida Monte Real é uma organização da Câmara Municipal de Leiria em parceria com a União de Freguesias de Monte Real e Carvide e que volta a visitar a Base Aérea n.º 5.</p>\n\n\n",
+  "description_short": "Corrida única que atravessa a Base Aérea n.º 5 em Monte Real, organizada pela autarquia local",
+  "page": "https://lap2go.com/pt/event/corrida-monte-real-2025",
+  "slug": "corrida-de-monte-real-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das freguesias de Monte Real e Carvide",
+  "district_code": 10
+}

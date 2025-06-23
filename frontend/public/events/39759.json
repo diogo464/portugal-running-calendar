@@ -1,0 +1,33 @@
+{
+  "id": 39759,
+  "name": "Trail do Bom Despacho 2025",
+  "location": "São Pedro de Peneferrim, Sintra Peneferrin,",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/56c9f5dab768648ca407072542d7dcf4"
+  ],
+  "start_date": "2025-10-12",
+  "end_date": "2025-10-12",
+  "circuit": [],
+  "description": "\n<p>A Associação Cultural e Recreativa &#8211; ATEPS, irá organizar, a 12 de outubro de 2025, a 2ª<br>edição Trail do Bom Despacho &#8211; 2025 em São Pedro de Peneferrin, concelho de Sintra. O Trail do<br>Bom Despacho 2025 é uma prova de TrailRunning, corrida pedestre em natureza, com três provas,<br>Trail Longo (TL) K25+, Trail Curto (TC) K15+ e Caminhada.</p>\n\n\n",
+  "description_short": "Trail de natureza em São Pedro de Peneferrin com provas de diferentes distâncias na região de Sintra",
+  "page": "https://acorrer.pt/eventos/3749/info",
+  "slug": "trail-do-bom-despacho-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

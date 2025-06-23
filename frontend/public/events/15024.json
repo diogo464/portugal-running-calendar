@@ -1,0 +1,29 @@
+{
+  "id": 15024,
+  "name": "Trail Do Marco 2022",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4b083d1ce93f93854e469e7bc754768d"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>Trail Do Marco 2022</p>\n",
+  "description_short": "Trail desafiante pelos trilhos tradiconais do Marco de Canaveses",
+  "page": "https://stopandgo.net/event/?id=784",
+  "slug": "trail-do-marco-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}

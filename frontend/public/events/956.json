@@ -1,0 +1,34 @@
+{
+  "id": 956,
+  "name": "Trail Rota do Bolinhol 2020",
+  "location": "Vizela Vizela, Braga",
+  "coordinates": {
+    "lat": 41.387938,
+    "lon": -8.2632464
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    6000,
+    13000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ff7112d47298fc89f37d482df1381437"
+  ],
+  "start_date": "2020-05-24",
+  "end_date": "2020-05-25",
+  "circuit": [],
+  "description": "<p>O IV Trail Rota do Bolinhol é constituído por um Mini-Trail de 13km, um Trail de 20km, organizados pela <strong>Run4fun </strong>, e uma Caminhada de 6km.</p>\n<p><strong>Kit de inscrição TRAIL:</strong></p>\n<p>&nbsp;</p>\n<p>– t-shirt técnica do evento<br />\n– dorsal personalizado com chip<br />\n– abastecimentos<br />\n– seguro desportivo<br />\n– banho<br />\n– <strong>prémio finisher: BOLINHOL</strong></p>\n<p>&nbsp;</p>\n<p><strong>Kit de inscrição CAMINHADA:</strong><br />\n– t-shirt<br />\n– água<br />\n– material promocional<br />\n– degustação de BOLINHOL e fruta no final da caminhada</p>\n",
+  "description_short": "Trail tradicional com diferentes percursos e prémio especial de Bolinhol na região",
+  "page": "http://run4fun.pt/evento/v-trail-rota-do-bolinhol/",
+  "slug": "trail-rota-do-bolinhol-2020",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vizela",
+  "administrative_area_level_3": "União das freguesias de Tagilde e Vizela (São Paio)",
+  "district_code": 3
+}

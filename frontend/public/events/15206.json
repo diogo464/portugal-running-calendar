@@ -1,0 +1,29 @@
+{
+  "id": 15206,
+  "name": "Corrida da Praia da Vieira 2022",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/10a28a33ba9323a792547aeabe27acfe"
+  ],
+  "start_date": "2022-08-20",
+  "end_date": "2022-08-21",
+  "circuit": [],
+  "description": "\n<p>O <strong>Industrial Desportivo Vieirense</strong> leva a efeito no próximo dia <strong>20 de Agosto de 2022</strong>, a <strong>Corrida da Praia da Vieira</strong>, competição englobada no circuito de meio-fundo da Associação Distrital de Atletismo de Leiria (ADAL).</p>\n",
+  "description_short": "Corrida costeira na Praia da Vieira integrada no circuito distrital de atletismo",
+  "page": "https://www.recordepessoal.pt/evento/corridadapraiadavieira2022",
+  "slug": "corrida-da-praia-da-vieira-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

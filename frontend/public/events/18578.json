@@ -1,0 +1,29 @@
+{
+  "id": 18578,
+  "name": "IV Viana Race 2022",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/bd53afd22ffc1cdeb8b1db386dbbbb0a"
+  ],
+  "start_date": "2022-11-05",
+  "end_date": "2022-11-06",
+  "circuit": [],
+  "description": "\n\n\n<p>A Viana Race &#8211; Corrida Urbana de Obstáculos está de regresso, a 05 de novembro, às 16h00 em Viana do Castelo.</p>\n",
+  "description_short": "Corrida urbana de obstáculos com ação intensa pelas ruas de Viana do Castelo",
+  "page": "http://cyclonessports.com/index.php/250-iv-viana-race",
+  "slug": "iv-viana-race-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

@@ -1,0 +1,32 @@
+{
+  "id": 41357,
+  "name": "Corrida da Nazaré 2025",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/550a9da57dea4c5f0a8d24b521cc3e1e"
+  ],
+  "start_date": "2025-06-14",
+  "end_date": "2025-06-15",
+  "circuit": [],
+  "description": "\n<p>A <strong>Corrida da Nazaré</strong> é organizada pelo <strong>Clube de Atletismo da Nazaré</strong> com o apoio da <strong>Câmara Municipal da Nazaré, Junta de Freguesia da Nazaré e Bombeiros Voluntários da Nazaré.</strong> Será realizada no dia <strong>14 de junho de 2025 às 20h00</strong> com partida no <strong>Centro Cultural da Nazaré.</strong></p>\n",
+  "description_short": "Corrida noturna pela vila pitoresca da Nazaré com apoio municipal e dos bombeiros locais",
+  "page": "https://www.recordepessoal.pt/evento/9corridadanazare",
+  "slug": "corrida-da-nazare-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

@@ -1,0 +1,32 @@
+{
+  "id": 22722,
+  "name": "Xix Trilhos De Mogadouro &#8211; Amendoeiras Em Flor 2023",
+  "location": "Mogadouro, Bragança",
+  "coordinates": {
+    "lat": 41.3426456,
+    "lon": -6.7099863
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/a5d213076f4d3f610a270d5856a75edf"
+  ],
+  "start_date": "2023-03-05",
+  "end_date": "2023-03-06",
+  "circuit": [],
+  "description": "\n\n\n<p>O Município de Mogadouro organiza no dia 5 de março de 2023, em colaboração com a Associação de Atletismo de Bragança, um trail com características de montanha e uma caminhada em natureza denominado XIX TRILHOS DE MOGADOURO – AMENDOEIRAS EM FLOR.</p>\n\n\n\n<p>Em simultâneo realizam-se as CORRIDAS JOVENS &#8211; MOGADOURO 2023, para escalões jovens (9 aos 17 anos), a realizar nos arruamentos do centro de Mogadouro, coincidentes com a meta da prova principal e caminhada.</p>\n",
+  "description_short": "Trail nas aldeias transmontanas a celebrar a floração das amendoeiras em Mogadouro",
+  "page": "http://events.portimer.pt/eventos/xix-trilhos-mogadouro",
+  "slug": "xix-trilhos-de-mogadouro-amendoeiras-em-flor-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mogadouro",
+  "administrative_area_level_3": "Mogadouro",
+  "district_code": 4
+}

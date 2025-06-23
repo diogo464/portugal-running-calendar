@@ -1,0 +1,29 @@
+{
+  "id": 35446,
+  "name": "Black Pig Race 2024",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/3657edec74cef4eb8b70439d0cd1a92c"
+  ],
+  "start_date": "2024-06-15",
+  "end_date": "2024-06-16",
+  "circuit": [],
+  "description": "\n<p>A Associação de festas de São João de Braga em parceria com a Associação Desporto Mais Vida, promove a 6a edição da tão conhecida e esperada Corrida do Porco Preto &#8211; BLACK PIG RACE, que faz alusão a uma reminiscência de tradições das festas sanjoaninas de séculos passados. Assim, em 2024 esta tradição antiga das festas de São João volta a reinventar-se como prova urbana de corrida de obstáculos, que combina a corrida com a superação de obstáculos naturais, artificiais, urbanos e arquitetónicos.</p>\n\n\n\n<p>A BLACK PIG RACE 2024 é uma organização conjunta da Associação de Festas de São João de Braga e Associação Desporto Mais Vida, com o apoio do Município de Braga e parceiros associados.</p>\n\n\n",
+  "description_short": "Corrida de obstáculos urbana em Braga que celebra tradições antigas das festas de São João",
+  "page": "https://www.sinctime.com/evento/255",
+  "slug": "black-pig-race-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

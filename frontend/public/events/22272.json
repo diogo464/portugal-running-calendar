@@ -1,0 +1,33 @@
+{
+  "id": 22272,
+  "name": "38ª Prova de Atletismo Camarnal 2023",
+  "location": "Camarnal, Lisboa",
+  "coordinates": {
+    "lat": 39.0605434,
+    "lon": -8.981741
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    9000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/16ac3889a0522a372596bfdc02b76087"
+  ],
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-13",
+  "circuit": [],
+  "description": "\n<p>Inscreva-se na Grande Prova de Atletismo através do link acima e marque na sua agenda Sociedade Recreativa Camarnal.<br>GP Camarnal &#8211; 9km<br>Caminhada &#8211; 5km</p>\n\n\n",
+  "description_short": "Prova de atletismo na Sociedade Recreativa Camarnal com opções de corrida e caminhada",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLSdG-ZN51jdz8njjipiPEzC4b4QVbX7R8ZDQv3HCk8Ma7qigWQ/viewform",
+  "slug": "38a-prova-de-atletismo-camarnal-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Alenquer",
+  "administrative_area_level_3": "União das freguesias de Alenquer (Santo Estêvão e Triana)",
+  "district_code": 11
+}

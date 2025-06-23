@@ -1,0 +1,31 @@
+{
+  "id": 42501,
+  "name": "Campeonato Regional Montanha Sobe 2 Desce 2025",
+  "location": "Querença, Loulé",
+  "coordinates": {
+    "lat": 37.1990603,
+    "lon": -7.987557799999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    9000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b3b2fd2fd549f20df83209223dfec3f7"
+  ],
+  "start_date": "2025-07-05",
+  "end_date": "2025-07-05",
+  "circuit": [],
+  "description": "\n<p>A distancia da competição, é de 9km com acumulado de subida de 395 D+ e 359 D-.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail técnico com desníveis significativos de subida e descida",
+  "page": "https://www.crono.aaalgarve.org/eventos/campeonato-regional-de-montanha-sobe-e-desce-2025",
+  "slug": "campeonato-regional-montanha-sobe-2-desce-2025",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Querença",
+  "district_code": 8
+}

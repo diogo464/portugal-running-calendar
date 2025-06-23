@@ -1,0 +1,29 @@
+{
+  "id": 1235,
+  "name": "Hard Trail MonteJunto 2020",
+  "location": "Montejunto, Cadaval",
+  "coordinates": {
+    "lat": 39.2395487,
+    "lon": -9.102103099999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/9a8728eda737f231eaceb49341d3ff92"
+  ],
+  "start_date": "2020-12-06",
+  "end_date": "2020-12-07",
+  "circuit": [],
+  "description": "<p>O   TURRES TRAIL CLUBE   com o apoio da Área Protegida da Serra da Montejunto  e  a Câmara Municipal do Cadaval, vai levar a efeito a 4º edição  Hard  Trail Run  Montejunto (versão de Inverno) no dia 6 de Dezembro de 2020. </p>\n<p>O percurso do Hard Trail Run é circular, o local de partida, chegada, secretariado e entrega  de prémios e no  centro interpretação ambiental da Serra de Montejunto  .</p>\n",
+  "description_short": "Trail desafiante pela Serra de Montejunto em versão de Inverno, organizado pelo Turres Trail Clube",
+  "page": "https://www.turresevents.com/eventos/hard-trail-montejunto-inverno",
+  "slug": "hard-trail-montejunto-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cadaval",
+  "administrative_area_level_3": "União das freguesias do Cadaval e Pêro Moniz",
+  "district_code": 11
+}

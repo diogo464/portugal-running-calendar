@@ -1,0 +1,29 @@
+{
+  "id": 1640,
+  "name": "Vindouro Eco Trail 2020",
+  "location": "São João da Pesqueira",
+  "coordinates": {
+    "lat": 41.14773810000001,
+    "lon": -7.405053300000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/52a9c0320fb1a49d75b6e67cfbea899d"
+  ],
+  "start_date": "2020-09-01",
+  "end_date": "2020-09-02",
+  "circuit": [],
+  "description": "<p>O evento Vindouro Eco-Trail realiza-se no concelho de S. João da Pesqueira, utilizando muitos percursos que já fazem parte das pequenas rotas já existentes. Os atletas irão percorrer zonas da Região do Douro – património da humanidade.</p>\n",
+  "description_short": "Trail panorâmico pelos caminhos históricos do Douro vinhateiro",
+  "page": "https://meutempo.pt/eventos/i-vindouro-eco-trail/",
+  "slug": "vindouro-eco-trail-2020",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São João da Pesqueira",
+  "administrative_area_level_3": "União das freguesias de São João da Pesqueira e Várzea de Trevões",
+  "district_code": 18
+}

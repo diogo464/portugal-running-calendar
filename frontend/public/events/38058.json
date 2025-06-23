@@ -1,0 +1,36 @@
+{
+  "id": 38058,
+  "name": "São Silvestre Beja 2024",
+  "location": "Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/82e229552d62d86db1d82729dbd0b75b"
+  ],
+  "start_date": "2024-12-27",
+  "end_date": "2024-12-28",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre é um evento de carácter desportivo, comunitário e solidário, promovido e organizado pela Câmara Municipal de Beja e que se realizará no próximo dia 27 de dezembro. Esta iniciativa contará com a colaboração técnica e de arbitragem da Associação de Atletismo de Beja e o apoio de vários parceiros e instituições locais.</p>\n\n\n\n<p><br>Na presente edição, a receita proveniente do donativo solidário afeto ao processo de inscrição seja para a corrida ou para a caminhada, reverterá na totalidade a favor do Centro Social Cultural e Recreativo do Bairro da Esperança.</p>\n\n\n\n<p><br><strong>Percursos e distância</strong><br>As provas São Silvestre jovem, iniciam-se às 19h00, em percursos identificados para o efeito, de  acordo com os respetivos escalões etários.</p>\n\n\n\n<p>A caminhada não competitiva inicia-se às 19h30m, com partida na rua Gomes Palma, passagem por diversas artérias da cidade numa distância de 5Km. Esta atividade será guiada.</p>\n\n\n\n<p><br>A corrida São Silvestre, prova competitiva, inicia-se pelas 20h00 com partida na rua Gomes Palma, e decorrerá num circuito fechado, percorrendo uma distância de 10Km, de acordo com os escalões etários.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária de fim de ano em Beja com caminhada e apoio a instituição local",
+  "page": "https://acorrer.pt/eventos/info/3666",
+  "slug": "sao-silvestre-beja-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

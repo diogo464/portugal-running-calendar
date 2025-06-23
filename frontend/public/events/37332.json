@@ -1,0 +1,34 @@
+{
+  "id": 37332,
+  "name": "Meia Maratona Guimarães 2024",
+  "location": "Guimarães, Braga",
+  "coordinates": {
+    "lat": 41.44253,
+    "lon": -8.2917857
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "10k",
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/17046c3970cff0436b15f35270b33bac"
+  ],
+  "start_date": "2024-10-05",
+  "end_date": "2024-10-06",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona Cidade Berço é um evento que se vai realizar no dia de 05 de Outubro em Guimarães. Inscreve-te nas diferentes provas ou participa com voluntário na organização. Um novo conceito com uma vertente solidária e sustentável.</p>\n",
+  "description_short": "Meia maratona solidária em Guimarães no dia da implantação da República",
+  "page": "https://meiamaratonacidadeberco.pt/",
+  "slug": "meia-maratona-guimaraes-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Serzedo",
+  "district_code": 3
+}

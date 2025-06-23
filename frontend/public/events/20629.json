@@ -1,0 +1,42 @@
+{
+  "id": 20629,
+  "name": "Ultra Trail de Cerveira 2023",
+  "location": "Vila Nova de Cerveira, Castelo",
+  "coordinates": {
+    "lat": 41.9403178,
+    "lon": -8.744577699999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    850,
+    1100,
+    1700,
+    2950,
+    12000,
+    15000,
+    22000,
+    45000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b53b850c42eff6cd350794d79cec2806"
+  ],
+  "start_date": "2023-05-06",
+  "end_date": "2023-05-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Ultra Trail de Cerveira 2023 é um evento de Trail Running que decorre nas Serras de Cerveira, percorrendo caminhos e trilhos nas freguesias do concelho de Vila Nova de Cerveira.</p>\n\n\n\n<p>O Trail Ultra – Médio, de caráter competitivo, tem início no dia 06 de Maio de 2023, às 7:00 horas, com ±45km de distância e 2950 metros de desnível acumu- lado positivo;<br>O Trail Longo, de caráter competitivo, tem início no dia 06 de maio de 2023, às 8:30 horas, com ±22km de distância e 1700 metros de desnível acumulado positivo;<br>O Trail Curto, de caráter competitivo, tem início no dia 06 de maio de 2023, às 9:30 horas, com ±15Km de distância e 1100 metros de desnível acumulado positivo;<br>A Caminhada, de caráter lúdico, tem início no dia 06 de maio de 2023, às 9:40 horas, com ±12Km de distância e 850 metros de desnível acumulado positivo;</p>\n",
+  "description_short": "Trail desafiante pelas serras de Cerveira com diferentes percursos de montanha",
+  "page": "https://stopandgo.net/events/ultra-trail-de-cerveira-2023",
+  "slug": "ultra-trail-de-cerveira-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Vila Nova de Cerveira",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Cerveira e Lovelhe",
+  "district_code": 16
+}

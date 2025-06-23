@@ -1,0 +1,34 @@
+{
+  "id": 41491,
+  "name": "Corrida Solidária Queima das Fitas 2025",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/01972516e00b24391be1dfbabc2711b8"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-11",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Primeira Edição da Corrida Solidária Queima das Fitas</strong>&nbsp;é um evento desportivo organizado pela&nbsp;<strong>Comissão Organizadora da Queima das Fitas</strong>, com o apoio da&nbsp;<strong>Câmara Municipal de Coimbra, da Associação Académica de Coimbra e da Recorde Pessoal</strong>, responsável pela organização técnica do evento.</p>\n\n\n\n<p>Serão realizados dois eventos, uma Corrida de 10 km e uma caminhada de 5 km que ocorrerá simultaneamente à corrida.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária da Queima das Fitas em Coimbra com participação académica e municipal",
+  "page": "https://www.recordepessoal.pt/evento/corridaoficialdaqueimadasfitas2025",
+  "slug": "corrida-solidaria-queima-das-fitas-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

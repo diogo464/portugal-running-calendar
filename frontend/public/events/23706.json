@@ -1,0 +1,31 @@
+{
+  "id": 23706,
+  "name": "Prova do Bodo 2023",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    3000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [],
+  "start_date": "2023-07-29",
+  "end_date": "2023-07-30",
+  "circuit": [],
+  "description": "\n<p>Integrada nas Festas do Bodo que anualmente se realizam na Cidade de Pombal, vai decorrer a 39ª Edição da Prova do Bodo. A edição deste ano será constituída pelos 10 km do Bodo, Corrida das Farturas (3 km) e Caminhada do Bodo (3 km).</p>\n\n\n\n<h2 class=\"wp-block-heading\">Preços</h2>\n\n\n\n<p>Até ao dia 23 de julho<br>10 km do Bodo – 8 euros<br>10 km do Bodo com camisola personalizada com nome – 10 euros<br>Corrida das Farturas – 4 euros (oferta de uma fartura a todos os participantes)<br>Caminhada &#8211; gratuito<br></p>\n\n\n\n<p>A partir do dia 24 de julho<br>10 km do Bodo – 10 euros<br>Corrida das Farturas – 5 euros (oferta de uma fartura a todos os participantes)<br>Caminhada – gratuito<br></p>\n\n\n\n<p>Quem comprovar ser atleta federado terá um desconto de um euro em todos os prazos de inscrição.<br>Por cada 10 inscrições simultâneas da mesma equipa a organização oferece uma grátis. Todos os atletas que se inscreverem simultaneamente nas duas competições organizadas pelo Município de Pombal (Corrida dos Gambuzinos + Prova do Bodo) terão um desconto de 10%.</p>\n",
+  "description_short": "Prova do Bodo em Pombal com corrida e caminhada integrada nas Festas do Bodo",
+  "page": "https://lap2go.com/pt/event/prova-bodo-2023",
+  "slug": "prova-do-bodo-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

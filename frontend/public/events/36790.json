@@ -1,0 +1,33 @@
+{
+  "id": 36790,
+  "name": "Corrida dos Campeões 2024",
+  "location": "Barrancos, Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/b09cf55c9c3020f3a267a3f6667cac64"
+  ],
+  "start_date": "2024-09-28",
+  "end_date": "2024-09-29",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Barrancos com o apoio logístico do Clube Linces de Noudar promove<br>a prova “V Corrida dos Campeões Paulo Guerra e Manuel Damião” no dia 28 de setembro.<br>de 2024.</p>\n",
+  "description_short": "Corrida homenagem a campeões locais organizada pela Câmara Municipal de Barrancos",
+  "page": "https://acorrer.pt/eventos/info/3625",
+  "slug": "corrida-dos-campeoes-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

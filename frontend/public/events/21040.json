@@ -1,0 +1,33 @@
+{
+  "id": 21040,
+  "name": "Corrida Dia do Pai 2023",
+  "location": "Matosinhos, Porto",
+  "coordinates": {
+    "lat": 41.182863,
+    "lon": -8.688951
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/01b431415a1b95d8e813e91162fc8f7b"
+  ],
+  "start_date": "2023-03-19",
+  "end_date": "2023-03-20",
+  "circuit": [],
+  "description": "\n<p>No dia 19 de março regressa a ISAG Corrida Dia do Pai.</p>\n\n\n\n<p>Com partida e chegada na Marginal de Matosinhos, podes escolher entre a distância de 10km ou 5km e desafiar toda a familia a participar contigo.</p>\n\n\n\n<p>Vamos celebrar o Dia do Pai juntos.</p>\n",
+  "description_short": "Corrida familiar pela Marginal de Matosinhos em celebração do Dia do Pai",
+  "page": "https://www.runporto.com/pt/eventos/corrida-dia-do-pai/corrida-dia-do-pai-2023/",
+  "slug": "corrida-dia-do-pai-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das Freguesias de Matosinhos e Leça da Palmeira",
+  "district_code": 13
+}

@@ -1,0 +1,33 @@
+{
+  "id": 35298,
+  "name": "Sunset Run Ribeirinha 2024",
+  "location": "Baixa da Banheira, Setúbal",
+  "coordinates": {
+    "lat": 38.6595324,
+    "lon": -9.0434313
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    6000,
+    9000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/4157e798c577afd702092bf6670cca3b"
+  ],
+  "start_date": "2024-07-06",
+  "end_date": "2024-07-06",
+  "circuit": [],
+  "description": "\n<p>A 6ª SUNSET RUN RIBEIRINHA é composta por uma prova (corrida 9Km) e uma caminhada (6Km).</p>\n\n\n",
+  "description_short": "Corrida ribeirinha ao pôr do sol com percurso junto ao rio",
+  "page": "https://acorrer.pt/eventos/info/3535",
+  "slug": "sunset-run-ribeirinha-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Moita",
+  "administrative_area_level_3": "União das freguesias de Baixa da Banheira e Vale da Amoreira",
+  "district_code": 15
+}

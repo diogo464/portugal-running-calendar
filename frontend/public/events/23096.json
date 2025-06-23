@@ -1,0 +1,34 @@
+{
+  "id": 23096,
+  "name": "Sines Corre Mais 2023",
+  "location": "Sines, Setúbal",
+  "coordinates": {
+    "lat": 37.9571555,
+    "lon": -8.860890699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/6241b8fd44d42741ec1c561b45d68bb4"
+  ],
+  "start_date": "2023-06-18",
+  "end_date": "2023-06-19",
+  "circuit": [],
+  "description": "\n<p>A Associação Desportiva Mais Inclusão promove a 2ª Edição do Sines Corre Mais!</p>\n\n\n\n<p>A 18 de junho de 2023, Sines desafia-vos a correr ou a caminhar. Há provas para todas as idades.</p>\n\n\n",
+  "description_short": "Corrida inclusiva com diversos escalões etários em Sines",
+  "page": "https://www.sinescorremais.pt/",
+  "slug": "sines-corre-mais-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sines",
+  "administrative_area_level_3": "Sines",
+  "district_code": 15
+}

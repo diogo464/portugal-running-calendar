@@ -1,0 +1,31 @@
+{
+  "id": 21021,
+  "name": "Corrida dos Namorados 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/8839794ce80362f072ae0096007a6575"
+  ],
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-13",
+  "circuit": [],
+  "description": "\n<p>Um percurso de 8km, no Estádio Universitário de Lisboa,&nbsp;<strong>unidos num só objetivo</strong>… passar a meta em conjunto!</p>\n\n\n\n<p>Não importa o ritmo, o importante é compartilhar o prazer da atividade física, num ambiente de natureza e envolvidos por uma atmosfera de romantismo e cumplicidade.</p>\n\n\n\n<p><strong>A classificação da vertente casais é feita por ordem de chegada do casal.&nbsp;Obrigatório cruzarem a meta juntos!</strong></p>\n",
+  "description_short": "Corrida romântica para casais no Estádio Universitário de Lisboa com chegada obrigatoriamente em conjunto",
+  "page": "https://xistarca.pt/eventos/8a-corrida-dos-namorados-2023",
+  "slug": "corrida-dos-namorados-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

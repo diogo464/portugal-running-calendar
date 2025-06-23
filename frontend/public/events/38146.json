@@ -1,0 +1,42 @@
+{
+  "id": 38146,
+  "name": "Trail Moinhos da Bajouca 2025",
+  "location": "Bajouca, Leiria",
+  "coordinates": {
+    "lat": 39.8896745,
+    "lon": -8.7756556
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    200,
+    270,
+    300,
+    2000,
+    10000,
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c537b93bbe274307496f9db3e4022337"
+  ],
+  "start_date": "2025-03-22",
+  "end_date": "2025-03-23",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Esta prova é organizada pelo <strong>Grupo Alegre e Unido da Bajouca</strong> conjuntamente com a <strong>Associação Bajouquens</strong>e para o Desenvolvimento. Conta com o apoio técnico da <strong>Recorde Pessoal e Associação Distrital de Atletismo de Leiria.</strong></p>\n\n\n\n<p><strong>Moinhos Kid’s</strong></p>\n\n\n\n<p><strong>Prólogo</strong>: 2km’s</p>\n\n\n\n<p><strong>Trail Sprint</strong>: 18 Km’s +/-300m</p>\n\n\n\n<p>M<strong>ini Trail</strong>: 12 Km’s +/-270m</p>\n\n\n\n<p><strong>Caminhada</strong>: 10 Km’s +/-200m</p>\n",
+  "description_short": "Trail solidário pela região de Leiria com percursos para diferentes níveis de participantes",
+  "page": "https://www.recordepessoal.pt/evento/traildosmoinhosdabajouca2025",
+  "slug": "trail-moinhos-da-bajouca-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Bajouca",
+  "district_code": 10
+}

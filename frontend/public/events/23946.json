@@ -1,0 +1,31 @@
+{
+  "id": 23946,
+  "name": "2ª Légua Da Adal &#8211; Praia Do Osso Da Baleia 2023",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/4a22103859edc4993647e9f5d985041d"
+  ],
+  "start_date": "2023-07-23",
+  "end_date": "2023-07-24",
+  "circuit": [],
+  "description": "\n<p>A <strong>ADAL</strong> com o apoio da <strong>Junta de Freguesia de Carriço</strong> e do <strong>Município de Pombal</strong>, irá promover no próximo dia<strong> 23 de julho de 2023</strong> a <strong>2ª Légua da ADAL &#8211; Praia do Osso da Baleia e caminhada da família</strong>.</p>\n\n\n\n<p>A Légua, será percorrida sempre no areal.</p>\n\n\n\n<p>A prova é aberta a todos os que desejam participar filiados na FPA, INATEL ou Populares em representação Individual ou coletiva.</p>\n\n\n",
+  "description_short": "Corrida na praia do Osso da Baleia com percurso em areal e caminhada familiar",
+  "page": "https://www.recordepessoal.pt/evento/2leguadaadal-praiadoossodabaleia",
+  "slug": "2a-legua-da-adal-praia-do-osso-da-baleia-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

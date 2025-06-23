@@ -1,0 +1,33 @@
+{
+  "id": 34188,
+  "name": "Corrida Santo António 2024 &#8211; Lisboa",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/7a8321b16ba99e11afb31592732b749d"
+  ],
+  "start_date": "2024-06-02",
+  "end_date": "2024-06-03",
+  "circuit": [],
+  "description": "\n<p>A 2 de junho de 2024, temos encontro marcado na 12ª edição da LIDL Corrida de Santo António, um evento integrado nas Festas de Lisboa que celebra o seu Santo de referência.</p>\n\n\n\n<p>Este ano, além da corrida de 10 km, integra uma caminhada.</p>\n\n\n",
+  "description_short": "Corrida tradicional de Santo António pelas ruas de Lisboa no âmbito das Festas da cidade",
+  "page": "https://www.corridadesantoantonio.com/",
+  "slug": "corrida-santo-antonio-2024-lisboa",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

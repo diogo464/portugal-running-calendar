@@ -1,0 +1,34 @@
+{
+  "id": 28708,
+  "name": "Trail e Caminhada Rota da Maçã de Montanha 2023",
+  "location": "Armamar, Viseu",
+  "coordinates": {
+    "lat": 41.1090606,
+    "lon": -7.693217700000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    12000,
+    18000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f034220b4c3150613848721f38e55f0b"
+  ],
+  "start_date": "2023-10-14",
+  "end_date": "2023-10-15",
+  "circuit": [],
+  "description": "\n<p>Com a 16.ª edição da Feira da Maçã surge o 3.º Trail e Caminhada Rota da Maçã de Montanha a 14 de Outubro.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Provas</h3>\n\n\n\n<p>Caminhada 8 km aprox.: percurso acessível a qualquer pessoa com o mínimo de preparação física.</p>\n\n\n\n<p>Trail curto 12 km aprox.: percurso com dificuldade média/alta, exige alguma preparação física.</p>\n\n\n\n<p>Trail 18 km aprox.: percurso com dificuldade alta, exige preparação adequada para este tipo de atividade.</p>\n",
+  "description_short": "Trail de montanha integrado na Feira da Maçã com percursos para diferentes níveis de dificuldade",
+  "page": "https://meutempo.pt/prova?trailmacademontanha",
+  "slug": "trail-e-caminhada-rota-da-maca-de-montanha-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Armamar",
+  "administrative_area_level_3": "Armamar",
+  "district_code": 18
+}

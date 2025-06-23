@@ -1,0 +1,32 @@
+{
+  "id": 23531,
+  "name": "2º Corrida De Sto António 2023",
+  "location": "São Martinho do Porto, Leiria",
+  "coordinates": {
+    "lat": 39.5158169,
+    "lon": -9.125447099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/db0e6fd1c8c3395c8269fc28241d7ea3"
+  ],
+  "start_date": "2023-06-17",
+  "end_date": "2023-06-18",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>2ª&nbsp;Corrida de Sto António</strong>&nbsp;é organizada pelo&nbsp;<strong>GDCA</strong>, com o apoio de&nbsp;<strong>Junta de Freguesia de São Martinho do Porto</strong>&nbsp;e&nbsp;<strong>Bombeiros Voluntários de São Martinho do Porto</strong>.</p>\n\n\n\n<p>Prova estará inserida nas&nbsp;Festas de Santo António, em São Martinho do Porto.</p>\n\n\n\n<p>A prova terá cerca de&nbsp;<strong>10k&nbsp;</strong>em estrada, e terá início às<strong>&nbsp;11h</strong>&nbsp;do dia&nbsp;<strong>17/06/2023</strong>.</p>\n\n\n",
+  "description_short": "Corrida de Santo António animada pelas ruas de São Martinho do Porto nas festas da localidade",
+  "page": "https://www.recordepessoal.pt/evento/2corridadestoantonio",
+  "slug": "2o-corrida-de-sto-antonio-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "São Martinho do Porto",
+  "district_code": 10
+}

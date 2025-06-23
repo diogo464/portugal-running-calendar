@@ -1,0 +1,32 @@
+{
+  "id": 38608,
+  "name": "Backyard Trilho dos Cágados 2025",
+  "location": "Vila Chã de Ourique, Cartaxo",
+  "coordinates": {
+    "lat": 39.1728489,
+    "lon": -8.7536237
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    6706
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7fa819a38c12419e99b39ccfc8051549"
+  ],
+  "start_date": "2025-05-24",
+  "end_date": "2025-05-24",
+  "circuit": [],
+  "description": "\n<p>Percurso circular de 6706 metros com 116+ por volta.</p>\n\n\n\n<p>Prova integrante do calendário oficial BACKYARD.ULTRA</p>\n",
+  "description_short": "Trail em percurso circular com elevado desafio físico e técnico no modelo Backyard Ultra",
+  "page": "https://acorrer.pt/eventos/3876/info",
+  "slug": "backyard-trilho-dos-cagados-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Cartaxo",
+  "administrative_area_level_3": "Vila Chã de Ourique",
+  "district_code": 14
+}

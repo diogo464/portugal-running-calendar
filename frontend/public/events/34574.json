@@ -1,0 +1,31 @@
+{
+  "id": 34574,
+  "name": "STC Ultimate Obstacle Challenge 2024",
+  "location": "Santiado do Cacém, Setúbal",
+  "coordinates": {
+    "lat": 38.0162314,
+    "lon": -8.6956768
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/a1c486d0d22195bdabcb4efedee2e1b0"
+  ],
+  "start_date": "2024-10-06",
+  "end_date": "2024-10-07",
+  "circuit": [],
+  "description": "\n<p>O “STC ULTIMATE OBSTACLE CHALLENGE” desde 2018 é uma prova combinada de Corrida e a transposição de Obstáculos naturais e artificiais, realizado em circuitos inseridos na Natureza e Urbano, nomeadamente na zona histórica da cidade de Santiago do Cacém.<br>A prova a realizar terá uma extensão de cerca de 08 Km com cerca de +38 obstáculos, que terão de ser ultrapassados entre a zona histórica da Cidade, o Parque do Rio da Figueira e a envolvente ao Castelo. Isto exigirá aos participantes, para além da resistência física, também força e destreza além de espirito de superação para ultrapassar os obstáculos que lhes surgirão pela frente, sejam eles saltar muros, subir árvores ou cordas, arrastar ou carregar pesos, rastejar e nadar. Mas como diz o lema da prova, “Um obstáculo só será grande se a tua força de vontade for pequena!”, demonstrando que esta é também uma prova de companheirismo e entreajuda, porque só assim conseguirão ultrapassar muitos dos obstáculos que irão encontrar.</p>\n\n\n\n<p>Este tipo de evento é o único realizado na região do Alentejo!</p>\n",
+  "description_short": "Prova de obstáculos única no Alentejo que desafia participantes entre a zona histórica de Santiago do Cacém e o Castelo",
+  "page": "https://meutempo.pt/prova?stcultimate2024",
+  "slug": "stc-ultimate-obstacle-challenge-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santiago do Cacém",
+  "district_code": 15
+}

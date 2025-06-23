@@ -1,0 +1,29 @@
+{
+  "id": 40547,
+  "name": "Ultra Blue Island 2025",
+  "location": "Ilha do Faial, Açores",
+  "coordinates": {
+    "lat": 38.5912552,
+    "lon": -28.6964752
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-05-02",
+  "end_date": "2025-05-03",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": null,
+  "slug": "ultra-blue-island-20245",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Horta",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

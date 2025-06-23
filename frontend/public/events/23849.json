@@ -1,0 +1,40 @@
+{
+  "id": 23849,
+  "name": "Meia Maratona Évora 2023",
+  "location": "Évora",
+  "coordinates": {
+    "lat": 38.571431,
+    "lon": -7.913501999999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    1000,
+    5000,
+    10000,
+    21000,
+    21097,
+    21100
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "half-marathon",
+    "5k"
+  ],
+  "images": [
+    "media/38b019afd3a63614589ccf28afbaa19c"
+  ],
+  "start_date": "2023-11-25",
+  "end_date": "2023-11-26",
+  "circuit": [],
+  "description": "\n<p>Nos dias 25 e 26 de novembro de 2023, a Praça do Giraldo volta a receber a MEIA DE ÉVORA.</p>\n\n\n\n<p>21,1 Km | 10 Km | 5 Km | Évora Kids</p>\n\n\n\n<p></p>\n\n\n\n<h2 class=\"wp-block-heading\">Preços </h2>\n\n\n\n<p>As inscrições decorrem até 24 de novembro de 2023, salvo se esgotarem antes do período definido.</p>\n\n\n\n<p>1ª Fase: até 31 de julho de 2023</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Évora Meia Maratona 21,1 Km:</strong>&nbsp;€15,00</li>\n\n\n\n<li><strong>Évora 10 Km:</strong>&nbsp;€10,00</li>\n\n\n\n<li><strong>Évora Caminhada 5 Km:</strong>&nbsp;€6,00</li>\n\n\n\n<li><strong>Évora Kids:</strong>&nbsp;€3,00</li>\n</ul>\n\n\n\n<p>2ª Fase: até 31 de outubro de 2023</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Évora Meia Maratona 21,1 Km:</strong>&nbsp;€17,00</li>\n\n\n\n<li><strong>Évora 10 Km:</strong>&nbsp;€12,00</li>\n\n\n\n<li><strong>Évora Caminhada 5 Km:</strong>&nbsp;€7,00</li>\n\n\n\n<li><strong>Évora Kids:</strong>&nbsp;€3,00</li>\n</ul>\n\n\n\n<p>3ª Fase: até 24 de novembro de 2023</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Évora Meia Maratona 21,1 Km:</strong>&nbsp;€19,00</li>\n\n\n\n<li><strong>Évora 10 Km:</strong>&nbsp;€14,00</li>\n\n\n\n<li><strong>Évora Caminhada 5 Km:</strong>&nbsp;€8,00</li>\n\n\n\n<li><strong>Évora Kids:</strong>&nbsp;€4,00</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Percurso</h2>\n\n\n\n<p>21 km:</p>\n\n\n\n<iframe src=\"https://www.mapmyrun.com/routes/view/5141869438\" width=\"100%\" height=\"500px\"></iframe>\n\n\n\n<p>10 km</p>\n\n\n\n<iframe src=\"https://www.mapmyrun.com/routes/view/5301636043/\" width=\"100%\" height=\"500px\"></iframe>\n",
+  "description_short": "Meia maratona histórica pelos monumentos e ruas tradicionais de Évora",
+  "page": "https://meiadeevora.pt/",
+  "slug": "meia-de-evora-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Évora",
+  "administrative_area_level_3": "Santo Antão",
+  "district_code": 7
+}

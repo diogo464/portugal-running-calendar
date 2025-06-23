@@ -1,0 +1,35 @@
+{
+  "id": 37469,
+  "name": "Trail Olhar Encantador 2024",
+  "location": "Arcos de Valdevez, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8458289,
+    "lon": -8.419221300000002
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    14000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/377f71310e10ce826e06340bb5deb9ff"
+  ],
+  "start_date": "2024-11-10",
+  "end_date": "2024-11-11",
+  "circuit": [],
+  "description": "\n<p>O TRAIL OLHAR ENCANTADOR é organizado pela Associação Olhar Encantador em colaboração com a Junta de Freguesia de Padreiro Salvador e Santa Cristina e o município de Arcos de Valdevez e irá desenrolar-se no dia 10 de novembro 2024 em Padreiro Salvador e Santa Cristina.</p>\n\n\n\n<p>O Trail Olhar Encantador será constituído por duas provas competitivas e uma caminhada:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo 22 km</li>\n\n\n\n<li>Trail Curto 14 Km</li>\n\n\n\n<li>Caminhada 10Km</li>\n</ul>\n\n\n",
+  "description_short": "Trail solidário pelos caminhos de Padreiro Salvador com organização local",
+  "page": "https://www.sinctime.com/evento/291",
+  "slug": "trail-olhar-encantador-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Arcos de Valdevez",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

@@ -1,0 +1,36 @@
+{
+  "id": 28169,
+  "name": "Corrida das Castanhas 2023",
+  "location": "Ajuda, Lisboa",
+  "coordinates": {
+    "lat": 38.71131159999999,
+    "lon": -9.1982123
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    400,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/e33d0cd50522d916e576ec95785c083d"
+  ],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [],
+  "description": "\n<p>A mítica corrida das Castanhas está marcada para o dia 12 de Novembro de 2023.</p>\n\n\n\n<p><strong>Corrida 10km</strong> | 10h00 | Torre do Galo, Ajuda<br><strong>Caminhada 5km</strong> | 10h05 | Torre do Galo, Ajuda<br><strong>Kids Race 400m | </strong>9h30 | Torre do Galo, Ajuda</p>\n",
+  "description_short": "Corrida tradicional das Castanhas na zona da Ajuda em Lisboa",
+  "page": "https://xistarca.pt/eventos/corrida-das-castanhas-2023",
+  "slug": "corrida-das-castanhas-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Ajuda",
+  "district_code": 11
+}

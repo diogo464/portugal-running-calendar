@@ -1,0 +1,31 @@
+{
+  "id": 20162,
+  "name": "2ª Corrida São Silvestre Grândola &#8211; AMICICLO",
+  "location": "Grândola, Setúbal",
+  "coordinates": {
+    "lat": 38.1770597,
+    "lon": -8.5669509
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/13d6948120473fa4d88975efc94afe29"
+  ],
+  "start_date": "2022-12-01",
+  "end_date": "2022-12-02",
+  "circuit": [],
+  "description": "\n<p>A 2ª Corrida São Silvestre de Grândola é um evento de natureza desportiva, que visa promover o desporto e hábitos de vida saudáveis.<br>O evento é da organização do clube Amiciclo Grândola e da Junta de Freguesia de Grândola e Santa Margarida da Serra.</p>\n\n\n",
+  "description_short": "Corrida de São Silvestre pela vila alentejana de Grândola com organização local",
+  "page": "https://acorrer.pt/eventos/info/3040",
+  "slug": "2a-corrida-sao-silvestre-grandola-amiciclo",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "União das freguesias de Grândola e Santa Margarida da Serra",
+  "district_code": 15
+}

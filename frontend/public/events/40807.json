@@ -1,0 +1,36 @@
+{
+  "id": 40807,
+  "name": "Maga Trail 2025",
+  "location": "Moledo, Castro Daire",
+  "coordinates": {
+    "lat": 40.8286339,
+    "lon": -7.871254500000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    2000,
+    5000,
+    20200
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/23a9f41959abbf7619a6bfc6674f6051"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-16",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Castro Daire e a Associação de Atletismo de Viseu organizam, no dia 16 de março de 2025, em colaboração com a Junta de Freguesia de Moledo e a Associação Desportiva e Social da Moita, o 1º MAGA TRAIL.</p>\n\n\n\n<p><br>Este evento, a ter lugar nos terrenos anexos da freguesia de Moledo, é aberto a atletas e caminheiros de<br>ambos os sexos, federados ou populares, em representação de clubes, escolas, coletividades, grupos informais ou a título individual. Encontra-se integrado no calendário do “Circuito Municipal de Corrida Pedestre e Caminhada em Natureza – “(PER)CORRER CASTRO DAIRE” 2025 e consta um TRAIL, com a distância de 20,2 Km (tempo limite de 3h30), uma CAMINHADA, na distância aproximada de 5 km e CORRIDAS JOVENS para atletas dos escalões de formação (Benjamins a Juvenis).</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante em Castro Daire com percurso pela natureza e provas para diferentes escalões etários",
+  "page": "https://stopandgo.net/events/maga-trail-2025",
+  "slug": "maga-trail-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Moledo",
+  "district_code": 18
+}

@@ -1,0 +1,35 @@
+{
+  "id": 41201,
+  "name": "Sunset Trail 2025",
+  "location": "Vila Franca das Naves, Guarda",
+  "coordinates": {
+    "lat": 40.7253644,
+    "lon": -7.2591249
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    12000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/63dd8e944f73a2e68ff596877c03fb4e"
+  ],
+  "start_date": "2025-10-11",
+  "end_date": "2025-10-11",
+  "circuit": [],
+  "description": "\n<p>Prepare-se para uma experiência única: um Trail ao pôr do sol (Sunset)! A Associação Humanitária de Bombeiros Voluntários de Vila Franca das Naves irá organizar a 1ª edição dos Trilhos dos Heróis. Esta iniciativa visa promover um estilo de vida saudável e reforçar os laços com a comunidade.</p>\n\n\n\n<p>O evento contempla 3 provas competitivas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Trail Longo</strong> (25km) – Trail dos Super Heróis</li>\n\n\n\n<li><strong>Trail Curto </strong>(15km) – Trail dos Heróis</li>\n\n\n\n<li><strong>Trail Kids</strong> (na zona envolvente do quartel) – Corrida Pequenos Heróis</li>\n</ul>\n\n\n\n<p>Além disso, haverá a&nbsp;<strong>Caminhada dos Heróis</strong>&nbsp;(12km), para quem quiser participar e desfrutar de uma experiência diferente!</p>\n",
+  "description_short": "Trail solidário ao pôr do sol organizado pelos Bombeiros Voluntários de Vila Franca das Naves",
+  "page": "https://waitastart.com/trilhos-dos-herois-sunset-trail-2025/",
+  "slug": "trilhos-dos-herois-sunset-trail-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Trancoso",
+  "administrative_area_level_3": "União das freguesias de Vila Franca das Naves e Feital",
+  "district_code": 9
+}

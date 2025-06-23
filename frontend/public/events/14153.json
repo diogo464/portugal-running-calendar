@@ -1,0 +1,35 @@
+{
+  "id": 14153,
+  "name": "São Silvestre de Braga 2022",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5700,
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/18d5cc6c2c2453a7064ed8009537d5d0"
+  ],
+  "start_date": "2022-12-30",
+  "end_date": "2022-12-31",
+  "circuit": [],
+  "description": "\n<p>A S.Silvestre está de regresso a Braga em 2022.</p>\n\n\n\n<p>O evento está marcado para dia 30 de dezembro de 2022 pelas 21h30,&nbsp; com partida e chegada na Praça da República e conta com uma prova de 10 quilómetros e uma prova de 5,7 km.</p>\n",
+  "description_short": "São Silvestre nocturna pelas ruas históricas de Braga na tradicional corrida de final de ano",
+  "page": "https://www.runporto.com/pt/eventos/s-silvestre-braga/s-silvestre-braga-2022/",
+  "slug": "sao-silvestre-de-braga-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

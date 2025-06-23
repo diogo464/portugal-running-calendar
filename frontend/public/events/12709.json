@@ -1,0 +1,32 @@
+{
+  "id": 12709,
+  "name": "9º X-Mas Night Trail 2021",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    9000,
+    19000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0c201d146cb9f4ce2838a6620f5775c8"
+  ],
+  "start_date": "2021-12-04",
+  "end_date": "2021-12-05",
+  "circuit": [],
+  "description": "\n<ul class=\"wp-block-list\"><li>Os <strong>Liz Runners Associação Desporto, Cultura e Recreio</strong> com o apoio da <strong>Câmara Municipal de Leiria</strong>, organiza no dia <strong>04 de Dezembro de 2021 o 9º Leiria X-Mas Night Trail 2021 </strong>, que consiste em duas provas de <strong>Trail, K19</strong> com <strong>partida no Soutocito</strong> no recinto da Tosel e <strong>K9 com partida no Zambujo</strong> e a chegada de ambas junto ao posto de Turismo em Leiria. </li><li>As provas são constituídas no seu percurso por trilhos, carreiros e caminhos com pouco desnível, no entanto e estando o tempo húmido se podem tornar escorregadios. Por tal a organização aconselha a máxima prudência aos participantes.</li><li>O percurso alia beleza, técnica conciliado com alguma dureza. Dado o carácter da prova, a organização limita o número de atletas, de acordo com as normas da DGS, à data do evento e à logística disponível.</li></ul>\n",
+  "description_short": "Trail noturno de Natal por trilhos de Leiria com partida em Soutocito e chegada junto ao posto de Turismo",
+  "page": "https://www.recordepessoal.pt/evento/9x-masnighttrail",
+  "slug": "9o-x-mas-night-trail-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

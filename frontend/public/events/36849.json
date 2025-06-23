@@ -1,0 +1,33 @@
+{
+  "id": 36849,
+  "name": "Corrida Entre Pontes Tavira 2024",
+  "location": "Tavira, Faro",
+  "coordinates": {
+    "lat": 37.1335906,
+    "lon": -7.643001899999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/985b0dc63ce72f71e9a97492dd24af8e"
+  ],
+  "start_date": "2024-09-22",
+  "end_date": "2024-09-22",
+  "circuit": [],
+  "description": "\n<p>A “Corrida Entre Pontes &#8211; Tavira” foi concebida pela Tugas On Tour Associação Desportiva, tendo sido<br>realizadas 2 edições, a primeira em 2018 e a segunda e última em 2019.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida histórica entre pontes emblemáticas na cidade de Tavira",
+  "page": "https://www.crono.aaalgarve.org/eventos/corrida-entre-pontes-2024",
+  "slug": "corrida-entre-pontes-tavira-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Tavira",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

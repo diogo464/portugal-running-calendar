@@ -1,0 +1,29 @@
+{
+  "id": 2921,
+  "name": "Sintra Trail X&#8217;treme 2021",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/02eefe78250e10da409c402e0a76db40"
+  ],
+  "start_date": "2021-09-19",
+  "end_date": "2021-09-20",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.declivesublime.pt/ste-sintra-trail-x-treme",
+  "slug": "sintra-trail-xtreme-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

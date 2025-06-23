@@ -1,0 +1,29 @@
+{
+  "id": 14527,
+  "name": "Trail Rota da Broa 2022",
+  "location": "Cumeeira, Penela",
+  "coordinates": {
+    "lat": 39.9431804,
+    "lon": -8.3827705
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/02da02aab32da9a4f3a473dae3440894"
+  ],
+  "start_date": "2022-04-24",
+  "end_date": "2022-04-25",
+  "circuit": [],
+  "description": "\n<p>O IV Trail Rota da Broa 2022 irá decorrer no lugar de Cumeeira no próximo dia 24 de Abril de 2022 e servirá para promover a região e permitir aos participantes a passagem por locais que normalmente só são habitados por animais selvagens!</p>\n\n\n\n<p>Os percursos desenvolvem-se essencialmente por trilhos e contam com passagens pelas Pirongas da Freguesia, pelo antigo Castelo do Sobral, pelo Centro de BTT da Ferraria de S. João, pelas ribeiras do Farelo e do Favacal, bem como pelos diversos moinhos existentes ao longo das mesmas.</p>\n",
+  "description_short": "Trail desafiante por trilhos históricos e natureza selvagem em Cumeeira",
+  "page": "https://www.totalcrono.pt/eventos/rotadabroa2022",
+  "slug": "trail-rota-da-broa-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penela",
+  "administrative_area_level_3": "Cumeeira",
+  "district_code": 6
+}

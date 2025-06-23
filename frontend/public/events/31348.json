@@ -1,0 +1,34 @@
+{
+  "id": 31348,
+  "name": "Trail da Lomba 2024",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/bfea05b22aaf99e411379a12f46504af"
+  ],
+  "start_date": "2024-07-14",
+  "end_date": "2024-07-15",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Este evento será realizado no concelho de Gondomar, na freguesia da Lomba no dia 14 de Julho de 2024, com partidas/chegadas no cais de Pé de Moura (Av. Feysin) A 6ª edição do Trail da Lomba está integrada no calendário da ATRP, onde a distância de 25km faz parte do Circuito Nacional de Trail Sprint. As 2 distâncias também fazem parte do Circuito Distrital de Trail da Associação de Atletismo do Porto.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Gondomar com etapa pontuável para circuitos nacionais",
+  "page": "https://stopandgo.net/events/trail-da-lomba-2024",
+  "slug": "trail-da-lomba-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

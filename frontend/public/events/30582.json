@@ -1,0 +1,33 @@
+{
+  "id": 30582,
+  "name": "Corrida do Carnaval 2024",
+  "location": "Lousada, Porto",
+  "coordinates": {
+    "lat": 41.2778714,
+    "lon": -8.2815432
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/d266c57b58279d201997134f7b60b2f6"
+  ],
+  "start_date": "2024-02-11",
+  "end_date": "2024-02-12",
+  "circuit": [],
+  "description": "\n<p>No dia 11 de fevereiro todos os caminhos vão dar à Vila de Lousada.</p>\n\n\n\n<p>A caricata e divertida corrida de Carnaval conta de novo com três provas, duas das quais cronometradas, uma de 10 e outra de 6 km e uma caminhada de 6km dedicada para toda a família.</p>\n\n\n\n<p>Com partidas e chegadas na AV. Amilcar Neto e com tempo máximo de duração de 2 horas a corrida de carnaval espera por si.</p>\n",
+  "description_short": "Corrida de Carnaval animada em Lousada com provas para todos os níveis",
+  "page": "https://www.runporto.com/pt/eventos/corrida-do-carnaval/",
+  "slug": "corrida-do-carnaval-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Lousada",
+  "administrative_area_level_3": "União das freguesias de Cristelos, Boim e Ordem",
+  "district_code": 13
+}

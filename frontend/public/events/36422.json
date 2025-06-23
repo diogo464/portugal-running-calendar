@@ -1,0 +1,34 @@
+{
+  "id": 36422,
+  "name": "I Trail Capital da Bifana 2024",
+  "location": "Landeira, Vendas Novas",
+  "coordinates": {
+    "lat": 38.5979684,
+    "lon": -8.605073599999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/10ed5a206fbf9c9864680bf2cb8ed9d0"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-20",
+  "circuit": [],
+  "description": "\n<p>O &#8220;I Trail Capital da Bifana&#8221; integra um conjunto de eventos de caráter solidário de apoio aos Bombeiros<br>Voluntários de Vendas Novas.</p>\n\n\n\n<p> 20 Kms,  10km e caminhada de 10 Km</p>\n\n\n",
+  "description_short": "Trail solidário em Vendas Novas para apoiar os Bombeiros Voluntários locais",
+  "page": "https://acorrer.pt/eventos/info/3581",
+  "slug": "i-trail-capital-da-bifana-2024",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Vendas Novas",
+  "administrative_area_level_3": "Landeira",
+  "district_code": 7
+}

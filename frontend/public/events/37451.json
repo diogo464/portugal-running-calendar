@@ -1,0 +1,33 @@
+{
+  "id": 37451,
+  "name": "1ª São Silvestre Tondela 2025",
+  "location": "Tondela, Viseu",
+  "coordinates": {
+    "lat": 40.5170645,
+    "lon": -8.0802569
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/68f6b193c06dd45d7ed0eebc6c98296f"
+  ],
+  "start_date": "2025-01-04",
+  "end_date": "2025-01-04",
+  "circuit": [],
+  "description": "\n<p>Esta será a 1ª Corrida S. Silvestre Tondela que terá a organização da Vários com o apoio da SPMAQ, sendo o patrocinador oficial. Dia 1 de Outubro irão abrir as inscrições e poderás registar o teu nome nesta 1ª edição da S. Silvestre de Tondela que promete ser um grande desafio em prol da atividade física e da Solidariedade. Em pareceria com o Clube Desportivo de Tondela &#8211; Atletismo, foi desenhado um percurso para que, a correr ou a caminhar venhas conhecer Tondela e desfrutar de todo ambiente proporcionado apenas para ti. </p>\n",
+  "description_short": "S. Silvestre inaugural em Tondela com percurso solidário pela cidade",
+  "page": "https://acorrer.pt/eventos/info/3651",
+  "slug": "sao-silvestre-tondela-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tondela",
+  "administrative_area_level_3": "Tondela",
+  "district_code": 18
+}

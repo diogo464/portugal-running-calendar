@@ -1,0 +1,29 @@
+{
+  "id": 14980,
+  "name": "Trilho das 3 Lagoas 2022",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/fa6cefc0602e7137118ad27ae8b37f4a"
+  ],
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-04",
+  "circuit": [],
+  "description": "\n<p>Trilho das 3 Lagoas 2022</p>\n",
+  "description_short": "Trail desafiante que atravessa a região das 3 Lagoas, explorando paisagens naturais únicas.",
+  "page": "https://runmanager.net/Eventos/eco-trek-d-ouro-trilho-das-3-lagoas/537",
+  "slug": "trilho-das-3-lagoas-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

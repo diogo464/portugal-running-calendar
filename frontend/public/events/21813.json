@@ -1,0 +1,33 @@
+{
+  "id": 21813,
+  "name": "Corrida Nocturna à Geada 2023",
+  "location": "Vinhais, Bragança",
+  "coordinates": {
+    "lat": 41.8307225,
+    "lon": -7.009300499999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/fe0515633796b7b65d42a942a435f34b"
+  ],
+  "start_date": "2023-01-07",
+  "end_date": "2023-01-08",
+  "circuit": [],
+  "description": "\n<p>Terá lugar no dia 07 de janeiro de 2023, a 4ª edição à Geada promovida pela Autarquia de Vinhais, corrida de cariz solidário com o valor da inscrição a reverter para uma instituição de Solidariedade social do concelho de Vinhais, conta o apoio técnico da Associação de Atletismo de Bragança.</p>\n\n\n",
+  "description_short": "Corrida solidária da Geada em Vinhais com apoio da Associação de Atletismo de Bragança",
+  "page": "https://www.cm-vinhais.pt/pages/201?news_id=999",
+  "slug": "corrida-noctura-a-geada-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Vinhais",
+  "administrative_area_level_3": "Vinhais",
+  "district_code": 4
+}

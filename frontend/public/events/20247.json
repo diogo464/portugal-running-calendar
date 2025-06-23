@@ -1,0 +1,35 @@
+{
+  "id": 20247,
+  "name": "7ª Corrida São Silvestre Solidária Constância – Brigmec  2022",
+  "location": "Constância, Santarém",
+  "coordinates": {
+    "lat": 39.4780719,
+    "lon": -8.337225199999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/27e8f587de5ad3775491cd95a71f6bb0"
+  ],
+  "start_date": "2022-12-08",
+  "end_date": "2022-12-09",
+  "circuit": [],
+  "description": "\n<p>A Brigada Mecanizada (BrigMec) e a Câmara Municipal de Constância (CMC) organizam, a 7ª Corrida São Silvestre Solidária Constância – BrigMec, em Atletismo, no dia 08 de dezembro de 2022, a partir das 14h00. Em simultâneo, realiza-se a 7ª Caminhada Solidária Constância – BrigMec.<br>As provas decorrem maioritariamente dentro das instalações do Campo Militar de Santa Margarida (CMSM), sendo que na prova principal é alargada até à povoação da Aldeia de Santa Margarida da Coutada.<br>Esta prova tem como objetivo apoiar a Santa Casa da Misericórdia – Loja Social e a Associação para o desenvolvimento social e comunitário da Pereira – Quatro Cantos do Cisne;</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária com propósito social nas instalações militares de Santa Margarida, apoiando instituições locais",
+  "page": "https://www.trilhoperdido.com/evento/7-Corrida-Sao-Silvestre-Solidaria-Constancia-BrigMec",
+  "slug": "7a-corrida-sao-silvestre-solidaria-constancia-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Constância",
+  "administrative_area_level_3": "Constância",
+  "district_code": 14
+}

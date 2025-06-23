@@ -1,0 +1,29 @@
+{
+  "id": 35632,
+  "name": "Viana OCR Race 2024",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/b81b87a47c121e1e00c2ff8f31a349ec"
+  ],
+  "start_date": "2024-10-19",
+  "end_date": "2024-10-20",
+  "circuit": [],
+  "description": "\n<p>A Viana Race é uma prova que combina corrida Urbana com obstáculos, organizada pela Xlife Events e o CrossFit Viana do Castelo, contando com o apoio da Câmara Municipal de Viana do Castelo.</p>\n",
+  "description_short": "Corrida urbana com obstáculos em Viana do Castelo, organizada por Xlife Events e CrossFit local",
+  "page": "https://www.sinctime.com/evento/261",
+  "slug": "viana-race-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

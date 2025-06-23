@@ -1,0 +1,32 @@
+{
+  "id": 35500,
+  "name": "3 Milhas da Mealhada 2024",
+  "location": "Mealhada, Aveiro",
+  "coordinates": {
+    "lat": 40.3807921,
+    "lon": -8.449581400000001
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    4828
+  ],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/0399c29689bd30578fa577f67368971b"
+  ],
+  "start_date": "2024-06-10",
+  "end_date": "2024-06-11",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal da Mealhada, em parceria com a Associação Trilhos Luso Bussaco, vai realizar, no próximo dia 10 de Junho de 2024, pelas 10h, mais uma edição da prova de Atletismo “3 Milhas da Mealhada”, inserida no programa da Feira de Artesanato e Gastronomia da Mealhada.</p>\n\n\n",
+  "description_short": "Corrida tradicional na Mealhada integrada na Feira de Artesanato e Gastronomia",
+  "page": "https://www.runmanager.net/Eventos/3-milhas-da-mealhada/837",
+  "slug": "3-milhas-da-mealhada-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "União das freguesias da Mealhada, Ventosa do Bairro e Antes",
+  "district_code": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": 26745,
+  "name": "Corrida da Filarmonia 2023",
+  "location": "Montelavar, Sintra",
+  "coordinates": {
+    "lat": 38.8606132,
+    "lon": -9.3323562
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/ee8d19001e68d92d960a6f840cdefa05"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>A Sociedade Filarmónica Boa União Montelavarense, vai realizar no domingo, dia 24 de Setembro de 2023, pelas 10:00 horas, um evento desportivo de Atletismo, designado por IV Corrida da Filarmonia.</p>\n\n\n\n<p>A 1ª Corrida da Filarmonia é composta por 1 corrida (de carácter competitivo) com o seguinte percurso:<br>Corrida (+/-10000 metros) </p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida competitiva organizada pela Sociedade Filarmónica Boa União Montelavarense no distrito de Santarém",
+  "page": "https://acorrer.pt/eventos/info/3277",
+  "slug": "corrida-da-filarmonia-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+  "district_code": 11
+}

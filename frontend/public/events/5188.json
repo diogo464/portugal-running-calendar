@@ -1,0 +1,33 @@
+{
+  "id": 5188,
+  "name": "Corrida da Água 2021",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/5bbf62f5c7da54c76f8fc15458e06ece"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://xistarca.pt/resultados/10a-corrida-da-agua\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>A Xistarca, em parceria com a EPAL, vai realizar no dia&nbsp;28 de Novembro&nbsp;de 2021, pelas 9h30, a&nbsp;<strong>10ª Corrida da Água 2021</strong>.&nbsp;A prova inclui, tanto para a Corrida como Caminhada, passagem pelo famoso&nbsp;<strong>Aqueduto das Águas Livres,&nbsp;</strong>classificado como<strong>&nbsp;Monumento Nacional desde 1910&nbsp;</strong>e&nbsp;considerado uma obra notável da engenharia hidráulica.</p>\n\n\n\n<p>Não deixe para a última e inscreva-se já! Limite de 2000 inscrições.</p>\n",
+  "description_short": "Corrida emblemática pela cidade de Lisboa com passagem pelo histórico Aqueduto das Águas Livres",
+  "page": "https://xistarca.pt/eventos/10a-corrida-da-agua",
+  "slug": "corrida-da-agua-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

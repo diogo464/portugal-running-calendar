@@ -1,0 +1,36 @@
+{
+  "id": 34450,
+  "name": "Corrida dos Viriatos 2024",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    3500,
+    5000,
+    11000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/f2267d0a5f6a9c75f3a47a7cf3b1b4f5"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>Integrada no programa desportivo do Dia da Unidade do Regimento de Infantaria N.o 14, é intenção do Comando da referida Unidade disputar, no dia 17 de março de 2024.</p>\n\n\n\n<p>A corrida será realizada num circuito urbano pelas ruas da cidade de Viseu numa distância de 11Km (masculinos / femininos), com partida junto ao monumento “a Viriato” e término no RI 14, bem como uma caminhada familiar de 3,5 km.</p>\n\n\n",
+  "description_short": "Corrida militar comemorativa pelas ruas históricas de Viseu com passagem pelo monumento a Viriato",
+  "page": "https://stopandgo.net/events/corrida-dos-viriatos-2024",
+  "slug": "corrida-dos-viriatos-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

@@ -1,0 +1,34 @@
+{
+  "id": 39306,
+  "name": "Corrida 4 Estações Primavera Condeixa 2025",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/dd7a1f2ba9936cddae343bd9c5e45775"
+  ],
+  "start_date": "2025-04-06",
+  "end_date": "2025-04-07",
+  "circuit": [
+    "4 Estacoes"
+  ],
+  "description": "\n<p>A Associação Desportiva 4 Estações com o apoio da Camara Municipal de Condeixa, vai realizar no dia 6 de Abril de 2025 pelas 10:30h em Condeixa, uma corrida de atletismo de estrada com a distância de 10km, designada por Corrida das 4 Estações Primavera Condeixa. Esta prova faz parte do Circuito de Corrida 4 Estações Portugal.</p>\n",
+  "description_short": "Corrida de primavera em Condeixa integrada no Circuito 4 Estações com apoio municipal",
+  "page": "https://corrida4estacoesportugal.wordpress.com/inscricoes-23/",
+  "slug": "corrida-4-estacoes-primavera-condeixa-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

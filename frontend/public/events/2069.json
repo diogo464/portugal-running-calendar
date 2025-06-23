@@ -1,0 +1,34 @@
+{
+  "id": 2069,
+  "name": "Corrida de Belém 2020",
+  "location": "Belém, Lisboa",
+  "coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/13a1393e893d2fe72396c67d4a18d9cb"
+  ],
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-11",
+  "circuit": [],
+  "description": "<p>A <a href=\"https://www.corridadebelem.pt/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Corrida de Belém</strong></a> procura incentivar a prática desportiva. Com organização da Junta de Freguesia de Belém, integra uma <strong>corrida de 10 km</strong> e uma <strong>caminhada com 4 km</strong>, ambas as provas com partida e chegada no Estádio do Restelo.</p>\n<p>Seja valente e venha participar nesta incrível prova, a correr ou a caminhar e percorra e desfrute dos mais bonitos e acolhedores lugares de Lisboa, com passagem na Torre de Belém, Padrão dos Descobrimentos, MAAT e Mosteiro dos Jerónimos.</p>\n",
+  "description_short": "Corrida histórica por Belém com passagem por monumentos icónicos de Lisboa",
+  "page": "https://www.corridadebelem.pt/",
+  "slug": "corrida-de-belem-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

@@ -1,0 +1,31 @@
+{
+  "id": 24474,
+  "name": "8ª Caminhada/Trail Feira da Tôr 2023",
+  "location": "Loulé, Faro",
+  "coordinates": {
+    "lat": 37.1379187,
+    "lon": -8.020216
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/20f7d1b15a40da971dd37207fdcbc760"
+  ],
+  "start_date": "2023-09-03",
+  "end_date": "2023-09-04",
+  "circuit": [],
+  "description": "\n<p>Está de regresso a tão esperada 8ª edição da Caminhada &amp; Trail inserida na Feira da Tôr, Trail Feira da Tôr, dia 3 de Setembro de 2023!</p>\n",
+  "description_short": "Trail na tradicional Feira da Tôr com oitava edição marcada para Setembro",
+  "page": "https://acorrer.pt/eventos/info/3252",
+  "slug": "8a-caminhada-trail-feira-da-tor-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

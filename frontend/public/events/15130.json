@@ -1,0 +1,29 @@
+{
+  "id": 15130,
+  "name": "Sunset Santiago Trail 2022",
+  "location": "Arruda dos Vinhos, Lisboa",
+  "coordinates": {
+    "lat": 38.9829298,
+    "lon": -9.0776401
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/db06baa514d71984c7df00c20085e094"
+  ],
+  "start_date": "2022-07-23",
+  "end_date": "2022-07-24",
+  "circuit": [],
+  "description": "\n<p>Sunset Santiago Trail 2022</p>\n",
+  "description_short": "Trail ao final do dia pela região de Santiago com paisagens únicas",
+  "page": " https://www.trilhoperdido.com/evento/sunset-santiago-trail-2022",
+  "slug": "sunset-santiago-trail-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Arruda dos Vinhos",
+  "administrative_area_level_3": "Arruda dos Vinhos",
+  "district_code": 11
+}

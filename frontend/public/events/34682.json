@@ -1,0 +1,34 @@
+{
+  "id": 34682,
+  "name": "Corrida do Lusitano 2024",
+  "location": "Évora",
+  "coordinates": {
+    "lat": 38.571431,
+    "lon": -7.913501999999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/6853165b0d699d0e7d62f921effa33e9"
+  ],
+  "start_date": "2024-04-25",
+  "end_date": "2024-04-26",
+  "circuit": [],
+  "description": "\n<p>A Corrida Lusitano Ginásio Clube é promovida pelo Lusitano Ginásio Clube; com o apoio da Câmara Municipal de Évora e de outros parceiros que, de alguma forma, estão também a ajudar na realização deste evento.</p>\n\n\n\n<p>A realização do evento será no dia 25 de Abril de 2024, às 10h00 no Campo Estrela em Évora.</p>\n\n\n\n<p><br>O evento será composto por dois percursos:<br>a) Corrida de 10Km:</p>\n\n\n\n<p>b) Caminhada de 5Km:</p>\n\n\n\n<p>Ponto de partida no relvado do Campo Estrela;</p>\n\n\n",
+  "description_short": "Corrida tradicional em Évora no dia 25 de Abril, com partida no Campo Estrela e apoio da câmara municipal",
+  "page": "https://acorrer.pt/eventos/info/3476",
+  "slug": "corrida-do-lusitano-2024",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Évora",
+  "administrative_area_level_3": "Santo Antão",
+  "district_code": 7
+}

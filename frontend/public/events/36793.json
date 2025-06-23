@@ -1,0 +1,34 @@
+{
+  "id": 36793,
+  "name": "Grande Prémio de Atletismo Sr.ª d’AIRES 2024",
+  "location": "Viana do Alentejo, Évora",
+  "coordinates": {
+    "lat": 38.3341493,
+    "lon": -8.0038406
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/936d0dbd9b9f12acec2d062508511729"
+  ],
+  "start_date": "2024-09-15",
+  "end_date": "2024-09-16",
+  "circuit": [],
+  "description": "\n<p>Esta 21.<br>a edição, após a pausa pandémica, continua a promover uma competição para vários escalões e<br>ambos os géneros. Desta feita, o evento organizar-se-á no domingo anterior à Feira D’Aires, a 15 de<br>setembro de 2024. A base do evento situar-se-á junto ao Santuário de Nª Sra. D’Aires, local a partir do<br>qual se desencadearão todas as atividades. Para além da vertente de competição nos vários escalões,<br>haverá também uma caminhada para os interessados que se venham a inscrever.</p>\n\n\n",
+  "description_short": "Corrida tradicional em Aires com caminhada integrada, junto ao Santuário de Nossa Senhora D'Aires",
+  "page": "https://acorrer.pt/eventos/info/3626",
+  "slug": "grande-premio-de-atletismo-sr-a-daires-2024",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Viana do Alentejo",
+  "administrative_area_level_3": "Viana do Alentejo",
+  "district_code": 7
+}

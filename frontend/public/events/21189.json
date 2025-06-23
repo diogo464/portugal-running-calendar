@@ -1,0 +1,34 @@
+{
+  "id": 21189,
+  "name": "Meia Maratona de Valência 2023",
+  "location": "Valência, Espanha",
+  "coordinates": {
+    "lat": 39.4738338,
+    "lon": -0.3756348
+  },
+  "country": "Espanha",
+  "locality": "Valência",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/693cf8539040e0ef5c33615865a6c56c"
+  ],
+  "start_date": "2023-10-22",
+  "end_date": "2023-10-23",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>The Royal Spanish Athletics Federation have awarded the Valencia Half Marathon Trinidad Alfonso EDP the title of the best half marathon in Spain, and when you run this amazing race it’s easy to see why.</p>\n\n\n\n<p>As well as the best, it’s also the country’s fastest half marathon, with 10 people finishing in under 60 minutes at the 2019 event. The city centre course winds its way through the busy streets of Valencia, as well as the Maritime Quarter. The route is constantly tweaked to make sure it takes in as much of the authentic city experience as possible, as well as removing some tighter bends to allow for faster finishing times.</p>\n\n\n\n<p>As <strong>SuperHalfs </strong>compreendem as seguintes corridas:<br>1.&nbsp;&nbsp; &nbsp;EDP Half Marathon Lisbon<br>2.&nbsp;&nbsp; &nbsp;Sportisimo Prague Half Marathon<br>3.&nbsp;&nbsp; &nbsp;Copenhagen Half Marathon<br>4.&nbsp;&nbsp; &nbsp;Cardiff Half Marathon<br>5.&nbsp;&nbsp; &nbsp;Medio Maratón Valencia Trinidad Alfonso Zurich</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona de referência nacional em Valência com percurso rápido pelos pontos emblemáticos da cidade",
+  "page": "https://www.valenciaciudaddelrunning.com/medio/medio-maraton/",
+  "slug": "meia-maratona-de-valencia-2023",
+  "administrative_area_level_1": "Valência",
+  "administrative_area_level_2": "Valência",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

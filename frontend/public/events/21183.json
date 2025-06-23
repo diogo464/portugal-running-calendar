@@ -1,0 +1,34 @@
+{
+  "id": 21183,
+  "name": "Meia Maratona de Copenhaga 2023",
+  "location": "Copenhaga, Dinamarca",
+  "coordinates": {
+    "lat": 55.6760968,
+    "lon": 12.5683371
+  },
+  "country": "Dinamarca",
+  "locality": "Copenhaga",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/dbc61ae4cde7a1069d9474482acbe296"
+  ],
+  "start_date": "2023-09-17",
+  "end_date": "2023-09-18",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>The Copenhagen Half Marathon is a race that’s known around the world for its world record course and high quality elite field. Although only established in 2015, it has quickly become one of Europe’s must-run races.</p>\n\n\n\n<p>This is not just a race for elites though. Runners will enjoy the race of their life, running along the event’s flat, wide and traffic-free course. The route itself almost seems like it was planned as a sightseeing tour of the city, covering many of Copenhagen’s most famous sights. Along the way you’ll see The Old Stock Exchange, The Parliament Christiansborg, The Marble Church and The Black Diamant.</p>\n\n\n\n<p>As <strong>SuperHalfs </strong>compreendem as seguintes corridas:<br>1.    EDP Half Marathon Lisbon<br>2.    Sportisimo Prague Half Marathon<br>3.    Copenhagen Half Marathon<br>4.    Cardiff Half Marathon<br>5.    Medio Maratón Valencia Trinidad Alfonso Zurich</p>\n",
+  "description_short": "Meia maratona urbana por Copenhaga com percurso plano passando por monumentos históricos icónicos",
+  "page": "https://cphhalf.dk/en/",
+  "slug": "meia-maratona-de-copenhaga-2023",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

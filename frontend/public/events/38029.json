@@ -1,0 +1,34 @@
+{
+  "id": 38029,
+  "name": "Trail do Serrote 2025",
+  "location": "Vila Nova De Monsarros, Anadia",
+  "coordinates": {
+    "lat": 40.4092995,
+    "lon": -8.397875299999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    12000,
+    14000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/11fb0de6c4fe1238212ab4cff8ccf721"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [],
+  "description": "\n<p>O evento será realizado em Vila Nova de Monsarros, Anadia, com ponto de encontro no Val das Cavadas.</p>\n\n\n\n<p><strong>Distâncias:</strong></p>\n\n\n\n<p>Trail 19 Km – 1000 D+ </p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Mini Trail 14 Km – 500 D+ </li>\n\n\n\n<li>Caminhada 12 Km – 350 D+ </li>\n</ul>\n\n\n\n<p>Todos os percursos envolvem caminhos de floresta, campos agrícolas e aldeias, com início e fim no Pavilhão Desportivo de Val das Cavadas.<br></p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail por caminhos rurais de Anadia com passagem por florestas, campos e aldeias",
+  "page": "https://www.runmanager.net/Eventos/trail-do-serrote-2025/872",
+  "slug": "trail-do-serrote-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Anadia",
+  "administrative_area_level_3": "Vila Nova de Monsarros",
+  "district_code": 1
+}

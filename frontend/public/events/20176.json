@@ -1,0 +1,29 @@
+{
+  "id": 20176,
+  "name": "Ecotrail Do Funchal / Madeira 2022",
+  "location": "Funchal, Madeira",
+  "coordinates": {
+    "lat": 32.6506129,
+    "lon": -16.9082357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/337c06e8d233434eabe4369fa1d54d88"
+  ],
+  "start_date": "2022-10-22",
+  "end_date": "2022-10-23",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://madeira.ecotrail.com/pt",
+  "slug": "ecotrail-do-funchal-madeira-2022",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

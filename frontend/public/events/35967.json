@@ -1,0 +1,33 @@
+{
+  "id": 35967,
+  "name": "Duas Léguas Gandaresas 2024",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/cd7e69a227636b7edc9e368d555ca28b"
+  ],
+  "start_date": "2024-07-06",
+  "end_date": "2024-07-07",
+  "circuit": [],
+  "description": "\n<p>Da 6ª Edição das Duas Léguas faz parte uma prova de corrida com 10 km (prova aberta) e uma caminhada com aproximadamente 10 km</p>\n\n\n",
+  "description_short": "Prova de corrida e caminhada na 6ª Edição das Duas Léguas",
+  "page": "https://stopandgo.net/events/duas-leguas-gandaresas-2024",
+  "slug": "duas-leguas-gandaresas-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

@@ -1,0 +1,29 @@
+{
+  "id": 298,
+  "name": "Trail do Cabo Espichel",
+  "location": "Espichel, Sesimbra",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/1b82e55e97d84059603184031a8d2cc4"
+  ],
+  "start_date": "2019-12-15",
+  "end_date": "2019-12-16",
+  "circuit": [],
+  "description": "<p>O evento realiza-se no dia 15 de dezembro de 2019, com concentração junto ao Campo de Futebol do GDUA;</p>\n<p>As partidas realizam-se nos seguintes horários:<br />\n&#8211; Trail Longo &#8211; 9h00<br />\n&#8211; Trail &#8211; 9h30<br />\n&#8211; Caminhada – 9h45</p>\n",
+  "description_short": "Trail pela região com diferentes provas e partidas matinais no Campo de Futebol do GDUA",
+  "page": "https://www.prozis.com/pt/pt/evento/7-trail-do-cabo-espichel",
+  "slug": "trail-do-cabo-espichel",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

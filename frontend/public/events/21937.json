@@ -1,0 +1,36 @@
+{
+  "id": 21937,
+  "name": "6º Trail Noturno Srª. Da Guia 2023",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    1000,
+    13000,
+    23000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/d0a5683d88fbbe68d8e0d20eca89b404"
+  ],
+  "start_date": "2023-04-08",
+  "end_date": "2023-04-09",
+  "circuit": [],
+  "description": "\n<p>O GTT.SPS ± GRUPO TODO TERRENO DE SÃO PEDRO DO SUL, vai realizar o 6º TRAIL NOTURNO DE SÃO PEDRO DO SUL ± SRA DA GUIA TRAIL, que consiste na subida à Sr.ª da Guia a partir de trilhos fantásticos. Este trail é constituído por quatro provas: TRAIL LONGO com 23Km, TRAIL CURTO COM 13Km, CAMINHADA COM 13Km e KIDS RACE COM 1Km.</p>\n",
+  "description_short": "Trail noturno desafiante com subida à Senhora da Guia em São Pedro do Sul",
+  "page": "https://stopandgo.net/event/?id=975",
+  "slug": "6o-trail-noturno-sra-da-guia-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

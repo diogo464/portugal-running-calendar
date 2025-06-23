@@ -1,0 +1,39 @@
+{
+  "id": 39037,
+  "name": "Trail Afife 2025",
+  "location": "Afife, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7793772,
+    "lon": -8.861042099999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    11000,
+    18000,
+    28000,
+    44000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/280a29343c0de10fa55055d31e4ea53d"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O evento IX ART &#8211; Afife Running Trail decorrerá a 16 de março de 2025, emAfife, sendoconstituído por 5 provas distintas: </p>\n\n\n\n<p>&#8211; Trail Ultra ± 44km<br>&#8211; Trail Longo ± 28km<br>&#8211; Trail Sprint ± 18km<br>&#8211; Mini Trail/Jovem ± 11km<br>&#8211; Caminhada ± 11km<br>Paralelamente, serão realizados outros eventos de carácter desportivo, social erecreativo,nomeadamente: exposições, stands comerciais e atividades para crianças</p>\n\n\n",
+  "description_short": "Trail diversificado em Afife com múltiplas provas de montanha e atividades complementares",
+  "page": "https://cyclonessports.com/index.php/323-x-art-afife-running-trail",
+  "slug": "trail-afife-2025",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": "Afife",
+  "district_code": 16
+}

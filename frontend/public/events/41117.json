@@ -1,0 +1,31 @@
+{
+  "id": 41117,
+  "name": "AXtrail Series #3 Pampilhosa Serra 2025",
+  "location": "Pampilhosa da Serra, Coimbra",
+  "coordinates": {
+    "lat": 40.0463704,
+    "lon": -7.949715499999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2d256201387d11280ef19eefd38d149d"
+  ],
+  "start_date": "2025-06-15",
+  "end_date": "2025-06-15",
+  "circuit": [],
+  "description": "\n<p>No âmbito das AXtrail® Series 24/25, realizar-se-á no dia 15 de Junho de 2025, a Série #3 Pampilhosa da Serra.<br>O programa inclui 3 provas de carácter competitivo e 1 caminhada: o AXtrail Series #3 Pampilhosa da Serra limitado a 250 inscritos; o Vertical do Xisto &#8211; corrida vertical; o AXtrail Xperience &#8211; experiência de iniciação ao trail e o Caminho do Xisto limitados no seu conjunto a 300 inscritos.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela serra do Xisto com múltiplas provas de carácter competitivo em Pampilhosa da Serra",
+  "page": "https://stopandgo.net/events/axtrail-series-3-pampilhosa-da-serra-2025",
+  "slug": "axtrail-series-3-pampilhosa-serra-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Pampilhosa da Serra",
+  "administrative_area_level_3": "Pampilhosa da Serra",
+  "district_code": 6
+}

@@ -1,0 +1,30 @@
+{
+  "id": 14530,
+  "name": "Trail Manuelino 2022",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/16e498d62641ed7deabdfe19ce187138"
+  ],
+  "start_date": "2022-05-15",
+  "end_date": "2022-05-16",
+  "circuit": [],
+  "description": "\n<p>O 1º Trail Manuelino 2022 realizar-se-á no dia 15 de maio, em Abiul, Concelho de Pombal, Distrito de Leiria. É constituído por 2 provas competitivas e uma caminhada. O evento é organizado pela Associação SicóTrilhos e conta com a colaboração do Município de Pombal, da Junta de Freguesia de Abiul e entre outros patrocinadores e colaboradores.</p>\n",
+  "description_short": "Trail desafiante pela região histórica de Abiul, no coração do distrito de Leiria",
+  "page": "https://www.totalcrono.pt/eventos/trailmanuelino2022",
+  "slug": "trail-manuelino-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

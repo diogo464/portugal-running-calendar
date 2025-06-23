@@ -1,0 +1,28 @@
+{
+  "id": 18584,
+  "name": "Ultra Skyrunning Madeira 2023",
+  "location": "Santana, Madeira",
+  "coordinates": {
+    "lat": 32.8051351,
+    "lon": -16.881891
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2023-06-16",
+  "end_date": "2023-06-17",
+  "circuit": [],
+  "description": "\n<p>Ultra Skyrunning Madeira – USM 2023 é uma coorganização da Câmara Municipal de Santana, Associação de Triatlo da Madeira e com a Federação de Campismo e Montanhismo de Portugal (FCMP). Este regulamento aplica-se às 5 provas incluídas no evento: Madeira SkyRace(MSR),Santana KM Vertical®, (SVK), Santana (SSR), Furão SkyRace (FSR) e KIDS Santana SkyRace (KIDS).</p>\n",
+  "description_short": "Trail de montanha com múltiplas provas na ilha da Madeira, organizado pela autarquia local e federações desportivas",
+  "page": "https://stopandgo.net/events/ultra-skyrunning-madeira-2023",
+  "slug": "ultra-skyrunning-madeira-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

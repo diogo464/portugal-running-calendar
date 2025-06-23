@@ -1,0 +1,34 @@
+{
+  "id": 34898,
+  "name": "2ª Milha de Eiras 2024",
+  "location": "Eiras, Coimbra",
+  "coordinates": {
+    "lat": 40.2482705,
+    "lon": -8.4164827
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    1600,
+    1609
+  ],
+  "types": [
+    "run",
+    "kids",
+    "Milha"
+  ],
+  "images": [
+    "media/af57453a38cb4a07fda827da6f894df2"
+  ],
+  "start_date": "2024-04-06",
+  "end_date": "2024-04-07",
+  "circuit": [],
+  "description": "\n<p>Para todos os Eirenses, amantes das corridas e demais interessados: estão todos convocados para a II  𝑴𝑰𝑳𝑯𝑨 𝑼𝑹𝑩𝑨𝑵𝑨 𝑫𝑬 𝑬𝑰𝑹𝑨𝑺.</p>\n\n\n",
+  "description_short": "Corrida urbana pela cidade deEiras com participação local entusiasta",
+  "page": "https://beta.fpacompeticoes.pt/inscriptions/3347",
+  "slug": "2a-milha-de-eiras-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "União das freguesias de Eiras e São Paulo de Frades",
+  "district_code": 6
+}

@@ -1,0 +1,34 @@
+{
+  "id": 41912,
+  "name": "Trail Convívio Rota da Pedra 2025",
+  "location": "Alqueidão da Serra, Porto de Mós",
+  "coordinates": {
+    "lat": 39.616726,
+    "lon": -8.7824046
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/de246e09298abc519d557e749d3655b3"
+  ],
+  "start_date": "2025-06-22",
+  "end_date": "2025-06-22",
+  "circuit": [],
+  "description": "\n<p>Trail organizado pela CCR Alqueidão da Serra Trail Team e Junta de Freguesia Alqueidão da Serra sem carácter competitivo com inscrições gratuitas e carácter solidário com oferta de 2 bens alimentares de preferência não perecível a reverter para o Centro de Dia da Casa Povo Alqueidão da Serra.</p>\n\n\n\n<p>HORAS e LOCAL : O local de partida e chegada da prova será no Estrada Romana do Alqueidão da Serra, com partida às 9h00m para o Trail e o Mini-Trail/Caminhada a partir logo de seguida (Possibilidade de sofrer alterações)</p>\n\n\n\n<p>DISTÂNCIAS:</p>\n\n\n\n<p>Trail: 19 Km / 1100 D+ (Possibilidade de sofrer alterações)<br>Mini-Trail/Caminhada: 10 Km / 450 D+ (Possibilidade de sofrer alterações)</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário pela Estrada Romana de Alqueidão da Serra com recolha de bens alimentares para o Centro de Dia local",
+  "page": "https://docs.google.com/document/d/e/2PACX-1vRK4RwSj3uqrHZ-oVnBmk179ZGZIvoaAYfGkrb2OnbPTkkm-noz2H-5uyBc_Q-pW-MP0e0M_h5uosI4/pub",
+  "slug": "trail-convivio-rota-da-pedra-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Alqueidão da Serra",
+  "district_code": 10
+}

@@ -1,0 +1,35 @@
+{
+  "id": 34541,
+  "name": "Trilho do Neveiro 2024",
+  "location": "Castanheira de Pera, Leiria",
+  "coordinates": {
+    "lat": 40.0058478,
+    "lon": -8.2125382
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    19000,
+    32000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/53db4fe263bde95345ad6236b99db713"
+  ],
+  "start_date": "2024-11-10",
+  "end_date": "2024-11-11",
+  "circuit": [],
+  "description": "\n<p>O Trilho do Neveiro é organizado pela Prazilândia Turismo e Ambiente E.M com o apoio e colaboração da Câmara Municipal de Castanheira de Pera, União das Freguesias de Castanheira de Pera e Coentral e Bombeiros Voluntários de Castanheira de Pera.</p>\n\n\n\n<p><br>Este evento pretende promover a vertente sul da Serra da Lousã, local de excelência para este tipo de desporto e região natural que deve ser preservada.</p>\n\n\n\n<p><br>O Trilho do Neveiro será realizado no dia 10 de novembro de 2024 em Castanheira de Pera. O Trilho do Neveiro será constituído por 3 provas:</p>\n\n\n\n<p><br>&#8211; Trilho do Neveiro Longo 32 K;<br>&#8211; Trilho do Neveiro Curto 19 K;<br>&#8211; Caminhada 10 K;</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante pela vertente sul da Serra da Lousã com apoio municipal e bombeiros voluntários",
+  "page": "https://stopandgo.net/events/trilho-do-neveiro-2024",
+  "slug": "trilho-do-neveiro-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Castanheira de Pêra",
+  "administrative_area_level_3": "União das freguesias de Castanheira de Pêra e Coentral",
+  "district_code": 10
+}

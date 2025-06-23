@@ -1,0 +1,34 @@
+{
+  "id": 1320,
+  "name": "Meia Maratona de Caminha 2020",
+  "location": "Caminha, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8732082,
+    "lon": -8.837845399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/1c1490b9803cf20bf317c12ea32059c4"
+  ],
+  "start_date": "2020-06-06",
+  "end_date": "2020-06-07",
+  "circuit": [],
+  "description": "<p>A ÚNICA MEIA MARATONA SUNSET DO PAÍS. Com início às 19h, apaixona-te pelo magnífico pôr do sol deste município! Com partida e chegada em Caminha, e entre a Vila de Seixas e Vila Praia de Âncora em plena N13, realiza-se provavelmente a meia maratona mais rápida do mundo, a VI MEIA MARATONA DE CAMINHA.</p>\n",
+  "description_short": "Meia maratona única ao pôr do sol ao longo da costa de Caminha, com partida e chegada na vila",
+  "page": "http://atriatlocaminha.pt/meia-maratona-sunset-caminha/",
+  "slug": "meia-maratona-de-caminha-2020",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Caminha (Matriz) e Vilarelho",
+  "district_code": 16
+}

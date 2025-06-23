@@ -1,0 +1,32 @@
+{
+  "id": 13001,
+  "name": "Grande Prémio Peniche a Correr 2022",
+  "location": "Peniche, Leiria",
+  "coordinates": {
+    "lat": 39.3603291,
+    "lon": -9.387622
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/51b93c414288640751530cf054763b85"
+  ],
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-14",
+  "circuit": [],
+  "description": "\n<p><em>Correr em Peniche é um privilégio para qualquer amante do desporto. O percurso do nosso Grande Prémio Peniche a Correr 2022, que percorre a península de Peniche, permite aos participantes uma experiência única de envolvência com o mar e toda a sua flora. A passagem pela cidade, praias, farol e a vista desafogada para a ilha da Berlenga, são o mote para uma manhã fantástica de domingo, na terra que o mar abraça.</em></p>\n",
+  "description_short": "Corrida panorâmica pela península de Peniche com vistas deslumbrantes para a ilha da Berlenga",
+  "page": "https://www.trilhoperdido.com/evento/3-Grande-Premio-Peniche-a-Correr",
+  "slug": "grande-premio-peniche-a-correr-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Peniche",
+  "administrative_area_level_3": "Peniche",
+  "district_code": 10
+}

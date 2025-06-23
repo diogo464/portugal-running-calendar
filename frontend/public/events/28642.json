@@ -1,0 +1,35 @@
+{
+  "id": 28642,
+  "name": "São Silvestre Viana do Castelo 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/d2157498e46298b3d932df51a7eee832"
+  ],
+  "start_date": "2023-12-23",
+  "end_date": "2023-12-24",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre Viana do Castelo 2023, prova de 10 km, em Viana do Castelo, realiza-se a 23 de Dezembro.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Corrida (10km)</li>\n\n\n\n<li>Caminhada (5Km)</li>\n</ul>\n",
+  "description_short": "São Silvestre tradicional pelo centro histórico de Viana do Castelo",
+  "page": "http://cyclonessports.com/index.php/287-10-corrida-s-silvestre",
+  "slug": "sao-silvestre-viana-do-castelo-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

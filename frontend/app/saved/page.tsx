@@ -1,7 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation"
-import { SavedEventsPage } from "@/pages/SavedEventsPage"
+import { SavedEventsPage } from "@/components/SavedEventsPage"
 import { useEvents } from "@/hooks/useEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 

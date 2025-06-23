@@ -1,0 +1,33 @@
+{
+  "id": 24165,
+  "name": "7º GP Vale Grande 2023",
+  "location": "Odivelas, Lisboa",
+  "coordinates": {
+    "lat": 38.7928952,
+    "lon": -9.183161499999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/e020554e40bd49419111573b62bc4649"
+  ],
+  "start_date": "2023-10-05",
+  "end_date": "2023-10-06",
+  "circuit": [],
+  "description": "\n<p>A Associação Vale Grande e a Câmara Municipal de Odivelas, com a colaboração da PSP<br>de Odivelas, dos Bombeiros Voluntários de Odivelas e da WeRun promovem, no próximo<br>dia 5 de Outubro de 2023, pelas 10h00m, uma prova de atletismo de estrada, designada por<br>Grande Prémio do Vale Grande, na distância de 10 km.</p>\n\n\n\n<p>A prova destina-se a participantes de todas as idades e de ambos os sexos, estando<br>limitada a 800 participantes.</p>\n",
+  "description_short": "Corrida citadina em Odivelas assinalando o dia 5 de Outubro com apoio municipal e institucional",
+  "page": "https://werun.pt/eventos/7-gp-vale-grande-2023/",
+  "slug": "7o-gp-vale-grande-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Odivelas",
+  "administrative_area_level_3": "Odivelas",
+  "district_code": 11
+}

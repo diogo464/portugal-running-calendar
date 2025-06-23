@@ -1,0 +1,36 @@
+{
+  "id": 33308,
+  "name": "Corrida Portucale 2024",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    500,
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/099f6176572b04e1d146bb30f81b2be0"
+  ],
+  "start_date": "2024-07-14",
+  "end_date": "2024-07-15",
+  "circuit": [],
+  "description": "\n<p>O Porto recebe, a 14 de Julho de 2024, a SHAMIR CORRIDA PORTUCALE , nas artérias ribeirinhas da cidade, organização do Centro de Atletismo do Porto (CAP).</p>\n\n\n\n<p>O evento integra uma corrida de 10 Km, uma caminhada/mini corrida de 5 Km realizadas ao longo das margens do Rio Douro, e uma corrida para crianças de aproximadamente 0,5 Km e tem como parceiros institucionais as respetivas Câmaras Municipais.</p>\n\n\n\n<p>Tendo como objetivo a Ribeira de Gaia e passando pela Avenida Gustavo Eiffel , referências da região e do país e integrando uma zona classificada de Património Mundial, o CAP pretende organizar um evento que seja uma verdadeira festa de convívio, desporto, hábitos de vida salutares e da corrida, em particular.</p>\n",
+  "description_short": "Corrida urbana à beira-Douro com passagem pela zona histórica do Porto Património Mundial",
+  "page": "https://corridaportucale.pt/",
+  "slug": "corrida-portucale-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

@@ -1,0 +1,29 @@
+{
+  "id": 34845,
+  "name": "Terra de Gigantes 2025",
+  "location": "Seia, Guarda",
+  "coordinates": {
+    "lat": 40.4148619,
+    "lon": -7.707845000000001
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/352ab2c3a3b1585f3923e7c9a38df291"
+  ],
+  "start_date": "2025-01-15",
+  "end_date": "2025-01-16",
+  "circuit": [],
+  "description": "\n<p>A Terra de Gigantes é uma coorganização da Horizontes Turismo Desportivo e Viagens e a Associação Interior Convida.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail de montanha pela região interior com parceria local",
+  "page": "https://stopandgo.net/events/terra-de-gigantes-2025",
+  "slug": "terra-de-gigantes-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Seia",
+  "administrative_area_level_3": "União das freguesias de Seia, São Romão e Lapa dos Dinheiros",
+  "district_code": 9
+}

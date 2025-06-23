@@ -1,0 +1,34 @@
+{
+  "id": 37463,
+  "name": "Corrida dos Paraquedistas 2024",
+  "location": "Aeródromo Militar de Tancos, Vila Nova Barquinha",
+  "coordinates": {
+    "lat": 39.4767969,
+    "lon": -8.374754099999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/073c02a54033a755b6276c45110060bd"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-07",
+  "circuit": [],
+  "description": "\n<p>A 2ª Edição da Corrida dos Paraquedistas é organizada pela Associação A Minha Corrida, com o apoio técnico da Xistarca, Promoções e Publicações Desportivas, Lda.</p>\n\n\n\n<p>Este evento desportivo proporciona uma experiência única, repleta de aventura e história, com dois percursos disponíveis: uma corrida de 10 km e uma caminhada de 5 km. A prova terá lugar no dia<strong>&nbsp;7 de Dezembro de 2024</strong>, às 10h30, na Base Militar de Tancos. Os participantes poderão escolher entre a corrida de 10 km ou a caminhada de 5 km. Ambos os percursos levarão os atletas por locais emblemáticos da história dos paraquedistas militares portugueses, oferecendo uma oportunidade de conhecer este ambiente único.</p>\n\n\n\n<p>O trajeto, misto entre alcatrão e terra batida, foi desenhado para ser rápido e propício a quem procura melhorar o seu tempo pessoal, proporcionando ainda momentos de contemplação da paisagem e da herança militar.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida histórica na Base Militar de Tancos com percurso dedicado aos paraquedistas militares",
+  "page": "https://xistarca.pt/eventos/2a-corrida-dos-paraquedistas",
+  "slug": "corrida-dos-paraquedistas-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Vila Nova da Barquinha",
+  "administrative_area_level_3": "Praia do Ribatejo",
+  "district_code": 14
+}

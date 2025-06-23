@@ -1,0 +1,29 @@
+{
+  "id": 3055,
+  "name": "Lisboa Green Trail Sunset 2021",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/01c4b78b1c445a9e93467a9d9541a45f"
+  ],
+  "start_date": "2021-11-13",
+  "end_date": "2021-11-14",
+  "circuit": [],
+  "description": "\n<p>Os melhores trilhos do pulmão da cidade de Lisboa! O parque florestal de Monsanto prepara-se para receber a edição do Lisboa Green Trail Sunset 2021 para as habituais provas, trail longo e trail curto, não esquecendo a caminhada. Com partida junto ao Geomonumento do Rio Seco, vamos dar-te a conhecer os trilhos mais sinuosos e as vistas soberbas sobre o Rio Tejo!</p>\n",
+  "description_short": "Trail ao pôr-do-sol em Monsanto com vistas panorâmicas sobre Lisboa e o Tejo",
+  "page": "https://werun.pt/eventos/4-lxgreentrail/",
+  "slug": "lisboa-green-trail-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

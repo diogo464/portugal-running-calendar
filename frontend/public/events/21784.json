@@ -1,0 +1,33 @@
+{
+  "id": 21784,
+  "name": "8ª Edição Pirilampos Night Run Bajouca 2023",
+  "location": "Bajouca, Leiria",
+  "coordinates": {
+    "lat": 39.8896745,
+    "lon": -8.7756556
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    600,
+    5000
+  ],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/2ff9d1f9611963cbf605419954204930"
+  ],
+  "start_date": "2023-09-16",
+  "end_date": "2023-09-17",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>Departamento de Atletismo do Grupo Alegre e Unido – Bajouca</strong>, vai realizar no dia&nbsp;<strong>16 de Setembro de 2023</strong>&nbsp;a&nbsp;<strong>8ª Edição dos PIRILAMPOS NIGHT RUN BAJOUCA</strong>, com partida e meta no&nbsp;<strong>CAMPO DAS PEDRAS &#8211; Bajouca</strong>.</p>\n\n\n\n<p>Uma prova com uma distância aproximada de&nbsp;<strong>5km</strong>&nbsp;com caráter aventureiro, ultrapassando diversos obstáculos e barreiras (SURPRESA ABSOLUTA), tem também outra vertente, a cultural, passando em várias Olarias da Bajouca entre outros locais de interesse regional.</p>\n\n\n\n<p>Também há prova para<strong>&nbsp;Benjamins e Infantis</strong>, com a distância aproximada&nbsp;<strong>600m</strong>.</p>\n\n\n\n<p>A cronometragem é feita pela empresa Recorde Pessoal, sendo em contra-relógio, arrancando em grupos de 5 (poderá alterar caso seja necessário) de 30 em 30 segundos (grupos aleatórios, havendo, contudo, divisão dos grupos pela sua melhor marca nos 5000m, sendo o primeiro grupo os mais rápidos e o último os menos rápidos, de forma a existir poucas ultrapassagens).</p>\n",
+  "description_short": "Trail noturno aventureiro com passagem por olarias tradicionais na Bajouca",
+  "page": "https://www.recordepessoal.pt/evento/8edicaopirilamposnightrunbajouca",
+  "slug": "8a-edicao-pirilampos-night-run-bajouca-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Bajouca",
+  "district_code": 10
+}

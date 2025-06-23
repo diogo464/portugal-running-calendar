@@ -1,0 +1,31 @@
+{
+  "id": 30451,
+  "name": "São Silvestre de Lagoa | Crédito Agrícola Açores 2023",
+  "location": "Lagoa, Ilha de São Miguel",
+  "coordinates": {
+    "lat": 37.7451046,
+    "lon": -25.5720746
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/994b780bac6971e48da8ebcbdb5f9beb"
+  ],
+  "start_date": "2023-12-30",
+  "end_date": "2023-12-31",
+  "circuit": [],
+  "description": "\n<p>O CDOL &#8211; Clube Desportivo Operário de Lagoa com a colaboração da Câmara Municipal de Lagoa, irá organizar a 6a São Silvestre, Cidade de Lagoa | Crédito Agrícola Açores, evento destinado à população em geral, com a finalidade de estimular a prática desportiva como elemento de promoção da saúde e da qualidade de vida. Os embaixadores da corrida serão os atletas João Vieira e Vera Santos.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "São Silvestre tradicional pela cidade de Lagoa com apoio municipal e embaixadores de referência",
+  "page": "https://lap2go.com/pt/event/ss-lagoa-2023",
+  "slug": "sao-silvestre-de-lagoa-credito-agricola-acores-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "São Miguel",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

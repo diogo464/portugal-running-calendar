@@ -1,0 +1,30 @@
+{
+  "id": 19059,
+  "name": "Trail do Sino e da Castanha 2022",
+  "location": "Tarouca, Viseu",
+  "coordinates": {
+    "lat": 41.0174461,
+    "lon": -7.775003600000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/28af56df68a362570924924e4bdade15"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>O II Trail do Sino e da Castanha é organizado pela Associação Vale Varosa, Câmara Municipal De Tarouca e União de Freguesias de Granja Nova, Vila Chã da Beira e Formilo, contando com a colaboração do Agrupamento de Escolas Dr. José Leite de Vasconcelos e o apoio de diferentes entidades públicas e privadas da região.</p>\n\n\n\n<p><br>A prova percorre os trilhos e percursos pedestres adjacentes à União de Freguesias de Granja Nova, Vila Chã da Beira e Formilo. Os diferentes percursos, Trail médio e Mini Trail e Caminhada estão abertos a todos os indivíduos maiores de idade (18 anos) e a caminhada está aberta também a menores de idade desde que acompanhados por uma pessoa maior de idade e que se identifique como responsável pelo menor.</p>\n\n\n",
+  "description_short": "Trail tradicional pelas paisagens rurais de Tarouca com percursos pedestres na região de Vale Varosa",
+  "page": "https://stopandgo.net/event/?id=868",
+  "slug": "trail-do-sino-e-da-castanha-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tarouca",
+  "administrative_area_level_3": "União das freguesias de Tarouca e Dálvares",
+  "district_code": 18
+}

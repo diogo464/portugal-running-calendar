@@ -1,0 +1,29 @@
+{
+  "id": 3198,
+  "name": "Corrida da Mulher 2021",
+  "location": "Santos, Lisboa",
+  "coordinates": {
+    "lat": 38.707983,
+    "lon": -9.1580693
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/6514c98230d8e5cc95ab000d63231321"
+  ],
+  "start_date": "2021-09-12",
+  "end_date": "2021-09-13",
+  "circuit": [],
+  "description": "\n<p>Todos os dias somos confrontados com casos de pessoas que perdemos numa luta desigual, contra uma doença cobarde que se manifesta de muitas formas.&nbsp;A Corrida da Mulher “EDP Lisboa a Mulher e a Vida”, antes de ser uma prova de atletismo, é um ato de cidadania em que o objetivo número um é alertar a o sociedade para o Cancro da Mama e em segundo lugar a recolha de fundos para ajudar a combate-lo.&nbsp;Venha participar e contribuir para a compra de aparelhos de rastreio do cancro da mama. No conjunto de todas as edições EDP Lisboa, a Mulher e a Vida foram angariados mais de 800.000 euros para a&nbsp;<a href=\"https://www.ligacontracancro.pt/\" target=\"_blank\" rel=\"noreferrer noopener\">Liga Portuguesa Contra o Cancro</a>.&nbsp;O desafio que aqui deixamos é que participem na Corrida da Mulher “EDP Lisboa a Mulher e a Vida”, e contribuam para esta luta!&nbsp;Notas:&nbsp;Se já teve ou tem alguma doença oncológica, não pagará a taxa de inscrição.&nbsp;A participação em equipa pressupõe o pagamento de pelo menos duas inscrições.</p>\n",
+  "description_short": "Corrida solidária em Lisboa para sensibilização e apoio à luta contra o cancro da mama",
+  "page": "https://www.maratonaclubedeportugal.com/corrida-mulher/corrida-da-mulher/",
+  "slug": "corrida-da-mulher-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Estrela",
+  "district_code": 11
+}

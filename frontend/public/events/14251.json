@@ -1,0 +1,29 @@
+{
+  "id": 14251,
+  "name": "Ultra Trail do Marão 2022",
+  "location": "Amarante Amarante, Porto",
+  "coordinates": {
+    "lat": 41.2696799,
+    "lon": -8.0817216
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4ca9e47c8c5e54130711f2541d59a9c3"
+  ],
+  "start_date": "2022-04-01",
+  "end_date": "2022-04-02",
+  "circuit": [],
+  "description": "\n<p>O Ultra Trail do Marão 2022 (UTM), é um evento desportivo de trail running em estado<br>genuíno da responsabilidade organizativa da SavageNatur Events®, com sede na Rua<br>Santo António, n° 392, 4600-520 Ansiães, Município de Amarante, que se realizará nos<br>dias 1, 2 e 3 de Abril de 2022.</p>\n",
+  "description_short": "Trail desafiante pela Serra do Marão com etapas em Amarante",
+  "page": "https://stopandgo.net/event/?id=552",
+  "slug": "ultra-trail-do-marao-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Amarante",
+  "administrative_area_level_3": "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão",
+  "district_code": 13
+}

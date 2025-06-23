@@ -1,0 +1,34 @@
+{
+  "id": 18917,
+  "name": "Europarque Bio Run 2022",
+  "location": "Santa Maria da Feira, Aveiro",
+  "coordinates": {
+    "lat": 40.9257594,
+    "lon": -8.5478589
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/c967b7825e98251413a9f2bf6d53c4ea"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>O Europarque Bio Run é um evento desportivo que proporciona aos participantes a oportunidade de correr ou caminhar no Europarque de Santa Maria da Feira, um percurso de 10 km (duas voltas) para a corrida com carácter competitivo e prémios monetários e um percurso de 5 km para a caminhada. O percurso permitirá aos participantes percorrer toda a zona envolvente do Europarque, estradas e trilhos e até entrar no centro de congressos.</p>\n\n\n",
+  "description_short": "Corrida e caminhada pela zona envolvente do Europarque em Santa Maria da Feira",
+  "page": "https://lap2go.com/pt/event/europarque-bio-run-2022",
+  "slug": "europarque-bio-run-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "União das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo",
+  "district_code": 1
+}

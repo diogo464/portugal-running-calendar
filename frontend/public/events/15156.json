@@ -1,0 +1,33 @@
+{
+  "id": 15156,
+  "name": "Volta à Cidade do Funchal 2022",
+  "location": "Funchal, Madeira",
+  "coordinates": {
+    "lat": 32.6506129,
+    "lon": -16.9082357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/18e40eaac59466947976e1c3a1d7ac0d"
+  ],
+  "start_date": "2022-12-28",
+  "end_date": "2022-12-29",
+  "circuit": [],
+  "description": "\n<p>A Volta à Cidade do Funchal 2022 acontece pela 63ª vez na ilha da Madeira e é uma das mais míticas corridas de estrada de fim de ano, aberta a todas as idades.</p>\n",
+  "description_short": "Corrida tradicional de fim de ano pelas ruas históricas do Funchal com 63 edições",
+  "page": "https://lap2go.com/pt/event/volta-cidade-do-funchal-2022",
+  "slug": "volta-a-cidade-do-funchal-2022",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

@@ -1,0 +1,35 @@
+{
+  "id": 39308,
+  "name": "Corrida 4 Estações Verão Soure 2025",
+  "location": "Soure, Coimbra",
+  "coordinates": {
+    "lat": 40.0610524,
+    "lon": -8.6239203
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/b86466f4be5af070d81fb4117ee0da67"
+  ],
+  "start_date": "2025-06-07",
+  "end_date": "2025-06-08",
+  "circuit": [
+    "4 Estacoes"
+  ],
+  "description": "\n<p><a href=\"https://goinonline.pt/home/scores/30e7068f9536591c245309021ec0427ded91ab1a4a38028ea9\" target=\"_blank\" rel=\"noopener\">Resultados</a></p>\n\n\n\n<p>A Associação Desportiva 4 Estações com o apoio da Camara Municipal de Soure, vai realizar no dia 7 de Junho de 2025 pelas 19h em Soure, uma corrida de atletismo de estrada com a distância de 10km, designada por Corrida das 4 Estações Verão Soure. Esta prova faz parte do Circuito de Corrida 4 Estações Portugal.</p>\n\n\n\n<p>Limitada a 1000 inscrições.</p>\n\n\n\n<p>Haverá provas para crianças sem classificação, com inscrição obrigatória.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de verão em Soure integrada no Circuito 4 Estações com apoio municipal",
+  "page": "https://goinonline.pt/home/athlete/30e7068f9536591c245309021ec0427ded91ab1a4a38028ea9",
+  "slug": "corrida-4-estacoes-verao-soure-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Soure",
+  "administrative_area_level_3": "Soure",
+  "district_code": 6
+}

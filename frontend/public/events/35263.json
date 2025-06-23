@@ -1,0 +1,31 @@
+{
+  "id": 35263,
+  "name": "Trail das Zagaias 2024",
+  "location": "Mação, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3967ab04e6e125793d87db43b7a3cce4"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-08",
+  "circuit": [],
+  "description": "\n<p>O Trail das Zagaias é uma organização da Associação BTZ Mação, ACR Chão de Codes e Associação Rotas de Mação e com o apoio e colaboração da Câmara Municipal de Mação. Realiza-se no dia 7 de Julho de 2024 em Mação e será constituído por um Trail com cerca de 20 kms.</p>\n\n\n",
+  "description_short": "Trail desafiante pelas paisagens rurais de Mação com apoio da autarquia local",
+  "page": "https://www.trilhoperdido.com/evento/9-Trail-das-Zagaias",
+  "slug": "trail-das-zagaias-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

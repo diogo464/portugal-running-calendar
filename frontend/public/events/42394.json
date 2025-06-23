@@ -1,0 +1,36 @@
+{
+  "id": 42394,
+  "name": "Confluência Trail 2025",
+  "location": "Constância, Santarém",
+  "coordinates": {
+    "lat": 39.4780719,
+    "lon": -8.337225199999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    13000,
+    17000,
+    25000,
+    35000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/19a7aa3691b3179f6147cf8c294d99d3"
+  ],
+  "start_date": "2025-11-23",
+  "end_date": "2025-11-24",
+  "circuit": [],
+  "description": "\n<p>O Confluência Trail tem como objetivo proporcionar aos atletas novas experiências e sensações em trilhos<br>distintos, valorização e divulgação do território e promoção de Constância e do Médio Tejo.</p>\n\n\n\n<p>K35, K25, K17</p>\n\n\n\n<p><br>Caminhada – K13</p>\n\n\n",
+  "description_short": "Trail pelos trilhos pitorescos de Constância com diferentes distâncias e descoberta do Médio Tejo",
+  "page": "https://stopandgo.net/events/confluencia-trail-2025",
+  "slug": "confluencia-trail-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Constância",
+  "administrative_area_level_3": "Constância",
+  "district_code": 14
+}

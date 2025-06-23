@@ -1,0 +1,32 @@
+{
+  "id": 20457,
+  "name": "Trilhos Do Javali Solidário 2022",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/1936dc6c8175927a44887232eb1a9081"
+  ],
+  "start_date": "2022-12-11",
+  "end_date": "2022-12-12",
+  "circuit": [],
+  "description": "\n<p>Trilhos do Javali Solidário inscrição 5€ + alimentos essenciais:<br>O evento de Trail Running Trilhos do Javali Solidário 2022 tem um caráter totalmente solidário e dessa  orma visa a angariação de alimentos essenciais para as pessoas carenciadas da cidade Setúbal. Terá um percurso de cerca de 10Km e percorrerá trilhos e estradões de terra batida nas encostas do Forte de São  Filipe e Herdade da Comenda (Setúbal) com início e fim na Escola Básica N.º9 Casal das Figueiras &#8211; Setúbal.</p>\n\n\n\n<p>Os Trilhos do Javali Solidário serão uma organização da Associação professores e amigos do Casal das Figueiras &#8211; APACCF Associação Outdoor Clube de Setúbal &#8211; OCS com o apoio da Câmara Municipal de Setúbal.</p>\n\n\n\n<p><br>http://www.apaccf.pt/</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário nas encostas do Forte de São Filipe em Setúbal com objetivo de angariação de alimentos para carenciados",
+  "page": "https://www.trilhoperdido.com/evento/Trilhos-do-Javali-Solidario-2022",
+  "slug": "trilhos-do-javali-solidario-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

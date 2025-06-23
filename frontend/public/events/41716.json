@@ -1,0 +1,33 @@
+{
+  "id": 41716,
+  "name": "GP Prof. José Lourenço 2025",
+  "location": "Arruda dos Vinhos, Lisboa",
+  "coordinates": {
+    "lat": 38.9829298,
+    "lon": -9.0776401
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/53f3539a5488b3d182324a1a075d30c3"
+  ],
+  "start_date": "2025-06-29",
+  "end_date": "2025-06-29",
+  "circuit": [],
+  "description": "\n<p>O Município de Arruda dos Vinhos irá realizar o “Grande Prémio Prof. José Lourenço” (Corrida kids e Corrida 10 Km), no dia 29&nbsp;de junho de 2025, com a organização Técnica da Werun.</p>\n\n\n\n<p>O “GP Prof. José Lourenço” é uma prova de natureza desportiva&nbsp;que tem como objetivo incentivar e consciencializar a população para a importância da prática de exercício físico.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida desportiva em Arruda dos Vinhos homenageando o Professor José Lourenço, com provas para crianças e adultos",
+  "page": "https://werun.pt/eventos/gp-prof-jose-lourenco/",
+  "slug": "gp-prof-jose-lourenco-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Arruda dos Vinhos",
+  "administrative_area_level_3": "Arruda dos Vinhos",
+  "district_code": 11
+}

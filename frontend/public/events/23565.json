@@ -1,0 +1,33 @@
+{
+  "id": 23565,
+  "name": "7ª Corrida Noturna Costa Da Caparica 2023",
+  "location": "Costa da Caparica, Almada",
+  "coordinates": {
+    "lat": 38.64455299999999,
+    "lon": -9.2333757
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/6a0e971156f91545b3524b519fd3df78"
+  ],
+  "start_date": "2023-07-08",
+  "end_date": "2023-07-09",
+  "circuit": [],
+  "description": "\n<p>Reserva já na tua agenda! Dia 8 de Julho, vais correr ou caminhar pelo paredão da Caparica e pelos extensos areais. No final, para compensar o teu esforço vais ter direito à tão famosa “Olhaaa a bolinha!”</p>\n\n\n\n<p><br>Não fiques em casa! O desafio está lançado… correr 10km ou correr/caminhar 5km. O primeiro km é feito em alcatrão e depois vem a areia!</p>\n",
+  "description_short": "Corrida à beira-mar na Costa da Caparica com passagem pelos areais e final animado com \"Olhaaa a bolinha!\"",
+  "page": "https://xistarca.pt/eventos/7a-corrida-noturna-costa-da-caparica-2023",
+  "slug": "7a-corrida-noturna-costa-da-caparica-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

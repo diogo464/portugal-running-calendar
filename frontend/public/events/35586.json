@@ -1,0 +1,39 @@
+{
+  "id": 35586,
+  "name": "Trail de Conímbriga Terras de Sicó 2025",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    13000,
+    15000,
+    30000,
+    42000,
+    60000,
+    111000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ced2849f5f090595d967c27df7731b3d"
+  ],
+  "start_date": "2025-02-21",
+  "end_date": "2025-02-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A ASSOCIAÇÃO DESPORTIVA OMUNDODACORRIDA.COM, vai realizar nos próximos dias 21, 22 e 23 de Fevereiro de 2025 um evento denominado &#8220;<strong>XVI Trail de Conímbriga Terras de Sicó</strong>&#8220;.</p>\n\n\n\n<p>Para participar nas provas de&nbsp;<strong>111 Milhas Terras de Sicó, 111 km Terras de Sicó, 60 km e 42 km</strong>, os participantes deverão ter pelo menos 20 anos à data da prova, na prova de&nbsp;<strong>Trail Sprint de 30 km</strong>&nbsp;podem participar atletas juniores (18 e 19 anos). Os atletas Juvenis, 16 e 17 anos, poderão participar nos 15 km.</p>\n\n\n\n<p>Para quem não gosta de correr existirá uma&nbsp;<strong>caminhada de 13km</strong>.</p>\n",
+  "description_short": "Trail histórico por Conímbriga e Terras de Sicó com provas de diferentes distâncias e escalões etários",
+  "page": "https://www.omdceventos.com/evento/xvi-trail-de-conimbriga-terras-de-sico",
+  "slug": "trail-de-conimbriga-terras-de-sico-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

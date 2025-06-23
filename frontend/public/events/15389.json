@@ -1,0 +1,29 @@
+{
+  "id": 15389,
+  "name": "I Trail Terra do Sol 2022",
+  "location": "Amareleja, Beja",
+  "coordinates": {
+    "lat": 38.2076493,
+    "lon": -7.227816
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/bcf8f522e19d143f0bc7b83c300ed0a9"
+  ],
+  "start_date": "2022-10-30",
+  "end_date": "2022-10-31",
+  "circuit": [],
+  "description": "\n<p>O “I TRAIL TERRA DO SOL” será uma prova de trail running, que decorrerá no dia 30 de<br>Outubro de 2022 com organização da Câmara Municipal de Moura e contará com o apoio da<br>Junta de Freguesia de Amareleja e do Grupo Desportivo Amarelejense, associação sem fins<br>lucrativos, com sede na Praceta Dr. Agostinho Caro Quintiliano, 40 em Amareleja.</p>\n",
+  "description_short": "Trail desafiante pela região alentejana de Moura com organização municipal",
+  "page": "https://acorrer.pt/eventos/info/2946",
+  "slug": "i-trail-terra-do-sol-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "Amareleja",
+  "district_code": 2
+}

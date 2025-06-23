@@ -1,0 +1,34 @@
+{
+  "id": 40337,
+  "name": "Trail Terras do Conde 2025",
+  "location": "Castelo de Paiva, Aveiro",
+  "coordinates": {
+    "lat": 41.0409444,
+    "lon": -8.2714736
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    16000,
+    26000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/9e63517871b4ea6fdc4cdb206d71a499"
+  ],
+  "start_date": "2025-09-07",
+  "end_date": "2025-09-08",
+  "circuit": [],
+  "description": "\n<p>O Trail Terras do Conde 2025 é organizado pelo Município de Castelo de Paiva e pelo Centro Sol<br>Nascente, e está integrado no calendário dos “Jogos Desportivos de Castelo de Paiva”.</p>\n\n\n\n<p>O evento terá as seguintes provas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo (+- 26Km)</li>\n\n\n\n<li>Trail Curto (+- 16Km)</li>\n\n\n\n<li>Mini Trail (+- 10 Km)</li>\n\n\n\n<li>Caminhada (+- 10 Km)</li>\n</ul>\n",
+  "description_short": "Trail desafiante pelas paisagens de Castelo de Paiva com diferentes percursos para todos os níveis",
+  "page": "https://stopandgo.net/events/trail-terras-do-conde-2025",
+  "slug": "trail-terras-do-conde-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Castelo de Paiva",
+  "administrative_area_level_3": "União das freguesias de Sobrado e Bairros",
+  "district_code": 1
+}

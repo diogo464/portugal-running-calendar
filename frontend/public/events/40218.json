@@ -1,0 +1,32 @@
+{
+  "id": 40218,
+  "name": "Corrida pela Saúde Mental Rotary Distrito 1960 2025",
+  "location": "Parque Keil do Amaral, Monsanto",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/8f46ab7213fab054d5980058370d86cd"
+  ],
+  "start_date": "2025-05-18",
+  "end_date": "2025-05-18",
+  "circuit": [],
+  "description": "\n<p>As mais-valias obtidas com as inscrições, apoios e patrocínios, serão distribuídos em favor de IPSSs relacionadas com a Saude mental:  ADEB – Associação de Apoio aos Doentes Depressivos e Bipolares, GAC – Grupo de Ação Comunitária, GIRA – Grupo Intervenção e Reabilitação Ativa e ARIA – Associação de Reabilitação e Integração Ajuda e, em favor de projetos solidários promovidos pelo Rotary.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária com receitas destinadas a associações de saúde mental e projetos sociais do Rotary",
+  "page": "https://xistarca.pt/eventos/2a-corrida-pela-saude-mental-rotary-distrito-1960",
+  "slug": "corrida-pela-saude-mental-rotary-distrito-1960-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

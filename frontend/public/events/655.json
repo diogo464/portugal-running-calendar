@@ -1,0 +1,32 @@
+{
+  "id": 655,
+  "name": "Corrida do Amigo &#8211; Pet Festival",
+  "location": "Parque das Nações, Lisboa",
+  "coordinates": {
+    "lat": 38.7686316,
+    "lon": -9.095858
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/c2119f02cf9d6c1f04ebb0cf3b0c0ee0"
+  ],
+  "start_date": "2020-02-02",
+  "end_date": "2020-02-03",
+  "circuit": [],
+  "description": "<p align=\"justify\">A  &#8220;IV Corrida do Amigo&#8221;, é um evento de natureza solidária e desportiva que terá lugar no Parque das Nações, numa organização da WeRun.</p>\n<p align=\"justify\">Tem como objetivo pôr os animais de estimação a correr /caminhar lado a lado com os seus donos.</p>\n<p align=\"justify\">Vem juntar a família e ter um dia único.</p>\n<p align=\"justify\">Este ano temos para ti a Corrida de 4 km ou a Caminhada Peddy-paper 4 km.</p>\n<p align=\"justify\">A IV Corrida do Amigo é um evento incluído no PET FESTIVAL 2020</p>\n",
+  "description_short": "Corrida solidária com animais de estimação no Parque das Nações",
+  "page": "https://www.prozis.com/pt/pt/evento/iv-corrida-do-amigo-pet-festival-2020",
+  "slug": "corrida-do-amigo-pet-festival",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Parque das Nações",
+  "district_code": 11
+}

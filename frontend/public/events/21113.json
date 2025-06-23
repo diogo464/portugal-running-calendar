@@ -1,0 +1,37 @@
+{
+  "id": 21113,
+  "name": "Meia Maratona D´Ouro Run Gondomar 2023",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/63ca79a495314e981df94e7b9d44d229"
+  ],
+  "start_date": "2023-06-11",
+  "end_date": "2023-06-12",
+  "circuit": [],
+  "description": "\n<p>A EventSport e o Município de Gondomar organizam a&nbsp;Tranquilidade Meia-Maratona D`Ouro Run Gondomar que tem a finalidade de estimular a prática desportiva como elemento da promoção da saúde e da qualidade de vida. Realiza-se no dia 11 de Junho 2023, uma&nbsp;<strong>Meia-Maratona de 21 Km</strong>, uma&nbsp;<strong>Mini-Maratona de 10 Km</strong>&nbsp;e uma&nbsp;<strong>Caminhada de 5 Km</strong>, a prova realiza-se ao longo da estrada de Entre-os-Rios.</p>\n",
+  "description_short": "Meia-maratona solidária em Gondomar a estimular a prática desportiva e qualidade de vida",
+  "page": "https://dourorun.pt/",
+  "slug": "meia-maratona-douro-run-gondomar-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

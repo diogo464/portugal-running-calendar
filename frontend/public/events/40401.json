@@ -1,0 +1,31 @@
+{
+  "id": 40401,
+  "name": "Os 100 do Barbanza 2025",
+  "location": "Venecia, Valência",
+  "coordinates": {
+    "lat": 39.4738338,
+    "lon": -0.3756348
+  },
+  "country": "Espanha",
+  "locality": "Valência",
+  "distances": [
+    100000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/129dcbd0d92add2c37de1026430469e9"
+  ],
+  "start_date": "2025-06-21",
+  "end_date": "2025-06-21",
+  "circuit": [],
+  "description": "\n<p>O International Trekkers 100 é uma corrida não competitiva de caminhada/ultra trail de 100 km a ser concluída em no máximo 24 horas, organizada pelo Barbanza Sar International Trekkers Sports Club.</p>\n\n\n\n<p>A prova tem início no Pavilhão Desportivo Municipal de Venecia, no concelho de A Pobra do Caramiñal, às 16h00 do dia 21 de junho de 2025. Trata-se de um percurso circular sinalizado de 100 km que percorre os concelhos de A Pobra, Boiro, Rianxo, Lousame, Noia, Porto do Son e Ribeira, a realizar num tempo máximo de 24 horas. A prova termina, portanto, às 16 horas do dia 22 de junho no mesmo local da largada na Pobra do Caramiñal. Todo o percurso deverá ser realizado ao longo do percurso indicado no percurso, que será disponibilizado a todos os participantes com suficiente antecedência.</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Ultra trail não competitivo de 100 km pelo litoral galego a partir da Pobra do Caramiñal, atravessando sete concelhos em 24 horas",
+  "page": "https://tracktherace.com/pt/eventos-esportivos/corrida-de-trilha/os-100-do-barbanza",
+  "slug": "os-100-do-barbanza-2025",
+  "administrative_area_level_1": "Valência",
+  "administrative_area_level_2": "Valência",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

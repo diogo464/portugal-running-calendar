@@ -1,0 +1,32 @@
+{
+  "id": 24265,
+  "name": "Grande Premio Caldas de São Jorge 2023",
+  "location": "Santa Maria da Feira, Aveiro",
+  "coordinates": {
+    "lat": 40.9257594,
+    "lon": -8.5478589
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/6628d6afc3ec36d7424b7e7a6524e24a"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>O Caldas de São Jorge Sport Clube volta a organizar um dos eventos de referência do circuito Run For Feira, promovido pela Câmara Municipal de Santa Maria da Feira. Este é um GP para todas as idades e géneros, inclusivo e cheio de festa de atletismo.</p>\n",
+  "description_short": "Corrida festiva na Santa Maria da Feira com espírito inclusivo para todos os atletas",
+  "page": "https://lap2go.com/pt/event/caldas-sjorge-2023",
+  "slug": "grande-premio-caldas-de-sao-jorge-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "União das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo",
+  "district_code": 1
+}

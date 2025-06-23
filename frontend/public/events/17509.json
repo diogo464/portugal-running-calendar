@@ -1,0 +1,29 @@
+{
+  "id": 17509,
+  "name": "2º Trail Florival Faria",
+  "location": "Moncarapacho, Olhão",
+  "coordinates": {
+    "lat": 37.085011,
+    "lon": -7.787727099999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6792c8eecb1f3847cfea0dce5938ed71"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p>O <strong>2º Trail Florival Faria</strong> é organizado pelo <strong>Clube Oriental de Pechão</strong> em parceria com o <strong>Município de Olhão</strong> e com o apoio da <strong>União de Freguesias de Moncarapacho e Fuseta</strong>. Terá lugar no dia 9 de outubro na vila de Moncarapacho, com partida no lardo da Igreja Matriz e chegada no Pavilhão de Eventos<br>Os percursos da prova passam em zonas de grande <strong>beleza natural </strong>e vasto <strong>património cultural e ambiental</strong>, tanto no cerro de São Miguel como no cerro da Cabeça, desenrolando-se em trilhos técnicos, pedregosos, zonas de estradão e <em>single track</em>, onde, para além da altimetria, uma das dificuldades com que os atletas se poderão deparar será a elevada temperatura, aliada a um clima seco, passíveis de ocorrer no dia da prova.<br>A prova integra a <strong>Taça de Portugal de Trail ATRP 2022 (Associação de Trail Running de Portugal)</strong>. O percurso do Trail longo e´ ainda a última prova do <strong>Circuito de Trail Longo do Algarve 2022 </strong>da Associação de Atletismo do Algarve.</p>\n",
+  "description_short": "Trail técnico e exigente em Moncarapacho, com percursos de grande beleza natural no Algarve",
+  "page": "https://www.crono.aaalgarve.org/eventos/2-trail-florival-faria",
+  "slug": "2o-trail-florival-faria",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Olhão",
+  "administrative_area_level_3": "União das freguesias de Moncarapacho e Fuseta",
+  "district_code": 8
+}

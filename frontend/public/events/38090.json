@@ -1,0 +1,33 @@
+{
+  "id": 38090,
+  "name": "Corrida dos Restauradores 2024",
+  "location": "Fundão, Castelo Branco",
+  "coordinates": {
+    "lat": 40.137963,
+    "lon": -7.501077299999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/df086d97e4915e458fbb0a6b54562c67"
+  ],
+  "start_date": "2024-11-30",
+  "end_date": "2024-12-01",
+  "circuit": [],
+  "description": "\n<p>A Corrida dos Restauradores celebra uma das seculares tradições do Fundão, a Arruada do 1.º de Dezembro. Todos os anos, às 00h00 do dia 01 de dezembro, os locais reúnem-se em surdina na Praça<br>do Município e percorrem as ruas com o propósito de &#8220;correr os espanhóis&#8221;, numa clara alusão aos<br>acontecimentos de 1640.<br>É uma corrida de estrada popular, noturna, caracterizada pelo percurso citadino que percorre<br>algumas das mais emblemáticas ruas e artérias da cidade do Fundão</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Corrida histórica nocturna no Fundão que recria tradição secular de expulsar espanhóis a 1 de dezembro",
+  "page": "https://meutempo.pt/prova?corridarestauradaores2024",
+  "slug": "corrida-dos-restauradores-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Fundão",
+  "administrative_area_level_3": "União das freguesias de Fundão, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo",
+  "district_code": 5
+}

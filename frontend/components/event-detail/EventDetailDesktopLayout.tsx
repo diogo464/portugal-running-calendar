@@ -2,7 +2,7 @@ import { EventImage } from "./EventImage"
 import { EventDetails } from "./EventDetails"
 import { EventRegistration } from "./EventRegistration"
 import { EventDescription } from "./EventDescription"
-import { EventLocationMap } from "@/components/EventLocationMap"
+import { EventLocationMapWrapper } from "@/components/EventLocationMapWrapper"
 
 interface EventDetailDesktopLayoutProps {
   // Event data
@@ -10,7 +10,7 @@ interface EventDetailDesktopLayoutProps {
   eventImages: string[]
   eventDate: string
   location: string
-  coordinates?: { lat: number; lon: number } | null
+  coordinates: { lat: number; lon: number } | null
   distances: string
   eventTypes: string
   descriptionShort?: string | null
@@ -50,7 +50,7 @@ export function EventDetailDesktopLayout({
         />
         
         {/* Map */}
-        <EventLocationMap
+        <EventLocationMapWrapper
           coordinates={coordinates}
           eventName={eventName}
           eventLocation={location}

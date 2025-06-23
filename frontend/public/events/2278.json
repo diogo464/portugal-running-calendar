@@ -1,0 +1,32 @@
+{
+  "id": 2278,
+  "name": "Cross Laminha Virtual 2021",
+  "location": "Cumeira, Leiria",
+  "coordinates": {
+    "lat": 39.691046,
+    "lon": -8.8026334
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail",
+    "cross-country",
+    "walk",
+    "run"
+  ],
+  "images": [
+    "media/c01112a2ccd74fb05df055e9a8e9f2d6"
+  ],
+  "start_date": "2021-01-01",
+  "end_date": "2021-01-02",
+  "circuit": [],
+  "description": "\n<p>Uma organização e trabalho fantástico da Equipa TIMIM.O percurso do Cross Laminha está aberto e a participação é gratuita. Qualquer um de vós o poderá fazer a correr ou a caminhar seguindo a sinalização instalada .Podem fazê-lo durante o dia, a qualquer dia e a qualquer hora, até ao dia 21 de Fevereiro. O percurso é circular com partida e chegada na Capela da Cumeira(Coordenadas GPS: 39°34&#8217;50.7&#8243;N | 8°54&#8217;11.9&#8243;W. Mais info em: http://www.crosslaminha.pt/</p>\n",
+  "description_short": "Cross flexível e gratuito pela região com percurso circular junto à Capela da Cumeira",
+  "page": null,
+  "slug": "cross-laminha-virtual-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

@@ -1,0 +1,33 @@
+{
+  "id": 37002,
+  "name": "Corrida Cidade de Faro 2024",
+  "location": "Faro Faro, Portugal",
+  "coordinates": {
+    "lat": 37.0164626,
+    "lon": -7.9351983
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/a532caebce4c18bfa35d986145dc15f7"
+  ],
+  "start_date": "2024-10-13",
+  "end_date": "2024-10-14",
+  "circuit": [],
+  "description": "\n<p>A 4.ª Corrida Cidade de Faro é organizada pelos Tugas On Tour Associação Desportiva em coorganização com a Câmara Municipal de Faro e a União de Freguesias de Faro.</p>\n\n\n\n<p>A 4.ª Corrida Cidade de Faro (sub 20 até veteranos VI) é composto por um circuito de ida e volta, totalmente em asfalto com uma distância total aproximada de 10km.</p>\n",
+  "description_short": "Corrida urbana junto à zona histórica e moderna de Faro com apoio municipal",
+  "page": "https://www.crono.aaalgarve.org/eventos/4-corrida-cidade-de-faro",
+  "slug": "corrida-cidade-de-faro-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

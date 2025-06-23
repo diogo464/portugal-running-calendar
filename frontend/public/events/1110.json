@@ -1,0 +1,32 @@
+{
+  "id": 1110,
+  "name": "V Trail Cachopo Solidário",
+  "location": "Cachopo, Faro",
+  "coordinates": {
+    "lat": 37.33299,
+    "lon": -7.817270600000001
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/007a8ac071aa353cb6bb986b8d81ab80"
+  ],
+  "start_date": "2022-11-20",
+  "end_date": "2022-11-21",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p></p>\n\n\n\n<p><strong>Informação anterior:</strong></p>\n\n\n<p>Este evento surgiu da vontade dos militares do Grupo de Intervenção Proteção e Socorro da GNR (UEPS GIPS/GNR ), de organizar um evento desportivo com uma componente solidaria, para tal uniram-se á Junta de Freguesia de Cachopo – Tavira, e dessa aliança surgiu 1a edição, em 2016, tendo tido cerca de 300 participantes, com objetivo de ajudar a Mariana, criança com quadro de paralisia cerebral.</p>\n<p>Tendo sido realizada a 2ª edição, que elevou o no de participantes para cerca de 500. A 3ª edição do Trail Cachopo Solidário realizou-se a 18 março de 2018, tendo tido a participação de cerca de 550 atletas, tendo sido doados 1540€ para aquisição de material para o Centro Paroquial de Cachopo, entidade gestora do Lar e Centro Dia.</p>\n<p>Na 4ª edicção do Trail Cachopo Solidário realizou-se em 17 março de 2018 tendo tido cerca de 750 participantes e entregando a quantia de cerca de 2300€ á Associação Oncológica do Algarve.</p>\n<p>Junta-te a nós e vem conhecer a serra Algarvia e ao mesmo tempo ser Solidário</p>",
+  "description_short": "Trail solidário em Cachopo que apoia causas sociais e destaca a beleza serrana do Algarve",
+  "page": "https://www.crono.aaalgarve.org/eventos/v-trail-cachopo-solidario",
+  "slug": "v-trail-cachopo-solidario",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Tavira",
+  "administrative_area_level_3": "Cachopo",
+  "district_code": 8
+}

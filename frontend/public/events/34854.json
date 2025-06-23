@@ -1,0 +1,34 @@
+{
+  "id": 34854,
+  "name": "Trail Running Moinhos Saloios 2024",
+  "location": "Mafra, Lisboa",
+  "coordinates": {
+    "lat": 38.9443106,
+    "lon": -9.3320856
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/971ee5533e8545091123a988a51a8cdd"
+  ],
+  "start_date": "2024-06-02",
+  "end_date": "2024-06-03",
+  "circuit": [],
+  "description": "\n<p>O “8º Trail Moinhos Saloios” é um evento desportivo que tem como objetivos a divulgação da modalidade de atletismo, a promoção da União de Freguesias de Venda do Pinheiro e Santo Estêvão das Galés e do Município de Mafra no panorama do atletismo regional. A organização está a cargo da União Freguesias de Venda do Pinheiro e Santo Estêvão das Galés em colaboração com as instituições locais, e a entidade organizadora de eventos “Trilho Perdido Unipessoal Lda&#8221;.<br><br><br>Trail Longo – Percurso até 25 Km.<br>Trail Curto – Até 15 Km<br>Caminhada – Cerca de 8 Km</p>\n",
+  "description_short": "Trail desafiante pelos caminhos históricos de Mafra com diferentes percursos para atletas e caminhantes",
+  "page": "https://www.trilhoperdido.com/evento/8-Trail-Running-Moinhos-Saloios",
+  "slug": "trail-running-moinhos-saloios-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Mafra",
+  "district_code": 11
+}

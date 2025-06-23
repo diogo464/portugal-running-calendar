@@ -1,0 +1,35 @@
+{
+  "id": 42167,
+  "name": "Trail Rio de Moinhos 2025",
+  "location": "Rio de Moinhos, Viseu",
+  "coordinates": {
+    "lat": 40.7136965,
+    "lon": -7.6967532
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    11000,
+    13000,
+    23000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/601dd7db1b9c3fdd413b7be66e95b787"
+  ],
+  "start_date": "2025-10-19",
+  "end_date": "2025-10-19",
+  "circuit": [],
+  "description": "\n<p>O evento é composto por três percursos:<br>Trail de ±23 km (aprox.);<br>Mini Trail ±13 km (aprox.);<br>Caminhada ±11Km (aprox.)</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante com três opções de percurso na natureza",
+  "page": "https://acorrer.pt/eventos/3927/info",
+  "slug": "trail-de-rio-de-moinhos-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sátão",
+  "administrative_area_level_3": "Rio de Moinhos",
+  "district_code": 18
+}

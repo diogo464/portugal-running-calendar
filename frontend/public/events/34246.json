@@ -1,0 +1,30 @@
+{
+  "id": 34246,
+  "name": "Trilhos da Cola 2024",
+  "location": "Ourique, Beja",
+  "coordinates": {
+    "lat": 37.6521402,
+    "lon": -8.224390399999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7d1d797297743ed78bc6c758411241ab"
+  ],
+  "start_date": "2024-05-01",
+  "end_date": "2024-05-02",
+  "circuit": [],
+  "description": "\n<p>O evento desportivo, Trilhos da Cola 2024, é promovido e organizado pela secção de Atletismo<br>do Ourique Desportos Clube e destina-se a todos os cidadãos que cumpram o disposto no<br>presente regulamento.</p>\n\n\n",
+  "description_short": "Trail pelos caminhos rurais do município de Ourique, organizado pelo clube local",
+  "page": "https://lap2go.com/pt/event/trilhos-da-cola-2024",
+  "slug": "trilhos-da-cola-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Ourique",
+  "administrative_area_level_3": "Ourique",
+  "district_code": 2
+}

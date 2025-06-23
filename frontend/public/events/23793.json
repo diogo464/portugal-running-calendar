@@ -1,0 +1,34 @@
+{
+  "id": 23793,
+  "name": "1º Trail Dos Catrinos 2023",
+  "location": "Santa Catarina, Alcácer do Sal",
+  "coordinates": {
+    "lat": 38.396869,
+    "lon": -8.4302689
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    16000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/dceca5d29874b200a539100ca9e4020c"
+  ],
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-11",
+  "circuit": [],
+  "description": "\n<p>O Trail, dos “Catrinos” é uma prova no âmbito do desporto aventura ao ar livre e de natureza. Esta iniciativa é organizada pela Associação, Santa Catarina Futebol Clube, e tem como principal objetivo proporcionar aos amantes desta modalidade o contacto e conhecimento de locais que a nossa aldeia dispõe, com excelentes características naturais e de extrema beleza para a prática do Desporto Aventura.<br>O Trail dos “Catrinos” será composto por um Trail curto de 16km e médio de 28km e caminhada de 10Km.</p>\n\n\n",
+  "description_short": "Trail desafiante pela aldeia dos Catrinos com percursos por paisagens naturais de extrema beleza",
+  "page": "https://www.trilhoperdido.com/evento/1-Trail-dos-Catrinos",
+  "slug": "1o-trail-dos-catrinos-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcácer do Sal",
+  "administrative_area_level_3": "União das freguesias de Alcácer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana",
+  "district_code": 15
+}

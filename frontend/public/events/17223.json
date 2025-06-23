@@ -1,0 +1,29 @@
+{
+  "id": 17223,
+  "name": "VII ART Afife Running Trail 2022",
+  "location": "Afife, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7793772,
+    "lon": -8.861042099999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8e8833468c1bd4340d0ee892c67b0b53"
+  ],
+  "start_date": "2022-10-22",
+  "end_date": "2022-10-23",
+  "circuit": [],
+  "description": "\n<p>O ART – Afife Running Trail 2022 é um circuito de provas competitivas de corrida de montanha, organizado pela Associação Desportiva Afifens</p>\n\n\n\n<p>Este evento é pontuável para as provas da ATRP: TRAIL ULTRA, TRAIL LONGO, TRAIL CURTO-SPRINT, MINI TRAIL- JOVEM; integra o Circuito Regional de Trail Running; e o circuito Minho Ultra e Trail Series.e</p>\n",
+  "description_short": "Trail competitivo na região de Afife com provas de montanha integradas em circuitos regionais",
+  "page": "http://cyclonessports.com/index.php/245-vii-art-afife-running-trail",
+  "slug": "vii-art-afife-running-trail-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": "Afife",
+  "district_code": 16
+}

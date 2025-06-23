@@ -1,0 +1,29 @@
+{
+  "id": 2934,
+  "name": "VIII Trail de Sor 2021 &#8211; Vitorino Coragem",
+  "location": "Ponte de Sor Sor, Portalegre",
+  "coordinates": {
+    "lat": 39.2524027,
+    "lon": -8.0093497
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/28e5af00df2ace102d155516fc1f27d1"
+  ],
+  "start_date": "2021-09-05",
+  "end_date": "2021-09-06",
+  "circuit": [],
+  "description": "\n<p>A Associação “Clube de Atletismo Trail Runners da Ponte”(CATRP) vai realizar no dia 05 de setembro de 2021 o “VIII TRAIL DO SOR”, na Cidade de Ponte de Sor, Distrito de Portalegre, Alto Alentejo, com o Apoio do Município de Ponte de Sor, da União de Freguesias de Ponte de Sor, Vale de Açor e Tramaga e Freguesia de Galveias, entre outras entidades e empresas.<br>É uma Prova de Trail Running, realizada em trilhos sinalizados, em piso acidentado, estradões e obstáculos naturais, por terrenos circundantes ao Rio Sor, na área circundante a Ponte de Sor, Tramaga e Galveias, maioritariamente por montes e vales.<br>O VIII Trail do Sor faz parte do Circuito Nacional de Trail Série 100 Sul, da Associação de Trail Running de Portugal (ATRP) e do Circuitos Distritais de Trail Curto e Longo, da Associação de Atletismo do Distrito de Portalegre (AADP).</p>\n",
+  "description_short": "Trail desafiante pelos montes e vales do Alto Alentejo, percorrendo trilhos ao longo do Rio Sor",
+  "page": "http://www.plataformaomdc.com/CLIENTE/ver_evento_cli/92/",
+  "slug": "viii-trail-de-sor-2021",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Ponte de Sor",
+  "administrative_area_level_3": "Ponte de Sor",
+  "district_code": 12
+}

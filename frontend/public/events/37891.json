@@ -1,0 +1,32 @@
+{
+  "id": 37891,
+  "name": "Grande Prémio Peniche a Correr 2025",
+  "location": "Peniche, Leiria",
+  "coordinates": {
+    "lat": 39.3603291,
+    "lon": -9.387622
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/9dae7904a6f09ed4838a39cbfc01040a"
+  ],
+  "start_date": "2025-01-12",
+  "end_date": "2025-01-13",
+  "circuit": [],
+  "description": "\n<p>No dia 12 de janeiro de 2025 terá lugar a 6ª edição da Corrida Peniche a Correr. Prova decorrida de aproximadamente 10 mil metros, realizada no concelho Peniche, mais concretamente no interior da Cidade de Peniche. Esta iniciativa, é promovida pela Associação Peniche a Correr e pelos Bombeiros Voluntários de Peniche.</p>\n",
+  "description_short": "Corrida urbana em Peniche com organização solidária dos bombeiros voluntários",
+  "page": "https://waitastart.com/gppenicheacorrer25/",
+  "slug": "grande-premio-peniche-a-correr-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Peniche",
+  "administrative_area_level_3": "Peniche",
+  "district_code": 10
+}

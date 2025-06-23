@@ -1,0 +1,33 @@
+{
+  "id": 20786,
+  "name": "Trilhos do Granito 2023",
+  "location": "Ponte de Lima, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7622565,
+    "lon": -8.5832339
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    27000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4348c9531879085ca29548c0e2b4c9ab"
+  ],
+  "start_date": "2023-09-03",
+  "end_date": "2023-09-04",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Os Trilhos do Granito organizado pela equipa ACRA Running associada à Secção Desportiva da Associação Cultural e Recreativa de Arcozelo, surgiram com o objetivo de divulgar o património histórico e cultural da freguesia de Arcozelo e a promoção da prática de desporto e turismo de Natureza na localidade.</p>\n\n\n\n<p>O nome Trilhos do Granito é um tributo à povoação de Arcozelo que tem como maior atividade económica a extração e beneficiação artesanal do granito. O granito que dá forma e estrutura às inúmeras casas senhoriais que embelezam a paisagem e são um marco da prosperidade senhorial que em tempos se vivia nesta região.</p>\n\n\n\n<p>Nesta 3a edição, continuaremos a partilhar com todos os atletas a beleza da nossa região, permitindo-lhes conhecer recantos pitorescos edificados e não edificados, e o contacto com o que de mais belo e também mais duro a natureza tem para oferecer.</p>\n\n\n\n<p>Pelo segundo ano consecutivo, o Trilhos do Granito pertence ao Circuito Distrital de Trail da AAVC. Para além da certificação da ATRP, a distância mais longa (27km) pontua para a Taça de Portugal da modalidade.</p>\n",
+  "description_short": "Trail desafiante por Arcozelo valorizando o heritage do granito e paisagens naturais da região",
+  "page": "https://www.sinctime.com/evento/167",
+  "slug": "trilhos-do-granito-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Arca e Ponte de Lima",
+  "district_code": 16
+}

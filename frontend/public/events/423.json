@@ -1,0 +1,35 @@
+{
+  "id": 423,
+  "name": "São Silvestre de Mirandela",
+  "location": "Mirandela, Bragança",
+  "coordinates": {
+    "lat": 41.4853545,
+    "lon": -7.180871100000001
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    1000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "kids"
+  ],
+  "images": [
+    "media/7bb5d21741a74482dc481cb34134992f"
+  ],
+  "start_date": "2019-12-21",
+  "end_date": "2019-12-22",
+  "circuit": [],
+  "description": "<p>A São Silvestre mais animada de Trás-os-Montes está de volta, com o tiro de partida marcado para dia 21 de dezembro pelas 18h. É um evento mítico na cidade onde o desporto se alia ao convívio e lazer, e nada melhor que terminar o ano de 2019 a fazeres o que mais gostas e acompanhado pelos amigos e familiares!</p>\n<p>A prova terá um percurso com 10 km de distância, também haverá uma Mini São Silvestre com um percurso máximo de 1.000 m<span class=\"text_exposed_show\">etros para as crianças.</span></p>\n",
+  "description_short": "São Silvestre festiva em Trás-os-Montes com corrida noturna e ambiente de convívio",
+  "page": "https://stopandgo.com.pt/events/s-o-silvestre-mirandela/sign",
+  "slug": "sao-silvestre-de-mirandela",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mirandela",
+  "administrative_area_level_3": "Mirandela",
+  "district_code": 4
+}

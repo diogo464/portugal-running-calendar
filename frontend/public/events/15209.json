@@ -1,0 +1,32 @@
+{
+  "id": 15209,
+  "name": "6° Trail Carreiros do Pastor Arrimalano 2022",
+  "location": "Arrimal, Porto de Mós",
+  "coordinates": {
+    "lat": 39.4869989,
+    "lon": -8.881981699999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    17000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8ba4c0d22cc2af100925f6eb78324274"
+  ],
+  "start_date": "2022-10-16",
+  "end_date": "2022-10-17",
+  "circuit": [],
+  "description": "\n<p>O evento&nbsp;<strong>6º Trail Carreiros do Pastor Arrimalano</strong>&nbsp;é constituído por uma&nbsp;<strong>Corrida (Trail Curto) de 17 km</strong>&nbsp;e uma&nbsp;<strong>caminhada com distância a rondar os 10 Km</strong>&nbsp;a realizar no dia&nbsp;<strong>16 de outubro de 2022</strong>.</p>\n\n\n\n<p>A prova é constituída no seu percurso por trilhos, carreiros e caminhos com pouco desnível, no entanto e estando o tempo húmido se podem tornar escorregadios, essencialmente onde o piso é pedra. Por tal a organização aconselha a máxima prudência aos participantes. O percurso alia beleza e técnica conciliada com alguma dureza.</p>\n\n\n\n<p>Dado o carácter da prova, a organização limita o número de atletas, de acordo com as normas da DGS, à data do evento e à logística disponível.</p>\n\n\n\n<p>O local de partida e chegada encontra-se localizado junto ao Centro Cultural Recreativo e Desportivo de Arrimal, Rua do Outeiro, N. º15, Arrimal, 2480-043 Porto de Mós.</p>\n",
+  "description_short": "Trail técnico e desafiante pelos carreiros do Pastor Arrimalano em Porto de Mós",
+  "page": "https://www.recordepessoal.pt/evento/6trailcarreirosdopastorarrimalano",
+  "slug": "trail-carreiros-do-pastor-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Arrimal",
+  "district_code": 10
+}

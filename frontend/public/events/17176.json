@@ -1,0 +1,33 @@
+{
+  "id": 17176,
+  "name": "Corrida e Caminhada 500 Magalhães com Pé N Areia 2022",
+  "location": "Praia da Vieira, Marinha Grande",
+  "coordinates": {
+    "lat": 39.7967426,
+    "lon": -8.9986464
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    7000,
+    12700
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/51947243d7c93b3bcf5a7ae216e52c59"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>A Corrida e Caminhada 500 Magalhães com Pé N’Areia é uma organização do Clube Atletismo da Marinha Grande, Município da Marinha Grande e da Estrutura de Missão do V Centenário da Primeira Viagem de Circum-Navegação / 500 Magalhães, e vai decorrer a 1ª edição no dia 11 de setembro de 2022, nas praias do Concelho da Marinha Grande, entre a Praia da Vieira e Praia Velha.<br>A Organização da Corrida e Caminhada 500 Magalhães com Pé N’Areia conta com o especial apoio da Junta de Freguesia da Marinha grande e da junta de Freguesia de Vieira de Leiria.<br>Decorrerá num percurso com uma extensão aproximada de 12, 7 km, todos eles percorridos em areia, com início na Praia da Vieira e final na Praia Velha.</p>\n",
+  "description_short": "Corrida e caminhada histórica pela costa da Marinha Grande, evocando a viagem de Magalhães em percurso totalmente de areia",
+  "page": "https://lap2go.com/pt/event/500-magalhaes-pe-nareia-2022",
+  "slug": "corrida-e-caminhada-500-magalhaes-com-pe-nareia-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

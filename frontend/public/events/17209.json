@@ -1,0 +1,34 @@
+{
+  "id": 17209,
+  "name": "36ª Meia Maratona de Cortegaça 2023",
+  "location": "Praia De Cortegaça, Aveiro",
+  "coordinates": {
+    "lat": 40.9419814,
+    "lon": -8.6578115
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/89abb181557c89315fb63e14a2fe3b6c"
+  ],
+  "start_date": "2023-05-14",
+  "end_date": "2023-05-15",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona de Cortegaça 2023 liga as praias de Cortegaça e do Furadouro. Esta é uma das provas mais emblemáticas do calendário do atletismo de estrada e corre-se num percurso praticamente plano, ladeado de paisagens naturais únicas.</p>\n",
+  "description_short": "Meia maratona costeira que liga as praias de Cortegaça e Furadouro com paisagens naturais impressionantes",
+  "page": "https://lap2go.com/pt/event/meia-cortegaca-2023",
+  "slug": "meia-maratona-de-cortegaca-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ovar",
+  "administrative_area_level_3": "Cortegaça",
+  "district_code": 1
+}

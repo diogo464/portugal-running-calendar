@@ -1,0 +1,29 @@
+{
+  "id": 29089,
+  "name": "Ocr 100 2023",
+  "location": "Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/25a866b5488cac9901b32c682dfb9bd7"
+  ],
+  "start_date": "2023-11-11",
+  "end_date": "2023-11-12",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://stopandgo.net/events/ocr-100",
+  "slug": "ocr-100-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

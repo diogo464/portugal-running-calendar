@@ -1,0 +1,38 @@
+{
+  "id": 39663,
+  "name": "Meia Maratona Leiria 2025",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/370ea9b03d9782a4ce0d69c695ca76f0"
+  ],
+  "start_date": "2025-10-19",
+  "end_date": "2025-10-20",
+  "circuit": [],
+  "description": "\n<p>Sintam-se assim, todos convidados a participar e vivenciar a cidade de Leiria. O evento conta com 4 segmentos:</p>\n\n\n\n<p>Meia Maratona – 21K (prova oficial do Campeonato Distrital Leiria)</p>\n\n\n\n<p>Distância 10K</p>\n\n\n\n<p>Competição Jovem, distâncias oficiais ( Infantis, Iniciados e Juvenis)</p>\n\n\n\n<p>Caminhada – 5km</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona e provas complementares a percorrer a cidade de Leiria com diferentes escalões e distâncias",
+  "page": "https://nativewarriors.pt/evento/meia-maratona-leiria-2025/",
+  "slug": "meia-maratona-leiria-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

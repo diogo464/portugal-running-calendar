@@ -1,0 +1,36 @@
+{
+  "id": 22909,
+  "name": "2º Trail Demónios Do Lizandro 2023",
+  "location": "São João Das Lampas, Lisboa",
+  "coordinates": {
+    "lat": 38.8744196,
+    "lon": -9.3986994
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    12000,
+    15000,
+    25000,
+    50000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c898c33fda4af95d86f60980bb9c8e2b"
+  ],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [],
+  "description": "\n<p>O Trail será constituído por 3 provas de caracter competitivo, e uma caminhada de lazer.</p>\n\n\n\n<p><br> Ultra Trail ( 50km )<br> Trail longo ( 25km ) – Prova inserida no Circuito de Trail de Lisboa 2023<br> Trail curto ( 15km ) – Prova inserida no Circuito de Trail de Lisboa 2023<br> Caminhada ( 12Km)</p>\n",
+  "description_short": "Trail com diferentes percursos inserido no Circuito de Trail de Lisboa 2023",
+  "page": "https://www.trilhoperdido.com/evento/2-trail-demonios-do-lizandro",
+  "slug": "2o-trail-demonios-do-lizandro-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

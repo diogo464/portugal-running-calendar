@@ -1,0 +1,37 @@
+{
+  "id": 18628,
+  "name": "Mama Em Movimento &#8211; Marcha/Corrida Solidária 2022",
+  "location": "Campus Gambelas, Faro",
+  "coordinates": {
+    "lat": 37.0432426,
+    "lon": -7.972276399999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000,
+    6000,
+    10000,
+    12500,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/b2ebd887feca4af6445eecf45d6a9e18"
+  ],
+  "start_date": "2022-10-23",
+  "end_date": "2022-10-24",
+  "circuit": [],
+  "description": "\n<p>O objetivo do evento “Mama Em Movimento &#8211; Marcha/Corrida Solidária” é a obtenção de donativos decorrentes das inscrições, que serão entregues à Associação Oncológica do Algarve com o intuito de apoiar e promover atividades relacionadas com a prevenção e investigação em cancro da mama.</p>\n\n\n\n<p>O evento solidário “Mama Em Movimento &#8211; Marcha/Corrida Solidária” irá decorrer no dia 23 de outubro de 2022, domingo, com partida e chegada no Campus universitário de Gambelas &#8211; Faro;<br>O evento consistirá numa corrida de 12,5 km ou numa caminhada de 6 ou 10 km, a decidir pelo participante de forma autónoma e independente;</p>\n\n\n",
+  "description_short": "Corrida solidária no Algarve para apoiar investigação oncológica com concentração no campus universitário de Faro",
+  "page": "https://acorrer.pt/eventos/info/3013",
+  "slug": "mama-em-movimento-marcha-corrida-solidaria-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": "Montenegro",
+  "district_code": 8
+}

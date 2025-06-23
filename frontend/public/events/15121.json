@@ -1,0 +1,36 @@
+{
+  "id": 15121,
+  "name": "Maratona da Europa 2023",
+  "location": "Aveiro",
+  "coordinates": {
+    "lat": 40.6405055,
+    "lon": -8.6537539
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    21097,
+    42195
+  ],
+  "types": [
+    "marathon",
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/f31a2ba19df4ce6d23677a988a8cd964"
+  ],
+  "start_date": "2023-04-23",
+  "end_date": "2023-04-24",
+  "circuit": [],
+  "description": "\n<p>A MARATONA DA EUROPA 2023 em Aveiro realiza-se a 23 de abril de 2023. É uma organização Global Sport, promovida pela Câmara Municipal de Aveiro e Turismo Centro de Portugal, com o apoio da Câmara Municipal de Ílhavo.</p>\n\n\n\n<p>O <strong>Portugal Running</strong> disponibiliza um<a href=\"http://plano-treino-corrida/\" target=\"_blank\"> acompanhamento personalizado </a>para os atletas que queiram melhorar as suas performances ou realizar a sua primeira maratona ou meia maratona.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Maratona urbana em Aveiro com apoio municipal e promoção turística",
+  "page": "https://www.europemarathon.pt/",
+  "slug": "maratona-da-europa-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Aveiro",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

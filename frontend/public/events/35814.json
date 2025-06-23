@@ -1,0 +1,34 @@
+{
+  "id": 35814,
+  "name": "Trail do Sarilho 2024",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/00a76a5eaf18cf1ef79a5f217ead1a14"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-09",
+  "circuit": [],
+  "description": "\n<p>A Secção de Ar Livre e Aventura da Associação de Solidariedade Social Sociedade Columbófila Cantanhedense (ASSSCC), com o apoio do Município de Cantanhede e outros parceiros, vai realizar no próximo dia 8 de dezembro de 2024, o Trail do Sarilho/Cantanhede &#8211; 2024.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Distâncias</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Curto K20 &#8211; 20Km</li>\n\n\n\n<li>Mini Trail K12 &#8211; 12Km</li>\n\n\n\n<li>Caminhada</li>\n</ul>\n",
+  "description_short": "Trail desafiante pela região de Cantanhede com opções de percurso para diferentes níveis de participantes",
+  "page": "https://www.runmanager.net/Eventos/trail-do-sarilho/842",
+  "slug": "trail-do-sarilho-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

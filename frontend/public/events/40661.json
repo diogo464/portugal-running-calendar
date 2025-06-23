@@ -1,0 +1,35 @@
+{
+  "id": 40661,
+  "name": "Farol Adventure Trail &#8211; Flores Azores 2025",
+  "location": "Lajes das Flores, Açores",
+  "coordinates": {
+    "lat": 39.3782624,
+    "lon": -31.1781975
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    9000,
+    18000,
+    36000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f4dcd2e5a2217bdd412e8917ed8886b3"
+  ],
+  "start_date": "2025-05-31",
+  "end_date": "2025-05-31",
+  "circuit": [],
+  "description": "\n<p>A segunda edição do FAT, decorrerá no dia 31 de maio de 2025 contando com três provas de trail run, de 36km, 18km, 09km respectivamente e uma caminhada de 09km.</p>\n\n\n",
+  "description_short": "Trail run na região com provas de diferentes distâncias e caminhada inclusiva",
+  "page": "https://acorrer.pt/eventos/3814/info",
+  "slug": "farol-adventure-trail-flores-azores-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Flores",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

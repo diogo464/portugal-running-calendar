@@ -1,0 +1,35 @@
+{
+  "id": 271,
+  "name": "Meia Maratona dos Descobrimentos",
+  "location": "Belém, Lisboa",
+  "coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    10000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/b4cd8390c30eea92ce85f5e4f6bbf9be"
+  ],
+  "start_date": "2019-12-08",
+  "end_date": "2019-12-09",
+  "circuit": [],
+  "description": "<p>A Meia Maratona dos Descobrimentos realiza-se em Dezembro, um mês propício à prática de corridas de rua de longa distância e, talvez, uma das últimas oportunidades para correr ao ar livre na Europa antes da chegada do inverno. As ruas da cidade de Lisboa, os monumentos históricos, a arquitectura contemporânea, os espaços verdes, tudo isto será o palco para esta meia maratona. O evento também tem uma distância de 10 km e uma Caminhada de 4Km. Venham descobrir Lisboa!</p>\n<p><a href=\"http://www.meiamaratonadosdescobrimentos.com/classificaccedilotildees.html\" target=\"_blank\" rel=\"noopener\">Classificações</a></p>\n<p>&nbsp;</p>\n",
+  "description_short": "Meia maratona histórica por Lisboa com passagem por monumentos e espaços emblemáticos da cidade",
+  "page": "http://www.meiamaratonadosdescobrimentos.com/",
+  "slug": "meia-maratona-dos-descobrimentos",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

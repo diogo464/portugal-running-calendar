@@ -1,0 +1,29 @@
+{
+  "id": 772,
+  "name": "Trail Marvão",
+  "location": "Santo António das Areias Areias, Portalegre",
+  "coordinates": {
+    "lat": 39.4100083,
+    "lon": -7.3408535
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d8748fa1b6dd512fdca47e1f9dc83472"
+  ],
+  "start_date": "2020-02-16",
+  "end_date": "2020-02-17",
+  "circuit": [],
+  "description": "<p align=\"justify\">A mítica Sede do Grupo Desportivo Arenense, situada na bonita aldeia de Santo António das Areias, outrora palco de inúmeros eventos sociais e recreativos, será em 16 de Fevereiro de 2020, o centro nevrálgico do Trail Marvão.</p>\n<p align=\"justify\">Tudo está a ser estudado e testado atempadamente para que os atletas desfrutem de um evento, que irá ser marcante.</p>\n<p align=\"justify\">Trilhos, veredas, atalhos graníticos a serpentear a paisagem, pincelada aqui e ali pela presença humana desde tempos remotos: Distinguem-se facilmente marcas do período Pré Histórico, do Romano, do Medieval até aos dias de hoje, tudo preservado, em consonância com a natureza, ainda imaculada&#8230;vai querer perder??</p>\n<p align=\"justify\">Estejam atentos à página!</p>\n",
+  "description_short": "Trail histórico pelos trilhos graníticos de Marvão, com passagem por paisagens ancestrais de Santo António das Areias.",
+  "page": "https://www.prozis.com/pt/pt/evento/trail-marvao-2020",
+  "slug": "trail-marvao",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Marvão",
+  "administrative_area_level_3": "Santo António das Areias",
+  "district_code": 12
+}

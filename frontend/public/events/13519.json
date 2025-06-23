@@ -1,0 +1,30 @@
+{
+  "id": 13519,
+  "name": "Trail Running Trilho Dos Dinossauros 2022",
+  "location": "Lourinhã, Lisboa",
+  "coordinates": {
+    "lat": 39.2425234,
+    "lon": -9.3132718
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3e8450eb42dd7b14ac58b08a2b6d633e"
+  ],
+  "start_date": "2022-03-06",
+  "end_date": "2022-03-07",
+  "circuit": [],
+  "description": "\n<p>A Trail Running Trilho Dos Dinossauros 2022 será realizado no dia 06 de Março de 2022, com partida<br>e chegada na Praia da Areia Branca / Foz coordenadas 39°15&#8217;51.90&#8243;N 9°20&#8217;04.68&#8243;W, com<br>início previsto para as 09H00 para as provas principais.<br>Trata-se de um evento misto com três distâncias de trail e uma de caminhada em ambiente natural,<br>por entre paisagens deslumbrantes, arribas, praia, com passagem por pontos históricos do<br>concelho da Lourinhã, com surpresas para todos os participantes no decorrer da prova.</p>\n",
+  "description_short": "Trail histórico pela zona costeira da Lourinhã com passagem por paisagens deslumbrantes e pontos de interesse cultural",
+  "page": "https://www.trilhoperdido.com/evento/Trilho-dos-Dinossauros-2022",
+  "slug": "trail-running-trilho-dos-dinossauros-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de Lourinhã e Atalaia",
+  "district_code": 11
+}

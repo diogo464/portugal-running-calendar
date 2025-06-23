@@ -1,0 +1,33 @@
+{
+  "id": 35850,
+  "name": "Amizade Néo Run 2024",
+  "location": "Santiago da Guarda, Ansião",
+  "coordinates": {
+    "lat": 39.9474881,
+    "lon": -8.480751099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "trail"
+  ],
+  "images": [
+    "media/0bd0e2a54ba88e9eb2726e28ff7ddf96"
+  ],
+  "start_date": "2024-07-19",
+  "end_date": "2024-07-19",
+  "circuit": [],
+  "description": "\n<p>Bem-vindos à Amizade Néon Run, uma celebração única e vibrante que fará parte da Festa da Amizade na freguesia de Santiago da Guarda! Organizada pelo CAAS EVENTS, esta prova será realizada no dia 19 de julho de 2024 e promete proporcionar uma experiência inesquecível cheia de cores fotoluminescentes e luminescentes.</p>\n\n\n\n<p>O CAAS – Centro de Amizade e Animação Social é uma organização associativa de cariz recreativo, desportivo, cultural e também social (IPSS) com sede em Santiago da Guarda (Ansião – Leiria).</p>\n\n\n\n<p>Diferente da tradicional Néon Run, a Amizade Néon Run terá lugar num cenário espetacular de trilhos de montanha, oferecendo aos participantes um ambiente natural e deslumbrante para explorar à noite. Esta prova é desenhada para ser uma festa sem caráter competitivo, onde o foco principal é a diversão, a amizade e a celebração.</p>\n\n\n",
+  "description_short": "Corrida noturna com elementos néon em trilhos de montanha na Serra de Leiria",
+  "page": "https://www.queroir.pt/amizadeneonrun2024",
+  "slug": "amizade-neo-run-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Santiago da Guarda",
+  "district_code": 10
+}

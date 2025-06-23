@@ -1,0 +1,34 @@
+{
+  "id": 37619,
+  "name": "Trail Solidário Coelheira 2024",
+  "location": "Coelheira, São Pedro do Sul",
+  "coordinates": {
+    "lat": 40.82683919999999,
+    "lon": -8.1479629
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    9000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/84fe772d0907077bf5bec48e0b4db5e2"
+  ],
+  "start_date": "2024-11-10",
+  "end_date": "2024-11-10",
+  "circuit": [],
+  "description": "\n<p>O GTT.SPS &#8211; Grupo Todo Terreno de São Pedro do Sul, vai realizar no dia 10 de Novembro de 2024 uma prova de trail 100% solidário na Coelheira – Parque da Fraguinha.<br>O objetivo deste trail é permitir a reflorestação da Serra da Arada e doar o valor das inscrições aos Bombeiros. Este evento é constituído por 2 provas: prova de TRAIL com cerca de 12Km e uma CAMINHADA com 9 Km.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário na Serra da Arada para reflorestação e apoio aos Bombeiros de São Pedro do Sul",
+  "page": "https://stopandgo.net/events/trail-100-solidario-coelheira-parque-da-fraguinha",
+  "slug": "trail-100-solidario-coelheira-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de Carvalhais e Candal",
+  "district_code": 18
+}

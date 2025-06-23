@@ -1,0 +1,36 @@
+{
+  "id": 37355,
+  "name": "Ultra Trail Serra da Freita 2025",
+  "location": "Arouca, Aveiro",
+  "coordinates": {
+    "lat": 40.9312766,
+    "lon": -8.237704899999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    19000,
+    31000,
+    65000,
+    100000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/bc90dcb485c6d79dd02008586d58e302"
+  ],
+  "start_date": "2025-06-21",
+  "end_date": "2025-06-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A Confraria Trotamontes em parceria com a Câmara de Arouca vai realizar a XIX Edição do Ultra Trail Serra da Freita, que decorrerá a 21 e 22 de Junho, em Arouca.</p>\n\n\n\n<p><br>A XIX Edição do evento Ultra Trail Serra da Freita será constituída por quatro provas:<br>● ELITE TRAIL SERRA DA FREITA 100KM &#8211; ETSF100<br>● ULTRA TRAIL SERRA DA FREITA 65KM &#8211; UTSF65<br>● TRAIL SERRA DA FREITA 31KM – TSF31<br>● MINI-TRAIL SERRA DA FREITA 19KM – MTSF19<br>Paralelamente ao evento haverá:<br>● ExpoTrail da Freita &#8211; uma exposição de material de desporto</p>\n",
+  "description_short": "Trail desafiante pela Serra da Freita com quatro provas de diferentes distâncias em Arouca",
+  "page": "https://stopandgo.net/events/ultra-trail-serra-da-freita-2025",
+  "slug": "ultra-trail-serra-da-freita-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Arouca",
+  "administrative_area_level_3": "Arouca",
+  "district_code": 1
+}

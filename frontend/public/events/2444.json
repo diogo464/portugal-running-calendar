@@ -1,0 +1,36 @@
+{
+  "id": 2444,
+  "name": "Por + saúde",
+  "location": "Portugal",
+  "coordinates": {
+    "lat": 39.39987199999999,
+    "lon": -8.224454
+  },
+  "country": "Portugal",
+  "locality": "Portugal",
+  "distances": [
+    3000,
+    5000,
+    7000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/ace752c45fca59f592ccb03ca47deb1e"
+  ],
+  "start_date": "2021-04-30",
+  "end_date": "2021-05-01",
+  "circuit": [],
+  "description": "\n<p>Vem connosco caminhar ou correr virtualmente, ajuda-nos a concluir o nosso projeto final de curso. CAMINHADA DE 5 KM? OU CORRIDA DE 3 OU 7 KM?<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"🏃‍♀️\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tc2/1.5/16/1f3c3_200d_2640.png\">QUERES SABER COMO FUNCIONA? Podes escolher o dia e a hora (30 de abril, 1 e 2 de maio), basta saíres de casa, fazeres um percurso e enviares-nos a foto onde se possa verificar a distância e o tempo da tua prova, e já está! Inscreve-te no link abaixo<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"👇\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/ta8/1.5/16/1f447.png\">.</p>\n",
+  "description_short": "Caminhada e corrida virtual com flexibilidade de datas e distâncias para projeto académico",
+  "page": "https://pormaissaudee.wixsite.com/pormaissaude-1/detalhes-do-evento",
+  "slug": "por-saude",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

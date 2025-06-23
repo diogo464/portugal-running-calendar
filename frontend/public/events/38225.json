@@ -1,0 +1,34 @@
+{
+  "id": 38225,
+  "name": "Trail dos Reis &#8211; Baltar 2025",
+  "location": "Baltar, Paredes",
+  "coordinates": {
+    "lat": 41.1926727,
+    "lon": -8.3884721
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/c93541bfef90a6f7e77b23b61af66f90"
+  ],
+  "start_date": "2025-01-05",
+  "end_date": "2025-01-06",
+  "circuit": [],
+  "description": "\n<p>O II Trail dos Reis é organizado pela Associação Humanitária dos Bombeiros Voluntários de Baltar e realizar-se-á no dia 05 de janeiro de 2025, no quartel dos Bombeiros Voluntários de Baltar.</p>\n\n\n\n<p><br>O evento realizar-se-á independentemente das condições climatéricas do dia, desde que a organização entenda que não haja risco para os participantes. A organização irá acompanhar, em permanência, a evolução das condições climatéricas podendo anular a prova em qualquer altura.</p>\n\n\n\n<p>O II Trail dos Reis será constituído por 3 percursos:<br>o Trail Longo – com cerca de 25km<br>o Trail Curto – com cerca de 15 km<br>o Caminhada – com cerca de 8km</p>\n\n\n\n<p></p>\n\n\n\n<p><a href=\"https://drive.google.com/file/d/1B7_OVi9_CodHtMNov555dwa3mYkpfT0f/view?usp=sharing\" target=\"_blank\" rel=\"noopener\">Regulamento</a></p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail dos Reis em Baltar com três percursos organizados pelos Bombeiros Voluntários locais",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLSc7JOyb56rj5WUCmUDJ-Ojm9NkuZ_at-IB1yJinm_7IotHxCA/viewform",
+  "slug": "trail-dos-reis-baltar-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Baltar",
+  "district_code": 13
+}

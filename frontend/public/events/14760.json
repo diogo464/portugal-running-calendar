@@ -1,0 +1,32 @@
+{
+  "id": 14760,
+  "name": "Corrida Saúde + Solidária 2022",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/f2f1aad367309bbc1a2085ebac04ac61"
+  ],
+  "start_date": "2022-04-30",
+  "end_date": "2022-05-01",
+  "circuit": [],
+  "description": "\n<p>A <strong>Corrida Saúde + Solidária 2022</strong> é uma atividade sem fins lucrativos desenvolvida pela <strong>Associação de Estudantes da Faculdade de Medicina de Lisboa (AEFML)</strong> que tem como meta traçada, desde a sua conceção inicial, a criação de laços entre a promoção da saúde e a vertente solidária, que caracteriza a AEFML. É uma atividade exclusivamente organizada por alunos de <strong>Medicina da Universidade de Lisboa. ​</strong></p>\n",
+  "description_short": "Corrida solidária organizada por estudantes de Medicina da Universidade de Lisboa em prol da promoção da saúde",
+  "page": "https://xistarca.pt/eventos/corrida-saude-solidaria-2022",
+  "slug": "corrida-saude-solidaria-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

@@ -1,0 +1,35 @@
+{
+  "id": 23276,
+  "name": "Ria Race – Vagueira 2023",
+  "location": "Gafanha Da Boa Hora, Vagos da",
+  "coordinates": {
+    "lat": 40.548761,
+    "lon": -8.7572321
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    6000,
+    12000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/2863eeb0bee6c0e0978050457f407505"
+  ],
+  "start_date": "2023-06-18",
+  "end_date": "2023-06-19",
+  "circuit": [],
+  "description": "\n<p>O Ria Race – Vagueira 2023, é organizado pela Always Young ADRC (Associação Desportiva, Recreativa e Cultural) em parceria com a Câmara Municipal de Vagos.<br>A prova (corrida; caminhada) será composta por dois circuitos distintos, ambos com chegada no Largo Parracho Branco-Vagueira.</p>\n\n\n\n<p>A corrida, partirá do centro da Zona Industrial de Vagos, junto ao Edifício sede do Neva.<br>A caminhada, partirá do Largo Parracho Branco-Vagueira.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Corrida 12Km – Percurso não circular com distância aproximada de 12km e passagem pela praia (areia).</li>\n\n\n\n<li>Caminhada 6Km – Percurso circular com distância aproximada de 6km e passagem pela praia (areia)<br>A Organização, por motivos de força maior, poderá ser forçada a alterar o percurso e as respetivas distâncias previstas.</li>\n</ul>\n",
+  "description_short": "Corrida e caminhada na região da Ria de Aveiro com passagem pela praia da Vagueira",
+  "page": "https://www.runmanager.net/Eventos/ria-race-vagueira-2023/711",
+  "slug": "ria-race-vagueira-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vagos",
+  "administrative_area_level_3": "Gafanha da Boa Hora",
+  "district_code": 1
+}

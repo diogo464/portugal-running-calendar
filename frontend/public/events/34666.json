@@ -1,0 +1,32 @@
+{
+  "id": 34666,
+  "name": "Uchalá que seja O Último 2024",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/64aa1f654ce9d9618d033cd5ad0ddd84"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-08",
+  "circuit": [],
+  "description": "\n<p>“UchaLá que seja o Último! (Último Vence) – Esta prova Trail é uma corrida onde todos chegam ao fim, mas apenas um pode vencer! No início de cada volta, todos estão novamente em 1º lugar. Um evento que junta, desporto, natureza, convívio e limites, num desafio que cada um coloca a si mesmo.</p>\n\n\n\n<p>Percurso é circular.<br>Com cerca de 5 km com 191 d+.</p>\n\n\n",
+  "description_short": "Trail desafiante com conceito inovador onde cada volta coloca todos em igualdade competitiva",
+  "page": "https://acorrer.pt/eventos/info/3498",
+  "slug": "uchala-que-seja-o-ultimo-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

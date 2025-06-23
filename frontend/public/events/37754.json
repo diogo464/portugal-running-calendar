@@ -1,0 +1,32 @@
+{
+  "id": 37754,
+  "name": "Corrida de São Martinho &#8211; Adriano Valente 2024",
+  "location": "Cabeceiras de Basto, Braga",
+  "coordinates": {
+    "lat": 41.5116939,
+    "lon": -7.9979753
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/812903b9a4d5427e89b5e85a41227433"
+  ],
+  "start_date": "2024-11-10",
+  "end_date": "2024-11-11",
+  "circuit": [],
+  "description": "\n<p>A 9ª Corrida de São Martinho – Adriano Valente é organização do grupo de corrida Arco4Run e da Associação Festeiros do Arco, com o apoio da União de Freguesias de Arco de Baúlhe e Vila Nune e Camara Municipal de Cabeceiras de Basto. </p>\n\n\n\n<p>A prova realiza-se no dia 10 de novembro de 2024, pelas 10h30m, com partida e chegada na Rua de Arco de Baúlhe.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida tradicional de São Martinho em Arco de Baúlhe com apoio local",
+  "page": "https://www.desportave.pt/events.file.php?cid=186",
+  "slug": "corrida-de-sao-martinho-adriano-valente-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Cabeceiras de Basto",
+  "administrative_area_level_3": "Refojos de Basto",
+  "district_code": 3
+}

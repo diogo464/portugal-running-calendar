@@ -1,0 +1,32 @@
+{
+  "id": 23983,
+  "name": "3º Trail São Gonçalo Floki 2023",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/523084cd4dc85eca125485c6ac5c9840"
+  ],
+  "start_date": "2023-09-17",
+  "end_date": "2023-09-18",
+  "circuit": [],
+  "description": "\n<p>O “3º TRAIL SÃO GONÇALO FLOKI”, um evento de trail-running que percorre trilhos e caminhos no conselho da Barcelos. As corridas têm carácter competitivo e a caminhada sem carater competitivo. A Caminhada está aberta a menores (a partir dos 10 anos) desde que acompanhados por um adulto.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos históricos de Barcelos com percurso para todas as idades",
+  "page": "https://www.sinctime.com/evento/160",
+  "slug": "3o-trail-sao-goncalo-floki-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

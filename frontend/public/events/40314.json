@@ -1,0 +1,36 @@
+{
+  "id": 40314,
+  "name": "Barreiro Machada Trail Noturno 2025",
+  "location": "Mata Nacional da Machada, Barreiro",
+  "coordinates": {
+    "lat": 38.6141071,
+    "lon": -9.0458465
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    1000,
+    9000,
+    12000,
+    17000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/0b8ebace12b51fffdd66e0092f0a08ac"
+  ],
+  "start_date": "2025-03-15",
+  "end_date": "2025-03-15",
+  "circuit": [],
+  "description": "\n<p><strong>Partida e chegada</strong>&nbsp;|&nbsp;Mata Nacional da Machada, Barreiro</p>\n\n\n\n<p>» Trail Kids 1km<br>» Trail Sprint 12km<br>» Caminhada 9km<strong><br></strong>» Trail Longo 17km</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail na Mata Nacional da Machada com percursos para todas as idades e níveis de experiência",
+  "page": "https://xistarca.pt/eventos/barreiro-machada-trail-noturno-2025",
+  "slug": "barreiro-machada-trail-noturno-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "União das freguesias de Palhais e Coina",
+  "district_code": 15
+}

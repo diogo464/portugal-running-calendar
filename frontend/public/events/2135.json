@@ -1,0 +1,32 @@
+{
+  "id": 2135,
+  "name": "22ª edição do Grande Prémio de Atletismo da Pascoa 2020",
+  "location": "Vila Nova do Campo, Santo Tirso",
+  "coordinates": {
+    "lat": 41.3524242,
+    "lon": -8.358134399999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/82f9bc4a301e63492b595e73e937fc1c"
+  ],
+  "start_date": "2020-02-27",
+  "end_date": "2020-02-28",
+  "circuit": [],
+  "description": "<p data-reactid=\"134\">Será em Vila Nova do Campo (Santo Tirso) que decorrerá a 22ª edição do Grande Prémio de Atletismo, entre amêndoas e os festejos religiosos da Páscoa, sendo já uma referência na região do Porto. Seja jovem ou de mais idade, venha correr e viver a Páscoa com as suas pernas.</p>\n<h3 data-reactid=\"136\">Organizador</h3>\n<p data-reactid=\"137\">Clube Desportivo de São Salvador do Campo</p>\n<p>&nbsp;</p>\n",
+  "description_short": "Corrida de Páscoa tradicional em Vila Nova do Campo, Santo Tirso, entre amêndoas e celebrações religiosas",
+  "page": null,
+  "slug": "22a-edicao-do-grande-premio-de-atletismo-2020",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Vila Nova do Campo",
+  "district_code": 13
+}

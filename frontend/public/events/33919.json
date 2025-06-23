@@ -1,0 +1,33 @@
+{
+  "id": 33919,
+  "name": "Trail Barracas de Pedra 2024",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    11000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/1afdb4a294aac1b781101b4e2eea9bc8"
+  ],
+  "start_date": "2024-05-26",
+  "end_date": "2024-05-27",
+  "circuit": [],
+  "description": "\n<p> 7º Trail Barracas de Pedra será realizado no dia 26 de Maio de 2024, na Aldeia da Povoa da Lomba – Cantanhede, “casa” da equipa de Trail / Atletismo S. C. Povoense – Caracóis de Corrida.<br>Este evento de Trail em estado puro será composto por um Trail Curto com cerca de 20 Kms, por um Sprint Trail (prova que faz parte do Circuito Distrital de Sprint Trail – CDTRC) com cerca de 11 Kms e por uma Caminhada Trail com cerca 11 kms.<br>Trata se de uma organização da equipa de Trail / Atletismo S. C. Povoense – Caracóis de Corrida, com o apoio do Sporting Clube Povoense, Município de Cantanhede, União de Freguesias Cantanhede – Pocariça entre outros.<br>Inscrição:<br>TRAIL CURTO K20 &#8211; €16<br>SPRINT TRAIL K11 – €12,5 (Exclusivamente para atletas ADAC)<br>SPRINT TRAIL K11 – €14<br>CAMINHADA TRAIL K11 – €10</p>\n",
+  "description_short": "Trail desafiante pela região de Cantanhede com provas de diferentes distâncias na Aldeia da Povoa da Lomba",
+  "page": "https://www.runmanager.net/Eventos/vii-trail-barracas-de-pedra/791",
+  "slug": "trail-barracas-de-pedra-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

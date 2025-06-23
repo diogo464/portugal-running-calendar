@@ -1,0 +1,30 @@
+{
+  "id": 39835,
+  "name": "Corrida Brutos dos Queixos 2025",
+  "location": "Turquel, Alcobaça",
+  "coordinates": {
+    "lat": 39.4610579,
+    "lon": -8.957657099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [],
+  "start_date": "2025-06-10",
+  "end_date": "2025-06-10",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Desculpe, mas não consegui identificar o texto da descrição da corrida. Para poder ajudar a gerar um resumo conciso, precisaria que me fornecesse a descrição completa do evento.",
+  "page": "https://www.recordepessoal.pt/evento/corridabrutosdosqueixos2025",
+  "slug": "corrida-dos-brutos-dos-queixos-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Turquel",
+  "district_code": 10
+}

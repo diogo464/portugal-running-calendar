@@ -1,0 +1,35 @@
+{
+  "id": 24436,
+  "name": "Ultra Trail Tierra de Miranda 2023",
+  "location": "Picote, Miranda do Douro",
+  "coordinates": {
+    "lat": 41.400112,
+    "lon": -6.3704778
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000,
+    20000,
+    45000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b1bc38c33494ae393aacfd21e229bdaa"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>O Clube Desportivo de Miranda do Douro apresenta um dos maiores eventos do ano para a modalidade de trail running do distrito de <a></a>Bragança.</p>\n\n\n\n<p>O “ULTRA TRAIL TIERRA DE MIRANDA”, organizado pela secção de atletismo do CD Miranda do Douro, contará com o apoio da Associação de Atletismo de Bragança, do Município de Miranda do Douro, Junta de Freguesia de Picote e Associação Frauga, num evento de trail running que integra 3 provas:</p>\n\n\n\n<p><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"▪\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tcd/2/16/25aa.png\"> Caminhada &#8211; 10 km em pleno convívio com a natureza</p>\n\n\n\n<p><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"▪\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tcd/2/16/25aa.png\"> Corrida curta &#8211; 20 km de adrenalina, onde vais ser posto à prova.</p>\n\n\n\n<p><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"▪\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tcd/2/16/25aa.png\"> Corrida longa &#8211; 45 km de superação, onde vais descobrir os teus limites!</p>\n\n\n",
+  "description_short": "Trail running pelo distrito de Bragança com vista para a paisagem natural de Miranda do Douro",
+  "page": "https://inscripciones.runvasport.es/inscripcion/ultra-trail-tierra-de-miranda/",
+  "slug": "ultra-trail-tierra-de-miranda-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Miranda do Douro",
+  "administrative_area_level_3": "Picote",
+  "district_code": 4
+}

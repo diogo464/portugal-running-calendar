@@ -1,0 +1,29 @@
+{
+  "id": 583,
+  "name": "Corrida dos Reis",
+  "location": "Paredes, Porto",
+  "coordinates": {
+    "lat": 41.2051674,
+    "lon": -8.3303867
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/3bacd23c6033ac73d9c78ab85a7dacf8"
+  ],
+  "start_date": "2020-01-18",
+  "end_date": "2020-01-19",
+  "circuit": [],
+  "description": "<p>Entre no novo ano com o pé direito e visite a cidade de Paredes na já habitual Corrida dos Reis. A Corrida dos Reis em Paredes é já uma das provas de referência do género em Portugal.</p>\n",
+  "description_short": "Corrida tradicional de Ano Novo pelas ruas de Paredes com ambiente festivo e histórico",
+  "page": "https://lap2go.com/pt/event/corrida-reis-paredes-2020",
+  "slug": "corrida-dos-reis-2",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Paredes",
+  "district_code": 13
+}

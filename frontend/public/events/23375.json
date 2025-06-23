@@ -1,0 +1,30 @@
+{
+  "id": 23375,
+  "name": "Viii Corrida Da Liberdade Trancoso 2023",
+  "location": "Trancoso, Guarda",
+  "coordinates": {
+    "lat": 40.7787604,
+    "lon": -7.3491442
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/27b2a6b0f903ef1a73f5a7721e70680f"
+  ],
+  "start_date": "2023-04-25",
+  "end_date": "2023-04-26",
+  "circuit": [],
+  "description": "\n<p>A Corrida da Liberdade, de Trancoso, integra-se nas Comemorações dos 49 anos da revolução de 25 de Abril e irá disputar-se no dia 25 de Abril de 2023, no centro Histórico da Cidade de Trancoso com provas para todos os escalões etários/sexo.</p>\n\n\n\n<p><strong>As Provas do Programa, com Partidas e Chegadas no Largo D. Dinis, terão início a partir das 10h30’.</strong></p>\n\n\n\n<p>Esta Corrida é uma Organização da&nbsp;<strong>Câmara Municipal de Trancoso</strong>&nbsp;e conta com a Colaboração da&nbsp;<strong>União de Freguesias de Trancoso e Souto Maior</strong>,&nbsp;<strong>Grupo Desportivo de Trancoso</strong>&nbsp;e o Apoio Técnico da&nbsp;<strong>Associação de Atletismo da Guarda</strong>&nbsp;. Contará, ainda, com o Apoio dos&nbsp;<strong>Bombeiros Voluntários de Trancoso</strong>&nbsp;e de outras entidades da região a discriminar.</p>\n\n\n\n<p>A participação está aberta a atletas federados e não federados, de ambos os sexos, em representação individual e coletiva.</p>\n\n\n\n<p><strong>A participação é gratuita, sendo a inscrição obrigatória através dos meios disponibilizados.</strong></p>\n\n\n\n<p><strong>Haverá um Almoço Convívio a partir das 13h00’, para todos os participantes.</strong></p>\n\n\n",
+  "description_short": "Corrida da Liberdade em Trancoso celebra 49 anos do 25 de Abril no centro histórico da cidade",
+  "page": "https://werun.pt/eventos/viii-corrida-da-liberdade-trancoso/",
+  "slug": "viii-corrida-da-liberdade-trancoso-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Trancoso",
+  "administrative_area_level_3": "União das freguesias de Trancoso (São Pedro e Santa Maria) e Souto Maior",
+  "district_code": 9
+}

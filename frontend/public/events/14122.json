@@ -1,0 +1,36 @@
+{
+  "id": 14122,
+  "name": "Meia Maratona de Braga 2022",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    6000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/82e471e6ca1418454ccbfd6b831ae23e"
+  ],
+  "start_date": "2022-04-03",
+  "end_date": "2022-04-04",
+  "circuit": [],
+  "description": "\n<p>A Caravela Seguros Meia Maratona de Braga 2022 está de volta em 2022 para a sua 6ª edição!</p>\n\n\n\n<p>Este ano a prova volta ao seu calendário habitual e tem data marcada para 3 de abril, com a partida marcada para as 9h30.</p>\n\n\n\n<p>Seja na prova principal de 21 km, seja na prova de 6 km, não deixe de participar e praticar desporto na fantástica cidade de Braga.</p>\n\n\n\n<p>Garanta já a sua inscrição!</p>\n",
+  "description_short": "Meia maratona tradicional pela histórica cidade de Braga",
+  "page": "https://www.runporto.com/pt/eventos/meia-maratona-de-braga/meia-maratona-de-braga-2022/",
+  "slug": "meia-maratona-de-braga-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

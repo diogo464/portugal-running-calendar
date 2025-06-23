@@ -1,0 +1,32 @@
+{
+  "id": 15033,
+  "name": "Aquae Flaviae Night Running 2022",
+  "location": "Chaves, Vila Real",
+  "coordinates": {
+    "lat": 41.7158962,
+    "lon": -7.4814163
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/dbfb4b059d5ff7d14eed2ef9d0c43d88"
+  ],
+  "start_date": "2022-07-16",
+  "end_date": "2022-07-17",
+  "circuit": [],
+  "description": "\n<p>Aquae Flaviae Night Running 2022</p>\n",
+  "description_short": "Trail nocturno pelas ruas históricas de Chaves com passagem junto à antiga vila romana",
+  "page": "http://cyclonessports.com/index.php/239-6-aquae-flaviae-night-running",
+  "slug": "aquae-flaviae-night-running-2022",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Chaves",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

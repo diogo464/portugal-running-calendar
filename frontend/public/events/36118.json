@@ -1,0 +1,32 @@
+{
+  "id": 36118,
+  "name": "Meia Maratona São João das Lampas 2024",
+  "location": "São João Das Lampas, Lisboa",
+  "coordinates": {
+    "lat": 38.8744196,
+    "lon": -9.3986994
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/cbb25db697d28bc2ca0dbfbb77d43581"
+  ],
+  "start_date": "2024-09-28",
+  "end_date": "2024-09-29",
+  "circuit": [],
+  "description": "\n<p>Está à porta a 46ª Meia Maratona de S. João das Lampas, a Meia da região saloia e a segunda mais antiga do País na distância, conhecida pelo seu perfil em carrocel e por ser exigente e selectiva, mas amada por muitos. E o facto de sabermos que há muita gente a gostar de nós, é o que mais nos anima a manter no calendário esta prova de tradição, já quarentona.</p>\n",
+  "description_short": "Meia maratona tradicional em S. João das Lampas com percurso desafiante e histórico da região saloia",
+  "page": "https://lap2go.com/pt/event/mm-sao-joao-das-lampas-2024",
+  "slug": "meia-maratona-sao-joao-das-lampas-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

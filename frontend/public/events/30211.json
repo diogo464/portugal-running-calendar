@@ -1,0 +1,35 @@
+{
+  "id": 30211,
+  "name": "Minho e Lima Trail 2024",
+  "location": "Ponte de Lima, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7622565,
+    "lon": -8.5832339
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    16000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/9c8e57887844d5182abfd5643e3c846e"
+  ],
+  "start_date": "2024-02-25",
+  "end_date": "2024-02-26",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O “VII Minho e Lima Trail” é um evento organizado pela Associação Minho e Lima Trail, com o apoio e colaboração do Municipio de Ponte de Lima, das Juntas de Freguesia de Arca e Ponte de Lima, Fornelos e Queijada,Boalhosa, Serdedelo e Ribeira e com o apoio de várias empresas locais.</p>\n\n\n\n<p><br>A VII edição do MLT integra o Circuito Nacional de Trail e o Circuito Nacional de Trail de Sprint, nas séries 150 e séries 100, respetivamente. c. O evento será realizado no dia 25 de fevereiro de 2024, na vila de Ponte<br>de Lima e apresentará três provas distintas:<br>&#8211; Trail Longo com a distância aproximada de 30 km – Séries 150 ATRP;<br>&#8211; Trail Curto com a distância aproximada de 16 km – Séries 100 ATRP;</p>\n",
+  "description_short": "Trail tradicional pelas paisagens do Minho, integrando circuitos nacionais em Ponte de Lima",
+  "page": "http://cyclonessports.com/index.php/296-vii-minho-e-lima-trail",
+  "slug": "minho-e-lima-trail-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Arca e Ponte de Lima",
+  "district_code": 16
+}

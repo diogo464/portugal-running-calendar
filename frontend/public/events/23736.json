@@ -1,0 +1,34 @@
+{
+  "id": 23736,
+  "name": "1ª Corrida Santo António 2023",
+  "location": "Nine, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.4623472,
+    "lon": -8.5492302
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/51e7fbbb0d5aa2768d524da9ab480c47"
+  ],
+  "start_date": "2023-07-15",
+  "end_date": "2023-07-16",
+  "circuit": [],
+  "description": "\n<p>1º Corrida Santo António – 15 de julho de 2023</p>\n\n\n\n<p>Prova de Estrada, enquadrada em provas abertas</p>\n\n\n\n<p>Distâncias:</p>\n\n\n\n<p>&nbsp; &nbsp; &nbsp;Prova competitiva 10kms&nbsp;</p>\n\n\n\n<p>&nbsp; &nbsp; &nbsp;Caminhada – 5Kms</p>\n\n\n\n<p>&nbsp; &nbsp; &nbsp;Local: Largo STO António, Nine, Vila Nova de Famalicão</p>\n\n\n",
+  "description_short": "Corrida festiva de Santo António em Nine com prova competitiva e caminhada solidária",
+  "page": "https://www.sinctime.com/evento/152",
+  "slug": "1a-corrida-santo-antonio-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Nine",
+  "district_code": 3
+}

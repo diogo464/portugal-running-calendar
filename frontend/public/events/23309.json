@@ -1,0 +1,34 @@
+{
+  "id": 23309,
+  "name": "IV Salinas Sunset Run &#8211; Alcochete 2023",
+  "location": "Alcochete, Setúbal",
+  "coordinates": {
+    "lat": 38.7560205,
+    "lon": -8.9603438
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2941a22c85c8819fd673e671414851c1"
+  ],
+  "start_date": "2023-05-20",
+  "end_date": "2023-05-21",
+  "circuit": [],
+  "description": "\n<p>O “Salinas Sunset Run” é um evento no âmbito do desporto amador e do turismo de natureza;<br>Esta iniciativa é organizada pelo sector do Desporto do Município de Alcochete;<br>O “Salinas Sunset Run” será composto por um percurso de 6 km para a Caminhada e por um de 10km para Corrida.</p>\n\n\n",
+  "description_short": "Corrida e caminhada ao pôr-do-sol nas salinas de Alcochete, com vista para a natureza local",
+  "page": "https://acorrer.pt/eventos/info/3198",
+  "slug": "iv-salinas-sunset-run-alcochete-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcochete",
+  "administrative_area_level_3": "Alcochete",
+  "district_code": 15
+}

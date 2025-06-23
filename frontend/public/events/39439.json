@@ -1,0 +1,30 @@
+{
+  "id": 39439,
+  "name": "17 kms Porto de Mós 2025",
+  "location": "Porto de Mós, Leiria",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    17000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-04-18",
+  "end_date": "2025-04-19",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/17kmportodemos-serradeaire-2025",
+  "slug": "17-kms-porto-de-mos-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

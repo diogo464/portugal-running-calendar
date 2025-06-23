@@ -1,0 +1,33 @@
+{
+  "id": 9242,
+  "name": "São Silvestre de Almada 2021",
+  "location": "Almada",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/7b5c85af879538118de44012ff556d80"
+  ],
+  "start_date": "2021-12-11",
+  "end_date": "2021-12-12",
+  "circuit": [],
+  "description": "<p style=\"font-weight: 400;\">O CLUBE DE ATLETISMO AMIGOS DO PARQUE DA PAZ, em parceria com a Associação Desportiva O Mundo da Corrida e com o apoio da Câmara Municipal de Almada, vai realizar no dia 11 de Dezembro de 2021 pelas 17.30 horas, uma corrida de 10 km, denominada SÃO SILVESTRE DE ALMADA 2021</p>\n",
+  "description_short": "Corrida de São Silvestre ao final da tarde pelas ruas de Almada com organização local",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/108/",
+  "slug": "sao-silvestre-de-almada-2021",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

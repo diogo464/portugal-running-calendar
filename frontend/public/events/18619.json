@@ -1,0 +1,36 @@
+{
+  "id": 18619,
+  "name": "Trail dos Morcegos 2022",
+  "location": "São Miguel, Açores",
+  "coordinates": {
+    "lat": 37.780411,
+    "lon": -25.4970466
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    2000,
+    8000,
+    18000,
+    37000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/62b74a2577f97db40d3b1da1fd39c161"
+  ],
+  "start_date": "2022-09-24",
+  "end_date": "2022-09-25",
+  "circuit": [],
+  "description": "\n<p>O Trail dos Morcegos (TdM) é um evento de trail running que surgiu através da ideia do fundador da equipa, Ricardo Almeida, que decidiu avançar, praticamente sozinho, para a organização de uma prova que visava promover a atividade física e divulgar alguns dos espaços naturais do concelho de Ponta Delgada. A ideia do precursor era dar um carácter competitivo e lúdico ao evento, permitindo que se conjugasse o lado desportivo do trail running com a vertente de passeio ao percorrer trilhos e caminhos agrícolas nas freguesias da Relva e Feteiras.</p>\n\n\n\n<p>Para além da dureza em termos de exigência física que sempre caraterizou o TdM, a prova tem uma grande particularidade dado que a cada edição o diretor de prova é um elemento diferente da equipa dos Morcegos Trail. Atualmente, o evento faz parte da Taça de Portugal da Associação de Trail Running de Portugal, assim como, do Campeonato de Trail de Ilha de São Miguel.</p>\n\n\n\n<p>Trail Longo &#8211; 37 km</p>\n\n\n\n<p>Trail Curto &#8211; 18 km</p>\n\n\n\n<p>Caminhada &#8211; 8km (+6anos)</p>\n\n\n\n<p>Kids Juvenil &#8211; (16-17 anos) 8 km</p>\n\n\n\n<p>Kids &#8211; (6-15 anos) 2 Km</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos agrícolas de Ponta Delgada, com diferentes percursos e vertente competitiva e lúdica",
+  "page": "https://www.morcegostrail.com/",
+  "slug": "trail-dos-morcegos-2022",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

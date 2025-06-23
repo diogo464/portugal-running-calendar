@@ -1,0 +1,34 @@
+{
+  "id": 20333,
+  "name": "Trilhos Do Vinho Da Talha 2022",
+  "location": "Vidigueira, Beja",
+  "coordinates": {
+    "lat": 38.2118842,
+    "lon": -7.8005203
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    8000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c895c427521c190df471f4c1845bb1c5"
+  ],
+  "start_date": "2022-12-01",
+  "end_date": "2022-12-02",
+  "circuit": [],
+  "description": "\n<p>Integrada no Circuito de Atletismo do Concelho de Vidigueira, “O Trilhos do Vinho de Talha” em Vila de Frades é uma corrida e caminhada que se carateriza por um percurso de dificuldade média/alta e de enquadramento ímpar junto da natureza, atraindo tanto atletas regulares que procuram a sua superação, como os corredores moderados e iniciantes, partilhando todos em comum o prazer de correr.</p>\n\n\n\n<p></p>\n\n\n\n<p>O percurso competitivo tem aproximadamente 12 km de extensão, com partida às 10 horas junto à sede da Junta de Freguesia de Vila de Frades e a meta instalada junto ao CIVT (Centro Interpretativo do Vinho de Talha) em Vila de Frades depois de passagem pelo alto da serra de Sto. António, por algumas adegas e locais de interesse da freguesia e regresso a Vila de Frades. A Caminhada é um percurso de 8km (dificuldade baixa), com partida pelas 10H05 em frente à junta de freguesia.</p>\n\n\n",
+  "description_short": "Trail desafiante pela região vinícola de Vila de Frades com passagem por adegas tradicionais",
+  "page": "https://acorrer.pt/eventos/info/3052",
+  "slug": "trilhos-do-vinho-da-talha-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Vidigueira",
+  "administrative_area_level_3": "Vidigueira",
+  "district_code": 2
+}

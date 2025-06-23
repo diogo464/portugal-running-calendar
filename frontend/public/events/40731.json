@@ -1,0 +1,29 @@
+{
+  "id": 40731,
+  "name": "São Silvestre da Guarda 2025",
+  "location": "Guarda",
+  "coordinates": {
+    "lat": 40.53565589999999,
+    "lon": -7.2673073
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [],
+  "start_date": "2025-12-14",
+  "end_date": "2025-12-14",
+  "circuit": [],
+  "description": "\n<p></p>\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa condensá-la num resumo sucinto.",
+  "page": null,
+  "slug": "sao-silvestre-da-guarda-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Guarda",
+  "administrative_area_level_3": "Guarda",
+  "district_code": 9
+}

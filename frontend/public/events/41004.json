@@ -1,0 +1,31 @@
+{
+  "id": 41004,
+  "name": "Street Cross Lustosa 2025",
+  "location": "Lousada, Porto",
+  "coordinates": {
+    "lat": 41.2778714,
+    "lon": -8.2815432
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "cross-country"
+  ],
+  "images": [
+    "media/41af14851e0fdc44414f06269371c358"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [],
+  "description": "\n<p>A Associação Desportiva de Lustosa, com o apoio da Câmara Municipal de Lousada e União de Freguesias de Lustosa e Barrosas Santo Estêvão, irá organizar o 9º Street Cross Lustosa, com partida e chegada na Alameda da Igreja – Lustosa, no dia 11 de maio de 2025.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail urbano e rural em Lustosa com apoio municipal e das juntas de freguesia",
+  "page": "https://www.desportave.pt/events.file.php?cid=190",
+  "slug": "street-cross-lustosa-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Lousada",
+  "administrative_area_level_3": "União das freguesias de Cristelos, Boim e Ordem",
+  "district_code": 13
+}

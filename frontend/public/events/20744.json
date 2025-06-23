@@ -1,0 +1,36 @@
+{
+  "id": 20744,
+  "name": "Demo Trail 2023",
+  "location": "Vila Nova de Paiva, Viseu",
+  "coordinates": {
+    "lat": 40.8508324,
+    "lon": -7.7309812
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    9000,
+    15000,
+    28000,
+    43000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5645eea0ade4c07027451fa4bf48b582"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O “Demo Trail” tem como objetivo proporcionar aos atletas boas experiências pelos trilhos e caminhos do concelho de Vila Nova de Paiva. Realiza-se no dia 21 de Maio 2023 e é organizado pelo Malhadinhas Clube e conta com o apoio do Município de Vila Nova de Paiva, Juntas de Freguesia e de várias entidades.</p>\n\n\n\n<p><br>Este evento será composto por 3 provas distintas:<br>• Trail Ultra Médio (TUM) &#8211; 43km’s &#8211; É uma prova com um nível de dificuldade média/alta, com inicio ás 8:00h<br>• Trail Longo (TL) &#8211; 28Km’s &#8211; É uma prova com um nível de dificuldade média, com inicio ás 9:00h<br>• Trail Curto (TC) – 15km’s &#8211; É uma prova com baixo nível de dificuldade, com inicio ás 9:15h<br>• Caminhada – 9km’s – com início ás 9:30h</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Vila Nova de Paiva com diferentes distâncias e níveis de dificuldade",
+  "page": "https://stopandgo.net/events/demo-trail-2023",
+  "slug": "demo-trail-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vila Nova de Paiva",
+  "administrative_area_level_3": "Vila Nova de Paiva",
+  "district_code": 18
+}

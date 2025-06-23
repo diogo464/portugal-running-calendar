@@ -1,0 +1,29 @@
+{
+  "id": 39142,
+  "name": "Estrelaçor Ultra Endurance 2025",
+  "location": "Penhas da Saúde, Covilhã",
+  "coordinates": {
+    "lat": 40.3080932,
+    "lon": -7.5489823
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ec7bdb8f3c76cbd1d74910727dab9723"
+  ],
+  "start_date": "2025-10-03",
+  "end_date": "2025-10-04",
+  "circuit": [],
+  "description": "\n<p>IX edição da prova que liga duas das maiores serras portuguesas, a Estrela e o Açor. Novos percursos e algumas novidades. Teremos ainda o Campeonato Nacional de Ultra Trail Endurance XL</p>\n",
+  "description_short": "Trail épico pelas serras da Estrela e do Açor com Campeonato Nacional de Ultra Trail",
+  "page": "https://www.omdceventos.com/evento/xi-estrelacor-ultra-endurance",
+  "slug": "estrelacor-ultra-endurance-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "Cortes do Meio",
+  "district_code": 5
+}

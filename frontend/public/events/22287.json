@@ -1,0 +1,32 @@
+{
+  "id": 22287,
+  "name": "Esposende Marginal à Noite 2023",
+  "location": "Esposende, Braga",
+  "coordinates": {
+    "lat": 41.5323512,
+    "lon": -8.7830801
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/92c468461d03c8f34f8fdfe1383b5ef6"
+  ],
+  "start_date": "2023-07-08",
+  "end_date": "2023-07-09",
+  "circuit": [],
+  "description": "\n<p>A foz do rio Cávado vai ser novamente pano de fundo de um evento que iluminará as ruas da cidade de Esposende.</p>\n\n\n\n<p>A Marginal à Noite de Esposende ressurge após seis anos e volta a realizar-se dia 8 de julho de 2023, com partida marcada para as 21h30 junto às Piscinas Foz do Cávado e chegada no mesmo local.</p>\n\n\n\n<p>A prova de 8 km pode ser percorrida a correr ou a caminhar, numa noite que promete muita animação para todos. Os acessórios luminosos, os jogos de luz e som irão proporcionar aos participantes um momento de prática desportiva num ambiente de festa de verão.</p>\n\n\n",
+  "description_short": "Corrida noturna festiva à beira-rio com ambiente luminoso em Esposende",
+  "page": "https://www.runporto.com/eventos/marginal-noite-esposende/marginal-noite-esposende-2023/",
+  "slug": "esposende-marginal-a-noite-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Esposende",
+  "administrative_area_level_3": "União das freguesias de Esposende, Marinhas e Gandra",
+  "district_code": 3
+}

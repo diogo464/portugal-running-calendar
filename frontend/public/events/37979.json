@@ -1,0 +1,27 @@
+{
+  "id": 37979,
+  "name": "24 Horas a Correr Mem Martins – Sintra 2025",
+  "location": "Mem Martins Martins, Sintra",
+  "coordinates": {
+    "lat": 38.8066296,
+    "lon": -9.3294833
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2025-05-10",
+  "end_date": "2025-05-11",
+  "circuit": [],
+  "description": "\n<p>A 24 Horas a Correr de Mem Martins – Sintra, é uma prova de resistência, que se realizará em Mem Martins – Sintra, e que será composta por uma corrida de longa duração.</p>\n",
+  "description_short": "Prova de resistência única em Mem Martins com corrida de longa duração na região de Sintra",
+  "page": "https://24hlx.com/",
+  "slug": "24-horas-a-correr-mem-martins-sintra-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "Algueirão-Mem Martins",
+  "district_code": 11
+}

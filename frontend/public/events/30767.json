@@ -1,0 +1,35 @@
+{
+  "id": 30767,
+  "name": "Sesimbra Night Trail 2024",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/18ab243e11bd2dcbf1708cf4c7fdcfa9"
+  ],
+  "start_date": "2024-06-29",
+  "end_date": "2024-06-30",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A ASSOCIAÇÃO DESPORTIVA OMUNDODACORRIDA.COM, com o apoio da Câmara Municipal de Sesimbra vai realizar no próximo dia 29 de Junho de 2024 pelas 20 horas um evento denominado&nbsp;<strong>SESIMBRA NIGHT TRAIL</strong>.</p>\n\n\n\n<p>O&nbsp;<strong>Sesimbra Night Trail</strong>&nbsp; é um evento de Trail Running, que decorre no Concelho de Sesimbra&nbsp; e que integra três provas, duas competitivas e uma caminhada: +-20 km, +-10 km e +-10 km a caminhar.</p>\n",
+  "description_short": "Trail noturno pela região de Sesimbra com provas competitivas e caminhada",
+  "page": "https://www.omdceventos.com/evento/sesimbra-night-trail",
+  "slug": "sesimbra-night-trail-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

@@ -1,0 +1,34 @@
+{
+  "id": 40979,
+  "name": "Circuito de Atletismo “Vila de Odemira” 2025",
+  "location": "Odemira, Beja",
+  "coordinates": {
+    "lat": 37.6098303,
+    "lon": -8.6270628
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "kids",
+    "Milha",
+    "walk"
+  ],
+  "images": [
+    "media/7f93aeb09443a625b310785cc392c5da"
+  ],
+  "start_date": "2025-04-18",
+  "end_date": "2025-04-19",
+  "circuit": [],
+  "description": "\n<p>O Núcleo Desportivo e Cultural de Odemira em parceria com o Município de Odemira, apoio da junta de<br>Freguesia de Salvador e Santa Maria, da Caixa de Credito Agrícola de São Teotónio, do Intermarche de<br>Odemira, da empresa Vitacress, da Associação de Atletismo de Beja e dos Bombeiros Voluntários de<br>Odemira, irá levar a efeito, no dia 18 de Abril, 6ªFeira Santa, a 43ª Edição do Circuito de Atletismo “Vila<br>de Odemira” e a 17ª Edição da “Caminhada da Saúde!<br>Em simultâneo e da responsabilidade da Associação de Atletismo de Beja realiza-se o Campeonato<br>Distrital de Milha Jovem</p>\n\n\n",
+  "description_short": "Corrida tradicional em Odemira com caminhada de saúde e campeonato distrital jovem",
+  "page": "https://acorrer.pt/eventos/info/3847",
+  "slug": "circuito-de-atletismo-vila-de-odemira-2025",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Odemira",
+  "administrative_area_level_3": "São Salvador e Santa Maria",
+  "district_code": 2
+}

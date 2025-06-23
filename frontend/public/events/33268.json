@@ -1,0 +1,33 @@
+{
+  "id": 33268,
+  "name": "Forum Barreiro Night Run 2024",
+  "location": "Barreiro, Setúbal",
+  "coordinates": {
+    "lat": 38.6608149,
+    "lon": -9.0790724
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/5c43fc34ba4cbbad65c7caee0153a990"
+  ],
+  "start_date": "2024-05-25",
+  "end_date": "2024-05-26",
+  "circuit": [],
+  "description": "\n<p>O Forum Barreiro Night Run está de volta e promete bater um novo recorde de participação!</p>\n\n\n\n<p>A 9ª edição deste evento de referência, está agendada para sábado, 25 de Maio, com partida às 19h45.</p>\n\n\n\n<p>Não perca a oportunidade de correr ou caminhar à noite pelas ruas mais emblemáticas da cidade do Barreiro! A solidariedade faz, também, parte deste mega evento e 10% receita reverte para o Instituto dos Ferroviários do Barreiro.</p>\n",
+  "description_short": "Corrida noturna solidária pelas ruas emblemáticas do Barreiro com impacto social",
+  "page": "https://xistarca.pt/eventos/forum-barreiro-night-run-24",
+  "slug": "forum-barreiro-night-run-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "Barreiro",
+  "district_code": 15
+}

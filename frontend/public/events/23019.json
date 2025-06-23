@@ -1,0 +1,36 @@
+{
+  "id": 23019,
+  "name": "Corrida das Fogueiras 2023",
+  "location": "Peniche, Leiria",
+  "coordinates": {
+    "lat": 39.3603291,
+    "lon": -9.387622
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    500,
+    5000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/a513009d8ed7e02dd1eb91955ae41422"
+  ],
+  "start_date": "2023-06-24",
+  "end_date": "2023-06-25",
+  "circuit": [],
+  "description": "\n<p>Dia 24 de Junho 2023, às 21h30 o centro de Peniche receberá esta MEGA festa do atletismo.</p>\n\n\n\n<p>A CORRIDA DAS FOGUEIRAS é já uma clássica corrida de estrada, dada a simbiose existente entre o fascínio da própria corrida noturna, iluminada pelas fogueiras e a grande festa gratuita da sardinhada, após o final da prova, uma cortesia do Município de Peniche.</p>\n\n\n\n<p>Este é o desafio de Verão e terá uma grandiosa recepção num ambiente de festa e bem receber por parte da comunidade de Peniche.</p>\n\n\n\n<p>– Corrida das Fogueiras – 15k</p>\n\n\n\n<p>– Corrida das Fogueirinhas – 5k (caminhada)</p>\n\n\n\n<p>– Fogueirinhas KIDS – 500m</p>\n\n\n\n<p>História da Corrida das Fogueiras</p>\n",
+  "description_short": "Corrida noturna emblemática em Peniche com sardinhada tradicional e ambiente festivo de verão",
+  "page": "https://waitastart.com/corrida-da-fogueiras-23/",
+  "slug": "corrida-das-fogueiras-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Peniche",
+  "administrative_area_level_3": "Peniche",
+  "district_code": 10
+}

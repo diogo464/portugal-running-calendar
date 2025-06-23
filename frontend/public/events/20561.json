@@ -1,0 +1,36 @@
+{
+  "id": 20561,
+  "name": "São Silvestre de Torres Novas 2022",
+  "location": "Torres Novas, Santarém",
+  "coordinates": {
+    "lat": 39.478072,
+    "lon": -8.5404429
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/0f858734bb60dfa0d9dac6e24eac2532"
+  ],
+  "start_date": "2022-12-17",
+  "end_date": "2022-12-18",
+  "circuit": [],
+  "description": "\n<p>A Corrida de S. Silvestre de Torres Novas, a prova jovem, e a Caminhada de São Silvestre 2022, promovidas pelo Município de Torres Novas, estão marcadas para dia 17 de dezembro, sábado, com partida na Avenida Dr. João Martins de Azevedo.</p>\n\n\n\n<p>A inscrição na Corrida de São Silvestre de Torres Novas, que terá um percurso de 10 000 metros e início às 18h30, tem o custo de 5 euros e pode ser efetuada até dia 11 de dezembro.</p>\n\n\n\n<p>A Corrida tem um limite de 1500 inscritos e haverá prémios monetários para os 5 primeiros classificados individuais, masculino e feminino, entre os 100 € e os 750 €, existindo ainda medalhas para os primeiros 3 classificados em cada escalão e troféus para os três primeiros classificados da geral masculina e geral feminina.</p>\n\n\n\n<p>A prova jovem da Corrida de São Silvestre de Torres Novas é de participação gratuita, mas de inscrição obrigatória, e terá cinco percursos nos escalões de Bâmbis, Benjamins, Infantis, Iniciados, Juvenis e Juniores.</p>\n\n\n\n<p>Já a Caminhada de São Silvestre, que terá um percurso de 5000 metros, tem o custo de inscrição de 4 euros, início às 16 horas na Avenida Dr. João Martins de Azevedo, terminando a prova no Jardim das Rosas.</p>\n",
+  "description_short": "São Silvestre com corrida de 10 km e caminhada noturna no centro de Torres Novas",
+  "page": "https://cm-torresnovas.pt/index.php/sport/corrida-sao-silvestre",
+  "slug": "sao-silvestre-de-torres-novas-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

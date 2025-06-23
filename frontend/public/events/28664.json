@@ -1,0 +1,33 @@
+{
+  "id": 28664,
+  "name": "São Silvestre Sesimbra 2023",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2023-12-23",
+  "end_date": "2023-12-24",
+  "circuit": [],
+  "description": "\n\n\n<p>A São Silvestre Sesimbra está de volta no dia 23 de Dezembro.</p>\n\n\n\n<p>Devido ao enorme sucesso da edição anterior , continuamos com as nossas parcerias habituais, e, &nbsp;em conjunto com a Camara municipal de Sesimbra estamos a organizar a prova São Silvestre Sesimbra 2023.</p>\n\n\n\n<p>O evento desportivo tem um limite de participação de 500 atletas na componente de corrida e apresentamos esta ano também a possibilidade de os atletas se inscreverem na caminhada num percurso de cerca de 7km .</p>\n",
+  "description_short": "São Silvestre tradicional de Sesimbra com apoio da câmara municipal, reunindo corrida e caminhada",
+  "page": "https://saosilvestresesimbra.com/",
+  "slug": "sao-silvestre-sesimbra-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

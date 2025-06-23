@@ -1,0 +1,31 @@
+{
+  "id": 23469,
+  "name": "Trail Solidário Penela da Beira 2023",
+  "location": "Penela da Beira, Viseu",
+  "coordinates": {
+    "lat": 41.0369768,
+    "lon": -7.4219122
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6e873747c8693a720f42c28a1bfc76d6"
+  ],
+  "start_date": "2023-04-16",
+  "end_date": "2023-04-17",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de Penela da Beira realizará no próximo dia 16 de abril, um evento de cariz solidário que irá reverter para a Santa Casa da Misericórdia de Penela da Beira.</p>\n\n\n\n<p>A caminhada/mini trail foi pensada com o propósito de contribuir para esta instituição da terra, permitindo, ainda, o vislumbre das belas paisagens da freguesia a todos os interessados&nbsp;<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"🏞\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tc/1/16/1f3de.png\"></p>\n\n\n\n<p>As <strong>inscrições </strong>devem ser feitas até ao dia 12 de abril:</p>\n\n\n\n<p>NA SEDE DA JUNTA DE FREGUESIA<br>OU ATRAVÉS DE WHATSAPP (935246016)<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"📲\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/td8/1/16/1f4f2.png\"><br>OU VIA E-MAIL (freg-peneladabeira@sapo.pt)<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"✉️\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t37/1/16/2709.png\"></p>\n\n\n",
+  "description_short": "Caminhada/mini trail solidário em Penela da Beira com vista para paisagens deslumbrantes",
+  "page": null,
+  "slug": "trail-solidario-penela-da-beira-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Penedono",
+  "administrative_area_level_3": "Penela da Beira",
+  "district_code": 18
+}

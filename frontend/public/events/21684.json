@@ -1,0 +1,35 @@
+{
+  "id": 21684,
+  "name": "5ª Trail Summer Challenge Vila Galé 2023",
+  "location": "Praia Ribeira d Ilhas, Ericeira",
+  "coordinates": {
+    "lat": 38.9888836,
+    "lon": -9.4159933
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    15000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/263194778419654959fa4ce0935ad077"
+  ],
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-03",
+  "circuit": [],
+  "description": "\n<p>A 5ª edição do Trail summer challenge, vai realizar-se no dia 2 Julho 2023, na zona da praia de Ribeira d ilhas – Ericeira, independentemente das condições climatéricas desse dia, desde que a organização entenda que as mesmas não ofereçam risco algum para os participantes;</p>\n\n\n\n<p>Tem como objectivo promover as corridas de montanha/trail, desporto com um impacto ambiental nulo, e é uma forma de chamar a atenção da população para a preservação do meio ambiente, este Trail é pró-ambiente, completamente ECOLÓGICO, e está associado ao @saveour_home_ ( projecto que organiza limpezas de escolas, praia, arribas, rua, bermas, etc;</p>\n\n\n\n<p>Será constituído por 2 provas de carácter competitivo: Trail curto( +/- 15 Km), Trail longo(+/- 22 Km) e uma caminhada de lazer em homenagem a Eduarda Jacinto ( +/- 10 Km) ; as provas irão decorrer num circuito maioritariamente natural com paisagens magníficas a avistar a costa;</p>\n",
+  "description_short": "Trail ecológico pela costa da Ericeira em homenagem a Eduarda Jacinto, com provas de montanha e caminhada promocional",
+  "page": "https://www.trilhoperdido.com/evento/5-Trail-Summer-Challenge",
+  "slug": "5a-trail-summer-challenge-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Ericeira",
+  "district_code": 11
+}

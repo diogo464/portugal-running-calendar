@@ -1,0 +1,34 @@
+{
+  "id": 38337,
+  "name": "São Silvestre Mogadouro 2024",
+  "location": "Mogadouro, Bragança",
+  "coordinates": {
+    "lat": 41.3426456,
+    "lon": -6.7099863
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/79e055aa498bf1f9680916f7c12f0fec"
+  ],
+  "start_date": "2024-12-14",
+  "end_date": "2024-12-15",
+  "circuit": [],
+  "description": "\n\n\n<p>A IV Corrida São Silvestre de Mogadouro irá disputar-se no dia 14 de dezembro de 2024 nas Ruas da Vila de Mogadouro, com a Meta instalada junto ao Largo Trindade Coelho.<br>Com início às 18:00, inclui provas para todos os escalões etários/género e uma caminhada noturna.<br>Esta Corrida São Silvestre é organizada pelo Município de Mogadouro e conta com a colaboração da Associação de Atletismo de Bragança.</p>\n",
+  "description_short": "São Silvestre noturna pelas ruas históricas de Mogadouro com provas para todos os escalões",
+  "page": "https://timerspeed.com/?tribe_events=iv-corrida-sao-silvestre-de-mogadouro",
+  "slug": "sao-silvestre-mogadouro-2024",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mogadouro",
+  "administrative_area_level_3": "Mogadouro",
+  "district_code": 4
+}

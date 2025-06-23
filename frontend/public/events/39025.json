@@ -1,0 +1,35 @@
+{
+  "id": 39025,
+  "name": "Trail das Ribeiras 2025",
+  "location": "Telhado, Penacova",
+  "coordinates": {
+    "lat": 40.2977327,
+    "lon": -8.3387766
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    8000,
+    14000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/14a4bfaa714429b3e1bb729d8458b512"
+  ],
+  "start_date": "2025-04-13",
+  "end_date": "2025-04-13",
+  "circuit": [],
+  "description": "\n<p>O Trail das Ribeiras será no dia 13 de Abril e contará com provas de 18km, 14km e uma caminhada de 8km.</p>\n",
+  "description_short": "Trail desafiante pelas ribeiras da região com diferentes percursos para todos os níveis",
+  "page": "https://www.runmanager.net/Eventos/trail-das-ribeiras/888",
+  "slug": "trail-das-ribeiras-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penacova",
+  "administrative_area_level_3": "Figueira de Lorvão",
+  "district_code": 6
+}

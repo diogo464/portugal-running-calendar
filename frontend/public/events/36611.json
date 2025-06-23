@@ -1,0 +1,35 @@
+{
+  "id": 36611,
+  "name": "Correr pela Europa 2024",
+  "location": "Vila Nova de Santo André, Santiago do Cacém",
+  "coordinates": {
+    "lat": 38.0588998,
+    "lon": -8.7844006
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/39e9e71888889649b0b7bb33210ff187"
+  ],
+  "start_date": "2024-09-21",
+  "end_date": "2024-09-22",
+  "circuit": [],
+  "description": "\n<p>A 7ª edição da prova de atletismo “CORRER PELA EUROPA” visa a promoção do exercício físico e de hábitos<br>de vida saudáveis junto da população, através de uma corrida de 10 Km e de uma caminhada de 5 km para<br>adultos e uma prova destinada a crianças e jovens até aos 17 anos. Com o presente evento, visa-se  ssinalar<br>a Semana Europeia da Mobilidade e o Dia Europeu sem Carros.</p>\n",
+  "description_short": "Corrida solidária que assinala a Semana Europeia da Mobilidade com provas para todas as idades",
+  "page": "https://acorrer.pt/eventos/info/3589",
+  "slug": "correr-pela-europa-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santo André",
+  "district_code": 15
+}

@@ -1,0 +1,32 @@
+{
+  "id": 17506,
+  "name": "2ª Corrida Cidade de Faro 2022",
+  "location": "Faro Faro, Portugal",
+  "coordinates": {
+    "lat": 37.0164626,
+    "lon": -7.9351983
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/45acbccd1ca1966645e2d913a3c42867"
+  ],
+  "start_date": "2022-10-02",
+  "end_date": "2022-10-03",
+  "circuit": [],
+  "description": "\n<p>A 2ª Corrida Cidade de Faro é organizada pelos Tugas On Tour Associação Desportiva em coorganização com a Câmara Municipal de Faro e a União de Freguesias de Faro.<br>A prova realiza-se no dia 02 de Outubro de 2022, pelas 10,00h.<br>Para a realização deste evento contamos com o apoio da Associação de Atletismo de Faro e do Instituto Português do Desporto e da Juventude.<br>A prova terá um caráter solidário, revertendo um 1 € do valor das inscrições para uma Associação do Concelho sendo este valor angariado para a ajuda na aquisição de equipamentos necessários á Instituição.</p>\n",
+  "description_short": "Corrida solidária em Faro com apoio da câmara municipal e reverter de fundos para instituição local",
+  "page": "https://www.crono.aaalgarve.org/eventos/2-corrida-cidade-de-faro-2022",
+  "slug": "2a-corrida-cidade-de-faro-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

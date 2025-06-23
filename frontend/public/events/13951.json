@@ -1,0 +1,29 @@
+{
+  "id": 13951,
+  "name": "Trail Marvão 2022",
+  "location": "Marvão, Portalegre",
+  "coordinates": {
+    "lat": 39.3939447,
+    "lon": -7.376536299999999
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ffff9ece212b1b5b119b99b38782e0b4"
+  ],
+  "start_date": "2022-02-20",
+  "end_date": "2022-02-21",
+  "circuit": [],
+  "description": "\n<p>O Trail Marvão 2022 é uma organização do Município de Marvão, com o apoio da UJA &#8211; União da Juventude<br>Arenense e do GDA &#8211; Grupo Desportivo Arenense.<br>O Trail de Marvão é um evento composto por uma corrida de trail running e por uma caminhada, que se<br>realiza por trilhos, azinhagas e caminhos rurais do concelho de Marvão, inserido no Parque Natural da Serra<br>de S. Mamede, sendo a passagem pela Vila de Marvão e pelas tradicionais choças uma das grandes<br>referências da beleza desta região.</p>\n",
+  "description_short": "Trail desafiante por trilhos tradicionais do Parque Natural da Serra de São Mamede, com passagem pela histórica Vila de Marvão",
+  "page": "https://www.totalcrono.pt/eventos/trailmarvao2022",
+  "slug": "trail-marvao-2022",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Marvão",
+  "administrative_area_level_3": "Santa Maria de Marvão",
+  "district_code": 12
+}

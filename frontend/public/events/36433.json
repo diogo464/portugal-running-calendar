@@ -1,0 +1,32 @@
+{
+  "id": 36433,
+  "name": "Trail Veredas de Nexe 2024",
+  "location": "Santa Barbara de Nexe, Faro",
+  "coordinates": {
+    "lat": 37.1035956,
+    "lon": -7.963840599999998
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/8e0c90dc4fa2c92304656e5b8348aa3f"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A Terra de Nexe em pleno Barrocal, entre a Serra e o Mar, com a sua Igreja Matriz e com vistas sobre o litoral, caracteriza-se desde há vários séculos pela habitação e pequenos núcleos populacionais dispersos.</p>\n\n\n\n<p>Atualmente também é reconhecida como destino turístico, pela música de acordeão e pelo trabalho artístico em pedra. É um autêntico anfiteatro natural mediterrânico nas primeiras encostas da Serra de Monte Figo, com vistas deslumbrantes sobre a Ria Formosa e o Oceano Atlântico.</p>\n\n\n\n<p>A freguesia de Santa Bárbara de Nexe tem como Património Cultural a sua Igreja Matriz, a Ermida de Santa Catarina dos Gorjões, o acordeão em Bordeira, a arte da cantaria, os trabalhos artísticos em pedra e ainda os moinhos de vento e poços de água ancestrais.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail cultural pela Terra de Nexe com vistas deslumbrantes sobre a Ria Formosa e o Atlântico",
+  "page": "https://meutempo.pt/prova?trailveredasnexe2024",
+  "slug": "trail-veredas-de-nexe-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": "Santa Bárbara de Nexe",
+  "district_code": 8
+}

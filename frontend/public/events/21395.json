@@ -1,0 +1,32 @@
+{
+  "id": 21395,
+  "name": "Sesimbra Night Run 2023",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/7aeea733208ea5b298d192664caabe51"
+  ],
+  "start_date": "2023-09-23",
+  "end_date": "2023-09-24",
+  "circuit": [],
+  "description": "\n<p>3ª edição na variante noturna na bonita vila de Sesimbra. Na sequência da Corrida de Sesimbra estaríamos na 28ª edição. Como é habitual corrida de 10 km ao longo da marginal de Sesimbra e a 2ª Caminhada da Califórnia. Venha participar e aproveite para visitar Sesimbra.</p>\n",
+  "description_short": "Corrida noturna pelas margens de Sesimbra numa edição especial de verão",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/135/",
+  "slug": "sesimbra-night-run-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

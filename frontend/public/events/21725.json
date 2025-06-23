@@ -1,0 +1,30 @@
+{
+  "id": 21725,
+  "name": "Trail Manuelino 2023",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/36e4e98f07ceabde15d49955cabea53e"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [],
+  "description": "\n<p>A 2a edição do Trail Manuelino é um evento desportivo de Trail Running, constituído por 2 provas<br>competitivas e uma caminhada, organizada pela Associação SicóTrilhos, contando com a colaboração do<br>Município de Pombal, da Junta de Freguesia de Abiul, entre outros patrocinadores e apoiantes.</p>\n\n\n\n<p><br>A sua 2a edição realizar-se-á no dia a 21 de maio de 2023, em Abiul, Concelho de Pombal, Distrito de Leiria,<br>uma freguesia, constituída por montes e vales, conferindo-lhe uma beleza paisagística extensa, onde o verde da serra se une com a história que cada canto das suas ruas conta. Esta vila encontra-se situada num vale verdejante cercado de outeiros no sopé da Serra do Sicó.</p>\n",
+  "description_short": "Trail Manuelino atravessa paisagens verdejantes de Abiul no sopé da Serra do Sicó",
+  "page": "http://events.portimer.pt/eventos/trail-manuelino-2023",
+  "slug": "trail-manuelino-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

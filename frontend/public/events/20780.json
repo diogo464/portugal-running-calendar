@@ -1,0 +1,32 @@
+{
+  "id": 20780,
+  "name": "Utrp-Ultra Trilhos Rocha Da Pena 2023",
+  "location": "Loulé, Faro",
+  "coordinates": {
+    "lat": 37.1379187,
+    "lon": -8.020216
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/bcd65368f1bb73cc0a375e812469a582"
+  ],
+  "start_date": "2023-08-06",
+  "end_date": "2023-08-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O UTRP – Ultra Trilhos Rocha da Pena é um evento desportivo de caráter lúdico e competitivo que<br>tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de trail<br>running, mas também os territórios onde decorre o evento. Nesta que é a 9ª Edição do UTRP, o evento<br>irá decorrer no dia 06 de agosto de 2023.<br>O UTRP – Ultra Trilhos Rocha da Pena desenvolve-se por zonas de extrema beleza natural e vasto<br>património cultural e ambiental, nomeadamente na Área Protegida Local da Rocha da Pena, que dá o<br>nome ao evento</p>\n",
+  "description_short": "Trail desafiante pela Área Protegida Local da Rocha da Pena com paisagens naturais únicas",
+  "page": "https://stopandgo.net/events/ultra-trilhos-rocha-da-pena-2023",
+  "slug": "utrp-ultra-trilhos-rocha-da-pena-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

@@ -1,0 +1,35 @@
+{
+  "id": 30590,
+  "name": "Meia Maratona Matosinhos 2024",
+  "location": "Matosinhos, Porto",
+  "coordinates": {
+    "lat": 41.182863,
+    "lon": -8.688951
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    7000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/c7fb6ed812a24f344a6bc7b8280b4584"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "\n<p>A Cidade Matosinhos corre ao sabor da maré e espera por si no dia 5 de maio de 2024 para se juntar à 5ª edição da Goldenergy Meia Maratona de Matosinhos Mar de Desporto.</p>\n\n\n\n<p>O evento com partida e chegada na Av. da Liberdade, tem o início marcado para as 9h00 da manhã e conta com duas provas, a corrida cronometrada de 21 km e a Mini/Caminhada de 7 km, sem fins competitivos.</p>\n",
+  "description_short": "Meia maratona costeira que celebra o desporto e o mar em Matosinhos",
+  "page": "https://www.runporto.com/pt/eventos/meia-maratona-de-matosinhos/",
+  "slug": "meia-maratona-matosinhos-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das Freguesias de Matosinhos e Leça da Palmeira",
+  "district_code": 13
+}

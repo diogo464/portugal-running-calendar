@@ -1,0 +1,32 @@
+{
+  "id": 21914,
+  "name": "VIII Corrida 10Km Vila Glória Do Ribatejo 2023",
+  "location": "Salvaterra de Magos, Santarém",
+  "coordinates": {
+    "lat": 39.0272019,
+    "lon": -8.794182
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/98442b8294fde73503c560770daf37b9"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [],
+  "description": "\n<p>A VIII Corrida Vila Glória do Ribatejo é constituída na totalidade por estradas em asfalto dentro do perímetro urbano. A prova será realizada no dia 21 de Maio 2023, na vila de Glória do Ribatejo, pertencente ao Município de Salvaterra de Magos, distrito de Santarém. Esta é uma corrida de 10 km, com grau de dificuldade médio. A prova é organizada pela Secção de Trail Running do SCD Glória do Ribatejo.</p>\n",
+  "description_short": "Corrida urbana de 10 km pela vila de Glória do Ribatejo em asfalto",
+  "page": "https://acorrer.pt/eventos/info/3114",
+  "slug": "viii-corrida-10km-vila-gloria-do-ribatejo-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "Salvaterra de Magos",
+  "district_code": 14
+}

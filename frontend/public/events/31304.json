@@ -1,0 +1,30 @@
+{
+  "id": 31304,
+  "name": "Trail Nelas 2024",
+  "location": "Nelas, Viseu",
+  "coordinates": {
+    "lat": 40.537787,
+    "lon": -7.8498679
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/eba3f35f8b93000c6959d26a0ca9a2e1"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>O Nelas Trail Running é o herdeiro do Trail dos Caminhos Cruzados que teve a sua primeira edição em 2015.</p>\n\n\n\n<p>Em agosto de 2023, um incêndio no vale do Rio Castelo destruiu todos os trilhos existentes e usados nas edições anteriores.</p>\n\n\n\n<p>Assim em 2024 levamos os atletas a outras outras zonas do concelho de Nelas.</p>\n\n\n\n<p>Vamos percorrer o vale do Rio Mondego, especialmente na encosta norte nas freguesias de Canas de Senhorim e Lapa do Lobo.</p>\n\n\n\n<p>Nas diferentes distâncias os atletas passam por carreiros seculares criados pelos nossos antepassados, que eram percorridos por necessidade de sobrevivência nas suas deslocações para os campos agrícolas.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail histórico por caminhos antigos no vale do Rio Mondego, com novo percurso após incêndio em Nelas",
+  "page": "https://meutempo.pt/prova?7nelastrail",
+  "slug": "trail-nelas-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Nelas",
+  "administrative_area_level_3": "Nelas",
+  "district_code": 18
+}

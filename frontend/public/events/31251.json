@@ -1,0 +1,36 @@
+{
+  "id": 31251,
+  "name": "Summer Run Coimbra 2024",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    21097,
+    42195
+  ],
+  "types": [
+    "run",
+    "10k",
+    "marathon",
+    "half-marathon"
+  ],
+  "images": [
+    "media/b64bc503ebd66f9fa39989ef202f4a32"
+  ],
+  "start_date": "2024-06-23",
+  "end_date": "2024-06-24",
+  "circuit": [],
+  "description": "\n<p>10km, Meia Maratona e Maratona!</p>\n\n\n\n<p>As provas está incluída na MultiSport Week que decorrerá em Coimbra entre os dias 13 e 23 de Junho e que conta, entre outras coisas, com o Campeonato da Europa MultiSport da ETU (European Triathlon Union). Serão mais de 4000 atletas a competir nas mais variadas provas e distâncias!</p>\n",
+  "description_short": "Evento multidesportivo internacional em Coimbra com campeonato europeu de triatlo e múltiplas provas de corrida",
+  "page": "https://multisport.pt/",
+  "slug": "summer-run-coimbra-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

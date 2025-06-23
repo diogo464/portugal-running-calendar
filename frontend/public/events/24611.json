@@ -1,0 +1,31 @@
+{
+  "id": 24611,
+  "name": "V Trilhos D. Pedro E D. Inês 2023",
+  "location": "Paço, Lourinhã",
+  "coordinates": {
+    "lat": 39.2972694,
+    "lon": -9.2852657
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/37ca47a4011fd862c86ebfa46becd33a"
+  ],
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-06",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/vtrilhosdpedroedines",
+  "slug": "v-trilhos-d-pedro-e-d-ines-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de São Bartolomeu dos Galegos e Moledo",
+  "district_code": 11
+}

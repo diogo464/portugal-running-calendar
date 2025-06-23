@@ -1,0 +1,30 @@
+{
+  "id": 21058,
+  "name": "Meia Maratona de Famalicão 2023",
+  "location": "Vila Nova de Famalicão, Braga Porto",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.runporto.com/pt/eventos/meia-maratona-de-famalicao/",
+  "slug": "meia-maratona-de-famalicao-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

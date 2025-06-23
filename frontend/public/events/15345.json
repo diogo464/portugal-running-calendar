@@ -1,0 +1,34 @@
+{
+  "id": 15345,
+  "name": "6ª Edição do Cross/Trail A-do-Barbas 2022",
+  "location": "Maceira, Leiria",
+  "coordinates": {
+    "lat": 39.685696,
+    "lon": -8.8841275
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    9000,
+    12000,
+    21000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/db48bb41f8a143bc5d9df86a30b6ce43"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p>A prova denominada “<strong>Cross/Trail CPR. A-do-Barbas, 6ª edição</strong>&nbsp;é organizada pelo&nbsp;<strong>Centro Popular e Recreativo de A-do-Barbas e a ADAL</strong>, com o apoio da&nbsp;<strong>Câmara Municipal de Leiria</strong>,&nbsp;<strong>Junta de Freguesia de Maceira e junta da União de Freguesias de Pataias e Martingança</strong>.</p>\n\n\n\n<p>Será realizado no dia&nbsp;<strong>09&nbsp;</strong><strong>de outubro de 2022</strong>&nbsp;independentemente das condições climatéricas do dia desde que o organizador entenda que não há riscos acrescidos pelas mesmas para este tipo de evento.</p>\n\n\n\n<p>As provas terão o seu início junto à sede do&nbsp;<strong>CPR. A-do-Barbas</strong>.</p>\n\n\n\n<p>O evento é composto por&nbsp;<strong><u>duas provas competitivas</u></strong>:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>T21 Km</strong>&nbsp;&#8211; Percurso com cerca de +/-21km de fácil progressão, mas com pouco desnível positivo.</li><li><strong>T12 Km</strong>&nbsp;&#8211; Percurso com cerca de +/-12km de fácil progressão, mas com pouco desnível positivo, ideal para iniciantes à prática de Trail Running.</li></ul>\n\n\n\n<p>Não competitivo –<strong>&nbsp;Caminhada</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Em paralelo e não competitivo haverá uma caminhada com cerca de 9km, caminhada esta que será lúdica, com inscrição na plataforma da Recorde Pessoal ou na sede do clube CPR A-do-Barbas. A mesma decorrerá mediante as normas da DGS, sendo que o início do mesmo será junto ao clube CPR. A-do-Barbas.</li></ul>\n",
+  "description_short": "Trail convivial pelos caminhos da região de Leiria, com provas de 21 e 12 km e caminhada para todas as idades",
+  "page": "https://www.recordepessoal.pt/evento/6ediodocross-traila-do-barbas",
+  "slug": "cross-trail-cpr-a-do-barbas-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Maceira",
+  "district_code": 10
+}

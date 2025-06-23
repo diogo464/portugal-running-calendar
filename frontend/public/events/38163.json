@@ -1,0 +1,30 @@
+{
+  "id": 38163,
+  "name": "Ibérica Backyard Ultra Masters 2025",
+  "location": "Vila Verde, Braga",
+  "coordinates": {
+    "lat": 41.6507161,
+    "lon": -8.433281299999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/481f3ac47e94953987b0cbb13d2a3103"
+  ],
+  "start_date": "2025-04-12",
+  "end_date": "2025-04-12",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.sinctime.com/evento/303",
+  "slug": "iberica-backyard-ultra-masters-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Verde",
+  "administrative_area_level_3": "Vila Verde e Barbudo",
+  "district_code": 3
+}

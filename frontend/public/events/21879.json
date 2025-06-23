@@ -1,0 +1,35 @@
+{
+  "id": 21879,
+  "name": "São Silvestre Coimbra 2023",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/5cab1277630e44dfd7ec13152ec35895"
+  ],
+  "start_date": "2023-12-16",
+  "end_date": "2023-12-17",
+  "circuit": [],
+  "description": "\n<p>A REMAX WHITE Corrida São Silvestre tem um percurso de aproximadamente 10 km enquanto a Caminhada INTERMARCHÉ TAVEIRO terá uma distância de 5 km.</p>\n",
+  "description_short": "Corrida de São Silvestre em Taveiro com percurso urbano e caminhada solidária",
+  "page": "https://lap2go.com/pt/event/sscoimbra-2023",
+  "slug": "sao-silvestre-de-coimbra-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

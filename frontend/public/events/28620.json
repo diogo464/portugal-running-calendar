@@ -1,0 +1,35 @@
+{
+  "id": 28620,
+  "name": "Trail do Sino e da Castanha 2023",
+  "location": "Tarouca, Viseu",
+  "coordinates": {
+    "lat": 41.0174461,
+    "lon": -7.775003600000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    6000,
+    12000,
+    17000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/4210af4c50942ba95d6d55fac1d7274a"
+  ],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [],
+  "description": "\n<p>A II Trail do Sino e da Castanha, realizar-se-á no dia 12 de novembro de 2023. Os dois percursos têm o mesmo local de partida e de chegada, no Largo do Terreiro situado no (41° 1&#8217;52.94&#8243;N | 7°43&#8217;17.47&#8243;W).</p>\n\n\n\n<p>A prova percorre os trilhos e percursos pedestres adjacentes à União de Freguesias de Granja Nova, Vila Chã da Beira e Formilo. Os diferentes percursos, Trail médio (17Km), Mini Trail(12km), Caminhada (12km) e Mini Caminhada (6 km) estão abertos a todos os indivíduos maiores de 16 anos. A caminhada e a mini caminhada está aberta, também, a menores de 16 ano,s desde que acompanhados por uma pessoa maior de idade, e que se identifique como responsável pelo menor.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos da Granja Nova, Vila Chã da Beira e Formilo, com partida e chegada no Largo do Terreiro",
+  "page": "https://stopandgo.net/events/trail-do-sino-e-da-castanha-2023",
+  "slug": "trail-do-sino-e-da-castanha-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tarouca",
+  "administrative_area_level_3": "União das freguesias de Tarouca e Dálvares",
+  "district_code": 18
+}

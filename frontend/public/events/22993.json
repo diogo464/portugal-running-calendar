@@ -1,0 +1,35 @@
+{
+  "id": 22993,
+  "name": "5º Trilho Da Pombeira 2023",
+  "location": "Castro Daire, Viseu",
+  "coordinates": {
+    "lat": 40.8997924,
+    "lon": -7.933502
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    3000,
+    10300
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/442559f76dc437e6f267515967e19592"
+  ],
+  "start_date": "2023-03-18",
+  "end_date": "2023-03-19",
+  "circuit": [],
+  "description": "\n<p>O evento inclui uma corrida em natureza, na distância de 10,3km, uma caminhada e corridas para os mais jovens (benjamins a juvenis) e está integrado no calendário do &#8220;Circuito Municipal de Corrida e Caminhada em Natureza (PER)CORRER CASTRO DAIRE 2023 (2ª jornada)&#8221;.<br>As inscrições, gratuitas, já se encontram abertas e decorrem até às 23:59 do próximo dia 15 de abril.</p>\n",
+  "description_short": "Trail desafiante integrado no circuito municipal de Castro Daire com provas para todas as idades",
+  "page": "https://terrasdeaventura.net/event/5o-trilho-da-pombeira/",
+  "slug": "5o-trilho-da-pombeira-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Castro Daire",
+  "district_code": 18
+}

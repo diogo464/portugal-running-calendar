@@ -1,0 +1,33 @@
+{
+  "id": 17291,
+  "name": "Trail Running D. Maria 2022",
+  "location": "Almargem do Bispo, Sintra",
+  "coordinates": {
+    "lat": 38.8484282,
+    "lon": -9.2694885
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    12000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3e2b56e900115050f25b353114302cd3"
+  ],
+  "start_date": "2022-10-30",
+  "end_date": "2022-10-31",
+  "circuit": [],
+  "description": "\n<p>O I Trail Running D. Maria é composto por duas provas competitivas de aproximadamente 25Km (Trail longo) e 12Km (Trail curto) e uma prova recreativa, uma caminhada de 10Km. A prova é organizada pela Associação Free Runners com a colaboração do Centro de Recreio Popular e Cultural Musical (CRPCM) Dona Maria em Almargem do Bispo.</p>\n",
+  "description_short": "Trail desafiante em Almargem do Bispo com provas de diferentes distâncias e caminhada recreativa",
+  "page": "https://lap2go.com/pt/event/trail-running-dona-maria-2022",
+  "slug": "trail-running-d-maria-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+  "district_code": 11
+}

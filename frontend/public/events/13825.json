@@ -1,0 +1,32 @@
+{
+  "id": 13825,
+  "name": "Corrida Soure 1111 2022",
+  "location": "Soure, Coimbra",
+  "coordinates": {
+    "lat": 40.0610524,
+    "lon": -8.6239203
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/9266a6b7f9a952f2b6d42891b11c94df"
+  ],
+  "start_date": "2022-01-23",
+  "end_date": "2022-01-24",
+  "circuit": [],
+  "description": "\n<p>A Corrida Soure 1111 2022 é um evento desportivo organizado pelo Soure Mov, clube de atletismo<br>da APPACDM de Soure (secção autónoma), em parceria com a Câmara Municipal de Soure e a<br>Associação Distrital de Atletismo de Coimbra (ADAC).</p>\n",
+  "description_short": "Corrida solidária organizada por associação local no concelho de Soure",
+  "page": "https://stopandgo.net/event/?id=668&fbclid=IwAR1woJ7z2zWVMhQUCDYkTx3SH4pdcJrunEFrB-p7Vw0ytzadKbMCUZM_zFA",
+  "slug": "corrida-soure-1111-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Soure",
+  "administrative_area_level_3": "Soure",
+  "district_code": 6
+}

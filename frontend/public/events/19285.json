@@ -1,0 +1,32 @@
+{
+  "id": 19285,
+  "name": "7ª Corrida de São Martinho &#8211; Adriano Valente 2022",
+  "location": "Cabeceiras de Basto, Braga",
+  "coordinates": {
+    "lat": 41.5116939,
+    "lon": -7.9979753
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/217f01ea62702d437bbbea3d5c289fa5"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>A Arco4Run e a Comissão de Festas de Arco de Baúlhe, com o apoio da União das Freguesias de Arco de Baúlhe e Vila Nune, têm o prazer de apresentar a 7ª Corrida de São Martinho – Adriano Valente.</p>\n\n\n\n<p><br>O evento que tem como finalidade promover a atividade desportiva e fazer desta manhã uma enorme festa desportiva, enquadrando a vontade de competir e correr, com o prazer e a beleza natural que só esta prova pode dar.</p>\n\n\n\n<p>Não fique por casa, junte-se a nós, e venha passar uma manhã bem divertida e suada! Vai ver que não se vai arrepender, com tanto que temos para lhe oferecer!</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida de São Martinho animada em Arco de Baúlhe com ambiente festivo e paisagens naturais",
+  "page": "https://www.desportave.pt/events.file.php?cid=142",
+  "slug": "7a-corrida-de-sao-martinho-adriano-valente-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Cabeceiras de Basto",
+  "administrative_area_level_3": "Refojos de Basto",
+  "district_code": 3
+}

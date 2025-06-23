@@ -1,0 +1,34 @@
+{
+  "id": 22906,
+  "name": "Trail Terras da Gândara 2023",
+  "location": "Mira, Coimbra",
+  "coordinates": {
+    "lat": 40.4287977,
+    "lon": -8.738126099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    8000,
+    12000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/4a3d96545a3575257423c8a642213521"
+  ],
+  "start_date": "2023-06-25",
+  "end_date": "2023-06-26",
+  "circuit": [],
+  "description": "\n<p>O II Trail Terras da Gândara será realizado no dia 25 de Junho de 2023, no Concelho de Mira.</p>\n\n\n\n<p><br>Esta será a sequência de uma prova que teve a estreia em 2022 e contou com um sensacional<br>número de 700 inscrições. É uma prova que vai percorrer trilhos e caminhos em locais rurais e<br>florestais, sendo organizada pela Associação Cultural e Recreativa do Seixo e Junta de Freguesia<br>do Seixo com a parceria e apoio de entidades locais. Há semelhança do ano anterior, a realização<br>desta prova terá, para além do cariz desportivo, uma vertente solidária, com o resultado<br>financeiro da atividade a reverter para a CerciMira que diariamente acolhe, forma e dá casa a<br>pessoas com necessidades especiais.</p>\n\n\n\n<p><br>Este evento será composto por um Trail com cerca de 20 Kms, por um Trail Curto com cerca de<br>12kms e por uma Caminhada com cerca de 8 kms</p>\n",
+  "description_short": "Trail solidário pelos caminhos rurais e florestais da Gândara em Mira, com apoio local e objetivo social",
+  "page": "https://lap2go.com/pt/event/trail-terras-da-gandara-2023",
+  "slug": "trail-terras-da-gandara-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Mira",
+  "administrative_area_level_3": "Mira",
+  "district_code": 6
+}

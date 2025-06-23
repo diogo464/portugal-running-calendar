@@ -1,0 +1,32 @@
+{
+  "id": 2910,
+  "name": "Corrida Portucale Tranquilidade 2021",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/660f477d5bc78bd92ca379fe03c4d80f"
+  ],
+  "start_date": "2021-11-21",
+  "end_date": "2021-11-22",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"http://6corridaportucale.eventsport.net/?page=55\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p></p>\n\n\n\n<p>Para se inscrever na Corrida Portucale Tranquilidade e vir correr connosco no dia&nbsp;<strong>21 de Novembro de 2021</strong>, poderá:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Visitar a sede de uma das empresas que apoia esta iniciativa, a&nbsp;<strong>Event Sport</strong>, sediada na Rua da Bélgica nº 2340, em Vila Nova de Gaia.</li><li>Nas instalações da&nbsp;<strong>Kiko</strong>&nbsp;nas lojas NorteShopping, Marshopping, Arrábida Shopping e Sá da Bandeira.</li></ul>\n",
+  "description_short": "Corrida urbana em Vila Nova de Gaia com partida marcada para novembro",
+  "page": "https://corridaportucale.pt/",
+  "slug": "corrida-portucale-tranquilidade-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

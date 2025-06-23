@@ -1,0 +1,33 @@
+{
+  "id": 30298,
+  "name": "Corrida e Caminhada de Agradecimento do Dador 2023",
+  "location": "Base Aérea nº 6 do Montijo, Montijo",
+  "coordinates": {
+    "lat": 38.7140695,
+    "lon": -9.0069278
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/7a4289b8c5f8359110db5648c92e6e57"
+  ],
+  "start_date": "2023-12-10",
+  "end_date": "2023-12-11",
+  "circuit": [],
+  "description": "\n\n\n<p>O Grupo Desportivo de Transplantados de Portugal (GDTP) irá realizar a VI Corrida &amp; Caminhada Solidária de Agradecimento ao Dador no dia 10 de Dezembro na&nbsp;Base Aérea nº 6 do Montijo da Força Aérea Portuguesa,&nbsp;<strong>com o apoio do Instituto Português da Juventude I.P.&nbsp;</strong>e a&nbsp;<strong>organização Técnica da Werun.</strong></p>\n",
+  "description_short": "Corrida solidária em homenagem aos dadores de órgãos no Montijo, organizada por grupo de transplantados",
+  "page": "https://werun.pt/eventos/vi-corrida-e-caminhada-de-agradecimento-ao-dador/",
+  "slug": "corrida-e-caminhada-de-agradecimento-do-dador-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Montijo",
+  "administrative_area_level_3": "União das freguesias de Montijo e Afonsoeiro",
+  "district_code": 15
+}

@@ -1,0 +1,33 @@
+{
+  "id": 14666,
+  "name": "Grande Prémio de Atletismo da Páscoa 2023",
+  "location": "Vila Nova do Campo, Santo Tirso",
+  "coordinates": {
+    "lat": 41.3524242,
+    "lon": -8.358134399999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/c8bbfc821f659329110e03e0bbee470f"
+  ],
+  "start_date": "2023-04-08",
+  "end_date": "2023-04-09",
+  "circuit": [],
+  "description": "\n<p>Será em Vila Nova do Campo (Santo Tirso) que decorrerá a 23ª edição do Grande Prémio de Atletismo, entre amêndoas e os festejos religiosos da Páscoa, sendo já uma referência na região do Porto. Seja jovem ou de mais idade, venha correr e viver a Páscoa com as suas pernas.</p>\n",
+  "description_short": "Corrida de Páscoa tradicional em Vila Nova do Campo com ambiente familiar e regional",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-da-pascoa-2023",
+  "slug": "grande-premio-de-atletismo-da-pascoa-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Vila Nova do Campo",
+  "district_code": 13
+}

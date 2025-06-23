@@ -1,0 +1,33 @@
+{
+  "id": 24020,
+  "name": "Trail Barcelos Fire 2023",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/306fcba2851a537127286ac6356e4662"
+  ],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "\n<p>Evento solidário que pretende fomentar a prática desportiva com um prova de corrida de montanha que percorre trilhos e caminhos ao longo das margens do rio Cavado.</p>\n\n\n\n<p>O objectivo é angariar fundos para os Bombeiros Voluntários de Barcelos e centra-se na divulgação e<br>conhecimento dos excelentes trilhos e paisagens das margens do rio Cávado e toda a área circundante.<br>Centra-se também no incentivo à população local para a prática desportiva e lúdica.<br>O 2º TRAIL BVB será constituído por dois eventos:<br>Prova de carácter competitivo:  Trail Curto – 19 Km<br>Passeio lúdico : Caminhada 10 km, sem carácter competitivo.</p>\n",
+  "description_short": "Trail solidário pelas margens do rio Cávado em apoio aos Bombeiros Voluntários de Barcelos",
+  "page": "https://www.sinctime.com/evento/162",
+  "slug": "trail-barcelos-fire-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

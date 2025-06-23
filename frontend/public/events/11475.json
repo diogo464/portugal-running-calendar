@@ -1,0 +1,32 @@
+{
+  "id": 11475,
+  "name": "Grande Prémio de Atletismo Eixo Atlântico 2021",
+  "location": "Maia, Porto",
+  "coordinates": {
+    "lat": 41.2326543,
+    "lon": -8.622938699999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/cc2cb7e57664ab3b438de25baf8bb94c"
+  ],
+  "start_date": "2021-12-05",
+  "end_date": "2021-12-06",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>Eixo Atlântico do Noroeste Peninsular</strong>&nbsp;em conjunto com a EventSport organizam o Grande Prémio de Atletismo Eixo Atlântico, um evento citadino, que representa a transferência da bandeira dos Jogos do Eixo Atlântico de Braga, última sede dos jogos, para o município da Maia em 2022. Além deste designo, o evento tem a finalidade de estimular a prática desportiva como elemento da promoção da saúde e da qualidade de vida.</p>\n\n\n\n<p>Realiza-se no dia 5 de Dezembro de 2021, com início às 10h00, uma corrida 10 km com o pano de fundo a cidade da Maia, um dos municípios mais avançados do país, com um papel fundamental na indústria, inovação, novas tecnologias e no desporto, sendo um modelo exemplar de desenvolvimento económico, ambiental e desportivo.</p>\n\n\n\n<p>“Criado em 1995, os jogos do Eixo Atlântico destinam-se à promoção do desporto, à convivência entre os jovens e, também ao melhor conhecimento entre os cidadãos das duas regiões. Realizam-se de dois em dois anos e constituem um evento desportivo transfronteiriço único na Europa, com uma participação de entre 1500 a 2000 atletas das cidades.”</p>\n",
+  "description_short": "Corrida urbana na Maia celebra Jogos do Eixo Atlântico com transferência simbólica da bandeira",
+  "page": "https://gpaeixoatlantico.eventsport.net/",
+  "slug": "grande-premio-de-atletismo-eixo-atlantico-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Maia",
+  "administrative_area_level_3": "Cidade da Maia",
+  "district_code": 13
+}

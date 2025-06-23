@@ -1,0 +1,29 @@
+{
+  "id": 17503,
+  "name": "1º Treino Convívio dos Duros 2022",
+  "location": "São Brás de Alportel, Faro",
+  "coordinates": {
+    "lat": 37.152576,
+    "lon": -7.889052299999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2afa834afbd095d44b20c8c27b49e52c"
+  ],
+  "start_date": "2022-09-03",
+  "end_date": "2022-09-04",
+  "circuit": [],
+  "description": "\n<p>O grupo informal “Os Duros” vai organizar a “1º Treino Convívio dos Duros”, que terá lugar em São Brás de Alportel mais especificamente no Parque da Fonte Férrea no dia 3  de Setembro de 2022, com partida pelas 10:00h. </p>\n\n\n\n<p></p>\n\n\n\n<p>O treino convívio dos Duros, mais que uma corrida de trail ou prova de obstáculos, é um desafio pessoal na natureza. Durante o percurso de Trail, irão encontrar obstáculos, que tem diferentes graus de dificuldade, que os participantes devem agilizar, em que alguns têm alternativa simplificada ou até num percurso adicional de corrida. Estes Obstáculos que irão encontrar poderão ser algumas estruturas montadas mas na maioria são obstáculos naturais que surgem no percurso (lagoas, ribeiras, plantas, declives de terreno, árvores, troncos, pedras, etc). O nosso lema é que todos os obstáculos sejam o mais natural possível sem alterar os efeitos “construídos” pela natureza.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Treino convívio de trail com obstáculos naturais no Parque da Fonte Férrea em São Brás de Alportel",
+  "page": "https://www.crono.aaalgarve.org/eventos/1-treino-convivio-dos-duros",
+  "slug": "1o-treino-convivio-dos-duros-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "São Brás de Alportel",
+  "administrative_area_level_3": "São Brás de Alportel",
+  "district_code": 8
+}

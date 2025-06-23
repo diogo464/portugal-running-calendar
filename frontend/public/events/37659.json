@@ -1,0 +1,38 @@
+{
+  "id": 37659,
+  "name": "Poiares Trail 2025",
+  "location": "Vila Nova de Poiares, Coimbra",
+  "coordinates": {
+    "lat": 40.2107667,
+    "lon": -8.25907
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    300,
+    12000,
+    21000,
+    35000
+  ],
+  "types": [
+    "kids",
+    "trail",
+    "relay"
+  ],
+  "images": [
+    "media/6aebbd6c59520155e551b32f5b1288c7"
+  ],
+  "start_date": "2025-02-08",
+  "end_date": "2025-02-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A secção de Atletismo da Associação Recreativa de S. Miguel – Vila Nova de Poiares é a entidade organizadoradoevento denominado POIARES TRAIL 2025, que decorrerá a 8 e 9 de fevereiro de 2025. O POIARES TRAIL 2025 é um evento que integra quatro provas competitivas e uma caminhada: PT35K(±35km,1800mD+), o PT21K (± 21Km, 980mD+), as Estafetas 35K (percurso dividido em três etapas e realizadopor equipasde 3 elementos) e o PT12K (± 12km, 300m D+). </p>\n\n\n\n<p>Todas as provas estão certificadas pela ATRP. OpercursodaCaminhada é coincidente com o PT12K .</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Vila Nova de Poiares com diferentes provas competitivas",
+  "page": "https://stopandgo.net/events/poiares-trail-2025",
+  "slug": "poiares-trail-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Vila Nova de Poiares",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

@@ -1,0 +1,32 @@
+{
+  "id": 34045,
+  "name": "Night Run Vendas Novas 2024",
+  "location": "Vendas Novas, Évora",
+  "coordinates": {
+    "lat": 38.6768924,
+    "lon": -8.4633558
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    100
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/08ebc1316c4415717fec318e98ef75ed"
+  ],
+  "start_date": "2024-03-15",
+  "end_date": "2024-03-16",
+  "circuit": [],
+  "description": "\n<p>A 10ª edição da “Night Run – Vendas Novas”, é um evento desportivo que está integrado no mês das Comemorações do Dia Internacional da Mulher, sendo a sua organização da responsabilidade do Município de Vendas Novas.</p>\n\n\n\n<p>A 10ª Night Run, vai ter o apoio/patrocínio oficial da Seaside.</p>\n\n\n\n<p>Esta corrida/caminhada noturna de âmbito popular é aberta a participantes de ritmos moderados ou principiantes, bem como a participantes que procuram uma corrida rápida para conseguir uma boa marca pessoal, mas que em comum partilham o gosto pela corrida e procuram modelos de prática desportiva saudável.</p>\n\n\n\n<p>O Município de Vendas Novas convida também todas as mulheres para uma prova extra, denominada&nbsp;<strong>“100m de Saltos Altos”</strong>. Esta corrida tem uma extensão de 100 metros, destina-se a participantes com idade igual ou superior a 16 anos e obriga à utilização de sapatos de salto alto de altura mínima de 4cm, não compensados. Não são admitidas participantes que se apresentem com sapatos tipo plataforma ou botas, mesmo que o calçado cumpra a altura mínima. O calçado é inspecionado e validado no local no sentido do cumprimento dos requisitos referidos.</p>\n\n\n",
+  "description_short": "Corrida noturna em Vendas Novas com prova especial de 100 metros em saltos altos e integrada nas comemorações do Dia Internacional da Mulher",
+  "page": "https://werun.pt/eventos/10-night-run-vendas-novas/",
+  "slug": "night-run-vendas-novas-2024",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Vendas Novas",
+  "administrative_area_level_3": "Vendas Novas",
+  "district_code": 7
+}

@@ -1,0 +1,29 @@
+{
+  "id": 15021,
+  "name": "STE &#8211; Montepio Sintra Trail X´Treme 2022",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3b3b7f1a6e3d1e2d241915a2edf62bfe"
+  ],
+  "start_date": "2022-09-18",
+  "end_date": "2022-09-19",
+  "circuit": [],
+  "description": "\n<p>STE &#8211; Montepio Sintra Trail X´Treme 2022</p>\n",
+  "description_short": "Trail desafiante pelos trilhos montanhosos de Sintra",
+  "page": "https://stopandgo.net/event/?id=772",
+  "slug": "ste-montepio-sintra-trail-xtreme-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

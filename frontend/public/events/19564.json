@@ -1,0 +1,29 @@
+{
+  "id": 19564,
+  "name": "Desafia a Ladeira Mesh Nazareth 2022",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/45c285821c60dd6ba578476d52f5a4f2"
+  ],
+  "start_date": "2023-01-14",
+  "end_date": "2023-01-15",
+  "circuit": [],
+  "description": "<p>O percurso será feito pela Ladeira do Sitio na Nazaré. Grau de dificuldade média/alto. O percurso poderá estar escorregadio na subida da Ladeira e na encosta do Sitio, o que implica ao atleta o máximo de cuidado.</p>\n",
+  "description_short": "Trail desafiante pela Ladeira do Sitio na Nazaré com subidas técnicas e piso escorregadio",
+  "page": "https://www.recordepessoal.pt/evento/4desafiaaladeirameshnazareth",
+  "slug": "desafia-a-ladeira-mesh-nazareth-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

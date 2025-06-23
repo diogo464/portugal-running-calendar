@@ -1,0 +1,32 @@
+{
+  "id": 25222,
+  "name": "Meia Maratona de Barcelona 2024",
+  "location": "Barcelona, Espanha",
+  "coordinates": {
+    "lat": 41.3873974,
+    "lon": 2.168568
+  },
+  "country": "Espanha",
+  "locality": "Catalunha",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/ecfd82a8bedff444c1eca863c0216513"
+  ],
+  "start_date": "2024-02-11",
+  "end_date": "2024-02-12",
+  "circuit": [],
+  "description": "\n<p>De acordo com os corredores, o percurso da eDreams Mitja Marató Barcelona é um dos mais completos no panorama internacional.</p>\n\n\n\n<p>Um circuito totalmente urbano, que percorre o coração e a costa de uma cidade cosmopolita, aberta, mediterrânea e activa. O legado cultural e gastronômico que caracteriza a cidade, juntamente com um público dedicado, fará com que levantes a cabeça se não quiseres perder nenhum detalhe de uma das cidades mais especiais do mundo, Barcelona.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona urbana por Barcelona com percurso emblemático entre o centro histórico e a costa mediterrânea",
+  "page": "https://edreamsmitjabarcelona.com/en/",
+  "slug": "meia-maratona-de-barcelona-2024",
+  "administrative_area_level_1": "Catalunha",
+  "administrative_area_level_2": "Barcelona",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

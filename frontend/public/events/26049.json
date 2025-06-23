@@ -1,0 +1,35 @@
+{
+  "id": 26049,
+  "name": "Correr pela Europa 2023",
+  "location": "Vila Nova de Santo André, Santiago do Cacém",
+  "coordinates": {
+    "lat": 38.0588998,
+    "lon": -8.7844006
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/1f7fc5a049b37e8836d7657a972644b2"
+  ],
+  "start_date": "2023-09-23",
+  "end_date": "2023-09-24",
+  "circuit": [],
+  "description": "\n<p>A 6ª edição da prova de atletismo “CORRER PELA EUROPA” visa a promoção do exercício físico e de hábitos<br>de vida saudáveis junto da população, através de uma corrida de 10 Km e de uma caminhada de 5 km para<br>adultos e uma prova destinada a crianças e jovens até aos 17 anos. Com o presente evento, visa-se assinalar a Semana Europeia da Mobilidade e o Dia Europeu sem Carros. No evento será partilhada informação sobre as prioridades anuais da comissão europeia.</p>\n\n\n\n<p>A “CORRER PELA EUROPA (6ª Edição)” é uma organização do Europe Direct – Alentejo Central e Litoral, em<br>parceria com a Junta de Freguesia de Santo André e Câmara Municipal de Santiago do Cacém, contando<br>com o apoio da associação Os Kotas e o patrocínio da empresa Decisões e Soluções de Vila Nova de Santo<br>André;</p>\n\n\n\n<p>Dia 23 de setembro de 2023:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>08h00 – 09h00: entrega de dorsais no Secretariado (Parque Central de Vila Nova de Santo André, junto ao<br>Cravo).</li>\n\n\n\n<li>09h30: partida da prova de 10 km adultos</li>\n\n\n\n<li>09h35: partida caminhada de 5 Km adultos</li>\n\n\n\n<li>11h00: partida corrida crianças / jovens</li>\n\n\n\n<li>11h45: entrega de prémios</li>\n</ul>\n",
+  "description_short": "Corrida solidária pela Europa em Vila Nova de Santo André com promoção de mobilidade sustentável",
+  "page": "https://acorrer.pt/eventos/info/3262",
+  "slug": "correr-pela-europa-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santo André",
+  "district_code": 15
+}

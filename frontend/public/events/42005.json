@@ -1,0 +1,29 @@
+{
+  "id": 42005,
+  "name": "Uchalá que seja O Último 2025",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/783b5a956c5d45a49c8a16d36ae93b82"
+  ],
+  "start_date": "2025-06-10",
+  "end_date": "2025-06-11",
+  "circuit": [],
+  "description": "\n<p>3ª Ediçao UchaLá que seja o Último! (Último Vence) – Esta prova de Trail é uma corrida onde todos chegam ao fim, mas apenas um pode vencer! No início de cada volta, todos estão novamente em 1º lugar. Um evento que junta, desporto, natureza, convívio e limites, num desafio que cada um coloca a si mesmo.</p>\n\n\n",
+  "description_short": "Trail desafiante com formato único onde todos começam em igualdade a cada volta",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLSdCSwK1BRiqcxPCaKdBeL5pGbTG239qF6hMeJBBJLIUkx4S4g/viewform",
+  "slug": "uchala-que-seja-o-ultimo-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

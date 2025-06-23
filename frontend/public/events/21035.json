@@ -1,0 +1,30 @@
+{
+  "id": 21035,
+  "name": "3ª S. Silvestre De Esmeriz 2023",
+  "location": "Esmeriz, Vila Nova de Famalicão Famalicão, Braga",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "saint-silvester",
+    "run"
+  ],
+  "images": [
+    "media/4804e80b9decea54129bbf73f6168f5b"
+  ],
+  "start_date": "2023-01-07",
+  "end_date": "2023-01-08",
+  "circuit": [],
+  "description": "\n<p>Numa organização da Associação Desportiva de Esmeriz com o apoio da Câmara Municipal de Vila Nova de Famalicão, da Associação de Atletismo de Braga, da Junta de Freguesia de Esmeriz e Cabeçudos, do CNE-Agrupamento 330 de Esmeriz, da Policia Municipal de Vila Nova de Famalicão, da GNR e dos Bombeiros Voluntários de Vila Nova de Famalicão, vai realizar-se no dia 7 de Janeiro de 2023 às 21:00h a 33ª S. Silvestre de Esmeriz, tendo como objetivo a promoção de estilos de vida saudável através do desporto.</p>\n",
+  "description_short": "São Silvestre noturna em Esmeriz com forte envolvimento comunitário e institucional",
+  "page": "https://www.desportave.pt/events.file.php?cid=145",
+  "slug": "3a-s-silvestre-de-esmeriz-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

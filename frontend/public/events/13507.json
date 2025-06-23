@@ -1,0 +1,33 @@
+{
+  "id": 13507,
+  "name": "São Silvestre Espinho 2022",
+  "location": "Espinho, Aveiro",
+  "coordinates": {
+    "lat": 41.0071914,
+    "lon": -8.641033199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/86d35d9b9216cd38446238efc7e17335"
+  ],
+  "start_date": "2022-03-05",
+  "end_date": "2022-03-06",
+  "circuit": [],
+  "description": "\n<p>Depois de uma paragem decorrente das restrições impostas pela pandemia que ainda se faz sentir, a São Silvestre Espinho 2022 volta ao calendário com encontro marcado para o dia <strong>5 de maçode 2022, às 18h00</strong>.</p>\n",
+  "description_short": "Regresso da tradicional São Silvestre de Espinho após interrupção pandémica",
+  "page": "https://lap2go.com/pt/event/ss-espinho-2022",
+  "slug": "sao-silvestre-espinho-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Espinho",
+  "administrative_area_level_3": "Espinho",
+  "district_code": 1
+}

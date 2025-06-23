@@ -1,0 +1,36 @@
+{
+  "id": 21905,
+  "name": "28ª Corrida da Árvore 2023",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    200,
+    400,
+    800,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/f4bc2c9c6fe916e13a50c09593c85379"
+  ],
+  "start_date": "2023-03-26",
+  "end_date": "2023-03-27",
+  "circuit": [],
+  "description": "\n<p>Uma corrida histórica, no coração verde de Lisboa e amiga do ambiente.</p>\n\n\n\n<p>Com mais de 25 000 atletas que já cruzaram a meta, a Corrida da Árvore está à tua espera!&nbsp;Uma prova para toda a família, com distâncias desde os 200m aos 10km.</p>\n\n\n\n<p>Cada participante receberá uma árvore para plantar, ajudando o meio ambiente. </p>\n\n\n\n<p>Partida e chegada | Alameda Keil do Amaral, Monsanto</p>\n\n\n\n<p>» Kids Race 200m (até aos 7 anos) | 9h30<br>» Kids Race 400m (8 e 9 anos) | 9h35<br>» Kids Race 800m (10 aos 12 anos) | 9h40</p>\n",
+  "description_short": "Corrida ecológica em Monsanto com entrega de árvores para cada participante",
+  "page": "https://xistarca.pt/eventos/28a-corrida-da-arvore",
+  "slug": "28a-corrida-da-arvore-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

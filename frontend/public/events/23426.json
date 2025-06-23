@@ -1,0 +1,31 @@
+{
+  "id": 23426,
+  "name": "Proença Cross Trail 2023",
+  "location": "Proença a Nova, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2048564b253c264c643ed31370a64c79"
+  ],
+  "start_date": "2023-12-08",
+  "end_date": "2023-12-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://horizontes.pt/eventos/proenca-cross-trail/",
+  "slug": "proenca-cross-trail-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

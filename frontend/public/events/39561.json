@@ -1,0 +1,33 @@
+{
+  "id": 39561,
+  "name": "Trail Primavera 2025",
+  "location": "Santiago do Cacém, Setúbal Setubal",
+  "coordinates": {
+    "lat": 38.0162314,
+    "lon": -8.6956768
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/4d5ae04f6ba1c01dbe1a8276d0c81bfc"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-24",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O 6º TRAIL DA PRIMAVERA é um evento de natureza desportiva, onde o valor das refeições reverterá para a Associação de Bem Estar das Ademas. </p>\n\n\n\n<p>Este evento terá três distâncias Trail Curto, Trail Longo e Caminhada e a prova fará parte dos circuitos ATRP.</p>\n",
+  "description_short": "Trail solidário da primavera com percursos variados em benefício de associação local",
+  "page": "https://acorrer.pt/eventos/info/3731",
+  "slug": "trail-primavera-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Santiago do Cacém",
+  "district_code": 15
+}

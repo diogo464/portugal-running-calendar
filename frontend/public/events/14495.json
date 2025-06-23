@@ -1,0 +1,29 @@
+{
+  "id": 14495,
+  "name": "Grande Prémio Atletismo Clube Do Pessoal Águas De Gaia 2022",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/f231ef9a35768ae1ecc111dbcbaf2637"
+  ],
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-11",
+  "circuit": [],
+  "description": "\n<p>Grande Prémio Atletismo Clube Do Pessoal Águas De Gaia 2022</p>\n",
+  "description_short": "Prova de atletismo organizada pelo Clube do Pessoal das Águas de Gaia na região de Vila Nova de Gaia",
+  "page": "https://www.desportave.pt/events.file.php?cid=122",
+  "slug": "grande-premio-atletismo-clube-do-pessoal-aguas-de-gaia-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

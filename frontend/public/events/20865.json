@@ -1,0 +1,33 @@
+{
+  "id": 20865,
+  "name": "Corrida Viana-a-par-de-Alvito 2023",
+  "location": "Alvito, Beja",
+  "coordinates": {
+    "lat": 38.2558735,
+    "lon": -7.991930099999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/72a2c540255b5acc402e8d5c90445910"
+  ],
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-16",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Alvito, a Câmara Municipal de Viana do Alentejo, a Junta de Freguesia de Alvito, a Junta de Freguesia de Viana do Alentejo e a Junta de Freguesia de Vila Nova da Baronia, com o apoio das Associações de Atletismo de Beja e de Évora, com o apoio dos Bombeiros Voluntários e G.N.R. de Alvito e Viana, vão levar a efeito no dia 15.01.2023, na estrada entre Viana e Alvito (passando por Vila Nova da Baronia), a Corrida Viana-a-Par-de-Alvito.</p>\n",
+  "description_short": "Corrida intermunicipal pelo Alentejo com apoio das autarquias locais e forças de segurança",
+  "page": "https://acorrer.pt/eventos/info/3065",
+  "slug": "corrida-viana-a-par-de-alvito-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Alvito",
+  "administrative_area_level_3": "Alvito",
+  "district_code": 2
+}

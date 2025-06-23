@@ -1,0 +1,34 @@
+{
+  "id": 23387,
+  "name": "Xiv G.P. Atletismo De Rebordosa Corrida/Caminhada Dia Da Mãe 2023",
+  "location": "Rebordosa, Paredes",
+  "coordinates": {
+    "lat": 41.2145787,
+    "lon": -8.4099907
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/60736a48021d3c0d14cbe4f8f126c02f"
+  ],
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-08",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo da Portela, com o apoio da Câmara Municipal de Paredes, da Junta de<br>Freguesia de Rebordosa e da Associação de Atletismo do Porto, vai organizar, no dia 7 de maio<br>de 2023, o XIV Grande Prémio de Atletismo de Rebordosa &#8211; Corrida/Caminhada Dia da Mãe,<br>com partida e chegada na Rua Cândido Barbosa (junto ao Centro Escolar de Rebordosa).</p>\n\n\n",
+  "description_short": "Corrida/caminhada do Dia da Mãe em Rebordosa com apoio municipal e associativo",
+  "page": "https://www.queroir.pt/xiv-gp-atletismo-de-rebordosa---corridacaminhada-dia-da-mae-",
+  "slug": "xiv-g-p-atletismo-de-rebordosa-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Rebordosa",
+  "district_code": 13
+}

@@ -1,0 +1,37 @@
+{
+  "id": 34264,
+  "name": "V Trail Rota do Castro 2024",
+  "location": "Romariz, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.941354,
+    "lon": -8.4534102
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    200,
+    650,
+    900,
+    7000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/bda2f569839b3ce55edb0650e3ba0b01"
+  ],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [],
+  "description": "\n<p>O V Trail Rota do Crasto é um evento desportivo de corrida em trilhos organizado pela secção de Atletismo/Trail Running da ASDREQ – Associação Social Desportiva Recreativa Educativa e Cultural de Quintela, contando com o apoio de vários parceiros.</p>\n\n\n\n<p>A 5.a edição do Trail da Rota do Crasto será diferente das edições anteriores na medida em que as distâncias a percorrer serão mais curtas, mantendo, todavia, o equilíbrio em termos de desnível positivo dos percursos. Terá um Trail Longo, desta vez com cerca de 25Km de distância e 900m de desnível acumulado positivo, um Trail Curto, com cerca de 15Km de distância e 650m de desnível acumulado positivo e, uma caminhada, com cerca de 7Km de distância e 200m de desnível acumulado positivo.</p>\n",
+  "description_short": "Trail desafiante pela região de Quintela com diferentes percursos de montanha",
+  "page": "https://stopandgo.net/events/v-trail-rota-do-crasto",
+  "slug": "v-trail-rota-do-castro-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Romariz",
+  "district_code": 1
+}

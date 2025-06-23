@@ -1,0 +1,33 @@
+{
+  "id": 3922,
+  "name": "Trail da Costa Vicentina 2021",
+  "location": "Santiado do Cacém Cacém, Setúbal",
+  "coordinates": {
+    "lat": 37.9650235,
+    "lon": -8.528161299999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    15000,
+    25000,
+    57000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/99905949ae44c3027f64c764fb7a84ee"
+  ],
+  "start_date": "2021-10-24",
+  "end_date": "2021-10-25",
+  "circuit": [],
+  "description": "\n<p>O Trail da Costa Vicentina 2021 será percorrido pelo belo e único trilho/caminho pedestre da Rota Vicentina entre Santiago do Cacém e Porto Covo, na distância longa de 57 Km, com partida ás 8h30 na Igreja Matriz de Santiago do Cacém.</p>\n\n\n\n<p>Com início ás 10h00 no centro do Cercal do Alentejo partem os atletas para uma distância intermédia de 25 Km entre o Cercal e Porto Covo.</p>\n\n\n\n<p>Finalmente pelas 10h30 tem lugar a partida para uma distância mais curta num percurso de 15 Km entre a Sonega e Porto Covo.</p>\n\n\n\n<p>O Trail Longo bem como o Trail Médio são etapas do Circuito Nacional de Trail Ultra e do Circuito Nacional de Trail respetivamente.</p>\n\n\n\n<p>No mesmo dia uma Caminhada não competitiva, num percurso circular no Cercal do Alentejo também percorrida na Rota Vicentina. O valor da inscrição da Caminhada reverte na totalidade para os Bombeiros Voluntários do Cercal do Alentejo.<br>Será feita a caminhar e não haverá tempo limite para terminar.</p>\n",
+  "description_short": "Trail da Costa Vicentina pela histórica Rota Vicentina, com percursos de diferentes distâncias entre Santiago do Cacém e Porto Covo",
+  "page": "https://ganhardestak.bol.pt/Comprar/Bilhetes/87122",
+  "slug": "trail-da-costa-vicentina-2021",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

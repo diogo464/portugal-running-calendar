@@ -1,0 +1,34 @@
+{
+  "id": 21015,
+  "name": "5ª Edição Do Trail Dos Trilhos Da Mata 2023",
+  "location": "Milagres, Leiria",
+  "coordinates": {
+    "lat": 39.790627,
+    "lon": -8.7948185
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b595dfedf00e7de16771615604fd80c1"
+  ],
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-16",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Associação Desportiva e Recreativa da Mata</strong>&nbsp;realizará no dia&nbsp;<strong>15 de janeiro de 2023</strong>&nbsp;a&nbsp;<strong>5ª edição do Trail dos Trilhos da Mata</strong>.</p>\n\n\n\n<p>Uma prova de&nbsp;Trail Running&nbsp;(aproximadamente 19 km) que percorrerá percursos e trilhos na freguesia dos Milagres, concelho e distrito de Leiria.</p>\n\n\n\n<p>Haverá também uma&nbsp;Caminhada&nbsp;com cerca de 10 km, sem carater competitivo.</p>\n\n\n\n<p>A concentração, Partida e chegada da prova e da caminhada será junto à sede da Associação Desportiva e Recreativa da Mata.</p>\n\n\n\n<p>Ao longo do percurso os participantes passarão em antigos caminhos de rega, caminhos rurais e trilhos preparados especialmente para este evento</p>\n",
+  "description_short": "Trail de trilhos rurais pelos caminhos históricos da freguesia dos Milagres em Leiria",
+  "page": "https://www.recordepessoal.pt/evento/5edicaodotraildostrilhosdamata",
+  "slug": "5a-edicao-do-trail-dos-trilhos-da-mata-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Milagres",
+  "district_code": 10
+}

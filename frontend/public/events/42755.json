@@ -1,0 +1,36 @@
+{
+  "id": 42755,
+  "name": "Eco Meia Maratona de Coimbra 2025",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/f5190daf7b25f3e62b846d0022e276e5"
+  ],
+  "start_date": "2025-10-12",
+  "end_date": "2025-10-13",
+  "circuit": [],
+  "description": "\n<p>Dia 12 de Outubro vamos invadir os Campos do Mondego, 𝘼𝙘𝙚𝙞𝙩𝙖 𝙤 𝙙𝙚𝙨𝙖𝙛𝙞𝙤, para uma Meia Maratona fora de estrada, diferente, cheia de magia em plena natureza.</p>\n\n\n\n<p>21km</p>\n\n\n\n<p>10km correr /caminhar</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Meia maratona de trilho pelos pitorescos Campos do Mondego com percurso inspirador na natureza",
+  "page": "https://ecomeiamaratonacoimbra.wordpress.com/",
+  "slug": "eco-meia-maratona-de-coimbra-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

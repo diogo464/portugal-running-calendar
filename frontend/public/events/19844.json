@@ -1,0 +1,36 @@
+{
+  "id": 19844,
+  "name": "XVI Grande Prémio Da Arrábida 2022",
+  "location": "Parque de Vanicelos, Setúbal",
+  "coordinates": {
+    "lat": 38.53660199999999,
+    "lon": -8.8972664
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    500,
+    7000,
+    12500,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/85e3c0ddf3f257bb18e05be759ecb528"
+  ],
+  "start_date": "2022-11-27",
+  "end_date": "2022-11-28",
+  "circuit": [],
+  "description": "\n<p><strong>O GRANDE PRÉMIO DA ARRÁBIDA</strong>&nbsp;é uma organização da Associação de Atletismo Lebres do Sado. Trata-se uma prova de carácter competitivo com a distância de&nbsp;<strong>12 500 m&nbsp;</strong>e com partida às&nbsp;<strong>10h00 de Domingo, 27&nbsp;de novembro de 2022</strong>&nbsp;e destina-se a todos os atletas federados ou não, no âmbito da corrida para todos.</p>\n\n\n\n<p>A prova desenrolar-se-á num misto de alcatrão e terra batida, com aproximadamente dois quilómetros de subida, sendo o restante em descida e plano horizontal.</p>\n\n\n\n<p>O&nbsp;<strong>GRANDE PRÉMIO DA ARRÁBIDA&nbsp;</strong>conta ainda com uma prova aberta – para participantes com idade&nbsp;a partir dos 6 anos com uma distância de&nbsp;<strong>7 000 m</strong>&nbsp;e com início às&nbsp;<strong>10h00</strong>&nbsp;do mesmo dia.&nbsp;<strong>Nesta edição os três primeiros classificados masculinos e femininos da geral terão direito a prémio.</strong></p>\n\n\n",
+  "description_short": "Corrida desafiante pela Arrábida com percurso misto de alcatrão e terra batida, com subidas técnicas e paisagens únicas",
+  "page": "https://werun.pt/eventos/xvi-grande-premio-da-arrabida/",
+  "slug": "xvi-grande-premio-da-arrabida-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": "União das freguesias de Setúbal (São Julião, Nossa Senhora da Anunciada e Santa Maria da Graça)",
+  "district_code": 15
+}

@@ -1,0 +1,33 @@
+{
+  "id": 29080,
+  "name": "São Silvestre Reguengos de Monsaraz 2023",
+  "location": "Reguengos de Monsaraz, Évora",
+  "coordinates": {
+    "lat": 38.42526549999999,
+    "lon": -7.5344352
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/9aab53b6de355012468497d8550eecb8"
+  ],
+  "start_date": "2023-12-17",
+  "end_date": "2023-12-18",
+  "circuit": [],
+  "description": "\n<p>A 3ª São Silvestre de Reguengos de Monsaraz será realizada a 17 de Dezembro de 2023 e é composta por um percurso de 10 kms para Corrida. O início e términus do percurso, será na Praça da Liberdade.</p>\n\n\n",
+  "description_short": "Corrida de São Silvestre à volta da histórica vila alentejana de Reguengos de Monsaraz",
+  "page": "https://acorrer.pt/eventos/info/3318",
+  "slug": "sao-silvestre-reguengos-de-monsaraz-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Reguengos de Monsaraz",
+  "administrative_area_level_3": "Reguengos de Monsaraz",
+  "district_code": 7
+}

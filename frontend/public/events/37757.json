@@ -1,0 +1,33 @@
+{
+  "id": 37757,
+  "name": "Meia Maratona Faro 2025",
+  "location": "Faro Faro, Portugal",
+  "coordinates": {
+    "lat": 37.0164626,
+    "lon": -7.9351983
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/3e6d6c110e4ce39eb4dfc4563b22a50a"
+  ],
+  "start_date": "2025-04-05",
+  "end_date": "2025-04-06",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona Água de FARO 25 é uma prova pedestre diurna organizada pela FAGAR e pelo Município de Faro, com o apoio técnico da Associação de Atletismo do Algarve.</p>\n\n\n\n<p></p>\n\n\n\n<p><strong>Percursos:</strong></p>\n\n\n\n<p>Mini/ Meia Maratona</p>\n\n\n\n<p>Caminhada<br></p>\n",
+  "description_short": "Meia Maratona urbana em Faro com organização municipal e apoio local",
+  "page": "https://www.crono.aaalgarve.org/eventos/meia-maratona-agua-de-faro-25",
+  "slug": "meia-maratona-faro-2025",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

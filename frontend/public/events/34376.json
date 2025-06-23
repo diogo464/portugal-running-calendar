@@ -1,0 +1,30 @@
+{
+  "id": 34376,
+  "name": "Corrida de Aniversário Gdc Estrela Negra 2024",
+  "location": "Barreiro, Setúbal",
+  "coordinates": {
+    "lat": 38.6608149,
+    "lon": -9.0790724
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/7c813d365dbc25393bc5788f35eed369"
+  ],
+  "start_date": "2024-06-10",
+  "end_date": "2024-06-10",
+  "circuit": [],
+  "description": "\n<p>O GDC Estrela Negra, juntamente com o apoio da Câmara Municipal do Barreiro e organização técnica da Xistarca, organiza no dia 10 de junho de 2024, a <strong>9ª Prova do Circuito de Atletismo do Barreiro.</strong></p>\n\n\n",
+  "description_short": "Prova de atletismo anual no Barreiro para celebrar o Dia de Portugal",
+  "page": "https://xistarca.pt/eventos/cab-corrida-de-aniversario-gdc-estrela-negra",
+  "slug": "corrida-de-aniversario-gdc-estrela-negra-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "Barreiro",
+  "district_code": 15
+}

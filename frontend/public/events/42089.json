@@ -1,0 +1,32 @@
+{
+  "id": 42089,
+  "name": "Milha Urbana de Santo Tirso 2025",
+  "location": "Santo Tirso, Porto",
+  "coordinates": {
+    "lat": 41.3431376,
+    "lon": -8.4738078
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "Milha"
+  ],
+  "images": [
+    "media/ca30d6d5365bc307166665cc35402f95"
+  ],
+  "start_date": "2025-06-21",
+  "end_date": "2025-06-21",
+  "circuit": [],
+  "description": "\n<p>21ª Milha Urbana de Santo Tirso, será disputada no próximo dia 21 de junho de 2025, com<br>partida e chegada na Rua das Rãs – próximo ao Auchan de Santo Tirso, e é organizada<br>conjuntamente pela Câmara Municipal de Santo Tirso e pelo C.A.S.T. &#8211; Centro de Atletismo de<br>Santo Tirso,</p>\n\n\n",
+  "description_short": "Milha urbana tradicional em Santo Tirso com organização municipal e do clube local",
+  "page": "https://www.desportave.pt/events.file.php?cid=197",
+  "slug": "milha-urbana-de-santo-tirso-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Santo Tirso",
+  "district_code": 13
+}

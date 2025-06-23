@@ -1,0 +1,34 @@
+{
+  "id": 883,
+  "name": "Corrida Fernanda Ribeiro 2020",
+  "location": "Câmara Municipal da Maia, Porto",
+  "coordinates": {
+    "lat": 41.2332326,
+    "lon": -8.6226688
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/2246b725febbc05cbae836e2717de411"
+  ],
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-11",
+  "circuit": [],
+  "description": "<p><strong>CORRIDA FERNANDA RIBEIRO GENERALI</strong></p>\n<p>A cidade da Maia recebe no dia 10 de Maio de 2020, a 7ª edição Corrida Fernanda Ribeiro Generali, uma organização da EventSport e Academia Fernanda Ribeiro com o apoio da Câmara Municipal da Maia.</p>\n<p>Depois de uma 6ª edição extraordinária, que ficou marcada por milhares de atletas a correr e a caminhar por um percurso citadino exemplar, a Corrida de 10 Km (10h00) e a Caminhada de 4 Km (09h00) teve como pano de fundo a cidade da Maia, um dos municípios mais avançados do país, com um papel fundamental na indústria, inovação, novas tecnologias e no desporto, sendo um modelo exemplar de desenvolvimento económico, ambiental e desportivo.</p>\n<p>&nbsp;</p>\n",
+  "description_short": "Corrida citadina na Maia homenageando a atleta olímpica Fernanda Ribeiro",
+  "page": "http://7corridafernandaribeiro.eventsport.net/",
+  "slug": "corrida-fernanda-ribeiro",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Maia",
+  "administrative_area_level_3": "Cidade da Maia",
+  "district_code": 13
+}

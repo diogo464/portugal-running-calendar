@@ -1,0 +1,35 @@
+{
+  "id": 35714,
+  "name": "Trail Serra Dos Candeeiros 2024",
+  "location": "Pedreiras, Leiria",
+  "coordinates": {
+    "lat": 39.5901561,
+    "lon": -8.861821599999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    11000,
+    16000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/19c8bd210d400ca4d3a5e696636c288d"
+  ],
+  "start_date": "2024-09-22",
+  "end_date": "2024-09-23",
+  "circuit": [],
+  "description": "\n<p>A equipa de Trail do Grupo Recreativo da Corredoura organiza no dia 22 de Setembro de 2024, a 4ª edição do Grande Trail Serra dos Candeeiros (G.T.S.C), composto por duas provas e uma caminhada:</p>\n\n\n\n<p><br>G.T.S.C CAMINHADA – caminhada com a distância de aproximadamente 11km;<br>G.T.S.C CURTO – prova com a distância de aproximadamente 16km;<br>G.T.S.C LONGO &#8211; prova com a distância de aproximadamente 28km;</p>\n\n\n\n<p><br>O percurso do G.T.S.C é maioritariamente composto por trilhos, caminhos agrícola e estradas florestais inseridas no parque natural da Serra de Aire e Candeeiros (PNSAC) sendo a sua localização não revelada até ao início da prova.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e estradas florestais do Parque Natural da Serra de Aire e Candeeiros",
+  "page": "https://www.recordepessoal.pt/evento/4grandetrailserradoscandeeiros",
+  "slug": "trail-serra-dos-candeeiros-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Pedreiras",
+  "district_code": 10
+}

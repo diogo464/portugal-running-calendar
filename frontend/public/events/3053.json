@@ -1,0 +1,29 @@
+{
+  "id": 3053,
+  "name": "Grande Trail de Alpiarça 2021",
+  "location": "Alpiarça, Santarém",
+  "coordinates": {
+    "lat": 39.2591889,
+    "lon": -8.5820055
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/54604510cc726d3ab24a96f327f96b84"
+  ],
+  "start_date": "2021-10-02",
+  "end_date": "2021-10-03",
+  "circuit": [],
+  "description": "\n<p>O GTdA – Grande Trail de Alpiarça está de regresso em outubro de 2021!<br>Nesta sua 3.ª edição, damos a conhecer o extraordinário potencial que o concelho de Alpiarça tem para a prática do desporto.<br>Este ano, a 02 de outubro, o objetivo é enfatizar a competição, já que a pandemia teima em condicionar toda a socialização que caracteriza a nossa prova. No entanto, não desmotivamos e vamos dar tudo nos trilhos, para bem receber quem quer conhecer melhor a nossa vila.<br>Assim, o palco desta aventura vai ser, maioritariamente , os “trilhos do sartela”, local de imensos treinos dos nossos atletas e de inúmeros grupos e amigos!<br>Encontram-se reunidas todas as condições para um trail fantástico por terras do Ribatejo!<br>Vem correr ou caminhar connosco, no dia 02 de outubro de 2021, em Alpiarça e&#8230; verás que vais simplesmente ADORAR!<br>O GTdA é uma organização da secção Trail/Running do C.D. “Os Águias” de Alpiarça, em parceria com a C.M. Alpiarça e a J.F. Alpiarça. É uma prova certificada pela ATRP e integrada no CTR – Circuito de Trail do Ribatejo.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos do Sartela em Alpiarça, no coração do Ribatejo",
+  "page": "https://www.trilhoperdido.com/evento/3-Grande-Trail-Alpiarca",
+  "slug": "grande-trail-de-alpiarca-2021",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Alpiarça",
+  "administrative_area_level_3": "Alpiarça",
+  "district_code": 14
+}

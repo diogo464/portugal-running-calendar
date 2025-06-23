@@ -1,0 +1,29 @@
+{
+  "id": 31140,
+  "name": "Corrida dos Reis Anadia 2024",
+  "location": "Anadia, Aveiro",
+  "coordinates": {
+    "lat": 40.4409572,
+    "lon": -8.4354306
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/04d099bf90549547b96a355b1ab3aedd"
+  ],
+  "start_date": "2024-01-13",
+  "end_date": "2024-01-14",
+  "circuit": [],
+  "description": "\n<p>A 1ª Corrida De Reis de Anadia, é uma prova organizada por duas alunas da Escola Básica e Secundária de<br>Anadia, Inês Ferreira e Gabriela Batista no sentido de realizar a PAP (Prova de Aptidão Profissional) para<br>concluir o 12º ano do curso Técnico de Desporto, com o apoio da Câmara Municipal de Anadia e do Clube<br>Saca Trilhos.</p>\n\n\n\n<p>Esta prova é sem fim lucrativo.<br>Vai-se realizar na cidade de Anadia, distrito de Aveiro com  partida e chegada na Praça da Juventude</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida solidária de Reis organizada por estudantes em Anadia com apoio municipal",
+  "page": "https://www.start2win.pt/evento/reis-anadia-2024",
+  "slug": "corrida-dos-reis-anadia-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Anadia",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

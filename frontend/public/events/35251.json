@@ -1,0 +1,31 @@
+{
+  "id": 35251,
+  "name": "As Voltas do Impossível 2024",
+  "location": "Rio de Frades, Aveiro",
+  "coordinates": {
+    "lat": 40.87672001035887,
+    "lon": -8.19327846061871
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    21000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a1a0630f7fc23fdbca7898d3fc50e213"
+  ],
+  "start_date": "2024-05-25",
+  "end_date": "2024-05-26",
+  "circuit": [],
+  "description": "\n<p>A Confraria Trotamontes e o Município de Arouca vão realizar a 5aedição do evento “As Voltas do Impossível”, esta consiste numa prova de trail que se realizará dia 25 de Maio em Arouca – Rio de Frades.<br>.A prova consiste em percorrer 5 voltas com cerca de 21km cada, tendo que as concluir em 15 horas.</p>\n",
+  "description_short": "Trail desafiante em Arouca com cinco voltas pela região de Rio de Frades",
+  "page": "https://stopandgo.net/events/as-voltas-do-impossivel-2024",
+  "slug": "as-voltas-do-impossivel-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Arouca",
+  "administrative_area_level_3": "União das freguesias de Cabreiros e Albergaria da Serra",
+  "district_code": 1
+}

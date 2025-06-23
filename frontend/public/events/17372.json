@@ -1,0 +1,34 @@
+{
+  "id": 17372,
+  "name": "4 Corrida Sealand Santa Cruz 2022",
+  "location": "Santa Cruz, Torres Vedras",
+  "coordinates": {
+    "lat": 39.1340863,
+    "lon": -9.3814444
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/25be664d8557c228d347b7fa32d5ce3a"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>A Corrida Sealand Santa Cruz 2022 é uma prova organizada pela Associação Sealand Santa Cruz, no dia 11 de Setembro.&nbsp;</p>\n\n\n\n<p>Contará com uma Corrida de 10km e uma Caminhada de 6km.</p>\n",
+  "description_short": "Corrida solidária na região de Santa Cruz com percurso tradicional",
+  "page": "https://werun.pt/eventos/4-corrida-sealand-santa-cruz/",
+  "slug": "4-corrida-sealand-santa-cruz-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Silveira",
+  "district_code": 11
+}

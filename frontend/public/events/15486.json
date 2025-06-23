@@ -1,0 +1,31 @@
+{
+  "id": 15486,
+  "name": "STC Ultimate 2022",
+  "location": "Santiado do Cacém Cacém, Setúbal",
+  "coordinates": {
+    "lat": 37.9650235,
+    "lon": -8.528161299999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/7bb9b627d676955ce9df10697216e685"
+  ],
+  "start_date": "2022-09-25",
+  "end_date": "2022-09-26",
+  "circuit": [],
+  "description": "\n<p>SANTIAGO DO CACÉM RECEBE O DERRADEIRO DESAFIO DE OBSTÁCULOS!</p>\n\n\n\n<p><br>O “STC ULTIMATE OBSTACLE CHALLENGE” é uma prova combinada de Corrida e a transposição de Obstáculos naturais e artificiais, realizado em circuitos inseridos na Natureza e Urbano, nomeadamente na zona histórica da cidade de Santiago do Cacém.<br>A prova a realizar terá uma extensão de cerca de 10 Km com cerca de 40 obstáculos, que terão de ser ultrapassados entre a zona histórica da Cidade, o Parque do Rio da Figueira e a envolvente ao Castelo. Isto exigirá aos participantes, para além da resistência física, também força e destreza além de espirito de superação para ultrapassar os obstáculos que lhes surgirão pela frente, sejam eles saltar muros, subir árvores ou cordas, arrastar ou carregar pesos, rastejar e nadar. Mas como diz o lema da prova, “Um obstáculo só será grande se a tua força de vontade for pequena!”, demonstrando que esta é também uma prova de companheirismo e entreajuda, porque só assim conseguirão ultrapassar muitos dos obstáculos que irão encontrar.</p>\n\n\n\n<p>Este tipo de evento é o único realizado na região do Alentejo!</p>\n\n\n\n<p>A CORRIDA DE OBSTÁCULOS MAIS LOUCA DO ALENTEJO É SUPERAÇÃO, SACRIFÍCIO E DIVERSÃO, PARA TODOS OS QUE SENTEM A VIDA COMO UM DESAFIO CONSTANTE!</p>\n",
+  "description_short": "Corrida de obstáculos épica que desafia participantes pela zona histórica de Santiago do Cacém e envolvente ao Castelo",
+  "page": "https://meutempo.pt/prova?stcultimate",
+  "slug": "stc-ultimate-obstacle-challenge-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

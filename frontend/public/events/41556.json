@@ -1,0 +1,31 @@
+{
+  "id": 41556,
+  "name": "Challenge Up – Escadinhas da Saúde 2025",
+  "location": "Martim Moniz, Lisboa",
+  "coordinates": {
+    "lat": 38.7160206,
+    "lon": -9.1367671
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    300
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/fab089788983714375000424a635d91e"
+  ],
+  "start_date": "2025-05-10",
+  "end_date": "2025-05-11",
+  "circuit": [],
+  "description": "\n<p>O Martim Moniz&nbsp;recebe a 4ª<strong>&nbsp;</strong>edição do<strong>&nbsp;Challenge Up&nbsp;– Escadinhas da Saúde!</strong></p>\n\n\n\n<p>Desafia-te, ou melhor, delicia-te com um percurso localizado no coração de Lisboa. São&nbsp;<strong>300 metros</strong>&nbsp;sempre a subir, com uma&nbsp;<strong>inclinação total de 53 metros</strong>&nbsp;e&nbsp;<strong>287&nbsp;degraus</strong>&nbsp;que vais ter pela frente nesta prova…</p>\n\n\n\n<p id=\"block-dacff17d-7635-405c-a3ae-348aebb15a47\"></p>\n",
+  "description_short": "Desafio urbano de escadinhas com subida desafiante no coração histórico de Lisboa",
+  "page": "https://xistarca.pt/eventos/betclic-challenge-up-2025-escadinhas-da-saude",
+  "slug": "challenge-up-escadinhas-da-saude-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Santa Maria Maior",
+  "district_code": 11
+}

@@ -1,0 +1,31 @@
+{
+  "id": 20767,
+  "name": "VI Poço Negro Trail 2023",
+  "location": "Rio Mau, Penafiel",
+  "coordinates": {
+    "lat": 41.0530542,
+    "lon": -8.3674684
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/48409eabd10994f929795c37a446c466"
+  ],
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-03",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Poço Negro Trail volta para mais uma grande edição, na zona de Rio Mau, em Penafiel. Venha engrossar o já longo pelotão que percorreu nos anos anteriores os montes e vales escavados, entre elementos de água que entusiasmam a corrida em montanha. Tal como em anos anteriores o valor das inscrições reverterá para uma causa solidária, a Associação para o Desenvolvimento da Freguesia de Rio Mau.</p>\n",
+  "description_short": "Trail solidário pelos montes e vales de Rio Mau com passagens por elementos de água em Penafiel",
+  "page": "https://lap2go.com/pt/event/poco-negro-trail-2023",
+  "slug": "vi-poco-negro-trail-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Penafiel",
+  "administrative_area_level_3": "Rio Mau",
+  "district_code": 13
+}

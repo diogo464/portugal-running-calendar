@@ -1,0 +1,34 @@
+{
+  "id": 20166,
+  "name": "Trail do Sarilho 2022",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/57b5cf231c3855947f75bddfb3a5bff1"
+  ],
+  "start_date": "2022-12-11",
+  "end_date": "2022-12-12",
+  "circuit": [],
+  "description": "\n<p>A Secção de Ar Livre e Aventura da Associação de Solidariedade Social Sociedade Columbófila Cantanhedense (ASSSCC), com o apoio do Município de Cantanhede e outros parceiros, vai realizar no próximo dia 11 de dezembro de 2022, o Trail do Sarilho &#8211; Cantanhede &#8211; 2022.<br>O evento será, desportivamente, composto pelas seguintes provas:<br>Trail Curto K19 (19 Km )<br>Mini Trail K12 (12 Km)<br>Caminhada (12 Km)</p>\n",
+  "description_short": "Trail desafiante pela região de Cantanhede com percursos de diferentes distâncias",
+  "page": "https://www.runmanager.net/Eventos/trail-do-sarilho/673",
+  "slug": "trail-do-sarilho-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

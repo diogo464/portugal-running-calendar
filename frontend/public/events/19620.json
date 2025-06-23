@@ -1,0 +1,35 @@
+{
+  "id": 19620,
+  "name": "Spt Trail Serra Galega 2023",
+  "location": "Alenquer, Lisboa",
+  "coordinates": {
+    "lat": 39.0550936,
+    "lon": -9.010930499999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    13000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/48377fa52ef064aea83d8efa196bcff3"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [],
+  "description": "\n<p>A Equipa&nbsp;<strong>Sabores do Paço Trail Zatopeques</strong>&nbsp;(associada ao&nbsp;<strong>Centro Recreativo e Cultural de Freixial do Meio</strong>), com o apoio do&nbsp;<strong>Município de Alenquer</strong>,&nbsp;<strong>Junta de Freguesia da Ventosa</strong>,&nbsp;<strong>Junta de Freguesia Vila Verde dos Francos</strong>,&nbsp;<strong>Junta de Freguesia da Aldeia galega da Merceana</strong>&nbsp;e restantes patrocinadores propõem-se a realizar este evento para promover e divulgar a&nbsp;<strong>Região da Serra Galega</strong>, bem como a fomentação de hábitos saudáveis junto das populações locais.</p>\n\n\n\n<p>Temos como objectivo a satisfação de todos os envolvidos, dando-lhes a conhecer os melhores trilhos desta Serra.</p>\n\n\n\n<p>A&nbsp;<strong>“I Edição do SPT Serra Galega”</strong>&nbsp;irá decorrer no dia&nbsp;<strong>30 de Abril de 2023</strong>, inclui duas provas de carácter competitivo, um&nbsp;<strong>trail longo</strong>&nbsp;com aproximadamente&nbsp;<strong>24km</strong>&nbsp;e um&nbsp;<strong>trail curto</strong>&nbsp;com cerca de&nbsp;<strong>13km</strong>. Será ainda possível participar numa&nbsp;<strong>caminhada</strong>&nbsp;de cerca de&nbsp;<strong>10 Km</strong>&nbsp;em ambiente mais descontraído.</p>\n\n\n",
+  "description_short": "Trail promocional pela Serra Galega com apoio municipal, destacando os seus melhores trilhos e promovendo hábitos saudáveis",
+  "page": "https://www.recordepessoal.pt/evento/spttrailserragalega2023",
+  "slug": "spt-trail-serra-galega-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Alenquer",
+  "administrative_area_level_3": "União das freguesias de Alenquer (Santo Estêvão e Triana)",
+  "district_code": 11
+}

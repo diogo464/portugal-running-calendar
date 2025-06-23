@@ -1,0 +1,29 @@
+{
+  "id": 15194,
+  "name": "Halloween Night Run 2022",
+  "location": "Estádio Universitário de Lisboa Lisboa,",
+  "coordinates": {
+    "lat": 38.75185,
+    "lon": -9.1625361
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/e95c05f6b68847934ae8553c99024a2f"
+  ],
+  "start_date": "2022-10-31",
+  "end_date": "2022-11-01",
+  "circuit": [],
+  "description": "\n<p>No dia 31 de Outubro de 2022, o Estádio Universitário de Lisboa será, uma vez mais, o palco para a 7ª Halloween Night Run 2022, desta vez com a&nbsp;<strong>Special Edition: Zombie Run.</strong></p>\n\n\n\n<p>Mascara-te a rigor, corre o mais rápido que puderes e foge dos&nbsp;<strong>ZOMBIES</strong>&nbsp;que vão&nbsp;<strong>CORRER atrás de ti!</strong>&nbsp;Vamos juntar a competição à festa, com sustos pelo meio e muita diversão durante o evento. Contamos contigo?</p>\n",
+  "description_short": "Corrida temática de Halloween no Estádio Universitário de Lisboa com caça aos zombies",
+  "page": "https://xistarca.pt/eventos/7a-halloween-night-run-2022",
+  "slug": "halloween-night-run-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Alvalade",
+  "district_code": 11
+}

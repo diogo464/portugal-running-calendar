@@ -1,0 +1,30 @@
+{
+  "id": 41296,
+  "name": "Telhadela Trail 2025",
+  "location": "Telhadela, Albergaria-a-Velha",
+  "coordinates": {
+    "lat": 40.7615963,
+    "lon": -8.449004799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/9fee8ad65f51a37c0cb51a526a1b3db7"
+  ],
+  "start_date": "2025-06-15",
+  "end_date": "2025-06-15",
+  "circuit": [],
+  "description": "\n<p>TELHADELA TRAIL – RENASCER DAS CINZAS, após a destruição causada pelos incêndios, que debastaram a nossa região, a natureza e a comunidade entrelaçam-se, provando que é possível ressurgir mais fortes e determinados. Esta prova pretende promover a prática desportiva em geral e o gosto pelo desporto na Natureza, vai percorrer os trilhos de Telhadela e da freguesia de Ribeira de Fráguas.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário de renascimento pelos trilhos ardidos de Telhadela, celebrando a resiliência da natureza e da comunidade local",
+  "page": "https://lap2go.com/pt/event/telhadela-trail-2025",
+  "slug": "telhadela-trail-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Albergaria-a-Velha",
+  "administrative_area_level_3": "Ribeira de Fráguas",
+  "district_code": 1
+}

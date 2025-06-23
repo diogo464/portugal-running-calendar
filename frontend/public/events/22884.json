@@ -1,0 +1,34 @@
+{
+  "id": 22884,
+  "name": "Trail Da Boa Viagem 2023",
+  "location": "Satão, Viseu",
+  "coordinates": {
+    "lat": 40.7423572,
+    "lon": -7.732120099999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/642cfa42931b3a452b52bd965088a05d"
+  ],
+  "start_date": "2023-04-23",
+  "end_date": "2023-04-24",
+  "circuit": [],
+  "description": "\n<p>O II Trail da Boa Viagem realizar-se-á no dia 23 de Abril de 2023 e será composto por duas provas (a realizar nesse mesmo dia):</p>\n\n\n\n<p>-Trail Longo: 15 Km<br>&#8211; Mini Trail / Caminhada: 8 Km<br><br>O local de partida e chegada será comum a ambas as provas: Largo da Capela, Contige (Coordenadas GPS: 40.7336017.752112).<br>Os participantes devem estar preparados com pelo menos meia hora de antecedência do horário de partida e devidamente equipados.</p>\n\n\n",
+  "description_short": "Trail na zona de Contige com duas distâncias e percurso a partir do Largo da Capela",
+  "page": "https://acorrer.pt/eventos/info/3167",
+  "slug": "trail-da-boa-viagem-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sátão",
+  "administrative_area_level_3": "Sátão",
+  "district_code": 18
+}

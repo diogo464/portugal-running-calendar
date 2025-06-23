@@ -1,0 +1,33 @@
+{
+  "id": 39105,
+  "name": "Trilhos de Bellas 2025",
+  "location": "Belas, Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7764372,
+    "lon": -9.2642481
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/06f6bed70f64acf955144c2ee3b6a967"
+  ],
+  "start_date": "2025-03-30",
+  "end_date": "2025-03-31",
+  "circuit": [],
+  "description": "\n<p>Esta prova é organizada pela Associação Desportiva GoRunners contando com apoio institucional<br>da União de Freguesias Queluz-Belas e da Trail4U.<br>Será composta pelos seguintes percursos: &#8211; Trail Longo K20+; &#8211; Trail Curto K10+; &#8211; Caminhada.<br>A prova VII Trilhos de Bellas faz parte da Merrell Trail Running Series</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Queluz-Belas com diferentes percursos e apoio local",
+  "page": "https://www.trilhoperdido.com/evento/VII-Trilhos-de-Bellas",
+  "slug": "trilhos-de-bellas-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Queluz e Belas",
+  "district_code": 11
+}

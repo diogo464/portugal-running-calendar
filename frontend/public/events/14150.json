@@ -1,0 +1,35 @@
+{
+  "id": 14150,
+  "name": "São Silvestre Cidade do Porto 2022",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/e019002cdc5dbd020f6b0f5dc4cf2c14"
+  ],
+  "start_date": "2023-01-08",
+  "end_date": "2023-01-09",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre está de regresso à Avenida dos Aliados na Cidade do Porto em 2023.</p>\n\n\n\n<p>O evento está marcado para dia 8 de Janeiro e conta com uma prova de 10 quilómetros e uma prova de 5 quilómetros, percorrendo algumas das mais belas e importantes artérias da cidade do Porto.</p>\n\n\n\n<p>Vista-se a rigor e venha participar, a correr ou a caminhar neste fantástico evento.</p>\n\n\n\n<p></p>\n",
+  "description_short": "São Silvestre tradicional no centro histórico do Porto",
+  "page": "https://www.runporto.com/pt/eventos/sao-silvestre-do-porto/sao-silvestre-do-porto-2022/",
+  "slug": "sao-silvestre-do-porto-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

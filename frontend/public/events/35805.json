@@ -1,0 +1,32 @@
+{
+  "id": 35805,
+  "name": "Trail da Aldeia Branca &#8211; Estoi 2024",
+  "location": "Estoi, Faro",
+  "coordinates": {
+    "lat": 37.0942972,
+    "lon": -7.8948772
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/cf2faa32d576e1f2b798cb81fdbaf58f"
+  ],
+  "start_date": "2024-08-10",
+  "end_date": "2024-08-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail da Aldeia Branca &#8211; Estoi é um evento desportivo de caráter lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de trail running, mas também os territórios onde decorre o evento.</p>\n\n\n\n<p>Nesta que é a 1ªedição do Trail da Aldeia Branca &#8211; Estoi, o evento irá decorrer no dia 10 de agosto de 2024.<br>O Trail da Aldeia Branca &#8211; Estoi integra o Circuito Nacional de Trail (ATRP) e o Circuito de Trail do Algarve da Associação de Atletismo do Algarve (AAALG). O Trail Sprint da Aldeia Branca &#8211; Estoi integra o Circuito Nacional de Trail Sprint (ATRP) e o Campeonato Regional de Trail Sprint do Algarve da Associação de Atletismo do Algarve. O Trail da Aldeia Branca &#8211; Estoi é organizado pelo Grupo Desportivo e Cultural Jograis<br>António Aleixo, com o apoio da Associação de Atletismo do Algarve (AAALG), e com o apoio institucional da Câmara Municipal de Faro, da União de Freguesias de Conceição e Estoi.</p>\n\n\n",
+  "description_short": "Trail desportivo pela Aldeia Branca em Estoi, integrando circuitos nacionais e regionais de trail running no Algarve",
+  "page": "https://www.crono.aaalgarve.org/eventos/trail-da-aldeia-branca-estoi-2024",
+  "slug": "trail-da-aldeia-branca-estoi-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": "União das freguesias de Conceição e Estoi",
+  "district_code": 8
+}

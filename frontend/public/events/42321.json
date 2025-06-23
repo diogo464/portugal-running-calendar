@@ -1,0 +1,38 @@
+{
+  "id": 42321,
+  "name": "Ultra Trilhos da Gardunha 2025",
+  "location": "Louriçal do Campo, Castelo Branco",
+  "coordinates": {
+    "lat": 40.0446331,
+    "lon": -7.509562300000001
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    12000,
+    18000,
+    32000,
+    50000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fbe114fc401ba81d9338a13f71fc9425"
+  ],
+  "start_date": "2025-10-24",
+  "end_date": "2025-10-25",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O UTG, é um evento de trail running, composto por uma caminhada e por 4 percursos circulares de 12k, 18k, 32k e 50k, que percorrem estradas florestais, trilhos, caminhos romanos, levadas, ribeiras, zonas históricas, ruas de aldeias e os pontos mais altos da Serra da Gardunha. Grande parte dos percursos estão sinalizados como percursos de rotas pedestres.</p>\n",
+  "description_short": "Trail desafiante pela Serra da Gardunha com percursos históricos e paisagens naturais variadas",
+  "page": "https://meutempo.pt/prova?utg25",
+  "slug": "ultra-trilhos-da-gardunha-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Louriçal do Campo",
+  "district_code": 5
+}

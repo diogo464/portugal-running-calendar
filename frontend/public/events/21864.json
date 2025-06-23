@@ -1,0 +1,34 @@
+{
+  "id": 21864,
+  "name": "Eco Meia Maratona de Coimbra 2023",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/2ae66569288b71faf79a30eb56664b22"
+  ],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "\n<p>Vai realizar-se a 6ª Eco Meia Maratona de Coimbra no dia 15 de Outubro de 2023.<br>Nos campos do Mondego em plena natureza fora dos circuitos urbanos e do asfalto.<br>Aceita o desafio para a meia maratona mais plana do mundo em plena natureza.</p>\n\n\n",
+  "description_short": "Meia maratona ecológica pelos campos do Mondego com percurso natural e plano em Coimbra",
+  "page": "https://ecomeiamaratonacoimbra.wordpress.com/",
+  "slug": "eco-meia-maratona-de-coimbra-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

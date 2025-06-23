@@ -1,0 +1,33 @@
+{
+  "id": 13710,
+  "name": "São Silvestre da Trofa 2022",
+  "location": "Trofa, Porto",
+  "coordinates": {
+    "lat": 41.3125528,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/29ff0a2763599ea4aa4b3311e2554906"
+  ],
+  "start_date": "2022-01-22",
+  "end_date": "2022-01-23",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre da Trofa 2022 é uma organização da Associação Recreativa de Paradela, onde a Rua Conde S. Bento será o início da sua primeira edição e a grande festa terá como palco, o centro da cidade da Trofa.<br>É a prova ideal para começar 2022 da melhor forma!</p>\n\n\n\n<p>As inscrições estão abertas e são limitadas.</p>\n",
+  "description_short": "Corrida de São Silvestre inaugural no centro da Trofa com partida na Rua Conde S. Bento",
+  "page": "https://www.raidbttdatrofa.pt/evento.php?i_e=11",
+  "slug": "sao-silvestre-da-trofa-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Trofa",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

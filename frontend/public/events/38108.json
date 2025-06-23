@@ -1,0 +1,31 @@
+{
+  "id": 38108,
+  "name": "Trail Boa Ventura 2025",
+  "location": "Boa Ventura, Madeira",
+  "coordinates": {
+    "lat": 32.8177488,
+    "lon": -16.972755
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/61cf0be78fd3493f0f22e2519d12872d"
+  ],
+  "start_date": "2025-01-12",
+  "end_date": "2025-01-13",
+  "circuit": [
+    "Trail Madeira"
+  ],
+  "description": "\n<p>O “Trail Boa Ventura” é um evento que decorre integralmente na freguesia da Boa Ventura, tendo nascido com o propósito de mostrar as suas inúmeras belezas paisagísticas e potencialidades que apresenta no âmbito do trail running, fazendo ainda a ponte de ligação com o extenso património natural, histórico-cultural e social da freguesia. Este evento está integrado do Circuito Trail Madeira.</p>\n",
+  "description_short": "Trail desafiante pela exuberante paisagem da Boa Ventura, na Madeira, integrando o Circuito Trail Madeira",
+  "page": "https://lap2go.com/pt/event/trail-boa-ventura-2025",
+  "slug": "trail-boa-ventura-2025",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": "Boaventura",
+  "district_code": 30
+}

@@ -1,0 +1,31 @@
+{
+  "id": 17215,
+  "name": "Vila Urbana Trail 2022",
+  "location": "Ponte de Lima, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7622565,
+    "lon": -8.5832339
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cd0496d0e019c1f348137235b1c939d4"
+  ],
+  "start_date": "2022-10-15",
+  "end_date": "2022-10-16",
+  "circuit": [],
+  "description": "\n<p>O Vila Urbana Trail surge como ideia pioneira, desenvolvida pela Equipa Minho e Lima Trail e adaptada ao Município de Ponte de Lima, tendo sido a primeira corrida a nível nacional a integrar de forma tão direta e eficaz a vertente cultural no âmbito desportivo;</p>\n\n\n\n<p><br>Aliado à noite, este é um percurso envolto no misticismo e historicidade das ruas do centro histórico da vila de Ponte de Lima, em que o seu principal objetivo é a promoção desportiva conectada à divulgação dos pontos históricos, culturais e de interesse do Município de Ponte de Lima, tendo sido desenvolvido um percurso estruturado de forma a que os atletas tenham a oportunidade de passar pelos vários monumentos e espaços culturais do Município de Ponte de Lima.</p>\n\n\n\n<p>O VILA URBANA TRAIL é organizado pela Associação Minho e Lima Trail com o apoio e colaboração da Câmara Municipal de Ponte de Lima, das Juntas de Freguesia de Arca e Ponte de Lima, Arcozelo e da Correlhã, e com o apoio de várias empresas locais.</p>\n\n\n\n<p><br>A 5.ª edição do VILA URBANA TRAIL irá realizar-se no dia 15 de outubro de 2022 com uma distância competitiva de 10 km e uma caminhada solidária organizada em parceria com o Rotary Club de Ponte de Lima.</p>\n",
+  "description_short": "Trail urbano nocturno pelo centro histórico de Ponte de Lima com percurso cultural e desportivo",
+  "page": "http://cyclonessports.com/index.php/249-vila-urbana-trail",
+  "slug": "vila-urbana-trail-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Arca e Ponte de Lima",
+  "district_code": 16
+}

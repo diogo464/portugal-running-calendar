@@ -1,0 +1,37 @@
+{
+  "id": 607,
+  "name": "Meia-Maratona D´Ouro Run Gondomar Generali",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000,
+    21097,
+    97000
+  ],
+  "types": [
+    "half-marathon",
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/cf315185559ebd1a6f6520c250db860a"
+  ],
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-08",
+  "circuit": [],
+  "description": "<p>Gondomar recebe no dia 7 de junho de 2020 a 7ª edição da Meia-Maratona D´Ouro Run Gondomar <a href=\"http://www.generali.pt/\" target=\"_blank\" rel=\"noopener\">Generali</a> que se vai realizar na estrada marginal do Município, entre Valbom e Foz do Sousa &#8211; Esposade, uma organização da EventSport e do Município de Gondomar.</p>\n<p>Depois do sucesso alcançado nas seis edições que confirmou e ultrapassou todas as expectativas e com elogios á organização por parte dos atletas e caminhantes, a organização decidiu renovar a sexta edição que contém a <strong>Meia Maratona D´Ouro Run Gondomar</strong> com <strong>21.097Km</strong>, a <strong>Mini Maratona de 10 Km</strong> e a <strong>Caminhada de 5 Km</strong> que têm como pano de fundo a extraordinária beleza do Rio D`Ouro.</p>\n<p>É ao longo do percurso que encontramos paisagens únicas, deslumbrantes e de rara beleza com um microclima propício à prática do desporto, com um percurso rápido e plano, ideal para os participantes melhorarem as suas marcas pessoais.</p>\n<p>Num local que se pretende ser uma referência no turismo da região, a estrada de Entre-os-Rios possui todas as condições necessárias para proporcionar momentos de lazer a quem visita Gondomar, graças a uma marginal fabulosa, com magníficas praias fluviais e uma gastronomia ímpar.</p>\n",
+  "description_short": "Meia-maratona ao longo do Rio D'Ouro com paisagens deslumbrantes em Gondomar",
+  "page": "https://www.dourorun.pt/",
+  "slug": "meia-maratona-douro-run-gondomar-generali",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

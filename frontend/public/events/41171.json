@@ -1,0 +1,35 @@
+{
+  "id": 41171,
+  "name": "Trilhos Loucos da Reixida 2025",
+  "location": "Reixida, Leiria",
+  "coordinates": {
+    "lat": 39.68177650000001,
+    "lon": -8.780749199999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    9000,
+    12000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/aa4bd23609ba3733384a436d11c2b37e"
+  ],
+  "start_date": "2025-06-15",
+  "end_date": "2025-06-16",
+  "circuit": [],
+  "description": "\n<p>Os Trilhos Loucos da Reixida (TLR) são um evento de corrida na natureza, vertente de trail running, organizados pela Associação Cultural, Recreativa e Desportiva de Reixida.</p>\n\n\n\n<p>O evento é composto por duas provas e uma caminhada:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Sprint+- 22km</li>\n\n\n\n<li>Mini-Trail +-12km</li>\n\n\n\n<li>Caminhada +-9km</li>\n</ul>\n\n\n",
+  "description_short": "Trail running na natureza com diferentes percursos pela região de Reixida",
+  "page": "https://www.recordepessoal.pt/evento/15edicaotrilhosloucosdareixida",
+  "slug": "trilhos-loucos-da-reixida-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

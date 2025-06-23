@@ -1,0 +1,34 @@
+{
+  "id": 23049,
+  "name": "III Corrida Solidária AEISA 2023",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/0a2ef4b635d87ebf43b9c2ddfde9fb02"
+  ],
+  "start_date": "2023-04-22",
+  "end_date": "2023-04-23",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Associação dos Estudantes do Instituto Superior de Agronomia</strong>&nbsp;apresenta a “III Corrida Solidária AEISA”, a realizar-se no&nbsp;<strong>dia 22 de abril de 2023</strong>, com o apoio do ISA, CM-Lisboa, Junta de Freguesia da Ajuda, Junta de Freguesia de Alcântara, ADESL, FAL, ULisboa, Mais Superior e Xistarca.</p>\n\n\n\n<p>A <strong>Associação dos Estudantes do Instituto Superior de Agronomia </strong>pretende oferecer aos participantes um <strong>percurso desafiante pelos brilhantes cenários</strong> que irão encontrar na Tapada da Ajuda e Mata de Monsanto, bem como a oportunidade de contribuir para uma <strong>causa solidária</strong>.</p>\n\n\n\n<p><strong>Corrida 10km</strong>&nbsp;| 09h45 | Edifício principal do ISA</p>\n\n\n\n<p><strong>Caminhada 5km</strong>&nbsp;| 10h00 |&nbsp;Edifício principal do ISA</p>\n",
+  "description_short": "Corrida solidária estudantil pelos cenários verdes da Tapada da Ajuda e Monsanto em Lisboa",
+  "page": "https://xistarca.pt/eventos/iii-corrida-solidaria-aeisa-2023",
+  "slug": "iii-corrida-solidaria-aeisa-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

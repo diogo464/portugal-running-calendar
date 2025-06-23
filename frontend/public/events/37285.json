@@ -1,0 +1,38 @@
+{
+  "id": 37285,
+  "name": "Linhas de Torres 100 2025",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    20000,
+    30000,
+    50000,
+    100000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/1ad6b6da226d587eaf12d525e79b9793"
+  ],
+  "start_date": "2025-01-31",
+  "end_date": "2025-02-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Linhas de Torres 100 é uma prova certificada pela ATRP – Associação de Trail Running de Portugal que integra os Circuitos Nacionais de Trail Ultra Endurance (LT100 – K100), Trail Ultra (LT100 – K50), Trail (LT100 – K30) e Trail Sprint (LT100 – K20), é um evento organizado pela Associação Desportiva Trilhos do Costume e com os apoios institucionais das Câmaras Municipais de Arruda dos Vinhos, Loures, Mafra, Sobral de Monte Agraço, Torres Vedras e Vila Franca de Xira.</p>\n",
+  "description_short": "Trail histórico pelas linhas de defesa de Torres Vedras com diversos percursos de montanha",
+  "page": "https://www.trilhoperdido.com/evento/Linhas-de-Torres-100-2025",
+  "slug": "trail-linhas-de-torres-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

@@ -1,0 +1,32 @@
+{
+  "id": 41114,
+  "name": "Góis Trail 2025",
+  "location": "Góis, Coimbra",
+  "coordinates": {
+    "lat": 40.1572681,
+    "lon": -8.1106277
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a45b99e29bf59b95d4d3a82cfcd6d29c"
+  ],
+  "start_date": "2025-09-21",
+  "end_date": "2025-09-21",
+  "circuit": [],
+  "description": "\n<p>O GÓIS TRAIL é um evento de trail running que terá este ano a sua 2ªedição. Com o slogan ENTRE A SERRA E O CEIRA, um trail que procura mostrar a todos os participantes a natureza envolvente do vale do rio ceira com as suas serras em redor.</p>\n\n\n\n<p><br>Este evento será constituído por 5 provas, 3 de carácter competitivo, Mini Trail, Trail Curto, Trail Longo e duas provas de carácter não competitivo, a Caminhada e o Trail Kid’s.</p>\n\n\n",
+  "description_short": "Trail desafiante entre a Serra e o rio Ceira com múltiplas provas para diferentes níveis",
+  "page": "https://stopandgo.net/events/gois-trail-entre-a-serra-e-o-ceira-2025",
+  "slug": "gois-trail-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Góis",
+  "administrative_area_level_3": "Góis",
+  "district_code": 6
+}

@@ -1,0 +1,36 @@
+{
+  "id": 23265,
+  "name": "Corrida da Mãe 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    500,
+    5000,
+    5500,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/7ba1e8f89008d7ccbbd8be68a701e381"
+  ],
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-08",
+  "circuit": [],
+  "description": "\n<p>Com partida e chegada no Parque Ribeirinho do Oriente, o percurso desenrolar-se-á pela magníficaAv. nfante D. Henrique, na zona oriental de Lisboa.<br>Animação não vai faltar, com música ao vivo, entretenimento para as crianças e outras surpresas.</p>\n\n\n\n<p>Parque Ribeirinho do Oriente | Lisboa</p>\n\n\n\n<p>Kids Race 500m&nbsp;|&nbsp;<strong>09h30<br></strong>Corrida 10km |&nbsp;<strong>10h00</strong><br>Mini-Corrida/Caminhada&nbsp;5.5km<strong>&nbsp;| 10h05</strong></p>\n\n\n",
+  "description_short": "Corrida familiar na zona oriental de Lisboa com animação e percurso junto ao Parque Ribeirinho do Oriente",
+  "page": "https://xistarca.pt/eventos/corrida-da-mae",
+  "slug": "corrida-da-mae-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

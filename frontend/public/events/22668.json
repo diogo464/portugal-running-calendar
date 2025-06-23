@@ -1,0 +1,32 @@
+{
+  "id": 22668,
+  "name": "5° Grande Prémio Da Benedita 2023",
+  "location": "Benedita, Alcobaça",
+  "coordinates": {
+    "lat": 39.4269534,
+    "lon": -8.9798156
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/71e3e7f81edf9fd34521896f6c9f2eee"
+  ],
+  "start_date": "2023-05-27",
+  "end_date": "2023-05-28",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/5grandepremiodabenedita",
+  "slug": "5-grande-premio-da-benedita-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Benedita",
+  "district_code": 10
+}

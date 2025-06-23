@@ -1,0 +1,32 @@
+{
+  "id": 36981,
+  "name": "Corrida de Natal Cascais 2024",
+  "location": "Cascais, Lisboa",
+  "coordinates": {
+    "lat": 38.6960614,
+    "lon": -9.430364599999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/b05def1ab396a2f731ab7a360fc8368f"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-08",
+  "circuit": [],
+  "description": "\n<p>Venha correr ou caminhar 5 km num evento que promove inclusão.</p>\n",
+  "description_short": "Corrida solidária para promover inclusão social",
+  "page": "https://cascais.corridadenatal.pt/",
+  "slug": "corrida-de-natal-cascais-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "União das freguesias de Cascais e Estoril",
+  "district_code": 11
+}

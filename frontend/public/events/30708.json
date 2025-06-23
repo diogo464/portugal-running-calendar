@@ -1,0 +1,32 @@
+{
+  "id": 30708,
+  "name": "Algarve Xtreme Trail 2024",
+  "location": "Querença, Loulé",
+  "coordinates": {
+    "lat": 37.1990603,
+    "lon": -7.987557799999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/bb5862094ff2c1798ce79260f5be2d91"
+  ],
+  "start_date": "2024-01-28",
+  "end_date": "2024-01-29",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Algarve Xtreme Trail é um evento desportivo de caráter lúdico e competitivo que tem por objetivo<br>divulgar e promover não só a prática desportiva, em especial na modalidade de trail running, mas<br>também os territórios onde decorre o evento. O evento irá decorrer no dia 28 de Janeiro de 2024.</p>\n\n\n\n<p>O Algarve Xtreme Trail desenvolve-se na zona de Querença, concelho de Loulé.<br></p>\n\n\n",
+  "description_short": "Trail desafiante pelas paisagens de Querença no Algarve, com percurso que promove a região e o trail running",
+  "page": "https://www.crono.aaalgarve.org/eventos/algarve-xtreme-trail-2024",
+  "slug": "algarve-xtreme-trail-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Querença",
+  "district_code": 8
+}

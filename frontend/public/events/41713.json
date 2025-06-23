@@ -1,0 +1,33 @@
+{
+  "id": 41713,
+  "name": "Corrida das Cegonhas 2025",
+  "location": "Santo Estêvão, Benavente",
+  "coordinates": {
+    "lat": 38.88084509999999,
+    "lon": -8.715083100000001
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/eef63abb935980d80c2bdb866ef8b2f1"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p>O Clube Futebol Estevense, irá realizar a&nbsp;<strong>I Corrida das Cegonhas</strong>, no dia&nbsp;<strong>8 de junho</strong>&nbsp;de 2025, na Freguesia de Santo Estêvão, com a organização Técnica da WeRun.</p>\n\n\n\n<p>A Corrida das Cegonhas, que contará também com uma Caminhada, é um evento desportivo que tem como objetivo incentivar a população para a importância da prática de exercício físico, assim como dar a conhecer, com maior detalhe, o lugar e tradição da Freguesia de Santo Estêvão.&#8221;</p>\n",
+  "description_short": "Primeira edição da Corrida das Cegonhas em Santo Estêvão, incentivando a prática desportiva e valorizando as tradições locais.",
+  "page": "https://werun.pt/eventos/i-corrida-das-cegonhas-2025-santo-estevao/",
+  "slug": "corrida-das-cegonhas-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Benavente",
+  "administrative_area_level_3": "Santo Estêvão",
+  "district_code": 14
+}

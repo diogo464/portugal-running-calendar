@@ -1,0 +1,35 @@
+{
+  "id": 30414,
+  "name": "Trail Cabeços de São Miguel 2024",
+  "location": "São Miguel do Rio Torto, Santarém",
+  "coordinates": {
+    "lat": 39.4270068,
+    "lon": -8.210255199999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    20000,
+    35000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/9523d9cce01a3f7af7bfaccd5c01f06c"
+  ],
+  "start_date": "2024-02-04",
+  "end_date": "2024-02-05",
+  "circuit": [],
+  "description": "\n<p>A primeira edição do Trail Cabeços de S. Miguel é organizada pela Casa do Povo de S. Miguel do Rio Torto, com a colaboração dos Quenianos do Ribatejo. O evento vai decorrer no dia 04 de Fevereiro de 2024 em S. Miguel do Rio Torto, independentemente das condições climatéricas desse dia, desde que a organização<br>entenda que as mesmas não oferecem risco para os participantes.</p>\n\n\n\n<p><br>Será constituída por 2 provas de caracter competitivo e uma caminhada:<br>&#8211; Caminhada – 12Kms<br>&#8211; Trail Sprint – 20Kms com 700d+<br>&#8211; Trail – 35Kms com 1100d+</p>\n\n\n\n<p><br>As provas de carater competitivo percorrem os trilhos da nossa freguesia e de freguesias vizinhas, com início e fim na Casa do Povo de S. Miguel do Rio Torto.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail inaugural pelos cabeços de S. Miguel do Rio Torto com provas competitivas e caminhada em trilhos tradicionais",
+  "page": "https://www.trilhoperdido.com/evento/1-Trail-Cabecos-de-Sao-Miguel",
+  "slug": "trail-cabecos-de-sao-miguel-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Abrantes",
+  "administrative_area_level_3": "União das freguesias de São Miguel do Rio Torto e Rossio ao Sul do Tejo",
+  "district_code": 14
+}

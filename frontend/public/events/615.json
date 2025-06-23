@@ -1,0 +1,29 @@
+{
+  "id": 615,
+  "name": "Ultra Trail de Sesimbra",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/9eb51dac50c6da3586ae847c2f6b2ac5"
+  ],
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-08",
+  "circuit": [],
+  "description": "<p>Sesimbra é um poço de natureza! Onde o verde da serra se mistura com o azul do oceano, numa harmonia que nos toca na alma! Uma beleza absolutamente inacreditável, uma extensão de trilhos que mos levam do verde da serra para o azul do oceano, a subtileza da natureza é tal que nos enche os olhos, quase nos hipnotiza!</p>\n",
+  "description_short": "Trail com paisagens deslumbrantes entre a serra e o mar em Sesimbra",
+  "page": "http://www.ultrasesimbra.com/",
+  "slug": "ultra-trail-de-sesimbra",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

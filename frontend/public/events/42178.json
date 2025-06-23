@@ -1,0 +1,27 @@
+{
+  "id": 42178,
+  "name": "Cebola Run 2025",
+  "location": "Rio Maior, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2025-09-06",
+  "end_date": "2025-09-06",
+  "circuit": [],
+  "description": "\n<p>A Cebola Run é organizada pela Câmara Municipal de Rio Maior e pela Desmor, EM, SA</p>\n",
+  "description_short": "Corrida temática em Rio Maior com apoio da autarquia local",
+  "page": "https://lap2go.com/pt/event/cebola-run-2025",
+  "slug": "cebola-run-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

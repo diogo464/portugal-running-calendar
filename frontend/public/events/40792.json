@@ -1,0 +1,33 @@
+{
+  "id": 40792,
+  "name": "Trail Foge Foge Capão 2025",
+  "location": "Freamunde, Porto",
+  "coordinates": {
+    "lat": 41.2865608,
+    "lon": -8.338962
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    16000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/66c117625b31295684e6195db28bbe9b"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "circuit": [],
+  "description": "\n<p>O Trail Foge Foge Capão 2025 é composto por duas provas competitivas: Trail Longo (25km) e Trail Curto (16km); e por uma Caminhada (10km), que se desenrolam na zona de Indicação Geográfica Protegida do Capão de Freamunde. Com partida e chegada no centro da cidade de Freamunde, a prova leva os participantes a percorrer ruas, quelhas típicas, quintas rurais e trilhos montanhosos da cidade e freguesias limítrofes.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante por trilhos rurais e montanhosos em torno de Freamunde",
+  "page": "https://stopandgo.net/events/trail-foge-foge-capao-2025",
+  "slug": "trail-foge-foge-capao-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paços de Ferreira",
+  "administrative_area_level_3": "Freamunde",
+  "district_code": 13
+}

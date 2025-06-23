@@ -1,0 +1,30 @@
+{
+  "id": 42012,
+  "name": "Trilhos da Malaposta 2025",
+  "location": "Pegões, Setúbal",
+  "coordinates": {
+    "lat": 38.6868701,
+    "lon": -8.5995773
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d163457f223d3f2789ba4ac4fcf9349a"
+  ],
+  "start_date": "2025-06-15",
+  "end_date": "2025-06-16",
+  "circuit": [],
+  "description": "\n<p>Inserido na comemoração do seu aniversário a Associação para a Formação e DesenvolvimentoDesportivo em protocolo com a Câmara Municipal do Montijo e com a União das Juntas de Freguesia de Pegões e Santo Isidro de Pegões, vai levar a efeito a 9 ª Edição dos Trilhos daMalaposta a realizar-se no dia 15 de Junho de 2025 em pegões com inicio e término por trás daIgreja de Pegões Cruzamento. </p>\n\n\n\n<p>A organização pretende promover o convívio, o bem estar e a prática de atividade fisicaem contacto com a natureza. Os trilhos da Malaposta são um evento lúdico e informal, semfins lucrativos, de caráter não federado.</p>\n\n\n",
+  "description_short": "Trail tradicional em Pegões com partida junto à igreja local, promovendo convívio e contacto com a natureza",
+  "page": "https://acorrer.pt/eventos/3910/info",
+  "slug": "trilhos-da-malaposta-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Montijo",
+  "administrative_area_level_3": "União das freguesias de Pegões",
+  "district_code": 15
+}

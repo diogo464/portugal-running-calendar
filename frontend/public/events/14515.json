@@ -1,0 +1,29 @@
+{
+  "id": 14515,
+  "name": "Trail De Bucelas 2022",
+  "location": "Loures, Lisboa",
+  "coordinates": {
+    "lat": 38.8297603,
+    "lon": -9.166369699999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f99cdd92610f1d0b7a772cf036033e8b"
+  ],
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-11",
+  "circuit": [],
+  "description": "\n<p>Trail De Bucelas 2022</p>\n",
+  "description_short": "Trail técnico pela região vinícola de Bucelas com paisagens únicas de Lisboa",
+  "page": "https://www.trilhoperdido.com/evento/Trail-de-Bucelas-2022",
+  "slug": "trail-de-bucelas-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Loures",
+  "district_code": 11
+}

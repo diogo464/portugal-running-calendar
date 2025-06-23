@@ -1,0 +1,32 @@
+{
+  "id": 17236,
+  "name": "1º CrossTrail Festival de Samba da Mealhada 2022",
+  "location": "Mealhada, Aveiro",
+  "coordinates": {
+    "lat": 40.3807921,
+    "lon": -8.449581400000001
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bdd1f87b65ee4de9c27770fa2373f5a5"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>O 1º CrossTrail Festival de Samba da Mealhada 2022  vai realizar-se no próximo dia 11 de Setembro de 2022 pelas 10.00h, com partida e chegada no Parque da Cidade da Mealhada e será organizado pela Associação de Carnaval da Bairrada com o apoio técnico da Associação Trilhos Luso Bussaco<br>1º O evento:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>É composto por uma corrida e caminhada;</li><li>A corrida/trail com distância de cerca de 10km, com cronometragem e classificações, é destinada a atletas federados e não federados sem distinção de raça, sexo ou nacionalidade, depois de devidamente inscritos e que se sintam com capacidade e robustez física e mental para a prática desta modalidade.</li><li>A caminhada é destinada a todas as faixas etárias na vertente de lazer, com a extensão de 10km com percurso marcado, sem cronometragem e sem classificações, estando sujeita a inscrição prévia de acordo com os prazos gerais de inscrições.</li></ul>\n",
+  "description_short": "Trail desafiante pela região da Bairrada com partida no Parque da Cidade da Mealhada",
+  "page": "https://www.runmanager.net/Eventos/1-crosstrail-festival-de-samba-da-mealhada/656",
+  "slug": "1o-crosstrail-festival-de-samba-da-mealhada-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "União das freguesias da Mealhada, Ventosa do Bairro e Antes",
+  "district_code": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": 34470,
+  "name": "Milha Concelhia 25 de Abril 2024",
+  "location": "Oliveira de Azeméis, Aveiro",
+  "coordinates": {
+    "lat": 40.839305,
+    "lon": -8.4770079
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "Milha"
+  ],
+  "images": [
+    "media/2a487757a8f60e1a27b5ebbfc4e4d747"
+  ],
+  "start_date": "2024-04-25",
+  "end_date": "2024-04-26",
+  "circuit": [],
+  "description": "\n<p>A Milha Concelhia em Atletismo é um evento de referência que movimenta alguns dos melhores atletas da região em torno de uma das distâncias competitivas mais curtas em corrida de estrada.</p>\n\n\n",
+  "description_short": "Prova de atletismo de referência com os melhores atletas locais na distância de milha",
+  "page": "https://lap2go.com/pt/event/milha-concelhia-25-de-abril-2024",
+  "slug": "milha-concelhia-25-de-abril-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "União das freguesias de Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail",
+  "district_code": 1
+}

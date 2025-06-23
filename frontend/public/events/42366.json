@@ -1,0 +1,31 @@
+{
+  "id": 42366,
+  "name": "Hydra Games 2025",
+  "location": "Almada",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    800
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/0164ff6770d20615269f19d535896493"
+  ],
+  "start_date": "2025-09-13",
+  "end_date": "2025-09-14",
+  "circuit": [],
+  "description": "\n<p>Com o aumento significativo dos amantes da corrida nos praticantes de fitness, surge o evento que vai combinar treino de corrida com exercícios funcionais e de resistência tornando o evento único, mas ainda assim acessível e inclusivo para pessoas de diferentes origens atléticas e de condicionamento físico.<br>A competição é composta por 8 estações de treino funcional sendo que começa sempre com uma corrida de 800m, seguida da estação de treino funcional, percorrendo o circuito até finalizar o percurso nas 8 estações</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Prova inovadora que combina corrida e treino funcional com 8 estações desafiadoras para atletas de diferentes níveis",
+  "page": "https://lap2go.com/pt/event/hydra-games-2025",
+  "slug": "hydra-games-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

@@ -1,0 +1,34 @@
+{
+  "id": 33429,
+  "name": "Trail Varosa 2024",
+  "location": "Tarouca, Viseu",
+  "coordinates": {
+    "lat": 41.0174461,
+    "lon": -7.775003600000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/bd42d13ebea8832d55be00b6e75b6c74"
+  ],
+  "start_date": "2024-05-01",
+  "end_date": "2024-05-02",
+  "circuit": [],
+  "description": "\n<p>O Trail Rota do Varosa é organizado pela Associação Vale Varosa e Câmara Municipal De Tarouca, contando com a colaboração do Agrupamento de Escolas Dr. José Leite de Vasconcelos e o apoio de diferentes entidades públicas e privadas da região. A prova percorre os trilhos e percursos pedestres adjacentes à cidade de Tarouca, com uma passagem predominante na Serra de Santa Helena. </p>\n\n\n\n<p>Os diferentes percursos, Trail Médio (aprox. 18km), Mini Trail (12km) e Caminhada (8km) estão abertos a todos os indivíduos maiores de idade (16 anos) e a caminhada está aberta também a menores de<br>idade desde que acompanhados por uma pessoa maior de idade e que se identifique como<br>responsável pelo menor.</p>\n\n\n",
+  "description_short": "Trail pela Serra de Santa Helena com passagem pela região de Tarouca",
+  "page": "https://stopandgo.net/events/iv-trail-rota-do-varosa",
+  "slug": "trail-varosa-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tarouca",
+  "administrative_area_level_3": "União das freguesias de Tarouca e Dálvares",
+  "district_code": 18
+}

@@ -1,0 +1,37 @@
+{
+  "id": 3078,
+  "name": "Penacova Trail do Centro 2021",
+  "location": "Praia do Reconquinho, Penacova",
+  "coordinates": {
+    "lat": 40.2667598,
+    "lon": -8.2790819
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    2300,
+    3000,
+    12000,
+    17000,
+    30000,
+    45000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a4bb378fce31eadf9cf9afd48129c450"
+  ],
+  "start_date": "2021-09-05",
+  "end_date": "2021-09-06",
+  "circuit": [],
+  "description": "\n<p>Partindo de uma experiência acumulada no âmbito da organização de eventos, a rede de Centros de Trail Running Carlos Sá nasce para dar resposta e meios às necessidades dos amantes desta modalidade (e outras), de conhecerem um novo território, de uma forma completamente autónoma.É um local organizado com vários percursos sinalizados, com sinalética específica e homologada pela Associação de Trail Running Portugal, enquanto garante da usabilidade dos trilhos de forma segura.O objetivo é orientar o visitante e, em simultâneo, fornecer-lhe todas as informações do local em que se encontra, enriquecendo a sua visita. Para a promoção e visibilidade deste projeto nasce o Penacova Trail do Centro.O Penacova Trail do Centro é organizado pela Carlos Sá Nature Events® com o apoio e colaboração das Câmaras Municipais de Penacova, Mealhada e Mortágua e da Fundação Mata do Buçaco e irá realizar-se nos dias 4 e 5 de Setembro 2021.</p>\n\n\n\n<p>No dia 4 de Setembro irá realizar-se o Prólogo PTC 2,3KM na Mata do Buçaco e, no dia 5 de Setembro de 2021 decorrerão as seguintes distâncias competitivas: Trail Ultra 45km, Trail Longo 30Km e Trail curto 17km. também no dia 5 de Setembro realizar-se-á uma Caminhada Solidária 12km que reverterá em parte para os Bombeiros Voluntários Locais.</p>\n",
+  "description_short": "Trail pela Mata do Buçaco com percursos solidários em Penacova, envolvendo autarquias e bombeiros voluntários",
+  "page": "https://www.carlossanatureevents.com/pt/pntc",
+  "slug": "penacova-trail-do-centro-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penacova",
+  "administrative_area_level_3": "Penacova",
+  "district_code": 6
+}

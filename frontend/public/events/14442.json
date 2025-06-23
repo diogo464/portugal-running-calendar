@@ -1,0 +1,29 @@
+{
+  "id": 14442,
+  "name": "Trail da Tomina 2022",
+  "location": "Moura, Beja",
+  "coordinates": {
+    "lat": 38.1426988,
+    "lon": -7.4512581
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/1372e008a76b7b8b85c5c122243d64a7"
+  ],
+  "start_date": "2022-06-05",
+  "end_date": "2022-06-06",
+  "circuit": [],
+  "description": "\n<p>Trail da Tomina 2022</p>\n",
+  "description_short": "Trail desafiante pela paisagem rural da região da Tomina",
+  "page": "https://acorrer.pt/eventos/info/2447?fbclid=IwAR3KNjGdKUf9IHhTqczmVzjfMNldmlC_V4TPOLRaONH_p2hKnTJ6y3PgIjM#",
+  "slug": "trail-da-tomina-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "São João Baptista",
+  "district_code": 2
+}

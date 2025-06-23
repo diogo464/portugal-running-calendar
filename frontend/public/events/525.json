@@ -1,0 +1,38 @@
+{
+  "id": 525,
+  "name": "Meia Maratona de Ílhavo 2020",
+  "location": "Ílhavo, Aveiro",
+  "coordinates": {
+    "lat": 40.602309,
+    "lon": -8.672371
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    400,
+    7000,
+    10000,
+    15000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/e5ee74d4d0e004521f4a92563ba1e795"
+  ],
+  "start_date": "2020-04-05",
+  "end_date": "2020-04-06",
+  "circuit": [],
+  "description": "<p>A organização da Meia Maratona de Ílhavo, a cargo do Atletas.net e da Câmara Municipal de Ílhavo têm já definido o calendário dos treinos oficiais de preparação: <strong>19 de janeiro, 16 de fevereiro e 15 de março</strong>, (domingos), sempre às 10 horas, frente às Piscinas Municipais de Ílhavo, com os participantes a poderem optar pelas distâncias de 15, 10 ou 7 quilómetros, de acordo com a sua condição física.</p>\n<p>Os treinos oficiais da Meia Maratona de Ílhavo têm tido uma enorme participação, sendo mesmo dos mais concorridos a nível nacional e servem de preparação para o evento que está agendado para 5 de abril e que consiste na prova rainha de 21097 metros mas também da Mini Maratona e da Caminhada de 7 km e ainda da Corrida da Pequenada de 400 metros.</p>\n<p>A participação nos treinos oficiais da Meia Maratona de Ílhavo é completamente gratuita e insere-se na lógica da autarquia de promoção da atividade física, associada, neste caso, ao maior evento de corrida do concelho de Ílhavo.</p>\n",
+  "description_short": "Treinos oficiais gratuitos para a Meia Maratona de Ílhavo com preparação para diversos níveis de condição física",
+  "page": "https://atletas.net/pt/meia-maratona-de-ilhavo",
+  "slug": "meia-maratona-de-ilhavo",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

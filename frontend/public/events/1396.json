@@ -1,0 +1,32 @@
+{
+  "id": 1396,
+  "name": "3 Léguas do Nabão 2020",
+  "location": "Clube Calma, Tomar",
+  "coordinates": {
+    "lat": 39.6046971,
+    "lon": -8.4017208
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    5000,
+    15000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/b5ca2189da6f05772d9de1e51c8f8b4f"
+  ],
+  "start_date": "2020-03-08",
+  "end_date": "2020-03-09",
+  "circuit": [],
+  "description": "<p class=\"TLNprovasdesc\">Com partida às 10h30, num percurso que na sua maioria é de características planas e tem uma extensão aproximada de 15 000 metros. Destinada a atletas com idade igual ou superior a 18 anos e com carácter competitivo e classificativo. Os postos de abastecimento de líquidos estão localizados a cada 5 km do trajecto da prova. A consulta do regulamento é imprescindível e no acto de inscrição, pressupõe que o atleta leu e concorda com ele.</p>\n<p class=\"TLNprovasdesc\">Regulamento: <a href=\"https://drive.google.com/open?id=1DrxHnxsl2ru-vVsGbBwTAVzoqc9ZE5O8\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>consulte aqui</strong></a></p>\n<p class=\"TLNprovasdesc\">Pode fazer o download do mapa no seguinte formato: <a href=\"http://clubecalma.pt/3LN.kmz\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>KMZ</strong></a> (Google Earth)</p>\n<p class=\"TLNprovasdesc\">Lista de inscritos: <a href=\"https://drive.google.com/open?id=1J0eG6FsIkGmOJm7WJ9CETJ3nPqhJBryu\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>consulte aqui</strong></a></p>\n<p class=\"TLNprovasdesc\">\n",
+  "description_short": "Corrida competitiva de 15 km com percurso maioritariamente plano e abastecimentos a cada 5 km",
+  "page": "http://clubecalma.pt/3-leguas-do-nabao/",
+  "slug": "3-leguas-do-nabao-2020",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

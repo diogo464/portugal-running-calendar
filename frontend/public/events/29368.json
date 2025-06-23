@@ -1,0 +1,34 @@
+{
+  "id": 29368,
+  "name": "Corrida Soure 2024",
+  "location": "Soure, Coimbra",
+  "coordinates": {
+    "lat": 40.0610524,
+    "lon": -8.6239203
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/e7cbe4afa99f8cd58270780c95a73241"
+  ],
+  "start_date": "2024-01-21",
+  "end_date": "2024-01-22",
+  "circuit": [],
+  "description": "\n<p>A CORRIDA SOURE 1111 é um evento desportivo organizado pelo Soure Mov, clube de atletismo da APPACDM de Soure (secção autónoma), em parceria com a Câmara Municipal de Soure e incluído no calendário competitivo da Associação Distrital de Atletismo de Coimbra (ADAC).  A CORRIDA SOURE 1111 tem um percurso de aproximadamente 10 km enquanto a Caminhada terá uma distância aproximada de 6 km.</p>\n\n\n\n<p>Corrida 10 km (Prova Principal) dia 21 de janeiro de 2024, domingo, às 10h30, com partida e<br>chegada na Vila de Soure.<br>Caminhada 6 km dia 21 de janeiro, domingo, às 10h30, com partida e chegada na Vila de Soure.</p>\n",
+  "description_short": "Corrida solidária da APPACDM no centro histórico de Soure com caminhada inclusiva",
+  "page": "https://stopandgo.net/events/3-corrida-soure-1111",
+  "slug": "corrida-soure-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Soure",
+  "administrative_area_level_3": "Soure",
+  "district_code": 6
+}

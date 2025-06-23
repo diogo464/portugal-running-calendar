@@ -1,0 +1,29 @@
+{
+  "id": 5801,
+  "name": "Trilho dos Reis 2022",
+  "location": "Portalegre",
+  "coordinates": {
+    "lat": 39.2967086,
+    "lon": -7.4284755
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/72c61160e15251688de8dbf2559d8c1a"
+  ],
+  "start_date": "2022-01-15",
+  "end_date": "2022-01-16",
+  "circuit": [],
+  "description": "\n<p>Aí está&#8230; &#8220;O Regresso dos Reis&#8221;&#8230; Está assim agendado regresso à nossa cidade no fim de semana de 15 e 16 Janeiro de 2022..</p>\n\n\n\n<p>Mais novidades para breve&#8230;</p>\n",
+  "description_short": "Trail tradicional de regresso à cidade no início do ano",
+  "page": "https://www.facebook.com/TrilhosDosReisDeltaCafes/",
+  "slug": "trilho-dos-reis-2022",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Portalegre",
+  "administrative_area_level_3": "União das freguesias da Sé e São Lourenço",
+  "district_code": 12
+}

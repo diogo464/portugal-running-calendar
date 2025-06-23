@@ -1,0 +1,35 @@
+{
+  "id": 22706,
+  "name": "2ª Edição Trail Trilhos Romanos 2023",
+  "location": "Bárrio, Alcobaça",
+  "coordinates": {
+    "lat": 39.561667,
+    "lon": -9.0185348
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0241d0f6aa9a5822053244d7f4aa95d3"
+  ],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [],
+  "description": "\n<p>A Associação Trilhos Romanos em colaboração com a Junta de Freguesia do Bárrio, concelho de Alcobaça, no próximo dia 04 de Junho de 2023, dia do aniversário da freguesia, levará a cabo a organização da 2ª edição do Trail Trilhos Romanos.</p>\n\n\n\n<p>O evento contará com duas provas competitivas, um Trail de 18 km, um Mini-trail de 12 km e uma Caminhada de 10 km, sem carater competitivo.</p>\n\n\n\n<p>A concentração, partida e chegada das provas e da caminhada serão realizadas junto à Sede da Junta de Freguesia do Bárrio, concelho de Alcobaça, distrito de Leiria.</p>\n\n\n\n<p>As provas de trail e a caminhada percorrerão percursos e trilhos na freguesia do Bárrio, alguns deles abertos propositadamente para este evento, com passagem obrigatória pela Villa Romana de Parreitas.</p>\n",
+  "description_short": "Trail com passagem histórica pela Villa Romana de Parreitas no Bárrio, Alcobaça",
+  "page": "https://www.recordepessoal.pt/evento/2edicaotrailtrilhosromanos",
+  "slug": "2a-edicao-trail-trilhos-romanos-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Bárrio",
+  "district_code": 10
+}

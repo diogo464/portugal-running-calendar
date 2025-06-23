@@ -1,0 +1,29 @@
+{
+  "id": 14372,
+  "name": "Trail Noturno Cidade de Águeda 2022",
+  "location": "Águeda",
+  "coordinates": {
+    "lat": 40.5754246,
+    "lon": -8.446436799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8b4b41215b30cf11c33dfc20c4f6ce83"
+  ],
+  "start_date": "2022-06-18",
+  "end_date": "2022-06-19",
+  "circuit": [],
+  "description": "\n<p>O Trail Noturno Cidade de Águeda 2022 conta para o Troféu Trail Terras de Águeda, o Trail Noturno da cidade de Águeda traz o dinamismo e beleza da cidade num dos concelhos mais ativos no que ao trail diz respeito.</p>\n",
+  "description_short": "Trail nocturno com percurso dinâmico pelas ruas de Águeda a contar para o Troféu Trail Terras de Águeda",
+  "page": "https://lap2go.com/pt/event/trail-noturno-cidade-agueda-2022/",
+  "slug": "trail-noturno-cidade-de-agueda-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Águeda e Borralha",
+  "district_code": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": 37315,
+  "name": "Running Retreat Portugal &#8211; Autumn",
+  "location": "Cabeceiras de Basto, Braga",
+  "coordinates": {
+    "lat": 41.5116939,
+    "lon": -7.9979753
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/b074f73f0126949cfe56db4a5f0d9b08"
+  ],
+  "start_date": "2024-11-01",
+  "end_date": "2024-11-01",
+  "circuit": [],
+  "description": "\n<p>Runners of all abilities are welcome to join, we offer training and a variety of well-being and fitness activities through your stay.</p>\n\n\n\n<p>It’s not just about running… It’s also about slowing down, finding balance, and creating lasting memories. We complement activity with plenty of space to eat, recharge, and connect with fellow adventurers!</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Evento de corrida com foco no bem-estar e comunidade para todos os níveis de aptidão física",
+  "page": null,
+  "slug": "run-retreat-portugal-autumn",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Cabeceiras de Basto",
+  "administrative_area_level_3": "Refojos de Basto",
+  "district_code": 3
+}

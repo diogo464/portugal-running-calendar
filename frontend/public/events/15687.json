@@ -1,0 +1,30 @@
+{
+  "id": 15687,
+  "name": "2º Trail Running em Abela",
+  "location": "Abela, Santiago do Cacém",
+  "coordinates": {
+    "lat": 37.9876524,
+    "lon": -8.506200699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/92ca2464abcafd52f054db7cd02fa11d"
+  ],
+  "start_date": "2022-10-30",
+  "end_date": "2022-10-31",
+  "circuit": [],
+  "description": "\n<p>O 2º Trail em Abela é um evento organizado pelo Sporting Futebol Clube Abelense e tem como principal propósito percorrer trilhos e caminhos do concelho de Santiago do Cacém e freguesia de Abela.</p>\n\n\n\n<p>&#8211; A partida do trail será dada às 9h30 junto ao Museu do Trabalho Rural<br>&#8211; A partida da caminhada será dada às 9h45 junto ao Museu do Trabalho Rural</p>\n",
+  "description_short": "Trail desafiante pelos caminhos rurais de Santiago do Cacém e Abela",
+  "page": "https://acorrer.pt/eventos/info/2996",
+  "slug": "2o-trail-running-em-abela",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "Abela",
+  "district_code": 15
+}

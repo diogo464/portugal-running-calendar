@@ -1,0 +1,29 @@
+{
+  "id": 1489,
+  "name": "Grande Trail Serra D&#8217;Arga 2020",
+  "location": "Montaria, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.78982269999999,
+    "lon": -8.7289649
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/663c747eb5667a621e46ba9da1a498d1"
+  ],
+  "start_date": "2020-09-25",
+  "end_date": "2020-09-26",
+  "circuit": [],
+  "description": "<p>O Grande Trail da Serra D´Arga é organizado pela Carlos Sá Nature Events®. Conta ainda com a colaboração das Câmaras Municipais de Caminha e Viana do Castelo, Juntas de Freguesias de Dem, São Lourenço da Montaria, Estorãos, Arga S. João, Arga de cima, Arga de Baixo, Amonde, Gondar e Orbacém.</p>\n",
+  "description_short": "Trail desafiante pela região montanhosa de Caminha e Viana do Castelo, com apoio local das juntas de freguesia da região",
+  "page": "https://www.carlossanatureevents.com/pt/gtsa",
+  "slug": "grande-trail-serra-darga-2020",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": "Montaria",
+  "district_code": 16
+}

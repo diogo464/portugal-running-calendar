@@ -1,0 +1,29 @@
+{
+  "id": 1231,
+  "name": "Vimeiro Trail Run 2020",
+  "location": "Penafirme, Torres Vedras",
+  "coordinates": {
+    "lat": 39.1475592,
+    "lon": -9.3578829
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8640f4efe7419420084c90707af927e3"
+  ],
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-14",
+  "circuit": [],
+  "description": "<p> O  TURRES TRAIL  CLUBE em parceria  com Externato de Penafirme e o apoio da Junta de Freguesia de A dos Cunhados e Maceira e  águas do VIMEIRO   vai realizar no próximo dia 13 de Setembro de 2020, pelas 9:00 horas, a 6º edição do evento denominado &#8221;  VIMEIRO TRAIL RUN 2020&#8243;.</p>\n<p> Este evento, terá um Trail Longo de Grau 2, um Trail Curto de Grau 2 e um Mini Trail / caminhada. O percurso do Trail Run é circular.</p>\n<p> O local de partida e chegada assim como o secretariado e almoço será no Externato de Penafirme  .</p>\n",
+  "description_short": "Trail desafiante na região de A dos Cunhados com diferentes percursos e graus de dificuldade",
+  "page": "https://www.turresevents.com/eventos/vimeiro-trail-run-2020",
+  "slug": "vimeiro-trail-run-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "União das freguesias de A dos Cunhados e Maceira",
+  "district_code": 11
+}

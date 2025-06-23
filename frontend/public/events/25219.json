@@ -1,0 +1,32 @@
+{
+  "id": 25219,
+  "name": "Meia Maratona de Amesterdão 2023",
+  "location": "Amesterdão, Países Baixos",
+  "coordinates": {
+    "lat": 52.3675734,
+    "lon": 4.9041389
+  },
+  "country": "Países Baixos",
+  "locality": "Holanda do Norte",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/60f1667e23a98151283c66de8c7dbac5"
+  ],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "\n<p>Um evento de corrida como uma grande ocasião para visitar a capital dos Países Baixos.</p>\n\n\n\n<p>A Meia Maratona Mizuno é a maior meia maratona da Holanda e faz parte da Maratona de Amesterdão TCS.</p>\n\n\n\n<p>A meia maratona Mizuno consiste num percurso circular,  que passa pelo centro atractivo de Amesterdão. O percurso começa na Stadionweg e passa pela Churchilllaan, Rijnstraat e a Ponte Utrechtse sobre o rio Amstel. Em seguida, passar por Watergraafsmeer e Zeeburg. O restante do percurso é o mesmo da maratona completa.</p>\n\n\n\n<p>O percurso leva os participantes pelo centro da cidade de Amesterdão e passa por muitos pontos turísticos, que também valeriam uma visita separada.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona icónica por Amesterdão, passando por pontos históricos e sobre o rio Amstel",
+  "page": "https://www.tcsamsterdammarathon.eu/mizuno-half-marathon",
+  "slug": "meia-maratona-de-amesterdao-2023",
+  "administrative_area_level_1": "Holanda do Norte",
+  "administrative_area_level_2": "Amsterdã",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

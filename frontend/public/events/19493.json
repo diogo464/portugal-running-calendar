@@ -1,0 +1,32 @@
+{
+  "id": 19493,
+  "name": "Ultra Trail do Marão 2023",
+  "location": "Amarante, Porto",
+  "coordinates": {
+    "lat": 41.2732068,
+    "lon": -8.0822829
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/98f72b155761f01597cd2b991079087d"
+  ],
+  "start_date": "2023-03-31",
+  "end_date": "2023-04-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Ultra Trail do Marão (UTM), é um evento desportivo de trail running em estado genuíno da responsabilidade co-organizativa da SavageNatur Events® e Associação Desportiva Marão Trail, que se realizará nos dias 31 de Março e 1 e 2 de Abril de 2023.</p>\n\n\n\n<p><strong>Corridas:</strong></p>\n\n\n\n<p>O Ultra Trail do Marão Endurance (UTME) começa e termina no Complexo da Costa Grande, em Amarante (41.27383, -8.07041).<br>O Ultra Trail do Marão (UTM) começa em Ansiães (41.250295, &#8211; 7.953501), Município de Amarante, bem no coração do Marão, e termina igualmente no Complexo da Costa Grande, em Amarante.<br>O Trail do Marão (TM) começa na freguesia da Teixeira (41.190783, -7.922977), Município de Baião e termina igualmente no Complexo da Costa Grande, em Amarante.<br>O Mini-Trail do Marão (M-TM) começa em Campelo, sede de concelho do município de Baião (41.164240, -8.034286), e termina no Parque da Costa Grande, em Amarante.</p>\n",
+  "description_short": "Trail desafiante pelo coração da Serra do Marão com partidas de diferentes pontos e meta em Amarante",
+  "page": "https://stopandgo.net/event/?id=552",
+  "slug": "ultra-trail-do-marao-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Amarante",
+  "administrative_area_level_3": "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão",
+  "district_code": 13
+}

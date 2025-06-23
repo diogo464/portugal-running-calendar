@@ -1,0 +1,32 @@
+{
+  "id": 37204,
+  "name": "10km da Amieirinha 2024",
+  "location": "Marinha Grande, Leiria",
+  "coordinates": {
+    "lat": 39.7503802,
+    "lon": -8.931805899999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/164486092b0278dd0df8f803c9ca4295"
+  ],
+  "start_date": "2024-09-28",
+  "end_date": "2024-09-29",
+  "circuit": [],
+  "description": "\n<p>Integrado nas comemorações do&nbsp;<strong>50º Aniversário</strong>, vai o&nbsp;<strong>Clube Recreativo Amieirinhense</strong>, com a colaboração do&nbsp;<strong>Clube Atletismo de Marinha Grande</strong>, realizar a prova designada “<strong>10km da AMIEIRINHA</strong>” no próximo dia&nbsp;<strong>28 de setembro</strong>, sábado, pelas&nbsp;<strong>17h</strong>.</p>\n\n\n\n<p>A competição conta com o apoio institucional do&nbsp;<strong>Município da Marinha Grande</strong>&nbsp;e&nbsp;<strong>Junta de Freguesia da Marinha Grande</strong>.</p>\n",
+  "description_short": "Corrida comemorativa de 50 anos pelas ruas da Marinha Grande",
+  "page": "https://www.recordepessoal.pt/evento/11edicao10kmdaamieirinha",
+  "slug": "10km-da-amieirinha-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

@@ -1,0 +1,30 @@
+{
+  "id": 21116,
+  "name": "4º Trail Solidário B. V. Pampilhosa 2023",
+  "location": "Pampilhosa, Mealhada",
+  "coordinates": {
+    "lat": 40.3348393,
+    "lon": -8.4178386
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/5b32c8ecebb7077ed9c84ea9c21e7b22"
+  ],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.runmanager.net/Eventos/4-trail-solidario-b-v-pampilhosa/682",
+  "slug": "4o-trail-solidario-b-v-pampilhosa-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "Pampilhosa",
+  "district_code": 1
+}

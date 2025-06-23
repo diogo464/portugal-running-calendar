@@ -1,0 +1,34 @@
+{
+  "id": 1688,
+  "name": "Ultra Trail Serra da Freita 2020",
+  "location": "Arouca, Aveiro",
+  "coordinates": {
+    "lat": 40.9312766,
+    "lon": -8.237704899999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    100,
+    150,
+    65000,
+    100000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0c76a42c45e227260ec027ca2bc55c6f"
+  ],
+  "start_date": "2020-06-27",
+  "end_date": "2020-06-28",
+  "circuit": [],
+  "description": "<p>O evento realiza-se a 27-06-2020 06:00:00 no distrito de Aveiro.</p>\n<p>Conta com 4 percursos:<br />\nElite Trail Serra da Freita 100k &#8211; 150<br />\nUltra Trail Serra da Freita 65k &#8211; 100<br />\nTrail Serra da Freita &#8211; 100<br />\nMini-Trail Serra da Freita &#8211; 150</p>\n",
+  "description_short": "Trail desafiante pela Serra da Freita com quatro percursos distintos em Aveiro",
+  "page": "https://my.atrp.pt/evento/525",
+  "slug": "ultra-trail-serra-da-freita-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Arouca",
+  "administrative_area_level_3": "Arouca",
+  "district_code": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1158,
+  "name": "43º Corrida da Liberdade 2020",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/70f661be4997ad250aea7ae218999456"
+  ],
+  "start_date": "2020-04-25",
+  "end_date": "2020-04-26",
+  "circuit": [],
+  "description": "<p>No dia 25 Abril, a alegria e a festa colectiva saem mais uma vez à rua. O desejo e o prazer da participação mantêm viva a “Corrida da Liberdade“ e a sua simbologia, nesse dia em que saudamos os 45 anos da Revolução dos Cravos.</p>\n<p>A PRAÇA dos RESTAURADORES irá de novo ser o ponto de chegada de todas as provas e receberá todos aqueles que mantêm e querem vivos os ideais de Abril.</p>\n<p>Participar na Corrida da Liberdade é uma das maneiras de comemorar Abril e a Revolução dos Cravos. Assim, façamos desta corrida uma grande festa popular, participando nela ou apoiando-a na sua chegada.</p>\n",
+  "description_short": "Corrida da Liberdade celebra 45 anos da Revolução dos Cravos em Lisboa",
+  "page": "http://www.accl.com.pt/corrida_liberdade.php",
+  "slug": "43o-corrida-da-liberdade-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

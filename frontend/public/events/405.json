@@ -1,0 +1,32 @@
+{
+  "id": 405,
+  "name": "Corrida dos Adeptos e Simpatizantes",
+  "location": "Reitoria da Universidade de Lisboa",
+  "coordinates": {
+    "lat": 38.7528259,
+    "lon": -9.1577928
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/9dbac7e2045c07e85c3aca8a19c9f034"
+  ],
+  "start_date": "2020-01-19",
+  "end_date": "2020-01-20",
+  "circuit": [],
+  "description": "<p>A 5ª edição da<strong> “Corrida Solidária dos Adeptos e Simpatizantes”</strong> pretende juntar os apaixonados dos <strong>principais clubes portugueses</strong> numa manifestação desportiva saudável, onde os participantes poderão correr pelas principais avenidas de Lisboa, <strong>demonstrando o amor ao seu clube num ambiente de <em>fairplay</em>.</strong></p>\n<p>E para que seja solidário, o <strong>evento associou-se à Associação O Companheiro</strong>. No dia do evento, haverá um espaço próprio para a doação de bens alimentares com período de validade alargado, que serão entregues à associação. Um pequeno gesto que valerá muito para tanta gente.</p>\n<p><em>O COMPANHEIRO procura direta e indiretamente incentivar as pessoas em situação de exclusão social a dar novos passos de integração psicossocial, para que este seja um ponto de passagem e não de ancoragem. Há que dignificar o Homem, não permitindo a perpetuação dos seus erros.</em></p>\n",
+  "description_short": "Corrida solidária que une adeptos de clubes portugueses em Lisboa, com doação de bens alimentares à Associação O Companheiro",
+  "page": "http://xistarca.pt/eventos/corrida-dos-adeptos",
+  "slug": "corrida-dos-adeptos-e-simpatizantes",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Alvalade",
+  "district_code": 11
+}

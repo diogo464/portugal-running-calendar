@@ -1,0 +1,32 @@
+{
+  "id": 38438,
+  "name": "Grande Prémio São Martinho de Almada 2024",
+  "location": "Cova da Piedade, Almada",
+  "coordinates": {
+    "lat": 38.6703794,
+    "lon": -9.1595477
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/dec2f678cd8ffa29107a4f821688cbe4"
+  ],
+  "start_date": "2024-11-24",
+  "end_date": "2024-11-24",
+  "circuit": [
+    "Atletismo de Almada"
+  ],
+  "description": "\n<p>A&nbsp;<strong>24 Novembro 2024</strong>&nbsp;vai realizar-se o&nbsp;<strong>5º Grande Prémio São Martinho de Almada</strong>, prova inserida no&nbsp;<strong>Troféu de Almada Atletismo ‘Mário Pinto Claro’ 2024/2025.</strong></p>\n\n\n\n<p><strong>Entrega de dorsais</strong>: no dia do evento das 08h00 às 09h00 (Espaço do Secretariado)</p>\n\n\n\n<p>A organização é da responsabilidade dos&nbsp;<strong>Clube de Praças da Armada – CPA</strong>&nbsp;com o apoio da&nbsp;<strong>Câmara Municipal de Almada</strong>&nbsp;e do&nbsp;<strong>União de Freguesias de Almada, Cova Piedade, Pragal e<br>Cacilhas</strong></p>\n",
+  "description_short": "Corrida de São Martinho em Almada com apoio da autarquia e organização do Clube de Praças da Armada",
+  "page": "https://xistarca.pt/eventos/taa-5o-gp-sao-martinho-de-almada",
+  "slug": "grande-premio-sao-martinho-de-almada-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "União das freguesias de Almada, Cova da Piedade, Pragal e Cacilhas",
+  "district_code": 15
+}

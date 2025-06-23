@@ -1,0 +1,30 @@
+{
+  "id": 35486,
+  "name": "Corrida e Caminhada da Praia da Vieira 2024",
+  "location": "Praia da Vieira, Marinha Grande",
+  "coordinates": {
+    "lat": 39.7967426,
+    "lon": -8.9986464
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/ad297e9b2cd697ddab49ec8f06501584"
+  ],
+  "start_date": "2024-08-10",
+  "end_date": "2024-08-11",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>Industrial Desportivo Vieirense</strong>&nbsp;leva a efeito no próximo dia<strong>&nbsp;10 de Agosto de 2024</strong>, a&nbsp;<strong>Corrida e Caminhada da Praia da Vieira</strong>, competição englobada no&nbsp;<strong>circuito de meio-fundo</strong>&nbsp;da&nbsp;<strong>Associação Distrital de Atletismo de Leiria (ADAL)</strong>.</p>\n\n\n\n<p>O evento terá a partida e chegada na Avenida Marginal, junto à Homenagem aos Náufragos do &#8220;Salsinha&#8221;.</p>\n",
+  "description_short": "Corrida e caminhada litoral com partida e chegada junto à homenagem aos náufragos na Praia da Vieira",
+  "page": "https://www.recordepessoal.pt/evento/corridaecaminhadadapraiadavieira2024",
+  "slug": "corrida-e-caminhada-da-praia-da-vieira-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

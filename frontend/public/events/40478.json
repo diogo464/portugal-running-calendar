@@ -1,0 +1,32 @@
+{
+  "id": 40478,
+  "name": "Trail Mineiro Aljustrel 2025",
+  "location": "Aljustrel, Beja Aljustreil,",
+  "coordinates": {
+    "lat": 37.8760582,
+    "lon": -8.1649833
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/01ff01d4ab0738800d38a476c0059377"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-25",
+  "circuit": [],
+  "description": "\n<p>Vera Costa, o NARM – Núcleo de Atletismo e Recreio de Messejana e a Câmara Municipal de Aljustrel,<br>em parceria com outras associações do concelho, vai realizar no próximo dia 25 DE MAIO DE 2025, pelas<br>9h00 o Trail Mineiro, divididos em quatro percursos Caminhada, Trail Kids ,Trail curto e Trail Longo.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail Mineiro por paisagens alentejanas com diferentes percursos em Aljustrel",
+  "page": "https://acorrer.pt/eventos/3815/info",
+  "slug": "trail-mineiro-aljustrel-2025",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Aljustrel",
+  "administrative_area_level_3": "União das freguesias de Aljustrel e Rio de Moinhos",
+  "district_code": 2
+}

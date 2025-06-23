@@ -1,0 +1,29 @@
+{
+  "id": 28200,
+  "name": "Grande Prémio Atletismo de Tregosa 2023",
+  "location": "Tregosa, Barcelos",
+  "coordinates": {
+    "lat": 41.63576949999999,
+    "lon": -8.695395999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/eb55bbf75edb9533cb995f56b39605c1"
+  ],
+  "start_date": "2023-10-22",
+  "end_date": "2023-10-23",
+  "circuit": [],
+  "description": "\n<p>A.D.C. de Tregosa vai realizar no dia 22 de Outubro de 2023 o seu 27º Grande Prémio de Atletismo de Tregosa.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Grande Prémio de Atletismo de Tregosa na sua 27ª edição pela A.D.C. de Tregosa",
+  "page": "https://www.sinctime.com/evento/183",
+  "slug": "grande-premio-atletismo-de-tregosa-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Tregosa",
+  "district_code": 3
+}

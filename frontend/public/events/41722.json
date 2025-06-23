@@ -1,0 +1,34 @@
+{
+  "id": 41722,
+  "name": "Corrida Porto de Setúbal 2025",
+  "location": "Setúbal",
+  "coordinates": {
+    "lat": 38.5260437,
+    "lon": -8.8909328
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/ee008ff25414bddf435241fae75e9170"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>Evento: Dia 25 de maio de 2025, entre as 09h00 e as 11h00, no Parque Urbano de<br>Albarquel.</p>\n\n\n\n<p>Corrida de 10 km: 25 de maio de 2025, às 09h00, com partida e chegada no Parque Urbano<br>de Albarquel</p>\n\n\n\n<p>Caminhada de 5km: 25 de maio de 2025, às 09h00, com partida e chegada no Parque<br>Urbano de Albarquel.</p>\n\n\n",
+  "description_short": "Corrida e caminhada matinal no Parque Urbano de Albarquel",
+  "page": "https://lap2go.com/pt/event/corrida-porto-de-setubal-2025",
+  "slug": "corrida-porto-de-setubal-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Setúbal",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

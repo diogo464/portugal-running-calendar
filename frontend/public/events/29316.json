@@ -1,0 +1,35 @@
+{
+  "id": 29316,
+  "name": "X Milhas do Guadiana 2023",
+  "location": "Vila Real de Santo António, Faro",
+  "coordinates": {
+    "lat": 37.1937766,
+    "lon": -7.420787899999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    510,
+    530,
+    15000,
+    18040
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/0202f4a589c936b7695ccd0eaf237425"
+  ],
+  "start_date": "2023-11-12",
+  "end_date": "2023-11-13",
+  "circuit": [],
+  "description": "\n<p>A Comissão Mista Desportiva de Vila Real de Santo António, Castro Marim e Ayamonte, constituída<br>pela Câmara Municipal de Vila Real de Santo António e Castro Marim, Ayuntamiento de Ayamonte, Grupo<br>Desportivo Pic-Nic, Patronato Municipal de Deportes de Ayamonte e Club Atletismo Ayamonte, vai<br>organizar no próximo dia 12 de novembro de 2023, com partida às 10.00 horas (Portuguesas), uma prova<br>de Atletismo de estrada denominada as “28ª X MILHAS DO GUADIANA “.</p>\n\n\n\n<p>O percurso é 17.530 metros em asfaltado e 510 metros em calçada, com a extensão total de 18.040<br>metros.</p>\n\n\n",
+  "description_short": "Corrida internacional entre Portugal e Espanha ao longo do rio Guadiana",
+  "page": "https://www.crono.aaalgarve.org/eventos/28-x-milhas-do-guadiana",
+  "slug": "x-milhas-do-guadiana-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Vila Real de Santo António",
+  "administrative_area_level_3": "Vila Real de Santo António",
+  "district_code": 8
+}

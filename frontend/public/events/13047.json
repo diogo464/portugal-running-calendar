@@ -1,0 +1,33 @@
+{
+  "id": 13047,
+  "name": "Trail do Míscaro Aguiar da Beira 2021",
+  "location": "Aguiar da Beira, Guarda",
+  "coordinates": {
+    "lat": 40.816453,
+    "lon": -7.5454104
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    12000,
+    22000,
+    42000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a56b3366e523cb581f5e9f424a7c0c01"
+  ],
+  "start_date": "2021-11-27",
+  "end_date": "2021-11-28",
+  "circuit": [],
+  "description": "\n<p>Trail do Míscaro Aguiar da Beira 2021, 27 e 28 de novembro</p>\n\n\n\n<p>Ultra Trail 42K | Trail Longo 22K | Trail Curto e Caminhada 12K</p>\n",
+  "description_short": "Trail desafiante pela região de Aguiar da Beira com provas de diferentes distâncias",
+  "page": "https://acorrer.pt/eventos/info/2850",
+  "slug": "trail-do-miscaro-aguiar-da-beira-2021",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Aguiar da Beira",
+  "administrative_area_level_3": "União das freguesias de Aguiar da Beira e Coruche",
+  "district_code": 9
+}

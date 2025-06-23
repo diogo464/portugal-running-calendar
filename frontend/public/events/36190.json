@@ -1,0 +1,33 @@
+{
+  "id": 36190,
+  "name": "Alvelos à Noite 2024",
+  "location": "Alvelos, Braga",
+  "coordinates": {
+    "lat": 41.5046296,
+    "lon": -8.618816100000002
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/ad710575ce05ccc33498d08889ac0b41"
+  ],
+  "start_date": "2024-07-27",
+  "end_date": "2024-07-27",
+  "circuit": [],
+  "description": "\n<p>O evento “ALVELOS À NOITE” é organizado pela Secção de Atletismo e Trail Running da Associação<br>Recreativa e Cultural Águias de Alvelos, com sede na Rua Sra. Das Dores, 742 – 4755-018 Alvelos &#8211; Barcelos,<br>no dia 27 de julho de 2024 sendo constituído por uma prova não cronometrada dividida em uma Corrida e uma caminhada de 10km.<br>A edição 2024 estará inserida na comemoração do “Dia da Freguesia 2024” de Alvelos, em colaboração<br>com a Junta de Freguesia de Alvelos e as restantes associações da freguesia de Alvelos Além do apoio de diversas empresas da região, contamos igualmente com apoios institucionais da Junta de Freguesia de Alvelos e Câmara Municipal de Barcelos.<br>O “ALVELOS À NOITE” é uma Prova de Corrida e Caminhada realizada num percurso sinalizado, pelas<br>vias da freguesia de Alvelos, alguns trilhos acidentados e com obstáculos naturais.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail noturno pela freguesia de Alvelos com corrida e caminhada em percursos desafiantes",
+  "page": "https://cyclonessports.com/index.php/310-alvelos-a-noite-2024",
+  "slug": "alvelos-a-noite-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Alvelos",
+  "district_code": 3
+}

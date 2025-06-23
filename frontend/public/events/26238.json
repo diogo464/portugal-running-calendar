@@ -1,0 +1,34 @@
+{
+  "id": 26238,
+  "name": "Trail Running D. Maria 2023",
+  "location": "Almargem do Bispo, Sintra",
+  "coordinates": {
+    "lat": 38.8484282,
+    "lon": -9.2694885
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    12000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/97cb159683eb95ea3bdcfb92f79ff8b8"
+  ],
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-09",
+  "circuit": [],
+  "description": "\n<p>O II Trail Running D.Maria, irá realizar-se no dia 8 Outubro de 2023 e será composto por duas provas competitivas de aproximadamente 20+ Km (Trail longo) e 12 Km (Trail curto) e uma prova recreativa, uma Caminhada de 10Km.</p>\n\n\n\n<p><br>Trail Longo (20 km+) – Prova inserida no Circuito de Trail de Lisboa 2023<br>Trail Curto (12 km+) – Prova inserida no Circuito de Trail de Lisboa 2023</p>\n\n\n\n<p><br>A prova é organizada pela Associação Free Runners com a colaboração do Centro de Recreio Popular e Cultural Musical (CRPCM) Dona Maria, em Dona Maria, Almargem do Bispo.</p>\n",
+  "description_short": "Trail competitivo em Dona Maria com duas provas integradas no Circuito de Trail de Lisboa",
+  "page": "https://www.trilhoperdido.com/evento/II-Trail-Running-D-Maria",
+  "slug": "trail-running-d-maria-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar",
+  "district_code": 11
+}

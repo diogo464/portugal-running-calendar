@@ -1,0 +1,30 @@
+{
+  "id": 40553,
+  "name": "Sousões Trail 2025",
+  "location": "Felgueiras, Porto",
+  "coordinates": {
+    "lat": 41.3688566,
+    "lon": -8.1994276
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-05-18",
+  "end_date": "2025-05-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": null,
+  "slug": "sousoes-trail-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Felgueiras",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

@@ -1,0 +1,33 @@
+{
+  "id": 40528,
+  "name": "Night Trail Cidade da Paz 2025",
+  "location": "Fátima, Santarém",
+  "coordinates": null,
+  "country": "Portugal",
+  "locality": "Fátima, Santarém",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fe64de947a1f7b43ae95632ab2c0b113"
+  ],
+  "start_date": "2025-06-07",
+  "end_date": "2025-06-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O evento&nbsp;<strong>5º Night Trail &#8211; Cidade da Paz</strong>&nbsp;é constituído por uma&nbsp;<strong>Corrida Trail de 15 km e um Mini Trail / Caminhada de 10 km</strong>&nbsp;e será realizado no dia&nbsp;<strong>7 de Junho de 2025.</strong></p>\n\n\n\n<p>A organização do evento é da responsabilidade da<strong>&nbsp;Equipa Fátima Trail Team</strong>. Contará ainda com o apoio do&nbsp;<strong>ADRC Vasco da Gama</strong>&nbsp;para fornecer os seus balneários para banhos a todos os participantes que assim o desejarem.</p>\n",
+  "description_short": "Trail nocturno em Fátima com percurso pela zona da Cidade da Paz",
+  "page": "https://www.recordepessoal.pt/evento/5nighttrail-cidadedapaz",
+  "slug": "night-trail-cidade-da-paz-2025",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

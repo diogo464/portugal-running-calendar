@@ -1,0 +1,29 @@
+{
+  "id": 29460,
+  "name": "Da Baixa ao Castelo de Palmela 2023",
+  "location": "Palmela, Setúbal",
+  "coordinates": {
+    "lat": 38.569441,
+    "lon": -8.9016937
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/2535214dd4662d37f62e4b3548cb8452"
+  ],
+  "start_date": "2023-11-01",
+  "end_date": "2023-11-02",
+  "circuit": [],
+  "description": "\n<p>A competição “Da Baixa ao Castelo de Palmela” é organizada pela Câmara Municipal de Palmela. Consiste numa prova em “Contrarrelógio” em que os participantes são desafiados a subir desde a Baixa de Palmela até ao ponto mais alto da Vila, por caminhos de terra batida – “Estrada da Cobra” e Parque Venâncio Ribeiro da Costa – e por ruas do Centro Histórico, terminando no Castelo de Palmela, no mais curto intervalo de tempo possível.</p>\n\n\n",
+  "description_short": "Prova desafiante a contrarrelógio desde a Baixa até ao Castelo de Palmela por caminhos históricos",
+  "page": "https://xistarca.pt/eventos/da-baixa-ao-castelo",
+  "slug": "da-baixa-ao-castelo-de-palmela-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Palmela",
+  "administrative_area_level_3": "Palmela",
+  "district_code": 15
+}

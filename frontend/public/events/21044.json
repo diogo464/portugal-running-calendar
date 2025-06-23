@@ -1,0 +1,34 @@
+{
+  "id": 21044,
+  "name": "Meia Maratona de Matosinhos Mar de Desporto 2023",
+  "location": "Matosinhos, Porto",
+  "coordinates": {
+    "lat": 41.182863,
+    "lon": -8.688951
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    7000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/e1d83534361108c266d79a3c76b9e083"
+  ],
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-08",
+  "circuit": [],
+  "description": "\n<p>O Farol da Boa Nova, a Ponte Móvel e a belíssima marginal de Leça da Palmeira vão fazer do percurso da Gold Energy Meia Maratona de Matosinhos Mar de Desporto.</p>\n\n\n\n<p>A partida para 4ª edição do evento está marcada para as 9h00 dia 7 de maio na Av. da Liberdade, junto ao Farol da Boa Nova.&nbsp;</p>\n\n\n\n<p>Para além da distância de 21 km, o evento conta com uma Mini Maratona com 7 km para toda a família.</p>\n",
+  "description_short": "Meia maratona à beira-mar em Matosinhos com passagem pelo icónico Farol da Boa Nova e Ponte Móvel",
+  "page": "https://www.runporto.com/pt/eventos/meia-maratona-de-matosinhos/meia-maratona-de-matosinhos-2023/",
+  "slug": "meia-maratona-de-matosinhos-mar-de-desporto-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das Freguesias de Matosinhos e Leça da Palmeira",
+  "district_code": 13
+}

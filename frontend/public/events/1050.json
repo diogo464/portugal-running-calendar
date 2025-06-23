@@ -1,0 +1,31 @@
+{
+  "id": 1050,
+  "name": "São Jorge Trail Run 2020",
+  "location": "Ilha de São Jorge Jorge, Açores",
+  "coordinates": {
+    "lat": 38.6409678,
+    "lon": -28.0303189
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    17000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/e295a527eae1654b776035f0b44c6d42"
+  ],
+  "start_date": "2020-03-21",
+  "end_date": "2020-03-22",
+  "circuit": [],
+  "description": "<p id=\"h.p_MgY0Z1CMsge9\" class=\"zfr3Q\">O Dragon Island Trail Club é…</p>\n<p id=\"h.p_-AL0iAHjS9ZT\" class=\"zfr3Q\">Somos um grupo de amigos que se juntou para dinamizar e organizar o Trail Running na ilha de São Jorge.</p>\n<p>Em 21 de Março de 2020, iremos realizar uma prova de trail running, o II São Jorge Trail Run na freguesia de Santo Amaro, ilha de São Jorge, Açores, numa distância de 17kms, 675D</p>\n",
+  "description_short": "Trail desafiante pela ilha de São Jorge nos Açores com percurso na freguesia de Santo Amaro",
+  "page": "https://dragonislandtrailclub.pt/",
+  "slug": "sao-jorge-trail-run-2020",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

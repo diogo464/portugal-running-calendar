@@ -1,0 +1,31 @@
+{
+  "id": 19841,
+  "name": "São Silvestre da Tapada 2022",
+  "location": "Tapada Nacional de Mafra, Lisboa",
+  "coordinates": {
+    "lat": 38.9645903,
+    "lon": -9.3026697
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/1ee588a7b4d02ed1871745acea7affff"
+  ],
+  "start_date": "2022-12-11",
+  "end_date": "2022-12-12",
+  "circuit": [],
+  "description": "\n\n\n<p>Marca o dia 11 de Dezembro no teu calendário! O Parque Nacional de Mafra, vai ser o local de partida e chegada da São Silvestre da Tapada. Um dia dedicado a quem gosta de trail running, com distâncias para todos poderem participar. </p>\n",
+  "description_short": "Trail festivo pela Tapada Nacional de Mafra em ambiente de São Silvestre",
+  "page": "https://xistarca.pt/eventos/sao-silvestre-da-tapada",
+  "slug": "sao-silvestre-da-tapada-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Mafra",
+  "district_code": 11
+}

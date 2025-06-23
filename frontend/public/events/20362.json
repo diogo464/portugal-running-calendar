@@ -1,0 +1,37 @@
+{
+  "id": 20362,
+  "name": "IV Trilhos de Viana Cls 2023",
+  "location": "Meadela, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7068644,
+    "lon": -8.8063072
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    17000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e81fbe22d7a5cdcdd100dfa563b2d9cc"
+  ],
+  "start_date": "2023-02-05",
+  "end_date": "2023-02-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>No dia 5 de Fevereiro de 2023 com o apoio da Camara Municipal de Viana do Castelo e fazendo parte como evento inserido na Cidade Europeia do Desporto 2023, a Associação Trilhos de Viana e Leandro Freitas, na qualidade de diretor técnico do evento, organiza este evento, nas distâncias de 27, 17km, 10km trail e 10km caminhada, por trilhos, caminhos e linhas d`agua da montanha de Sta Luzia, com o objetivo de promover a prática desportiva e o contacto com a natureza.<br></p>\n",
+  "description_short": "Trail desafiante pela montanha de Santa Luzia em Viana do Castelo, integrado na Cidade Europeia do Desporto 2023",
+  "page": "http://cyclonessports.com/index.php/256-iv-trilhos-de-viana",
+  "slug": "trilhos-de-viana-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": "União das freguesias de Viana do Castelo (Santa Maria Maior e Monserrate) e Meadela",
+  "district_code": 16
+}

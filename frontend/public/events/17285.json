@@ -1,0 +1,36 @@
+{
+  "id": 17285,
+  "name": "FKTrail 2022",
+  "location": "Buarcos, Coimbra",
+  "coordinates": {
+    "lat": 40.1681559,
+    "lon": -8.8814631
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    1000,
+    2200,
+    10000,
+    14000,
+    23000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0c494a41481a879a6415d75ce6042039"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p>FKTRAIL 2022 será constituído por 3 distâncias distintas:</p>\n\n\n\n<p>Trail &#8211; Trail com cerca de 23 km e 2200m de acumulado total.<br>Mini Trail &#8211; Trail com cerca de 14 km e 1000m de acumulado total.<br>Caminhada &#8211; Caminhada com cerca de 10 Km.<br>nota: as distâncias poderão sofrer ligeiros ajustes.</p>\n\n\n\n<p>O evento realizar-se-á entre Quiaios e Buarcos percorrendo a Serra da Boa Viagem. Todas as distâncias terão marcações em toda a sua extensão e haverá staff em algumas zonas. As distâncias são em open road, o atleta terá de cumprir as regras de trânsito e respeitar a circulação de terceiros nos trilhos.</p>\n",
+  "description_short": "Trail desafiante pela Serra da Boa Viagem, com percursos entre Quiaios e Buarcos",
+  "page": "https://acorrer.pt/eventos/info/3003",
+  "slug": "fktrail-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": "Buarcos",
+  "district_code": 6
+}

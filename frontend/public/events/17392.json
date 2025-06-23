@@ -1,0 +1,32 @@
+{
+  "id": 17392,
+  "name": "III Corrida dos Campeões Paulo Guerra e Manuel Damião 2022",
+  "location": "Barrancos, Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "15k",
+    "run"
+  ],
+  "images": [
+    "media/741958595a20560233ab61d9df42e1c4"
+  ],
+  "start_date": "2022-10-02",
+  "end_date": "2022-10-03",
+  "circuit": [],
+  "description": "\n<p>O Barrancos Futebol Clube e a Câmara Municipal de Barrancos promovem a prova “III Corrida dos Campeões Paulo Guerra e Manuel Damião” no dia 02 de outubro de 2022.</p>\n",
+  "description_short": "Corrida homenagem a campeões locais organizada em Barrancos",
+  "page": "https://acorrer.pt/eventos/info/3009",
+  "slug": "iii-corrida-dos-campeoes-paulo-guerra-e-manuel-damiao-2022",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

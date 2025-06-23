@@ -1,0 +1,35 @@
+{
+  "id": 34472,
+  "name": "Farol Adventure Trail &#8211; Flores Azores 2024",
+  "location": "Lajes das Flores, Açores",
+  "coordinates": {
+    "lat": 39.3782624,
+    "lon": -31.1781975
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    8000,
+    15000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/141c2e62b79e50a82a15cd2c8366c8f9"
+  ],
+  "start_date": "2024-04-27",
+  "end_date": "2024-04-27",
+  "circuit": [],
+  "description": "\n<p>O Farol Adventure Trail – Flores Azores (FAT) é um evento desportivo organizado pelo Atlético Clube Fajã Grande em conjunto com o Município de Lajes das Flores, que será aberto a atletas de todas as nacionalidades e nível competitivo.</p>\n\n\n\n<p>A edição deste ano, decorrerá no dia 27 de abril de 2024 contando com duas provas de trail run, de 27km e 15km respectivamente e uma caminhada de 8km.</p>\n\n\n",
+  "description_short": "Trail desafiante pela ilha das Flores nos Açores com diferentes percursos para todos os níveis",
+  "page": "https://acorrer.pt/eventos/info/3444",
+  "slug": "farol-adventure-trail-flores-azores-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Flores",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

@@ -1,0 +1,32 @@
+{
+  "id": 35883,
+  "name": "Corrida de São Pedro 2024",
+  "location": "Macedo de Cavaleiros, Bragança",
+  "coordinates": {
+    "lat": 41.5370005,
+    "lon": -6.9617993
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/cdfe28bddd71d31a2e7bd2705e9f2757"
+  ],
+  "start_date": "2024-06-22",
+  "end_date": "2024-06-23",
+  "circuit": [],
+  "description": "\n<p>A “CORRIDA DE SÃO PEDRO” é uma prova de atletismo organizada pelo Município de Macedo de Cavaleiros e pelo Clube Atlético de Macedo de Cavaleiros em conjunto com a Associação de Atletismo de Bragança que terá lugar no dia 22/06/2024 com início às 18:00 horas, com partida e chegada no recinto da Feira de São Pedro. A prova contará para a Taça Distrital de Corrida em Estrada, sendo esta a segunda e última etapa.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida de São Pedro com partida e chegada na Feira, integrada na Taça Distrital de Bragança",
+  "page": "https://timerspeed.com/?tribe_events=lpcnor-1a-corrida-de-sao-pedro",
+  "slug": "corrida-de-sao-pedro-2024-2",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Macedo de Cavaleiros",
+  "administrative_area_level_3": "Macedo de Cavaleiros",
+  "district_code": 4
+}

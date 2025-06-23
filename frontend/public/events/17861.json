@@ -1,0 +1,36 @@
+{
+  "id": 17861,
+  "name": "EDP Meia Maratona de Lisboa 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/980eee0db44c71c00c70e0c35d66a278"
+  ],
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-13",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>Queria referir-se à <strong><a href=\"https://www.portugalrunning.com/eventos/luso-meia-maratona-de-lisboa-2023/\">Meia Maratona de Lisboa de Outubro</a>?</strong></p>\n\n\n\n<p><strong><a href=\"https://results.sporthive.com/events/7034597458377179392\" target=\"_blank\" rel=\"noreferrer noopener\">RESULTADOS AQUI</a></strong></p>\n\n\n\n<p>A EDP Meia Maratona de Lisboa 2023 é a meia maratona mais rápida do mundo e todos os anos junta mais de 30.000 participantes, incluindo milhares de atletas estrangeiros.</p>\n\n\n\n<p>Venha bater o seu recorde pessoal connosco e junte-se aos mais rápidos de sempre num percurso único que começa em plena ponte 25 de abril e termina no coração de Lisboa, no mosteiro dos Jerónimos.</p>\n\n\n\n<p>As <strong>SuperHalfs </strong>compreendem as seguintes corridas:<br>1.&nbsp;&nbsp; &nbsp;EDP Half Marathon Lisbon<br>2.&nbsp;&nbsp; &nbsp;Sportisimo Prague Half Marathon<br>3.&nbsp;&nbsp; &nbsp;Copenhagen Half Marathon<br>4.&nbsp;&nbsp; &nbsp;Cardiff Half Marathon<br>5.&nbsp;&nbsp; &nbsp;Medio Maratón Valencia Trinidad Alfonso Zurich</p>\n\n\n\n<p><strong>Acompanhamento Personalizado</strong></p>\n\n\n\n<p>O <strong>Portugal Running</strong> disponibiliza um<a href=\"https://www.portugalrunning.com/plano-treino-corrida/\" data-type=\"URL\" data-id=\"plano-treino-corrida\"> acompanhamento personalizado </a>para os atletas que queiram melhorar as suas performances ao longo da jornada das SuperHalfs e não só.</p>\n",
+  "description_short": "Meia maratona icónica por Lisboa com travessia da Ponte 25 de Abril e chegada aos Jerónimos",
+  "page": "https://www.maratonaclubedeportugal.com/corrida-marco/edp-meia-maratona-de-lisboa-2023/",
+  "slug": "edp-meia-maratona-de-lisboa-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

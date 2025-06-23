@@ -1,0 +1,38 @@
+{
+  "id": 35583,
+  "name": "São Silvestre Almada 2024",
+  "location": "Almada",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    200,
+    300,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/ae92f7306838fe118003403dfe2dc23e"
+  ],
+  "start_date": "2024-12-14",
+  "end_date": "2024-12-15",
+  "circuit": [],
+  "description": "\n<p>O Clube de Atletismo Amigos do Parque da Paz, e a Associação Desportiva O Mundo da Corrida, com o apoio da Câmara Municipal de Almada, vai realizar no próximo dia 14 de Dezembro de 2024, pelas <strong>17:30 H</strong>, uma corrida de <strong>10 km</strong>, denominada &#8220;<strong>SÃO SILVESTRE DE ALMADA</strong>&#8220;. Logo a seguir partirá a prova de 5 km e a Caminhada. Pelas <strong>16:30 H</strong>, realiza-se a <strong>Corrida dos Pequenotes</strong>, que será aberta a Bâmbis de 5 a 6 anos que percorrem um percurso de 200 metros e a Benjamins A e B de 7 a 11 anos que percorrem um percurso de 300 metros. Aconselha-se a leitura do Regulamento da &#8220;Corrida dos Pequenotes&#8221;</p>\n",
+  "description_short": "Corrida de São Silvestre de Almada com provas para diferentes escalões etários no final do ano",
+  "page": "https://www.omdceventos.com/evento/viii-sao-silvestre-de-almada",
+  "slug": "sao-silvestre-almada-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

@@ -1,0 +1,30 @@
+{
+  "id": 40410,
+  "name": "Trail Noturno do Mineiro 2025",
+  "location": "Parque Urbano de São Pedro da Cova, Gondomar",
+  "coordinates": {
+    "lat": 41.1628409,
+    "lon": -8.5089819
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/dd003a35064c36d42785459d4ed41a5b"
+  ],
+  "start_date": "2025-04-05",
+  "end_date": "2025-04-05",
+  "circuit": [],
+  "description": "\n<p>A organização do Trail Noturno do Mineiro tem como objetivo promover o território, a prática desportiva, hábitos de vida saudáveis e possibilitar a experiência de correr e caminhar à noite na natureza ou até a preparação de desafios maiores para os atletas mais experimentados.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail nocturno desafiante que promove a natureza e a prática desportiva em ambiente noturno",
+  "page": "https://lap2go.com/pt/event/trail-noturno-mineiro-2025",
+  "slug": "trail-noturno-do-mineiro-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Fânzeres e São Pedro da Cova",
+  "district_code": 13
+}

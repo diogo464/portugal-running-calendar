@@ -1,0 +1,33 @@
+{
+  "id": 15236,
+  "name": "III TRAIL DOS AMA(DORES) / Acru 2022",
+  "location": "Ourém, Santarém",
+  "coordinates": {
+    "lat": 39.6564974,
+    "lon": -8.5773408
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/85c5adc487054976e99348cddde41fc8"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p>Sob organização do grupo – <strong>Ama(dores) Trail Team /ACRU Associação Cultural e Recreativa de Urqueira</strong>, em parceria com a Junta de freguesia de Urqueira, realiza-se a<strong> 09 de Outubro de 2022</strong> a <strong>terceira edição do Trail dos Ama(dores)</strong>, uma prova Trail Running que percorrerá percursos e trilhos na freguesia de Urqueira, no concelho de Ourém.</p>\n\n\n\n<p></p>\n\n\n\n<p>A prova é constituída por duas distâncias de trail e uma caminhada.</p>\n\n\n\n<ul class=\"wp-block-list\"><li>MiniTrail/Caminhada aproximadamente 12km;</li><li>Trail aproximadamente 20 km.</li></ul>\n\n\n\n<p>A concentração e Partida de ambas as provas e da caminhada será na&nbsp;sede Associação Cultural e Recreativa de Urqueira&nbsp;(antiga escola primaria) junto ao campo de futebol Urqueira.</p>\n",
+  "description_short": "Trail dos Ama(dores) pelos trilhos de Urqueira com duas distâncias de trail e caminhada",
+  "page": "https://www.recordepessoal.pt/evento/iiitraildosamadores-acru",
+  "slug": "iii-trail-dos-amadores-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Olival",
+  "district_code": 14
+}

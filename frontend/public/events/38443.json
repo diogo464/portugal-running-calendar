@@ -1,0 +1,30 @@
+{
+  "id": 38443,
+  "name": "Grande Prémio Atletismo Charneca da Caparica 2025",
+  "location": "Charneca De Caparica, Setubal",
+  "coordinates": {
+    "lat": 38.6279559,
+    "lon": -9.1973177
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [
+    "Atletismo de Almada"
+  ],
+  "description": "\n<p>A&nbsp;<strong>16 de março de 2025</strong>&nbsp;vai realizar-se o&nbsp;<strong>30º GP Atletismo&nbsp;Charneca da Caparica</strong>, prova inserida no&nbsp;<strong>Troféu de Almada Atletismo ‘Mário Pinto Claro’ 2024/2025.</strong></p>\n\n\n\n<p>A organização é da responsabilidade da <strong>Amigos do Atletismo da Charneca de Caparica</strong> com o apoio da <strong>Câmara Municipal de Almada</strong>.</p>\n\n\n\n<p></p>\n",
+  "description_short": "30º Grande Prémio de Atletismo na Charneca da Caparica, integrado no Troféu de Almada",
+  "page": "https://xistarca.pt/eventos/taa-30o-gpa-charneca-da-caparica",
+  "slug": "grande-premio-atletismo-charneca-da-caparica-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "União das freguesias de Charneca de Caparica e Sobreda",
+  "district_code": 15
+}

@@ -1,0 +1,32 @@
+{
+  "id": 31254,
+  "name": "Corrida 4 Estações Coimbra 2024",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/7f2abb61b78076abfd0f7586dbaacece"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [],
+  "description": "\n<p>Corremos juntos dia 18 de Fevereiro 2024 em Coimbra, partida e Chegada Parque da Canção.</p>\n\n\n\n<p><br>Corrida 10 Km com percurso certificado e homologado pela Federação Portuguesa de Atletismo e World Athletics.</p>\n",
+  "description_short": "Prova de 10 km à volta do Parque da Canção em Coimbra, com certificação oficial da Federação Portuguesa de Atletismo",
+  "page": "https://goinonline.pt/home/athlete/284fdebcf0721c33d2a989d40a2aa380ed4656f9ea4ba4f1e6",
+  "slug": "corrida-4-estacoes-coimbra-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

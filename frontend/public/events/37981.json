@@ -1,0 +1,34 @@
+{
+  "id": 37981,
+  "name": "Trail das Maçãs 2024",
+  "location": "Alvaiázere, Leiria",
+  "coordinates": {
+    "lat": 39.8237427,
+    "lon": -8.3807264
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    14000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/1091d3472acd7e9b442e709b81ebd5d8"
+  ],
+  "start_date": "2024-10-27",
+  "end_date": "2024-10-28",
+  "circuit": [],
+  "description": "\n<p>O Trail da Maçã – Maçãs de D. Maria 2024, sob organização da Junta de Freguesia de Maçãs de Dona Maria pretende afirmar-se como uma prova de desporto e lazer, com carácter competitivo, na vertente de corrida [Trail Running], a realizar por percursos e trilhos envolventes à junta de Freguesia de Maçãs de D. Maria. </p>\n\n\n\n<p>A quarta edição realiza-se no dia 27 de Outubro de 2024. É categorizado por uma distâncias cronometradas [na vertente de Trail] e uma não cronometrada [Caminhada], de acordo com as seguintes distâncias: Trail 14 quilómetros e Caminhada de Natureza não competitiva com a extensão aproximada de 10 quilómetros.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos pitorescos de Maçãs de Dona Maria",
+  "page": "https://www.queroir.pt/traildasmacas2024",
+  "slug": "trail-das-macas-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alvaiázere",
+  "administrative_area_level_3": "Alvaiázere",
+  "district_code": 10
+}

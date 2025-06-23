@@ -1,0 +1,39 @@
+{
+  "id": 39638,
+  "name": "Trail Erdal &#8211; Urgezes Solidário 2025",
+  "location": "Guimarães, Braga",
+  "coordinates": {
+    "lat": 41.44253,
+    "lon": -8.2917857
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    500,
+    850,
+    1300,
+    8000,
+    12000,
+    19000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c74467bc224f7abccb951ca61cc8ee54"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [],
+  "description": "\n<p id=\"par_1_1\">O X TRAIL ERDAL URGEZES SOLIDARIO sera realizado no dia 11 de maio de 2025, sendo constituido por 4  eventos:</p>\n\n\n\n<p id=\"par_1_3\">Trail Longo com a distancia aproximada de 28km, +1300 m de desnivel positivo. Dificuldade de 4,6pontos (de 3 a 5) &#8211; Grau 2 (em 4), segundo a metodologia da ATRP</p>\n\n\n\n<p id=\"par_1_4\"> Trail Sprint com a distancia aproximada de 19km, +850 m de desnivel positivo. Dificuldade de 4,4 pontos (de 3 a 5) &#8211; Grau 2 (em 4), segundo a metodologia da ATRP. &#8211;</p>\n\n\n\n<p id=\"par_1_4\">Minitrail com a distancia aproximada de 12km, +500 m de desnivel positivo. Dificuldade de 4,1 pontos (de 3 a 5) &#8211; Grau 2 (em 4), segundo a metodologia da ATRP. &#8211; Caminhada com a distancia aproximada de 8 km.</p>\n",
+  "description_short": "Trail solidário em Urgezes com quatro provas de montanha de diferentes distâncias e níveis técnicos",
+  "page": "https://www.portimer.pt/eventos/x_trail_erdal_urgezes_solidario/inscritos",
+  "slug": "trail-erdal-urgezes-solidario-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Serzedo",
+  "district_code": 3
+}

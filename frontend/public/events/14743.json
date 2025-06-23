@@ -1,0 +1,29 @@
+{
+  "id": 14743,
+  "name": "Limestone Ultra Trail 2022",
+  "location": "Porto de Mós",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b9adb9c93cd6e23524d68bfad731a572"
+  ],
+  "start_date": "2022-07-23",
+  "end_date": "2022-07-24",
+  "circuit": [],
+  "description": "\n<p>Limestone Ultra Trail 2022</p>\n",
+  "description_short": "Trail desafiante pela região calcária com paisagens únicas da zona montanhosa",
+  "page": "https://www.recordepessoal.pt/evento/limestoneultratrail2022",
+  "slug": "limestone-ultra-trail-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

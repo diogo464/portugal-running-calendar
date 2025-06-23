@@ -1,0 +1,33 @@
+{
+  "id": 1951,
+  "name": "1° Trail Serras do Sado 2020",
+  "location": "Alcacer do Sal, Setúbal",
+  "coordinates": {
+    "lat": 38.3706145,
+    "lon": -8.5061998
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    17000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ece8cbd8b40d7f2923e8069ca1a63762"
+  ],
+  "start_date": "2020-04-18",
+  "end_date": "2020-04-19",
+  "circuit": [],
+  "description": "<p>Percursos de: Caminhada 10km<br />\nTrail Curto 10km<br />\nTrail Médio 17km<br />\nPequeno almoço, abastecimentos,Mata bicho. Banhos , Brindes incluidos.</p>\n<p>Trilhos de cortar a respiração, paisagem de serra unicas.<br />\nPercursos desafiadores, mas também agradaveis.<br />\nCaminhada onde se vai passar por caminhos unicos,onde só nestas provas são abertos ao publico em geral.<br />\nVem participar, e passar uma manhã única a correr ou a caminhar em famili</p>\n",
+  "description_short": "Trail desafiante pela serra com percursos exclusivos e paisagens únicas",
+  "page": "https://acorrer.pt/eventos/info/2602",
+  "slug": "1-trail-serras-do-sado-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcácer do Sal",
+  "administrative_area_level_3": "União das freguesias de Alcácer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana",
+  "district_code": 15
+}

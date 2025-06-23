@@ -1,0 +1,32 @@
+{
+  "id": 15310,
+  "name": "Sunset Running 2022",
+  "location": "Lordelo, Paredes",
+  "coordinates": {
+    "lat": 41.2379674,
+    "lon": -8.4239055
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/a339bb4c5c213c71fc475497b07376db"
+  ],
+  "start_date": "2022-10-29",
+  "end_date": "2022-10-30",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 29 de Outubro de 2022 pelas 17h, a prova Sunset Running 2022 começa e acaba Junto à JF de Lordelo, o tempo máximo de duração desta prova é de 2 horas.</p>\n",
+  "description_short": "Corrida de final de tarde em Lordelo com partida e chegada junto à Junta de Freguesia",
+  "page": "https://sunsetrunning2022.statusmarathon.net/",
+  "slug": "sunset-running-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Lordelo",
+  "district_code": 13
+}

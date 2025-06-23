@@ -1,0 +1,36 @@
+{
+  "id": 35658,
+  "name": "Trail do Marco 2024",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    12000,
+    15000,
+    23000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3a32539106b21f44928412d0a774ee58"
+  ],
+  "start_date": "2024-11-10",
+  "end_date": "2024-11-11",
+  "circuit": [],
+  "description": "\n<p>O Trail do Marco, que nasceu em 2022, retorna em 2024 para a sua terceira edição,<br>consolidando-se como um dos eventos desportivos mais esperados na região de Marco de<br>Canaveses. Organizado pela Associação Desportiva do Marco 09, com o apoio do Município<br>de Marco de Canaveses, Juntas de Freguesia de Marco, Tabuado, Soalhães e Várzea<br>Aliviada e Folhada e várias entidades locais, este evento está marcado para o dia 10 de<br>novembro de 2024.</p>\n\n\n\n<p>Esta terceira edição, é composta por 3 provas competitivas: Mini Trail de 15 km; Trail Curto<br>de 23 km e Trail Longo de 31 km. Será realizada no mesmo dia uma Caminhada Solidária<br>de 12 km.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante por Marco de Canaveses com percursos variados e apoio autárquico local",
+  "page": "https://stopandgo.net/events/trail-do-marco-2024",
+  "slug": "trail-do-marco-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}

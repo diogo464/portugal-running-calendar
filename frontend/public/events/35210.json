@@ -1,0 +1,34 @@
+{
+  "id": 35210,
+  "name": "Corrida Auchan 2024",
+  "location": "Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/a53e4e101ae25605feab542304ee10c3"
+  ],
+  "start_date": "2024-09-07",
+  "end_date": "2024-09-08",
+  "circuit": [],
+  "description": "\n<p>A <strong>Corrida Auchan</strong> celebra a 11ª edição a 7 de setembro de 2024 com a Corrida de 10 Km, Caminhada de 5 Km.</p>\n",
+  "description_short": "Corrida anual de solidariedade da Auchan com percurso citadino de 10 Km",
+  "page": "https://www.corridaauchan.pt/",
+  "slug": "corrida-auchan-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

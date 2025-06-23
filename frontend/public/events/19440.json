@@ -1,0 +1,33 @@
+{
+  "id": 19440,
+  "name": "VIII Ultra Trail Serra do Alvão 2022",
+  "location": "Vila Real",
+  "coordinates": {
+    "lat": 41.3011532,
+    "lon": -7.7409832
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    21000,
+    35000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/766e6b249331994facb81251b7b7281c"
+  ],
+  "start_date": "2022-12-03",
+  "end_date": "2022-12-04",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong><em>Ultra Trail Serra do Alvão</em></strong>&nbsp;é organizado pela Associação Positive Sensations, em parceria com a Câmara Municipal de Vila Real.</p>\n\n\n\n<p>A VIII Edição do <strong><em>Ultra Trail Serra do Alvão</em></strong> é uma prova que percorre os trilhos da Serra do Alvão, nesta edição apresentamos as categorias, Trail e Mini Trail, é um evento  aberto a todos os indivíduos maiores de idade (18 anos).</p>\n\n\n\n<p>A VIII Edição do <strong><em>Ultra Trail Serra do Alvão</em></strong>, realizar-se-á no dia <strong>3 de Dezembro de 2022</strong>.</p>\n\n\n\n<p>Locais de partida:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Trail</strong>&nbsp;(35Kms) &#8211; Casa dos Baldios de Lamas de Olo;</li><li><strong>Mini Trail</strong>&nbsp; (21kms) &#8211; Casa dos Baldios de Lamas de Olo.</li></ul>\n",
+  "description_short": "Trail desafiante pela Serra do Alvão com partida em Lamas de Olo, organizado pela Associação Positive Sensations e Câmara Municipal de Vila Real",
+  "page": "https://www.recordepessoal.pt/evento/viiiultratrailserradoalvo",
+  "slug": "viii-ultra-trail-serra-do-alvao-2022",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Real",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

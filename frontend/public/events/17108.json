@@ -1,0 +1,33 @@
+{
+  "id": 17108,
+  "name": "Atlantic Cliffs Adventure 2022",
+  "location": "Charneca, Cascais",
+  "coordinates": {
+    "lat": 38.7346428,
+    "lon": -9.4546456
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/dcbb548d0a8484d7fb7bcd158f3194d8"
+  ],
+  "start_date": "2022-11-20",
+  "end_date": "2022-11-21",
+  "circuit": [],
+  "description": "\n<p>Associação da Charneca, com o apoio da Camara Municipal de Cascais irão organizar a 20 de Novembro de 2022 pelas 09h00 horas o Atlantic Cliffs Adventure, na Charneca, concelho de Cascais. O Atlantic Cliff Adventure é uma prova de TrailRunning, corrida pedestre em Natureza, com três provas, Trail Longo (TL) K20+, Trail Curto (TC) K10+ e Caminhada.</p>\n\n\n\n<p>Com partida e chegada na localidade de Charneca, Concelho de Cascais, Distrito de Lisboa, visa a promoção e divu lgação turística e ambiental da região e da promoção do desporto em meio natural.</p>\n",
+  "description_short": "Trail com paisagens costeiras pelos trilhos da Charneca em Cascais, organizado pela Associação local e apoiado pela Câmara Municipal",
+  "page": "https://www.trilhoperdido.com/evento/atlantic-cliffs-adventure",
+  "slug": "atlantic-cliffs-adventure-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "União das freguesias de Cascais e Estoril",
+  "district_code": 11
+}

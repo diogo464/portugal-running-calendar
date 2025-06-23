@@ -1,0 +1,32 @@
+{
+  "id": 1510,
+  "name": "Ultra Maratona Atlântica 2020",
+  "location": "Melides - Tróia",
+  "coordinates": {
+    "lat": 38.147037,
+    "lon": -8.7291925
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "marathon",
+    "run"
+  ],
+  "images": [
+    "media/3f1689ceb24a918c69417b511d8b9ab4"
+  ],
+  "start_date": "2020-08-02",
+  "end_date": "2020-08-03",
+  "circuit": [],
+  "description": "<p>A ULTRA MARATONA ATLÂNTICA MELIDES &#8211; TRÓIA é uma organização da Câmara Municipal de Grândola e vai decorrer no dia 2 Agosto 2020, nas praias do Concelho de Grândola, a 16ª edição.</p>\n<p>A CORRIDA ATLÂNTICA COMPORTA &#8211; TRÓIA é uma organização da Câmara Municipal de Grândola e vai decorrer a 7ª edição no dia 2 de Agosto 2020, nas praias de Concelho de Grândola, em simultâneo com a Ultra Maratona Atlântica Melides &#8211; Tróia.</p>\n",
+  "description_short": "Corrida e Ultra Maratona Atlântica pelas praias do Concelho de Grândola",
+  "page": "https://ganhardestak.bol.pt/Comprar/Bilhetes/85264-ultra_maratona_atlantica_e_corrida_atlantica_2020-troia_grandola/",
+  "slug": "ultra-maratona-atlantica-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "Melides",
+  "district_code": 15
+}

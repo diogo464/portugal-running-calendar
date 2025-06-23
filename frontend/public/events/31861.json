@@ -1,0 +1,30 @@
+{
+  "id": 31861,
+  "name": "Trail Vila Pouca de Aguiar 2024",
+  "location": "Vila Pouca de Aguiar Aguiar, Real",
+  "coordinates": {
+    "lat": 41.5002387,
+    "lon": -7.6432318
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2024-05-12",
+  "end_date": "2024-05-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O CTM de Vila Pouca de Aguiar realizará a 9ª edição do Trail CTM Vila Pouca de Aguiar, composto por 3 provas. Trail Longo, Trail Curto e uma Caminhada. Será o regresso ao bonito cenário das serras do Alvão e da Padrela para voltar a enchê-las de atletas e novidades. Atreve-te a entrar na Natureza.</p>\n",
+  "description_short": "Trail desafiante pelas serras do Alvão e Padrela em Vila Pouca de Aguiar",
+  "page": "https://lap2go.com/pt/event/trail-ctm-vila-pouca-de-aguiar-2024",
+  "slug": "trail-vila-pouca-de-aguiar-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Pouca de Aguiar",
+  "administrative_area_level_3": "Vila Pouca de Aguiar",
+  "district_code": 17
+}

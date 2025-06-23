@@ -1,0 +1,36 @@
+{
+  "id": 35764,
+  "name": "Monsanto Fest Run 2024",
+  "location": "Estrada da Serafina, Lisboa",
+  "coordinates": {
+    "lat": 38.736671,
+    "lon": -9.182596
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    500,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/263e7174f3352d4d01fe81385e345996"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-07",
+  "circuit": [],
+  "description": "\n<p>O festival de música “Monsanto Fest”, a caminho da sua 6ª edição,&nbsp; junta, este ano, a&nbsp;música urbana e o desporto!</p>\n\n\n\n<p>Para celebrar os 90 anos do Espaço Monsanto, as Juntas de Freguesia de Benfica, Ajuda, Alcântara e Campolide, vão realizar o “Monsanto Fest Run”, no próximo dia 7 de Julho, num percurso pelas estradas do Monsanto. </p>\n\n\n\n<p>» Kids Race 500m | <strong>9h00<br></strong>» Corrida 10km | <strong>09h30<br></strong>» Caminhada 5km | <strong>09h30</strong></p>\n\n\n",
+  "description_short": "Corrida e caminhada pelo Parque Florestal de Monsanto a celebrar 90 anos do espaço",
+  "page": "https://xistarca.pt/eventos/monsanto-fest-run",
+  "slug": "monsanto-fest-run-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Benfica",
+  "district_code": 11
+}

@@ -1,0 +1,29 @@
+{
+  "id": 32739,
+  "name": "Ultra Skyrunning Madeira 2024",
+  "location": "Santana, Madeira",
+  "coordinates": {
+    "lat": 32.8051351,
+    "lon": -16.881891
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d18b1e3945b7bfd7f348c7d77ad400fa"
+  ],
+  "start_date": "2024-06-14",
+  "end_date": "2024-06-15",
+  "circuit": [],
+  "description": "\n<p>Ultra Skyrunning Madeira – USM 2024 é um evento constituído por 5 provas competitivas, a realizar em semi-autonomia.</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Ultra trail em etapas pela ilha da Madeira com provas competitivas em regime de semi-autonomia",
+  "page": "https://stopandgo.net/events/ultra-skyrunning-madeira-2024",
+  "slug": "ultra-skyrunning-madeira-2024",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

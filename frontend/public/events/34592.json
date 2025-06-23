@@ -1,0 +1,30 @@
+{
+  "id": 34592,
+  "name": "Corrida UGT 2024",
+  "location": "Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/aa36093fba247c53b4cbcfe45296fd5b"
+  ],
+  "start_date": "2024-04-06",
+  "end_date": "2024-04-07",
+  "circuit": [],
+  "description": "\n<p>Para celebrar o&nbsp;<strong>Dia Mundial da&nbsp;Atividade Física</strong>, a UGT realizará no dia 6 de Abril,&nbsp;a&nbsp;<strong>7ª edição da Corrida UGT</strong>!</p>\n\n\n\n<p><strong>Inscreve-te gratuitamente,</strong>&nbsp;recebe o teu kit participante e corre para a tua medalha finisher!</p>\n",
+  "description_short": "Corrida solidária da UGT para celebrar o Dia Mundial da Atividade Física",
+  "page": "https://xistarca.pt/eventos/7a-corrida-ugt-2024",
+  "slug": "corrida-ugt-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

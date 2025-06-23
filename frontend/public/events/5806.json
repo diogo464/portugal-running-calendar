@@ -1,0 +1,36 @@
+{
+  "id": 5806,
+  "name": "Meia Maratona de Famalicão 2021",
+  "location": "Vila Nova de Famalicão, Braga Porto",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    6000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/40ee5dca7d28df763ab9ede4143a966e"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://runporto.com/pt/eventos/meia-maratona-de-famalicao/meia-maratona-de-famalicao-2021/resultados/\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>É com muito prazer que podemos confirmar a realização deste grande evento na Cidade de Famalicão no dia 28 de Novembro de 2021, que será a sua 7ª edição.</p>\n\n\n\n<p>Com o Plano de Segurança concluído, a Meia Maratona de Famalicão 2021 volta às principais ruas da cidade contanto com 2 distâncias no seu programa, a Meia Maratona de 21 km e a Mini Maratona de 6 km.</p>\n",
+  "description_short": "Meia maratona pelas principais ruas de Famalicão na sua 7ª edição",
+  "page": "https://www.runporto.com/pt/eventos/meia-maratona-de-famalicao/meia-maratona-de-famalicao-2021/",
+  "slug": "meia-maratona-de-famalicao-2021",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

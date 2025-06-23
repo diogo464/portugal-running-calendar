@@ -1,0 +1,35 @@
+{
+  "id": 976,
+  "name": "Corrida dos Sinos 2020",
+  "location": "Mafra Mafra, Lisboa",
+  "coordinates": {
+    "lat": 38.9443106,
+    "lon": -9.3320856
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    7000,
+    10000,
+    15000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/123bc422f95b7aa73e0d3c603bdffbd2"
+  ],
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-14",
+  "circuit": [],
+  "description": "<p align=\"justify\">Os Amigos do Atletismo de Mafra, com a colaboração da Câmara Municipal de Mafra e Junta de Freguesia de Mafra, realizam no dia 05 de Abril de 2020, pelas 10h30, a 38.ª Corrida dos Sinos &#8211; uma das “clássicas” do atletismo português.</p>\n<p align=\"justify\">Este evento contempla duas provas: a prova principal de 15.000 metros (percurso homologado pela FPA) com carácter competitivo e prémios monetários; e uma caminhada com cerca de 7000 metros sem carácter competitivo, designada por Prova dos Sininhos.</p>\n<p align=\"justify\">Nesta edição, voltamos a dar volta completa ao Palácio Nacional de Mafra, com passagem na zona militar, gentilmente autorizada pela Escola das Armas.</p>\n",
+  "description_short": "Corrida clássica em Mafra com passagem pelo histórico Palácio Nacional e zona militar",
+  "page": "https://www.prozis.com/pt/pt/evento/corrida-dos-sinos-2020",
+  "slug": "corrida-dos-sinos-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Mafra",
+  "district_code": 11
+}

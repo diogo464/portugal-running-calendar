@@ -1,0 +1,30 @@
+{
+  "id": 33791,
+  "name": "Terrugem Trail 2024",
+  "location": "Terrugem, Sintra",
+  "coordinates": {
+    "lat": 38.847884,
+    "lon": -9.378472799999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/9ac549abffdf3c3baf20a4498cba7155"
+  ],
+  "start_date": "2024-06-23",
+  "end_date": "2024-06-24",
+  "circuit": [],
+  "description": "\n<p>O VII Terrugem Trail é um evento organizado pela ABIT &#8211; Associação de Bicicletas da Terrugem. Este evento pretende dinamizar a prática desportiva na região nomeadamente o atletismo e a prática específica do Trail Running, trazendo ao concelho de Sintra, atletas de vários locais do país para que se possa partilhar a experiência desta modalidade.</p>\n\n\n\n<p><br>A ABIT conta com o apoio da Câmara Municipal de Sintra, da União de Freguesias de Terrugem e São João das Lampas, bem como de outras entidades com sede social no Concelho.</p>\n\n\n\n<p><br>O VII Terrugem Trail é uma Prova de Trail Running, realizada em trilhos, piso acidentado, pedreiras, estradões e obstáculos, por terrenos circundantes à localidade da Terrugem.</p>\n\n\n\n<p><br>Este evento conta com a realização de Trail Curto, Trail Longo e Caminhada.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e pedreiras da região de Sintra, organizado pela ABIT com apoio municipal",
+  "page": "https://www.trilhoperdido.com/evento/7-Terrugem-Trail",
+  "slug": "terrugem-trail-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

@@ -1,0 +1,34 @@
+{
+  "id": 39682,
+  "name": "Meia Maratona Cávado 2025",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/8e8b3e598164f4418ffb84e488f5d69b"
+  ],
+  "start_date": "2025-04-06",
+  "end_date": "2025-04-07",
+  "circuit": [],
+  "description": "\n<p>Se juntarmos o rio, o mar e a zona rural, as tradições, a cultura e o artesanato, com uma população que está habituada, gosta e sabe receber, que é ativa em participar, conviver e bem viver, com o hábito de assistir e aplaudir eventos desportivos e culturais, é fácil constatar que estão reunidos todos os ingredientes para um grande evento de atletismo. É esta a nova proposta dos Amigos da Montanha para 2024, num evento realizado em parceria com as autarquias de Barcelos e Esposende.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail com sabor local entre Barcelos e Esposende, unindo rio, mar e tradições regionais",
+  "page": "https://www.sinctime.com/evento/332",
+  "slug": "meia-maratona-cavado-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

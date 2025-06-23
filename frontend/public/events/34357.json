@@ -1,0 +1,33 @@
+{
+  "id": 34357,
+  "name": "Corrida da Liberdade Lisboa 2024",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/5f9317e1c104662b437cfc83a61e08f1"
+  ],
+  "start_date": "2024-04-25",
+  "end_date": "2024-04-26",
+  "circuit": [],
+  "description": "\n<p>No dia 25 Abril, a alegria e a festa colectiva saem mais uma vez à rua. O desejo e o prazer da participação mantêm viva a “Corrida da Liberdade” e a sua simbologia, nesse dia em que saudamos os 50 anos da Revolução dos Cravos!</p>\n\n\n\n<p>A PRAÇA dos RESTAURADORES irá de novo ser o ponto de chegada de todas as provas e receberá todos aqueles que mantêm e querem vivos os ideais de Abril.</p>\n\n\n\n<p>Participar na Corrida da Liberdade é uma das maneiras de comemorar Abril e a Revolução dos Cravos. Assim, façamos desta corrida uma grande festa popular, participando nela ou apoiando-a na sua chegada.</p>\n",
+  "description_short": "Corrida da Liberdade celebra 50 anos do 25 de Abril na Praça dos Restauradores",
+  "page": "https://werun.pt/eventos/45-corrida-da-liberdade-50-aniversario-25-de-abril/",
+  "slug": "corrida-da-liberdade-lisboa-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

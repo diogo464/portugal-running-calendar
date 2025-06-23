@@ -1,0 +1,32 @@
+{
+  "id": 40022,
+  "name": "São Silvestre Lourosa 2025",
+  "location": "Lourosa, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9881883,
+    "lon": -8.5450532
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2025-12-20",
+  "end_date": "2025-12-21",
+  "circuit": [],
+  "description": "\n<p>Pela terceira vez a São Silvestre de Lourosa sairá para as estradas desta cidade que pertence ao município de Santa Maria da Feira. Vem fazer parte desta história a correr 10 quilómetros ou caminhar com o propósito de estimular a sua atividade física e a dos outros.</p>\n\n\n",
+  "description_short": "Corrida solidária pelas estradas da cidade de Lourosa com vista a promover a atividade física",
+  "page": "https://lap2go.com/pt/event/ss-lourosa-2025",
+  "slug": "sao-silvestre-lourosa-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Lourosa",
+  "district_code": 1
+}

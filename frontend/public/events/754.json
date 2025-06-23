@@ -1,0 +1,32 @@
+{
+  "id": 754,
+  "name": "Prova de Atletismo de Cesar",
+  "location": "Oliveira de Azeméis Azeméis, Aveiro",
+  "coordinates": {
+    "lat": 40.839305,
+    "lon": -8.4770079
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/c592b5b62abf901d2249c6ffd394ad0e"
+  ],
+  "start_date": "2020-02-09",
+  "end_date": "2020-02-10",
+  "circuit": [],
+  "description": "<p>A Associação Villa Cesari, através da sua seção de Atletismo, organiza de novo a Prova de Atletismo de Cesar, que reunirá nesta vila do concelho de Oliveira de Azeméis provas para todos os escalões etários e um leque dos melhores atletas nacionais.</p>\n",
+  "description_short": "Prova de atletismo tradicional na vila de Cesar com participação de atletas de topo nacional",
+  "page": "https://lap2go.com/pt/event/atletismo-cesar-2020",
+  "slug": "prova-de-atletismo-de-cesar",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "União das freguesias de Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail",
+  "district_code": 1
+}

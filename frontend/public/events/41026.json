@@ -1,0 +1,32 @@
+{
+  "id": 41026,
+  "name": "Corrida Solidária AEISA 2025",
+  "location": "Monsanto, Lisboa",
+  "coordinates": {
+    "lat": 38.7245159,
+    "lon": -9.1954432
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/f57374da2ac0d0b4d19b6ab12c18c0cf"
+  ],
+  "start_date": "2025-04-26",
+  "end_date": "2025-04-27",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Associação dos Estudantes do Instituto Superior de Agronomia</strong>&nbsp;apresenta a “IV Corrida Solidária AEISA”, a realizar-se no&nbsp;<strong>dia&nbsp;26 de abril de 2025</strong>, com o apoio do ISA, CM-Lisboa, Junta de Freguesia da Ajuda, Junta de Freguesia de Alcântara, ADESL, FAL, ULisboa, Mais Superior e Xistarca.</p>\n\n\n\n<p>A&nbsp;<strong>Associação dos Estudantes do Instituto Superior de Agronomia&nbsp;</strong>pretende&nbsp;oferecer aos participantes um&nbsp;<strong>percurso desafiante pelos brilhantes cenários</strong>&nbsp;que irão encontrar na Tapada da Ajuda e Mata de Monsanto, bem como a oportunidade de contribuir para uma&nbsp;<strong>causa solidária</strong>.</p>\n",
+  "description_short": "Corrida solidária de estudantes pelos cenários verdes da Tapada da Ajuda e Monsanto em Lisboa",
+  "page": "https://xistarca.pt/eventos/v-corrida-solidaria-aeisa",
+  "slug": "corrida-solidaria-aeisa-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

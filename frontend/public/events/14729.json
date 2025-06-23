@@ -1,0 +1,33 @@
+{
+  "id": 14729,
+  "name": "Trail Serra das Flores 2022",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    7000,
+    11000,
+    21000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4c622a9dc5247cb38c31a4cb4cda20d8"
+  ],
+  "start_date": "2022-05-22",
+  "end_date": "2022-05-23",
+  "circuit": [],
+  "description": "\n<p>O TSF – Trail Serra das Flores 2022, é um evento de trail-running organizado pelo Medense Futebol Clube (MFC) e pela Sports 4 Life (S4L), que decorre na Serra das Flores e montes adjacentes e que integra 3 provas: TSF 21, MTSF 11 e CTSF 7, todas elas de formato circular, non-stop.</p>\n",
+  "description_short": "Trail desafiante pela Serra das Flores com três provas circulares em formato non-stop",
+  "page": "https://lap2go.com/pt/event/trail-serra-das-flores-2022",
+  "slug": "trail-serra-das-flores-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

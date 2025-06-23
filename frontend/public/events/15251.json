@@ -1,0 +1,29 @@
+{
+  "id": 15251,
+  "name": "Bonito by Night 2022",
+  "location": "Entroncameto, Santarém",
+  "coordinates": {
+    "lat": 39.4611239,
+    "lon": -8.478759
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/abfb38bf60ef1b3271e58235c586cec8"
+  ],
+  "start_date": "2022-09-10",
+  "end_date": "2022-09-11",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>CLAC &#8211;&nbsp;Clube de Lazer, Aventura e Competição do Entroncamento</strong>, tem o prazer de informar que irá organizar a&nbsp;&nbsp;<strong>5ª Edição &#8220;Bonito by Night&#8221;.</strong></p>\n\n\n\n<p>O evento terá lugar no dia&nbsp;<strong>10 de Setembro de 2022</strong>, junto ao campo de jogos do Bonito&nbsp;(Entroncamento).</p>\n",
+  "description_short": "Trail nocturno desafiante no Entroncamento organizado pelo CLAC",
+  "page": "http://www.bonitobynight.com/",
+  "slug": "bonito-by-night-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Entroncamento",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

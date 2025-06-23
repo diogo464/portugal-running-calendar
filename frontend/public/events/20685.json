@@ -1,0 +1,31 @@
+{
+  "id": 20685,
+  "name": "Ecotrail Porto 2023",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/9b56715192a3197a37bda68e2cb2c706"
+  ],
+  "start_date": "2023-04-08",
+  "end_date": "2023-04-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O EcoTrail Porto está à tua espera no dia 8 de abril e promete levar-te a locais com muita história.</p>\n\n\n",
+  "description_short": "Trail urbano e histórico pelo Porto com paisagens únicas",
+  "page": "https://stopandgo.net/event/?id=1024",
+  "slug": "ecotrail-porto-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

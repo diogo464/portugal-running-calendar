@@ -1,0 +1,33 @@
+{
+  "id": 38517,
+  "name": "Corrida dos Reis 2025 &#8211; Figueira da Foz",
+  "location": "Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1521398,
+    "lon": -8.857583
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/b5c3dd92e422a50d16b37fca7930a645"
+  ],
+  "start_date": "2025-01-04",
+  "end_date": "2025-01-04",
+  "circuit": [],
+  "description": "\n<p>Numa organização da Junta de Freguesia Buarcos São Julião com o apoio da Câmara Municipal da Figueira da Foz, Associação Desportiva 4 Estações e com o patrocínio do Casino Figueira da Foz, vai realizar no dia 4 de janeiro de 2025 pelas <strong>17h53</strong> na Cidade da Figueira da Foz uma corrida de atletismo de estrada com distância de 10 km num <strong>percurso certificado e homologado pela World Athletics,Federação Portuguesa de Atletismo e consta no calendário Mundial de Atletismo Corridas de Estrada da World Athletics</strong>, designada por Corrida dos Reis Figueira da Foz. Do evento faz parte uma caminhada com cerca de 7km sem classificação. A Corrida dos Reis acolhe os 32º Campeonatos Nacionais de Estrada da Federação Portuguesa de Atletismo.</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida dos Reis à tarde na Figueira da Foz que integra o Campeonato Nacional de Estrada",
+  "page": "https://goinonline.pt/home/athlete/9d32bcd3801a06ec758f2f6bba8e7424ccbaa6d78b57357e63",
+  "slug": "corrida-dos-reis-2025-figueira-da-foz",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

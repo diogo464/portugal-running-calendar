@@ -1,0 +1,32 @@
+{
+  "id": 23969,
+  "name": "Corrida da Marginal &#8211; Miramar 2023",
+  "location": "Miramar, Vila Nova de Gaia",
+  "coordinates": {
+    "lat": 41.0681252,
+    "lon": -8.649626999999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/9bee4d1c5583163df1d89966a5be795f"
+  ],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 4 de junho de 2023 pelas 10h, a prova começa e acaba na Rua da Praia. Junto ao Necas Bar, o tempo máximo de duração desta prova é de 1 horas.</p>\n",
+  "description_short": "Corrida matinal junto ao mar com partida e chegada na Rua da Praia",
+  "page": "https://corridadamarginalmiramar2023.statusmarathon.net/forms/index?menu=yes#page_emo_form",
+  "slug": "corrida-da-marginal-miramar-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "Arcozelo",
+  "district_code": 13
+}

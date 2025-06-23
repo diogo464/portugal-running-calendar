@@ -1,0 +1,34 @@
+{
+  "id": 21309,
+  "name": "Pisão Extreme 2023",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    15000,
+    25000,
+    35000,
+    65000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/afd8150985e44ea58d6cf68496a30373"
+  ],
+  "start_date": "2023-11-25",
+  "end_date": "2023-11-26",
+  "circuit": [],
+  "description": "\n<p>O evento Pisão Extreme é organizado pela SpotCriativo Eventos em colaboração com o Município de S. P. Sul e apoio das entidades locais.</p>\n\n\n\n<p>O evento será realizado nos dias 25 de Novembro de 2023, com partida e chegada no Bioparque do Pisão &#8211; Carvalhais &#8211; S.P. Sul, será composto por 4 percursos de Skyrunning tutelado pela Federação de Campismo e Montanhismo de Portugal.</p>\n\n\n\n<ol class=\"wp-block-list\" type=\"1\">\n<li><strong>Percursos</strong><strong></strong></li>\n</ol>\n\n\n\n<p>Todos os percursos se desenrolam na serra da Arada em formato circular.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Pisão Extreme &#8211; 65 km com 6800 D+ &#8211; dia 25 Novembro </strong></li>\n\n\n\n<li><strong>Pisão Skyrace &#8211; 35 km com 3600 D+ &#8211; dia 25 Novembro </strong></li>\n\n\n\n<li><strong>Pisão Adventure &#8211; 25 km com 2200 D+ dia 25 Novembro</strong></li>\n\n\n\n<li><strong>Pisão Mini &#8211; 15 km com 1200 D+ dia 25 Novembro</strong></li>\n</ul>\n\n\n\n<p></p>\n",
+  "description_short": "Trail de skyrunning na Serra da Arada com quatro percursos desafiantes em formato circular",
+  "page": "https://stopandgo.net/events/pisao-extreme-2023",
+  "slug": "pisao-extreme-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

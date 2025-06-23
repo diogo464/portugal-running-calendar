@@ -1,0 +1,36 @@
+{
+  "id": 22002,
+  "name": "Gerês Extreme Marathon 2023",
+  "location": "Vila Gerês, Braga",
+  "coordinates": {
+    "lat": 41.7279146,
+    "lon": -8.1631798
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    15000,
+    21097,
+    42195
+  ],
+  "types": [
+    "run",
+    "15k",
+    "marathon",
+    "half-marathon"
+  ],
+  "images": [
+    "media/cfd8c5f52c2ff5f2e2fd120e86394060"
+  ],
+  "start_date": "2023-12-01",
+  "end_date": "2023-12-02",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.carlossanatureevents.com/pt/gema",
+  "slug": "geres-extreme-marathon-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Terras de Bouro",
+  "administrative_area_level_3": "Vilar da Veiga",
+  "district_code": 3
+}

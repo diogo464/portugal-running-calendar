@@ -1,0 +1,36 @@
+{
+  "id": 1874,
+  "name": "Corrida 4 Estações Coimbra 2020",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    42195,
+    195000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "marathon",
+    "walk"
+  ],
+  "images": [
+    "media/92718e5237b63e271cb8cb4591a0b2ab"
+  ],
+  "start_date": "2020-03-08",
+  "end_date": "2020-03-09",
+  "circuit": [],
+  "description": "<h2 class=\"_2cuy _509y _2vxa\"><span class=\"_4yxo\">ENTRA NA MAGIA DO CIRCUITO DE CORRIDA 4 ESTAÇÕES 2020</span></h2>\n<div class=\"_2cuy _3dgx _2vxa\">4 CORRIDAS DE ATLETISMO DE ESTRADA EM 4 LOCAIS DIFERENTES EM 4 ESTAÇÕES DO ANO.</div>\n<div class=\"_2cuy _3dgx _2vxa\">FAZ UMA MARATONA, EM 4 ETAPAS, 4 ESTAÇÕES, 4 PROVAS, UM CIRCUITO, UMA MARATONA.</div>\n<div class=\"_2cuy _3dgx _2vxa\">AS 4 CORRIDAS DO CIRCUITO VAI DAR A DISTÂNCIA DE 42,195KM.</div>\n<div class=\"_2cuy _3dgx _2vxa\">NO FINAL TENS UM DIPLOMA DIGITAL COM A TUA MARCA.</div>\n<div class=\"_2cuy _3dgx _2vxa\">CLASSIFICAÇÃO NO FINAL DO CIRCUITO POR PONTOS.</div>\n<div class=\"_2cuy _3dgx _2vxa\">PRÉMIO PARA EQUIPAS MAIS NUMEROSAS A TERMINAR A CORRIDA.</div>\n<div class=\"_2cuy _3dgx _2vxa\">1º <span class=\"_4yxp\">EQUIPA UM LEITÃO ASSADO</span></div>\n<div class=\"_2cuy _3dgx _2vxa\">2º <span class=\"_4yxp\">EQUIPA MEIO LEITÃO ASSADO</span></div>\n<div class=\"_2cuy _3dgx _2vxa\">3º <span class=\"_4yxp\">EQUIPA MEIO LEITÃO ASSADO</span></div>\n<div class=\"_2cuy _3dgx _2vxa\">PRÉMIOS POR ESCALÃO</div>\n<div class=\"_2cuy _3dgx _2vxa\">PRÉMIOS CLASSIFICAÇÃO GERAL</div>\n<div class=\"_2cuy _3dgx _2vxa\">EM TODOS AS CORRIDAS FARÁ PARTE UMA CAMINHADA/CORRIDA SEM CLASSIFICAÇÃO.</div>\n<div class=\"_2cuy _3dgx _2vxa\">NO FINAL CALDO VERDE, CHOURIÇO ASSADO, FRUTA E CERVEJA.</div>\n<div class=\"_2cuy _3dgx _2vxa\">O CIRCUITO TEM A PARTICULARIDADE DOS FINISHERS EM CADA CORRIDA CONQUISTAREM UMA MEDALHA PUZZLE PARA QUE NO FINAL POSSAM CONSTITUIR UM MAGNÍFICO MEDALHÃO.</div>\n",
+  "description_short": "Circuito de corrida único com 4 provas em diferentes estações e locais, completando uma maratona e com prémios gastronómicos regionais.",
+  "page": "https://corrida4estacoesportugal.wordpress.com/",
+  "slug": "corrida-4-estacoes-coimbra-2020",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

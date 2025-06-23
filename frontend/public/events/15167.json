@@ -1,0 +1,31 @@
+{
+  "id": 15167,
+  "name": "Trail do Aqueduto 2022",
+  "location": "Paredes, Porto",
+  "coordinates": {
+    "lat": 41.2051674,
+    "lon": -8.3303867
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/15b3df7133097fd6a9527a7fed5e1cac"
+  ],
+  "start_date": "2022-11-20",
+  "end_date": "2022-11-21",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A Associação Nocturnos de Paredes é o organizador do Trail do Aqueduto 2022. O Trail, o Mini Trail e a Caminhada terão partida e chegada no Campo de Golfe do Aqueduto, freguesia de Paredes, percorrendo trilhos e caminhos do concelho de Paredes.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e caminhos do concelho de Paredes, com partida e chegada no Campo de Golfe do Aqueduto",
+  "page": "https://lap2go.com/pt/event/trail-do-aqueduto-2022",
+  "slug": "trail-do-aqueduto-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Paredes",
+  "district_code": 13
+}

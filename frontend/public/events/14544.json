@@ -1,0 +1,29 @@
+{
+  "id": 14544,
+  "name": "Trail Running Pombal Sicó 2022",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6a4c132d73160e0b36412851833fd3c7"
+  ],
+  "start_date": "2022-04-24",
+  "end_date": "2022-04-25",
+  "circuit": [],
+  "description": "\n<p>Esta é uma prova de trail que conjuga o Trail Rosa Albardeira e o Trail Curto Cidade Pombal, em duas distâncias competitivas. É uma prova inclusiva e para todos que também terá a Caminhada do Centenário SC Pombal. O dinheiro das inscrições irá reverter na sua totalidade a favor dos Bombeiros Voluntários de Pombal, para a aquisição de equipamento de proteção individual.</p>\n",
+  "description_short": "Trail solidário em Pombal com fundos para equipamento dos Bombeiros Voluntários",
+  "page": "https://lap2go.com/pt/event/trail-pombal-sico-2022",
+  "slug": "trail-running-pombal-sico-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

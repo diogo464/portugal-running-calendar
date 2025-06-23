@@ -1,0 +1,34 @@
+{
+  "id": 21917,
+  "name": "IX Trilho Dos Gatos 2023",
+  "location": "Montemor-o-Velho, Coimbra",
+  "coordinates": {
+    "lat": 40.1748245,
+    "lon": -8.6826636
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    12000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/2cf9cf71ecbf3cbf93cfa0a7b499dab6"
+  ],
+  "start_date": "2023-04-16",
+  "end_date": "2023-04-17",
+  "circuit": [],
+  "description": "\n<p>O IX TRILHO DOS GATOS &#8211; TRAIL RUNNING, é organizado pelo GATÕES BTT ,com o apoio de várias entidades de zona de Montemor-o-Velho.</p>\n\n\n\n<p><br>Este evento de Trail em estado puro será composto por:<br>Trail Curto com cerca 19 KM (prova esta que faz parte do Circuito Distrital de Trail Curto – CDTRC)<br>Mini Trail com cerca de 12 Kms<br>Caminhada com cerca 10 kms.</p>\n\n\n\n<p><br>Trata se de uma organização da equipa de BTT de Trail / GATÕES BTTcom o apoio do Municipio de Montemor-o-velho, da União de Freguesias de Montemor-o-Velho e Gatões, entre outros parceiros.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Montemor-o-Velho com diferentes percursos de trail running e caminhada",
+  "page": "https://www.runmanager.net/Eventos/ix-trilho-dos-gatos/691",
+  "slug": "ix-trilho-dos-gatos-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "União das freguesias de Montemor-o-Velho e Gatões",
+  "district_code": 6
+}

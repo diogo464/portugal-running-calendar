@@ -1,0 +1,29 @@
+{
+  "id": 1746,
+  "name": "Trail Águias de Alvelos 2020",
+  "location": "Alvelos, Braga",
+  "coordinates": {
+    "lat": 41.5046296,
+    "lon": -8.618816100000002
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ce4aab5008b92a83aaae6f43ba187362"
+  ],
+  "start_date": "2020-03-08",
+  "end_date": "2020-03-09",
+  "circuit": [],
+  "description": "<p align=\"justify\">O Trail Águias de Alvelos está de volta a 8 de março de 2020, quando te poderás sentir uma ÁGUIA na Montanha&#8230;</p>\n<p align=\"justify\">Não podes perder esta oportunidade de voar como uma ÁGUIA</p>\n",
+  "description_short": "Trail desafiante pela região de Alvelos com inspiração na temática das águias",
+  "page": "https://www.prozis.com/pt/pt/evento/trailaguias-de-alvelos-2020",
+  "slug": "trail-aguias-de-alvelos-2020",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Alvelos",
+  "district_code": 3
+}

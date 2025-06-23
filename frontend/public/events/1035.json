@@ -1,0 +1,29 @@
+{
+  "id": 1035,
+  "name": "Ultra Trail do Marão 2020",
+  "location": "Amarante Amarante, Porto",
+  "coordinates": {
+    "lat": 41.2696799,
+    "lon": -8.0817216
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/10bb167f083e18aaa3e2985d26a7f0c3"
+  ],
+  "start_date": "2020-03-28",
+  "end_date": "2020-03-29",
+  "circuit": [],
+  "description": "<p align=\"justify\">Imagine uma região no norte de Portugal. Um Reino Maravilhoso. Toda uma região com segredos bem guardados por explorar, ou não estivesse resguardada por uma cordilheira imponente – o Marão. A serra que, durante séculos, separou vincadamente toda uma região situada no interior norte de Portugal, de seu nome: Trás-os-Montes; e serviu de entrave ao seu desenvolvimento.</p>\n<p align=\"justify\">Relembram-nos a frase usada por quem aqui nasceu, Miguel Torga: “Para cá do Marão, mandam os que cá estão!”. Expressão tão apregoada por estas bandas tal a forma clara que descreve a relação isolada desta região, de características únicas em relação ao resto do país, fruto dos caprichos impostos por estas montanhas. Ora nunca se renda às dificuldades. Sonhe. Aceite o desafio. Acredite. E seja um vencedor.</p>\n",
+  "description_short": "Trail desafiante pelo território mítico de Trás-os-Montes, com a imponente serra do Marão como pano de fundo",
+  "page": "https://www.prozis.com/pt/pt/evento/ultra-trail-marao-utm-2019",
+  "slug": "ultra-trail-do-marao-2020",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Amarante",
+  "administrative_area_level_3": "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão",
+  "district_code": 13
+}

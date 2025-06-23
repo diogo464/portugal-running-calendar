@@ -1,0 +1,29 @@
+{
+  "id": 40495,
+  "name": "Ultra Skyrunning Madeira 2025",
+  "location": "Santana, Madeira",
+  "coordinates": {
+    "lat": 32.8051351,
+    "lon": -16.881891
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4e85807bfaf94c9661d22d7557b4d708"
+  ],
+  "start_date": "2025-06-13",
+  "end_date": "2025-06-14",
+  "circuit": [],
+  "description": "\n<p>Ultra Skyrunning Madeira – USM 2025 é um evento constituído por 5 provas competitivas, a realizar em semi-autonomia.</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Prova de skyrunning desafiante na ilha da Madeira com cinco corridas em regime de semi-autonomia",
+  "page": "https://stopandgo.net/events/ultra-skyrunning-madeira-2025",
+  "slug": "ultra-skyrunning-madeira-2025",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

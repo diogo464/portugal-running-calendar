@@ -1,0 +1,29 @@
+{
+  "id": 30592,
+  "name": "EDP Corrida da Mulher 2024",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/bc1f68db086a5001c24cac6abbf96368"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-20",
+  "circuit": [],
+  "description": "\n<p>Não há limites para o que as mulheres conseguem alcançar. A EDP Corrida da Mulher é muito mais que um evento desportivo, é também um hino a todas as mulheres.</p>\n\n\n\n<p>Para além do ambiente de festa que o evento proporciona, esta prova tem como objetivo apoiar e ajudar o IPO do Porto, na luta contra o cancro na mama.&nbsp;</p>\n\n\n\n<p>No dia 19 de maio, a partir das 10h00, a Alameda das Antas espera por todas as mulheres para juntas celebrarem a 18ª edição da EDP Corrida da Mulher.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida solidária no Porto em apoio à luta contra o cancro na mama, celebrando o poder e a força das mulheres",
+  "page": "https://www.runporto.com/pt/eventos/corrida-da-mulher/",
+  "slug": "corrida-da-mulher-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

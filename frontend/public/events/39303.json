@@ -1,0 +1,36 @@
+{
+  "id": 39303,
+  "name": "Corrida 4 Estações CoimbraShopping 2025",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/130a7f043c3bda62e493a0059780ae71"
+  ],
+  "start_date": "2025-02-16",
+  "end_date": "2025-02-17",
+  "circuit": [
+    "4 Estacoes"
+  ],
+  "description": "\n<p>Corrida 4 Estações CoimbraShopping está de volta para uma experiência inesquecível no dia 16 de Fevereiro.</p>\n\n\n\n<p>Com passagem pela icónica Ponte Santa Clara e pela majestosa Ponte Rainha Santa Isabel, prepara-te para cenários incríveis enquanto testas os teus limites nas provas de 10 km ou na caminhada de 5 km.</p>\n",
+  "description_short": "Corrida pelas pontes históricas de Coimbra com passagem pela Ponte Santa Clara e Ponte Rainha Santa Isabel",
+  "page": "https://corrida4estacoesportugal.wordpress.com/inscricoes-21/",
+  "slug": "corrida-4-estacoes-inverno-coimbra-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

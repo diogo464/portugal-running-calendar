@@ -1,0 +1,32 @@
+{
+  "id": 660,
+  "name": "Famalicão Night Run",
+  "location": "Vila Nova de Famalicão, Braga",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/386701f12220138443915499d36a17c1"
+  ],
+  "start_date": "2020-02-15",
+  "end_date": "2020-02-16",
+  "circuit": [],
+  "description": "<p>Esta edição pretende ser um evento nacional (limitado a 2500 inscrições) com a particularidade de ser à noite e por fornecer aos participantes um gorro com led recarregável para que todos possam percorrer os parques e ruas da cidade em segurança.</p>\n<p>Vamos aproveitar este evento para lembrar o Dia Internacional da Criança com Cancro (15 de fevereiro de 2020) e apoiar “Os Resistentes” &#8211; crianças e adolescentes do serviço de Pediatria do IPO do Porto com 1€ por inscrição.</p>\n<p>Desafia a ti mesmo e vem participar num evento noturno memorável. A correr ou a caminhar, nós iluminamos o teu caminho.</p>\n",
+  "description_short": "Corrida solidária nocturna pelo Porto com gorro led para apoiar crianças com cancro",
+  "page": "https://www.prozis.com/pt/pt/evento/famalicao-night-run-2020",
+  "slug": "famalicao-night-run",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

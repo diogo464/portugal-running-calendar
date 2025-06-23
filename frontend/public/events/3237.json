@@ -1,0 +1,35 @@
+{
+  "id": 3237,
+  "name": "São Silvestre de Coimbra 2021",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/38d57a94ac013e1383a9c332f293def1"
+  ],
+  "start_date": "2021-12-18",
+  "end_date": "2021-12-19",
+  "circuit": [],
+  "description": "\n<p>A 43ª São Silvestre de Coimbra 2021 , uma das mais antigas corridas de São Silvestre de Portugal, realiza-se no dia 18 de Dezembro de 2021, pelas 18h30.<br>Percorrendo as bonitas ruas da cidade de Coimbra, a 43ª edição conta com uma prova de cerca de 10 km e com a Caminhada de 5 km.</p>\n",
+  "description_short": "Corrida tradicional de São Silvestre pelas ruas históricas de Coimbra",
+  "page": "https://www.saosilvestredecoimbra.com/",
+  "slug": "sao-silvestre-de-coimbra-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

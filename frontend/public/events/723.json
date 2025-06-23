@@ -1,0 +1,34 @@
+{
+  "id": 723,
+  "name": "Trail Póvoa de Varzim",
+  "location": "Póvoa de Varzim, Porto",
+  "coordinates": {
+    "lat": 41.3828815,
+    "lon": -8.759989299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    17000,
+    35000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/be505de90b2c5e8362855bda2d3a46dd"
+  ],
+  "start_date": "2020-01-19",
+  "end_date": "2020-01-20",
+  "circuit": [],
+  "description": "<p align=\"justify\">O TPV &#8211; TRAIL PÓVOA DE VARZIM é um evento organizado pelo Centro Desportivo e Cultural de Navais, com o apoio da Junta da União das Freguesias de Aguçadoura e Navais e da Câmara Municipal da Póvoa de Varzim, que decorrerá no dia 19 de janeiro durante a manhã, e inclui as seguintes provas:</p>\n<p align=\"justify\">&#8211; 17Km – Trail curto</p>\n<p align=\"justify\">&#8211; 35Km – Trail longo</p>\n<p align=\"justify\">&#8211; Caminhada &#8211; 10km</p>\n<p align=\"justify\">O evento percorrerá ambiente natural, rural e urbano do norte do concelho da Póvoa de Varzim, com início no Parque Desportivo Alberto Silva, em Navais – Póvoa de Varzim.</p>\n<p align=\"justify\">Este ano fazerá parte do calendário nacional da Taça de Portugal de Trail Running.</p>\n",
+  "description_short": "Trail desafiante pelo ambiente natural e urbano do norte da Póvoa de Varzim, integrado na Taça de Portugal",
+  "page": "https://www.prozis.com/pt/pt/evento/v-trail-povoa-de-varzim",
+  "slug": "trail-povoa-de-varzim",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Póvoa de Varzim",
+  "district_code": 13
+}

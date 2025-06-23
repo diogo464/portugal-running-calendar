@@ -1,0 +1,29 @@
+{
+  "id": 17261,
+  "name": "The Madeira Ocean Trail 2022 GTWS Final",
+  "location": "Funchal, Madeira",
+  "coordinates": {
+    "lat": 32.6506129,
+    "lon": -16.9082357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6cd9b55ca25a50187ed00d228b05302c"
+  ],
+  "start_date": "2022-10-26",
+  "end_date": "2022-10-27",
+  "circuit": [],
+  "description": "\n<p>A MADEIRA OCEAN &amp; TRAILS® GTWS Final (é um evento de trilhos organizado pela APM &#8211; Associação de Promoção da Madeira e DRT &#8211; Direção Regional de Turismo (Organizador), com a colaboração do CMoF &#8211; Clube de Montanha do Funchal, que tem lugar na Ilha da Madeira, e é composto por cinco etapas.</p>\n",
+  "description_short": "Trail épico em cinco etapas pela ilha da Madeira com apoio regional de turismo",
+  "page": "https://stopandgo.net/event/?id=825",
+  "slug": "the-madeira-ocean-trail-2022-gtws-final",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

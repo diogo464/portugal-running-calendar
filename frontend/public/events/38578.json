@@ -1,0 +1,30 @@
+{
+  "id": 38578,
+  "name": "Trail Cabeços de São Miguel 2025",
+  "location": "São Miguel do Rio Torto, Santarém",
+  "coordinates": {
+    "lat": 39.4270068,
+    "lon": -8.210255199999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7cd01b38c15b8fd6d1bf601f781186a9"
+  ],
+  "start_date": "2025-02-09",
+  "end_date": "2025-02-10",
+  "circuit": [],
+  "description": "\n<p>A Casa do Povo de São Miguel do Rio Torto organiza a 2ª Edição Trail Cabeços de São Miguel, a realizar<br>no dia 9 de Fevereiro de 2025.</p>\n\n\n\n<p><br>Com a finalidade de proporcionar boas condições de participação aos atletas, o evento será limitado a<br>um total 800 participantes, no total das 4 Provas, distribuídos da seguinte forma:</p>\n\n\n\n<p><br>Trail Longo &#8211; 100 Participantes máx.<br>Trail Sprint &#8211; 300 Participantes máx.<br>Mini Trail &#8211; 200 Participantes máx.<br>Caminhada &#8211; 200 Participantes máx.</p>\n\n\n\n<p><br>O Trail Longo e o Trail Sprint integram a 2ª edição do 3 Rios Trail Trophy</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante pelos cabeços de São Miguel do Rio Torto com quatro provas diferentes",
+  "page": "https://www.trilhoperdido.com/evento/2-Trail-Cabecos-de-Sao-Miguel",
+  "slug": "trail-cabecos-de-sao-miguel-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Abrantes",
+  "administrative_area_level_3": "União das freguesias de São Miguel do Rio Torto e Rossio ao Sul do Tejo",
+  "district_code": 14
+}

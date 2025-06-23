@@ -1,0 +1,32 @@
+{
+  "id": 29645,
+  "name": "Cross Laminha 2024",
+  "location": "Cumeira, Leiria",
+  "coordinates": {
+    "lat": 39.691046,
+    "lon": -8.8026334
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    13000
+  ],
+  "types": [
+    "trail",
+    "cross-country"
+  ],
+  "images": [
+    "media/816f3de38827c39069e95c33e91e5a28"
+  ],
+  "start_date": "2024-01-14",
+  "end_date": "2024-01-15",
+  "circuit": [],
+  "description": "\n<p>A Fábrica da Igreja não Paroquial da Boieira organiza no dia 14 janeiro de  2024, pelas 10h00, a 20ª edição do CROSS LAMINHA, com percurso de cerca de 13 kms.</p>\n",
+  "description_short": "Trail desafiante na região da Boieira com 20ª edição da prova Laminha",
+  "page": "https://eventos.dreamstudio.pt/crosslaminha2024/index.php?fbclid=IwAR3Hz4yWWVDPClhj1fgAdpX1Vtk2ECldE60U8fpqIzzzn9220Sb2ASCOL2Y",
+  "slug": "cross-laminha-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

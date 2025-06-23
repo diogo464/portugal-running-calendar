@@ -1,0 +1,31 @@
+{
+  "id": 23692,
+  "name": "Mini Trail / Caminhada Solidaria 2023",
+  "location": "Gandra, Ponte de Lima",
+  "coordinates": {
+    "lat": 41.7809537,
+    "lon": -8.502332599999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8ed805f5c978884fda2dd83c04d8256e"
+  ],
+  "start_date": "2023-06-18",
+  "end_date": "2023-06-19",
+  "circuit": [],
+  "description": "\n<p>1º mini trail/ caminhada na freguesia de Gandra-Ponte de lima, o objetivo deste evento é participar por uma causa solidária, Liga Portuguesa contra o cancro, todo o lucro será revertido em favor da liga portuguesa contra o cancro, e assim junta-se o útil ao agradável ,participa e ajuda ao mesmo tempo. O percurso da caminhada e do mini trail , não são de cariz competitivo, e também é de dificuldade media/baixa, onde a passagem será pela freguesias limítrofes com paisagem sobre uma das melhores regiões de vinho verde tinto,de algumas quintas de relevância das freguesias vizinhas e claro de uma paisagem muito verde. Contamos com a vossa presença, num domingo de convívio, uns podem caminhar e outros correr.</p>\n\n\n",
+  "description_short": "Trail solidário em Gandra com vista para vinhedos e apoio à Liga Portuguesa Contra o Cancro",
+  "page": "https://www.sinctime.com/evento/150",
+  "slug": "mini-trail-caminhada-solidaria-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Gandra",
+  "district_code": 16
+}

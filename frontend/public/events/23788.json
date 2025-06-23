@@ -1,0 +1,29 @@
+{
+  "id": 23788,
+  "name": "Lynxrace Lisboa 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/9c155f4bdb5a9b73bd4bea3d5f4bd790"
+  ],
+  "start_date": "2023-06-24",
+  "end_date": "2023-06-25",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://stopandgo.net/events/lynxrace-lisboa-2023",
+  "slug": "lynxrace-lisboa-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

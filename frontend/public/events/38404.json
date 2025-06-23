@@ -1,0 +1,35 @@
+{
+  "id": 38404,
+  "name": "São Silveste Caminha 2024",
+  "location": "Caminha, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8732082,
+    "lon": -8.837845399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/dfc29c8ef4d4be185897c41aad3c00ff"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-08",
+  "circuit": [],
+  "description": "\n<p>A VI São Silvestre de Caminha, tem lugar no concelho de Caminha, em Portugal, com organização da Associação Triatlo de Caminha, em parceria com a Câmara Municipal de Caminha.</p>\n\n\n\n<p><br>Será uma corrida e uma caminhada:<br>&#8211; São Silvestre , 10 km</p>\n\n\n\n<p>-Caminhada, 5 km</p>\n\n\n\n<p></p>\n",
+  "description_short": "São Silvestre tradicional pelas ruas históricas de Caminha",
+  "page": "https://www.classificacoes.net/modalidades/atletismo/vi-sao-silvestre-de-caminha#inscriptions",
+  "slug": "sao-silveste-caminha-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Caminha (Matriz) e Vilarelho",
+  "district_code": 16
+}

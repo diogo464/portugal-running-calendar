@@ -1,0 +1,30 @@
+{
+  "id": 40045,
+  "name": "Trail Cidade de Moura &#8211; Terra do Grande Lago 2025",
+  "location": "Moura, Beja",
+  "coordinates": {
+    "lat": 38.1426988,
+    "lon": -7.4512581
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/16bfcbac539b6642ba9d8ca2ddf13a55"
+  ],
+  "start_date": "2025-04-13",
+  "end_date": "2025-04-14",
+  "circuit": [],
+  "description": "\n<p>Veio para ficar. O Trail Cidade de Moura &#8211; Terra do Grande Lago é uma das principais atividades organizada pela Casa do Benfica de Moura e volta a trazer a todos os participantes o grande espelho de água do Alqueva, em pleno Alentejo.</p>\n",
+  "description_short": "Trail desafiante pelo Alqueva com vista para o maior lago artificial da Europa",
+  "page": "https://lap2go.com/pt/event/trail-cidade-de-moura-2025",
+  "slug": "trail-cidade-de-moura-terra-do-grande-lago-2025",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "São João Baptista",
+  "district_code": 2
+}

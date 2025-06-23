@@ -1,0 +1,33 @@
+{
+  "id": 24098,
+  "name": "V Corrida Clube Millennium bcp 2023",
+  "location": "Belém, Lisboa",
+  "coordinates": {
+    "lat": 38.6991685,
+    "lon": -9.2203687
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/2b5540a908a44fb86d0aee98d86c97c3"
+  ],
+  "start_date": "2023-10-01",
+  "end_date": "2023-10-02",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;Clube Millennium BCP irá realizar a&nbsp;<strong>“V&nbsp;Corrida Clube Millennium BCP</strong>”, no dia&nbsp;<strong>01 de outubro 2023</strong>, em Belém. É um evento de natureza desportiva que tem como objetivo incentivar e consciencializar a população para a importância da prática de exercício físico, num cenário com o Rio Tejo como imagem de fundo!</p>\n",
+  "description_short": "Corrida solidária do Clube Millennium BCP em Belém com vista deslumbrante para o Tejo",
+  "page": "https://xistarca.pt/eventos/v-corrida-clube-millennium-bcp",
+  "slug": "v-corrida-clube-millennium-bcp-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

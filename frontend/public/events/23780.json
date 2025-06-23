@@ -1,0 +1,34 @@
+{
+  "id": 23780,
+  "name": "Freita Skyrunning 2023",
+  "location": "Vale de Cambra, Aveiro",
+  "coordinates": {
+    "lat": 40.8424421,
+    "lon": -8.3960727
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "trail",
+    "marathon",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/676e07e1a9e335c9913e2c7d43f15c77"
+  ],
+  "start_date": "2023-07-15",
+  "end_date": "2023-07-16",
+  "circuit": [],
+  "description": "\n<p>FREITA SKYRUNNING 2023 é uma organização da Associação Desportiva e Cultural de Felgueira, em parceria com a Câmara Municipal de Vale de Cambra e em cooperação com várias instituições públicas e privadas.</p>\n\n\n\n<p>Este regulamento aplica-se a todas as provas incluídas no evento, nomeadamente Freita SkyMarathon®, doravante designada por FSM, Freita SkyRace®, designada por FSR, Freita Vertical, designada por FVK, Freita Mini SkyRace a caminhar ou correr, FMSR.</p>\n",
+  "description_short": "Trail de montanha na Serra da Freita com várias provas organizadas pela autarquia de Vale de Cambra",
+  "page": "https://www.recordepessoal.pt/evento/freitaskyrunning2023",
+  "slug": "freita-skyrunning-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vale de Cambra",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

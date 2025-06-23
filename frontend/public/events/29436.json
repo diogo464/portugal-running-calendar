@@ -1,0 +1,34 @@
+{
+  "id": 29436,
+  "name": "Trail do Sarilho 2023",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/fe53b5de6f304247ae529ae63eea7508"
+  ],
+  "start_date": "2023-12-10",
+  "end_date": "2023-12-11",
+  "circuit": [],
+  "description": "\n<p>A Secção de Ar Livre e Aventura da Associação de Solidariedade Social Sociedade Columbófila Cantanhedense (ASSSCC), com o apoio do Município de Cantanhede e outros parceiros, vai realizar no próximo dia 10 de dezembro de 2023, o Trail do Sarilho &#8211; Cantanhede &#8211; 2023.</p>\n\n\n\n<p><br>O evento será, desportivamente, composto pelas seguintes provas:<br>Trail Curto K19 (19 Km )<br>Mini Trail K12 (12 Km)<br>Caminhada (12 Km)</p>\n\n\n\n<p>As provas irão percorrer caminhos de vinhas, floresta e &#8220;Horst&#8221; de Cantanhede, com início e fim no Pavilhão Marialvas, em Cantanhede. A prova Trail Curto Kl9 fará parte do CDTRC (Circuito Distrital de Trail Running de Coimbra) (ADAC).</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail do Sarilho atravessa vinhas e florestas de Cantanhede com partida e chegada no Pavilhão Marialvas",
+  "page": "https://www.runmanager.net/Eventos/trail-do-sarilho/774",
+  "slug": "trail-do-sarilho-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

@@ -1,0 +1,32 @@
+{
+  "id": 17740,
+  "name": "27ª Dupla-Légua De Vermoil 2022",
+  "location": "Vermoil, Pombal",
+  "coordinates": {
+    "lat": 39.84777040000001,
+    "lon": -8.6590404
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/9fc4eef3ab493455e7d42e8e35a7c6ac"
+  ],
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-07",
+  "circuit": [],
+  "description": "\n<p>O <strong>ATLÉTICO CLUBE DE VERMOIL </strong>leva a efeito no dia <strong>06</strong> de <strong>novembro</strong> de <strong>2022</strong>, pelas <strong>09:30</strong> horas, uma prova de estrada denominada “<strong>27ª DUPLA-LÉGUA DE VERMOIL”.</strong></p>\n",
+  "description_short": "Corrida tradicional de estrada no Vermoil com 27ª edição num domingo de novembro",
+  "page": "https://www.recordepessoal.pt/evento/27duplalguadevermoil",
+  "slug": "27a-dupla-legua-de-vermoil-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Vermoil",
+  "district_code": 10
+}

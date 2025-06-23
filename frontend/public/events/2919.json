@@ -1,0 +1,34 @@
+{
+  "id": 2919,
+  "name": "Trilhos das Dores 2021",
+  "location": "Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    17000,
+    27000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bf209a72457c8d5aebcafea131b526c6"
+  ],
+  "start_date": "2021-09-19",
+  "end_date": "2021-09-20",
+  "circuit": [],
+  "description": "\n<p>A VII Edição do Trilho das Dores é uma Co-organização entre a Equipa Trilho Perdido Eventos / Imporlux, Câmara Municipal de Santarém, Centro de Convívio Cultura e Desporto de Abitureiras e a empresa de Cronomentragens e Organização de Eventos Desportivos “Trilho Perdido”, com o apoio da Junta de Freguesia de Abitureiras e de várias entidades.</p>\n\n\n\n<p>Será constituído por três provas de carácter competitivo: “Trail Longo – K27”, “Trail Curto – K17”, “Mini-Trail – K10” para além de uma Caminhada de aproximadamente 10Kms.</p>\n",
+  "description_short": "Trail das Dores em Santarém com diferentes percursos numa organização colaborativa local",
+  "page": "https://www.facebook.com/trilhodasdores",
+  "slug": "trilhos-das-dores-2021",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

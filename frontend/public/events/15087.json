@@ -1,0 +1,34 @@
+{
+  "id": 15087,
+  "name": "Meia Maratona de Montejunto 2022",
+  "location": "Montejunto, Cadaval",
+  "coordinates": {
+    "lat": 39.2395487,
+    "lon": -9.102103099999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/31dbd8efe4404845c7bdad44bfeb723d"
+  ],
+  "start_date": "2022-10-05",
+  "end_date": "2022-10-06",
+  "circuit": [],
+  "description": "\n<p>&nbsp;Esta prova, Meia Maratona de Montejunto 2022, realiza-se em estradas, mas de montanha. Apesar de ser realizada em percurso asfaltado, pavimentado e por estradões de terra batida, não pretende ser uma prova em que o atleta corre geralmente para o cronómetro comparando-o com outras da mesma distância. Esta também não é uma prova de trail, pois não se desenrola em trilhos de montanha.</p>\n\n\n\n<p>Esta prova desenrola-se na área de paisagem protegida da Serra de&nbsp; Montejunto, devendo todos os participantes respeitar as normas do evento .</p>\n",
+  "description_short": "Meia maratona desafiante pela paisagem protegida da Serra de Montejunto, com percurso variado entre asfalto e estradões de terra",
+  "page": "https://www.turresevents.com/eventos/sky-marathon-montejunto-2022",
+  "slug": "meia-maratona-de-montejunto-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cadaval",
+  "administrative_area_level_3": "União das freguesias do Cadaval e Pêro Moniz",
+  "district_code": 11
+}

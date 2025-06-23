@@ -1,0 +1,35 @@
+{
+  "id": 15512,
+  "name": "Povoação Trail 2023",
+  "location": "Povoação, Açores",
+  "coordinates": {
+    "lat": 37.7486524,
+    "lon": -25.2390903
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    11000,
+    24000,
+    50000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b56ef385e5c877b99bc0f14d5f004e8f"
+  ],
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A equipa HL Runners Club em parceria com a Câmara Municipal da Povoação irá realizar no dia 12/03/2023 a 3.ª Edição do Povoação Trail.</p>\n\n\n\n<p>O “Povoação Trail” é um evento de Trail Running, que percorre trilhos e caminhos no concelho mais lindo dos Açores, enquadrado nas vertentes de Trail Ultra (50 kms), Trail Longo (24kms), Caminhada (11 kms).</p>\n\n\n\n<p>A Povoação é uma Vila da Ilha de São Miguel – Açores, que foi elevada a concelho a 3 de julho de 1839. Foi nesta vila que desembarcaram os primeiros povoadores da ilha de São Miguel, sendo conhecido como o concelho mais bonito dos Açores e é isso mesmo que queremos propor aos atletas que venham a participar nesta prova, que venham apreciar e percorrer os mais bonitos trilhos dos Açores, em ambiente de festa e boa disposição.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos mais bonitos da Povoação, em São Miguel - Açores",
+  "page": "https://meutempo.pt/prova?povoacao2023",
+  "slug": "povoacao-trail-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Povoação",
+  "administrative_area_level_3": "Povoação",
+  "district_code": 20
+}

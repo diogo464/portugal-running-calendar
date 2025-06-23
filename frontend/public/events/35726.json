@@ -1,0 +1,29 @@
+{
+  "id": 35726,
+  "name": "Corrida da Baía de Monte Gordo 2024",
+  "location": "Monte Gordo, Vila Real de Santo António",
+  "coordinates": {
+    "lat": 37.1825903,
+    "lon": -7.4520212
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/78341bcc1856a08c247fd6e3302a7c36"
+  ],
+  "start_date": "2024-08-04",
+  "end_date": "2024-08-05",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo Pic-Nic, em coorganização com a Câmara Municipal de Vila Real de Santo António e da Câmara Municipal de Castro Marim e a colaboração da Associação de Atletismo do Algarve e da Autoridade Marítima Nacional, irá levar a efeito no próximo dia 4 de agosto de 2024, pelas 9.30 horas, uma prova atletismo, denominada “25ª Corrida da Baía de Monte Gordo”.</p>\n\n\n",
+  "description_short": "Corrida costeira no Algarve a ligar Vila Real de Santo António e Castro Marim",
+  "page": "https://www.crono.aaalgarve.org/eventos/25-corrida-da-baia-de-monte-gordo",
+  "slug": "corrida-da-baia-de-monte-gordo-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Vila Real de Santo António",
+  "administrative_area_level_3": "Monte Gordo",
+  "district_code": 8
+}

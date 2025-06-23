@@ -1,0 +1,36 @@
+{
+  "id": 20134,
+  "name": "Summer Run Coimbra 2023",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    21097,
+    42195
+  ],
+  "types": [
+    "run",
+    "10k",
+    "marathon",
+    "half-marathon"
+  ],
+  "images": [
+    "media/3243095b19b29ac654d227739072280b"
+  ],
+  "start_date": "2023-06-08",
+  "end_date": "2023-06-09",
+  "circuit": [],
+  "description": "\n<p>10km, Meia Maratona e Maratona!</p>\n\n\n\n<p><a></a>Ofertas: kit Atleta (Inclui mochila Mesh String), Kit Finisher, Fan Zone, Abastecimentos sub-zero e uma festa no Recovery !!!</p>\n",
+  "description_short": "Corrida com três distâncias e ambiente festivo no Recovery",
+  "page": "https://multisport.pt/",
+  "slug": "summer-run-coimbra-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

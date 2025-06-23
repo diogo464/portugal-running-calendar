@@ -1,0 +1,30 @@
+{
+  "id": 35362,
+  "name": "Grande Prémio Atletismo &#8211; Feira de S. Pedro 2024",
+  "location": "Chamusca, Santarém",
+  "coordinates": {
+    "lat": 39.3564086,
+    "lon": -8.4786825
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/72831ce4927fe545641d4482392ff6c6"
+  ],
+  "start_date": "2024-06-30",
+  "end_date": "2024-07-01",
+  "circuit": [],
+  "description": "\n<p> <strong>União de Freguesias da Parreira e do Chouto e a Câmara Municipal da Chamusca </strong>organizam uma prova de Atletismo denominada <strong>38.º GRANDE PRÉMIO ATLETISMO &#8211; FEIRA DE S. PEDRO</strong>, para ser realizada no Chouto, no dia <strong>30 de Junho</strong> do corrente ano, a partir das <strong>09:30 horas.</strong></p>\n\n\n",
+  "description_short": "Prova de atletismo tradicional na vila do Chouto durante a Feira de São Pedro",
+  "page": "https://www.recordepessoal.pt/evento/38grandepremioatletismo-feiradespedro",
+  "slug": "grande-premio-atletismo-feira-de-s-pedro-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Chamusca",
+  "administrative_area_level_3": "União das freguesias da Chamusca e Pinheiro Grande",
+  "district_code": 14
+}

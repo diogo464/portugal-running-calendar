@@ -1,0 +1,31 @@
+{
+  "id": 3074,
+  "name": "Trail Running Desafio 5 Cumes 2021",
+  "location": "Malveira da Serra Serra, Cascais, Lisboa",
+  "coordinates": {
+    "lat": 38.7537142,
+    "lon": -9.4464594
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/c2969fd3999937ff79161ebf34e34c17"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<p><strong>Localidade:</strong><br>Parque Eólico de Igreja Nova (Serra do Funchal &#8211;&nbsp;Malveira /&nbsp;Mafra)</p>\n\n\n\n<p>Coordenadas GPS: 38.940628731605756, -9.294328409543786<br><br><br><strong>Organização:</strong><br>Trilho Perdido Eventos e Trail4U<br>Apoio da União das Freguesias de Malveira e São Miguel de Alcainça e outras associações da região</p>\n",
+  "description_short": "Trail desafiante pelo Parque Eólico de Igreja Nova na Serra do Funchal",
+  "page": "https://www.trilhoperdido.com/evento/Desafio-5-Cumes-2021",
+  "slug": "trail-running-desafio-5-cumes-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "Alcabideche",
+  "district_code": 11
+}

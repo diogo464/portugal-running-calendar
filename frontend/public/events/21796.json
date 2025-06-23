@@ -1,0 +1,30 @@
+{
+  "id": 21796,
+  "name": "Trail Terras De Oiã 2023",
+  "location": "Oia, Oliveira do Bairro Oiã,",
+  "coordinates": {
+    "lat": 40.530151,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/cb7c9ca4752cb8f91a0a9a942c6bb03e"
+  ],
+  "start_date": "2023-07-30",
+  "end_date": "2023-07-31",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://meutempo.pt/prova?trail-terras-oia-2023",
+  "slug": "trail-terras-de-oia-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira do Bairro",
+  "administrative_area_level_3": "Oiã",
+  "district_code": 1
+}

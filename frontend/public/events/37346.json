@@ -1,0 +1,31 @@
+{
+  "id": 37346,
+  "name": "Ninja Ocr Police 2024",
+  "location": "Oeiras, Lisboa",
+  "coordinates": {
+    "lat": 38.69686069999999,
+    "lon": -9.314601399999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    100
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/9dd2f08398acde4a86073f4117fb3c8c"
+  ],
+  "start_date": "2024-10-12",
+  "end_date": "2024-10-13",
+  "circuit": [],
+  "description": "\n<p>Uma pista com aproximadamente 100 metros e dezenas de obstáculos técnicos, sem grande exigência de corrida.</p>\n\n\n\n<p>O evento decorrerá&nbsp;durante&nbsp;todo o dia, com sessões de treino e fases de qualificação até&nbsp;à&nbsp;final, em ambiente noturno.</p>\n\n\n\n<p>O evento permite a participação de 120 atletas.</p>\n\n\n",
+  "description_short": "Pista de obstáculos urbana com provas diurnas e finais nocturnas",
+  "page": "https://waitastart.com/ninja-ocr-police-oeiras-24/",
+  "slug": "ninja-ocr-police-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+  "district_code": 11
+}

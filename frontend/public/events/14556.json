@@ -1,0 +1,32 @@
+{
+  "id": 14556,
+  "name": "20 Kms de Almeirim 2022",
+  "location": "Almeirim, Santarém",
+  "coordinates": {
+    "lat": 39.2075098,
+    "lon": -8.6270969
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/80eeb24ab9bb91664af7a1db361e42b4"
+  ],
+  "start_date": "2022-10-30",
+  "end_date": "2022-10-31",
+  "circuit": [],
+  "description": "\n<p>A Associação 20 Kms de Almeirim 2022 voltará a organizar a clássica &#8220;20 Km de Almeirim&#8221;, em simultâneo com a prova de 10 quilómetros, em circuito urbano.</p>\n",
+  "description_short": "Corrida clássica em circuito urbano pela cidade de Almeirim",
+  "page": "https://lap2go.com/pt/event/20-km-de-almeirim-2022",
+  "slug": "20-kms-de-almeirim-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Almeirim",
+  "administrative_area_level_3": "Almeirim",
+  "district_code": 14
+}

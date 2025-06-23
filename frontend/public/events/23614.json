@@ -1,0 +1,37 @@
+{
+  "id": 23614,
+  "name": "5ª edição do Grande Prémio da Cortiçada 2023",
+  "location": "Proença a Nova, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    400,
+    1000,
+    2000,
+    3000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/4b656ba317b0bce247a2aeb1cbd10ed6"
+  ],
+  "start_date": "2023-04-16",
+  "end_date": "2023-04-17",
+  "circuit": [],
+  "description": "\n<p>As inscrições para disputar o Grande Prémio da Cortiçada, que se realiza a 16 de abril, já se encontram abertas e podem ser formalizadas até dia 12 para o email <a href=\"mailto:desporto@cm-proencanova.pt\">desporto@cm-proencanova.pt</a> ou para <a href=\"mailto:cbranco@fpatletismo.org\">cbranco@fpatletismo.org</a>.</p>\n\n\n\n<p>Organizada pelo Município de Proença-a-Nova, em parceria com o Núcleo da Juventude do Concelho de Proença-a-Nova (NJCPN), a 5ª edição desta prova de atletismo é aberta a todos os atletas e clubes federados, não federados, populares, associações, grupos de amigos e outras entidades e está disponível nos seguintes escalões: benjamins (2012 e posteriores – distância de 400 metros), infantis (2010 e 2011 – distância de um quilómetro), iniciados (2008 e 2009 – distância de dois quilómetros), juvenis (2006 e 2007 – distância de três quilómetros) e juniores, seniores e veteranos (distância de 10 quilómetros).</p>\n\n\n\n<p>A prova realiza-se em Proença-a-Nova, no dia 16 de abril de 2023, a partir das 09H30, com concentração no Parque Urbano Comendador João Martins e conta com o apoio técnico da Associação de Atletismo de Castelo Branco e do Grupo de Desporto do Município de Proença-a-Nova. O regulamento da prova pode ser consultado aqui</p>\n\n\n",
+  "description_short": "Corrida de atletismo em Proença-a-Nova com várias categorias etárias e percursos no Parque Urbano Comendador João Martins",
+  "page": "https://www.cm-proencanova.pt/Municipio/Destaque/inscricoes-abertas-para-a-5-edicao-do-grande-premio-da-corticada/7234",
+  "slug": "5a-edicao-do-grande-premio-da-corticada-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

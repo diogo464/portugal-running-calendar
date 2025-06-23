@@ -1,0 +1,32 @@
+{
+  "id": 24226,
+  "name": "Corrida De Homenagem A Jose Magalhães &#8211; Vilar Do Torno 2023",
+  "location": "Vilar do Torno e Alentém, Lousada",
+  "coordinates": {
+    "lat": 41.2778714,
+    "lon": -8.2815432
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/16f2d230ce799e7ec22b959cc7045255"
+  ],
+  "start_date": "2023-10-01",
+  "end_date": "2023-10-02",
+  "circuit": [],
+  "description": "\n<p>Realiza-se  com partida e chegada no Parque de Vilar do Torno – Lousada, a Corrida de Homenagem a José Magalhães – Vilar do Torno e Alentém, com distância de 10.000 metros.</p>\n\n\n",
+  "description_short": "Corrida de homenagem com arranque e meta em Lousada sobre os caminhos locais de José Magalhães",
+  "page": "https://www.queroir.pt/corrida-de-homenagem-a-jose-magalhaes---vilar-do-torno-e-alentem---lousada-1",
+  "slug": "corrida-de-homenagem-a-jose-magalhaes-vilar-do-torno-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Lousada",
+  "administrative_area_level_3": "União das freguesias de Cristelos, Boim e Ordem",
+  "district_code": 13
+}

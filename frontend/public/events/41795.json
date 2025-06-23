@@ -1,0 +1,34 @@
+{
+  "id": 41795,
+  "name": "Trilhos Moinhos da Gândara 2025",
+  "location": "Moinhos da Gândara, Figueira Foz",
+  "coordinates": {
+    "lat": 40.1855874,
+    "lon": -8.7916271
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    8000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/e4283c7cb32943bf423b809825282adb"
+  ],
+  "start_date": "2025-06-07",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p><strong>Organização:</strong>&nbsp;Junta de Freguesia de Moinhos da Gândara, com apoio de associações locais, entidades e empresas.</p>\n\n\n\n<p><strong>Localização:</strong>&nbsp;Percursos maioritariamente na freguesia de Moinhos da Gândara.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Provas</h3>\n\n\n\n<p>Caminhada (~8 km)</p>\n\n\n\n<p>Trilho (~15 km) – Dificuldade moderada</p>\n",
+  "description_short": "Trail desafiante na região de Moinhos da Gândara com apoio da junta de freguesia local",
+  "page": "https://www.runmanager.net/Eventos/trilhos-moinhos-da-g-ndara-2025/933",
+  "slug": "trilhos-moinhos-da-gandara-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": "Alhadas",
+  "district_code": 6
+}

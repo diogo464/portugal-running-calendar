@@ -1,0 +1,34 @@
+{
+  "id": 14483,
+  "name": "Corrida Fernanda Ribeiro 2022",
+  "location": "Maia, Porto",
+  "coordinates": {
+    "lat": 41.2326543,
+    "lon": -8.622938699999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/6b2b75883cdc58a83298de83a7680120"
+  ],
+  "start_date": "2022-05-15",
+  "end_date": "2022-05-16",
+  "circuit": [],
+  "description": "\n<p>A cidade da Maia recebe no dia 15 de Maio de 2022, a 8ª edição Corrida Fernanda Ribeiro, uma organização da EventSport e Academia Fernanda Ribeiro com o apoio da Câmara Municipal da Maia.</p>\n\n\n\n<p>Depois de uma 7ª edição extraordinária, que ficou marcada por milhares de atletas a correr e a caminhar por um percurso citadino exemplar, a Corrida de 10 Km (10h00) e a Caminhada de 4 Km (09h00) teve como pano de fundo a cidade da Maia, um dos municípios mais avançados do país, com um papel fundamental na indústria, inovação, novas tecnologias e no desporto, sendo um modelo exemplar de desenvolvimento económico, ambiental e desportivo.</p>\n",
+  "description_short": "Corrida citadina na Maia homenageando a atleta olímpica Fernanda Ribeiro",
+  "page": "https://8corridafernandaribeiro.eventsport.net/",
+  "slug": "corrida-fernanda-ribeiro-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Maia",
+  "administrative_area_level_3": "Cidade da Maia",
+  "district_code": 13
+}

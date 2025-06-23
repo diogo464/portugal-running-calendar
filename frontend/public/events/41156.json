@@ -1,0 +1,30 @@
+{
+  "id": 41156,
+  "name": "Corrida 1º de Maio &#8211; Covilhã 2025",
+  "location": "Covilhã, Castelo Branco",
+  "coordinates": {
+    "lat": 40.2805633,
+    "lon": -7.504327199999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/69758968fba46b6df5e8aa622a1f9f64"
+  ],
+  "start_date": "2025-05-01",
+  "end_date": "2025-05-01",
+  "circuit": [],
+  "description": "\n<p>Umas das provas mais antigas da região vai novamente para a estrada no dia do trabalhador.</p>\n\n\n\n<p>Um evento que leva todos os anos, para as principais artérias da cidade da Covilhã, cerca de meio milhar de pessoas, a correr ou a caminhar com a habitual &#8220;Marcha do Trabalhador&#8221;.</p>\n\n\n\n<p>Vai ainda contar com a corrida de cadeira de rodas, uma vertente única na nossa região.</p>\n\n\n",
+  "description_short": "Corrida tradicional do 1º de Maio na Covilhã com participação inclusiva em cadeira de rodas",
+  "page": "https://meutempo.pt/prova?corrida1demaiocovilha25",
+  "slug": "corrida-1o-de-maio-covilha-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "São Martinho",
+  "district_code": 5
+}

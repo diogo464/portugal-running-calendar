@@ -1,0 +1,34 @@
+{
+  "id": 39670,
+  "name": "Volta a Silgueiros 2025",
+  "location": "Silgueiros, Viseu",
+  "coordinates": {
+    "lat": 40.5578422,
+    "lon": -7.9583908
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    5000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids"
+  ],
+  "images": [
+    "media/e69cb43e2cbc8a2bdd9cffd44579ed43"
+  ],
+  "start_date": "2025-11-16",
+  "end_date": "2025-11-17",
+  "circuit": [],
+  "description": "\n<p>A Volta a Silgueiros, é uma “corrida mítica de estrada, no Berço do Dão”, uma organização da Associação Social, Desportiva, Cultural e Recreativa de Silgueiros, que termina um ALMOÇO convívio com TODOS os atletas, amigos e familiares, uma cortesia da organização.</p>\n\n\n\n<p>O principal objetivos é proporcionar momentos de lazer e convívio, numa mistura de conceitos, a sabedoria do BEM RECEBER de uma Aldeia, com excelentes costumes e tradições.</p>\n\n\n\n<p>O evento conta com 3 segmentos:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Corrida 15K (prova principal)</li>\n\n\n\n<li>Competição Jovem</li>\n\n\n\n<li>Caminhada/corrida 5k</li>\n</ul>\n",
+  "description_short": "Corrida tradicional em Silgueiros com ambiente festivo e convívio no Berço do Dão",
+  "page": "https://nativewarriors.pt/evento/33a-volta-a-silgueiros-2025/",
+  "slug": "volta-a-silgueiros-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Silgueiros",
+  "district_code": 18
+}

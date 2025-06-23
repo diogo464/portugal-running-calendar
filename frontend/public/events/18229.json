@@ -1,0 +1,29 @@
+{
+  "id": 18229,
+  "name": "Vadia Sky Race 2022",
+  "location": "Ossela, Oliveira de Azeméis",
+  "coordinates": {
+    "lat": 40.8279107,
+    "lon": -8.4322377
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ccf4715a293fce1c820e39e0f5221d17"
+  ],
+  "start_date": "2022-09-18",
+  "end_date": "2022-09-19",
+  "circuit": [],
+  "description": "\n\n\n<p>Os participantes do Vadia Sky Race terão oportunidade de correr na área patrimonial natural do municipio de Oliveira de Azeméis , por trilhos inóspitos, rochosos, levadas e margens do Rio do Caima e Rio Antuã e Mirador Sete Cidades situados entre o maciço da Serra da Freita e o Oceano Atlantico.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante por trilhos rochosos entre a Serra da Freita e o Atlântico em Oliveira de Azeméis",
+  "page": "https://lap2go.com/pt/event/vadia-skyrace-2022",
+  "slug": "vadia-sky-race-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "Ossela",
+  "district_code": 1
+}

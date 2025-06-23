@@ -1,0 +1,35 @@
+{
+  "id": 38512,
+  "name": "Corrida do Benfica 2025",
+  "location": "Avenida Machado Santos, Lisboa",
+  "coordinates": {
+    "lat": 38.7534037,
+    "lon": -9.1821887
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    3000,
+    5300,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/b11730a57dac5843fbb752bb563d5941"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-24",
+  "circuit": [],
+  "description": "\n<p>A 16ª Corrida do Benfica António Leitão terá um percurso com 10 km. Esta prova será ainda composta pela Caminhada António Leitão que terá um percurso aproximado de 5.3 km. Chegadas na Praça do Centenário.</p>\n",
+  "description_short": "Corrida urbana em homenagem a António Leitão pelo coração de Lisboa",
+  "page": "https://lap2go.com/pt/event/corrida-do-benfica-2025",
+  "slug": "corrida-do-benfica-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "São Domingos de Benfica",
+  "district_code": 11
+}

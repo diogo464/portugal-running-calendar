@@ -1,0 +1,29 @@
+{
+  "id": 759,
+  "name": "Trail do Porto Moniz 2020",
+  "location": "Porto Moniz Moniz, Funchal, Madeira",
+  "coordinates": {
+    "lat": 32.6506129,
+    "lon": -16.9082357
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3c46d55154cf6fb7f2004e6a56a51398"
+  ],
+  "start_date": "2020-02-09",
+  "end_date": "2020-02-10",
+  "circuit": [],
+  "description": "<p>O Clube de Montanha do Funchal organiza no dia 09 de fevereiro de 2020, o Trail do Porto do Moniz.<br />\nUma prova de trail-running integrada no Circuito Nacional de Trail-Running 2019/2020 da ATRP – Associação de Trail-Running de Portugal e no Circuito Trail Madeira 2019/2020 da AARAM – Associação de Atletismo da RAM.<br />\nQueremos, com este evento, proporcionar-te uma incursão pela belíssima mancha verde do concelho do Porto Moniz, através de um percurso diversificado, desenhado maioritariamente por veredas, levadas, caminhos florestais e outros acessos de montanha.</p>\n<p>É um evento desportivo que concilia as vertentes lazer e competição, com paisagens de cortar a respiração, que não vais querer perder!</p>\n",
+  "description_short": "Trail desafiante pelas levadas e veredas verdes do Porto Moniz na Madeira",
+  "page": "https://in.madeiraultratrail.info/instrail/index.php/events/show/108/Trail-do-Porto-Moniz-2020",
+  "slug": "trail-do-porto-moniz-2020",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

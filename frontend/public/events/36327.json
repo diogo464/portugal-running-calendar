@@ -1,0 +1,32 @@
+{
+  "id": 36327,
+  "name": "Milha da Cegonha 2024",
+  "location": "Lourinhã, Lisboa",
+  "coordinates": {
+    "lat": 39.2425234,
+    "lon": -9.3132718
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "Milha"
+  ],
+  "images": [
+    "media/03fa9aeb03d7de0e61dc9e7899d7adad"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-20",
+  "circuit": [],
+  "description": "\n<p>A Milha da cegonha vai-se realizar no dia 20 de Outubro, com medição feita pela Federação.</p>\n\n\n",
+  "description_short": "Milha tradicional com cronometragem oficial da Federação em Outubro",
+  "page": "https://competicoes.aalisboa.com.pt/Competicoes/592",
+  "slug": "milha-da-cegonha-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de Lourinhã e Atalaia",
+  "district_code": 11
+}

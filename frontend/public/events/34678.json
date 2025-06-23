@@ -1,0 +1,36 @@
+{
+  "id": 34678,
+  "name": "Corrida dos Cravos 2024",
+  "location": "Alcáçovas, Évora",
+  "coordinates": {
+    "lat": 38.3921304,
+    "lon": -8.153597699999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    3000,
+    3300,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "relay",
+    "kids"
+  ],
+  "images": [
+    "media/e6b40cfec9f4c5a3540cfc6a294f0d99"
+  ],
+  "start_date": "2024-04-21",
+  "end_date": "2024-04-21",
+  "circuit": [],
+  "description": "\n<p>A corrida dos Cravos – formato estafetas é organizada pela Junta de Freguesia das Alcáçovas, em<br>parceria com o Sport Clube Alcaçovense (SCA). Realiza-se no dia 21 de abril de 2024, com inicio às 10h,<br>em Alcáçovas e será constituída por uma corrida em formato estafetas 3&#215;3, com um total de 10km.<br>Cada equipa será constituída por 3 elementos e cada elemento percorrerá uma volta ao percurso com<br>uma distância aproximada de 3,3km perfazendo um total de 10km.</p>\n\n\n",
+  "description_short": "Corrida dos Cravos em estafetas pela vila de Alcáçovas com equipas de três elementos",
+  "page": "https://acorrer.pt/eventos/info/3506",
+  "slug": "corrida-dos-cravos-2024",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Viana do Alentejo",
+  "administrative_area_level_3": "Alcáçovas",
+  "district_code": 7
+}

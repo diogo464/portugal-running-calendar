@@ -1,0 +1,35 @@
+{
+  "id": 33680,
+  "name": "Queiriga Trail 2024",
+  "location": "Queiriga, Viseu",
+  "coordinates": {
+    "lat": 40.8043546,
+    "lon": -7.746682799999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    12000,
+    23000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6cdcbcfb33016a8c42ee4c54ceaa8e53"
+  ],
+  "start_date": "2024-04-07",
+  "end_date": "2024-04-08",
+  "circuit": [],
+  "description": "\n<p>O evento é composto por três percursos e realiza-se no dia 7 de Abril de 2024:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Curto de 23 km, com aproximadamente 900 D+;</li>\n\n\n\n<li>Mini Trail 12 km, com aproximadamente 350 D+;</li>\n\n\n\n<li>Caminhada 8 km ou 12Km, com percurso igual ao Mini Trail 12 km.</li>\n</ul>\n",
+  "description_short": "Trail desafiante com múltiplas opções de percurso na Serra",
+  "page": "https://acorrer.pt/eventos/info/3411",
+  "slug": "queiriga-trail-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vila Nova de Paiva",
+  "administrative_area_level_3": "Queiriga",
+  "district_code": 18
+}

@@ -1,0 +1,38 @@
+{
+  "id": 39874,
+  "name": "Trail da Cereja 2025",
+  "location": "Fundão, Castelo Branco",
+  "coordinates": {
+    "lat": 40.137963,
+    "lon": -7.501077299999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000,
+    12000,
+    17000,
+    32000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0e46d6e813ae4b2d409ad87c73ff1754"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>TCF32K / TCF17K / TCF12K / Caminhada 10K</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de trail com várias distâncias a partir de 12 quilómetros",
+  "page": null,
+  "slug": "trail-da-cereja-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Fundão",
+  "administrative_area_level_3": "União das freguesias de Fundão, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo",
+  "district_code": 5
+}

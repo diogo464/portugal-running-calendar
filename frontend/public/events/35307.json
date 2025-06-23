@@ -1,0 +1,30 @@
+{
+  "id": 35307,
+  "name": "Trail Trilhos de Tarrio 2024",
+  "location": "Mouquim, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.43541039999999,
+    "lon": -8.528270899999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/db34be13cbfb371aae298e3711bbbc6f"
+  ],
+  "start_date": "2024-06-08",
+  "end_date": "2024-06-08",
+  "circuit": [],
+  "description": "\n<p>Trail trilhos de Tarrio Doutor Finanças é maioritariamente em terreno privado e em terra, prova a contar para o campeonato de Famalicão de Trail .</p>\n\n\n\n<p>Trail Curto</p>\n\n\n",
+  "description_short": "Trail técnico por propriedades privadas em Famalicão, a contar para o campeonato local",
+  "page": "https://www.sinctime.com/evento/250",
+  "slug": "trail-trilhos-de-tarrio-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Mouquim",
+  "district_code": 3
+}

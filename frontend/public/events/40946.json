@@ -1,0 +1,34 @@
+{
+  "id": 40946,
+  "name": "Vagueira Ria Race 2025",
+  "location": "Gafanha Da Boa Hora, Vagos da",
+  "coordinates": {
+    "lat": 40.548761,
+    "lon": -8.7572321
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/f40f4bbb6cba551e459939ba1685044d"
+  ],
+  "start_date": "2025-06-15",
+  "end_date": "2025-06-16",
+  "circuit": [],
+  "description": "\n<p>A VII Vagueira Ria Race, é organizado pela Always Young ADRC (Associação Desportiva, Recreativa e<br>Cultural da Gafanha da Boa Hora) em parceria com a Câmara Municipal de Vagos.</p>\n\n\n\n<p>A prova (corrida; caminhada; KIDS RACE) será composta por circuitos distintos, ambos com chegada no<br>Largo Parracho Branco-Vagueira.<br>A corrida, partirá do centro da Zona Industrial de Vagos, junto ao Edifício sede do Neva.<br>A caminhada, partirá do Largo Parracho Branco-Vagueira.<br>A KIDSRACE, partirá do Largo Parracho Branco-Vagueira</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida na região da Ria de Aveiro com diferentes percursos para atletas e famílias em Vagos",
+  "page": "https://www.runmanager.net/Eventos/vii-vagueira-ria-race/910",
+  "slug": "vagueira-ria-race-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Vagos",
+  "administrative_area_level_3": "Gafanha da Boa Hora",
+  "district_code": 1
+}

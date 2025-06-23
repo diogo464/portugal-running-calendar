@@ -1,0 +1,35 @@
+{
+  "id": 40483,
+  "name": "Trail dos Ceboleiros 2025",
+  "location": "Monte Redondo, Leiria",
+  "coordinates": {
+    "lat": 39.8956145,
+    "lon": -8.8319754
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    12000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f2003b2c1f70b4fd2f2b37de7e06de6d"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>Associação Cultural Recreativa Desportiva e Cooperativa da Sismaria&nbsp;</strong>realizará no dia&nbsp;<strong>08 de junho de 2025</strong>&nbsp;a&nbsp;<strong>segunda edição do Trail dos Ceboleiros da Sismaria</strong>. Uma prova de Trail (aproximadamente 20 km) que percorrerá percursos e trilhos na freguesia de Monte Redondo e Carreira, concelho e distrito de Leiria. Para além, da prova de Trail haverá um mini Trail (aproximadamente 12 km). E também uma caminha com cerca de 10 km, não será cronometrada nem terá caráter competitivo.</p>\n\n\n\n<p>A concentração, partida dos dois trails, será junto ao complexo desportivo D. Marquinhas da Silva, a partida da caminhada e chegada das provas e da caminhada será junto à sede da ACRDC Sismaria. Ao longo do percurso os participantes passarão em antigos caminhos de rega, caminhos rurais e trilhos preparados especialmente para este evento.</p>\n\n\n",
+  "description_short": "Trail dos Ceboleiros da Sismaria com percursos por caminhos tradicionais em Monte Redondo e Carreira",
+  "page": "https://www.recordepessoal.pt/evento/2traildosceboleiros2025",
+  "slug": "trail-dos-ceboleiros-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das freguesias de Monte Redondo e Carreira",
+  "district_code": 10
+}

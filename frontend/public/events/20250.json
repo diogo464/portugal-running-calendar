@@ -1,0 +1,30 @@
+{
+  "id": 20250,
+  "name": "Trilhos Do Nabão &#8211; Corrida Das Bruxas 2022",
+  "location": "Linhaceira, Tomar",
+  "coordinates": {
+    "lat": 39.5207915,
+    "lon": -8.3772712
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/6ae5503dd142efefdde110c532bcb555"
+  ],
+  "start_date": "2022-10-31",
+  "end_date": "2022-11-01",
+  "circuit": [],
+  "description": "\n\n\n<p>“TRILHOS DO NABÃO &#8211; Corrida das Bruxas 2022” é uma prova de aventura percorrida em trilhos sinalizados, a pé, pequenos estradões, ou estradas, em autonomia pedestre, visando percorrer todo o percurso no menor tempo possível. Disputa-se a 31 de OUTUBRO de 2021 visando a promoção e prática de desporto em meio natural.<br>É uma prova desportiva mas também de carácter temático, para celebrar a Noite das Bruxas, por isso os atletas que queiram, poderão apresentar-se mascarados. Além dos prémios habituais aos primeiros classificados por escalões, serão entregues prémios ao atleta mascarado mais original e à equipa mascarada (com mais de 4 elementos) mais original. O objetivo deste evento é aliar a festa à competição desportiva, havendo animação durante a prova e à chegada.</p>\n",
+  "description_short": "Trail temático de Halloween pelos trilhos do Nabão com possibilidade de competição mascarada",
+  "page": "https://www.queroir.pt/trilhosnabao-corridadasbruxas2022",
+  "slug": "trilhos-do-nabao-corrida-das-bruxas-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "Asseiceira",
+  "district_code": 14
+}

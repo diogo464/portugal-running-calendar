@@ -1,0 +1,35 @@
+{
+  "id": 42116,
+  "name": "Corrida S.Tiago 2025",
+  "location": "Mondim de Basto, Vila Real Bastos",
+  "coordinates": {
+    "lat": 41.4112348,
+    "lon": -7.9526065
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    8000,
+    12000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/0a8812f186c956f3e4229ea5b17d59fe"
+  ],
+  "start_date": "2025-07-27",
+  "end_date": "2025-07-28",
+  "circuit": [],
+  "description": "\n<p>A AMA – Associação Mondim Atletismo, com o apoio dos Municípios de Mondim de Basto e Celorico de Basto, organizam a 10ª edição da “Corrida S. Tiago “.</p>\n\n\n\n<p>Corrida &#8211; 12kms<br>Caminhada &#8211; 8km</p>\n",
+  "description_short": "Prova desportiva tradicional que atravessa os concelhos de Mondim de Basto e Celorico de Basto",
+  "page": "http://cyclonessports.com/index.php/334-10-corrida-s-tiago",
+  "slug": "corrida-s-tiago-2025",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Mondim de Basto",
+  "administrative_area_level_3": "São Cristóvão de Mondim de Basto",
+  "district_code": 17
+}

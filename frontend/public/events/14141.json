@@ -1,0 +1,34 @@
+{
+  "id": 14141,
+  "name": "Meia Maratona do Porto 2022",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    6000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [],
+  "start_date": "2022-09-18",
+  "end_date": "2022-09-19",
+  "circuit": [],
+  "description": "\n<p>Meia Maratona do Porto 2022</p>\n\n\n\n<p>18 de Setembro de 2022 &#8211; Porto &#8211; 21km/6km</p>\n\n\n\n<h2 class=\"wp-block-heading\"><a href=\"https://www.meiamaratonadoporto.com/pt/resultados/\" target=\"_blank\" rel=\"noreferrer noopener\">RESULTADOS</a></h2>\n\n\n\n<p>Prepara-te para esta prova com o nosso <a href=\"https://www.portugalrunning.com/plano-de-treino-de-corrida/\"><strong>acompanhamento através dum plano personalizado de corrida</strong></a>.</p>\n",
+  "description_short": "Meia maratona tradicional pelas ruas históricas do Porto com percurso desafiante e icónico",
+  "page": "https://www.meiamaratonadoporto.com/pt/",
+  "slug": "meia-maratona-do-porto-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

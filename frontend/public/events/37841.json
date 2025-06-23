@@ -1,0 +1,30 @@
+{
+  "id": 37841,
+  "name": "Volta à Freguesia de Asseiceira 2024",
+  "location": "Asseiceira, Rio Maior",
+  "coordinates": {
+    "lat": 39.2941776,
+    "lon": -8.9336282
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/4d0720c19efdab6812efe14144993cd8"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.queroir.pt/volta-a-freguesia-de-asseiceira",
+  "slug": "volta-a-freguesia-de-asseiceira-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Rio Maior",
+  "administrative_area_level_3": "Asseiceira",
+  "district_code": 14
+}

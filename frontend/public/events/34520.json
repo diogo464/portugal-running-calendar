@@ -1,0 +1,35 @@
+{
+  "id": 34520,
+  "name": "Trail Melides 2024",
+  "location": "Melides, Setúbal",
+  "coordinates": {
+    "lat": 38.147037,
+    "lon": -8.7291925
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a4e84c55104a14de47d1c099ef68ffe8"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [],
+  "description": "\n<p>No dia 28 de abril de 2024, irá realizar-se a 2ª edição do Trail de Melides onde se irão percorrer os<br>trilhos da região através de um Trail Longo de 25km, Trail Curto de 15km e uma Caminhada não<br>competitiva de 10km. Com partida e chegada na Rua Nova da Aldeia de Melides e com início às 9:00.</p>\n\n\n",
+  "description_short": "Trail pelas paisagens rurais de Melides com percursos de diferentes distâncias",
+  "page": "https://acorrer.pt/eventos/info/3485",
+  "slug": "trail-melides-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "Melides",
+  "district_code": 15
+}

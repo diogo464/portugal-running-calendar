@@ -1,0 +1,35 @@
+{
+  "id": 40423,
+  "name": "Trail Barracas de Pedra 2025",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    11000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/86c4767406aa4d73a70502db2a5390c2"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>O evento será realizado no dia&nbsp;<strong>25 de maio de 2025</strong>, na&nbsp;<strong>Aldeia da Póvoa da Lomba – Cantanhede</strong>, &#8220;casa&#8221; da equipa de Trail/Atletismo&nbsp;<strong>S. C. Povoense – Caracóis de Corrida</strong>. Este evento de Trail em estado puro contará com:</p>\n\n\n\n<p><strong>Caminhada Trail:</strong> 10 km</p>\n\n\n\n<p><strong>Trail Curto:</strong> 19 km (parte do Circuito Distrital de Trail Curto ADAC – CDTRC)</p>\n\n\n\n<p><strong>Mini Trail Sprint:</strong> 11 km</p>\n",
+  "description_short": "Trail desafiante pela região de Cantanhede com diferentes percursos para caminhantes e corredores",
+  "page": "https://www.runmanager.net/Eventos/viii-trail-barracas-de-pedra/903",
+  "slug": "trail-barracas-de-pedra-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

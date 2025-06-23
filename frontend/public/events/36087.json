@@ -1,0 +1,29 @@
+{
+  "id": 36087,
+  "name": "Viana Race 2024",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/03d452bba81274dc7dfe6fe5e0beecb7"
+  ],
+  "start_date": "2024-07-13",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>A Viana Race é uma prova que combina corrida Urbana com obstáculos, organizada pela Xlife Events e o CrossFit Viana do Castelo, contando com o apoio da Câmara Municipal de Viana do Castelo.</p>\n",
+  "description_short": "Corrida urbana com obstáculos em Viana do Castelo, organizada por Xlife Events e CrossFit local",
+  "page": "https://lap2go.com/pt/event/viana-race-2024",
+  "slug": "viana-race-2024-2",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

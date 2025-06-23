@@ -1,0 +1,31 @@
+{
+  "id": 1774,
+  "name": "3a Caminhada Vila De Ulme 2020",
+  "location": "Ulme, Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "walk"
+  ],
+  "images": [
+    "media/4161e94128196aaca802eb84fb859029"
+  ],
+  "start_date": "2020-02-22",
+  "end_date": "2020-02-23",
+  "circuit": [],
+  "description": "<p><strong>Preços:</strong><br />\nDonativo de 2,50€<br />\nDonativo de 5€<br />\nDonativo de 10€</p>\n<p><strong>Distâncias: </strong>Caminhada &#8211; 8 km</p>\n<p><strong>O valor do donativo inclui:</strong><br />\n&#8211; 1 sandes de porto no espeto<br />\n&#8211; 1 bebida<br />\n&#8211; T-Shirt para as primeiras 150 inscrições</p>\n",
+  "description_short": "Caminhada solidária com oferta de sandes de Porto no espeto e t-shirt limitada",
+  "page": "https://www.trilhoperdido.com/evento/3-Caminhada-Vila-de-Ulme?fbclid=IwAR3qBT4kxMiJq7dJxu9ruqKodNBvdIIIF7pIAdiT0BjmAqAsNEzyU0immdM",
+  "slug": "3a-caminhada-vila-de-ulme-2020",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

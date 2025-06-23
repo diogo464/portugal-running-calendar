@@ -1,0 +1,39 @@
+{
+  "id": 30213,
+  "name": "Trail Afife 2024",
+  "location": "Afife, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7793772,
+    "lon": -8.861042099999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    15000,
+    31000,
+    46000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6c6d8225590655355acee1209c8e95b1"
+  ],
+  "start_date": "2024-03-03",
+  "end_date": "2024-03-04",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O evento IX ART &#8211; Afife Running Trail decorrerá a 2 e 3 de março de 2024, em Afife, sendo constituído por 5 provas distintas:</p>\n\n\n\n<p></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Ultra ± 46km</li>\n\n\n\n<li>Trail Longo ± 31km</li>\n\n\n\n<li>Trail Sprint/Jovem ± 15km</li>\n\n\n\n<li>Caminhada ± 10km</li>\n\n\n\n<li>Trail Kids<br>Paralelamente, serão realizados outros eventos de carácter desportivo, social e recreativo,<br>nomeadamente: exposições, stands comerciais e atividades para crianças.<br>Este evento é pontuável para os Circuitos Nacionais da ATRP, nas distâncias Trail Ultra (Séries 100), Trail (Séries 100), Trail Sprint (Séries 100) e Trail Jovem (Séries 150), integrando também o Circuito Distrital de Trail de Viana do Castelo.</li>\n</ul>\n\n\n",
+  "description_short": "Trail running diversificado em Afife com provas para diferentes níveis e escalões, integrado em circuitos nacionais.",
+  "page": "http://cyclonessports.com/index.php/297-ix-art-afife-running-trail",
+  "slug": "trail-afife-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": "Afife",
+  "district_code": 16
+}

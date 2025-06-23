@@ -1,0 +1,33 @@
+{
+  "id": 38215,
+  "name": "Mahfra Nature Trail 2025",
+  "location": "Mafra, Lisboa",
+  "coordinates": {
+    "lat": 38.9443106,
+    "lon": -9.3320856
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    13000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/21534bbe2288b798dac94fcfef153e96"
+  ],
+  "start_date": "2025-03-09",
+  "end_date": "2025-03-10",
+  "circuit": [],
+  "description": "\n<p>A Trail4U irá organizar a 09 de Março de 2025 pelas 09h00 horas o Mahfra Nature Trail, em Mafra, concelho de Mafra. O Mahfra Nature Trail é uma prova de Trail Running, corrida pedestre em Natureza, com três provas, Trail Longo (TL) K24, Trail Curto (TC) 13 e Caminhada Com partida e chegada na localidade de Mafra, Concelho de Mafra, Distrito de Lisboa, visa a promoção e divulgação turística e ambiental da região e da promoção do desporto em meio natural.</p>\n\n\n\n<p><br>A prova Mahfra Nature Trail encontra-se inserida no circuito:<br>➢ Merrell Trail Running Series</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela região de Mafra com vista para a promoção ambiental e turística local",
+  "page": "https://www.trilhoperdido.com/evento/mahfra-nature-trail-2025",
+  "slug": "mahfra-nature-trail-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Mafra",
+  "district_code": 11
+}

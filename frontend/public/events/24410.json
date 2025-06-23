@@ -1,0 +1,32 @@
+{
+  "id": 24410,
+  "name": "Meia Maratona São João das Lampas 2023",
+  "location": "São João Das Lampas, Lisboa",
+  "coordinates": {
+    "lat": 38.8744196,
+    "lon": -9.3986994
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/c49fde329f238b874fff36e3f284181d"
+  ],
+  "start_date": "2023-09-09",
+  "end_date": "2023-09-10",
+  "circuit": [],
+  "description": "\n<p>O Meia Maratona de S. João das Lampas &#8211; Grupo de Dinamização Desportiva, com o apoio institucional de União de Freguesias de S. João das Lampas e Terrugem e da Câmara Municipal de Sintra, vai levar a efeito no Sábado, dia 09 de Setembro de 2023 às 17 horas, uma Prova de Atletismo em Estrada denominada<br>“45ª MEIA MARATONA DE S. JOÃO DAS LAMPAS”, evento integrado no programa das Festas de Nª Senhora da Saúde.</p>\n",
+  "description_short": "Meia maratona tradicional em S. João das Lampas integrada nas Festas de Nª Senhora da Saúde",
+  "page": "https://lap2go.com/pt/event/mm-sao-joao-das-lampas-2023",
+  "slug": "meia-maratona-sao-joao-das-lampas-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de São João das Lampas e Terrugem",
+  "district_code": 11
+}

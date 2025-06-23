@@ -1,0 +1,32 @@
+{
+  "id": 1213,
+  "name": "Grande Prémio de Atletismo do CSArmada 2020",
+  "location": "Alfeite, Almada",
+  "coordinates": {
+    "lat": 38.662563,
+    "lon": -9.144288999999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    7000,
+    7700
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/7d88968b77325dca17d3b31c8060a482"
+  ],
+  "start_date": "2020-02-23",
+  "end_date": "2020-02-24",
+  "circuit": [],
+  "description": "<p class=\"wnd-align-justify\"> organização desta prova de atletismo é da responsabilidade do Clube do Sargento da Armada &#8211; <b>CSA </b>com o apoio da Junta da União de Freguesias Laranjeiro Feijó e da Câmara Municipal de Almada.</p>\n<p class=\"wnd-align-justify\">A prova realiza-se no dia 23 de fevereiro de 2020, com partida e chegada na pista do campo de futebol do <b>CEFA </b>&#8211; Centro de Educação Física da Armada &#8211; Base Naval de Lisboa, Alfeite pelas 09.30 horas.</p>\n<p class=\"wnd-align-justify\">Todas as equipas que pretendam pontuar para o Troféu, têm de representar Clubes, Coletividades ou Organizações populares com sede no concelho de Almada.</p>\n<p>Local: Alfeite (Pista do CEFA) | Almada / Setúbal<br />\nDistância: 250 | 7.7 Km</p>\n",
+  "description_short": "Corrida de atletismo organizada pelo Clube do Sargento da Armada na Base Naval de Lisboa em Almada",
+  "page": "https://atletismocsa.webnode.pt/",
+  "slug": "gp-atlestismo-csarmada-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "União das freguesias de Laranjeiro e Feijó",
+  "district_code": 15
+}

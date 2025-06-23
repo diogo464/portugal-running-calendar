@@ -1,0 +1,33 @@
+{
+  "id": 20774,
+  "name": "Trail Da Lomba 2023",
+  "location": "Gondomar, Porto",
+  "coordinates": {
+    "lat": 41.13955989999999,
+    "lon": -8.5291423
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ca20321a6f705cda3a22a9bc4b1823bb"
+  ],
+  "start_date": "2023-07-09",
+  "end_date": "2023-07-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Esta prova consiste em percorrer a pé trilhos e caminhos na “ilha” da Lomba, um ex-libris do concelho de Gondomar. A qualidade do percurso e do evento têm sido bandeiras desta prova que volta a realizar-se com a chancela de Luís Pereira.</p>\n\n\n\n<p>Este evento será realizado no concelho de Gondomar, na freguesia da Lomba no dia <strong>9 de Julho de 2023</strong>, com partidas/chegadas no cais de Pé de Moura (Av. Feysin).</p>\n\n\n\n<p>A 5ª edição do Trail da Lomba está integrada no calendário da ATRP, onde o Trail Long 25km faz parte da Taça de Portugal série 100. As 2 distâncias também fazem parte do Circuito Distrital de Trail da Associação de Atletismo<br>do Porto.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos históricos da Lomba em Gondomar",
+  "page": "https://lap2go.com/pt/event/trail-da-lomba-2023",
+  "slug": "trail-da-lomba-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "União das freguesias de Gondomar (São Cosme), Valbom e Jovim",
+  "district_code": 13
+}

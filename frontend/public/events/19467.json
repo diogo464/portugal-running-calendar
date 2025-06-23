@@ -1,0 +1,34 @@
+{
+  "id": 19467,
+  "name": "Meia Maratona da Moita 2022",
+  "location": "Moita, Setúbal",
+  "coordinates": {
+    "lat": 38.653115,
+    "lon": -8.993017199999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    7000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/2a8a3d12f90171e8a1a073a3a7ace4c7"
+  ],
+  "start_date": "2022-10-16",
+  "end_date": "2022-10-17",
+  "circuit": [],
+  "description": "\n\n\n<p>A Câmara Municipal da Moita, o Centro de Atletismo da Baixa da Banheira, o Clube Amigos do Atletismo da Moita, o Clube Desportivo e  Recreativo Ribeirinho, o Clube Recreativo do Penteado, o Grupo Desportivo Fonte da Prata e o Grupo Os Indefectíveis, vão organizar a 23ª Meia Maratona e a 20ª Mini/Caminhada Ribeirinha da Moita no dia 16 de outubro de 2022, pelas 10h00 destinada a indivíduos de ambos os sexos.</p>\n\n\n\n<p>Partida na Marginal da Moita e chegada na Praça da República, na Moita, num percurso de 21.097mt, aferido oficialmente pela F.P.A. – C.N.E.C. A 20ª Mini/Caminhada Ribeirinha da Moita terá um percurso de aproximadamente 7.000mt.</p>\n",
+  "description_short": "Meia maratona ribeirinha na Moita com partida na marginal e chegada à Praça da República",
+  "page": "https://mm.cabb.pt/",
+  "slug": "meia-maratona-da-moita-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Moita",
+  "administrative_area_level_3": "Moita",
+  "district_code": 15
+}

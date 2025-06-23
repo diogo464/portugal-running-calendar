@@ -1,0 +1,34 @@
+{
+  "id": 27423,
+  "name": "Beer Runners 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/3d7108f79be576bc618903a78a076e2d"
+  ],
+  "start_date": "2023-09-02",
+  "end_date": "2023-09-03",
+  "circuit": [],
+  "description": "\n<p>A Corrida BEER RUNNERS é um evento promovido pela&nbsp;<strong>Associação Cervejeiros de Portugal</strong>&nbsp;e organizado pela Camara Municipal de Viana do Castelo em conjunto com a Xlife Events e o Crossfit de Viana do Castelo.</p>\n\n\n\n<p>No dia 2 de setembro de 2023 irá realizar-se a&nbsp;<strong>2ª Corrida BEER RUNNERS</strong>, que se caracteriza pelo percurso único em plena Marginal e sempre junto ao rio Lima com passagem por vários pontos turísticos, com um nível fácil, e enquadramento espetacular.</p>\n\n\n\n<p>Procurando dar a possibilidade de participação a todos, este evento será composto por uma corrida de 10 km, uma caminhada de 5 km.</p>\n\n\n",
+  "description_short": "Corrida descontraída pela marginal de Viana do Castelo com vista para o rio Lima",
+  "page": "https://beerrunners.pt/",
+  "slug": "beer-runners-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

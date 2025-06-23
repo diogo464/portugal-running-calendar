@@ -1,0 +1,36 @@
+{
+  "id": 38922,
+  "name": "Desafio Vertical 0/947 2025",
+  "location": "Ilha de São Miguel, Açores",
+  "coordinates": {
+    "lat": 37.780411,
+    "lon": -25.4970466
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    3000,
+    4000,
+    11300,
+    21000,
+    35400
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2025-04-12",
+  "end_date": "2025-04-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Desafio Vertical 0/947 é constituído por duas provas de carácter competitivo, nomeadamente, o DV Trail e o DV Trail Sprint, e uma prova de caráter não competitivo, o DV Caminhada. O evento funciona em formato de contra-relógio, dado que os atletas partem todos em separado, existindo um intervalo de 1 minuto (DV Trail) e 30 segundos (DV Trail Sprint) entre cada partida.</p>\n\n\n\n<p><br>A prova competitiva mais longa é designada por DV Trail e tem a distância de, aproximadamente, 35,4 km. O 1º atleta vai partir às 08h00m do dia 12 de Abril de 2025 na Ponta da Galera, na Caloura, e a meta ficará instalada no Polidesportivo de Água de Pau. </p>\n\n\n\n<p>A prova competitiva mais curta é designada por DV Trail Sprint e apresenta a distância de, sensivelmente, 21,0 km. O 1º corredor arranca às 09h00m do dia 12 de Abril de 2025 na Ponta da Galera, na Caloura, e a meta ficará localizada no Polidesportivo de Água de Pau.<br>A prova não competitiva é designada por DV Caminhada e engloba a distância de, praticamente, 11,3 km. A partida vai ser dada às 10h00m do dia 12 de Abril de 2025 na Casa da Água Trail Point, nos Remédios, e a meta ficará situada no Polidesportivo de Água de Pau.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail competitivo nos Açores com diferentes provas em contra-relógio nas zonas da Caloura e Água de Pau",
+  "page": "https://stopandgo.net/events/v-desafio-vertical-0-947-2025",
+  "slug": "desafio-vertical-0-947-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

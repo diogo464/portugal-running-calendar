@@ -1,0 +1,29 @@
+{
+  "id": 39362,
+  "name": "Trail da Lombada 2025",
+  "location": "São Julião de Palácios e Deilão, Bragança",
+  "coordinates": {
+    "lat": 41.8207917,
+    "lon": -6.601615499999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6066ac3cd0bcbe54c606438dbaae3186"
+  ],
+  "start_date": "2025-01-26",
+  "end_date": "2025-01-27",
+  "circuit": [],
+  "description": "\n<p>Terá lugar no dia 26 de janeiro de 2025, a 6a edição do Trail da Lombada<br>promovida pela Freguesia de São Julião de Palácios e Grupo Desportivo de<br>Bragança, conta o apoio técnico da Associação de Atletismo de Bragança.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante na região de Bragança organizado pela junta de freguesia e grupo desportivo local",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLScNVn7BEjpU4-oYyxMbBlYfxh_4eF2NKFU46JstlY5w1hUUYw/viewform",
+  "slug": "trail-da-lombada-2025",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Bragança",
+  "administrative_area_level_3": "União das Freguesias de São Julião de Palácios e Deilão",
+  "district_code": 4
+}

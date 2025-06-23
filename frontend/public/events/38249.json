@@ -1,0 +1,36 @@
+{
+  "id": 38249,
+  "name": "São Silvestre Quarteira 2024",
+  "location": "Quarteira, Faro",
+  "coordinates": {
+    "lat": 37.0674543,
+    "lon": -8.0996497
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    4500,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/07bf957d2c592468fdf733fa02277a59"
+  ],
+  "start_date": "2024-12-28",
+  "end_date": "2024-12-29",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre de Quarteira é uma prova pedestre de cariz lúdico, organizada pelos Quarteira Night Runners, Free Challenge e Junta Freguesia de Quarteira.</p>\n\n\n\n<p>&#8211; São Silvestre de Quarteira (10km)<br>&#8211; Mini/ Caminhada São Silvestre de Quarteira (4,5km)</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida festiva de fim de ano pelas ruas de Quarteira com diferentes percursos",
+  "page": "https://www.crono.aaalgarve.org/eventos/12-sao-silvestre-de-quarteira",
+  "slug": "sao-silvestre-quarteira-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Quarteira",
+  "district_code": 8
+}

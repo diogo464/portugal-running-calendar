@@ -1,0 +1,34 @@
+{
+  "id": 40562,
+  "name": "Rota da Broa 2025",
+  "location": "Cumeeira, Penela",
+  "coordinates": {
+    "lat": 39.9431804,
+    "lon": -8.3827705
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/2473d5ed97e5618ba49489ddd6f08af6"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Rota da Broa, organizado pelo Centro Cultural de Cumeeira, tem como objetivo dar a conhecer a todos os atletas alguns dos locais mais emblemáticos da Freguesia da Cumeeira e permitir a realização de uma atividade física no meio da Natureza.<br>A prova irá realizar-se nos dias 7 e 8 de Junho de 2025 no lugar de Cumeeira e será constituída por cinco vertentes, Trail Kid&#8217;s, Caminhada, Trail Jovem, Trail Sprint e Trail.</p>\n",
+  "description_short": "Trail desafiante pela Cumeeira com percursos para todas as idades e níveis de experiência",
+  "page": "https://www.queroir.pt/rotadabroa2025",
+  "slug": "rota-da-broa-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penela",
+  "administrative_area_level_3": "Cumeeira",
+  "district_code": 6
+}

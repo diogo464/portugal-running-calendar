@@ -1,0 +1,34 @@
+{
+  "id": 37650,
+  "name": "São Silvestre Oliveira de Frades 2024",
+  "location": "Oliveira de Frades, Viseu",
+  "coordinates": {
+    "lat": 40.7322554,
+    "lon": -8.1737805
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/d21f940959381861e7728c395949b0be"
+  ],
+  "start_date": "2024-12-14",
+  "end_date": "2024-12-15",
+  "circuit": [],
+  "description": "\n<p>A 1ª São Silvestre de Oliveira de Frades é uma prova organizada pela Associação Académica de Santa Cruz em parceria com a Câmara Municipal de Oliveira de Frades. A 1ª São Silvestre de Oliveira de Frades será composta por um percurso de corrida e outro de caminhada, cada um com 10 kms. A prova terá início na Associação Académica de Santa Cruz, em Santa Cruz (Arcozelo das Maias) e terminará no Parque Urbano de Oliveira de Frades.</p>\n\n\n\n<p>.</p>\n\n\n",
+  "description_short": "São Silvestre inaugural em Oliveira de Frades com percurso entre Santa Cruz e o Parque Urbano",
+  "page": "https://acorrer.pt/eventos/info/3650",
+  "slug": "sao-silvestre-oliveira-de-frades-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Oliveira de Frades",
+  "administrative_area_level_3": "Oliveira de Frades",
+  "district_code": 18
+}

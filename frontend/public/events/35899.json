@@ -1,0 +1,32 @@
+{
+  "id": 35899,
+  "name": "Corrida Volkswagen 2024",
+  "location": "Palmela, Setúbal",
+  "coordinates": {
+    "lat": 38.569441,
+    "lon": -8.9016937
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/30e0802032cadc2465ff12f1aa2da30d"
+  ],
+  "start_date": "2024-10-27",
+  "end_date": "2024-10-28",
+  "circuit": [],
+  "description": "\n<p>A Volkswagen Run realiza-se no dia 27 de outubro de 2024, a partir das 08h00, em Palmela, com partidas e chegadas na sede social da Volkswagen, e o tempo máximo de duração desta prova é de 2 (duas) horas.:</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida corporativa da Volkswagen com partida e chegada na sede em Palmela",
+  "page": "https://run.volkswagenautoeuropa.pt/",
+  "slug": "corrida-volkswagen-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Palmela",
+  "administrative_area_level_3": "Palmela",
+  "district_code": 15
+}

@@ -1,0 +1,33 @@
+{
+  "id": 29004,
+  "name": "São Silvestre Lourosa 2023",
+  "location": "Lourosa, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9881883,
+    "lon": -8.5450532
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/9859e81c8cbc69ff6ad2dfc12c9ca17f"
+  ],
+  "start_date": "2023-12-23",
+  "end_date": "2023-12-24",
+  "circuit": [],
+  "description": "\n<p>Pela primeira vez a São Silvestre Lourosa sairá para as estradas desta cidade que pertence ao município de Santa Maria da Feira. Venha correr 10 quilómetros ou caminhar com o propósito de estimular a sua atividade física e a dos outros.</p>\n\n\n",
+  "description_short": "Primeira edição da São Silvestre de Lourosa com percurso pela cidade de Santa Maria da Feira",
+  "page": "https://lap2go.com/pt/event/ss-lourosa-2023",
+  "slug": "sao-silvestre-lourosa-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Lourosa",
+  "district_code": 1
+}

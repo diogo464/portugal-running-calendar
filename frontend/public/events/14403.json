@@ -1,0 +1,34 @@
+{
+  "id": 14403,
+  "name": "Corrida Porto De Leixões 2022",
+  "location": "Porto de Leixões,",
+  "coordinates": {
+    "lat": 41.1827778,
+    "lon": -8.703055599999999
+  },
+  "country": "Portugal",
+  "locality": "Porto de Leixões",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/82bb32990676946b67fee003982ffe6a"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>A Corrida Porto de Leixões&nbsp;que irá realizar-se no dia 11 de Setembro 2022, está a ser organizada pela APDL &#8211; Administração dos Portos do Douro, Leixões e Viana do Castelo e pela EventSport, em colaboração com o Centro de Cultura e Desporto da APDL.</p>\n\n\n\n<p>A Corrida Porto De Leixões 2022 irá decorrer dentro do Porto de Leixões, num ambiente único e com o objetivo de estimular a prática desportiva como factor essencial na promoção da saúde e bem-estar do público em geral.</p>\n\n\n\n<p>Se é um amante do desporto, mais propriamente de corridas e caminhadas, esta é a oportunidade para practicar com a família e amigos, numa zona de referência da cidade.</p>\n\n\n\n<p>Esta prova divide-se numa Corrida de 10 Km e numa Caminhada de 5 Km, esta última sem carácter competitivo. Ambas terão partida a beira do novo terminal de Cruzeiros.</p>\n\n\n\n<p>A Corrida de 10Km terá a chegada no mesmo local da partida.</p>\n\n\n\n<p>Estamos a trabalhar para que esta corrida seja única, memorável e repleta de energia e boa disposição.Inscreva-se e venha participar nesta festa do desporto!</p>\n\n\n\n<p>Contamos consigo neste dia! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n",
+  "description_short": "Corrida urbana pelo Porto de Leixões com partida junto ao terminal de Cruzeiros",
+  "page": "https://www.corridaportodeleixoes.pt",
+  "slug": "corrida-porto-de-leixoes-2022",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

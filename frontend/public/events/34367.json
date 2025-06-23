@@ -1,0 +1,35 @@
+{
+  "id": 34367,
+  "name": "Milha Urbana Cidade de Ovar 2024",
+  "location": "Ovar, Aveiro",
+  "coordinates": {
+    "lat": 40.8596399,
+    "lon": -8.6253313
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    1600,
+    1609
+  ],
+  "types": [
+    "run",
+    "Milha"
+  ],
+  "images": [
+    "media/6f9778de17c76c2d65310e617e8ef3ca"
+  ],
+  "start_date": "2024-05-11",
+  "end_date": "2024-05-12",
+  "circuit": [
+    "Estrelas de Portugal"
+  ],
+  "description": "\n<p>A 20ª Milha Urbana Cidade de Ovar realiza-se a partir do início da tarde com partida e chegada na Alameda do Poder Local Cidade de Ovar, na extensão máxima da distância padrão de uma milha (1609 metros).</p>\n",
+  "description_short": "Corrida urbana tradicional pelas ruas de Ovar com partida e chegada na Alameda do Poder Local",
+  "page": "https://lap2go.com/pt/event/milha-urbana-cidade-ovar-2024",
+  "slug": "milha-urbana-cidade-de-ovar-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ovar",
+  "administrative_area_level_3": "União das freguesias de Ovar, São João, Arada e São Vicente de Pereira Jusã",
+  "district_code": 1
+}

@@ -1,0 +1,36 @@
+{
+  "id": 13453,
+  "name": "Trail Noturno de São Pedro do Sul &#8211; Assalto À Sra da Guia 2022",
+  "location": "São Pedro do Sul Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    1000,
+    10000,
+    11100,
+    22100
+  ],
+  "types": [
+    "run",
+    "10k",
+    "trail"
+  ],
+  "images": [
+    "media/910ad82173eb1b77ad4f8fe03d959f47"
+  ],
+  "start_date": "2022-04-16",
+  "end_date": "2022-04-17",
+  "circuit": [],
+  "description": "\n<p>O GRUPO TODO TERRENO DE SÃO PEDRO DO SUL &#8211; GTT. SPS, em conjunto com a sua Equipa FOX RUNNING TEAM, vão realizar o  Trail Noturno de São Pedro do Sul &#8211; Assalto À Sra da Guia 2022 mesmo será no próximo dia 16 de Abril de 2022, pelas 19H00 (TRAIL LONGO)/19H30 (TRAIL CURTO/CAMINHADA), com a partida junto à Câmara Municipal de São Pedro do Sul.TL &#8211; 22,1km<br>TC &#8211; 11,1km<br>Caminhada &#8211; 11,1kmEsperamos por vocês! Venham viver esta AVENTURA!</p>\n",
+  "description_short": "Trail noturno desafiante pela região de São Pedro do Sul com partida junto à Câmara Municipal",
+  "page": "https://stopandgo.com.pt/events/trail-noturno-sps-2021",
+  "slug": "trail-noturno-de-sao-pedro-do-sul-assalto-a-sra-da-guia-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

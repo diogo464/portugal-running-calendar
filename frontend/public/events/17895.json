@@ -1,0 +1,35 @@
+{
+  "id": 17895,
+  "name": "Trail de Mortágua 2022",
+  "location": "Mortágua, Viseu",
+  "coordinates": {
+    "lat": 40.3971448,
+    "lon": -8.2309134
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    12000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3a94e294dcb3e336bc23b863167df585"
+  ],
+  "start_date": "2022-11-20",
+  "end_date": "2022-11-21",
+  "circuit": [],
+  "description": "\n<p>O “Trail de Mortágua 2022” é uma organização do Núcleo do Sporting Clube de Portugal de Mortágua, terá lugar em Mortágua a 20 de novembro 2022, com partida e chegada junto à Câmara Municipal de Mortágua às 9h00.<br>O secretariado terá lugar na Câmara Municipal de Mortágua das 07h00 às 9h00.</p>\n\n\n\n<p>PROVA E PERCURSO:<br>Serão realizadas 3 provas com percursos distintos:<br>a) Trail 20k &#8211; Percurso circular de cerca de 20 km com o tempo limite de realização de 4 horas.<br>a) Trail 12k &#8211; Percurso circular de cerca 12 km com o tempo limite de realização de 3 horas<br>b) Caminhada 8k &#8211; Percurso circular de cerca 8 km.</p>\n",
+  "description_short": "Trail desafiante pela região de Mortágua com percursos de diferentes distâncias e partida junto à Câmara Municipal",
+  "page": "https://www.runmanager.net/Eventos/trail-de-mortagua-2022/660",
+  "slug": "trail-de-mortagua-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Mortágua",
+  "administrative_area_level_3": "Mortágua",
+  "district_code": 18
+}

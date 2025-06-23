@@ -1,0 +1,34 @@
+{
+  "id": 886,
+  "name": "Trail Running Canha 2020",
+  "location": "Canha, Montijo Montijo, Setúbal",
+  "coordinates": {
+    "lat": 38.7723991,
+    "lon": -8.638059799999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    8000,
+    15000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/824722fcf1d6217d9ed8d45030737130"
+  ],
+  "start_date": "2020-03-08",
+  "end_date": "2020-03-09",
+  "circuit": [],
+  "description": "<p>As veredas, carreiros e, os trilhos de Canha vão receber, dia 8 de Março a quinta edição do Trail Runing de Canha.</p>\n<p>Canha é a capital da Aventura do Conselho de Montijo.</p>\n<p>Este ano as opções sao: corrida de 15 km ou caminhada de 8 km, ambas pelos trilhos de Canha. Estamos nesta época no início da primavera e espera-se que Canha esteja em todo o seu esplendor, pintada de varias cores.</p>\n<p>Estamos a preparar os melhores trilhos e as melhores subidas e descidas de Canha para realizarmos um evento ao mais alto nível. Estamos agradecidos ás ovelhas e aos javalis da zona pelos trilhos que tem vindo a fazer e que a organização aproveitou para o evento.</p>\n<p>Este ano a gastronomia também será comtemplada, vamos preparar também, para os atletas que optem, uma refeição caraterística da região.</p>\n<p>O valor de inscrição mantem-se: para o Trail Run o valor de 10 euros e para a Caminhada os 6 euros. Existiram alguns extras que ficarão como opção dos participantes.</p>\n",
+  "description_short": "Trail Running de Canha pelos trilhos primaverís com paisagens naturais e gastronomia local",
+  "page": "https://www.acorrer.pt/eventos/info/2490",
+  "slug": "trail-running-canha-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Montijo",
+  "administrative_area_level_3": "Canha",
+  "district_code": 15
+}

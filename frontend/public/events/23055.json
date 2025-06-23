@@ -1,0 +1,33 @@
+{
+  "id": 23055,
+  "name": "25º Grande Prémio da Páscoa em Atletismo 2023",
+  "location": "Alcacer do Sal, Setúbal",
+  "coordinates": {
+    "lat": 38.3706145,
+    "lon": -8.5061998
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/dfcaa1b3216a0e668eb913b874ae7149"
+  ],
+  "start_date": "2023-04-07",
+  "end_date": "2023-04-08",
+  "circuit": [],
+  "description": "\n<p>O XXV Grande Prémio da Páscoa irá realizar-se no dia 07 de Abril de 2023 (sexta\u0002feira) com início pelas 09h00 sendo a prova da responsabilidade do Município de Alcácer do Sal, que conta com o apoio da União de Freguesias de Alcácer do Sal e Santa Susana, Caixa de Crédito Agrícola Mútuo de Alcácer do Sal e Montemor-o\u0002Novo, Movimento Associativo, Bombeiros Voluntários e Centro de Saúde</p>\n",
+  "description_short": "Prova tradicional de Páscoa em Alcácer do Sal com apoio de várias entidades locais",
+  "page": "https://acorrer.pt/eventos/info/3155",
+  "slug": "25o-grande-premio-da-pascoa-em-atletismo-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcácer do Sal",
+  "administrative_area_level_3": "União das freguesias de Alcácer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana",
+  "district_code": 15
+}

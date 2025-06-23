@@ -1,0 +1,39 @@
+{
+  "id": 30789,
+  "name": "Santarém Trail 2024",
+  "location": "Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    500,
+    600,
+    1000,
+    10000,
+    16000,
+    26000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f1878e785190dc49fb068d2e8bf31c39"
+  ],
+  "start_date": "2024-05-12",
+  "end_date": "2024-05-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A organização do Santarém Trail cabe à associação pace.makers running club. O Santarém Trail é um evento lúdico e desportivo. O principal objetivo é a conjugação do espírito de aventura na natureza e o desporto; Realizar-se-á no dia 12 de maio de 2024 e será constituído por três provas:</p>\n\n\n\n<p></p>\n\n\n\n<p>Trail, de 26km com +1000m (aproximadamente) de acumulado;</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Curto, de 16 km com +600m (aproximadamente) de acumulado;</li>\n\n\n\n<li>Caminhada, de 10 km com +500m (aproximadamente) de acumulado.</li>\n</ul>\n",
+  "description_short": "Trail desafiante pela região de Santarém com três provas de diferentes distâncias e dificuldades",
+  "page": "https://www.trilhoperdido.com/evento/Santarem-Trail-2024",
+  "slug": "trail-santarem-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

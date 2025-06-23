@@ -1,0 +1,34 @@
+{
+  "id": 37475,
+  "name": "Caminhada e treino de Trail Carvalhal 2024",
+  "location": "Carvalhal, Figueira da Foz",
+  "coordinates": {
+    "lat": 40.1732106,
+    "lon": -8.774422999999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f0b82a51f0a8b21b8c36afab20b9443c"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-20",
+  "circuit": [],
+  "description": "\n<p>Vem passar uma manhã diferente a fazer o que você gosta e manter a forma.</p>\n\n\n\n<p><strong>O encontro&nbsp;</strong>&nbsp;é no pavilhão gimnodesportivo do Carvalhal o levantamento dos dorsais é das 8 horas às 9h15 início do treino Trail é às 9h30 e da caminhada às 9h35﻿</p>\n\n\n\n<p><strong>Vamos ter para você,</strong>&nbsp;&nbsp;caminhada com cerca de 10 km e um treino trail de 15 km não são de caráter competitivo, pelo que não será cronometrada; pode participar neste evento de pessoas de todas as idades. Como é um evento em terra batida e Caminhos não é recomendado carrinhos de bebê ou cadeiras de rodas. A meio tens um reforço sólido e líquido e no final um caldo verde e uma bifana e duas bebidas de copo, vais ter seguro e um brinde, mas para isso tens que te inscrever até dia 17 às 23:59 fora isso vás sem seguro a tua responsabilidade e não prometemos brinde.</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Treino de trail e caminhada matinal em Carvalhal com reforço alimentar e ambiente descontraído",
+  "page": "https://www.runmanager.net/Eventos/caminhada-e-treino-de-trail/868",
+  "slug": "caminhada-e-treino-de-trail-carvalhal-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Figueira da Foz",
+  "administrative_area_level_3": "Alhadas",
+  "district_code": 6
+}

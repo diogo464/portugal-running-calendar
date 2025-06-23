@@ -1,0 +1,29 @@
+{
+  "id": 23180,
+  "name": "VieiraFit Obstacle Race 2023",
+  "location": "Vieira do Minho, Braga",
+  "coordinates": {
+    "lat": 41.6343218,
+    "lon": -8.141619799999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/ef59f217b7de5210be4c5b60f9e0e1df"
+  ],
+  "start_date": "2023-07-08",
+  "end_date": "2023-07-09",
+  "circuit": [],
+  "description": "\n<p>A VieiraFit Race é uma prova que combina corrida com obstáculos urbanos e é também uma prova de carácter social, ajudando assim uma instituição de Vieira do Minho com 10% do valor das inscrições. Inscreve-te já.</p>\n\n\n",
+  "description_short": "Corrida solidária com obstáculos urbanos em Vieira do Minho que apoia instituição local",
+  "page": "https://lap2go.com/pt/event/vieirafit-obstacle-race-2023",
+  "slug": "vieirafit-obstacle-race-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vieira do Minho",
+  "administrative_area_level_3": "Vieira do Minho",
+  "district_code": 3
+}

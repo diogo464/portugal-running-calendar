@@ -1,0 +1,30 @@
+{
+  "id": 39412,
+  "name": "Trail da Rota do Sal 2025",
+  "location": "Pinheiro de Ázere, Santa Comba Dão",
+  "coordinates": {
+    "lat": 40.3548379,
+    "lon": -8.117472099999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0b5acd05a083bcacc613d306f9630905"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-24",
+  "circuit": [],
+  "description": "\n<p>Pinheiro de Ázere é uma terra centenária com mais de 500 anos, que viu nascer a Pinheiro de Ázere Running Team, que tem os seus elementos conhecidos como os PDARunners.</p>\n\n\n\n<p>Com um misto de bairrismo, e vontade de crescer, decidimos criar esta prova, alicerçada na história, para mostrar que de pequenas ideias nascem grandes coisas. Apoiados, desde o início, pela Junta de Freguesia de Pinheiro de Ázere, temos lutado para que a nossa Terra seja reconhecida pelo valor das suas gentes, e agora, pela qualidade dos seus trilhos ondulantes, sempre com um olho na omnipresente albufeira da Barragem da Aguieira.</p>\n\n\n\n<p>Da ideia peregrina do nosso Presidente da Junta de Freguesia, João Pedro Pinto, de revisitar as antigas rotas mercantis do Sal, com uma perspetiva moderna, nasce esta prova que se quer orgulhar em receber, acarinhar e agremiar todos os que nos vierem visitar.</p>\n\n\n\n<p>Assim, venham visitar Pinheiro de Ázere, venham conhecer a nossa Terra, os nossos trilhos, e voltem sempre.</p>\n",
+  "description_short": "Trail desafiante por trilhos históricos junto à Barragem da Aguieira, com passagem pelas antigas rotas mercantis do Sal",
+  "page": "https://meutempo.pt/prova?trailrotadosal2025",
+  "slug": "trail-da-rota-do-sal-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Santa Comba Dão",
+  "administrative_area_level_3": "Pinheiro de Ázere",
+  "district_code": 18
+}

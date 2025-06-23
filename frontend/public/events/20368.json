@@ -1,0 +1,34 @@
+{
+  "id": 20368,
+  "name": "2ª Edição Do Trail Dos Moinhos 2023",
+  "location": "Alcáçovas, Évora",
+  "coordinates": {
+    "lat": 38.3921304,
+    "lon": -8.153597699999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f543fdbab6b85c2f3915ceb54ba93ed5"
+  ],
+  "start_date": "2023-02-25",
+  "end_date": "2023-02-26",
+  "circuit": [],
+  "description": "\n<p>A 2ª edição do Trail dos moinhos é organizado por Marlène Hubert, Raquel Eustáquio e Vera Silva com o apoio do Sport Clube Alcaçovense (SCA).<br>Realiza-se no dia 25 de Fevereiro de 2023, em Alcáçovas e será constituído por duas atividades:</p>\n\n\n\n<p><br>Trail longo 20km<br>Trail curto 10Km<br>Caminhada 10km</p>\n\n\n",
+  "description_short": "Trail dos Moinhos pelo município de Alcáçovas com percursos de diferentes distâncias pela região",
+  "page": "https://www.trilhoperdido.com/evento/2-Trail-dos-Moinhos",
+  "slug": "2a-edicao-do-trail-dos-moinhos-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Viana do Alentejo",
+  "administrative_area_level_3": "Alcáçovas",
+  "district_code": 7
+}

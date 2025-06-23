@@ -1,0 +1,36 @@
+{
+  "id": 41488,
+  "name": "Grande Trail de Alpiarça 2025",
+  "location": "Alpiarça, Santarém",
+  "coordinates": {
+    "lat": 39.2591889,
+    "lon": -8.5820055
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    19000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/47fdcb9539ea63b08edb60220603cb2f"
+  ],
+  "start_date": "2025-10-04",
+  "end_date": "2025-10-05",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Será constituído por três provas de carácter competitivo, “Trail Longo – 31K”, “Trail curto – 19K”, “Mini-Trail &#8211; 12K” e uma prova de carácter lúdico “Caminhada – 12K”. É uma Organização da Secção de Trail/running em conjunto com Clube Desportivo “Os Águias” de Alpiarça, com o apoio do Município de Alpiarça, Junta de Freguesia de Alpiarça e de várias outras entidades.</p>\n",
+  "description_short": "Trail com diversas distâncias pela região de Alpiarça, organizado pelo Clube Desportivo \"Os Águias\"",
+  "page": "https://www.trilhoperdido.com/evento/7-Grande-Trail-Alpiarca",
+  "slug": "grande-trail-de-alpiarca-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Alpiarça",
+  "administrative_area_level_3": "Alpiarça",
+  "district_code": 14
+}

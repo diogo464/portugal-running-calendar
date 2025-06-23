@@ -1,0 +1,30 @@
+{
+  "id": 278,
+  "name": "Ericeira Trail Run",
+  "location": "Ericeira Ericeira, Lisboa",
+  "coordinates": {
+    "lat": 38.9681277,
+    "lon": -9.4073004
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/d4c1d206f70a379baaa252f88c865ca8"
+  ],
+  "start_date": "2019-12-14",
+  "end_date": "2019-12-15",
+  "circuit": [],
+  "description": "<p><strong>Data:</strong><br />\n14 de Dezembro de 2019</p>\n<p><strong>Localidade:</strong><br />\nEriceira</p>\n<p><strong>Organização:</strong><br />\nCMB Clube MafraBTT e Amigos do Atletismo de Mafra, com a parceria institucional da Câmara Municipal de Mafra</p>\n",
+  "description_short": "Trail tradicional pela vila piscatória da Ericeira com organização local",
+  "page": "https://www.trilhoperdido.com/evento/Ericeira-Trail-Run-2019",
+  "slug": "ericeira-trail-run",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Ericeira",
+  "district_code": 11
+}

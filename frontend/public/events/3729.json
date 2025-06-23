@@ -1,0 +1,33 @@
+{
+  "id": 3729,
+  "name": "Trail dos Calceteiros 2021",
+  "location": "Fanhões, Loures",
+  "coordinates": {
+    "lat": 38.8922525,
+    "lon": -9.1732936
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    15000,
+    30000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5215c36ea5c042c5331874467bc35b28"
+  ],
+  "start_date": "2021-11-01",
+  "end_date": "2021-11-02",
+  "circuit": [],
+  "description": "\n<p>O Trail dos Calceteiros é uma nova aventura para o dia 31 de Outubro <img decoding=\"async\" height=\"16\" width=\"16\" alt=\"💪\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tc5/1.5/16/1f4aa.png\"><img decoding=\"async\" height=\"16\" width=\"16\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tba/1.5/16/2705.png\"> Trail longo 30km<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tba/1.5/16/2705.png\"> Trail curto 15km<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tba/1.5/16/2705.png\"> Caminhada 10km</p>\n",
+  "description_short": "Trail desafiante pelos caminhos tradicionais com duas distâncias e caminhada no dia 31 de Outubro",
+  "page": "https://xistarca.pt/eventos/trail-dos-calceteiros",
+  "slug": "trail-dos-calceteiros-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Fanhões",
+  "district_code": 11
+}

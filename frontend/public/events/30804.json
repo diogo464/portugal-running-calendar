@@ -1,0 +1,36 @@
+{
+  "id": 30804,
+  "name": "Trail Santa Justa 2024",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    15000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d77ac70388a4962b34f1cd39d9787a07"
+  ],
+  "start_date": "2024-07-28",
+  "end_date": "2024-07-29",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A XII edição do Trail Santa Justa é uma prova que percorre trilhos e caminhos na serra de Santa<br>Justa e de Pias no concelho de Valongo, com início e fim Junto à Igreja de Santa Justa. </p>\n\n\n\n<p>Três provas de caracter competitivo (30km, 15 km, 10km) .</p>\n",
+  "description_short": "Trail desafiante pelos trilhos da serra de Santa Justa em Valongo",
+  "page": "https://stopandgo.net/events/trail-santa-justa-2024",
+  "slug": "trail-santa-justa-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

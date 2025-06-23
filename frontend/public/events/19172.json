@@ -1,0 +1,35 @@
+{
+  "id": 19172,
+  "name": "Corrida Nacional dos Professores 2022",
+  "location": "Praça do Império (Belém), Lisboa",
+  "coordinates": {
+    "lat": 38.6971694,
+    "lon": -9.2063788
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "5k"
+  ],
+  "images": [
+    "media/fbb2a12f93030af092ff8269fadfb74c"
+  ],
+  "start_date": "2022-10-22",
+  "end_date": "2022-10-23",
+  "circuit": [],
+  "description": "\n<p>A Federação Nacional dos Professores (FENPROF), em parceria com a Câmara Municipal de Lisboa e com a Associação de Atletismo de Lisboa, leva a efeito a organização da 4.ª Corrida Nacional dos Professores, no dia 22 de outubro de 2022.</p>\n\n\n\n<p>Este evento conta com um programa abrangente constituído por:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>uma prova de 10 km, de caráter competitivo,</li><li>uma prova de 5 km, de caráter participativo, na qual se pode correr ou caminhar,</li><li>corridas de convívio para os mais novos (dos 7 aos 15 anos de idade).</li></ul>\n",
+  "description_short": "Corrida solidária de professores pelas ruas de Lisboa com provas para todas as idades",
+  "page": "https://corridafenprof.sports4all.pt/",
+  "slug": "corrida-nacional-dos-professores-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Belém",
+  "district_code": 11
+}

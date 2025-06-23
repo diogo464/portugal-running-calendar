@@ -1,0 +1,34 @@
+{
+  "id": 24104,
+  "name": "Trilhos Da Cividade 2023",
+  "location": "Bagunte, Vila do Conde",
+  "coordinates": {
+    "lat": 41.3706421,
+    "lon": -8.6624913
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8226b75bbcf7781a6421efb7f0b07c1a"
+  ],
+  "start_date": "2023-10-22",
+  "end_date": "2023-10-23",
+  "circuit": [],
+  "description": "\n<p>A Comissão de Festas de Nª Sr.ª de Fátima &#8211; Bagunte, com o apoio da União de Freguesias de Bagunte, Ferreiró, Outeiro e Parada, Câmara Municipal de Vila do Conde e Bagunte Futebol Clube, organizam no próximo dia 22 de Outubro de 2023 o evento desportivo “Trilhos da Cividade” que tem como principal objetivo promover e estimular a prática desportiva ao ar livre. Serão percorridos os trilhos mais deslumbrantes e naturais da nossa terra incluindo, tal como o nome indica, a nossa Cividade de Bagunte. Nos Trilhos da Cividade integram o Trail de 18 kms e a Caminhada de 10 kms sendo apadrinhado pelo prestigiado atleta João Rodrigues. Venha passar um dia inesquecível em contacto com a Natureza!</p>\n\n\n",
+  "description_short": "Trail pela histórica Cividade de Bagunte com paisagens naturais de Vila do Conde",
+  "page": "https://www.sinctime.com/evento/168",
+  "slug": "trilhos-da-cividade-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila do Conde",
+  "administrative_area_level_3": "União das freguesias de Bagunte, Ferreiró, Outeiro Maior e Parada",
+  "district_code": 13
+}

@@ -1,0 +1,31 @@
+{
+  "id": 40535,
+  "name": "Caramulo Magic Trail 2025",
+  "location": "Tondela, Viseu",
+  "coordinates": {
+    "lat": 40.5170645,
+    "lon": -8.0802569
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/c8c7770af1bad9100929dfb5a242a961"
+  ],
+  "start_date": "2025-04-06",
+  "end_date": "2025-04-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O <strong>Caramulo Magic Trail</strong> é uma co-organização da Carlos Sá Nature Events® e o Município de Tondela, com o apoio das Freguesias de Guardão e S. João do Monte.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante na região do Caramulo com apoio municipal e local",
+  "page": "https://carlossanatureevents.com/pt/cmt",
+  "slug": "caramulo-magic-trail-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Tondela",
+  "administrative_area_level_3": "Tondela",
+  "district_code": 18
+}

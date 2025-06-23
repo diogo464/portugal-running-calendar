@@ -1,0 +1,35 @@
+{
+  "id": 20349,
+  "name": "65ª Volta a Paranhos 2022",
+  "location": "Paranhos, Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    500,
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/7a7f34cd6aa37b27c460686d63a2981e"
+  ],
+  "start_date": "2022-12-08",
+  "end_date": "2022-12-09",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>Sport Comércio e Salgueiros</strong>&nbsp;em conjunto com a&nbsp;<strong>Eventsport</strong>&nbsp;organizam a&nbsp;<strong>65ª edição Volta a Paranhos</strong>, com o objetivo de estimular a prática desportiva como elemento da promoção da saúde e da qualidade de vida na prova mais antiga do país.</p>\n\n\n\n<p>Realiza-se no dia 8 de dezembro de 2022, com início às 10h00, uma corrida de 500m direcionada para os mais pequenos, às 10h45 uma Corrida 10K e caminhada de 4 Km, que se pretende que seja uma verdadeira festa para os amantes de desporto. O evento conta com o apoio técnico da Associação de Atletismo do Porto, Câmara Municipal do Porto, ÁGORA Cultura e Desporto EM, Federação Portuguesa de Atletismo, Conselho Regional de Arbitragem e Polícia de Segurança Pública.</p>\n",
+  "description_short": "Volta a Paranhos histórica celebra desporto no Porto com corrida para todas as idades",
+  "page": "https://65voltaparanhos.eventsport.net/",
+  "slug": "volta-a-paranhos-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

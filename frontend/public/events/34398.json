@@ -1,0 +1,30 @@
+{
+  "id": 34398,
+  "name": "Corrida da Mãe 2024",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/8b8b0e404f853b55a073473780ea65c8"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "\n<p>Está a chegar a 2ª edição da corrida da mãe, um evento de homenagem a todas as mães e solidária com o nosso parceiro social casa são vicente!</p>\n\n\n\n<p>Com partida e chegada no Parque Ribeirinho do Oriente, o percurso desenrolar-se-á pela magnífica Av. Infante D. Henrique, na zona oriental de Lisboa.</p>\n\n\n\n<p>Animação não vai faltar, com música ao vivo, entretenimento para as crianças e outras surpresas!</p>\n\n\n",
+  "description_short": "Corrida solidária de homenagem às mães em Lisboa com percurso pela Av. Infante D. Henrique",
+  "page": "https://xistarca.pt/eventos/corrida-da-mae-2024",
+  "slug": "corrida-da-mae-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

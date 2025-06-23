@@ -1,0 +1,32 @@
+{
+  "id": 14787,
+  "name": "VII Corrida Vila Glória do Ribatejo 2022",
+  "location": "Salvaterra de Magos, Santarém",
+  "coordinates": {
+    "lat": 39.0272019,
+    "lon": -8.794182
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/e3dc3c62d6a47bb16bc4a6c54e9ae205"
+  ],
+  "start_date": "2022-05-15",
+  "end_date": "2022-05-16",
+  "circuit": [],
+  "description": "\n<p>VII Corrida Vila Glória do Ribatejo 2022</p>\n",
+  "description_short": "Corrida tradicional pela histórica Vila Glória do Ribatejo, a sétima edição do evento.",
+  "page": "https://www.trilhoperdido.com/evento/VII-Corrida-Vila-Gloria-do-Ribatejo",
+  "slug": "vii-corrida-vila-gloria-do-ribatejo-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "Salvaterra de Magos",
+  "district_code": 14
+}

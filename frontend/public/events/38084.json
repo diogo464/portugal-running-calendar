@@ -1,0 +1,33 @@
+{
+  "id": 38084,
+  "name": "Grande Prémio Internacional de Viseu 2024",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/242104a5f8faad09930a8b5033220455"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-09",
+  "circuit": [],
+  "description": "\n<p>Uma prova com história e tradição – 62 anos a correr !</p>\n\n\n\n<p>Um percurso de 10k para seniores e veteranos, partida às 10h15.</p>\n\n\n",
+  "description_short": "Corrida tradicional com 62 anos de história para seniores e veteranos",
+  "page": "https://waitastart.com/62gpiviseu2024/",
+  "slug": "grande-premio-internacional-de-viseu-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

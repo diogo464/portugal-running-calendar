@@ -1,0 +1,32 @@
+{
+  "id": 5962,
+  "name": "Grande Prémio de Atletismo de Mendiga 2021",
+  "location": "Mendiga, Porto de Mós",
+  "coordinates": {
+    "lat": 39.4984386,
+    "lon": -8.8482916
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/5b930a5487be49209f8885a8a238b613"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<p>33º Grande Prémio de Atletismo de Mendiga 2021, a mais antiga e mítica prova de Atletismo de Estrada do Concelho de Porto de Mós, está de volta! </p>\n\n\n\n<p>Prémios, sorteios e um excelente almoço não irão faltar! </p>\n",
+  "description_short": "Prova histórica de atletismo no Concelho de Porto de Mós com tradição consolidada",
+  "page": "https://www.recordepessoal.pt/evento/33grandeprmiodeatletismodemendiga",
+  "slug": "grande-premio-de-atletismo-de-mendiga-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Mendiga",
+  "district_code": 10
+}

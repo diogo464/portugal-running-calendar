@@ -1,0 +1,37 @@
+{
+  "id": 20809,
+  "name": "3º Grande Trail Secreto 2023",
+  "location": "Porto de Mós, Leiria",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000,
+    16000,
+    33000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7f4aa847bd76ed3584bbfc20a3581467"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A equipa de Trail do Grupo Recreativo da Corredoura organiza no dia 24 de Setembro de 2023, a 3ª edição do Grande Trail Secreto (G.T.S.), composto por 2 provas e 1 caminhada:</p>\n\n\n\n<p>G.T.S. CAMINHADA – caminhada com a distância de aproximadamente 12km;<br>G.T.S. CURTO – prova com a distância de aproximadamente 16km;<br>G.T.S. LONGO &#8211; prova com a distância de aproximadamente 33km;<br>O percurso do G.T.S é maioritariamente composto por trilhos, caminhos agrícola e estradas florestais inseridas no parque natural da Serra de Aire e Candeeiros (PNSAC) sendo a sua localização não revelada até ao início da prova. Se a organização entender que as condições climatéricas são adversas à segurança dos atletas ou que existem outras razões de natureza diversa que se incompatibilizam com o evento, os percursos poderão sofrer alterações ou, no limite, o evento pode ser suspenso ou anulado;</p>\n",
+  "description_short": "Trail misterioso pela Serra de Aire e Candeeiros com percurso secreto revelado apenas no dia da prova",
+  "page": "https://www.recordepessoal.pt/evento/3grandetrailsecretogts",
+  "slug": "grande-trail-secreto-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

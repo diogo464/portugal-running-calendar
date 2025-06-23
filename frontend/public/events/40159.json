@@ -1,0 +1,33 @@
+{
+  "id": 40159,
+  "name": "Grande Prémio Estarreja 2025",
+  "location": "Estarreja, Aveiro",
+  "coordinates": {
+    "lat": 40.7528385,
+    "lon": -8.5709856
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/9a8337d907a937d12cad41125aa7082e"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [],
+  "description": "\n<p>Estarreja já se habituou a receber esta prova de estrada, referência regional com provas que se adaptam a todas as idades e forma física. Venha fazer parte do pelotão e conhecer esta cidade portuguesa, em pleno distrito de Aveiro.</p>\n",
+  "description_short": "Corrida popular em Estarreja que promove desporto acessível para toda a família no distrito de Aveiro",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-estarreja-2025",
+  "slug": "grande-premio-estarreja-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Estarreja",
+  "administrative_area_level_3": "União das freguesias de Beduído e Veiros",
+  "district_code": 1
+}

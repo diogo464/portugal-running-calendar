@@ -1,0 +1,32 @@
+{
+  "id": 15000,
+  "name": "II Trail Serra dos Passos 2022",
+  "location": "Mirandela, Bragança",
+  "coordinates": {
+    "lat": 41.4853545,
+    "lon": -7.180871100000001
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000,
+    23000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/bdbcef4424b12f60d45bd2fe255bf8c6"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>O evento II Trail Serra dos Passos, realizar-se-á no dia 13 de novembro de 2022 na localidade dos Passos, Mirandela. Utiliza o percurso criado pelo grupo Mirandela a Correr. É constituído por uma prova competitiva de 10 e 23 quilómetros.<br>O evento é coorganizado pelo Grupo Mirandela a Correr sendo articulado com a Associação Atletismo de Bragança, FCMP (Skyrunning) e tendo como parceiros a Junta de Freguesia dos Passos e Câmara Municipal de Mirandela</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Mirandela com organização local e apoio regional",
+  "page": "https://stopandgo.net/event/?id=782",
+  "slug": "ii-trail-serra-dos-passos-2022",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mirandela",
+  "administrative_area_level_3": "Mirandela",
+  "district_code": 4
+}

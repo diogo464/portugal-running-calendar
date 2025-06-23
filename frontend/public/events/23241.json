@@ -1,0 +1,36 @@
+{
+  "id": 23241,
+  "name": "II Belas Cross Trail 2023",
+  "location": "Belas, Sintra",
+  "coordinates": {
+    "lat": 38.7763669,
+    "lon": -9.2642429
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    8500,
+    13000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/acc2a70ba16db1ab56d6d2ee2c2a3a0c"
+  ],
+  "start_date": "2023-07-09",
+  "end_date": "2023-07-10",
+  "circuit": [],
+  "description": "\n<p>O II Belas Cross Trail é organizado pela Associação FreeRunners.</p>\n\n\n\n<p><br>No dia 9 de Julho de 2023 decorrerão em simultâneo duas provas competitivas: Trail Longo 20k e Trail Curto 13 k e uma prova recreativa: a caminhada de 8,5k. É um evento que percorre os estradões e trilhos da Quinta da Fonteireira e o Belas Clube de Campo, num cenário natural que vale a pena conhecer.</p>\n",
+  "description_short": "Trail competitivo e caminhada em Belas, com percursos pela Quinta da Fonteireira e Belas Clube de Campo",
+  "page": "https://www.trilhoperdido.com/evento/II-Belas-Cross-Trail",
+  "slug": "ii-belas-cross-trail-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Queluz e Belas",
+  "district_code": 11
+}

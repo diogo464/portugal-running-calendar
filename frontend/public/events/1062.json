@@ -1,0 +1,38 @@
+{
+  "id": 1062,
+  "name": "3ª Edição Ultra Carrossel Planalto das Cesaredas 2020",
+  "location": "Reguengo Grande – concelho da Lourinhã",
+  "coordinates": {
+    "lat": 39.2812522,
+    "lon": -9.2175988
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    500,
+    5000,
+    11000,
+    13500,
+    27000,
+    54000
+  ],
+  "types": [
+    "trail",
+    "kids",
+    "relay"
+  ],
+  "images": [
+    "media/459239268041bb94c974c5a80cc883f1"
+  ],
+  "start_date": "2020-09-06",
+  "end_date": "2020-09-07",
+  "circuit": [],
+  "description": "<p><strong>Data:</strong><br />\n06 de Setembro de 2020</p>\n<p><strong>Data limite de inscrições:</strong><br />\n23 de Agosto de 2020</p>\n<p><strong>Localidade:</strong><br />\nReguengo Grande – concelho da Lourinhã</p>\n<p><strong>Valores de Inscrição</strong></p>\n<p><strong>Fase 1</strong> &#8211; até 30 de Junho 2020 – PROMOCIONAL!!!<br />\nUltra 54 Km+ – 23 €<br />\nDuplas 2 x 27 Km – 16 €<br />\nEstafetas 4 x 13,5 Km – 11€<br />\nMini Trail 11 Km – 10 €<br />\nCaminhada 11 Km – 8 €<br />\nKids Trail 500 metros – Gratuito</p>\n<p><strong>Fase 2</strong> &#8211; De 01 de Julho a 31 de Julho 2020<br />\nUltra 54 Km+ – 25 €<br />\nDuplas 2 x 27 Km – 18 €<br />\nEstafetas 4 X 13,5 Km – 13€<br />\nMini Trail 11 Km – 12 €<br />\nCaminhada 11 Km– 10 €<br />\nKids Trail 500 metros – Gratuito</p>\n<p><strong>Fase 3</strong> &#8211; De 01 de Agosto a 23 de Agosto 2020<br />\nUltra 54 Km+ – 26 €<br />\nDuplas 2 x 27 Km – 19 €<br />\nEstafetas 4 X 13,5 Km – 14€<br />\nMini Trail 11 Km – 13 €<br />\nCaminhada 11 Km – 10 €<br />\nKids Trail 500 metros – Gratuito</p>\n<p>Almoço Atleta &#8211; €4,00<br />\nAlmoço Acompanhante &#8211; €5,00</p>\n",
+  "description_short": "Trail de várias distâncias no Reguengo Grande com opções para Ultra, Duplas, Estafetas e Caminhada",
+  "page": "https://www.trilhoperdido.com/evento/Ultra-Carrossel-do-Planalto-das-Cesaredas-2020",
+  "slug": "3a-edicao-ultra-carrossel-planalto-das-cesaredas-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "Reguengo Grande",
+  "district_code": 11
+}

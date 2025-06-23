@@ -1,0 +1,33 @@
+{
+  "id": 35893,
+  "name": "Corrida Cidade de Alverca 2024",
+  "location": "Alverca Alverca, Lisboa",
+  "coordinates": {
+    "lat": 38.9022048,
+    "lon": -9.0397427
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/800ea86267a3bfaf8f9fff2a2631acd9"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-04",
+  "circuit": [],
+  "description": "\n<p>A Associação Portugal Talentus, com o apoio da Câmara Municipal de Vila Franca de Xira, da Junta de Freguesia de Alverca do Ribatejo e Sobralinho e da Força Aérea Portuguesa e OGMA, promove a realização da 7ª Corrida Cidade de Alverca, no dia 03 de NOVEMBRO de 2024. No contexto do evento, realizar-se-á também a Caminhada nas Pistas de Alverca e vários treinos de preparação para a Corrida.</p>\n",
+  "description_short": "Corrida urbana em Alverca com apoio institucional e militar, integrando treinos preparatórios",
+  "page": "https://xistarca.pt/eventos/7a-corrida-cidade-de-alverca-2024",
+  "slug": "corrida-cidade-de-alverca-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "União das freguesias de Alverca do Ribatejo e Sobralinho",
+  "district_code": 11
+}

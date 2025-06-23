@@ -1,0 +1,33 @@
+{
+  "id": 30627,
+  "name": "Corvus Trail 2024",
+  "location": "Abrantes, Santarém",
+  "coordinates": {
+    "lat": 39.4621054,
+    "lon": -8.1986484
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/121925c7a9da61dea317b9071878310c"
+  ],
+  "start_date": "2024-03-16",
+  "end_date": "2024-03-17",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Corvus Trail Branco Gaspar é um evento de trail running, que percorre trilhos e caminhos no concelho de Abrantes enquadrado nas vertentes de Trail Longo, Trail Curto, Mini Trail, Trail Kids e Caminhada.</p>\n\n\n\n<p>O “Corvus Trail” é uma prova Certificada pela ATRP – Associação de Trail Running de Portugal que integra os Circuitos Nacionais de Trail e Trail Sprint. Esta prova é também reconhecida pela ITRA – International Trail Running Association, é uma prova UTMB World Séries Qualifier e integra o CTR – Circuito de Trail do Ribatejo</p>\n",
+  "description_short": "Trail técnico pelos caminhos históricos de Abrantes com variedade de provas para todos os níveis",
+  "page": "https://www.queroir.pt/corvustrail-brancogaspar2024",
+  "slug": "corvus-trail-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Abrantes",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

@@ -1,0 +1,33 @@
+{
+  "id": 36016,
+  "name": "1º Sunset Desportivo Santa Bárbara de Nexe 2024",
+  "location": "Santa Barbara de Nexe, Faro",
+  "coordinates": {
+    "lat": 37.1035956,
+    "lon": -7.963840599999998
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/7490924554a9c798ef627516f0a57118"
+  ],
+  "start_date": "2024-07-06",
+  "end_date": "2024-07-06",
+  "circuit": [],
+  "description": "\n<p>Os participantes terão à sua disposição duas distâncias: 6 km e 10 km, por veredas, trilhos e terra batida, com partida e chegada à Junta de Freguesia de Santa Bárbara de Nexe.<br>Trata-se de um evento de cariz não competitivo, que visa promover a prática de atividade física e o convívio. A aldeia de Santa Bárbara está no centro de várias atividades, sejam artísticas, populares ou de natureza, esta última devida à vasta riqueza de veredas e percursos pedestres</p>\n\n\n",
+  "description_short": "Trail convívio por veredas e trilhos em Santa Bárbara de Nexe com duas opções de percurso",
+  "page": "https://meutempo.pt/prova?sunsetsantabarbaranexe",
+  "slug": "1o-sunset-desportivo-santa-barbara-de-nexe-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": "Santa Bárbara de Nexe",
+  "district_code": 8
+}

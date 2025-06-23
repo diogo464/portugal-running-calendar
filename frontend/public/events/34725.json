@@ -1,0 +1,29 @@
+{
+  "id": 34725,
+  "name": "VieiraFit Race 2024",
+  "location": "Vieira do Minho, Braga",
+  "coordinates": {
+    "lat": 41.6343218,
+    "lon": -8.141619799999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/65f7df6dbb1433b036a69c9f90b56e9d"
+  ],
+  "start_date": "2024-06-22",
+  "end_date": "2024-06-23",
+  "circuit": [],
+  "description": "\n<p>A VieiraFit Race é uma prova que combina corrida com obstáculos urbanos e é também uma prova de carácter social, ajudando assim uma instituição de Vieira do Minho com 10% do valor das inscrições</p>\n\n\n",
+  "description_short": "Corrida solidária com obstáculos urbanos em Vieira do Minho que apoia instituição local",
+  "page": "https://waitastart.com/vieriafitrace24/",
+  "slug": "vieirafit-obstacle-race-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vieira do Minho",
+  "administrative_area_level_3": "Vieira do Minho",
+  "district_code": 3
+}

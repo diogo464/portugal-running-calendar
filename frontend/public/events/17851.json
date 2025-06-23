@@ -1,0 +1,33 @@
+{
+  "id": 17851,
+  "name": "9ª São Silvestre da Batalha 2022",
+  "location": "Batalha, Leiria",
+  "coordinates": {
+    "lat": 39.6583864,
+    "lon": -8.8241787
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/38bb2b134216bff9c62cc6714d934220"
+  ],
+  "start_date": "2022-12-17",
+  "end_date": "2022-12-18",
+  "circuit": [],
+  "description": "\n<p>No próximo dia <strong>17 de Dezembro de 2022</strong>, realiza-se a<strong> 9ª SÃO SILVESTRE DA BATALHA,</strong> organizada pelo <strong>Atlético Clube Batalha</strong>, em parceria com a <strong>Câmara Municipal da Batalha</strong> e com o apoio da <strong>Associação Distrital de Atletismo de Leiria.</strong></p>\n",
+  "description_short": "São Silvestre natalícia com paragem histórica na vila da Batalha",
+  "page": "https://www.recordepessoal.pt/evento/9sosilvestredebatalha",
+  "slug": "9o-sao-silvestre-da-batalha-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Batalha",
+  "administrative_area_level_3": "Batalha",
+  "district_code": 10
+}

@@ -1,0 +1,34 @@
+{
+  "id": 34020,
+  "name": "Corrida Murça 2024",
+  "location": "Murça, Vila Real",
+  "coordinates": {
+    "lat": 41.410051,
+    "lon": -7.4489531
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/d9d102a112187f1c271e977361adaa0a"
+  ],
+  "start_date": "2024-03-23",
+  "end_date": "2024-03-23",
+  "circuit": [],
+  "description": "\n<p>A Corrida dos 10kms terá abastecimento líquido aos 5kms e líquido e sólido no final. A Caminhada terá abastecimento líquido e sólido no final.</p>\n\n\n",
+  "description_short": "Prova urbana com abastecimentos estratégicos para corredores e caminhantes",
+  "page": "https://acorrer.pt/eventos/info/3448",
+  "slug": "corrida-murca-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Murça",
+  "administrative_area_level_3": "Murça",
+  "district_code": 17
+}

@@ -1,0 +1,30 @@
+{
+  "id": 40992,
+  "name": "OCR Fireman Almeida 2025",
+  "location": "Almeida, Guarda",
+  "coordinates": {
+    "lat": 40.7254048,
+    "lon": -6.905594199999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/9bacc7a79e55f83f749aa95c0d8679a2"
+  ],
+  "start_date": "2025-05-31",
+  "end_date": "2025-06-01",
+  "circuit": [],
+  "description": "\n<p>A Almeida OCR FIREMAN é uma prova que combina corrida com obstáculos urbanos, organizada pela Associação Terras Dom Pedro Afonso – Fireman Challenge, e conta com o apoio da seguinte entidade pública: Câmara Municipal de Almeida.</p>\n",
+  "description_short": "Corrida com obstáculos urbanos na histórica vila de Almeida, organizada pelos bombeiros locais",
+  "page": "https://www.queroir.pt/ocrfiremanalmeida2025",
+  "slug": "ocr-fireman-almeida-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Almeida",
+  "administrative_area_level_3": "Almeida",
+  "district_code": 9
+}

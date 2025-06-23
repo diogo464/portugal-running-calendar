@@ -1,0 +1,32 @@
+{
+  "id": 1217,
+  "name": "Corta-Mato do NAZA 2020",
+  "location": "Abóboda, Cascais",
+  "coordinates": {
+    "lat": 38.7259454,
+    "lon": -9.3338541
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    5500
+  ],
+  "types": [
+    "cross-country"
+  ],
+  "images": [
+    "media/fe5b539025ef2e4462ddb5232afe3c16"
+  ],
+  "start_date": "2020-01-25",
+  "end_date": "2020-01-26",
+  "circuit": [],
+  "description": "<div><span style=\"color: #0000ff;\">Dia</span>: 19 Janeiro 2020</div>\n<div>\n<div><span style=\"font-family: arial, sans-serif; font-size: medium;\">9º Corta-Mato do NAZA</span></div>\n<div><span style=\"font-family: arial, sans-serif; font-size: medium;\"><span style=\"color: #0000ff;\">Local</span>: Abóboda | Cascais</span></div>\n</div>\n<div><span style=\"font-size: medium;\"><span style=\"font-family: arial, sans-serif;\"><span style=\"font-family: arial, sans-serif; font-size: medium;\"><span style=\"color: #0000ff;\">Distância:</span> 100 | 5.5 Km<br />\n</span></span></span></p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div><span style=\"color: #0000ff;\">Inscrição: </span><span style=\"font-family: arial, sans-serif; font-size: medium;\">Gratuita</span></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n",
+  "description_short": "9º Corta-Mato do NAZA em ambiente rural na zona de Abóboda, Cascais",
+  "page": "https://www.cascais.pt/projeto/trofeu-de-atletismo-de-cascais",
+  "slug": "corta-mato-do-naza-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "São Domingos de Rana",
+  "district_code": 11
+}

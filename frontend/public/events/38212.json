@@ -1,0 +1,33 @@
+{
+  "id": 38212,
+  "name": "São Silvestre Vila do Conde 2024",
+  "location": "Vila do Conde, Porto",
+  "coordinates": {
+    "lat": 41.3517302,
+    "lon": -8.7478619
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/d63957132d9516a7d1d32463027f04fa"
+  ],
+  "start_date": "2024-12-21",
+  "end_date": "2024-12-22",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 21 de dezembro de 2024 pelas 17h, a prova começa e acaba nos Jardins da Avenida Júlio Graça , o tempo máximo de duração desta prova é de 2 horas.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail noturno de Natal nos Jardins da Avenida Júlio Graça",
+  "page": "https://ssilvestreviladoconde2024.statusmarathon.net",
+  "slug": "sao-silvestre-vila-do-conde-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila do Conde",
+  "administrative_area_level_3": "Vila do Conde",
+  "district_code": 13
+}

@@ -1,0 +1,30 @@
+{
+  "id": 26768,
+  "name": "Stephens Urban Trail 2023",
+  "location": "Marinha Grande, Leiria",
+  "coordinates": {
+    "lat": 39.7503802,
+    "lon": -8.931805899999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2023-10-07",
+  "end_date": "2023-10-08",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>1ª edição da prova &#8220;Stephens urban trail&#8221;&nbsp;</strong>é uma&nbsp;<strong>Organização dos Bombeiros Voluntários da Marinha Grande</strong>, do&nbsp;<strong>Clube Atletismo de Marinha Grande e Município da Marinha Grande.</strong></p>\n\n\n\n<p>A prova realiza-se no dia <strong>7 de outubro de 2023</strong>.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Este evento é uma mistura de corrida, obstáculos, cultura e diversão.</li>\n\n\n\n<li>Ao longo dos cerca de 5kms desta aventura iremos ter passagens pelo interior de alguns edifícios históricos, escadas entre outras diversões.</li>\n\n\n\n<li>As provas serão disputadas na tipologia de contrarrelógio, onde os corredores poderão ser agrupados (escalões e géneros misturados), consoante o número de inscritos, sendo dadas as partidas de cada grupo com intervalos de 30 segundos ou 1 minuto. Será vencedor o atleta com menor tempo registado à chegada.</li>\n\n\n\n<li>A recolha de tempos será através de chip e os resultados irão ser projetados durante o evento, permitindo aos atletas um acompanhamento constante das classificações.</li>\n</ul>\n\n\n\n<p>Na prova&nbsp;<strong>“Stephens urban trail&#8221;</strong>, está aberta a participação a todas as pessoas que não possuam contraindicações para a prática desportiva. Aos menores de 18 anos é exigida uma declaração de um responsável familiar ou tutor a autorizar a sua participação. Por questões de organização e segurança, esta edição irá estar limitada a&nbsp;<strong>1000 inscrições</strong>.</p>\n\n\n",
+  "description_short": "Trail urbano histórico pelos edifícios da Marinha Grande com obstáculos e passagens culturais",
+  "page": "https://www.recordepessoal.pt/evento/stephensurbantrail",
+  "slug": "stephens-urban-trail-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

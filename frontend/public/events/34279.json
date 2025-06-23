@@ -1,0 +1,29 @@
+{
+  "id": 34279,
+  "name": "2º Canicross &#8220;Rota da Castanha&#8221; 2024",
+  "location": "Sernancelhe, Viseu",
+  "coordinates": {
+    "lat": 40.8998417,
+    "lon": -7.4900188
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a879853d083a89945187921d1f019523"
+  ],
+  "start_date": "2024-03-23",
+  "end_date": "2024-03-24",
+  "circuit": [],
+  "description": "\n<p>Este evento é organizado pela Câmara Municipal de Sernancelhea prática desportiva na região, nomeadamente do mushing, trazendo ao concelho de Sernancelhe, atletas nacionais e estrangeiros para que se possa divulgar, desenvolver e partilhar a experiência desta modalidade</p>\n\n\n",
+  "description_short": "Corrida de mushing organizada pela autarquia para promover o desporto em Sernancelhe",
+  "page": "https://acorrer.pt/eventos/info/3428",
+  "slug": "2o-canicross-rota-da-castanha-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sernancelhe",
+  "administrative_area_level_3": "União das freguesias de Sernancelhe e Sarzeda",
+  "district_code": 18
+}

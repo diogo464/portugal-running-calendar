@@ -1,0 +1,34 @@
+{
+  "id": 23186,
+  "name": "Corrida E Caminhada Pela Vida &#8211; Arada 2023",
+  "location": "Arada, Ovar",
+  "coordinates": {
+    "lat": 40.9039462,
+    "lon": -8.6105703
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/9f293d8dd3450baf6a153f48e8401e9c"
+  ],
+  "start_date": "2023-05-01",
+  "end_date": "2023-05-02",
+  "circuit": [],
+  "description": "\n<p>O Arada Atlético Clube, em parceria com a Liga Portuguesa Contra o Cancro organiza a II edição &#8211; Corrida e Caminhada PELA VIDA.</p>\n\n\n\n<p>As Corridas e Caminhada realizam-se no dia 1 de maio de 2023, com início pelas 9h30, com partida no Complexo Desportivo de Arada</p>\n\n\n",
+  "description_short": "Corrida solidária contra o cancro em Arada com apoio da Liga Portuguesa Contra o Cancro",
+  "page": "https://www.queroir.pt/corrida-e-caminhada-pela-vida---arada-2023",
+  "slug": "corrida-e-caminhada-pela-vida-arada-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ovar",
+  "administrative_area_level_3": "União das freguesias de Ovar, São João, Arada e São Vicente de Pereira Jusã",
+  "district_code": 1
+}

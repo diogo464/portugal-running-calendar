@@ -1,0 +1,35 @@
+{
+  "id": 23843,
+  "name": "Ecologic Trail Run Azores 2023",
+  "location": "Ribeira Grande, São Miguel",
+  "coordinates": {
+    "lat": 37.8226777,
+    "lon": -25.5238789
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    21000,
+    38000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/59911ce95a99ec1d5e412877e0f6aac5"
+  ],
+  "start_date": "2023-11-18",
+  "end_date": "2023-11-19",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Ecologic Trail Run Azores – Ribeira Grande é um evento da responsabilidade organizativa<br>do Clube Desportivo os Metralhas, com o apoio e colaboração da Câmara Municipal da<br>Ribeira Grande.</p>\n\n\n\n<p>ECOLOGIC 38k | 21k<br>Esta prova de uma beleza ímpar, os atletas irão percorrer trilhos magníficos onde serão<br>transportados para tempos em que os Micaelenses usavam as chamadas “canadas” para<br>chegar aos moinhos de água e aos seus campos de cultivo, percorrendo “grotas” e fazendo<br>a ligação entre as freguesias. Passando por trilhos de pé posto e chegando a encostas que<br>nos levam a locais únicos na ilha de São Miguel, tais como, as plantações de chá na Gorreana<br>(as únicas na Europa), a isolada praia da Viola, vários miradouros, onde os atletas são postos<br>à prova com os acentuados declives que são bem familiares aos residentes locais, passando<br>por inúmeras cascatas, tais como: a cascata da Gruta, cascata Porto formoso, cascata do<br>Salto do Cabrito, entre outros pontos de interesse histórico, cultural e de grande beleza<br>natural.</p>\n\n\n\n<p><br>ECOLOGICaminhada &#8211; NÃO COMPETITIVA<br>Esta é uma distância destinada às pessoas que gostem de praticar desporto e queiram caminhar<br>por percursos na natureza. Estres irão percorrer alguns dos trilhos mais bonitos nas imediações<br>da cidade da Ribeira Grande, partindo das Caldeiras da Ribeira grande, passando pela cascata<br>do Salto do Cabrito, chegando à cidade da Ribeira Grande.<br>Não haverá entrega de troféus</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos trilhos históricos e naturais da ilha de São Miguel, nos Açores, com passagem pelas plantações de chá da Gorreana e cascatas magníficas",
+  "page": "https://stopandgo.net/events/ecologic-trail-run-azores-2023",
+  "slug": "ecologic-trail-run-azores-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Ribeira Grande",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

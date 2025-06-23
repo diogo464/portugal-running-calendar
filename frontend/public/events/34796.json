@@ -1,0 +1,32 @@
+{
+  "id": 34796,
+  "name": "Corrida Atlântica Comporta Tróia &#8211; 2024",
+  "location": "Melides - Tróia",
+  "coordinates": {
+    "lat": 38.147037,
+    "lon": -8.7291925
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/2a1009a5a6fc769ef5d8e7d56608d1f7"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-08",
+  "circuit": [],
+  "description": "\n<p>A CORRIDA ATLÂNTICA COMPORTA &#8211; TRÓIA (15km) é uma organização da Câmara Municipal de Grândola e vai decorrer a 10ª edição no dia 7 de julho 2024, nas praias de Concelho de Grândola, em simultâneo com a Ultra Maratona Atlântica Melides &#8211; Tróia.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida atlética nas praias de Grândola entre Melides e Tróia com 10ª edição apoiada pela câmara municipal",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/137230-corrida_atlantica_comporta_troia_2024-troia_grandola/",
+  "slug": "corrida-atlantica-comporta-troia-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Grândola",
+  "administrative_area_level_3": "Melides",
+  "district_code": 15
+}

@@ -1,0 +1,34 @@
+{
+  "id": 34273,
+  "name": "Trail Alte Algarve 2024",
+  "location": "Alte, Loulé",
+  "coordinates": {
+    "lat": 37.2361971,
+    "lon": -8.1763125
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000,
+    14000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c2ed4f36d71802df3368a254a29520ef"
+  ],
+  "start_date": "2024-04-25",
+  "end_date": "2024-04-26",
+  "circuit": [],
+  "description": "\n<p>O 8.º TRAIL ALTE Algarve é promovido e organizado pela Escola Profissional de Alte e realiza-se no dia 25 de abril. A Escola Profissional de Alte é uma instituição, que por missão prossegue fins de interesse público. <br></p>\n\n\n\n<p>O Trail / Caminhada é constituído por um único nível de 14 Km, com um percurso independente.<br>O Passeio Pedestre pela aldeia de Alte e zona circundante, guiado pelos alunos do Curso Profissional de Técnico/a de Turismo, da Escola Profissional Cândido Guerreiro, tem cerca de 5 km e está limitado a 150 pessoas.</p>\n",
+  "description_short": "Trail desafiante pela aldeia de Alte no Algarve, organizado pela Escola Profissional local",
+  "page": "https://acorrer.pt/eventos/info/3386",
+  "slug": "trail-alte-algarve-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Alte",
+  "district_code": 8
+}

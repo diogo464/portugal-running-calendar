@@ -1,0 +1,35 @@
+{
+  "id": 39832,
+  "name": "Assiste a Mexer 2025",
+  "location": "Cortes, Leiria",
+  "coordinates": {
+    "lat": 39.7011898,
+    "lon": -8.784624299999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    6000,
+    9000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ee80298536363cc39a6f224afa7477b1"
+  ],
+  "start_date": "2025-04-18",
+  "end_date": "2025-04-19",
+  "circuit": [],
+  "description": "\n<p>O trail e caminhada<strong>&nbsp;ASSISTE A MEXER</strong>, é organizado pelos&nbsp;<strong>Trilhos Loucos da Reixida</strong>, com o apoio da&nbsp;<strong>União de Freguesias Leiria, Pousos, Barreira e Cortes</strong>&nbsp;realizando-se no dia&nbsp;<strong>18 de abril&nbsp;</strong><strong>de 2025 na serra da Senhora do Monte.</strong></p>\n\n\n\n<p>Este evento é composto por 2 provas competitiva e por 2 caminhadas não competitivas.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail +/- 15 km</li>\n\n\n\n<li>Mini trail +/-9km</li>\n\n\n\n<li>Caminhada +/-9km</li>\n\n\n\n<li>Caminhada curta +/-6km</li>\n</ul>\n\n\n",
+  "description_short": "Trail desafiante pela Serra da Senhora do Monte, organizado pelos Trilhos Loucos da Reixida em Leiria",
+  "page": "https://www.recordepessoal.pt/evento/5edicaoassisteamexer",
+  "slug": "assiste-a-mexer-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

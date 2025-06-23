@@ -1,0 +1,29 @@
+{
+  "id": 13663,
+  "name": "G. D. Concha Azul 2022",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d1c7afd4a646c731355fee7ec6b676b2"
+  ],
+  "start_date": "2022-03-20",
+  "end_date": "2022-03-21",
+  "circuit": [],
+  "description": "\n<p>O presente documento tem por objetivo definir e regular o programa adotado pelo <strong>Grupo Desportivo Concha Azul</strong> para a monitorização de participantes. Este regulamento só deverá ser aplicado na prova <strong>“1ºTrail G. D. Concha Azul 2022</strong>”, organizada pela <strong>G.D.C.A de S. Martinho do Porto</strong>. O objetivo desta prova é fomentar a prática de atividade física e estilos de vida saudáveis contribuindo para uma causa solidária (os fundos angariados revertem para o Grupo Desportivo Concha Azul).</p>\n",
+  "description_short": "Trail solidário com objetivo de promover atividade física em São Martinho do Porto",
+  "page": "https://www.recordepessoal.pt/evento/1trailgdconchaazul",
+  "slug": "g-d-concha-azul-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

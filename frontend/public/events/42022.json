@@ -1,0 +1,33 @@
+{
+  "id": 42022,
+  "name": "Grande Prémio de Atletismo João Silva 2025",
+  "location": "Praia de Mira, Mira",
+  "coordinates": {
+    "lat": 40.4557388,
+    "lon": -8.7962259
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/1f7c5c4f14725f4b560d6c920cc0cb77"
+  ],
+  "start_date": "2025-06-10",
+  "end_date": "2025-06-10",
+  "circuit": [],
+  "description": "\n<p>O Centro Cultural da Praia de Mira, volta a organizar o Grande Prémio de Atletismo Concelho de Mira. O evento contará com a parceria da Câmara Municipal de Mira e da Junta de Freguesia de Praia de Mira para voltar a assumir-se como evento de referência na região, no segmento de corrida popular.</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida popular organizada pelo Centro Cultural da Praia de Mira com apoio da autarquia local",
+  "page": "https://lap2go.com/pt/event/gp-mira-2025",
+  "slug": "grande-premio-de-atletismo-joao-silva-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Mira",
+  "administrative_area_level_3": "Praia de Mira",
+  "district_code": 6
+}

@@ -1,0 +1,32 @@
+{
+  "id": 20355,
+  "name": "24H A Correr Mem Martins 2023",
+  "location": "Mem Martins, Sintra",
+  "coordinates": {
+    "lat": 38.8066296,
+    "lon": -9.3294833
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "run",
+    "marathon"
+  ],
+  "images": [
+    "media/9b90e1f1783ee8600a4f02d87a93384c"
+  ],
+  "start_date": "2023-05-13",
+  "end_date": "2023-05-14",
+  "circuit": [],
+  "description": "\n<p>A 24 Horas a Correr de Mem Martins – Sintra, é uma de corrida de resistência, que se realizará em Mem Martins – Sintra, e que será composta por uma corrida de longa duração. Para além da corrida de 24 horas tem outras opções, 12, 6 e 3 horas e ainda a Maratona Noturna!</p>\n",
+  "description_short": "Prova de resistência inovadora em Mem Martins com múltiplas opções de duração, incluindo desafio de 24 horas",
+  "page": "https://www.24hlx.com/",
+  "slug": "24-horas-a-correr-de-mem-martins-sintra-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "Algueirão-Mem Martins",
+  "district_code": 11
+}

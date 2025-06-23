@@ -1,0 +1,35 @@
+{
+  "id": 23683,
+  "name": "13ª Edição Dos Trilhos Loucos Da Reixida 2023",
+  "location": "Reixida, Leiria",
+  "coordinates": {
+    "lat": 39.68177650000001,
+    "lon": -8.780749199999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    9000,
+    12000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7b8ab6d55c8a1030cefde23ef6bf4253"
+  ],
+  "start_date": "2023-06-25",
+  "end_date": "2023-06-26",
+  "circuit": [],
+  "description": "\n<p>Os&nbsp;<strong>Trilhos Loucos da Reixida (TLR)</strong>&nbsp;são um evento de corrida na natureza, vertente de trail running, organizados pela&nbsp;<strong>Associação Cultural, Recreativa e Desportiva (ACRD) da Reixida</strong>. Os TLR são compostos por duas provas&nbsp;<strong>(Trilho e MiniTrail) e uma caminhada</strong>, que decorrem nas serras da&nbsp;<strong>Sr.ª do Monte e da Maúnça, Leiria.</strong></p>\n\n\n\n<p><strong>Apresentação das Provas</strong></p>\n\n\n\n<p>O evento é composto por duas provas e uma caminhada, que percorrerão trilhos e caminhos nas serras da Sr.ª do Monte e Maúnça, com início e fim na localidade de Reixida, Leiria (percursos circulares):</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail 19km</li>\n\n\n\n<li>MiniTrail 12km</li>\n\n\n\n<li>Caminhada 9km</li>\n</ul>\n\n\n",
+  "description_short": "Trail running desafiante pelas serras da Sr.ª do Monte e Maúnça em Leiria, com percursos circulares organizados pela ACRD da Reixida",
+  "page": "https://www.recordepessoal.pt/evento/13edicaodostrilhosloucosdareixida",
+  "slug": "13a-edicao-dos-trilhos-loucos-da-reixida-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

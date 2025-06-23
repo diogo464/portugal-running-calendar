@@ -1,0 +1,30 @@
+{
+  "id": 36518,
+  "name": "Corrida ao Casal da Lebre 2024",
+  "location": "Moite, Marinha Grande",
+  "coordinates": {
+    "lat": 39.8025201,
+    "lon": -8.9129352
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/80ae8b85590dc6ed9805b00ac035c0e3"
+  ],
+  "start_date": "2024-10-12",
+  "end_date": "2024-10-12",
+  "circuit": [],
+  "description": "\n<p>O <strong>Clube Desportivo Moitense</strong>, com o apoio da sua Secção de Atletismo, vai organizar no dia <strong>28 de Setembro de 2024</strong> pelas <strong>17 horas e 30 minutos </strong>uma corrida de Atletismo denominada<strong> 6ª Corrida ao Casal da Lebre</strong>.</p>\n\n\n",
+  "description_short": "Corrida de atletismo ao final da tarde pelos caminhos do Casal da Lebre",
+  "page": "https://www.recordepessoal.pt/evento/6corridaaocasaldalebre",
+  "slug": "corrida-ao-casal-da-lebre-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Marinha Grande",
+  "administrative_area_level_3": "Marinha Grande",
+  "district_code": 10
+}

@@ -1,0 +1,29 @@
+{
+  "id": 17120,
+  "name": "Dark Side Night Trail 2022",
+  "location": "Abitureiras, Santarém",
+  "coordinates": {
+    "lat": 39.3148294,
+    "lon": -8.7821951
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0c8e12823d6d050d51021eddded55a3d"
+  ],
+  "start_date": "2022-09-03",
+  "end_date": "2022-09-04",
+  "circuit": [],
+  "description": "\n<p>A I Edição do Dark Side Night Trail é uma Co-organização entre a Equipa Trilho Perdido Eventos / Imporlux, Câmara Municipal de Santarém, Centro de Convívio Cultura e Desporto de Abitureiras e a empresa de Cronomentragens e Organização de Eventos Desportivos “Trilho Perdido”, com o apoio da Junta de Freguesia de Abitureiras e de várias entidades.</p>\n\n\n\n<p><br>Será realizada no dia 03 de setembro de 2022 (sábado), em Abitureiras/Santarém, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para os participantes.</p>\n",
+  "description_short": "Trail nocturno pelas zonas rurais de Santarém com organização local",
+  "page": "https://www.trilhoperdido.com/evento/dark-side-night-trail",
+  "slug": "dark-side-night-trail-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "Abitureiras",
+  "district_code": 14
+}

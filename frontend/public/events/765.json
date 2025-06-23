@@ -1,0 +1,36 @@
+{
+  "id": 765,
+  "name": "Desafia a Ladeira Mesh Nazareth",
+  "location": "Nazaré, Leiria",
+  "coordinates": {
+    "lat": 39.6015562,
+    "lon": -9.0677509
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    600,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk",
+    "relay"
+  ],
+  "images": [
+    "media/f7e5f2691d65a72f74292f719d0b8c04"
+  ],
+  "start_date": "2020-01-26",
+  "end_date": "2020-01-27",
+  "circuit": [],
+  "description": "<p>O percurso será feito pela Ladeira do Sitio na Nazaré. Grau de dificuldade média/alto. O percurso poderá estar escorregadio na subida da Ladeira e na encosta do Sitio, o que implica ao atleta o máximo de cuidado.</p>\n<p>O percurso da Corrida Contra-Relógio será sinalizado adequadamente, e o percurso da caminhada será orientada por guias. Por questões de segurança, os participantes da caminhada não estão autorizados a ultrapassar o 1º guia.</p>\n<p>3º Desafia a Ladeira Mesh Nazareth consistirá em três provas, a Corrida Contra-Relógio, Estafetas Mistas de aproximadamente 600 metros, e uma Caminhada de aproximadamente 5 km.</p>\n<p>A prova consistirá em séries a definir consoante o número de atletas com partidas intervaladas de 3 em 3 minutos. Os 10 melhores tempos masculino e feminino serão apurados para uma finalíssima da qual sairá o/a vencedor/a. A prova das Estafetas mistas de 2 elementos (1 masculino e 1 feminino) consistirá numa prova única dividida em série consoante o número de participantes.</p>\n<p>A caminhada terá início às 10:00 e a prova Corrida Contra-Relógio às 11 Horas.</p>\n",
+  "description_short": "Trail desafiante pela Ladeira do Sítio na Nazaré, com subidas técnicas e percurso escorregadio",
+  "page": "https://www.prozis.com/pt/pt/evento/3-desafia-a-ladeira-mesh-nazareth",
+  "slug": "desafia-a-ladeira-mesh-nazareth",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Nazaré",
+  "administrative_area_level_3": "Nazaré",
+  "district_code": 10
+}

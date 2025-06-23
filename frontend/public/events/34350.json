@@ -1,0 +1,34 @@
+{
+  "id": 34350,
+  "name": "Trilhos do Alecrim 2024",
+  "location": "Porto de Mós",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6079366bbe1a576926a115190e26b2e6"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [],
+  "description": "\n<p>A prova denominada&nbsp;<strong>Trilhos do Alecrim by NeoTech&nbsp;</strong>é organizada pelo&nbsp;<strong>GRD Serro Ventoso</strong>&nbsp;e conta com o apoio técnico dos<strong>&nbsp;Trilhos do Castelejo</strong></p>\n\n\n\n<p>Será realizado a&nbsp;<strong>28 de Abril de 2024</strong>&nbsp;independentemente das condições climatéricas do dia desde que o organizador entenda que não há riscos acrescidos pelas mesmas para este tipo de eventos.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Contará para o Troféu Trail Porto de Mós</strong></li>\n\n\n\n<li>O local de partida e meta é na sede do GRD de Serro Ventoso (onde funcionará o secretariado)</li>\n\n\n\n<li>O evento é composto por duas provas: Mini Trail com cerca de 10km (K10) e Trail Curto com cerca de 20km (K20)</li>\n\n\n\n<li>Em paralelo e não competitivo haverá uma caminhada com cerca de 10km.</li>\n</ul>\n",
+  "description_short": "Trail pela região de Serro Ventoso com duas distâncias competitivas e caminhada paralela",
+  "page": "https://www.recordepessoal.pt/evento/trilhosdoalecrimbyneotech",
+  "slug": "trilhos-do-alecrim-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

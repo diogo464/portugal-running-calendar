@@ -1,0 +1,32 @@
+{
+  "id": 17296,
+  "name": "Corrida Hovione 2022",
+  "location": "Loures",
+  "coordinates": {
+    "lat": 38.8297603,
+    "lon": -9.166369699999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/2bf071cd97e8bc4cb6836b170499cd29"
+  ],
+  "start_date": "2022-10-02",
+  "end_date": "2022-10-03",
+  "circuit": [],
+  "description": "<p><span lang=\"PT\">A Hovione, com o apoio da </span><span lang=\"PT\">Câmara Municipal de Loures</span><span lang=\"PT\"> </span><span lang=\"PT\">vai organizar a 5ª Edição da Corrida Hovione. A corrida vai decorrer em Loures, no próximo dia 2 de Outubro de 2022, com o objetivo de promover a prática de atividades desportivas e uma vida saudável, assim como, dar a conhecer a Hovione.</span></p>\n",
+  "description_short": "Corrida empresarial solidária pela cidade de Loures com apoio municipal",
+  "page": "https://xistarca.pt/eventos/corrida-hovione-2022",
+  "slug": "corrida-hovione-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Loures",
+  "district_code": 11
+}

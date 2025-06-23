@@ -1,0 +1,33 @@
+{
+  "id": 17356,
+  "name": "3º Trilho dos Arneiros 2022",
+  "location": "Vila Nova da Rainha, Azambuja",
+  "coordinates": {
+    "lat": 39.0505079,
+    "lon": -8.935573699999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    6000,
+    15000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7f6e58753ebf533facfe9c64dec090cf"
+  ],
+  "start_date": "2022-10-29",
+  "end_date": "2022-10-30",
+  "circuit": [],
+  "description": "\n<p>O 3º Trilho dos Arneiros 2022 é um evento de TrailRunning que decorre na Freguesia de Vila Nova da Rainha, concelho de Azambuja e que percorre trilhos e caminhos florestais.</p>\n\n\n\n<p>A União Desporto e Recreio é a entidade organizadora da terceira edição do evento Trilho dos Arneiros que decorrerá no dia 29 de outubro de 2022 em Vila Nova da Rainha, independentemente das condições climatéricas do dia, desde que a organização entenda que não ofereçam risco aos participantes.</p>\n\n\n\n<p>A 3ª edição do evento Trilho dos Arneiros será constituída por 2 distâncias:<br>Trilho dos Arneiros-15km;<br>Caminhada dos Arneiros 6km.</p>\n",
+  "description_short": "Trail Running por trilhos e caminhos florestais na Azambuja, com duas opções de percurso",
+  "page": "https://www.trilhoperdido.com/evento/3-trilho-dos-arneiros",
+  "slug": "3o-trilho-dos-arneiros-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Azambuja",
+  "administrative_area_level_3": "Vila Nova da Rainha",
+  "district_code": 11
+}

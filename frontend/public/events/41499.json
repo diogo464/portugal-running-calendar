@@ -1,0 +1,33 @@
+{
+  "id": 41499,
+  "name": "Trail do Cabouqueiro 2025",
+  "location": "Ataíja de Cima, Aljubarrota",
+  "coordinates": {
+    "lat": 39.55371179999999,
+    "lon": -8.9046658
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    8000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/d84f7a26a2245c3f3e26a41a172ec40f"
+  ],
+  "start_date": "2025-05-18",
+  "end_date": "2025-05-18",
+  "circuit": [],
+  "description": "\n<p>A prova denominada&nbsp;<strong>TRAIL DO CABOUQUEIRO</strong>&nbsp;é composta por um&nbsp;<strong>mini-trail iniciação</strong>, de carater não competitivo e uma&nbsp;<strong>caminhada lúdica</strong>.</p>\n\n\n\n<p>Decorrerá por caminhos carreiros e trilhos na envolvente da aldeia&nbsp;<strong>Ataíja De Cima.</strong></p>\n\n\n\n<p>A organização é da responsabilidade da&nbsp;<strong>ASSOCIAÇÃO DE PAIS E ENCARREGADOS DE EDUCAÇAO ESCOLA E JARDIM DE INFANCIA ATAIJA DE CIMA</strong>, tem a colaboração da&nbsp;<strong>Camara Municipal de Alcobaça, junta de freguesia de Aljubarrota, Salão Cultural Ataijense</strong>, empresas da região, comunidade escolar e restante comunidade.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>O mini-trail tem a distância aproximada de 12 Km e a caminhada 8 Km aproximadamente.</strong></li>\n</ul>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário por caminhos rurais na aldeia de Ataíja de Cima, organizado pela associação de pais local e autarquias",
+  "page": "https://www.recordepessoal.pt/evento/traildocabouqueiro2025",
+  "slug": "trail-do-cabouqueiro-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Aljubarrota",
+  "district_code": 10
+}

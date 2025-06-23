@@ -1,0 +1,34 @@
+{
+  "id": 42317,
+  "name": "Trail dos Carreteiros 2025",
+  "location": "Santo Tirso, Porto",
+  "coordinates": {
+    "lat": 41.3431376,
+    "lon": -8.4738078
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    12000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/99013a23aa9217f2067cd57c1ff8cd5a"
+  ],
+  "start_date": "2025-10-05",
+  "end_date": "2025-10-06",
+  "circuit": [],
+  "description": "\n<p>O evento terá início às 9:00h no parque de Lazer da Vila de Roriz e percorrerá um trajeto por estradas locais, trilhos e caminhos rurais na Vila de Roriz e em freguesias vizinhas, sendo o percurso de 12 km e 22 km aproximadamente de dificuldade média, haverá também uma caminhada.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail de dificuldade média por caminhos rurais e trilhos na Vila de Roriz",
+  "page": "https://meutempo.pt/prova?viiitrailcarreteiros",
+  "slug": "trail-dos-carreteiros-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Santo Tirso",
+  "district_code": 13
+}

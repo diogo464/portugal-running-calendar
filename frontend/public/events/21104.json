@@ -1,0 +1,34 @@
+{
+  "id": 21104,
+  "name": "II Trail Das Amendoeiras 2023",
+  "location": "São João da Pesqueira, Viseu Pesqueira",
+  "coordinates": {
+    "lat": 41.14773810000001,
+    "lon": -7.405053300000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    12000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/371e5223414f1b8f8fd3f90384660c4d"
+  ],
+  "start_date": "2023-03-05",
+  "end_date": "2023-03-06",
+  "circuit": [],
+  "description": "\n<p>O DURIUS Atlético Clube da Pesqueira em parceria com o a Associação de Atletismo de Vila Real (AAVR), Município de S. João da Pesqueira, União de Freguesias de S. João da Pesqueira e Várzea de Trevões, Mateus &amp; Sequeira Vinhos, S.A., CapitalDouro &#8211; Associação, Brites Aguiar Lda, Qunita dos Selores, Caixa de Crédito Agrícola Mútua Douro e Côa e Talho São Salvador, levará a cabo no dia 5 de março uma atividade designada de II TRAIL DAS AMENDOEIRAS DURIUS PESQUEIRA.<br>O evento foi pensado para que os participantes pudessem desfrutar das paisagens de uma das mais belas e emblemáticas regiões de Portugal – o Douro Vinhateiro. Mas foi também objetivo da organização dar a conhecer um pouco da história, da cultura e da gastronomia da região.<br>Os participantes poderão desafiar-se pelos trilhos do Vale do Douro (previamente marcado e fitado pela organização) numa viagem que também os levará pela história remota de Portugal, pelas paisagens e sabores da região e os fará experienciar o calor e o bem receber das gentes do douro.<br>A prova de Trail, contém aproximadamente 25 km e contará para o circuito regional de Trail, iniciativa da Associação de Atletismo de Vila Real (AAVR),<br>O Mini-Trail, apresenta aproximadamente 12,0 km de percurso.<br>A Caminhada oferece aproximadamente 8,0 km onde em simultâneo podem tirar uma foto nos locais identificados como pontos de interesse, juntamente com a publicação da foto nas redes sociais Facebook ou Instagram identificando o Durius Atlético Clube da Pesqueira e nos locais definidos no mapa os outros organizadores e parceiros.</p>\n\n\n",
+  "description_short": "Trail das Amendoeiras pelo emblemático Vale do Douro, revelando paisagens, história e cultura da região vinhateira",
+  "page": "https://acorrer.pt/eventos/info/3060",
+  "slug": "ii-trail-das-amendoeiras-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São João da Pesqueira",
+  "administrative_area_level_3": "União das freguesias de São João da Pesqueira e Várzea de Trevões",
+  "district_code": 18
+}

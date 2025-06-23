@@ -1,0 +1,29 @@
+{
+  "id": 42375,
+  "name": "Trail &#8211; ACR Calvariense 2025",
+  "location": "Calvaria, Porto de Mós",
+  "coordinates": {
+    "lat": 39.6429619,
+    "lon": -8.863997399999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b00978d75ece0e8fe9d701056a8aaec2"
+  ],
+  "start_date": "2025-08-02",
+  "end_date": "2025-08-02",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>1.º Trail &#8211; ACR Calvariense</strong>&nbsp;é organizado pela&nbsp;<strong>Associação Centro Recreativo Calvariense (ACRC)&nbsp;</strong>com apoio da&nbsp;<strong>Câmara Municipal de Porto de Mós e da Junta de Freguesia de Calvaria de Cima e está inserido no Troféu Trail de Porto de Mós</strong></p>\n\n\n\n<p>Realiza-se a&nbsp;<strong>2 de agosto de 2025</strong>, com partida e chegada no&nbsp;<strong>Pinhal do Povo de Calvaria de Cima, sito na Rua do Campo da Bola, Calvaria de Cima</strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail inaugural em Calvaria de Cima integrado no Troféu Trail de Porto de Mós, com organização local e apoio municipal",
+  "page": "https://www.recordepessoal.pt/evento/1trail-acrcalvariense",
+  "slug": "trail-acr-calvariense-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Calvaria de Cima",
+  "district_code": 10
+}

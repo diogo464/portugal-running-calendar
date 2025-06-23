@@ -1,0 +1,30 @@
+{
+  "id": 22323,
+  "name": "Trilhos Do Pastor Kids Run 2023",
+  "location": "Batalha, Leiria",
+  "coordinates": {
+    "lat": 39.6583864,
+    "lon": -8.8241787
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/97b787aeb246dea667bfd9782f768066"
+  ],
+  "start_date": "2023-04-22",
+  "end_date": "2023-04-23",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.recordepessoal.pt/evento/trilhosdopastorkidsrun",
+  "slug": "trilhos-do-pastor-kids-run-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Batalha",
+  "administrative_area_level_3": "Batalha",
+  "district_code": 10
+}

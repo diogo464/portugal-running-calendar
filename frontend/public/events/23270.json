@@ -1,0 +1,36 @@
+{
+  "id": 23270,
+  "name": "V Corrida Do Porto De Sines 2023",
+  "location": "Sines, Setúbal",
+  "coordinates": {
+    "lat": 37.9571555,
+    "lon": -8.860890699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    400,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/9e20c7ecc8ec20661a5cce3184bc80e7"
+  ],
+  "start_date": "2023-06-24",
+  "end_date": "2023-06-25",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo e Cultural da Administração dos Portos de Sines e do Algarve, S.A.,<br>promoverá a realização da “Corrida do Porto de Sines”, no próximo dia 24 de junho de 2023,<br>pelas 19h00m, enquadrada nas comemorações do Dia do Porto de Sines. O evento contará com<br>a vertente de corrida, caminhada e uma corrida da pequenada.</p>\n\n\n\n<p>Distâncias<br>&#8211; A corrida terá a distância aproximada de 10 km com partida e chegada na Avenida<br>Vasco da Gama em Sines.<br></p>\n\n\n\n<p>&#8211; A caminhada terá a distância aproximada de 5 km, com andamentos livres e sem fins<br>competitivos.</p>\n\n\n\n<p>&#8211; A corrida da pequenada terá a distância aproximada de 400m e sem fins competitivos</p>\n\n\n",
+  "description_short": "Corrida do Porto de Sines celebra data especial com prova para todos os escalões na Avenida Vasco da Gama",
+  "page": "https://acorrer.pt/eventos/info/3177",
+  "slug": "v-corrida-do-porto-de-sines-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sines",
+  "administrative_area_level_3": "Sines",
+  "district_code": 15
+}

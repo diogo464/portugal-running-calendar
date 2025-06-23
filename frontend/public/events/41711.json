@@ -1,0 +1,27 @@
+{
+  "id": 41711,
+  "name": "Trilhar Santa Marta 2025",
+  "location": "Santa Marta de Penaguião, Vila Real",
+  "coordinates": {
+    "lat": 41.2098807,
+    "lon": -7.784071899999999
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2025-06-07",
+  "end_date": "2025-06-07",
+  "circuit": [],
+  "description": "\n<p>O evento Trilhar Santa Marta representa uma forte aposta do Município de Santa Marta de Penaguião na valorização de um dos produtos turísticos mais procurados pelos amantes da natureza, da paisagem e do património.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail pela região vinícola de Santa Marta de Penaguião com foco na valorização do turismo de natureza",
+  "page": "https://lap2go.com/pt/event/trilhar-santa-marta-2025",
+  "slug": "trilhar-santa-marta-2025",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Santa Marta de Penaguião",
+  "administrative_area_level_3": "União das freguesias de Lobrigos (São Miguel e São João Baptista) e Sanhoane",
+  "district_code": 17
+}

@@ -1,0 +1,29 @@
+{
+  "id": 17173,
+  "name": "Trilhos do Granito 2022",
+  "location": "Ponte de Lima, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7622565,
+    "lon": -8.5832339
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8a5c61281a7872297cbff4d253989540"
+  ],
+  "start_date": "2022-09-04",
+  "end_date": "2022-09-05",
+  "circuit": [],
+  "description": "\n<p>Os Trilhos do Granito surge com o objetivo de divulgar o património histórico e cultural da Freguesia de Arcozelo, bem como a promoção à prática do desporto e turismo de Natureza na localidade. O nome do evento é um tributo à população de Arcozelo que tem como principal atividade económica a extração e beneficiação artesanal do granito.</p>\n",
+  "description_short": "Trail promocional do heritage cultural de Arcozelo com foco na tradição de extração de granito",
+  "page": "https://lap2go.com/pt/event/trilhos-do-granito-2022",
+  "slug": "trilhos-do-granito-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Arca e Ponte de Lima",
+  "district_code": 16
+}

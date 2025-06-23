@@ -1,0 +1,30 @@
+{
+  "id": 42391,
+  "name": "Paiva Montemuro Trail 2025",
+  "location": "Parada de Ester, Castro Daire",
+  "coordinates": {
+    "lat": 40.9304969,
+    "lon": -8.0537908
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/fc19eb4d2aca2933ed6bd208c5ae16f0"
+  ],
+  "start_date": "2025-11-02",
+  "end_date": "2025-11-02",
+  "circuit": [],
+  "description": "\n<p>O Paiva Montemuro Trail é um evento desportivo de trail running da responsabilidade organizativa do Grupo Desportivo de Parada e da Casa do Povo de Parada de Ester, com sede no Município de Castro Daire,<br>que se realizará no dia 2 de novembro de 2025.<br></p>\n\n\n",
+  "description_short": "Trail desafiante pela região montanhosa de Castro Daire",
+  "page": "https://stopandgo.net/events/paiva-montemuro-trail-2025",
+  "slug": "paiva-montemuro-trail-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Parada de Ester",
+  "district_code": 18
+}

@@ -1,0 +1,32 @@
+{
+  "id": 23177,
+  "name": "Corrida da Liberdade 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/f30c59a0007ab1711ba7ccc1d7360617"
+  ],
+  "start_date": "2023-04-25",
+  "end_date": "2023-04-26",
+  "circuit": [],
+  "description": "\n<p>No dia 25 Abril, a alegria e a festa colectiva saem mais uma vez à rua. O desejo e o prazer da participação mantêm viva a “Corrida da Liberdade“ e a sua simbologia, nesse dia em que saudamos os 49 anos da Revolução dos Cravos.</p>\n\n\n\n<p><br>A PRAÇA dos RESTAURADORES irá de novo ser o ponto de chegada de todas as provas e receberá todos aqueles que mantêm e querem vivos os ideais de Abril.<br>Participar na Corrida da Liberdade é uma das maneiras de comemorar Abril e a Revolução dos Cravos.<br>Assim, façamos desta corrida uma grande festa popular, participando nela ou apoiando-a na sua chegada.</p>\n",
+  "description_short": "Corrida da Liberdade celebra 49 anos do 25 de Abril com festa popular na Praça dos Restauradores",
+  "page": "http://www.accl.com.pt/corrida/",
+  "slug": "corrida-da-liberdade-2023-2",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

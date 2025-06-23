@@ -1,0 +1,29 @@
+{
+  "id": 41293,
+  "name": "Grande Prémio de Atletismo Paulo Ferreira 2025",
+  "location": "Pinheiro da Bemposta, Oliveira de Azeméis",
+  "coordinates": {
+    "lat": 40.7843537,
+    "lon": -8.490186500000002
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/a99a74ef9f88b2fdaa65c57e82fe585c"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p>O Grande Prémio de Atletismo Paulo Ferreira é o principal evento do ano do Grupo Juvenil Pinheiro da Bemposta, que assim homenageia um dos incontornáveis nomes do atletismo oliveirense.</p>\n",
+  "description_short": "Corrida de atletismo em homenagem a Paulo Ferreira na região de Oliveira de Azeméis",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-paulo-ferreira-2025",
+  "slug": "grande-premio-de-atletismo-paulo-ferreira-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "Pinheiro da Bemposta",
+  "district_code": 1
+}

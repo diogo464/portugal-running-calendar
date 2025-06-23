@@ -1,0 +1,33 @@
+{
+  "id": 29269,
+  "name": "Corrida de Ano Novo Esposende 2024",
+  "location": "Esposende, Braga",
+  "coordinates": {
+    "lat": 41.5323512,
+    "lon": -8.7830801
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/dcb48df579a2dbfb12338860d177f359"
+  ],
+  "start_date": "2024-01-13",
+  "end_date": "2024-01-14",
+  "circuit": [],
+  "description": "\n<p>Traga para o novo ano novas ambições e renovados objetivos e entre eles inclua a Corrida de Ano Novo, em Esposende.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional de Ano Novo na zona costeira de Esposende",
+  "page": "https://lap2go.com/pt/event/corrida-de-ano-novo-esposende-2024",
+  "slug": "corrida-de-ano-novo-esposende-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Esposende",
+  "administrative_area_level_3": "União das freguesias de Esposende, Marinhas e Gandra",
+  "district_code": 3
+}

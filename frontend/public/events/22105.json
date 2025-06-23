@@ -1,0 +1,34 @@
+{
+  "id": 22105,
+  "name": "Meia Maratona das Cantarinhas 2023",
+  "location": "Bragança, Portugal",
+  "coordinates": {
+    "lat": 41.8061131,
+    "lon": -6.756737999999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/d89b54590a3bd539a31a1c18554704ed"
+  ],
+  "start_date": "2023-05-14",
+  "end_date": "2023-05-15",
+  "circuit": [],
+  "description": "\n<p>A “MEIA-MARATONA DAS CANTARINHAS” é uma prova de atletismo organizada pelo Município de Bragança e pelo Ginásio Clube de Bragança que terá lugar no dia 14/05/2023 com início às 09:00 horas, com partida e chegada na Praça do Município, junto à Câmara Municipal de<br>Bragança.</p>\n",
+  "description_short": "Meia maratona urbana pelas ruas históricas de Bragança com partida e chegada na Praça do Município",
+  "page": "http://events.portimer.pt/eventos/meia-maratona-cantarinhas-2023",
+  "slug": "meia-maratona-das-cantarinhas-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Bragança",
+  "administrative_area_level_3": "União das freguesias de Sé, Santa Maria e Meixedo",
+  "district_code": 4
+}

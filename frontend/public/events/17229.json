@@ -1,0 +1,31 @@
+{
+  "id": 17229,
+  "name": "Santa Maria Maior Challenge Up 2022",
+  "location": "Martim Moniz, Lisboa",
+  "coordinates": {
+    "lat": 38.7160206,
+    "lon": -9.1367671
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    250
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/8a96db82a59e241334521c1a0e2de4f9"
+  ],
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-12",
+  "circuit": [],
+  "description": "\n<p>O Martim Moniz&nbsp;recebe a&nbsp;<strong>1ª edição do Santa Maria Maior Challenge Up&nbsp;– Escadinhas da Saúde!</strong></p>\n\n\n\n<p>Desafia-te, ou melhor, delicia-te com um percurso localizado no coração de Lisboa. São&nbsp;<strong>250 metros</strong>&nbsp;nada planos, havendo uma&nbsp;<strong>inclinação total de 53 metros</strong>&nbsp;e&nbsp;<strong>287&nbsp;degraus</strong>&nbsp;que vais ter pela frente nesta prova…&nbsp;<strong>Contamos contigo!</strong></p>\n",
+  "description_short": "Desafio urbano de escadinhas no coração histórico de Lisboa com subida íngreme de 287 degraus",
+  "page": "https://xistarca.pt/eventos/challenge-up-escadinhas-da-saude-2022",
+  "slug": "santa-maria-maior-challenge-up-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Santa Maria Maior",
+  "district_code": 11
+}

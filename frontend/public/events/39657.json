@@ -1,0 +1,34 @@
+{
+  "id": 39657,
+  "name": "Corrida Solidária NEM/AAC 2025",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/11e69f898a6f0006a899b3070e9d4054"
+  ],
+  "start_date": "2025-04-05",
+  "end_date": "2025-04-06",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>IV Corrida Solidária</strong>&nbsp;é um evento desportivo organizado pelo&nbsp;<strong>Núcleo de Estudantes de Medicina da Associação Académica de Coimbra (NEM/AAC)</strong>, com o apoio da&nbsp;<strong>Câmara Municipal de Coimbra</strong>, da&nbsp;<strong>Associação Académica de Coimbra</strong>&nbsp;e da Recorde Pessoal, responsável pela organização técnica do evento.</p>\n\n\n\n<p>Serão realizados dois eventos competitivos, uma&nbsp;<strong>Corrida de 10 km</strong>&nbsp;e outra de&nbsp;<strong>5 km</strong>, para fins competitivos e lúdicos.</p>\n\n\n\n<p>Quem pretender, poderá fazer um trajeto de&nbsp;<strong>5 km de caminhada</strong>&nbsp;que ocorrerá simultaneamente à corrida, para fins lúdicos.</p>\n\n\n\n<p>As diversas modalidades terão partida e chegada na cidade de Coimbra, no dia <strong>5 de abril</strong>.</p>\n\n\n",
+  "description_short": "Corrida solidária pelos estudantes de Medicina de Coimbra em apoio a uma causa social",
+  "page": "https://www.recordepessoal.pt/evento/ivcorridasolidarianem-aac",
+  "slug": "corrida-solidaria-nem-aac-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

@@ -1,0 +1,30 @@
+{
+  "id": 36606,
+  "name": "Trail por Terras da Baronia 2024",
+  "location": "Alvito, Beja",
+  "coordinates": {
+    "lat": 38.2558735,
+    "lon": -7.991930099999999
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/6cc76bb3bf128320f329548b6f9e609d"
+  ],
+  "start_date": "2024-10-05",
+  "end_date": "2024-10-06",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Alvito e o Grupo Desportivo Baronia, com o apoio das Juntas das Freguesias, de Alvito e Vila Nova da Baronia, e da Associação de Atletismo de Beja vão organizar, no próximo dia 05 de OUTUBRO de 2024, o 2º TRAIL ‘por terras da Baronia’.</p>\n\n\n",
+  "description_short": "Trail desafiante por terras da Baronia no Alentejo",
+  "page": "https://acorrer.pt/eventos/info/3610",
+  "slug": "trail-por-terras-da-baronia-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Alvito",
+  "administrative_area_level_3": "Alvito",
+  "district_code": 2
+}

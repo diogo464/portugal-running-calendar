@@ -1,0 +1,36 @@
+{
+  "id": 20491,
+  "name": "Trail Coração Do Ribatejo 2023",
+  "location": "Chamusca, Santarém",
+  "coordinates": {
+    "lat": 39.3564086,
+    "lon": -8.4786825
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    11000,
+    18000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/690e86de407a82e5b16e50e675f87f33"
+  ],
+  "start_date": "2023-04-30",
+  "end_date": "2023-05-01",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 2ª Edição do Trail Coração do Ribatejo irá ser realizada com o apoio de várias entidades e cuja a organização será da responsabilidade da Chamusca Trail, secção da União Desportiva da Chamusca.<br>A realização deste evento tem como principais objetivos a divulgação e promoção do Trail na região e a fomentação de hábitos saudáveis junto das populações. A charneca ribatejana, é a base dos nossos trilhos com vista para a magnifica lezíria.</p>\n\n\n\n<p><br>A 2ª Edição do Trail Coração do Ribatejo será realizada no dia 30 de Abril (domingo), em Chamusca, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para os participantes.</p>\n\n\n\n<p><br>Será constituído por duas provas de carácter competitivo: “Trail Longo – K28”, “Trail Curto – K18”, para além de uma Caminhada/Mini Trail de aproximadamente 11 Kms.</p>\n",
+  "description_short": "Trail desafiante pela charneca ribatejana com vista para a lezíria",
+  "page": "https://www.trilhoperdido.com/evento/2-Trail-Coracao-do-Ribatejo",
+  "slug": "trail-coracao-do-ribatejo-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Chamusca",
+  "administrative_area_level_3": "União das freguesias da Chamusca e Pinheiro Grande",
+  "district_code": 14
+}

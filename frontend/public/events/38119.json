@@ -1,0 +1,36 @@
+{
+  "id": 38119,
+  "name": "Trail das Andorinhas 2024",
+  "location": "Póvoa de Lanhoso, Braga",
+  "coordinates": {
+    "lat": 41.5784784,
+    "lon": -8.2689012
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000,
+    15000,
+    26000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a2e0e1b051ce0f60525e7e6e1df18e06"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-09",
+  "circuit": [],
+  "description": "\n<p>Evento organizado pelo GRUPO DESPORTIVO DA GOMA, em parceria com o Município da Póvoa de Lanhoso.</p>\n\n\n\n<p>Distâncias: Trail Longo – 26Kms<br>Trail Curto 15kms<br>Caminhada – 5</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela região da Póvoa de Lanhoso, organizado pelo Grupo Desportivo da Goma em colaboração com o município local",
+  "page": "https://www.sinctime.com/evento/302",
+  "slug": "trail-das-andorinhas-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Póvoa de Lanhoso",
+  "administrative_area_level_3": "Póvoa de Lanhoso (Nossa Senhora do Amparo)",
+  "district_code": 3
+}

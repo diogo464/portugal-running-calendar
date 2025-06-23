@@ -1,0 +1,33 @@
+{
+  "id": 34106,
+  "name": "Corrida do Dragão 2024",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/92cb2199ed43e6afbaecc9e2c54ddf92"
+  ],
+  "start_date": "2024-09-08",
+  "end_date": "2024-09-09",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n\n<p>A Corrida do Dragão, tem lugar na cidade do Porto, com organização da GlobalSport e apoio oficial do FC Porto, da Câmara Municipal do Porto e da Ágora.</p>\n\n\n\n<p>Serão duas as corridas:</p>\n\n\n\n<p>&#8211; Corrida do Dragão, prova com cerca de 10km, para participantes nascidos em 2005 e anos anteriores.</p>\n\n\n\n<p>&#8211; Caminhada do Dragão, prova com cerca de 5 km, destinada a todos os participantes. Só poderão participar os atletas devidamente inscritos.</p>\n\n\n\n<p></p>\n\n\n\n<p><a href=\"https://resultados.stopandgo.pro/1426/Individual\" target=\"_blank\" rel=\"noopener\">RESULTADOS</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">Preços</h2>\n\n\n\n<p><strong>Até de 31 Maio 2023:<br>5km – 10€ | 10km – 15€<br><br>1 de Junho a 3 de Setembro:<br>5km – 14€ | 10km – 20€&nbsp;</strong><strong><br><br>Última Semana<br>19 de Setembro a 22 de Setembro:<br>5km – 20€ | 10km – 30€</strong></p>\n\n\n\n<h2 class=\"wp-block-heading\">Percurso</h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"910\" src=\"https://www.portugalrunning.com/wp-content/uploads/2024/02/image-1024x910.png\" alt=\"\" class=\"wp-image-37034\" srcset=\"https://www.portugalrunning.com/wp-content/uploads/2024/02/image-1024x910.png 1024w, https://www.portugalrunning.com/wp-content/uploads/2024/02/image-300x267.png 300w, https://www.portugalrunning.com/wp-content/uploads/2024/02/image-768x683.png 768w, https://www.portugalrunning.com/wp-content/uploads/2024/02/image-600x533.png 600w, https://www.portugalrunning.com/wp-content/uploads/2024/02/image.png 1082w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida do Dragão nas ruas do Porto com apoio oficial do FC Porto e Câmara Municipal",
+  "page": "https://marginalanoite.pt/",
+  "slug": "corrida-do-dragao-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

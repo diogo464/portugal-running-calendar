@@ -1,0 +1,35 @@
+{
+  "id": 39409,
+  "name": "Trilhos dos Calceteiros 2025",
+  "location": "Fanhões, Loures",
+  "coordinates": {
+    "lat": 38.8922525,
+    "lon": -9.1732936
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    17000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/be20b24b63a881f1f03c7a39232a63a3"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [],
+  "description": "\n<p>Os Trilhos dos Calceteiros são organizados pela Junta de Freguesia de Fanhões e conta com o apoio dos Bombeiros Voluntários de Fanhões e do Clube de Caçadores de Fanhões. Irá realizar-se no dia 16 de março de 2025. Trata-se de um evento desportivo de carácter lúdico e competitivo que tem por objetivo divulgar e promover a prática desportiva, em especial a modalidade de trail running e dar a conhecer as localidades onde o evento se desenrola.</p>\n\n\n\n<p><br>✓ Trail de 31 km (aproximadamente);<br>✓ Trail Curto de 17 km (aproximadamente);<br>✓ Caminhada de 10km (aproximadamente).</p>\n",
+  "description_short": "Trail pelos caminhos tradicionais de Fanhões com apoio local dos bombeiros e clube de caçadores",
+  "page": "https://acorrer.pt/eventos/info/3728",
+  "slug": "trilhos-dos-calceteiros-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Fanhões",
+  "district_code": 11
+}

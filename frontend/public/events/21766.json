@@ -1,0 +1,33 @@
+{
+  "id": 21766,
+  "name": "Porto Moniz Extreme 2023",
+  "location": "Porto Moniz, Ilha da Madeira",
+  "coordinates": {
+    "lat": 32.8659619,
+    "lon": -17.1673851
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    13000,
+    22000,
+    51000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3b5fdbd9d0c34dcc8c51ec17092ba712"
+  ],
+  "start_date": "2023-09-16",
+  "end_date": "2023-09-17",
+  "circuit": [],
+  "description": "\n<p>Tendo a beleza natural de Porto Moniz como pano de fundo, a morfologia do norte da Madeira como ingrediente picante e o adn que nos caracteriza, dá origem a uma prova desafiante, onde tu e a natureza têm uns segredos a revelar!</p>\n\n\n\n<p>Percursos:<br>Sky Ultra 51k &#8211; 4650 D+<br>Skyrace 22K &#8211; 1700 D+<br>Mini Sky 13K &#8211; 800 D+</p>\n",
+  "description_short": "Trail desafiante pelo norte da Madeira com paisagens únicas de Porto Moniz",
+  "page": "https://stopandgo.net/events/porto-moniz-extreme-2023",
+  "slug": "porto-moniz-extreme-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

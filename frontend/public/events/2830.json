@@ -1,0 +1,29 @@
+{
+  "id": 2830,
+  "name": "ALUT – Algarviana Ultra Trail 2021",
+  "location": "Cabo de São Vicente, Sagres",
+  "coordinates": {
+    "lat": 37.0233333,
+    "lon": -8.994444399999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/848c59e32790b1f386d52a1ba38ea9a8"
+  ],
+  "start_date": "2021-11-25",
+  "end_date": "2021-11-26",
+  "circuit": [],
+  "description": "\n<p>A edição 2021 do ALUT – Algarviana Ultra Trail – tem inicio quinta-feira, dia 25 de novembro, pelas 16h30 no Cabo de São Vicente em Sagres. A entrega de prémios será pelas 14h30 do dia 28 de Novembro em Alcoutim.</p>\n\n\n\n<p>Pelo caminho os atletas irão percorrer 300Km pela Via Algarviana, trilhos seculares de uma imensurável beleza.</p>\n\n\n\n<p>Porque o ALUT não se explica, sente-se… desperta todos os sentidos que há em ti e vem descobrir o segredo mais bem guardado da Europa.</p>\n",
+  "description_short": "Trail épico de 300Km pelo interior algarvio, ligando Sagres a Alcoutim através de trilhos históricos e paisagens deslumbrantes",
+  "page": "https://alut.pt/prova/inscricoes2021/",
+  "slug": "alut-algarviana-ultra-trail-2021",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Vila do Bispo",
+  "administrative_area_level_3": "Sagres",
+  "district_code": 8
+}

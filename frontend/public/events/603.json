@@ -1,0 +1,34 @@
+{
+  "id": 603,
+  "name": "Trilho das Dores 2020",
+  "location": "Abitureiras, Santarém",
+  "coordinates": {
+    "lat": 39.3148294,
+    "lon": -8.7821951
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    12000,
+    17000,
+    27000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/18383b3bb52e60b6cd2db06bb6cf4e3e"
+  ],
+  "start_date": "2020-06-28",
+  "end_date": "2020-06-29",
+  "circuit": [],
+  "description": "<p><strong>Localidade:</strong><br />\nAbitureiras (Santarém)<br />\n<strong><em>Coordenadas GPS</em></strong>: 39º18 53&#8220;N 08º46`56&#8220;W</p>\n<p><strong>Data limite de inscrição:</strong><br />\n03 de Abril de 2020</p>\n<p><strong>Distâncias:</strong><br />\nTrail Longo &#8211; 27 K<br />\nTrail Curto &#8211;  17 K<br />\nCaminhada &#8211; 12 K</p>\n",
+  "description_short": "Trail técnico pelas paisagens rurais de Abitureiras em Santarém",
+  "page": "https://trilhoperdido.com/evento/7-Trail-Running-Trilho-das-Dores",
+  "slug": "trilho-das-dores-2020",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "Abitureiras",
+  "district_code": 14
+}

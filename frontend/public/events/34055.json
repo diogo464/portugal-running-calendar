@@ -1,0 +1,33 @@
+{
+  "id": 34055,
+  "name": "Corrida das Pontes 2024",
+  "location": "Coruche, Santarém",
+  "coordinates": {
+    "lat": 38.9596619,
+    "lon": -8.52473
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    3000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/96b90698232b266d7daf0354d51f56fa"
+  ],
+  "start_date": "2024-05-26",
+  "end_date": "2024-05-27",
+  "circuit": [],
+  "description": "\n<p>O Serviço Desporto do Município de Coruche, com a colaboração técnica do Trilho Perdido,<br>levam a efeito no próximo dia 26 de Maio a 18.ª Corrida das Pontes, com uma extensão de 10Km<br>e a 18ª Corrida da Família com uma extensão de 3Km. Estes dois eventos estão integrados na<br>FICOR, Feira Internacional da Cortiça.</p>\n",
+  "description_short": "Corrida tradicional em Coruche no âmbito da Feira Internacional da Cortiça",
+  "page": "https://www.trilhoperdido.com/evento/Corrida-das-Pontes-2024",
+  "slug": "corrida-das-pontes-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Coruche",
+  "administrative_area_level_3": "União das freguesias de Coruche, Fajarda e Erra",
+  "district_code": 14
+}

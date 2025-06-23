@@ -1,0 +1,29 @@
+{
+  "id": 34413,
+  "name": "Grande Prémio Atletismo Charneca da Caparica 2024",
+  "location": "Charneca De Caparica, Setubal",
+  "coordinates": {
+    "lat": 38.6279559,
+    "lon": -9.1973177
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/137119b2e8843190cc8fe433a6662074"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>A <strong>24 Março 2024</strong> vai realizar-se o <strong>29º Grande Prémio Atletismo Charneca da Caparica</strong>, prova inserida no <strong>Troféu de Almada Atletismo ‘Mário Pinto Claro’ 2023/2024.</strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "Prova tradicional de atletismo na Charneca da Caparica integrada no Troféu de Almada",
+  "page": "https://xistarca.pt/eventos/taampc-29o-g-p-a-charneca-da-caparica",
+  "slug": "grande-premio-atletismo-charneca-da-caparica-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "União das freguesias de Charneca de Caparica e Sobreda",
+  "district_code": 15
+}

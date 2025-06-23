@@ -1,0 +1,38 @@
+{
+  "id": 19594,
+  "name": "2ª Corrida de São Silvestre de Alcochete 2022",
+  "location": "Alcochete, Setúbal",
+  "coordinates": {
+    "lat": 38.7560205,
+    "lon": -8.9603438
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    400,
+    700,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/5fd3a55b115873611acd5db70f2a53a1"
+  ],
+  "start_date": "2022-12-10",
+  "end_date": "2022-12-11",
+  "circuit": [],
+  "description": "\n<p>A 2ª Corrida e Caminhada São Silvestre de Alcochete é um evento no âmbito do desporto amador. Esta iniciativa é organizada pela Câmara Municipal de Alcochete. </p>\n\n\n\n<p>A 2ª Corrida e Caminhada São Silvestre de Alcochete será composta por um percurso de 10 kms para Corrida e por um de 5 kms para Caminhada.<br>A São Silvestre Kids, terá um percurso de 400m e outro de 700m e é destinada a crianças nascidas em 2014, 2015 e 2016 (percurso de 400m) ou<br>para as crianças.</p>\n",
+  "description_short": "São Silvestre tradicional em Alcochete com provas para adultos e crianças",
+  "page": "https://acorrer.pt/eventos/info/3029",
+  "slug": "sao-silvestre-de-alcochete-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcochete",
+  "administrative_area_level_3": "Alcochete",
+  "district_code": 15
+}

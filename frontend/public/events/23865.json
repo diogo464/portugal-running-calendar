@@ -1,0 +1,34 @@
+{
+  "id": 23865,
+  "name": "Meia Maratona Descobrimentos 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/517e2e3aea67eae302e9ff99d242e00c"
+  ],
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-04",
+  "circuit": [],
+  "description": "\n<p><a href=\"https://xistarca.pt/resultados/tranquilidade-m-m-descobrimentos-2023\" target=\"_blank\" rel=\"noopener\">Resultados</a></p>\n\n\n\n<p><a href=\"https://xistarca.pt/resultados/tranquilidade-m-m-descobrimentos-2023-10k\" target=\"_blank\" rel=\"noopener\">Resultados 10k</a></p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n\n\n\n<p>Com partida na Praça do Império e chegada na praça do Museu da Marinha, a&nbsp;<strong>10</strong><strong>ª edição da Tranquilidade Meia Maratona Descobrimentos</strong>, prova&nbsp;<strong>5&nbsp;estrelas</strong>&nbsp;da Associação Europeia de Atletismo, será realizada a&nbsp;3 de Dezembro 2023, na fantástica cidade de&nbsp;<strong>Lisboa</strong>.</p>\n\n\n\n<p>Correr lado a lado com os monumentos históricos dos Descobrimentos, num percurso plano, com passagem pelas mais emblemáticas ruas de Lisboa, são só alguns pontos que não irá esquecer. Esperamos por si e garantimos que quererá voltar.</p>\n",
+  "description_short": "Meia Maratona de Descobrimentos com percurso histórico pelas ruas de Lisboa, junto aos monumentos da época dos descobrimentos",
+  "page": "https://xistarca.pt/eventos/tranquilidade-m-m-descobrimentos-2023",
+  "slug": "meia-maratona-dos-descobrimentos-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

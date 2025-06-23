@@ -1,0 +1,33 @@
+{
+  "id": 34225,
+  "name": "Grande Prémio Atletismo Albergaria 2024",
+  "location": "Albergaria-a-Velha, Aveiro",
+  "coordinates": {
+    "lat": 40.6897102,
+    "lon": -8.4813861
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/7f0a7a5f5e4990732864a45d33e7e27e"
+  ],
+  "start_date": "2024-04-14",
+  "end_date": "2024-04-15",
+  "circuit": [],
+  "description": "\n<p>O Clube Desportivo de Campinho irá novamente organizar o Grande Prémio de Atletismo, que seguirá este ano para a sua 40ª edição, sendo uma das mais clássicas e respeitadas provas de estrada aveirense.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Grande Prémio de Atletismo de Campinho, clássica prova de estrada da região de Aveiro na sua 40ª edição",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-albergaria-2024",
+  "slug": "grande-premio-atletismo-albergaria-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Albergaria-a-Velha",
+  "administrative_area_level_3": "Albergaria-a-Velha e Valmaior",
+  "district_code": 1
+}

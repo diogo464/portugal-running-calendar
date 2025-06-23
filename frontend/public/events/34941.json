@@ -1,0 +1,32 @@
+{
+  "id": 34941,
+  "name": "Ur70K Barcadouro 2024",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    35000,
+    70000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/14c415bdf6be72f166a93e3f6b355d65"
+  ],
+  "start_date": "2024-06-30",
+  "end_date": "2024-06-30",
+  "circuit": [],
+  "description": "\n<p>A prova terá uma distância de 70km, com meta volante aos 35km, com Time Cap neste ponto e na meta final, toda percorrida em regime de autossuficiência, acompanhados por equipa de apoio (SAFETY CAR), em estrada aberta, guiados exclusivamente por track GPX disponibilizado pela organização e monitorizados por dispositivo localizador GPS, para controlo do circuito efectuado e por segurança dos atletas em tempo real e através de botão de SOS, se este activado pelo atleta ou equipa, em caso de apuros.</p>\n\n\n",
+  "description_short": "Trail ultramaratona técnico com monitorização GPS e apoio de safety car",
+  "page": "https://stopandgo.net/events/ur70k-barcadouro-2024",
+  "slug": "ur70k-barcadouro-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

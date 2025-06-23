@@ -1,0 +1,34 @@
+{
+  "id": 30064,
+  "name": "Trail Concha Azul 2024",
+  "location": "São Martinho do Porto, Leiria",
+  "coordinates": {
+    "lat": 39.5158169,
+    "lon": -9.125447099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/735f549b0e0a389d55c61d0db2e0e69e"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>O presente documento tem por objetivo definir e regular o programa adotado pelo&nbsp;<strong>Grupo Desportivo Concha Azul</strong>&nbsp;para a monitorização de participantes. Este regulamento só deverá ser aplicado no evento “<strong>3º Trail do G.D.Concha Azul</strong>”, organizado pelo&nbsp;<strong>Grupo Desportivo Concha Azul, de São Martinho do Porto (doravante designado por GDCA).</strong></p>\n\n\n\n<p>O evento organizado irá dividir-se em duas provas competitivas e cronometradas com chip:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Trail curto: 15 km</strong>, com 500 D+, aproximadamente;</li>\n\n\n\n<li><strong>Trail longo: 25 km</strong>, com 1000 D+, aproximadamente;</li>\n\n\n\n<li><strong>Caminhada: 10 km</strong>, aproximadamente</li>\n</ul>\n\n\n\n<p>Poderão participar nas provas todos os atletas com idades compreendidas entre os 18 e os 65 (ou mais).</p>\n\n\n\n<p>Todas as provas terão início na praia de S. Martinho do Porto, e o seu final será na sede do Grupo Desportivo Concha Azul.</p>\n",
+  "description_short": "Trail com partida na praia de São Martinho do Porto e duas opções de distância em ambiente competitivo",
+  "page": "https://www.recordepessoal.pt/evento/ivtraildogdconchaazul",
+  "slug": "trail-concha-azul-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "São Martinho do Porto",
+  "district_code": 10
+}

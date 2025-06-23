@@ -1,0 +1,38 @@
+{
+  "id": 37270,
+  "name": "Trail Falcão Real 2024",
+  "location": "Alcoutim, Faro",
+  "coordinates": {
+    "lat": 37.4689817,
+    "lon": -7.4735957
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000,
+    17000,
+    32000,
+    46000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3e7d8f157a395e31765be9fff7db44c3"
+  ],
+  "start_date": "2024-12-15",
+  "end_date": "2024-12-16",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Evento “<strong>V Trail do Falcão Real</strong>” é uma prova de TrailRunning organizada pela Secção de Trail do Grupo Desportivo de Alcoutim, em colaboração com a Câmara Municipal de Alcoutim e União das Freguesias Alcoutim e Pereiro, que será realizada por trilhos e caminhos do concelho de Alcoutim, no dia 15 dezembro de 2024, prova certificada pela ATRP, que integra os Circuitos Nacionais de Trail Ultra / Trail / e Trail Sprint, Circuito Regional de Trail Sprint e Trail Ultra da Associação de Atletismo do Algarve, e a Taça Alengarve.<br> <br>Os percursos têm as seguintes distâncias aproximadamente:<br>Trail Ultra (TU) de 46Km, com partida e chegada a Alcoutim;                                                  <br>Trail (T) de 32 Km, com partida e chegada a Alcoutim;<br>Trail Sprint (TS) de 17 Km, com partida e chegada a Alcoutim;<br>Caminhada de 10 Km com partida e chegada a Alcoutim e que não terá classificações.</p>\n",
+  "description_short": "Trail do Falcão Real em Alcoutim com diversos percursos integrados em circuitos nacionais e regionais de trail running",
+  "page": "https://www.crono.aaalgarve.org/eventos/v-trail-do-falcao-real",
+  "slug": "trail-falcao-real-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Alcoutim",
+  "administrative_area_level_3": "União das freguesias de Alcoutim e Pereiro",
+  "district_code": 8
+}

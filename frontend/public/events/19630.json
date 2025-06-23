@@ -1,0 +1,34 @@
+{
+  "id": 19630,
+  "name": "Trail Do Serrote 2023",
+  "location": "Vila Nova De Monsarros, Anadia",
+  "coordinates": {
+    "lat": 40.4092995,
+    "lon": -8.397875299999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/560a915382f5a83931d7c836d7b6b8db"
+  ],
+  "start_date": "2023-03-26",
+  "end_date": "2023-03-27",
+  "circuit": [],
+  "description": "\n<p>Mais uma vez o Trail do Serrote vai correr as encostas serranas da Freguesia de Vila Nova de Monsarros contornando vales e desafiando as encostas rochosas junto ao Rio da Serra. Pelo caminho, vamos ter as nossas aldeias, com os seus arruamentos e as suas gentes a puxar por todos vós!!<br>Também temos uma bela Caminhada, um pouco mais longa do que a anterior, mas toda a beleza é compensatória, percorrendo vinhedos e caminhos florestais com recantos mágicos!!</p>\n\n\n\n<p>A Prova irá ter a vertente de competição, mas também uma vertente de lazer e convívio:</p>\n\n\n\n<p>Trail 18 Km – 900 D+* Partida às 9:00</p>\n\n\n\n<p>Caminhada – 12 Km &#8211; 250 D+* artida às 9:07</p>\n\n\n\n<p>A prova e a caminhada irão percorrer caminhos de floresta, campos agrícolas e aldeias, com início e fim no Pavilhão Desportivo de Val das Cavadas. A sinalização será por fitas e cal.<br>*podem existir ajustes que serão a curto/medio prazo comunicados</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante pelas encostas serranas de Vila Nova de Monsarros com passagem por vinhedos e aldeias tradicionais",
+  "page": "https://www.runmanager.net/Eventos/trail-do-serrote/672",
+  "slug": "trail-do-serrote-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Anadia",
+  "administrative_area_level_3": "Vila Nova de Monsarros",
+  "district_code": 1
+}

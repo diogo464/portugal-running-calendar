@@ -1,0 +1,35 @@
+{
+  "id": 27903,
+  "name": "Trail Mortágua 2023",
+  "location": "Mortágua, Viseu",
+  "coordinates": {
+    "lat": 40.3971448,
+    "lon": -8.2309134
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    13000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b4d464628969303fbd4aa03239e07e0b"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [],
+  "description": "\n<p>O Trail Mortágua 2023 é uma organização do Núcleo do Sporting Clube de Portugal de Mortágua, terá lugar no dia 29 de Outubro  em Mortágua, com partida e chegada junto à Câmara Municipal de Mortágua às 9h00.</p>\n\n\n\n<h2 class=\"wp-block-heading\"><br>PROVA E PERCURSO:</h2>\n\n\n\n<p><br>Serão realizadas 3 provas com percursos distintos:<br>a) Trail 22k &#8211; Percurso circular de cerca de 22 km com o tempo limite de realização de 4 horas.<br>b) Trail 13k &#8211; Percurso circular de cerca 13 km com o tempo limite de realização de 3 horas<br>c) Caminhada 8k &#8211; Percurso circular de cerca 8 km.</p>\n",
+  "description_short": "Trail desafiante pela floresta de Mortágua com provas de diferentes distâncias",
+  "page": "https://www.runmanager.net/Eventos/trail-mortagua-2023/764",
+  "slug": "trail-mortagua-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Mortágua",
+  "administrative_area_level_3": "Mortágua",
+  "district_code": 18
+}

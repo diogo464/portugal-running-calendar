@@ -1,0 +1,33 @@
+{
+  "id": 40110,
+  "name": "RunForFest 2025",
+  "location": "São João de Ver, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9489884,
+    "lon": -8.544635999999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk",
+    "5k"
+  ],
+  "images": [],
+  "start_date": "2025-09-20",
+  "end_date": "2025-09-20",
+  "circuit": [],
+  "description": "\n<p>A RUNFORFEST® não é só mais uma corrida!<br>O evento junta uma corrida de 10k, caminhada de 5k e um Festival.<br>Aliando o Desporto ao ar livre com uma forte componente Social e Festivaleira, o evento é aberto aos participantes federados e não federados, promovendo assim a inclusão social bem como a formação de jovens. De igual modo o evento está aberto a participantes de mobilidade reduzida, viabilizando a sua inclusão e integração no desporto.<br>O Percurso permitirá aos participantes passar pelas ruas e avenidas da Vila de São João de Ver e desfrutar de diversos pontos de Animação, como por exemplo as atuações de DJ, Violinista e o Grupo da Escola de Música de São João de Ver.</p>\n\n\n",
+  "description_short": "Corrida inclusiva com festival musical em São João de Ver, promovendo desporto e integração social",
+  "page": "https://lap2go.com/pt/event/runforfest-2025",
+  "slug": "runforfest-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "São João de Ver",
+  "district_code": 1
+}

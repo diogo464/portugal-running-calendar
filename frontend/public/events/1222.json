@@ -1,0 +1,29 @@
+{
+  "id": 1222,
+  "name": "Trail Cruz Vermelha de Torres Vedras 2020",
+  "location": "Piscinas de A-dos-Cunhados, Torres Vedras",
+  "coordinates": {
+    "lat": 39.1508416,
+    "lon": -9.2994145
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5b7c15230c8921f9590ae86293be709d"
+  ],
+  "start_date": "2020-04-05",
+  "end_date": "2020-04-06",
+  "circuit": [],
+  "description": "<p>O   TURRES TRAIL CLUBE   com o apoio da Cruz Vermelha de Torres Vedras   , Câmara Municipal de Torres Vedras e Junta de freguesia de A dos Cunhados e Maçeira   , vai levar a efeito a 3º edição  do  TRAIL CRUZ VERMELHA DE TORRES VEDRAS no dia 5 de Abril de 2020 , o evento tem um cariz social 50% das receitas do evento revertem para a delegação da Cruz Vermelha de Torres Vedras  . O percurso é circular  o local de partida , chegada , secretariado e entrega  de prémios será junto as Piscinas de A dos Cunhados    .</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+  "description_short": "Trail solidário com impacto social em A dos Cunhados, revertendo metade das receitas para a Cruz Vermelha local",
+  "page": "https://www.turresevents.com/eventos/trail-cruz-vermelha-de-torres-vedras-2020",
+  "slug": "trail-cruz-vermelha-de-torres-vedras-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "União das freguesias de A dos Cunhados e Maceira",
+  "district_code": 11
+}

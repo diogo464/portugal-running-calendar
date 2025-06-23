@@ -1,0 +1,33 @@
+{
+  "id": 13417,
+  "name": "Terras do Ancião Ultra Trail 2022",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "trail"
+  ],
+  "images": [
+    "media/a1a63fa5bc1aa1f27fadd2220e36de1e"
+  ],
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-14",
+  "circuit": [],
+  "description": "\n<p>TAUT – Terras do Ancião Ultra Trail 2022 é organizado pela associação ANSIBIKERS &#8211; Associação Praticantes de BTT.<br>O TAUT – É um evento desportivo de carater lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de trail running, mas também os territórios onde decorre o evento.<br>A organização irá preparar uma edição especial 2022 do TAUT – Night Edition. A partida será ás 01H00 dia de Domingo, dia 13 de Março, num ambiente de festa.<br>O TAUT – Desenvolve-se por zonas de extrema beleza natural e vasto património cultural e ambiental, nomeadamente Anciao, que dá o nome ao evento.<br>Localização: Anjo da Guarda – Pousaflores &#8211; Ansião (39,872506, -8,399244)</p>\n",
+  "description_short": "Trail nocturno através dos territórios históricos de Ansião com partida à meia-noite",
+  "page": "https://www.queroir.pt/taut-terras-do-anciao-ultra-trail",
+  "slug": "terras-do-anciao-ultra-trail-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

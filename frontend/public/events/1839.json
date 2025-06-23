@@ -1,0 +1,33 @@
+{
+  "id": 1839,
+  "name": "Corrida da Marginal Póvoa de Varzim/Vila do Conde 2020",
+  "location": "Póvoa de Varzim, Porto",
+  "coordinates": {
+    "lat": 41.3828815,
+    "lon": -8.759989299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/260a6a112bd2bb22a8ee66894edd3c68"
+  ],
+  "start_date": "2020-03-07",
+  "end_date": "2020-03-08",
+  "circuit": [],
+  "description": "<p align=\"justify\">Vem participar na corrida da marginal.</p>\n<p align=\"justify\">Contamos contigo.</p>\n<p>&nbsp;</p>\n<h2>Tabela de Preços</h2>\n<table>\n<tbody>\n<tr>\n<th>Fase</th>\n<th>Prova</th>\n<th>Preço</th>\n<th>Data Limite de pagamento</th>\n</tr>\n<tr>\n<td>Fase única</td>\n<td>Corrida</td>\n<td>10 €</td>\n<td>Até 3 de março de 2020</td>\n</tr>\n<tr>\n<td>Fase única</td>\n<td>Caminhada</td>\n<td>5 €</td>\n<td>Até 3 de março de 2020</td>\n</tr>\n</tbody>\n</table>\n",
+  "description_short": "Corrida pela marginal com opção de caminhada",
+  "page": "https://www.prozis.com/pt/pt/evento/corrida-da-marginal-povoa-de-varzim/vila-do-conde",
+  "slug": "corrida-da-marginal-povoa-de-varzim-vila-do-conde-2020",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Póvoa de Varzim",
+  "district_code": 13
+}

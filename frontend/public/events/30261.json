@@ -1,0 +1,36 @@
+{
+  "id": 30261,
+  "name": "Trail Boa Ventura 2024",
+  "location": "Boa Ventura, Madeira",
+  "coordinates": {
+    "lat": 32.8177488,
+    "lon": -16.972755
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    834,
+    1922,
+    10000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/672a278a7524d38a05001b17a481cea8"
+  ],
+  "start_date": "2024-01-14",
+  "end_date": "2024-01-15",
+  "circuit": [
+    "Trail Madeira"
+  ],
+  "description": "\n<p>A Junta de Freguesia de Boa Ventura em coorganização com a Casa do Povo de Boaventura são as entidades organizadoras do evento denominado “TRAIL BOA VENTURA”, 7.ª edição, que decorrerá no dia 14 de janeiro de 2024, na Ilha da Madeira, com absoluto respeito pelo meio ambiente. Este evento está integrado do Circuito Trail Madeira (AARAM).</p>\n\n\n\n<p>O “Trail Boa Ventura” é um evento que decorre integralmente na freguesia da Boa Ventura, tendo nascido com o propósito de mostrar as suas inúmeras belezas paisagísticas e potencialidades que apresenta no âmbito do trail running, fazendo ainda a ponte de ligação com o extenso património natural, histórico-cultural e social da freguesia. O evento integra duas provas: a prova principal – TRAIL NORTH GARDENS (TLNG), com cerca de 25 km e 1922 metros de desnível positivo, pontuável para o ranking Trail Longo, e uma prova mais curta – TRAIL ELECTROLOURO (TCE), com cerca de 10 km e 834 metros de desnível positivo, pontuável para o ranking Trail Curto, ambas de formato circular</p>\n",
+  "description_short": "Trail desafiante pela paisagem natural e histórica da Boa Ventura na Ilha da Madeira",
+  "page": "https://lap2go.com/pt/event/trail-boa-ventura-2024",
+  "slug": "trail-boa-ventura-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": "Boaventura",
+  "district_code": 30
+}

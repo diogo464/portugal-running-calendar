@@ -1,0 +1,29 @@
+{
+  "id": 2877,
+  "name": "Pia do Urso Ultra Trail 2021",
+  "location": "Batalha, Leiria",
+  "coordinates": {
+    "lat": 39.6583864,
+    "lon": -8.8241787
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/884dad24bd466595a7e8b9b0db264b36"
+  ],
+  "start_date": "2021-10-03",
+  "end_date": "2021-10-04",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.facebook.com/events/309408400516365",
+  "slug": "pia-do-urso-ultra-trail-2021",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Batalha",
+  "administrative_area_level_3": "Batalha",
+  "district_code": 10
+}

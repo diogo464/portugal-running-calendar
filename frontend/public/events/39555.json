@@ -1,0 +1,34 @@
+{
+  "id": 39555,
+  "name": "Rota Olho do Tordo 2025",
+  "location": "Alvaiázere, Leiria",
+  "coordinates": {
+    "lat": 39.8237427,
+    "lon": -8.3807264
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    14000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3d4916418fb47542b8b9e7f555871666"
+  ],
+  "start_date": "2025-02-09",
+  "end_date": "2025-02-10",
+  "circuit": [],
+  "description": "\n<p>O III Rota do Olho do tordo, sob organização da Câmara Municipal de Alvaiázere, pretende afirmar-se como uma prova de desporto e lazer, sem carácter competitivo, na vertente de corrida [Trail Running], a realizar por percursos e trilhos envolventes à nascente do Olho do Tordo. </p>\n\n\n\n<p>Esta  edição realiza-se no dia 9 de fevereiro de 2025</p>\n\n\n\n<p>É categorizado por duas distâncias não cronometradas [na vertente de Trail e Caminhada], de acordo com as seguintes distâncias: Trail 14 quilómetros e Caminhada de Natureza não competitiva com a extensão aproximada de 10 quilómetros.</p>\n\n\n",
+  "description_short": "Trail promocional pela região de Alvaiázere à volta da nascente do Olho do Tordo",
+  "page": "https://www.queroir.pt/rotadoolhodotordo2025",
+  "slug": "rota-olho-do-tordo-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alvaiázere",
+  "administrative_area_level_3": "Alvaiázere",
+  "district_code": 10
+}

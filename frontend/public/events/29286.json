@@ -1,0 +1,30 @@
+{
+  "id": 29286,
+  "name": "Trail Vilarinho de Cima 2024",
+  "location": "Vilarinho de Cima, Paredes",
+  "coordinates": {
+    "lat": 41.1826437,
+    "lon": -8.4381033
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/a1b914ac2bd4c03c90fe5085c709d8eb"
+  ],
+  "start_date": "2024-02-04",
+  "end_date": "2024-02-05",
+  "circuit": [],
+  "description": "\n<p>Este evento Trail Vilarinho de Cima 2024 será realizado no concelho de Paredes, na freguesia de Gandra, no dia 04 de fevereiro de 2024, com partidas/chegadas nas instalações da Associação Cultural e Recreativa Vilarinho Cima.</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Paredes com partida na Associação Cultural de Vilarinho Cima",
+  "page": "http://events.portimer.pt/eventos/2-trail-vilarinho-cima",
+  "slug": "trail-vilarinho-de-cima-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Gandra",
+  "district_code": 13
+}

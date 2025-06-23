@@ -1,0 +1,34 @@
+{
+  "id": 38425,
+  "name": "Trail ACTIB 2025",
+  "location": "Águeda",
+  "coordinates": {
+    "lat": 40.5754246,
+    "lon": -8.446436799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    1000,
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2025-10-12",
+  "end_date": "2025-10-13",
+  "circuit": [],
+  "description": "\n<p>O ACTIB-TRAIL é uma prova inserida no “Troféu Trail Terras de Águeda”. As participações poderão ser efetuadas em quatro percursos, dois de carácter competitivo e cronometrado (Longo 25Km / Curto 15km), e dois de carácter recreativo, um para adultos (caminhada 8Km), e outro destinado a crianças com acompanhamento (1 km).</p>\n",
+  "description_short": "Trail competitivo e familiar pelas paisagens de Águeda com diferentes percursos para todos os níveis",
+  "page": "https://lap2go.com/pt/event/trail-actib-2025",
+  "slug": "trail-actib-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Águeda e Borralha",
+  "district_code": 1
+}

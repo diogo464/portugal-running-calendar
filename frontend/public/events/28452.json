@@ -1,0 +1,32 @@
+{
+  "id": 28452,
+  "name": "Meia Maratona Manuela Machado 2024",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/89424156ec6c85969b82bcf95df85b01"
+  ],
+  "start_date": "2024-01-21",
+  "end_date": "2024-01-22",
+  "circuit": [],
+  "description": "\n<p>A Meia Maratona Manuela Machado 2023 realiza-se n&nbsp;dia 21 de Janeiro de 2024, com partida às 10:30 horas.</p>\n\n\n\n<p>A prova será aberta a todos os atletas federados e não federados. </p>\n\n\n\n<h3 class=\"wp-block-heading\">Preços</h3>\n\n\n\n<p>As inscrições estarão disponíveis para um máximo de 4000 participantes. As inscrições serão feitas exclusivamente pela internet, através dos websites www.mmviana.com e www.CyclonesSports.com, com os seguintes valores:</p>\n\n\n\n<p>Até 31 de Dezembro de 2023: 12,5€</p>\n\n\n\n<p>De 1 de Janeiro a 16 de Janeiro de 2024: 15€</p>\n\n\n\n<p>Última hora (secretariado) nos dias 19 (Sexta-feira) e 20 (Sábado): 25€</p>\n",
+  "description_short": "Meia maratona tradicional em Viana do Castelo homenageando a atleta Manuela Machado",
+  "page": "http://cyclonessports.com/index.php/285-25-meia-maratona-manuela-machado",
+  "slug": "meia-maratona-manuela-machado-2024",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

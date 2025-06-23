@@ -1,0 +1,29 @@
+{
+  "id": 1106,
+  "name": "I Trilhos Salgados &#8211; Lagoa 2020",
+  "location": "Lagoa Lagoa, Faro",
+  "coordinates": {
+    "lat": 37.1148828,
+    "lon": -8.4293891
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b101eb47bfa624136cd8821df1f8dead"
+  ],
+  "start_date": "2020-01-26",
+  "end_date": "2020-01-27",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.crono.aaalgarve.org/eventos/i-trilhos-salgados",
+  "slug": "i-trilhos-salgados-lagoa-2020",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Lagoa",
+  "administrative_area_level_3": "União das freguesias de Lagoa e Carvoeiro",
+  "district_code": 8
+}

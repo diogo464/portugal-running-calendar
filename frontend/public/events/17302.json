@@ -1,0 +1,29 @@
+{
+  "id": 17302,
+  "name": "Sem Limites Trail 2022",
+  "location": "Amarante, Porto",
+  "coordinates": {
+    "lat": 41.2732068,
+    "lon": -8.0822829
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/fa8e3ae3be8abb63af00413e6043d077"
+  ],
+  "start_date": "2022-10-23",
+  "end_date": "2022-10-24",
+  "circuit": [],
+  "description": "\n<p>O Sem Limites Trail é uma prova que percorre trilhos, caminhos rurais e estradões do concelho de Amarante, percorrendo vertentes da Serra da Meia Via e do Vale do Rio Olo, passando pelas freguesias de Vila Chã do Marão, união das freguesias de Olo e Canadelo, Rebordelo, terminando<br>em Fridão.</p>\n",
+  "description_short": "Trail desafiante pelas vertentes da Serra da Meia Via e Vale do Rio Olo em Amarante",
+  "page": "https://stopandgo.net/event/?id=838",
+  "slug": "sem-limites-trail-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Amarante",
+  "administrative_area_level_3": "União das freguesias de Amarante (São Gonçalo), Madalena, Cepelos e Gatão",
+  "district_code": 13
+}

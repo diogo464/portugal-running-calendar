@@ -1,0 +1,29 @@
+{
+  "id": 2793,
+  "name": "Extreme Trail Cucos 2021",
+  "location": "Cucos, Torres Vedras Vedras, Lisboa",
+  "coordinates": {
+    "lat": 39.090818,
+    "lon": -9.2412499
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/33bc5c928f78cd6721f2838d3bc0045a"
+  ],
+  "start_date": "2021-06-10",
+  "end_date": "2021-06-11",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;&nbsp;&nbsp;TURRES TRAIL&nbsp;&nbsp;CLUBE , com o apoio da Câmara Municipal de Torres Vedras e junta de freguesia de São Pedro Santiago e Santa Maria&nbsp;&nbsp;,&nbsp;&nbsp;vai realizar no próximo dia 10 de Junho de 2021, um evento denominado&nbsp;&#8220;<strong>&nbsp;&nbsp;&nbsp;6º EXTREME TRAIL CUCOS</strong>&#8220;. Este evento, terá um Trail Longo&nbsp;&nbsp;MD de Grau 3, um Trail Curto&nbsp;&nbsp;MD de Grau 2 e um Mini Trail / Caminhada . O percurso do Trail Run é circular, o local de partida e chegada assim como o secretariado será na zona termal dos Cucos Torres Vedras .</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Torres Vedras com diferentes níveis de dificuldade na zona termal dos Cucos",
+  "page": "https://www.turresevents.com/eventos/extreme-trail-cucos-2021",
+  "slug": "extreme-trail-cucos-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Matacães",
+  "district_code": 11
+}

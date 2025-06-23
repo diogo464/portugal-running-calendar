@@ -1,0 +1,32 @@
+{
+  "id": 2132,
+  "name": "Grande Prémio de Atletismo Vila de Pevidém 2020",
+  "location": "Selho, São Jorge, Guimarães",
+  "coordinates": {
+    "lat": 41.4343192,
+    "lon": -8.360873699999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/49c94dc015574fab863dd0ca33f20056"
+  ],
+  "start_date": "2020-04-25",
+  "end_date": "2020-04-26",
+  "circuit": [],
+  "description": "<p>O Grande Prémio de Atletismo de Pevidém, foi em tempos uma referência do atletismo nacional, tendo por cá passado grandes lendas do nosso atletismo, como o Gemeos Castro!! Hoje cabe-nos a nós voltar a colocar esta grande prova no panorama do atletismo nacional. Por isso contamos contigo, contamos com todos!</p>\n<p>Organização:<br />\nJunta de Freguesia de Pevidém<br />\nApoio:<br />\nAssociação Os Rôtos BTT</p>\n<p>Data: 25/04/2020<br />\nHora: 10h30</p>\n",
+  "description_short": "Prova de atletismo histórica em Pevidém que pretende recuperar o seu prestígio nacional",
+  "page": "https://www.facebook.com/events/169145797841164/",
+  "slug": "grande-premio-de-atletismo-vila-de-pevidem-2020",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Selho (São Jorge)",
+  "district_code": 3
+}

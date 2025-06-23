@@ -1,0 +1,34 @@
+{
+  "id": 15639,
+  "name": "2ª Corrida Cimpor 2022",
+  "location": "Alhandra, Vila Franca de Xira",
+  "coordinates": {
+    "lat": 38.9273718,
+    "lon": -9.009136999999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/986a748ed492a3ea779f91bb6966b83d"
+  ],
+  "start_date": "2022-10-23",
+  "end_date": "2022-10-24",
+  "circuit": [],
+  "description": "\n<p>Corrida 10km | 10h00 | CIMPOR Alhandra</p>\n\n\n\n<p>Caminhada 4km | 10h05 | CIMPOR Alhandra</p>\n\n\n\n<p></p>\n",
+  "description_short": "Prova desportiva na zona da CIMPOR em Alhandra com corrida e caminhada",
+  "page": "https://xistarca.pt/eventos/2a-corrida-da-cimpor",
+  "slug": "2a-corrida-cimpor-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "União das freguesias de Alhandra, São João dos Montes e Calhandriz",
+  "district_code": 11
+}

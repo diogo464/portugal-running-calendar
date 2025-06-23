@@ -1,0 +1,35 @@
+{
+  "id": 38448,
+  "name": "Trail dos Trilhos da Mata 2025",
+  "location": "Milagres, Leiria",
+  "coordinates": {
+    "lat": 39.790627,
+    "lon": -8.7948185
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    12000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d1cc12595c217ed9600d45a0e80ff881"
+  ],
+  "start_date": "2025-01-26",
+  "end_date": "2025-01-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A&nbsp;<strong>Associação Desportiva e Recreativa da Mata</strong>&nbsp;realizará no dia&nbsp;<strong>26 de janeiro de 2025</strong>&nbsp;a&nbsp;<strong>sétima edição do Trail dos Trilhos da Mata.</strong></p>\n\n\n\n<p>Uma prova de Trail Sprint (aproximadamente 20 km) que percorrerá percursos e trilhos na freguesia dos Milagres, Bidoeira de Cima e Souto da Carpalhosa e Ortigosa, concelho e distrito de Leiria.&nbsp;A prova pontua para o “Circuito de Trail ADAL – Derovo &#8211; Fullprotein 2024-2025” e “ATRP Circuito Nacional de Trail Sprint – 2025”</p>\n\n\n\n<p>ADRM vá também realizar a primeira edição do Mini Trail de 12km percorrerá percursos e trilhos na freguesia dos Milagres, Bidoeira de Cima e Souto da Carpalhosa e Ortigosa, concelho e distrito de Leiria não pertencendo a qualquer tipo de circuito.</p>\n\n\n\n<p>Para além, das provas de Trail, haverá também uma caminha com cerca de 10 km, sem carater competitivo.</p>\n\n\n\n<p>A concentração, Partida e chegada da prova e da caminhada será junto à sede da Associação Desportiva e Recreativa da Mata.</p>\n",
+  "description_short": "Trail dos Trilhos da Mata com percursos técnicos nas freguesias de Leiria e primeira edição do Mini Trail",
+  "page": "https://www.recordepessoal.pt/evento/7traildostrilhosdamata",
+  "slug": "trail-dos-trilhos-da-mata-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Milagres",
+  "district_code": 10
+}

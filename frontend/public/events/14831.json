@@ -1,0 +1,29 @@
+{
+  "id": 14831,
+  "name": "Trail do Mouro &#8211; Alcobertas 2022",
+  "location": "Rio Maior Maior, Santarém",
+  "coordinates": {
+    "lat": 39.3384417,
+    "lon": -8.942707600000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/1813cd0a8eb94ededd898802d1dcb761"
+  ],
+  "start_date": "2022-05-15",
+  "end_date": "2022-05-16",
+  "circuit": [],
+  "description": "\n<p>O evento conta com a organização do Agrupamento de Escuteiros 1187 de Alcobertas em conjunto com a Junta de Freguesia de Alcobertas, inserido nas comemorações da elevação de Alcobertas a Vila. O Trail de Alcobertas é uma Prova de TrailRunning, realizada em troços rurais e florestais, por trilhos sinalizados, em piso acidentado, estradões e obstáculos naturais, na Serra dos Candeeiros.</p>\n\n\n\n<p>Trail do Mouro &#8211; Alcobertas 2022</p>\n",
+  "description_short": "Trail desafiante pelos trilhos rurais e florestais da Serra dos Candeeiros, organizado pelos Escuteiros de Alcobertas",
+  "page": "https://www.recordepessoal.pt/evento/4traildomouro-alcobertas",
+  "slug": "trail-do-mouro-alcobertas-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Rio Maior",
+  "administrative_area_level_3": "Rio Maior",
+  "district_code": 14
+}

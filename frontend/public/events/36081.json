@@ -1,0 +1,31 @@
+{
+  "id": 36081,
+  "name": "Corrida de Santa Maria 2024",
+  "location": "Santa Maria de Lamas, da Feira",
+  "coordinates": {
+    "lat": 40.9780231,
+    "lon": -8.5725509
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/e6e185955b935eb4bdbe4cd3e6af2c53"
+  ],
+  "start_date": "2024-07-13",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>Santa Maria de Lamas é de novo o palco para um grande prémio de atletismo, que além das provas competitivas para adultos terá uma Mini-Corrida (para jovens atletas) e uma Caminhada.</p>\n\n\n",
+  "description_short": "Evento desportivo familiar em Santa Maria de Lamas com corrida principal, miniprova para jovens e caminhada",
+  "page": "https://lap2go.com/pt/event/gp-lamas-2024",
+  "slug": "corrida-de-santa-maria-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Santa Maria de Lamas",
+  "district_code": 1
+}

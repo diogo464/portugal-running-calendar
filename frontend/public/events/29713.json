@@ -1,0 +1,32 @@
+{
+  "id": 29713,
+  "name": "Corrida dos Reis 2024",
+  "location": "Póvoa de Varzim, Porto",
+  "coordinates": {
+    "lat": 41.3828815,
+    "lon": -8.759989299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/d81bdfaeab65598c5b547c512150fc6b"
+  ],
+  "start_date": "2024-01-06",
+  "end_date": "2024-01-07",
+  "circuit": [],
+  "description": "\n<p>No dia 6 de janeiro, a Póvoa de Varzim será palco da VI Grupo CCR | Corrida dos Reis 2024. O evento tem o selo de qualidade das organizações Bikeservice e será muito mais do que uma mera corrida.</p>\n\n\n\n<p>Com partida marcada para as 18 horas, esta VI Grupo CCR | Corrida dos Reis 2024 terá uma extensão de 8 quilómetros. A distância foi planeada para ser acessível e é ideal para todos aqueles que desejam começar a queimar calorias depois das festividades natalícias.</p>\n\n\n\n<p>Vem à VI Grupo CCR | Corrida dos Reis 2024 e dá o primeiro passo para um 2024 em grande forma!</p>\n",
+  "description_short": "Corrida dos Reis à noite na Póvoa de Varzim para queimar calorias pós-Natal",
+  "page": "https://bikeservice.pt/event/corrida-dos-reis/",
+  "slug": "corrida-dos-reis-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Póvoa de Varzim",
+  "district_code": 13
+}

@@ -1,0 +1,29 @@
+{
+  "id": 3157,
+  "name": "Trail do Zêzere 2021",
+  "location": "Ferreira do Zêzere, Santarém",
+  "coordinates": {
+    "lat": 39.6932144,
+    "lon": -8.2905257
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/63098ce542c46e1c8069900a8901261c"
+  ],
+  "start_date": "2021-11-13",
+  "end_date": "2021-11-14",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://lap2go.com/pt/event/trail-zezere-2021/live-results.html\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>O Trail do Zêzere volta em 2021 a realizar-se em Ferreira do Zêzere, numa das regiões mais bonitas de Portugal. Com percursos de difícil progressão, de uma beleza extraordinária, esta é uma das mais destacadas provas de Trail Running do nosso país.</p>\n",
+  "description_short": "Trail desafiante pela região do Zêzere com paisagens naturais únicas",
+  "page": "https://lap2go.com/pt/event/trail-zezere-2021/",
+  "slug": "trail-do-zezere-2021",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ferreira do Zêzere",
+  "administrative_area_level_3": "Ferreira do Zêzere",
+  "district_code": 14
+}

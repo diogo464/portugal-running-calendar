@@ -1,0 +1,29 @@
+{
+  "id": 14607,
+  "name": "Lafões Epic Challenge 2022",
+  "location": "Vouzela, Viseu",
+  "coordinates": {
+    "lat": 40.7229086,
+    "lon": -8.1122167
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/84a0f9620071442d109bdb595257e3b2"
+  ],
+  "start_date": "2022-06-10",
+  "end_date": "2022-06-11",
+  "circuit": [],
+  "description": "\n<p>Lafões Epic Challenge 2022</p>\n",
+  "description_short": "Trail desafiante pela região de Lafões com percursos épicos e paisagens naturais únicas",
+  "page": "https://stopandgo.net/event/?id=678",
+  "slug": "lafoes-epic-challenge-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vouzela",
+  "administrative_area_level_3": "Vouzela",
+  "district_code": 18
+}

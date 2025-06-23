@@ -1,0 +1,32 @@
+{
+  "id": 30833,
+  "name": "Trail Vale do Ceira 2024",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/1bee76cc91829e3ba9e4392a0eb24a92"
+  ],
+  "start_date": "2024-09-29",
+  "end_date": "2024-09-30",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Tens 3 distâncias à escolha para te divertires.</p>\n\n\n\n<p>Ambas as distâncias com começo e fim no mesmo local na Praça junto à estátua dos Viveiristas em Ceira.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail com escolha de percursos na zona de Ceira, com partida e chegada junto à estátua dos Viveiristas.",
+  "page": "https://stopandgo.net/events/trail-vale-do-ceira-2024",
+  "slug": "trail-vale-do-ceira-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

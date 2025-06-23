@@ -1,0 +1,34 @@
+{
+  "id": 22121,
+  "name": "Trail Cidade de Moura &#8211; Terra do Grande Lago 2023",
+  "location": "Moura, Beja",
+  "coordinates": {
+    "lat": 38.1426988,
+    "lon": -7.4512581
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    16000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/cd574b1d9ec94f1446afe62a020b1aa4"
+  ],
+  "start_date": "2023-04-16",
+  "end_date": "2023-04-17",
+  "circuit": [],
+  "description": "\n<p>O “III TRAIL CIDADE DE MOURA – TERRA DO GRANDE LAGO” será realizado no dia 16 de Abril de 2023, em Moura, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para os participantes.</p>\n\n\n\n<p>O local da partida e chegada será no Edifício dos Quartéis (exceto a partida do trail longo que é realizada do Núcleo da Barragem de Alqueva – Estação Náutica de Moura &#8211; Alqueva) e os banhos serão no Pavilhão Gimnodesportivo Municipal – Romana Ângelo. A prova disputa-se nas seguintes categorias;</p>\n\n\n\n<p>Trail Longo: +/- 28 km por caminhos, estradas florestais, trilhos e ribeiras.</p>\n\n\n\n<p>Trail Curto: +/- 16km por caminhos, estradas florestais, trilhos e ribeiras.<br><br>Em paralelo às provas existirá também uma caminhada com a distância de 10km em caminhos<br>e trilhos de terra batida, pelas paisagens envolventes à cidade de Moura.</p>\n",
+  "description_short": "Trail desafiante por trilhos e ribeiras junto ao Grande Lago de Alqueva em Moura",
+  "page": "https://lap2go.com/pt/event/trail-cidade-de-moura-2023",
+  "slug": "trail-cidade-de-moura-terra-do-grande-lago-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "São João Baptista",
+  "district_code": 2
+}

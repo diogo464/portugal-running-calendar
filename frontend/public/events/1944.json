@@ -1,0 +1,33 @@
+{
+  "id": 1944,
+  "name": "MONTANHÃO TRAIL RUNNING 2020",
+  "location": "Palmela",
+  "coordinates": {
+    "lat": 38.569441,
+    "lon": -8.9016937
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000,
+    13000,
+    26000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6d7a7579abab1e6f0286034ee5674666"
+  ],
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-11",
+  "circuit": [],
+  "description": "<p>O Clube de Praças da Armada com o apoio da Câmara Municipal de Palmela e o apoio técnico da Werun, vai realizar no próximo dia 10 de Maio de 2020, pelas 9 horas, o Montanhão Trail Running, que vai ser constituído por um Trail Longo (+/- 26 km), um Trail Curto (+/- 13 km) e uma Caminhada (+/- 10 km). As partidas e chegadas vão decorrer junto ao antigo Mercado de Quinta do Anjo, Palmela.</p>\n<p>O evento integra ainda a disputa da Taça Regional de Trail 2020 da Associação de Atletismo de Setúbal.</p>\n",
+  "description_short": "Trail desafiante em Palmela com passagem pelo Montanhão, integrando Taça Regional de Trail",
+  "page": "https://werun.pt/eventos/montanhao-trail-running/",
+  "slug": "montanhao-trail-running-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Palmela",
+  "administrative_area_level_3": "Palmela",
+  "district_code": 15
+}

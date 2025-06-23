@@ -1,0 +1,35 @@
+{
+  "id": 37540,
+  "name": "São Silvestre Espinho 2025",
+  "location": "Espinho, Aveiro",
+  "coordinates": {
+    "lat": 41.0071914,
+    "lon": -8.641033199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/8cc2e8a3391adeba8ebb09f42d2300ba"
+  ],
+  "start_date": "2025-01-12",
+  "end_date": "2025-01-13",
+  "circuit": [],
+  "description": "\n<p>A 10ª edição da São Silvestre de Espinho (adiada para dia 12 de janeiro) terá partida e chegada na Câmara Municipal de Espinho. A prova de 10km é cronometrada e está aberta a todos os atletas federados e não federados que tenham completado 18 anos ao dia da prova. O evento contará ainda com Caminhada.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de São Silvestre animada pela cidade de Espinho com passagem pela Câmara Municipal",
+  "page": "https://lap2go.com/pt/event/ss-espinho-2025",
+  "slug": "sao-silvestre-espinho-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Espinho",
+  "administrative_area_level_3": "Espinho",
+  "district_code": 1
+}

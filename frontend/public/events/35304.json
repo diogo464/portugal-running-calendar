@@ -1,0 +1,34 @@
+{
+  "id": 35304,
+  "name": "Corrida Virtual Aubay Portugal 2024",
+  "location": "Portugal",
+  "coordinates": {
+    "lat": 39.39987199999999,
+    "lon": -8.224454
+  },
+  "country": "Portugal",
+  "locality": "Portugal",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/b85cf08c143676cc199514312393c42f"
+  ],
+  "start_date": "2024-05-17",
+  "end_date": "2024-05-17",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/3540",
+  "slug": "corrida-virtual-aubay-portugal-2024",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

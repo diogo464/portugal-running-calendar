@@ -1,0 +1,29 @@
+{
+  "id": 1271,
+  "name": "Passatempo EXCLUSIVO SITE &#8211; Corrida do Fim da Europa &#8211; 1 DORSAL GRATUITO",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/d5c2f7c9e020e9e7c581139800b6be16"
+  ],
+  "start_date": "2020-01-18",
+  "end_date": "2020-01-19",
+  "circuit": [],
+  "description": "<p><strong>VENCEDORA do Passatempo</strong>: <b class=\"fn\">andreiacris22</b></p>\n<p>&nbsp;</p>\n<p>Só até DOMINGO!</p>\n<p>Comenta abaixo com uma FRASE CRIATIVA sobre esta corrida e podes ser o FELIZ Contemplado com 1 dorsal!!</p>\n",
+  "description_short": "Não consigo gerar um resumo de corrida a partir deste texto, pois parece ser apenas um passatempo ou sorteio para um dorsal de corrida, sem descrição do evento em si.",
+  "page": null,
+  "slug": "passatempo-corrida-do-fim-da-europa",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

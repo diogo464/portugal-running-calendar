@@ -1,0 +1,32 @@
+{
+  "id": 743,
+  "name": "Grande Prémio de Atletismo ACD Os Ilhavos",
+  "location": "Ílhavo, Aveiro",
+  "coordinates": {
+    "lat": 40.602309,
+    "lon": -8.672371
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/126d6c7ee952a91e2eb63d9b740802ba"
+  ],
+  "start_date": "2020-02-02",
+  "end_date": "2020-02-03",
+  "circuit": [],
+  "description": "<p>A Associação Cultural e Desportiva &#8220;Os Ílhavos&#8221; organiza uma das mais clássicas provas de estrada da região de Aveiro. Este ano a prova conta para o Campeonato Distrital de Estrada da Associação de Atletismo de Aveiro.</p>\n",
+  "description_short": "Clássica corrida de estrada em Ílhavo pontuável para o Campeonato Distrital de Aveiro",
+  "page": "https://lap2go.com/pt/event/gp-atletismo-os-ilhavos-2020",
+  "slug": "grande-premio-de-atletismo-acd-os-ilhavos",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

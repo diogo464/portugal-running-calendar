@@ -1,0 +1,30 @@
+{
+  "id": 925,
+  "name": "Corta-Mato Núcleo Cabeço de Vide 2020",
+  "location": "Parque do Serrado, Seixal",
+  "coordinates": {
+    "lat": 38.6300381,
+    "lon": -9.1203671
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "cross-country"
+  ],
+  "images": [
+    "media/8d466dc9898cb8c9bb2a38bec802c518"
+  ],
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-06",
+  "circuit": [],
+  "description": "<p>A 1ª Prova do Troféu de Atletismo do Seixal 2020, é no dia 05/janeiro/2020.<br />\nParticipem, venham desfrutar do maravilhoso Parque do Serrado para eliminar os inevitáveis excessos da quadra que se aproxima. Regulamento a divulgar brevemente.</p>\n",
+  "description_short": "Corrida de Ano Novo no Parque do Serrado com vista para eliminar excessos das festas",
+  "page": "https://www.facebook.com/events/583722255530988/",
+  "slug": "corta-mato-nucleo-cabeco-de-vide-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "Amora",
+  "district_code": 15
+}

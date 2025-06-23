@@ -1,0 +1,34 @@
+{
+  "id": 40505,
+  "name": "GP Atletismo Rebordosa 2025",
+  "location": "Rebordosa, Paredes",
+  "coordinates": {
+    "lat": 41.2145787,
+    "lon": -8.4099907
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/57b0151bde39412ce350a66231e2cefd"
+  ],
+  "start_date": "2025-05-03",
+  "end_date": "2025-05-04",
+  "circuit": [],
+  "description": "\n<p>O Grupo Desportivo da Portela, com o apoio da Camara Municipal de Paredes, da Junta de Freguesia de Rebordosa e da Associagao de Atletismo do Porto, vai organizar, no dia 3 de maio de 2025, o XVI Grande Prémio de Atletismo de Rebordosa &#8211; Corrida/Caminhada Dia da Made, com partida e chegada na Rua Candido Barbosa (junto ao Centro Escolar de Rebordosa).</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Corrida e caminhada solidária em Rebordosa com apoio municipal e associativo",
+  "page": "https://www.portimer.pt/eventos/xvi_gp_atletismo_rebordosa_dia_mae/inscritos",
+  "slug": "gp-atletismo-rebordosa-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Rebordosa",
+  "district_code": 13
+}

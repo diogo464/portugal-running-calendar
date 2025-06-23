@@ -1,0 +1,33 @@
+{
+  "id": 651,
+  "name": "São Silvestre A.D. Esmeriz",
+  "location": "Esmeriz, Vila Nova de Famalicão Famalicão, Braga",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/c1334652a298231211859be512fed691"
+  ],
+  "start_date": "2020-01-04",
+  "end_date": "2020-01-05",
+  "circuit": [],
+  "description": "<div>\n<div>\n<div>\n<p>Venha correr a Esmeriz, na prova mais antiga do concelho de Vila Nova de Famalicão!</p>\n<p>Contamos com vocês! Participem!</p>\n</div>\n</div>\n</div>\n<div><span style=\"color: #000;\"><b>PROGRAMA</b></span></p>\n<div>SECRETARIADO DIA 4/1: 17 ÀS 20 HORAS</div>\n<div>\n<div></div>\n<div>INICIO DA PROVA: 21 HORAS</div>\n</div>\n</div>\n",
+  "description_short": "Corrida tradicional nocturna em Esmeriz, a prova mais antiga de Vila Nova de Famalicão",
+  "page": null,
+  "slug": "sao-silvestre-a-d-esmeriz",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

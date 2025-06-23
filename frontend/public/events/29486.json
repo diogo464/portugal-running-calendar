@@ -1,0 +1,30 @@
+{
+  "id": 29486,
+  "name": "Trilhos das Azenhas 2024",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/2a18b45367be053935fa38c0aea66ebd"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>Realiza-se a 24 de Março em Coimbra.</p>\n\n\n\n<p>É uma organização do nosso Associado RODA DIANTEIRA</p>\n",
+  "description_short": "Corrida urbana pela histórica cidade de Coimbra",
+  "page": "https://stopandgo.net/events/trilhos-das-azenhas-2024",
+  "slug": "trilhos-das-azenhas-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

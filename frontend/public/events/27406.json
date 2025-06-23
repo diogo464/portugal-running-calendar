@@ -1,0 +1,34 @@
+{
+  "id": 27406,
+  "name": "XIII Escalada de S. Gens 2023",
+  "location": "Serpa, Beja",
+  "coordinates": {
+    "lat": 37.9469642,
+    "lon": -7.602181900000001
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/7de5085ffbd3b099122aadfb71fae599"
+  ],
+  "start_date": "2023-09-30",
+  "end_date": "2023-10-01",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Serpa com o apoio técnico da Associação de Atletismo de Beja, e apoio dos Bombeiros Voluntários de Serpa e G.N.R. de Serpa, vai organizar no dia 30 de Setembro de 2023, em Serpa, a XIII Escalada de S. Gens – Serpa Terra Forte, CAMINHADA, Provas Jovens e em simultâneo o Campeonato Distrital de Montanha por Escalão.</p>\n",
+  "description_short": "Caminhada e prova de atletismo em Serpa com campeonato distrital de montanha e provas jovens",
+  "page": "https://acorrer.pt/eventos/info/3263",
+  "slug": "xiii-escalada-de-s-gens-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Serpa",
+  "administrative_area_level_3": "União das freguesias de Serpa (Salvador e Santa Maria)",
+  "district_code": 2
+}

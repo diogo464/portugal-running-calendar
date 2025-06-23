@@ -1,0 +1,34 @@
+{
+  "id": 37556,
+  "name": "Xmas Night Trail Leiria 2024",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    19000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3014402d10c4fd542dd7a72106734653"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-08",
+  "circuit": [],
+  "description": "\n<p>A prova denominada 12º Leiria X-Mas Night Trail é organizada por Liz Runners Associação Desporto, Cultura e Recreio, com o apoio da Câmara Municipal de Leiria.</p>\n\n\n\n<p>Será realizado no dia 07 de Dezembro de 2024 independentemente das condições climatéricas do dia desde que a organização entenda que não há riscos acrescidos pelas mesmas para este tipo de evento.</p>\n\n\n\n<p>A prova terá o seu início no Soutocico, junto à Tosel e a meta será no Largo 5 de Outubro em Leiria.</p>\n\n\n\n<p>O evento é composto por duas provas competitivas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Trail (T 19Km) &#8211;</strong> Percurso com cerca de 19km de dificuldade média, e pouco desnível positivo.</li>\n\n\n\n<li><strong>Mini-Trail (T 10Km) &#8211;</strong> Percurso com cerca de 10km de fácil progressão, ideal para iniciantes à prática de Trail Running.</li>\n\n\n\n<li>O evento é ainda composto por uma <strong>caminhada</strong> não competitiva a realizar no mesmo percurso do Mini-Trail.</li>\n</ul>\n\n\n",
+  "description_short": "Trail noturno de Natal em Leiria com largada em Soutocico e chegada no centro histórico",
+  "page": "https://www.recordepessoal.pt/evento/12x-masnighttrail",
+  "slug": "xmas-night-trail-leiria-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

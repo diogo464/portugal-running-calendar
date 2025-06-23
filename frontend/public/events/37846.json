@@ -1,0 +1,37 @@
+{
+  "id": 37846,
+  "name": "Grande Prémio Atletismo Re-Viver Pêro Viseu 2024",
+  "location": "Pêro Viseu, Fundão",
+  "coordinates": {
+    "lat": 40.2064515,
+    "lon": -7.4433748
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    1600,
+    1609,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "Milha",
+    "walk"
+  ],
+  "images": [
+    "media/1044e69c97f322b0401413417f97dd2a"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-17",
+  "circuit": [],
+  "description": "\n<p><br>O Atletismo está de volta à Freguesia de Pêro Viseu, um evento desportivo que promete uma grande festa do desporto e do atletismo na região. O GP de Atletismo RE-VIVER PÊRO VISEU, vai contar com provas para todos os escalões. Destaque para as provas: CORRIDA DA PEQUENADA E BENJAMINS, PTN ONE MILE 1609m e CORRIDA 10K. Em simultâneo vai decorrer ainda uma CAMINHADA PEDESTRE pelos belos trilhos da freguesia. No final, haverá o ALMOÇO CONVÍVIO e ainda uma fantástico MAGUSTO.</p>\n\n\n\n<p></p>\n",
+  "description_short": "GP de Atletismo em Pêro Viseu com corridas para todos os escalões e caminhada pelos trilhos locais, seguido de almoço e magusto",
+  "page": "https://meutempo.pt/prova?gpreviverperoviseu",
+  "slug": "grande-premio-atletismo-re-viver-pero-viseu-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Fundão",
+  "administrative_area_level_3": "Pero Viseu",
+  "district_code": 5
+}

@@ -1,0 +1,33 @@
+{
+  "id": 35235,
+  "name": "Corrida Cidade de Gandra 2024",
+  "location": "Gandra, Paredes",
+  "coordinates": {
+    "lat": 41.2007707,
+    "lon": -8.4400543
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/8425995d90d861268c5e9db093975862"
+  ],
+  "start_date": "2024-06-01",
+  "end_date": "2024-06-02",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 01 de junho de 2024, com saída às 19h00min da Corrida Cidade de Gandra com partida<br>na Avenida Central Gandra.</p>\n\n\n",
+  "description_short": "Corrida urbana noturna na vila de Gandra em dia de celebração",
+  "page": "https://www.queroir.pt/corrida-cidade-de-gandra-2024",
+  "slug": "corrida-cidade-de-gandra-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Gandra",
+  "district_code": 13
+}

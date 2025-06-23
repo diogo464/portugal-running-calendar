@@ -1,0 +1,35 @@
+{
+  "id": 4647,
+  "name": "Afife Running Trail 2021",
+  "location": "Afife, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7793772,
+    "lon": -8.861042099999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    16000,
+    26000,
+    46000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/181ad111d8c4c943a7f812904f0c679a"
+  ],
+  "start_date": "2021-10-17",
+  "end_date": "2021-10-18",
+  "circuit": [],
+  "description": "\n<p>O VI Afife Running Trail 2021 realizar-se-à dia 17 de outubro na freguesia de Afife. Compõe-se de um caminhada de monte de 10km, um trail curto de 16km, um trail longo de 26km&nbsp;e um trail ultra de 46 km.&nbsp;</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Afife com diferentes distâncias para todos os níveis de trail runners",
+  "page": "https://www.cyclonessports.com/index.php/221-vi-art-afife-running-trail",
+  "slug": "afife-running-trail-2021",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": "Afife",
+  "district_code": 16
+}

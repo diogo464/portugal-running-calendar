@@ -1,0 +1,32 @@
+{
+  "id": 19045,
+  "name": "Grande Prémio Peniche a Correr 2023",
+  "location": "Peniche, Leiria",
+  "coordinates": {
+    "lat": 39.3603291,
+    "lon": -9.387622
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/65aa3b7e6d50d36be6d92afb2e741004"
+  ],
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-16",
+  "circuit": [],
+  "description": "\n<p>No dia 15 de janeiro de 2023 terá lugar a 4ª edição do Grande Prémio Peniche a Correr. Prova de corrida de aproximadamente 10 mil metros, realizada no concelho Peniche, mais concretamente no interior da Cidade de Peniche. Esta iniciativa, é promovida pela Associação Peniche a Correr e pelos Bombeiros Voluntários de Peniche.</p>\n",
+  "description_short": "Trail urbano pelos arruamentos de Peniche com organização solidária dos bombeiros locais",
+  "page": "https://www.trilhoperdido.com/evento/4-grande-premio-peniche-a-correr",
+  "slug": "grande-premio-peniche-a-correr-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Peniche",
+  "administrative_area_level_3": "Peniche",
+  "district_code": 10
+}

@@ -1,0 +1,36 @@
+{
+  "id": 29474,
+  "name": "Trail das Andorinhas 2023",
+  "location": "Póvoa de Lanhoso, Braga",
+  "coordinates": {
+    "lat": 41.5784784,
+    "lon": -8.2689012
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000,
+    18000,
+    26000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6c3219bd14ad9e069d84aaffea7593de"
+  ],
+  "start_date": "2023-12-10",
+  "end_date": "2023-12-11",
+  "circuit": [],
+  "description": "\n<p>OTRAIL DAS ANDORINHAS (6ª edição) acontece a 10 de dezembro de 2023, sendo uma prova de Trail Running inserida no Circuito Regional de Trail da ASSOCIAÇÃO ATLETISMO DE BRAGA.</p>\n\n\n\n<p>Distâncias: Trail Longo – 26Kms<br>Trail Curto 18kms<br>Caminhada – 5Kms<br>Trail Kids</p>\n",
+  "description_short": "Trail pelas paisagens de Braga com etapas de diferentes distâncias para todos os níveis de trail running",
+  "page": "https://www.sinctime.com/evento/194",
+  "slug": "trail-das-andorinhas-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Póvoa de Lanhoso",
+  "administrative_area_level_3": "Póvoa de Lanhoso (Nossa Senhora do Amparo)",
+  "district_code": 3
+}

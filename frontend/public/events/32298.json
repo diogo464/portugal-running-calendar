@@ -1,0 +1,40 @@
+{
+  "id": 32298,
+  "name": "São Jorge de Ponta a Ponta 2024",
+  "location": "Ilha de São Jorge, Açores",
+  "coordinates": {
+    "lat": 38.6409678,
+    "lon": -28.0303189
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    30000,
+    40000,
+    42195,
+    64000,
+    80000,
+    100000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "marathon",
+    "walk",
+    "relay"
+  ],
+  "images": [
+    "media/5e19ac659458655cd1f363cf97c63e35"
+  ],
+  "start_date": "2024-04-27",
+  "end_date": "2024-04-28",
+  "circuit": [],
+  "description": "\n<p>No dia 27 de Abril de 2024, terá lugar a IX Edição do evento “São Jorge de Ponta a Ponta” na ilha de São Jorge no arquipélago dos Açores.</p>\n\n\n\n<p>Trata-se da travessia longitudinal da ilha de São Jorge &#8211; Açores, com início no extremo Ocidental da ilha e final no extremo oposto, na ponta do Topo. Nas competições &#8220;Ponta a Ponta&#8221; com partida no farol dos Rosais, temos: ULTRA CAMINHADA 64K, ULTRA MARATONA 64K, ULTRA TRAIL 80Km, ESTAFETA 2X64 e BTT 100Km.<br>A partida da &#8220;Meia Ponta&#8221; é na Freguesia de Norte Pequeno com a CAMINHADA 30K, MARATONA 30K e TRAIL RUN 40K.</p>\n\n\n",
+  "description_short": "Trail desafiante de ponta a ponta pela ilha de São Jorge nos Açores, com diversas provas de diferentes distâncias",
+  "page": "https://www.pontaaponta.pt/",
+  "slug": "ponta-a-ponta-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

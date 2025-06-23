@@ -1,0 +1,32 @@
+{
+  "id": 34288,
+  "name": "Trail das Azenhas de Carregosa 2024",
+  "location": "Carregosa, Oliveira de Azeméis",
+  "coordinates": {
+    "lat": 40.883343,
+    "lon": -8.413664899999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/8a936cf348e7ed2e8240b5f7d1bea4ee"
+  ],
+  "start_date": "2024-12-08",
+  "end_date": "2024-12-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O 1ºTrail Azenhas de Carregosa é uma organização da Confraria Trotamontes em parceria com o Município de Oliveira de Azeméis e está inserido no Circuito Concelhio de Trail Running de Oliveira de Azeméis.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail técnico pela região de Oliveira de Azeméis com organização da Confraria Trotamontes",
+  "page": "https://lap2go.com/pt/event/trail-azenhas-de-carregosa-2024",
+  "slug": "trail-das-azenhas-de-carregosa-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "Carregosa",
+  "district_code": 1
+}

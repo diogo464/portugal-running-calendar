@@ -1,0 +1,36 @@
+{
+  "id": 23022,
+  "name": "Coutos Natura Challenge 2023",
+  "location": "Viseu",
+  "coordinates": {
+    "lat": 40.6565861,
+    "lon": -7.9124712
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f9e2db85b9882b4b5a0fb1cf5fb43dff"
+  ],
+  "start_date": "2023-09-30",
+  "end_date": "2023-10-01",
+  "circuit": [],
+  "description": "\n<p>A Prova tem data de realização agendada para o dia 30 de Setembro de 2023.</p>\n\n\n\n<p>O Coutos Natura Challenge (CNC) é um evento de Trail Running e Skyrunning que concilia a prática desportiva de corrida em ambiente natural, com a beleza da zona Florestal na região de Dade, Coutos de Viseu, Viseu, Portugal.<br>A organização resulta da coorganização da Junta de Freguesia dos Coutos de Viseu e a equipa Trail Runners Family, uma família que se transformou numa equipa, e ficou conhecida no ”mundo” do Trail e Skyrunning como tal.</p>\n\n\n\n<p>È uma prova de corrida em montanha com percursos recheados de trilhos técnicos, abertos de novo para esta 1ª Edição e com trilhos resultantes da vida quotidiana agricola das gerações passadas da nossa Freguesia.</p>\n\n\n\n<p>A Prova de&nbsp;<strong>CoutosSky Mini 10km</strong>&nbsp;é uma disciplina da modalidade de Skyrunning, para atletas federados e aberta a todos os outros atletas que queiram ter uma iniciação ao skyrunning.</p>\n\n\n\n<p>Esta prova será tutelada pela Federação de Campismo e Montanhismo de Portugal.</p>\n\n\n\n<p>A Prova de&nbsp;<strong>CoutosTrail Curto (TC) 15km</strong>&nbsp;é uma disciplina da modalidade de Trail.<br>A Prova de&nbsp;<strong>CoutosTrail Longo</strong>&nbsp;<strong>(TL) 25km&nbsp;</strong>é uma disciplina da modalidade de Trail.<br>A prova&nbsp;<strong>Coutos Caminhada 8km</strong>&nbsp;é uma caminhada de dificuldade média e de caráter não competitiva (sem regulamento específico), onde se pretende que, de uma forma mais descontraída, todos possam participar no Coutos Natura Challenge</p>\n\n\n",
+  "description_short": "Trail running técnico pelos trilhos históricos de Coutos de Viseu, com diferentes provas de montanha e caminhada",
+  "page": "https://waitastart.com/coutos-natura-challenge-23/",
+  "slug": "coutos-natura-challenge-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Viseu",
+  "district_code": 18
+}

@@ -1,0 +1,35 @@
+{
+  "id": 41071,
+  "name": "Corrida Solidária AEIST 2025",
+  "location": "Instituto Superior Técnico Taguspark, Oeiras",
+  "coordinates": {
+    "lat": 38.7370274,
+    "lon": -9.3026572
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/314138134a1717e831228b430fcfb555"
+  ],
+  "start_date": "2025-05-31",
+  "end_date": "2025-06-01",
+  "circuit": [],
+  "description": "\n<p>A Corrida Solidária AEIST é um evento de caráter solidário com o objetivo de reverter 100% dos lucros para a Associação de Paralisia Cerebral de Lisboa e apoiar os seus projetos em desenvolvimento. A prova consiste em duas modalidades: 5 km de caminhada e 10 km de corrida, sendo ambas na zona do Taguspark, Oeiras. Este evento para além de promover a prática desportiva, tem como objetivo proporcionar um momento de convívio entre família e amigos.</p>\n\n\n",
+  "description_short": "Corrida solidária em Oeiras com apoio à Associação de Paralisia Cerebral de Lisboa",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/153799-iii_corrida_solidaria_aeist-taguspark/",
+  "slug": "corrida-solidaria-aeist-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "Porto Salvo",
+  "district_code": 11
+}

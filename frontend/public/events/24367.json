@@ -1,0 +1,37 @@
+{
+  "id": 24367,
+  "name": "Trail de Conímbriga Terras de Sicó 2024",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    13000,
+    16000,
+    30000,
+    60000,
+    111000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8905344e9d8a802ea277a3d2be4ccdaa"
+  ],
+  "start_date": "2024-02-23",
+  "end_date": "2024-02-24",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Já experimentou correr nas Terras de Sicó? Será a XV edição que conforme os dois anos anteriores percorre todos os Concelhos das Terras de Sicó. Condeixa, Penela, Ansião, Soure, Alvaiázere e Pombal. Muitas distâncias à escolha: 111 Milhas, 111 km, 60 km, 30 km, 16 km e uma caminhada de 13 km. Inscreva-se e venha sentir as emoções do Sicó!!!</p>\n",
+  "description_short": "Trail de montanha pelos seis municípios das Terras de Sicó com múltiplas opções de distância",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/141/",
+  "slug": "trail-de-conimbriga-terras-de-sico-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

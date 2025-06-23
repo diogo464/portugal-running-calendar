@@ -1,0 +1,32 @@
+{
+  "id": 39460,
+  "name": "Douro Montemuro Ultra Trilhos 2025",
+  "location": "Cinfães",
+  "coordinates": {
+    "lat": 41.071713,
+    "lon": -8.0898477
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/e01f6335a475f2b35c67cfa7b6b6bb8d"
+  ],
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-02",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Douro Montemuro Ultra Trilhos (DMUT) é um evento desportivo de trail running da responsabilidade organizativa da Associação Desportiva Cinfães a Correr, associação sem fins lucrativos, com sede no Município de Cinfães, que se realizará nos dias 31 de Maio e 01 de junho de 2025.</p>\n\n\n\n<p><br>É uma prova certificada pela Associação de Trail Running de Portugal, sendo que as 4 provas competitivas integram os respetivos circuitos nacionais: Trail Ultra, Trail, Sprint e Jovem. É também certificada pelo ITRA &#8211;<br>International Trail Running Association, assim como é UTMB Index.</p>\n",
+  "description_short": "Trail running desafiante pelo território de Cinfães com provas certificadas em circuitos nacionais",
+  "page": "https://stopandgo.net/events/douro-montemuro-ultra-trilhos-2025",
+  "slug": "douro-montemuro-ultra-trilhos-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Cinfães",
+  "administrative_area_level_3": "Cinfães",
+  "district_code": 18
+}

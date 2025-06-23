@@ -1,0 +1,29 @@
+{
+  "id": 14825,
+  "name": "Troféu Trail Porto De Mós 2022",
+  "location": "Porto de Mós",
+  "coordinates": {
+    "lat": 39.5990855,
+    "lon": -8.8307626
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/704d50a25a700a44edc912a7d5686ddf"
+  ],
+  "start_date": "2022-04-30",
+  "end_date": "2022-05-01",
+  "circuit": [],
+  "description": "\n<p><strong>O Município de Porto de Mós</strong>&nbsp;em conjunto com a&nbsp;<strong>Recorde Pessoal</strong>, organizam entre os meses de&nbsp;<strong>Abril e Setembro</strong>, um troféu que consiste em 10 etapas de Trail.</p>\n\n\n\n<p>Os percursos serão enviados por email após o ato de regularização da inscrição.</p>\n\n\n\n<p>As provas realizam-se nas&nbsp;<strong>10 Freguesias do Concelho de Porto de Mós</strong>&nbsp;(uma por freguesia).</p>\n\n\n\n<p>O Troféu é constituído no seu percurso por trilhos, carreiros e caminhos com algum desnível.</p>\n\n\n\n<p>Por vezes são utilizadas e/ou atravessadas estradas nacionais ou municipais com transito automóvel, por tal a organização aconselha a máxima prudência aos participantes.</p>\n\n\n\n<p>O percurso alia beleza paisagística, fauna e flora diversa, piso técnico, conciliado com alguma dureza.Troféu Trail Porto De Mós 2022</p>\n",
+  "description_short": "Trail rústico por 10 diferentes freguesias do Concelho de Porto de Mós com paisagens naturais desafiantes",
+  "page": "https://www.recordepessoal.pt/evento/12etapatrofutrailportodems2022",
+  "slug": "trofeu-trail-porto-de-mos-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Porto de Mós",
+  "administrative_area_level_3": "Porto de Mós - São João Baptista e São Pedro",
+  "district_code": 10
+}

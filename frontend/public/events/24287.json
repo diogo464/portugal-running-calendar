@@ -1,0 +1,29 @@
+{
+  "id": 24287,
+  "name": "Uchalá Que Seja O Último 2023",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3859eaaa36401173d3cb63aa464b8814"
+  ],
+  "start_date": "2023-07-09",
+  "end_date": "2023-07-10",
+  "circuit": [],
+  "description": "\n<p>UchaLá que seja o Último! (Último Vence) – Esta prova Trail é uma corrida onde todos chegam ao fim, mas apenas um pode vencer! No início de cada volta, todos estão novamente em 1o lugar. Um evento que junta, desporto, natureza, convívio e limites, num desafio que cada um coloca a si mesmo.</p>\n\n\n",
+  "description_short": "Trail de superação com voltas consecutivas onde todos podem chegar ao fim e apenas um vence",
+  "page": "https://stopandgo.net/events/uchala",
+  "slug": "uchala-que-seja-o-ultimo-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

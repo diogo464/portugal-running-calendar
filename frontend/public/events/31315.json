@@ -1,0 +1,34 @@
+{
+  "id": 31315,
+  "name": "Corrida do Chocolate 2024",
+  "location": "Óbidos, Leiria",
+  "coordinates": {
+    "lat": 39.3572399,
+    "lon": -9.1578614
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    6000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/16a36d69b8cea35e204efb9d48ab21a3"
+  ],
+  "start_date": "2024-03-02",
+  "end_date": "2024-03-03",
+  "circuit": [],
+  "description": "\n<p>&nbsp;Empresa Municipal “Óbidos Criativa” (OC) organiza em parceria com a Câmara Municipal de Óbidos (CMO), o Clube de Atletismo de Óbidos (CAOB) e a Ganhardestak, no dia 2 de março de 2024, uma competição denominada “V CORRIDA DO CHOCOLATE”, integrando ainda a “IV CAMINHADA DO CHOCOLATE”, ambas com partida e chegada à porta da Vila de Óbidos.</p>\n\n\n\n<p>A prova realiza-se durante o Festival Internacional de Chocolate de Óbidos. A corrida de estrada na distância de 10 km tem a partida na Porta da Vila. Realiza-se também uma caminhada na distância de 6 km.</p>\n\n\n\n<p>Cada atleta inscrito tem direito a uma entrada no Festival Internacional de Chocolate 2024 (não convertível em dinheiro).</p>\n",
+  "description_short": "Corrida temática de chocolate pela histórica Vila de Óbidos durante o seu festival internacional",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/133514-v_corrida_do_chocolate_iv_caminhada_do_chocolate_2024-castelo_de_obidos/",
+  "slug": "corrida-do-chocolate-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Município do Óbidos",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Sobral da Lagoa",
+  "district_code": 10
+}

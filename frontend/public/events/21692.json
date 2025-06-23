@@ -1,0 +1,30 @@
+{
+  "id": 21692,
+  "name": "Eco Trail Transfornos 2023",
+  "location": "Fornos de Algodres, Guarda",
+  "coordinates": {
+    "lat": 40.6201957,
+    "lon": -7.539550699999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/62c6fb1089e6c19a387531dfae97e156"
+  ],
+  "start_date": "2023-04-02",
+  "end_date": "2023-04-03",
+  "circuit": [],
+  "description": "\n<p>O ”ECO TRAIL-TRASFORNOS” é uma corrida de montanha, organizada pela “AVCAT\u0002Associação Vila Chã Aldeia Trail de Portugal”, a realizar no dia 2 de abril de 2023, em Fornos de Algodres.<br>Este trail faz parte do Circuito Municipal de Corrida de Montanha-Trilhos D`O Bom Sabor da<br>Serra-VI(r)VER Fornos de Algodres e será a 2ª etapa.</p>\n\n\n\n<p>O ”ECO TRAIL-TRASFORNOS” é uma prova de corrida de montanha, constituído por um Trail<br>Longo, um Trail Curto e uma caminhada, realizados predominantemente em trilhos, caminhos<br>rurais, vias de terra batida e ribeiras do concelho de Fornos de Algodres.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos e ribeiras de Fornos de Algodres com duas distâncias e caminhada",
+  "page": "https://acorrer.pt/eventos/info/3081",
+  "slug": "eco-trail-transfornos-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Fornos de Algodres",
+  "administrative_area_level_3": "Fornos de Algodres",
+  "district_code": 9
+}

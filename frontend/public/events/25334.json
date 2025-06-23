@@ -1,0 +1,33 @@
+{
+  "id": 25334,
+  "name": "Trail Rota das Fontes 2023",
+  "location": "Águeda",
+  "coordinates": {
+    "lat": 40.5754246,
+    "lon": -8.446436799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    8000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b61a582de9bb735b1327915354b6beba"
+  ],
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-09",
+  "circuit": [],
+  "description": "\n<p>O trail Rota das Fontes é organizado pela Associação Humanitária Castanheirense no dia 8 de Outubro de 2023 decorrerão em simultâneo duas provas competitivas: Trail Longo (25 km) e Trail Curto (15 km). Decorrerá também uma prova recreativa: Caminhada (8 km). </p>\n\n\n\n<p>É um evento que percorre as veredas do monte, passando por margens de rio, ribeiros e escarpas, proporcionando ao atleta a travessia de trilhos de beleza ímpar onde cascatas, vegetação natural e aldeias antigas se fundem num cenário natural que vale a pena conhecer.</p>\n",
+  "description_short": "Trail pelas veredas do monte com passagem por rios, cascatas e aldeias antigas em cenário natural único",
+  "page": "https://lap2go.com/pt/event/rota-das-fontes-2023",
+  "slug": "trail-rota-das-fontes-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Águeda e Borralha",
+  "district_code": 1
+}

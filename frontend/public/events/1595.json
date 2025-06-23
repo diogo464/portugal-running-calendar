@@ -1,0 +1,35 @@
+{
+  "id": 1595,
+  "name": "Meia Maratona Cortegaça 2020",
+  "location": "Praia De Cortegaça, Aveiro",
+  "coordinates": {
+    "lat": 40.9419814,
+    "lon": -8.6578115
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "half-marathon",
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/7ce3aa8dc9cc52846c496527b66b5bce"
+  ],
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-11",
+  "circuit": [],
+  "description": "<p>Já se encontram abertas as inscrições para a 36ª Meia Maratona de Cortegaça, a realizar no dia 10 de Maio de 2020 pelas 9:30 horas!<br />\nTal como na última edição, podes escolher entre a Meia maratona, a Caminhada e ainda uma Prova de 10 km como novidade.</p>\n<p>Contamos contigo?!</p>\n",
+  "description_short": "Meia maratona anual em Cortegaça com opções de prova para diferentes níveis de atletas",
+  "page": "https://meiamaratonacortegaca.com/?fbclid=IwAR3jct_c-a7CjY14kVs7qgUZz5lx1OdqyKZO04Y2Frgxc6N_kBlmTTY_Icg",
+  "slug": "meia-maratona-cortegaca-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ovar",
+  "administrative_area_level_3": "Cortegaça",
+  "district_code": 1
+}

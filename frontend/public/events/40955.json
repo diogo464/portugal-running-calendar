@@ -1,0 +1,29 @@
+{
+  "id": 40955,
+  "name": "VieiraFit Obstacle Race 2024",
+  "location": "Vieira do Minho, Braga",
+  "coordinates": {
+    "lat": 41.6343218,
+    "lon": -8.141619799999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/efb6b0763e5ce63f2bde7ce878f3f558"
+  ],
+  "start_date": "2025-07-12",
+  "end_date": "2025-07-13",
+  "circuit": [],
+  "description": "\n<p>A VIEIRAFIT Race é uma prova que combina corrida com obstáculos urbanos, organizada pela empresa 4FITGIM, LDA, contando com o apoio das seguintes entidades públicas:<br>• Câmara Municipal de Vieira do Minho;<br>• Associação Desportiva de Vieira.</p>\n\n\n",
+  "description_short": "Corrida de obstáculos urbanos em Vieira do Minho com apoio municipal e desportivo",
+  "page": "https://meutempo.pt/prova?fitvieira",
+  "slug": "vieirafit-obstacle-race-2024-2",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vieira do Minho",
+  "administrative_area_level_3": "Vieira do Minho",
+  "district_code": 3
+}

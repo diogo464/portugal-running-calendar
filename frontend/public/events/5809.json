@@ -1,0 +1,33 @@
+{
+  "id": 5809,
+  "name": "Corrida de Lousado 2021",
+  "location": "Lousado, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.3506416,
+    "lon": -8.5383003
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/4eb9892fc9bc8d38d9c935ade5410b0f"
+  ],
+  "start_date": "2021-12-11",
+  "end_date": "2021-12-12",
+  "circuit": [],
+  "description": "\n<p>Corrida de Lousado 2021 SINDEQ ,Trofeu João Carvalho. </p>\n\n\n\n<p>10 km Corrida</p>\n\n\n\n<p>7 km Caminhada.</p>\n",
+  "description_short": "Prova desportiva solidária em Lousado com corrida e caminhada em homenagem a João Carvalho",
+  "page": "https://fpacompeticoes.pt/716/inscrever",
+  "slug": "corrida-de-lousado-2021",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Lousado",
+  "district_code": 3
+}

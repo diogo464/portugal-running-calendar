@@ -1,0 +1,33 @@
+{
+  "id": 37589,
+  "name": "Corrida S. S. Manuel Dos Santos Almeida 2024",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/e03765b5e5baab40276d66b30b95f4bc"
+  ],
+  "start_date": "2024-12-21",
+  "end_date": "2024-12-22",
+  "circuit": [],
+  "description": "\n<p>Co-organizada pela Câmara Municipal de S. Pedro do Sul, pela Termalistur EM e pela União de Freguesias de S. Pedro do Sul, Várzea e Baiões e com a colaboração do GTT – Grupo todo terreno de São Pedro do Sul, decorre no dia 21 de dezembro de 2024, com início às 19:00 horas, a XI edição da corrida S. SILVESTRE &#8211; MANUEL DOS SANTOS ALMEIDA.</p>\n",
+  "description_short": "Trail noturno de São Silvestre nas serras de São Pedro do Sul com organização municipal",
+  "page": "https://stopandgo.net/events/corrida-s-s-manuel-dos-santos-almeida-2024",
+  "slug": "corrida-s-s-manuel-dos-santos-almeida-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

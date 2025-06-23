@@ -1,0 +1,34 @@
+{
+  "id": 34407,
+  "name": "Milha Urbana Alberto Chaíça 2024",
+  "location": "Almada, Setúbal",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    1600
+  ],
+  "types": [
+    "run",
+    "Milha"
+  ],
+  "images": [
+    "media/20f51ec97b31c08337925172f7ec8791"
+  ],
+  "start_date": "2024-05-18",
+  "end_date": "2024-05-19",
+  "circuit": [
+    "Trofeu de Almada"
+  ],
+  "description": "\n<p>A&nbsp;<strong>4 Maio 2024</strong>&nbsp;vai realizar-se o&nbsp;<strong>7ª Milha Urbana Alberto Chaíça</strong>, prova inserida no&nbsp;<strong>Troféu de Almada Atletismo ‘Mário Pinto Claro’ 2023/2024.</strong></p>\n\n\n",
+  "description_short": "Milha urbana em Almada homenageando atleta local com prova integrada em troféu municipal",
+  "page": "https://xistarca.pt/eventos/taampc-7a-milha-urbana-alberto-chaica",
+  "slug": "milha-urbana-alberto-chaica-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

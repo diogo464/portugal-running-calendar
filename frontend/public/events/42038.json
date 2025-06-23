@@ -1,0 +1,32 @@
+{
+  "id": 42038,
+  "name": "Corrida INCM 2025",
+  "location": "Parque Ribeirinho do Oriente, Lisboa",
+  "coordinates": {
+    "lat": 38.7457891,
+    "lon": -9.0970474
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/52c8ccedc659c5dfc7761f86431f7ee5"
+  ],
+  "start_date": "2025-07-06",
+  "end_date": "2025-07-07",
+  "circuit": [],
+  "description": "\n<p>A Imprensa Nacional – Casa da Moeda (INCM) irá realizar a “V&nbsp;Corrida INCM”, no dia 06&nbsp;de Julho no Parque Ribeirinho do Oriente &#8211; Marvila, a partir das 09:00h, com a organização Técnica da Werun.</p>\n\n\n\n<p>A “V Corrida INCM” é um evento de natureza desportiva e tem como objetivo incentivar e consciencializar os seus colaboradores e a população em geral &nbsp;para a importância da prática de exercício físico.</p>\n\n\n",
+  "description_short": "Corrida empresarial da INCM em Marvila com partida no Parque Ribeirinho do Oriente",
+  "page": "https://werun.pt/eventos/5-corrida-incm-2025/",
+  "slug": "corrida-incm-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Marvila",
+  "district_code": 11
+}

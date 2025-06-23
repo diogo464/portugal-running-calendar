@@ -1,0 +1,33 @@
+{
+  "id": 40081,
+  "name": "Corrida de São Tiago 2025",
+  "location": "Rio Meão, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9585644,
+    "lon": -8.5871015
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/49c98d827998a5018b3745ab94440cbf"
+  ],
+  "start_date": "2025-06-29",
+  "end_date": "2025-06-30",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de Rio Meão, realizará mais uma edição da Corrida de São Tiago, corrida destinada a atletas federados e não federados aberta a todas as idades, sendo uma competição regida pelas diretrizes da FPA e da World Athletics.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional de São Tiago em Rio Meão aberta a todos os atletas",
+  "page": "https://lap2go.com/pt/event/corrida-stiago-2025",
+  "slug": "corrida-de-sao-tiago-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Rio Meão",
+  "district_code": 1
+}

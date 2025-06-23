@@ -1,0 +1,33 @@
+{
+  "id": 37824,
+  "name": "São Silvestre de Castelões 2024",
+  "location": "Castelões, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.4114125,
+    "lon": -8.4291501
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    9000
+  ],
+  "types": [
+    "run",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/335cb2a0ba7a6fd1aac8840a59f38644"
+  ],
+  "start_date": "2024-11-30",
+  "end_date": "2024-11-30",
+  "circuit": [],
+  "description": "\n<p>Está de regresso a São Silvestre de Castelões, concelho de Vila Nova de Famalicão.</p>\n\n\n\n<p>Um evento que vai muito para além das corridas. Após um par de anos de pausa, a mítica prova de atletismo, que foi pioneira ao colocar o foco competitivo nas corridas dos escalões de formação, surge renovada e com o entusiasmo necessário para recuperar o tempo perdido, desta feita com a chancela da seção Vá Caminha, da AD Castelões e com o principal patrocínio da Crediversos, a quem agradecemos a confiança.</p>\n\n\n\n<p>Estamos a construir um novo evento que pretende marcar as corridas do final do ano 2024.</p>\n\n\n\n<p>A iniciativa acontece a 30 de novembro, ao fim da tarde de um sábado e conta com provas para todos os escalões de formação, desde os benjamins aos juvenis.</p>\n\n\n\n<p>Segue-se a corrida popular, que junta os escalões de juniores, seniores e veteranos, com a distância de 9 quilómetros. Haverá ainda uma caminhada aberta a todos os interessados.&nbsp;</p>\n\n\n\n<p></p>\n",
+  "description_short": "São Silvestre de Castelões regressa com corridas para todos os escalões num evento desportivo ao fim da tarde em Vila Nova de Famalicão",
+  "page": "https://www.sinctime.com/evento/295",
+  "slug": "sao-silvestre-de-casteloes-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Castelões",
+  "district_code": 3
+}

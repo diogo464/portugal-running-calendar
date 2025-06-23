@@ -1,0 +1,36 @@
+{
+  "id": 30143,
+  "name": "Trail da Loba 2024",
+  "location": "Rio de Loba, Viseu",
+  "coordinates": {
+    "lat": 40.6646716,
+    "lon": -7.8778339
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    8000,
+    18000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/4bbc9a01edd1cd7a12ada04caeb1f93c"
+  ],
+  "start_date": "2024-01-21",
+  "end_date": "2024-01-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O 6º Trail da Loba será realizado no dia 21/01/2024 em Rio de Loba – Viseu. Este evento é organizado pela Junta de Freguesia de Rio de Loba, em parceria com o Centro Social Cultural Recreativo e Desportivo Leões da Beira e tem como objetivo promover a prática da atividade física, dando a conhecer os trilhos e caminhos da Freguesia de Rio de Loba.</p>\n\n\n\n<p><br>O Trail é composto por três percursos:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo de +/- 28Km (Adiante designado TL);</li>\n\n\n\n<li>Trail Curto de +/- 18Km (Adiante designado TC);</li>\n\n\n\n<li>Mini-Trail/Caminhada +/- 8Km (Adiante designado MT).</li>\n</ul>\n",
+  "description_short": "Trail desafiante pela região de Viseu, revelando os caminhos da Freguesia de Rio de Loba",
+  "page": "https://acorrer.pt/eventos/info/3313",
+  "slug": "trail-da-loba-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Rio de Loba",
+  "district_code": 18
+}

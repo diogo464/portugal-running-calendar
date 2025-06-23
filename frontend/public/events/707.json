@@ -1,0 +1,33 @@
+{
+  "id": 707,
+  "name": "São Silvestre 100% Solidária da Póvoa de Lanhoso",
+  "location": "Póvoa de Lanhoso, Braga",
+  "coordinates": {
+    "lat": 41.5784784,
+    "lon": -8.2689012
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/536e53ea57a6885ae25d212af28ff6de"
+  ],
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-06",
+  "circuit": [],
+  "description": "<p align=\"justify\">O Clube de Adoção e Proteção de Animais (CAPA) e o Município da Póvoa de Lanhoso estão juntos para mais uma edição da prova desportiva São Silvestre Solidária da Póvoa de Lanhoso.</p>\n<p align=\"justify\">O evento decorrerá no dia 5 de janeiro de 2020, pelas 10h, e passará pelas principais artérias da Vila de Póvoa de Lanhoso.</p>\n<p align=\"justify\">Trata-se de um evento que, para além de pretender promover a prática desportiva, é 100% solidário, cujos lucros arrecadados serão revertidos na totalidade para o CAPA e 1€ de cada inscrição reverterá a favor de duas associações de carácter social e humanitário do município: Bombeiros Voluntários da Póvoa de Lanhoso e Cruz Vermelha Portuguesa da Póvoa de Lanhoso.</p>\n<p align=\"justify\">Após o enorme sucesso que foram as duas edições anteriores, com mais de 500 participantes em ambas, este ano regressamos ao bonito cenário da vila da Póvoa de Lanhoso, a qual contempla um esplendoroso Castelo, paisagens lindíssimas, pessoas simpáticas e muita história. Participa e ajuda esta causa!</p>\n",
+  "description_short": "Corrida solidária pela vila do Castelo da Póvoa de Lanhoso com apoio a instituições locais",
+  "page": "https://www.prozis.com/pt/pt/evento/sao-silvestre-solidaria-da-povoa-de-lanhoso_1",
+  "slug": "sao-silvestre-100-solidaria-da-povoa-de-lanhoso",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Póvoa de Lanhoso",
+  "administrative_area_level_3": "Póvoa de Lanhoso (Nossa Senhora do Amparo)",
+  "district_code": 3
+}

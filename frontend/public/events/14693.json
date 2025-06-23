@@ -1,0 +1,29 @@
+{
+  "id": 14693,
+  "name": "Trail Noturno Professor José Lourenço 2022",
+  "location": "Arruda dos Vinhos, Lisboa",
+  "coordinates": {
+    "lat": 38.9829298,
+    "lon": -9.0776401
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ae157a79bfddd107224a164ebadcd9bf"
+  ],
+  "start_date": "2022-04-30",
+  "end_date": "2022-05-01",
+  "circuit": [],
+  "description": "\n<p>Trail Noturno Professor José Lourenço 2022</p>\n",
+  "description_short": "Trail nocturno pela região com homenagem ao Professor José Lourenço",
+  "page": "https://www.trilhoperdido.com/evento/4-Trail-Noturno-Professor-Jose-Lourenco",
+  "slug": "trail-noturno-professor-jose-lourenco-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Arruda dos Vinhos",
+  "administrative_area_level_3": "Arruda dos Vinhos",
+  "district_code": 11
+}

@@ -1,0 +1,34 @@
+{
+  "id": 38924,
+  "name": "São Silvestre da Covilhã 2024",
+  "location": "Covilhã, Castelo Branco",
+  "coordinates": {
+    "lat": 40.2805633,
+    "lon": -7.504327199999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/dad14d531f233212f8e7e40e28a4ebae"
+  ],
+  "start_date": "2024-12-28",
+  "end_date": "2024-12-28",
+  "circuit": [],
+  "description": "\n<p>A Corrida de S. Silvestre &#8211; Covilhã, realizar-se-á no sábado dia 28 de dezembro 2024, pelas ruas da Cidade da Covilhã, com partida de todas as provas na Praça do Município, entre a Sede do Posto de Turismo da Covilhã e a Caixa Geral de Depósitos (junto à Praça de Táxis), ficando o Secretariado da Prova a funcionar na Sede do C.C.D. Leões da Floresta (podendo ser alterado para junto da Partida / Meta).<br></p>\n\n\n\n<p>A Prova é Organizada pelo C.C.D. Leões da Floresta com o importante apoio da Câmara Municipal da Covilhã e também da União de Freguesias da Covilhã e Canhoso, da Associação de Atletismo de Castelo Branco e do Comércio Local do Concelho.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de S. Silvestre pela histórica cidade da Covilhã, com partida na Praça do Município",
+  "page": "https://linktr.ee/ccdleoesdafloresta",
+  "slug": "sao-silvestre-da-covilha-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "São Martinho",
+  "district_code": 5
+}

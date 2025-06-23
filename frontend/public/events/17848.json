@@ -1,0 +1,36 @@
+{
+  "id": 17848,
+  "name": "Barreiro São Silvestre 2022",
+  "location": "Barreiro",
+  "coordinates": {
+    "lat": 38.6608149,
+    "lon": -9.0790724
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/c13faa3f7176268fc96b6e45fd6025ac"
+  ],
+  "start_date": "2022-12-03",
+  "end_date": "2022-12-04",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre do Barreiro 2022 terá uma corrida de 10 km e uma caminhada de 5km e será realizada no dia 3 de Dezembro.</p>\n\n\n\n<p>⎯ Caminhada Solidária 7 km<br>⎯ Corrida Barreiro São Silvestre 10 km</p>\n",
+  "description_short": "Corrida de São Silvestre no Barreiro com prova de 10 km e caminhada solidária",
+  "page": "https://www.trilhoperdido.com/evento/Barreiro-Sao-Silvestre-2022",
+  "slug": "sao-silvestre-do-barreiro-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "Barreiro",
+  "district_code": 15
+}

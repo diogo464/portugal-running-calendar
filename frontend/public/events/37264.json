@@ -1,0 +1,35 @@
+{
+  "id": 37264,
+  "name": "Trilhos dos Casainhos 2024",
+  "location": "Casainhos, Fanhões",
+  "coordinates": {
+    "lat": 38.8820591,
+    "lon": -9.16704
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    9000,
+    10000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2b389ce8b9dc3e63337c0a39d77953f6"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [],
+  "description": "\n<p>O XIV Trilhos de Casaínhos é um evento desportivo de carácter lúdico e competitivo que tem por<br>objetivo divulgar e promover a prática desportiva, em especial a modalidade de trail running, bem<br>como dar a conhecer as localidades onde o evento decorre. Organizado pelo Sporting Clube de<br>Casaínhos, com o apoio da Câmara Municipal de Loures e da Junta de Freguesia de Fanhões, este<br>evento desportivo encontra-se integrado nas comemorações do 449º aniversário da Freguesia de<br>Fanhões.</p>\n\n\n\n<p>Os XIV Trilhos de Casaínhos são compostos por três provas, duas competitivas e uma lúdica:<br>&#8211; Trail Curto, com cerca de 18 km de extensão e com um limite horário de 3H30;<br>&#8211; Trail Experience, com cerca de 10 km e com um limite horário de 2H00, ideal para quem se pretende<br>iniciar no Trail Running;<br>&#8211; Caminhada, com cerca de 9 km, de carácter lúdico, sem limite horário.</p>\n",
+  "description_short": "Trail desportivo em Fanhões integrado nas comemorações do aniversário da freguesia",
+  "page": "https://acorrer.pt/eventos/info/3641",
+  "slug": "trilhos-dos-casainhos-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Fanhões",
+  "district_code": 11
+}

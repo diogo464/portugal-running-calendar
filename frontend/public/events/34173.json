@@ -1,0 +1,40 @@
+{
+  "id": 34173,
+  "name": "Meia Maratona Leiria 2024",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    500,
+    1000,
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/bd4bc5c02574aba587d2b8784cdc4be7"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [],
+  "description": "\n<p>Este é um dos eventos de referência na cidade do Lis: a Meia Maratona de Leiria acontece sempre no mês de</p>\n\n\n\n<p><strong>MEIA MARATONA LEIRIA</strong>&nbsp;é um evento de excelência, com dinâmicas que irão permitir momentos fantásticos. Uma prova certificada e reconhecida internacionalmente pela World Athletics, um evento que para além de ser competitivo é um evento de emoções!</p>\n\n\n\n<p>Sintam-se assim, todos convidados a participar e vivenciar a cidade de Leiria.</p>\n\n\n\n<p>O evento conta com 4 segmentos:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Meia Maratona – 21K (prova oficial do Campeonato Distrital de Meia Maratona ADAL)</li>\n\n\n\n<li>Distância 10K</li>\n\n\n\n<li>Kids Race – 500 e 1000m</li>\n\n\n\n<li>Caminhada – 5Km</li>\n</ul>\n\n\n\n<p><strong>Promotor: Câmara Municipal de Leiria</strong></p>\n\n\n\n<p><strong>Organização : Nativewarriors,&nbsp;Lda</strong></p>\n",
+  "description_short": "Meia Maratona internacional em Leiria com diferentes provas para todos os níveis e idades",
+  "page": "https://waitastart.com/mmleiria-24/",
+  "slug": "meia-maratona-leiria-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

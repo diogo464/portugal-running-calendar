@@ -1,0 +1,30 @@
+{
+  "id": 32295,
+  "name": "OCR Fireman Almeida 2024",
+  "location": "Almeida, Guarda",
+  "coordinates": {
+    "lat": 40.7254048,
+    "lon": -6.905594199999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/271b186e86ca010b98acd58ed623e2b9"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [],
+  "description": "\n<p>A OCR Fireman vai estar pela primeira vez em bragança em casa dos Caretos de Podence, vestindo as suas roupas de corrida calçando as suas sapatilhas, ao contrário dos caretos comas as suas vestimentas fantasias próprias. Os trajes destes diabos transmontanos são feitos de colchas vermelhas, decoradas com franjas de lã colorida, e máscaras angulares de folha de zinco, encarnadas, podendo ser ornamentadas com tinta. Por cima da cabeça, cobrem-se com um capuz de onde sai uma longa cauda. O OCR vai estar vestido de adrenalina ao longo de dois dias cheios de adrenalina.</p>\n",
+  "description_short": "Trail de obstáculos inspirado nos tradicionais Caretos de Podence, com corrida em trajes e ambiente único na região transmontana",
+  "page": "https://meutempo.pt/prova?ocrfiremanalmeida2024",
+  "slug": "ocr-fireman-almeida-2024",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Almeida",
+  "administrative_area_level_3": "Almeida",
+  "district_code": 9
+}

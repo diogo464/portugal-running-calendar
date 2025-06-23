@@ -1,0 +1,35 @@
+{
+  "id": 283,
+  "name": "São Silvestre de Coimbra",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/1cc08008477626994b082f23e87c0b3d"
+  ],
+  "start_date": "2019-12-14",
+  "end_date": "2019-12-15",
+  "circuit": [],
+  "description": "<p>A 42ª São Silvestre de Coimbra, uma das mais antigas corridas de São Silvestre de Portugal, realiza-se no dia 14 de Dezembro de 2019, pelas 18h30.</p>\n<p>Percorrendo as bonitas ruas da cidade de Coimbra, a 42ª edição conta com uma prova de cerca de 10 km e com a Caminhada <a href=\"https://www.facebook.com/bluepharma/\" target=\"_blank\" rel=\"noopener noreferrer\">Bluepharma</a> de 5 km.</p>\n",
+  "description_short": "São Silvestre tradicional pelas ruas históricas de Coimbra em véspera de Natal",
+  "page": "https://www.saosilvestredecoimbra.com/",
+  "slug": "sao-silvestre-de-coimbra",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

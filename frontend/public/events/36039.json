@@ -1,0 +1,31 @@
+{
+  "id": 36039,
+  "name": "Trail Campo Maior 2024",
+  "location": "Campo Maior, Portalegre",
+  "coordinates": {
+    "lat": 39.0441326,
+    "lon": -7.0713572
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/5c02c0aaf1126b3e20f3c3f42b6777f1"
+  ],
+  "start_date": "2024-10-06",
+  "end_date": "2024-10-07",
+  "circuit": [],
+  "description": "\n<p>O II Trail Campo Maior procura ser promotor de estilos de vida saudáveis, de competição desportiva e de promoção do nosso património natural, cultural, empresarial e Humano.</p>\n\n\n\n<p>Valorizar o nosso concelho e realçar a vertente cultural é fundamental para criar um evento distintivo no panorama do Trail em Portugal e que seja uma marca identitária da nossa vila.</p>\n\n\n\n<p>Juntar o melhor que nos carateriza é o objetivo da organização que deseja que o Trail Vila de Campo Maior (TCM) seja um evento aglutinador da comunidade, dos parceiros, entidades e patrocinadores. Despertar os sentidos, com aromas a café e a cor e beleza das nossas flores (património da Humanidade) acompanhado pelo som das saias, castanholas e pandeiretas é um dos nossos trunfos para enquadrar este evento desportivo.</p>\n\n\n\n<p>A organização é da responsabilidade da equipa CMTR- Campo Maior Trail Runners/GEDA em conjunto com um vasto grupo de parceiros e entidades, enquadrada no Campeonato regional de trail curto e longo da AADP (Associação Atletismo do Distrito de Portalegre) mas aberta a todos os participantes de qualquer ponto do pais e estrangeiro.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante em Campo Maior com sabores e sons tradicionais alentejanos",
+  "page": "https://meutempo.pt/prova?trailcampomaior24",
+  "slug": "trail-campo-maior-2024",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Campo Maior",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

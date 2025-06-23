@@ -1,0 +1,28 @@
+{
+  "id": 26926,
+  "name": "Trail e Caminhada Clube Trilheiros &#038; Amigos 2023",
+  "location": "Paços de Ferreira, Porto",
+  "coordinates": {
+    "lat": 41.2782274,
+    "lon": -8.3750991
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [],
+  "description": "\n<p>É uma prova de Trail running por trilhos e montanhas vales, que se desenvolve no território de Paços de Ferreira, tendo como partida da prova nos jardins do Mosteiro de S. Pedro de Ferreir</p>\n\n\n",
+  "description_short": "Trail técnico pelos trilhos e montanhas de Paços de Ferreira com partida junto ao histórico Mosteiro de S. Pedro de Ferreira",
+  "page": "https://lap2go.com/pt/event/trail-trilheiros-e-amigos-2023",
+  "slug": "trail-e-caminhada-clube-trilheiros-amigos-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paços de Ferreira",
+  "administrative_area_level_3": "Paços de Ferreira",
+  "district_code": 13
+}

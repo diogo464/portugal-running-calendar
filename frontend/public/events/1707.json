@@ -1,0 +1,29 @@
+{
+  "id": 1707,
+  "name": "Trilhos dos Pernetas 2020",
+  "location": "Canedo, Santa Maria da Feira Feira, Aveiro",
+  "coordinates": {
+    "lat": 41.0083753,
+    "lon": -8.4622869
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5551286074c55c3b21e4a4bea0f18dee"
+  ],
+  "start_date": "2020-05-01",
+  "end_date": "2020-05-02",
+  "circuit": [],
+  "description": "<p>Venha correr e divertir-se na quarta edição dos Trilhos dos Pernetas, nas serras de Canedo, em pleno concelho de Santa Maria da Feira.</p>\n",
+  "description_short": "Trail desafiante pelas serras de Canedo em Santa Maria da Feira",
+  "page": "https://lap2go.com/pt/event/trilhos-dos-pernetas-2020",
+  "slug": "trilhos-dos-pernetas-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Canedo",
+  "district_code": 1
+}

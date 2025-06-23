@@ -1,0 +1,29 @@
+{
+  "id": 1783,
+  "name": "34º GP Carnaval Alto Moinho 2020",
+  "location": "Alto do Moinho | Seixal / Setúbal",
+  "coordinates": {
+    "lat": 38.6410676,
+    "lon": -9.0975
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/ca03bef0b7b9c9c540fe191c71d1d5d2"
+  ],
+  "start_date": "2020-02-16",
+  "end_date": "2020-02-17",
+  "circuit": [],
+  "description": "<p>O Centro Cultural e Recreativo do Alto do Moinho, com a colaboração da Câmara Municipal do Seixal e da Junta de Freguesia de Corroios, organiza no próximo dia 16 de fevereiro de 2020, pelas 09h e 30m, o 34o. Grande Prémio de Carnaval, integrado no 33o. Troféu do Seixal.</p>\n",
+  "description_short": "Corrida de Carnaval tradicional no Seixal com apoio municipal",
+  "page": "https://drive.google.com/file/d/1ATuQFV2Gg0XzqO4B-bjC0d9GEeu1mTn2/view",
+  "slug": "34o-gp-carnaval-alto-moinho-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "União das freguesias do Seixal, Arrentela e Aldeia de Paio Pires",
+  "district_code": 15
+}

@@ -1,0 +1,30 @@
+{
+  "id": 36212,
+  "name": "Dinossauros a Correr 2024",
+  "location": "Lourinhã, Lisboa",
+  "coordinates": {
+    "lat": 39.2425234,
+    "lon": -9.3132718
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/c38042e0123af24f0e8a34c05da71af9"
+  ],
+  "start_date": "2024-07-14",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>Dia 14 de Julho, às 11h, os dinossauros vão andar à solta!</p>\n\n\n\n<p>Esta será a corrida mais pré-histórica e divertida do país, na capital dos Dinossauros &#8211; Lourinhã, uma iniciativa da FEIJÃO integrada no programa do evento “Dinossauros saem à rua”, organizada pela União de Freguesias Lourinhã e Atalaia em parceria com o Museu da Lourinhã e apoio do Município da Lourinhã.</p>\n\n\n\n<p>A corrida é um projeto piloto, uma primeira experiência de um projeto que se pretende crescer e realizar a maior corrida de dinossauros insufláveis existente, na Capital dos Dinossauros, Lourinhã! Nesta primeira edição faremos uma corrida/caminhada experimental, de divertimento, sem prémios, com possibilidade de inscrição com aluguer de fato, sem aluguer de fato, com ou sem almoço incluído.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corrida com dinossauros infláveis na capital dos dinossauros, Lourinhã",
+  "page": "https://www.queroir.pt/dinossauros-a-correr",
+  "slug": "dinossauros-a-correr-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de Lourinhã e Atalaia",
+  "district_code": 11
+}

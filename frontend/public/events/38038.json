@@ -1,0 +1,35 @@
+{
+  "id": 38038,
+  "name": "São Silvestre Cocheiros &amp; Comp.ª 2024",
+  "location": "Santo Aleixo da Restauração, Beja",
+  "coordinates": {
+    "lat": 38.0153039,
+    "lon": -7.8627308
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/909205094bb713a80d0817e423a2f713"
+  ],
+  "start_date": "2024-12-28",
+  "end_date": "2024-12-29",
+  "circuit": [],
+  "description": "\n<p>A prova será organizada pela BTT Cocheiros Associação Desportiva com o apoio da Câmara Municipal de Moura e União de Freguesias de Safara e Santo Aleixo da Restauração. Pretende-se  fomentar a prática desportiva, numa prova cujas regras de participação se passam a descrever.<br></p>\n\n\n\n<p><strong>Percursos<br></strong>Prova desportiva constituída por dois percursos: Corrida 10 Kms (com contagem e<br>divulgação de tempos) e Caminhada 5 km (sem contagem de tempos);</p>\n\n\n",
+  "description_short": "Corrida solidária organizada pela Câmara Municipal de Moura com percursos de 10 km e caminhada",
+  "page": "https://acorrer.pt/eventos/info/3659",
+  "slug": "sao-silvestre-cocheiros-comp-a-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "União das freguesias de Beja (Santiago Maior e São João Baptista)",
+  "district_code": 2
+}

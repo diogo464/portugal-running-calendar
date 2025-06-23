@@ -1,0 +1,31 @@
+{
+  "id": 2161,
+  "name": "7º Trail Running da Calhandriz 2020",
+  "location": "Calhandriz (Concelho de Vila Franca Xira)",
+  "coordinates": {
+    "lat": 38.9350224,
+    "lon": -9.0681257
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ea585e389419417d07ac5770ca81d651"
+  ],
+  "start_date": "2020-06-06",
+  "end_date": "2020-06-07",
+  "circuit": [],
+  "description": "<p>O “VII Trail da Calhandriz” Versão Sunset será realizado no dia 06 de Junho de 2020, em<br />\nCalhandriz ás 17h00m, independentemente das condições climatéricas desse dia, desde que a<br />\norganização entenda que não ofereçam risco para os participantes.</p>\n<p>A prova “VII Trail da Calhandriz” Versão Sunset terá a distância de aproximadamente 20 km,<br />\npercorridos pela União das Freguesias de Calhandriz-Alhandra-São João Dos Montes e Alverca e<br />\nSobralinho.</p>\n",
+  "description_short": "Trail ao pôr-do-sol pela região de Calhandriz com percurso pelas freguesias de Alhandra e Alverca",
+  "page": "https://www.trilhoperdido.com/evento/7-Trail-Running-Calhandriz",
+  "slug": "7o-trail-running-da-calhandriz-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "União das freguesias de Alhandra, São João dos Montes e Calhandriz",
+  "district_code": 11
+}

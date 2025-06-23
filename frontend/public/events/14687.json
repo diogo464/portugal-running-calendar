@@ -1,0 +1,29 @@
+{
+  "id": 14687,
+  "name": "Trail do Padroeiro 2022",
+  "location": "Riachos, Torres novas Novas",
+  "coordinates": {
+    "lat": 39.4381452,
+    "lon": -8.5116903
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6931b62d2230ea2120b7dfaf1590e51b"
+  ],
+  "start_date": "2022-06-12",
+  "end_date": "2022-06-13",
+  "circuit": [],
+  "description": "\n<p>O IV Trail do Padroeiro 2022, em Riachos, realiza-se no dia 12 de Junho de 2022. Tal como as edições anteriores está integrado na Festa do Padroeiro de Riachos – Santo António, estando integrado no programa oficial da mesma. O evento é promovido e organizado em parceria pela RIAXOS RUNNERS – Associação Cultural, Desportiva e Lazer e a Equipa de Animação e Comunicação da Paróquia de Riachos.</p>\n\n\n\n<p>O Trail do Padroeiro é um evento de carácter social, promovido pela associação RIAXOS RUNNERS em regime de voluntariado. A receita angariada reverte a favor da obra social da Paróquia de Riachos.</p>\n\n\n\n<p>Se por um lado num evento desta natureza nunca se pode dissociar a prática desportiva (seja ela a correr ou andar) e a promoção de uma vida saudável, por outro pretende promover a marca da região onde se insere (no caso a lezíria ribatejana). Outro dos objetivos deste evento é permitir aos participantes a descoberta das lindas e bonitas paisagens agrícolas junto do Rio Almonda, junto à Reserva Natural do Paúl do Boquilobo, atento ao slogan “mente sã em corpo são&#8221;.</p>\n\n\n\n<p>O IV Trail do Padroeiro, prova de qualificação para a Taça de Portugal ATRP, está integrada no Circuito de Trail do Ribatejo e será constituído por três percursos.</p>\n",
+  "description_short": "Trail solidário em Riachos com paisagens da Lezíria Ribatejana junto ao Rio Almonda e Reserva Natural do Paúl do Boquilobo",
+  "page": "https://www.totalcrono.pt/eventos/traildopadroeiro2022",
+  "slug": "trail-do-padroeiro-2022",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": "Riachos",
+  "district_code": 14
+}

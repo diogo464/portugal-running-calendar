@@ -1,0 +1,37 @@
+{
+  "id": 300,
+  "name": "São Silvestre dos Olivais",
+  "location": "Olivais, Lisboa",
+  "coordinates": {
+    "lat": 38.76908299999999,
+    "lon": -9.1188088
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    1200,
+    4000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "run",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/23f86b5efc0fac8d0fe8d94b48f18e4e"
+  ],
+  "start_date": "2019-12-29",
+  "end_date": "2019-12-30",
+  "circuit": [],
+  "description": "<ul>\n<li>31ª São Silvestre dos Olivais &#8211; 29 Dezembro – 19:00 horas &#8211; Olivais.</li>\n</ul>\n<p>DISTÂNCIA E PERCURSO</p>\n<p>A prova inclui uma Mini São Silvestre com uma extensão máxima de 1200m a partir das 18:00h, uma corrida na extensão de 10km com partida pelas 19:00Horas e um Caminhada na extensão aproximada de 4km com partida pelas 19h15m, com um tempo máximo de 2 horas de duração.</p>\n",
+  "description_short": "Corrida de São Silvestre tradicional nos Olivais com diferentes provas para todos os níveis",
+  "page": "https://werun.pt/eventos/31-sao-silvestre-dos-olivais/",
+  "slug": "sao-silvestre-dos-olivais",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Olivais",
+  "district_code": 11
+}

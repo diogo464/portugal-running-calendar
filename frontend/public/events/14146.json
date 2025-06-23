@@ -1,0 +1,29 @@
+{
+  "id": 14146,
+  "name": "Corrida do Halloween 2022",
+  "location": "Vila Nova de Gaia, Porto",
+  "coordinates": {
+    "lat": 41.1238759,
+    "lon": -8.611785099999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    7000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2022-10-29",
+  "end_date": "2022-10-30",
+  "circuit": [],
+  "description": "\n<p>Corrida do Halloween 2022</p>\n\n\n\n<p>29 de Outubro de 2022 &#8211; V. N. Gaia &#8211; 7km</p>\n",
+  "description_short": "Corrida temática de Halloween pela cidade de Vila Nova de Gaia",
+  "page": "https://www.runporto.com/pt/eventos/corrida-do-halloween",
+  "slug": "corrida-do-halloween-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila Nova de Gaia",
+  "administrative_area_level_3": "União das freguesias de Santa Marinha e São Pedro da Afurada",
+  "district_code": 13
+}

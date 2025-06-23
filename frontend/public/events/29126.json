@@ -1,0 +1,30 @@
+{
+  "id": 29126,
+  "name": "Trail Este Romanico 2023",
+  "location": "Vila do Conde, Porto",
+  "coordinates": {
+    "lat": 41.3517302,
+    "lon": -8.7478619
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/966157eadb9d6c0a0ecd4d337e5d2e26"
+  ],
+  "start_date": "2023-12-01",
+  "end_date": "2023-12-02",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://stopandgo.net/events/trail-este-romanico-2023",
+  "slug": "trail-este-romanico-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Vila do Conde",
+  "administrative_area_level_3": "Vila do Conde",
+  "district_code": 13
+}

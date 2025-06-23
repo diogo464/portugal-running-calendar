@@ -1,0 +1,35 @@
+{
+  "id": 17396,
+  "name": "Trail Noturno de Valongo 2022",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    13000,
+    21000
+  ],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/89989e11092534deae495f5c01f69887"
+  ],
+  "start_date": "2022-12-10",
+  "end_date": "2022-12-11",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 9ª edição do TNV &#8211; TRAIL NOTURNO DE VALONGO 2022 é uma prova que percorre trilhos e caminhos na serra de Quinta Rei, no concelho de Valongo, com partida e chegada na Praça Machado dos Santos. </p>\n\n\n\n<p>O Trail Longo 21km e o Trail Curto 13km estão abertos a maiores de idade (16 anos), e caminhada aberta a menores desde que acompanhados por uma pessoa maior de idade. </p>\n\n\n\n<p>Como novidade esta edição vai ter o Trail Kids para crianças dos 4 aos 12 anos. O TNV é a 2º prova pontuável para o Circuito de Trilhos de Valongo.</p>\n",
+  "description_short": "Trail noturno na Serra de Quinta Rei com percursos para diferentes idades e novo Trail Kids em Valongo",
+  "page": "https://stopandgo.net/event/?id=851",
+  "slug": "trail-noturno-de-valongo-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

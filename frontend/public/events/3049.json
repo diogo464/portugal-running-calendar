@@ -1,0 +1,36 @@
+{
+  "id": 3049,
+  "name": "Corrida Francisco Andrade",
+  "location": "Praia do Rebolim, Coimbra",
+  "coordinates": {
+    "lat": 40.179692,
+    "lon": -8.4170901
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    4000,
+    8000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/3d2d22d26748199a0021213fbe22b993"
+  ],
+  "start_date": "2021-09-18",
+  "end_date": "2021-09-19",
+  "circuit": [],
+  "description": "\n<p>Dia 18 de Setembro, às 18:00hCorrida Francisco Andrade Praia Fluvial do Rebolim CoimbraCorrida 8km caminhada 4km em terreno misto num percurso fácil e agradável junto às margens do Rio Mondego.Inscrições em:</p>\n",
+  "description_short": "Corrida à beira-rio em Coimbra nas margens do Mondego com percurso misto e ambiente descontraído",
+  "page": "https://corridafranciscoandradepraiafluvialdorebolimcoimbra.wordpress.com/",
+  "slug": "corrida-francisco-andrade",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "Santo António dos Olivais",
+  "district_code": 6
+}

@@ -1,0 +1,29 @@
+{
+  "id": 42076,
+  "name": "HYBRID DAY Leiria 2025",
+  "location": "Leiria",
+  "coordinates": {
+    "lat": 39.74953310000001,
+    "lon": -8.807682999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/5ce6d71fc7a41ea91febad984ff5b478"
+  ],
+  "start_date": "2025-07-26",
+  "end_date": "2025-07-26",
+  "circuit": [],
+  "description": "\n<p></p>\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa condensá-la num resumo sucinto.",
+  "page": "https://www.sinctime.com/evento/338",
+  "slug": "hybrid-day-leiria-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

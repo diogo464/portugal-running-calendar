@@ -1,0 +1,31 @@
+{
+  "id": 29158,
+  "name": "São Silvestre Mozelos 2023",
+  "location": "Mozelos, Aveiro",
+  "coordinates": {
+    "lat": 40.9953015,
+    "lon": -8.568315799999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [],
+  "start_date": "2023-12-09",
+  "end_date": "2023-12-10",
+  "circuit": [],
+  "description": "\n<p>A 5ª São Silvestre Mozelos é realizada a 9 de Dezembro e contará com a organização da Juventude Atlética Mozelense, com o apoio da Junta de Freguesia de Mozelos, em parceria com a Câmara Municipal de Santa Maria da Feira.</p>\n",
+  "description_short": "São Silvestre tradicional em Mozelos com organização da Juventude Atlética Mozelense",
+  "page": "https://lap2go.com/pt/event/sao-silvestre-de-mozelos-2023",
+  "slug": "sao-silvestre-mozelos-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Mozelos",
+  "district_code": 1
+}

@@ -1,0 +1,33 @@
+{
+  "id": 34095,
+  "name": "Corrida do Egas Moniz 2024",
+  "location": "Penafiel, Porto",
+  "coordinates": {
+    "lat": 41.2070076,
+    "lon": -8.2831551
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/17e405434b09861060976bad8b8632ee"
+  ],
+  "start_date": "2024-06-16",
+  "end_date": "2024-06-16",
+  "circuit": [],
+  "description": "\n<p>Partida e Chegada | Escola EB 2,3 Paço de Sousa<br>&#8211; Corrida 10km <br>&#8211; Caminhada 5km</p>\n\n\n",
+  "description_short": "Trail rural pela zona de Paço de Sousa com opções de corrida e caminhada",
+  "page": "https://stopandgo.net/events/corrida-do-egas-moniz-2024",
+  "slug": "corrida-do-egas-moniz-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Penafiel",
+  "administrative_area_level_3": "Penafiel",
+  "district_code": 13
+}

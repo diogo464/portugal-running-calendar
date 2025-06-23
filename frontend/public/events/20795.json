@@ -1,0 +1,40 @@
+{
+  "id": 20795,
+  "name": "Trail Encostas De Xira 2023",
+  "location": "Vila Franca de Xira, Lisboa",
+  "coordinates": {
+    "lat": 38.9549979,
+    "lon": -8.9888982
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    100,
+    372,
+    600,
+    10000,
+    16000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0d86b33e92da2db2381cbf363267c2cc"
+  ],
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-11",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O&nbsp;<strong>Trail “Encostas de Xira”</strong>&nbsp;é um conjunto de provas de trail running – corrida de montanha e trilhos, com carácter competitivo e lúdico que decorrerá no dia&nbsp;<strong>10 de Setembro de 2023</strong>&nbsp;com início e fim na&nbsp;<strong>Quinta Municipal da SubSerra</strong>,&nbsp;<strong>concelho de Vila Franca de Xira</strong>.</p>\n\n\n\n<p>O evento é planeado, organizado e produzido pelos&nbsp;<strong>Alverca Urban Runners</strong>, com o apoio da&nbsp;<strong>Câmara Municipal de Vila Franca de Xira, União de Freguesia de Alverca do Ribatejo e Sobralinho</strong>&nbsp;e&nbsp;<strong>União de Freguesias de Alhandra,</strong>&nbsp;<strong>São João dos Montes e Calhandriz.</strong></p>\n\n\n\n<p>A&nbsp;<strong>segunda edição do Trail “Encostas de Xira</strong>&nbsp;será composta por três provas competitivas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Trail Longo:&nbsp;</strong>cerca de 25 km, +/- 1.100m de desnível acumulado positivo – grau 2 ATRP, início previsto para as 8h30m;</li>\n\n\n\n<li><strong>Trail Curto:</strong>&nbsp;cerca de 16 km, +/- 600m de desnível acumulado positivo – grau 2 ATRP, início previsto para as 9h;</li>\n\n\n\n<li><strong>Mini Trail:</strong>&nbsp;cerca de 10km, +/- 372m de desnível acumulado positivo, início previsto para as 9h15m;</li>\n\n\n\n<li><strong>Caminhada:</strong>&nbsp;cerca de 10 km, início previsto para as 9h30m</li>\n</ul>\n",
+  "description_short": "Trail desafiante pelas encostas de Vila Franca de Xira com provas de diferentes distâncias e apoio municipal",
+  "page": "https://www.recordepessoal.pt/evento/trailencostasdexira2023",
+  "slug": "trail-encostas-de-xira-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "Vila Franca de Xira",
+  "district_code": 11
+}

@@ -1,0 +1,32 @@
+{
+  "id": 34627,
+  "name": "Trilhos do Mogadouro 2024",
+  "location": "Mogadouro, Bragança",
+  "coordinates": {
+    "lat": 41.3426456,
+    "lon": -6.7099863
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/8ee011aebb5771b8e69e28b4f1535e85"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>O Município de Mogadouro organiza no dia&nbsp;<strong>24 de março de 2024</strong>, em colaboração com a Associação de Atletismo de Bragança, um trail com características de montanha e uma caminhada em natureza denominado&nbsp;<strong>XX TRILHOS DE MOGADOURO – AMENDOEIRAS EM FLOR</strong>.</p>\n\n\n\n<p>Em simultâneo realizam-se as CORRIDAS JOVENS – MOGADOURO 2024, para escalões jovens (9 aos 17 anos), a realizar no centro da vila de Mogadouro, coincidentes com a meta da prova principal e caminhada.</p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail nas amendoeiras em flor pela paisagem serrana de Mogadouro com corridas para jovens no centro da vila",
+  "page": "https://timerspeed.com/?tribe_events=xx-trilhos-de-mogadouro-amendoeiras-em-flor",
+  "slug": "trilhos-do-mogadouro-2024",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mogadouro",
+  "administrative_area_level_3": "Mogadouro",
+  "district_code": 4
+}

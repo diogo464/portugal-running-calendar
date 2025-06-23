@@ -1,0 +1,41 @@
+{
+  "id": 37352,
+  "name": "Vouga Trail 2025",
+  "location": "Sever do Vouga, Aveiro",
+  "coordinates": {
+    "lat": 40.7334189,
+    "lon": -8.371767199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    500,
+    2000,
+    12000,
+    20000,
+    38000,
+    55000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/08ed431a20576f0967a90dfedc4b309c"
+  ],
+  "start_date": "2025-01-11",
+  "end_date": "2025-01-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Serão nos dias 10, 11 e 12 de janeiro de 2025, que a Associação AZtrail, em parceria com o Município de Sever do Vouga, organizará a sexta edição do Vouga Trail, dividida nos eventos Vouga Trail Ultra, Vouga Trail Longo, Vouga Trail Curto, Vouga Trail Mini, Caminhada Vouga e Vouga Kids.</p>\n\n\n\n<p><br>Com início e fim no centro de Sever do Vouga, no Pavilhão Gimnodesportivo de Sever do Vouga (EN 328), na Av. Comendador Augusto Martins Pereira, 3740 Sever do Vouga, será uma prova circular nas distâncias de 55 km, 38km, 20km, 12 km e Caminhada de 12km. No evento Vouga Kids, as distâncias serão ajustadas às faixas etárias dos participantes, tendo no mínimo a extensão de 500mts e no seu máximo a extensão de<br>2000mts.</p>\n",
+  "description_short": "Trail desafiante em Sever do Vouga com múltiplas provas e escalões etários",
+  "page": "https://stopandgo.net/events/vouga-trail-2025",
+  "slug": "vouga-trail-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Sever do Vouga",
+  "administrative_area_level_3": "Sever do Vouga",
+  "district_code": 1
+}

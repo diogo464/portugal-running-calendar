@@ -1,0 +1,30 @@
+{
+  "id": 904,
+  "name": "Trail e Caminhada dos Pais Natais 2020",
+  "location": "São Romão, Guarda",
+  "coordinates": {
+    "lat": 40.4007149,
+    "lon": -7.714596599999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/5aef50b8599296054fbfac174e39e7bd"
+  ],
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-06",
+  "circuit": [],
+  "description": "<h5></h5>\n<h5><a href=\"https://www.acorrer.pt/eventos/info/2436\" target=\"_blank\" rel=\"noopener\"><strong><span style=\"color: #ff0000;\">RESULTADOS</span></strong></a></h5>\n<p>&nbsp;</p>\n<p>A organização do evento desportivo designado por “Trail dos Pais Natais” é da responsabilidade da<br />\nDelegação de Seia da Cruz Vermelha Portuguesa, em estreita parceria com a EAT com o RNAAT<br />\n306/2019.</p>\n<p>O referido evento desportivo terá lugar no concelho de Seia, com início e fim na aldeia de São<br />\nRomão. Tanto o percurso do Trail como da caminhada passarão por estradas e caminhos da União<br />\nde Freguesias de Seia, São Romão e Lapa dos Dinheiros. A partida do trail e da caminhada será feita<br />\njunto do Mercado de São Romão, e as chegadas dentro do Estádio Nossa Senhora da Conceição em<br />\nSão Romão.</p>\n",
+  "description_short": "Trail solidário pela Serra da Estrela com partida no Mercado de São Romão",
+  "page": "https://www.acorrer.pt/eventos/info/2436",
+  "slug": "trail-pais-natais",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Seia",
+  "administrative_area_level_3": "União das freguesias de Seia, São Romão e Lapa dos Dinheiros",
+  "district_code": 9
+}

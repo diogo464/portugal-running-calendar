@@ -1,0 +1,32 @@
+{
+  "id": 38166,
+  "name": "Acureto Backyard Ultra 2025",
+  "location": "Ourém, Santarém",
+  "coordinates": {
+    "lat": 39.6564974,
+    "lon": -8.5773408
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    6706,
+    161000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/40aca63bcb1763214fac9a147e4a2a90"
+  ],
+  "start_date": "2025-03-01",
+  "end_date": "2025-03-01",
+  "circuit": [],
+  "description": "\n<p>Porquê a distância de 6.706 km?</p>\n\n\n\n<p>Porque Lazarus queria que, ao completar 24 voltas, ou seja, levando 24 horas, um total de 100 milhas (quase 161 km) fossem percorridas.</p>\n\n\n\n<p>O&nbsp;<strong>Acureto Backyard Ultra realiza-se a 01 março de 2025&nbsp;</strong>e tem início às&nbsp;<strong>10h no Parque do Acureto</strong>.</p>\n\n\n",
+  "description_short": "Corrida de resistência de 24 horas em formato backyard ultra no Parque do Acureto",
+  "page": "https://www.recordepessoal.pt/evento/acuretobackyardultra",
+  "slug": "acureto-backyard-ultra-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Olival",
+  "district_code": 14
+}

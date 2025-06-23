@@ -1,0 +1,37 @@
+{
+  "id": 19825,
+  "name": "Poiares Trail 2023",
+  "location": "Vila Nova de Poiares, Coimbra",
+  "coordinates": {
+    "lat": 40.2107667,
+    "lon": -8.25907
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    250,
+    12000,
+    20000,
+    35000
+  ],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/4027feba57d9cbbbd1249e07af45db43"
+  ],
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O POIARES TRAIL 2023 NUTRIVA é um evento que integra três provas, PT35K (com cerca de 35km, 1600mD+, certificada pela ATRP/FPA, e a contar para o Circuito Distrital de Trail Running de Coimbra – Trail Longo), o PT20K (com cerca de 20km, 900mD+, certificada pela ATRP) e o PT12K (com cerca de 12km, 250m D+, certificada pela ATRP).<br>Este evento decorrerá com absoluto respeito pelo meio ambiente.</p>\n",
+  "description_short": "Trail desafiante pela região de Poiares com diferentes distâncias e certificação oficial",
+  "page": "https://stopandgo.net/event/?id=890",
+  "slug": "poiares-trail-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Vila Nova de Poiares",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

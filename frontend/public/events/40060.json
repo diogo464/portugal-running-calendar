@@ -1,0 +1,34 @@
+{
+  "id": 40060,
+  "name": "Corrida Malapeira 2025",
+  "location": "São João de Ver, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9489884,
+    "lon": -8.544635999999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/d77f7d6a6ff3db449f36b85cf393a74e"
+  ],
+  "start_date": "2025-05-10",
+  "end_date": "2025-05-10",
+  "circuit": [],
+  "description": "\n<p>O 1 º Grande Prémio de Atletismo &#8220;CORRIDA MALAPEIRA&#8221;, a realizar na Vila de São João de Ver, no dia 10 de Maio 2025 é composto por duas provas, uma corrida 10 km e uma caminhada de 5km.</p>\n",
+  "description_short": "Primeira edição da Corrida Malapeira na vila de São João de Ver com prova de 10 km e caminhada",
+  "page": "https://lap2go.com/pt/event/corrida-malapeira-2025",
+  "slug": "corrida-dos-malapeiros-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "São João de Ver",
+  "district_code": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": 15467,
+  "name": "São Jorge Trail Run 2022",
+  "location": "Ilha de São Jorge Jorge, Açores",
+  "coordinates": {
+    "lat": 38.6409678,
+    "lon": -28.0303189
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    10000,
+    40000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/712309ac6ba1cfaf002f8c98d37a84ea"
+  ],
+  "start_date": "2022-08-28",
+  "end_date": "2022-08-29",
+  "circuit": [],
+  "description": "<p>III São Jorge Trail Run é um evento organizado pelo DITC – Dragon Island Trail Club. Este evento de desporto amador e de natureza pretende dinamizar a prática desportiva na Ilha de São Jorge, nomeadamente o Trail Running.</p>\n<p>Nesta edição, quisemos aproveitar a grande quantidade de quilómetros em trilho existentes na freguesia da Ribeira Seca (maior freguesia em área dos Açores) e ao mesmo tempo fugir aos trilhos já sobejamente conhecidos dando aos participantes oportunidade de conhecer os belos recantos escondidos desta freguesia.</p>\n<p>O DITC conta com o apoio da Direção Regional do Desporto, Câmara Municipal de Calheta, Junta de Freguesia de Ribeira Seca e as empresas Bricovelas e Lusitânia Seguros.</p>\n<p>O III São Jorge Trail Run é uma prova de Trail Running, realizada em trilhos sinalizados, em piso acidentado e estradas de terra batida circundantes à freguesia da Ribeira Seca.</p>\n<p>Este evento contará com um Trail Longo (40kms), um Trail Curto (10kms) e uma Caminhada (10kms), todos organizados pelo DITC.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos escondidos da Ribeira Seca na Ilha de São Jorge",
+  "page": "https://dragonislandtrailclub.pt/inscricao/",
+  "slug": "sao-jorge-trail-run-2022",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

@@ -1,0 +1,29 @@
+{
+  "id": 17212,
+  "name": "Porto Santo Nature Trail 2023",
+  "location": "Porto Santo, Madeira",
+  "coordinates": {
+    "lat": 33.05,
+    "lon": -16.35
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/7bfbbaa8d4eb8a6ad1ca2673e11d1329"
+  ],
+  "start_date": "2023-05-20",
+  "end_date": "2023-05-21",
+  "circuit": [],
+  "description": "\n<p>O Porto Santo Nature Trail 2023 é um evento de trail running, que decorre integralmente na ilha do Porto Santo e que integra três provas pontuáveis para o ranking do Circuito Trail Madeira da época 2022-23:</p>\n",
+  "description_short": "Trail desafiante pela ilha do Porto Santo com provas do Circuito Trail Madeira",
+  "page": "https://lap2go.com/pt/event/porto-santo-nature-trail-2023",
+  "slug": "porto-santo-nature-trail-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Porto Santo",
+  "administrative_area_level_3": "Porto Santo",
+  "district_code": 30
+}

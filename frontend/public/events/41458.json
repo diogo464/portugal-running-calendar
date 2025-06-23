@@ -1,0 +1,30 @@
+{
+  "id": 41458,
+  "name": "Porto Novo Trail Run 2025",
+  "location": "Porto Novo, Torres Vedras",
+  "coordinates": {
+    "lat": 39.1771007,
+    "lon": -9.355562899999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/b4b8b2abfaf5c65d32b8d894927d4c55"
+  ],
+  "start_date": "2025-09-21",
+  "end_date": "2025-09-21",
+  "circuit": [],
+  "description": "\n<p>O  TURRES TRAIL  CLUBE , com o apoio da Junta de Freguesia de A dos Cunhados e Maceira  e o Município de Torres Vedras , vai realizar no próximo dia 15 de Setembro de 2024, pelas 9:00 horas, a 8º edição do evento em 2024 com a  denominado &#8220;<strong>  PORTO NOVO TRAIL RUN 2024</strong>&#8220;. Este evento, terá três distancias. O percurso do Trail Run é circular. O local de partida e chegada assim como o secretariado   será em Porto Novo .</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail desafiante em Porto Novo com apoio local em Torres Vedras",
+  "page": "https://www.turresevents.com/eventos/porto-novo-trail-run-2025",
+  "slug": "porto-novo-trail-run-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "União das freguesias de A dos Cunhados e Maceira",
+  "district_code": 11
+}

@@ -1,0 +1,29 @@
+{
+  "id": 1541,
+  "name": "7º Trail Qta do Pinhão 2020",
+  "location": "Quinta do Pinhão, Verdizela",
+  "coordinates": {
+    "lat": 38.5848029,
+    "lon": -9.148331299999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/dfc6061781cb02426a788e73c79601b0"
+  ],
+  "start_date": "2020-10-18",
+  "end_date": "2020-10-19",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.facebook.com/events/469379587305198/",
+  "slug": "7o-trail-qta-do-pinhao-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "Amora",
+  "district_code": 15
+}

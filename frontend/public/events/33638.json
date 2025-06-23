@@ -1,0 +1,38 @@
+{
+  "id": 33638,
+  "name": "Trail Manuelino 2024",
+  "location": "Abiul, Pombal",
+  "coordinates": {
+    "lat": 39.8727341,
+    "lon": -8.5393352
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    1500,
+    5000,
+    10000,
+    18000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/4260eb59ac49b414926088bc4036e448"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "\n<p>A 3ª edição do Trail Manuelino, será evento de trail que promete levá-lo a uma jornada inesquecível pelas magníficas paisagens da Sicó e pelos trilhos cheios de História.</p>\n\n\n\n<p>Data:&nbsp;05 de maio de 2024</p>\n\n\n\n<p>Localização:&nbsp;Abiul &#8211; Pombal &#8211; Leria</p>\n\n\n\n<p>Distâncias Disponíveis:&nbsp;30km, 18km, 10km, Caminhada, TrailKIDS 1.5km</p>\n",
+  "description_short": "Trail histórico pela região da Sicó com percursos por trilhos tradicionais em Pombal",
+  "page": "https://www.meutempo.pt/prova?trailmanuelino",
+  "slug": "trail-manuelino-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Abiul",
+  "district_code": 10
+}

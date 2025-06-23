@@ -1,0 +1,32 @@
+{
+  "id": 22952,
+  "name": "Galo Night Run 2023",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/d091393f8b44afd63531b16e7d3e65f6"
+  ],
+  "start_date": "2023-07-15",
+  "end_date": "2023-07-16",
+  "circuit": [],
+  "description": "\n<p>O Quinta &amp; Santos Galo Night Run tem já data marcada para a edição de 2023! Por isso, reserva a noite do dia 15 de julho para uma festa desportiva que é um verdadeiro hino à cor, à luz, à alegria, à amizade e à partilha.&nbsp;</p>\n\n\n\n<p>Como sempre acontece, a próxima edição promete muitas novidades, sem retirar do programa os momentos que tornaram a iniciativa promovida pelos Amigos da Montanha, com o apoio do Município de Barcelos, num dos eventos mais emblemáticos do calendário de atividades do concelho.</p>\n\n\n\n<p>O programa contempla corrida ou caminhada com cerca de 10km, mas a animação começa bem antes, com zumba, dança e muita cor para acompanhar.&nbsp;<br>Mas, mais do que uma corrida ou uma caminhada noturna, a Quinta &amp; Santos Galo Night Run é uma perfeita comunhão entre diversão, natureza, espetáculo e magia. Começa e termina junto ao rio Cávado, em plena Ponte Medieval, num cenário pensado ao pormenor, com tochas, velas e outros efeitos visuais que, acompanhados por música constante, prometem fazer desta noite um momento memorável.<br>Ao longo do percurso, os participantes encontram várias zonas temáticas, com petiscos regionais, algumas iguarias e, claro, muita alegria, música e diversão.</p>\n\n\n",
+  "description_short": "Corrida noturna festiva ao longo do rio Cávado em Barcelos, com ambiente colorido e animado",
+  "page": "https://www.sinctime.com/evento/153",
+  "slug": "galo-night-run-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

@@ -1,0 +1,34 @@
+{
+  "id": 39613,
+  "name": "Pé Firme Trail 2025",
+  "location": "Penafirme, Torres Vedras",
+  "coordinates": {
+    "lat": 39.1475592,
+    "lon": -9.3578829
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "relay",
+    "walk"
+  ],
+  "images": [],
+  "start_date": "2025-09-28",
+  "end_date": "2025-09-29",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O&nbsp;<strong>Clube Académico de Penafirme</strong>&nbsp;convida-o a participar no&nbsp;<strong>Trail Pé Firme 2025</strong>, um evento épico que celebra a história local, o desporto e a beleza natural da Zona Oeste.</p>\n\n\n\n<p>Nos dias&nbsp;<strong>27 e 28 de setembro</strong>, durante a Semana Europeia do Desporto, prepare-se para desafiar os seus limites e viver uma experiência inesquecível em Torres Vedras.</p>\n\n\n\n<p>&#8211; <strong>Dia 27 (Sábado):</strong> Trilhos desafiadores pelas terras do Hotel Golf Mar em forma de Circuito por Equipas de 2 ou de 4 percorrendo 5km cada e uma Caminhada em família pela Zona Santa Cruz (PR2). O Hipódromo irá transformar-se num palco de trilhos desafiadores para todos os níveis de experiência. Prepare-se para correr na natureza exuberante das propriedades do Hotel Golf Mar, onde vão ser testadas a força e a resistência, e não vão faltar paisagens deslumbrantes e uma vista de perder o fôlego!</p>\n\n\n\n<p>&#8211; <strong>Dia 28 (Domingo):</strong> Superar limites no Pavilhão do Externato de Penafirme. Aqui o Pavilhão do Externato de Penafirme será o ponto de partida e chegada para novas aventuras. Prepare-se para desafiar seus limites nos percursos que combinam estradões com trilhos naturais, onde é exigido alguma técnica, resistência, determinação e cuidado.</p>\n",
+  "description_short": "Trail Pé Firme 2025 em Torres Vedras com percursos desafiantes na natureza da Zona Oeste",
+  "page": "https://www.recordepessoal.pt/evento/iitrailpefirme2025",
+  "slug": "pe-firme-trail-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "União das freguesias de A dos Cunhados e Maceira",
+  "district_code": 11
+}

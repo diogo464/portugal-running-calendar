@@ -1,0 +1,31 @@
+{
+  "id": 37933,
+  "name": "Trail São Gonçalo Floki 2025",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/a188a4090065f96f5929a099d1b54f03"
+  ],
+  "start_date": "2025-09-14",
+  "end_date": "2025-09-15",
+  "circuit": [],
+  "description": "\n<p>Esta prova de trail-running atravessa os desafiantes trilhos e caminhos das montanha de São Gonçalo, no concelho de Barcelos.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos trilhos das montanhas de São Gonçalo em Barcelos",
+  "page": "https://www.sinctime.com/evento/297",
+  "slug": "trail-sao-goncalo-floki-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

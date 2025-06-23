@@ -1,0 +1,36 @@
+{
+  "id": 31872,
+  "name": "São Silvestre Braga 2024",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5700,
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/df077fb5a2d0605f267698060694219d"
+  ],
+  "start_date": "2024-12-22",
+  "end_date": "2024-12-23",
+  "circuit": [],
+  "description": "\n<p>Reserve o dia 22 de dezembro de 2024 para um dos eventos mais aguardados do ano: a 46ª S. Silvestre de Braga!</p>\n\n\n\n<p>Com início marcado para as 19h00, a cidade ganhará vida com centenas de atletas e entusiastas do desporto, percorrendo as ruas históricas de Braga.&nbsp;</p>\n\n\n\n<p>A partida e chegada serão na emblemática Praça da República, um local que simboliza o coração da cidade e promete uma atmosfera vibrante de festa e superação.</p>\n\n\n\n<p>Para além da tradicional corrida, este ano teremos também uma caminhada de 5.7 km, pensada para aqueles que preferem participar de forma mais tranquila, sem a pressão da competição.&nbsp;</p>\n",
+  "description_short": "São Silvestre noturna pelas ruas históricas de Braga com partida e chegada na Praça da República",
+  "page": "https://www.runporto.com/pt/eventos/s-silvestre-braga/",
+  "slug": "sao-silvestre-braga-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

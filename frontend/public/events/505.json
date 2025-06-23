@@ -1,0 +1,29 @@
+{
+  "id": 505,
+  "name": "Trail de Conímbriga Terras de Sicó 2020",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/71f733128457cddbebee1663d0a29b62"
+  ],
+  "start_date": "2020-02-29",
+  "end_date": "2020-03-01",
+  "circuit": [],
+  "description": "<h2><span style=\"color: #99cc00;\"><a style=\"color: #99cc00;\" href=\"https://www.associacaomundodacorrida.com/class_diplomas/results\" target=\"_blank\" rel=\"noopener\"><strong>RESULTADOS</strong></a></span></h2>\n<h2><span style=\"color: #008000;\"><a style=\"color: #008000;\" href=\"https://www.youtube.com/watch?v=e7IfzFrSnCs\" target=\"_blank\" rel=\"noopener\">Reportagem</a></span></h2>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Uma prova feita por atletas e para os atletas!!!<br />\nInício de uma nova década, com muitas novidades, trilhos novos e melhorados. Não falte!!!</p>\n",
+  "description_short": "Trail com novos trilhos e espírito de comunidade atlética",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/90",
+  "slug": "trail-de-conimbriga-terras-de-sico-2020",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

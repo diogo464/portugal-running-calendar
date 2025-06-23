@@ -1,0 +1,31 @@
+{
+  "id": 23529,
+  "name": "Marão Trail Adventure 2023",
+  "location": "Baião, Porto",
+  "coordinates": {
+    "lat": 41.1447349,
+    "lon": -7.981084500000001
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    1416
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cf2c8b372ab9e5540b324bb350e433ac"
+  ],
+  "start_date": "2023-05-28",
+  "end_date": "2023-05-29",
+  "circuit": [],
+  "description": "\n<p>As 3 distâncias deste evento, trilham a Serra do Marão e o Rio Teixeira, com particular atenção, para o Trail Longo, que será o único a ir à Senhora da Serra, ponto mais alto da Serra do Marão (1416 m). Venha participar no trail onde todos os atletas sobem ao pódio!</p>\n\n\n",
+  "description_short": "Trail desafiante pela Serra do Marão com passagem pelo ponto mais alto da região",
+  "page": "https://lap2go.com/pt/event/marao-trail-adventure-2023",
+  "slug": "marao-trail-adventure-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Baião",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

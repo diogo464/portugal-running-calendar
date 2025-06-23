@@ -1,0 +1,33 @@
+{
+  "id": 14595,
+  "name": "4º Trilho Da Pombeira 2022",
+  "location": "Castro Daire",
+  "coordinates": {
+    "lat": 40.8997924,
+    "lon": -7.933502
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "trail"
+  ],
+  "images": [
+    "media/b0dfa0b1ebd15b5442954c659cd9e532"
+  ],
+  "start_date": "2022-03-27",
+  "end_date": "2022-03-28",
+  "circuit": [],
+  "description": "\n<p>4º Trilho Da Pombeira 2022</p>\n",
+  "description_short": "Trail desafiante pela zona da Serra da Pombeira com percurso técnico e tradicional",
+  "page": "https://www.queroir.pt/4-trilho-da-pombeira",
+  "slug": "4o-trilho-da-pombeira-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Castro Daire",
+  "administrative_area_level_3": "Castro Daire",
+  "district_code": 18
+}

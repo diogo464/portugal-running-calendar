@@ -1,0 +1,32 @@
+{
+  "id": 15233,
+  "name": "Corrida Entre Parques Coimbra 2022",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    7000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/b615571127d5df17fdfe1b3dc98c9f9e"
+  ],
+  "start_date": "2022-12-01",
+  "end_date": "2022-12-02",
+  "circuit": [],
+  "description": "\n<p>Corrida Entre Parques Coimbra é uma corrida de atletismo pelos principais jardins da cidade de Coimbra. Numa coorganização da Câmara Municipal de Coimbra, União das Freguesias de Coimbra e da ADR4 Estações.</p>\n\n\n\n<p>Um percurso cheio de história e magia em cada recanto por onde passas. Jardim da Sereia Penedo da Saudade, Jardim Botânico, Universidade de Coimbra e os 125 degraus das tão famosas Escadas Monumentais o fado e as Tunas são o mote de uma corrida fantástica. </p>\n\n\n\n<p>Numa distância de 7 km com corrida e caminhada.</p>\n",
+  "description_short": "Corrida épica pelos jardins históricos e monumentos emblemáticos de Coimbra",
+  "page": "https://coimbraentreparques.wordpress.com/",
+  "slug": "corrida-entre-parques-coimbra-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

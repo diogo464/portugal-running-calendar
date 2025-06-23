@@ -1,0 +1,35 @@
+{
+  "id": 794,
+  "name": "Almada Trail 2020",
+  "location": "Parque Desportivo do Atlântico Costa da Caparica",
+  "coordinates": {
+    "lat": 38.64246869999999,
+    "lon": -9.2383496
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10500,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/1393cb5b5c9e5cf99c3016efa0f7ae6c"
+  ],
+  "start_date": "2020-06-21",
+  "end_date": "2020-06-22",
+  "circuit": [],
+  "description": "<p>O CPA &#8211; Clube Praças da Armada com o apoio técnico da Werun e a co-parceria da Câmara Municipal de Almada, irão organizar o 3º Almada Trail, na cidade de Almada, com Partida e Chegada no Parque Desportivo do Atlântico Costa da Caparica.</p>\n<p>&nbsp;</p>\n<p><strong>Programa / Horário</strong></p>\n<p>9h00 &#8211; Corrida Pais &amp; Filhos<br />\n9h30 &#8211; Partida Trail Longo K25+<br />\n10h00 &#8211; Partida K15+<br />\n10h05 &#8211; Partida Caminhada<br />\n11h15 &#8211; Previsão de chegada dos primeiros atletas K15+<br />\n11h30 &#8211; Previsão de chegada dos primeiros atletas K25+<br />\n12h00 &#8211; Entrega prevista dos troféus</p>\n<p><strong>Tempo limite</strong></p>\n<ul>\n<li>Caminhada: 3h00</li>\n<li>Trail curto: 3h30</li>\n<li>Trail Longo: 4h00 (controlo de passagem: se chegar aos 10,5 km e o tempo for superior a 1h40, será convidado a fazer o restante percurso do Trail Curto)</li>\n</ul>\n<p><strong>Metodologia de controlo de tempos</strong></p>\n<p>O processo de controlo de tempos do atleta é feito através de sistema electrónico, por chip incluído no dorsal.</p>\n",
+  "description_short": "Trail desafiante na Costa da Caparica com partida e chegada no Parque Desportivo do Atlântico em Almada",
+  "page": "https://werun.pt/eventos/3-almada-trail/",
+  "slug": "almada-trail",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

@@ -1,0 +1,39 @@
+{
+  "id": 30769,
+  "name": "Trail Vila de Mouros 2024",
+  "location": "Covilhã, Castelo Branco",
+  "coordinates": {
+    "lat": 40.2805633,
+    "lon": -7.504327199999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    5000,
+    6500,
+    10000,
+    16000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f8c57e3031cfbd8f2274613dcefe06ed"
+  ],
+  "start_date": "2024-06-23",
+  "end_date": "2024-06-24",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Após o sucesso dos eventos anteriores, realizados em 2022 e 2023, vem o Trail Team Vila de Mouros, dar continuidade à 3ª edição do Trail Vila de Mouros INTERPREV 2024 e Mouros 1000 INTERPREV 2024. Este último, de cariz competitivo, será uma das 11 etapas do Campeonato Nacional de Sky Running, contando também para a Taça de Portugal da Juventude SUB_23 e Troféu Promoção.</p>\n\n\n\n<p>22 de Junho de 2024<br>&#8211; Mouros 1000 INTERPREV (6,5Km 1000 D+)</p>\n\n\n\n<p>23 de Junho de 2024<br>&#8211; Trail Sprint (25km 1200D+)<br>&#8211; Mini mouros INTERPREV (16Km 750 D+)<br>&#8211; Caminhada (10Km 400D+)</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail de montanha em Vila de Mouros com prova de Sky Running integrada no Campeonato Nacional",
+  "page": "https://amigosvilademouros.wixsite.com/trail-vila-de-mouros",
+  "slug": "trail-vila-de-mouros-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "São Martinho",
+  "district_code": 5
+}

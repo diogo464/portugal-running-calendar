@@ -1,0 +1,29 @@
+{
+  "id": 14616,
+  "name": "Coronado Trail 2022",
+  "location": "Trofa, Porto",
+  "coordinates": {
+    "lat": 41.3125528,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/39bcc70376f3fd69aa7c26905b0bbddd"
+  ],
+  "start_date": "2022-04-03",
+  "end_date": "2022-04-04",
+  "circuit": [],
+  "description": "\n<p>Coronado Trail 2022</p>\n",
+  "description_short": "Trail desafiante pela região do Coronado com paisagens naturais únicas",
+  "page": "https://stopandgo.net/event/?id=710",
+  "slug": "coronado-trail-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Trofa",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

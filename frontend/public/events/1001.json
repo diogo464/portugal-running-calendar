@@ -1,0 +1,33 @@
+{
+  "id": 1001,
+  "name": "Corrida Cidade de Alverca 2020",
+  "location": "Alverca Alverca, Lisboa",
+  "coordinates": {
+    "lat": 38.9022048,
+    "lon": -9.0397427
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/50544998db042c7518f93c3e170b229d"
+  ],
+  "start_date": "2020-05-24",
+  "end_date": "2020-05-25",
+  "circuit": [],
+  "description": "<p>A Associação Portugal Talentus, com o apoio do Instituto Português do Desporto e Juventude, da Câmara Municipal de Vila Franca de Xira, da Junta de Freguesia de Alverca do Ribatejo e Sobralinho e da Força Aérea Portuguesa e OGMA, promove a realização da 6a CORRIDA CIDADE DE ALVERCA, no dia 24 de Maio de 2020.</p>\n<p>No contexto do evento, realizar-se-á também a Caminhada nas Pistas de Alverca e vários treinos de preparação para a Corrida.</p>\n",
+  "description_short": "Corrida urbana em Alverca com apoio institucional e militar, integrando caminhada e treinos preparatórios",
+  "page": "http://xistarca.pt/eventos/corrida-cidade-de-alverca",
+  "slug": "corrida-cidade-de-alverca-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "União das freguesias de Alverca do Ribatejo e Sobralinho",
+  "district_code": 11
+}

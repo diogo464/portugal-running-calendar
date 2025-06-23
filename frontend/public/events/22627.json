@@ -1,0 +1,31 @@
+{
+  "id": 22627,
+  "name": "Trilhos Termais 2023",
+  "location": "Caldas de São Jorge, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9680906,
+    "lon": -8.5010683
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bea91e6fdac11a19e6e2f5867f7ac02c"
+  ],
+  "start_date": "2023-04-08",
+  "end_date": "2023-04-09",
+  "circuit": [],
+  "description": "\n<p>Os TRILHOS TERMAIS® é um evento a realizar no dia 8 de abril de 2023, organizado pela Associação<br>Obra do Frei Gil em parceria com a Câmara Municipal de Santa Maria da Feira e com o apoio da<br>Run4Feira.</p>\n\n\n\n<p>Os TRILHOS TERMAIS® é um evento desportivo com três vertentes, um Trail Curto e um Trail Longo<br>com cariz competitivo e uma Caminhada com cariz recreativo que permitira aos participantes partir<br>da vila termal de Caldas de São Jorge e percorrer trilhos de beleza extrema do concelho de Santa Maria<br>da Feira.</p>\n",
+  "description_short": "Trail desportivo nas Caldas de São Jorge com percursos pela beleza natural do concelho de Santa Maria da Feira",
+  "page": "https://lap2go.com/pt/event/trilhos-termais-2023",
+  "slug": "trilhos-termais-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Caldas de São Jorge",
+  "district_code": 1
+}

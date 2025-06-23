@@ -1,0 +1,29 @@
+{
+  "id": 13504,
+  "name": "Trail Bela Bela",
+  "location": "Belazaima do Chão, Águeda",
+  "coordinates": {
+    "lat": 40.5325269,
+    "lon": -8.3648134
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/259656c5fd05d6cdcac8ff35bf4cdc3a"
+  ],
+  "start_date": "2022-04-03",
+  "end_date": "2022-04-04",
+  "circuit": [],
+  "description": "\n<p>Trail Bela Bela&#8230;<br>Prova que teve a sua origem no ano 2016 com um evento de cariz amador mas que logo na sua primeira edição contou com o fantástico número de 800 participantes.<br>O feedback bastante positivo quer em relação ao percurso, quer mesmo em relação à organização no seu todo, foram a alavanca necessária para a continuidade do evento. Assim, no ano seguinte a dimensão do mesmo ganhou proporções maiores ainda, atingindo um total de 1061 participantes.</p>\n",
+  "description_short": "Trail com crescimento assinalável desde a sua primeira edição em 2016, conquistando rapidamente o apoio de centenas de participantes.",
+  "page": "https://www.trailbelabela.com",
+  "slug": "trail-bela-bela",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "União das freguesias de Belazaima do Chão, Castanheira do Vouga e Agadão",
+  "district_code": 1
+}

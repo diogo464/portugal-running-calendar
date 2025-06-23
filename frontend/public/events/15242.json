@@ -1,0 +1,32 @@
+{
+  "id": 15242,
+  "name": "Caldas Trail 2022",
+  "location": "Salir do Porto, Caldas da Rainha",
+  "coordinates": {
+    "lat": 39.4972864,
+    "lon": -9.1532667
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    15000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b652eb90bbd562795839c82876ef3947"
+  ],
+  "start_date": "2022-07-24",
+  "end_date": "2022-07-25",
+  "circuit": [],
+  "description": "\n<p>O Clube de corrida,&nbsp;<strong>Não Fazemos Nem Mais Um&#8230; Km</strong>, vai realizar um evento denominado&nbsp;<strong>&#8220;CALDAS TRAIL” de 2022</strong>.&nbsp;Este evento irá decorrer no concelho de&nbsp;<strong>Caldas da Rainha</strong>&nbsp;e irá desenvolver-se maioritariamente em trilhos, caminhos e estradas de terra das freguesias de&nbsp;Nadadouro, Foz do Arelho, Santo Onofre e Serra do Bouro, Tornada e Salir do Porto.&nbsp;A prova vai ter as seguintes distâncias:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>25 Km &#8211;&nbsp;<strong>Trail Longo</strong></li><li>15 Km –<strong>&nbsp;Trail Curto</strong></li></ul>\n",
+  "description_short": "Trail desafiante pelos trilhos e caminhos das freguesias rurais das Caldas da Rainha",
+  "page": "https://www.recordepessoal.pt/evento/caldastrail2022",
+  "slug": "caldas-trail-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Caldas da Rainha",
+  "administrative_area_level_3": "União das freguesias de Tornada e Salir do Porto",
+  "district_code": 10
+}

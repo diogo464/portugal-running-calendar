@@ -1,0 +1,37 @@
+{
+  "id": 30783,
+  "name": "Trail Lagoa de Óbidos 2024",
+  "location": "Óbidos, Leiria",
+  "coordinates": {
+    "lat": 39.3572399,
+    "lon": -9.1578614
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    6000,
+    11000,
+    26000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7977fa2f4b2ac14a2acbe8e8bfd6b4de"
+  ],
+  "start_date": "2024-06-02",
+  "end_date": "2024-06-03",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Com o apoio da Câmara Municipal de Óbidos e da Junta de Freguesia do Vau, realiza-se no próximo dia 2 de junho de 2024, a 5ª edição do Trail Lagoa de Óbidos, percorrido por caminhos e trilhos na zona da Lagoa de Óbidos. Será composto por um Trail Longo na distância de 26K+ e um Trail Curto de 11K+, ambos com partida e chegada junto ao pavilhão da Associação Recreativa Desportiva e Cultural Vauense em Óbidos.</p>\n\n\n\n<p>Para esta edição será incluída uma Caminhada com distânica de 6K+, com partida nos Musaranhos, junto à Lagoa de Óbidos e chegada no Vau junto ao pavilhão da Associação Recreativa Desportiva e Cultural Vauense em Óbidos.</p>\n",
+  "description_short": "Trail pelos caminhos e trilhos envolventes da Lagoa de Óbidos com percursos variados e apoio municipal",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/135512-5o_trail_lagoa_de_obidos_by_ginja_vila_das_rainhas-vau/",
+  "slug": "trail-lagoa-de-obidos-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Município do Óbidos",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Sobral da Lagoa",
+  "district_code": 10
+}

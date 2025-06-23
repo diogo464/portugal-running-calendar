@@ -1,0 +1,32 @@
+{
+  "id": 36932,
+  "name": "Grande Premio Caldas de São Jorge 2024",
+  "location": "Santa Maria da Feira, Aveiro",
+  "coordinates": {
+    "lat": 40.9257594,
+    "lon": -8.5478589
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/9b4512210369fbdb66360c6c6bb9170c"
+  ],
+  "start_date": "2024-09-29",
+  "end_date": "2024-09-30",
+  "circuit": [],
+  "description": "\n<p>O Caldas de São Jorge Sport Clube volta a organizar um dos eventos de referência de Santa Maria da Feira. Este é um Grande Prémio para todas as idades e géneros, inclusivo e cheio de festa de atletismo.</p>\n",
+  "description_short": "Corrida festiva e inclusiva organizada pelo Caldas de São Jorge Sport Clube em Santa Maria da Feira",
+  "page": "https://lap2go.com/pt/event/caldas-sjorge-2024",
+  "slug": "grande-premio-caldas-de-sao-jorge-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "União das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo",
+  "district_code": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": 33753,
+  "name": "Trail e Caminhada &#8220;Rota Passadiços do Távora&#8221; 2024",
+  "location": "Vila da Ponte, Viseu",
+  "coordinates": {
+    "lat": 40.9176168,
+    "lon": -7.510652599999998
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/199c9585a3e11d4bd60e4bede1cfd791"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [],
+  "description": "\n<p>O 2º Trail e Caminhada “Rota Passadiços do Távora” são organizados pelo Núcleo Desportivo e Cultural de Vila da Ponte e Câmara Municipal de Sernancelhe, com o apoio da Junta de Freguesia de Vila da Ponte, Runners Sernancelhe Terra da Castanha, Escola Profissional de Sernancelhe e Bombeiros Voluntários de Sernancelhe.<br>Este evento terá lugar a 17 de março de 2024 e tem como objetivo promover a prática da  atividade física em meio natural, dando a conhecer os lugares e costumes da freguesia de Vila da Ponte.</p>\n\n\n\n<p> A concentração será no Largo dos Desportos, junto à Praia Fluvial &#8211; Marginal do Rio Távora, na freguesia de Vila da Ponte, local onde funcionará toda a logística associada ao evento, nomeadamente secretariado, partida e chegada.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos passadiços do rio Távora em Vila da Ponte, com apoio local e promoção da região",
+  "page": "https://acorrer.pt/eventos/info/3425",
+  "slug": "trail-e-caminhada-rota-passadicos-do-tavora-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sernancelhe",
+  "administrative_area_level_3": "Vila da Ponte",
+  "district_code": 18
+}

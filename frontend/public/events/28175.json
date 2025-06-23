@@ -1,0 +1,32 @@
+{
+  "id": 28175,
+  "name": "Oudinot Race 2023",
+  "location": "Gafanha da Nazaré, Ílhavo",
+  "coordinates": {
+    "lat": 40.6363737,
+    "lon": -8.7004614
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    4000,
+    8000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/fcd0a99947b5d91f484213f3996839f6"
+  ],
+  "start_date": "2023-10-21",
+  "end_date": "2023-10-22",
+  "circuit": [],
+  "description": "\n<p>1º Oudinot Race OCR é uma prova diferente rodeada por uma fantástica paisagem, realizado no jardim Oudinot na Gafanha da Nazaré.</p>\n\n\n\n<p>Prova organizada pela associação Bússola Partilhada, será uma corrida de obstáculos no interior jardim Oudinot &nbsp;com cerca 25 Obstáculos perfazendo 8km Elite e 4Km Overall.</p>\n\n\n\n<p>A prova irá realizar-se no dia 21 Outubro de 2023, com a partida e chega no Jardim Oudinot, contando com os mais diversos obstáculos</p>\n\n\n",
+  "description_short": "Corrida de obstáculos única no Jardim Oudinot com desafios técnicos na Gafanha da Nazaré",
+  "page": "https://waitastart.com/oudinot_race23/",
+  "slug": "oudinot-race-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

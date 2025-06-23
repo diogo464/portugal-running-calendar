@@ -1,0 +1,31 @@
+{
+  "id": 39136,
+  "name": "Trail Marvão 2025",
+  "location": "Marvão, Portalegre",
+  "coordinates": {
+    "lat": 39.3939447,
+    "lon": -7.376536299999999
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7154d4ae0e5c72a62d93b1e695ff0851"
+  ],
+  "start_date": "2025-02-23",
+  "end_date": "2025-02-24",
+  "circuit": [],
+  "description": "\n<p>O Trail de Marvão é uma organização conjunta entre o Município de Marvão, UJA &#8211; União da Juventude<br>Arenense e do GDA &#8211; Grupo Desportivo Arenense.</p>\n\n\n\n<p><br>O Trail de Marvão é um evento composto por duas provas de trail running e por uma caminhada, que se<br>realiza por trilhos, azinhagas e caminhos rurais do concelho de Marvão, inserido em pleno Parque Natural<br>da Serra de S. Mamede, privilegiando a passagem por alguns dos locais mais emblemáticos do concelho.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e caminhos rurais do Parque Natural da Serra de S. Mamede em Marvão",
+  "page": "https://www.queroir.pt/trailmarvao2025",
+  "slug": "trail-marvao-2025",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Marvão",
+  "administrative_area_level_3": "Santa Maria de Marvão",
+  "district_code": 12
+}

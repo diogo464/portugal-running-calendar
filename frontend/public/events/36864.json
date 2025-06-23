@@ -1,0 +1,35 @@
+{
+  "id": 36864,
+  "name": "Corrida Multicare Vitality 2024",
+  "location": "Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/106e37a004d2d17b31383c743503be29"
+  ],
+  "start_date": "2024-10-20",
+  "end_date": "2024-10-21",
+  "circuit": [],
+  "description": "\n\n\n<p>Dia 20 de Outubro, pelas 10h00 no Parque do Jamor, venha correr na prova de 5 ou 10 km, ou caminhe na prova de 5 km. Pelas 9h00, realiza-se a Corrida das Crianças.</p>\n",
+  "description_short": "Corrida familiar no Parque do Jamor com opções para adultos e crianças",
+  "page": "https://lap2go.com/pt/event/corrida-multicare-vitality-2024",
+  "slug": "corrida-multicare-vitality-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

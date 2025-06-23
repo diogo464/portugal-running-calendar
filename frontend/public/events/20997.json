@@ -1,0 +1,35 @@
+{
+  "id": 20997,
+  "name": "VI Caminhada Trail Dos Budas 2023",
+  "location": "Barrosas, Faro",
+  "coordinates": {
+    "lat": 37.0164626,
+    "lon": -7.9351983
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    14000,
+    24000,
+    30000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/346c2e89086b3d9ea6b636088c15a4dd"
+  ],
+  "start_date": "2023-03-26",
+  "end_date": "2023-03-27",
+  "circuit": [],
+  "description": "\n<p>O Trail / Caminhada dos BUDAS é um evento sem o espírito de competição, sem tempos e nem<br>classificações é organizado por várias entidades: O Grupo de Caminhadas Algarvio “Escalfadinhos<br>Marafados”, Associação Recreativa das Barrosas, Sport Club Benafim, Associação Recreativa<br>Unidos pela Penina e União de Freguesias Querença, Tôr e Benafim com o objetivo de mostrar<br>uma parte escondida do interior do Algarve, Trilho dos Budas com a mítica subida do Malhão e<br>realização do ritual BUDA, 3 voltas em Silêncio no sentido dos ponteiros do relógio….. e regressar<br>novamente ao ponto de partida.</p>\n\n\n\n<p>Quanto aos Trilhos serão essencialmente por terra , veredas, ribeiras , evitando passar por<br>asfalto, sendo possível realizar os seguintes níveis:<br>a) I Nível: 14 Kms com inicio pelas 10 Hrs da Associação das Barrosas. (Trilho Circular)</p>\n\n\n\n<p>b) II Nível: 24 Kms com inicio pelas 8:30 Horas da Fonte da Aldeia da Penina e termina<br>também na fonte da Aldeia da Penina.</p>\n\n\n\n<p>c) III Nível: 30 Kms com inicio pelas 8 horas de Benafim (Sport Club Benafim) e termina<br>também Benafim (Trilho Circular)</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail dos Budas no interior algarvio com ritual único de três voltas em silêncio e percursos por veredas e ribeiras do Algarve",
+  "page": "https://acorrer.pt/eventos/info/2551",
+  "slug": "vi-trail-caminhada-dos-budas-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

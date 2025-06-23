@@ -1,0 +1,32 @@
+{
+  "id": 1508,
+  "name": "Trail Lagoa de Óbidos 2020",
+  "location": "Lagoa de Óbidos",
+  "coordinates": {
+    "lat": 39.41262589999999,
+    "lon": -9.214829
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000,
+    27000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/40767937b606f2ee1425312de82d70bc"
+  ],
+  "start_date": "2020-07-25",
+  "end_date": "2020-07-26",
+  "circuit": [],
+  "description": "<p>Com o apoio da Câmara Municipal de Óbidos e da Junta de Freguesia do Vau, realiza-se no dia 25 de Julho de 2020, o Trail Lagoa de Óbidos que será percorrido por caminhos e trilhos na zona da Lagoa de Óbidos. Será composto por um Trail Longo na distância de 27k e um Trail Curto de 12k. Partida e chegada no Vau, concelho de Óbidos. O Trail Longo será feito a correr, enquanto o Trail Curto será a correr ou a caminhar.</p>\n<p>&nbsp;</p>\n<p>Distâncias:<br />\n12 km e 27 km</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e caminhos da Lagoa de Óbidos, com apoio local e duas opções de percurso",
+  "page": "https://ganhardestak.bol.pt/Comprar/Bilhetes/85962-2o_trail_lagoa_de_obidos-praia_do_bom_sucesso/",
+  "slug": "trail-lagoa-de-obidos-2020",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 10
+}

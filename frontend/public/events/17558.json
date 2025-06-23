@@ -1,0 +1,33 @@
+{
+  "id": 17558,
+  "name": "6º Trail São Macário 2022",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    14000,
+    28000,
+    45000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/2e35ef1bd9196ca978ad30d5cc91a85a"
+  ],
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-07",
+  "circuit": [],
+  "description": "\n<p>O GTT.SPS &#8211; Grupo Todo Terreno de São Pedro do Sul, vai realizar o 6º TRAIL SÃO MACÁRIO, no próximo dia 06 de Novembro de 2022, na aldeia de Macieira de Sul, Freguesia de Sul, bem perto do S. Macário.</p>\n\n\n\n<p><br>Face à situação que atravessamos, foi necessário adaptar o nosso Evento a esta nova realidade, de forma a cumprir todas as recomendações das Autoridades de Saúde, e a não colocar em risco todos os intervenientes, desde os Atletas, a todos os elementos da organização.</p>\n\n\n\n<p><br>Este ano, o Evento será composta por 3 provas, o ULTRA TRAIL com cerca 45km, o TRAIL LONGO, com cerca de 28Km e o TRAIL CURTO com cerca de 14Km, ambos com percursos fantásticos, na magnífica Serra do São Macário (não existirá CAMINHADA). Temos ainda outra novidade em relação aos anos anteriores, que diz respeito à partida das provas, uma vez que as mesmas terão início e fim, no Largo de Sul, junto aos cafés, na Freguesia de Sul.</p>\n",
+  "description_short": "Trail desafiante pela Serra de São Macário com três distâncias em Macieira de Sul",
+  "page": "https://stopandgo.net/event/?id=854",
+  "slug": "6o-trail-sao-macario-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

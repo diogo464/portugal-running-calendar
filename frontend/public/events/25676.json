@@ -1,0 +1,36 @@
+{
+  "id": 25676,
+  "name": "Trail da Ladeia Kids 2023",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    1000,
+    1500,
+    2000,
+    3000,
+    5000
+  ],
+  "types": [
+    "trail",
+    "kids"
+  ],
+  "images": [
+    "media/4fc88bc145d0a4d60deabfbe82a5589b"
+  ],
+  "start_date": "2023-10-07",
+  "end_date": "2023-10-08",
+  "circuit": [],
+  "description": "\n<p>O 3º Trail da Ladeia &#8211; Frutorra KIDS realizar-se-á no dia a 7 de outubro de 2023 em Alvorge, Concelho de Ansião, Distrito de Leiria.<br>O evento é organizado pelo Centro Social Cultural e Recreativo de Alvorge, conta com a colaboração do Município de Ansião, da Junta de Freguesia do Alvorge e entre outros patrocinadores e colaboradores.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Dos 6 aos 7 anos &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; 1km</li>\n\n\n\n<li>Dos 8 aos 9 anos &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; 1,5km</li>\n\n\n\n<li>Dos 10 aos 12 anos &#8211; &#8211; &#8211; &#8211; &#8211; 2km</li>\n\n\n\n<li>Dos 13 aos 16 anos &#8211; &#8211; &#8211; &#8211; &#8211; 3km</li>\n</ul>\n",
+  "description_short": "Trail infantil e juvenil em Alvorge com percursos adaptados por escalões etários",
+  "page": "https://www.queroir.pt/traildaladeiakids2023",
+  "slug": "trail-da-ladeia-kids-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

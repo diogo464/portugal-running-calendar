@@ -1,0 +1,34 @@
+{
+  "id": 22034,
+  "name": "II Rota do Olho do tordo 2023",
+  "location": "Alvaiázere, Leiria",
+  "coordinates": {
+    "lat": 39.8237427,
+    "lon": -8.3807264
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    14000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/4d2a2b2b9a7c98755cd1625f696577c3"
+  ],
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-13",
+  "circuit": [],
+  "description": "\n<p>O II Rota do Olho do tordo, sob organização da Câmara Municipal de Alvaiázere, pretende afirmar-se como uma prova de desporto e lazer, com carácter competitivo, na vertente de corrida [Trail Running], a realizar por percursos e trilhos envolventes à nascente do Olho do Tordo. A segunda edição realiza-se no dia 12 de fevereiro de 2023. É categorizado por duas distâncias não cronometradas [na vertente de Trail e Caminhada], de acordo com as seguintes distâncias: Trail 14 quilómetros e Caminhada de Natureza não competitiva com a extensão aproximada de 10 quilómetros.</p>\n\n\n",
+  "description_short": "Trail pela nascente do Olho do Tordo com percursos envolventes em Alvaiázere",
+  "page": "https://www.queroir.pt/iirotaolhodotordo",
+  "slug": "ii-rota-do-olho-do-tordo-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alvaiázere",
+  "administrative_area_level_3": "Alvaiázere",
+  "district_code": 10
+}

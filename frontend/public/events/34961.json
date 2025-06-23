@@ -1,0 +1,30 @@
+{
+  "id": 34961,
+  "name": "Vales de Vimioso TrailRun 2024",
+  "location": "Vimioso, Bragança",
+  "coordinates": {
+    "lat": 41.5844451,
+    "lon": -6.529121099999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/2b3d0d3f3a86814f16b2799d07bd8c90"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://inscripciones.runvasport.es/inscripcion/i-trail-vales-de-vimioso/",
+  "slug": "vales-de-vimioso-trailrun-2024",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Vimioso",
+  "administrative_area_level_3": "Vimioso",
+  "district_code": 4
+}

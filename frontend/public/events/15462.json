@@ -1,0 +1,29 @@
+{
+  "id": 15462,
+  "name": "Trail da Raia 2022",
+  "location": "Aldeia do Bispo, Sabugal",
+  "coordinates": {
+    "lat": 40.3151253,
+    "lon": -6.8511814
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/7a371da899062b5d571f7398b7176dce"
+  ],
+  "start_date": "2022-08-13",
+  "end_date": "2022-08-14",
+  "circuit": [],
+  "description": "\n<p>Trail da Raia é uma prova de montanha transfronteiriça, realizada por caminhos outrora utilizados pelos contrabandistas nos limites de Aldeia do Bispo (Portugal) e de Navasfrias (Espanha).</p>\n\n\n\n<p>Estas excursões repetidas, para além dos laços económicos, criaram laços culturais e pessoais de amizade entre os habitantes « de los pueblos ermanos » que agora relembramos.</p>\n\n\n\n<p>Os trilhos, re-inventados por trancos e barrancos, apresentam um piso acidentado com obstáculos naturais.</p>\n\n\n\n<p>As diferentes provas têm a partida e a chegada na Freguesia de Aldeia do Bispo (Sabugal), no largo do Enxido junto à igreja matriz.</p>\n\n\n\n<p>Esta prova é co-organizada pela Raiar &#8211; Associação de Aldeia do Bispo, pela associação Mocidade de Aldeia do Bispo em parceria com o Club BTT de Navasfrias e com o apoio da Junta de Freguesia de Aldeia do Bispo e da Camara Municipal do Sabugal.</p>\n",
+  "description_short": "Trail histórico entre Portugal e Espanha nos antigos caminhos de contrabandistas da Raia",
+  "page": "https://traildaraia.pt/",
+  "slug": "trail-da-raia-2022",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Sabugal",
+  "administrative_area_level_3": "Aldeia do Bispo",
+  "district_code": 9
+}

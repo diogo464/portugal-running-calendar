@@ -1,0 +1,29 @@
+{
+  "id": 41565,
+  "name": "Cn Montanha Up Hill Subir 2025",
+  "location": "Manteigas, Guarda",
+  "coordinates": {
+    "lat": 40.4022206,
+    "lon": -7.538339300000001
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f6ad22521fad13e413b7d91eb1f6ba6e"
+  ],
+  "start_date": "2025-05-09",
+  "end_date": "2025-05-09",
+  "circuit": [],
+  "description": "\n<p></p>\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa condensá-la num resumo sucinto.",
+  "page": "https://stopandgo.net/events/cn-montanha-up-hill-subir-2025",
+  "slug": "cn-montanha-up-hill-subir-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Manteigas",
+  "administrative_area_level_3": null,
+  "district_code": 9
+}

@@ -1,0 +1,34 @@
+{
+  "id": 39780,
+  "name": "Trail &#8211; Soldados da Paz 2025",
+  "location": "Sabugal, Guarda",
+  "coordinates": {
+    "lat": 40.3516608,
+    "lon": -7.089524099999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    11000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/1c7d662a379eb663c3700afd9974808a"
+  ],
+  "start_date": "2025-04-13",
+  "end_date": "2025-04-13",
+  "circuit": [],
+  "description": "\n<p>O “Trail Soldados da Paz” é uma prova que percorre trilhos e caminhos rurais do concelho de Sabugal, por locais de património histórico e cultural, organizada pelos Bombeiros Voluntários de Sabugal, a realizar no dia 13 de abril de 2025. A prova terá as distâncias de 25 km e de 15 km. Haverá ainda uma caminhada com uma distância aproximada de 11 km que não terá classificações.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail solidário dos Bombeiros Voluntários do Sabugal por trilhos históricos da região",
+  "page": "https://acorrer.pt/eventos/info/3739",
+  "slug": "trail-soldados-da-paz-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Sabugal",
+  "administrative_area_level_3": "União das freguesias do Sabugal e Aldeia de Santo António",
+  "district_code": 9
+}

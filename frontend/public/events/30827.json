@@ -1,0 +1,37 @@
+{
+  "id": 30827,
+  "name": "Celtic Challenge Trail 2024",
+  "location": "Ronfe, Guimarães",
+  "coordinates": {
+    "lat": 41.4398854,
+    "lon": -8.3837011
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000,
+    12000,
+    20000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/beec930aeeeb93861b91cc79bf8ad580"
+  ],
+  "start_date": "2024-10-06",
+  "end_date": "2024-10-07",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Vem conhecer a nossa terra e os renovados trilhos do Celtic Challenge 2024, continuando assim o conceito diferenciado na organização de provas de trail running em Portugal, o qual fazemos parte do circuito nacional da ATRP.</p>\n\n\n\n<p>Este ano irá apoiar de forma Solidária o Centro Social Paroquial de Ronfe O Trilho é a Tua Batalha!</p>\n\n\n\n<p>Trail Longo 31km com 1600d+</p>\n\n\n\n<p>Trail Curto 20km com 1000d+</p>\n\n\n\n<p>Mini trail 12km com 600d+</p>\n\n\n\n<p>Caminha 8km com 300d+</p>\n",
+  "description_short": "Trail solidário em Ronfe com percursos desafiantes pelos trilhos da região",
+  "page": "https://meutempo.pt/prova?celticchallenge2024",
+  "slug": "celtic-challenge-trail-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Guimarães",
+  "administrative_area_level_3": "Ronfe",
+  "district_code": 3
+}

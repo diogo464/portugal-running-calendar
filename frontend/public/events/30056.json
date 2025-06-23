@@ -1,0 +1,30 @@
+{
+  "id": 30056,
+  "name": "Trail de São João da Vila 2024",
+  "location": "Vila Franca do Campo, Açores",
+  "coordinates": {
+    "lat": 37.7157269,
+    "lon": -25.4345063
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/a482e09594b347563168f4a05739a98e"
+  ],
+  "start_date": "2024-06-09",
+  "end_date": "2024-06-10",
+  "circuit": [],
+  "description": "\n<p>O Trail de São João da Vila (TSJV) é um evento de Trail Running, que percorre trilhos e caminhos no concelho de Vila Franca do Campo, Açores.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos caminhos tradicionais de Vila Franca do Campo, nos Açores",
+  "page": "https://lap2go.com/pt/event/trail-sao-joao-da-vila-2024",
+  "slug": "trail-de-sao-joao-da-vila-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Vila Franca do Campo",
+  "administrative_area_level_3": "São Miguel",
+  "district_code": 20
+}

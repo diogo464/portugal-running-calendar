@@ -1,0 +1,29 @@
+{
+  "id": 30490,
+  "name": "Last Man Standing 2024",
+  "location": "Santa Maria da Feira, Aveiro",
+  "coordinates": {
+    "lat": 40.9257594,
+    "lon": -8.5478589
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/21c24721b8e4c82179dd5867f3183eb0"
+  ],
+  "start_date": "2024-01-28",
+  "end_date": "2024-01-29",
+  "circuit": [],
+  "description": "\n<p>“Last Man Standing (Último Vence) &#8211; Trail” é uma corrida onde todos chegam ao fim, mas apenas um pode vencer! No início de cada volta, todos estão novamente em 1o lugar. Um evento que junta, trail, superação e convívio num desafio que cada um coloca a si mesmo.</p>\n",
+  "description_short": "Trail desafiante onde cada volta reinicia a competição e apenas um pode triunfar",
+  "page": "https://lap2go.com/pt/event/last-man-standing-2024",
+  "slug": "last-man-standing-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "União das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo",
+  "district_code": 1
+}

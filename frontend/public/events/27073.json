@@ -1,0 +1,33 @@
+{
+  "id": 27073,
+  "name": "GP Atletismo Erada",
+  "location": "Erada, Covilhã",
+  "coordinates": {
+    "lat": 40.2805633,
+    "lon": -7.504327199999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/7619a4122bdfa83422e8cbb65b62474a"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>O Grande Prémio de Atletismo “Freguesia da ERADA” é uma prova que se realiza-se no próximo<br>dia 24 de Setembro de 2023 (Domingo), entre as 09h00 e as 13h00, na freguesia da Erada &#8211;<br>Covilhã, trata-se de uma organização da Junta de Freguesia da Erada com colaboração da<br>Câmara Municipal da Covilhã, Associação de Atletismo de Castelo Branco e Núcleo de Desporto<br>da Filarmónica da Erada.</p>\n\n\n",
+  "description_short": "Prova de atletismo na pitoresca Erada, com apoio local da autarquia e associações desportivas",
+  "page": "https://meutempo.pt/prova?gpatletismoerada",
+  "slug": "gp-atletismo-erada",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "São Martinho",
+  "district_code": 5
+}

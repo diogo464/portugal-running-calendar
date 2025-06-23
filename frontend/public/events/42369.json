@@ -1,0 +1,30 @@
+{
+  "id": 42369,
+  "name": "Trail Castro &#8220;Recarei&#8221; 2025",
+  "location": "São Martinho da Gândara, Oliveira de Azeméis",
+  "coordinates": {
+    "lat": 40.8572521,
+    "lon": -8.533553
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/c6e90473c04e12312cb8f8d9f4a2aba0"
+  ],
+  "start_date": "2025-11-09",
+  "end_date": "2025-11-10",
+  "circuit": [],
+  "description": "\n<p>O VII Trail “Castro Recarei” é uma prova de corrida em zona de mata, caminhos, represas e linhas de água que faz parte do Circuito Concelhio de Trail Running de Oliveira de Azeméis, (CCTRO).</p>\n",
+  "description_short": "Trail desafiante por mata, caminhos e linhas de água em Castro Recarei",
+  "page": "https://lap2go.com/pt/event/trail-castro-recarei-2025",
+  "slug": "trail-castro-recarei-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "São Martinho da Gândara",
+  "district_code": 1
+}

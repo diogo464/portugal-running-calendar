@@ -1,0 +1,35 @@
+{
+  "id": 20472,
+  "name": "São Silvestre De Boticas 2022",
+  "location": "Boticas, Vila Real",
+  "coordinates": {
+    "lat": 41.6984124,
+    "lon": -7.6710889
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/a894287b891985d6ed815516313d2a21"
+  ],
+  "start_date": "2022-12-17",
+  "end_date": "2022-12-18",
+  "circuit": [],
+  "description": "\n<p>Na sua primeira edição a São Silvestre de Boticas promete vir para ficar. Venha também ser estreante nesta prova com partida e chegada em frente ao Município de Boticas, nesta belíssima vila portuguesa.</p>\n\n\n\n<p>A 1º São Silvestre de Boticas terá um percurso com 10 km:<br>Partida em frente à Câmara Municipal, com passagem nos locais, Sangunhedo, Eiró e Granja, e chegada ao local da partida Câmara Municipal de Boticas<br></p>\n\n\n\n<p>Mini São Silvestre<br>A Mini São Silvestre terá um percurso, com partida e chegada em frente à Camara Municipal.<br></p>\n\n\n\n<p>Caminhada<br>A Caminhada terá um percurso com 10 km. Partida em frente à Câmara Municipal, com passagem nos locais, Sangunhedo, Eiró e Granja, e chegada ao local da partida Câmara Municipal de Boticas.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Primeira edição da São Silvestre de Boticas com percurso panorâmico pela vila transmontana",
+  "page": "https://lap2go.com/pt/event/ss-boticas-2022",
+  "slug": "sao-silvestre-de-boticas-2022",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Boticas",
+  "administrative_area_level_3": "Boticas e Granja",
+  "district_code": 17
+}

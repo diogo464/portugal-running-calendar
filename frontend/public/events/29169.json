@@ -1,0 +1,33 @@
+{
+  "id": 29169,
+  "name": "São Silvestre Batalha 2023",
+  "location": "Batalha, Leiria",
+  "coordinates": {
+    "lat": 39.6583864,
+    "lon": -8.8241787
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/7aa73fc6f2532c82bacd8317493bbf00"
+  ],
+  "start_date": "2023-12-16",
+  "end_date": "2023-12-17",
+  "circuit": [],
+  "description": "\n<p>No próximo dia <strong>16 de Dezembro de 2023</strong>, realiza-se a <strong>10ª SÃO SILVESTRE BATALHA</strong>, organizada pelo <strong>Atlético Clube Batalha</strong>, em parceria com a <strong>Câmara Municipal da Batalha</strong> e com o apoio da <strong>Associação Distrital de Atletismo de Leiri</strong>a.</p>\n",
+  "description_short": "Trail tradicional de São Silvestre pela vila histórica da Batalha, já na sua 10ª edição",
+  "page": "https://www.recordepessoal.pt/evento/10saosilvestredebatalha",
+  "slug": "sao-silvestre-batalha-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Batalha",
+  "administrative_area_level_3": "Batalha",
+  "district_code": 10
+}

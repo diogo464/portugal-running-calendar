@@ -1,0 +1,31 @@
+{
+  "id": 35443,
+  "name": "Nigth Run &#8211; MAR Shopping Algarve 2024",
+  "location": "Almancil, Loulé",
+  "coordinates": {
+    "lat": 37.0876993,
+    "lon": -8.029945099999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/4b10b123ee8900b9008a80128a26212e"
+  ],
+  "start_date": "2024-05-17",
+  "end_date": "2024-05-18",
+  "circuit": [],
+  "description": "\n<p>Numa co-organização da Free Challenge, MAR Shopping Algarve, Designer Outlet Algarve, realiza-se no dia 17 de maio de 2024, a &#8220;MAR SHOPPING ALGARVE NIGHT RUN&#8221;, com início agendado para as 23h30 no centro comercial MAR Shopping Algarve na freguesia Almancil.</p>\n\n\n\n<p>A competição irá decorrer no centro comercial MAR Shopping Algarve, com partida e chegada no mesmo local. O percurso é circular com 1 volta de 5 km para a corrida e caminhada.</p>\n\n\n",
+  "description_short": "Corrida noturna animada no MAR Shopping Algarve com partida ao final da noite em Almancil",
+  "page": "https://acorrer.pt/eventos/info/3555",
+  "slug": "nigth-run-mar-shopping-algarve-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Almancil",
+  "district_code": 8
+}

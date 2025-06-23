@@ -1,0 +1,35 @@
+{
+  "id": 31330,
+  "name": "Trail Summer Challenge 2024",
+  "location": "Praia Ribeira d Ilhas, Ericeira",
+  "coordinates": {
+    "lat": 38.9888836,
+    "lon": -9.4159933
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    16000,
+    24000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/dfc24db19702a25ccbea2472df44df20"
+  ],
+  "start_date": "2024-07-07",
+  "end_date": "2024-07-08",
+  "circuit": [],
+  "description": "\n<p>A 6ª edição do Trail summer challenge, vai realizar-se no dia 7 Julho 2024, na zona da praia da Foz do Lizandro – Ericeira, independentemente das condições climatéricas desse dia, desde que a organização entenda que as mesmas não ofereçam risco algum para os participantes</p>\n\n\n\n<p>Será constituído por 2 provas de carácter competitivo: Trail curto( +/- 16 Km), Trail longo(+/- 24 Km) e uma caminhada de lazer em homenagem a Eduarda Jacinto ( +/- 10 Km) ; as provas irão decorrer num circuito maioritariamente natural com paisagens magníficas a avistar a costa;</p>\n",
+  "description_short": "Trail summer challenge pela costa da Ericeira com vistas deslumbrantes do litoral",
+  "page": "https://www.trilhoperdido.com/evento/6-Trail-Summer-Challenge",
+  "slug": "trail-summer-challenge-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Mafra",
+  "administrative_area_level_3": "Ericeira",
+  "district_code": 11
+}

@@ -1,0 +1,30 @@
+{
+  "id": 36852,
+  "name": "Halloween Night Run 2024",
+  "location": "Estádio Universitário de Lisboa, Lisboa",
+  "coordinates": {
+    "lat": 38.75185,
+    "lon": -9.1625361
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/7895330d99c828a6b150465b93d951ea"
+  ],
+  "start_date": "2024-10-31",
+  "end_date": "2024-11-01",
+  "circuit": [],
+  "description": "\n<p>o dia 31 de Outubro de 2024, o Estádio Universitário de Lisboa será, uma vez mais, o palco para a 9ª Halloween Night Run!</p>\n\n\n\n<p>Mascara-te a rigor, corre o mais rápido que puderes e foge dos ZOMBIES que vão CORRER atrás de ti!</p>\n",
+  "description_short": "Corrida temática de Halloween no Estádio Universitário de Lisboa com perseguição de zombies",
+  "page": "https://xistarca.pt/eventos/9a-halloween-run-party",
+  "slug": "halloween-night-run-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Alvalade",
+  "district_code": 11
+}

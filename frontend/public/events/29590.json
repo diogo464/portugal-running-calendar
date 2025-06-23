@@ -1,0 +1,34 @@
+{
+  "id": 29590,
+  "name": "Maratona de Chicago 2024",
+  "location": "Chicago, Estados Unidos da América",
+  "coordinates": {
+    "lat": 41.8781136,
+    "lon": -87.6297982
+  },
+  "country": "Estados Unidos",
+  "locality": "Illinois",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "run",
+    "marathon"
+  ],
+  "images": [
+    "media/6787e18c21486891ca82813dceb69cb3"
+  ],
+  "start_date": "2024-10-13",
+  "end_date": "2024-10-14",
+  "circuit": [
+    "Majors"
+  ],
+  "description": "\n<p>A Maratona de Chicago, conhecida em inglês como &#8220;Chicago Marathon,&#8221; é uma das corridas de maratona mais populares do mundo e vai ocorrer a 13 de Outubro de 2024 em Chicago, Illinois, nos Estados Unidos. A primeira edição da maratona foi realizada em 1977, e desde então, tornou-se um dos eventos esportivos mais importantes da cidade.</p>\n\n\n\n<p>A Maratona de Chicago é conhecida por seu percurso plano e rápido, o que a torna atraente tanto para corredores de elite em busca de tempos rápidos quanto para corredores amadores em busca de uma experiência única na maratona. O percurso leva os corredores a passar por alguns dos locais mais icônicos de Chicago, incluindo o centro da cidade, o Millennium Park, o bairro de Lincoln Park, a área do Loop e o bairro de Chinatown.</p>\n\n\n\n<p>Assim como em outras maratonas importantes, a Maratona de Chicago atrai corredores de elite de todo o mundo, bem como corredores amadores de todas as habilidades. A participação na corrida é competitiva, e muitos corredores buscam se qualificar através de tempos de maratona anteriores ou conseguem vagas por meio de caridade.</p>\n\n\n\n<p>A Maratona de Chicago faz parte das World Marathon Majors, um grupo de seis das maratonas mais prestigiadas do mundo, que também inclui as maratonas de Boston, Londres, Berlim, Nova Iorque e Tóquio. </p>\n",
+  "description_short": "Maratona icónica de Chicago com percurso plano por locais emblemáticos da cidade",
+  "page": "https://www.chicagomarathon.com/",
+  "slug": "maratona-de-chicago-2024",
+  "administrative_area_level_1": "Illinois",
+  "administrative_area_level_2": "Condado de Cook",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

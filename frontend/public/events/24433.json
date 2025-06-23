@@ -1,0 +1,32 @@
+{
+  "id": 24433,
+  "name": "Corrida 4 Estações, Venda da Luísa 2023",
+  "location": "Venda da Luísa, Condeixa",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/2aa2faaadfb9d7b3b986aecb0aa6a772"
+  ],
+  "start_date": "2023-10-29",
+  "end_date": "2023-10-30",
+  "circuit": [],
+  "description": "\n<p>Numa co organização entre a Associação Desportiva 4 Estações e a Câmara Municipal de Condeixa, vai realizar no dia 29 de outubro de 2023 pelas 10.30h na Venda da Luísa uma corrida de atletismo de estrada com a distância de 10k, designada por Corrida das 4 Estações Outono. Esta prova faz parte do Circuito de Corrida 4 Estações Portugal.</p>\n",
+  "description_short": "Corrida de atletismo de outono em Condeixa integrada no Circuito 4 Estações",
+  "page": "https://goinonline.pt/home/athlete/ca98b974e90014bb53b044b6a4b9d89770a11a9a31041da7fc?fbclid=IwAR2hOrvU2MvD_ffDJKOSYG52dDmRYLzdffw0aIL04Nix0A_KuwdTkZcbQwk",
+  "slug": "corrida-4-estacoes-venda-da-luisa-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

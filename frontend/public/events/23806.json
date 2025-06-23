@@ -1,0 +1,30 @@
+{
+  "id": 23806,
+  "name": "Vertical Elevador Sta Luzia 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    160,
+    650
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [],
+  "description": "\n<p>O II Vertical Elevador de Sta. Luzia é uma competição de SkyRunning disputada em percurso ascendente que acompanha os carris do elevador. Apresenta um desnível positivo de 160 metros e uma distância aproximada de 650 metros entre a partida e a chegada. Terá início na estação do elevador de Sta Luzia, na Av. 25 Abril, e termina na estação do elevador de Sta Luzia, junto ao templo Sta Luzia, em Viana do Castelo.</p>\n\n\n",
+  "description_short": "Prova vertical desafiante ao longo dos carris históricos do Elevador de Sta. Luzia em Viana do Castelo",
+  "page": "https://lap2go.com/pt/event/vertical-elevador-sta-luzia-2023",
+  "slug": "vertical-elevador-sta-luzia-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

@@ -1,0 +1,31 @@
+{
+  "id": 37510,
+  "name": "Corrida Rosa 2025",
+  "location": "Lourosa, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9881883,
+    "lon": -8.5450532
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/7591794746257ad5d2ac4ce957ab0cb3"
+  ],
+  "start_date": "2025-08-30",
+  "end_date": "2025-08-31",
+  "circuit": [],
+  "description": "\n<p>A Corrida Rosa, em Lourosa, é um evento desportivo exclusivamente Feminino. Venha andar ou correr 5km e passe um fim de tarde inesquecível e saudável! Vamos encher a &#8220;Via Estruturante Lourosa/Lamas&#8221; de cor de rosa num percurso com muita animação à vossa espera!!!</p>\n\n\n",
+  "description_short": "Corrida solidária exclusivamente feminina que pinta de rosa a Via Estruturante de Lourosa",
+  "page": "https://lap2go.com/pt/event/corridarosa-2025",
+  "slug": "corrida-rosa-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Lourosa",
+  "district_code": 1
+}

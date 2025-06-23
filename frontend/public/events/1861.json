@@ -1,0 +1,33 @@
+{
+  "id": 1861,
+  "name": "3° Trail Santa Apolónia 2020",
+  "location": "Vila Nova de Famalicão, Braga",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    6000,
+    12000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8d11a38768d2b102ab27e87b36865db5"
+  ],
+  "start_date": "2020-04-18",
+  "end_date": "2020-04-19",
+  "circuit": [],
+  "description": "<p><span class=\"_5mfr\"><span class=\"_6qdm\">💥</span></span> É aqui que tudo começa! <span class=\"_5mfr\"><span class=\"_6qdm\">💥</span></span></p>\n<p>Estás preparado pra entrar em campo?</p>\n<p><span class=\"_5mfr\"><span class=\"_6qdm\">⛰</span></span> Trail Longo 20K<span class=\"text_exposed_show\"><br />\n<span class=\"_5mfr\"><span class=\"_6qdm\">⛰</span></span> Trail Curto 12K<br />\n<span class=\"_5mfr\"><span class=\"_6qdm\">⛰</span></span> Caminhada 6K<br />\n⠀</p>\n<p></span></p>\n",
+  "description_short": "Trail com diferentes percursos pela paisagem montanhosa, oferecendo opções para todos os níveis de participantes",
+  "page": "https://www.prozis.com/pt/pt/evento/3-trail-santa-apolonia",
+  "slug": "3-trail-santa-apolonia-2020",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

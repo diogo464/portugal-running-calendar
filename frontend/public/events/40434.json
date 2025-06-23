@@ -1,0 +1,32 @@
+{
+  "id": 40434,
+  "name": "Color Run &#8211; Caminhada Colorida 2025",
+  "location": "Seixo de Gatões, Montemor-o-Velho",
+  "coordinates": {
+    "lat": 40.2382871,
+    "lon": -8.6844316
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/85668e60713bacee510044cc1039b53b"
+  ],
+  "start_date": "2025-05-18",
+  "end_date": "2025-05-18",
+  "circuit": [],
+  "description": "\n<p>O 1º Color Run &#8211; Caminhada Colorida, é o ultimo evento promovido pela Comissão de Festas de S. João Baptista 2025.<br>Trata-se de uma caminhada sem qualquer carater competitivo, é proposta a todas as faixas etárias na vertente de lazer, com a extensão de 5 Km pelos trilhos da Freguesia do Seixo de Gatões, com percurso marcado, sem cronometragem e sem classificação.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Caminhada colorida e descontraída pelos trilhos pitorescos da Freguesia do Seixo de Gatões",
+  "page": "https://www.runmanager.net/Eventos/1-color-run-caminhada-colorida/904",
+  "slug": "color-run-caminhada-colorida-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "Seixo de Gatões",
+  "district_code": 6
+}

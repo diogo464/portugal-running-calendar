@@ -1,0 +1,35 @@
+{
+  "id": 18877,
+  "name": "Santa Maria Trail  &#8211; Smat 2023",
+  "location": "Ilha de Santa Maria, Açores",
+  "coordinates": {
+    "lat": 36.9788003,
+    "lon": -25.1059054
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    18000,
+    36000,
+    55000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3001646ba3dab623367e2de27f5b6913"
+  ],
+  "start_date": "2023-06-10",
+  "end_date": "2023-06-11",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O “Santa Maria Trail – SMAT” é um evento de Trail Running, certificado pela ATRP, organizado pela Secção de Trail Running da Casa do Povo de São Pedro, que percorre trilhos, caminhos agrícolas e florestais e linhas de água do concelho de Vila do Porto, na Ilha de Santa<br>Maria – Açores, enquadrado nas vertentes de Trail Ultra (55 km), Trail Longo (36 km) e Trail Curto (18 km).</p>\n",
+  "description_short": "Trail desafiante pelos trilhos e paisagens naturais da Ilha de Santa Maria nos Açores",
+  "page": "https://stopandgo.net/events/santa-maria-trail-smat-2023",
+  "slug": "santa-maria-trail-2023",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Vila do Porto",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

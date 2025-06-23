@@ -1,0 +1,30 @@
+{
+  "id": 38113,
+  "name": "Trail das Amendoeiras 2025",
+  "location": "São João da Pesqueira, Viseu Pesqueira",
+  "coordinates": {
+    "lat": 41.14773810000001,
+    "lon": -7.405053300000001
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/ebf5ea997cb20b76f1e655d54c339a7e"
+  ],
+  "start_date": "2025-03-02",
+  "end_date": "2025-03-03",
+  "circuit": [],
+  "description": "\n<p>O evento foi pensado para que os participantes pudessem desfrutar das paisagens de uma das mais belas e emblemáticas regiões de Portugal – o Douro Vinhateiro. Mas é também objetivo da organização dar a conhecer um pouco da história, da cultura e da gastronomia da região. Os participantes poderão desafiar-se pelos trilhos do Vale do Douro.</p>\n\n\n",
+  "description_short": "Trail panorâmico pelo emblemático Douro Vinhateiro com descoberta cultural e gastronómica",
+  "page": "https://lap2go.com/pt/event/trail-das-amendoeiras-2025",
+  "slug": "trail-das-amendoeiras-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São João da Pesqueira",
+  "administrative_area_level_3": "União das freguesias de São João da Pesqueira e Várzea de Trevões",
+  "district_code": 18
+}

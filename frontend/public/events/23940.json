@@ -1,0 +1,29 @@
+{
+  "id": 23940,
+  "name": "Flavius Challenge OCR 2023",
+  "location": "Chaves, Vila Real",
+  "coordinates": {
+    "lat": 41.7158962,
+    "lon": -7.4814163
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/dac4afd912ca96426302ffae5c1a7c11"
+  ],
+  "start_date": "2023-09-03",
+  "end_date": "2023-09-04",
+  "circuit": [],
+  "description": "\n<p>A “FLAVIUS CHALLENGE OCR” é uma corrida de obstáculos urbana, organizada em Chaves pela Associação Wildfun – Desporto, Aventura &amp; Turismo com a colaboração do Município de Chaves, da Federação Portuguesa de Corridas de Obstáculos (FPOCR) e do Instituto Português do Desporto e da Juventude (IPDJ).<br>A prova integra a Liga OCR Portugal 2023 da Federação Portuguesa de Corridas de Obstáculos (FPOCR) e tem apuramentos para o OCR European Championships 2024.</p>\n\n\n\n<p>A prova irá realizar-se no dia 3 de setembro de 2023, no Município de Chaves, com partidas/chegadas na Alameda do Trajano junto às Piscinas Municipais.</p>\n\n\n",
+  "description_short": "Corrida de obstáculos urbana em Chaves com passagem pela histórica Alameda do Trajano",
+  "page": "https://waitastart.com/flavius23/",
+  "slug": "flavius-challenge-ocr-2023",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Chaves",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

@@ -1,0 +1,29 @@
+{
+  "id": 13356,
+  "name": "Nelas Trail Running 2022",
+  "location": "Nelas, Viseu",
+  "coordinates": {
+    "lat": 40.537787,
+    "lon": -7.8498679
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4a9bdf0829667bdc01d39816fa0e138c"
+  ],
+  "start_date": "2022-04-24",
+  "end_date": "2022-04-25",
+  "circuit": [],
+  "description": "\n<p>O Nelas Trail Running 2022 é o herdeiro do Trail dos Caminhos Cruzados que teve a sua primeira edição em 2015.</p>\n\n\n\n<p>Nas diferentes distâncias os atletas passam maioritariamente por carreiros seculares criados pelos nossos antepassados, que eram percorridos por necessidade de sobrevivência nas suas deslocações para os campos agrícolas.</p>\n",
+  "description_short": "Trail histórico por caminhos ancestrais em Nelas",
+  "page": "https://meutempo.pt/prova?5nelastrail",
+  "slug": "nelas-trail-running-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Nelas",
+  "administrative_area_level_3": "Nelas",
+  "district_code": 18
+}

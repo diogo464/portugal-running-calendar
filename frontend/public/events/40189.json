@@ -1,0 +1,30 @@
+{
+  "id": 40189,
+  "name": "Trail Vila de Alegrete 2025",
+  "location": "Alegrete, Portalegre",
+  "coordinates": {
+    "lat": 39.23873890000001,
+    "lon": -7.323797000000001
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0b55cfb7814a190869215027d59b85b9"
+  ],
+  "start_date": "2025-04-13",
+  "end_date": "2025-04-14",
+  "circuit": [],
+  "description": "\n<p>O VII Trail Vila de Alegrete é organizado pelo Grupo Desportivo de Alegrete e tem o apoio da Junta de Freguesia de Alegrete e Câmara Municipal de Portalegre.</p>\n\n\n\n<p>Dando continuidade à parceria com a Associação de Atletismo do Distrito de Portalegre (AADP), o VII Trail Vila de Alegrete insere-se no Circuito Distrital de Trail da AADP (Curto e Longo) e no Campeonato Distrital de Trail Longo (AADP).</p>\n\n\n",
+  "description_short": "Trail desafiante na região de Portalegre, integrado no Circuito Distrital com apoio local",
+  "page": "https://www.omdceventos.com/evento/vii-trail-vila-de-alegrete",
+  "slug": "trail-vila-de-alegrete-2025",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Portalegre",
+  "administrative_area_level_3": "Alegrete",
+  "district_code": 12
+}

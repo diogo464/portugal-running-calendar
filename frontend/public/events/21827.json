@@ -1,0 +1,33 @@
+{
+  "id": 21827,
+  "name": "Meia Maratona do Foral 2023",
+  "location": "Idanha-a-Nova, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/ac10e9f6915ef628115bb2727a8ca291"
+  ],
+  "start_date": "2023-01-29",
+  "end_date": "2023-01-30",
+  "circuit": [],
+  "description": "\n<p>Meia Maratona do Foral, insere-se na comemoração da Carta Foral de Idanha-a-Nova, que data de 23 de janeiro de 1206. Assim associam-se ao Club União Idanhense, a Junta de Freguesia de Aldeia de Santa Margarida e a União das Freguesias de Idanha-a-Nova e Alcafozes.</p>\n\n\n\n<p><br>A prova irá ter 21km e ligará Idanha-a-Nova a Aldeia de Santa Margarida, nesta primeira edição.</p>\n\n\n\n<p><br>Inscrições para: https://forms.gle/cUZHteK1sjrybp7H8<br>OU<br>atletismo.cui.1917@gmail.com<br>OU<br>cbranco@fpatletismo.org</p>\n\n\n",
+  "description_short": "Meia maratona histórica que celebra a Carta Foral de Idanha-a-Nova, ligando duas aldeias da região",
+  "page": "https://www.idanha.pt/agenda/desporto/meia_maratona_do_foral/",
+  "slug": "meia-maratona-do-foral-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

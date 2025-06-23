@@ -1,0 +1,36 @@
+{
+  "id": 27707,
+  "name": "Trail da Escarpiada 2023",
+  "location": "Zambujal, Condeixa-a-Nova",
+  "coordinates": {
+    "lat": 40.0575111,
+    "lon": -8.4476921
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    15000,
+    27000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/17a98db04b5f419d05e9fafa2b9f446b"
+  ],
+  "start_date": "2023-11-25",
+  "end_date": "2023-11-26",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A ARCD Venda da Luísa vai realizar no dia 25 de novembro de 2023 o III Trail da Escarpiada. A prova terá partida e chegada junto à Associação da aldeia do Casmilo, concelho de Condeixa-a-Nova e percorrerá a Serra de Sicó nas freguesias do Zambujal e do Furadouro. </p>\n\n\n\n<p>Terá 3 provas competitivas, uma com aproximadamente 27Km (Trail Longo), outra com 15Km (Trail Curto), e ainda uma de 10Km (Mini Trail) coincidente com o percurso da caminhada e que servirá aos que se querem iniciar na prática da modalidade. A prova de 27Km integra o Circuito de Trail Longo da Associação Distrital de Atletismo de Coimbra e as nossas provas de 27 e 15Km são candidatas aos Circuitos da ATRP. Para combater o desperdício, apenas os caminheiros terão t´shirt. Os restantes, tendo outras ofertas, se a quiserem, poderão tê-la também por um custo simbólico de 2€.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail da Escarpiada pela Serra de Sicó com várias distâncias para diferentes níveis de trail running",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/146/",
+  "slug": "trail-da-escarpiada-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "Zambujal",
+  "district_code": 6
+}

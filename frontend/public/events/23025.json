@@ -1,0 +1,35 @@
+{
+  "id": 23025,
+  "name": "Trail LAP50 Rotary Famalicão 2023",
+  "location": "Vila Nova de Famalicão, Braga Porto",
+  "coordinates": {
+    "lat": 41.4116818,
+    "lon": -8.5224051
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    12000,
+    22000,
+    50000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2e0842aeace8905604f160cce86ef190"
+  ],
+  "start_date": "2023-05-28",
+  "end_date": "2023-05-29",
+  "circuit": [],
+  "description": "\n<p>A organização conta com a ajuda da Equipa Dive – Liberdade FC, e do Ginásio STATUS e tem<br>como objetivo proporcionar a todos os que se queiram juntar a esta festa, momentos de<br>superação, partilha com a natureza, cultura e muita diversão.</p>\n\n\n\n<p><br>Esta festa contará com três provas de caráter competitivo:<br>• Trail Ultra +- 50km com +-2600 desnível positivo<br>• Trail Longo +-22km com +-1400 desnível positivo<br>• Trail Curto +-12km com +-800 desnível positivo<br>Haverá ainda uma caminhada solidária.</p>\n\n\n",
+  "description_short": "Trail desafiante com três distâncias e caminhada solidária, organizado com apoio local e espírito de partilha com a natureza",
+  "page": "https://www.meutempo.pt/prova?lap50",
+  "slug": "trail-lap50-rotary-famalicao-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Vila Nova de Famalicão e Calendário",
+  "district_code": 3
+}

@@ -1,0 +1,30 @@
+{
+  "id": 38134,
+  "name": "Trail Costa Norte 2025",
+  "location": "Ilha de São Miguel, Açores",
+  "coordinates": {
+    "lat": 37.780411,
+    "lon": -25.4970466
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/fe1a6950970cf3c5034212258465ea28"
+  ],
+  "start_date": "2025-02-15",
+  "end_date": "2025-02-16",
+  "circuit": [],
+  "description": "\n<p>O Trail Costa Norte (TCN) by ADSP é um evento de trail running realizado pelo clube Atlético Desportivo de São Pedro, com o apoio da Câmara Municipal da Ribeira Grande, e que percorre os trilhos que envolvem a cidade, sendo que esta será a 5.ª edição.</p>\n\n\n\n<p>O TCN é uma prova que integra o Circuito de Trail de São Miguel, na distância de Trail Sprint.</p>\n\n\n\n<p>Esta prova também proporcionará um mini-trail e uma caminhada.</p>\n\n\n",
+  "description_short": "Trail desafiante pelos trilhos envolventes da Ribeira Grande em São Miguel",
+  "page": "https://meutempo.pt/prova?trailcostanorte25",
+  "slug": "trail-costa-norte-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

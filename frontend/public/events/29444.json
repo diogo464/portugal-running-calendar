@@ -1,0 +1,30 @@
+{
+  "id": 29444,
+  "name": "São Silvestre Vendas Novas 2023",
+  "location": "Vendas Novas, Évora",
+  "coordinates": {
+    "lat": 38.6768924,
+    "lon": -8.4633558
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/ef35ed26c2411b25b4bce38ed251fb96"
+  ],
+  "start_date": "2023-12-07",
+  "end_date": "2023-12-08",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/3328",
+  "slug": "sao-silvestre-vendas-novas-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Vendas Novas",
+  "administrative_area_level_3": "Vendas Novas",
+  "district_code": 7
+}

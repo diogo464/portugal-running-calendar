@@ -1,0 +1,32 @@
+{
+  "id": 14690,
+  "name": "Trail Lagoa De Óbidos 2022",
+  "location": "Óbidos",
+  "coordinates": {
+    "lat": 39.3572399,
+    "lon": -9.1578614
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000,
+    27000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/9351828d4708bc11cd348b68e12e2f57"
+  ],
+  "start_date": "2022-07-02",
+  "end_date": "2022-07-03",
+  "circuit": [],
+  "description": "\n<p>Com o apoio da Câmara Municipal de Óbidos e da Junta de Freguesia do Vau, realiza-se no dia 2 de julho de 2022, o Trail Lagoa De Óbidos 2022 que será percorrido por caminhos e trilhos na zona da Lagoa de Óbidos. Será composto por um Trail Longo na distância de 27k e um Trail Curto de 12k. Partida e chegada no Vau, concelho de Óbidos. O Trail Longo será feito a correr, enquanto o Trail Curto será a correr ou a caminhar.</p>\n",
+  "description_short": "Trail pelas margens da Lagoa de Óbidos com partida e chegada na zona do Vau",
+  "page": "https://ganhardestak.bol.pt/Comprar/Bilhetes/106166-3o_trail_lagoa_de_obidos-vau/",
+  "slug": "trail-lagoa-de-obidos-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Município do Óbidos",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Sobral da Lagoa",
+  "district_code": 10
+}

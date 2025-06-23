@@ -1,0 +1,38 @@
+{
+  "id": 30823,
+  "name": "Estrelaçor 2024",
+  "location": "Penhas da Saúde, Covilhã",
+  "coordinates": {
+    "lat": 40.3080932,
+    "lon": -7.5489823
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    15000,
+    32000,
+    48000,
+    102000,
+    180000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/2963b1db443606fd322e1220699c2cca"
+  ],
+  "start_date": "2024-10-11",
+  "end_date": "2024-10-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A ASSOCIAÇÃO DESPORTIVA OMUNDODACORRIDA.COM, vai realizar nos próximos dias 11 e 12 de Outubro de 2024 a X edição da&nbsp;<strong>EstrelAçor Trail Ultra Endurance</strong>.</p>\n\n\n\n<p>A EstrelAçor é um evento de Trail Running, que decorre na Serra da Estrela e Serra do Açor e que integra cinco provas:</p>\n\n\n\n<p><strong>Dia 11/10</strong>&nbsp;&#8211; EstrelAçor 180 km, EstrelAçor 102 km</p>\n\n\n\n<p><strong>Dia 12/10</strong>&nbsp;&#8211; Estrela 48 km (que pela primeira vez vai a Unhais, Alvoco e sobe à Torre), 32 km, 15 km e Caminhada.</p>\n",
+  "description_short": "Trail ultra desafiante pela Serra da Estrela e Serra do Açor com percursos variados e primeira passagem por Unhais, Alvoco e Torre",
+  "page": "https://www.omdceventos.com/evento/x-estrelacor-trail-ultra-endurance",
+  "slug": "estrelacor-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "Cortes do Meio",
+  "district_code": 5
+}

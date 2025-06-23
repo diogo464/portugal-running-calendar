@@ -1,0 +1,35 @@
+{
+  "id": 35049,
+  "name": "3º Ialbax Cross Country 2024",
+  "location": "Elvas, Portalegre",
+  "coordinates": {
+    "lat": 38.8802788,
+    "lon": -7.1636637
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    4000,
+    8000
+  ],
+  "types": [
+    "run",
+    "cross-country",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/6d61d006920de2ceec95e03fac98656c"
+  ],
+  "start_date": "2024-06-15",
+  "end_date": "2024-06-15",
+  "circuit": [],
+  "description": "\n<p>A Associação Desportiva IALBAX, com o apoio do Museu Militar de Elvas, da Câmara Municipal de Elvas, do IPDJ de Portalegre e com o apoio técnico da AADP, realiza no dia 15 de junho de 2024, pelas 20:00 horas (horário de Portugal Continental), 3º IALBAX CROSS COUNTRY / CAMINHADA SOLIDÁRIA, com partida e chegada no Museu Militar de Elvas, percorrendo na totalidade o fosso das muralhas seiscentistas, o 3º IALBAX CROSS COUNTRY, tem um total de duas voltas fazendo os 8 km de extensão, a CAMINHADA SOLIDÁRIA, com o seu percurso também na sua totalidade pelas muralhas seiscentistas de Elvas, numa extensão de 1 volta, 4km.</p>\n\n\n",
+  "description_short": "Corrida solidária histórica pelos fossos das Muralhas Seiscentistas de Elvas",
+  "page": "https://acorrer.pt/eventos/info/3525",
+  "slug": "3o-ialbax-cross-country-2024",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Elvas",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

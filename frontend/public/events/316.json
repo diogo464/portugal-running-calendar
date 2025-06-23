@@ -1,0 +1,33 @@
+{
+  "id": 316,
+  "name": "São Silvestre de Ponte da Barca",
+  "location": "Ponte da Barca, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8055334,
+    "lon": -8.417051599999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "saint-silvester",
+    "run"
+  ],
+  "images": [
+    "media/53646c7a6ab7c81e983e4baaa791ee11"
+  ],
+  "start_date": "2019-12-28",
+  "end_date": "2019-12-29",
+  "circuit": [],
+  "description": "<p align=\"justify\">Venha correr ou caminhar na corrida São Silvestre de Ponte da Barca.</p>\n",
+  "description_short": "São Silvestre tradicional no distrito de Viana do Castelo com passagem por Ponte da Barca",
+  "page": "https://www.prozis.com/pt/pt/evento/sao-silvestre-de-ponte-da-barca-2019",
+  "slug": "sao-silvestre-de-ponte-da-barca",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte da Barca",
+  "administrative_area_level_3": "Ponte da Barca",
+  "district_code": 16
+}

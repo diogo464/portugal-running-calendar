@@ -1,0 +1,29 @@
+{
+  "id": 1044,
+  "name": "Last Man Standing (O Último Vence) &#8211; Trail 2020",
+  "location": "Aveiro",
+  "coordinates": {
+    "lat": 40.6405055,
+    "lon": -8.6537539
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/d1bd7ca9bd88d9b9682687bbbe0c38dc"
+  ],
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-06",
+  "circuit": [],
+  "description": "<p>“Last Man Standing (O Último Vence) &#8211; Trail”&nbsp;é uma corrida onde todos chegam ao fim, mas apenas um pode vencer! No início de cada volta, todos estão novamente em 1º lugar. Um evento que junta, trail, superação e convívio num desafio que cada um coloca a si mesmo.</p>\n",
+  "description_short": "Trail competitivo com sistema único onde todos terminam, mas apenas um vence em cada volta",
+  "page": "http://www.oultimovence.com/",
+  "slug": "last-man-standing-o-ultimo-vence-trail-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Aveiro",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

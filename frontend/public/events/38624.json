@@ -1,0 +1,30 @@
+{
+  "id": 38624,
+  "name": "Meia Maratona de Matosinhos Mar de Desporto 2025",
+  "location": "Matosinhos, Porto",
+  "coordinates": {
+    "lat": 41.182863,
+    "lon": -8.688951
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [],
+  "start_date": "2025-05-04",
+  "end_date": "2025-05-05",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.runporto.com/pt/eventos/meia-maratona-de-matosinhos/",
+  "slug": "meia-maratona-de-matosinhos-mar-de-desporto-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Matosinhos",
+  "administrative_area_level_3": "União das Freguesias de Matosinhos e Leça da Palmeira",
+  "district_code": 13
+}

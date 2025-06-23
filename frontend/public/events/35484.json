@@ -1,0 +1,30 @@
+{
+  "id": 35484,
+  "name": "Corrida / Caminhada Lusical 2024",
+  "location": "Lusical, Alcanede",
+  "coordinates": {
+    "lat": 39.4486274,
+    "lon": -8.848175000000001
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/69ff99d97b88cdf45e5ecd0530eedc2e"
+  ],
+  "start_date": "2024-09-08",
+  "end_date": "2024-09-08",
+  "circuit": [],
+  "description": "\n<p>A&nbsp;<strong>2ª Corrida / Caminhada Solidária Lusical 2024</strong>&nbsp;é um evento de corrida e caminhada com partida das instalações da&nbsp;<strong>LUSICAL</strong>, com percurso em terra batida e alcatrão e meta nas instalações dos&nbsp;<strong>Bombeiros Voluntários de Alcanede</strong>.</p>\n\n\n\n<p>O evento é organizado pela Lusical &#8211; Companhia Lusitana de Cal, SA e Bombeiros Voluntários de Alcanede, em parceria com a Câmara Municipal de Santarém, Junta de Freguesia de Alcanede e com apoio técnico da Recorde Pessoal.</p>\n\n\n\n<p>O objetivo principal do evento é o de angariar fundos para apoio solidário aos Bombeiros Voluntários de Alcanede, revertendo 100% o valor das inscrições para este fim.</p>\n\n\n\n<p>O percurso irá desenrolar-se em caminhos de terra batida (estradão), trilhos e alcatrão, com condicionamento de trânsito em estradas de acesso automóvel, mas sem corte das vias, sendo dever do atleta cumprir com as normas de trânsito dos peões e manter sempre a sua atenção em todos os locais por onde passará, garantindo a sua segurança e a dos outros.</p>\n\n\n",
+  "description_short": "Corrida solidária em Alcanede com fundos integralmente destinados aos Bombeiros Voluntários locais",
+  "page": "https://www.recordepessoal.pt/evento/2corrida-caminhadalusical",
+  "slug": "corrida-caminhada-lusical-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "Alcanede",
+  "district_code": 14
+}

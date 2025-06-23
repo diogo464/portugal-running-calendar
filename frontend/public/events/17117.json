@@ -1,0 +1,32 @@
+{
+  "id": 17117,
+  "name": "Trail dos Flamingos 2022",
+  "location": "Nadadouro, Caldas da Rainha",
+  "coordinates": {
+    "lat": 39.4191785,
+    "lon": -9.188948
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    11000,
+    22000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/03d42baba6aadcca91b02574923a30f7"
+  ],
+  "start_date": "2022-09-10",
+  "end_date": "2022-09-11",
+  "circuit": [],
+  "description": "\n<p>O Trail dos Flamingos será a 10 de Setembro de 2022 em Nadadouro (concelho de Caldas da Rainha).</p>\n\n\n\n<p>Todas as provas [11 km e 22 km] partem da sede do Centro de Apoio Social do Nadadouro Junto ao campo de Futebol.</p>\n",
+  "description_short": "Trail solidário em Nadadouro com vista para o campo de futebol local",
+  "page": "https://www.trilhoperdido.com/evento/trail-dos-flamingos",
+  "slug": "trail-dos-flamingos-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Caldas da Rainha",
+  "administrative_area_level_3": "Nadadouro",
+  "district_code": 10
+}

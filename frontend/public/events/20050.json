@@ -1,0 +1,35 @@
+{
+  "id": 20050,
+  "name": "Oh Meu Deus Ultra Trail Serra Da Estrela 2023",
+  "location": "Seia, Guarda",
+  "coordinates": {
+    "lat": 40.4148619,
+    "lon": -7.707845000000001
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [
+    40000,
+    100000,
+    160000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/0e4f810c78df7d97ce967b13cc3b75b8"
+  ],
+  "start_date": "2023-06-09",
+  "end_date": "2023-06-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Oh Meu Deus! Oh My God, Oh Mon Dieu, Oh Dio Mio, Oh Mein Gott, ???????! Esta interjeição universal significa incredulidade por algo que se lhe depare. O OMD Ultra Trail® Serra da Estrela é a prova precursora em longas distâncias de trail running em Portugal Continental, sendo a primeira com 100km e 100 milhas. Em 2018 passou a ter mais uma distância emblemática denominada OMD200 (160+40), sendo aclamado “Viriato” o atleta que percorrer esta distância dentro das 44horas. A originalidade do nome significa, também, as dificuldades que irão encontrar ao longo do percurso. Um percurso extenso e de grande desnível. Juntando um sem número de dificuldades, inerentes ao esforço prolongado, à altitude, às amplitudes térmicas e temos uma prova incrível. A procura de um limite físico, nos tempos que correm, é um objectivo de muitas pessoas. Essa glória de terminar é transversal ao primeiro e último a chegar à meta. A corrida não tem como principal objectivo, para a grande maioria dos participantes, vencer mas sim terminar. A sensação de levar até ao fim o desafio é um acto heróico e para guardar no álbum de memórias. É a entrada no Olimpo que não distingue o primeiro do último. É alegria, é esforço, é dor, é a glória, é harmonia. É o pleno contato com a natureza, é o desafio, é o teste aos limites físicos e psicológicos. É adrenalina, é desporto de natureza… é a emoção de viajar pelos sentidos.</p>\n",
+  "description_short": "Trail épico e desafiante pela Serra da Estrela, com provas de ultra distância até 200 km em condições extremas de montanha",
+  "page": "https://meutempo.pt/prova?OhMeuDeus2023",
+  "slug": "oh-meu-deus-2023",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Seia",
+  "administrative_area_level_3": "União das freguesias de Seia, São Romão e Lapa dos Dinheiros",
+  "district_code": 9
+}

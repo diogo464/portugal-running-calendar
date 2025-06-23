@@ -1,0 +1,31 @@
+{
+  "id": 21122,
+  "name": "Grande Prémio De Natal Cidade De Albufeira 2022",
+  "location": "Albufeira, Faro",
+  "coordinates": {
+    "lat": 37.0890719,
+    "lon": -8.2478796
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    9000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/ca2eb1c50c67f2638bb8144e1ef50903"
+  ],
+  "start_date": "2022-12-18",
+  "end_date": "2022-12-19",
+  "circuit": [],
+  "description": "\n<p>Numa organização do <strong>Clube Desportivo Areias de São João</strong> com a <strong>Câmara Municipal de Albufeira</strong>, e apoio técnico da <strong>Associação de Atletismo do Algarve</strong>, realiza-se no dia <strong>18 de Dezembro de 2022, o Grande Prémio de Natal Cidade de Albufeira</strong>, com início agendado para as <strong>10h</strong>, com partida no Mercado Municipal dos Caliços no total de 9kms.<br><strong>Participação</strong><br>A <strong>competição</strong> é destinada a atletas de todos os âmbitos desportivos (federados, Inatel, Escolar, Militar e Popular), individuais e/ou coletivos como equipas, grupos, ginásios, famílias, dos escalões de juniores, seniores e veteranos.</p>\n\n\n",
+  "description_short": "Corrida de Natal pela cidade de Albufeira com partida no Mercado Municipal dos Caliços",
+  "page": "https://www.crono.aaalgarve.org/eventos/grande-premio-de-natal-cidade-de-albufeira",
+  "slug": "grande-premio-de-natal-cidade-de-albufeira-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Albufeira",
+  "administrative_area_level_3": "Albufeira",
+  "district_code": 8
+}

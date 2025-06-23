@@ -1,0 +1,36 @@
+{
+  "id": 31561,
+  "name": "EDP Meia Maratona Lisboa 2024 &#8211; WIP",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/980eee0db44c71c00c70e0c35d66a278"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>A EDP Meia Maratona Lisboa 2024 realiza-se a 17 de Março, face as eleições terem sido marcadas para dia 10 de Março. É uma das meias maratonas mais rápidas do mundo e todos os anos junta mais de 30.000 participantes, incluindo milhares de atletas estrangeiros.</p>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Ainda podes ganhar dorsais duplos para as melhores corridas</strong>!</h2>\n\n\n\n<div class=\"wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size has-medium-font-size\"><a class=\"wp-block-button__link has-white-color has-luminous-vivid-amber-background-color has-text-color has-background has-link-color wp-element-button\" href=\"https://ad.doubleclick.net/ddm/trackclk/N1606021.5177411PORTUGALRUNNINGP/B31249597.386886202;dc_trk_aid=577923047;dc_trk_cid=209102372;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1\" style=\"border-style:none;border-width:0px\" target=\"_blank\" rel=\"noreferrer noopener\">Saber Mais</a></div>\n</div>\n\n\n\n<figure class=\"wp-block-video\"><video autoplay controls loop muted preload=\"auto\" src=\"https://www.portugalrunning.com/wp-content/uploads/2024/01/Portugal_Running_Intro_1920x1080.mp4\" playsinline></video></figure>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona internacional de Lisboa com percurso rápido e grande adesão de atletas nacionais e estrangeiros",
+  "page": "https://www.maratonaclubedeportugal.com/corrida-marco/edp-meia-maratona-de-lisboa-2023/",
+  "slug": "edp-meia-maratona-lisboa-2024-wip",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

@@ -1,0 +1,37 @@
+{
+  "id": 31161,
+  "name": "Corrida das Lezírias 2024",
+  "location": "Vila Franca de Xira, Lisboa",
+  "coordinates": {
+    "lat": 38.9549979,
+    "lon": -8.9888982
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    400,
+    800,
+    5000,
+    10000,
+    15500
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/7291417d1a0b893d26661c95c175b027"
+  ],
+  "start_date": "2024-03-03",
+  "end_date": "2024-03-04",
+  "circuit": [],
+  "description": "\n<p>Vila Franca de Xira volta a ser, no dia<strong>&nbsp;3 de Março 2024</strong>, o palco da tradicional&nbsp;<strong>Corrida das Lezírias</strong>&nbsp;que, anualmente, reúne na cidade milhares de atletas e amantes do desporto, oriundos de todo o país.</p>\n\n\n\n<p>A&nbsp;prova volta à estrada e ao seu percurso habitual com os<strong>&nbsp;15,5 km</strong>&nbsp;percorridos em asfalto, calçada e terra batida, os&nbsp;<strong>5 km</strong>&nbsp;em piso betuminoso e com a&nbsp;<strong>corridinha</strong>&nbsp;de 400 metros a&nbsp;800 metros.</p>\n\n\n\n<p><strong>Nesta edição, todas as partidas serão junto ao Parque Urbano do Cevadeiro! </strong></p>\n\n\n\n<p><strong>Local Partida/Meta | </strong>Parque Urbano do Cevadeiro de Vila Franca de Xira</p>\n\n\n\n<p><strong>Corridinha&nbsp;400m/800m</strong>&nbsp;|&nbsp;09h30<br><strong>Corrida 15,5 km</strong>&nbsp;| 10h00<br><strong>Mini Corrida 5km</strong>&nbsp;| 10h10</p>\n",
+  "description_short": "Corrida das Lezírias regressa a Vila Franca de Xira com percurso diversificado e partida no Parque Urbano do Cevadeiro",
+  "page": "https://xistarca.pt/eventos/29a-corrida-das-lezirias",
+  "slug": "corrida-das-lezirias-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Vila Franca de Xira",
+  "administrative_area_level_3": "Vila Franca de Xira",
+  "district_code": 11
+}

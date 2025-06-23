@@ -1,0 +1,35 @@
+{
+  "id": 23002,
+  "name": "6.ª Meia Maratona Da Cereja &#8211; Alfândega Da Fé 2023",
+  "location": "Alfândega Da Fé, Bragança",
+  "coordinates": {
+    "lat": 41.344363,
+    "lon": -6.9601807
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon",
+    "kids"
+  ],
+  "images": [
+    "media/a3b2418fa5ea14f1e91c6ab042b3115f"
+  ],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [],
+  "description": "\n<p>O evento “Meia Maratona da Cereja”, na sua 6.ª edição, integra a logo &#8211;&nbsp;marca&nbsp;“RUNNING&nbsp;PLACE&nbsp;Alfândega&nbsp;da&nbsp;Fé”,&nbsp;criada&nbsp;pelo&nbsp;clube&nbsp;ARA&nbsp;(Associação Recreativa Alfandeguense) e pelo Município de Alfândega da Fé para promover o Atletismo no concelho — traduzindo uma estratégia focada nos atletas, amantes da corrida, da natureza e do desporto.</p>\n\n\n\n<p>Este&nbsp;é&nbsp;o&nbsp;evento&nbsp;de&nbsp;atletismo&nbsp;de&nbsp;referência&nbsp;na&nbsp;região,&nbsp;umbilicalmente&nbsp;associado à “Festa da Cereja” há cerca de 4 décadas, que este ano conta com&nbsp;a&nbsp;Meia&nbsp;Maratona&nbsp;em&nbsp;percurso&nbsp;mais&nbsp;plano,&nbsp;partindo&nbsp;do&nbsp;Jardim&nbsp;Municipal, passando nos pomares de cereja e na barragem, percorrendo o planalto e a vila de Alfândega da Fé. Estando inserida na Bio-Região Lagos&nbsp;do Sabor, o mote é assumir-se como a Meia Maratona mais sustentável!&nbsp;Em simultâneo decorrem outras provas: a corrida de 10 Km e as corridas&nbsp;para escalões jovens (dos 7 aos 17 anos).</p>\n\n\n",
+  "description_short": "Meia Maratona da Cereja em Alfândega da Fé, celebrando a região e os pomares de cereja com um percurso sustentável",
+  "page": "https://www.sinctime.com/evento/138",
+  "slug": "6-a-meia-maratona-da-cereja-alfandega-da-fe-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Alfândega da Fé",
+  "administrative_area_level_3": "Alfândega da Fé",
+  "district_code": 4
+}

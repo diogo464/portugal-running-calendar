@@ -1,0 +1,34 @@
+{
+  "id": 29407,
+  "name": "Zela Ultra Marathon 2024",
+  "location": "Vouzela, Viseu",
+  "coordinates": {
+    "lat": 40.7229086,
+    "lon": -8.1122167
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    37000,
+    42195,
+    55000
+  ],
+  "types": [
+    "trail",
+    "marathon"
+  ],
+  "images": [
+    "media/a0a084a49b52d24d01ec5721931cfed3"
+  ],
+  "start_date": "2024-04-13",
+  "end_date": "2024-04-14",
+  "circuit": [],
+  "description": "\n<p>The Zela Ultra Marathon | Masters World Skyrunning Championships, event is organized by<br>Spotcriavo Eventos in collaboration with the municipality of Vouzela and other local entities.<br>The Event will take place on the 13th and 14th of April 2024, starting and finishing in Vila<br>de Vouzela, and will consist of 2 Skyrunning routes, a modality protected in Portugal by the<br>Camping and Mountaineering Federation of Portugal, and internacionally by ISF.</p>\n\n\n\n<p>Day 13th April<br>Zela Ultra Marathon &#8211; 55 km &#8211; 3500 d+</p>\n\n\n\n<p>Day 14th April<br>Zela Skyrace &#8211; 37 km &#8211; 2500 D+</p>\n\n\n\n<p><a href=\"https://stopandgo.net/events/zela-ultra-marathon-2024\" target=\"_blank\" rel=\"noopener\">Zela Marathon 2024 </a></p>\n\n\n\n<p></p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Campeonato Mundial de Skyrunning em Vouzela com provas de montanha desafiantes pelos trilhos da região",
+  "page": "https://stopandgo.net/events/2024-masters-skyrunning-world-champs",
+  "slug": "zela-ultra-marathon-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vouzela",
+  "administrative_area_level_3": "Vouzela",
+  "district_code": 18
+}

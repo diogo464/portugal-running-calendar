@@ -1,0 +1,33 @@
+{
+  "id": 40285,
+  "name": "Urban Obstacles Sobral de Monte Agraço 2025",
+  "location": "Sobral de Monte Agraço, Lisboa",
+  "coordinates": {
+    "lat": 39.0188114,
+    "lon": -9.1505771
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    3000,
+    12000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/e22cc1d2b2459b46947fd5dd6c36c544"
+  ],
+  "start_date": "2025-05-24",
+  "end_date": "2025-05-25",
+  "circuit": [],
+  "description": "\n<p>A Urban Obstacles Sobral 2025, “Uma Prova para Todos” é um evento organizado pelo promotor Urban Obstacles e o Município do Sobral de Monte Agraço, com o apoio da Federação Portuguesa de Corridas de Obstáculos (FPOCR), uma prova integrada no Campeonato Nacional de OCR.<br>O evento abrange 3 disciplinas, OCR100, OCR3KM e OCR12KM, nas vagas Campeonato Nacional de OCR, Urban Challenge &#8211; Elite e Open.</p>\n",
+  "description_short": "Prova de obstáculos no Sobral de Monte Agraço com diversas categorias e integrada no Campeonato Nacional de OCR",
+  "page": "https://lap2go.com/pt/event/campeonato-nacional-ocr-2025",
+  "slug": "urban-obstacles-sobral-de-monte-agraco-2025",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sobral de Monte Agraço",
+  "administrative_area_level_3": "Sobral de Monte Agraço",
+  "district_code": 11
+}

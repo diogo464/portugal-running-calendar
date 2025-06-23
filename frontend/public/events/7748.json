@@ -1,0 +1,33 @@
+{
+  "id": 7748,
+  "name": "São Silvestre Baía do Seixal 2021",
+  "location": "Seixal",
+  "coordinates": {
+    "lat": 38.6410676,
+    "lon": -9.0975
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/0c5bdd2a723f93de7bcd0bc4e27d59ab"
+  ],
+  "start_date": "2021-12-08",
+  "end_date": "2021-12-09",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://werun.pt/resultados/iii-sao-silvestre-baia-do-seixal\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p>O Centro Cultural e Recreativo do Alto do Moinho com a parceria da Câmara Municipal Seixal, da Junta de Freguesias do Seixal, &nbsp;Arrentela e Paio Pires, Junta de Freguesia de Amora e da Junta de Freguesia de Corroios e com a organização Técnica da Werun, irá realizar a São Silvestre Baía do Seixal, no dia 08&nbsp;de Dezembro pelas 17h 30.&nbsp;</p>\n\n\n\n<p>A &#8220;São Silvestre Baía do Seixal 2021”, é um evento de natureza desportiva que tem como objetivo incentivar e consciencializar a população para a importância da prática de exercício físico.&nbsp;</p>\n",
+  "description_short": "São Silvestre à noite pela zona ribeirinha do Seixal com apoio municipal",
+  "page": "https://werun.pt/eventos/iii-sao-silvestre-baia-do-seixal/",
+  "slug": "sao-silvestre-baia-do-seixal-2021",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Seixal",
+  "administrative_area_level_3": "União das freguesias do Seixal, Arrentela e Aldeia de Paio Pires",
+  "district_code": 15
+}

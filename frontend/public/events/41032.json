@@ -1,0 +1,38 @@
+{
+  "id": 41032,
+  "name": "Meia Maratona Almada 2025",
+  "location": "Almada, Setúbal",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    500,
+    5000,
+    10000,
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "half-marathon"
+  ],
+  "images": [
+    "media/e3ebf2a876f3d464d31b7992ca78693f"
+  ],
+  "start_date": "2025-04-06",
+  "end_date": "2025-04-06",
+  "circuit": [],
+  "description": "\n<p><strong>A cidade de Almada prepara-se para a Meia Maratona, no dia&nbsp;06 de abril de 2025.<br></strong><br>Uma experiência desportiva única e memorável. Realizada pela Câmara Municipal de Almada,&nbsp;a&nbsp;<strong>Meia Maratona de Almada</strong>&nbsp;é um evento emblemático no calendário desportivo local, que reúne a comunidade atlética para celebrar a prática desportiva e promover um estilo de vida saudável.</p>\n\n\n\n<p>Com um percurso de 21 km, 10km, 5km e 500m, visa fortalecer o espírito comunitário através do desporto.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia Maratona de Almada com múltiplas distâncias pela cidade, organizada pela Câmara Municipal",
+  "page": "https://xistarca.pt/eventos/meia-maratona-de-almada-2025",
+  "slug": "meia-maratona-almada-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

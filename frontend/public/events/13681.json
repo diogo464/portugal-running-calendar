@@ -1,0 +1,29 @@
+{
+  "id": 13681,
+  "name": "Trail do Gavião 2022",
+  "location": "Gavião, Portalegre",
+  "coordinates": {
+    "lat": 39.46528,
+    "lon": -7.935946899999999
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f5e2b346d7f52af1eaf5bc9ad19bf236"
+  ],
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-14",
+  "circuit": [],
+  "description": "\n<p>O Trail do Gavião 2022  após uma edição memorável em 2019 inserida nas Comemorações dos 500 anos do Foral.<br>Este evento organizado pelo COA – Clube de Orientação e Aventura em parceria com o Município de Gavião pretende proporcionar a todos os participantes e acompanhantes a oportunidade de conhecerem um Alentejo diferente através do Trail Running.<br>Os participantes terão a oportunidade de desfrutar de novas experiências e sensações em trilhos e caminhos da região com lugares de inegável valor paisagístico, geológico e cultural.</p>\n",
+  "description_short": "Trail desafiante pelo Alentejo com descoberta de paisagens culturais e naturais de Gavião",
+  "page": "https://www.queroir.pt/traildogaviao2022",
+  "slug": "trail-do-gaviao-2022",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Gavião",
+  "administrative_area_level_3": "União das freguesias de Gavião e Atalaia",
+  "district_code": 12
+}

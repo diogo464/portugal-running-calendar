@@ -1,0 +1,29 @@
+{
+  "id": 2795,
+  "name": "Trail de Conímbriga Terras de Sicó 2021",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ffd28496c12974d5b706f5935fb9a273"
+  ],
+  "start_date": "2021-05-28",
+  "end_date": "2021-05-29",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "http://www.ultrasico.com/index.php",
+  "slug": "trail-de-conimbriga-terras-de-sico-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

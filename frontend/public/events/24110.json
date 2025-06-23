@@ -1,0 +1,30 @@
+{
+  "id": 24110,
+  "name": "Corrida/Caminhada do Associativismo 2023",
+  "location": "Ponte de Sor, Portalegre",
+  "coordinates": {
+    "lat": 39.2524027,
+    "lon": -8.0093497
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/145b93363169f5122c1cc0a564834552"
+  ],
+  "start_date": "2023-06-03",
+  "end_date": "2023-06-04",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.queroir.pt/corridacaminhada-do-associativismo",
+  "slug": "corrida-caminhada-do-associativismo-2023",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Ponte de Sor",
+  "administrative_area_level_3": "Ponte de Sor",
+  "district_code": 12
+}

@@ -1,0 +1,34 @@
+{
+  "id": 23419,
+  "name": "Backyard Ultra 2023",
+  "location": "Proença a Nova, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    706,
+    6706,
+    9000,
+    160900
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a913d050fb94066f08e7fa4a280e49f5"
+  ],
+  "start_date": "2023-04-29",
+  "end_date": "2023-04-30",
+  "circuit": [],
+  "description": "\n<p>O conceito é simples, a orgânica e funcionamento também. Tudo é indissociável do regulamento.</p>\n\n\n\n<p>Às 10 horas, em Portugal Continental, do dia 29 de Abril daremos uma primeira partida a todos os participantes para um circuito fixo de 6.706 metros e aproximadamente 135D+. Circuito esse que à vigésima quarta hora de corrida, os participantes activos, tenham completado 160,9km, as míticas 100 milhas.</p>\n\n\n\n<p>De seguida, e a cada hora, 11h00, 12h00, 13h00 e daí por diante, é dado novo “tiro” de partida a todos os participantes que tenham concluído a distância dentro dos 60 minutos regulamentados. Isso repetir-se-á sempre e até haver dois participantes capazes de concluir essa distância dentro da hora.</p>\n\n\n\n<p>O record nacional está em 36 voltas e o do mundo em 101.</p>\n\n\n\n<p>O vencedor será o último a completar a volta e todos os outros considerados DNF.</p>\n\n\n\n<p>Bem-vindos à Horizontes Backyard Ultra. Bem-vindos a Proença-a-Nova.</p>\n",
+  "description_short": "Trail ultra desafiante em Proença-a-Nova com formato único de voltas horárias até ao último corredor em pé",
+  "page": "https://horizontes.pt/events/backyard/",
+  "slug": "backyard-ultra-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

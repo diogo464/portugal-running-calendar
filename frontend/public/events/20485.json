@@ -1,0 +1,34 @@
+{
+  "id": 20485,
+  "name": "São Silvestre de Amares 2022",
+  "location": "Amares, Braga",
+  "coordinates": {
+    "lat": 41.6318252,
+    "lon": -8.3503217
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/14c54e4b0535501f2efc7afb43196088"
+  ],
+  "start_date": "2022-12-18",
+  "end_date": "2022-12-19",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre de Amares está de regresso com partida e chegada no Largo D. Gualdim Pais. Venha correr ou se preferir caminhar (5 Km) ou trazer a sua criança para a São Silvestre da Pequenada.</p>\n\n\n",
+  "description_short": "Corrida tradicional de fim de ano com opções para toda a família em Amares",
+  "page": "https://lap2go.com/pt/event/ss-amares-2022",
+  "slug": "sao-silvestre-de-amares-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Amares",
+  "administrative_area_level_3": "União das freguesias de Amares e Figueiredo",
+  "district_code": 3
+}

@@ -1,0 +1,34 @@
+{
+  "id": 35229,
+  "name": "Corrida Virtual &#8211; Dia da Marinha Aveiro 2024",
+  "location": "Portugal",
+  "coordinates": {
+    "lat": 39.39987199999999,
+    "lon": -8.224454
+  },
+  "country": "Portugal",
+  "locality": "Portugal",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/677beb0fcaea711dab835946a0c6bbc7"
+  ],
+  "start_date": "2024-05-16",
+  "end_date": "2024-05-16",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/3519",
+  "slug": "corrida-virtual-dia-da-marinha-aveiro-2024",
+  "administrative_area_level_1": null,
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

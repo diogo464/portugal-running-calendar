@@ -1,0 +1,29 @@
+{
+  "id": 4893,
+  "name": "Trilhos dos Abutres 2022",
+  "location": "Miranda do Corvo, Coimbra",
+  "coordinates": {
+    "lat": 40.09019809999999,
+    "lon": -8.329640099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b39bf1730bb11365a890aa8cb48fce60"
+  ],
+  "start_date": "2022-01-28",
+  "end_date": "2022-01-29",
+  "circuit": [],
+  "description": "\n<h2 class=\"wp-block-heading\"><a href=\"https://resultados.stopandgo.pro/641/Live\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados</a></h2>\n\n\n\n<p></p>\n\n\n\n<p>Vamos acreditar que a 28, 29 e 30 de janeiro de 2022 estaremos todos de novo reunidos nos Trilhos dos Abutres 2022.</p>\n",
+  "description_short": "Trail desafiante nos Trilhos dos Abutres com edição marcada para final de janeiro de 2022",
+  "page": "http://www.trilhos.abutres.net/",
+  "slug": "trilhos-dos-abutres-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Miranda do Corvo",
+  "administrative_area_level_3": "Miranda do Corvo",
+  "district_code": 6
+}

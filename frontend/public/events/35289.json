@@ -1,0 +1,36 @@
+{
+  "id": 35289,
+  "name": "Runset Alcobaça 2024",
+  "location": "Alcobaça, Leiria",
+  "coordinates": {
+    "lat": 39.5503343,
+    "lon": -8.9730531
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    9000,
+    13000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/594d11a8083a4c3e2de508670f56d6aa"
+  ],
+  "start_date": "2024-07-13",
+  "end_date": "2024-07-14",
+  "circuit": [],
+  "description": "\n<p>A RUNSET Alcobaça é um evento co-organizado pela Associação MakeMove em conjunto com o Município de Alcobaça. </p>\n\n\n\n<p>Paralelamente à Runset Alcobaça com aprox. 13km, decorrerá também a MiniRace/Caminhada REMAX MOSTEIRO de +/- 9, bem como a Kids Race REMAX MOSTEIRO, ambas sem qualquer carácter competitivo.</p>\n\n\n",
+  "description_short": "Corrida pela região histórica de Alcobaça com percurso junto ao emblemático Mosteiro",
+  "page": "https://stopandgo.net/events/runset-alcobaca-2024",
+  "slug": "runset-alcobaca-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Alcobaça",
+  "district_code": 10
+}

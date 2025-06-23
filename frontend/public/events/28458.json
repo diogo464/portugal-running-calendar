@@ -1,0 +1,51 @@
+{
+  "id": 28458,
+  "name": "Vouga Trail 2024",
+  "location": "Sever do Vouga, Aveiro",
+  "coordinates": {
+    "lat": 40.7334189,
+    "lon": -8.371767199999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    100,
+    350,
+    400,
+    480,
+    500,
+    730,
+    1000,
+    1500,
+    1700,
+    2000,
+    2800,
+    9000,
+    12000,
+    20000,
+    37000,
+    57000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/98977297dad576bc7f37d584b73d615a"
+  ],
+  "start_date": "2024-01-05",
+  "end_date": "2024-01-06",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Serão nos dias 05, 06 e 07 de Janeiro de 2024, que a Associação AZtrail, em parceria com o Município de Sever do Vouga, organizará a quinta edição do Vouga Trail, dividida nos eventos Vouga Trail Ultra, Vouga Trail Longo, Vouga Trail Curto, Vouga Trail Mini, Caminhada Vouga e Vouga Kids.</p>\n\n\n\n<p></p>\n\n\n\n<p>Vouga Trail Ultra (VTU) 57 km, desnível; d+2800 metros<br>Vouga Trail Longo (VTL) 37 km, desnível: d+1700 metros<br>Vouga Trail Curto (VTC) 20 km, desnível: d+730 metros<br>Vouga Trail Mini (VMT) 12 km, desnível: d+480 metros<br>Caminhada Vouga 9 km, desnível: d+ 350 metros<br>Vouga Kids 500 mts a 2000 mts: d+100 metros<br>∙ Mini Benjamins 400 mts<br>∙ Benjamins A 500 mts<br>∙ Benjamins B 1000 mts<br>∙ Infantis 1500 mts<br>∙ Iniciados 2000 mts</p>\n",
+  "description_short": "Trail diversificado em Sever do Vouga com provas para todos os níveis, desde ultra trail a escalões infantis",
+  "page": "https://stopandgo.net/events/vouga-trail-2024",
+  "slug": "vouga-trail-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Sever do Vouga",
+  "administrative_area_level_3": "Sever do Vouga",
+  "district_code": 1
+}

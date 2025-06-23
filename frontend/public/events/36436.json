@@ -1,0 +1,31 @@
+{
+  "id": 36436,
+  "name": "Vila Wild Trail 2024",
+  "location": "Vilar Maior, Sabugal",
+  "coordinates": {
+    "lat": 40.4736897,
+    "lon": -6.938586399999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/0b0e2f6a07976ed3fd234ffec6c33cfd"
+  ],
+  "start_date": "2024-09-29",
+  "end_date": "2024-09-30",
+  "circuit": [],
+  "description": "\n<p><br>A Associação Muralhas de Vilar Maior, com o apoio do Município do Sabugal e da Rewilding Portugal, irá realizar no dia 29 de Setembro de 2024 a segunda edição do Vila Wild Trail.</p>\n\n\n\n<p>Prepara-te para uma experiência inesquecível que combina desporto, história e natureza. No coração da antiga Vila Medieval de Vilar Maior, o Vila Wild Trail promete ser uma aventura emocionante, passando por cenários deslumbrantes e locais emblemáticos. A prova começa e termina no Castelo de Vilar Maior, um dos tesouros históricos mais bem preservados da região. Este imponente castelo medieval, envolto numa paisagem de encantar, servirá como pano de fundo para a vossa corrida, oferecendo uma atmosfera única de partida e chegada que certamente inspirará todos os participantes.</p>\n\n\n\n<p>O percurso contempla também trilhos naturais, serpenteando através de paisagens deslumbrantes de vegetação nativa e grande variedade de superfícies, com diversos desníveis e desafios topográficos, que estimularão as habilidades técnicas e resistências dos participantes. Um dos pontos altos do percurso é a passagem pela histórica Ponte de Sequeiros. Esta ponte de pedra, que se ergue sobre o rio Côa, é um testemunho da engenharia tradicional e oferece vistas pitorescas que encantam todos os que passam. Os participantes terão a oportunidade de correr ao longo das margens do rio Côa, em zona paisagística declivosa, com grandes afloramentos graníticos, apreciando a serenidade e a beleza natural das águas cristalinas e sua envolvente.</p>\n\n\n\n<p>O trajeto final leva os corredores de volta ao Castelo de Vilar Maior concluindo a prova num cenário verdadeiramente épico e desafiador.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Trail histórico por Vilar Maior, com partida e chegada no Castelo medieval, passando pela Ponte de Sequeiros e margens do rio Côa",
+  "page": "https://meutempo.pt/prova?vilawildtrail",
+  "slug": "vila-wild-trail-2024",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Sabugal",
+  "administrative_area_level_3": "Vilar Maior",
+  "district_code": 9
+}

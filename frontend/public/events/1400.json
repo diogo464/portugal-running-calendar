@@ -1,0 +1,34 @@
+{
+  "id": 1400,
+  "name": "Trail do Pinheiro Manso 2020",
+  "location": "Caranguejeira, Leiria",
+  "coordinates": {
+    "lat": 39.74776629999999,
+    "lon": -8.693068499999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    13000,
+    19000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f59a19c58aba5f75b594514f359c0f4e"
+  ],
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-06",
+  "circuit": [],
+  "description": "<p>O Mais Bonito Trail do Distrito de Leiria está de regresso em 2020 e contará este ano para o Campeonato Distrital de Trail.</p>\n<p>Decorrerá no dia 5 julho, na Caranguejeira:</p>\n<p>&gt;&gt; Trail 19 km &#8211; Prova do Circuito de Trail da Adal<br />\n&gt;&gt; Trail 13 km<br />\n&gt;&gt; Caminhada &#8211; 10 km</p>\n<p>O Mais Bonito Trail do Distrito de Leiria está de regresso em 2020 e contará este ano para o Campeonato Distrital de Trail.</p>\n<p>Decorrerá no dia 5 julho, na Caranguejeira:</p>\n<p>&gt;&gt; Trail 19 km &#8211; Prova do Circuito de Trail da Adal<br />\n&gt;&gt; Trail 13 km<br />\n&gt;&gt; Caminhada &#8211; 10 km</p>\n<p>Contamos contigo?</p>\n",
+  "description_short": "Trail competitivo pela região da Caranguejeira, integrado no Campeonato Distrital de Trail de Leiria",
+  "page": "https://www.facebook.com/events/2732107863501511/",
+  "slug": "trail-do-pinheiro-manso-2020",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "Caranguejeira",
+  "district_code": 10
+}

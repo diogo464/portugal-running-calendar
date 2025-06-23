@@ -1,0 +1,32 @@
+{
+  "id": 39300,
+  "name": "Corrida dos Reis 2025",
+  "location": "Póvoa de Varzim, Porto",
+  "coordinates": {
+    "lat": 41.3828815,
+    "lon": -8.759989299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/92bdac5f30bfc315771c83a721ddca7e"
+  ],
+  "start_date": "2025-01-04",
+  "end_date": "2025-01-05",
+  "circuit": [],
+  "description": "\n<p>No dia 4 de janeiro, a Póvoa de Varzim será palco da VII Grupo CCR | Corrida dos Reis 2025. O evento tem o selo de qualidade das organizações Bikeservice e será muito mais do que uma mera corrida.</p>\n\n\n\n<p>Com partida marcada para as 18 horas, esta VII Grupo CCR | Corrida dos Reis 2025 terá uma extensão de 8 quilómetros. A distância foi planeada para ser acessível e é ideal para todos aqueles que desejam começar a queimar calorias depois das festividades natalícias.</p>\n",
+  "description_short": "Corrida dos Reis na Póvoa de Varzim para recuperar da época natalícia",
+  "page": "https://bikeservice.pt/event/corrida-dos-reis/",
+  "slug": "corrida-dos-reis-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Póvoa de Varzim",
+  "district_code": 13
+}

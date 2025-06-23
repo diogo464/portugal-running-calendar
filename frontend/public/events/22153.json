@@ -1,0 +1,34 @@
+{
+  "id": 22153,
+  "name": "Trail Da Tomina &#8211; 3ª Edição 2023",
+  "location": "Moura, Beja",
+  "coordinates": {
+    "lat": 38.1426988,
+    "lon": -7.4512581
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    10000,
+    15000,
+    28000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/1a4e2b0575e1374f188843bdc84cd9f7"
+  ],
+  "start_date": "2023-03-19",
+  "end_date": "2023-03-20",
+  "circuit": [],
+  "description": "\n<p>A Comissão de Festas da Tomina em Honra de Nossa Senhora das Necessidades convida todos a participar na 3ª edição do Trail da Tomina. Volvidos quatro anos sobre o I Trail, esta 3ª edição mostra que as gentes de Santo Aleixo da Restauração estão empenhadas em manter o evento e consolidar a sua presença no contexto desportivo, para isso muito têm contribuído a Comissão de Festas, as gentes da terra e as entidades parceiras, mas sobretudo os atletas que nos têm brindado com a sua presença ano após ano.<br>Este ano, mais uma vez, prometemos oferecer um dia de prazer e diversão tendo como pano de fundo as belas paisagens de Santo Aleixo da Restauração, a generosidade e o acolhimento do seu povo.</p>\n\n\n\n<p>Trail Longo (28km)<br>Trail Curto (15km)<br>Caminhada (10Km)</p>\n",
+  "description_short": "Trail pela paisagem transmontana com hospitalidade de Santo Aleixo da Restauração",
+  "page": "https://acorrer.pt/eventos/info/3126",
+  "slug": "trail-da-tomina-3a-edicao-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "São João Baptista",
+  "district_code": 2
+}

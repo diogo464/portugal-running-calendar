@@ -1,0 +1,33 @@
+{
+  "id": 718,
+  "name": "Corta Mato de Barcelos",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "cross-country"
+  ],
+  "images": [
+    "media/3f70326f39b4eba484a3e5e8d2a26c08"
+  ],
+  "start_date": "2020-01-18",
+  "end_date": "2020-01-19",
+  "circuit": [],
+  "description": "<p>O Corta Mato de Barcelos regressa a 18 de janeiro com a quarta edição desta prova que tem trazido à competição grandes nomes do atletismo português. Mas esta prova, que apresenta várias corridas de diferentes distâncias, é um desafio principalmente para os escalões de formação e uma excelente oportunidade para a iniciação no mundo do atletismo. Junta os teus colegas da escola, o teu grupo de amigos ou a tua equipa e venham participar numa excelente manhã desportiva.<br />\nA organização dos Amigos da Montanha, com o apoio da Câmara Municipal de Barcelos e da Associação de Atletismo de Braga, terá várias corridas, a partir das 9h, por escalões de formação e seniores femininos e masculinos, a competirem em diferentes distâncias, para além de uma prova aberta.</p>\n",
+  "description_short": "Corta Mato tradicional em Barcelos com provas para todos os escalões e incentivo aos jovens atletas",
+  "page": "https://www.amigosdamontanha.com/_corta_mato_de_barcelos_7",
+  "slug": "corta-mato-de-barcelos",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

@@ -1,0 +1,36 @@
+{
+  "id": 37460,
+  "name": "Corrida das Castanhas 2024",
+  "location": "Ajuda, Lisboa",
+  "coordinates": {
+    "lat": 38.71131159999999,
+    "lon": -9.1982123
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    400,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/e9d07088893f128e80454175513bef67"
+  ],
+  "start_date": "2024-11-17",
+  "end_date": "2024-11-18",
+  "circuit": [],
+  "description": "\n<p>A 13ª edição deste evento, proporcionará a todos os participantes de corrida e caminhada, uma manhã diferente <strong>acompanhada de um convívio final com oferta de castanhas e água-pé, </strong>a todos os que completem a prova</p>\n\n\n\n<p><strong>Partida |&nbsp;</strong>Estrada do Penedo, junto à Rotunda dos Montes Claros<strong><br></strong><strong>Chegada</strong>&nbsp;| Torre do Galo, Ajuda</p>\n\n\n\n<p>» Corrida 10km&nbsp;|<strong>&nbsp;10h00</strong><br>» Caminhada 5km&nbsp;|<strong>&nbsp;10h05</strong><br>» Kids Race 400m |&nbsp;<strong>9h30</strong></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional de outono na Ajuda com convívio e castanhas para os participantes",
+  "page": "https://xistarca.pt/eventos/13a-corrida-das-castanhas",
+  "slug": "corrida-das-castanhas-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Ajuda",
+  "district_code": 11
+}

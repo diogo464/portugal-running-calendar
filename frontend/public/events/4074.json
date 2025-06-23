@@ -1,0 +1,32 @@
+{
+  "id": 4074,
+  "name": "Grande Prémio do Vale Grande 2021",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/32cf1e6aa5f2f184ac015bb49dfbc81f"
+  ],
+  "start_date": "2021-10-05",
+  "end_date": "2021-10-06",
+  "circuit": [],
+  "description": "\n<p>GPVG vai ser uma prova de 10 km presencial.<br>Prova com um percurso não muito fácil mas muito desafiante. Inscreve-te.</p>\n",
+  "description_short": "Prova desafiante de 10 km em local ainda não especificado",
+  "page": "https://werun.pt/eventos/grande-premio-vale-grande/",
+  "slug": "grande-premio-do-vale-grande-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

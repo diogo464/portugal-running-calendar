@@ -1,0 +1,32 @@
+{
+  "id": 14977,
+  "name": "Ria Race – Vagueira 2022",
+  "location": "Aveiro",
+  "coordinates": {
+    "lat": 40.6405055,
+    "lon": -8.6537539
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/4b3a8168812d2f80b66e80b96a557d5f"
+  ],
+  "start_date": "2022-06-19",
+  "end_date": "2022-06-20",
+  "circuit": [],
+  "description": "\n<p><strong>Ria Race – Vagueira 2022</strong></p>\n",
+  "description_short": "Trail desafiante pelos caminhos da Ria de Aveiro com passagem pela Vagueira",
+  "page": "https://runmanager.net/Eventos/4-vagueira-ria-race/523",
+  "slug": "ria-race-vagueira-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Aveiro",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

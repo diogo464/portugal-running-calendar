@@ -1,0 +1,35 @@
+{
+  "id": 37059,
+  "name": "Trail e Caminhada Rota da Castanha e do Castanheiro 2024",
+  "location": "Sernancelhe, Viseu",
+  "coordinates": {
+    "lat": 40.8998417,
+    "lon": -7.4900188
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    9000,
+    15000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/039d2e807fe2c36d6b039fbba5fa3ec7"
+  ],
+  "start_date": "2024-10-26",
+  "end_date": "2024-10-27",
+  "circuit": [],
+  "description": "\n<p>A Organização do Trail e Caminhada encontra-se integrada na edição de 2024 da Festa da Castanha e é da responsabilidade da Câmara Municipal de Sernancelhe em parceria com a Liga Portuguesa Contra o Cancro e ao facto da receita das inscrições reverterem a seu favor.</p>\n\n\n\n<p>A edição deste ano contempla três provas:<br>&#8211; Caminhada de 9 km<br>&#8211; Trail Curto de 15 km<br>&#8211; Trail Longo com 20 km</p>\n",
+  "description_short": "Trail solidário na região da Castanha com três percursos em Sernancelhe a favor da Liga Portuguesa Contra o Cancro",
+  "page": "https://acorrer.pt/eventos/info/3631",
+  "slug": "trail-e-caminhada-rota-da-castanha-e-do-castanheiro-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sernancelhe",
+  "administrative_area_level_3": "União das freguesias de Sernancelhe e Sarzeda",
+  "district_code": 18
+}

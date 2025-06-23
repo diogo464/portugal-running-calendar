@@ -1,0 +1,36 @@
+{
+  "id": 24665,
+  "name": "EDP Meia Maratona Lisboa 2024 na Ponte 25 de Abril",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/980eee0db44c71c00c70e0c35d66a278"
+  ],
+  "start_date": "2024-03-17",
+  "end_date": "2024-03-18",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>A EDP Meia Maratona Lisboa 2024 realiza-se a 17 de Março, face as eleições terem sido marcadas para dia 10 de Março. É uma das meias maratonas mais rápidas do mundo e todos os anos junta mais de 30.000 participantes, incluindo milhares de atletas estrangeiros.</p>\n",
+  "description_short": "Meia maratona icónica de Lisboa com percurso veloz e participação internacional massiva",
+  "page": "https://www.maratonaclubedeportugal.com/corrida-marco/edp-meia-maratona-de-lisboa-2023/",
+  "slug": "meia-maratona-de-lisboa-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

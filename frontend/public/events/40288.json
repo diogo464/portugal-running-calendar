@@ -1,0 +1,32 @@
+{
+  "id": 40288,
+  "name": "Desafios nos Arrozais 2025",
+  "location": "Esteiro de Estarreja, Estarreja",
+  "coordinates": {
+    "lat": 40.74942,
+    "lon": -8.5759285
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/accdc894c8eecfc0086b931aa67d9fb1"
+  ],
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-08",
+  "circuit": [],
+  "description": "\n<p>O “Desafio Nos Arrozais” (DNA) é uma competição de Atletismo, que será realizada em Estarreja. A corrida será em terra batida nas margens do rio Antuã, nos terrenos do cultivo do arroz e regressa ao longo da linha do Norte em piso rápido de asfalto.O objetivo é associar a prática desportiva à natureza, percorrendo as zonas de cultura de arroz no concelho de Estarreja que pretendemos incentivar contribuindo para a sua sustentabilidade.</p>\n\n\n",
+  "description_short": "Corrida única por arrozais e caminhos rurais em Estarreja, associando desporto à paisagem local",
+  "page": "https://lap2go.com/pt/event/desafio-nos-arrozais-2025",
+  "slug": "desafios-nos-arrozais-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Estarreja",
+  "administrative_area_level_3": "União das freguesias de Beduído e Veiros",
+  "district_code": 1
+}

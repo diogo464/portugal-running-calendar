@@ -1,0 +1,40 @@
+{
+  "id": 40608,
+  "name": "Trail da Trofa 2025",
+  "location": "Trofa, Porto",
+  "coordinates": {
+    "lat": 41.3125528,
+    "lon": -8.5611142
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    500,
+    1000,
+    1500,
+    5000,
+    10000,
+    17000,
+    37000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2025-09-14",
+  "end_date": "2025-09-15",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Trail Longo +-37km<br>Trail Curto +-17km<br>Mini-Trail/Caminhada +-10km<br>Trail Kids 500/1000/1500/5000M</p>\n",
+  "description_short": "Trail desafiante com diferentes distâncias para todos os níveis de trail running",
+  "page": "https://stopandgo.net/events/trail-da-trofa-2025",
+  "slug": "trail-da-trofa-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Trofa",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

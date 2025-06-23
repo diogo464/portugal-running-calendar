@@ -1,0 +1,31 @@
+{
+  "id": 25387,
+  "name": "Corrida Entre Parques Coimbra 2023",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    7000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/f5fa9a7bdd9815867d828c73c8abff83"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>Entre Parques Coimbra é uma corrida de atletismo pelos principais jardins da cidade de Coimbra. </p>\n\n\n\n<p>Numa co-organização da Câmara Municipal de Coimbra, União das Freguesias de Coimbra e da ADR4 Estações. Um percurso cheio de história e magia em cada recanto por onde passas. Jardim da Sereia Penedo da Saudade, Jardim Botânico, Universidade de Coimbra e os 125 degraus das tão famosas Escadas Monumentais o fado e as Tunas são o mote de uma corrida fantástica. Numa distância de 7 km com corrida e caminhada.</p>\n\n\n\n<p><br>Recantos desta Cidade que vais conhecer na Corrida de dia 24 𝙙𝙚 𝙨𝙚𝙩𝙚𝙢𝙗𝙧𝙤 2023 pelas 10.30h.</p>\n",
+  "description_short": "Corrida histórica por jardins emblemáticos de Coimbra com passagem pelas Escadas Monumentais e locais universitários",
+  "page": "https://coimbraentreparques.wordpress.com/",
+  "slug": "corrida-entre-parques-coimbra-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

@@ -1,0 +1,35 @@
+{
+  "id": 20573,
+  "name": "São Silveste Caminhense 2022",
+  "location": "Caminha, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8732082,
+    "lon": -8.837845399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/d9abafd9432c46106bb09caf52b2938c"
+  ],
+  "start_date": "2022-12-10",
+  "end_date": "2022-12-11",
+  "circuit": [],
+  "description": "\n<p>A IV São Silvestre de Caminha, tem lugar no concelho de Caminha, em Portugal, com organização da Associação Triatlo de Caminha, em parceria com a Câmara Municipal de Caminha.</p>\n\n\n\n<p>Será uma corrida e uma caminhada:<br>São Silvestre , 10 km, para atletas federados e não federados;</p>\n\n\n\n<p>Caminhada, 5 KM, destinada a todas as classes etárias e sem fins competitivos,</p>\n\n\n\n<p>É obrigatório o uso da t-shirt oficial do evento durante a Caminhada.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Tradicional São Silvestre pelas ruas de Caminha com corrida e caminhada solidária",
+  "page": "https://www.classificacoes.net/modalidades/atletismo/iv-sao-silvestre-de-caminhense-2022#inscriptions",
+  "slug": "sao-silveste-caminhense-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Caminha (Matriz) e Vilarelho",
+  "district_code": 16
+}

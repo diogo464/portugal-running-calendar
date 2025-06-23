@@ -1,0 +1,29 @@
+{
+  "id": 23740,
+  "name": "1º Trail Manhente Adventure 2023",
+  "location": "Barcelos, Braga",
+  "coordinates": {
+    "lat": 41.5335052,
+    "lon": -8.619289199999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/bc5300dc095c277bd213ebae4bcdb9d0"
+  ],
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-06",
+  "circuit": [],
+  "description": "\n<p>O “1o TRAIL MANHENTE ADVENTURE”, um evento de trail-running que percorre trilhos e caminhos no conselho da Barcelos. As corridas têm carácter competitivo e a caminhada sem carater competitivo.</p>\n\n\n",
+  "description_short": "Trail pela região de Barcelos com percursos por trilhos tradicionais",
+  "page": "https://www.sinctime.com/evento/151",
+  "slug": "1o-trail-manhente-adventure-2023",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Barcelos",
+  "district_code": 3
+}

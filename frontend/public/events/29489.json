@@ -1,0 +1,37 @@
+{
+  "id": 29489,
+  "name": "Poiares Trail 2024",
+  "location": "Vila Nova de Poiares, Coimbra",
+  "coordinates": {
+    "lat": 40.2107667,
+    "lon": -8.25907
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    300,
+    12000,
+    20000,
+    35000
+  ],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/035e79e4e3931d3ea0c828e309c07675"
+  ],
+  "start_date": "2024-02-11",
+  "end_date": "2024-02-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A secção de Atletismo da Associação Recreativa de S. Miguel – Vila Nova de Poiares é a entidade organizadora do evento denominado POIARES TRAIL 2024, que decorrerá a 10 e 11 de fevereiro de 2024. O POIARES TRAIL 2024 é um evento que integra três provas competitivas e uma caminhada: PT35K (± 35km, 1800mD+, a contar para o Circuito Nacional de Trail &#8211; série 150), o PT20K (± 20km, 980mD+, a contar para o Circuito Nacionalde Sprint-série 100 e para o Circuito Distrital de Trail Runningde Coimbra – Curto) e o PT12K (± 12km, 300m D+, a contar para o Circuito Nacional de Trail Jovem &#8211; série 150). Todas as provas estão certificadas pela ATRP. </p>\n\n\n\n<p>Opercurso da caminhada é coincidente com o PT12K . Este evento decorrerá com absoluto respeito pelo meio ambiente.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Vila Nova de Poiares com diferentes escalões competitivos",
+  "page": "https://stopandgo.net/events/poiares-trail-2024",
+  "slug": "poiares-trail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Vila Nova de Poiares",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

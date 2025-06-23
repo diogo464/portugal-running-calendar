@@ -1,0 +1,31 @@
+{
+  "id": 40031,
+  "name": "Cross São Salvador 2025",
+  "location": "Pinhal da Murteira, Ílhavo",
+  "coordinates": {
+    "lat": 40.5933118,
+    "lon": -8.6834396
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "cross-country",
+    "kids"
+  ],
+  "images": [
+    "media/3a458e1c7f8993f21795f86eb382e313"
+  ],
+  "start_date": "2025-02-09",
+  "end_date": "2025-02-09",
+  "circuit": [],
+  "description": "\n<p>A Junta de Freguesia de São Salvador (Ílhavo) e a Associação Cultural e Desportiva Os Ílhavos, organizam em conjunto e levam a efeito no dia 9 de Fevereiro de 2025, o 3º Cross S.Salvador &#8211; Os Ílhavos, pelas 9h30, no Parque de Merendas da Vista Alegre.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Cross tradicional em Ílhavo com partida no Parque de Merendas da Vista Alegre",
+  "page": "https://lap2go.com/pt/event/cross-os-ilhavos-2025",
+  "slug": "cross-sao-salvador-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

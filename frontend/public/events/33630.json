@@ -1,0 +1,35 @@
+{
+  "id": 33630,
+  "name": "Trail das Eiras 2024",
+  "location": "Vermoim, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.4229179,
+    "lon": -8.4485846
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000,
+    13000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/1d92564da26995311ffde83b8c98343f"
+  ],
+  "start_date": "2024-06-16",
+  "end_date": "2024-06-17",
+  "circuit": [],
+  "description": "\n<p>A AMVE – Associação Moinho de Vermoim tem a honra de anunciar a organização o VI Trail das Eiras 2024, em parceria com o Município de Famalicão, a Junta de Freguesia de Vermoim, o IPDJ, a Associação de Atletismo de Braga e demais entidades privadas que se associaram ao evento.</p>\n\n\n\n<p>O VI Trail das Eiras 2024 pretende promover o desporto, a saúde e o bem-estar da população, terá lugar no dia 16 de junho de 2024, incluindo uma Caminhada, um Trail Curto, um Trail Longo e este ano em estreia um Ultra Trail.</p>\n\n\n\n<p>O VI Trail das Eiras 2024 é uma prova enquadrada na dinâmica daquele que é o 1o Campeonato de Trail de Famalicão, promovido por 10 organizações famalicenses, e do Campeonato Regional de Trail da Associação de Atletismo de Braga, sendo que serão disputados e atribuídos em Vermoim os títulos regionais de Ultra Trail.</p>\n\n\n\n<p>Os percursos têm início e fim no Complexo do Pavilhão Municipal Terras de Vermoim, em Vermoim – Famalicão, e irão percorrer trilhos e estradas florestais na zona do monte das Eiras, uma considerável área florestal com vista privilegiada sobre o vale do Ave, com passagens pelo Castelo de Vermoim, Mamoas e Calçada Romana, uma zona com mais de 6000 anos de História.</p>\n\n\n\n<p>Decorre no próximo dia 18 de junho de 2023 a 5ª edição do Trail das Eiras.</p>\n\n\n\n<p>Esta prova decorrerá em trilhos e estradas florestais na zona do monte das Eiras, uma considerável área florestal com vista privilegiada sobre o vale do Ave, com passagens pelo Castelo de Vermoim, mamoas e calçada romana, com trilhos completamente novos e renovados.</p>\n\n\n\n<p>A organização deste evento está a cargo da Associação Moinho Vermoim com o apoio da Câmara Municipal de Vila Nova de Famalicão, da Junta de Freguesia de Vermoim e do IPDJ.</p>\n\n\n\n<p>O Trail Longo das Eiras (25km) e o Trail Curto (13km), contam para o Campeonato Regional de Trail da AABRAGA e teremos também uma caminhada (8Km).</p>\n\n\n",
+  "description_short": "Trail histórico com passagens pelo Castelo de Vermoim e Calçada Romana, percorrendo trilhos e vistas panorâmicas do vale do Ave em Famalicão",
+  "page": "https://www.sinctime.com/evento/215",
+  "slug": "trail-das-eiras-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "Vermoim",
+  "district_code": 3
+}

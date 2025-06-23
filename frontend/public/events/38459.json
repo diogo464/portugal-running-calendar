@@ -1,0 +1,30 @@
+{
+  "id": 38459,
+  "name": "Corrida de Aniversário Gdc Estrela Negra 2025",
+  "location": "Barreiro, Setúbal",
+  "coordinates": {
+    "lat": 38.6608149,
+    "lon": -9.0790724
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [],
+  "start_date": "2025-06-10",
+  "end_date": "2025-06-10",
+  "circuit": [
+    "Atletismo do Barreiro"
+  ],
+  "description": "\n<p>A Câmara Municipal do Barreiro e organização técnica da Xistarca, organiza no dia 10 de junho de 2025, a <strong>Corrida de Aniversário GDC Estrela Negra</strong></p>\n\n\n",
+  "description_short": "Corrida comemorativa pelo Barreiro organizada em parceria com a autarquia local",
+  "page": "https://xistarca.pt/eventos/cab-corrida-de-aniversario-gdc-estrela-negra-2",
+  "slug": "corrida-de-aniversario-gdc-estrela-negra-2025",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "Barreiro",
+  "district_code": 15
+}

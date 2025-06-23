@@ -1,0 +1,30 @@
+{
+  "id": 40131,
+  "name": "Trail dos Diabos 2025",
+  "location": "Vinhais, Bragança",
+  "coordinates": {
+    "lat": 41.8307225,
+    "lon": -7.009300499999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/cdb8915589a177c5b02df8dc8e068870"
+  ],
+  "start_date": "2025-03-08",
+  "end_date": "2025-03-09",
+  "circuit": [],
+  "description": "\n<p>Os trilhos do Parque Natural de Montesinho vão ser o palco do TRAIL DOS DIABOS. Vinhais&nbsp;é uma&nbsp;Vila Portuguesa, pertencente ao&nbsp;Distrito de Bragança,&nbsp;Região Norte&nbsp;e sub-região do&nbsp;Alto Trás-os-Montes.</p>\n\n\n\n<p>Na&nbsp;génese da denominação do evento como TRAIL DOS DIABOS está a celebração do&nbsp;<strong>dia dos diabos</strong>&nbsp;em&nbsp;Vinhais. Durante a celebração, na&nbsp;quarta-feira de cinzas, um grupo de rapazes mascara-se de&nbsp;<strong>Diabo</strong>&nbsp;com um fato vermelho e a cara coberta com uma&nbsp;máscara&nbsp;vermelha e de [cinto] na mão; outros mascaram-se de&nbsp;<strong>Morte</strong>&nbsp;com um&nbsp;fato&nbsp;preto e a cara enfarruscada (pintada com cinza ou&nbsp;carvão) e carregam uma&nbsp;gadanha.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos do Parque Natural de Montesinho, inspirado na tradicional celebração dos diabos em Vinhais",
+  "page": "https://www.sinctime.com/evento/328",
+  "slug": "trail-dos-diabos-2025",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Vinhais",
+  "administrative_area_level_3": "Vinhais",
+  "district_code": 4
+}

@@ -1,0 +1,36 @@
+{
+  "id": 20667,
+  "name": "Trail Aldeia d&#8217;Ul 2023",
+  "location": "Ul, Oliveira de Azeméis",
+  "coordinates": {
+    "lat": 40.8217508,
+    "lon": -8.500711599999999
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/8dc2345cdecb740f2d719c61f98a854a"
+  ],
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Aldeia d`Ul é uma organização da Confraria Trotamontes em parceria com o Município de Oliveira deAzeméis e está inserido no Circuito Concelhio de Trail Running de Oliveira de Azeméis e classifica para a Taça de Portugal de Trail Running.</p>\n\n\n\n<p>O Trail Aldeia d´Ul é um evento com uma distância de 18km e uma caminhada de 12km<br>Limitada a 250 participantes para o trail e 100 caminhantes</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Oliveira de Azeméis com classificação para Taça de Portugal",
+  "page": "https://lap2go.com/pt/event/trail-aldeia-d-ul-2023",
+  "slug": "trail-aldeia-dul",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "União das freguesias de Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail",
+  "district_code": 1
+}

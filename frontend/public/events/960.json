@@ -1,0 +1,29 @@
+{
+  "id": 960,
+  "name": "Trail Volta às Origens 2020",
+  "location": "Cabroelo, Penafiel Penafiel, Porto",
+  "coordinates": {
+    "lat": 41.0964861,
+    "lon": -8.338996999999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/26893ac64ac833363fcd18c1e851b44a"
+  ],
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-02",
+  "circuit": [],
+  "description": "<p>O Trail Volta às Origens é uma prova de aventura percorrida em trilhos sinalizados, pequenos estradões, ou estradas, visando percorrer todo o percurso no menor tempo possível. Terá início e chegada no complexo desportivo da Associação Desportiva de Cabroelo, em Capela (Penafiel).</p>\n",
+  "description_short": "Trail desafiante por caminhos rurais de Penafiel com partida e chegada em Cabroelo",
+  "page": "https://lap2go.com/pt/event/trail-volta-as-origens-2020",
+  "slug": "trail-volta-as-origens-2020",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Penafiel",
+  "administrative_area_level_3": "Capela",
+  "district_code": 13
+}

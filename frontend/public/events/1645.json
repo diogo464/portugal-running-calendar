@@ -1,0 +1,29 @@
+{
+  "id": 1645,
+  "name": "LAAC Trail 2020",
+  "location": "Vila de Aguada Cima, Águeda",
+  "coordinates": {
+    "lat": 40.5214363,
+    "lon": -8.4269493
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4a62f8b74dd55f5a03056351b205298d"
+  ],
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-16",
+  "circuit": [],
+  "description": "<p>O LAAC Trail será realizado na localidade de Aguada de Cima e será a segunda etapa do Troféu Trail Terras de Águeda. Venha até aos trilhos e descubra a natureza do sul do concelho de Águeda.</p>\n",
+  "description_short": "Trail pela zona rural de Águeda com descoberta dos trilhos naturais do sul do concelho",
+  "page": "https://lap2go.com/pt/event/laac-trail-2020/",
+  "slug": "laac-trail-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Águeda",
+  "administrative_area_level_3": "Aguada de Cima",
+  "district_code": 1
+}

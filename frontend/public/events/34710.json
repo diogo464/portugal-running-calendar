@@ -1,0 +1,33 @@
+{
+  "id": 34710,
+  "name": "Corrida da Liberdade Chaves 2024",
+  "location": "Chaves, Vila Real",
+  "coordinates": {
+    "lat": 41.7158962,
+    "lon": -7.4814163
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/e43e4a1ef6a39000d07b41d84b687b9d"
+  ],
+  "start_date": "2024-04-25",
+  "end_date": "2024-04-25",
+  "circuit": [],
+  "description": "\n<p> “<strong>Corrida da Liberdade – 2024”</strong> é uma corrida organizada pelo Município de Chaves com a colaboração da Associação de Atletismo de Vila Real.</p>\n\n\n\n<p>A prova irá realizar-se no dia 25 de Abril 2024 com início pelas 10h00, com partida e chegada na Alameda do Trajano – Traseiras da Piscina Municipal.</p>\n\n\n",
+  "description_short": "Corrida comemorativa do 25 de Abril em Chaves com partida na zona das piscinas municipais",
+  "page": "https://waitastart.com/corrida-da-liberdade-24/",
+  "slug": "corrida-da-liberdade-chaves-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Chaves",
+  "administrative_area_level_3": null,
+  "district_code": 17
+}

@@ -1,0 +1,32 @@
+{
+  "id": 15684,
+  "name": "30ª Corrida de Silgueiros 2022",
+  "location": "Silgueiros, Viseu",
+  "coordinates": {
+    "lat": 40.5578422,
+    "lon": -7.9583908
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/3cfe2bd720103bd3bc412fe4192484f6"
+  ],
+  "start_date": "2022-10-02",
+  "end_date": "2022-10-03",
+  "circuit": [],
+  "description": "\n<p>30ª edição da mítica Corrida dos Silgueiros, corrida de estrada em pleno coração dos vinhos do Dão, vai realizar-se no mês de Outubro, onde os sabores e tradições esperam por ti!</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional pela região vinícola do Dão com 30 anos de história",
+  "page": "https://spotcriativoeventos.com/portfolio-item/corrida-de-silgueiros/",
+  "slug": "corrida-dos-silgueiros-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Silgueiros",
+  "district_code": 18
+}

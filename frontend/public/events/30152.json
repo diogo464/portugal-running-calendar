@@ -1,0 +1,37 @@
+{
+  "id": 30152,
+  "name": "Trail Coração do Ribatejo 2024",
+  "location": "Chamusca, Santarém",
+  "coordinates": {
+    "lat": 39.3564086,
+    "lon": -8.4786825
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    13000,
+    19000,
+    33000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/a9bebd0366405a22833bc6c2326ae28b"
+  ],
+  "start_date": "2024-04-21",
+  "end_date": "2024-04-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 3a Edição do Trail Coração do Ribatejo será realizada no dia 21 de Abril (domingo), em Chamusca, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para osparticipantes.</p>\n\n\n\n<p><br>Será constituído por duas provas de carácter competitivo: “Trail Longo +- K33”, “Trail Curto +- K19”, Mini Trail +-13 Kms e caminhada Caminhada +-10 Kms.</p>\n",
+  "description_short": "Trail desafiante pela região do Ribatejo com diferentes percursos em Chamusca",
+  "page": "https://stopandgo.net/events/trail-coracao-do-ribatejo-2024",
+  "slug": "trail-coracao-do-ribatejo-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Chamusca",
+  "administrative_area_level_3": "União das freguesias da Chamusca e Pinheiro Grande",
+  "district_code": 14
+}

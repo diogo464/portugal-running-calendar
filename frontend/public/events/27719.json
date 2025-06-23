@@ -1,0 +1,32 @@
+{
+  "id": 27719,
+  "name": "Trail Centro Saúde Darque 2023",
+  "location": "Viana do Castelo",
+  "coordinates": {
+    "lat": 41.6918275,
+    "lon": -8.8344101
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/9aa27d50e9595556494e93ca1035bb7a"
+  ],
+  "start_date": "2023-09-17",
+  "end_date": "2023-09-18",
+  "circuit": [],
+  "description": "\n<p>O Centro de Saúde de Darque, em parceria com a ULSAM, Câmara Municipal de Viana do Castelo, Junta de Freguesia de Darque e com o apoio da Associação de reformados de Darque, patrocinadores e outras Associações da região, convidam a Comunidade em geral, para um momento de desporto, diversão e lazer, em comemoração dos 30 anos do Centro de saúde. Venha correr ou caminhar pelo centro histórico de Darque, Monte Galeão e Monte Santoinho, no Mini Trail, Caminhada e Trail Kids. Ou se preferir, estamos a programar outras atividades de desporto e lazer, no Local de partida</p>\n\n\n",
+  "description_short": "Trail solidário pelos caminhos históricos de Darque em celebração dos 30 anos do Centro de Saúde",
+  "page": "https://www.eventbrite.pt/e/bilhetes-30o-aniversario-centro-saude-darque-mini-trail-caminhada-e-trail-kids-668480000677",
+  "slug": "trail-centro-saude-darque-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Viana do Castelo",
+  "administrative_area_level_3": null,
+  "district_code": 16
+}

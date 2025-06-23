@@ -1,0 +1,32 @@
+{
+  "id": 35121,
+  "name": "Corrida de Homenagem a José Magalhães 2024",
+  "location": "Vilar do Torno e Alentém, Lousada",
+  "coordinates": {
+    "lat": 41.2778714,
+    "lon": -8.2815432
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/f7cd37f1167e78600170a14c9b256ca4"
+  ],
+  "start_date": "2024-10-12",
+  "end_date": "2024-10-13",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 12 de outubro de 2024, com partida e chegada na Quinta do Forno de Vilar do Torno – Lousada, a Corrida de Homenagem a José Magalhães – Vilar do Torno e Alentém, com distância de 10.000 metros.</p>\n\n\n",
+  "description_short": "Corrida de homenagem nas estradas rurais de Lousada em memória de José Magalhães",
+  "page": "https://www.desportave.pt/events.file.php?cid=177",
+  "slug": "corrida-de-homenagem-a-jose-magalhaes-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Lousada",
+  "administrative_area_level_3": "União das freguesias de Cristelos, Boim e Ordem",
+  "district_code": 13
+}

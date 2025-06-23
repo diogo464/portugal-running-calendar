@@ -1,0 +1,30 @@
+{
+  "id": 21139,
+  "name": "5.° Corrida São Silvestre de Nisa &#8211; Memorial Ricardo Mateus 2022",
+  "location": "Nisa, Portalegre",
+  "coordinates": {
+    "lat": 39.5179524,
+    "lon": -7.648376700000001
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/f53bad9329fea34d0f3b3b578bb982a1"
+  ],
+  "start_date": "2022-12-23",
+  "end_date": "2022-12-24",
+  "circuit": [],
+  "description": "\n<p>A “5.a Corrida São Silvestre de Nisa” é uma prova de atletismo (estrada) e realiza-se no dia 23 de dezembro de 2022, entre as 20h30 e as 22h30, na Praça da República de Nisa, organizada pelo Sporting Clube de Nisa, com o apoio da Câmara Municipal de Nisa e a colaboração técnica da Associação de Atletismo do Distrito de Portalegre.</p>\n\n\n\n<p>O Sporting Clube de Nisa pretende ainda, através da realização deste evento, continuar a homenagear o Homem e o Atleta, nomeando esta prova como “Memorial Ricardo Mateus”.</p>\n\n\n",
+  "description_short": "Corrida de São Silvestre noturna em Nisa, prestando homenagem a Ricardo Mateus",
+  "page": "https://meutempo.pt/prova?5saosilvestrenisa",
+  "slug": "5-corrida-sao-silvestre-de-nisa-memorial-ricardo-mateus-2022",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Nisa",
+  "administrative_area_level_3": "União das freguesias de Espírito Santo, Nossa Senhora da Graça e São Simão",
+  "district_code": 12
+}

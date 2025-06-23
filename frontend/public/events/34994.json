@@ -1,0 +1,29 @@
+{
+  "id": 34994,
+  "name": "III Resistência Trail 3H Glória Do Ribatejo 2024",
+  "location": "Glória do Ribatejo, Santarém",
+  "coordinates": {
+    "lat": 39.0324461,
+    "lon": -8.6270628
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6cf46a297c17a242a4d9d2b01783488d"
+  ],
+  "start_date": "2024-06-29",
+  "end_date": "2024-06-30",
+  "circuit": [],
+  "description": "\n<p>Esta prova, com trajeto designado de III Resistência Trail Glória do Ribatejo – 3H, será realizada pela Secçã o de Trail de Gló ria do Ribatejo, em parceria com a Câmara Municipal de Salvaterra e a Uniã o de Freguesias de Gló ria do Ribatejo e Granho. Durante a corrida, os atletas terã o oportunidade de passar por alguns locais emblemá ticos da Vila de Gló ria do Ribatejo e desfrutar do apoio vibrante da populaçã o gloriana no centro da Vila.</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Trail local com passagem por locais emblemáticos da Vila de Glória do Ribatejo, com apoio animado da população",
+  "page": "https://acorrer.pt/eventos/info/3520",
+  "slug": "iii-resistencia-trail-3h-gloria-do-ribatejo-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "União das freguesias de Glória do Ribatejo e Granho",
+  "district_code": 14
+}

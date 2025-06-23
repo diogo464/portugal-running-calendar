@@ -1,0 +1,33 @@
+{
+  "id": 42619,
+  "name": "Mini Maratona Maranho &#8211; Entre Vilas 2025",
+  "location": "Sertã, Castelo Branco",
+  "coordinates": {
+    "lat": 39.8197117,
+    "lon": -7.4964662
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "half-marathon"
+  ],
+  "images": [],
+  "start_date": "2025-07-20",
+  "end_date": "2025-07-21",
+  "circuit": [],
+  "description": "\n<p>A “Mini Maratona do Maranho – Entre Vilas 2025” (constituído por uma Mini Maratona e Provas Jovens) está inserida no calendário do Festival de Gastronomia do Maranho da Sertã, sendo esta uma iniciativa da Câmara Municipal da Sertã.</p>\n\n\n",
+  "description_short": "Corrida desportiva integrada no Festival de Gastronomia do Maranho da Sertã",
+  "page": "https://lap2go.com/pt/event/mini-maratona-maranho-entre-vilas-2025",
+  "slug": "mini-maratona-entre-vilas-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Castelo Branco",
+  "administrative_area_level_3": "Castelo Branco",
+  "district_code": 5
+}

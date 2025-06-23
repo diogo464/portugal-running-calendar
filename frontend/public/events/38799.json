@@ -1,0 +1,32 @@
+{
+  "id": 38799,
+  "name": "Trail Águias de Alvelos 2025",
+  "location": "Alvelos, Braga",
+  "coordinates": {
+    "lat": 41.5046296,
+    "lon": -8.618816100000002
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/94ae9577111e263f6d567f8b542e0ebd"
+  ],
+  "start_date": "2025-03-09",
+  "end_date": "2025-03-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Águias de Alvelos é organizado pela Secção de Atletismo e Trail Running da Associação Recreativa e Cultural Águias de Alvelos, no dia 9 de Março de 2025 sendo constituído por duas provas competitivas &#8211; o Trail Longo e o Trail Curto, assim como uma caminhada, sem caracter competitivo.</p>\n",
+  "description_short": "Trail desafiante pelos caminhos de Alvelos organizado pela associação local de atletismo",
+  "page": "https://cyclonessports.com/index.php/325-trail-aguias-de-alvelos-2025",
+  "slug": "trail-aguias-de-alvelos-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Alvelos",
+  "district_code": 3
+}

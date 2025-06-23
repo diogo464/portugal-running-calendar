@@ -1,0 +1,32 @@
+{
+  "id": 29302,
+  "name": "Corrida pela Diabetes 2023",
+  "location": "Caldas da Rainha, Leiria",
+  "coordinates": {
+    "lat": 39.4061871,
+    "lon": -9.1348206
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    9000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/181a5d1c6d754593513634a7c8b11d6a"
+  ],
+  "start_date": "2023-11-19",
+  "end_date": "2023-11-20",
+  "circuit": [],
+  "description": "\n<p>Este evento tem como entidades organizadoras;&nbsp;<strong>CHO &#8211; Centro Hospitalar Oeste &#8211; Medicina Interna &#8211; Diabetes; ACES Oeste Norte com a colaboração do Arneirense e Câmara Municipal</strong></p>\n\n\n\n<p><br>A caminhada da &#8220;<strong>Corrida pela Diabetes</strong>&#8220;, terá lugar no dia&nbsp;<strong>19 de Novembro 2023</strong>, com o início às&nbsp;<strong>10h&nbsp;</strong>na&nbsp;<strong>Praça 25 de Abril, frente à Câmara</strong></p>\n\n\n\n<p><strong>?</strong>A distância da Caminhada será de mais ou menos&nbsp;<strong>9km</strong>, partida e chegada na Praça 25 de Abril</p>\n\n\n\n<p><strong>Concentração a partir das 08.30h para entrega das t&#8217;shirts</strong></p>\n\n\n\n<p>O percurso passará pelo Parque, Mata, Hospital, pelos dois Centros de Saúde e Complexo Desportivo e terá o grau de dificuldade, médio baixo</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Caminhada solidária pela diabetes com percurso urbano e passagem por diversos equipamentos locais",
+  "page": "https://www.recordepessoal.pt/evento/corridapeladiabetes2023",
+  "slug": "corrida-pela-diabetes-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Caldas da Rainha",
+  "administrative_area_level_3": "União das freguesias de Caldas da Rainha - Nossa Senhora do Pópulo, Coto e São Gregório",
+  "district_code": 10
+}

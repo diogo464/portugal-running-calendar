@@ -1,0 +1,33 @@
+{
+  "id": 41729,
+  "name": "Oudinot Race 2025",
+  "location": "Gafanha da Nazaré, Ílhavo",
+  "coordinates": {
+    "lat": 40.6363737,
+    "lon": -8.7004614
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    6000,
+    12000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/4c1aecafce4f9e94eb47a27494e7c013"
+  ],
+  "start_date": "2025-06-22",
+  "end_date": "2025-06-23",
+  "circuit": [],
+  "description": "\n<p>3º Oudinot Race OCR é uma prova diferente rodeada por uma fantástica paisagem, realizado no jardim Oudinot na Gafanha da Nazaré.</p>\n\n\n\n<p>Prova organizada pela associação Bússola Partilhada, será uma corrida de obstáculos no interior jardim Oudinot com cerca 30 Obstáculos perfazendo 12 km Elite e 6Km Overall.</p>\n\n\n\n<p>A prova irá realizar-se no dia 22 Junho de 2025, com a partida e chega no Jardim Oudinot, contando com os mais diversos obstáculos.</p>\n\n\n",
+  "description_short": "Corrida de obstáculos com desafios técnicos no Jardim Oudinot na Gafanha da Nazaré",
+  "page": "https://waitastart.com/oudinot_race25/",
+  "slug": "oudinot-race-2025",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ílhavo",
+  "administrative_area_level_3": "Ílhavo (São Salvador)",
+  "district_code": 1
+}

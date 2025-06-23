@@ -1,0 +1,40 @@
+{
+  "id": 30206,
+  "name": "Trilho dos Dinossauros 2024",
+  "location": "Lourinhã, Lisboa",
+  "coordinates": {
+    "lat": 39.2425234,
+    "lon": -9.3132718
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    350,
+    450,
+    700,
+    1400,
+    11000,
+    21000,
+    32000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/c1f389747a235c595f540c1117efb9fc"
+  ],
+  "start_date": "2024-02-18",
+  "end_date": "2024-02-19",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 6ª edição do Troféu dos Dinossauros contempla duas provas em 2024:</p>\n\n\n\n<p>TRILHO DOS DINOSSAUROS – Dia 18 de Fevereiro 2024 – Praia da Areia Branca</p>\n\n\n\n<p>Carrossel das Cesaredas – Dia 24 de Novembro 2024 – Reguengo Grande</p>\n\n\n\n<p><br>Os valores aproximados das distâcias e acumulado para as diferentes provas são os seguintes:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Trail Longo 32K | D+1400m</li>\n\n\n\n<li>Trail Curto 21K | D+700m</li>\n\n\n\n<li>Mini Trail 11K | D+450m</li>\n\n\n\n<li>Caminhada 11K | D+350m<br></li>\n</ul>\n",
+  "description_short": "Trail desafiante entre Praia da Areia Branca e Reguengo Grande com diferentes percursos de montanha",
+  "page": "https://www.trilhoperdido.com/evento/Trilho-dos-Dinossauros-2024",
+  "slug": "trilhos-dos-dinossauros-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lourinhã",
+  "administrative_area_level_3": "União das freguesias de Lourinhã e Atalaia",
+  "district_code": 11
+}

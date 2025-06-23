@@ -1,0 +1,31 @@
+{
+  "id": 22925,
+  "name": "Trail Vale do Ceira 2023",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/4fa44cefa1f7e7bdde7ca4a09010b003"
+  ],
+  "start_date": "2023-09-24",
+  "end_date": "2023-09-25",
+  "circuit": [],
+  "description": "\n<p>O Trail Vale do Ceira, adiante designado por TVC, é um evento de corrida em trilhos com o objetivo de<br>percorrer determinada distância ultrapassando os obstáculos naturais do terreno e enfrentar as suas<br>adversidades no menor tempo possível͘.</p>\n\n\n\n<p>Trail Longo <br>Trail Curto <br>Caminhada </p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos caminhos naturais do Vale do Ceira, com percursos de diferentes distâncias e níveis de dificuldade",
+  "page": "https://stopandgo.net/events/trail-vale-do-ceira-2023",
+  "slug": "trail-vale-do-ceira-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

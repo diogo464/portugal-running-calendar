@@ -1,0 +1,37 @@
+{
+  "id": 20829,
+  "name": "Trail Abrantes 100 2023",
+  "location": "Abrantes, Santarém",
+  "coordinates": {
+    "lat": 39.4621054,
+    "lon": -8.1986484
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    25000,
+    50000,
+    100000
+  ],
+  "types": [
+    "trail",
+    "kids",
+    "relay"
+  ],
+  "images": [
+    "media/63418dc4c5e2d837b204d3e2d5c1c7eb"
+  ],
+  "start_date": "2023-10-14",
+  "end_date": "2023-10-15",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Município de Abrantes em parceria com o COA &#8211; Clube Orientação e Aventura organiza o Trail Abrantes 100.<br>O “Trail Abrantes 100” é uma prova Certificada pela ATRP – Associação de Trail Running de Portugal que integra os Circuitos Nacionais de Trail Ultra Endurance (TA100 – K100), Trail Ultra (TA100 – K50) e Trail (TA100 – K25). Esta prova reconhecida pela ITRA – International Trail Running Association, é também uma prova UTMB World Séries Qualifier.<br>O Trail Abrantes100 é um evento que integra 5 variantes de corrida/progressão a pé em plena natureza, em regime de semiautonomia num tempo limitado:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>TA100 – K100: prova realizada a solo num percurso com cerca de 100km com partida e chegada em Abrantes;</li>\n\n\n\n<li>TA100 – K100/2: prova realizada em estafetas de 2 elementos no mesmo percurso do TA100 – K100;</li>\n\n\n\n<li>TA100 – K100/4: prova realizada em estafetas de até 4 elementos no mesmo percurso do TA100 – K100;</li>\n\n\n\n<li>TA100 – K50: prova realizada a solo nos últimos 50km do percurso do TA100 – K100, com partida na EPDRA, em Mouriscas (PAC6/ZT2);</li>\n\n\n\n<li>TA100 – K25: prova realizada a solo nos últimos 25km do percurso do TA100 –K100,  com partida no Museu do Rancho Folclórico em Casais de Revelhos (PAC9/ZT3);</li>\n\n\n\n<li>TA100 – KIDS: é uma prova lúdica, sem carácter competitivo, destinada aos jovens com idades entre os 5 e os 15 anos tendo como principais objetivos a promoção da modaliade e hábitos de vida saudáveis junto dos mais novos. As distâncias dos percursos e os respetivos escalões serão definidos em função do número de inscritos.</li>\n</ol>\n",
+  "description_short": "Trail desafiante por Abrantes com 5 provas de trail running em plena natureza, incluindo distâncias de 100km, 50km e 25km, com opções de solo e estafetas",
+  "page": "https://www.trilhoperdido.com/evento/Trail-Abrantes-100-2023",
+  "slug": "trail-abrantes-100-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Abrantes",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

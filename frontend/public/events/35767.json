@@ -1,0 +1,32 @@
+{
+  "id": 35767,
+  "name": "Góis Trail 2024",
+  "location": "Góis, Coimbra",
+  "coordinates": {
+    "lat": 40.1572681,
+    "lon": -8.1106277
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/52917d3381e16559163392d2c65074a5"
+  ],
+  "start_date": "2024-09-21",
+  "end_date": "2024-09-22",
+  "circuit": [],
+  "description": "\n<p>O GÓIS TRAIL é um evento de trail running que terá este ano a sua 1ªedição. Com o slogan ENTRE A SERRA <br>O CEIRA, um trail que procura mostrar a todos os participantes a natureza envolvente do vale do rio ceira com as suas serras em redor.</p>\n\n\n\n<p><br>É um evento que conta com o apoio do Município de Góis, sobre a organização da A.E.R. Góis – Trail Running, com o apoio de outras entidades, que oportunamente serão anunciadas. Tal como na pré-edição de 2023, continuaremos a oferecer a todos os atletas as nossas maravilhosas paisagens, percorrendo novos trilhos, mas não esquecendo a excelência da edição de 2023, boa disposição, bem receber, muita animação e trilhos espetaculares.</p>\n\n\n\n<p><br>Este evento será constituído por 4 provas, 2 de carácter competitivo, Trail Curto, Trail Longo e duas provas de caracter não competitivo, a Caminhada e o Trail Kid’s. A prova de carácter competitivo percorre caminhos e trilhos das Serras junto a Góis e ao rio Ceira com início Parque do Cerejal.</p>\n\n\n",
+  "description_short": "Trail inaugural em Góis revelando paisagens deslumbrantes do vale do rio Ceira e serras envolventes",
+  "page": "https://stopandgo.net/events/gois-trail-entre-a-serra-e-o-ceira",
+  "slug": "gois-trail-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Góis",
+  "administrative_area_level_3": "Góis",
+  "district_code": 6
+}

@@ -1,0 +1,31 @@
+{
+  "id": 36466,
+  "name": "Trail Feira da Tôr 2024",
+  "location": "Loulé, Faro",
+  "coordinates": {
+    "lat": 37.1379187,
+    "lon": -8.020216
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ae8d302cc0ca28b7035349cb3cc57b29"
+  ],
+  "start_date": "2024-09-08",
+  "end_date": "2024-09-09",
+  "circuit": [],
+  "description": "\n<p>Está de regresso a tão esperada 9ª edição da Caminhada &amp; Trail inserida na Feira da Tôr, Trail Feira da Tôr, dia 8 de Setembro de 2024!</p>\n",
+  "description_short": "Trail na zona da Tôr durante a tradicional feira local",
+  "page": "https://acorrer.pt/eventos/info/3603",
+  "slug": "trail-feira-da-tor-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

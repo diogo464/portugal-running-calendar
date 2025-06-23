@@ -1,0 +1,30 @@
+{
+  "id": 24275,
+  "name": "I Trail Comidas do D&#8217;Monte 2023",
+  "location": "São Marcos da Serra, Silves",
+  "coordinates": {
+    "lat": 37.3618819,
+    "lon": -8.377690399999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/75f29b591b2bc932643d189e0726e782"
+  ],
+  "start_date": "2023-07-15",
+  "end_date": "2023-07-16",
+  "circuit": [],
+  "description": "\n<p>O&nbsp;<strong>I Trail Comidas do Monte&nbsp;</strong>é um evento desportivo de caráter lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de&nbsp;<em>trail running</em>, mas também os territórios onde decorre o evento. O evento irá decorrer no dia 15 de Julho de 2023.<br><br>O&nbsp;<strong>I Trail Comidas do Monte&nbsp;</strong>desenvolve-se na zona de São Marcos da Serra, concelho de Silves.&nbsp;&nbsp;</p>\n\n\n",
+  "description_short": "Trail desafiante pela serra algarvia com descoberta dos territórios de São Marcos da Serra",
+  "page": "https://www.crono.aaalgarve.org/eventos/i-trail-comidas-do-monte",
+  "slug": "i-trail-comidas-do-monte-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Silves",
+  "administrative_area_level_3": "São Marcos da Serra",
+  "district_code": 8
+}

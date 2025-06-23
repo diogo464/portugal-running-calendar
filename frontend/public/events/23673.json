@@ -1,0 +1,29 @@
+{
+  "id": 23673,
+  "name": "Corrida dos Gambuzinos 2023",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/de7ad04d49e6d5a18b6b37997b7e0cff"
+  ],
+  "start_date": "2023-06-24",
+  "end_date": "2023-06-25",
+  "circuit": [],
+  "description": "\n<p>Venha divertir-se com a corrida dos Gambuzinos. Esta corrida será disputada na tipologia de contra-relógio, onde os corredores sairão um a um. Seja o rei e a raínha de Pombal e saia de sorriso rasgado na cara de um conceito inovador de evento.</p>\n\n\n",
+  "description_short": "Corrida contra-relógio original em Pombal com espírito divertido e competitivo",
+  "page": "https://lap2go.com/pt/event/corrida-gambuzinos-2023",
+  "slug": "corrida-dos-gambuzinos-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

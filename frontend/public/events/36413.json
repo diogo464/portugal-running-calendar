@@ -1,0 +1,32 @@
+{
+  "id": 36413,
+  "name": "Corrida Jorge Pina 2024",
+  "location": "Parque Ribeirinho do Oriente, Lisboa",
+  "coordinates": {
+    "lat": 38.7457891,
+    "lon": -9.0970474
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/ef67c7a648adab8f98959d7f9aae34de"
+  ],
+  "start_date": "2024-10-12",
+  "end_date": "2024-10-13",
+  "circuit": [],
+  "description": "\n<p>A <strong>Corrida Associação Jorge Pina </strong> é uma corrida de cariz solidário que pretende angariar verbas para o desenvolvimento dos projectos da AJP, e consiste num conjunto de provas desportivas na modalidade do atletismo, a realizar-se no dia 12 de Outubro de 2024 no Parque Ribeirinho do Oriente.</p>\n\n\n",
+  "description_short": "Corrida solidária da Associação Jorge Pina com provas de atletismo junto ao Tejo",
+  "page": "https://xistarca.pt/eventos/8a-corrida-associacao-jorge-pina-powered-by-multiopticas-i-wear",
+  "slug": "corrida-jorge-pina-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Marvila",
+  "district_code": 11
+}

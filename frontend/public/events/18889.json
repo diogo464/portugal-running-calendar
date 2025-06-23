@@ -1,0 +1,31 @@
+{
+  "id": 18889,
+  "name": "Corrida Sempre Mulher 2022",
+  "location": "Parque das Nações, Lisboa",
+  "coordinates": {
+    "lat": 38.7686316,
+    "lon": -9.095858
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    5000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/56bfd6c8afbd5c493c78034d83013f8b"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>No dia 13 de Novembro 2022 junte-se a nós e <strong>venha andar ou correr 5km por uma boa causa</strong>. Inscreva-se já e passe uma manhã saudável e inesquecível!</p>\n",
+  "description_short": "Corrida solidária com 5km para apoiar uma causa social",
+  "page": "https://www.corridasempremulher.com",
+  "slug": "corrida-sempre-mulher-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": "Parque das Nações",
+  "district_code": 11
+}

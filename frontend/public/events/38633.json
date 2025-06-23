@@ -1,0 +1,27 @@
+{
+  "id": 38633,
+  "name": "Esposende Marginal à Noite 2025",
+  "location": "Esposende, Braga",
+  "coordinates": {
+    "lat": 41.5323512,
+    "lon": -8.7830801
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [],
+  "start_date": "2025-07-05",
+  "end_date": "2025-07-06",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.runporto.com/eventos/marginal-noite-esposende/",
+  "slug": "esposende-marginal-a-noite-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Esposende",
+  "administrative_area_level_3": "União das freguesias de Esposende, Marinhas e Gandra",
+  "district_code": 3
+}

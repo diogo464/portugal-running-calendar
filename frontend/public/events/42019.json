@@ -1,0 +1,30 @@
+{
+  "id": 42019,
+  "name": "Pedrosas Open V 2025",
+  "location": "Pedrosas, Viseu",
+  "coordinates": {
+    "lat": 40.7455265,
+    "lon": -7.771577099999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/5c3ddb6f488d21d046c054979b389335"
+  ],
+  "start_date": "2025-07-20",
+  "end_date": "2025-07-20",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Desculpe, mas não consegui identificar o texto da descrição da corrida. Para poder ajudar a gerar um resumo conciso, precisaria que me fornecesse a descrição completa do evento.",
+  "page": "https://acorrer.pt/eventos/3919/info",
+  "slug": "pedrosas-open-v-2025",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sátão",
+  "administrative_area_level_3": "Sátão",
+  "district_code": 18
+}

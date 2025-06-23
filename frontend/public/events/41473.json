@@ -1,0 +1,31 @@
+{
+  "id": 41473,
+  "name": "Corrida pela Liberdade 2025",
+  "location": "Paços de Ferreira, Porto",
+  "coordinates": {
+    "lat": 41.2782274,
+    "lon": -8.3750991
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    8000
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/4ea931530778fd39e775dc9aa7d2f09c"
+  ],
+  "start_date": "2025-05-04",
+  "end_date": "2025-05-04",
+  "circuit": [],
+  "description": "\n<p>A Corrida pela Liberdade é uma iniciativa do Município de Paços de Ferreira, que assinala as comemorações do 25 de Abril. Com um percurso de 8 km entre as cidades de Paços de Ferreira e Freamunde, esta prova de atletismo celebra a liberdade, a cidadania e os  valores de Abril, promovendo simultaneamente o desporto e o convívio entre a comunidade.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida comemorativa dos valores de Abril entre Paços de Ferreira e Freamunde",
+  "page": "https://www.sinctime.com/evento/363",
+  "slug": "corrida-pela-liberdade-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paços de Ferreira",
+  "administrative_area_level_3": "Paços de Ferreira",
+  "district_code": 13
+}

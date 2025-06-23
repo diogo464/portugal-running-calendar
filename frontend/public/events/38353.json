@@ -1,0 +1,30 @@
+{
+  "id": 38353,
+  "name": "São Silvestre de Lagoa &#8211; Açores 2024",
+  "location": "Lagoa, Faro",
+  "coordinates": {
+    "lat": 37.1346084,
+    "lon": -8.4513272
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "run",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/b4c335b3027442da79ce6018bd21e162"
+  ],
+  "start_date": "2024-12-28",
+  "end_date": "2024-12-29",
+  "circuit": [],
+  "description": "\n<p>O CDOL &#8211; Clube Desportivo Operário de Lagoa com a colaboração da Câmara Municipal de Lagoa e o Patrocínio da Caixa Crédito Agrícola Mútuo dos Açores, irá organizar a 7ª São Silvestre Cidade de Lagoa, evento destinado à população em geral, com a finalidade de estimular a prática desportiva como elemento de promoção da saúde e da qualidade de vida.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "São Silvestre festiva em Lagoa, Açores, promovendo saúde e desporto com apoio municipal",
+  "page": "https://lap2go.com/pt/event/ss-lagoa-2024",
+  "slug": "sao-silvestre-de-lagoa-acores-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Lagoa",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

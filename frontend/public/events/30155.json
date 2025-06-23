@@ -1,0 +1,29 @@
+{
+  "id": 30155,
+  "name": "Vertical Supera 2023",
+  "location": "Lousã, Coimbra",
+  "coordinates": {
+    "lat": 40.1125621,
+    "lon": -8.2468738
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/398a7482e2591b059cd9c20c2a48d558"
+  ],
+  "start_date": "2023-11-11",
+  "end_date": "2023-11-12",
+  "circuit": [],
+  "description": "\n<p>O Armando Teixeira vai estabelecer a Maior Distância Conhecida em 24 horas a correr o KM Vertical da Lousã. Um percurso que começa no Castelo da Lousã e termina no Trevim.</p>\n\n\n\n<p>E chamar à atenção para o perigo de desertificação da Serra da Lousã.</p>\n\n\n\n<p>Todos podem contribuir para a reflorestação dos 7 hectares e 5 mil árvores abatidas.</p>\n\n\n\n<p>Cada km vale uma árvore. Todos podem contribuir comprando por um euro uma árvore que será plantada a 23 de novembro pela Silveira Tech.</p>\n\n\n",
+  "description_short": "Trail solidário de sensibilização contra a desertificação da Serra da Lousã com recorde de distância em KM Vertical",
+  "page": "https://stopandgo.net/events/vertical-supera-2023",
+  "slug": "vertical-supera-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Lousã",
+  "administrative_area_level_3": "União das freguesias de Lousã e Vilarinho",
+  "district_code": 6
+}

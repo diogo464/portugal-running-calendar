@@ -1,0 +1,34 @@
+{
+  "id": 1767,
+  "name": "Meia Maratona de Portimão 2020",
+  "location": "Portimão, Faro",
+  "coordinates": {
+    "lat": 37.13617,
+    "lon": -8.5376926
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/22790f1e48eef6e25bee927aa3c60ca2"
+  ],
+  "start_date": "2020-12-06",
+  "end_date": "2020-12-07",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://events.globalsport.pt/",
+  "slug": "meia-maratona-de-portimao-2020",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Portimão",
+  "administrative_area_level_3": "Portimão",
+  "district_code": 8
+}

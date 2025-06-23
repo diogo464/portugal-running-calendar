@@ -1,0 +1,30 @@
+{
+  "id": 29272,
+  "name": "Trail Esposende 2024",
+  "location": "Esposende, Braga",
+  "coordinates": {
+    "lat": 41.5323512,
+    "lon": -8.7830801
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/699cb8721ddc91ae7b24a340e927b261"
+  ],
+  "start_date": "2024-03-24",
+  "end_date": "2024-03-25",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Esposende vai realizar o VIII Trail Esposende. A competição realizar-se-á ao longo da Arriba Fóssil de Esposende e terminará no Centro da Cidade, no Largo Fonseca Lima. Inscrições abertas no site dedicado para o efeito.</p>\n\n\n",
+  "description_short": "Trail desafiante pela Arriba Fóssil de Esposende com chegada no centro histórico",
+  "page": "https://lap2go.com/pt/event/trail-de-esposende-2024",
+  "slug": "trail-esposende-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Esposende",
+  "administrative_area_level_3": "União das freguesias de Esposende, Marinhas e Gandra",
+  "district_code": 3
+}

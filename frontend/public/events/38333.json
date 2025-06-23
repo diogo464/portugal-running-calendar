@@ -1,0 +1,36 @@
+{
+  "id": 38333,
+  "name": "Trilhos do Paleozoico 2025",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    12000,
+    23000,
+    36000,
+    48000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f5c2fc657e836ade5f672051bdd4230d"
+  ],
+  "start_date": "2025-03-16",
+  "end_date": "2025-03-17",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A 12ª edição dos Trilhos do Paleozóico é uma prova que percorre trilhos e caminhos na serra de Santa Justa e de Pias no concelho de Valongo, onde está inserido o Parque Paleozóico de Valongo e o Centro de Trail de Valongo, com partida e chegada no Largo do Centenário (centro de Valongo). A participação nas distâncias Trail Ultra 48km, Trail 36 km, Trail Sprint 23km estão abertos a maiores de 18 anos, Mini Trail<br>12km abertos a maiores de 15 anos e a caminhada aberta a menores desde que acompanhados por uma pessoa maior de idade.</p>\n",
+  "description_short": "Trail desafiante pela serra de Valongo com passagem pelo Parque Paleozóico e diferentes distâncias para todos os níveis",
+  "page": "https://stopandgo.net/events/trilhos-paleozoico-2025",
+  "slug": "trilhos-do-paleozoico-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

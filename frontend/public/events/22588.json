@@ -1,0 +1,30 @@
+{
+  "id": 22588,
+  "name": "Trail Rota do Castro 2023",
+  "location": "Romariz, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.941354,
+    "lon": -8.4534102
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/2c651b3c477304ef26f220bb63abbca9"
+  ],
+  "start_date": "2023-05-21",
+  "end_date": "2023-05-22",
+  "circuit": [],
+  "description": "\n<p>II Trail Rota do Castro pretende promover a prática desportiva, em geral, o desporto pela Natureza.<br>Esta prova é organizada pela Junta de Freguesia de Romariz em parceria com o Município de Santa Maria da Feira. </p>\n\n\n\n<p>O Trail é uma prova de Trail Running, realizada por trilhos sinalizados, em piso<br>acidentado, estradões, estrada, e obstáculos naturais, com a partida e chegada em<br>Romariz. </p>\n\n\n\n<p>Este evento, conta com a realização de um Trail curto e caminhada</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Romariz com apoio da junta de freguesia local",
+  "page": "https://lap2go.com/pt/event/trail-rota-do-castro-2023",
+  "slug": "trail-rota-do-castro-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Romariz",
+  "district_code": 1
+}

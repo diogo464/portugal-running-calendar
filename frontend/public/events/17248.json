@@ -1,0 +1,39 @@
+{
+  "id": 17248,
+  "name": "Eco Maratona Ibérica A guarda &#8211; Caminha 2022",
+  "location": "Caminha, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8732082,
+    "lon": -8.837845399999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    21000,
+    21097,
+    42000,
+    42195
+  ],
+  "types": [
+    "run",
+    "10k",
+    "marathon",
+    "half-marathon",
+    "trail"
+  ],
+  "images": [
+    "media/cd41dc3120570477b1737711a0c382f2"
+  ],
+  "start_date": "2022-09-04",
+  "end_date": "2022-09-05",
+  "circuit": [],
+  "description": "\n<p>Constituída por 2 eventos em localidades fronteiriças (Verín-Chaves e A Guarda-Caminha).</p>\n\n\n\n<p>A Eco Maratona Ibérica vem revolucionar o conceito das maratonas. Durante a travessia entre Espanha e Portugal, desfrutamos de mar, rio, e de uma beleza inigualável ao longo de toda a ecovia. Será uma experiência inédita para todos os apaixonados da modalidade e da natureza.<br>As distâncias aproximadas de 42km, 21km e 10km são percorridas pela Ecovia Internacional Tâmega e Corgo, Ecovia do Rio Minho, trilhos naturais e finalizadas no coração das respetivas cidades.<br></p>\n",
+  "description_short": "Maratona transfronteiriça única entre Portugal e Espanha com percursos naturais por ecoovias e zonas históricas",
+  "page": "https://stopandgo.net/event/?id=737",
+  "slug": "eco-maratona-iberica-a-guarda-caminha-2022",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "União das freguesias de Caminha (Matriz) e Vilarelho",
+  "district_code": 16
+}

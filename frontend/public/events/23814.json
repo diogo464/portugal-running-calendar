@@ -1,0 +1,33 @@
+{
+  "id": 23814,
+  "name": "Grande Prémio De Santo António 2023",
+  "location": "Torres Novas, Santarém",
+  "coordinates": {
+    "lat": 39.478072,
+    "lon": -8.5404429
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/7cc8e7842eb2592937b9f09d4ad26be2"
+  ],
+  "start_date": "2023-06-10",
+  "end_date": "2023-06-11",
+  "circuit": [],
+  "description": "\n<p>O 44º Grande Prémio de S. António e Campeonato Distrital de Estrada em atletismo a realizar no dia<br>10 de Junho de 2023 pelas 17h00m, tem como entidade organizadora, a União Desportiva e<br>Recreativa da Zona Alta.</p>\n\n\n",
+  "description_short": "Prova de atletismo tradicional em dia de feriado nacional junto à Zona Alta",
+  "page": "https://www.queroir.pt/grandepremiodesantoantonio2023",
+  "slug": "grande-premio-de-santo-antonio-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

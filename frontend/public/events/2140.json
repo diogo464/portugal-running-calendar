@@ -1,0 +1,33 @@
+{
+  "id": 2140,
+  "name": "KM Vertical 2020",
+  "location": "Serra de Bornes, Alfândega da Fé",
+  "coordinates": {
+    "lat": 41.344363,
+    "lon": -6.9601807
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    10000,
+    31000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/9c2e2bffd03735da827791a257deff99"
+  ],
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-16",
+  "circuit": [],
+  "description": "<p>Corrida única e especial, num percurso sempre em ascensão, com quase 1.000 metros de desnível positivo ao longo de 10 Km.<br />\nA subida da Serra de Bornes é um desafio às tuas capacidades, que em comunhão com as paisagens únicas da Serra de Bornes tornarão esta experiência memorável.<br />\nE no final, o topo da Serra de Bornes oferece-te a mais impressionante vista panorâmica do Nordeste Transmontano… e os Lagos do Sabor vão ser o palco do convívio pós-prova, degustando sabores e emoções!</p>\n<p>INSCRIÇÕES | <a href=\"https://forms.gle/NTKJHNB4vTKTb77u5?fbclid=IwAR21DAHIVEYG4J6iRP31kmV9yE6SF88rakqWmFTvE9dWzJCqAxH7lR9Gi8E\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" data-lynx-mode=\"hover\" data-lynx-uri=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FNTKJHNB4vTKTb77u5%3Ffbclid%3DIwAR21DAHIVEYG4J6iRP31kmV9yE6SF88rakqWmFTvE9dWzJCqAxH7lR9Gi8E&amp;h=AT0COUceVee7McLjOLF3kF54Bbf8atHpwXkD981vceGtXtKdEgNCqnAK8ZTmI8Kbd0rO1EKT5rW2vbYr2kfu0ggdv1Tkyxze7FiShVRf1PZFwRTA6frlnNalVH_-ZUjugwQBzQJysDl2b6JA5Q\">https://forms.gle/NTKJHNB4vTKTb77u5</a></p>\n<p>REGULAMENTO | <a href=\"https://drive.google.com/open?id=1F-SUwda5KgIuNM5bmqjo5gGMKA5y_wQf&amp;fbclid=IwAR1t-TKcVqomMJm0DyLorrNZAjJoEbmJvyOtpByg9cTf1g38DJmNqaZS6L0\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" data-lynx-mode=\"hover\" data-lynx-uri=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1F-SUwda5KgIuNM5bmqjo5gGMKA5y_wQf%26fbclid%3DIwAR1t-TKcVqomMJm0DyLorrNZAjJoEbmJvyOtpByg9cTf1g38DJmNqaZS6L0&amp;h=AT1LHOoZNE65uB0GrdfPcXFdAuJNf0BIDcqFGKv8vvSFb1C0SjoBXoMlTfSAS51wXkNVt5yEd_aW4_AvbMycP7GULKAeSb3SX_ilvdOneoL0UcUUA4U4lxKFSE2fcMIVqU6Rut-cTIQFPfMWXQ\">https://drive.google.com/open?id=1F-SUwda5KgIuNM5bmqjo5gGMKA5y_wQf</a></p>\n",
+  "description_short": "Trail desafiante pela Serra de Bornes com vistas panorâmicas do Nordeste Transmontano",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLSfUknagODFKyucDGnWjMOUt3-BP1auFY_Xekx9cLC8Qhd5r9Q/viewform",
+  "slug": "km-vertical-2020",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Alfândega da Fé",
+  "administrative_area_level_3": "Alfândega da Fé",
+  "district_code": 4
+}

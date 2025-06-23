@@ -1,0 +1,29 @@
+{
+  "id": 23665,
+  "name": "OCR São Vicente Challenge 2023",
+  "location": "São Vicente, Madeira",
+  "coordinates": {
+    "lat": 32.803304,
+    "lon": -17.0455668
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/118b6501ad3713319b18947fb76d8111"
+  ],
+  "start_date": "2023-07-08",
+  "end_date": "2023-07-09",
+  "circuit": [],
+  "description": "\n<p>Prova de OCR é uma prova de superação, esforço, entreajuda, espirito de equipa, cooperação, empenho, dedicação e motivação.</p>\n\n\n\n<p>Vai juntar várias forças de segurança a grupos de equipas como: militares, psp, gnr, bombeiros, médicos, proteção civil, ginásios, clubes, escolas, empresas…</p>\n\n\n\n<p>Vamos ver quem são os mais fortes e os mais divertidos. Exercicios como correr, saltar, lançar, subir, descer são algumas das provas que vais encontrar.</p>\n\n\n\n<p>E muitas surpresas pelo caminho.</p>\n\n\n",
+  "description_short": "Prova de OCR desafiante com equipas de forças de segurança e várias instituições",
+  "page": "https://meutempo.pt/prova?ocrsaovicentechallenge2023",
+  "slug": "ocr-sao-vicente-challenge-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": "São Vicente",
+  "district_code": 30
+}

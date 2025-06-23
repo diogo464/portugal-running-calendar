@@ -1,0 +1,33 @@
+{
+  "id": 19269,
+  "name": "VIII TRAIL CONDINVEST/QUINTA DA LIXA &#8211; MONTE DO SEIXOSO 2022",
+  "location": "Lixa, Felgueiras",
+  "coordinates": {
+    "lat": 41.3210679,
+    "lon": -8.14167
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    11000,
+    21000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/1e97b5321b7449af015a3d1f47accbd9"
+  ],
+  "start_date": "2022-10-16",
+  "end_date": "2022-10-17",
+  "circuit": [],
+  "description": "\n<p>O VIII TRAIL – Condinvest / Quinta da Lixa – Monte do Seixoso é realizado pela LIXANIMA em conjunto com os patrocinadores oficiais da prova CONDINVEST e QUINTA DA LIXA e conta com o apoio da Câmara Municipal de Felgueiras, Casa do Povo da Lixa e Ginásio GINOFITNESS.</p>\n\n\n\n<p>No VIII TRAIL – Condinvest / Quinta da Lixa – Monte do Seixoso, serão enquadradas as seguintes provas:</p>\n\n\n\n<p>Trail Longo – +/- 21 km<br>Trail Curto – +/- 11 km<br>Caminhada &#8211; +/- 11 km</p>\n\n\n\n<p><br>Este ano, o Trail Longo e o Trail Curto, encontram-se inseridas no Campeonato Regional de Trail da Associação de Atletismo do Porto.</p>\n\n\n",
+  "description_short": "Trail desafiante pela região de Felgueiras com provas de diferentes distâncias e apoio municipal",
+  "page": "https://www.desportave.pt/events.file.php?cid=140",
+  "slug": "viii-trail-condinvest-quinta-da-lixa-monte-do-seixoso-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Felgueiras",
+  "administrative_area_level_3": "União das freguesias de Vila Cova da Lixa e Borba de Godim",
+  "district_code": 13
+}

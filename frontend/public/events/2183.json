@@ -1,0 +1,29 @@
+{
+  "id": 2183,
+  "name": "II Trail Serra dos Passos 2020",
+  "location": "Passos, Braganca",
+  "coordinates": {
+    "lat": 41.4650164,
+    "lon": -7.2638371
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f3cf955ec761e77081d0ac55fb9b4b6f"
+  ],
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-08",
+  "circuit": [],
+  "description": "<h2>II Trail Serra dos Passos</h2>\n<p>&nbsp;</p>\n<p align=\"justify\">A 7 de junho, parte à conquista desta serra mágica, a serra dos Passos. Nesta serra, existe a maior concentração portuguesa de pintura esquemática de ar livre pós-glaciária datável do quarto e terceiro milénios antes de Cristo.</p>\n<p>&nbsp;</p>\n<p align=\"justify\">Será a segunda edição desta prova, um trail onde os atletas são recebidos como uns verdadeiros guerreiros.</p>\n<p>&nbsp;</p>\n<p align=\"justify\">No final será servido um almoço para recuperares as energias.</p>\n",
+  "description_short": "Trail histórico pela Serra dos Passos com vestígios de arte rupestre pré-histórica",
+  "page": "https://www.prozis.com/pt/pt/evento/ii-trail-serra-dos-passos",
+  "slug": "ii-trail-serra-dos-passos-2020",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Mirandela",
+  "administrative_area_level_3": "Passos",
+  "district_code": 4
+}

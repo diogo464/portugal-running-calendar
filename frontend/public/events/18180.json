@@ -1,0 +1,34 @@
+{
+  "id": 18180,
+  "name": "São Silvestre de Almada 2022",
+  "location": "Almada",
+  "coordinates": {
+    "lat": 38.6765238,
+    "lon": -9.165104699999999
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "kids"
+  ],
+  "images": [
+    "media/fa636b9b545bf898742003d86075872c"
+  ],
+  "start_date": "2022-12-10",
+  "end_date": "2022-12-11",
+  "circuit": [],
+  "description": "\n<p>No coração de Almada será realizada a VI edição da São Silvestre de Almada. Para os mais pequeninos, a famosa corrida da pequenada!!! Não faltes a mais esta festa da corrida em Almada.</p>\n",
+  "description_short": "São Silvestre tradicional com corrida infantil no centro de Almada",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/126/",
+  "slug": "sao-silvestre-de-almada-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": null,
+  "district_code": 15
+}

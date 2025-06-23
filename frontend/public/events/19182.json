@@ -1,0 +1,35 @@
+{
+  "id": 19182,
+  "name": "III Trail na Rota da Perdiz 2022",
+  "location": "Alcoutim, Faro",
+  "coordinates": {
+    "lat": 37.4689817,
+    "lon": -7.4735957
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    5000,
+    9000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/5f79c186d38daa714cc149e81fe963d4"
+  ],
+  "start_date": "2022-11-13",
+  "end_date": "2022-11-14",
+  "circuit": [],
+  "description": "\n<p>O “III Trail na Rota da Perdiz” é uma prova de TrailRunning organizada pela Associação Inter-Vivos em colaboração com a Câmara Municipal de Alcoutim, que será realizada no dia 13 de novembro de 2022, com início as 09:30 horas com o complemento da opção da caminhada.</p>\n\n\n\n<p>Os percursos têm as seguintes distâncias:<br>&#8211; Trail &#8211; 18 Km com idade mínima permitida de participação, maior ou igual a 18 anos;<br>&#8211; Caminhada de 5 e 9 Km que não terá classificações, idade mínima maior ou igual a 12 anos, sendo que os<br>menores de idade terão de ser acompanhados por um responsável maior de idade.</p>\n\n\n",
+  "description_short": "Trail pela paisagem serrana de Alcoutim com percurso dedicado à perdiz local",
+  "page": "https://www.crono.aaalgarve.org/eventos/iii-trail-na-rota-da-perdiz",
+  "slug": "iii-trail-na-rota-da-perdiz-2022",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Alcoutim",
+  "administrative_area_level_3": "União das freguesias de Alcoutim e Pereiro",
+  "district_code": 8
+}

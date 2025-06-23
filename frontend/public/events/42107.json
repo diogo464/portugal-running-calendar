@@ -1,0 +1,33 @@
+{
+  "id": 42107,
+  "name": "A Encosta 2025",
+  "location": "Alcobaça, Leiria",
+  "coordinates": {
+    "lat": 39.5503343,
+    "lon": -8.9730531
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    8000,
+    11000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f9b5cea8ab85f12f39e03d7ae0203aae"
+  ],
+  "start_date": "2025-09-06",
+  "end_date": "2025-09-07",
+  "circuit": [],
+  "description": "\n<p><strong>A ENCOSTA</strong>&nbsp;é um evento organizado pela&nbsp;<strong>A D R C Crossmates</strong>&nbsp;e acontecerá no dia&nbsp;<strong>06 de Setembro de 2025</strong></p>\n\n\n\n<p><strong>PROVAS</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Percurso de trail misto entre trilho e locais urbanos constituído por uma volta única com cerca de<strong> 11 km</strong> e vários obstáculos</li>\n\n\n\n<li>Ao longo do percurso as equipas terão de superar os mais variados desafios. Estes deverão ser cumpridos em parelha, sem nunca retirar o dispositivo, que une os dois atletas por um dos membros superiores.</li>\n\n\n\n<li>A partida será dada em boxes de 4 equipas com intervalos de 2 minutos entre boxes.</li>\n\n\n\n<li>Haverá uma caminhada com cerca de 8 km sem caráter competitivo, cujo percurso passará pelos locais em se localizam os desafios.</li>\n</ul>\n\n\n\n<p></p>\n\n\n\n\n\n<p></p>\n",
+  "description_short": "Trail urbano e de trilho com desafios por equipas em percurso misto de 11 km",
+  "page": "https://www.recordepessoal.pt/evento/3edicaoaencosta",
+  "slug": "a-encosta-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alcobaça",
+  "administrative_area_level_3": "Alcobaça",
+  "district_code": 10
+}

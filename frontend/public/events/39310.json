@@ -1,0 +1,32 @@
+{
+  "id": 39310,
+  "name": "Corrida 4 Estações Outono &#8211; Condeixa 2025",
+  "location": "Condeixa, Coimbra",
+  "coordinates": {
+    "lat": 40.1141535,
+    "lon": -8.498116399999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [],
+  "start_date": "2025-10-26",
+  "end_date": "2025-10-27",
+  "circuit": [
+    "4 Estacoes"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://corrida4estacoesportugal.wordpress.com/",
+  "slug": "corrida-4-estacoes-outono-condeixa-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Condeixa-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Condeixa-a-Velha e Condeixa-a-Nova",
+  "district_code": 6
+}

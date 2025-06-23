@@ -1,0 +1,33 @@
+{
+  "id": 6187,
+  "name": "Trail Rota do Sal 2021",
+  "location": "Santa Comba Dão, Viseu",
+  "coordinates": {
+    "lat": 40.3966275,
+    "lon": -8.1314525
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/cdbbca88a3e90e2365d93d4a7f30c48e"
+  ],
+  "start_date": "2021-12-19",
+  "end_date": "2021-12-20",
+  "circuit": [],
+  "description": "\n<p>A Rota do Sal está de volta com o Trail Rota do Sal 2021! No dia 19 de Dezembro, iremos ter:</p>\n\n\n\n<p>Trail longo de 25km 1000d+</p>\n\n\n\n<p>Trail curto de 15km 500d+</p>\n\n\n\n<p>Caminhada de 10km 300d+</p>\n",
+  "description_short": "Trail desafiante junto ao litoral com percursos para diferentes níveis de dificuldade",
+  "page": "https://lap2go.com/pt/event/trail-rota-do-sal-2021/inscricao.html",
+  "slug": "trail-rota-do-sal-2021",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Santa Comba Dão",
+  "administrative_area_level_3": "União das freguesias de Santa Comba Dão e Couto do Mosteiro",
+  "district_code": 18
+}

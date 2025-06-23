@@ -1,0 +1,36 @@
+{
+  "id": 38734,
+  "name": "Quinhendros Trail 2025",
+  "location": "Quinhendros, Montemor-o-Velho",
+  "coordinates": {
+    "lat": 40.1783271,
+    "lon": -8.696233099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    8000,
+    13000,
+    19000
+  ],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/2539f5c8221e35ecdfcb124fe57cfa3b"
+  ],
+  "start_date": "2025-03-23",
+  "end_date": "2025-03-24",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Prova integrante do Circuito Distrital de Mini Trail Running de Coimbra &#8211; 13 KM</p>\n\n\n\n<p>Prova Candidata ao Circuito Nacional de Trail Sprint, ATRP &#8211; 19 KM</p>\n\n\n\n<p>A zona de partida e chegada será junto ao pavilhão da ACDRS Quinhendros, na localidade de Quinhendros, Montemor-o-Velho. O evento inclui as seguintes provas:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Mini Trail 13 K:</strong> Integrante do Circuito Distrital de Mini Trail</li>\n\n\n\n<li><strong>Trail Sprint 19 K:</strong> Circuito Nacional de Trail Sprint, ATRP &#8211; Prova Candidata</li>\n\n\n\n<li><strong>Caminhada 8 K:</strong> Percurso pelas zonas emblemáticas de Quinhendros e Montemor-o-Velho</li>\n</ul>\n",
+  "description_short": "Trail running em Quinhendros com provas distritais e candidatura ao circuito nacional",
+  "page": "https://www.runmanager.net/Eventos/quinhendros-trail-2025/886",
+  "slug": "quinhendros-trail-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Montemor-o-Velho",
+  "administrative_area_level_3": "União das freguesias de Montemor-o-Velho e Gatões",
+  "district_code": 6
+}

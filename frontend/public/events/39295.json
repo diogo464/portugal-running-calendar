@@ -1,0 +1,33 @@
+{
+  "id": 39295,
+  "name": "Cross Laminha 2025",
+  "location": "Cumeira, Leiria",
+  "coordinates": {
+    "lat": 39.691046,
+    "lon": -8.8026334
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    13000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "cross-country"
+  ],
+  "images": [
+    "media/3f47984210305307b087e1d2e044a55e"
+  ],
+  "start_date": "2025-01-12",
+  "end_date": "2025-01-13",
+  "circuit": [],
+  "description": "\n<p>A Fábrica da Igreja não Paroquial da Boieira organiza no dia 12 janeiro de 2025, pelas 10h00, a 21ª edição do CROSS LAMINHA, com percurso de cerca de 13 kms.</p>\n",
+  "description_short": "Cross tradicional na região da Boieira com 21ª edição organizado pela Fábrica da Igreja local",
+  "page": "https://eventos.dreamstudio.pt/crosslaminha2025/",
+  "slug": "cross-laminha-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das Freguesias de Leiria, Pousos, Barreira e Cortes",
+  "district_code": 10
+}

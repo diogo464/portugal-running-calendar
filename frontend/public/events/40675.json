@@ -1,0 +1,29 @@
+{
+  "id": 40675,
+  "name": "Corrida Virtual &#8211; Faz das Tripas Coração 2025",
+  "location": "Madeira",
+  "coordinates": {
+    "lat": 32.76070740000001,
+    "lon": -16.9594723
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/d5d2dc6d88e2b1ef7aeec2d4bd08e9b3"
+  ],
+  "start_date": "2025-03-01",
+  "end_date": "2025-03-01",
+  "circuit": [],
+  "description": "\n<p>Este evento é virtual, sem carácter competitivo e de cariz solidário, com o objetivo de apoiar a Liga Portuguesa Contra o Cancro. Esta corrida é aberta a toda a população sem restrições de idade, podendo ser feita a correr ou a caminhar.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida virtual e solidária em benefício da Liga Portuguesa Contra o Cancro",
+  "page": "https://lap2go.com/pt/event/faz-das-tripas-coracao-virtual-2025",
+  "slug": "corrida-virtual-faz-das-tripas-coracao-2025",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

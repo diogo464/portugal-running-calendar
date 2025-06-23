@@ -1,0 +1,33 @@
+{
+  "id": 1206,
+  "name": "28ª Corrida das Linhas de Elvas 2020",
+  "location": "Elvas Elvas, Portalegre",
+  "coordinates": {
+    "lat": 38.8802788,
+    "lon": -7.1636637
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/4365111e747786bc5a2244ed25d5234e"
+  ],
+  "start_date": "2020-01-19",
+  "end_date": "2020-01-20",
+  "circuit": [],
+  "description": "<p style=\"font-weight: 400;\">A 28ª Corrida das Linhas de Elvas está marcada para domingo, 19 de janeiro, com partida do Padrão das Linhas de Elvas, numa organização da Câmara Municipal de Elvas.</p>\n<p style=\"font-weight: 400;\">O início da corrida está marcado para as 11 horas e conta <span style=\"font-style: inherit; font-weight: inherit;\">com um percurso pela circular à cidade e meta no Estádio Municipal de </span><span style=\"font-style: inherit; font-weight: inherit;\">Atletismo. Neste sentido, os atletas de juniores, seniores e veteranos têm </span><span style=\"font-style: inherit; font-weight: inherit;\">partida do Sítio dos Murtais, enquanto que os benjamins, infantis, iniciados e </span><span style=\"font-style: inherit; font-weight: inherit;\">juvenis correm no Estádio Municipal de Atletismo.</span></p>\n<p style=\"font-weight: 400;\">No âmbito desta iniciativa, pelas 10 horas, partem também os caminhantes da 16ª Caminhada das Linhas de Elvas. As inscrições para a caminhada são feitas para o email <a style=\"font-style: inherit; font-weight: inherit;\" href=\"mailto:desporto@cm-elvas.pt\">desporto@cm-elvas.pt</a>.</p>\n<p style=\"font-weight: 400;\">As inscrições para a corrida são feitas no site da Associação de Atletismo do Distrito de Portalegre, até 17 de janeiro.</p>\n",
+  "description_short": "Corrida tradicional pelas Linhas de Elvas com partida no Padrão e meta no Estádio Municipal",
+  "page": "http://www.cm-elvas.pt/municipio/corrida-e-caminhada-das-linhas-de-elvas-a-19-de-janeiro/",
+  "slug": "28a-corrida-das-linhas-de-elvas-2020",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Elvas",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

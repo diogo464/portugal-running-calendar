@@ -1,0 +1,30 @@
+{
+  "id": 2156,
+  "name": "Fermedo Trail Run 2020",
+  "location": "Fermedo, Aveiro",
+  "coordinates": {
+    "lat": 40.9562984,
+    "lon": -8.419423
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/1527bbaae5fdc9a151c54bb2fc135ff6"
+  ],
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-06",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "http://fermedotrailrun.pt/2020/",
+  "slug": "fermedo-trail-run-2020",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Arouca",
+  "administrative_area_level_3": "Fermedo",
+  "district_code": 1
+}

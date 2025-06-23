@@ -1,0 +1,31 @@
+{
+  "id": 36723,
+  "name": "Trail Glória do Ribatejo 2024",
+  "location": "Salvaterra de Magos, Santarém",
+  "coordinates": {
+    "lat": 39.0272019,
+    "lon": -8.794182
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/d4add72bd4d09ddde61180fa6a0bea50"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-04",
+  "circuit": [],
+  "description": "\n<p>As provas têm como ponto de partida e de chegada o Pavilhão Municipal (junto ao Campo de<br>Futebol), em Glória do Ribatejo.<br>O evento inclui três provas de caráter competitivo (Trail Longo, Trail Curto e Mini Trail) e uma<br>Caminhada que irá decorrer num ambiente rural e pelos trilhos da vila de Glória do Ribatejo.</p>\n",
+  "description_short": "Trail competitivo pelos trilhos rurais da vila de Glória do Ribatejo, com partida e chegada no Pavilhão Municipal",
+  "page": "https://acorrer.pt/eventos/info/3621",
+  "slug": "trail-gloria-do-ribatejo-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "Salvaterra de Magos",
+  "district_code": 14
+}

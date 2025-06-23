@@ -1,0 +1,33 @@
+{
+  "id": 21234,
+  "name": "Meia Maratona de Lisboa 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    21000,
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/91b566df320dc4e94741d6805c456ba7"
+  ],
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-09",
+  "circuit": [],
+  "description": "\n<p>A Luso Meia Maratona é uma das mais populares provas de Portugal e em 2023 realizar-se a <strong>8 de Outubro</strong>. O seu percurso de 21 Km tem início na&nbsp;Ponte Vasco da Gama&nbsp;terminando na&nbsp;Praça do Comércio, um marco histórico da cidade de Lisboa, em frente ao rio Tejo.</p>\n\n\n\n<p>A Luso Meia Maratona, ocorre no mesmo dia da&nbsp;EDP Maratona de Lisboa, que em conjunto, trazem todos os anos à cidade os grandes nomes do atletismo nacional e internacional e atraem milhares de corredores estrangeiros, que juntam o prazer da corrida com a visita a uma cidade única como Lisboa.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Percurso </h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"634\" src=\"https://www.portugalrunning.com/wp-content/uploads/2022/12/Meia-Maratona-de-Lisboa-2023-Percurso-1024x634.jpg\" alt=\"Meia Maratona de Lisboa 2023 - Percurso\" class=\"wp-image-26697\" srcset=\"https://www.portugalrunning.com/wp-content/uploads/2022/12/Meia-Maratona-de-Lisboa-2023-Percurso-1024x634.jpg 1024w, https://www.portugalrunning.com/wp-content/uploads/2022/12/Meia-Maratona-de-Lisboa-2023-Percurso-300x186.jpg 300w, https://www.portugalrunning.com/wp-content/uploads/2022/12/Meia-Maratona-de-Lisboa-2023-Percurso-768x476.jpg 768w, https://www.portugalrunning.com/wp-content/uploads/2022/12/Meia-Maratona-de-Lisboa-2023-Percurso.jpg 1130w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h3 class=\"wp-block-heading\">VIDEO DA PROVA de 2022</h3>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"zak-oembed-container\"><iframe title=\"Atletismo: Meia e Mini Maratona de Lisboa - 09/10/2022\" width=\"812\" height=\"457\" src=\"https://www.youtube.com/embed/XNISNhO6LJI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n</div></figure>\n\n\n<div id=\"rank-math-faq\" class=\"rank-math-block\">\n<div class=\"rank-math-list \">\n<div id=\"faq-question-1689069917123\" class=\"rank-math-list-item\">\n<h3 class=\"rank-math-question \">Quando é a Luso Meia Maratona de Lisboa?</h3>\n<div class=\"rank-math-answer \">\n\n<p>A próxima Meia Maratona de Lisboa é a 8 de outubro de 2024</p>\n\n</div>\n</div>\n<div id=\"faq-question-1689070013006\" class=\"rank-math-list-item\">\n<h3 class=\"rank-math-question \">Onde termina a Luso Meia Maratona de Lisboa?<br></h3>\n<div class=\"rank-math-answer \">\n\n<p>A meia maratona vai terminar na Praça do Comércio.</p>\n\n</div>\n</div>\n</div>\n</div>",
+  "description_short": "Meia maratona icónica de Lisboa com partida da Ponte Vasco da Gama e chegada à Praça do Comércio, junto ao Tejo",
+  "page": "https://www.maratonaclubedeportugal.com/prova/luso-meia-maratona",
+  "slug": "luso-meia-maratona-de-lisboa-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

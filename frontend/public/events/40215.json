@@ -1,0 +1,35 @@
+{
+  "id": 40215,
+  "name": "Trail Terras do Sardão 2025",
+  "location": "Sardoal, Santarém",
+  "coordinates": {
+    "lat": 39.5511009,
+    "lon": -8.1557066
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    11000,
+    17000,
+    30000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/19cace81c3eea02a1b057f56a5e1283f"
+  ],
+  "start_date": "2025-05-25",
+  "end_date": "2025-05-26",
+  "circuit": [],
+  "description": "\n<p>O X Trail “Terras do Sardão” será realizado no dia 25 de maio de 2025, em Sardoal, independentemente das condições climatéricas do dia, desde que a organização entenda que não ofereçam risco aos participantes.<br>O evento será constituído por três percursos:<br>&#8211; Trail Longo “Terras do Sardão” &#8211; 30km – Prova classificativa para o Circuito de Trail do Ribatejo;<br>&#8211; Trail Curto “Terras do Sardão” &#8211; 17km &#8211; Prova classificativa para o Circuito de Trail do Ribatejo;<br>&#8211; Mini Trail “Terras do Sardão” – 11km &#8211; Prova de caracter competitivo<br>&#8211; Caminhada “Terras do Sardão” &#8211; 11km – Sem caracter competitivo.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelas paisagens rurais do Sardoal com três provas competitivas e uma caminhada",
+  "page": "https://www.trilhoperdido.com/evento/X-Trail-Terras-do-Sardao",
+  "slug": "trail-terras-do-sardao-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Sardoal",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

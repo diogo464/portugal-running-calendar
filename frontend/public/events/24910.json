@@ -1,0 +1,33 @@
+{
+  "id": 24910,
+  "name": "9º Gp Atletismo Albufeira Do Tâmega 2023",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/89142f8c963e8c20164cd25fe66819db"
+  ],
+  "start_date": "2023-07-23",
+  "end_date": "2023-07-24",
+  "circuit": [],
+  "description": "\n<p>A Casa do Benfica no Marco, com o apoio da Câmara Municipal do Marco de Canaveses, vai organizar<br>o 9º Grande Prémio de Atletismo Albufeira do Tâmega, no dia 23 de julho de 2023</p>\n\n\n",
+  "description_short": "Corrida de atletismo organizada pela Casa do Benfica no Marco de Canaveses às margens do Tâmega",
+  "page": "https://www.desportave.pt/events.file.php?cid=158",
+  "slug": "9o-gp-atletismo-albufeira-do-tamega-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}

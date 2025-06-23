@@ -1,0 +1,30 @@
+{
+  "id": 13931,
+  "name": "Trilhos Termais 2022",
+  "location": "Caldas de São Jorge, Santa Maria da Feira",
+  "coordinates": {
+    "lat": 40.9680906,
+    "lon": -8.5010683
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/292297909b5ac3bbc5dbfb585ca5331d"
+  ],
+  "start_date": "2022-04-02",
+  "end_date": "2022-04-03",
+  "circuit": [],
+  "description": "\n<p>Os Trilhos Termais 2022 é um evento desportivo com três vertentes, um Trail Curto e um Trail Longo com cariz competitivo e uma Caminhada com cariz recreativo que permitira aos participantes partir da vila termal de Caldas de São Jorge e percorrer trilhos de beleza extrema do concelho de Santa Maria da Feira.</p>\n",
+  "description_short": "Trail pelos caminhos históricos e naturais em redor das Caldas de São Jorge",
+  "page": "https://lap2go.com/pt/event/trilhos-termais-2022",
+  "slug": "trilhos-termais-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Santa Maria da Feira",
+  "administrative_area_level_3": "Caldas de São Jorge",
+  "district_code": 1
+}

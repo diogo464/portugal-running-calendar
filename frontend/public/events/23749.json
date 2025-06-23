@@ -1,0 +1,33 @@
+{
+  "id": 23749,
+  "name": "I Corrida Intermarché Ancora Areosa 2023",
+  "location": "Âncora, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8038203,
+    "lon": -8.854066699999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    13000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/10f3b291c4dc11aa57e202b5e1e9c42d"
+  ],
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-05",
+  "circuit": [],
+  "description": "\n<p>A CORRIDA INTERMARCHÉ ANCORA AREOSA é um evento organizado pelo INTERMARCHÉ e<br>pela Associação Desportiva Afifense, percorrendo 13 km entre Âncora e Areosa.<br>A prova conta com a colaboração da Associação de Atletismo de Viana do Castelo, bem como o apoio das<br>Câmaras Municipais de Caminha e Viana do Castelo e Juntas de Freguesia de Afife, Âncora, Areosa e<br>Carreço.</p>\n\n\n\n<p>A prova realiza-se no dia 4 de junho, com partida às 9h30 no Intermarché de Âncora, em Caminha.</p>\n\n\n",
+  "description_short": "Corrida junto ao litoral minhoto ligando Âncora e Areosa com organização do Intermarché",
+  "page": "http://cyclonessports.com/index.php/274-i-corrida-intermarche-ancora-areosa",
+  "slug": "i-corrida-intermarche-ancora-areosa-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Caminha",
+  "administrative_area_level_3": "Âncora",
+  "district_code": 16
+}

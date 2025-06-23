@@ -1,0 +1,30 @@
+{
+  "id": 20371,
+  "name": "5º Trail da Loba 2023",
+  "location": "Rio de Loba, Viseu",
+  "coordinates": {
+    "lat": 40.6646716,
+    "lon": -7.8778339
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/8b2600d4808503750452928e38da6790"
+  ],
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-16",
+  "circuit": [],
+  "description": "\n<p>O 5º Trail da Loba 2022 será realizado no dia 15/01/2023 em Rio de Loba – Viseu. Este evento é organizado pela Junta de Freguesia de Rio de Loba, em parceria com o Centro Social Cultural Desportivo e Recreativo Leões da Beira e tem como objetivo promover a prática da atividade física, dando a conhecer os trilhos e caminhos da Freguesia de Rio de Loba.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos históricos de Rio de Loba em Viseu",
+  "page": "https://acorrer.pt/eventos/info/3023",
+  "slug": "5o-trail-da-loba-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Viseu",
+  "administrative_area_level_3": "Rio de Loba",
+  "district_code": 18
+}

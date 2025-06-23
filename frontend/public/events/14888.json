@@ -1,0 +1,29 @@
+{
+  "id": 14888,
+  "name": "Trail Foge Foge Capão 2022",
+  "location": "Freamunde, Porto",
+  "coordinates": {
+    "lat": 41.2865608,
+    "lon": -8.338962
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5b988b214422d5406a938710d4cc1c9d"
+  ],
+  "start_date": "2022-06-19",
+  "end_date": "2022-06-20",
+  "circuit": [],
+  "description": "\n<p>Trail Foge Foge Capão 2022</p>\n",
+  "description_short": "Trail desafiante pelos caminhos rurais da região de Capão",
+  "page": "https://stopandgo.net/event/?id=732",
+  "slug": "trail-foge-foge-capao-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paços de Ferreira",
+  "administrative_area_level_3": "Freamunde",
+  "district_code": 13
+}

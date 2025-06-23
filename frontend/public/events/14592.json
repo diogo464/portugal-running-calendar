@@ -1,0 +1,29 @@
+{
+  "id": 14592,
+  "name": "Trail Moinhos de Sesimbra 2022",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/5160e039eda58c3d8bba1935881933f7"
+  ],
+  "start_date": "2022-04-25",
+  "end_date": "2022-04-26",
+  "circuit": [],
+  "description": "\n<p>Trail Moinhos de Sesimbra 2022</p>\n",
+  "description_short": "Trail desafiante pelos caminhos tradicionais de Sesimbra com passagem pelos emblemáticos moinhos locais",
+  "page": "https://www.queroir.pt/trail-moinhos-sesimbra",
+  "slug": "trail-moinhos-de-sesimbra-2022",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

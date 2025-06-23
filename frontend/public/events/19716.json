@@ -1,0 +1,31 @@
+{
+  "id": 19716,
+  "name": "Cross de Torres Vedras 2022",
+  "location": "Parque Verde da Várzea, Torres Vedras",
+  "coordinates": {
+    "lat": 39.086603,
+    "lon": -9.2623229
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "cross-country"
+  ],
+  "images": [
+    "media/ab183074224a29fb9cd03f98424e9697"
+  ],
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-07",
+  "circuit": [],
+  "description": "\n<p>O Cross de Cross de Torres Vedras / 40º Corta-Mato de Matos Velhos é uma das clássicas provas de corta-mato em Portugal, que se realiza no Parque Verde da Várzea. Esta é uma organização conjunta da Câmara Municipal de Torres Vedras, da União Desportiva do Oeste e do Grupo Desportivo, Cultural e Recreativo de Matos Velhos.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Corta-mato tradicional em Torres Vedras com organização municipal e desportiva no Parque Verde da Várzea",
+  "page": "https://lap2go.com/pt/event/cross-torres-vedras-2022",
+  "slug": "cross-de-torres-vedras-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Matacães",
+  "district_code": 11
+}

@@ -1,0 +1,32 @@
+{
+  "id": 14137,
+  "name": "Corrida das Festas de S. João de Braga 2022",
+  "location": "Braga",
+  "coordinates": {
+    "lat": 41.5454486,
+    "lon": -8.426506999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    5000,
+    10000,
+    12000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [],
+  "start_date": "2022-06-25",
+  "end_date": "2022-06-26",
+  "circuit": [],
+  "description": "\n<p>Corrida das Festas de S. João de Braga 2022</p>\n\n\n\n<p>25 de Junho de 2022 &#8211; Braga &#8211; 12km/5km</p>\n",
+  "description_short": "Corrida festiva pelas ruas históricas de Braga durante as celebrações de São João",
+  "page": "https://www.runporto.com/pt/eventos/corrida-de-sao-joao-de-braga/",
+  "slug": "corrida-das-festas-de-s-joao-de-braga-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Braga",
+  "administrative_area_level_3": null,
+  "district_code": 3
+}

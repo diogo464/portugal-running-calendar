@@ -1,0 +1,33 @@
+{
+  "id": 14524,
+  "name": "Corrida Do Chocolate 2022",
+  "location": "Óbidos",
+  "coordinates": {
+    "lat": 39.3572399,
+    "lon": -9.1578614
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/7747113c05933f530f25629d39cf57b7"
+  ],
+  "start_date": "2022-03-26",
+  "end_date": "2022-03-27",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Óbidos (CMO) organiza em parceria com a Empresa Municipal “Óbidos Criativa” (OC), o Clube de Atletismo de Óbidos (CAOB) e a Ganhardestak, no dia 26 de março de 2022, uma competição denominada &#8220;III Corrida Do Chocolate 2022&#8221;, integrando ainda a “II CAMINHADA DO CHOCOLATE”, ambas com partida e chegada à porta da Vila de Óbidos.</p>\n",
+  "description_short": "Corrida temática do chocolate com partida e chegada na histórica vila de Óbidos",
+  "page": "https://ganhardestak.bol.pt/Comprar/Bilhetes/106172-iii_corrida_do_chocolate_ii_caminhada_do_chocolate_2022-castelo_de_obidos/",
+  "slug": "corrida-do-chocolate-2022",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Município do Óbidos",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Sobral da Lagoa",
+  "district_code": 10
+}

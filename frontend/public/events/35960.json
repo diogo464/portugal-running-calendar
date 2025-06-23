@@ -1,0 +1,32 @@
+{
+  "id": 35960,
+  "name": "TAUT Trail 2025",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/f5d90b012b493466fd942a09105e55cc"
+  ],
+  "start_date": "2025-03-07",
+  "end_date": "2025-03-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>TAUT – Terras do Ancião Ultra Trail, integra 6 provas competitivas, Dois dias de puro TRAIL num cenário em que a conjugação da arte com a paisagem a partir de um elemento natural que os caracteriza &#8211; a Pedra. Decorre nos dias 7 e 8 de Março de 2025, já é uma referência a nível Nacional e continuaremos a manter essa referência com a 11a edição de Trail Running, com partida em Ansião, onde está previsto a passagem pelas estradas e caminhos dos Concelhos de Penela (Cumieira, São João do Deserto e Aldeia das<br>Ferrarias de São João), Castanheira de Pêra (Peralcovo, Capela Santo António das Neves), Figueiró dos Vinhos (Cercal, Arega e Aguda) e Pombal (Freguesia de Abiul e Serra de Sicó).</p>\n",
+  "description_short": "Trail épico por caminhos históricos da região de Ansião, atravessando paisagens únicas da Serra de Sicó",
+  "page": "https://stopandgo.net/events/taut-terras-do-anciao-ultra-trail-2025",
+  "slug": "taut-trail-2025",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

@@ -1,0 +1,35 @@
+{
+  "id": 36007,
+  "name": "Running Festas São Bernardo Sátão 2024",
+  "location": "Satão, Viseu",
+  "coordinates": {
+    "lat": 40.7423572,
+    "lon": -7.732120099999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/298cb88e2b5f63255f241ac150fda6b1"
+  ],
+  "start_date": "2024-08-17",
+  "end_date": "2024-08-18",
+  "circuit": [],
+  "description": "\n<p>A prova realiza-se no dia 17 de agosto de 2024, pelas 09h00m, com partida e chegada em frente à Câmara Municipal de Sátão, onde se enquadranas Festas de São Bernardo, com corrida na distância de 10 kms, uma<br>caminhada na distância de 7 kms e provas para as crianças, com percurso diferente, dos 7 aos 14 anos.</p>\n\n\n\n<p><br>Chegada: Frente ao Município de Sátão.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida e caminhada integrada nas Festas de São Bernardo em Sátão, com provas para todas as idades",
+  "page": "https://acorrer.pt/eventos/info/3569",
+  "slug": "running-festas-sao-bernardo-satao-2024",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Sátão",
+  "administrative_area_level_3": "Sátão",
+  "district_code": 18
+}

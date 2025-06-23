@@ -1,0 +1,35 @@
+{
+  "id": 40557,
+  "name": "Trail Lagoa de Óbidos 2025",
+  "location": "Óbidos, Leiria",
+  "coordinates": {
+    "lat": 39.3572399,
+    "lon": -9.1578614
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    11000,
+    22000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/897ffc5c18a10129bbffd319b365f193"
+  ],
+  "start_date": "2025-06-01",
+  "end_date": "2025-06-02",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Com o apoio da Câmara Municipal de Óbidos e da Junta de Freguesia do Vau e organização da GanharDestak, realiza-se no próximo dia 1 de junho de 2025, a 6ª edição do Trail Lagoa de Óbidos, percorrido por caminhos e trilhos na zona da Lagoa de Óbidos.</p>\n\n\n\n<p>Será composto por um Trail Longo na distância de 22K+ e um Trail Curto/Caminhada de 11K+, ambos com partida e chegada junto ao pavilhão da Associação Recreativa Desportiva e Cultural Vauense em Óbidos.</p>\n\n\n\n<p>O Trail Longo integra o Circuito Nacional de Trail Sprint 24/25 e o Trail Curto integra o Circuito Nacional de Trail Jovem 24/25.</p>\n\n\n\n<p>Cada atleta inscrito tem direito a uma entrada no Mercado Medieval de Óbidos 2025 (não convertível em dinheiro).</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pelos trilhos da Lagoa de Óbidos com passagem pelo Mercado Medieval",
+  "page": "https://www.bol.pt/Comprar/Bilhetes/154919-6o_trail_lagoa_de_obidos-vau/",
+  "slug": "trail-lagoa-de-obidos-202",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Município do Óbidos",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Sobral da Lagoa",
+  "district_code": 10
+}

@@ -1,0 +1,29 @@
+{
+  "id": 30409,
+  "name": "Extreme Trail Cucos 2024",
+  "location": "Cucos, Torres Vedras Vedras, Lisboa",
+  "coordinates": {
+    "lat": 39.090818,
+    "lon": -9.2412499
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/a23fc4b3bee7dd82850d404f694372af"
+  ],
+  "start_date": "2024-06-10",
+  "end_date": "2024-06-11",
+  "circuit": [],
+  "description": "\n<p><strong> </strong>O   TURRES TRAIL  CLUBE , com o apoio da Câmara Municipal de Torres Vedras e junta de freguesia de São Pedro Santiago e Santa Maria  ,  vai realizar no próximo dia 10 de Junho de 2024, um evento denominado &#8220;<strong>   10º EXTREME TRAIL CUCOS</strong>&#8220;. Este evento, terá um Trail Longo  MD de Grau 3, um Trail Curto  MD de Grau 3 e um Mini Trail  . O percurso do Trail Run é circular, o local de partida e chegada assim como o secretariado será no IVV-Instituto da Vinha e do Vinho de Torres Vedras  </p>\n",
+  "description_short": "Trail desafiante no Instituto da Vinha e do Vinho com diferentes percursos em Torres Vedras",
+  "page": "https://www.turresevents.com/eventos/extreme-trail-cucos-2024",
+  "slug": "extreme-trail-cucos-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Torres Vedras",
+  "administrative_area_level_3": "Santa Maria, São Pedro e Matacães",
+  "district_code": 11
+}

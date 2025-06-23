@@ -1,0 +1,33 @@
+{
+  "id": 23282,
+  "name": "Corrida da Liberdade 2025",
+  "location": "Cabeceiras de Basto, Braga",
+  "coordinates": {
+    "lat": 41.5116939,
+    "lon": -7.9979753
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/4c08a184b1aa7e64100c62fbd0305a05"
+  ],
+  "start_date": "2023-04-25",
+  "end_date": "2023-04-26",
+  "circuit": [],
+  "description": "\n<p>A “Corrida da Liberdade”: é uma prova de atletismo organizada pela Associação Dinamizadora<br>dos Interesses de Basto, há 34 anos no Município de Cabeceiras de Basto, com a colaboração da<br>Câmara Municipal de Cabeceiras de Basto e terá lugar no dia 25/04/2023 a partir das 10h00 horas,<br>com partida e chegada na Zona Adjacente do Mosteiro de S. Miguel, na Praça da República.</p>\n\n\n",
+  "description_short": "Corrida histórica evocativa da Revolução de Abril em Cabeceiras de Basto",
+  "page": "https://www.portimer.pt/eventos/corrida-liberdade-2023",
+  "slug": "corrida-da-liberdade-cabeceiras-de-basto",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Cabeceiras de Basto",
+  "administrative_area_level_3": "Refojos de Basto",
+  "district_code": 3
+}

@@ -1,0 +1,33 @@
+{
+  "id": 2875,
+  "name": "Trail da Raposa 2021",
+  "location": "Paredes, Porto",
+  "coordinates": {
+    "lat": 41.2051674,
+    "lon": -8.3303867
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    19000,
+    33000,
+    48000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6a12875f2a1cff97c1da964f9e0689cd"
+  ],
+  "start_date": "2021-07-31",
+  "end_date": "2021-08-01",
+  "circuit": [],
+  "description": "\n<p>Trail da Raposa 2021 regressa em JULHO, um evento remodelado, adaptado á situação actual do país, e muitas novidades interessantes!<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"👉🏼\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t8d/1/16/1f449_1f3fc.png\"> Trail Ultra 48 km &#8211; Circuito Nacional de Trail Ultra<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"👉🏼\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t8d/1/16/1f449_1f3fc.png\"> Trail 33 km &#8211; Circuito Nacional de Trail<img decoding=\"async\" height=\"16\" width=\"16\" alt=\"👉🏼\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t8d/1/16/1f449_1f3fc.png\"> Mini-Trail 19 Km</p>\n",
+  "description_short": "Trail da Raposa em julho com três provas de trail por paisagens desafiadoras",
+  "page": "https://www.facebook.com/TraildaRaposa",
+  "slug": "trail-da-raposa-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Paredes",
+  "administrative_area_level_3": "Paredes",
+  "district_code": 13
+}

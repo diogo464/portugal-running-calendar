@@ -1,0 +1,32 @@
+{
+  "id": 20044,
+  "name": "LouzanTrail 2023",
+  "location": "Lousã, Coimbra",
+  "coordinates": {
+    "lat": 40.1125621,
+    "lon": -8.2468738
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/e20b7860b0aa41d45ff175fd2199a85a"
+  ],
+  "start_date": "2023-03-04",
+  "end_date": "2023-03-05",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>Montanha Clube, Secção de Trail Running, é a entidade organizadora do evento Louzantrail, que decorrerá nos dias 3, 4 e 5 de março de 2023 na Vila da Lousã, independentemente das condições climatéricas do dia, desde que a organização entenda que estas não ofereçam riscos aos participantes.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desafiante pela Serra da Lousã com provas em diferentes escalões",
+  "page": "https://stopandgo.net/event/?id=826",
+  "slug": "louzantrail-2023",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Lousã",
+  "administrative_area_level_3": "União das freguesias de Lousã e Vilarinho",
+  "district_code": 6
+}

@@ -1,0 +1,33 @@
+{
+  "id": 33593,
+  "name": "Elite Quebra Costas Internacional 2024",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    113,
+    500
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/da6f729f8d2e424dd3e6325731557891"
+  ],
+  "start_date": "2024-03-16",
+  "end_date": "2024-03-17",
+  "circuit": [],
+  "description": "\n<p>Prova de resistência, subida Arco da Almedina – Universidade, cujo objetivo é percorrer o percurso de 500 metros, com desnível positivo de aproximadamente 113 metros e um declive médio de sensivelmente 14,1%. Os participantes terão de envergar equipamento de proteção individual (EPI) urbano completo, no menor tempo possível.</p>\n\n\n",
+  "description_short": "Subida urbana desafiante em Coimbra com bombeiros equipados a vencer desnível da Baixa à Universidade",
+  "page": "https://lap2go.com/pt/event/elite-quebra-costas-internacional-2024",
+  "slug": "elite-quebra-costas-internacional-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

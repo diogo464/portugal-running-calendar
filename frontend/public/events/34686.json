@@ -1,0 +1,30 @@
+{
+  "id": 34686,
+  "name": "Circuito de Atletismo “Vila de Odemira” 2024",
+  "location": "Odemira, Beja",
+  "coordinates": {
+    "lat": 37.6098303,
+    "lon": -8.6270628
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/b93cf21c1016ca59e0d85d788b72e7dd"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://acorrer.pt/eventos/info/3467",
+  "slug": "circuito-de-atletismo-vila-de-odemira-2024",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Odemira",
+  "administrative_area_level_3": "São Salvador e Santa Maria",
+  "district_code": 2
+}

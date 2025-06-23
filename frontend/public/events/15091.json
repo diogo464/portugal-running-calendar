@@ -1,0 +1,29 @@
+{
+  "id": 15091,
+  "name": "Trail Lama Solta 2022",
+  "location": "Louriçal, Pombal",
+  "coordinates": {
+    "lat": 40.0034578,
+    "lon": -8.737392
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/94a15433e773119e35a149f88426805f"
+  ],
+  "start_date": "2022-08-14",
+  "end_date": "2022-08-15",
+  "circuit": [],
+  "description": "\n<p>O 4.º TRAIL LAMA SOLTA 2022 realizar-se-á no dia 14 de agosto de 2022 em Louriçal –<br>Pombal. É constituído por 1 prova competitiva e uma caminhada. O Trail Curto fará<br>parte do Circuito de Trail da ADAL &#8211; 2022 e é uma prova certificada pela ATRP (parte<br>integrante da Taça Nacional de Trail). O evento é organizado pela equipa Lama Solta<br>da Associação Cultural Recreativa e Desportiva do Louriçal e tem como diretor<br>desportivo Pedro Miguel Serra Santos. Conta com a colaboração do Município de<br>Pombal e da Junta de Freguesia do Louriçal.</p>\n",
+  "description_short": "Trail técnico pelo Louriçal com prova certificada pela ATRP e integrada no circuito nacional",
+  "page": "https://sportchip.net/index.php?pg=evento&id=131",
+  "slug": "trail-lama-solta-2022-2",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Louriçal",
+  "district_code": 10
+}

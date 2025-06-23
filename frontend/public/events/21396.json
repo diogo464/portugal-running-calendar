@@ -1,0 +1,30 @@
+{
+  "id": 21396,
+  "name": "Sesimbra Night Trail 2023",
+  "location": "Sesimbra, Setúbal",
+  "coordinates": {
+    "lat": 38.44421699999999,
+    "lon": -9.1014903
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0b277b3bb4bbb8cd3130c1c243522842"
+  ],
+  "start_date": "2023-07-01",
+  "end_date": "2023-07-02",
+  "circuit": [],
+  "description": "\n<p>Depois de uma paragem forçada ao fim de dez edições do Ultra Trail de Sesimbra, voltamos a Sesimbra numa vertente diferente do habitual e que tanto agrada aos atletas. Sesimbra é uma vila lindíssima, à noite ainda é mais linda. </p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail nocturno pelas paisagens deslumbrantes de Sesimbra",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/129/",
+  "slug": "sesimbra-night-trail-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Sesimbra",
+  "administrative_area_level_3": "Sesimbra (Santiago)",
+  "district_code": 15
+}

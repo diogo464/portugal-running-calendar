@@ -1,0 +1,34 @@
+{
+  "id": 37380,
+  "name": "Meia Maratona de Praga 2025",
+  "location": "Praga, República Checa",
+  "coordinates": {
+    "lat": 50.0755381,
+    "lon": 14.4378005
+  },
+  "country": "Tchéquia",
+  "locality": "Praga",
+  "distances": [
+    21097
+  ],
+  "types": [
+    "run",
+    "half-marathon"
+  ],
+  "images": [
+    "media/a3b247c66bf9a18e6d1169bb6f2de805"
+  ],
+  "start_date": "2025-04-05",
+  "end_date": "2025-04-06",
+  "circuit": [
+    "SuperHalfs"
+  ],
+  "description": "\n<p>A Meia Maratona de Praga é uma prova que faz parte do circuito SuperHalfs &#8211; onde entram seias das mais importantes meias maratonas da Europa.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Meia maratona internacional integrada no prestigiado circuito europeu SuperHalfs",
+  "page": "https://www.runczech.com/en",
+  "slug": "meia-maratona-de-praga-2025",
+  "administrative_area_level_1": "Praga",
+  "administrative_area_level_2": "Hlavní město Praha",
+  "administrative_area_level_3": null,
+  "district_code": null
+}

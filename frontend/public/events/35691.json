@@ -1,0 +1,35 @@
+{
+  "id": 35691,
+  "name": "Corrida S. Tiago 2024",
+  "location": "Mondim de Basto, Vila Real Bastos",
+  "coordinates": {
+    "lat": 41.4112348,
+    "lon": -7.9526065
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [
+    8000,
+    12000,
+    15000
+  ],
+  "types": [
+    "run",
+    "15k",
+    "walk"
+  ],
+  "images": [
+    "media/bd04ad851f77856b6d7e35835cf6e85e"
+  ],
+  "start_date": "2024-07-21",
+  "end_date": "2024-07-22",
+  "circuit": [],
+  "description": "\n<p>A AMA – Associação Mondim Atletismo, com o apoio dos Municípios de Mondim de Basto e<br>Celorico de Basto, organizam a 9ª edição da “Corrida S. Tiago“.</p>\n\n\n\n<p>Serão duas as corridas:<br>Corrida &#8211; 12km<br>Caminhada &#8211; 8km</p>\n\n\n\n<ol class=\"wp-block-list\" start=\"2\">\n<li></li>\n</ol>\n",
+  "description_short": "Corrida tradicional pelos municípios de Mondim de Basto e Celorico de Basto em homenagem a São Tiago",
+  "page": "http://cyclonessports.com/index.php/308-9-corrida-s-tiago",
+  "slug": "corrida-s-tiago-2024",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Mondim de Basto",
+  "administrative_area_level_3": "São Cristóvão de Mondim de Basto",
+  "district_code": 17
+}

@@ -1,0 +1,31 @@
+{
+  "id": 30619,
+  "name": "Trail Foz Coa 2024",
+  "location": "Vila Nova de Foz Côa, Guarda",
+  "coordinates": {
+    "lat": 41.0822466,
+    "lon": -7.1403598
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/dcbefa1a4ce31fbb021c1e5c06fdcf42"
+  ],
+  "start_date": "2024-03-08",
+  "end_date": "2024-03-09",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Foz Côa Douro Trail Adventure® (FCDTA) é organizado pela Carlos Sá Nature Events®, com o apoio do Município de Vila Nova de Foz Côa e irá realizar-se de 8 a 10 de Março de 2024.</p>\n\n\n\n<p>O Alto Douro será o palco principal para este fantástico evento de Trail, que contará com o pack 3 dias/ 3 etapas e ainda, dia 9 com distâncias a contar para o circuito Best Trail Series e ATRP. Os pontos de interesse passam pelas magníficas paisagens de montanhas e vales em socalcos, rasgados pelos rios Douro e Côa, pelos campos agrícolas com as vinhas (dos melhores vinhos do Mundo), amendoeiras em flor e oliveiras. A linha férrea desativada do Pocinho a Barca D’Alva, as aldeias históricas de Castelo Rodrigo e Marialva, as aldeias de Foz Côa, são alguns dos muitos locais de destaque da região. Se a organização o entender e a segurança dos participantes o justificar, poderão ser alterados os percursos previamente estabelecidos para o evento.</p>\n",
+  "description_short": "Trail épico de 3 dias pelo Alto Douro Vinhateiro com paisagens únicas de socalcos e aldeias históricas",
+  "page": "https://stopandgo.net/events/foz-coa-trail-2024",
+  "slug": "trail-foz-coa-2024",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Vila Nova de Foz Côa",
+  "administrative_area_level_3": "Vila Nova de Foz Coa",
+  "district_code": 9
+}

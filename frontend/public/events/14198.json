@@ -1,0 +1,29 @@
+{
+  "id": 14198,
+  "name": "Pisão Extreme 2022",
+  "location": "São Pedro do Sul, Viseu",
+  "coordinates": {
+    "lat": 40.7597932,
+    "lon": -8.0640758
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/07162b57bcf2adf40231ce59c859a277"
+  ],
+  "start_date": "2022-11-19",
+  "end_date": "2022-11-20",
+  "circuit": [],
+  "description": "\n<p>O eventob Pisão Extreme 2022 é organizado pela SpotCriavo Eventos em<br>colaboração com o Município de S. P. Sul e apoio das endades locais.<br>O evento será realizado nos dias 19 e 20 de Novembro de 2022, com<br>parda e chegada no Bioparque do Pisão &#8211; Carvalhais &#8211; S.P. Sul, será<br>composto por 4 percursos de Skyrunning tutelado pela Federação de<br>Campismo e Montanhismo de Portugal.</p>\n",
+  "description_short": "Trail de skyrunning técnico nos arredores de São Pedro do Sul com partida e chegada no Bioparque do Pisão",
+  "page": "https://stopandgo.net/event/?id=690",
+  "slug": "pisao-extreme-2022",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "São Pedro do Sul",
+  "administrative_area_level_3": "União das freguesias de São Pedro do Sul, Várzea e Baiões",
+  "district_code": 18
+}

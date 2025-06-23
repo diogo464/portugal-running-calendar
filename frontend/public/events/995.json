@@ -1,0 +1,29 @@
+{
+  "id": 995,
+  "name": "Trail de Queiriga 2020",
+  "location": "Queiriga Queiriga, Viseu",
+  "coordinates": {
+    "lat": 40.8043546,
+    "lon": -7.746682799999999
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/68f496047a9cd5cbfb3c95a4453e01f4"
+  ],
+  "start_date": "2020-03-22",
+  "end_date": "2020-03-23",
+  "circuit": [],
+  "description": "<p>Estamos de volta!<br />\nTrazemos na bagagem a IV edição do Trail da Queiriga. No dia 22 de Março de 2020 terás à tua disposição o mesmo rigor na organização, a mesma beleza na paisagem, a mesma diversão dos anos anteriores. A grande novidade passa pela nossa maior motivação em proporcionar-te um maior desafio.<br />\nQue a tua agenda contemple o nosso evento como uma prioridade no novo ano, pois esperamos por ti!</p>\n",
+  "description_short": "Trail desafiante pela paisagem da Queiriga em edição comemorativa",
+  "page": "https://www.acorrer.pt/eventos/info/2475",
+  "slug": "trail-de-queiriga-2020",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vila Nova de Paiva",
+  "administrative_area_level_3": "Queiriga",
+  "district_code": 18
+}

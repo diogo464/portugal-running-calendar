@@ -1,0 +1,33 @@
+{
+  "id": 14639,
+  "name": "Corrida da Liberdade 2022",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/40e9b69a9f2ee2371d46bcd1f803e584"
+  ],
+  "start_date": "2022-04-25",
+  "end_date": "2022-04-26",
+  "circuit": [],
+  "description": "<p>Informamos todos vós de que após dois anos de interregno devido à pandemia, a ACCL irá reactivar a Corrida da Liberdade 2022 / 25 de Abril, este ano na sua 43ª edição, pelo que se desejarem fazer a vossa inscrição, o poderão fazer através do &#8216;SITE&#8217; seguinte:</p>\n<ul>\n<li><strong><a href=\"http://www.accl.com.pt\" target=\"_blank\" rel=\"noopener\">www.accl.com.pt</a></strong></li>\n</ul>\n<p>Em anexo envio o <strong>REGULAMENTO</strong> da prova.</p>\n<p>De frisar que iremos também manter a <strong>CAMINHADA</strong>, sendo que esta irá começar na <strong>PRAÇA DO CAMPO PEQUENO </strong>e terminará como usualmente na PRAÇA DOS RESTAURADORES.</p>\n<p>Contamos com a vossa inscrição e com a divulgação deste evento junto dos vossos amigos e familiares.</p>\n",
+  "description_short": "Corrida da Liberdade evoca o 25 de Abril em Lisboa, com caminhada desde o Campo Pequeno até aos Restauradores",
+  "page": "http://www.accl.com.pt/corrida/",
+  "slug": "corrida-da-liberdade-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

@@ -1,0 +1,32 @@
+{
+  "id": 32730,
+  "name": "Corrida do Carnaval 2024",
+  "location": "Rio Tinto, Gondomar",
+  "coordinates": {
+    "lat": 41.1736409,
+    "lon": -8.555323399999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/b6d0f2e9b5e71a8ee489f6e788a4947f"
+  ],
+  "start_date": "2024-02-13",
+  "end_date": "2024-02-14",
+  "circuit": [],
+  "description": "\n<p>Realiza-se no dia 13 de Fevereiro de 2024 pelas 17h00, a prova começa e acaba em frente ao Estádio do Sport Clube Rio Tinto. Entrar na Avenida Doutor Almeida Santos e por ai se segue até a Avenida Doutor Aníbal Cavaco Silva, onde se desce até ao ponto de retorno ao lado da linha de metro junto da rotunda, da Avenida da Conduta em Fanzeres, com o tempo máximo de 2 horas.</p>\n",
+  "description_short": "Corrida urbana em Rio Tinto com passagem por avenidas principais e proximidade da linha de metro",
+  "page": "https://7corridadocarnaval.statusmarathon.net/",
+  "slug": "corrida-do-carnaval-2024-2",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Gondomar",
+  "administrative_area_level_3": "Rio Tinto",
+  "district_code": 13
+}

@@ -1,0 +1,35 @@
+{
+  "id": 28455,
+  "name": "Trilhos Ocultos 2023",
+  "location": "Entre Ambos-os-Rios, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.8192551,
+    "lon": -8.3099305
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    18000,
+    30000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/4eb1e5fe1671e454257c99e94d30bfea"
+  ],
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-06",
+  "circuit": [],
+  "description": "\n<p>Os Trilhos Ocultos realizam-se no dia 5 de Novembro de 2023. O ponto de encontro de todos os participantes é no recinto/estacionamento do centro escolar de Entre Ambos-os-Rios / Ponte da Barca.</p>\n\n\n\n<p>Distâncias:</p>\n\n\n\n<p>a) CAMINHADA – 10km <br>a) TRAIL CURTO – 18km <br>b) TRAIL LONGO – 30km </p>\n\n\n",
+  "description_short": "Trail pelos caminhos históricos de Entre Ambos-os-Rios com diferentes percursos para caminhantes e trail runners",
+  "page": "https://meutempo.pt/prova?trilhosocultos2023",
+  "slug": "trilhos-ocultos-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte da Barca",
+  "administrative_area_level_3": "Entre Ambos-os-Rios",
+  "district_code": 16
+}

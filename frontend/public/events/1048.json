@@ -1,0 +1,29 @@
+{
+  "id": 1048,
+  "name": "7º Miróbriga Trail Run 2020",
+  "location": "Santiago do Cacém Cacém, Setubal",
+  "coordinates": {
+    "lat": 38.0176336,
+    "lon": -8.7035161
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f73ce285ab6dfa1021bffb6ed1f8f40c"
+  ],
+  "start_date": "2020-09-12",
+  "end_date": "2020-09-13",
+  "circuit": [],
+  "description": "<p>A 7” edição do Trail Running do Litoral Alentejano o MIRÓBRIGA TRAIL RUN será no dia 12 de Setembro de 2020 na cidade de Santiago do Cacém.</p>\n",
+  "description_short": "Trail desafiante pelo litoral alentejano com passagem por Santiago do Cacém",
+  "page": "http://mirobrigatrailrun.blogspot.com/",
+  "slug": "mirobriga-trail-run-2020",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Santiago do Cacém",
+  "administrative_area_level_3": "União das freguesias de Santiago do Cacém, Santa Cruz e São Bartolomeu da Serra",
+  "district_code": 15
+}

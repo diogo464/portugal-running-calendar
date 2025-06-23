@@ -1,0 +1,30 @@
+{
+  "id": 37502,
+  "name": "GP Atletismo Leonel Anselmo 2024",
+  "location": "Barreiro, Setúbal",
+  "coordinates": {
+    "lat": 38.6608149,
+    "lon": -9.0790724
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/0abfe8e62756b933de559d8a220132aa"
+  ],
+  "start_date": "2024-10-05",
+  "end_date": "2024-10-05",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal do Barreiro e organização técnica da Xistarca, organiza no dia 05 de outubro de 2024, o <strong>6º GP Atletismo Leonel Anselmo.</strong></p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de atletismo municipal homenageando Leonel Anselmo no Barreiro",
+  "page": "https://xistarca.pt/eventos/cab-6o-gp-atletismo-leonel-anselmo",
+  "slug": "gp-atletismo-leonel-anselmo-2024",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Barreiro",
+  "administrative_area_level_3": "Barreiro",
+  "district_code": 15
+}

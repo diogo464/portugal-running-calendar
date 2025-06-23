@@ -1,0 +1,32 @@
+{
+  "id": 34064,
+  "name": "Corrida Vila Glória do Ribatejo 2024",
+  "location": "Salvaterra de Magos, Santarém",
+  "coordinates": {
+    "lat": 39.0272019,
+    "lon": -8.794182
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/f288a7bde5e42080be55037b982c54d3"
+  ],
+  "start_date": "2024-05-19",
+  "end_date": "2024-05-20",
+  "circuit": [],
+  "description": "\n<p>A IX Corrida Vila Glória do Ribatejo é organizada pela Secção de Trail do SCD Glória do Ribatejo e integra as Jornadas do Desporto desenvolvidas pela Câmara Municipal de Salvaterra de Magos.</p>\n\n\n\n<p><br>Esta é uma prova de 10km constituída na totalidade por estradas em asfalto dentro do perímetro urbano. A prova será realizada no dia 19 de Maio 2024, na vila de Glória do Ribatejo, pertencente ao Município de Salvaterra de Magos, distrito de Santarém.</p>\n",
+  "description_short": "Corrida urbana em asfalto na vila de Glória do Ribatejo, no coração do Ribatejo",
+  "page": "https://acorrer.pt/eventos/info/3456",
+  "slug": "corrida-vila-gloria-do-ribatejo-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Salvaterra de Magos",
+  "administrative_area_level_3": "Salvaterra de Magos",
+  "district_code": 14
+}

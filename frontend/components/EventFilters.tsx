@@ -32,7 +32,7 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
   
   // Count events without location
   const eventsWithoutLocation = useMemo(() => 
-    events.filter(event => !event.event_coordinates).length,
+    events.filter(event => !event.coordinates).length,
     [events]
   )
 

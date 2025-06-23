@@ -1,0 +1,31 @@
+{
+  "id": 37900,
+  "name": "Corrida e Caminhada de São Martinho 2024",
+  "location": "Fajã Grande, Ilha das Flores, Flores",
+  "coordinates": {
+    "lat": 39.4547861,
+    "lon": -31.2619213
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/72a7bd031fce1bb75b11c58b52b08d1f"
+  ],
+  "start_date": "2024-11-09",
+  "end_date": "2024-11-10",
+  "circuit": [],
+  "description": "\n<p>A Corrida e Caminhada de São Martinho, é um evento organizado pelo Atlético ClubemFajã Grande e que tem como finalidade promover a atividade desportiva e o saudável convívio, através de uma prova de atletismo de estrada e uma caminhada.</p>\n\n\n\n<p><br>A primeira edição decorrerá no dia 09 de novembro de 2024.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida tradicional de São Martinho na Fajã Grande com primeira edição em novembro",
+  "page": "https://acorrer.pt/eventos/info/3662",
+  "slug": "corrida-e-caminhada-de-sao-martinho-2024",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "Flores",
+  "administrative_area_level_3": "Fajã Grande",
+  "district_code": 20
+}

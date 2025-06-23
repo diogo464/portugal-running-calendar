@@ -1,0 +1,34 @@
+{
+  "id": 38081,
+  "name": "Trilhos Noturnos dos Templários 2025",
+  "location": "Tomar, Santarém",
+  "coordinates": {
+    "lat": 39.6053819,
+    "lon": -8.4043125
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000,
+    13000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/20c52ce75ebe656564bb9c283895d442"
+  ],
+  "start_date": "2025-01-04",
+  "end_date": "2025-01-05",
+  "circuit": [],
+  "description": "\n<p>A 11ª Edição dos Trilhos Noturnos dos Templários 2025, contextualiza-se na vontade de dar a possibilidade a todos os atletas de poder usufruir de trilhos fantásticos no centro de Portugal, em Santa Cita, Tomar, num percurso aperfeiçoado e adaptado ao longo dos últimos anos acessíveis a todos os participantes, que inclui<br>passagens por caminhos e trilhos florestais, sempre acompanhados pelo Rio Nabão e pelo Rio Zêzere.<br>O conceito dos Trilhos dos Templários advém da história e dos caminhos dos nossos antepassados Templários que neles viajaram e deixaram a sua marca neste local, para agora serem adaptados a<br>percursos competitivos de componente técnica elevada e com grau de dificuldade exigente, com necessária capacidade física e psicológica para superar o desafio.</p>\n\n\n\n<p>Esta Edição dos Trilhos Noturnos dos Templários, a realizar no dia 4 de janeiro de 2025, em Santa Cita,<br>Tomar, conta com as seguintes distâncias de 20K (Trail Curto &#8211; SPRINT), 13K (Mini Trail) e 10K (Caminhada).</p>\n\n\n\n<p><br>A partida e a chegada de todas as provas do evento, serão no Pavilhão da Associação Cultural e Recreativa<br>de Santa Cita, em Santa Cita, Tomar.<br></p>\n\n\n\n<p>O evento é organizado pelo departamento de atletismo da ACR Santa Cita, designado por Trilhos dos<br>Templários.</p>\n",
+  "description_short": "Trail noturno inspirado nos caminhos históricos dos Templários em Tomar, com percursos por trilhos florestais junto aos rios Nabão e Zêzere",
+  "page": "https://www.trilhoperdido.com/evento/XI-trilhos-noturnos-dos-templarios",
+  "slug": "trilhos-noturnos-dos-templarios-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

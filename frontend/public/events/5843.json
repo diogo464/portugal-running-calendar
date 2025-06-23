@@ -1,0 +1,29 @@
+{
+  "id": 5843,
+  "name": "Louzanskyrace 2021",
+  "location": "Lousã, Coimbra",
+  "coordinates": {
+    "lat": 40.1125621,
+    "lon": -8.2468738
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/814f57cfebca1d900f388fe6f2407a4c"
+  ],
+  "start_date": "2021-10-22",
+  "end_date": "2021-10-23",
+  "circuit": [],
+  "description": "\n<p>A vida não para nem abranda na Montanha Mágica. Vem descobrir elfos e unicórnios a 22 e 24 de outubro de 2021, a <strong>Louzanskyrace 2021</strong>.<br><br>SKYRUNNER® PORTUGAL SERIES &#8211; VERTICAL<br>TAÇA DE PORTUGAL &#8211; SKY<br>TAÇA DE PORTUGAL &#8211; VERTICAL<br>TAÇA DE PORTUGAL DA JUVENTUD</p>\n",
+  "description_short": "Trail fantástico na Louzanskyrace com ambiente mítico de elfos e unicórnios na Montanha Mágica",
+  "page": "http://louzanskyrace.com/provas/inscricoes/",
+  "slug": "louzanskyrace-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Lousã",
+  "administrative_area_level_3": "União das freguesias de Lousã e Vilarinho",
+  "district_code": 6
+}

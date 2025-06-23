@@ -1,0 +1,37 @@
+{
+  "id": 29964,
+  "name": "São Silvestre El Corte Inglés 2023",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    500,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/633004fddb97221a892c416f6f6f315c"
+  ],
+  "start_date": "2023-12-17",
+  "end_date": "2023-12-18",
+  "circuit": [],
+  "description": "\n<p>Em 2023, a prova que conta com o apoio de&nbsp;<strong>Record</strong>&nbsp;vai correr-se a 17 de dezembro (domingo) às 19 horas e com um percurso renovado, com partida e chegada no Saldanha, bem mais acessível aos novatos e também aos mais experientes. Será uma oportunidade de ouro para apreciar e viver a magia da quadra natalícia em pleno centro da capital ao final do dia.</p>\n\n\n\n<p></p>\n\n\n\n<p><strong>A corrida das crianças</strong>&nbsp;(até aos 12 anos) com, aproximadamente:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>500m (2016 e mais novos) com partida às 18h00</li>\n\n\n\n<li>500m (2014 e 2015) com partida às 18h05</li>\n\n\n\n<li>500m (2013 e 2012) com partida às 18h10</li>\n\n\n\n<li>500m (2010 e 2011) com partida às 18h15</li>\n</ul>\n\n\n\n<p><strong>A prova de 10km</strong>, com partida às 19h00, realiza o seguinte percurso:</p>\n\n\n\n<p>Partida na Praça do Duque de Saldanha em direção ao Campo Grande / Av. da República / Campo Pequeno / Entrecampos / Retorno no final do Campo Grande / Direita para Alameda da Universidade / Direita para a Rua Prof. Oliveira Marques / Esquerda para a Rua interior à Alameda da Universidade / Esquerda para a Av. Prof. Gama Pinto / Retorno antes da Av. Egas Moniz / Direita para a Rua Alameda da Universidade / Direita para Túnel de Entrecampos / Campo Pequeno / Saldanha / Av. Fontes Pereira de Melo / Retorno no final da Av. Fontes Pereira de Melo / Meta na Praça do Duque de Saldanha.</p>\n\n\n\n<p><strong>A caminhada de 5km</strong>, tem partida às 19h15 e realiza o seguinte percurso:</p>\n\n\n\n<p>Partida na Praça do Duque de Saldanha em direção ao Campo Grande / Av. da República / Campo Pequeno / Entrecampos / Retorno GO Fit do Campo Grande / Entrecampos / Campo Pequeno / Saldanha / Av. Fontes Pereira de Melo / Retorno no cruzamento com a Rua Andrade Corvo / Meta na Praça do Duque de Saldanha.</p>\n",
+  "description_short": "Corrida de Natal festiva no centro de Lisboa, com percurso renovado e espírito natalício no Saldanha",
+  "page": "https://xistarca.pt/resultados/sao-silvestre-el-corte-ingles-2023",
+  "slug": "sao-silvestre-el-corte-ingles-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

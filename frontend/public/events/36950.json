@@ -1,0 +1,37 @@
+{
+  "id": 36950,
+  "name": "Trail Noturno Valongo 2024",
+  "location": "Valongo, Porto",
+  "coordinates": {
+    "lat": 41.1934558,
+    "lon": -8.5012261
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    9000,
+    13000,
+    21000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0713731393ea19848044916a708c92c2"
+  ],
+  "start_date": "2024-12-07",
+  "end_date": "2024-12-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O TNV- Trail Noturno de Valongo é organizado pela KeMedo Team Associação Desportos em Natureza. Conta ainda com a coorganização da Câmara Municipal de Valongo e apoio da Junta Freguesia de Valongo e Bombeiros Voluntários de Valongo. </p>\n\n\n\n<p>Provas:<br>Trail Longo 21 km Tem início às 19.15h<br>Trail Curto 13km &#8211; Tem Inicio as 19.30h<br>Caminhada 9km- Tem inicio as 19.35h</p>\n",
+  "description_short": "Trail nocturno por trilhos de Valongo com organização local e apoio municipal",
+  "page": "https://stopandgo.net/events/trail-noturno-de-valongo-2024",
+  "slug": "trail-noturno-valongo-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Valongo",
+  "administrative_area_level_3": "Valongo",
+  "district_code": 13
+}

@@ -1,0 +1,32 @@
+{
+  "id": 36934,
+  "name": "Santarém On Fire – Assalto ao Centro Histórico 2024",
+  "location": "Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    115,
+    800
+  ],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/d59f57363caa49e9b34340aa0a168e62"
+  ],
+  "start_date": "2024-10-26",
+  "end_date": "2024-10-26",
+  "circuit": [],
+  "description": "\n<p>Neste evento os bombeiros irão percorrer equipados cerca de 800 M uma elevação máxima de 115 M com o seu equipamento de proteção individual no menor tempo possível.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Desafio de bombeiros com subida técnica em equipamento de proteção individual",
+  "page": "https://lap2go.com/pt/event/santarem-on-fire-2024",
+  "slug": "santarem-on-fire-assalto-ao-centro-historico-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

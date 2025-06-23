@@ -1,0 +1,34 @@
+{
+  "id": 37821,
+  "name": "São Silvestre Amadora 2024",
+  "location": "Amadora, Lisboa",
+  "coordinates": {
+    "lat": 38.7577603,
+    "lon": -9.224547399999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester"
+  ],
+  "images": [
+    "media/b541e03e1f6531adb51054469274b67c"
+  ],
+  "start_date": "2024-12-31",
+  "end_date": "2025-01-01",
+  "circuit": [],
+  "description": "\n<p>São os 10 km mais tradicionais do ano na São Silvestre Amadora! Na última noite do ano, dizemos adeus a 2024 e aceleramos em direção a 2025. Inclui Corrida das Crianças.</p>\n",
+  "description_short": "São Silvestre da Amadora para despedir o ano com corrida participativa",
+  "page": "https://www.corridasaosilvestreamadora.pt/site/",
+  "slug": "sao-silvestre-amadora-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Amadora",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

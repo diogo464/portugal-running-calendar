@@ -1,0 +1,34 @@
+{
+  "id": 30500,
+  "name": "Trail Urbano Noturno Solidário 2023",
+  "location": "Bragança",
+  "coordinates": {
+    "lat": 41.8061131,
+    "lon": -6.756737999999999
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    5000,
+    8000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/9a2dd1c11aa0d88948ff745f19f655d0"
+  ],
+  "start_date": "2023-12-02",
+  "end_date": "2023-12-03",
+  "circuit": [],
+  "description": "\n<ul class=\"wp-block-list\">\n<li>HORA – partida às 17h30 (Praça do Professor Cavaleiro de Ferreira)</li>\n\n\n\n<li>Trail (aproximadamente) 8 km</li>\n\n\n\n<li>Caminhada (aproximadamente) 5 Km</li>\n\n\n\n<li>PREÇO INSCRIÇÃO – Trail 7€, Caminhada 5€.</li>\n\n\n\n<li>SECRETARIADO: Teatro Municipal das 14 às 17 horas.</li>\n\n\n\n<li>Brinde SURPRESA (agradável)</li>\n\n\n\n<li>Pagamento ao levantar o dorsal.</li>\n\n\n\n<li>Atividade SEM CLASSIFICAÇÃO OFICIAL, sem fins competitivos. Será elaborada uma ordenação dos participantes de acordo com a ordem de chegada à meta e com registo do tempo (apenas para informação/orientação dos participantes).</li>\n\n\n\n<li>Evento solidário sem prémios.</li>\n\n\n\n<li>As receitas das inscrições revertem na totalidade para a Obra Kolping da Diocese de Bragança-Miranda.</li>\n</ul>\n\n\n",
+  "description_short": "Trail solidário em Bragança com partida na Praça do Professor Cavaleiro de Ferreira, revertendo receitas para a Obra Kolping",
+  "page": "https://docs.google.com/forms/d/e/1FAIpQLScUKF2PQ79yQSiUFNhvcmEHaFB3hKIQfYjKSSVnAQ0viz4Jxw/viewform",
+  "slug": "trail-urbano-noturno-solidario-2023",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Bragança",
+  "administrative_area_level_3": "União das freguesias de Sé, Santa Maria e Meixedo",
+  "district_code": 4
+}

@@ -1,0 +1,35 @@
+{
+  "id": 21003,
+  "name": "Trail da Boa Ventura 2023",
+  "location": "Boa Ventura, Madeira",
+  "coordinates": {
+    "lat": 32.8177488,
+    "lon": -16.972755
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [
+    834,
+    10000,
+    25000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3a53364a30ad2156eb5bed1085216d83"
+  ],
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-16",
+  "circuit": [
+    "Trail Madeira"
+  ],
+  "description": "\n<p>O “Trail Boa Ventura” é um evento que decorre integralmente na freguesia da Boa Ventura, tendo nascido com o propósito de mostrar as suas inúmeras belezas paisagísticas e potencialidades que apresenta no âmbito do trail running, fazendo ainda a ponte de ligação com o extenso património natural, histórico-cultural e social da freguesia. Este evento está integrado do Circuito Trail Madeira.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>A Junta de Freguesia de Boa Ventura em coorganização com a Casa do Povo de Boaventura<br>são as entidades organizadoras do evento denominado “TRAIL BOA VENTURA”, 6.ª edição,<br>que decorrerá no dia 15 de janeiro de 2023, na Ilha da Madeira, com absoluto respeito pelo<br>meio ambiente. Este evento está integrado do Circuito Trail Madeira (AARAM).</li>\n\n\n\n<li>O “Trail Boa Ventura” é um evento que decorre integralmente na freguesia da Boa<br>Ventura, tendo nascido com o propósito de mostrar as suas inúmeras belezas paisagísticas e<br>potencialidades que apresenta no âmbito do trail running, fazendo ainda a ponte de ligação<br>com o extenso património natural, histórico-cultural e social da freguesia. O evento integra<br>duas provas: a prova principal – TRAIL NATURNORTE (TLN), com cerca de 25 km e 1922<br>metros de desnível positivo, pontuável para o ranking Trail Longo, e uma prova mais curta –<br>TRAIL MUNICÍPIO DE SÃO VICENTE (TCMSV), com cerca de 10 km e 834 metros de desnível<br>positivo, pontuável para o ranking Trail Curto, ambas de formato circular.</li>\n</ul>\n",
+  "description_short": "Trail desafiante pela Boa Ventura com paisagens naturais únicas na Ilha da Madeira",
+  "page": "https://lap2go.com/pt/event/trail-boa-ventura-2023",
+  "slug": "trail-da-boa-ventura-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": "Boaventura",
+  "district_code": 30
+}

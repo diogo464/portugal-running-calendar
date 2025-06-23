@@ -1,0 +1,34 @@
+{
+  "id": 30601,
+  "name": "Corrida São João 2024",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    7000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/8d68642abd6953fef68a464e53d546d6"
+  ],
+  "start_date": "2024-06-16",
+  "end_date": "2024-06-17",
+  "circuit": [],
+  "description": "\n<p>A dar início aos festejos das festas populares vai realizar-se a 16 de junho de 2024 a Continental Corrida de São João, na cidade de Vila Nova de Gaia.</p>\n\n\n\n<p>Com partida e chegada na zona pedonal de Canidelo, o evento começará às 9h00 e conta com duas provas, a corrida de 10km e a caminhada de 7 km sem fins competitivos.</p>\n",
+  "description_short": "Corrida festiva de São João em Canidelo, Vila Nova de Gaia, a inaugurar os festejos populares",
+  "page": "https://www.runporto.com/pt/eventos/corrida-s-joao",
+  "slug": "corrida-sao-joao-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

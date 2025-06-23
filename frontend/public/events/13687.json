@@ -1,0 +1,32 @@
+{
+  "id": 13687,
+  "name": "Trail Terras do Lidador by Night 2022",
+  "location": "Maia, Porto",
+  "coordinates": {
+    "lat": 41.2326543,
+    "lon": -8.622938699999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    13000,
+    20000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/abe7116a59ca38936a98100e7cd7b472"
+  ],
+  "start_date": "2022-04-15",
+  "end_date": "2022-04-16",
+  "circuit": [],
+  "description": "\n<p>As provas que constituem o Trail Terras do Lidador by Night 2022 terão partida e chegada no Parque Urbano de Avioso, percorrendo caminhos e trilhos do concelho da Maia, nas distâncias de 13 e 20 quilómetros.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Organizador</h3>\n\n\n\n<p>Confraria Trotamontes</p>\n",
+  "description_short": "Trail noturno pelos caminhos e trilhos do município da Maia, com partida e chegada no Parque Urbano de Avioso",
+  "page": "https://lap2go.com/pt/event/trail-do-lidador-by-night-2022",
+  "slug": "trail-terras-do-lidador-by-night-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Maia",
+  "administrative_area_level_3": "Cidade da Maia",
+  "district_code": 13
+}

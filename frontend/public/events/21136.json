@@ -1,0 +1,37 @@
+{
+  "id": 21136,
+  "name": "VI Minho E Lima Trail 2023",
+  "location": "Ponte de Lima, Viana do Castelo",
+  "coordinates": {
+    "lat": 41.7622565,
+    "lon": -8.5832339
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    10000,
+    15000,
+    26000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/101a2b30b42d4ff04f8b3961e04f5aeb"
+  ],
+  "start_date": "2023-02-26",
+  "end_date": "2023-02-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O “VI Minho e Lima Trail” é um evento organizado pela Associação Minho e Lima Trail, com o apoio e colaboração do Municipio de Ponte de Lima, das Juntas de Freguesia de Arca e Ponte de Lima, Fornelos e Queijada, Boalhosa, Serdedelo e Ribeira e com o apoio de várias empresas locais.</p>\n\n\n\n<p><br>A VI Edição do Minho e Lima Trail é uma prova certificada pela Associação de Trail Running de Portugal, integra o Circuito Regional de Trail organizado pela Associação de Atletismo de Viana do Castelo e integra o Circuito Minho Ultra Trail Séries (MUT Séries), uma competição constituída por provas de trail com regulamento específico e que deverá ser consultado.<br></p>\n\n\n\n<p>O evento será realizado no dia 26 de fevereiro de 2023, na vila de Ponte de Lima e apresentará três provas distintas:<br>o Trail Longo com a distância aproximada de 26 km;<br>o Trail Curto com a distância aproximada de 15 km;<br>o Caminhada com a distância aproximada de 10 km.</p>\n",
+  "description_short": "Trail pela região do Minho com passagem por Ponte de Lima e diversas freguesias locais",
+  "page": "http://cyclonessports.com/index.php/264-vi-minho-e-lima-trail",
+  "slug": "vi-minho-e-lima-trail-2023",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Ponte de Lima",
+  "administrative_area_level_3": "Arca e Ponte de Lima",
+  "district_code": 16
+}

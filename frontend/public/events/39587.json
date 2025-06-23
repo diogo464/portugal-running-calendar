@@ -1,0 +1,37 @@
+{
+  "id": 39587,
+  "name": "Trail Bem Viver 2025",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    14000,
+    20000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/a79c036cc7cfd05bc946bd202a68da0a"
+  ],
+  "start_date": "2025-05-11",
+  "end_date": "2025-05-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O TRAIL BEM VIVER é organizado pelo Grupo Desportivo de Magrelos, em parceria com a Junta de Freguesia de Bem Viver e a Câmara Municipal do Marco de Canaveses. O evento será realizado no dia e 11 de maio de 2025, no Alto da Forca em Magrelos, na freguesia de Bem Viver.</p>\n\n\n\n<p>A prova é certificada pela a ATRP &#8211; Associação de Trail Running de Portugal, ITRA &#8211; International Trail Running Association e UTMB – Ultra Trail Mont Blanc.<br>O Trail Bem Viver será constituído por três provas.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>TRAIL BEM VIVER LONGO &#8211; 20KM</li>\n\n\n\n<li>TRAIL BEM VIVER CURTO &#8211; 14KM</li>\n\n\n\n<li>CAMINHADA BEM VIVER – 10KM</li>\n</ul>\n",
+  "description_short": "Trail desafiante em Magrelos com apoio municipal e certificação internacional",
+  "page": "https://stopandgo.net/events/trail-bem-viver-2025",
+  "slug": "trail-bem-viver-2025",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}

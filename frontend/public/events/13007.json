@@ -1,0 +1,33 @@
+{
+  "id": 13007,
+  "name": "São Silvestre de Santo Tirso 2021",
+  "location": "Santo Tirso, Porto",
+  "coordinates": {
+    "lat": 41.3431376,
+    "lon": -8.4738078
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k"
+  ],
+  "images": [
+    "media/64106c85462bd31c94408d5120e1ced9"
+  ],
+  "start_date": "2021-12-18",
+  "end_date": "2021-12-19",
+  "circuit": [],
+  "description": "<p>A São Silvestre de Santo Tirso 2021, será disputada no próximo dia 18 de dezembro de 2021, pelas 15:00 horas, com partida e chegada na Rua do Picoto – Pavilhão Municipal, e é organizada conjuntamente pela Câmara Municipal de Santo Tirso e pelo Centro de Atletismo de Santo Tirso,</p>\n",
+  "description_short": "São Silvestre tradicional pelas ruas de Santo Tirso com partida e chegada no Pavilhão Municipal",
+  "page": "https://www.queroir.pt/24-s-silvestre-de-santo-tirso#",
+  "slug": "sao-silvestre-de-santo-tirso-2021",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Santo Tirso",
+  "district_code": 13
+}

@@ -1,0 +1,32 @@
+{
+  "id": 34299,
+  "name": "Avelar Sunset Trail 2024",
+  "location": "Avelar, Ansião",
+  "coordinates": {
+    "lat": 39.9206273,
+    "lon": -8.358134399999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/892c349ce643c98b046fcac127c38bc3"
+  ],
+  "start_date": "2024-06-22",
+  "end_date": "2024-06-23",
+  "circuit": [],
+  "description": "\n<p>O Avelar Sunset Trail 2024, sob organização da junta de freguesia de Avelar, pretende confirmar-se como uma prova de desporto e lazer, com carácter competitivo, na vertente de corrida [trail running], a realizar por percursos e trilhos integrados na freguesia de Avelar, concelho de Ansião. A terceira edição realiza-se a 22 de junho de 2024 e é caracterizada por três distâncias cronometradas: Trail Longo, Trail Curto e Prova de Kids e uma não cronometrada: A Caminhada…</p>\n\n\n",
+  "description_short": "Trail ao pôr-do-sol pela paisagem rural de Avelar com percursos adaptados a diferentes níveis de participação",
+  "page": "https://www.queroir.pt/avelarsunsettrail2024",
+  "slug": "avelar-sunset-trail-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Avelar",
+  "district_code": 10
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1694,
+  "name": "Ultra Trail Vila Nova Cerveira 2020",
+  "location": "Vila Nova de Cerveira",
+  "coordinates": {
+    "lat": 41.9383326,
+    "lon": -8.744077299999999
+  },
+  "country": "Portugal",
+  "locality": "Viana do Castelo",
+  "distances": [
+    700,
+    52000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/c236c59bb8f777afbe3f21f2faf14398"
+  ],
+  "start_date": "2020-05-02",
+  "end_date": "2020-05-03",
+  "circuit": [],
+  "description": "<section class=\"elementor-element elementor-element-4820844 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section\" data-id=\"4820844\" data-element_type=\"section\">\n<div class=\"elementor-container elementor-column-gap-no\">\n<div class=\"elementor-row\">\n<div class=\"elementor-element elementor-element-ef9ca35 elementor-column elementor-col-50 elementor-inner-column\" data-id=\"ef9ca35\" data-element_type=\"column\">\n<div class=\"elementor-column-wrap  elementor-element-populated\">\n<div class=\"elementor-widget-wrap\">\n<div class=\"elementor-element elementor-element-8274ae8 elementor-widget elementor-widget-heading\" data-id=\"8274ae8\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h6 class=\"elementor-heading-title elementor-size-default\"><a class=\"elementor-button-link elementor-button elementor-size-sm\" role=\"button\" href=\"https://www.prozis.com/utcerveira20\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"elementor-button-content-wrapper\"><span class=\"elementor-button-text\">INSCRIÇÕES</span></span></a></h6>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<div class=\"elementor-element elementor-element-d8f923c elementor-widget elementor-widget-text-editor\" data-id=\"d8f923c\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-text-editor elementor-clearfix\">\n<h6>O TRAIL ULTRA 52 KM TEM INÍCIO NO DIA 02 DE MAIO DE 2020 ÀS 07H00, PERCORRE CAMINHOS E TRILHOS DO CONCELHO DE VILA NOVA, NA DISTÂNCIA APROXIMADA DE 52 KM E 3.700 mETROS DE DESNÍVEL POSITIVO, COM INÍCIO E FIM EM VILA NOVA DE CERVEIRA, O TEMPO LIMITE PARA EXECUTAR A PROVA É DE 13 HORAS.</h6>\n</div>\n</div>\n</div>\n",
+  "description_short": "Trail ultra desafiante pelos caminhos e trilhos de Vila Nova de Cerveira, com 52 km e significativo desnível positivo",
+  "page": "https://ultratrailcerveira.com/",
+  "slug": "ultra-trail-vila-nova-cerveira-2020",
+  "administrative_area_level_1": "Viana do Castelo",
+  "administrative_area_level_2": "Vila Nova de Cerveira",
+  "administrative_area_level_3": "Vila Nova de Cerveira",
+  "district_code": 16
+}

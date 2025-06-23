@@ -1,0 +1,30 @@
+{
+  "id": 1532,
+  "name": "7º Trail CTM Vila Pouca de Aguiar 2020",
+  "location": "Vila Pouca de Aguiar Aguiar, Real",
+  "coordinates": {
+    "lat": 41.5002387,
+    "lon": -7.6432318
+  },
+  "country": "Portugal",
+  "locality": "Vila Real",
+  "distances": [],
+  "types": [
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/7be8790a3714bf53ca8fc12bbd8a4d6b"
+  ],
+  "start_date": "2020-05-17",
+  "end_date": "2020-05-18",
+  "circuit": [],
+  "description": "<p>A 17 de maio de 2020, regressamos ao bonito cenário das serras do Alvão e da Padrela para voltar a enchê-las de atletas e novidades…O CTM de Vila Pouca de Aguiar realiza nesta data o 7º Trail CTM Vila Pouca de Aguiar, composto por 3 provas. Trail Longo, Trail Curto e uma Caminhada.<br />\nAtreve-te a entrar na Natureza&#8230;</p>\n",
+  "description_short": "Trail desafiante pelas serras do Alvão e Padrela em Vila Pouca de Aguiar",
+  "page": "https://www.prozis.com/trailctm2020",
+  "slug": "7o-trail-ctm-vila-pouca-de-aguiar-2020",
+  "administrative_area_level_1": "Vila Real",
+  "administrative_area_level_2": "Vila Pouca de Aguiar",
+  "administrative_area_level_3": "Vila Pouca de Aguiar",
+  "district_code": 17
+}

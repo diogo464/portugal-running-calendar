@@ -1,0 +1,35 @@
+{
+  "id": 18103,
+  "name": "Cross das Masseiras 2022",
+  "location": "Aguçadoura, Póvoa de Varzim",
+  "coordinates": {
+    "lat": 41.4312668,
+    "lon": -8.7780304
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    4000,
+    8000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "cross-country",
+    "walk"
+  ],
+  "images": [
+    "media/52c5c5445ea98cc0f83690a120df051f"
+  ],
+  "start_date": "2022-10-08",
+  "end_date": "2022-10-09",
+  "circuit": [],
+  "description": "\n\n\n<p>O Cross das Masseiras é um evento organizado pelo Grupo Cultural e Recreativo Aguçadourense, em parceria com a União de Freguesias Aguçadoura e Navais e a Câmara Municipal da Póvoa de Varzim que decorrerá no dia 8 de outubro de 2022.<br>Este evento conta com duas atividades distintas, uma caminhada de 4km e uma corrida de 8 km, que percorrerá o areal da freguesia e os passadiços.<br>Pretende-se com esta prova juntar o mais belo do mar com a tradição da nossa terra. Da Praia de Paimó até à praia da Estela, 8 km de percurso acompanhado de uma maresia única. Mais que uma prova de atletismo será uma experiência que marcará ́ pelo convívio, amizade e contacto com a natureza…</p>\n",
+  "description_short": "Cross à beira-mar na Póvoa de Varzim unindo paisagem costeira e tradição local",
+  "page": "https://gcragucadourense.wixsite.com/crossdasmasseiras",
+  "slug": "cross-das-masseiras-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Póvoa de Varzim",
+  "administrative_area_level_3": "Aguçadoura",
+  "district_code": 13
+}

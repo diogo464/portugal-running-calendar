@@ -1,0 +1,33 @@
+{
+  "id": 14429,
+  "name": "Trail Rota das Capelas 2022",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    12000,
+    17000,
+    23000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/c3768c5db766df2c09208975f1a11c59"
+  ],
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-11",
+  "circuit": [],
+  "description": "\n<p>O Trail Rota das Capelas 2022 está inserido numa das mais belas serras do norte de Portugal, a serra da Aboboreira que se eleva até uma altitude de 1 000 metros.É um evento desportivo que não está inserido no circuito nacional de Trail Running, e que teve na sua gênese o gosto inequívoco pela modalidade aliado à vontade de tirar partido e, simultaneamente, promover o conselho de Marco de Canaveses e a freguesia de Soalhães através da sua beleza natural e dos trilhos que proporciona aos amantes da modalidade.O Evento conta com 3 provas distintas:- Trail Longo 23 km- Trail Curto 17 km- Caminhada 12 kmAmbas as provas têm início na Igreja de São Martinho de Soalhães, monumento que é de visita obrigatória.Organização a cargo de:ITER &#8211; ANIMAÇÃO TURÍSTICA E EVENTOSJUNTA DE FREGUESIA DE SOALHÃES.</p>\n",
+  "description_short": "Trail desafiante pela serra da Aboboreira com partida na histórica Igreja de São Martinho de Soalhães",
+  "page": "https://www.facebook.com/TrailRotadascapelas/posts/1787322628130586",
+  "slug": "trail-rota-das-capelas-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}

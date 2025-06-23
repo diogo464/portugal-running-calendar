@@ -1,0 +1,33 @@
+{
+  "id": 872,
+  "name": "GP Atlântico 2020",
+  "location": "Costa da Caparica, Almada",
+  "coordinates": {
+    "lat": 38.64455299999999,
+    "lon": -9.2333757
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/6704400d7febd8d07625e416976dd1cc"
+  ],
+  "start_date": "2020-02-23",
+  "end_date": "2020-02-24",
+  "circuit": [],
+  "description": "<h1>BEM-VINDOS A MAIS UMA EDIÇÃO DO GRANDE PRÉMIO DO ATLÂNTICO!</h1>\n<p>No dia 23 de Fevereiro, junto ao mar da Costa da Caparica, esperamos por si no 21º GP do Atlântico.</p>\n<h2>DISTÂNCIA/HORA/LOCAL</h2>\n<p><strong>Corrida 10 km</strong> | 10h00<br />\n<strong>Caminhada 5 km</strong> | 10h05</p>\n<p><strong>Partida e chegada</strong> junto ao Caparica Oceano, perto do Tarquínio – Beach Bar.</p>\n<h2>INSCRIÇÕES</h2>\n<p><strong>Corrida 10 km</strong><br />\n» Até 31 de Janeiro | 9,00€<br />\n» De 01 a 19 de Fevereiro | 10,00 €<br />\n» Última Hora* | 12,50 €</p>\n<p><strong>Caminhada 5km</strong><br />\n» Até 31 de Janeiro | 7,00€<br />\n» De 01 a 19 de Fevereiro | 8,00 €<br />\n» Última Hora* | 10,00 €</p>\n<p>*  Apenas disponível durante a Entrega do Kit Participante.</p>\n<p><strong>INSCRIÇÃO ONLINE </strong></p>\n",
+  "description_short": "Corrida junto ao mar na Costa da Caparica com envolvente paisagem atlântica",
+  "page": "http://xistarca.pt/eventos/gp-atlantico",
+  "slug": "corrida-do-atlantico",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

@@ -1,0 +1,29 @@
+{
+  "id": 19335,
+  "name": "26° Grande Prémio Atletismo de Tregosa 2022",
+  "location": "Tregosa, Barcelos",
+  "coordinates": {
+    "lat": 41.63576949999999,
+    "lon": -8.695395999999999
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/61ffa9688d1fdd3654296cf4d73782a1"
+  ],
+  "start_date": "2022-10-23",
+  "end_date": "2022-10-24",
+  "circuit": [],
+  "description": "\n<p>O Grande Prémio de Atletismo de Tregosa, freguesia de Barcelos, será a 23 de outubro.</p>\n\n\n\n<p>Eventuo gratuito!</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "Prova de atletismo gratuita na região de Barcelos com passagem por Tregosa",
+  "page": "https://www.facebook.com/events/774130977026812",
+  "slug": "26-grande-premio-atletismo-de-tregosa-2022",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Barcelos",
+  "administrative_area_level_3": "Tregosa",
+  "district_code": 3
+}

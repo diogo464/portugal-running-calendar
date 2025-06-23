@@ -1,0 +1,40 @@
+{
+  "id": 23802,
+  "name": "Maratona da Europa 2024",
+  "location": "Aveiro",
+  "coordinates": {
+    "lat": 40.6405055,
+    "lon": -8.6537539
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    5000,
+    10000,
+    21000,
+    21097,
+    42000,
+    42195
+  ],
+  "types": [
+    "marathon",
+    "run",
+    "10k",
+    "half-marathon",
+    "walk"
+  ],
+  "images": [
+    "media/a69e64d2227e9de3477b2bcdde52fe7e"
+  ],
+  "start_date": "2024-04-28",
+  "end_date": "2024-04-29",
+  "circuit": [],
+  "description": "\n<p>A Maratona da Europa realiza-se no dia 28 de abril de&nbsp;2024, pelas 08:30 horas em Aveiro. Nas duas últimas edições, cerca de 60% dos atletas participantes superaram os seus melhores registos na distância. Para além da maratona (42k) a Maratona da Europa — Aveiro 2023 conta com as provas de meia-maratona (21k), minimaratona (10k) e uma caminhada solidária (5k), para além da promoção de diversos eventos sociais e culturais.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Preços</h2>\n\n\n\n<p>DATAS | MARATONA | MEIA MARATONA | MINI MARATONA | CAMINHADA**</p>\n\n\n\n<p><strong>PROMOÇÃO DE ABERTURA – 28/04/2023 – 27/05/2023: 34,90€ | 17,00€ | 14,00€ | 7,00€</strong></p>\n\n\n\n<p>– 28/05/2023 &nbsp;– 27/08/2023: 49,90€ | 24,90€ | 16,00€ | 10,00€</p>\n\n\n\n<p>– 28/08/2023 – 27/12/2023 : 59,90€ | 29,90€ | 19,00€ | 11,00€</p>\n\n\n\n<p>– 28/12/2023 – 27/03/2024: 69,90€ | 34,90€ | 15,000€ | 12,00€</p>\n\n\n\n<p>– 28/03/2024 – 21/04/2024: 79,90€ | 39,90€ | 20,00€ | 15,00€</p>\n\n\n\n<p>– Inscrições na última semana: 21 a 27 de Abril de 2024: 120,00€ | 60,00€ | 30,00€ | 20,00€</p>\n\n\n\n<p></p>\n",
+  "description_short": "Maratona da Europa em Aveiro com múltiplas provas e ambiente desafiante junto à ria",
+  "page": "https://www.europemarathon.pt/",
+  "slug": "maratona-da-europa-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Aveiro",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

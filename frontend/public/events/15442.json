@@ -1,0 +1,29 @@
+{
+  "id": 15442,
+  "name": "IX Trail do Sor 2022",
+  "location": "Ponte de Sor Sor, Portalegre",
+  "coordinates": {
+    "lat": 39.2524027,
+    "lon": -8.0093497
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/48eb5e6769b6b29be69045dada23697e"
+  ],
+  "start_date": "2022-09-04",
+  "end_date": "2022-09-05",
+  "circuit": [],
+  "description": "\n<p>A Associação “Clube de Atletismo Trail Runners da Ponte” (CATRP) vai realizar no dia 04 de setembro de 2022 o “IX TRAIL DO SOR”, na Cidade de Ponte de Sor, Distrito de Portalegre, Alto Alentejo, com o Apoio do Município de Ponte de Sor, da União de Freguesias de Ponte de Sor, Vale de Açor e Tramaga, entre outras entidades e empresas. É uma Prova de Trail Running, realizada em trilhos sinalizados, em piso acidentado, estradões e obstáculos naturais, por terrenos circundantes ao Rio Sor, na área circundante a Ponte de Sor, maioritariamente por montes e vales. O IX Trail do Sor faz parte do Circuito Nacional de Trail, series 150, do Circuito Nacional de Trail Sprint, series 100 e do Circuito Nacional de Trail Jovem, series 150 da Associação de Trail Running de Portugal (ATRP) e do Circuito Distrital de Trail Curto e Longo, da Associação de Atletismo do Distrito de Portalegre (AADP), para a época 2021/2022, sendo a prova do Campeonato Distrital de Trail Curto.</p>\n",
+  "description_short": "Trail desafiante pelos montes e vales do Alto Alentejo, seguindo os trilhos do Rio Sor em Ponte de Sor",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/120/",
+  "slug": "ix-trail-do-sor-2022",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Ponte de Sor",
+  "administrative_area_level_3": "Ponte de Sor",
+  "district_code": 12
+}

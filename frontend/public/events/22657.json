@@ -1,0 +1,32 @@
+{
+  "id": 22657,
+  "name": "Avelar Sunset Trail 2023",
+  "location": "Avelar, Ansião",
+  "coordinates": {
+    "lat": 39.9206273,
+    "lon": -8.358134399999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/6c0d2d19e1e11511185accc875e41149"
+  ],
+  "start_date": "2023-06-24",
+  "end_date": "2023-06-25",
+  "circuit": [],
+  "description": "\n<p>O Avelar Sunset Trail 2023, sob organização da Junta de Freguesia de Avelar, pretende confirmar-se como uma prova de desporto e lazer, com carácter competitivo, na vertente de corrida [trail running], a realizar por percursos e trilhos integrados no seu território e freguesias contiguas. A quarta edição realiza-se a 24 de junho de 2023 e é constituida por três distâncias cronometradas: Trail Longo, Trail Curto e Prova de Kids e uma não cronometrada &#8211; A Caminhada.</p>\n\n\n\n<p>Este evento desportivo é aberto a diferentes idades, promotor de convívio, saúde e bem-estar dos participantes na prática do desporto de natureza e insere-se na edição de 2023 das comemorações da Semana da Vila de Avelar que ocorre precisamente na semana que apresenta os dias com mais luz solar no ano.</p>\n\n\n\n<p>A organização tem por objetivo proporcionar uma excelente experiência de corrida e caminhada ao pôr-do-sol na freguesia de Avelar.</p>\n\n\n\n<p>No final, os participantes poderão usufruir de um saboroso jantar e integrarem-se no programa que estiver patente na noite do dia da prova.</p>\n\n\n\n<p>O Avelar Sunset Trail é quarta e última prova que integra o Campeonato Municipal de Trail 2023, tutelado pelo Município de Ansião, como apoio da ATRP e da TotalCrono</p>\n\n\n",
+  "description_short": "Trail ao pôr-do-sol na Vila de Avelar com diferentes percursos e ambiente de convívio",
+  "page": "https://www.queroir.pt/avelarsunsettrail2023",
+  "slug": "avelar-sunset-trail-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Avelar",
+  "district_code": 10
+}

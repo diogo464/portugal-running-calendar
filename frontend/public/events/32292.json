@@ -1,0 +1,30 @@
+{
+  "id": 32292,
+  "name": "Cross Samuel Barata 2024",
+  "location": "Cortes do Meio, Covilhã",
+  "coordinates": {
+    "lat": 40.2805633,
+    "lon": -7.504327199999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run",
+    "cross-country"
+  ],
+  "images": [
+    "media/fff3b806984555e2c23eb4e29df41a37"
+  ],
+  "start_date": "2024-01-21",
+  "end_date": "2024-01-22",
+  "circuit": [],
+  "description": "\n<p>Dia 21 de janeiro, na Pista de Cross do Louseiro, terá lugar a 2ª edição do Cross &#8220;Samuel Barata&#8221;</p>\n\n\n\n<p>Esta prova faz a justa e merecida homenagem ao melhor atleta nacional da atualidade.</p>\n\n\n\n<p>O Cross será uma prova aberta a atletas populares e federados de todos os escalões.</p>\n\n\n\n<p>A pista vai ser intervencionada, de forma a resolver alguns pontos menos positivos identificados na 1ª edição, nomeadamente o seu nivelamento e limpeza de raizes.</p>\n\n\n\n<p>A grande novidade desta edição será a presença do atleta homenageado.</p>\n\n\n\n<p>Será uma oportunidade única de voltar a ver o Samuel Barata a correr na região!</p>\n\n\n",
+  "description_short": "Cross de homenagem a Samuel Barata com percurso renovado na Pista do Louseiro",
+  "page": "https://meutempo.pt/prova?crosssamuelbarata2024",
+  "slug": "cross-samuel-barata-2024",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "São Martinho",
+  "district_code": 5
+}

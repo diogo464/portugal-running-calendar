@@ -1,0 +1,35 @@
+{
+  "id": 3057,
+  "name": "Corrida Noturna Praia da Caparica 2021",
+  "location": "Costa da Caparica, Almada",
+  "coordinates": {
+    "lat": 38.64455299999999,
+    "lon": -9.2333757
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    600,
+    5000,
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/974df66e6a388cf5661b924ffad3331d"
+  ],
+  "start_date": "2021-09-11",
+  "end_date": "2021-09-12",
+  "circuit": [],
+  "description": "\n<p>Não fique em casa e corra pelas praias da Caparica! No próximo dia&nbsp;11 de Setembro, a<strong>&nbsp;5</strong>ª<strong>&nbsp;Corrida Noturna Praia da Caparica</strong>, lança o desafio de correr 10km ou correr/caminhar 5km. O primeiro km é feito em alcatrão e depois vem a areia! Contamos consigo?</p>\n\n\n\n<p>As crianças também terão uma prova de 600m!</p>\n",
+  "description_short": "Corrida noturna pela praia da Caparica com percurso misto de alcatrão e areia",
+  "page": "https://xistarca.pt/eventos/5a-corrida-noturna-costa-da-caparica-2021",
+  "slug": "corrida-noturna-praia-da-caparica-2021",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

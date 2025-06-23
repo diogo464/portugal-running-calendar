@@ -1,0 +1,29 @@
+{
+  "id": 42493,
+  "name": "Poiares Adventure Race 2025",
+  "location": "Vila Nova de Poiares, Coimbra",
+  "coordinates": {
+    "lat": 40.2107667,
+    "lon": -8.25907
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/17a153d384b624a2859e4fdf075caa9f"
+  ],
+  "start_date": "2025-09-20",
+  "end_date": "2025-09-21",
+  "circuit": [],
+  "description": "\n<p>A Organização do Poiares Adventure Race é da responsabilidade do Municípiode Vila Nova de Poiares, com a colaboração de duas entidades: a AssociaçãoRecreativa de São Miguel (ARSM) e a Capitão Dureza &#8211; Adventure Sports. A prova irá decorrer no dia 20 de setembro de 2025.</p>\n\n\n\n<p><br>Um evento desportivo que combina três desportos outdoor, Kayak, Trail Running e BTT, realizado em equipas de dois elementos, sendo que, os dois, terão quecumprir os três percursos.</p>\n",
+  "description_short": "Prova aventura multi-desportiva por Vila Nova de Poiares com kayak, trail e BTT em equipas de dois elementos",
+  "page": "https://stopandgo.net/events/poiares-adventure-race-2025",
+  "slug": "poiares-adventure-race-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Vila Nova de Poiares",
+  "administrative_area_level_3": null,
+  "district_code": 6
+}

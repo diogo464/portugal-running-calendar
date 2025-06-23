@@ -1,0 +1,30 @@
+{
+  "id": 36560,
+  "name": "Trail Rota da Telha 2025",
+  "location": "Lajes, Seia",
+  "coordinates": {
+    "lat": 40.48433199999999,
+    "lon": -7.7185755
+  },
+  "country": "Portugal",
+  "locality": "Distrito da Guarda",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/3019f3dd542a42c22b67568d059d9fce"
+  ],
+  "start_date": "2025-01-12",
+  "end_date": "2025-01-12",
+  "circuit": [],
+  "description": "\n<p>O ”I Trail Rota da Telha&#8221; é uma corrida de montanha, organizada pelo &#8220;Grupo Desportivo Recreativo e Cultural da Lajes” a realizar no dia 12 de janeiro de 2025, nas Lajes &#8211; Seia.</p>\n\n\n\n<p>O ”I Trail Rota da Telha ” é uma prova de corrida de montanha, constituído por um Trail Curto e uma caminhada, realizados predominantemente em trilhos, caminhos rurais, vias de terra batida e ribeiras circundantes à localidade das Lajes.</p>\n\n\n",
+  "description_short": "Trail inaugural pela zona montanhosa de Seia com percursos em trilhos tradicionais e caminhos rurais",
+  "page": "https://acorrer.pt/eventos/info/3644",
+  "slug": "trail-rota-da-telha-2025",
+  "administrative_area_level_1": "Distrito da Guarda",
+  "administrative_area_level_2": "Seia",
+  "administrative_area_level_3": "Lajes",
+  "district_code": 9
+}

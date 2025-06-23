@@ -1,0 +1,34 @@
+{
+  "id": 23718,
+  "name": "Vadia Solidária 2023",
+  "location": "Oliveira de Azeméis, Aveiro",
+  "coordinates": {
+    "lat": 40.839305,
+    "lon": -8.4770079
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    8000,
+    15000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bffdf57975c4e345d35f7cb477776bb5"
+  ],
+  "start_date": "2023-05-14",
+  "end_date": "2023-05-15",
+  "circuit": [],
+  "description": "\n<p>Será no dia 14 de maio de 2023, que a Associação AZtrail, organizará a VADIA SOLIDÁRIA.</p>\n\n\n\n<p>VADIA CORRIDA – Corrida sem objetivo competitivo com cerca de 15km.</p>\n\n\n\n<p>CAMINHADA VADIA 8K<br>Com início na Cervejaria Vadia/Brewpub (coordenadas GPS 40.841298, -8.435105), situada na Rua Comendador Artur José Gomes Barbosa 576, 3720-005 Ossela, no concelho de Oliveira de Azeméis, será uma prova circular com término no local de partida.</p>\n\n\n",
+  "description_short": "Corrida solidária e caminhada circular pela região de Oliveira de Azeméis com partida e chegada na Cervejaria Vadia",
+  "page": "https://stopandgo.net/events/vadia-solidaria",
+  "slug": "vadia-solidaria-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Oliveira de Azeméis",
+  "administrative_area_level_3": "União das freguesias de Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail",
+  "district_code": 1
+}

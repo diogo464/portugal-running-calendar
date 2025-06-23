@@ -1,0 +1,34 @@
+{
+  "id": 29572,
+  "name": "Maratona de Nova Iorque 2024",
+  "location": "Nova Iorque. Estados Unidos da América",
+  "coordinates": {
+    "lat": 40.7127753,
+    "lon": -74.0059728
+  },
+  "country": "Estados Unidos",
+  "locality": "Nova York",
+  "distances": [
+    42195
+  ],
+  "types": [
+    "run",
+    "marathon"
+  ],
+  "images": [
+    "media/64e7ca787f82b98461b6ced15715f482"
+  ],
+  "start_date": "2024-11-03",
+  "end_date": "2024-11-04",
+  "circuit": [
+    "Majors"
+  ],
+  "description": "\n<p>A maratona de Nova Iorque acontece a <strong>3de Novembro </strong>e destaca-se pelo seu ambiente festivo, ruas repletas de animação, bandas músicais, milhares de corredores, espectadores e máxima emoção.</p>\n\n\n\n<p>Uma jornada de 42,195 quilómetros que já completou 50 anos e que passa por 5 bairros da cidade de Nova York: Staten Island, Brooklyn, Queens, Bronx e Manhattan, cruzando pontes, ruas emblemáticas e parques únicos, como o Central Park.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Maratona icónica de Nova Iorque atravessando 5 bairros com ambiente festivo e paisagens únicas da cidade",
+  "page": "https://www.nyrr.org/tcsnycmarathon",
+  "slug": "maratona-de-nova-iorque-2024",
+  "administrative_area_level_1": "Nova York",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": null
+}

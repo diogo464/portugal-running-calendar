@@ -1,0 +1,33 @@
+{
+  "id": 24620,
+  "name": "Trail Running Desafio 5 Cumes 2023",
+  "location": "Malveira da Serra, Cascais",
+  "coordinates": {
+    "lat": 38.7537142,
+    "lon": -9.4464594
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    13000,
+    25000
+  ],
+  "types": [
+    "trail",
+    "run"
+  ],
+  "images": [
+    "media/c3142ab77155d7f452d56caaf3c9962a"
+  ],
+  "start_date": "2023-10-29",
+  "end_date": "2023-10-30",
+  "circuit": [],
+  "description": "\n<p>Associação Desportiva Gorunners, em colaboração com a entidade Trail4U irão organizar a 29 de Outubro de 2023 pelas 09h00 horas o Trail Running Desafio 5 cumes, em São Miguel de Alcainça, concelho de Mafra. O Trail Running Desafio 5 Cumes é uma prova de TrailRunning, corrida pedestre em Natureza, com três provas, Trail Longo (TL) K25, Trail Curto (TC) 13 e Caminhada.</p>\n\n\n\n<p><br>Com partida e chegada na localidade de S. Miguel de Alcainça, Concelho de Mafra, Distrito de Lisboa, visa a promoção e divulgação turística e ambiental da região e da promoção do desporto em meio natural.</p>\n",
+  "description_short": "Trail desafiante pelos cinco cumes de São Miguel de Alcainça com partida e chegada na localidade de Mafra",
+  "page": "https://www.trilhoperdido.com/evento/Desafio-5-Cumes-2023",
+  "slug": "trail-running-desafio-5-cumes-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Cascais",
+  "administrative_area_level_3": "Alcabideche",
+  "district_code": 11
+}

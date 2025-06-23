@@ -1,0 +1,36 @@
+{
+  "id": 33774,
+  "name": "Meia Maratona de Cortegaça 2024",
+  "location": "Praia De Cortegaça, Aveiro",
+  "coordinates": {
+    "lat": 40.9419814,
+    "lon": -8.6578115
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000,
+    21097
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/89abb181557c89315fb63e14a2fe3b6c"
+  ],
+  "start_date": "2024-05-12",
+  "end_date": "2024-05-13",
+  "circuit": [
+    "Estrelas de Portugal"
+  ],
+  "description": "\n<p>“Os Falta d’Ar” leva a efeito no próximo dia 12 de Maio de 2024, pelas 09h30, a 37ª Meia Maratona de Cortegaça e a 2ª Corrida de 10Km.</p>\n",
+  "description_short": "Prova desportiva na região de Cortegaça com meia maratona e corrida de 10Km",
+  "page": "https://lap2go.com/pt/event/meia-cortegaca-2024",
+  "slug": "meia-maratona-de-cortegaca-2024",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Ovar",
+  "administrative_area_level_3": "Cortegaça",
+  "district_code": 1
+}

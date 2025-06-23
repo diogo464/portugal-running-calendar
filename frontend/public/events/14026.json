@@ -1,0 +1,29 @@
+{
+  "id": 14026,
+  "name": "Trail Trilhos dos Cornos 2022",
+  "location": "Barcouço, Mealhada",
+  "coordinates": {
+    "lat": 40.3052105,
+    "lon": -8.4712639
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/4cc2388a4a870dd206768b7754e89784"
+  ],
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-14",
+  "circuit": [],
+  "description": "\n<p>O Trail Trilhos dos Cornos 2022 vai percorrer trilhos e caminhos em locais rurais e florestais, sendo organizada pela equipa de Trail Adões Trail e contando com o apoio do Centro Cultural e Recreativo de Adões, da Comissão Organizadora das Festas em Honra de Nossa Senhora do Livramento, do Município da Mealhada, da União de Freguesias de Trouxemil e Torre Vilela e de diversos patrocinadores.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos rurais e florestais na região da Mealhada",
+  "page": "https://www.runmanager.net/Eventos/i-trail-trilhos-dos-cornos/585",
+  "slug": "trail-trilhos-dos-cornos-2022",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Mealhada",
+  "administrative_area_level_3": "Barcouço",
+  "district_code": 1
+}

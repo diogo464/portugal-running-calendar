@@ -1,0 +1,38 @@
+{
+  "id": 27923,
+  "name": "Trail da Amizade 2023",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    12000,
+    18000,
+    32000
+  ],
+  "types": [
+    "run",
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f2ad3d7e380940a9b43bc9db1d9c7033"
+  ],
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-04",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O TRAIL DA AMIZADE (TdA) é um evento desportivo de Trail Running no dia 3 de Dezembro organizado pelo Centro de Amizade e Animação Social (IPSS) de Santiago da Guarda (Ansião) que proporciona a descoberta de trilhos, cores e sabores de Santiago da Guarda, bem como levará os participantes a conhecer as paisagens deslumbrantes da Serra de Sicó na sua encosta nascente, por entre vales e outeiros…várzeas e planaltos. É ainda um momento que proporciona a todos os seus atletas e inscritos uma verdadeira celebração da amizade, num ambiente competitivo é certo, mas também, e sobretudo, num ambiente de genuína partilha de momentos de alegria, descontração e companheirismo.&nbsp;</p>\n\n\n\n<p>Venha até Santiago da Guarda e deixe-se deslumbrar por este território.</p>\n\n\n\n<p>Provas:</p>\n\n\n\n<p>Trail Longo | 32 kms | 700D+ | Moderado</p>\n\n\n\n<p>Trail Curto | 18 kms | 400D+ | Moderado</p>\n\n\n\n<p>Mini Trail&nbsp;| 12 kms | 250D+ |&nbsp;Moderado</p>\n\n\n\n<p>Caminhada | 12 kms | Moderado</p>\n\n\n\n<p>Trail Kids no dia 10-12-2021</p>\n\n\n",
+  "description_short": "Trail da Amizade pela Serra de Sicó com paisagens deslumbrantes e ambiente de companheirismo em Santiago da Guarda",
+  "page": "https://www.queroir.pt/traildaamizade2023",
+  "slug": "trail-da-amizade-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

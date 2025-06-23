@@ -1,0 +1,32 @@
+{
+  "id": 30721,
+  "name": "Trail Pombal Sicó 2024",
+  "location": "Pombal, Leiria",
+  "coordinates": {
+    "lat": 39.9162755,
+    "lon": -8.628103099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/303c46abadbed036028cbd53fae9353a"
+  ],
+  "start_date": "2024-04-21",
+  "end_date": "2024-04-22",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Pombal Sicó é uma prova inclusiva e que já faz parte do calendário dos trail runners de todo o país. Organizado em torno da mítica Serra do Sicó esta é uma prova para todos. O dinheiro das inscrições irá reverter a favor dos Bombeiros Voluntários de Pombal.</p>\n",
+  "description_short": "Trail solidário pela Serra do Sicó com apoio aos Bombeiros Voluntários de Pombal",
+  "page": "https://lap2go.com/pt/event/trail-pombal-sico-2024",
+  "slug": "trail-pombal-sico-2024",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Pombal",
+  "administrative_area_level_3": "Pombal",
+  "district_code": 10
+}

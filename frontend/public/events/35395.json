@@ -1,0 +1,33 @@
+{
+  "id": 35395,
+  "name": "Grande Prémio De Santo António 2024",
+  "location": "Torres Novas, Santarém",
+  "coordinates": {
+    "lat": 39.478072,
+    "lon": -8.5404429
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids"
+  ],
+  "images": [
+    "media/e2e408dfd7e8f08be715619e20635c5a"
+  ],
+  "start_date": "2024-06-08",
+  "end_date": "2024-06-09",
+  "circuit": [],
+  "description": "\n<p>O 45º Grande Prémio de S. António e Campeonato Distrital de Estrada em atletismo a realizar no dia 08<br>de Junho de 2024 pelas 17h00m, tem como entidade organizadora, a União Desportiva e Recreativa da<br>Zona Alta</p>\n\n\n",
+  "description_short": "Tradicional corrida de atletismo em estrada pelo Campeonato Distrital em homenagem a S. António",
+  "page": "https://www.queroir.pt/gpsantoantonio2024",
+  "slug": "grande-premio-de-santo-antonio-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Torres Novas",
+  "administrative_area_level_3": null,
+  "district_code": 14
+}

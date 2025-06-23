@@ -1,0 +1,29 @@
+{
+  "id": 1467,
+  "name": "Oh Meu Deus &#8211; Ultra Trail Serra da Estrela 2020",
+  "location": "Serra da Estrela",
+  "coordinates": {
+    "lat": 40.3230306,
+    "lon": -7.5960533
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/f1da8b5aa28cd24698b3817d86e0b6e1"
+  ],
+  "start_date": "2020-06-11",
+  "end_date": "2020-06-12",
+  "circuit": [],
+  "description": "<p>A Organização do Oh Meu Deus – Ultra Trail<sup>®</sup> – Serra da Estrela – 100 Milhas Portugal cabe à Horizontes Turismo Desportivo, com sede em Proença-a-Nova com os apoios institucionais da Câmara Municipal de Seia e União das Freguesias de Seia, São Romão e Lapa dos Dinheiros.</p>\n<p>O Oh Meu Deus – Ultra Trail<sup>®</sup> – Serra da Estrela – 100 Milhas Portugal é um evento lúdico/desportivo, pedestre em natureza com características de montanha. Desenvolve-se em percursos com a utilização de veredas, trilhos florestais, caminhos rurais, carreiros e trilhos pedestres. Realizando-se o itinerário a pé e no menor tempo possível.</p>\n<p>Este evento tem como objetivo conjugar o espírito de aventura na natureza, o turismo e o desporto. Será constituído por 4 distâncias:</p>\n<ul>\n<li><strong>OMD200 (160+40): Solo e Duplas</strong></li>\n<li><strong>OMD100: Solo e Duplas</strong></li>\n<li><strong>OMD50</strong></li>\n<li><strong>OMD20</strong></li>\n</ul>\n",
+  "description_short": "Trail desafiante pela Serra da Estrela com múltiplas distâncias e espírito de aventura na natureza",
+  "page": "http://www.ohmeudeus.com/",
+  "slug": "oh-meu-deus-ultra-trail-serra-da-estrela-2020",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "Unhais da Serra",
+  "district_code": 5
+}

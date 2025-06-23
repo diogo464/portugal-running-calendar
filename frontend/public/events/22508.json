@@ -1,0 +1,29 @@
+{
+  "id": 22508,
+  "name": "Xxv Circuito De Água De Pena 2023",
+  "location": "Machico, Ilha da Madeira",
+  "coordinates": {
+    "lat": 32.7318412,
+    "lon": -16.791291
+  },
+  "country": "Portugal",
+  "locality": "Madeira",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/0951c768a969fdf341ee86f0708aadf6"
+  ],
+  "start_date": "2023-02-05",
+  "end_date": "2023-02-06",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://atletismodamadeira.pt/event/circuito-de-agua-de-pena-6/",
+  "slug": "xxv-circuito-de-agua-de-pena-2023",
+  "administrative_area_level_1": "Madeira",
+  "administrative_area_level_2": "Madeira",
+  "administrative_area_level_3": null,
+  "district_code": 30
+}

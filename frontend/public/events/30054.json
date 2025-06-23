@@ -1,0 +1,29 @@
+{
+  "id": 30054,
+  "name": "Póvoa de Lanhoso Urban Fit 2024",
+  "location": "Póvoa de Lanhoso, Braga",
+  "coordinates": {
+    "lat": 41.5784784,
+    "lon": -8.2689012
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/6ac46614c8740cb23f2589e3b92d47a7"
+  ],
+  "start_date": "2024-06-01",
+  "end_date": "2024-06-02",
+  "circuit": [],
+  "description": "\n<p>O Póvoa de Lanhoso Urban Fit é uma prova que combina corrida com obstáculos urbanos, organizada pela empresa URBAN FIT RACE. A prova terá partida e chegada no centro da vila.</p>\n\n\n",
+  "description_short": "Corrida de obstáculos urbanos no centro histórico da Póvoa de Lanhoso",
+  "page": "https://lap2go.com/pt/event/povoa-lanhoso-urban-fit-2024",
+  "slug": "povoa-de-lanhoso-urban-fit-2024",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Póvoa de Lanhoso",
+  "administrative_area_level_3": "Póvoa de Lanhoso (Nossa Senhora do Amparo)",
+  "district_code": 3
+}

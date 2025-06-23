@@ -1,0 +1,39 @@
+{
+  "id": 13349,
+  "name": "Corrida São Silvestre Constância 2021",
+  "location": "Constância, Santarém",
+  "coordinates": {
+    "lat": 39.4780719,
+    "lon": -8.337225199999999
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    7000,
+    7700,
+    8000,
+    8800,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester",
+    "walk",
+    "kids"
+  ],
+  "images": [
+    "media/27e8f587de5ad3775491cd95a71f6bb0"
+  ],
+  "start_date": "2021-12-11",
+  "end_date": "2021-12-12",
+  "circuit": [],
+  "description": "\n<p>6ª Corrida São Silvestre Constância 2021, Solidária, do Município de Constância e Brigada Mecanizada.</p>\n\n\n\n<p>Correndo ou caminhando, ajude quem mais precisa!Prova: 8,8 Km | Caminhada: 7,7 Km | Escalões Jovens</p>\n",
+  "description_short": "Corrida solidária à passagem de ano pelas ruas de Constância organizada pela câmara municipal e brigada militar",
+  "page": "https://lap2go.com/pt/event/ss-solidaria-constancia-brigmec-2021",
+  "slug": "corrida-sao-silvestre-constancia-2021",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Constância",
+  "administrative_area_level_3": "Constância",
+  "district_code": 14
+}

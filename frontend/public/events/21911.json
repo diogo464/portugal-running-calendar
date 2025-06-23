@@ -1,0 +1,35 @@
+{
+  "id": 21911,
+  "name": "II Trail Entre o Rio e a Aldeia 2023",
+  "location": "Santo Amador - Moura, Beja",
+  "coordinates": {
+    "lat": 38.1372534,
+    "lon": -7.3091043
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [
+    9000,
+    15000,
+    21000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/80a3e65a8e27455c2139b2b637780292"
+  ],
+  "start_date": "2023-04-08",
+  "end_date": "2023-04-09",
+  "circuit": [],
+  "description": "\n<p>O 2º Trail Entre o Rio e a Aldeia será realizado nos dias 8 de abril de 2023 e é um evento organizado pela Associação em Honra de Santo Amador, com o apoio de vários parceiros institucionais e privados.</p>\n\n\n\n<p>Trail Longo (21 Km).</p>\n\n\n\n<p>Trail curto (15 Km).</p>\n\n\n\n<p>Caminhada (9 Km).</p>\n\n\n",
+  "description_short": "Trail desafiante entre o rio e a aldeia, organizado pela Associação em Honra de Santo Amador",
+  "page": "https://acorrer.pt/eventos/info/3115",
+  "slug": "ii-trail-entre-o-rio-e-a-aldeia-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Moura",
+  "administrative_area_level_3": "Santo Amador",
+  "district_code": 2
+}

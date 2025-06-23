@@ -1,0 +1,33 @@
+{
+  "id": 20757,
+  "name": "Ultra Caminhos Do Tejo 2023",
+  "location": "Ourém, Santarém",
+  "coordinates": {
+    "lat": 39.6564974,
+    "lon": -8.5773408
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    144000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/6a9632922ee44ba2f39689ca265128e7"
+  ],
+  "start_date": "2023-06-09",
+  "end_date": "2023-06-10",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>XVI edição O Caminho faz-se caminhando&#8230; Caminhos do Tejo, um mundo de emoções. A UMCT, 144km, classifica para o Circuito Nacional de Trail Ultra Endurance/ATRP</p>\n\n\n",
+  "description_short": "Trail ultra desafiante ao longo do Rio Tejo com 144 km, pontuável para o Circuito Nacional",
+  "page": "https://www.plataformaomdc.com/CLIENTE/ver_evento_cli/130/",
+  "slug": "ultra-caminhos-do-tejo-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Ourém",
+  "administrative_area_level_3": "Olival",
+  "district_code": 14
+}

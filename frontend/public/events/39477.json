@@ -1,0 +1,32 @@
+{
+  "id": 39477,
+  "name": "Estafeta da Família 2025",
+  "location": "Parque Verde do Bonito, Entroncamento",
+  "coordinates": {
+    "lat": 39.4814211,
+    "lon": -8.4652233
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [
+    1000
+  ],
+  "types": [
+    "run",
+    "relay"
+  ],
+  "images": [
+    "media/2241c258fed2116659a21213f4c82bb7"
+  ],
+  "start_date": "2025-02-23",
+  "end_date": "2025-02-23",
+  "circuit": [],
+  "description": "\n<p>A prova “Estafeta da Família” é organizada pelo CLAC e trata-se de um evento desportivo de caráter não competitivo, que visa incentivar a prática de atividade física e promover a união familiar através do desporto.</p>\n\n\n\n<p>A prova realiza-se no Parque do Bonito e consiste numa volta completa ao parque — aproximadamente 1000 metros. Cada família constitui uma equipa (com o limite máximo de 4 elementos; caso sejam menos de 4, haverá atletas que realizarão mais voltas).</p>\n\n\n\n<p>Cada elemento da família corre de forma autónoma, com exceção dos mais pequenos, que poderão correr acompanhados. No entanto, o dorsal deve ser sempre usado pelo membro mais jovem da equipa.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Estafeta familiar descontraída no Parque do Bonito que promove união e atividade física para todas as idades",
+  "page": "https://99eventos.wixsite.com/estafetafamilia25/",
+  "slug": "estafeta-da-familia-2025",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Entroncamento",
+  "administrative_area_level_3": "Nossa Senhora de Fátima",
+  "district_code": 14
+}

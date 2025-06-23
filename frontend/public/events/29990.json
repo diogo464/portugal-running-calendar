@@ -1,0 +1,38 @@
+{
+  "id": 29990,
+  "name": "São Silvestre Mortágua 2023",
+  "location": "Mortágua, Viseu",
+  "coordinates": {
+    "lat": 40.3971448,
+    "lon": -8.2309134
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [
+    300,
+    600,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/e085d1464fe37a7fae66377876010999"
+  ],
+  "start_date": "2023-12-23",
+  "end_date": "2023-12-24",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre Mortágua e Kids Race terá lugar no dia 23 de Dezembro de 2023 com início às 17h. Todas as provas terão início e fim no mesmo local, a Praça do Município de Mortágua, e decorrerão em percurso misto de alcatrão e calçada.</p>\n\n\n\n<p>IO Evento S. Silvestre de Mortágua e Kids Race 2023 destina-se ao público em geral, com o seguinte enquadramento por provas/idade:<br>a) Corrida 300m: 6 aos 9 anos;<br>b) Corrida 600m: 10 aos 12 anos;<br>c) Caminhada 5 km: +18 anos<em>; d) Corrida 5 km: + 18anos</em>;<br>e) Corrida 10 km: +18 anos*.</p>\n\n\n\n<p></p>\n\n\n",
+  "description_short": "São Silvestre tradicional em Mortágua com provas para todas as idades em percurso misto de alcatrão e calçada",
+  "page": "https://www.runmanager.net/Eventos/s-silvestre-de-mortagua-e-kids-race-2023/780",
+  "slug": "sao-silvestre-mortagua-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Mortágua",
+  "administrative_area_level_3": "Mortágua",
+  "district_code": 18
+}

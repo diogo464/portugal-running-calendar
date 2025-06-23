@@ -1,0 +1,35 @@
+{
+  "id": 20803,
+  "name": "Ste &#8211; Sintra Trail X´Treme 2023",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    21000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/03721210055fcacec0f477462ed5d6ad"
+  ],
+  "start_date": "2023-09-17",
+  "end_date": "2023-09-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O evento STE &#8211; SINTRA TRAIL X’TREME, contextualiza-se na vontade de dar a possibilidade a todos<br>os atletas de poder usufruir dos trilhos fantásticos da Serra de Sintra.</p>\n\n\n\n<p>Foi aperfeiçoado e adaptado para efeitos deste evento e inclui passagens por propriedades privadas de inegável beleza, que de outra forma não seriam acessíveis aos participantes.<br>O conceito X’TREME advém do nível de beleza dos trilhos, da sua componente técnica, assim como do grau de dificuldade e da capacidade física e psicológica necessárias para superar o desafio. Não está de modo nenhum associado ao nível de perigosidade.</p>\n\n\n\n<p><br>À prova STE &#8211; SINTRA TRAIL X’TREME / 31KM foi atribuída 2 pontos ITRA (https://itra.run), sendo, portanto, prova qualificativa para os eventos que exigem este critério de qualificação. Os pontos ITRAserão atribuídos a todos os atletas que terminem a referida prova. É ainda integrante do calendário da ITRA.</p>\n\n\n\n<p><br>À prova STE &#8211; SINTRA TRAIL X’PLORE / 21KM foi atribuída 1 ponto ITRA (https://itra.run), sendo, portanto, prova qualificativa para os eventos que exigem este critério de qualificação. Os pontos ITRA serão atribuídos a todos os atletas que terminem a referida prova. É ainda integrante do calendário da ITRA.</p>\n\n\n\n<p><br>A partida e chegada de todas as provas e caminhada, será na Praça D. Fernando II, São Pedro de<br>Sintra &#8211; https://goo.gl/maps/R8tB9W3tHqD2 / Coordenadas: 38.790152, -9.379770</p>\n",
+  "description_short": "Trail técnico e desafiante pelos trilhos fantásticos da Serra de Sintra em evento com percursos X'TREME e X'PLORE",
+  "page": "https://stopandgo.net/events/ste-montepio-sintra-trail-xtreme-2023",
+  "slug": "ste-montepio-sintra-trail-xtreme-2023",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

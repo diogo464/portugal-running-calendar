@@ -1,0 +1,31 @@
+{
+  "id": 20805,
+  "name": "XII Trilhos Dos Templários 2023",
+  "location": "Tomar, Santarém",
+  "coordinates": {
+    "lat": 39.6053819,
+    "lon": -8.4043125
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/919fbc00c384e5ed28ac9047756afcc6"
+  ],
+  "start_date": "2023-09-17",
+  "end_date": "2023-09-18",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>A XII Edição dos Trilhos dos Templários 2023, contextualiza-se na vontade de dar a possibilidade a todos<br>os atletas de poder usufruir de trilhos fantásticos no centro de Portugal, em Santa Cita, Tomar, num percurso<br>aperfeiçoado e adaptado ao longo dos últimos anos acessíveis a todos os participantes, que inclui<br>passagens por caminhos e trilhos florestais, sempre acompanhados pelo Rio Nabão e pelo Rio Zêzere.<br>O conceito dos Trilhos dos Templários advém da história e dos caminhos dos nossos antepassados<br>Templários que neles viajaram e deixaram a sua marca neste local, para agora serem adaptados a<br>percursos competitivos de componente técnica elevada e com grau de dificuldade exigente, com necessária<br>capacidade física e psicológica para superar o desafio.<br>A partida e a chegada de todas as provas do evento, serão no Pavilhão da Associação Cultural e Recreativa<br>de Santa Cita, em Santa Cita, Tomar.<br></p>\n",
+  "description_short": "Trail histórico pelos caminhos dos Templários em Tomar, com percursos técnicos junto aos rios Nabão e Zêzere",
+  "page": "https://www.trilhoperdido.com/evento/XII-Trilhos-dos-Templarios",
+  "slug": "xii-trilhos-dos-templarios-2023",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Tomar",
+  "administrative_area_level_3": "União das freguesias de Tomar (São João Baptista) e Santa Maria dos Olivais",
+  "district_code": 14
+}

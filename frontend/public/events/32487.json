@@ -1,0 +1,35 @@
+{
+  "id": 32487,
+  "name": "São Silvestre Porto 2024",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/d946f9b3c616e18899cf66a5bcb901b3"
+  ],
+  "start_date": "2024-12-29",
+  "end_date": "2024-12-30",
+  "circuit": [],
+  "description": "\n<p>s ruas da cidade Invicta vão iniciar os festejos de mudança de ano mais cedo.</p>\n\n\n\n<p>No dia 29 de dezembro de 2024, às 18h00 a Avenida dos Aliados vai receber a 30ª edição da Lidl S. Silvestre Cidade do Porto.&nbsp;</p>\n\n\n\n<p>O evento que este ano celebra três décadas contará na mesma com a tradicional prova de 10 km e integrará uma caminhada com a distância de 5km, sem fins competitivos.</p>\n",
+  "description_short": "São Silvestre tradicional no centro histórico do Porto com 30 anos de história",
+  "page": "https://runporto.com/pt/eventos/sao-silvestre-do-porto/",
+  "slug": "sao-silvestre-porto-2024",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

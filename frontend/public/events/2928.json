@@ -1,0 +1,29 @@
+{
+  "id": 2928,
+  "name": "Trail do Sarilho 2021",
+  "location": "Cantanhede, Coimbra",
+  "coordinates": {
+    "lat": 40.347032,
+    "lon": -8.5934416
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ace14d91b47f866562771e0bef053d23"
+  ],
+  "start_date": "2021-12-12",
+  "end_date": "2021-12-13",
+  "circuit": [],
+  "description": "\n<p>O trail do Sarilho 2021 regressa a 12 de dezembro.</p>\n",
+  "description_short": "Trail técnico pelas paisagens do interior com regresso após interregno",
+  "page": "https://www.runmanager.net/Eventos/trail-do-sarilho/573",
+  "slug": "trail-do-sarilho-2021",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Cantanhede",
+  "administrative_area_level_3": "União das freguesias de Cantanhede e Pocariça",
+  "district_code": 6
+}

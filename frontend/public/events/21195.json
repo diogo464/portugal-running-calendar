@@ -1,0 +1,30 @@
+{
+  "id": 21195,
+  "name": "Todos por Todos 2023",
+  "location": "Vila Nova de Paiva, Viseu",
+  "coordinates": {
+    "lat": 40.8508324,
+    "lon": -7.7309812
+  },
+  "country": "Portugal",
+  "locality": "Viseu",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/5c236b572a1806960366a6594f538984"
+  ],
+  "start_date": "2022-12-18",
+  "end_date": "2022-12-19",
+  "circuit": [],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://acorrer.pt/eventos/info/3073",
+  "slug": "todos-por-todos-2023",
+  "administrative_area_level_1": "Viseu",
+  "administrative_area_level_2": "Vila Nova de Paiva",
+  "administrative_area_level_3": "Vila Nova de Paiva",
+  "district_code": 18
+}

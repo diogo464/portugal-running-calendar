@@ -1,0 +1,35 @@
+{
+  "id": 24626,
+  "name": "VI Trail Boneca Douro 2023",
+  "location": "Sebolido, Penafiel",
+  "coordinates": {
+    "lat": 41.048798,
+    "lon": -8.345632199999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    8000,
+    12000,
+    21000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/bf066be79c30b3865865dd624a6edaf1"
+  ],
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-09",
+  "circuit": [],
+  "description": "\n<p>A organização do VI Trail da Boneca D&#8217;Ouro 2023 está a cargo da A.D.Sebolido – Associação para o Desenvolvimento de Sebolido.</p>\n\n\n\n<p>Caminhada (8km)</p>\n\n\n\n<p>Trail Curto (12km)</p>\n\n\n\n<p>Trail Longo (21km)</p>\n",
+  "description_short": "Trail desafiante pela região de Sebolido com diferentes percursos para caminhantes e trail runners",
+  "page": "https://stopandgo.net/events/vi-trail-boneca-douro",
+  "slug": "vi-trail-boneca-douro-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Penafiel",
+  "administrative_area_level_3": "Sebolido",
+  "district_code": 13
+}

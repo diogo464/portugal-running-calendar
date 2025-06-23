@@ -1,0 +1,36 @@
+{
+  "id": 20746,
+  "name": "Trail Ossónoba 2023",
+  "location": "Faro Faro, Portugal",
+  "coordinates": {
+    "lat": 37.0164626,
+    "lon": -7.9351983
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000,
+    18000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/f52a315409b4b110c78286d60282e84b"
+  ],
+  "start_date": "2023-05-27",
+  "end_date": "2023-05-28",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Trail Ossónoba 2023 é um evento desportivo de caráter lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de trail running, mas também os territórios do concelho de Faro, onde decorre o evento.</p>\n\n\n\n<p><br>O Trail Ossónoba 2023 terá a sua 7ª edição no próximo dia 27 de Maio de 2023, com as partidas e chegadas em Estoi, junto à Igreja Matriz, destacando-se por ser uma prova com início ao final de tarde e chegadas previstas pela noite dentro.</p>\n\n\n\n<p><br>O Trail Ossónoba é um evento que engloba duas distâncias de carácter competitivo, nomeadamente, Trail Longo (TL) com cerca de 31 km, Trail Curto (TC) com cerca de 18 km e uma distância de carácter não-competitivo correspondente à Caminhada (CAM) com cerca de 10 km.</p>\n\n\n\n<p><br>O Trail Longo integra o Circuito de Trail da ATRP e Circuito Regional de Trail da Associação de<br>Atletismo do Algarve. O TC integra o Circuito de Trail Sprint da ATRP. A prova do TL atribui<br>pontuação ITRA de 1 ponto e ITRA Mountain de 4 pontos.</p>\n\n\n\n<p><br>O Trail Ossónoba é um evento organizado em conjunto pela ATR – ALGARVE TRAIL RUNNING e<br>pelo Grupo Desportivo Jograis António Aleixo com o apoio da União de Freguesias Estoi e<br>Conceição de Faro e da Câmara Municipal de Faro.</p>\n\n\n",
+  "description_short": "Trail Ossónoba: prova noturna em Estoi com partida ao final da tarde e percursos por territórios de Faro",
+  "page": "https://www.crono.aaalgarve.org/eventos/trail-ossonoba-2023",
+  "slug": "trail-ossonoba-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Faro",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

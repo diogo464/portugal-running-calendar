@@ -1,0 +1,31 @@
+{
+  "id": 17905,
+  "name": "Triangle Adventure By Azores Trail Run® 2022",
+  "location": "Açores",
+  "coordinates": {
+    "lat": 37.7412488,
+    "lon": -25.6755944
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [
+    80000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/8d1dfa570b1d1ac4d9ea3001b8d10413"
+  ],
+  "start_date": "2022-10-21",
+  "end_date": "2022-10-22",
+  "circuit": [],
+  "description": "\n<p>O Azores Triangle Adventure&nbsp;é uma incrível corrida de trail running que percorre 3 etapas em 3 dias, através das paisagens mais emblemáticas das três ilhas do Triângulo Açoriano: Ilha de São Jorge, Ilha do Pico e Ilha do Faial, num total de mais de 80 quilómetros.</p>\n",
+  "description_short": "Trail inovador por três ilhas açorianas com paisagens deslumbrantes do triângulo",
+  "page": "https://pt.azorestriangleadventure.com/",
+  "slug": "azores-triangle-adventure-2022",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": null,
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

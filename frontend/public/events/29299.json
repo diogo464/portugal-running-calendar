@@ -1,0 +1,35 @@
+{
+  "id": 29299,
+  "name": "Chícharo Desportivo 2023",
+  "location": "Santa Catarina da Serra, Leiria",
+  "coordinates": {
+    "lat": 39.68149,
+    "lon": -8.686981099999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000,
+    15000,
+    25000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/189b32001a8b2bcc716acc1550d2c580"
+  ],
+  "start_date": "2023-11-18",
+  "end_date": "2023-11-19",
+  "circuit": [],
+  "description": "\n<p>Integrado no Festival o Chícaro da Serra, realiza-se a 18 de Novembro um evento de convívio sem cronometragem nem caráter competitivo.</p>\n\n\n\n<p><strong>3 Percursos:&nbsp;</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Caminhada &#8211; 10 km</li>\n\n\n\n<li>Crosstrail curto &#8211; 15 km</li>\n\n\n\n<li>Crosstrail longo &#8211; 25 km</li>\n</ul>\n\n\n",
+  "description_short": "Trail descontraído na Serra com três percursos à escolha durante o Festival o Chícaro",
+  "page": "https://www.recordepessoal.pt/evento/chicharodesportivo",
+  "slug": "chicharo-desportivo-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Leiria",
+  "administrative_area_level_3": "União das freguesias de Santa Catarina da Serra e Chainça",
+  "district_code": 10
+}

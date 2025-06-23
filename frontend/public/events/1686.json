@@ -1,0 +1,32 @@
+{
+  "id": 1686,
+  "name": "ULTRA TRILHOS ROCHA DA PENA 2020",
+  "location": "Faro (Zona Sul) - Loulé",
+  "coordinates": {
+    "lat": 37.1379187,
+    "lon": -8.020216
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    100000,
+    150000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/bcd65368f1bb73cc0a375e812469a582"
+  ],
+  "start_date": "2020-08-08",
+  "end_date": "2020-08-09",
+  "circuit": [],
+  "description": "<p>O evento realiza-se a 08-08-2020 00:00:00 no distrito de Faro.</p>\n<p>Conta com 4 percursos:<br />\nUltra Trail Rocha da Pena &#8211; 150<br />\nTrail Longo Rocha da Pena &#8211; 100<br />\nTrail Curto Rocha da Pena &#8211; 150<br />\nEndurance Trail Rocha da Pena &#8211; 100</p>\n",
+  "description_short": "Trail desafiante pela Rocha da Pena com quatro percursos distintos no Algarve",
+  "page": "http://utrp.pt",
+  "slug": "ultra-trilhos-rocha-da-pena-2020",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": null,
+  "district_code": 8
+}

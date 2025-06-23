@@ -1,0 +1,32 @@
+{
+  "id": 20663,
+  "name": "Terras do Ancião Ultra Trail 2023",
+  "location": "Ansião, Leiria",
+  "coordinates": {
+    "lat": 39.9107177,
+    "lon": -8.438509999999999
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/1292842620dd2195f23164075e0ceac0"
+  ],
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-13",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O TAUT – Terras do Ancião Ultra Trail é organizado pela ANSIBIKERS &#8211; Associação Praticantes de BTT, com o apoio do Município de Ansião, Junta de Freguesia de Ansião, Pousaflores, Santiago da Guarda e Alvorge.<br>O TAUT – É um evento desportivo de carater lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de Trail Running, mas também os territórios onde decorre o evento.<br>Desenvolve-se numa das zonas de extrema beleza natural e vasto património cultural e ambiental, nomeadamente Anciao, que dá o nome ao evento, os percursos não são fáceis, mas os trilhos e paisagens valem todo o esforço.</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Ansião com paisagens naturais únicas",
+  "page": "https://stopandgo.net/event/?id=932",
+  "slug": "terras-do-anciao-ultra-trail-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Ansião",
+  "administrative_area_level_3": "Ansião",
+  "district_code": 10
+}

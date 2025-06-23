@@ -1,0 +1,33 @@
+{
+  "id": 21515,
+  "name": "XXIII G.P. Do Atlântico 2023 &#8211; Serafim Mendes",
+  "location": "Costa da Caparica, Almada",
+  "coordinates": {
+    "lat": 38.64455299999999,
+    "lon": -9.2333757
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/e562709636a6db6d99f7d80800003a0c"
+  ],
+  "start_date": "2023-02-19",
+  "end_date": "2023-02-20",
+  "circuit": [],
+  "description": "\n<p>A mítica corrida G.P. do Atlântico será realizada no dia <strong>19 de Fevereiro de 2023</strong>. Percorre as principais ruas da Costa de Caparica e o fantástico paredão, junto às praias. <strong>Contamos contigo?</strong></p>\n",
+  "description_short": "Corrida pela Costa de Caparica com vista para o paredão e praias atlânticas",
+  "page": "https://xistarca.pt/eventos/g-p-do-atlantico-2023",
+  "slug": "xxiii-g-p-do-atlantico-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Almada",
+  "administrative_area_level_3": "Costa da Caparica",
+  "district_code": 15
+}

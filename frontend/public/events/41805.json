@@ -1,0 +1,31 @@
+{
+  "id": 41805,
+  "name": "Trail Piodão 2026",
+  "location": "Piódão, Coimbra",
+  "coordinates": {
+    "lat": 40.22956509999999,
+    "lon": -7.825189699999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3507ffca42c12d7391acbcbb15fdc793"
+  ],
+  "start_date": "2026-04-11",
+  "end_date": "2026-04-12",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "",
+  "description_short": "Entendido. Estou preparado para condensar descrições de eventos de corrida em resumos sucintos de uma linha. Aguardo que me forneça a descrição que devo resumir.",
+  "page": "https://www.omdceventos.com/evento/xiv-piodao-trail-running",
+  "slug": "trail-piodao-2026",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Arganil",
+  "administrative_area_level_3": "Piódão",
+  "district_code": 6
+}

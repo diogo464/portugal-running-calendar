@@ -1,0 +1,36 @@
+{
+  "id": 13334,
+  "name": "Meia maratona de Évora 2021",
+  "location": "Évora",
+  "coordinates": {
+    "lat": 38.571431,
+    "lon": -7.913501999999999
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [
+    1000,
+    10000,
+    21097,
+    21100
+  ],
+  "types": [
+    "run",
+    "10k",
+    "half-marathon"
+  ],
+  "images": [
+    "media/f0a14a7255d6bcce859abcf5fc9b19fe"
+  ],
+  "start_date": "2021-11-28",
+  "end_date": "2021-11-29",
+  "circuit": [],
+  "description": "\n<p>Numa alusão ao caminho que Évora percorre rumo à Capital Europeia da Cultura 2027, a Meia maratona de Évora 2021,  cidade Património Mundial da Unesco chega a <strong>28 de novembro</strong>, com a Praça do Giraldo a ser o ponto de partida e de chegada da prova e um percurso desafiante de 21,1 km semelhante às edições anteriores.</p>\n",
+  "description_short": "Meia maratona histórica por Évora, cidade Património Mundial, com partida e chegada na icónica Praça do Giraldo",
+  "page": "https://evora21.27meiamaratona.pt/site/",
+  "slug": "meia-maratona-de-evora-2021",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Évora",
+  "administrative_area_level_3": "Santo Antão",
+  "district_code": 7
+}

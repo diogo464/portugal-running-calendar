@@ -1,0 +1,33 @@
+{
+  "id": 30319,
+  "name": "Corrida Fim da Europa 2024",
+  "location": "Sintra, Lisboa",
+  "coordinates": {
+    "lat": 38.7911955,
+    "lon": -9.3803024
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    15000,
+    17000
+  ],
+  "types": [
+    "run",
+    "15k"
+  ],
+  "images": [
+    "media/5853f565e1acf9974c64b773d64293bd"
+  ],
+  "start_date": "2024-01-28",
+  "end_date": "2024-01-29",
+  "circuit": [],
+  "description": "\n<p>A prova com uma distância total de <strong>17KM</strong>, com partida em plena Vila de Sintra, em frente à Fonte Mourisca, com a Meta colocada mesmo em cima das arribas e junto ao Farol do Cabo da Roca, o local mais ocidental do continente Europeu. Como refere a maior obra épica portuguesa de Luís Vaz de Camões &#8220;AQUI ONDE A <strong>TERRA </strong>SE <strong>ACABA </strong>E O <strong>MAR COMEÇA</strong>&#8221; é onde termina uma das mais antigas provas nacionais.</p>\n",
+  "description_short": "Trail histórico de Sintra ao Cabo da Roca, percorrendo o ponto mais ocidental da Europa com inspiração camoniana",
+  "page": "https://www.fimdaeuropa.com/",
+  "slug": "corrida-fim-da-europa-2024",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Sintra",
+  "administrative_area_level_3": "União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+  "district_code": 11
+}

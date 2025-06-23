@@ -1,0 +1,29 @@
+{
+  "id": 14879,
+  "name": "STUT-Santo Thyrso Ultra Trilhos 2022",
+  "location": "Santo Tirso, Porto",
+  "coordinates": {
+    "lat": 41.3431376,
+    "lon": -8.4738078
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/feedaebb2609162fec8a43a140dfa451"
+  ],
+  "start_date": "2022-06-12",
+  "end_date": "2022-06-13",
+  "circuit": [],
+  "description": "\n<p>STUT-Santo Thyrso Ultra Trilhos 2022</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Santo Tirso com percursos técnicos e paisagens naturais envolventes",
+  "page": "https://stopandgo.net/event/?id=742",
+  "slug": "stut-santo-thyrso-ultra-trilhos-2022",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Santo Tirso",
+  "administrative_area_level_3": "Santo Tirso",
+  "district_code": 13
+}

@@ -1,0 +1,35 @@
+{
+  "id": 2065,
+  "name": "São Silvestre de Coimbra 2020",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "saint-silvester",
+    "10k",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/67f47d0b5da6952e44600fdc1943ddab"
+  ],
+  "start_date": "2020-12-19",
+  "end_date": "2020-12-20",
+  "circuit": [],
+  "description": "<p>A 43ª São Silvestre de Coimbra, uma das mais antigas corridas de São Silvestre de Portugal, realiza-se no dia 19 de Dezembro de 2020, pelas 18h30. O evento conta com uma prova de cerca de 10 km e com uma caminhada de 5 km</p>\n",
+  "description_short": "São Silvestre tradicional pelas ruas históricas de Coimbra numa noite de Dezembro",
+  "page": "https://www.saosilvestredecoimbra.com/",
+  "slug": "sao-silvestre-de-coimbra-2020",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

@@ -1,0 +1,35 @@
+{
+  "id": 42508,
+  "name": "Trail Feira das Cebolas 2025",
+  "location": "Gondidelos, Vila Nova de Famalicão",
+  "coordinates": {
+    "lat": 41.4226199,
+    "lon": -8.607979
+  },
+  "country": "Portugal",
+  "locality": "Braga",
+  "distances": [
+    8000,
+    12000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/b5f29980fab99b8130d8e853d25cbdac"
+  ],
+  "start_date": "2025-08-31",
+  "end_date": "2025-09-01",
+  "circuit": [],
+  "description": "\n<p>O trail Feira das Cebolas é uma prova desportiva integrada na Feira das Cebolas e Mostra comunitária de Gondifelos que pretende promover a prática desportiva junto da comunidade.</p>\n\n\n\n<p>O Trail Feira das Cebolas conta com duas distâncias competitivas:</p>\n\n\n\n<p>•mini trail com a distância de 12 km;</p>\n\n\n\n<p>•trail com a distância de 18 km;</p>\n\n\n\n<p>Há também uma caminhada de 8 km sem fins competitivos,</p>\n\n\n\n<p>Todas as provas percorrem trilhos e caminhos de Gondifelos e Cavalões com o rio este como atracção principal.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail desportivo integrado na Feira das Cebolas com percursos pelos trilhos de Gondifelos junto ao rio Este",
+  "page": "https://www.sinctime.com/evento/377",
+  "slug": "trail-feira-das-cebolas-2025",
+  "administrative_area_level_1": "Braga",
+  "administrative_area_level_2": "Vila Nova de Famalicão",
+  "administrative_area_level_3": "União das freguesias de Gondifelos, Cavalões e Outiz",
+  "district_code": 3
+}

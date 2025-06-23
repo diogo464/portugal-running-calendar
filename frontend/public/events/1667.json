@@ -1,0 +1,32 @@
+{
+  "id": 1667,
+  "name": "Corrida Hovione 2020",
+  "location": "Parque da Cidade de Loures",
+  "coordinates": {
+    "lat": 38.8246558,
+    "lon": -9.160599099999999
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/a053df871bf320d0bd2e813269837102"
+  ],
+  "start_date": "2020-05-31",
+  "end_date": "2020-06-01",
+  "circuit": [],
+  "description": "<p><span lang=\"PT\">A Hovione, com o apoio da </span><span lang=\"PT\">Câmara Municipal de Loures</span><span lang=\"PT\"> </span><span lang=\"PT\">vai organizar a 4ª Edição da Corrida Hovione. A corrida vai decorrer em Loures, no próximo dia 31 de Maio de 2020 (Domingo), com o objetivo de promover a prática de atividades desportivas e uma vida saudável, assim como, dar a conhecer a Hovione.</span></p>\n",
+  "description_short": "Corrida corporativa da Hovione em Loures para promover desporto e empresa",
+  "page": null,
+  "slug": "corrida-hovione-2020",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Loures",
+  "administrative_area_level_3": "Loures",
+  "district_code": 11
+}

@@ -1,0 +1,36 @@
+{
+  "id": 38320,
+  "name": "São Silvestre de Avis 2024",
+  "location": "Avis, Portalegre",
+  "coordinates": {
+    "lat": 39.07417119999999,
+    "lon": -7.8939317
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/62c8665aa71a1a502a676cc58b21a519"
+  ],
+  "start_date": "2024-12-28",
+  "end_date": "2024-12-28",
+  "circuit": [],
+  "description": "\n<p>A 40.ª Corrida de S. Silvestre de Avis é uma prova de atletismo (estrada) e realiza-se no dia 28 de dezembro de 2024 (sábado), entre as 15h00 e as 17h00. É organizada pela Casa do Povo de Ervedal, Município de  Avis, Associação Desportiva e Recreativa “Amigos do Atletismo de Avis” e Centro Cultural de Figueira e Barros, com a colaboração técnica da Associação de Atletismo do Distrito de Portalegre (A. A. D. P.). </p>\n\n\n\n<p>O evento é parte integrante do Circuito de Corridas A. A. D. P. (ver regulamento em www.aadp.pt). Em simultâneo decorrerá uma caminhada de cerca de 5 kms, a qual carece de inscrição na mesma plataforma.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Corrida de São Silvestre de Avis celebra 40.ª edição com prova tradicional no Alentejo",
+  "page": "https://www.trilhoperdido.com/evento/40-Corrida-Sao-Silvestre-Avis",
+  "slug": "sao-silvestre-de-avis-2024",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Avis",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

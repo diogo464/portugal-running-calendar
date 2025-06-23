@@ -1,0 +1,32 @@
+{
+  "id": 20679,
+  "name": "Sharish Monsaraz Natur Trail 2023",
+  "location": "Reguengos de Monsaraz, Évora",
+  "coordinates": {
+    "lat": 38.42526549999999,
+    "lon": -7.5344352
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/0ea7958c43fd8e645746e1e2d2630f63"
+  ],
+  "start_date": "2023-03-26",
+  "end_date": "2023-03-27",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O Sharish Monsaraz Natur Trail será realizado no dia 26 de março de 2023. É um evento organizado pelo Sharish Gin/ GD Piranhas do Alqueva, com o apoio de vários parceiros institucionais e privados.</p>\n\n\n\n<p>O Sharish Monsaraz Natur Trail é uma prova de Trail Running que faz parte dos Circuitos Nacionais de Trail e Ultra Trail organizados pela ATRP.</p>\n",
+  "description_short": "Trail desafiante pela região de Monsaraz com apoio da Sharish Gin",
+  "page": "https://stopandgo.net/event/?id=923",
+  "slug": "sharish-monsaraz-natur-trail-2023",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Reguengos de Monsaraz",
+  "administrative_area_level_3": "Reguengos de Monsaraz",
+  "district_code": 7
+}

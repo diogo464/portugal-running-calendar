@@ -1,0 +1,29 @@
+{
+  "id": 31592,
+  "name": "Noturna Natal na Montanha 2023",
+  "location": "Cortes do Meio, Covilhã",
+  "coordinates": {
+    "lat": 40.2805633,
+    "lon": -7.504327199999999
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "run"
+  ],
+  "images": [
+    "media/73f06f30918fd4b34f480ca0050e06a7"
+  ],
+  "start_date": "2023-12-29",
+  "end_date": "2023-12-30",
+  "circuit": [],
+  "description": "\n<p>Integrada no conjunto de iniciativas promovidas pela Freguesia de Cortes do Meio, na quadra natalícia, dia 29 de dezembro sai para a estrada a 2ª edição da Noturna &#8220;Natal na Montanha&#8221; Run.</p>\n\n\n\n<p>Trata-se de uma corrida popular, noturna, com um percurso maioritariamente urbano, e que irá percorrer o &#8220;coração&#8221; da Aldeia de Cortes do Meio, e desta feita com partida da Aldeia de Cortes de Baixo.</p>\n\n\n\n<p>Terá novamente uma vertente solidária, e mais uma vez vamos desafiar todos os participantes a entregar, no ato de levantamento do dorsal, um bem, que posteriormente será doado a uma instituição do concelho.</p>\n\n\n",
+  "description_short": "Corrida noturna solidária de Natal pelos caminhos da aldeia de Cortes do Meio",
+  "page": "https://meutempo.pt/prova?natalnamontanha23",
+  "slug": "noturna-natal-na-montanha-2023",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Covilhã",
+  "administrative_area_level_3": "São Martinho",
+  "district_code": 5
+}

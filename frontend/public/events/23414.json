@@ -1,0 +1,33 @@
+{
+  "id": 23414,
+  "name": "Vii Caminhada/Corrida Solidária Bombeiros De Portimão 2023",
+  "location": "Portimão, Faro",
+  "coordinates": {
+    "lat": 37.13617,
+    "lon": -8.5376926
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/2c78f2eeb1c55322801c870a3b5c7169"
+  ],
+  "start_date": "2023-04-16",
+  "end_date": "2023-04-17",
+  "circuit": [],
+  "description": "\n<p>A VII Caminhada/Corrida Solidária da Associação Humanitária de Bombeiros Voluntários de Portimão &#8211; “Uma Força Da Sociedade Civil” será organizada pela AHBVP/BVP.</p>\n\n\n\n<p>A prova será realizada no dia 16 de abril de 2023 na Cidade de Portimão com inicio pelas 10h00, na parada do Quartel.</p>\n\n\n",
+  "description_short": "Corrida solidária pelos bombeiros de Portimão em apoio à comunidade local",
+  "page": "https://www.crono.aaalgarve.org/eventos/vii-caminhada-corrida-solidaria-bombeiros-de-portimao",
+  "slug": "vii-caminhada-corrida-solidaria-bombeiros-de-portimao-2023",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Portimão",
+  "administrative_area_level_3": "Portimão",
+  "district_code": 8
+}

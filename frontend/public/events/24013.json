@@ -1,0 +1,33 @@
+{
+  "id": 24013,
+  "name": "Corrida Luzecu 2023",
+  "location": "Alvaiázere, Leiria",
+  "coordinates": {
+    "lat": 39.8237427,
+    "lon": -8.3807264
+  },
+  "country": "Portugal",
+  "locality": "Leiria",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "walk"
+  ],
+  "images": [
+    "media/5670aecf361ece02c48e1c984057558f"
+  ],
+  "start_date": "2023-06-09",
+  "end_date": "2023-06-10",
+  "circuit": [],
+  "description": "\n<p>A corrida LUZECU sob organização da Câmara Municipal de Alvaiázere pretende afirmar-se como uma prova de desporto e lazer, com carácter competitivo, na vertente de corrida, a realizar pela Vila de Alvaiázere e terminando no cimo da Serra de Alvaiázere. A segunda edição realizar-se-á no dia 9 de Junho de 2023. É categorizado por uma distância cronometrada [na vertente de corrida] e uma não cronometrada [Caminhada], de acordo com as seguintes distâncias: Corrida- 10 quilómetros e Caminhada de Natureza não competitiva com a extensão aproximada de 10 quilómetros. Na sexta-feira, 9 de Junho é o dia das duas provas de carácter competitivo e não competitivo. A prova, promove convívio, saúde e bem-estar dos participantes em associação à prática do desporto.&nbsp;</p>\n\n\n\n<p>Serão distribuídas taças de presença a todas as equipas, taças para as equipas que tenham maior número de elementos, para a equipa mais distante, e aos participantes serão atribuídas medalhas e uma T’shirt.</p>\n\n\n\n<p>A inscrição terá o custo de 10 euros.</p>\n\n\n",
+  "description_short": "Corrida com subida à Serra de Alvaiázere promovida pela Câmara Municipal, unindo desporto e natureza",
+  "page": "https://www.queroir.pt/corridaluzecu2023",
+  "slug": "corrida-luzecu-2023",
+  "administrative_area_level_1": "Leiria",
+  "administrative_area_level_2": "Alvaiázere",
+  "administrative_area_level_3": "Alvaiázere",
+  "district_code": 10
+}

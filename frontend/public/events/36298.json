@@ -1,0 +1,29 @@
+{
+  "id": 36298,
+  "name": "Campeonato Regional de Montanha (Sobe &amp; Desce) 2024",
+  "location": "Querença, Loulé",
+  "coordinates": {
+    "lat": 37.1990603,
+    "lon": -7.987557799999999
+  },
+  "country": "Portugal",
+  "locality": "Faro",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/07a7ff2833b051b7fb32925ab9d86ca0"
+  ],
+  "start_date": "2024-07-27",
+  "end_date": "2024-07-27",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.crono.aaalgarve.org/eventos/campeonato-regional-de-montanha-sobe-desce",
+  "slug": "campeonato-regional-de-montanha-sobe-desce-2024",
+  "administrative_area_level_1": "Faro",
+  "administrative_area_level_2": "Loulé",
+  "administrative_area_level_3": "Querença",
+  "district_code": 8
+}

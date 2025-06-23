@@ -1,0 +1,29 @@
+{
+  "id": 30536,
+  "name": "Finalíssima CTR 2024",
+  "location": "Santarém",
+  "coordinates": {
+    "lat": 39.2366618,
+    "lon": -8.686011900000002
+  },
+  "country": "Portugal",
+  "locality": "Santarém",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/b810570cc106f05358ac39d155e06c3d"
+  ],
+  "start_date": "2024-09-14",
+  "end_date": "2024-09-15",
+  "circuit": [],
+  "description": "\n<p></p>\n\n\n",
+  "description_short": "Por favor, forneça a descrição do evento de corrida para que eu possa gerar um resumo conciso em português de Portugal.",
+  "page": "https://www.trilhoperdido.com/evento/Finalissima-CTR-Viver-Santarem",
+  "slug": "finalissima-ctr-2024",
+  "administrative_area_level_1": "Santarém",
+  "administrative_area_level_2": "Santarém",
+  "administrative_area_level_3": "União de freguesias da cidade de Santarém",
+  "district_code": 14
+}

@@ -1,0 +1,34 @@
+{
+  "id": 19278,
+  "name": "5ª Corrida da UGT 2022",
+  "location": "Jamor, Lisboa",
+  "coordinates": {
+    "lat": 38.7086142,
+    "lon": -9.2608892
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    800,
+    4000,
+    8000
+  ],
+  "types": [
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/fabe7c1dc41b2b07a0126aa660b45898"
+  ],
+  "start_date": "2022-10-15",
+  "end_date": "2022-10-16",
+  "circuit": [],
+  "description": "\n<p>Com 3 distâncias distintas, 8km, 4km e 800 m, contamos convosco para a “5ª Corrida UGT”, a realizar no dia 15 de Outubro de 2022. <strong>Inscreve-te gratuitamente</strong> e recebe a t-shirt do evento, o dorsal e a medalha finisher da Corrida da UGT.</p>\n\n\n",
+  "description_short": "Corrida sindical solidária com várias opções de distância no centro da cidade",
+  "page": "https://xistarca.pt/eventos/5a-corrida-ugt-2022",
+  "slug": "corrida-da-ugt-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

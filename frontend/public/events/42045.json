@@ -1,0 +1,31 @@
+{
+  "id": 42045,
+  "name": "Trail Vicentino Noturno 2025",
+  "location": "Ponta Delgada, Açores",
+  "coordinates": {
+    "lat": 37.7394207,
+    "lon": -25.6686725
+  },
+  "country": "Portugal",
+  "locality": "Açores",
+  "distances": [],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/add4b4d60c2bbe0ffb111165fa44f91c"
+  ],
+  "start_date": "2025-10-18",
+  "end_date": "2025-10-19",
+  "circuit": [],
+  "description": "\n<p>A IV edição do Trail Vicentino Noturno by Oliveira Pneus é um evento de Trail Running, com carácter competitivo e lúdico, que percorre trilhos e caminhos do concelho de Ponta Delgada e Ribeira Grande, designadamente, nas freguesias de São Vicente Ferreira, Capelas, Santo António, Santa Bárbara, Remédios, Ajuda da Bretanha, Fenais da Luz, Calhetas e Pico da Pedra. Dele fazem parte o Trail, o Trail Sprint, bem como uma Caminhada. O Trail tem início na Ajuda da Bretanha, o Trail Sprint em Santa Bárbara e a Caminhada nos Poços de São Vicente Ferreira.</p>\n\n\n\n<p>O IV Trail Vicentino Noturno by Oliveira Pneus (Trail, Trail Sprint e Caminhada) está aberto à participação de todos os atletas, de ambos os géneros, federados e não federados, que detenham uma preparação física adequada à prática da modalidade.</p>\n\n\n",
+  "description_short": "Trail noturno pelas antigas freguesias de São Miguel com percursos diversificados na ilha dos Açores",
+  "page": "https://meutempo.pt/prova?trailvicentinonoturno25",
+  "slug": "trail-vicentino-noturno-2025",
+  "administrative_area_level_1": "Açores",
+  "administrative_area_level_2": "São Miguel",
+  "administrative_area_level_3": null,
+  "district_code": 20
+}

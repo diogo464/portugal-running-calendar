@@ -1,0 +1,29 @@
+{
+  "id": 13513,
+  "name": "Sharish Monsaraz Natur Trail 2022",
+  "location": "Reguengos de Monsaraz",
+  "coordinates": {
+    "lat": 38.42526549999999,
+    "lon": -7.5344352
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/51b140d862644efd364428a53d5a267c"
+  ],
+  "start_date": "2022-03-26",
+  "end_date": "2022-03-27",
+  "circuit": [],
+  "description": "\n<p>No dia 26 março esta aventura épica continua entre o céu e a terra. Sharish Monsaraz Natur Trail 2022 leva-te a conquistar trilhos outrora percorridos por cavaleiros templários.</p>\n",
+  "description_short": "Trail histórico pelos caminhos dos cavaleiros templários em Monsaraz",
+  "page": "https://www.facebook.com/Sharish-Monsaraz-Natur-Trail-1562444037414212/about/?ref=page_internal",
+  "slug": "sharish-monsaraz-natur-trail-2022",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Reguengos de Monsaraz",
+  "administrative_area_level_3": "Reguengos de Monsaraz",
+  "district_code": 7
+}

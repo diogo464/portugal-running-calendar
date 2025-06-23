@@ -1,0 +1,40 @@
+{
+  "id": 17195,
+  "name": "Ansiães Douro Trail 2022",
+  "location": "Carrazeda de Ansiães, Bragança",
+  "coordinates": {
+    "lat": 41.2428631,
+    "lon": -7.307555700000001
+  },
+  "country": "Portugal",
+  "locality": "Bragança",
+  "distances": [
+    277,
+    406,
+    475,
+    888,
+    4000,
+    9000,
+    10900,
+    16000,
+    16400,
+    29000
+  ],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ccde6f7f16af4ca66d0bcf4b12fddf4d"
+  ],
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-10",
+  "circuit": [],
+  "description": "\n<p>A Câmara Municipal de Carrazeda de Ansiães e a Naturthoughts -Turismo de Natureza, Lda. organizam, no próximo dia 9 de outubro, a V edição do Ansiães Douro Trail. O Ansiães Douro Trail é uma prova de Trail Running certificada pela ATRP que percorre trilhos, caminhos rurais e estradões do concelho de Carrazeda de Ansiães, tendo como ponto de partida e chegada do Centro de Apoio Empresarial de Carrazeda de Ansiães (CAECA).<br></p>\n\n\n\n<p>Será constituído por 3 eventos:<br>• ADT29K com a distância aproximada de 29km com desnível positivo acumulado de 888m e com desnível negativo acumulado de 888.<br>• ADT16K com a distância aproximada de 16,4 km com desnível positivo acumulado de 475m e com desnível negativo acumulado de 475.<br>• Caminhada pedestre, sem intuito competitivo, com uma distância aproximada de 10,9km com desnível positivo acumulado de 277m e com desnível negativo acumulado de 406m.</p>\n\n\n\n<p>.</p>\n",
+  "description_short": "Trail running pelo interior do Douro com percursos desafiantes em Carrazeda de Ansiães",
+  "page": "https://lap2go.com/pt/event/ansiaes-douro-trail-2022",
+  "slug": "ansiaes-douro-trail-2022",
+  "administrative_area_level_1": "Bragança",
+  "administrative_area_level_2": "Carrazeda de Ansiães",
+  "administrative_area_level_3": "Carrazeda de Ansiães",
+  "district_code": 4
+}

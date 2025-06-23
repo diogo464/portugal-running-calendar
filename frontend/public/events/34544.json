@@ -1,0 +1,34 @@
+{
+  "id": 34544,
+  "name": "Trail Mestre de Avis 2024",
+  "location": "Avis, Portalegre",
+  "coordinates": {
+    "lat": 39.07417119999999,
+    "lon": -7.8939317
+  },
+  "country": "Portugal",
+  "locality": "Portalegre",
+  "distances": [
+    10000,
+    18000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/ab34378d9591611d16ce7dcf90d093ff"
+  ],
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "circuit": [],
+  "description": "\n<p>O Trail Mestre de Avis é uma prova de Trail Running, realizada por trilhos sinalizados, em piso acidentado, estradões e obstáculos naturais em contato com a Natureza, com a partida e chegada em Figueira e Barros. Este evento inclui Trail Curto (competitivo), Mini Trail (competitivo) e caminhada, sendo que existirá<br>tempo limite para execução de 5h00.</p>\n\n\n\n<p>&#8211;  Trail Curto ± 18km </p>\n\n\n\n<p>&#8211;  Mini Trail e Caminhada ± 10km</p>\n",
+  "description_short": "Trail desafiante pelos trilhos de Figueira e Barros com provas competitivas em contacto com a natureza",
+  "page": "https://www.trilhoperdido.com/evento/Trail-Mestre-de-Avis-2024",
+  "slug": "trail-mestre-de-avis-2024",
+  "administrative_area_level_1": "Portalegre",
+  "administrative_area_level_2": "Avis",
+  "administrative_area_level_3": null,
+  "district_code": 12
+}

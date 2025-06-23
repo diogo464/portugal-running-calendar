@@ -1,0 +1,29 @@
+{
+  "id": 14863,
+  "name": "Abutres SkyRace® 2022",
+  "location": "Miranda do Corvo, Coimbra",
+  "coordinates": {
+    "lat": 40.09019809999999,
+    "lon": -8.329640099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/3281e11b2ebe29c43b511bedc31505e8"
+  ],
+  "start_date": "2022-05-28",
+  "end_date": "2022-05-29",
+  "circuit": [],
+  "description": "\n<p>Abutres SkyRace® 2022</p>\n",
+  "description_short": "Trail de montanha desafiante pelos trilhos dos Abutres com percurso técnico e paisagens impressionantes",
+  "page": "https://stopandgo.net/event/?id=735",
+  "slug": "abutres-skyrace-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Miranda do Corvo",
+  "administrative_area_level_3": "Miranda do Corvo",
+  "district_code": 6
+}

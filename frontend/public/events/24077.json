@@ -1,0 +1,30 @@
+{
+  "id": 24077,
+  "name": "IV Trail Entre os Moinhos do Guadiana 2023",
+  "location": "Quinto, Beja",
+  "coordinates": {
+    "lat": 37.962942,
+    "lon": -7.7061408
+  },
+  "country": "Portugal",
+  "locality": "Beja",
+  "distances": [],
+  "types": [
+    "run",
+    "trail"
+  ],
+  "images": [
+    "media/b4d8596182071999c818601a3be4be6f"
+  ],
+  "start_date": "2023-10-15",
+  "end_date": "2023-10-16",
+  "circuit": [],
+  "description": "\n<p>O evento desportivo, 4º Trail Entre os moinhos do Guadiana é promovido e organizado pela Secção de Btt da Casa do Povo da Salvada, com o apoio da Camara Municipal de Beja e União de Freguesias de Salvada e Quintos.</p>\n",
+  "description_short": "Trail desafiante pelos moinhos tradicionais do Guadiana em Beja",
+  "page": "https://acorrer.pt/eventos/info/3231",
+  "slug": "iv-trail-entre-os-moinhos-do-guadiana-2023",
+  "administrative_area_level_1": "Beja",
+  "administrative_area_level_2": "Beja",
+  "administrative_area_level_3": "Quintos",
+  "district_code": 2
+}

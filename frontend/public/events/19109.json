@@ -1,0 +1,35 @@
+{
+  "id": 19109,
+  "name": "Trail Pedra da Ferida 2022",
+  "location": "Penela, Coimbra",
+  "coordinates": {
+    "lat": 40.0282938,
+    "lon": -8.390568499999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    900,
+    10000,
+    17000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/06b98b899f69e491470f7e08d77b470d"
+  ],
+  "start_date": "2022-11-20",
+  "end_date": "2022-11-21",
+  "circuit": [],
+  "description": "\n<p>A 1ª Edição do Trail Pedra da Ferida ocorre a 20 de Novembro de 2022, na Freguesia do Espinhal, concelho de Penela. Os percursos e o território que caracterizam a Freguesia do Espinhal vai permitir aos atletas, caminheiros, participantes e visitantes vislumbrar o que existe de melhor.</p>\n\n\n\n<p><br>A Natureza composta pela fauna, flora e desnível que a Serra da Lousã se caracteriza. A prova realiza-se, independentemente das condições climatéricas desse dia, desde que a Organização entenda que as mesmas não oferecem risco para os participantes.</p>\n\n\n\n<p><br>A 1ª Edição do Trail Pedra da Ferida é composta por duas distâncias:</p>\n\n\n\n<p><br> Trail Curto: 17km, 900m D+ (Inserida no Circuito Distrital de Trail Running de Coimbra,<br>executado pela Associação Distrital de Atletismo de Coimbra)<br> Caminhada 10km (Em Parceria com a Associação de Caminheiros de Penela)</p>\n\n\n",
+  "description_short": "Trail inaugural pela Serra da Lousã com paisagens naturais únicas no Espinhal",
+  "page": "https://stopandgo.net/event/?id=872",
+  "slug": "trail-pedra-da-ferida-2022",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penela",
+  "administrative_area_level_3": "Santa Eufémia",
+  "district_code": 6
+}

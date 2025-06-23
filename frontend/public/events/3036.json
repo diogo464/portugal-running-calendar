@@ -1,0 +1,33 @@
+{
+  "id": 3036,
+  "name": "Corrida do Tejo 2021",
+  "location": "Algés, Oeiras",
+  "coordinates": {
+    "lat": 38.7022246,
+    "lon": -9.2296032
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run",
+    "kids"
+  ],
+  "images": [
+    "media/a1f4ed749796c5f55ae14b29f6d4dbf1"
+  ],
+  "start_date": "2021-09-19",
+  "end_date": "2021-09-20",
+  "circuit": [],
+  "description": "\n<p><strong><a href=\"https://lastlap.pt/resultados/ct21/g-live.html\" target=\"_blank\" rel=\"noreferrer noopener\">Resultados Provisórios</a></strong></p>\n\n\n\n<p>A 19 de setembro de 2021, domingo, o Município de Oeiras irá retomar a organização habitual da Corrida do Tejo 2021, na sua configuração presencial, ajustada e formatada às circunstâncias e condições impostas pela pandemia COVID-19 no que respeita a realização de eventos desportivos.</p>\n\n\n\n<p>Percurso</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"494\" src=\"https://www.portugalrunning.com/wp-content/uploads/2021/09/image-1-1024x494.png\" alt=\"\" class=\"wp-image-4559\" srcset=\"https://www.portugalrunning.com/wp-content/uploads/2021/09/image-1-1024x494.png 1024w, https://www.portugalrunning.com/wp-content/uploads/2021/09/image-1-300x145.png 300w, https://www.portugalrunning.com/wp-content/uploads/2021/09/image-1-768x370.png 768w, https://www.portugalrunning.com/wp-content/uploads/2021/09/image-1-1536x740.png 1536w, https://www.portugalrunning.com/wp-content/uploads/2021/09/image-1.png 1691w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p></p>\n\n\n\n<p>Renova a sua edição Virtual e retoma a realização da Corrida do Tejo KIDS, a sua 4ª edição, aberta aos mais pequenos.</p>\n\n\n\n<p>Sob o lema “O desporto faz parte da nossa cultura”, a 40ª Corrida do Tejo irá não só comemorar esta ocasião – 40 edições – mas também celebrar a história de 40 anos de Desporto, valorando a sua importância social e desenvolvimento no Concelho, através da realização da Exposição “Desafiando a liberdade – 40 anos de Desporto em Oeiras”, associando-se à candidatura do Município de Oeiras a “Capital Europeia da Cultura” – Oeiras 27 : Damos forma ao futuro.</p>\n\n\n\n<p><strong>PROGRAMA</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>4ª Corrida do Tejo KIDS:</strong>&nbsp;18 de setembro</li><li><strong>40ª Corrida do Tejo – 10 Km:</strong>&nbsp;19 de setembro</li><li><strong>Corrida do Tejo Virtual 2.0:</strong>&nbsp;de 19 a 26 de setembro</li><li><strong>Exposição</strong>&nbsp;“Desafiando a liberdade – 40 anos de Desporto em Oeiras”</li></ul>\n\n\n\n<p>A solidariedade continuará a ser destaque na Corrida do Tejo e nesta edição a totalidade da receita de inscrições irá patrocinar bolsas desportivas para crianças e jovens que abandonaram a prática desportiva como consequência do impacto socioeconómico da pandemia COVID-19 nas suas famílias, permitindo a participação desportiva gratuita na época 2021/22 em modalidades dos clubes do Concelho.</p>\n\n\n\n<p><strong>Em Oeiras, o desporto faz parte da nossa cultura.</strong></p>\n\n\n\n<p>Inscreva-se e participe.</p>\n",
+  "description_short": "Corrida histórica de 10 km em Oeiras, celebrando 40 anos de desporto junto ao Tejo e com enfoque solidário",
+  "page": "https://corridadotejo.com/",
+  "slug": "corrida-do-tejo-2021",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Oeiras",
+  "administrative_area_level_3": "União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "district_code": 11
+}

@@ -1,0 +1,36 @@
+{
+  "id": 34557,
+  "name": "Rota da Broa 2024",
+  "location": "Cumeeira, Penela",
+  "coordinates": {
+    "lat": 39.9431804,
+    "lon": -8.3827705
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    12000,
+    19000,
+    31000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/9c781bc22c4f784ac58a8b5a4df55924"
+  ],
+  "start_date": "2024-06-09",
+  "end_date": "2024-06-10",
+  "circuit": [],
+  "description": "\n<p>O Trail Rota da Broa é organizado pelo Centro Cultural de Cumeeira e irá ocorrer os dias 8 e 9 de Junho de 2024.<br>Trata-se de um evento desportivo de carater lúdico e competitivo que tem por objetivo divulgar e promover não só a prática desportiva, em especial na modalidade de trail running, mas também o território onde decorre o evento. Este ano, o evento será constituído por quatro vertentes, Trail Kid`s, Caminhada (12Km), Mini Trail (12Km), Trail Curto (+/-19Km) e Trail Longo (+/-31Km).</p>\n",
+  "description_short": "Trail desafiante na Cumeeira com várias vertentes para diferentes níveis de participantes",
+  "page": "https://www.queroir.pt/rotadabroa2024",
+  "slug": "rota-da-broa-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Penela",
+  "administrative_area_level_3": "Cumeeira",
+  "district_code": 6
+}

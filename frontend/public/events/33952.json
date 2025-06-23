@@ -1,0 +1,35 @@
+{
+  "id": 33952,
+  "name": "Abutres SkyRace 2024",
+  "location": "Miranda do Corvo, Coimbra",
+  "coordinates": {
+    "lat": 40.09019809999999,
+    "lon": -8.329640099999999
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    12000,
+    25000
+  ],
+  "types": [
+    "kids",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/0ab2af468975265995a88550b229e7c8"
+  ],
+  "start_date": "2024-05-04",
+  "end_date": "2024-05-05",
+  "circuit": [],
+  "description": "\n<p>O Abutres SkyRace® será realizado nos dias 04 e 05 de maio de 2024 e é um evento<br>organizado pela Associação Abutrica, com o apoio do Município de Miranda do Corvo, Juntas de<br>Freguesia de Miranda do Corvo e de Vila Nova.<br>Do evento farão parte quatro provas diferentes:</p>\n\n\n\n<p>● Kids Vertical;<br>● VerticalRace;<br>● SkyRace® 12 K;<br>● SkyRace® 25 K<br>● Caminhada 10 K</p>\n",
+  "description_short": "Trail de montanha em Miranda do Corvo com diversas provas para diferentes níveis de atletas",
+  "page": "https://stopandgo.net/events/abutres-skyrace-2024",
+  "slug": "abutres-skyrace-2024",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Miranda do Corvo",
+  "administrative_area_level_3": "Miranda do Corvo",
+  "district_code": 6
+}

@@ -1,0 +1,30 @@
+{
+  "id": 38429,
+  "name": "Aqua Race Kids 2025",
+  "location": "Mora, Évora",
+  "coordinates": {
+    "lat": 38.9447445,
+    "lon": -8.1653387
+  },
+  "country": "Portugal",
+  "locality": "Distrito de Évora",
+  "distances": [],
+  "types": [
+    "kids",
+    "trail"
+  ],
+  "images": [
+    "media/de1078286173909dabef1b33f5e5c66e"
+  ],
+  "start_date": "2025-05-03",
+  "end_date": "2025-05-04",
+  "circuit": [],
+  "description": "\n<p>A AQUA-RACE KIDS é uma prova de Trail Running para crianças dos 6 aos 12 anos com alguns percursos aquáticos de caracter lúdico tais como: corrida ao longo de canais de rega e travessias pedestres de ribeiras. Trata-se de um evento cujo objectivo é iniciar as crianças no Trail Running e dar a conhecer aos participantes alguns dos mais bonitos cursos de água que “estranhamente” abundam nesta região do Alentejo. As crianças poderão ser acompanhadas ao longo da prova, por um adulto da família (mediante inscrição prévia).<br>O evento é organizado pelos Bombeiros Voluntários de Mora com o apoio de várias entidades locais, entre as quais a Câmara Municipal de Mora e a Trilho Perdido que ficará responsável pelas inscrições. Esta 4ª edição da AQUA-RACE KIDS será realizada no dia 3 de Maio de 2025, com início previsto para as 16H00, em Mora (Alentejo).</p>\n\n\n\n<p></p>\n",
+  "description_short": "Trail Running para crianças com travessias aquáticas nos canais do Alentejo, organizado pelos Bombeiros de Mora",
+  "page": "https://www.trilhoperdido.com/evento/Aqua-Race-kids-2025",
+  "slug": "aqua-race-kids-2025",
+  "administrative_area_level_1": "Distrito de Évora",
+  "administrative_area_level_2": "Mora",
+  "administrative_area_level_3": "Mora",
+  "district_code": 7
+}

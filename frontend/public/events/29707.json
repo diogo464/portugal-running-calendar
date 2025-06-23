@@ -1,0 +1,38 @@
+{
+  "id": 29707,
+  "name": "São Silvestre Alcochete 2023",
+  "location": "Alcochete, Setúbal",
+  "coordinates": {
+    "lat": 38.7560205,
+    "lon": -8.9603438
+  },
+  "country": "Portugal",
+  "locality": "Setúbal",
+  "distances": [
+    400,
+    700,
+    5000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "saint-silvester",
+    "walk"
+  ],
+  "images": [
+    "media/b4d654ef910e9882c725d7fe096708b5"
+  ],
+  "start_date": "2023-12-16",
+  "end_date": "2023-12-17",
+  "circuit": [],
+  "description": "\n<p>A 3ª Corrida e Caminhada São Silvestre Alcochete será composta por um percurso de 10 km para Corrida e por um de 5 km para Caminhada. </p>\n\n\n\n<p>A São Silvestre Kids, terá um percurso de 400m e outro de 700m e é destinada a crianças nascidas em 2015, 2016 e 2017 (percurso de 400m) ou para as crianças nascidas em 2013 e 2014 (percurso de 700m).</p>\n\n\n\n<p><br>O inicio e términus de todos os percursos, será no Largo de S.João em Alcochete (em frente á Igreja Matriz);</p>\n",
+  "description_short": "São Silvestre tradicional com provas para adultos e crianças no centro histórico de Alcochete",
+  "page": "https://acorrer.pt/eventos/info/3335",
+  "slug": "sao-silvestre-alcochete-2023",
+  "administrative_area_level_1": "Setúbal",
+  "administrative_area_level_2": "Alcochete",
+  "administrative_area_level_3": "Alcochete",
+  "district_code": 15
+}

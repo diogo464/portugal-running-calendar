@@ -1,0 +1,32 @@
+{
+  "id": 612,
+  "name": "Corrida do Dragão",
+  "location": "Porto",
+  "coordinates": {
+    "lat": 41.1579438,
+    "lon": -8.629105299999999
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "10k",
+    "run"
+  ],
+  "images": [
+    "media/4ba3fd2d90cd75ff70f723286ecda336"
+  ],
+  "start_date": "2020-09-06",
+  "end_date": "2020-09-07",
+  "circuit": [],
+  "description": "<p>Uma corrida emblemática que nasce com o objectivo de oferecer a milhares de adeptos do FC Porto a oportunidade de correr de Dragão ao Peito, na Cidade Invicta, junto ao Estádio do Dragão, palco de todas as emoções, o palco dos campeões.</p>\n",
+  "description_short": "Corrida icónica do FC Porto que celebra a paixão dos adeptos junto ao Estádio do Dragão",
+  "page": "https://corridadodragao.pt/",
+  "slug": "corrida-do-dragao",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Porto",
+  "administrative_area_level_3": null,
+  "district_code": 13
+}

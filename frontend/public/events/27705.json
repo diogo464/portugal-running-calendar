@@ -1,0 +1,31 @@
+{
+  "id": 27705,
+  "name": "São Silvestre Aveiro 2023",
+  "location": "Aveiro",
+  "coordinates": {
+    "lat": 40.6405055,
+    "lon": -8.6537539
+  },
+  "country": "Portugal",
+  "locality": "Aveiro",
+  "distances": [
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "saint-silvester"
+  ],
+  "images": [],
+  "start_date": "2023-12-02",
+  "end_date": "2023-12-03",
+  "circuit": [],
+  "description": "\n<p>A São Silvestre de Aveiro 2022 é uma organização da Câmara Municipal de Aveiro em parceria com empresa NT Wellness Sport Solution Unipessoal e já está implantada como uma referência nas provas de corrida de fim de ano em Portugal. Venha correr e divertir-se.</p>\n",
+  "description_short": "Corrida de São Silvestre tradicional pelas ruas de Aveiro organizada pela câmara municipal",
+  "page": "https://lap2go.com/pt/event/ssaveiro-2023",
+  "slug": "sao-silvestre-aveiro-2023",
+  "administrative_area_level_1": "Aveiro",
+  "administrative_area_level_2": "Aveiro",
+  "administrative_area_level_3": null,
+  "district_code": 1
+}

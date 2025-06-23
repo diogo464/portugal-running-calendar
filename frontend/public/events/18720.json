@@ -1,0 +1,35 @@
+{
+  "id": 18720,
+  "name": "Corrida Do Sporting 2022",
+  "location": "Lisboa",
+  "coordinates": {
+    "lat": 38.7222524,
+    "lon": -9.1393366
+  },
+  "country": "Portugal",
+  "locality": "Lisboa",
+  "distances": [
+    4000,
+    10000
+  ],
+  "types": [
+    "run",
+    "10k",
+    "kids",
+    "walk"
+  ],
+  "images": [
+    "media/518a342ace96a615fa0e77e3f0ec5ca3"
+  ],
+  "start_date": "2022-11-20",
+  "end_date": "2022-11-21",
+  "circuit": [],
+  "description": "\n\n\n<p>Dia 20 de novembro de 2022, com partida na Praça Promenade (junto ao edifício da Cuf) e chegada no Estádio José Alvalade, nos seguintes horários:</p>\n\n\n\n<h5 class=\"wp-block-heading\"><strong>Corrida Jubas</strong></h5>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\"><p>Dia 20 de novembro de 2022 às 09h00, com partida na Praça Promenade (junto ao edifício da Cuf) e chegada no Estádio José Alvalade.</p></blockquote>\n\n\n\n<h5 class=\"wp-block-heading\"><strong>Caminhada Família Leonina 4 Km</strong></h5>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\"><p>Dia 20 de novembro de 2022 às 10h00, com partida na Praça Promenade (junto ao edifício da Cuf) e chegada no Estádio José Alvalade.</p></blockquote>\n\n\n\n<h5 class=\"wp-block-heading\"><strong>Corrida 10 Km</strong></h5>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\"><p>Dia 20 de novembro de 2022 às 10h30, com partida na Praça Promenade (junto ao edifício da Cuf) e chegada no Estádio José Alvalade.</p></blockquote>\n",
+  "description_short": "Evento desportivo solidário com corridas e caminhada terminando no Stadium José Alvalade, em Lisboa",
+  "page": "https://www.corridadosporting.pt/site/",
+  "slug": "corrida-do-sporting-2022",
+  "administrative_area_level_1": "Lisboa",
+  "administrative_area_level_2": "Lisboa",
+  "administrative_area_level_3": null,
+  "district_code": 11
+}

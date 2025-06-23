@@ -1,0 +1,29 @@
+{
+  "id": 38457,
+  "name": "Pt281 Ultramarathon 2025",
+  "location": "Proença a Nova Proença-a-Nova",
+  "coordinates": {
+    "lat": 39.7494186,
+    "lon": -7.9233898
+  },
+  "country": "Portugal",
+  "locality": "Castelo Branco",
+  "distances": [],
+  "types": [
+    "trail"
+  ],
+  "images": [
+    "media/ed2d370261cd941f966c49ec6d519116"
+  ],
+  "start_date": "2025-07-17",
+  "end_date": "2025-07-18",
+  "circuit": [],
+  "description": "\n<p>A PT281® Ultramarathon é uma corrida a pé em ambiente natural percorrendo trilhos florestais, caminhos rurais, estradas de terra e de asfalto, O percurso atravessa uma paisagem histórica e natural da Beira Baixa – Portugal e tem como partida a o Castelo da Vila de Belmonte e chegada em Proença-a-Nova.</p>\n\n\n\n<p>A extensão total do percurso é de 281 km, 6.733 D+ e com prazo limite de 66 horas para conclusão, em regime non stop com a utilização de GPS e em semiautossuficência. Atravessa 7 Municípios, numa época do ano extremamente quente, com temperaturas entre os 30º a 50º.</p>\n\n\n\n<p></p>\n",
+  "description_short": "Ultramaratona épica de 281 km através de 7 municípios da Beira Baixa, entre o Castelo de Belmonte e Proença-a-Nova",
+  "page": "https://stopandgo.net/events/pt281-ultramarathon-2025",
+  "slug": "pt281-ultramarathon-2025",
+  "administrative_area_level_1": "Castelo Branco",
+  "administrative_area_level_2": "Proença-a-Nova",
+  "administrative_area_level_3": "União das freguesias de Proença-a-Nova e Peral",
+  "district_code": 5
+}

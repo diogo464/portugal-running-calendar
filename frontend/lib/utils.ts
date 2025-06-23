@@ -83,7 +83,7 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
     // Event type filter
     if (filters.eventTypes.length > 0) {
       const hasMatchingType = event.types.some(type => 
-        filters.eventTypes.includes(type as any)
+        filters.eventTypes.includes(type as never)
       )
       if (!hasMatchingType) return false
     }

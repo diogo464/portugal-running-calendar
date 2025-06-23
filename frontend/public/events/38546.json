@@ -1,0 +1,37 @@
+{
+  "id": 38546,
+  "name": "Trilhos das Azenhas 2025",
+  "location": "Coimbra",
+  "coordinates": {
+    "lat": 40.2033145,
+    "lon": -8.4102573
+  },
+  "country": "Portugal",
+  "locality": "Coimbra",
+  "distances": [
+    10000,
+    14000,
+    23000
+  ],
+  "types": [
+    "trail",
+    "run",
+    "walk"
+  ],
+  "images": [
+    "media/16c26e94cf73522b25853cd7de58de40"
+  ],
+  "start_date": "2025-03-30",
+  "end_date": "2025-03-31",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O TRILHOS DAS AZENHAS é organizado pela Roda Dianteira BTT.<br>A Roda Dianteira BTT é uma entidade, que tem como principal objetivo promover e desenvolver atividades desportivas de aventura associadas à natureza. O âmbito da sua ação passa pela promoção de atividades de cariz ambiental, social e cultural.</p>\n\n\n\n<p><br>O TRILHOS DAS AZENHAS é um evento de Trail Running que percorre Trilhos e caminhos, passando por várias aldeias do Concelho de Coimbra. O evento será constituído por duas provas competitivas e uma caminhada:</p>\n\n\n\n<p></p>\n\n\n\n<p>Trilhos das Azenhas Longo (23km): Prova que integra o Circuito Nacional da Associação de Trail running de Portugal (ATRP), pendente da aprovação do calendário;</p>\n\n\n\n<p>Trilhos das Azenhas Mini (14km): Prova que integra o Circuito Distrital Mini Trail de Coimbra (ADAC);</p>\n\n\n\n<p>Trilhos das Azenhas Caminhada (10km);</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li></li>\n</ol>\n",
+  "description_short": "Trail running pelas aldeias e caminhos históricos do Concelho de Coimbra, com provas integradas em circuitos nacionais e distritais",
+  "page": "https://stopandgo.net/events/trilhos-das-azenhas-2025",
+  "slug": "trilhos-das-azenhas-2025",
+  "administrative_area_level_1": "Coimbra",
+  "administrative_area_level_2": "Coimbra",
+  "administrative_area_level_3": "São Bartolomeu",
+  "district_code": 6
+}

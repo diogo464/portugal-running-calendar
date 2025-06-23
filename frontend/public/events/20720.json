@@ -1,0 +1,37 @@
+{
+  "id": 20720,
+  "name": "Trail Bem Viver 2023",
+  "location": "Marco de Canaveses, Porto",
+  "coordinates": {
+    "lat": 41.1855038,
+    "lon": -8.149687
+  },
+  "country": "Portugal",
+  "locality": "Porto",
+  "distances": [
+    10000,
+    15000,
+    23000
+  ],
+  "types": [
+    "run",
+    "trail",
+    "walk"
+  ],
+  "images": [
+    "media/f029159b9467c8bf24ef0fb1c959eaed"
+  ],
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-08",
+  "circuit": [
+    "ATRP"
+  ],
+  "description": "\n<p>O TRAIL BEM VIVER é organizado pelo Grupo Desportivo de Magrelos, em parceria com a Junta de Freguesia de Bem Viver e a Câmara Municipal do Marco de Canaveses. </p>\n\n\n\n<p>O evento será realizado no dia e 07 de maio de 2023, no Alto da Forca em Magrelos, na freguesia de Bem Viver, independentemente das condições climatéricas do dia, desde que a organização entenda que não ofereçam risco aos participantes. A organização acompanha, em permanência a evolução das condições meteorológicas podendo anular a prova em qualquer altura.<br>A prova é certificada pela a ATRP &#8211; Associação de Trail Running de Portugal, ITRA &#8211; International Trail Running Association e UTMB – Ultra Trail Mont Blanc. </p>\n\n\n\n<p>O Trail Bem Viver será constituído por três provas.</p>\n\n\n\n<p>TRAIL BEM VIVER LONGO &#8211; 23KM</p>\n\n\n\n<p>TRAIL BEM VIVER CURTO &#8211; 15KM</p>\n\n\n\n<p>CAMINHADA BEM VIVER – 10KM</p>\n",
+  "description_short": "Trail desafiante em Magrelos com provas certificadas pela ATRP e UTMB",
+  "page": "https://stopandgo.net/events/trail-bem-viver-2023",
+  "slug": "trail-bem-viver-2023",
+  "administrative_area_level_1": "Porto",
+  "administrative_area_level_2": "Marco de Canaveses",
+  "administrative_area_level_3": "Marco",
+  "district_code": 13
+}
