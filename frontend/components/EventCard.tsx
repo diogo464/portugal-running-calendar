@@ -28,7 +28,7 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
 
   return (
     <Card 
-      className="cursor-pointer transition-shadow hover:shadow-md"
+      className="cursor-pointer transition-shadow hover:shadow-md flex flex-col h-full"
       onClick={handleCardClick}
     >
       <CardHeader className="pb-3">
@@ -56,7 +56,7 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
         )}
       </CardHeader>
 
-      <CardContent className="space-y-2">
+      <CardContent className="space-y-2 flex-1">
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <Calendar className="h-4 w-4" />
           <span>{eventDate}</span>
