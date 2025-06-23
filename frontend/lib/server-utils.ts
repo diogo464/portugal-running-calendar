@@ -45,6 +45,31 @@ export async function getEventsForHomepage(limit: number = 12): Promise<Event[]>
 }
 
 /**
+ * Server-side utility to read upcoming events from the upcoming.json file
+ */
+export async function getUpcomingEvents(): Promise<Event[]> {
+  try {
+    const filePath = join(process.cwd(), 'public', 'upcoming.json')
+    const fileContent = await readFile(filePath, 'utf-8')
+    const data = JSON.parse(fileContent)
+    
+    // Validate with Zod schema
+    return EventsArraySchema.parse(data)
+  } catch (error) {
+    console.error('Error reading upcoming.json:', error)
+    return []
+  }
+}
+
+/**
+ * Get the first page of upcoming events for homepage SSR
+ */
+export async function getUpcomingEventsForHomepage(limit: number = 12): Promise<Event[]> {
+  const upcomingEvents = await getUpcomingEvents()
+  return upcomingEvents.slice(0, limit)
+}
+
+/**
  * Generate event URLs for sitemap
  */
 export async function getAllEventUrls(): Promise<Array<{ id: number; slug: string; lastModified?: Date }>> {
