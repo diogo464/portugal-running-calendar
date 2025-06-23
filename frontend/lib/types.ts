@@ -84,12 +84,27 @@ export interface EventFilters {
   proximityRange: [number, number | null]
   proximityCenter: Coordinates | null
   showEventsWithoutLocation: boolean
+  selectedDates?: Set<string> // Optional calendar date selection (YYYY-MM-DD format)
 }
 
 export interface PaginationState {
   currentPage: number
   itemsPerPage: number
   totalItems: number
+}
+
+// Calendar-specific types
+export interface EventDensity {
+  date: Date
+  eventCount: number
+  isWeekend: boolean
+  isHoliday: boolean
+  holidayName?: string
+  events: Event[] // Actual events for this date
+}
+
+export interface CalendarFilters extends EventFilters {
+  selectedDates: Set<string> // Required for calendar view
 }
 
 // Utility functions for event types

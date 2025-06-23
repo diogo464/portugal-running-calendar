@@ -69,10 +69,20 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
       if (isBefore(eventDate, dateStart)) return false
     }
     
-    // Date range filter
-    if (dateEnd && event.start_date) {
-      const eventDate = parseISO(event.start_date)
-      if (isAfter(eventDate, dateEnd)) return false
+    // Selected dates filter (calendar view) - takes precedence over date range
+    if (filters.selectedDates && filters.selectedDates.size > 0) {
+      if (event.start_date) {
+        const eventDateString = event.start_date // Already in YYYY-MM-DD format
+        if (!filters.selectedDates.has(eventDateString)) return false
+      } else {
+        return false // No date means it can't match selected dates
+      }
+    } else {
+      // Regular date range filter (only when no specific dates are selected)
+      if (dateEnd && event.start_date) {
+        const eventDate = parseISO(event.start_date)
+        if (isAfter(eventDate, dateEnd)) return false
+      }
     }
     
     // Search filter (case insensitive)
@@ -160,3 +170,87 @@ export function formatDistanceFromMeters(meters: number): string {
   }
   return `${Math.round(meters)}m`
 }
+
+/**
+ * Calendar utility functions
+ */
+
+// Portuguese holidays (dummy implementation - every 40 days)
+export function getPortugueseHolidays(year: number): Array<{ date: string; name: string }> {
+  const holidays: Array<{ date: string; name: string }> = []
+  
+  // Add a holiday every 40 days (dummy implementation)
+  for (let i = 0; i < 365; i += 40) {
+    const holidayDate = new Date(year, 0, 1 + i)
+    if (holidayDate.getFullYear() === year) {
+      const dateString = holidayDate.toISOString().split('T')[0]
+      holidays.push({
+        date: dateString,
+        name: `Feriado ${Math.floor(i / 40) + 1}`
+      })
+    }
+  }
+  
+  return holidays
+}
+
+// Check if a date is a Portuguese holiday
+export function isPortugueseHoliday(date: string, year: number): { isHoliday: boolean; name?: string } {
+  const holidays = getPortugueseHolidays(year)
+  const holiday = holidays.find(h => h.date === date)
+  return {
+    isHoliday: !!holiday,
+    name: holiday?.name
+  }
+}
+
+// Get event density color based on count and day type
+export function getEventDensityColor(count: number, isWeekend: boolean, isHoliday: boolean): string {
+  if (isHoliday) {
+    return "bg-red-500 text-white" // Holiday events
+  }
+
+  if (isWeekend) {
+    if (count >= 10) return "bg-blue-600 text-white"
+    if (count >= 5) return "bg-blue-500 text-white"
+    if (count >= 2) return "bg-blue-400 text-white"
+    if (count >= 1) return "bg-blue-300 text-gray-800"
+    return "bg-gray-100 text-gray-600"
+  } else {
+    if (count >= 5) return "bg-gray-500 text-white"
+    if (count >= 3) return "bg-gray-400 text-white"
+    if (count >= 1) return "bg-gray-300 text-gray-800"
+    return "bg-gray-100 text-gray-600"
+  }
+}
+
+// Format date key for calendar selection
+export function formatDateKey(date: Date): string {
+  return date.toISOString().split('T')[0] // YYYY-MM-DD format
+}
+
+// Get days in month
+export function getDaysInMonth(month: number, year: number): number {
+  return new Date(year, month + 1, 0).getDate()
+}
+
+// Get first day of month (0 = Sunday, 1 = Monday, etc.)
+export function getFirstDayOfMonth(month: number, year: number): number {
+  return new Date(year, month, 1).getDay()
+}
+
+// Month names in Portuguese
+export const monthNames = [
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+  "Novembro",
+  "Dezembro",
+]
