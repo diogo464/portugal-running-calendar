@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
+import Image from "next/image"
 
 interface EventImageProps {
   images: string[]
@@ -30,7 +31,7 @@ export function EventImage({ images, eventName, onFullscreenChange }: EventImage
       document.removeEventListener('keydown', handleEscape)
       document.body.style.overflow = 'unset'
     }
-  }, [isFullscreen])
+  }, [isFullscreen, onFullscreenChange])
 
   if (images.length === 0) {
     return null
@@ -46,9 +47,11 @@ export function EventImage({ images, eventName, onFullscreenChange }: EventImage
     <>
       <Card>
         <CardContent className="p-0">
-          <img
+          <Image
             src={`/${images[0]}`}
             alt={eventName}
+            width={800}
+            height={256}
             className={`w-full object-contain rounded-lg cursor-pointer transition-all duration-300 ease-out ${
               !isFullscreen 
                 ? "h-64 hover:h-80 hover:opacity-90" 
@@ -67,9 +70,11 @@ export function EventImage({ images, eventName, onFullscreenChange }: EventImage
           className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center transition-opacity duration-200 ease-out"
           onClick={handleImageClick}
         >
-          <img
+          <Image
             src={`/${images[0]}`}
             alt={eventName}
+            width={1200}
+            height={800}
             className="max-w-full max-h-full object-contain cursor-pointer transition-transform duration-200 ease-out scale-100"
             onClick={handleImageClick}
           />
