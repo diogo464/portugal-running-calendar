@@ -55,7 +55,7 @@ export default function DistrictMapInner({
 
   return (
     <MapContainer
-      center={[39.5, -12.0]}
+      center={[39.7000, -7.8667]}
       zoom={7}
       style={{ height: '100%', width: '100%', borderRadius: '0.5rem' }}
       minZoom={6}
