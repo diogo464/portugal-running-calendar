@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react"
 import { Search } from "lucide-react"
-import { EventType, EventTypeDisplayNames, EventFilters as IEventFilters, Event } from "@/lib/types"
+import { EventFilters as IEventFilters, Event } from "@/lib/types"
+import { EventTypeFilter } from "@/components/filters/EventTypeFilter"
 import { formatDistance } from "@/lib/utils"
 import { useGeolocation } from "@/hooks/useGeolocation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -40,13 +41,6 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
     onFiltersChange({ ...filters, search: value })
   }
 
-  const handleEventTypeToggle = (eventType: EventType, checked: boolean) => {
-    const newEventTypes = checked
-      ? [...filters.eventTypes, eventType]
-      : filters.eventTypes.filter(type => type !== eventType)
-    
-    onFiltersChange({ ...filters, eventTypes: newEventTypes })
-  }
 
   const handleDistanceChange = (values: number[]) => {
     const [min, max] = values
@@ -139,28 +133,10 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
         </div>
 
         {/* Event Types */}
-        <div className="space-y-3">
-          <Label>Tipos de evento</Label>
-          <div className="grid grid-cols-2 gap-3">
-            {Object.values(EventType).map((eventType) => (
-              <div key={eventType} className="flex items-center space-x-2">
-                <Checkbox
-                  id={eventType}
-                  checked={filters.eventTypes.includes(eventType)}
-                  onCheckedChange={(checked) => 
-                    handleEventTypeToggle(eventType, checked as boolean)
-                  }
-                />
-                <Label 
-                  htmlFor={eventType}
-                  className="text-sm cursor-pointer"
-                >
-                  {EventTypeDisplayNames[eventType]}
-                </Label>
-              </div>
-            ))}
-          </div>
-        </div>
+        <EventTypeFilter
+          value={filters.eventTypes}
+          onChange={(eventTypes) => onFiltersChange({ ...filters, eventTypes })}
+        />
 
         {/* Distance Range */}
         <div className="space-y-3">

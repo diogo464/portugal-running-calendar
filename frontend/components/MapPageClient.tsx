@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
-import { Event, EventFilters, PaginationState } from '@/lib/types'
+import { Event, EventFilters, PaginationState, EventType, convertStringEventTypesToEnum } from '@/lib/types'
 import { useDistricts } from '@/hooks/useDistricts'
 import { useUpcomingEvents } from '@/hooks/useUpcomingEvents'
 import { DistrictMap } from '@/components/DistrictMap'
@@ -24,7 +24,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
   
   const [selectedDistricts, setSelectedDistricts] = useState<number[]>([])
   const [filters, setFilters] = useState({
-    distanceRange: [0, null] as [number, number | null],
+    eventTypes: [] as EventType[],
     dateRange: 'anytime' as EventFilters['dateRange'],
     selectedDistricts: [] as number[]
   })
@@ -78,11 +78,11 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
   // Filter events based on current filters
   const filteredEvents = useMemo(() => {
     return events.filter(event => {
-      // Distance filter
-      const distanceMatch = event.distances.some(distance => {
-        const [min, max] = filters.distanceRange
-        return distance >= min && (max === null || distance <= max)
-      })
+      // Event type filter
+      const eventTypeMatch = filters.eventTypes.length === 0 || 
+        convertStringEventTypesToEnum(event.types).some(eventType => 
+          filters.eventTypes.includes(eventType)
+        )
 
       // Date filter (simplified - would need proper date logic)
       let dateMatch = true
@@ -114,7 +114,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
       const districtMatch = filters.selectedDistricts.length === 0 ||
         (event.district_code && filters.selectedDistricts.includes(event.district_code))
 
-      return distanceMatch && dateMatch && districtMatch
+      return eventTypeMatch && dateMatch && districtMatch
     })
   }, [events, filters])
 
@@ -141,7 +141,6 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
           <MapFilters
             filters={filters}
             onFiltersChange={handleFiltersChange}
-            events={events}
             districtNames={districtNames}
           />
 
@@ -152,9 +151,6 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
           />
 
           <div>
-            <h2 className="text-lg font-semibold mb-3">
-              Eventos ({filteredEvents.length})
-            </h2>
             <EventList
               events={filteredEvents}
               loading={false}
@@ -179,7 +175,6 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
           <MapFilters
             filters={filters}
             onFiltersChange={handleFiltersChange}
-            events={events}
             districtNames={districtNames}
           />
         </div>
@@ -198,11 +193,6 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
 
         {/* Events list - takes up 55% of remaining width */}
         <div className="w-[55%] bg-background flex flex-col">
-          <div className="p-6 border-b">
-            <h2 className="text-lg font-semibold">
-              Eventos Encontrados ({filteredEvents.length})
-            </h2>
-          </div>
           <div className="flex-1 overflow-y-auto p-6">
             <EventList
               events={filteredEvents}

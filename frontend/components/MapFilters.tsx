@@ -1,35 +1,33 @@
-import { EventFilters, Event } from "@/lib/types"
+import { EventFilters, EventType } from "@/lib/types"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { DistanceFilter } from "@/components/filters/DistanceFilter"
 import { TimeFilter } from "@/components/filters/TimeFilter"
+import { EventTypeFilter } from "@/components/filters/EventTypeFilter"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { X } from "lucide-react"
 
 interface MapFiltersProps {
   filters: {
-    distanceRange: [number, number | null]
+    eventTypes: EventType[]
     dateRange: EventFilters['dateRange']
     selectedDistricts: number[]
   }
   onFiltersChange: (filters: {
-    distanceRange: [number, number | null]
+    eventTypes: EventType[]
     dateRange: EventFilters['dateRange']
     selectedDistricts: number[]
   }) => void
-  events: Event[]
   districtNames: Record<number, string>
 }
 
 export function MapFilters({ 
   filters, 
   onFiltersChange, 
-  events, 
   districtNames 
 }: MapFiltersProps) {
   
-  const handleDistanceChange = (distanceRange: [number, number | null]) => {
-    onFiltersChange({ ...filters, distanceRange })
+  const handleEventTypesChange = (eventTypes: EventType[]) => {
+    onFiltersChange({ ...filters, eventTypes })
   }
 
   const handleDateRangeChange = (dateRange: EventFilters['dateRange']) => {
@@ -45,23 +43,6 @@ export function MapFilters({
     onFiltersChange({ ...filters, selectedDistricts: [] })
   }
 
-  const filteredEventsCount = events.filter(event => {
-    // Apply filters similar to main page logic
-    const distanceMatch = event.distances.some(distance => {
-      const [min, max] = filters.distanceRange
-      return distance >= min && (max === null || distance <= max)
-    })
-
-    // Date filter logic would go here (simplified for now)
-    const dateMatch = true // Implement date filtering based on event dates
-
-    // District filter
-    const districtMatch = filters.selectedDistricts.length === 0 || 
-      (event.district_code && filters.selectedDistricts.includes(event.district_code))
-
-    return distanceMatch && dateMatch && districtMatch
-  }).length
-
   return (
     <div className="space-y-4">
       <Card>
@@ -69,14 +50,14 @@ export function MapFilters({
           <CardTitle>Filtros</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
-          <DistanceFilter
-            value={filters.distanceRange}
-            onChange={handleDistanceChange}
-          />
-          
           <TimeFilter
             value={filters.dateRange}
             onChange={handleDateRangeChange}
+          />
+          
+          <EventTypeFilter
+            value={filters.eventTypes}
+            onChange={handleEventTypesChange}
           />
         </CardContent>
       </Card>
@@ -116,15 +97,6 @@ export function MapFilters({
           </CardContent>
         </Card>
       )}
-
-      {/* Results Summary */}
-      <Card>
-        <CardContent className="pt-6">
-          <div className="text-sm text-muted-foreground text-center">
-            <span className="font-medium text-foreground">{filteredEventsCount}</span> eventos encontrados
-          </div>
-        </CardContent>
-      </Card>
     </div>
   )
 }
