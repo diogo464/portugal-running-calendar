@@ -6,7 +6,8 @@
 set -e
 
 # Configuration
-PUSHOVER_PASS="api/pushover/production"  # Pass entry contains token:user format
+PUSHOVER_TOKEN_PASS="api/pushover/production"  # App token
+PUSHOVER_USER_PASS="api/pushover/user-key"     # User key
 PUSHOVER_API_URL="https://api.pushover.net/1/messages.json"
 
 # Default values
@@ -39,24 +40,15 @@ get_pushover_credentials() {
         error "pass command not found. Cannot retrieve pushover credentials."
     fi
     
-    PUSHOVER_CREDS=$(pass "$PUSHOVER_PASS" 2>/dev/null || echo "")
+    PUSHOVER_TOKEN=$(pass "$PUSHOVER_TOKEN_PASS" 2>/dev/null || echo "")
+    PUSHOVER_USER=$(pass "$PUSHOVER_USER_PASS" 2>/dev/null || echo "")
     
-    if [[ -z "$PUSHOVER_CREDS" ]]; then
-        error "Cannot retrieve pushover credentials from pass: $PUSHOVER_PASS"
+    if [[ -z "$PUSHOVER_TOKEN" ]]; then
+        error "Cannot retrieve pushover token from pass: $PUSHOVER_TOKEN_PASS"
     fi
     
-    # Check if credentials contain both token and user (token:user format)
-    if [[ "$PUSHOVER_CREDS" == *":"* ]]; then
-        PUSHOVER_TOKEN="${PUSHOVER_CREDS%%:*}"
-        PUSHOVER_USER="${PUSHOVER_CREDS##*:}"
-    else
-        # If no colon, assume it's just a token and user needs to be provided differently
-        PUSHOVER_TOKEN="$PUSHOVER_CREDS"
-        PUSHOVER_USER="$PUSHOVER_CREDS"  # Fallback - might need adjustment
-    fi
-    
-    if [[ -z "$PUSHOVER_TOKEN" || -z "$PUSHOVER_USER" ]]; then
-        error "Invalid pushover credentials format. Expected 'token:user' or individual token/user"
+    if [[ -z "$PUSHOVER_USER" ]]; then
+        error "Cannot retrieve pushover user key from pass: $PUSHOVER_USER_PASS"
     fi
 }
 
@@ -65,14 +57,24 @@ send_notification() {
     log "Sending pushover notification: $TITLE"
     
     local response
-    response=$(curl -s \
-        --form-string "token=$PUSHOVER_TOKEN" \
-        --form-string "user=$PUSHOVER_USER" \
-        --form-string "title=$TITLE" \
-        --form-string "message=$MESSAGE" \
-        --form-string "priority=$PRIORITY" \
-        --form-string "sound=bugle" \
-        "$PUSHOVER_API_URL")
+    local curl_args=(
+        --form-string "token=$PUSHOVER_TOKEN"
+        --form-string "user=$PUSHOVER_USER"
+        --form-string "title=$TITLE"
+        --form-string "message=$MESSAGE"
+        --form-string "priority=$PRIORITY"
+        --form-string "sound=bugle"
+    )
+    
+    # Add expire and retry for emergency priority
+    if [[ "$PRIORITY" == "2" ]]; then
+        curl_args+=(
+            --form-string "expire=3600"    # Expire after 1 hour
+            --form-string "retry=300"      # Retry every 5 minutes
+        )
+    fi
+    
+    response=$(curl -s "${curl_args[@]}" "$PUSHOVER_API_URL")
     
     if echo "$response" | grep -q '"status":1'; then
         log "Notification sent successfully"
