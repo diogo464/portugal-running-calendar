@@ -27,6 +27,10 @@ warn() {
 
 error() {
     echo -e "${RED}[ERROR]${NC} $1"
+    # Send pushover notification for deployment failure
+    if [[ -f "./pushover-notify.sh" ]]; then
+        ./pushover-notify.sh "Portugal Running Deployment Failed" "$1" 2 >/dev/null 2>&1 || true
+    fi
     exit 1
 }
 
@@ -92,12 +96,27 @@ EOF"
 create_systemd_units() {
     log "Creating systemd service units..."
     
+    # Failure notification service
+    ssh "$REMOTE_HOST" "sudo tee /etc/systemd/system/portugal-run-notify-failure@.service > /dev/null << 'EOF'
+[Unit]
+Description=Portugal Running Failure Notification for %i
+DefaultDependencies=false
+
+[Service]
+Type=oneshot
+User=$DEPLOY_USER
+Group=$DEPLOY_USER
+ExecStart=$DEPLOY_PATH/systemd-notify-failure.sh %i
+Environment=PATH=/home/$DEPLOY_USER/.local/bin:/usr/local/bin:/usr/bin:/bin
+EOF"
+
     # Server service
     ssh "$REMOTE_HOST" "sudo tee /etc/systemd/system/portugal-run-server.service > /dev/null << 'EOF'
 [Unit]
 Description=Portugal Running Server
 After=network.target
 Requires=network.target
+OnFailure=portugal-run-notify-failure@%n.service
 
 [Service]
 Type=simple
@@ -121,6 +140,7 @@ EOF"
 Description=Portugal Running Scraper
 After=network.target
 Requires=network.target
+OnFailure=portugal-run-notify-failure@%n.service
 
 [Service]
 Type=oneshot
@@ -196,12 +216,18 @@ test_deployment() {
     # Wait a moment for service to start
     sleep 5
     
+    local has_failures=false
+    
     # Check service status
     if ssh "$REMOTE_HOST" "sudo systemctl is-active portugal-run-server.service" | grep -q "active"; then
         log "Server service is running"
     else
         warn "Server service may not be running properly"
         ssh "$REMOTE_HOST" "sudo journalctl -u portugal-run-server.service -n 10"
+        has_failures=true
+        if [[ -f "./pushover-notify.sh" ]]; then
+            ./pushover-notify.sh "Portugal Running Server Failed" "Server service failed to start properly during deployment" 2 >/dev/null 2>&1 || true
+        fi
     fi
     
     # Check timer status
@@ -209,6 +235,10 @@ test_deployment() {
         log "Scraper timer is active"
     else
         warn "Scraper timer may not be active"
+        has_failures=true
+        if [[ -f "./pushover-notify.sh" ]]; then
+            ./pushover-notify.sh "Portugal Running Scraper Timer Failed" "Scraper timer failed to activate during deployment" 2 >/dev/null 2>&1 || true
+        fi
     fi
     
     # Test HTTP response
@@ -216,6 +246,14 @@ test_deployment() {
         log "Application is responding correctly"
     else
         warn "Application may not be responding correctly"
+        has_failures=true
+        if [[ -f "./pushover-notify.sh" ]]; then
+            ./pushover-notify.sh "Portugal Running App Not Responding" "Application health check failed - not responding on port 3000" 2 >/dev/null 2>&1 || true
+        fi
+    fi
+    
+    if [[ "$has_failures" == "true" ]]; then
+        error "Deployment testing failed - see warnings above"
     fi
     
     log "Deployment testing completed"
