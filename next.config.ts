@@ -36,7 +36,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        // Apply cache headers to static assets
+        // Apply security headers and CSP to all pages
         source: '/(.*)',
         headers: [
           {
@@ -50,6 +50,24 @@ const nextConfig: NextConfig = {
           {
             key: 'X-XSS-Protection',
             value: '1; mode=block',
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com data:",
+              "img-src 'self' data: blob: https:",
+              "connect-src 'self' https://cloudflareinsights.com https://*.cloudflareinsights.com wss: https:",
+              "frame-src 'self'",
+              "object-src 'none'",
+              "base-uri 'self'",
+              "form-action 'self'",
+              "frame-ancestors 'none'",
+              "manifest-src 'self'",
+              "worker-src 'self'",
+            ].join('; '),
           },
         ],
       },
