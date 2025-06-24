@@ -17,7 +17,7 @@ export function formatDistance(meters: number): string {
 
 export function formatDate(dateString: string | null): string {
   if (!dateString) return "Data não disponível"
-  
+
   try {
     const date = parseISO(dateString)
     return new Intl.DateTimeFormat('pt-PT', {
@@ -32,10 +32,10 @@ export function formatDate(dateString: string | null): string {
 
 export function formatDateRange(startDate: string | null, endDate: string | null): string {
   if (!startDate) return "Datas não disponíveis"
-  
+
   const start = formatDate(startDate)
   if (!endDate || startDate === endDate) return start
-  
+
   const end = formatDate(endDate)
   return `${start} - ${end}`
 }
@@ -43,7 +43,7 @@ export function formatDateRange(startDate: string | null, endDate: string | null
 export function getDateRangeFilter(range: EventFilters['dateRange']): { start: Date; end: Date | null } {
   const today = new Date()
   today.setHours(0, 0, 0, 0)
-  
+
   switch (range) {
     case 'next_week':
       return { start: today, end: addWeeks(today, 1) }
@@ -61,14 +61,14 @@ export function getDateRangeFilter(range: EventFilters['dateRange']): { start: D
 
 export function filterEvents(events: Event[], filters: EventFilters): Event[] {
   const { start: dateStart, end: dateEnd } = getDateRangeFilter(filters.dateRange)
-  
+
   return events.filter(event => {
     // Filter out past events
     if (event.start_date) {
       const eventDate = parseISO(event.start_date)
       if (isBefore(eventDate, dateStart)) return false
     }
-    
+
     // Selected dates filter (calendar view) - takes precedence over date range
     if (filters.selectedDates && filters.selectedDates.size > 0) {
       if (event.start_date) {
@@ -84,20 +84,20 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
         if (isAfter(eventDate, dateEnd)) return false
       }
     }
-    
+
     // Search filter (case insensitive)
     if (filters.search && !event.name.toLowerCase().includes(filters.search.toLowerCase())) {
       return false
     }
-    
+
     // Event type filter
     if (filters.eventTypes.length > 0) {
-      const hasMatchingType = event.types.some(type => 
+      const hasMatchingType = event.types.some(type =>
         filters.eventTypes.includes(type as never)
       )
       if (!hasMatchingType) return false
     }
-    
+
     // Distance filter
     const [minDistance, maxDistance] = filters.distanceRange
     if (event.distances.length > 0) {
@@ -108,23 +108,23 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
       })
       if (!hasMatchingDistance) return false
     }
-    
+
     // Proximity filter
     if (filters.proximityCenter) {
       const [minProximity, maxProximity] = filters.proximityRange
-      
+
       if (!event.coordinates) {
         // Event has no location - only show if the checkbox is checked
         return filters.showEventsWithoutLocation
       }
-      
+
       // Calculate distance from user to event
       const distanceToEvent = calculateDistance(filters.proximityCenter, event.coordinates)
-      
-      if (distanceToEvent < minProximity * 1000) return false // Convert km to meters
-      if (maxProximity !== null && distanceToEvent > maxProximity * 1000) return false
+
+      if (distanceToEvent < minProximity) return false
+      if (maxProximity !== null && distanceToEvent > maxProximity) return false
     }
-    
+
     return true
   })
 }
@@ -259,7 +259,7 @@ export function getPortugueseHolidays(year: number): Array<{ date: string; name:
       { date: "2027-12-25", name: "Natal" }
     ]
   }
-  
+
   return holidaysData[year] || []
 }
 
@@ -333,12 +333,12 @@ export function getSiteUrl(): string {
   if (process.env.NEXT_PUBLIC_SITE_URL) {
     return process.env.NEXT_PUBLIC_SITE_URL
   }
-  
+
   // Default based on environment
   if (process.env.NODE_ENV === 'development') {
     return 'http://localhost:5173'
   }
-  
+
   // Fallback for production (Vercel or other deployments)
   return 'https://portugal-running.vercel.app'
 }
