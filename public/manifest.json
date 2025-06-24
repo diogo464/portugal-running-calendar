@@ -1,0 +1,48 @@
+{
+  "name": "Portugal Run Calendar",
+  "short_name": "Run Calendar",
+  "description": "Descubra os próximos eventos de corrida em Portugal. Maratonas, meias maratonas, trails e corridas urbanas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#343434",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt",
+  "categories": ["sports", "health", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-default.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Portugal Run Calendar - Eventos de corrida"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
