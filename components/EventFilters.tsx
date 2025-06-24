@@ -185,7 +185,6 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
                   </span>
                 </div>
               )}
-              {geolocation.permission === 'denied' && <LocationDeniedIcon />}
               {geolocation.permission === 'prompt' && <div className="w-3 h-3 rounded-full bg-gray-300" />}
             </div>
             
