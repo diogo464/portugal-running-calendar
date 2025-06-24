@@ -1,0 +1,30 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#2563eb"/>
+  
+  <!-- Running figure -->
+  <g fill="white">
+    <!-- Head -->
+    <circle cx="12" cy="8" r="2.5"/>
+    
+    <!-- Body -->
+    <path d="M10 11 L14 11 L15 18 L11 18 Z"/>
+    
+    <!-- Leading leg (running forward) -->
+    <path d="M11 18 L9 24 L7 23 L9 17"/>
+    
+    <!-- Trailing leg (kicked back) -->
+    <path d="M13 18 L17 16 L18 18 L14 20"/>
+    
+    <!-- Leading arm -->
+    <path d="M10 13 L7 15 L6 13 L9 11"/>
+    
+    <!-- Trailing arm -->
+    <path d="M14 13 L17 11 L18 13 L15 15"/>
+  </g>
+  
+  <!-- Portuguese flag colors accent (small stripe) -->
+  <rect x="20" y="12" width="8" height="2" fill="#dc2626"/>
+  <rect x="20" y="14" width="8" height="2" fill="#16a34a"/>
+  <rect x="20" y="16" width="8" height="2" fill="#fbbf24"/>
+</svg>
