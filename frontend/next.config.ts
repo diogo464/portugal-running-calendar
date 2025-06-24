@@ -47,16 +47,6 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        // Special cache headers for API routes
-        source: '/api/event/:eventId',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=86400, s-maxage=86400, stale-while-revalidate=604800',
-          },
-        ],
-      },
-      {
         // Cache headers for static event files
         source: '/events/:eventId/:eventSlug',
         headers: [
