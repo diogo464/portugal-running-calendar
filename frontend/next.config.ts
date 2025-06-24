@@ -58,7 +58,7 @@ const nextConfig: NextConfig = {
       },
       {
         // Cache headers for static event files
-        source: '/events/:eventId.json',
+        source: '/events/:eventId/:eventSlug',
         headers: [
           {
             key: 'Cache-Control',
@@ -81,8 +81,8 @@ const nextConfig: NextConfig = {
   
   // SWC minification is enabled by default in Next.js 15
   
-  // Configure output for different deployment scenarios
-  output: process.env.NODE_ENV === 'production' ? undefined : 'standalone',
+  // Configure output for standalone Node.js deployment
+  output: 'standalone',
   
   // Enable ESLint during builds
   eslint: {
@@ -116,7 +116,3 @@ const nextConfig: NextConfig = {
 }
 
 export default nextConfig
-
-// added by create cloudflare to enable calling `getCloudflareContext()` in `next dev`
-import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare'
-initOpenNextCloudflareForDev()

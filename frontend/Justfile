@@ -19,4 +19,13 @@ lint:
 
 build:
     npm run build
-    just dev
+
+start:
+    node .next/standalone/server.js
+
+start-daemon:
+    demon stop prod
+    demon run prod node .next/standalone/server.js
+
+stop-prod:
+    demon stop prod
