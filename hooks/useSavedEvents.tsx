@@ -4,7 +4,19 @@ import { Event } from "@/lib/types"
 const SAVED_EVENTS_KEY = "portugal-running-saved-events"
 
 export function useSavedEvents() {
-  const [savedEventIds, setSavedEventIds] = useState<Set<number>>(new Set())
+  const [savedEventIds, setSavedEventIdsState] = useState<Set<number>>(new Set())
+  const setSavedEventIds = (f: (p: Set<number>) => Set<number>) => {
+    setSavedEventIdsState(prev => {
+      const ids = f(prev);
+      try {
+        console.log(`setting saved events to ${[...savedEventIds]}`)
+        localStorage.setItem(SAVED_EVENTS_KEY, JSON.stringify([...ids]))
+      } catch (error) {
+        console.error("Error saving events:", error)
+      }
+      return ids;
+    });
+  };
 
   // Load saved events from localStorage on mount
   useEffect(() => {
@@ -12,21 +24,13 @@ export function useSavedEvents() {
       const saved = localStorage.getItem(SAVED_EVENTS_KEY)
       if (saved) {
         const ids = JSON.parse(saved) as number[]
-        setSavedEventIds(new Set(ids))
+        console.log(`load saved events to ${[...ids]}`)
+        setSavedEventIds(() => new Set(ids))
       }
     } catch (error) {
       console.error("Error loading saved events:", error)
     }
   }, [])
-
-  // Save to localStorage whenever savedEventIds changes
-  useEffect(() => {
-    try {
-      localStorage.setItem(SAVED_EVENTS_KEY, JSON.stringify([...savedEventIds]))
-    } catch (error) {
-      console.error("Error saving events:", error)
-    }
-  }, [savedEventIds])
 
   const toggleSave = (eventId: number) => {
     setSavedEventIds(prev => {
@@ -41,7 +45,8 @@ export function useSavedEvents() {
   }
 
   const clearAll = () => {
-    setSavedEventIds(new Set())
+    console.log(`clearing saved events`)
+    setSavedEventIds(() => new Set())
   }
 
   const getSavedEvents = (allEvents: Event[]): Event[] => {
