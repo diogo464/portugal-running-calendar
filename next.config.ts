@@ -1,6 +1,13 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  // Environment variables with defaults
+  env: {
+    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 
+      (process.env.NODE_ENV === 'development' 
+        ? 'http://localhost:5173' 
+        : 'https://portugalruncalendar.com'),
+  },
   // Enable experimental features for better SSR support
   experimental: {
     // Add any stable experimental features here

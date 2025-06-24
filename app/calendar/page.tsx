@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { CalendarView } from '@/components/CalendarView'
 import { getUpcomingEventsForHomepage } from '@/lib/server-utils'
+import { getSiteUrl } from '@/lib/utils'
 
 // Generate metadata for calendar page SEO
 export const metadata: Metadata = {
@@ -11,18 +12,18 @@ export const metadata: Metadata = {
   creator: 'Portugal Running',
   publisher: 'Portugal Running',
   alternates: {
-    canonical: 'https://portugal-running.vercel.app/calendar'
+    canonical: `${getSiteUrl()}/calendar`
   },
   openGraph: {
     title: 'Calendário Anual de Eventos | Portugal Running',
     description: 'Visualize todos os eventos de corrida em Portugal no calendário anual. Selecione datas específicas para filtrar eventos.',
-    url: 'https://portugal-running.vercel.app/calendar',
+    url: `${getSiteUrl()}/calendar`,
     siteName: 'Portugal Running',
     type: 'website',
     locale: 'pt_PT',
     images: [
       {
-        url: 'https://portugal-running.vercel.app/og-calendar.png',
+        url: `${getSiteUrl()}/og-calendar.png`,
         width: 1200,
         height: 630,
         alt: 'Portugal Running - Calendário Anual de Eventos'
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
     title: 'Calendário Anual de Eventos | Portugal Running',
     description: 'Visualize todos os eventos de corrida em Portugal no calendário anual.',
     creator: '@portugalrunning',
-    images: ['https://portugal-running.vercel.app/og-calendar.png']
+    images: [`${getSiteUrl()}/og-calendar.png`]
   },
   robots: {
     index: true,
@@ -64,16 +65,16 @@ export default async function CalendarPage() {
             '@type': 'WebPage',
             name: 'Calendário Anual de Eventos de Corrida',
             description: 'Calendário visual com todos os eventos de corrida em Portugal',
-            url: 'https://portugal-running.vercel.app/calendar',
+            url: `${getSiteUrl()}/calendar`,
             isPartOf: {
               '@type': 'WebSite',
               name: 'Portugal Running',
-              url: 'https://portugal-running.vercel.app'
+              url: getSiteUrl()
             },
             publisher: {
               '@type': 'Organization',
               name: 'Portugal Running',
-              url: 'https://portugal-running.vercel.app'
+              url: getSiteUrl()
             },
             mainEntity: {
               '@type': 'Event',

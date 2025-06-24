@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { HomepageClient } from '@/components/HomepageClient'
 import { getUpcomingEventsForHomepage } from '@/lib/server-utils'
+import { getSiteUrl } from '@/lib/utils'
 
 // Generate metadata for homepage SEO
 export const metadata: Metadata = {
@@ -11,18 +12,18 @@ export const metadata: Metadata = {
   creator: 'Portugal Running',
   publisher: 'Portugal Running',
   alternates: {
-    canonical: 'https://portugal-running.vercel.app'
+    canonical: getSiteUrl()
   },
   openGraph: {
     title: 'Eventos de Corrida em Portugal | Portugal Running',
     description: 'Descubra os próximos eventos de corrida em Portugal. Maratonas, meias maratonas, trails e corridas urbanas.',
-    url: 'https://portugal-running.vercel.app',
+    url: getSiteUrl(),
     siteName: 'Portugal Running',
     type: 'website',
     locale: 'pt_PT',
     images: [
       {
-        url: 'https://portugal-running.vercel.app/og-default.png',
+        url: `${getSiteUrl()}/og-default.png`,
         width: 1200,
         height: 630,
         alt: 'Portugal Running - Eventos de Corrida em Portugal'
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
     title: 'Eventos de Corrida em Portugal | Portugal Running',
     description: 'Descubra os próximos eventos de corrida em Portugal. Maratonas, meias maratonas, trails e corridas urbanas.',
     creator: '@portugalrunning',
-    images: ['https://portugal-running.vercel.app/og-default.png']
+    images: [`${getSiteUrl()}/og-default.png`]
   },
   robots: {
     index: true,
@@ -64,19 +65,19 @@ export default async function Home() {
             '@type': 'WebSite',
             name: 'Portugal Running',
             description: 'Eventos de corrida em Portugal',
-            url: 'https://portugal-running.vercel.app',
+            url: getSiteUrl(),
             potentialAction: {
               '@type': 'SearchAction',
               target: {
                 '@type': 'EntryPoint',
-                urlTemplate: 'https://portugal-running.vercel.app/?search={search_term_string}'
+                urlTemplate: `${getSiteUrl()}/?search={search_term_string}`
               },
               'query-input': 'required name=search_term_string'
             },
             publisher: {
               '@type': 'Organization',
               name: 'Portugal Running',
-              url: 'https://portugal-running.vercel.app'
+              url: getSiteUrl()
             }
           })
         }}

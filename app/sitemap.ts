@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next'
 import { getAllEventUrls } from '@/lib/server-utils'
+import { getSiteUrl } from '@/lib/utils'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://portugal-running.vercel.app'
+  const baseUrl = getSiteUrl()
   
   // Get all event URLs
   const eventUrls = await getAllEventUrls()

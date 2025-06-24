@@ -6,6 +6,7 @@ import { Metadata } from 'next'
 import { EventDetailClient } from '@/components/EventDetailClient'
 import { getEventById, generateEventTitle, generateEventDescription, createSlugFromName, getAllEvents } from '@/lib/server-utils'
 import { Event } from '@/lib/types'
+import { getSiteUrl } from '@/lib/utils'
 
 interface EventDetailProps {
   params: Promise<{
@@ -43,7 +44,7 @@ export async function generateMetadata(
 
   // Create canonical URL
   const slug = event.slug || createSlugFromName(event.name)
-  const canonicalUrl = `https://portugal-running.vercel.app/event/${event.id}/${slug}`
+  const canonicalUrl = `${getSiteUrl()}/event/${event.id}/${slug}`
 
   return {
     title,
@@ -71,14 +72,14 @@ export async function generateMetadata(
       locale: 'pt_PT',
       images: event.images.length > 0 ? [
         {
-          url: `https://portugal-running.vercel.app/${event.images[0]}`,
+          url: `${getSiteUrl()}/${event.images[0]}`,
           width: 1200,
           height: 630,
           alt: event.name
         }
       ] : [
         {
-          url: 'https://portugal-running.vercel.app/og-default.png',
+          url: `${getSiteUrl()}/og-default.png`,
           width: 1200,
           height: 630,
           alt: 'Portugal Running'
@@ -91,9 +92,9 @@ export async function generateMetadata(
       description,
       creator: '@portugalrunning',
       images: event.images.length > 0 ? [
-        `https://portugal-running.vercel.app/${event.images[0]}`
+        `${getSiteUrl()}/${event.images[0]}`
       ] : [
-        'https://portugal-running.vercel.app/og-default.png'
+        `${getSiteUrl()}/og-default.png`
       ]
     },
     robots: {
@@ -150,7 +151,7 @@ export default async function EventDetail({ params }: EventDetailProps) {
 // Generate structured data for rich snippets
 function generateEventStructuredData(event: Event) {
   const location = event.locality || event.location || 'Portugal'
-  const eventUrl = `https://portugal-running.vercel.app/event/${event.id}/${event.slug || createSlugFromName(event.name)}`
+  const eventUrl = `${getSiteUrl()}/event/${event.id}/${event.slug || createSlugFromName(event.name)}`
 
   return {
     '@context': 'https://schema.org',
@@ -187,7 +188,7 @@ function generateEventStructuredData(event: Event) {
     organizer: {
       '@type': 'Organization',
       name: 'Portugal Running',
-      url: 'https://portugal-running.vercel.app'
+      url: getSiteUrl()
     },
     sport: 'Running',
     eventStatus: 'https://schema.org/EventScheduled',
@@ -197,8 +198,8 @@ function generateEventStructuredData(event: Event) {
       availability: 'https://schema.org/InStock'
     } : undefined,
     image: event.images.length > 0 ?
-      event.images.map(img => `https://portugal-running.vercel.app/${img}`) :
-      ['https://portugal-running.vercel.app/og-default.png']
+      event.images.map(img => `${getSiteUrl()}/${img}`) :
+      [`${getSiteUrl()}/og-default.png`]
   }
 }
 

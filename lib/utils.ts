@@ -254,3 +254,22 @@ export const monthNames = [
   "Novembro",
   "Dezembro",
 ]
+
+/**
+ * Get the site URL with environment-aware defaults
+ * Uses NEXT_PUBLIC_SITE_URL environment variable or defaults based on NODE_ENV
+ */
+export function getSiteUrl(): string {
+  // Check if we have an explicit site URL from environment
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL
+  }
+  
+  // Default based on environment
+  if (process.env.NODE_ENV === 'development') {
+    return 'http://localhost:5173'
+  }
+  
+  // Fallback for production (Vercel or other deployments)
+  return 'https://portugal-running.vercel.app'
+}
