@@ -37,6 +37,7 @@ export default function RootLayout({
   return (
     <html lang="pt" suppressHydrationWarning>
       <head>
+        <link rel="prefetch" href="/upcoming.json" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8217550276843893"
