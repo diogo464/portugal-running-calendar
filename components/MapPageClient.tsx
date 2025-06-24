@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Event, PaginationState, convertStringEventTypesToEnum } from '@/lib/types'
 import { useDistricts } from '@/hooks/useDistricts'
@@ -113,6 +113,24 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     })
   }, [events, filters])
 
+  // Update totalItems when filteredEvents change
+  useEffect(() => {
+    setPagination(prev => ({
+      ...prev,
+      totalItems: filteredEvents.length,
+      currentPage: prev.currentPage > Math.ceil(filteredEvents.length / prev.itemsPerPage) 
+        ? 1 
+        : prev.currentPage
+    }))
+  }, [filteredEvents.length])
+
+  // Calculate paginated events
+  const paginatedEvents = useMemo(() => {
+    const startIndex = (pagination.currentPage - 1) * pagination.itemsPerPage
+    const endIndex = startIndex + pagination.itemsPerPage
+    return filteredEvents.slice(startIndex, endIndex)
+  }, [filteredEvents, pagination.currentPage, pagination.itemsPerPage])
+
   const handlePageChange = (page: number) => {
     setPagination(prev => ({ ...prev, currentPage: page }))
   }
@@ -147,7 +165,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
 
           <div>
             <EventList
-              events={filteredEvents}
+              events={paginatedEvents}
               loading={false}
               pagination={pagination}
               savedEventIds={savedEventIds}
@@ -190,7 +208,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
         <div className="w-[55%] bg-background flex flex-col">
           <div className="flex-1 overflow-y-auto p-6">
             <EventList
-              events={filteredEvents}
+              events={paginatedEvents}
               loading={false}
               pagination={pagination}
               savedEventIds={savedEventIds}
