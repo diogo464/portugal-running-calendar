@@ -175,23 +175,92 @@ export function formatDistanceFromMeters(meters: number): string {
  * Calendar utility functions
  */
 
-// Portuguese holidays (dummy implementation - every 40 days)
+// Portuguese holidays with hardcoded data for years 2023-2027
 export function getPortugueseHolidays(year: number): Array<{ date: string; name: string }> {
-  const holidays: Array<{ date: string; name: string }> = []
-  
-  // Add a holiday every 40 days (dummy implementation)
-  for (let i = 0; i < 365; i += 40) {
-    const holidayDate = new Date(year, 0, 1 + i)
-    if (holidayDate.getFullYear() === year) {
-      const dateString = holidayDate.toISOString().split('T')[0]
-      holidays.push({
-        date: dateString,
-        name: `Feriado ${Math.floor(i / 40) + 1}`
-      })
-    }
+  const holidaysData: Record<number, Array<{ date: string; name: string }>> = {
+    2023: [
+      { date: "2023-01-01", name: "Dia de Ano Novo" },
+      { date: "2023-02-21", name: "Carnaval" },
+      { date: "2023-04-07", name: "Sexta-feira Santa" },
+      { date: "2023-04-09", name: "Páscoa" },
+      { date: "2023-04-25", name: "Dia da Liberdade" },
+      { date: "2023-05-01", name: "Dia do Trabalhador" },
+      { date: "2023-06-08", name: "Corpo de Deus" },
+      { date: "2023-06-10", name: "Dia de Portugal" },
+      { date: "2023-08-15", name: "Assunção de Nossa Senhora" },
+      { date: "2023-10-05", name: "Implantação da República Portuguesa" },
+      { date: "2023-11-01", name: "Dia de todos os Santos" },
+      { date: "2023-12-01", name: "Restauração da Independência" },
+      { date: "2023-12-08", name: "Dia da Imaculada Conceição" },
+      { date: "2023-12-25", name: "Natal" }
+    ],
+    2024: [
+      { date: "2024-01-01", name: "Dia de Ano Novo" },
+      { date: "2024-02-13", name: "Carnaval" },
+      { date: "2024-03-29", name: "Sexta-feira Santa" },
+      { date: "2024-03-31", name: "Páscoa" },
+      { date: "2024-04-25", name: "Dia da Liberdade" },
+      { date: "2024-05-01", name: "Dia do Trabalhador" },
+      { date: "2024-05-30", name: "Corpo de Deus" },
+      { date: "2024-06-10", name: "Dia de Portugal" },
+      { date: "2024-08-15", name: "Assunção de Nossa Senhora" },
+      { date: "2024-10-05", name: "Implantação da República Portuguesa" },
+      { date: "2024-11-01", name: "Dia de todos os Santos" },
+      { date: "2024-12-01", name: "Restauração da Independência" },
+      { date: "2024-12-08", name: "Dia da Imaculada Conceição" },
+      { date: "2024-12-25", name: "Natal" }
+    ],
+    2025: [
+      { date: "2025-01-01", name: "Dia de Ano Novo" },
+      { date: "2025-03-04", name: "Carnaval" },
+      { date: "2025-04-18", name: "Sexta-feira Santa" },
+      { date: "2025-04-20", name: "Páscoa" },
+      { date: "2025-04-25", name: "Dia da Liberdade" },
+      { date: "2025-05-01", name: "Dia do Trabalhador" },
+      { date: "2025-06-10", name: "Dia de Portugal" },
+      { date: "2025-06-19", name: "Corpo de Deus" },
+      { date: "2025-08-15", name: "Assunção de Nossa Senhora" },
+      { date: "2025-10-05", name: "Implantação da República Portuguesa" },
+      { date: "2025-11-01", name: "Dia de todos os Santos" },
+      { date: "2025-12-01", name: "Restauração da Independência" },
+      { date: "2025-12-08", name: "Dia da Imaculada Conceição" },
+      { date: "2025-12-25", name: "Natal" }
+    ],
+    2026: [
+      { date: "2026-01-01", name: "Dia de Ano Novo" },
+      { date: "2026-02-17", name: "Carnaval" },
+      { date: "2026-04-03", name: "Sexta-feira Santa" },
+      { date: "2026-04-05", name: "Páscoa" },
+      { date: "2026-04-25", name: "Dia da Liberdade" },
+      { date: "2026-05-01", name: "Dia do Trabalhador" },
+      { date: "2026-06-04", name: "Corpo de Deus" },
+      { date: "2026-06-10", name: "Dia de Portugal" },
+      { date: "2026-08-15", name: "Assunção de Nossa Senhora" },
+      { date: "2026-10-05", name: "Implantação da República Portuguesa" },
+      { date: "2026-11-01", name: "Dia de todos os Santos" },
+      { date: "2026-12-01", name: "Restauração da Independência" },
+      { date: "2026-12-08", name: "Dia da Imaculada Conceição" },
+      { date: "2026-12-25", name: "Natal" }
+    ],
+    2027: [
+      { date: "2027-01-01", name: "Dia de Ano Novo" },
+      { date: "2027-02-09", name: "Carnaval" },
+      { date: "2027-03-26", name: "Sexta-feira Santa" },
+      { date: "2027-03-28", name: "Páscoa" },
+      { date: "2027-04-25", name: "Dia da Liberdade" },
+      { date: "2027-05-01", name: "Dia do Trabalhador" },
+      { date: "2027-05-27", name: "Corpo de Deus" },
+      { date: "2027-06-10", name: "Dia de Portugal" },
+      { date: "2027-08-15", name: "Assunção de Nossa Senhora" },
+      { date: "2027-10-05", name: "Implantação da República Portuguesa" },
+      { date: "2027-11-01", name: "Dia de todos os Santos" },
+      { date: "2027-12-01", name: "Restauração da Independência" },
+      { date: "2027-12-08", name: "Dia da Imaculada Conceição" },
+      { date: "2027-12-25", name: "Natal" }
+    ]
   }
   
-  return holidays
+  return holidaysData[year] || []
 }
 
 // Check if a date is a Portuguese holiday
