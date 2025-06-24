@@ -6,6 +6,7 @@ import { Event, EventFilters, PaginationState } from "@/lib/types"
 import { filterEvents } from "@/lib/utils"
 import { useUpcomingEvents } from "@/hooks/useUpcomingEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
+import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
 import { PageLayout } from "@/components/PageLayout"
@@ -18,19 +19,13 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
   const router = useRouter()
   const { events: upcomingEvents, loading, error } = useUpcomingEvents()
   const { savedEventIds, toggleSave } = useSavedEvents()
+  const { getFilters, setFilters } = useFilterContext()
   
   // Use server-rendered events initially, then client-side events once loaded
   const events = loading ? initialEvents : upcomingEvents
   
-  const [filters, setFilters] = useState<EventFilters>({
-    search: "",
-    eventTypes: [],
-    distanceRange: [0, null],
-    dateRange: "anytime",
-    proximityRange: [0, null],
-    proximityCenter: null,
-    showEventsWithoutLocation: true
-  })
+  // Get filters from context
+  const filters = getFilters('lista') as EventFilters
 
   const [pagination, setPagination] = useState<PaginationState>({
     currentPage: 1,
@@ -60,7 +55,7 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
   }, [filters])
 
   const handleFiltersChange = (newFilters: EventFilters) => {
-    setFilters(newFilters)
+    setFilters('lista', newFilters)
   }
 
   const handlePageChange = (page: number) => {

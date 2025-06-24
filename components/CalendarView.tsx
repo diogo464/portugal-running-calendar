@@ -6,6 +6,7 @@ import { Event, EventFilters, PaginationState } from "@/lib/types"
 import { filterEvents } from "@/lib/utils"
 import { useUpcomingEvents } from "@/hooks/useUpcomingEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
+import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
 import { PageLayout } from "@/components/PageLayout"
@@ -19,21 +20,14 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
   const router = useRouter()
   const { events: upcomingEvents, loading, error } = useUpcomingEvents()
   const { savedEventIds, toggleSave } = useSavedEvents()
+  const { getFilters, setFilters } = useFilterContext()
   
   // Use server-rendered events initially, then client-side events once loaded
   const events = loading ? initialEvents : upcomingEvents
   
-  const [selectedDates, setSelectedDates] = useState<Set<string>>(new Set())
-  const [filters, setFilters] = useState<EventFilters>({
-    search: "",
-    eventTypes: [],
-    distanceRange: [0, null],
-    dateRange: "anytime",
-    proximityRange: [0, null],
-    proximityCenter: null,
-    showEventsWithoutLocation: true,
-    selectedDates: selectedDates
-  })
+  // Get filters from context
+  const filters = getFilters('calendario') as EventFilters
+  const selectedDates = filters.selectedDates || new Set<string>()
 
   const [pagination, setPagination] = useState<PaginationState>({
     currentPage: 1,
@@ -42,9 +36,9 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
   })
 
   // Update filters when selected dates change
-  useEffect(() => {
-    setFilters(prev => ({ ...prev, selectedDates: selectedDates }))
-  }, [selectedDates])
+  const handleDateSelectionChange = (newSelectedDates: Set<string>) => {
+    setFilters('calendario', { ...filters, selectedDates: newSelectedDates })
+  }
 
   // Filter events based on current filters
   const filteredEvents = useMemo(() => {
@@ -68,7 +62,7 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
   }, [filters])
 
   const handleFiltersChange = (newFilters: EventFilters) => {
-    setFilters(newFilters)
+    setFilters('calendario', newFilters)
   }
 
   const handlePageChange = (page: number) => {
@@ -117,7 +111,7 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
           <YearlyCalendar
             events={events}
             selectedDates={selectedDates}
-            onDateSelectionChange={setSelectedDates}
+            onDateSelectionChange={handleDateSelectionChange}
           />
 
           {/* Event list (only show if dates are selected) */}

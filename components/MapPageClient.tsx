@@ -1,10 +1,11 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
-import { Event, EventFilters, PaginationState, EventType, convertStringEventTypesToEnum } from '@/lib/types'
+import { Event, PaginationState, convertStringEventTypesToEnum } from '@/lib/types'
 import { useDistricts } from '@/hooks/useDistricts'
 import { useUpcomingEvents } from '@/hooks/useUpcomingEvents'
+import { useFilterContext } from '@/hooks/useFilterContext'
 import { DistrictMap } from '@/components/DistrictMap'
 import { MapFilters } from '@/components/MapFilters'
 import { EventList } from '@/components/EventList'
@@ -19,15 +20,18 @@ interface MapPageClientProps {
 
 export function MapPageClient({ initialEvents }: MapPageClientProps) {
   const { events: upcomingEvents, loading, error } = useUpcomingEvents()
+  const { getFilters, setFilters } = useFilterContext()
+  
   // Use server-rendered events initially, then client-side events once loaded
   const events = loading ? initialEvents : upcomingEvents
   
-  const [selectedDistricts, setSelectedDistricts] = useState<number[]>([])
-  const [filters, setFilters] = useState({
-    eventTypes: [] as EventType[],
-    dateRange: 'anytime' as EventFilters['dateRange'],
-    selectedDistricts: [] as number[]
-  })
+  // Get filters from context
+  const filters = getFilters('mapa') as {
+    eventTypes: import('@/lib/types').EventType[]
+    dateRange: import('@/lib/types').EventFilters['dateRange']
+    selectedDistricts: number[]
+  }
+  const selectedDistricts = filters.selectedDistricts
 
   const { districts } = useDistricts()
   const { isMobile } = useBreakpoint()
@@ -49,25 +53,16 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     return names
   }, [districts])
 
-  // Update filters when districts change
-  useEffect(() => {
-    setFilters(prev => ({ ...prev, selectedDistricts }))
-  }, [selectedDistricts])
-
-
   const handleDistrictSelect = (districtCode: number) => {
-    setSelectedDistricts(prev => {
-      if (prev.includes(districtCode)) {
-        return prev.filter(d => d !== districtCode)
-      } else {
-        return [...prev, districtCode]
-      }
-    })
+    const newSelectedDistricts = selectedDistricts.includes(districtCode)
+      ? selectedDistricts.filter(d => d !== districtCode)
+      : [...selectedDistricts, districtCode]
+    
+    setFilters('mapa', { ...filters, selectedDistricts: newSelectedDistricts })
   }
 
   const handleFiltersChange = (newFilters: typeof filters) => {
-    setFilters(newFilters)
-    setSelectedDistricts(newFilters.selectedDistricts)
+    setFilters('mapa', newFilters)
   }
 
   const handleEventClick = (event: Event) => {
