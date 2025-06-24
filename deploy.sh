@@ -184,8 +184,8 @@ enable_services() {
     ssh "$REMOTE_HOST" "sudo systemctl daemon-reload"
     ssh "$REMOTE_HOST" "sudo systemctl enable portugal-run-server.service"
     ssh "$REMOTE_HOST" "sudo systemctl enable portugal-run-scraper.timer"
-    ssh "$REMOTE_HOST" "sudo systemctl start portugal-run-server.service"
-    ssh "$REMOTE_HOST" "sudo systemctl start portugal-run-scraper.timer"
+    ssh "$REMOTE_HOST" "sudo systemctl restart portugal-run-server.service"
+    ssh "$REMOTE_HOST" "sudo systemctl restart portugal-run-scraper.timer"
     log "Services enabled and started"
 }
 
