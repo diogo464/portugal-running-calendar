@@ -2,22 +2,25 @@ import { Metadata } from 'next'
 import { MapPageClient } from '@/components/MapPageClient'
 import { getUpcomingEvents } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
+import { getSiteConfig } from '@/lib/site-config'
+
+const siteConfig = getSiteConfig()
 
 export const metadata: Metadata = {
-  title: 'Mapa de Eventos | Portugal Running',
+  title: siteConfig.name ? `Mapa de Eventos | ${siteConfig.name}` : 'Mapa de Eventos',
   description: 'Explore eventos de corrida em Portugal através do mapa interativo. Filtre por distrito, distância e período.',
   keywords: 'mapa, corrida, running, eventos, Portugal, distritos',
-  authors: [{ name: 'Portugal Running' }],
-  creator: 'Portugal Running',
-  publisher: 'Portugal Running',
+  authors: siteConfig.name ? [{ name: siteConfig.name }] : undefined,
+  creator: siteConfig.name || undefined,
+  publisher: siteConfig.name || undefined,
   alternates: {
     canonical: `${getSiteUrl()}/map`
   },
   openGraph: {
-    title: 'Mapa de Eventos | Portugal Running',
+    title: siteConfig.name ? `Mapa de Eventos | ${siteConfig.name}` : 'Mapa de Eventos',
     description: 'Explore eventos de corrida em Portugal através do mapa interativo.',
     url: `${getSiteUrl()}/map`,
-    siteName: 'Portugal Running',
+    siteName: siteConfig.name || undefined,
     type: 'website',
     locale: 'pt_PT',
   },

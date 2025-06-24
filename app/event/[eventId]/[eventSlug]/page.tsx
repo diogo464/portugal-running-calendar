@@ -7,6 +7,7 @@ import { EventDetailClient } from '@/components/EventDetailClient'
 import { getEventById, generateEventTitle, generateEventDescription, createSlugFromName, getAllEvents } from '@/lib/server-utils'
 import { Event } from '@/lib/types'
 import { getSiteUrl } from '@/lib/utils'
+import { getSiteConfig } from '@/lib/site-config'
 
 interface EventDetailProps {
   params: Promise<{
@@ -21,10 +22,11 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const resolvedParams = await params
   const eventId = parseInt(resolvedParams.eventId, 10)
+  const siteConfig = getSiteConfig()
 
   if (isNaN(eventId)) {
     return {
-      title: 'Evento não encontrado | Portugal Running',
+      title: siteConfig.name ? `Evento não encontrado | ${siteConfig.name}` : 'Evento não encontrado',
       description: 'O evento solicitado não foi encontrado.'
     }
   }
@@ -33,7 +35,7 @@ export async function generateMetadata(
 
   if (!event) {
     return {
-      title: 'Evento não encontrado | Portugal Running',
+      title: siteConfig.name ? `Evento não encontrado | ${siteConfig.name}` : 'Evento não encontrado',
       description: 'O evento solicitado não foi encontrado.'
     }
   }
@@ -57,9 +59,9 @@ export async function generateMetadata(
       location,
       ...event.types
     ].join(', '),
-    authors: [{ name: 'Portugal Running' }],
-    creator: 'Portugal Running',
-    publisher: 'Portugal Running',
+    authors: siteConfig.name ? [{ name: siteConfig.name }] : undefined,
+    creator: siteConfig.name || undefined,
+    publisher: siteConfig.name || undefined,
     alternates: {
       canonical: canonicalUrl
     },
@@ -67,7 +69,7 @@ export async function generateMetadata(
       title,
       description,
       url: canonicalUrl,
-      siteName: 'Portugal Running',
+      siteName: siteConfig.name || undefined,
       type: 'article',
       locale: 'pt_PT',
       images: event.images.length > 0 ? [
@@ -82,7 +84,7 @@ export async function generateMetadata(
           url: `${getSiteUrl()}/og-default.png`,
           width: 1200,
           height: 630,
-          alt: 'Portugal Running'
+          alt: siteConfig.name || 'Eventos de Corrida em Portugal'
         }
       ]
     },
@@ -90,7 +92,6 @@ export async function generateMetadata(
       card: 'summary_large_image',
       title,
       description,
-      creator: '@portugalrunning',
       images: event.images.length > 0 ? [
         `${getSiteUrl()}/${event.images[0]}`
       ] : [
@@ -152,6 +153,7 @@ export default async function EventDetail({ params }: EventDetailProps) {
 function generateEventStructuredData(event: Event) {
   const location = event.locality || event.location || 'Portugal'
   const eventUrl = `${getSiteUrl()}/event/${event.id}/${event.slug || createSlugFromName(event.name)}`
+  const siteConfig = getSiteConfig()
 
   return {
     '@context': 'https://schema.org',
@@ -185,11 +187,11 @@ function generateEventStructuredData(event: Event) {
         addressCountry: event.country || 'Portugal'
       }
     },
-    organizer: {
+    organizer: siteConfig.name ? {
       '@type': 'Organization',
-      name: 'Portugal Running',
+      name: siteConfig.name,
       url: getSiteUrl()
-    },
+    } : undefined,
     sport: 'Running',
     eventStatus: 'https://schema.org/EventScheduled',
     offers: event.page ? {

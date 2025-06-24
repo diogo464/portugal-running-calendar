@@ -2,23 +2,26 @@ import { Metadata } from 'next'
 import { CalendarView } from '@/components/CalendarView'
 import { getUpcomingEventsForHomepage } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
+import { getSiteConfig } from '@/lib/site-config'
 
 // Generate metadata for calendar page SEO
+const siteConfig = getSiteConfig()
+
 export const metadata: Metadata = {
-  title: 'Calendário Anual de Eventos | Portugal Running',
+  title: siteConfig.name ? `Calendário Anual de Eventos | ${siteConfig.name}` : 'Calendário Anual de Eventos',
   description: 'Visualize todos os eventos de corrida em Portugal no calendário anual. Selecione datas específicas para filtrar eventos de interesse.',
   keywords: 'calendário, eventos, corrida, running, Portugal, datas, maratona, meia maratona, trail',
-  authors: [{ name: 'Portugal Running' }],
-  creator: 'Portugal Running',
-  publisher: 'Portugal Running',
+  authors: siteConfig.name ? [{ name: siteConfig.name }] : undefined,
+  creator: siteConfig.name || undefined,
+  publisher: siteConfig.name || undefined,
   alternates: {
     canonical: `${getSiteUrl()}/calendar`
   },
   openGraph: {
-    title: 'Calendário Anual de Eventos | Portugal Running',
+    title: siteConfig.name ? `Calendário Anual de Eventos | ${siteConfig.name}` : 'Calendário Anual de Eventos',
     description: 'Visualize todos os eventos de corrida em Portugal no calendário anual. Selecione datas específicas para filtrar eventos.',
     url: `${getSiteUrl()}/calendar`,
-    siteName: 'Portugal Running',
+    siteName: siteConfig.name || undefined,
     type: 'website',
     locale: 'pt_PT',
     images: [
@@ -26,15 +29,14 @@ export const metadata: Metadata = {
         url: `${getSiteUrl()}/og-calendar.png`,
         width: 1200,
         height: 630,
-        alt: 'Portugal Running - Calendário Anual de Eventos'
+        alt: siteConfig.name ? `${siteConfig.name} - Calendário Anual de Eventos` : 'Calendário Anual de Eventos'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calendário Anual de Eventos | Portugal Running',
+    title: siteConfig.name ? `Calendário Anual de Eventos | ${siteConfig.name}` : 'Calendário Anual de Eventos',
     description: 'Visualize todos os eventos de corrida em Portugal no calendário anual.',
-    creator: '@portugalrunning',
     images: [`${getSiteUrl()}/og-calendar.png`]
   },
   robots: {
@@ -68,14 +70,14 @@ export default async function CalendarPage() {
             url: `${getSiteUrl()}/calendar`,
             isPartOf: {
               '@type': 'WebSite',
-              name: 'Portugal Running',
+              name: siteConfig.name || 'Eventos de Corrida em Portugal',
               url: getSiteUrl()
             },
-            publisher: {
+            publisher: siteConfig.name ? {
               '@type': 'Organization',
-              name: 'Portugal Running',
+              name: siteConfig.name,
               url: getSiteUrl()
-            },
+            } : undefined,
             mainEntity: {
               '@type': 'Event',
               name: 'Eventos de Corrida em Portugal',

@@ -1,6 +1,7 @@
 import { readFile } from 'fs/promises'
 import { join } from 'path'
 import { Event, EventsArraySchema, EventSchema } from './types'
+import { getSiteName } from './site-config'
 
 /**
  * Server-side utility to read all events from the events.json file
@@ -99,7 +100,8 @@ export function createSlugFromName(eventName: string): string {
  */
 export function generateEventTitle(event: Event): string {
   const location = event.locality || event.location || 'Portugal'
-  return `${event.name} - ${location} | Portugal Running`
+  const siteName = getSiteName()
+  return siteName ? `${event.name} - ${location} | ${siteName}` : `${event.name} - ${location}`
 }
 
 /**
@@ -112,8 +114,11 @@ export function generateEventDescription(event: Event): string {
   
   const location = event.locality || event.location || 'Portugal'
   const dateStr = event.start_date ? ` em ${formatPortugueseDate(event.start_date)}` : ''
+  const siteName = getSiteName()
   
-  return `Evento de corrida em ${location}${dateStr}. Descubra mais detalhes e inscreva-se no Portugal Running.`
+  return siteName 
+    ? `Evento de corrida em ${location}${dateStr}. Descubra mais detalhes e inscreva-se no ${siteName}.`
+    : `Evento de corrida em ${location}${dateStr}. Descubra mais detalhes sobre este evento.`
 }
 
 /**

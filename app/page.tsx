@@ -2,23 +2,26 @@ import { Metadata } from 'next'
 import { HomepageClient } from '@/components/HomepageClient'
 import { getUpcomingEventsForHomepage } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
+import { getSiteConfig } from '@/lib/site-config'
 
 // Generate metadata for homepage SEO
+const siteConfig = getSiteConfig()
+
 export const metadata: Metadata = {
-  title: 'Eventos de Corrida em Portugal | Portugal Running',
-  description: 'Descubra os próximos eventos de corrida em Portugal. Maratonas, meias maratonas, trails e corridas urbanas. Inscreva-se nos melhores eventos de running do país.',
+  title: siteConfig.name ? `Eventos de Corrida em Portugal | ${siteConfig.name}` : 'Eventos de Corrida em Portugal',
+  description: siteConfig.description,
   keywords: 'corrida, running, maratona, meia maratona, trail, Portugal, eventos, inscrições',
-  authors: [{ name: 'Portugal Running' }],
-  creator: 'Portugal Running',
-  publisher: 'Portugal Running',
+  authors: siteConfig.name ? [{ name: siteConfig.name }] : undefined,
+  creator: siteConfig.name || undefined,
+  publisher: siteConfig.name || undefined,
   alternates: {
     canonical: getSiteUrl()
   },
   openGraph: {
-    title: 'Eventos de Corrida em Portugal | Portugal Running',
+    title: siteConfig.name ? `Eventos de Corrida em Portugal | ${siteConfig.name}` : 'Eventos de Corrida em Portugal',
     description: 'Descubra os próximos eventos de corrida em Portugal. Maratonas, meias maratonas, trails e corridas urbanas.',
     url: getSiteUrl(),
-    siteName: 'Portugal Running',
+    siteName: siteConfig.name || undefined,
     type: 'website',
     locale: 'pt_PT',
     images: [
@@ -26,15 +29,14 @@ export const metadata: Metadata = {
         url: `${getSiteUrl()}/og-default.png`,
         width: 1200,
         height: 630,
-        alt: 'Portugal Running - Eventos de Corrida em Portugal'
+        alt: siteConfig.name ? `${siteConfig.name} - Eventos de Corrida em Portugal` : 'Eventos de Corrida em Portugal'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eventos de Corrida em Portugal | Portugal Running',
+    title: siteConfig.name ? `Eventos de Corrida em Portugal | ${siteConfig.name}` : 'Eventos de Corrida em Portugal',
     description: 'Descubra os próximos eventos de corrida em Portugal. Maratonas, meias maratonas, trails e corridas urbanas.',
-    creator: '@portugalrunning',
     images: [`${getSiteUrl()}/og-default.png`]
   },
   robots: {
@@ -63,7 +65,7 @@ export default async function Home() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'Portugal Running',
+            name: siteConfig.name || 'Eventos de Corrida em Portugal',
             description: 'Eventos de corrida em Portugal',
             url: getSiteUrl(),
             potentialAction: {
@@ -74,11 +76,11 @@ export default async function Home() {
               },
               'query-input': 'required name=search_term_string'
             },
-            publisher: {
+            publisher: siteConfig.name ? {
               '@type': 'Organization',
-              name: 'Portugal Running',
+              name: siteConfig.name,
               url: getSiteUrl()
-            }
+            } : undefined
           })
         }}
       />
