@@ -1,7 +1,10 @@
+export const revalidate = 3600;
+export const dynamicParams = false;
+
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import { EventDetailClient } from '@/components/EventDetailClient'
-import { getEventById, generateEventTitle, generateEventDescription, createSlugFromName } from '@/lib/server-utils'
+import { getEventById, generateEventTitle, generateEventDescription, createSlugFromName, getAllEvents } from '@/lib/server-utils'
 import { Event } from '@/lib/types'
 
 interface EventDetailProps {
@@ -17,7 +20,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const resolvedParams = await params
   const eventId = parseInt(resolvedParams.eventId, 10)
-  
+
   if (isNaN(eventId)) {
     return {
       title: 'Evento não encontrado | Portugal Running',
@@ -26,7 +29,7 @@ export async function generateMetadata(
   }
 
   const event = await getEventById(eventId)
-  
+
   if (!event) {
     return {
       title: 'Evento não encontrado | Portugal Running',
@@ -37,11 +40,11 @@ export async function generateMetadata(
   const title = generateEventTitle(event)
   const description = generateEventDescription(event)
   const location = event.locality || event.location || 'Portugal'
-  
+
   // Create canonical URL
   const slug = event.slug || createSlugFromName(event.name)
   const canonicalUrl = `https://portugal-running.vercel.app/event/${event.id}/${slug}`
-  
+
   return {
     title,
     description,
@@ -110,13 +113,13 @@ export async function generateMetadata(
 export default async function EventDetail({ params }: EventDetailProps) {
   const resolvedParams = await params
   const eventId = parseInt(resolvedParams.eventId, 10)
-  
+
   if (isNaN(eventId)) {
     notFound()
   }
 
   const event = await getEventById(eventId)
-  
+
   if (!event) {
     notFound()
   }
@@ -137,7 +140,7 @@ export default async function EventDetail({ params }: EventDetailProps) {
           __html: JSON.stringify(generateEventStructuredData(event))
         }}
       />
-      
+
       {/* Client-side interactive wrapper */}
       <EventDetailClient event={event} />
     </>
@@ -148,7 +151,7 @@ export default async function EventDetail({ params }: EventDetailProps) {
 function generateEventStructuredData(event: Event) {
   const location = event.locality || event.location || 'Portugal'
   const eventUrl = `https://portugal-running.vercel.app/event/${event.id}/${event.slug || createSlugFromName(event.name)}`
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'SportsEvent',
@@ -193,8 +196,16 @@ function generateEventStructuredData(event: Event) {
       url: event.page,
       availability: 'https://schema.org/InStock'
     } : undefined,
-    image: event.images.length > 0 ? 
-      event.images.map(img => `https://portugal-running.vercel.app/${img}`) : 
+    image: event.images.length > 0 ?
+      event.images.map(img => `https://portugal-running.vercel.app/${img}`) :
       ['https://portugal-running.vercel.app/og-default.png']
   }
+}
+
+export async function generateStaticParams() {
+  const events = await getAllEvents();
+  return events.map(e => ({
+    eventId: e.id.toString(),
+    eventSlug: e.slug ?? "",
+  }));
 }
