@@ -574,7 +574,7 @@ async def http_get_cached(
     """
     Perform cached async HTTP GET request.
     Returns content string or None on error.
-    
+
     Args:
         ttl: Time to live in seconds. If None, cache is used indefinitely.
              If specified, cache older than ttl seconds will be ignored.
@@ -587,7 +587,9 @@ async def http_get_cached(
             if ttl is not None and cache_path.exists():
                 cache_age = time.time() - cache_path.stat().st_mtime
                 if cache_age > ttl:
-                    logger.debug(f"Cache expired for {url} (age: {cache_age:.1f}s, ttl: {ttl}s)")
+                    logger.debug(
+                        f"Cache expired for {url} (age: {cache_age:.1f}s, ttl: {ttl}s)"
+                    )
                 else:
                     return cache_data
             else:
@@ -706,10 +708,12 @@ class WordPressClient:
         self.api_base = f"{base_url}/wp-json/wp/v2"
         self.semaphore = asyncio.Semaphore(max_concurrent)
 
-    async def _fetch(self, url: str) -> bytes:
+    async def _fetch(self, url: str, ttl: int | None = None) -> bytes:
         async with self.semaphore:  # Rate limiting
             try:
-                content = await http_get_cached(self.session, self.cache_config, url)
+                content = await http_get_cached(
+                    self.session, self.cache_config, url, ttl=ttl
+                )
                 return content
             except Exception as e:
                 logger.error(f"WORDPRESS|Failed to fetch from URL|{url}|{str(e)}")
@@ -718,7 +722,7 @@ class WordPressClient:
     async def fetch_events_page(self, page: int) -> WPage:
         """Fetch a page of events from WordPress API asynchronously."""
         url = f"{self.api_base}/ajde_events?page={page}"
-        content = await self._fetch(url)
+        content = await self._fetch(url, ttl=3600)
         json_data = json.loads(content)
         event_ids = []
         for event in json_data:
@@ -1160,6 +1164,7 @@ def extract_event_ids_from_pages(pages: List[WPage]) -> List[int]:
 def get_today_date() -> str:
     """Get today's date in YYYY-MM-DD format."""
     from datetime import date
+
     return date.today().isoformat()
 
 
@@ -1168,20 +1173,25 @@ def extract_year_from_date(date_str: Optional[str]) -> Optional[int]:
     if not date_str or not isinstance(date_str, str):
         return None
     try:
-        return int(date_str.split('-')[0])
+        return int(date_str.split("-")[0])
     except (ValueError, IndexError):
         return None
 
 
 def sort_events_by_date(events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """Sort events by start_date, with null dates at the end."""
-    return sorted(events, key=lambda e: (
-        e.get('start_date') is None,  # None values go to the end
-        e.get('start_date') or '9999-12-31'  # Default for None values
-    ))
+    return sorted(
+        events,
+        key=lambda e: (
+            e.get("start_date") is None,  # None values go to the end
+            e.get("start_date") or "9999-12-31",  # Default for None values
+        ),
+    )
 
 
-async def save_events_to_directory(events: List[Dict[str, Any]], output_dir: str) -> None:
+async def save_events_to_directory(
+    events: List[Dict[str, Any]], output_dir: str
+) -> None:
     """
     Save events to individual JSON files and generate aggregate files in a directory.
 
@@ -1191,31 +1201,35 @@ async def save_events_to_directory(events: List[Dict[str, Any]], output_dir: str
     """
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True)
-    
+
     # Save individual event files
     for event in events:
         event_id = event["id"]
         event_file = output_path / f"{event_id}.json"
-        
+
         try:
             async with aiofiles.open(event_file, "w", encoding="utf-8") as f:
                 await f.write(json.dumps(event, ensure_ascii=False, indent=2))
             logger.info(f"EVENT_SAVE|Saved event to file|{event_id}|{event_file}")
         except Exception as e:
-            logger.error(f"EVENT_SAVE|Failed to save event|{event_id}|{event_file}|{str(e)}")
+            logger.error(
+                f"EVENT_SAVE|Failed to save event|{event_id}|{event_file}|{str(e)}"
+            )
             raise
-    
+
     # Generate aggregate files
     await _generate_aggregate_files(events, output_path)
 
 
-async def _generate_aggregate_files(events: List[Dict[str, Any]], output_path: Path) -> None:
+async def _generate_aggregate_files(
+    events: List[Dict[str, Any]], output_path: Path
+) -> None:
     """Generate all aggregate JSON files."""
     today = get_today_date()
-    
+
     # Sort all events by date
     sorted_events = sort_events_by_date(events)
-    
+
     # 1. Generate events.json - all events
     events_file = output_path / "events.json"
     try:
@@ -1225,88 +1239,110 @@ async def _generate_aggregate_files(events: List[Dict[str, Any]], output_path: P
     except Exception as e:
         logger.error(f"AGGREGATE_SAVE|Failed to save events.json|{str(e)}")
         raise
-    
+
     # 2. Generate year-<year>.json files
     events_by_year = {}
     for event in events:
-        year = extract_year_from_date(event.get('start_date'))
+        year = extract_year_from_date(event.get("start_date"))
         if year is not None:
             if year not in events_by_year:
                 events_by_year[year] = []
             events_by_year[year].append(event)
-    
+
     for year, year_events in events_by_year.items():
         year_file = output_path / f"year-{year}.json"
         sorted_year_events = sort_events_by_date(year_events)
         try:
             async with aiofiles.open(year_file, "w", encoding="utf-8") as f:
-                await f.write(json.dumps(sorted_year_events, ensure_ascii=False, indent=2))
-            logger.info(f"AGGREGATE_SAVE|Generated year-{year}.json|{len(sorted_year_events)} events")
+                await f.write(
+                    json.dumps(sorted_year_events, ensure_ascii=False, indent=2)
+                )
+            logger.info(
+                f"AGGREGATE_SAVE|Generated year-{year}.json|{len(sorted_year_events)} events"
+            )
         except Exception as e:
             logger.error(f"AGGREGATE_SAVE|Failed to save year-{year}.json|{str(e)}")
             raise
-    
+
     # 3. Generate by-district.json
     events_by_district = {}
     for event in events:
-        district_code = event.get('district_code')
+        district_code = event.get("district_code")
         if district_code is not None:
             if district_code not in events_by_district:
                 events_by_district[district_code] = []
             events_by_district[district_code].append(event)
-    
+
     # Sort events within each district
     for district_code in events_by_district:
-        events_by_district[district_code] = sort_events_by_date(events_by_district[district_code])
-    
+        events_by_district[district_code] = sort_events_by_date(
+            events_by_district[district_code]
+        )
+
     district_file = output_path / "by-district.json"
     try:
         async with aiofiles.open(district_file, "w", encoding="utf-8") as f:
             await f.write(json.dumps(events_by_district, ensure_ascii=False, indent=2))
-        total_district_events = sum(len(events) for events in events_by_district.values())
-        logger.info(f"AGGREGATE_SAVE|Generated by-district.json|{len(events_by_district)} districts, {total_district_events} events")
+        total_district_events = sum(
+            len(events) for events in events_by_district.values()
+        )
+        logger.info(
+            f"AGGREGATE_SAVE|Generated by-district.json|{len(events_by_district)} districts, {total_district_events} events"
+        )
     except Exception as e:
         logger.error(f"AGGREGATE_SAVE|Failed to save by-district.json|{str(e)}")
         raise
-    
+
     # 4. Generate upcoming.json - events with start_date >= today
     upcoming_events = []
     for event in events:
-        start_date = event.get('start_date')
+        start_date = event.get("start_date")
         if start_date and isinstance(start_date, str) and start_date >= today:
             upcoming_events.append(event)
-    
+
     sorted_upcoming = sort_events_by_date(upcoming_events)
     upcoming_file = output_path / "upcoming.json"
     try:
         async with aiofiles.open(upcoming_file, "w", encoding="utf-8") as f:
             await f.write(json.dumps(sorted_upcoming, ensure_ascii=False, indent=2))
-        logger.info(f"AGGREGATE_SAVE|Generated upcoming.json|{len(sorted_upcoming)} upcoming events")
+        logger.info(
+            f"AGGREGATE_SAVE|Generated upcoming.json|{len(sorted_upcoming)} upcoming events"
+        )
     except Exception as e:
         logger.error(f"AGGREGATE_SAVE|Failed to save upcoming.json|{str(e)}")
         raise
-    
+
     # 5. Generate upcoming-by-district.json
     upcoming_by_district = {}
     for event in upcoming_events:
-        district_code = event.get('district_code')
+        district_code = event.get("district_code")
         if district_code is not None:
             if district_code not in upcoming_by_district:
                 upcoming_by_district[district_code] = []
             upcoming_by_district[district_code].append(event)
-    
+
     # Sort events within each district
     for district_code in upcoming_by_district:
-        upcoming_by_district[district_code] = sort_events_by_date(upcoming_by_district[district_code])
-    
+        upcoming_by_district[district_code] = sort_events_by_date(
+            upcoming_by_district[district_code]
+        )
+
     upcoming_district_file = output_path / "upcoming-by-district.json"
     try:
         async with aiofiles.open(upcoming_district_file, "w", encoding="utf-8") as f:
-            await f.write(json.dumps(upcoming_by_district, ensure_ascii=False, indent=2))
-        total_upcoming_district_events = sum(len(events) for events in upcoming_by_district.values())
-        logger.info(f"AGGREGATE_SAVE|Generated upcoming-by-district.json|{len(upcoming_by_district)} districts, {total_upcoming_district_events} upcoming events")
+            await f.write(
+                json.dumps(upcoming_by_district, ensure_ascii=False, indent=2)
+            )
+        total_upcoming_district_events = sum(
+            len(events) for events in upcoming_by_district.values()
+        )
+        logger.info(
+            f"AGGREGATE_SAVE|Generated upcoming-by-district.json|{len(upcoming_by_district)} districts, {total_upcoming_district_events} upcoming events"
+        )
     except Exception as e:
-        logger.error(f"AGGREGATE_SAVE|Failed to save upcoming-by-district.json|{str(e)}")
+        logger.error(
+            f"AGGREGATE_SAVE|Failed to save upcoming-by-district.json|{str(e)}"
+        )
         raise
 
 
@@ -1844,7 +1880,9 @@ async def cmd_scrape(args: ScrapeArgs, ctx: Context):
     await save_events_to_directory(events, args.output)
 
     print(f"✅ Saved {len(events)} events to directory {args.output}")
-    print(f"📁 Generated individual event files, events.json, year-*.json, by-district.json, upcoming.json, and upcoming-by-district.json")
+    print(
+        f"📁 Generated individual event files, events.json, year-*.json, by-district.json, upcoming.json, and upcoming-by-district.json"
+    )
     return 0
 
 
