@@ -21,6 +21,7 @@ import asyncio
 import aiohttp
 import aiofiles
 import pprint
+import time
 
 from pathlib import Path
 from typing import Optional, List, Dict, Any, Tuple
@@ -568,16 +569,30 @@ async def http_get_cached(
     cache_config: CacheConfig,
     url: str,
     timeout: int = 30,
+    ttl: int | None = None,
 ) -> bytes:
     """
     Perform cached async HTTP GET request.
     Returns content string or None on error.
+    
+    Args:
+        ttl: Time to live in seconds. If None, cache is used indefinitely.
+             If specified, cache older than ttl seconds will be ignored.
     """
     cache_path = cache_config.http_dir.joinpath(cache_get_key(url))
     if cache_config.enabled:
         cache_data = await cache_read(cache_path)
         if cache_data is not None:
-            return cache_data
+            # Check TTL if specified
+            if ttl is not None and cache_path.exists():
+                cache_age = time.time() - cache_path.stat().st_mtime
+                if cache_age > ttl:
+                    logger.debug(f"Cache expired for {url} (age: {cache_age:.1f}s, ttl: {ttl}s)")
+                else:
+                    return cache_data
+            else:
+                # No TTL specified, use cache indefinitely
+                return cache_data
 
     # Fetch from network
     logger.debug(f"Fetching {url}")
