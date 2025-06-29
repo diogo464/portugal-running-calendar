@@ -21,7 +21,6 @@ serve:
     cd .next && PORT=3000 node standalone/server.js
 
 build:
-    npm run prebuild
     npm run build
     cp -r public/ .next/standalone
     cp -r .next/static .next/standalone/.next

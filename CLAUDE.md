@@ -31,7 +31,7 @@ This is a Next.js 15 frontend for Portugal Running - a comprehensive platform fo
 - **components/**: React components split into base UI components (`ui/`) and feature-specific components
 - **hooks/**: Custom React hooks for events, geolocation, saved events, and theme management
 - **lib/**: Type definitions, utilities, and Zod schemas
-- **public/**: Static event data (`events.json`, district data) and media assets
+- **public/**: Static event data (`events/events.json`, district data) and media assets
 
 ### Key Features
 - **Event Discovery**: Search and filter Portuguese running events by type, location, date, and distance
