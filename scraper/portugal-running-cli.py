@@ -22,6 +22,7 @@ import aiohttp
 import aiofiles
 import pprint
 import time
+import html
 
 from pathlib import Path
 from typing import Optional, List, Dict, Any, Tuple
@@ -422,7 +423,7 @@ class EventBuilder:
 
         return Event(
             id=self.id,
-            name=self.name or "Unknown Event",
+            name=html.unescape(self.name) if self.name else "Unknown Event",
             location=self.location or "Unknown Location",
             coordinates=self.coordinates,  # Can be None
             country=self.country or "Portugal",
@@ -433,7 +434,7 @@ class EventBuilder:
             start_date=self.start_date or "1970-01-01",
             end_date=self.end_date or self.start_date or "1970-01-01",
             circuit=self.circuit or [],
-            description=self.description or "",
+            description=html.unescape(self.description) if self.description else "",
             description_short=self.description_short,  # Can be None
             page=self.page,  # Can be None
             slug=self.slug,  # Can be None
