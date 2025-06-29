@@ -41,7 +41,7 @@ This is a Next.js 15 frontend for Portugal Running - a comprehensive platform fo
 - **Interactive Maps**: Leaflet integration for event locations
 
 ### Data Flow
-- Event data is loaded from static JSON files in `/public/`
+- Event data is loaded from static JSON files in `/public/events`
 - All data uses Zod schemas for runtime validation
 - Event filtering is handled client-side with complex multi-dimensional filtering
 - Portuguese district data provides location-based filtering capabilities

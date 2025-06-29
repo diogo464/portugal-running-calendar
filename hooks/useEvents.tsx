@@ -12,7 +12,7 @@ export function useEvents() {
         setLoading(true)
         setError(null)
         
-        const response = await fetch('/events.json')
+        const response = await fetch('/events/events.json')
         if (!response.ok) {
           throw new Error(`Failed to fetch events: ${response.statusText}`)
         }

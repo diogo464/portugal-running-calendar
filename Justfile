@@ -28,7 +28,7 @@ build:
 
 scrape:
     cd scraper && uv run python portugal-running-cli.py scrape
-    cp scraper/portugal-running-events.json public/events.json
+    rm -rf public/events && cp -r scraper/events public/
 
 scrape-and-deploy:
     #!/usr/bin/env bash

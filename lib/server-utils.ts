@@ -8,10 +8,10 @@ import { getSiteName } from './site-config'
  */
 export async function getAllEvents(): Promise<Event[]> {
   try {
-    const filePath = join(process.cwd(), 'public', 'events.json')
+    const filePath = join(process.cwd(), 'public', 'events', 'events.json')
     const fileContent = await readFile(filePath, 'utf-8')
     const data = JSON.parse(fileContent)
-    
+
     // Validate with Zod schema
     return EventsArraySchema.parse(data)
   } catch (error) {
@@ -28,7 +28,7 @@ export async function getEventById(eventId: number): Promise<Event | null> {
     const filePath = join(process.cwd(), 'public', 'events', `${eventId}.json`)
     const fileContent = await readFile(filePath, 'utf-8')
     const data = JSON.parse(fileContent)
-    
+
     // Validate with Zod schema
     return EventSchema.parse(data)
   } catch (error) {
@@ -50,10 +50,10 @@ export async function getEventsForHomepage(limit: number = 12): Promise<Event[]>
  */
 export async function getUpcomingEvents(): Promise<Event[]> {
   try {
-    const filePath = join(process.cwd(), 'public', 'upcoming.json')
+    const filePath = join(process.cwd(), 'public', 'events', 'upcoming.json')
     const fileContent = await readFile(filePath, 'utf-8')
     const data = JSON.parse(fileContent)
-    
+
     // Validate with Zod schema
     return EventsArraySchema.parse(data)
   } catch (error) {
@@ -75,7 +75,7 @@ export async function getUpcomingEventsForHomepage(limit: number = 12): Promise<
  */
 export async function getAllEventUrls(): Promise<Array<{ id: number; slug: string; lastModified?: Date }>> {
   const events = await getAllEvents()
-  
+
   return events.map(event => ({
     id: event.id,
     slug: event.slug || createSlugFromName(event.name),
@@ -111,12 +111,12 @@ export function generateEventDescription(event: Event): string {
   if (event.description_short) {
     return event.description_short
   }
-  
+
   const location = event.locality || event.location || 'Portugal'
   const dateStr = event.start_date ? ` em ${formatPortugueseDate(event.start_date)}` : ''
   const siteName = getSiteName()
-  
-  return siteName 
+
+  return siteName
     ? `Evento de corrida em ${location}${dateStr}. Descubra mais detalhes e inscreva-se no ${siteName}.`
     : `Evento de corrida em ${location}${dateStr}. Descubra mais detalhes sobre este evento.`
 }

@@ -12,7 +12,7 @@ export function useUpcomingEvents() {
         setLoading(true)
         setError(null)
         
-        const response = await fetch('/upcoming.json')
+        const response = await fetch('/events/upcoming.json')
         if (!response.ok) {
           throw new Error(`Failed to fetch upcoming events: ${response.statusText}`)
         }
