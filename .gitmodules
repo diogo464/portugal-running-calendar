@@ -1,0 +1,3 @@
+[submodule "portugal-running-data"]
+	path = portugal-running-data
+	url = https://git.d464.sh/portugal-running-data
