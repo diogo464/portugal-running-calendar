@@ -71,7 +71,7 @@ export function EventImage({ images, eventName, onFullscreenChange }: EventImage
           onClick={handleImageClick}
         >
           <Image
-            src={`/${images[0]}`}
+            src={`${images[0]}`}
             alt={eventName}
             width={1200}
             height={800}
