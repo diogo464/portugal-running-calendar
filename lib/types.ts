@@ -29,7 +29,7 @@ export const EventCategoryDisplayName: Record<EventCategory, string> = {
   [EventCategory.Kids]: "Kids",
   [EventCategory.SaintSilvester]: "São Silvestre",
   [EventCategory.D10K]: "10K",
-  [EventCategory.D15K]: "15K",
+  [EventCategory.D15K]: "Entre 10K e 21K",
   [EventCategory.HalfMarathon]: "Meia Maratona",
   [EventCategory.Marathon]: "Maratona",
 }
