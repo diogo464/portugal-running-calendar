@@ -46,15 +46,7 @@
       "purpose": "any"
     }
   ],
-  "screenshots": [
-    {
-      "src": "/og-default.png",
-      "sizes": "1200x630",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Portugal Run Calendar - Eventos de corrida"
-    }
-  ],
+  "screenshots": [],
   "related_applications": [],
   "prefer_related_applications": false
 }

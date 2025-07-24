@@ -9,6 +9,7 @@ import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
 import { PageLayout } from "@/components/PageLayout"
+import { useEvents } from "@/hooks/useEvents"
 
 interface HomepageClientProps {
   initialEvents: Event[]
@@ -18,10 +19,11 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
   const router = useRouter()
   const { savedEventIds, toggleSave } = useSavedEvents()
   const { getFilters, setFilters } = useFilterContext()
-  
+
   // Use server-rendered events
-  const events = initialEvents
-  
+  const { events: fullEvents, loading } = useEvents();
+  const events = !loading && fullEvents.length > 0 ? fullEvents : initialEvents;
+
   // Get filters from context
   const filters = getFilters('lista') as EventFilters
 
@@ -41,9 +43,9 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
     const totalItems = filteredEvents.length
     const startIndex = (pagination.currentPage - 1) * pagination.itemsPerPage
     const currentPageEvents = filteredEvents.slice(startIndex, startIndex + pagination.itemsPerPage)
-    
+
     setPagination(prev => ({ ...prev, totalItems }))
-    
+
     return currentPageEvents
   }, [filteredEvents, pagination.currentPage, pagination.itemsPerPage])
 
@@ -62,16 +64,14 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
 
   const handleEventClick = (event: Event) => {
     // Create event slug from event name if not available
-    const eventSlug = event.slug || 
+    const eventSlug = event.slug ||
       event.name.toLowerCase()
         .replace(/[^a-z0-9\s-]/g, '')
         .trim()
         .replace(/\s+/g, '-')
-    
+
     router.push(`/event/${event.id}/${eventSlug}`)
   }
-
-
 
   return (
     <PageLayout savedEventIds={savedEventIds}>
