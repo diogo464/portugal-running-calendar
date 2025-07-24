@@ -2,6 +2,7 @@
 
 import { ReactNode } from 'react'
 import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 interface PageLayoutProps {
   children: ReactNode
@@ -31,6 +32,9 @@ export function PageLayout({
         <div className={`flex-1 ${className}`}>
           {children}
         </div>
+        
+        {/* Footer */}
+        <Footer />
       </div>
     )
   }
@@ -40,6 +44,7 @@ export function PageLayout({
     <div className={`container mx-auto px-4 py-6 ${className}`}>
       <Header savedEventIds={savedEventIds} />
       {children}
+      <Footer />
     </div>
   )
 }
