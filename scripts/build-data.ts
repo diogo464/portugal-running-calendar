@@ -66,7 +66,9 @@ async function processAllEvents(): Promise<Event[]> {
   const imageOutputDir = join(process.cwd(), 'public/image');
   await mkdir(imageOutputDir, { recursive: true });
 
-  const events = await Promise.all(eventDirs.map(async (eventDirName) => {
+  const events: Event[] = []
+  
+  for (const eventDirName of eventDirs) {
     const eventDir = join(eventsDir, eventDirName);
     console.log(`Processing event: ${eventDirName}`);
 
@@ -145,7 +147,7 @@ async function processAllEvents(): Promise<Event[]> {
       location = JSON.parse(locationContent);
     }
 
-    return EventSchema.parse({
+    const event = EventSchema.parse({
       id: id,
       slug: slug,
       name: title,
@@ -166,7 +168,9 @@ async function processAllEvents(): Promise<Event[]> {
       district_code: (location && location['district_code']),
       page: eventUrl,
     });
-  }));
+    
+    events.push(event)
+  }
 
   // Sort events by date, earliest first
   events.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
