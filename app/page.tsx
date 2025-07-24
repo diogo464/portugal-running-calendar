@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { HomepageClient } from '@/components/HomepageClient'
-import { getAllEvents } from '@/lib/server-utils'
+import { getAllEvents, getUpcomingEventsN } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
 import { getSiteConfig } from '@/lib/site-config'
 
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
 }
 
 export default async function Home() {
-  const initialEvents = await getAllEvents();
+  const initialEvents = await getUpcomingEventsN(12);
 
   return (
     <>

@@ -20,7 +20,7 @@ export async function getAllEvents(): Promise<Event[]> {
  */
 export async function getEventById(eventId: number): Promise<Event | null> {
   const eventPath = join(process.cwd(), 'public/events', `${eventId}.json`);
-  
+
   try {
     const eventData = await readFile(eventPath, 'utf-8');
     return JSON.parse(eventData) as Event;
@@ -36,6 +36,11 @@ export async function getUpcomingEvents(): Promise<Event[]> {
   const now = new Date();
   const events = await getAllEvents();
   return events.filter(e => new Date(e.date) > now);
+}
+
+export async function getUpcomingEventsN(n: number): Promise<Event[]> {
+  const upcoming = await getUpcomingEvents();
+  return upcoming.slice(0, n);
 }
 
 /**
