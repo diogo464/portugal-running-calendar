@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { HomepageClient } from '@/components/HomepageClient'
-import { getAllEvents, getUpcomingEventsN } from '@/lib/server-utils'
+import { getUpcomingEventsN } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
 import { getSiteConfig } from '@/lib/site-config'
 

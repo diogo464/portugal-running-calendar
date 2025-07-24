@@ -40,7 +40,7 @@ async function processImage(imagePath: string, outputDir: string): Promise<strin
   const imageBuffer = await readFile(imagePath);
   const hash = createHash('md5').update(imageBuffer).digest('hex');
   const outputPath = join(outputDir, `${hash}.webp`);
-  
+
   // Check if we already processed this image
   if (await fileExists(outputPath)) {
     return `/image/${hash}.webp`;
@@ -48,7 +48,7 @@ async function processImage(imagePath: string, outputDir: string): Promise<strin
 
   // Convert image to WebP using ImageMagick
   const convertCmd = `convert "${imagePath}" "${outputPath}"`;
-  
+
   try {
     await execAsync(convertCmd);
     console.log(`  ✓ Converted image: ${hash}.webp`);
@@ -61,15 +61,15 @@ async function processImage(imagePath: string, outputDir: string): Promise<strin
 async function processAllEvents(): Promise<Event[]> {
   const eventsDir = join(getPortugalRunningDataDir(), "events");
   const eventDirs = await readdir(eventsDir);
-  
+
   // Ensure image output directory exists
   const imageOutputDir = join(process.cwd(), 'public/image');
   await mkdir(imageOutputDir, { recursive: true });
-  
+
   const events = await Promise.all(eventDirs.map(async (eventDirName) => {
     const eventDir = join(eventsDir, eventDirName);
     console.log(`Processing event: ${eventDirName}`);
-    
+
     // required files
     const categoriesPath = join(eventDir, 'categories');
     const circuitsPath = join(eventDir, 'circuits');
@@ -84,6 +84,7 @@ async function processAllEvents(): Promise<Event[]> {
     const imagePath = join(eventDir, 'image');
     const onelineDescPath = join(eventDir, 'oneline-description');
     const locationPath = join(eventDir, 'location');
+    const eventUrlPath = join(eventDir, 'event-url');
 
     // Assert required files exist
     assert(await fileExists(categoriesPath), `missing categories file for ${eventDirName}`);
@@ -107,7 +108,8 @@ async function processAllEvents(): Promise<Event[]> {
       titleContent,
       locationContent,
       descriptionShortContent,
-      imageUrl
+      imageUrl,
+      eventUrl,
     ] = await Promise.all([
       readLines(categoriesPath),
       readLines(circuitsPath),
@@ -119,7 +121,8 @@ async function processAllEvents(): Promise<Event[]> {
       readFile(titlePath, 'utf-8'),
       fileExists(locationPath).then(exists => exists ? readFile(locationPath, 'utf-8') : null),
       fileExists(onelineDescPath).then(exists => exists ? readFile(onelineDescPath, 'utf-8') : ""),
-      processImage(imagePath, imageOutputDir)
+      processImage(imagePath, imageOutputDir),
+      fileExists(eventUrlPath).then(exists => exists ? readFile(eventUrlPath, 'utf-8') : null),
     ]);
 
     // Parse data
@@ -161,7 +164,7 @@ async function processAllEvents(): Promise<Event[]> {
       description: data['content']['rendered'],
       description_short: descriptionShortContent,
       district_code: (location && location['district_code']),
-      page: null,
+      page: eventUrl,
     });
   }));
 
@@ -173,37 +176,37 @@ async function processAllEvents(): Promise<Event[]> {
 
 async function buildData() {
   console.log('Building static data files...')
-  
+
   // Ensure output directories exist
   await mkdir(join(process.cwd(), 'public'), { recursive: true })
   await mkdir(join(process.cwd(), 'public/events'), { recursive: true })
-  
+
   // Process all events
   console.log('Processing events...')
   const events = await processAllEvents()
-  
+
   // Write individual event files
   console.log('Writing individual event files...')
   await Promise.all(events.map(async (event) => {
     const eventFilePath = join(process.cwd(), 'public/events', `${event.id}.json`)
     await writeFile(eventFilePath, JSON.stringify(event, null, 2))
   }))
-  
+
   // Write summary events file
   await writeFile(
-    join(process.cwd(), 'public/events.json'), 
+    join(process.cwd(), 'public/events.json'),
     JSON.stringify(events, null, 2)
   )
-  
+
   console.log(`✓ Generated ${events.length} events`)
   console.log(`✓ Created individual event files in public/events/`)
   console.log(`✓ Created summary events.json`)
-  
+
   // Verify districts data
   console.log('Verifying districts...')
   const districts = await getAllDistricts()
   console.log(`✓ Verified districts.json with ${districts.length} districts`)
-  
+
   console.log('Static data generation complete!')
 }
 
