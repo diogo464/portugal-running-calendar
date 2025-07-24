@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { HomepageClient } from '@/components/HomepageClient'
-import { getUpcomingEventsForHomepage } from '@/lib/server-utils'
+import { getAllEvents } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
 import { getSiteConfig } from '@/lib/site-config'
 
@@ -53,9 +53,8 @@ export const metadata: Metadata = {
 }
 
 export default async function Home() {
-  // Get first page of upcoming events for SSR
-  const initialEvents = await getUpcomingEventsForHomepage(12)
-  
+  const initialEvents = await getAllEvents();
+
   return (
     <>
       {/* JSON-LD Structured Data for homepage */}
@@ -84,7 +83,7 @@ export default async function Home() {
           })
         }}
       />
-      
+
       {/* Client-side interactive wrapper with server-rendered initial data */}
       <HomepageClient initialEvents={initialEvents} />
     </>

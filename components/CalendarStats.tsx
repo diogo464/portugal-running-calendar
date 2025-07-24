@@ -9,16 +9,16 @@ interface CalendarStatsProps {
 export function CalendarStats({ events, year }: CalendarStatsProps) {
   // Filter events for the current year
   const yearEvents = events.filter(event => {
-    if (!event.start_date) return false
-    const eventDate = new Date(event.start_date)
+    if (!event.date) return false
+    const eventDate = new Date(event.date)
     return eventDate.getFullYear() === year
   })
 
   const totalEvents = yearEvents.length
   
   const weekendEvents = yearEvents.filter(event => {
-    if (!event.start_date) return false
-    const eventDate = new Date(event.start_date)
+    if (!event.date) return false
+    const eventDate = new Date(event.date)
     const dayOfWeek = eventDate.getDay()
     return dayOfWeek === 0 || dayOfWeek === 6 // Sunday or Saturday
   }).length

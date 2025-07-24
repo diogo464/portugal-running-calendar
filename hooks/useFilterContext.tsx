@@ -1,11 +1,11 @@
 'use client'
 
 import React, { createContext, useContext, useState, ReactNode } from 'react'
-import { EventFilters, EventType } from '@/lib/types'
+import { EventCategory, EventFilters } from '@/lib/types'
 
 // Map filters for simplified map page
 interface MapFilters {
-  eventTypes: EventType[]
+  eventCategories: EventCategory[]
   dateRange: EventFilters['dateRange']
   selectedDistricts: number[]
 }
@@ -26,8 +26,7 @@ interface FilterContextType {
 // Default filter states
 const defaultListaFilters: EventFilters = {
   search: "",
-  eventTypes: [],
-  distanceRange: [0, null],
+  eventCategories: [],
   dateRange: "anytime",
   proximityRange: [0, null],
   proximityCenter: null,
@@ -36,8 +35,7 @@ const defaultListaFilters: EventFilters = {
 
 const defaultCalendarioFilters: EventFilters = {
   search: "",
-  eventTypes: [],
-  distanceRange: [0, null],
+  eventCategories: [],
   dateRange: "anytime",
   proximityRange: [0, null],
   proximityCenter: null,
@@ -46,7 +44,7 @@ const defaultCalendarioFilters: EventFilters = {
 }
 
 const defaultMapaFilters: MapFilters = {
-  eventTypes: [],
+  eventCategories: [],
   dateRange: 'anytime',
   selectedDistricts: []
 }

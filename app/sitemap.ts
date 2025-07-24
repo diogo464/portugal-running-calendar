@@ -1,3 +1,6 @@
+export const dynamic = 'force-static'
+export const revalidate = 3600
+
 import { MetadataRoute } from 'next'
 import { getAllEventUrls } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'

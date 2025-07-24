@@ -1,73 +1,41 @@
 import { readFile } from 'fs/promises'
 import { join } from 'path'
-import { Event, EventsArraySchema, EventSchema } from './types'
+import { Event } from './types'
+import { District, validateDistrictsFile } from './district-types'
 import { getSiteName } from './site-config'
 
+let DISTRICTS: District[] = [];
+
 /**
- * Server-side utility to read all events from the events.json file
+ * Server-side utility to read all events from the static events.json file
  */
 export async function getAllEvents(): Promise<Event[]> {
-  try {
-    const filePath = join(process.cwd(), 'public', 'events', 'events.json')
-    const fileContent = await readFile(filePath, 'utf-8')
-    const data = JSON.parse(fileContent)
-
-    // Validate with Zod schema
-    return EventsArraySchema.parse(data)
-  } catch (error) {
-    console.error('Error reading events.json:', error)
-    return []
-  }
+  const eventsPath = join(process.cwd(), 'public/events.json');
+  const eventsData = await readFile(eventsPath, 'utf-8');
+  return JSON.parse(eventsData) as Event[];
 }
 
 /**
- * Server-side utility to read a single event by ID
+ * Server-side utility to read a single event by ID from individual JSON file
  */
 export async function getEventById(eventId: number): Promise<Event | null> {
+  const eventPath = join(process.cwd(), 'public/events', `${eventId}.json`);
+  
   try {
-    const filePath = join(process.cwd(), 'public', 'events', `${eventId}.json`)
-    const fileContent = await readFile(filePath, 'utf-8')
-    const data = JSON.parse(fileContent)
-
-    // Validate with Zod schema
-    return EventSchema.parse(data)
-  } catch (error) {
-    console.error(`Error reading event ${eventId}:`, error)
-    return null
+    const eventData = await readFile(eventPath, 'utf-8');
+    return JSON.parse(eventData) as Event;
+  } catch {
+    return null;
   }
 }
 
 /**
- * Get the first page of events for homepage SSR
- */
-export async function getEventsForHomepage(limit: number = 12): Promise<Event[]> {
-  const allEvents = await getAllEvents()
-  return allEvents.slice(0, limit)
-}
-
-/**
- * Server-side utility to read upcoming events from the upcoming.json file
+ * Server-side utility to get upcoming events (events with future dates)
  */
 export async function getUpcomingEvents(): Promise<Event[]> {
-  try {
-    const filePath = join(process.cwd(), 'public', 'events', 'upcoming.json')
-    const fileContent = await readFile(filePath, 'utf-8')
-    const data = JSON.parse(fileContent)
-
-    // Validate with Zod schema
-    return EventsArraySchema.parse(data)
-  } catch (error) {
-    console.error('Error reading upcoming.json:', error)
-    return []
-  }
-}
-
-/**
- * Get the first page of upcoming events for homepage SSR
- */
-export async function getUpcomingEventsForHomepage(limit: number = 12): Promise<Event[]> {
-  const upcomingEvents = await getUpcomingEvents()
-  return upcomingEvents.slice(0, limit)
+  const now = new Date();
+  const events = await getAllEvents();
+  return events.filter(e => new Date(e.date) > now);
 }
 
 /**
@@ -113,7 +81,7 @@ export function generateEventDescription(event: Event): string {
   }
 
   const location = event.locality || event.location || 'Portugal'
-  const dateStr = event.start_date ? ` em ${formatPortugueseDate(event.start_date)}` : ''
+  const dateStr = event.date ? ` em ${formatPortugueseDate(event.date)}` : ''
   const siteName = getSiteName()
 
   return siteName
@@ -134,5 +102,29 @@ function formatPortugueseDate(dateString: string): string {
     }).format(date)
   } catch {
     return dateString
+  }
+}
+
+/**
+ * Server-side utility to read districts data
+ */
+export async function getAllDistricts(): Promise<District[]> {
+  if (DISTRICTS.length !== 0) {
+    return DISTRICTS;
+  }
+
+  try {
+    const districtsPath = join(process.cwd(), 'public', 'districts.json');
+    const rawData = await readFile(districtsPath, 'utf-8');
+    const districtsData = validateDistrictsFile(JSON.parse(rawData));
+
+    // Convert the object to an array of districts
+    const districtsArray = Object.values(districtsData);
+    DISTRICTS = districtsArray;
+
+    return districtsArray;
+  } catch (error) {
+    console.error('Failed to load districts:', error);
+    throw new Error('Failed to load districts data');
   }
 }

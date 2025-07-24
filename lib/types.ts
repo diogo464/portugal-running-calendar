@@ -1,41 +1,97 @@
 import { z } from 'zod/v4'
 
-// Native TypeScript enum for event types
-export enum EventType {
-  Marathon = "marathon",
-  HalfMarathon = "half-marathon",
-  FifteenK = "15k",
-  TenK = "10k",
-  FiveK = "5k",
-  Milha = "Milha",
-  Run = "run",
-  Trail = "trail",
-  Walk = "walk",
-  CrossCountry = "cross-country",
-  SaintSilvester = "saint-silvester",
-  Kids = "kids",
-  Relay = "relay"
+function invertRecord<K extends string, V extends string>(
+  obj: Record<K, V>
+): Record<V, K> {
+  return Object.fromEntries(
+    Object.entries(obj).map(([k, v]) => [v, k])
+  ) as Record<V, K>;
 }
 
-// Display name mappings for event types (Portuguese)
-export const EventTypeDisplayNames: Record<EventType, string> = {
-  [EventType.Marathon]: "Maratona",
-  [EventType.HalfMarathon]: "Meia Maratona",
-  [EventType.FifteenK]: "15K",
-  [EventType.TenK]: "10K",
-  [EventType.FiveK]: "5K",
-  [EventType.Milha]: "Milha",
-  [EventType.Run]: "Corrida",
-  [EventType.Trail]: "Trail",
-  [EventType.Walk]: "Caminhada",
-  [EventType.CrossCountry]: "Corta-Mato",
-  [EventType.SaintSilvester]: "São Silvestre",
-  [EventType.Kids]: "Infantil",
-  [EventType.Relay]: "Estafeta"
+export enum EventCategory {
+  Run = "run",
+  Walk = "walk",
+  Trail = "trail",
+  Kids = "kids",
+  SaintSilvester = "saint-silvester",
+  D10K = "10k",
+  D15K = "15k",
+  HalfMarathon = "half-marathon",
+  Marathon = "marathon",
+}
+
+export const EventCategories: Array<EventCategory> = Object.values(EventCategory);
+
+export const EventCategoryDisplayName: Record<EventCategory, string> = {
+  [EventCategory.Run]: "Corrida",
+  [EventCategory.Walk]: "Caminhada",
+  [EventCategory.Trail]: "Trail",
+  [EventCategory.Kids]: "Kids",
+  [EventCategory.SaintSilvester]: "São Silvestre",
+  [EventCategory.D10K]: "10K",
+  [EventCategory.D15K]: "15K",
+  [EventCategory.HalfMarathon]: "Meia Maratona",
+  [EventCategory.Marathon]: "Maratona",
+}
+
+export const EventCategoryDisplayNameLookup = invertRecord(EventCategoryDisplayName);
+
+export function EventCategoryFromString(value: string): EventCategory {
+  return z.enum(EventCategory).parse(value)
+}
+
+export function EventCategoryToDisplayName(category: EventCategory): string {
+  return EventCategoryDisplayName[category]
+}
+
+export function EventCategoryFromDisplayName(name: string): EventCategory {
+  return EventCategoryDisplayNameLookup[name]
+}
+
+export enum EventCircuit {
+  ATRP = "atrp",
+  Majors = "majors",
+  RiosTrailTrophy = "rios-trail-trophy",
+  SuperHalfs = "super-halfs",
+  EstrelasDePortugal = "estrelas-de-portugal",
+  TrofeuAtletismoAlmada = "trofeu-atletismo-almada",
+  TrofeuAlmada = "trofeu-almada",
+  AtletismoBarreiro = "atletismo-barreiro",
+  MadeiraTrail = "circuit-madeira-trail",
+  QuatroEstacoes = "quatro-estacoes",
+}
+
+export const EventCircuits: Array<EventCircuit> = Object.values(EventCircuit);
+
+export const EventCircuitDisplayName: Record<EventCircuit, string> = {
+  [EventCircuit.ATRP]: "ATRP",
+  [EventCircuit.Majors]: "Majors",
+  [EventCircuit.RiosTrailTrophy]: "Rios Trail Trophy",
+  [EventCircuit.SuperHalfs]: "Super Halfs",
+  [EventCircuit.EstrelasDePortugal]: "Estrelas de Portugal",
+  [EventCircuit.TrofeuAtletismoAlmada]: "Troféu Atletismo Almada",
+  [EventCircuit.TrofeuAlmada]: "Troféu Almada",
+  [EventCircuit.AtletismoBarreiro]: "Atletismo Barreiro",
+  [EventCircuit.MadeiraTrail]: "Circuit Madeira Trail",
+  [EventCircuit.QuatroEstacoes]: "4 Estações",
+}
+
+export const EventCircuitDisplayNameLookup = invertRecord(EventCircuitDisplayName);
+
+export function EventCircuitFromString(value: string): EventCircuit {
+  return z.enum(EventCircuit).parse(value)
+}
+
+export function EventCircuitToDisplayName(circuit: EventCircuit): string {
+  return EventCircuitDisplayName[circuit]
+}
+
+export function EventCircuitFromDisplayName(name: string): EventCircuit {
+  return EventCircuitDisplayNameLookup[name]
 }
 
 // Coordinates schema for lat/lon coordinates
-const CoordinatesSchema = z.object({
+export const CoordinatesSchema = z.object({
   lat: z.number(),
   lon: z.number()
 })
@@ -43,25 +99,20 @@ const CoordinatesSchema = z.object({
 // Event schema matching the actual JSON structure
 export const EventSchema = z.object({
   id: z.number(),
-  slug: z.string().optional(),
+  slug: z.string(),
   name: z.string().min(1, "Event name is required"),
-  location: z.string(),
+  location: z.string().nullable(),
   coordinates: CoordinatesSchema.nullable(),
   country: z.string().nullable(),
   locality: z.string().nullable(),
-  distances: z.array(z.number().positive("Distance must be positive")),
-  types: z.array(z.string()), // Use string array to match JSON format
+  categories: z.array(z.enum(EventCategory)),
   images: z.array(z.string()),
-  start_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format").nullable(),
-  end_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format").nullable(),
-  circuit: z.array(z.any()), // Array of any to match current empty arrays
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Must be YYYY-MM-DD format"),
+  lastmod: z.string(), // TODO: parse as date
+  circuits: z.array(z.enum(EventCircuit)), // Array of any to match current empty arrays
   description: z.string(),
   description_short: z.string().nullable(),
   page: z.string().nullable(),
-  // Additional properties from the JSON
-  administrative_area_level_1: z.string().nullable().optional(),
-  administrative_area_level_2: z.string().nullable().optional(),
-  administrative_area_level_3: z.string().nullable().optional(),
   district_code: z.number().nullable().optional()
 })
 
@@ -78,8 +129,7 @@ export type GeolocationPermission = 'prompt' | 'granted' | 'denied'
 
 export interface EventFilters {
   search: string
-  eventTypes: EventType[]
-  distanceRange: [number, number | null]
+  eventCategories: EventCategory[]
   dateRange: 'anytime' | 'next_week' | 'next_month' | 'next_3_months' | 'next_6_months'
   proximityRange: [number, number | null]
   proximityCenter: Coordinates | null
@@ -105,62 +155,4 @@ export interface EventDensity {
 
 export interface CalendarFilters extends EventFilters {
   selectedDates: Set<string> // Required for calendar view
-}
-
-// Utility functions for event types
-export const getAllEventTypes = (): EventType[] => {
-  return Object.values(EventType)
-}
-
-// Get display name for an event type
-export const getEventTypeDisplayName = (eventType: EventType): string => {
-  return EventTypeDisplayNames[eventType] || eventType
-}
-
-// Mapping from string event types (from JSON) to TypeScript enum
-export const stringToEventType: Record<string, EventType> = {
-  "marathon": EventType.Marathon,
-  "half-marathon": EventType.HalfMarathon,
-  "15k": EventType.FifteenK,
-  "10k": EventType.TenK,
-  "5k": EventType.FiveK,
-  "Milha": EventType.Milha,
-  "run": EventType.Run,
-  "trail": EventType.Trail,
-  "walk": EventType.Walk,
-  "cross-country": EventType.CrossCountry,
-  "saint-silvester": EventType.SaintSilvester,
-  "kids": EventType.Kids,
-  "relay": EventType.Relay
-}
-
-// Get display name for a string event type (from JSON)
-export const getStringEventTypeDisplayName = (eventType: string): string => {
-  const enumType = stringToEventType[eventType]
-  return enumType ? getEventTypeDisplayName(enumType) : eventType
-}
-
-// Get all event types with their display names for UI components
-export const getEventTypesWithDisplayNames = (): Array<{ value: EventType; label: string }> => {
-  return getAllEventTypes().map(type => ({
-    value: type,
-    label: getEventTypeDisplayName(type)
-  }))
-}
-
-// Convert string event types array to enum array
-export const convertStringEventTypesToEnum = (eventTypes: string[]): EventType[] => {
-  return eventTypes
-    .map(type => stringToEventType[type])
-    .filter((type): type is EventType => type !== undefined)
-}
-
-// Utility function to validate event data
-export function validateEvent(data: unknown): Event {
-  return EventSchema.parse(data)
-}
-
-// Utility function to validate array of events
-export function validateEvents(data: unknown): Event[] {
-  return EventsArraySchema.parse(data)
 }

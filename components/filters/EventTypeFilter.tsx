@@ -1,14 +1,14 @@
-import { EventType, EventTypeDisplayNames } from "@/lib/types"
+import { EventCategory, EventCategoryDisplayName } from "@/lib/types"
 import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
 
 interface EventTypeFilterProps {
-  value: EventType[]
-  onChange: (value: EventType[]) => void
+  value: EventCategory[]
+  onChange: (value: EventCategory[]) => void
 }
 
 export function EventTypeFilter({ value, onChange }: EventTypeFilterProps) {
-  const handleEventTypeToggle = (eventType: EventType, checked: boolean) => {
+  const handleEventTypeToggle = (eventType: EventCategory, checked: boolean) => {
     if (checked) {
       onChange([...value, eventType])
     } else {
@@ -20,7 +20,7 @@ export function EventTypeFilter({ value, onChange }: EventTypeFilterProps) {
     <div className="space-y-3">
       <Label>Tipos de evento</Label>
       <div className="grid grid-cols-2 gap-3">
-        {Object.values(EventType).map((eventType) => (
+        {Object.values(EventCategory).map((eventType) => (
           <div key={eventType} className="flex items-center space-x-2">
             <Checkbox
               id={eventType}
@@ -33,7 +33,7 @@ export function EventTypeFilter({ value, onChange }: EventTypeFilterProps) {
               htmlFor={eventType}
               className="text-sm cursor-pointer"
             >
-              {EventTypeDisplayNames[eventType]}
+              {EventCategoryDisplayName[eventType]}
             </Label>
           </div>
         ))}

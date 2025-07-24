@@ -2,9 +2,8 @@
 
 import { useState, useMemo, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { Event, PaginationState, convertStringEventTypesToEnum } from '@/lib/types'
-import { useDistricts } from '@/hooks/useDistricts'
-import { useUpcomingEvents } from '@/hooks/useUpcomingEvents'
+import { Event, PaginationState } from '@/lib/types'
+import { District } from '@/lib/district-types'
 import { useFilterContext } from '@/hooks/useFilterContext'
 import { DistrictMap } from '@/components/DistrictMap'
 import { MapFilters } from '@/components/MapFilters'
@@ -15,25 +14,25 @@ import { useSavedEvents } from '@/hooks/useSavedEvents'
 
 interface MapPageClientProps {
   initialEvents: Event[]
+  districts: District[]
 }
 
 
-export function MapPageClient({ initialEvents }: MapPageClientProps) {
-  const { events: upcomingEvents, loading, error } = useUpcomingEvents()
+export function MapPageClient({ initialEvents, districts }: MapPageClientProps) {
   const { getFilters, setFilters } = useFilterContext()
-  
-  // Use server-rendered events initially, then client-side events once loaded
-  const events = loading ? initialEvents : upcomingEvents
-  
+
+  // Use server-rendered events
+  const events = initialEvents
+
   // Get filters from context
   const filters = getFilters('mapa') as {
-    eventTypes: import('@/lib/types').EventType[]
+    eventCategories: import('@/lib/types').EventCategory[]
     dateRange: import('@/lib/types').EventFilters['dateRange']
     selectedDistricts: number[]
   }
   const selectedDistricts = filters.selectedDistricts
 
-  const { districts } = useDistricts()
+  // Use server-rendered districts
   const { isMobile } = useBreakpoint()
   const { savedEventIds, toggleSave } = useSavedEvents()
   const router = useRouter()
@@ -57,7 +56,7 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     const newSelectedDistricts = selectedDistricts.includes(districtCode)
       ? selectedDistricts.filter(d => d !== districtCode)
       : [...selectedDistricts, districtCode]
-    
+
     setFilters('mapa', { ...filters, selectedDistricts: newSelectedDistricts })
   }
 
@@ -73,16 +72,16 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
   // Filter events based on current filters
   const filteredEvents = useMemo(() => {
     return events.filter(event => {
-      // Event type filter
-      const eventTypeMatch = filters.eventTypes.length === 0 || 
-        convertStringEventTypesToEnum(event.types).some(eventType => 
-          filters.eventTypes.includes(eventType)
+      // Event category filter
+      const eventTypeMatch = filters.eventCategories.length === 0 ||
+        event.categories.some(category =>
+          filters.eventCategories.includes(category)
         )
 
       // Date filter (simplified - would need proper date logic)
       let dateMatch = true
-      if (filters.dateRange !== 'anytime' && event.start_date) {
-        const eventDate = new Date(event.start_date)
+      if (filters.dateRange !== 'anytime' && event.date) {
+        const eventDate = new Date(event.date)
         const now = new Date()
 
         switch (filters.dateRange) {
@@ -118,8 +117,8 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     setPagination(prev => ({
       ...prev,
       totalItems: filteredEvents.length,
-      currentPage: prev.currentPage > Math.ceil(filteredEvents.length / prev.itemsPerPage) 
-        ? 1 
+      currentPage: prev.currentPage > Math.ceil(filteredEvents.length / prev.itemsPerPage)
+        ? 1
         : prev.currentPage
     }))
   }, [filteredEvents.length])
@@ -135,16 +134,6 @@ export function MapPageClient({ initialEvents }: MapPageClientProps) {
     setPagination(prev => ({ ...prev, currentPage: page }))
   }
 
-  if (error) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-red-600 mb-2">Erro ao Carregar</h1>
-          <p className="text-muted-foreground">{error}</p>
-        </div>
-      </div>
-    )
-  }
 
   if (isMobile) {
     // Mobile layout: stacked vertically

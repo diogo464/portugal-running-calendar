@@ -57,7 +57,7 @@ export async function generateMetadata(
       'Portugal',
       event.name,
       location,
-      ...event.types
+      ...event.categories
     ].join(', '),
     authors: siteConfig.name ? [{ name: siteConfig.name }] : undefined,
     creator: siteConfig.name || undefined,
@@ -161,15 +161,15 @@ function generateEventStructuredData(event: Event) {
     name: event.name,
     description: event.description_short || `Evento de corrida em ${location}`,
     url: eventUrl,
-    startDate: event.start_date,
-    endDate: event.end_date,
+    startDate: event.date,
+    endDate: event.date,
     location: event.coordinates ? {
       '@type': 'Place',
       name: location,
       address: {
         '@type': 'PostalAddress',
         addressLocality: event.locality,
-        addressRegion: event.administrative_area_level_1,
+        addressRegion: event.locality,
         addressCountry: event.country || 'Portugal'
       },
       geo: {
@@ -183,7 +183,7 @@ function generateEventStructuredData(event: Event) {
       address: {
         '@type': 'PostalAddress',
         addressLocality: event.locality,
-        addressRegion: event.administrative_area_level_1,
+        addressRegion: event.locality,
         addressCountry: event.country || 'Portugal'
       }
     },

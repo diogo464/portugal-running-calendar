@@ -48,7 +48,7 @@ export function EventImage({ images, eventName, onFullscreenChange }: EventImage
       <Card>
         <CardContent className="p-0">
           <Image
-            src={`/${images[0]}`}
+            src={`${images[0]}`}
             alt={eventName}
             width={800}
             height={256}

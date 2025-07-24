@@ -1,6 +1,6 @@
 import { Heart, ExternalLink, MapPin, Calendar, Ruler } from "lucide-react"
-import { Event } from "@/lib/types"
-import { formatDateRange, formatDistance, cn } from "@/lib/utils"
+import { Event, EventCategoryToDisplayName } from "@/lib/types"
+import { formatDateRange, cn } from "@/lib/utils"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -22,12 +22,14 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
   }
 
   const hasRegistrationLink = Boolean(event.page)
-  const eventDate = formatDateRange(event.start_date, event.end_date)
-  const distances = event.distances.map(formatDistance).join(", ")
+  const eventDate = formatDateRange(event.date, event.date)
+  const categories = event.categories
+    .map(c => EventCategoryToDisplayName(c))
+    .join(", ")
   const location = event.locality || event.location || "Localização não disponível"
 
   return (
-    <Card 
+    <Card
       className="cursor-pointer transition-shadow hover:shadow-md flex flex-col h-full"
       onClick={handleCardClick}
     >
@@ -40,7 +42,7 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
             className="shrink-0"
             onClick={handleSaveClick}
           >
-            <Heart 
+            <Heart
               className={cn(
                 "h-4 w-4",
                 isSaved ? "fill-red-500 text-red-500" : "text-muted-foreground"
@@ -48,7 +50,7 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
             />
           </Button>
         </div>
-        
+
         {event.description_short && (
           <CardDescription className="line-clamp-2">
             {event.description_short}
@@ -61,22 +63,22 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
           <Calendar className="h-4 w-4" />
           <span>{eventDate}</span>
         </div>
-        
+
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <MapPin className="h-4 w-4" />
           <span className="line-clamp-1">{location}</span>
         </div>
-        
-        {distances && (
+
+        {categories && (
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Ruler className="h-4 w-4" />
-            <span className="line-clamp-1">{distances}</span>
+            <span className="line-clamp-1">{categories}</span>
           </div>
         )}
       </CardContent>
 
       <CardFooter className="pt-3">
-        <Button 
+        <Button
           variant={hasRegistrationLink ? "default" : "secondary"}
           size="sm"
           className="w-full"

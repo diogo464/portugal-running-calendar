@@ -63,24 +63,24 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
   const { start: dateStart, end: dateEnd } = getDateRangeFilter(filters.dateRange)
 
   return events.filter(event => {
-    // Filter out past events
-    if (event.start_date) {
-      const eventDate = parseISO(event.start_date)
-      if (isBefore(eventDate, dateStart)) return false
-    }
-
     // Selected dates filter (calendar view) - takes precedence over date range
     if (filters.selectedDates && filters.selectedDates.size > 0) {
-      if (event.start_date) {
-        const eventDateString = event.start_date // Already in YYYY-MM-DD format
+      if (event.date) {
+        const eventDateString = event.date // Already in YYYY-MM-DD format
         if (!filters.selectedDates.has(eventDateString)) return false
       } else {
         return false // No date means it can't match selected dates
       }
     } else {
       // Regular date range filter (only when no specific dates are selected)
-      if (dateEnd && event.start_date) {
-        const eventDate = parseISO(event.start_date)
+      // Filter out past events
+      if (event.date) {
+        const eventDate = parseISO(event.date)
+        if (isBefore(eventDate, dateStart)) return false
+      }
+      
+      if (dateEnd && event.date) {
+        const eventDate = parseISO(event.date)
         if (isAfter(eventDate, dateEnd)) return false
       }
     }
@@ -91,22 +91,11 @@ export function filterEvents(events: Event[], filters: EventFilters): Event[] {
     }
 
     // Event type filter
-    if (filters.eventTypes.length > 0) {
-      const hasMatchingType = event.types.some(type =>
-        filters.eventTypes.includes(type as never)
+    if (filters.eventCategories.length > 0) {
+      const hasMatchingType = event.categories.some(type =>
+        filters.eventCategories.includes(type as never)
       )
       if (!hasMatchingType) return false
-    }
-
-    // Distance filter
-    const [minDistance, maxDistance] = filters.distanceRange
-    if (event.distances.length > 0) {
-      const hasMatchingDistance = event.distances.some(distance => {
-        if (distance < minDistance) return false
-        if (maxDistance !== null && distance > maxDistance) return false
-        return true
-      })
-      if (!hasMatchingDistance) return false
     }
 
     // Proximity filter
@@ -329,16 +318,12 @@ export const monthNames = [
  * Uses NEXT_PUBLIC_SITE_URL environment variable or defaults based on NODE_ENV
  */
 export function getSiteUrl(): string {
-  // Check if we have an explicit site URL from environment
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL
-  }
-
   // Default based on environment
   if (process.env.NODE_ENV === 'development') {
     return 'http://localhost:5173'
   }
-
-  // Fallback for production (Vercel or other deployments)
-  return 'https://portugal-running.vercel.app'
+  const publicUrl = process.env.NEXT_PUBLIC_SITE_URL
+  if (publicUrl === undefined)
+    throw new Error("NEXT_PUBLIC_SITE_URL not defined");
+  return publicUrl;
 }

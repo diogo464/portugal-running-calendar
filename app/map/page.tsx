@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { MapPageClient } from '@/components/MapPageClient'
-import { getUpcomingEvents } from '@/lib/server-utils'
+import { getUpcomingEvents, getAllDistricts } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
 import { getSiteConfig } from '@/lib/site-config'
 
@@ -31,7 +31,10 @@ export const metadata: Metadata = {
 }
 
 export default async function MapPage() {
-  const initialEvents = await getUpcomingEvents() // Load all upcoming events for map view
+  const [initialEvents, districts] = await Promise.all([
+    getUpcomingEvents(), // Load all upcoming events for map view
+    getAllDistricts() // Load districts data server-side
+  ])
   
-  return <MapPageClient initialEvents={initialEvents} />
+  return <MapPageClient initialEvents={initialEvents} districts={districts} />
 }

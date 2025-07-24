@@ -46,3 +46,8 @@ next-env.d.ts
 /.vscode/
 /.claude/
 
+# Build generated files
+/public/events.json
+/public/events/
+/public/image/
+/portugal-running-data/

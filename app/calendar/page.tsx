@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { CalendarView } from '@/components/CalendarView'
-import { getUpcomingEventsForHomepage } from '@/lib/server-utils'
+import { getAllEvents } from '@/lib/server-utils'
 import { getSiteUrl } from '@/lib/utils'
 import { getSiteConfig } from '@/lib/site-config'
 
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 
 export default async function CalendarPage() {
   // Get all events for calendar view
-  const initialEvents = await getUpcomingEventsForHomepage(1000) // Get more events for calendar
+  const initialEvents = await getAllEvents() // Load all events for calendar
   
   return (
     <>

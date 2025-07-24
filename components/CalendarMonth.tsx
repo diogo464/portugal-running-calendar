@@ -26,8 +26,8 @@ export function CalendarMonth({
   // Group events by date for this month
   const eventsByDate: Record<string, Event[]> = {}
   events.forEach(event => {
-    if (event.start_date) {
-      const eventDate = new Date(event.start_date)
+    if (event.date) {
+      const eventDate = new Date(event.date)
       if (eventDate.getMonth() === monthIndex && eventDate.getFullYear() === year) {
         const dateKey = formatDateKey(eventDate)
         if (!eventsByDate[dateKey]) {

@@ -12,8 +12,7 @@ interface EventDetailMobileLayoutProps {
   eventDate: string
   location: string
   coordinates: { lat: number; lon: number } | null
-  distances: string
-  eventTypes: string
+  eventCategories: string
   descriptionShort?: string | null
   description?: string | null
   eventPage?: string | null
@@ -29,8 +28,7 @@ export function EventDetailMobileLayout({
   eventDate,
   location,
   coordinates,
-  distances,
-  eventTypes,
+  eventCategories,
   descriptionShort,
   description,
   eventPage,
@@ -53,8 +51,7 @@ export function EventDetailMobileLayout({
         eventDate={eventDate}
         location={location}
         coordinates={coordinates}
-        distances={distances}
-        eventTypes={eventTypes}
+        eventTypes={eventCategories}
       />
       
       {/* 3. Registration */}

@@ -1,6 +1,6 @@
 import { ArrowLeft, Heart } from "lucide-react"
-import { Event, EventTypeDisplayNames } from "@/lib/types"
-import { formatDateRange, formatDistance, cn } from "@/lib/utils"
+import { Event, EventCategoryToDisplayName } from "@/lib/types"
+import { formatDateRange, cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { EventDetailMobileLayout } from "@/components/event-detail/EventDetailMobileLayout"
 import { EventDetailDesktopLayout } from "@/components/event-detail/EventDetailDesktopLayout"
@@ -16,11 +16,10 @@ interface EventDetailPageProps {
 export function EventDetailPage({ event, isSaved, onToggleSave, onBack }: EventDetailPageProps) {
   const { isMobile } = useBreakpoint()
   const hasRegistrationLink = Boolean(event.page)
-  const eventDate = formatDateRange(event.start_date, event.end_date)
-  const distances = event.distances.map(formatDistance).join(", ")
+  const eventDate = formatDateRange(event.date, event.date)
   const location = event.locality || event.location || "Localização não disponível"
-  const eventTypes = event.types.map(type => EventTypeDisplayNames[type as keyof typeof EventTypeDisplayNames] || type).join(", ")
-  
+  const eventCategories = event.categories.map(cat => EventCategoryToDisplayName(cat)).join(", ")
+
   const handleSaveClick = () => {
     onToggleSave(event.id)
   }
@@ -38,8 +37,7 @@ export function EventDetailPage({ event, isSaved, onToggleSave, onBack }: EventD
     eventDate,
     location,
     coordinates: event.coordinates,
-    distances,
-    eventTypes,
+    eventCategories: eventCategories,
     descriptionShort: event.description_short,
     description: event.description,
     eventPage: event.page,
@@ -60,7 +58,7 @@ export function EventDetailPage({ event, isSaved, onToggleSave, onBack }: EventD
           size="icon"
           onClick={handleSaveClick}
         >
-          <Heart 
+          <Heart
             className={cn(
               "h-5 w-5",
               isSaved ? "fill-red-500 text-red-500" : "text-muted-foreground"

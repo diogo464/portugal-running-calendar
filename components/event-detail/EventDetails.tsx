@@ -1,20 +1,18 @@
-import { Calendar, MapPin, Ruler } from "lucide-react"
+import { Calendar, MapPin } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 interface EventDetailsProps {
   eventDate: string
   location: string
   coordinates?: { lat: number; lon: number } | null
-  distances: string
   eventTypes: string
 }
 
-export function EventDetails({ 
-  eventDate, 
-  location, 
-  coordinates, 
-  distances, 
-  eventTypes 
+export function EventDetails({
+  eventDate,
+  location,
+  coordinates,
+  eventTypes
 }: EventDetailsProps) {
   return (
     <Card>
@@ -42,16 +40,6 @@ export function EventDetails({
             )}
           </div>
         </div>
-
-        {distances && (
-          <div className="flex items-start gap-3">
-            <Ruler className="h-5 w-5 text-muted-foreground mt-0.5" />
-            <div>
-              <p className="font-medium">Distâncias</p>
-              <p className="text-sm text-muted-foreground">{distances}</p>
-            </div>
-          </div>
-        )}
 
         {eventTypes && (
           <div>

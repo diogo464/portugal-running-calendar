@@ -2,7 +2,6 @@ import { useState, useMemo } from "react"
 import { Search } from "lucide-react"
 import { EventFilters as IEventFilters, Event } from "@/lib/types"
 import { EventTypeFilter } from "@/components/filters/EventTypeFilter"
-import { formatDistance } from "@/lib/utils"
 import { useGeolocation } from "@/hooks/useGeolocation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -21,10 +20,6 @@ interface EventFiltersProps {
 export function EventFilters({ filters, onFiltersChange, events }: EventFiltersProps) {
   const geolocation = useGeolocation()
   
-  const [distanceValues, setDistanceValues] = useState<number[]>([
-    filters.distanceRange[0],
-    filters.distanceRange[1] || 30000
-  ])
   
   const [proximityValues, setProximityValues] = useState<number[]>([
     filters.proximityRange[0],
@@ -41,20 +36,6 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
     onFiltersChange({ ...filters, search: value })
   }
 
-
-  const handleDistanceChange = (values: number[]) => {
-    const [min, max] = values
-    // Ensure min doesn't exceed max and max doesn't go below min
-    const constrainedValues = [
-      Math.min(min, max),
-      Math.max(min, max)
-    ]
-    setDistanceValues(constrainedValues)
-    onFiltersChange({
-      ...filters,
-      distanceRange: [constrainedValues[0], constrainedValues[1] === 30000 ? null : constrainedValues[1]]
-    })
-  }
 
   const handleDateRangeChange = (value: IEventFilters['dateRange']) => {
     onFiltersChange({ ...filters, dateRange: value })
@@ -82,11 +63,6 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
 
   const handleShowEventsWithoutLocationChange = (checked: boolean) => {
     onFiltersChange({ ...filters, showEventsWithoutLocation: checked })
-  }
-
-  const formatDistanceValue = (value: number) => {
-    if (value >= 30000) return "∞"
-    return formatDistance(value)
   }
 
   const formatProximityValue = (value: number) => {
@@ -134,28 +110,10 @@ export function EventFilters({ filters, onFiltersChange, events }: EventFiltersP
 
         {/* Event Types */}
         <EventTypeFilter
-          value={filters.eventTypes}
-          onChange={(eventTypes) => onFiltersChange({ ...filters, eventTypes })}
+          value={filters.eventCategories}
+          onChange={(eventCategories) => onFiltersChange({ ...filters, eventCategories })}
         />
 
-        {/* Distance Range */}
-        <div className="space-y-3">
-          <Label>Distância</Label>
-          <div className="px-2 pt-2">
-            <Slider
-              value={distanceValues}
-              onValueChange={handleDistanceChange}
-              max={30000}
-              min={0}
-              step={1000}
-              className="w-full"
-            />
-            <div className="flex justify-between text-xs text-muted-foreground mt-1">
-              <span>{formatDistanceValue(distanceValues[0])}</span>
-              <span>{formatDistanceValue(distanceValues[1])}</span>
-            </div>
-          </div>
-        </div>
 
         {/* Proximity Range */}
         <div className="space-y-3">

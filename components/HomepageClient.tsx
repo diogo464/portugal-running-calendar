@@ -4,7 +4,6 @@ import { useState, useEffect, useMemo } from "react"
 import { useRouter } from "next/navigation"
 import { Event, EventFilters, PaginationState } from "@/lib/types"
 import { filterEvents } from "@/lib/utils"
-import { useUpcomingEvents } from "@/hooks/useUpcomingEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
@@ -17,12 +16,11 @@ interface HomepageClientProps {
 
 export function HomepageClient({ initialEvents }: HomepageClientProps) {
   const router = useRouter()
-  const { events: upcomingEvents, loading, error } = useUpcomingEvents()
   const { savedEventIds, toggleSave } = useSavedEvents()
   const { getFilters, setFilters } = useFilterContext()
   
-  // Use server-rendered events initially, then client-side events once loaded
-  const events = loading ? initialEvents : upcomingEvents
+  // Use server-rendered events
+  const events = initialEvents
   
   // Get filters from context
   const filters = getFilters('lista') as EventFilters
@@ -74,16 +72,6 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
   }
 
 
-  if (error) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-red-600 mb-2">Erro ao Carregar</h1>
-          <p className="text-muted-foreground">{error}</p>
-        </div>
-      </div>
-    )
-  }
 
   return (
     <PageLayout savedEventIds={savedEventIds}>
@@ -103,7 +91,7 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
         <div className="lg:col-span-3">
           <EventList
             events={paginatedEvents}
-            loading={loading && initialEvents.length === 0}
+            loading={false}
             pagination={pagination}
             savedEventIds={savedEventIds}
             onToggleSave={toggleSave}

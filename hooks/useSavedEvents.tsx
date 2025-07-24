@@ -1,22 +1,22 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { Event } from "@/lib/types"
 
 const SAVED_EVENTS_KEY = "portugal-running-saved-events"
 
 export function useSavedEvents() {
   const [savedEventIds, setSavedEventIdsState] = useState<Set<number>>(new Set())
-  const setSavedEventIds = (f: (p: Set<number>) => Set<number>) => {
+  const setSavedEventIds = useCallback((f: (p: Set<number>) => Set<number>) => {
     setSavedEventIdsState(prev => {
       const ids = f(prev);
       try {
-        console.log(`setting saved events to ${[...savedEventIds]}`)
+        console.log(`setting saved events to ${[...ids]}`)
         localStorage.setItem(SAVED_EVENTS_KEY, JSON.stringify([...ids]))
       } catch (error) {
         console.error("Error saving events:", error)
       }
       return ids;
     });
-  };
+  }, []);
 
   // Load saved events from localStorage on mount
   useEffect(() => {
@@ -30,7 +30,7 @@ export function useSavedEvents() {
     } catch (error) {
       console.error("Error loading saved events:", error)
     }
-  }, [])
+  }, [setSavedEventIds])
 
   const toggleSave = (eventId: number) => {
     setSavedEventIds(prev => {

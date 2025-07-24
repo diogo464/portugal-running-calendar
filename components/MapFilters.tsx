@@ -1,4 +1,4 @@
-import { EventFilters, EventType } from "@/lib/types"
+import { EventCategory, EventFilters } from "@/lib/types"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { TimeFilter } from "@/components/filters/TimeFilter"
 import { EventTypeFilter } from "@/components/filters/EventTypeFilter"
@@ -8,12 +8,12 @@ import { X } from "lucide-react"
 
 interface MapFiltersProps {
   filters: {
-    eventTypes: EventType[]
+    eventCategories: EventCategory[]
     dateRange: EventFilters['dateRange']
     selectedDistricts: number[]
   }
   onFiltersChange: (filters: {
-    eventTypes: EventType[]
+    eventCategories: EventCategory[]
     dateRange: EventFilters['dateRange']
     selectedDistricts: number[]
   }) => void
@@ -26,8 +26,8 @@ export function MapFilters({
   districtNames 
 }: MapFiltersProps) {
   
-  const handleEventTypesChange = (eventTypes: EventType[]) => {
-    onFiltersChange({ ...filters, eventTypes })
+  const handleEventCategoriesChange = (eventCategories: EventCategory[]) => {
+    onFiltersChange({ ...filters, eventCategories })
   }
 
   const handleDateRangeChange = (dateRange: EventFilters['dateRange']) => {
@@ -56,8 +56,8 @@ export function MapFilters({
           />
           
           <EventTypeFilter
-            value={filters.eventTypes}
-            onChange={handleEventTypesChange}
+            value={filters.eventCategories}
+            onChange={handleEventCategoriesChange}
           />
         </CardContent>
       </Card>

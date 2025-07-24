@@ -12,12 +12,11 @@ interface EventDetailDesktopLayoutProps {
   eventDate: string
   location: string
   coordinates: { lat: number; lon: number } | null
-  distances: string
-  eventTypes: string
+  eventCategories: string
   descriptionShort?: string | null
   description?: string | null
   eventPage?: string | null
-  
+
   // Handlers
   hasRegistrationLink: boolean
   onRegistrationClick: () => void
@@ -29,8 +28,7 @@ export function EventDetailDesktopLayout({
   eventDate,
   location,
   coordinates,
-  distances,
-  eventTypes,
+  eventCategories,
   descriptionShort,
   description,
   eventPage,
@@ -44,18 +42,18 @@ export function EventDetailDesktopLayout({
       {/* Main content - Left column */}
       <div className="md:col-span-2 space-y-6">
         {/* Image */}
-        <EventImage 
-          images={eventImages} 
-          eventName={eventName} 
+        <EventImage
+          images={eventImages}
+          eventName={eventName}
           onFullscreenChange={setIsImageFullscreen}
         />
-        
+
         {/* Description */}
-        <EventDescription 
+        <EventDescription
           descriptionShort={descriptionShort}
           description={description}
         />
-        
+
         {/* Map */}
         {!isImageFullscreen && (
           <EventLocationMapWrapper
@@ -70,16 +68,15 @@ export function EventDetailDesktopLayout({
       {/* Sidebar - Right column */}
       <div className="space-y-6">
         {/* Event Details */}
-        <EventDetails 
+        <EventDetails
           eventDate={eventDate}
           location={location}
           coordinates={coordinates}
-          distances={distances}
-          eventTypes={eventTypes}
+          eventTypes={eventCategories}
         />
-        
+
         {/* Registration */}
-        <EventRegistration 
+        <EventRegistration
           hasRegistrationLink={hasRegistrationLink}
           onRegistrationClick={onRegistrationClick}
         />
