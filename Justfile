@@ -21,3 +21,6 @@ build:
     npm run build:data
     npm run build
     cp -r out/* cloudflare/public/
+
+deploy: build
+    cd cloudflare && npm run deploy
