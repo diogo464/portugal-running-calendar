@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from "react"
 import { useRouter } from "next/navigation"
 import { Event, EventFilters, PaginationState } from "@/lib/types"
-import { filterEvents } from "@/lib/utils"
+import { filterEvents, getEventUrl } from "@/lib/utils"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
@@ -63,14 +63,7 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
   }
 
   const handleEventClick = (event: Event) => {
-    // Create event slug from event name if not available
-    const eventSlug = event.slug ||
-      event.name.toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .trim()
-        .replace(/\s+/g, '-')
-
-    router.push(`/event/${event.id}/${eventSlug}`)
+    router.push(getEventUrl(event))
   }
 
   return (

@@ -314,6 +314,15 @@ export const monthNames = [
 ]
 
 /**
+ * Generate URL for an event page
+ * @param event Event object with slug property
+ * @returns URL string for the event page
+ */
+export function getEventUrl(event: Event): string {
+  return `/event/${event.slug}`
+}
+
+/**
  * Get the site URL with environment-aware defaults
  * Uses NEXT_PUBLIC_SITE_URL environment variable or defaults based on NODE_ENV
  */

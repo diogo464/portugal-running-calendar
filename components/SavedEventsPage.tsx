@@ -2,6 +2,7 @@ import { ArrowLeft, Trash2 } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { Event } from "@/lib/types"
 import { EventCard } from "@/components/EventCard"
+import { getEventUrl } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -23,14 +24,7 @@ export function SavedEventsPage({
   const router = useRouter()
 
   const handleEventClick = (event: Event) => {
-    // Create event slug from event name if not available
-    const eventSlug = event.slug || 
-      event.name.toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .trim()
-        .replace(/\s+/g, '-')
-    
-    router.push(`/event/${event.id}/${eventSlug}`)
+    router.push(getEventUrl(event))
   }
   
   const handleClearAll = () => {

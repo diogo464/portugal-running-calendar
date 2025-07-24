@@ -4,15 +4,14 @@ export const dynamicParams = false;
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import { EventDetailClient } from '@/components/EventDetailClient'
-import { getEventById, generateEventTitle, generateEventDescription, createSlugFromName, getAllEvents } from '@/lib/server-utils'
+import { getEventBySlug, generateEventTitle, generateEventDescription, getAllEvents } from '@/lib/server-utils'
 import { Event } from '@/lib/types'
 import { getSiteUrl } from '@/lib/utils'
 import { getSiteConfig } from '@/lib/site-config'
 
 interface EventDetailProps {
   params: Promise<{
-    eventId: string
-    eventSlug: string
+    slug: string
   }>
 }
 
@@ -21,17 +20,10 @@ export async function generateMetadata(
   { params }: EventDetailProps
 ): Promise<Metadata> {
   const resolvedParams = await params
-  const eventId = parseInt(resolvedParams.eventId, 10)
+  const slug = resolvedParams.slug
   const siteConfig = getSiteConfig()
 
-  if (isNaN(eventId)) {
-    return {
-      title: siteConfig.name ? `Evento não encontrado | ${siteConfig.name}` : 'Evento não encontrado',
-      description: 'O evento solicitado não foi encontrado.'
-    }
-  }
-
-  const event = await getEventById(eventId)
+  const event = await getEventBySlug(slug)
 
   if (!event) {
     return {
@@ -44,9 +36,8 @@ export async function generateMetadata(
   const description = generateEventDescription(event)
   const location = event.locality || event.location || 'Portugal'
 
-  // Create canonical URL
-  const slug = event.slug || createSlugFromName(event.name)
-  const canonicalUrl = `${getSiteUrl()}/event/${event.id}/${slug}`
+  // Create canonical URL with slug
+  const canonicalUrl = `${getSiteUrl()}/event/${event.slug}`
 
   return {
     title,
@@ -74,7 +65,7 @@ export async function generateMetadata(
       locale: 'pt_PT',
       images: event.images.length > 0 ? [
         {
-          url: `${getSiteUrl()}/${event.images[0]}`,
+          url: `${getSiteUrl()}${event.images[0]}`,
           width: 1200,
           height: 630,
           alt: event.name
@@ -93,7 +84,7 @@ export async function generateMetadata(
       title,
       description,
       images: event.images.length > 0 ? [
-        `${getSiteUrl()}/${event.images[0]}`
+        `${getSiteUrl()}${event.images[0]}`
       ] : [
         `${getSiteUrl()}/og-default.png`
       ]
@@ -114,23 +105,12 @@ export async function generateMetadata(
 
 export default async function EventDetail({ params }: EventDetailProps) {
   const resolvedParams = await params
-  const eventId = parseInt(resolvedParams.eventId, 10)
+  const slug = resolvedParams.slug
 
-  if (isNaN(eventId)) {
-    notFound()
-  }
-
-  const event = await getEventById(eventId)
+  const event = await getEventBySlug(slug)
 
   if (!event) {
     notFound()
-  }
-
-  // Validate that the slug matches (redirect if needed)
-  const expectedSlug = event.slug || createSlugFromName(event.name)
-  if (resolvedParams.eventSlug !== expectedSlug) {
-    // In a production app, you might want to redirect here
-    // For now, we'll just continue rendering
   }
 
   return (
@@ -152,7 +132,7 @@ export default async function EventDetail({ params }: EventDetailProps) {
 // Generate structured data for rich snippets
 function generateEventStructuredData(event: Event) {
   const location = event.locality || event.location || 'Portugal'
-  const eventUrl = `${getSiteUrl()}/event/${event.id}/${event.slug || createSlugFromName(event.name)}`
+  const eventUrl = `${getSiteUrl()}/event/${event.slug}`
   const siteConfig = getSiteConfig()
 
   return {
@@ -200,7 +180,7 @@ function generateEventStructuredData(event: Event) {
       availability: 'https://schema.org/InStock'
     } : undefined,
     image: event.images.length > 0 ?
-      event.images.map(img => `${getSiteUrl()}/${img}`) :
+      event.images.map(img => `${getSiteUrl()}${img}`) :
       [`${getSiteUrl()}/og-default.png`]
   }
 }
@@ -208,7 +188,6 @@ function generateEventStructuredData(event: Event) {
 export async function generateStaticParams() {
   const events = await getAllEvents();
   return events.map(e => ({
-    eventId: e.id.toString(),
-    eventSlug: e.slug ?? "",
+    slug: e.slug,
   }));
 }

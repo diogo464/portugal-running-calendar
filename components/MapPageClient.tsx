@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Event, PaginationState } from '@/lib/types'
 import { District } from '@/lib/district-types'
+import { getEventUrl } from '@/lib/utils'
 import { useFilterContext } from '@/hooks/useFilterContext'
 import { DistrictMap } from '@/components/DistrictMap'
 import { MapFilters } from '@/components/MapFilters'
@@ -65,8 +66,7 @@ export function MapPageClient({ initialEvents, districts }: MapPageClientProps) 
   }
 
   const handleEventClick = (event: Event) => {
-    const eventSlug = event.slug || event.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
-    router.push(`/event/${event.id}/${eventSlug}`)
+    router.push(getEventUrl(event))
   }
 
   // Filter events based on current filters

@@ -74,7 +74,7 @@ const nextConfig: NextConfig = {
       },
       {
         // Cache headers for static event files
-        source: '/event/:eventId/:eventSlug',
+        source: '/event/:slug',
         headers: [
           {
             key: 'Cache-Control',

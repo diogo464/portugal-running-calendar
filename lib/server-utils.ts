@@ -30,6 +30,14 @@ export async function getEventById(eventId: number): Promise<Event | null> {
 }
 
 /**
+ * Server-side utility to read a single event by slug
+ */
+export async function getEventBySlug(slug: string): Promise<Event | null> {
+  const events = await getAllEvents();
+  return events.find(event => event.slug === slug) || null;
+}
+
+/**
  * Server-side utility to get upcoming events (events with future dates)
  */
 export async function getUpcomingEvents(): Promise<Event[]> {
@@ -51,21 +59,10 @@ export async function getAllEventUrls(): Promise<Array<{ id: number; slug: strin
 
   return events.map(event => ({
     id: event.id,
-    slug: event.slug || createSlugFromName(event.name),
+    slug: event.slug,
     // We don't have lastModified in our data, so we'll use current date
     lastModified: new Date()
   }))
-}
-
-/**
- * Create URL slug from event name
- */
-export function createSlugFromName(eventName: string): string {
-  return eventName
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .trim()
-    .replace(/\s+/g, '-')
 }
 
 /**
