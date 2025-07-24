@@ -20,6 +20,8 @@ lint:
 build:
     npm run build:data
     npm run build
+    rm -rf cloudflare/public/
+    mkdir -p cloudflare/public/
     cp -r out/* cloudflare/public/
 
 deploy: build
