@@ -26,3 +26,15 @@ build:
 
 deploy: build
     cd cloudflare && npm run deploy
+
+ci:
+    # required env vars
+    # CLOUDFLARE_ACCOUNT_ID
+    # CLOUDFLARE_API_TOKEN
+    npm install
+    cd cloudflare && npm install
+    cd portugal-running-data && git fetch --all && git switch main
+    git add portugal-running-data
+    git commit -m "updated portugal-running-data submodule" || true
+    git push
+    just deploy
