@@ -1,4 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import { useRef } from "react"
 import { Event, PaginationState } from "@/lib/types"
 import { getTotalPages } from "@/lib/utils"
 import { EventCard } from "./EventCard"
@@ -22,9 +23,15 @@ export function EventList({
   onToggleSave,
   onPageChange
 }: EventListProps) {
+  const scrollTargetRef = useRef<HTMLDivElement>(null)
   const totalPages = getTotalPages(pagination.totalItems, pagination.itemsPerPage)
   const startItem = (pagination.currentPage - 1) * pagination.itemsPerPage + 1
   const endItem = Math.min(startItem + events.length - 1, pagination.totalItems)
+
+  const handlePageChange = (page: number) => {
+    onPageChange(page)
+    scrollTargetRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   if (loading) {
     return (
@@ -58,7 +65,7 @@ export function EventList({
   return (
     <div className="space-y-6">
       {/* Results info */}
-      <div className="flex justify-between items-center text-sm text-muted-foreground">
+      <div ref={scrollTargetRef} className="flex justify-between items-center text-sm text-muted-foreground">
         <span>
           A mostrar {startItem}-{endItem} de {pagination.totalItems} eventos
         </span>
@@ -88,7 +95,7 @@ export function EventList({
             variant="outline"
             size="sm"
             disabled={pagination.currentPage === 1}
-            onClick={() => onPageChange(pagination.currentPage - 1)}
+            onClick={() => handlePageChange(pagination.currentPage - 1)}
           >
             <ChevronLeft className="h-4 w-4 mr-1" />
             Anterior
@@ -114,7 +121,7 @@ export function EventList({
                   key={pageNum}
                   variant={pageNum === pagination.currentPage ? "default" : "outline"}
                   size="sm"
-                  onClick={() => onPageChange(pageNum)}
+                  onClick={() => handlePageChange(pageNum)}
                   className="w-8 h-8 p-0"
                 >
                   {pageNum}
@@ -127,7 +134,7 @@ export function EventList({
             variant="outline"
             size="sm"
             disabled={pagination.currentPage === totalPages}
-            onClick={() => onPageChange(pagination.currentPage + 1)}
+            onClick={() => handlePageChange(pagination.currentPage + 1)}
           >
             Próxima
             <ChevronRight className="h-4 w-4 ml-1" />
