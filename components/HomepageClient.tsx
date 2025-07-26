@@ -8,7 +8,7 @@ import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
 import { PageLayout } from "@/components/PageLayout"
-import { useEvents } from "@/hooks/useEvents"
+import { useUpcomingEvents } from "@/hooks/useUpcomingEvents"
 
 interface HomepageClientProps {
   initialEvents: Event[]
@@ -19,7 +19,7 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
   const { getFilters, setFilters } = useFilterContext()
 
   // Use server-rendered events
-  const { events: fullEvents, loading } = useEvents();
+  const { events: fullEvents, loading } = useUpcomingEvents();
   const events = !loading && fullEvents.length > 0 ? fullEvents : initialEvents;
 
   // Get filters from context
