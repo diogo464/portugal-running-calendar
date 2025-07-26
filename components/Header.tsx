@@ -1,7 +1,8 @@
 'use client'
 
 import { Heart, Map, Calendar, List, Menu, X } from "lucide-react"
-import { useRouter, usePathname } from "next/navigation"
+import { usePathname } from "next/navigation"
+import Link from "next/link"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ThemeToggle"
@@ -11,29 +12,8 @@ interface HeaderProps {
 }
 
 export function Header({ savedEventIds }: HeaderProps) {
-  const router = useRouter()
   const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
-  const handleViewSaved = () => {
-    router.push('/saved')
-    setIsMenuOpen(false)
-  }
-
-  const handleViewMap = () => {
-    router.push('/map')
-    setIsMenuOpen(false)
-  }
-
-  const handleViewHome = () => {
-    router.push('/')
-    setIsMenuOpen(false)
-  }
-
-  const handleViewCalendar = () => {
-    router.push('/calendar')
-    setIsMenuOpen(false)
-  }
 
   const isMapPage = pathname === '/map'
   const isHomePage = pathname === '/'
@@ -44,9 +24,11 @@ export function Header({ savedEventIds }: HeaderProps) {
       {/* Desktop Header */}
       <div className="hidden md:flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold cursor-pointer" onClick={handleViewHome}>
-            Portugal Run Calendar
-          </h1>
+          <Link href="/">
+            <h1 className="text-3xl font-bold cursor-pointer">
+              Portugal Run Calendar
+            </h1>
+          </Link>
           <p className="text-muted-foreground">
             Descubra os próximos eventos de corrida em Portugal
           </p>
@@ -55,40 +37,75 @@ export function Header({ savedEventIds }: HeaderProps) {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           
-          <Button 
-            variant="outline" 
-            onClick={isHomePage ? undefined : handleViewHome}
-            disabled={isHomePage}
-            className={`flex items-center gap-2 ${isHomePage ? 'bg-muted' : ''}`}
-          >
-            <List className="h-4 w-4" />
-            Lista
-          </Button>
+          {isHomePage ? (
+            <Button 
+              variant="outline" 
+              disabled
+              className="flex items-center gap-2 bg-muted"
+            >
+              <List className="h-4 w-4" />
+              Lista
+            </Button>
+          ) : (
+            <Link href="/">
+              <Button 
+                variant="outline" 
+                className="flex items-center gap-2"
+              >
+                <List className="h-4 w-4" />
+                Lista
+              </Button>
+            </Link>
+          )}
           
-          <Button 
-            variant="outline" 
-            onClick={isCalendarPage ? undefined : handleViewCalendar}
-            disabled={isCalendarPage}
-            className={`flex items-center gap-2 ${isCalendarPage ? 'bg-muted' : ''}`}
-          >
-            <Calendar className="h-4 w-4" />
-            Calendário
-          </Button>
+          {isCalendarPage ? (
+            <Button 
+              variant="outline" 
+              disabled
+              className="flex items-center gap-2 bg-muted"
+            >
+              <Calendar className="h-4 w-4" />
+              Calendário
+            </Button>
+          ) : (
+            <Link href="/calendar">
+              <Button 
+                variant="outline" 
+                className="flex items-center gap-2"
+              >
+                <Calendar className="h-4 w-4" />
+                Calendário
+              </Button>
+            </Link>
+          )}
           
-          <Button 
-            variant="outline" 
-            onClick={isMapPage ? undefined : handleViewMap}
-            disabled={isMapPage}
-            className={`flex items-center gap-2 ${isMapPage ? 'bg-muted' : ''}`}
-          >
-            <Map className="h-4 w-4" />
-            Mapa
-          </Button>
+          {isMapPage ? (
+            <Button 
+              variant="outline" 
+              disabled
+              className="flex items-center gap-2 bg-muted"
+            >
+              <Map className="h-4 w-4" />
+              Mapa
+            </Button>
+          ) : (
+            <Link href="/map">
+              <Button 
+                variant="outline" 
+                className="flex items-center gap-2"
+              >
+                <Map className="h-4 w-4" />
+                Mapa
+              </Button>
+            </Link>
+          )}
           
-          <Button variant="outline" onClick={handleViewSaved} className="flex items-center gap-2">
-            <Heart className="h-4 w-4" />
-            Guardados ({savedEventIds.size})
-          </Button>
+          <Link href="/saved">
+            <Button variant="outline" className="flex items-center gap-2">
+              <Heart className="h-4 w-4" />
+              Guardados ({savedEventIds.size})
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -96,9 +113,11 @@ export function Header({ savedEventIds }: HeaderProps) {
       <div className="md:hidden">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold cursor-pointer" onClick={handleViewHome}>
-              Run Calendar
-            </h1>
+            <Link href="/">
+              <h1 className="text-2xl font-bold cursor-pointer">
+                Run Calendar
+              </h1>
+            </Link>
             <p className="text-sm text-muted-foreground">
               Eventos de corrida em Portugal
             </p>
@@ -122,40 +141,75 @@ export function Header({ savedEventIds }: HeaderProps) {
         {isMenuOpen && (
           <div className="mt-4 p-4 bg-background border rounded-lg shadow-lg">
             <div className="flex flex-col gap-2">
-              <Button 
-                variant="outline" 
-                onClick={isHomePage ? undefined : handleViewHome}
-                disabled={isHomePage}
-                className={`flex items-center gap-2 justify-start ${isHomePage ? 'bg-muted' : ''}`}
-              >
-                <List className="h-4 w-4" />
-                Lista
-              </Button>
+              {isHomePage ? (
+                <Button 
+                  variant="outline" 
+                  disabled
+                  className="flex items-center gap-2 justify-start bg-muted"
+                >
+                  <List className="h-4 w-4" />
+                  Lista
+                </Button>
+              ) : (
+                <Link href="/" onClick={() => setIsMenuOpen(false)}>
+                  <Button 
+                    variant="outline" 
+                    className="flex items-center gap-2 justify-start w-full"
+                  >
+                    <List className="h-4 w-4" />
+                    Lista
+                  </Button>
+                </Link>
+              )}
               
-              <Button 
-                variant="outline" 
-                onClick={isCalendarPage ? undefined : handleViewCalendar}
-                disabled={isCalendarPage}
-                className={`flex items-center gap-2 justify-start ${isCalendarPage ? 'bg-muted' : ''}`}
-              >
-                <Calendar className="h-4 w-4" />
-                Calendário
-              </Button>
+              {isCalendarPage ? (
+                <Button 
+                  variant="outline" 
+                  disabled
+                  className="flex items-center gap-2 justify-start bg-muted"
+                >
+                  <Calendar className="h-4 w-4" />
+                  Calendário
+                </Button>
+              ) : (
+                <Link href="/calendar" onClick={() => setIsMenuOpen(false)}>
+                  <Button 
+                    variant="outline" 
+                    className="flex items-center gap-2 justify-start w-full"
+                  >
+                    <Calendar className="h-4 w-4" />
+                    Calendário
+                  </Button>
+                </Link>
+              )}
               
-              <Button 
-                variant="outline" 
-                onClick={isMapPage ? undefined : handleViewMap}
-                disabled={isMapPage}
-                className={`flex items-center gap-2 justify-start ${isMapPage ? 'bg-muted' : ''}`}
-              >
-                <Map className="h-4 w-4" />
-                Mapa
-              </Button>
+              {isMapPage ? (
+                <Button 
+                  variant="outline" 
+                  disabled
+                  className="flex items-center gap-2 justify-start bg-muted"
+                >
+                  <Map className="h-4 w-4" />
+                  Mapa
+                </Button>
+              ) : (
+                <Link href="/map" onClick={() => setIsMenuOpen(false)}>
+                  <Button 
+                    variant="outline" 
+                    className="flex items-center gap-2 justify-start w-full"
+                  >
+                    <Map className="h-4 w-4" />
+                    Mapa
+                  </Button>
+                </Link>
+              )}
               
-              <Button variant="outline" onClick={handleViewSaved} className="flex items-center gap-2 justify-start">
-                <Heart className="h-4 w-4" />
-                Guardados ({savedEventIds.size})
-              </Button>
+              <Link href="/saved" onClick={() => setIsMenuOpen(false)}>
+                <Button variant="outline" className="flex items-center gap-2 justify-start w-full">
+                  <Heart className="h-4 w-4" />
+                  Guardados ({savedEventIds.size})
+                </Button>
+              </Link>
             </div>
           </div>
         )}
