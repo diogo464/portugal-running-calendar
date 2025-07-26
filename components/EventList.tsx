@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import { useRef } from "react"
+import { useRef, useState, useEffect } from "react"
 import { Event, PaginationState } from "@/lib/types"
 import { getTotalPages } from "@/lib/utils"
 import { EventCard } from "./EventCard"
@@ -24,9 +24,26 @@ export function EventList({
   onPageChange
 }: EventListProps) {
   const scrollTargetRef = useRef<HTMLDivElement>(null)
+  const [maxPageNumbers, setMaxPageNumbers] = useState(5)
   const totalPages = getTotalPages(pagination.totalItems, pagination.itemsPerPage)
   const startItem = (pagination.currentPage - 1) * pagination.itemsPerPage + 1
   const endItem = Math.min(startItem + events.length - 1, pagination.totalItems)
+
+  useEffect(() => {
+    const updatePageNumbers = () => {
+      if (window.innerWidth >= 768) {
+        setMaxPageNumbers(7)
+      } else if (window.innerWidth >= 640) {
+        setMaxPageNumbers(5)
+      } else {
+        setMaxPageNumbers(3)
+      }
+    }
+
+    updatePageNumbers()
+    window.addEventListener('resize', updatePageNumbers)
+    return () => window.removeEventListener('resize', updatePageNumbers)
+  }, [])
 
   const handlePageChange = (page: number) => {
     onPageChange(page)
@@ -90,7 +107,7 @@ export function EventList({
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="flex items-center justify-center space-x-2">
+        <div className="flex items-center justify-between w-full">
           <Button
             variant="outline"
             size="sm"
@@ -102,18 +119,18 @@ export function EventList({
           </Button>
           
           <div className="flex items-center space-x-1">
-            {/* Show page numbers */}
-            {Array.from({ length: Math.min(totalPages, 5) }, (_, i) => {
+            {/* Show page numbers - responsive count */}
+            {Array.from({ length: Math.min(totalPages, maxPageNumbers) }, (_, i) => {
               let pageNum: number
               
-              if (totalPages <= 5) {
+              if (totalPages <= maxPageNumbers) {
                 pageNum = i + 1
-              } else if (pagination.currentPage <= 3) {
+              } else if (pagination.currentPage <= Math.floor(maxPageNumbers / 2) + 1) {
                 pageNum = i + 1
-              } else if (pagination.currentPage >= totalPages - 2) {
-                pageNum = totalPages - 4 + i
+              } else if (pagination.currentPage >= totalPages - Math.floor(maxPageNumbers / 2)) {
+                pageNum = totalPages - maxPageNumbers + 1 + i
               } else {
-                pageNum = pagination.currentPage - 2 + i
+                pageNum = pagination.currentPage - Math.floor(maxPageNumbers / 2) + i
               }
               
               return (
