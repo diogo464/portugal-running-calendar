@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation"
 import { SavedEventsPage } from "@/components/SavedEventsPage"
 import { useEvents } from "@/hooks/useEvents"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
+import { PageLayout } from "@/components/PageLayout"
 
 export default function Saved() {
   const router = useRouter()
@@ -15,12 +16,14 @@ export default function Saved() {
   }
 
   return (
-    <SavedEventsPage
-      savedEvents={getSavedEvents(events)}
-      savedEventIds={savedEventIds}
-      onToggleSave={toggleSave}
-      onBack={handleBack}
-      onClearAll={clearAll}
-    />
+    <PageLayout savedEventIds={savedEventIds}>
+      <SavedEventsPage
+        savedEvents={getSavedEvents(events)}
+        savedEventIds={savedEventIds}
+        onToggleSave={toggleSave}
+        onBack={handleBack}
+        onClearAll={clearAll}
+      />
+    </PageLayout>
   )
 }
