@@ -64,10 +64,12 @@ export function EventList({
   return (
     <div className="space-y-6">
       {/* Top pagination */}
-      <Pagination pagination={pagination} onPageChange={handlePageChange} />
+      <div ref={scrollTargetRef}>
+        <Pagination pagination={pagination} onPageChange={handlePageChange} />
+      </div>
 
       {/* Results info */}
-      <div ref={scrollTargetRef} className="flex justify-between items-center text-sm text-muted-foreground">
+      <div className="flex justify-between items-center text-sm text-muted-foreground">
         <span>
           A mostrar {startItem}-{endItem} de {pagination.totalItems} eventos
         </span>
