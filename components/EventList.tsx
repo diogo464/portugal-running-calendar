@@ -11,7 +11,6 @@ interface EventListProps {
   pagination: PaginationState
   savedEventIds: Set<number>
   onToggleSave: (eventId: number) => void
-  onEventClick: (event: Event) => void
   onPageChange: (page: number) => void
 }
 
@@ -21,7 +20,6 @@ export function EventList({
   pagination,
   savedEventIds,
   onToggleSave,
-  onEventClick,
   onPageChange
 }: EventListProps) {
   const totalPages = getTotalPages(pagination.totalItems, pagination.itemsPerPage)
@@ -79,7 +77,6 @@ export function EventList({
             event={event}
             isSaved={savedEventIds.has(event.id)}
             onToggleSave={onToggleSave}
-            onEventClick={onEventClick}
           />
         ))}
       </div>

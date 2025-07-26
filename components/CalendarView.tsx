@@ -1,9 +1,8 @@
 "use client"
 
 import { useState, useEffect, useMemo } from "react"
-import { useRouter } from "next/navigation"
 import { Event, EventFilters, PaginationState } from "@/lib/types"
-import { filterEvents, getEventUrl } from "@/lib/utils"
+import { filterEvents } from "@/lib/utils"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
@@ -16,7 +15,6 @@ interface CalendarViewProps {
 }
 
 export function CalendarView({ initialEvents }: CalendarViewProps) {
-  const router = useRouter()
   const { savedEventIds, toggleSave } = useSavedEvents()
   const { getFilters, setFilters } = useFilterContext()
   
@@ -67,10 +65,6 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
     setPagination(prev => ({ ...prev, currentPage: page }))
   }
 
-  const handleEventClick = (event: Event) => {
-    router.push(getEventUrl(event))
-  }
-
 
   return (
     <PageLayout savedEventIds={savedEventIds}>
@@ -107,7 +101,6 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
                 pagination={pagination}
                 savedEventIds={savedEventIds}
                 onToggleSave={toggleSave}
-                onEventClick={handleEventClick}
                 onPageChange={handlePageChange}
               />
             </div>

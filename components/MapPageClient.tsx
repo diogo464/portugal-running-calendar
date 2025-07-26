@@ -1,10 +1,8 @@
 'use client'
 
 import { useState, useMemo, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
 import { Event, PaginationState } from '@/lib/types'
 import { District } from '@/lib/district-types'
-import { getEventUrl } from '@/lib/utils'
 import { useFilterContext } from '@/hooks/useFilterContext'
 import { DistrictMap } from '@/components/DistrictMap'
 import { MapFilters } from '@/components/MapFilters'
@@ -36,7 +34,6 @@ export function MapPageClient({ initialEvents, districts }: MapPageClientProps) 
   // Use server-rendered districts
   const { isMobile } = useBreakpoint()
   const { savedEventIds, toggleSave } = useSavedEvents()
-  const router = useRouter()
 
   const [pagination, setPagination] = useState<PaginationState>({
     currentPage: 1,
@@ -63,10 +60,6 @@ export function MapPageClient({ initialEvents, districts }: MapPageClientProps) 
 
   const handleFiltersChange = (newFilters: typeof filters) => {
     setFilters('mapa', newFilters)
-  }
-
-  const handleEventClick = (event: Event) => {
-    router.push(getEventUrl(event))
   }
 
   // Filter events based on current filters
@@ -159,7 +152,6 @@ export function MapPageClient({ initialEvents, districts }: MapPageClientProps) 
               pagination={pagination}
               savedEventIds={savedEventIds}
               onToggleSave={toggleSave}
-              onEventClick={handleEventClick}
               onPageChange={handlePageChange}
             />
           </div>
@@ -202,7 +194,6 @@ export function MapPageClient({ initialEvents, districts }: MapPageClientProps) 
               pagination={pagination}
               savedEventIds={savedEventIds}
               onToggleSave={toggleSave}
-              onEventClick={handleEventClick}
               onPageChange={handlePageChange}
             />
           </div>

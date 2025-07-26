@@ -1,9 +1,8 @@
 "use client"
 
 import { useState, useEffect, useMemo } from "react"
-import { useRouter } from "next/navigation"
 import { Event, EventFilters, PaginationState } from "@/lib/types"
-import { filterEvents, getEventUrl } from "@/lib/utils"
+import { filterEvents } from "@/lib/utils"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { useFilterContext } from "@/hooks/useFilterContext"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
@@ -16,7 +15,6 @@ interface HomepageClientProps {
 }
 
 export function HomepageClient({ initialEvents }: HomepageClientProps) {
-  const router = useRouter()
   const { savedEventIds, toggleSave } = useSavedEvents()
   const { getFilters, setFilters } = useFilterContext()
 
@@ -62,10 +60,6 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
     setPagination(prev => ({ ...prev, currentPage: page }))
   }
 
-  const handleEventClick = (event: Event) => {
-    router.push(getEventUrl(event))
-  }
-
   return (
     <PageLayout savedEventIds={savedEventIds}>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6">
@@ -88,7 +82,6 @@ export function HomepageClient({ initialEvents }: HomepageClientProps) {
             pagination={pagination}
             savedEventIds={savedEventIds}
             onToggleSave={toggleSave}
-            onEventClick={handleEventClick}
             onPageChange={handlePageChange}
           />
         </div>

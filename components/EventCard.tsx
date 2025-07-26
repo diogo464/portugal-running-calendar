@@ -1,6 +1,7 @@
 import { Heart, ExternalLink, MapPin, Calendar, Ruler } from "lucide-react"
+import Link from "next/link"
 import { Event, EventCategoryToDisplayName } from "@/lib/types"
-import { formatDateRange, cn } from "@/lib/utils"
+import { formatDateRange, cn, getEventUrl } from "@/lib/utils"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -8,17 +9,12 @@ interface EventCardProps {
   event: Event
   isSaved: boolean
   onToggleSave: (eventId: number) => void
-  onEventClick: (event: Event) => void
 }
 
-export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventCardProps) {
+export function EventCard({ event, isSaved, onToggleSave }: EventCardProps) {
   const handleSaveClick = (e: React.MouseEvent) => {
     e.stopPropagation()
     onToggleSave(event.id)
-  }
-
-  const handleCardClick = () => {
-    onEventClick(event)
   }
 
   const hasRegistrationLink = Boolean(event.page)
@@ -29,10 +25,8 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
   const location = event.locality || event.location || "Localização não disponível"
 
   return (
-    <Card
-      className="cursor-pointer transition-shadow hover:shadow-md flex flex-col h-full"
-      onClick={handleCardClick}
-    >
+    <Link href={getEventUrl(event)} className="block h-full">
+      <Card className="cursor-pointer transition-shadow hover:shadow-md flex flex-col h-full">
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between gap-2">
           <CardTitle className="text-lg line-clamp-2">{event.name}</CardTitle>
@@ -95,6 +89,7 @@ export function EventCard({ event, isSaved, onToggleSave, onEventClick }: EventC
           {hasRegistrationLink ? "Inscrever-se" : "Não disponível"}
         </Button>
       </CardFooter>
-    </Card>
+      </Card>
+    </Link>
   )
 }
