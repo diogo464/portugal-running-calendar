@@ -1,25 +1,22 @@
 "use client"
 
 import { useState, useEffect, useMemo } from "react"
-import { Event, EventFilters, PaginationState } from "@/lib/types"
+import { EventFilters, PaginationState } from "@/lib/types"
 import { filterEvents } from "@/lib/utils"
 import { useSavedEvents } from "@/hooks/useSavedEvents"
 import { useFilterContext } from "@/hooks/useFilterContext"
+import { useEvents } from "@/hooks/useEvents"
 import { EventFilters as EventFiltersComponent } from "@/components/EventFilters"
 import { EventList } from "@/components/EventList"
 import { PageLayout } from "@/components/PageLayout"
 import { YearlyCalendar } from "@/components/YearlyCalendar"
 
-interface CalendarViewProps {
-  initialEvents: Event[]
-}
-
-export function CalendarView({ initialEvents }: CalendarViewProps) {
+export function CalendarView() {
   const { savedEventIds, toggleSave } = useSavedEvents()
   const { getFilters, setFilters } = useFilterContext()
   
-  // Use server-rendered events
-  const events = initialEvents
+  // Use client-side events
+  const { events, loading } = useEvents()
   
   // Get filters from context
   const filters = getFilters('calendario') as EventFilters
@@ -41,15 +38,15 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
     return filterEvents(events, filters)
   }, [events, filters])
 
+  // Update pagination total when filtered events change
+  useEffect(() => {
+    setPagination(prev => ({ ...prev, totalItems: filteredEvents.length }))
+  }, [filteredEvents.length])
+
   // Paginate filtered events
   const paginatedEvents = useMemo(() => {
-    const totalItems = filteredEvents.length
     const startIndex = (pagination.currentPage - 1) * pagination.itemsPerPage
-    const currentPageEvents = filteredEvents.slice(startIndex, startIndex + pagination.itemsPerPage)
-    
-    setPagination(prev => ({ ...prev, totalItems }))
-    
-    return currentPageEvents
+    return filteredEvents.slice(startIndex, startIndex + pagination.itemsPerPage)
   }, [filteredEvents, pagination.currentPage, pagination.itemsPerPage])
 
   // Reset to first page when filters change
@@ -97,7 +94,7 @@ export function CalendarView({ initialEvents }: CalendarViewProps) {
               </h2>
               <EventList
                 events={paginatedEvents}
-                loading={false}
+                loading={loading}
                 pagination={pagination}
                 savedEventIds={savedEventIds}
                 onToggleSave={toggleSave}
