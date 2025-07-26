@@ -72,22 +72,36 @@ export function EventCard({ event, isSaved, onToggleSave }: EventCardProps) {
       </CardContent>
 
       <CardFooter className="pt-3">
-        <Button
-          variant={hasRegistrationLink ? "default" : "secondary"}
-          size="sm"
-          className="w-full"
-          disabled={!hasRegistrationLink}
-          onClick={(e) => {
-            e.stopPropagation()
-            if (hasRegistrationLink) {
-              window.open(event.page!, '_blank', 'noopener,noreferrer')
-            }
-          }}
-          title={hasRegistrationLink ? "Abrir página de inscrição" : "Página de inscrição não disponível"}
-        >
-          <ExternalLink className="h-4 w-4 mr-2" />
-          {hasRegistrationLink ? "Inscrever-se" : "Não disponível"}
-        </Button>
+        {hasRegistrationLink ? (
+          <Link 
+            href={event.page!} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Button
+              variant="default"
+              size="sm"
+              className="w-full"
+              title="Abrir página de inscrição"
+            >
+              <ExternalLink className="h-4 w-4 mr-2" />
+              Inscrever-se
+            </Button>
+          </Link>
+        ) : (
+          <Button
+            variant="secondary"
+            size="sm"
+            className="w-full"
+            disabled
+            title="Página de inscrição não disponível"
+          >
+            <ExternalLink className="h-4 w-4 mr-2" />
+            Não disponível
+          </Button>
+        )}
       </CardFooter>
       </Card>
     </Link>
