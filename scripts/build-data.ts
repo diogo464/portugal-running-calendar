@@ -187,7 +187,34 @@ async function buildData() {
 
   // Process all events
   console.log('Processing events...')
-  const events = await processAllEvents()
+  const allEvents = await processAllEvents()
+
+  // Deduplicate events by ID, keeping the one with the most recent lastmod
+  console.log('Deduplicating events by ID...')
+  const eventMap = new Map<number, Event>()
+  let duplicatesFound = 0
+
+  for (const event of allEvents) {
+    const existing = eventMap.get(event.id)
+    if (existing) {
+      duplicatesFound++
+      // Keep the event with the most recent lastmod
+      if (event.lastmod > existing.lastmod) {
+        console.log(`  ⚠ Duplicate ID ${event.id}: keeping "${event.slug}" (${event.lastmod}) over "${existing.slug}" (${existing.lastmod})`)
+        eventMap.set(event.id, event)
+      } else {
+        console.log(`  ⚠ Duplicate ID ${event.id}: keeping "${existing.slug}" (${existing.lastmod}) over "${event.slug}" (${event.lastmod})`)
+      }
+    } else {
+      eventMap.set(event.id, event)
+    }
+  }
+
+  const events = Array.from(eventMap.values())
+  
+  if (duplicatesFound > 0) {
+    console.log(`✓ Removed ${duplicatesFound} duplicate events, ${events.length} events remaining`)
+  }
 
   // Write individual event files
   console.log('Writing individual event files...')
