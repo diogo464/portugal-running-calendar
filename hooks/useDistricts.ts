@@ -1,5 +1,8 @@
-import { useState, useEffect } from 'react'
 import { District, validateDistrictsFile } from '@/lib/district-types'
+import { useDataFetcher, createDataCache } from './useDataFetcher'
+
+// Module-level cache for districts
+const districtsCache = createDataCache<District[]>()
 
 interface UseDistrictsReturn {
   districts: District[]
@@ -8,38 +11,19 @@ interface UseDistrictsReturn {
 }
 
 export function useDistricts(): UseDistrictsReturn {
-  const [districts, setDistricts] = useState<District[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
+  const { data, loading, error } = useDataFetcher(
+    '/districts.json',
+    (rawData) => {
+      const districtsData = validateDistrictsFile(rawData)
+      // Convert the object to an array of districts
+      return Object.values(districtsData)
+    },
+    districtsCache
+  )
 
-  useEffect(() => {
-    const loadDistricts = async () => {
-      try {
-        setLoading(true)
-        setError(null)
-        
-        const response = await fetch('/districts.json')
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`)
-        }
-        
-        const rawData = await response.json()
-        const districtsData = validateDistrictsFile(rawData)
-        
-        // Convert the object to an array of districts
-        const districtsArray = Object.values(districtsData)
-        setDistricts(districtsArray)
-      } catch (err) {
-        const errorMessage = err instanceof Error ? err.message : 'Failed to load districts'
-        setError(errorMessage)
-        console.error('Failed to load districts:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadDistricts()
-  }, [])
-
-  return { districts, loading, error }
+  return { 
+    districts: data || [], 
+    loading, 
+    error 
+  }
 }
