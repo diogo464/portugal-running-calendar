@@ -1,4 +1,26 @@
+const buildTimestamp = process.env.NEXT_PUBLIC_BUILD_TIMESTAMP
+
+function formatBuildTimestamp(value?: string) {
+  if (!value) {
+    return null
+  }
+
+  const date = new Date(value)
+
+  if (Number.isNaN(date.getTime())) {
+    return value
+  }
+
+  return new Intl.DateTimeFormat('pt-PT', {
+    dateStyle: 'long',
+    timeStyle: 'short',
+    timeZone: 'Europe/Lisbon',
+  }).format(date)
+}
+
 export function Footer() {
+  const formattedBuildTimestamp = formatBuildTimestamp(buildTimestamp)
+
   return (
     <footer className="border-t bg-background py-6 mt-8">
       <div className="container mx-auto px-4">
@@ -23,6 +45,7 @@ export function Footer() {
               inbox@portugalruncalendar.com
             </a>
           </p>
+          {formattedBuildTimestamp && <p>Site gerado em {formattedBuildTimestamp}</p>}
         </div>
       </div>
     </footer>

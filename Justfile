@@ -19,7 +19,7 @@ lint:
 
 build-static:
     npm run build:data
-    npm run build
+    NEXT_PUBLIC_BUILD_TIMESTAMP="$(date -Iseconds)" npm run build
     rm -rf cloudflare/public/
     mkdir -p cloudflare/public/
     cp -r out/* cloudflare/public/
@@ -30,6 +30,7 @@ build:
     image="cr.d464.sh/portugal-running-calendar"
     date_tag="$(date +%F)"
     datetime_tag="$(date +%F-%H%M%S)"
+    export NEXT_PUBLIC_BUILD_TIMESTAMP="$(date -Iseconds)"
 
     npm run build
     docker build -f Containerfile \

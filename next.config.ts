@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
       (process.env.NODE_ENV === 'development' 
         ? 'http://localhost:5173' 
         : 'https://portugalruncalendar.com'),
+    NEXT_PUBLIC_BUILD_TIMESTAMP: process.env.NEXT_PUBLIC_BUILD_TIMESTAMP || new Date().toISOString(),
     SITE_NAME: process.env.SITE_NAME || 'Portugal Run Calendar',
   },
   // Enable experimental features for better SSR support
