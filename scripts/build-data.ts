@@ -234,7 +234,14 @@ async function buildData() {
   }
 
   const events = Array.from(eventMap.values())
-  
+  events.sort((a, b) => {
+    const a_date = Date.parse(a.date)
+    const b_date = Date.parse(b.date);
+    if (a_date < b_date)
+      return -1;
+    return 1;
+  });
+
   if (duplicatesFound > 0) {
     console.log(`✓ Removed ${duplicatesFound} duplicate events, ${events.length} events remaining`)
   }
