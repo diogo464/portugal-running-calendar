@@ -17,14 +17,31 @@ tail:
 lint:
     npm run lint
 
-build:
+build-static:
     npm run build:data
     npm run build
     rm -rf cloudflare/public/
     mkdir -p cloudflare/public/
     cp -r out/* cloudflare/public/
 
-deploy: build
+build:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    image="cr.d464.sh/portugal-running-calendar"
+    date_tag="$(date +%F)"
+    datetime_tag="$(date +%F-%H%M%S)"
+
+    npm run build
+    docker build -f Containerfile \
+        -t "${image}:latest" \
+        -t "${image}:${date_tag}" \
+        -t "${image}:${datetime_tag}" \
+        .
+    docker push "${image}:latest"
+    docker push "${image}:${date_tag}"
+    docker push "${image}:${datetime_tag}"
+
+deploy: build-static
     cd cloudflare && npm run deploy
 
 ci:
