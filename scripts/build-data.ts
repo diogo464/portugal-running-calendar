@@ -67,7 +67,7 @@ async function processAllEvents(): Promise<Event[]> {
   await mkdir(imageOutputDir, { recursive: true });
 
   const events: Event[] = []
-  
+
   for (const eventDirName of eventDirs) {
     const eventDir = join(eventsDir, eventDirName);
     console.log(`Processing event: ${eventDirName}`);
@@ -168,7 +168,7 @@ async function processAllEvents(): Promise<Event[]> {
       district_code: (location && location['district_code']),
       page: eventUrl,
     });
-    
+
     events.push(event)
   }
 
@@ -198,30 +198,30 @@ async function buildData() {
     const existing = eventMap.get(event.id)
     if (existing) {
       duplicatesFound++
-      
+
       // Check if both slugs end with a 4-digit year
       const eventYearMatch = event.slug.match(/-(\d{4})$/)
       const existingYearMatch = existing.slug.match(/-(\d{4})$/)
-      
+
       let shouldKeepEvent = false
       let reason = ''
-      
+
       if (eventYearMatch && existingYearMatch) {
         // Both have years, compare them
         const eventYear = parseInt(eventYearMatch[1])
         const existingYear = parseInt(existingYearMatch[1])
         shouldKeepEvent = eventYear > existingYear
-        reason = shouldKeepEvent 
-          ? `year ${eventYear} > ${existingYear}` 
+        reason = shouldKeepEvent
+          ? `year ${eventYear} > ${existingYear}`
           : `year ${existingYear} >= ${eventYear}`
       } else {
         // Use lastmod comparison
         shouldKeepEvent = event.lastmod > existing.lastmod
-        reason = shouldKeepEvent 
-          ? `lastmod ${event.lastmod} > ${existing.lastmod}` 
+        reason = shouldKeepEvent
+          ? `lastmod ${event.lastmod} > ${existing.lastmod}`
           : `lastmod ${existing.lastmod} >= ${event.lastmod}`
       }
-      
+
       if (shouldKeepEvent) {
         console.log(`  ⚠ Duplicate ID ${event.id}: keeping "${event.slug}" over "${existing.slug}" (${reason})`)
         eventMap.set(event.id, event)
