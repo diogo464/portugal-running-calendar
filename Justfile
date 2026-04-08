@@ -46,4 +46,4 @@ build: update-data build-static build-image
     git push
 
 ci: build
-    podman run -itd --restart=always -p 42157:80 --pull=always --name portugal-running-calendar --replace cr.d464.sh/portugal-running-calendar:latest
+    ssh prod podman run -itd --restart=always -p 42157:80 --pull=always --name portugal-running-calendar --replace cr.d464.sh/portugal-running-calendar:latest
