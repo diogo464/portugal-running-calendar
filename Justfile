@@ -38,7 +38,7 @@ build-image:
     docker push "${image}:${datetime_tag}"
 
 update-data:
-    cd portugal-running-data && git pull
+    cd portugal-running-data && git pull origin main
     git add portugal-running-data
     git commit -m "updated portugal-running-data submodule" || true
 
