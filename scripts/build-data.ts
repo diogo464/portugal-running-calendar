@@ -58,6 +58,24 @@ async function processImage(imagePath: string, outputDir: string): Promise<strin
   }
 }
 
+function parseEventDate(rawDate: string): string {
+  const dateValue = rawDate.trim();
+
+  // Event date files represent calendar dates; keep the date portion as-is.
+  const isoDateMatch = dateValue.match(/^(\d{4}-\d{2}-\d{2})(?:$|T|\s)/);
+  if (isoDateMatch) {
+    return isoDateMatch[1];
+  }
+
+  const parsedDate = new Date(dateValue);
+  assert(!Number.isNaN(parsedDate.getTime()), `invalid event date: ${rawDate}`);
+
+  const year = parsedDate.getUTCFullYear();
+  const month = String(parsedDate.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(parsedDate.getUTCDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
 async function processAllEvents(): Promise<Event[]> {
   const eventsDir = join(getPortugalRunningDataDir(), "events");
   const eventDirs = await readdir(eventsDir);
@@ -131,7 +149,7 @@ async function processAllEvents(): Promise<Event[]> {
     const categories = categoriesLines.map(c => EventCategoryFromString(c));
     const circuits = circuitsLines.map(c => EventCircuitFromString(c));
     const data = JSON.parse(dataContent);
-    const date = new Date(dateContent);
+    const date = parseEventDate(dateContent);
     const id = parseInt(idContent);
     const lastmod = new Date(lastmodContent);
     const slug = slugContent;
@@ -160,7 +178,7 @@ async function processAllEvents(): Promise<Event[]> {
       locality: (location && location['locality']),
       categories: categories,
       images: images,
-      date: date.toISOString().split('T')[0],
+      date: date,
       lastmod: lastmod.toISOString(),
       circuits: circuits,
       description: data['content']['rendered'],
