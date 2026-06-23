@@ -13,6 +13,7 @@ interface EventCardProps {
 
 export function EventCard({ event, isSaved, onToggleSave }: EventCardProps) {
   const handleSaveClick = (e: React.MouseEvent) => {
+    e.preventDefault()
     e.stopPropagation()
     onToggleSave(event.id)
   }
