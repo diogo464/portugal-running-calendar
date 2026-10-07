@@ -10,9 +10,10 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_BUILD_TIMESTAMP: process.env.NEXT_PUBLIC_BUILD_TIMESTAMP || new Date().toISOString(),
     SITE_NAME: process.env.SITE_NAME || 'Portugal Run Calendar',
   },
-  // Enable experimental features for better SSR support
   experimental: {
-    // Add any stable experimental features here
+    // Limit build workers and concurrent pages to keep static exports within memory limits.
+    cpus: 2,
+    staticGenerationMaxConcurrency: 1,
   },
   
   // Enable image optimization for better performance
